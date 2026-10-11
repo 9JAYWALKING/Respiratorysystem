@@ -3,9 +3,13 @@ const lectureStudyStates = new Map();
 function scrollLectureStudyQuestion(pane) {
   if (!pane) return;
   pane.scrollTop = 0;
-  if (window.matchMedia('(max-width: 900px)').matches && !pane.closest('.lecture-workspace')?.dataset.expanded) {
-    pane.closest('.lecture-pane')?.scrollIntoView({block:'start', behavior:'auto'});
-  }
+  if (pane.closest('.lecture-workspace')?.dataset.expanded || document.body.classList.contains('context-link-open')) return;
+  document.dispatchEvent(new CustomEvent('lecture-question-navigation'));
+  const box = pane.closest('.lecture-pane');
+  if (!box) return;
+  const headerBottom = document.querySelector('.masthead')?.getBoundingClientRect().bottom || 0;
+  const top = window.scrollY + box.getBoundingClientRect().top - headerBottom;
+  window.scrollTo({top:Math.max(0,top),behavior:'auto'});
 }
 function lectureStudyState(course) {
   const id = Number(course.id);
@@ -130,10 +134,82 @@ function resetLectureStudyExpansion() {
     workspace.querySelectorAll('[data-lecture-pane]').forEach(section => { section.inert = false; section.removeAttribute('aria-hidden'); });
   }
 }
+function bindLectureTabSwipe(bar, course) {
+  bar._lectureSwipeCleanup?.();
+  let start = null, suppressClickUntil = 0;
+  let previewPane = null;
+  const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const resetPreview = () => {
+    if (previewPane) { previewPane.style.removeProperty('transform');previewPane.style.removeProperty('filter'); }
+    previewPane = null;
+  };
+  const down = event => {
+    if (event.isPrimary === false) { start = null; resetPreview(); return; }
+    if ((event.button != null && event.button !== 0) || event.target.closest('input,select,textarea')) return;
+    start = {id:event.pointerId,x:event.clientX,y:event.clientY,horizontal:false};
+    resetPreview();
+  };
+  const move = event => {
+    if (!start || event.pointerId !== start.id) return;
+    const dx = Math.abs(event.clientX-start.x), dy = Math.abs(event.clientY-start.y);
+    if (!start.horizontal && dy > 10 && dy >= dx) { start = null; return; }
+    if (dx > 12 && dx > dy*1.5) {
+      start.horizontal = true;
+      if (!reducedMotion()) {
+        previewPane = document.querySelector('.lecture-pane:not([hidden])');
+        if (previewPane) {
+          previewPane.getAnimations?.().forEach(animation => animation.cancel());
+          previewPane.style.transform = `translateX(${Math.max(-18,Math.min(18,(event.clientX-start.x)*.15))}px)`;
+          previewPane.style.filter = `blur(${Math.min(1.4,dx/70)}px)`;
+        }
+      }
+      bar.setPointerCapture?.(event.pointerId);
+      if (event.cancelable) event.preventDefault();
+    }
+  };
+  const up = event => {
+    if (!start || event.pointerId !== start.id) return;
+    const gesture = start; start = null;
+    resetPreview();
+    const dx = Math.abs(event.clientX-gesture.x), dy = Math.abs(event.clientY-gesture.y);
+    if (gesture.horizontal || dx > 12) suppressClickUntil = Date.now()+500;
+    if (bar.hasPointerCapture?.(event.pointerId)) bar.releasePointerCapture(event.pointerId);
+    if (dx < 44 || dx <= dy*1.5) return;
+    const state = lectureStudyState(course);
+    setLectureStudyView(course,(state.expanded || state.view) === 'wiki' ? 'j' : 'wiki');
+    if (!reducedMotion()) {
+      const pane = document.querySelector('.lecture-pane:not([hidden])');
+      pane?.getAnimations?.().forEach(animation => animation.cancel());
+      pane?.animate?.([
+        {transform:`translateX(${event.clientX < gesture.x ? 18 : -18}px)`,filter:'blur(1.4px)',opacity:.65},
+        {transform:'translateX(0)',filter:'blur(0)',opacity:1}
+      ],{duration:240,easing:'cubic-bezier(.2,.75,.25,1)'});
+    }
+  };
+  const cancel = () => { start = null; resetPreview(); };
+  const click = event => {
+    if (Date.now() < suppressClickUntil && event.detail !== 0) {
+      event.preventDefault();event.stopImmediatePropagation();
+    }
+  };
+  bar.addEventListener('pointerdown',down);
+  bar.addEventListener('pointermove',move);
+  bar.addEventListener('pointerup',up);
+  bar.addEventListener('pointercancel',cancel);
+  bar.addEventListener('lostpointercapture',cancel);
+  bar.addEventListener('click',click,true);
+  bar._lectureSwipeCleanup = () => {
+    cancel();
+    bar.removeEventListener('pointerdown',down);bar.removeEventListener('pointermove',move);
+    bar.removeEventListener('pointerup',up);bar.removeEventListener('pointercancel',cancel);
+    bar.removeEventListener('lostpointercapture',cancel);bar.removeEventListener('click',click,true);
+  };
+}
 function renderLectureStudy(course, target) {
   const bar = document.querySelector('#detail-view .detail-topline');
   bar?.querySelector('.lecture-view-tabs')?.remove();
   if (bar) {
+    bindLectureTabSwipe(bar,course);
     const tabs = document.createElement('div');
     tabs.className = 'lecture-view-tabs';
     tabs.setAttribute('role','group');
@@ -175,21 +251,8 @@ function handleLectureStudyLink(link, target) {
   const course = byId(Number(workspace.dataset.lectureCourse));
   if (!course) return false;
   if (target.type === 'j') {
-    const chapter = lectureStudyChapters(course).find(item =>
-      item.slug === link.dataset.studyChapter && item.numbers.includes(target.questionNumber)
-    ) || lectureStudyChapters(course).find(item => item.numbers.includes(target.questionNumber));
-    const question = jblQuestions.find(item => Number(item.globalNumber) === target.questionNumber);
-    if (!question || (!chapter && !questionBelongsToCourse(question,course.id))) return false;
-    lectureStudyState(course).chapter = chapter?.slug || '';
-    const questions = lectureStudyQuestions(course);
-    viewerState('course-' + course.id).index = questions.findIndex(item => Number(item.globalNumber) === target.questionNumber);
-    setLectureStudyView(course,'j');
-    renderCourseJ(course);
-    const pane = workspace.querySelector('[data-course-j-host]');
-    scrollLectureStudyQuestion(pane);
-    const heading = pane.querySelector('.jbl-title');
-    if (heading) { heading.setAttribute('tabindex','-1'); heading.focus({preventScroll:true}); }
-    return true;
+    // Preserve the Wiki and let the shared split viewer use its document sequence.
+    return false;
   }
   if (target.type === 'wiki' && target.courseId === Number(course.id)) {
     setLectureStudyView(course,'wiki');

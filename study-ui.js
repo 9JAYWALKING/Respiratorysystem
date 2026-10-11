@@ -33,6 +33,38 @@
   tools.setAttribute('aria-haspopup','dialog');tools.setAttribute('aria-controls','study-control-center');tools.setAttribute('aria-expanded','false');
   actions.prepend(search);actions.append(tools);
   const dialog=document.createElement('dialog');dialog.id='study-control-center';dialog.setAttribute('aria-label','도구');document.body.append(dialog);
+  const recall=document.createElement('button');
+  recall.type='button';recall.className='study-lecture-recall';recall.hidden=true;
+  recall.setAttribute('aria-label','강의 제목 바 펼치기');recall.setAttribute('aria-expanded','false');
+  recall.innerHTML='<span aria-hidden="true"></span>';document.body.append(recall);
+  let recalledBar=null,barPlaceholder=null;
+  function closeRecalledBar() {
+    recalledBar?.classList.remove('is-recalled');
+    barPlaceholder?.remove();barPlaceholder=null;recalledBar=null;
+    recall.setAttribute('aria-expanded','false');recall.setAttribute('aria-label','강의 제목 바 펼치기');
+  }
+  function syncLectureRecall() {
+    const bar=document.querySelector('#detail-view:not([hidden]) .detail-bar');
+    if(!bar || (recalledBar && recalledBar!==bar))closeRecalledBar();
+    if(!bar){recall.hidden=true;return;}
+    const edge=shell.getBoundingClientRect().bottom;
+    const rect=(barPlaceholder||bar).getBoundingClientRect();
+    const outside=rect.bottom<=edge+1;
+    if(!outside && recalledBar)closeRecalledBar();
+    recall.hidden=!outside;
+  }
+  recall.addEventListener('click',()=>{
+    if(recalledBar){closeRecalledBar();syncLectureRecall();return;}
+    const bar=document.querySelector('#detail-view:not([hidden]) .detail-bar');if(!bar)return;
+    barPlaceholder=document.createElement('div');barPlaceholder.className='study-lecture-placeholder';
+    const rect=bar.getBoundingClientRect();barPlaceholder.style.height=rect.height+'px';
+    bar.before(barPlaceholder);recalledBar=bar;bar.classList.add('is-recalled');
+    recall.setAttribute('aria-expanded','true');recall.setAttribute('aria-label','강의 제목 바 접기');
+  });
+  document.addEventListener('scroll',syncLectureRecall,{passive:true,capture:true});
+  document.addEventListener('lecture-question-navigation',()=>{closeRecalledBar();syncLectureRecall();});
+  window.addEventListener('resize',syncLectureRecall);
+  new MutationObserver(syncLectureRecall).observe(document.querySelector('main'),{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
   const minScale=.5, maxScale=1.5;
   let returnFocus=null, sourceScroll=0, scale=1;
   let closeTimer=null, motionVersion=0, travel=120;
@@ -101,12 +133,19 @@
       return `<button type="button" class="study-filter-icon" data-center-status="${key}" aria-label="${label}" title="${label}" aria-pressed="${Boolean(selected)}">${svg(key)}</button>`;
     }).join('');
     const options=(items,selected,label)=>'<option value="">'+label+'</option>'+items.map(([value,text])=>`<option value="${escape(value)}" ${String(selected)===String(value)?'selected':''}>${escape(text)}</option>`).join('');
+    const chapterFilter=questionFilters?.course ? `<div class="study-center-filters"><label>세부 분류<select data-center-chapter aria-label="관련 문항 범위">${options(questionFilters.chapters.map(item=>[item.slug,item.heading+' · '+item.count]),questionFilters.chapter,'전체 문항 · '+questionFilters.total)}</select></label></div>` : '';
     dialog.innerHTML=`<button class="study-center-grip" type="button" aria-label="도구 닫기 · 위로 쓸어올리기"></button>
       <div class="study-center-controls"><div class="study-center-theme"><button type="button" class="theme-button" data-theme-toggle></button><span>화면 모드</span></div><div class="study-font-control" aria-label="글자 크기"><button type="button" data-scale-minus aria-label="글자 작게">A−</button><output>${Math.round(scale*100)}%</output><button type="button" data-scale-plus aria-label="글자 크게">A＋</button></div></div>
       ${questionFilters ? `<section class="study-center-section"><h3>문항 필터</h3>${isJ ? `<div class="study-center-filters"><label>연도<select data-center-filter="year">${options(state.years.map(y=>[y,y]),state.filters.year,'전체 연도')}</select></label><label>강의<select data-center-filter="lectureId">${options(state.courses.map(c=>[c.id,c.id+'강 '+c.title]),state.filters.lectureId,'전체 강의')}</select></label><label>출제교수<select data-center-filter="professor">${options(state.professors.map(p=>[p,p]),state.filters.professor,'전체 교수')}</select></label></div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div><button type="button" class="study-random-toggle" data-center-random aria-pressed="${state.randomEnabled}" aria-label="문항 순서 랜덤 ${state.randomEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('shuffle')}</span><span>문항 순서 랜덤</span></button></section>` : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
+    const statusFilters=dialog.querySelector('.study-status-filters');
+    if(statusFilters && chapterFilter)statusFilters.insertAdjacentHTML('beforebegin',chapterFilter);
+    dialog.querySelector('[data-center-chapter]')?.addEventListener('change',event=>{
+      app.selectQuestionChapter(event.target.value);
+      renderTools();dialog.querySelector('[data-center-chapter]')?.focus();
+    });
     dialog.querySelector('[data-scale-plus]').onclick=()=>setScale(scale+.05);
     dialog.querySelector('[data-center-wiki-toggle]')?.addEventListener('click',()=>{close();app.toggleWiki();});
     dialog.querySelector('[data-center-wiki-edit]')?.addEventListener('click',()=>{close();app.editWiki();});
