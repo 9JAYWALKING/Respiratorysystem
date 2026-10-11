@@ -5,9 +5,21 @@
   const app = window.RespiratoryStudy;
   if (!app) return;
   const shell = document.querySelector('.masthead');
+  const syncHeaderHeight=()=>document.documentElement.style.setProperty('--study-header-height',shell.getBoundingClientRect().height+'px');
+  const headerObserver=new ResizeObserver(syncHeaderHeight);
+  headerObserver.observe(shell);
+  syncHeaderHeight();
   const actions = shell.querySelector('.top-actions');
   document.body.classList.add('study-ui');
   const icons = {
+    collapse:'<path d="M5 12h14"/>',
+    expand:'<path d="M5 12h14M12 5v14"/>',
+    correct:'<circle cx="12" cy="12" r="8"/>',
+    uncertain:'<path d="M12 4 22 21H2Z"/>',
+    wrong:'<path d="m5 5 14 14M19 5 5 19"/>',
+    favorite:'<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"/>',
+    shuffle:'<path d="M3 6h3c5 0 7 12 12 12h3m-4-4 4 4-4 4M3 18h3c5 0 7-12 12-12h3m-4-4 4 4-4 4"/>',
+    edit:'<path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15l-1 6Z"/>',
     search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
     tools:'<path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2" fill="currentColor"/><circle cx="15" cy="12" r="2" fill="currentColor"/><circle cx="8" cy="18" r="2" fill="currentColor"/>'
   };
@@ -20,9 +32,8 @@
   const tools=button('data-study-tools','도구 열기','tools');
   tools.setAttribute('aria-haspopup','dialog');tools.setAttribute('aria-controls','study-control-center');tools.setAttribute('aria-expanded','false');
   actions.prepend(search);actions.append(tools);
-  const context=document.createElement('span');context.dataset.studyContext='';
-  shell.querySelector('.masthead-inner').insertBefore(context,actions);
   const dialog=document.createElement('dialog');dialog.id='study-control-center';dialog.setAttribute('aria-label','도구');document.body.append(dialog);
+  const minScale=.5, maxScale=1.5;
   let returnFocus=null, sourceScroll=0, scale=1;
   let closeTimer=null, motionVersion=0, travel=120;
   const reducedMotion=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -38,21 +49,16 @@
     if(closeTimer!==null){window.clearTimeout(closeTimer);closeTimer=null;}
     dialog.classList.remove('is-closing');
   }
-  try {const stored=Number(localStorage.getItem('respiratory-reading-scale-v1'));if(stored>=.85 && stored<=1.3)scale=stored;} catch(_) {}
+  try {const stored=Number(localStorage.getItem('respiratory-reading-scale-v1'));if(stored>=minScale && stored<=maxScale)scale=stored;} catch(_) {}
   function setScale(value) {
-    scale=Math.round(Math.min(1.3,Math.max(.85,value))*100)/100;
+    scale=Math.round(Math.min(maxScale,Math.max(minScale,value))*100)/100;
     document.documentElement.style.setProperty('--study-text-scale',String(scale));
     try{localStorage.setItem('respiratory-reading-scale-v1',String(scale));}catch(_){}
     dialog.querySelector('output')?.replaceChildren(Math.round(scale*100)+'%');
     const minus=dialog.querySelector('[data-scale-minus]'),plus=dialog.querySelector('[data-scale-plus]');
-    if(minus)minus.disabled=scale<=.85;if(plus)plus.disabled=scale>=1.3;
+    if(minus)minus.disabled=scale<=minScale;if(plus)plus.disabled=scale>=maxScale;
   }
   setScale(scale);
-  function refreshNavigation() {
-    const state=app.context(); const hash=state.hash;
-    const course=state.courses.find(c=>hash==='#lecture-'+c.id);
-    context.textContent=course ? course.id+'강 · '+course.title : hash.startsWith('#bookmarks')?'즐겨찾기':hash==='#jbl-wrong'?'오답 복습':hash.startsWith('#jbl')?'J':hash.startsWith('#schedule')?'시간표':'';
-  }
   function finishClose() {
     stopClosing();
     dialog.removeAttribute('data-preview');
@@ -78,25 +84,47 @@
   function proxy(selector) {close();visibleRoot()?.querySelector(selector)?.click();}
   function renderTools() {
     const state=app.context(),root=visibleRoot(), isJ=state.hash.startsWith('#jbl');
+    const questionFilters=app.questionFilterContext();
+    if(questionFilters){state.filters=questionFilters.filters;state.randomEnabled=questionFilters.randomEnabled;}
     const wiki=app.wikiTools();
-    const proxyActions=[['[data-jbl-edit]','문항 편집'],['[data-personal-action="edit"]','문서 편집']].filter(([sel])=>root?.querySelector(sel));
+    const question=app.questionTools();
+    const documentEdit=root?.querySelector('[data-personal-action="edit"]');
+    const canEditDocument=Boolean(documentEdit && !documentEdit.disabled && !documentEdit.closest('[hidden], [aria-hidden="true"]') && !document.querySelector('.context-link-split'));
+    const editButton=(attr,label)=>`<button type="button" ${attr}><span class="study-edit-icon" aria-hidden="true">${svg('edit')}</span><span>${label}</span></button>`;
+    const editActions=[
+      wiki.editable ? editButton('data-center-wiki-edit','Wiki 편집') : '',
+      question.available ? editButton('data-center-question-edit',question.editing ? '문항 편집 닫기' : '문항 편집') : '',
+      canEditDocument ? editButton('data-center-proxy="[data-personal-action=&quot;edit&quot;]"','문서 편집') : ''
+    ].join('');
+    const filterIcons=[['correct','정답 문항'],['uncertain','보류 문항'],['wrong','오답 문항'],['favorite','즐겨찾기 문항']].map(([key,label])=>{
+      const selected=key==='favorite'?state.filters.favoritesOnly:(state.filters.statuses||[]).includes(key)||(key==='wrong'&&state.filters.wrongOnly);
+      return `<button type="button" class="study-filter-icon" data-center-status="${key}" aria-label="${label}" title="${label}" aria-pressed="${Boolean(selected)}">${svg(key)}</button>`;
+    }).join('');
     const options=(items,selected,label)=>'<option value="">'+label+'</option>'+items.map(([value,text])=>`<option value="${escape(value)}" ${String(selected)===String(value)?'selected':''}>${escape(text)}</option>`).join('');
     dialog.innerHTML=`<button class="study-center-grip" type="button" aria-label="도구 닫기 · 위로 쓸어올리기"></button>
       <div class="study-center-controls"><div class="study-center-theme"><button type="button" class="theme-button" data-theme-toggle></button><span>화면 모드</span></div><div class="study-font-control" aria-label="글자 크기"><button type="button" data-scale-minus aria-label="글자 작게">A−</button><output>${Math.round(scale*100)}%</output><button type="button" data-scale-plus aria-label="글자 크게">A＋</button></div></div>
-      ${isJ ? `<section class="study-center-section"><h3>문항 필터</h3><div class="study-center-filters"><label>연도<select data-center-filter="year">${options(state.years.map(y=>[y,y]),state.filters.year,'전체 연도')}</select></label><label>강의<select data-center-filter="lectureId">${options(state.courses.map(c=>[c.id,c.id+'강 '+c.title]),state.filters.lectureId,'전체 강의')}</select></label><label>출제교수<select data-center-filter="professor">${options(state.professors.map(p=>[p,p]),state.filters.professor,'전체 교수')}</select></label><label><input type="checkbox" data-center-filter="favoritesOnly" ${state.filters.favoritesOnly?'checked':''}>즐겨찾기 문항만</label><label><input type="checkbox" data-center-filter="wrongOnly" ${state.filters.wrongOnly?'checked':''}>오답 문항만</label></div><form class="study-center-jump"><input name="number" inputmode="numeric" aria-label="문항 번호" placeholder="J 번호로 이동"><button type="submit">이동</button></form><div class="study-tool-buttons" style="margin-top:10px"><button type="button" data-center-random>무작위 순서</button></div></section>` : ''}
-      ${wiki.available || wiki.editable || proxyActions.length ? `<section class="study-center-section"><h3>현재 화면</h3><div class="study-tool-buttons">${wiki.available ? `<button type="button" data-center-wiki-toggle aria-pressed="${wiki.collapsed}">${wiki.collapsed ? '모두 펼치기' : '모두 접기'}</button>` : ''}${wiki.editable ? '<button type="button" data-center-wiki-edit>Wiki 편집</button>' : ''}${proxyActions.map(([sel,label])=>`<button type="button" data-center-proxy="${escape(sel)}">${label}</button>`).join('')}</div></section>` : ''}`;
+      ${questionFilters ? `<section class="study-center-section"><h3>문항 필터</h3>${isJ ? `<div class="study-center-filters"><label>연도<select data-center-filter="year">${options(state.years.map(y=>[y,y]),state.filters.year,'전체 연도')}</select></label><label>강의<select data-center-filter="lectureId">${options(state.courses.map(c=>[c.id,c.id+'강 '+c.title]),state.filters.lectureId,'전체 강의')}</select></label><label>출제교수<select data-center-filter="professor">${options(state.professors.map(p=>[p,p]),state.filters.professor,'전체 교수')}</select></label></div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div><button type="button" class="study-random-toggle" data-center-random aria-pressed="${state.randomEnabled}" aria-label="문항 순서 랜덤 ${state.randomEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('shuffle')}</span><span>문항 순서 랜덤</span></button></section>` : ''}
+      ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
+      ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
     dialog.querySelector('[data-scale-plus]').onclick=()=>setScale(scale+.05);
     dialog.querySelector('[data-center-wiki-toggle]')?.addEventListener('click',()=>{close();app.toggleWiki();});
     dialog.querySelector('[data-center-wiki-edit]')?.addEventListener('click',()=>{close();app.editWiki();});
+    dialog.querySelector('[data-center-question-edit]')?.addEventListener('click',()=>{close();app.editQuestion();});
     dialog.querySelectorAll('[data-center-proxy]').forEach(b=>b.onclick=()=>proxy(b.dataset.centerProxy));
     dialog.querySelectorAll('[data-center-filter]').forEach(input=>input.onchange=()=>{
       const value=input.type==='checkbox'?input.checked:input.value;
-      app.filter({[input.dataset.centerFilter]:value});refreshNavigation();
+      app.filter({[input.dataset.centerFilter]:value});
     });
-    const jump=dialog.querySelector('.study-center-jump');
-    if(jump)jump.onsubmit=e=>{e.preventDefault();const value=jump.querySelector('input').value.trim();if(!value)return;close();app.jump(value);refreshNavigation();};
-    dialog.querySelector('[data-center-random]')?.addEventListener('click',()=>{close();app.random();});
+    dialog.querySelectorAll('[data-center-status]').forEach(button=>button.onclick=()=>{
+      const key=button.dataset.centerStatus,filters=app.questionFilterContext().filters;
+      const statuses=new Set(filters.statuses||[]);
+      if(filters.wrongOnly)statuses.add('wrong');
+      if(key!=='favorite'){if(statuses.has(key))statuses.delete(key);else statuses.add(key);}
+      app.filterQuestions({statuses:[...statuses],wrongOnly:false,favoritesOnly:key==='favorite'?!filters.favoritesOnly:filters.favoritesOnly});
+      renderTools();dialog.querySelector(`[data-center-status="${key}"]`)?.focus();
+    });
+    dialog.querySelector('[data-center-random]')?.addEventListener('click',()=>{app.randomQuestions();renderTools();dialog.querySelector('[data-center-random]')?.focus();});
     gesture(dialog.querySelector('.study-center-grip'),-1,dismiss,dismiss);
     window.RespiratoryTheme.syncButtons();setScale(scale);
   }
@@ -176,9 +204,6 @@
   dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const rect=dialog.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)dismiss();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')shell.classList.remove('search-open');});
   document.addEventListener('click',e=>{if(shell.classList.contains('search-open')&&!shell.contains(e.target))shell.classList.remove('search-open');});
-  window.addEventListener('hashchange',()=>{close();refreshNavigation();});window.addEventListener('popstate',()=>{close();refreshNavigation();});
+  window.addEventListener('hashchange',()=>close());window.addEventListener('popstate',()=>close());
   window.addEventListener('resize',()=>{if(dialog.open)positionTools();});
-  const observer=new MutationObserver(()=>refreshNavigation());
-  document.querySelectorAll('main>.view').forEach(view=>observer.observe(view,{attributes:true,attributeFilter:['hidden']}));
-  refreshNavigation();
 })();

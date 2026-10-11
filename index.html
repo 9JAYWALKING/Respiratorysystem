@@ -1993,7 +1993,51 @@
     const emptyRenderCourse = {id:0,title:'RESPIRATORY SYSTEM',professor:'',domain:'',discipline:'',section:'',slots:[],isLab:false};
 
     // Personal study progress is browser-local, keyed by immutable question IDs.
-    const wrongQuestionIds = () => jblQuestions.filter(q => wrongAnswers[q.id]?.pending === true).map(q => q.id);
+    const questionStudyStatuses = {
+      unanswered:{symbol:'', label:'미풀이'}, correct:{symbol:'○', label:'정답'},
+      uncertain:{symbol:'△', label:'보류'}, wrong:{symbol:'X', label:'오답'}
+    };
+    function questionStudyStatus(id) {
+      const record = wrongAnswers[id];
+      if (record && Object.hasOwn(questionStudyStatuses, record.status)) return record.status;
+      // Older records stored only wrong answers and subsequent corrections.
+      if (record?.pending === true) return 'wrong';
+      if (record?.pending === false && !record.manual && record.lastAttemptAt) return 'correct';
+      return 'unanswered';
+    }
+    function questionStudyStatusMarkup(id) {
+      const status = questionStudyStatus(id), current = questionStudyStatuses[status];
+      return `<label class="study-answer-status is-${status}" title="풀이 상태: ${current.label} · 클릭하여 변경"><span data-study-status-symbol aria-hidden="true">${current.symbol}</span><select data-study-status="${escapeHtml(id)}" aria-label="풀이 상태: ${current.label}. 직접 변경">${Object.entries(questionStudyStatuses).map(([value,item]) => `<option value="${value}" ${status === value ? 'selected' : ''}>${item.symbol ? item.symbol + ' ' : ''}${item.label}</option>`).join('')}</select></label>`;
+    }
+    function refreshQuestionStudyStatus(id) {
+      const status = questionStudyStatus(id), current = questionStudyStatuses[status];
+      document.querySelectorAll('[data-study-status]').forEach(select => {
+        if (select.dataset.studyStatus !== id) return;
+        const box = select.closest('.study-answer-status');
+        select.value = status;
+        box.className = `study-answer-status is-${status}`;
+        box.title = `풀이 상태: ${current.label} · 클릭하여 변경`;
+        select.setAttribute('aria-label', `풀이 상태: ${current.label}. 직접 변경`);
+        box.querySelector('[data-study-status-symbol]').textContent = current.symbol;
+      });
+    }
+    function saveQuestionStudyStatus(id, status, manual = false) {
+      if (!Object.hasOwn(questionStudyStatuses, status)) return false;
+      const old = wrongAnswers[id] || {}, now = Date.now();
+      const addWrong = status === 'wrong' && (!manual || questionStudyStatus(id) !== 'wrong');
+      const next = {...wrongAnswers, [id]: {...old, status, pending:status === 'wrong', manual,
+        statusUpdatedAt:now, wrongCount:(Number(old.wrongCount) || 0) + (addWrong ? 1 : 0),
+        lastAttemptAt:manual ? old.lastAttemptAt : now,
+        lastWrongAt:addWrong ? now : old.lastWrongAt}};
+      if (!writeStudyStorage(wrongAnswerStorageKey, next)) {
+        refreshQuestionStudyStatus(id);
+        return false;
+      }
+      wrongAnswers = next;
+      refreshQuestionStudyStatus(id);
+      return true;
+    }
+    const wrongQuestionIds = () => jblQuestions.filter(q => questionStudyStatus(q.id) === 'wrong').map(q => q.id);
     function freshQuestionAttempt(state) {
       state.selected = {}; state.answerShown = {}; state.explanationShown = {};
       state.attempts = {}; state.editing = null;
@@ -2010,16 +2054,8 @@
       if (!expected.length || expected.some(n => !Number.isInteger(n) || n < 1 || n > question.choices.length)) return;
       const selected = [state.selected[question.id]].flat().map(Number).filter(Number.isFinite);
       if (selected.length !== expected.length) return;
-      attempt.done = true;
       const correct = expected.every(n => selected.includes(n));
-      const old = wrongAnswers[question.id];
-      if (!old && correct) return;
-      const next = { ...wrongAnswers, [question.id]: {
-        pending:!correct, wrongCount:(Number(old?.wrongCount) || 0) + (correct ? 0 : 1),
-        lastAttemptAt:Date.now(), lastWrongAt:correct ? old?.lastWrongAt : Date.now()
-      }};
-      wrongAnswers = next;
-      writeStudyStorage(wrongAnswerStorageKey, next);
+      if (saveQuestionStudyStatus(question.id, correct ? 'correct' : 'wrong')) attempt.done = true;
     }
     function prepareJblStart(wrongOnly = false) {
       const state = standaloneState();
@@ -2116,13 +2152,13 @@
       const root = document.querySelector('#quick-start-root');
       root.innerHTML = `<header class="quick-heading"><h2>빠른 시작</h2><div class="quick-clock-actions"><span data-quick-clock></span><button class="information-button" type="button" data-information-open aria-label="업데이트 현황">i</button></div></header>
         <div class="study-home-grid">
-          <article class="study-home-schedule"><button type="button" data-quick-schedule><h3>시간표</h3><span class="study-card-arrow" aria-hidden="true">↗</span></button></article>
+          <div class="study-home-primary"><article class="study-home-schedule"><button type="button" data-quick-schedule><h3>시간표</h3><span class="study-card-arrow" aria-hidden="true">↗</span></button></article><article class="study-home-schedule"><button type="button" data-quick-route="#jbl"><h3>족보만 보기</h3><span class="study-card-arrow" aria-hidden="true">↗</span></button></article></div>
           <button class="study-home-card" type="button" data-quick-review><h3>최근 수업 복습</h3><span data-quick-review-label></span></button>
           <button class="study-home-card" type="button" data-quick-bookmarks><h3>즐겨찾기</h3><span>문단 ${wikiBookmarks.length} · 문항 ${jblFavorites.size}</span></button>
           <button class="study-home-card" type="button" data-quick-wrong><h3>오답 복습</h3><span>${wrongQuestionIds().length}문항</span></button>
         </div>
         <section class="study-exam-section"><h3>실전 연습</h3><div><article><h4>실전 훈련</h4><button type="button" disabled>준비 중</button></article><article><h4>실전 모의고사</h4><button type="button" disabled>준비 중</button></article></div></section>
-        <nav class="study-home-tools" aria-label="개인 도구"><button type="button" data-quick-route="#personal-notes">나만의 정리</button><button type="button" data-quick-route="#jbl">전체 족보 보기</button><button type="button" data-quick-save>현재 사이트 파일 저장</button></nav>`;
+        <nav class="study-home-tools" aria-label="개인 도구"><button type="button" data-quick-route="#personal-notes">나만의 정리</button><button type="button" data-quick-save>현재 사이트 파일 저장</button></nav>`;
       updateQuickReviewLabel(); refreshQuickClock().then(updateQuickReviewLabel);
       root.querySelector('[data-quick-review]').onclick=()=>{const recent=latestStudyCourse(quickClockDate());if(recent)quickNavigate('#lecture-'+recent.course.id);};
       root.querySelector('[data-quick-schedule]').onclick=()=>quickNavigate('#schedule');
@@ -2311,15 +2347,20 @@
         .map(canonicalContentCourseId).filter(id => Number.isInteger(id) && id > 0)
     )];
     const questionBelongsToCourse = (question, id) => questionLectureIds(question).includes(canonicalContentCourseId(id));
-    const jblFilterSignature = filters => JSON.stringify([filters.year, filters.lectureId, filters.professor, filters.favoritesOnly, filters.wrongOnly]);
+    const jblFilterSignature = filters => JSON.stringify([filters.year, filters.lectureId, filters.professor, filters.favoritesOnly, filters.wrongOnly, filters.statuses || []]);
     const filteredJblQuestions = () => {
       const { filters } = standaloneState();
       return jblQuestions.filter(question => {
         if (filters.year && Number(question.year) !== Number(filters.year)) return false;
         if (filters.lectureId && !questionBelongsToCourse(question, filters.lectureId)) return false;
         if (filters.professor && questionExamProfessor(question) !== filters.professor) return false;
-        if (filters.favoritesOnly && !jblFavorites.has(question.id)) return false;
-        if (filters.wrongOnly && !(standaloneState().wrongBatch || wrongQuestionIds()).includes(question.id)) return false;
+        const statuses = filters.statuses || [];
+        if (statuses.length || filters.favoritesOnly || filters.wrongOnly) {
+          const matches = statuses.includes(questionStudyStatus(question.id))
+            || (filters.favoritesOnly && jblFavorites.has(question.id))
+            || (filters.wrongOnly && (standaloneState().wrongBatch || wrongQuestionIds()).includes(question.id));
+          if (!matches) return false;
+        }
         return true;
       });
     };
@@ -2332,6 +2373,10 @@
       }
       const filtered = filteredJblQuestions();
       const signature = jblFilterSignature(state.filters);
+      if (state.randomEnabled && (!state.randomOrder.length || state.randomSignature !== signature)) {
+        state.randomOrder = shuffleQuestions(filtered).map(question => question.id);
+        state.randomSignature = signature;
+      }
       if (!state.randomOrder.length || state.randomSignature !== signature) return filtered;
       const byQuestionId = new Map(filtered.map(question => [question.id, question]));
       if (state.randomOrder.length !== filtered.length || state.randomOrder.some(id => !byQuestionId.has(id))) {
@@ -3368,7 +3413,7 @@
         if (revealAnswer) {
           if (answerIndices.includes(number)) status = ' correct';
           else if (selectedIndices.includes(number)) status = answerIndices.length ? ' wrong' : ' selected';
-        } else if (isMultipleAnswer && !selectionComplete) {
+        } else if (state.feedbackHidden?.[question.id] || (isMultipleAnswer && !selectionComplete)) {
           if (selectedIndices.includes(number)) status = ' selected';
         } else if (selectedIndices.length) {
           if (answerIndices.includes(number)) status = ' correct';
@@ -3386,8 +3431,8 @@
       const lectureEditor = isEditing ? `<div class="jbl-editor-field full"><label>강의 분류 · 여러 강의를 함께 선택할 수 있습니다.</label><details class="jbl-lecture-picker" data-jbl-edit-lecture-picker><summary>${escapeHtml(questionCourseText(question) || '강의를 선택하세요')}</summary><div class="jbl-lecture-options">${questionEditableCourses().map(course => `<label class="jbl-lecture-option"><input type="checkbox" value="${course.id}" data-jbl-edit-lecture ${questionBelongsToCourse(question, course.id) ? 'checked' : ''} /><span>${escapeHtml(contentCourseText(course))} · ${escapeHtml(course.professor)} 교수</span></label>`).join('')}</div></details><p class="jbl-editor-validation" data-jbl-edit-lecture-error hidden>강의를 하나 이상 선택하세요.</p></div>` : '';
       const editor = isEditing ? `<section class="jbl-editor jbl-question-editor" aria-label="문제 수정"><div class="jbl-editor-grid">${lectureEditor}<div class="jbl-editor-field full"><label for="jbl-edit-question-${escapeHtml(question.id)}">문제 발문</label><textarea id="jbl-edit-question-${escapeHtml(question.id)}" data-jbl-edit-question>${escapeHtml(question.question)}</textarea></div><div class="jbl-editor-field full"><label for="jbl-edit-passage-${escapeHtml(question.id)}">제시문 · ㄱ/ㄴ/ㄷ/ㄹ, I/II/III 등</label><textarea id="jbl-edit-passage-${escapeHtml(question.id)}" data-jbl-edit-passage>${escapeHtml(question.passage || '')}</textarea></div><div class="jbl-editor-field full"><label for="jbl-edit-choices-${escapeHtml(question.id)}">선지 · 한 줄에 하나씩 입력</label><textarea id="jbl-edit-choices-${escapeHtml(question.id)}" data-jbl-edit-choices>${escapeHtml(question.choices.join('\n'))}</textarea></div><div class="jbl-editor-field"><label for="jbl-edit-indices-${escapeHtml(question.id)}">정답 번호 · 복수 정답은 쉼표로 구분</label><input id="jbl-edit-indices-${escapeHtml(question.id)}" data-jbl-edit-indices type="text" inputmode="numeric" value="${escapeHtml(answerIndices.join(', '))}" placeholder="예: 2 또는 2, 4" /></div><div class="jbl-editor-field"><label for="jbl-edit-label-${escapeHtml(question.id)}">정답 표시</label><input id="jbl-edit-label-${escapeHtml(question.id)}" data-jbl-edit-label type="text" value="${escapeHtml(question.answerLabel)}" /></div><div class="jbl-editor-field full"><label for="jbl-edit-explanation-${escapeHtml(question.id)}">해설</label><textarea id="jbl-edit-explanation-${escapeHtml(question.id)}" data-jbl-edit-explanation>${escapeHtml(question.explanation)}</textarea></div></div><p class="jbl-editor-help">강의 분류·발문·제시문·선지·정답·해설을 한 번에 수정합니다. Wiki와 같은 문법 및 {{123}} 형식의 문항 링크를 사용할 수 있습니다.</p>${wikiSyntaxHelpMarkup()}<div class="jbl-editor-actions"><button class="jbl-btn jbl-btn-sub" type="button" data-jbl-edit-cancel>취소</button><button class="jbl-btn jbl-btn-primary" type="button" data-jbl-edit-apply>수정 반영</button></div></section>` : '';
       return `<article class="jbl-card" data-jbl-question="${escapeHtml(question.id)}">
-        <header class="jbl-card-head"><div class="jbl-meta"><span class="jbl-prof">${escapeHtml(questionExaminerLabel(question))}</span><div class="jbl-meta-right"><button class="study-wrong-status ${wrongAnswers[question.id]?.pending ? 'is-wrong' : ''}" type="button" data-study-wrong aria-pressed="${Boolean(wrongAnswers[question.id]?.pending)}" title="오답 기록을 직접 변경">${wrongAnswers[question.id]?.pending ? '오답 기록됨' : '오답 기록'}</button><span class="jbl-qid">${escapeHtml(question.displayId)}</span><button class="jbl-favorite ${jblFavorites.has(question.id) ? 'active' : ''}" type="button" data-jbl-favorite aria-label="${jblFavorites.has(question.id) ? '즐겨찾기 해제' : '즐겨찾기 추가'}" aria-pressed="${jblFavorites.has(question.id)}">${jblFavorites.has(question.id) ? '★' : '☆'}</button></div></div><h2 class="jbl-title">${renderJblInline(question.question)}</h2><div class="jbl-source">${escapeHtml(question.source)}</div></header>
-        <div class="jbl-card-body">${passage}${images}${choices}<div class="jbl-btns"><button class="jbl-btn jbl-btn-sub" type="button" data-jbl-answer>${revealAnswer ? '정답 닫기' : '정답 보기'}</button><button class="jbl-btn jbl-btn-primary" type="button" data-jbl-explanation>${revealExplanation ? '해설 닫기' : '해설 보기'}</button><button class="jbl-btn jbl-btn-sub" type="button" data-jbl-edit>${isEditing ? '문제 수정 닫기' : '문제 수정'}</button></div>${editor}${revealAnswer ? `<div class="jbl-answer-box">${renderJblWikiFragment(question.answerLabel, question, 'answer')}</div>` : ''}${revealExplanation ? `<section class="jbl-explanation"><div class="jbl-explanation-title">해설</div><div class="jbl-lecture-row">${lecturePills}<span class="jbl-professor-name">${escapeHtml(questionExaminerLabel(question))}</span></div>${explanationImages}<div class="jbl-explanation-text">${renderJblWikiFragment(question.explanation, question, 'explanation')}</div></section>` : ''}</div>
+        <header class="jbl-card-head"><div class="jbl-meta"><div class="jbl-author-source"><span class="jbl-prof">${escapeHtml(questionExaminerLabel(question))}</span><div class="jbl-source">${escapeHtml(question.source)}</div></div><div class="jbl-meta-right">${questionStudyStatusMarkup(question.id)}<button class="jbl-qid" type="button" data-jbl-number-button aria-label="${escapeHtml(question.displayId)} · 번호 입력하여 이동" title="번호를 입력하여 이동" ${state.editing ? 'disabled' : ''}>${escapeHtml(question.displayId)}</button><input class="jbl-number-input" data-jbl-number-input type="text" inputmode="numeric" enterkeyhint="go" pattern="[0-9]*" autocomplete="off" aria-label="이동할 J 고유번호" value="${question.globalNumber}" hidden /><button class="jbl-favorite ${jblFavorites.has(question.id) ? 'active' : ''}" type="button" data-jbl-favorite aria-label="${jblFavorites.has(question.id) ? '즐겨찾기 해제' : '즐겨찾기 추가'}" aria-pressed="${jblFavorites.has(question.id)}">${jblFavorites.has(question.id) ? '★' : '☆'}</button></div></div><h2 class="jbl-title">${renderJblInline(question.question)}</h2></header>
+        <div class="jbl-card-body">${passage}${images}${choices}${editor}${revealAnswer ? `<div class="jbl-answer-box">${renderJblWikiFragment(question.answerLabel, question, 'answer')}</div>` : ''}${revealExplanation ? `<section class="jbl-explanation"><div class="jbl-explanation-title">해설</div><div class="jbl-lecture-row">${lecturePills}<span class="jbl-professor-name">${escapeHtml(questionExaminerLabel(question))}</span></div>${explanationImages}<div class="jbl-explanation-text">${renderJblWikiFragment(question.explanation, question, 'explanation')}</div></section>` : ''}</div>
       </article>`;
     }
 
@@ -3395,6 +3440,56 @@
       const state = viewerState(key);
       const question = questions[state.index];
       if (!question) return;
+      const numberButton = container.querySelector('[data-jbl-number-button]');
+      const numberInput = container.querySelector('[data-jbl-number-input]');
+      let enteringNumber = false;
+      const outsideNumber = event => {
+        if (event.target === numberInput || event.target === numberButton) return;
+        finishNumber();
+      };
+      const finishNumber = (cancel = false) => {
+        if (!enteringNumber) return;
+        enteringNumber = false;
+        document.removeEventListener('pointerdown',outsideNumber,true);
+        const value = numberInput.value.trim();
+        numberInput.hidden = true;
+        numberButton.hidden = false;
+        numberInput.value = String(question.globalNumber);
+        if (!container.isConnected || cancel || !value || Number(value) === Number(question.globalNumber)) return;
+        const destination = /^\d+$/.test(value) && jblQuestions.find(item => Number(item.globalNumber) === Number(value));
+        if (!destination) { alert('해당 고유번호의 문항이 없습니다.'); return; }
+        if (!container.isConnected) return;
+        if (container.closest('[data-context-question-root]')) {
+          const current = contextLinkState.stack.at(-1);
+          const wikiSequence = current?.wikiSequence?.numbers.includes(Number(value)) ? current.wikiSequence : undefined;
+          showContextLinkTarget({type:'j',questionNumber:Number(value),wikiSequence},true);
+        } else if (key.startsWith('course-')) {
+          const course = byId(Number(key.slice(7)));
+          if (questionBelongsToCourse(destination,course.id)) {
+            if (!lectureStudyQuestions(course).some(item => item.id === destination.id)) lectureStudyState(course).chapter = '';
+            state.index = lectureStudyQuestions(course).findIndex(item => item.id === destination.id);
+            rerender();
+            scrollLectureStudyQuestion(document.querySelector('[data-course-j-host]'));
+          } else openContextLinkSplit({type:'j',questionNumber:Number(value)},numberButton);
+        } else openJblQuestionNumber(Number(value));
+      };
+      numberButton?.addEventListener('click', () => {
+        enteringNumber = true;
+        numberButton.hidden = true;
+        numberInput.hidden = false;
+        document.addEventListener('pointerdown',outsideNumber,true);
+        numberInput.focus({preventScroll:true});
+        numberInput.select();
+      });
+      numberInput?.addEventListener('blur', () => finishNumber());
+      numberInput?.addEventListener('keydown', event => {
+        if (event.isComposing) return;
+        if (event.key === 'Enter' || event.key === 'Escape') {
+          event.preventDefault(); event.stopPropagation();
+          finishNumber(event.key === 'Escape');
+          if (numberButton.isConnected) numberButton.focus({preventScroll:true});
+        }
+      });
       bindWikiDocument(container, byId(question.lectureIds?.[0]) || emptyRenderCourse);
       container.querySelectorAll('[data-jbl-choice]').forEach(button => button.addEventListener('click', event => {
         if (event.target.closest('a')) return;
@@ -3402,6 +3497,8 @@
         const answerIndices = Array.isArray(question.answerIndices) && question.answerIndices.length ? question.answerIndices : (question.answerIndex ? [question.answerIndex] : []);
         if (state.answerShown[question.id] || state.explanationShown[question.id]) markQuestionPeeked(state, question);
         state.answerShown[question.id] = false;
+        state.explanationShown[question.id] = false;
+        if (state.feedbackHidden) delete state.feedbackHidden[question.id];
         if (answerIndices.length > 1) {
           const current = Array.isArray(state.selected[question.id]) ? state.selected[question.id].slice() : [];
           const existingIndex = current.indexOf(choiceNumber);
@@ -3414,34 +3511,13 @@
         recordQuestionAttempt(state, question, answerIndices);
         rerender();
       }));
-      container.querySelector('[data-jbl-answer]')?.addEventListener('click', () => {
-        const willShow = !state.answerShown[question.id];
-        if (willShow) markQuestionPeeked(state, question);
-        state.answerShown[question.id] = willShow;
-        if (!willShow) delete state.selected[question.id];
-        rerender();
-      });
-      container.querySelector('[data-jbl-explanation]')?.addEventListener('click', () => {
-        if (!state.explanationShown[question.id]) markQuestionPeeked(state, question);
-        state.explanationShown[question.id] = !state.explanationShown[question.id];
-        rerender();
-      });
-      container.querySelector('[data-study-wrong]')?.addEventListener('click', () => {
-        const old = wrongAnswers[question.id] || {};
-        const pending = !old.pending;
-        const next = {...wrongAnswers, [question.id]: {...old, pending, manual:true,
-          wrongCount:(Number(old.wrongCount)||0) + (pending ? 1 : 0), lastAttemptAt:Date.now(),
-          lastWrongAt:pending ? Date.now() : old.lastWrongAt}};
-        if (writeStudyStorage(wrongAnswerStorageKey,next)) { wrongAnswers = next; rerender(); }
+      container.querySelector('[data-study-status]')?.addEventListener('change', event => {
+        saveQuestionStudyStatus(question.id, event.currentTarget.value, true);
       });
       container.querySelector('[data-jbl-favorite]')?.addEventListener('click', () => {
         if (jblFavorites.has(question.id)) jblFavorites.delete(question.id);
         else jblFavorites.add(question.id);
         saveJblFavorites();
-        rerender();
-      });
-      container.querySelector('[data-jbl-edit]')?.addEventListener('click', () => {
-        state.editing = state.editing === question.id ? null : question.id;
         rerender();
       });
       container.querySelector('[data-jbl-edit-cancel]')?.addEventListener('click', () => {
@@ -3499,6 +3575,7 @@
     }
 
     function renderQuestionCard(container, questions, key, rerender) {
+      container.questionViewer = { questions, key, rerender };
       const state = viewerState(key);
       state.index = Math.max(0, Math.min(state.index, Math.max(questions.length - 1, 0)));
       if (!questions.length) {
@@ -3509,8 +3586,41 @@
       bindQuestionCard(container, questions, key, rerender);
     }
 
-    function navMarkup(state, questions) {
-      return `<button class="jbl-btn jbl-btn-primary" type="button" data-jbl-prev ${state.index === 0 ? 'disabled' : ''}>← 이전 문제</button><div class="jbl-counter">${questions.length ? state.index + 1 : 0} / ${questions.length}</div><button class="jbl-btn jbl-btn-primary" type="button" data-jbl-next ${state.index >= questions.length - 1 ? 'disabled' : ''}>다음 문제 →</button>`;
+    function toggleQuestionExplanation(state, question, rerender) {
+      if (!question) return;
+      const restoreFocus = document.activeElement?.hasAttribute('data-jbl-explanation');
+      const shown = !state.explanationShown[question.id];
+      if (shown) markQuestionPeeked(state, question);
+      state.answerShown[question.id] = shown;
+      state.explanationShown[question.id] = shown;
+      (state.feedbackHidden ||= {})[question.id] = !shown;
+      rerender();
+      if (restoreFocus) {
+        const nav = contextLinkState.active ? contextLinkState.nav : document.querySelector('#jbl-view:not([hidden]) .jbl-bottom-inner, #detail-view:not([hidden]) [data-course-j-nav]');
+        nav?.querySelector('[data-jbl-explanation]')?.focus({preventScroll:true});
+      }
+    }
+
+    function studyQuestionViewer() {
+      if (contextLinkState.active) return contextLinkState.body?.querySelector('[data-context-question-root]')?.questionViewer || null;
+      return activeQuestionViewer();
+    }
+
+    function editStudyQuestion() {
+      const viewer = studyQuestionViewer();
+      if (!viewer) return;
+      const state = viewerState(viewer.key), question = viewer.questions[state.index];
+      if (!question) return;
+      state.editing = state.editing === question.id ? null : question.id;
+      viewer.rerender();
+    }
+
+    function navMarkup(state, questions, context = false) {
+      const question = questions[state.index], editing = question && state.editing === question.id;
+      const previous = context ? 'data-context-question-prev' : 'data-jbl-prev';
+      const next = context ? 'data-context-question-next' : 'data-jbl-next';
+      const shown = Boolean(question && state.explanationShown[question.id]);
+      return `<button class="jbl-btn jbl-btn-primary jbl-nav-explanation" type="button" data-jbl-explanation aria-pressed="${shown}" ${!question || editing ? 'disabled' : ''}>${shown ? '해설 닫기' : '해설 보기'}</button><div class="jbl-nav-pages"><button class="jbl-btn jbl-btn-primary jbl-nav-previous" type="button" ${previous} aria-label="이전 문제" ${!question || state.index <= 0 || editing ? 'disabled' : ''}><span class="jbl-nav-arrow" aria-hidden="true">← </span>이전 문제</button><span class="jbl-counter">${questions.length ? state.index + 1 : 0} / ${questions.length}</span><button class="jbl-btn jbl-btn-primary jbl-nav-next" type="button" ${next} aria-label="다음 문제" ${!question || state.index >= questions.length - 1 || editing ? 'disabled' : ''}>다음 문제<span class="jbl-nav-arrow" aria-hidden="true"> →</span></button></div>`;
     }
 
     function scrollCurrentQuestionToTop(key) {
@@ -3537,6 +3647,7 @@
       const state = viewerState(key);
       container.querySelector('[data-jbl-prev]')?.addEventListener('click', () => { state.index -= 1; rerender(); scrollCurrentQuestionToTop(key); });
       container.querySelector('[data-jbl-next]')?.addEventListener('click', () => { state.index += 1; rerender(); scrollCurrentQuestionToTop(key); });
+      container.querySelector('[data-jbl-explanation]')?.addEventListener('click', () => toggleQuestionExplanation(state, questions[state.index], rerender));
     }
 
     function downloadCurrentFile(filename, contents, type, delay = 0) {
@@ -3610,9 +3721,12 @@
       const key = `course-${course.id}`;
       const state = viewerState(key);
       const rerender = () => renderCourseJ(course);
-      target.innerHTML = `<div class="jbl-embed"><div data-jbl-course-root></div><div class="jbl-inline-nav">${navMarkup(state, questions)}</div></div>`;
+      const footer = target.closest('.lecture-j-pane')?.querySelector('[data-course-j-nav]');
+      target.innerHTML = `<div class="jbl-embed"><div data-jbl-course-root></div>${footer ? '' : '<nav class="jbl-inline-nav"></nav>'}</div>`;
       renderQuestionCard(target.querySelector('[data-jbl-course-root]'), questions, key, rerender);
-      bindViewerNav(target.querySelector('.jbl-inline-nav'), questions, key, rerender);
+      const nav = footer || target.querySelector('.jbl-inline-nav');
+      nav.innerHTML = navMarkup(state, questions);
+      bindViewerNav(nav, questions, key, rerender);
       renderLectureStudyFilter(course);
     }
 
@@ -4639,7 +4753,7 @@
     }
 
     function contextQuestionPosition(target) {
-      const numbers = target?.type === 'j' ? validContextQuestionNumbers(target.wikiSequence?.numbers) : [];
+      const numbers = target?.type === 'j' ? validContextQuestionNumbers(target.wikiSequence?.numbers || jblQuestions.map(question => question.globalNumber).sort((a,b) => a-b)) : [];
       return { numbers, index:numbers.indexOf(Number(target?.questionNumber)) };
     }
 
@@ -4654,10 +4768,16 @@
       const { numbers, index } = contextQuestionPosition(target);
       nav.hidden = index < 0;
       if (nav.hidden) { nav.innerHTML = ''; return; }
-      const editing = contextQuestionIsEditing(target);
-      nav.innerHTML = `<button class="jbl-btn jbl-btn-primary" type="button" data-context-question-prev ${index === 0 || editing ? 'disabled' : ''}>← 이전 문제</button><div class="context-question-counter" title="${escapeHtml(target.wikiSequence.title)}"><small>Wiki 연결 문항</small>${index + 1} / ${numbers.length}</div><button class="jbl-btn jbl-btn-primary" type="button" data-context-question-next ${index === numbers.length - 1 || editing ? 'disabled' : ''}>다음 문제 →</button>`;
+      const questions = numbers.map(number => jblQuestions.find(question => Number(question.globalNumber) === number));
+      const state = viewerState(`context-link-question-${questions[index].id}`);
+      nav.setAttribute('aria-label', target.wikiSequence ? '이 Wiki의 연결 문항 탐색' : '고유번호순 문항 탐색');
+      nav.innerHTML = navMarkup({...state, index}, questions, true);
       nav.querySelector('[data-context-question-prev]').addEventListener('click', () => moveContextWikiQuestion(-1));
       nav.querySelector('[data-context-question-next]').addEventListener('click', () => moveContextWikiQuestion(1));
+      nav.querySelector('[data-jbl-explanation]').addEventListener('click', () => {
+        const viewer = contextLinkState.body?.querySelector('[data-context-question-root]')?.questionViewer;
+        if (viewer) toggleQuestionExplanation(viewerState(viewer.key), viewer.questions[0], viewer.rerender);
+      });
     }
 
     function moveContextWikiQuestion(direction) {
@@ -4690,7 +4810,7 @@
       if (target?.type !== 'j' || contextQuestionIsEditing(target)) return;
       if (event.code === 'Space') {
         event.preventDefault();
-        contextLinkState.body.querySelector('[data-jbl-explanation]')?.click();
+        contextLinkState.nav.querySelector('[data-jbl-explanation]')?.click();
       } else if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
         event.preventDefault();
         moveContextWikiQuestion(event.key === 'ArrowRight' ? 1 : -1);
@@ -4714,6 +4834,10 @@
       return target.type === 'j'
         ? `j:${target.questionNumber}:${JSON.stringify(target.wikiSequence || null)}`
         : `wiki:${target.courseId}:${target.section || ''}`;
+    }
+
+    function contextSourceScrollElement() {
+      return contextLinkState.source?.querySelector('#jbl-standalone .jbl-wrap') || contextLinkState.source;
     }
 
     function namespaceContextPreviewIds(container, token) {
@@ -4805,7 +4929,7 @@
       if (!state.active) return;
       const expanding = !state.expanded;
       const contentScroll = state.body.scrollTop;
-      if (expanding) state.sourcePaneScroll = state.source.scrollTop;
+      if (expanding) state.sourcePaneScroll = contextSourceScrollElement().scrollTop;
       state.expanded = expanding;
       state.split.classList.toggle('is-expanded', expanding);
       state.source.inert = expanding;
@@ -4817,7 +4941,7 @@
       state.expand.title = label;
       state.split.setAttribute('aria-label', expanding ? '연결된 내용 전체화면' : '현재 화면과 연결된 내용을 함께 보기');
       if (expanding && state.source.contains(document.activeElement)) state.expand.focus({ preventScroll:true });
-      if (!expanding) state.source.scrollTop = state.sourcePaneScroll;
+      if (!expanding) contextSourceScrollElement().scrollTop = state.sourcePaneScroll;
       state.body.scrollTop = contentScroll;
       window.PATHOLOGY_MAP?.refreshLayout?.();
     }
@@ -4865,14 +4989,14 @@
         event.preventDefault();
         toggleContextLinkExpanded();
       });
-      requestAnimationFrame(() => { source.scrollTop = contextLinkState.sourceScroll; window.PATHOLOGY_MAP?.refreshLayout?.(); });
+      requestAnimationFrame(() => { contextSourceScrollElement().scrollTop = contextLinkState.sourceScroll; window.PATHOLOGY_MAP?.refreshLayout?.(); });
       showContextLinkTarget(target, true);
     }
 
     function closeContextLinkSplit(restorePosition = true) {
       if (!contextLinkState.active) return;
       hideWikiFootnotePreview();
-      const scroll = contextLinkState.expanded ? contextLinkState.sourcePaneScroll : contextLinkState.source?.scrollTop || 0;
+      const scroll = contextLinkState.expanded ? contextLinkState.sourcePaneScroll : contextSourceScrollElement()?.scrollTop || 0;
       const shell = contextLinkState.shell;
       const parent = contextLinkState.originalParent;
       const next = contextLinkState.originalNextSibling;
@@ -5276,6 +5400,7 @@
         return { questions:currentStandaloneQuestions(), key:'jbl-all', rerender:renderJblStandalone };
       }
       if (!document.querySelector('#detail-view').hidden && document.querySelector('[data-course-j-host]')) {
+        if (document.querySelector('[data-course-j-host]').closest('[hidden]')) return null;
         const match = location.hash.match(/^#lecture-(\d+)$/);
         const course = match ? byId(match[1]) : null;
         if (!course) return null;
@@ -5312,14 +5437,13 @@
       const viewer = activeQuestionViewer();
       if (!viewer || !viewer.questions.length) return;
       const state = viewerState(viewer.key);
+      if (state.editing) return;
       const question = viewer.questions[state.index];
       if (!question) return;
 
       if (event.code === 'Space') {
         event.preventDefault();
-        if (!state.explanationShown[question.id]) markQuestionPeeked(state, question);
-        state.explanationShown[question.id] = !state.explanationShown[question.id];
-        viewer.rerender();
+        toggleQuestionExplanation(state, question, viewer.rerender);
         return;
       }
 
@@ -5433,13 +5557,33 @@
       wikiTools:studyWikiTools,
       toggleWiki:toggleStudyWiki,
       editWiki:editStudyWiki,
+      questionTools:()=>{const viewer=studyQuestionViewer();const state=viewer&&viewerState(viewer.key);return {available:Boolean(viewer?.questions[state?.index]),editing:Boolean(state?.editing)};},
+      editQuestion:editStudyQuestion,
+      questionFilterContext:()=>{
+        const viewer=activeQuestionViewer();
+        if(!viewer)return null;
+        const state=viewerState(viewer.key);
+        return {course:viewer.key.startsWith('course-'),filters:{...(state.filters||{})},randomEnabled:Boolean(state.randomEnabled||state.randomOrder?.length)};
+      },
+      filterQuestions:values=>{
+        const viewer=activeQuestionViewer();if(!viewer)return;
+        if(viewer.key==='jbl-all'){window.RespiratoryStudy.filter(values);return;}
+        const state=viewerState(viewer.key);state.filters={...(state.filters||{}),...values};state.index=0;
+        clearJblRandomOrder(state);viewer.rerender();
+      },
+      randomQuestions:()=>{
+        const viewer=activeQuestionViewer();if(!viewer)return;
+        if(viewer.key==='jbl-all'){window.RespiratoryStudy.random();return;}
+        const state=viewerState(viewer.key);state.randomEnabled=!state.randomEnabled;state.index=0;
+        clearJblRandomOrder(state);viewer.rerender();
+      },
       context:()=>({hash:location.hash, courses:courses.map(c=>({id:c.id,title:c.title,professor:c.professor})),
         years:[...new Set(jblQuestions.map(q=>q.year))].sort((a,b)=>b-a),
         professors:[...new Set(jblQuestions.map(questionExamProfessor).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ko')),
-        filters:{...standaloneState().filters}, wrongCount:wrongQuestionIds().length}),
-      filter:values=>{const state=standaloneState();state.filters={...state.filters,...values};state.index=0;state.wrongBatch=null;clearJblRandomOrder(state);renderJblStandalone();},
+        filters:{...standaloneState().filters}, randomEnabled:Boolean(standaloneState().randomEnabled || standaloneState().randomOrder.length), wrongCount:wrongQuestionIds().length}),
+      filter:values=>{const state=standaloneState();state.filters={...state.filters,...values};state.index=0;state.linkedQuestionNumber=null;state.wrongBatch=null;clearJblRandomOrder(state);renderJblStandalone();},
       jump:value=>{const field=document.querySelector('#jbl-jump');if(field){field.value=value;document.querySelector('[data-jbl-jump]')?.click();}},
-      random:()=>{const state=standaloneState();state.panel='settings';renderJblStandalone();document.querySelector('[data-jbl-random]')?.click();state.panel=null;renderJblStandalone();},
+      random:()=>{const state=standaloneState();state.randomEnabled=!(state.randomEnabled || state.randomOrder.length);state.linkedQuestionNumber=null;state.index=0;clearJblRandomOrder(state);renderJblStandalone();},
       save:saveCurrentFiles
     };
     routeFromHash();

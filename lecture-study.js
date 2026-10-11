@@ -1,4 +1,4 @@
-/* A lecture keeps its Wiki and question viewer in two independent reading panes. */
+/* Keep both reading states mounted, but show only the selected lecture tab. */
 const lectureStudyStates = new Map();
 function scrollLectureStudyQuestion(pane) {
   if (!pane) return;
@@ -9,7 +9,7 @@ function scrollLectureStudyQuestion(pane) {
 }
 function lectureStudyState(course) {
   const id = Number(course.id);
-  if (!lectureStudyStates.has(id)) lectureStudyStates.set(id, { chapter:'', expanded:'' });
+  if (!lectureStudyStates.has(id)) lectureStudyStates.set(id, { chapter:'', expanded:'', view:'wiki' });
   return lectureStudyStates.get(id);
 }
 function lectureStudyChapters(course) {
@@ -21,12 +21,28 @@ function lectureStudyChapters(course) {
       numbers:[...new Set([...section.source.matchAll(/\{\{(\d+)\}\}/g)].map(match => Number(match[1])))].filter(number => available.has(number))
     }));
 }
-function lectureStudyQuestions(course) {
+function lectureStudyBaseQuestions(course) {
   const state = lectureStudyState(course);
   const chapter = lectureStudyChapters(course).find(item => item.slug === state.chapter);
   if (chapter?.numbers.length) return chapter.numbers.map(number => jblQuestions.find(question => Number(question.globalNumber) === number)).filter(Boolean);
   state.chapter = '';
   return jblQuestions.filter(question => questionBelongsToCourse(question, course.id)).sort((a,b) => Number(a.globalNumber)-Number(b.globalNumber));
+}
+function lectureStudyQuestions(course) {
+  const state = viewerState('course-' + course.id);
+  const filters = state.filters || {};
+  const statuses = filters.statuses || [];
+  const questions = lectureStudyBaseQuestions(course).filter(question =>
+    (!statuses.length && !filters.favoritesOnly) || statuses.includes(questionStudyStatus(question.id)) ||
+    (filters.favoritesOnly && jblFavorites.has(question.id)));
+  if (!state.randomEnabled) return questions;
+  const signature = JSON.stringify(questions.map(question => question.id));
+  if (state.randomSignature !== signature) {
+    state.randomSignature = signature;
+    state.randomOrder = shuffleQuestions(questions).map(question => question.id);
+  }
+  const byId = new Map(questions.map(question => [question.id, question]));
+  return (state.randomOrder || []).map(id => byId.get(id)).filter(Boolean);
 }
 function refreshLectureStudyLinks(course) {
   const wiki = document.querySelector('#content-panel [data-course-wiki]');
@@ -56,11 +72,35 @@ function renderLectureStudyFilter(course) {
   select.value = state.chapter;
   refreshLectureStudyLinks(course);
 }
+function syncLectureStudyView(course) {
+  const state = lectureStudyState(course);
+  const view = state.expanded || state.view || 'wiki';
+  const workspace = document.querySelector('#content-panel .lecture-workspace');
+  if (!workspace) return;
+  workspace.dataset.view = view;
+  document.body.classList.toggle('lecture-j-active', view === 'j');
+  workspace.querySelectorAll('[data-lecture-pane]').forEach(section => {
+    const hidden = section.dataset.lecturePane !== view;
+    section.hidden = hidden;
+    section.inert = hidden;
+    section.setAttribute('aria-hidden', String(hidden));
+  });
+  document.querySelectorAll('[data-lecture-view]').forEach(button => {
+    button.setAttribute('aria-pressed', String(button.dataset.lectureView === view));
+  });
+}
+function setLectureStudyView(course, view) {
+  lectureStudyState(course).view = view;
+  activeDetailTab = view === 'j' ? 'KMLE' : '정리본';
+  setLectureStudyExpanded(course, '');
+  history.replaceState({...(history.state || {}), detailTab:activeDetailTab}, '', location.href);
+}
 function setLectureStudyExpanded(course, pane) {
   const workspace = document.querySelector('#content-panel .lecture-workspace');
   if (!workspace) return;
   const state = lectureStudyState(course);
   state.expanded = pane || '';
+  if (pane) state.view = pane;
   workspace.dataset.expanded = state.expanded;
   document.body.classList.toggle('lecture-pane-expanded', Boolean(state.expanded));
   const masthead = document.querySelector('.masthead');
@@ -73,12 +113,13 @@ function setLectureStudyExpanded(course, pane) {
   });
   workspace.querySelectorAll('[data-lecture-expand]').forEach(button => {
     const active = button.dataset.lectureExpand === state.expanded;
-    const label = active ? '분할 화면으로 돌아가기' : (button.dataset.lectureExpand === 'wiki' ? 'Wiki' : '관련 문항') + ' 전체화면으로 확대';
+    const label = active ? '강의 화면으로 돌아가기' : (button.dataset.lectureExpand === 'wiki' ? 'Wiki' : '관련 문항') + ' 전체화면으로 확대';
     button.setAttribute('aria-label',label);
     button.setAttribute('aria-pressed',String(active));
     button.title = label;
     button.textContent = active ? '↙' : '−';
   });
+  syncLectureStudyView(course);
 }
 function resetLectureStudyExpansion() {
   document.body.classList.remove('lecture-pane-expanded');
@@ -90,13 +131,26 @@ function resetLectureStudyExpansion() {
   }
 }
 function renderLectureStudy(course, target) {
+  const bar = document.querySelector('#detail-view .detail-topline');
+  bar?.querySelector('.lecture-view-tabs')?.remove();
+  if (bar) {
+    const tabs = document.createElement('div');
+    tabs.className = 'lecture-view-tabs';
+    tabs.setAttribute('role','group');
+    tabs.setAttribute('aria-label','강의 화면 선택');
+    tabs.innerHTML = '<button type="button" data-lecture-view="wiki" aria-controls="lecture-wiki">Wiki</button><button type="button" data-lecture-view="j" aria-controls="lecture-questions">J</button>';
+    bar.insertBefore(tabs, bar.querySelector('.detail-course-controls'));
+    tabs.querySelectorAll('button').forEach(button => button.addEventListener('click', () => setLectureStudyView(course,button.dataset.lectureView)));
+  }
+  lectureStudyState(course).view = activeDetailTab === 'KMLE' ? 'j' : 'wiki';
   target.innerHTML = '<div class="lecture-workspace" data-lecture-course="' + course.id + '">' +
     '<section class="lecture-pane lecture-wiki-pane" data-lecture-pane="wiki" aria-label="강의 Wiki">' +
       '<header class="lecture-pane-head" data-lecture-head="wiki"><strong>Wiki</strong><button type="button" class="lecture-pane-expand" data-lecture-expand="wiki">−</button></header>' +
       '<div class="lecture-pane-body" data-course-wiki id="lecture-wiki"></div></section>' +
     '<section class="lecture-pane lecture-j-pane" data-lecture-pane="j" aria-label="관련 문항">' +
       '<header class="lecture-pane-head" data-lecture-head="j"><label class="lecture-chapter-label"><span class="sr-only">관련 문항 범위</span><select data-lecture-chapter aria-label="관련 문항 범위"></select></label><button type="button" class="lecture-pane-expand" data-lecture-expand="j">−</button></header>' +
-      '<div class="lecture-pane-body" data-course-j-host id="lecture-questions"></div></section></div>';
+      '<div class="lecture-pane-body" data-course-j-host id="lecture-questions"></div>' +
+      '<nav class="jbl-inline-nav" data-course-j-nav aria-label="관련 문항 탐색"></nav></section></div>';
   const wiki = target.querySelector('[data-course-wiki]');
   if (!renderLectureNote(course,wiki)) wiki.innerHTML = '<div class="study-empty-wiki">Wiki가 아직 준비되지 않았습니다.</div>';
   target.querySelectorAll('[data-lecture-expand]').forEach(button => button.addEventListener('click', () => {
@@ -129,7 +183,7 @@ function handleLectureStudyLink(link, target) {
     lectureStudyState(course).chapter = chapter?.slug || '';
     const questions = lectureStudyQuestions(course);
     viewerState('course-' + course.id).index = questions.findIndex(item => Number(item.globalNumber) === target.questionNumber);
-    setLectureStudyExpanded(course,'');
+    setLectureStudyView(course,'j');
     renderCourseJ(course);
     const pane = workspace.querySelector('[data-course-j-host]');
     scrollLectureStudyQuestion(pane);
@@ -138,7 +192,7 @@ function handleLectureStudyLink(link, target) {
     return true;
   }
   if (target.type === 'wiki' && target.courseId === Number(course.id)) {
-    setLectureStudyExpanded(course,'');
+    setLectureStudyView(course,'wiki');
     queueWikiSectionScroll(workspace.querySelector('[data-course-wiki]'),target.section);
     return true;
   }
