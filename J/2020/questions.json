@@ -1,0 +1,6286 @@
+{
+  "schemaVersion": 1,
+  "year": 2020,
+  "questions": [
+    {
+      "id": "2020-001",
+      "recordId": "resp-2020-001",
+      "displayId": "534번",
+      "globalNumber": 534,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 1,
+      "originalNumbers": [
+        1
+      ],
+      "question": "다음 후두 그림을 보고 옳은 연결을 고르시오.",
+      "passage": "",
+      "choices": [
+        "stratified cuboidal epithelium",
+        "serous gland",
+        "PCCE",
+        "vocal nerve",
+        "skeletal muscle"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q001_01.jpg"
+      ],
+      "legacyProfessor": "이자경",
+      "professor": "이은주",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        11
+      ],
+      "lectureId": 11,
+      "lectureTitle": "[실습] 호흡기계조직학 실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 1번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q001_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-002",
+      "recordId": "resp-2020-002",
+      "displayId": "535번",
+      "globalNumber": 535,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 2,
+      "originalNumbers": [
+        2
+      ],
+      "question": "그림을 보고 답하시오. 부위에 대한 설명으로 가장 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "Goblet cell 이 분비 기능을 수행함",
+        "elastic fiber가 supporting 및 탄력 유지",
+        "smooth muscle은 서로 수직인 얇은 두 개의 층으로 존재함",
+        "lymphatic nodule",
+        "영양혈관은 없고 기능혈관만 존재"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q002_01.jpg"
+      ],
+      "legacyProfessor": "이자경",
+      "professor": "이은주",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        11
+      ],
+      "lectureId": 11,
+      "lectureTitle": "[실습] 호흡기계조직학 실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 2번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q002_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-003",
+      "recordId": "resp-2020-003",
+      "displayId": "536번",
+      "globalNumber": 536,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 3,
+      "originalNumbers": [
+        3
+      ],
+      "question": "(6) 부위에서 일반적으로 관찰되는 것은?",
+      "passage": "",
+      "choices": [
+        "type II pneumocyte",
+        "Clara cell",
+        "endothelial cell",
+        "microvilli",
+        "smooth muscle bundle"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q003_01.jpg"
+      ],
+      "legacyProfessor": "이자경",
+      "professor": "이은주",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        11
+      ],
+      "lectureId": 11,
+      "lectureTitle": "[실습] 호흡기계조직학 실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 3번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q003_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-004",
+      "recordId": "resp-2020-004",
+      "displayId": "537번",
+      "globalNumber": 537,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 4,
+      "originalNumbers": [
+        4
+      ],
+      "question": "호흡기 구성 세포에 대한 설명 연결 중 가장 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "Goblet cells – terminal bronchiole에서 mucus 분비",
+        "Clara cell - dome shape",
+        "pneumocyte type I - smooth muscle이 주로 support함",
+        "pneumocyte type II - endocrine cell",
+        "dust cells - Surfactant 분비"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이자경",
+      "professor": "이은주",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        1
+      ],
+      "lectureId": 1,
+      "lectureTitle": "호흡기계조직학",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 4번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-005",
+      "recordId": "resp-2020-005",
+      "displayId": "538번",
+      "globalNumber": 538,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 5,
+      "originalNumbers": [
+        5
+      ],
+      "question": "다음 후각 상피 조직을 보고 옳은 연결을 고르시오.",
+      "passage": "",
+      "choices": [
+        "Goblet cell 발달",
+        "부동섬모는 없으나 미세융모 발달",
+        "장액성 분비샘",
+        "유리연골",
+        "odorant binding protein 분비"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q005_01.jpg"
+      ],
+      "legacyProfessor": "이자경",
+      "professor": "이은주",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        11
+      ],
+      "lectureId": 11,
+      "lectureTitle": "[실습] 호흡기계조직학 실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 5번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q005_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-006",
+      "recordId": "resp-2020-006",
+      "displayId": "539번",
+      "globalNumber": 539,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 6,
+      "originalNumbers": [
+        6
+      ],
+      "question": "alveoli에 존재하는 세포에 대한 설명으로 가장 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "dust cell – 제1형 폐포세포 와 tight junction",
+        "endothelial cell – gas exchange를 위한 fenestra 발달",
+        "제1형 폐포세포 – 효율적 gas exchange를 위해 표면에 surfactant 없음",
+        "제2형 폐포세포 – laminated secretory vacuole 풍부",
+        "제2형 폐포세포 – alveolar pore를 형성"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이자경",
+      "professor": "이은주",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        1
+      ],
+      "lectureId": 1,
+      "lectureTitle": "호흡기계조직학",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 6번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-007",
+      "recordId": "resp-2020-007",
+      "displayId": "540번",
+      "globalNumber": 540,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 7,
+      "originalNumbers": [
+        7
+      ],
+      "question": "다양한 기관지 내시경 검사의 특징 중 옳은 설명은?",
+      "passage": "",
+      "choices": [
+        "원인 미상의 객혈의 환자는 기관지내시경의 금기증이다.",
+        "경기관지 초음파 검사는 종격동 림프절 검사에 유용하다.",
+        "자가 형광 기관지내시경은 폐암 진단율에 높은 특이도를 보인다.",
+        "협대역 기관지내시경 검사를 통하여 3차원 이미지를 얻을 수 있다.",
+        "기관지폐포세척술(bronchoalveolar lavage)을 통하여 조직을 얻을 수 있다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "남해성",
+      "professor": "유우경",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        29
+      ],
+      "lectureId": 29,
+      "lectureTitle": "호흡기질환진단법 -기관지내시경중심",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 7번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-008",
+      "recordId": "resp-2020-008",
+      "displayId": "541번",
+      "globalNumber": 541,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 8,
+      "originalNumbers": [
+        8
+      ],
+      "question": "호흡기 질환 환자에서 시행되는 가래 검사에 대한 옳은 설명은?",
+      "passage": "",
+      "choices": [
+        "편평 상피세포가 현미경상 10개 이상 보이면 적절한 가래 검체 이다",
+        "가래에서 결핵균의 검출은 흔하게 발견될 수 있는 정상균 이다",
+        "특별한 원인 질환 없이 가래에서 candida 균이 동정될 수 있다",
+        "증류수를 이용하여 유도 객담 검사를 시행한다",
+        "가래는 비인두에서 나오는 분비물이다"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "남해성",
+      "professor": "유우경",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        29
+      ],
+      "lectureId": 29,
+      "lectureTitle": "호흡기질환진단법 -기관지내시경중심",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 8번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-009",
+      "recordId": "resp-2020-009",
+      "displayId": "542번",
+      "globalNumber": 542,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 9,
+      "originalNumbers": [
+        9
+      ],
+      "question": "만성폐쇄성폐질환(COPD)에 대한 설명이다. 옳은 설명은?",
+      "passage": "",
+      "choices": [
+        "강제폐활량(FVC)의 감소가 특징적이다",
+        "저산소증의 주 병태생리는 션트(shunt)이다",
+        "폐의 잔기용량(residual volume)이 감소한다",
+        "COPD 의심지표가 있고 대기 중 동맥혈가스검사로 진단 한다",
+        "공기걸림(air trapping)으로 폐의 과팽창(hyperinflation)이 생긴다"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "남해성",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        20
+      ],
+      "lectureId": 20,
+      "lectureTitle": "만성폐쇄성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 9번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-010",
+      "recordId": "resp-2020-010",
+      "displayId": "543번",
+      "globalNumber": 543,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 10,
+      "originalNumbers": [
+        10
+      ],
+      "question": "만성폐쇄성폐질환(COPD) 환자의 비약물적 치료 중 호흡 재활치료의 효과는?",
+      "passage": "",
+      "choices": [
+        "생존율 감소",
+        "우울증 감소",
+        "삶의 질 감소",
+        "운동능력 감소",
+        "상지근력 감소"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "남해성",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        20
+      ],
+      "lectureId": 20,
+      "lectureTitle": "만성폐쇄성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 10번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-011",
+      "recordId": "resp-2020-011",
+      "displayId": "544번",
+      "globalNumber": 544,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 11,
+      "originalNumbers": [
+        11
+      ],
+      "question": "59세 남자가 기침과 가래의 증상으로 내원하였다. 3년 전부터 1년에 3-4개월 이상 지속되는 가래의 증가와 기침의 증상이 있고, 최근 1개월 전부터는 오르막길을 걸으 면 숨이 찬 증상도 발생하였다. 18세부터 하루에 한 갑의 흡연을 하고 있으며, 다른 질환의 병력은 없다. 혈압 120/90 mmHg, 맥박 80회, 호흡 18회, 체온 36.6℃, 대기호흡상태의 산소포화도는 95%였다. 가슴 청진에서 이상 호흡음은 없었다. 만성폐쇄성폐질환 평가검사(CAT)는 6점이다. 폐활량 검사 결과이다. 적절한 치료는?",
+      "passage": "",
+      "choices": [
+        "금연교육",
+        "지속성항콜린제",
+        "흡입스테로이드제",
+        "지속성항콜린제+지속성베타-2작용제의 복합 흡입제",
+        "지속성항콜린제+지속성베타-2작용제+흡입스테로이드 복합 흡입제"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q011_01.jpg"
+      ],
+      "legacyProfessor": "남해성",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        20
+      ],
+      "lectureId": 20,
+      "lectureTitle": "만성폐쇄성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 11번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q011_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-012",
+      "recordId": "resp-2020-012",
+      "displayId": "545번",
+      "globalNumber": 545,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 12,
+      "originalNumbers": [
+        12
+      ],
+      "question": "다음 중 surfactant의 역할이 아닌 것은?",
+      "passage": "",
+      "choices": [
+        "폐포의 안정성",
+        "Lung compliance의 증가",
+        "페부종 방지",
+        "Hysteresis 감소",
+        "Lung elastic recoil 증가"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        2
+      ],
+      "lectureId": 2,
+      "lectureTitle": "호흡의 기계역학",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 12번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-013",
+      "recordId": "resp-2020-013",
+      "displayId": "546번",
+      "globalNumber": 546,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 13,
+      "originalNumbers": [
+        13
+      ],
+      "question": "다음 중 일회 호흡량을 내쉰 후에 폐에 남아있는 용적 혹은 용량은?",
+      "passage": "",
+      "choices": [
+        "Total lung capacity (TLC)",
+        "Functional residual capacity (FRC)",
+        "Expiratory residual volume (ERV)",
+        "Inspiratory capacity (IC)",
+        "Residual volume (RV)"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        2
+      ],
+      "lectureId": 2,
+      "lectureTitle": "호흡의 기계역학",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 13번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-014",
+      "recordId": "resp-2020-014",
+      "displayId": "547번",
+      "globalNumber": 547,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 14,
+      "originalNumbers": [
+        14
+      ],
+      "question": "다음 중 폐쇄성 폐질환을 가진 환자에서 나타날 수 있는 것은?",
+      "passage": "",
+      "choices": [
+        "Flow-volume loop이 오른쪽으로 shift 된다.",
+        "FVC이 크게 감소한다.",
+        "Premature airway collapse",
+        "빠르고 얕게 호흡한다.",
+        "Residual volume이 감소한다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        2
+      ],
+      "lectureId": 2,
+      "lectureTitle": "호흡의 기계역학",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 14번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-015",
+      "recordId": "resp-2020-015",
+      "displayId": "548번",
+      "globalNumber": 548,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 15,
+      "originalNumbers": [
+        15
+      ],
+      "question": "다음 중 폐기능이 정상인 성인이 서서 휴식을 취하고 있을 때 폐의 apex에서 base보다 더 큰 값을 나타내는 것은?",
+      "passage": "",
+      "choices": [
+        "Transpulmonary pressure",
+        "Alveolar ventilation",
+        "Lung compliance",
+        "Blood flow",
+        "Single-breath N2 test에서 phase III의 기울기"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        3
+      ],
+      "lectureId": 3,
+      "lectureTitle": "폐의환기 및 가스교환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 15번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-016",
+      "recordId": "resp-2020-016",
+      "displayId": "549번",
+      "globalNumber": 549,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 16,
+      "originalNumbers": [
+        16
+      ],
+      "question": "다음 중 폐포에서 모세혈관으로 CO2 또는 O2의 diffusion rate에 영향을 주지 않는 것은?",
+      "passage": "",
+      "choices": [
+        "Thickness of the membrane",
+        "Surface area",
+        "Pressure difference",
+        "Diffusion coefficient",
+        "Negative interstitial pressure"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        3
+      ],
+      "lectureId": 3,
+      "lectureTitle": "폐의환기 및 가스교환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 16번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-017",
+      "recordId": "resp-2020-017",
+      "displayId": "550번",
+      "globalNumber": 550,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 17,
+      "originalNumbers": [
+        17
+      ],
+      "question": "다음은 arterial hypoxemia를 유발할 가능성이 있는 상황 이다. 이 중 AaDO2가 정상범위를 벗어나지 않을 가능성이 가장 높은 것은?",
+      "passage": "",
+      "choices": [
+        "Anatomic hunt",
+        "격렬한 운동으로 cardiac output이 많이 증가했을 때",
+        "Ventilation/perfusion=0",
+        "혈중 PCO2가 증가했을 때",
+        "Interstitial lung disease가 있을 때"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        3
+      ],
+      "lectureId": 3,
+      "lectureTitle": "폐의환기 및 가스교환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 17번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-018",
+      "recordId": "resp-2020-018",
+      "displayId": "551번",
+      "globalNumber": 551,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 18,
+      "originalNumbers": [
+        18
+      ],
+      "question": "Two-lung model에서 한쪽 폐에 기도 협착이 있다고 한다. ventilation되지 않는 폐포를 관류하는 혈관에서 일어 나는 일에 대한 설명으로 가장 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "혈류량이 증가한다.",
+        "혈관이 수축한다.",
+        "혈관 평활근 내부의 Ca2+ 농도가 감소한다.",
+        "혈관의 recruitment가 일어난다.",
+        "혈관에서 폐포로 fluid가 이동한다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        3
+      ],
+      "lectureId": 3,
+      "lectureTitle": "폐의환기 및 가스교환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 18번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-019",
+      "recordId": "resp-2020-019",
+      "displayId": "552번",
+      "globalNumber": 552,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 19,
+      "originalNumbers": [
+        19
+      ],
+      "question": "다음 중 폐에서 조직으로 운반되는 산소의 총량을 감소 시킬 수 있는 상황이 아닌 것은?",
+      "passage": "",
+      "choices": [
+        "Blood pH 감소",
+        "Cardiac output의 감소",
+        "COPD",
+        "Hemoglobin 농도 감소",
+        "Methmoglobin 농도 증가"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 19번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-020",
+      "recordId": "resp-2020-020",
+      "displayId": "553번",
+      "globalNumber": 553,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 20,
+      "originalNumbers": [
+        20
+      ],
+      "question": "다음 중 조직에서 폐로 운반되는 이산화탄소의 총량을 감소시킬 수 있는 조건은?",
+      "passage": "",
+      "choices": [
+        "Plasma protein 농도 증가",
+        "Plasma pH 증가",
+        "Hemoglobin 농도 증가",
+        "혈중 산소 분압 증가",
+        "Dexygenation of hemoglobin"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 20번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-021",
+      "recordId": "resp-2020-021",
+      "displayId": "554번",
+      "globalNumber": 554,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 21,
+      "originalNumbers": [
+        21
+      ],
+      "question": "다음 중 O2 content의 a-v (arterial venous) difference를 증가시킬 수 있는 생체 내 변화로 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "체온 감소",
+        "2,3-DPG 감소",
+        "pH 증가",
+        "일산화탄소 중독",
+        "운동"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 21번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-022",
+      "recordId": "resp-2020-022",
+      "displayId": "555번",
+      "globalNumber": 555,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 22,
+      "originalNumbers": [
+        22
+      ],
+      "question": "다음 중 Haldane effect를 가장 바르게 설명한 것은?",
+      "passage": "",
+      "choices": [
+        "산소 분압이 높으면 CO2와 hemoglobin이 잘 떨어진다.",
+        "pH가 낮으면 산소에 대한 hemoglobin의 affinity가 감소한다.",
+        "PCO2가 낮으면 산소에 대한 hemoglobin의 affinity가 증가한다.",
+        "산소의 확산 속도는 solubility coefficient에 비례한다.",
+        "Hb saturation이 높을수록 더 많은 이산화탄소가 운반 될 수 있다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 22번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-023",
+      "recordId": "resp-2020-023",
+      "displayId": "556번",
+      "globalNumber": 556,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 23,
+      "originalNumbers": [
+        23
+      ],
+      "question": "다음 중 혈중 산소 분압이 낮을 때 그 신호를 받아 호흡 을 조절하는 조절 중추는?",
+      "passage": "",
+      "choices": [
+        "Pneumotaxic center",
+        "Apneustic center",
+        "Pre-Bozinger complex",
+        "Dorsal respiratory group (DRG)",
+        "Ventral respiratory group (VRG)"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        8
+      ],
+      "lectureId": 8,
+      "lectureTitle": "호흡의 조절",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 23번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-024",
+      "recordId": "resp-2020-024",
+      "displayId": "557번",
+      "globalNumber": 557,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 24,
+      "originalNumbers": [
+        24
+      ],
+      "question": "다음 중 연수 (medulla)의 호흡 조절 중추를 구성하는 두 neuron group에 속하는 neuron의 신호를 모두 받는 것은?",
+      "passage": "",
+      "choices": [
+        "Abdominal muscle",
+        "Larynx and pharynx",
+        "Internal intercostal muscles",
+        "External intercostal muscle",
+        "Back muscle"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        8
+      ],
+      "lectureId": 8,
+      "lectureTitle": "호흡의 조절",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 24번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-025",
+      "recordId": "resp-2020-025",
+      "displayId": "558번",
+      "globalNumber": 558,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 25,
+      "originalNumbers": [
+        25
+      ],
+      "question": "호흡은 여러 가지 원인에 의해 순간순간 달라진다. 다음 중 가장 관계가 없는 것은?",
+      "passage": "",
+      "choices": [
+        "Pulmonary stretch reflex",
+        "Arterial PO2 on the peripheral chemoreceptors",
+        "중추신경계 capillary PCO2 on central chemoreceptors",
+        "뇌척수액 pH",
+        "중추신경계 capillary blood pH"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        8
+      ],
+      "lectureId": 8,
+      "lectureTitle": "호흡의 조절",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 25번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-026",
+      "recordId": "resp-2020-026",
+      "displayId": "559번",
+      "globalNumber": 559,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 26,
+      "originalNumbers": [
+        26
+      ],
+      "question": "비정상적인 호흡 패턴의 하나로 특히 tidal volume의 크 기가 증가했다 감소했다를 반복하며 무호흡도 나타난다. 다음 중 무엇인가?",
+      "passage": "",
+      "choices": [
+        "Cheyne-Stokes respiration",
+        "Obstructive sleep apnea",
+        "Apneusis",
+        "Ataxic respiration",
+        "Hyperpnea"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽지연",
+      "professor": "이진영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        8
+      ],
+      "lectureId": 8,
+      "lectureTitle": "호흡의 조절",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 26번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-027",
+      "recordId": "resp-2020-027",
+      "displayId": "560번",
+      "globalNumber": 560,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 27,
+      "originalNumbers": [
+        27
+      ],
+      "question": "유기인제제 살충제를 흡입했을 때 나타나는 현상은?",
+      "passage": "",
+      "choices": [
+        "동공 확장",
+        "변비",
+        "빈맥",
+        "기관지 분비물 증가",
+        "유즙 분비 저하"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김채균",
+      "professor": "김채균",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        9
+      ],
+      "lectureId": 9,
+      "lectureTitle": "유기인제/파라콰트",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 27번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-028",
+      "recordId": "resp-2020-028",
+      "displayId": "561번",
+      "globalNumber": 561,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 28,
+      "originalNumbers": [
+        28
+      ],
+      "question": "Deferoxamine을 사용하여 독성을 저하시킬 수 있는 경 우가 아닌 것은?",
+      "passage": "",
+      "choices": [
+        "Paraquat",
+        "Ferrous sulfate",
+        "Acetaminophen",
+        "Blood transfusion",
+        "Aluminum"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김채균",
+      "professor": "김채균",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        9
+      ],
+      "lectureId": 9,
+      "lectureTitle": "유기인제/파라콰트",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 28번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R042"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R042",
+          "examYears": [
+            2020,
+            2021
+          ],
+          "yearCount": 2,
+          "questionIds": [
+            "2020-028",
+            "2021-061"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-029",
+      "recordId": "resp-2020-029",
+      "displayId": "562번",
+      "globalNumber": 562,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 29,
+      "originalNumbers": [
+        29
+      ],
+      "question": "8세의 원빈은 지난 3일간 끊임없는 기침과 호흡 곤란으 로 인하대병원에 내원하였다. 그는 지난 1년 동안 지속적인 기관지염으로 고생하고 있으며 검사결과 호기 천명음과 함께 중등도에서 중증의 호흡 곤란을 보였다. 원빈의 증상을 신속 하게 완화시키기 위한 처방으로 가장 적합한 것은?",
+      "passage": "",
+      "choices": [
+        "Ciclesonide inhalation",
+        "Albuterol by nebulizer",
+        "Bambuterol tablet",
+        "Zileuton",
+        "Cromolyn"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김채균",
+      "professor": "김채균",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        31
+      ],
+      "lectureId": 31,
+      "lectureTitle": "천식약제",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 29번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-030",
+      "recordId": "resp-2020-030",
+      "displayId": "563번",
+      "globalNumber": 563,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 30,
+      "originalNumbers": [
+        30
+      ],
+      "question": "이후 원빈의 증상은 좀처럼 나아지지 않았으므로 Theophylline을 10 mg/L의 농도를 유지하며 투약하였다. Theophylline의 농도 유지 실패로 Theophylline의 혈중 농도가 높아졌을 때 생기는 현상은?",
+      "passage": "",
+      "choices": [
+        "Sleepiness",
+        "Seizure",
+        "Bradycardia",
+        "Bronchocontraction",
+        "Sedation"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김채균",
+      "professor": "김채균",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        31
+      ],
+      "lectureId": 31,
+      "lectureTitle": "천식약제",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 30번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R043"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R043",
+          "examYears": [
+            2020,
+            2023
+          ],
+          "yearCount": 2,
+          "questionIds": [
+            "2020-030",
+            "2023-058"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-031",
+      "recordId": "resp-2020-031",
+      "displayId": "564번",
+      "globalNumber": 564,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 31,
+      "originalNumbers": [
+        31
+      ],
+      "question": "1년 3개월 남자환자가 쉼 쉬기 힘들어해서 병원에 왔다. 3일전부터 콧물과 기침이 있었고, 1일전에 열이 나면서 목소 리가 쉬었고 울리는 기침을 했다. 체온 38.2℃, 호흡 32회/분, 맥박 104회/분이었다. 가슴청진에서 들숨에서 그르렁거림이 들렸고, 가슴함몰(chest wall retraction)이 보였다. 가슴 X선 사진과 경부측면 X선 사진이다. 치료는? Hb 13.2 g/dL, WBC 13,600/mm3 (Neutrophil 44%, Lymphocyte 52%), ESR 16 mm/hr (참고치 20 mm/hr 이하), C-활성 단백 0.4 g/dL ( 0-0.9 g/dL)",
+      "passage": "",
+      "choices": [
+        "배농",
+        "기관내삽관",
+        "기관절개술",
+        "부데소니드",
+        "아목시실린-클라불란산"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q031_01.jpg",
+        "J/2020/q031_02.jpg"
+      ],
+      "legacyProfessor": "임대현",
+      "professor": "임대현",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        41
+      ],
+      "lectureId": 41,
+      "lectureTitle": "소아호흡기학 각론I",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 31번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "40·41강은 독립 강의록이 없고 정리본도 합본이다. 2025 문항 주제의 배정을 따라 중이염·부비동염은 40강, 크루프·세기관지염은 41강으로 잠정 구분했으며 두 강의 간 정확한 경계는 미확인."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q031_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q031_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R037"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R037",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-031",
+            "2021-107",
+            "2022-110",
+            "2023-098",
+            "2025-092"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-032",
+      "recordId": "resp-2020-032",
+      "displayId": "565번",
+      "globalNumber": 565,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 32,
+      "originalNumbers": [
+        32
+      ],
+      "question": "5개월 환자가 열이 나서 병원에 왔다. 4일 전부터 콧물과 기침을 했고, 1일 전부터 열이나고 보챘다. 체온 39.2℃ 이다. 환자의 고막 사진이다. 치료는?",
+      "passage": "",
+      "choices": [
+        "배농",
+        "아스피린",
+        "히드록시진",
+        "아목시실린",
+        "프레드니솔론"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q032_01.jpg"
+      ],
+      "legacyProfessor": "임대현",
+      "professor": "임대현",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        40
+      ],
+      "lectureId": 40,
+      "lectureTitle": "소아호흡기학 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 32번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "40·41강은 독립 강의록이 없고 정리본도 합본이다. 2025 문항 주제의 배정을 따라 중이염·부비동염은 40강, 크루프·세기관지염은 41강으로 잠정 구분했으며 두 강의 간 정확한 경계는 미확인."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q032_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R038"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R038",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-032",
+            "2021-105",
+            "2022-111",
+            "2023-099",
+            "2025-093"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-033",
+      "recordId": "resp-2020-033",
+      "displayId": "566번",
+      "globalNumber": 566,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 33,
+      "originalNumbers": [
+        33
+      ],
+      "question": "7세 남자환자가 38.2℃의 열로 병원에 왔다. 환자 는 18일전부터 기침과 가래가 있었는데 증상이 좋아지 지 않았고 지속되었으며, 3일전부터는 열이 났다. 신체 검사에서 인두발적이 있었으며, 호흡음에는 특이 소견 은 없었다. 코안 사진과 부비동 X선 사진이다. 치료는?",
+      "passage": "",
+      "choices": [
+        "부데소니드",
+        "레보세티리진",
+        "프레드니솔론",
+        "클라리트로마이신",
+        "아목시실린+클라불란산"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q033_01.jpg",
+        "J/2020/q033_02.jpg",
+        "J/2020/q033_03.jpg"
+      ],
+      "legacyProfessor": "임대현",
+      "professor": "임대현",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        40
+      ],
+      "lectureId": 40,
+      "lectureTitle": "소아호흡기학 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 33번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "40·41강은 독립 강의록이 없고 정리본도 합본이다. 2025 문항 주제의 배정을 따라 중이염·부비동염은 40강, 크루프·세기관지염은 41강으로 잠정 구분했으며 두 강의 간 정확한 경계는 미확인."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q033_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q033_02.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q033_03.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R039"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R039",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-033",
+            "2021-108",
+            "2022-112",
+            "2023-100",
+            "2025-094"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-034",
+      "recordId": "resp-2020-034",
+      "displayId": "567번",
+      "globalNumber": 567,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 34,
+      "originalNumbers": [
+        34
+      ],
+      "question": "10개월 아이가 쌕쌕거려서 병원에 왔다. 5일전에 기침과 콧물이 있었고, 체온 37.8℃, 호흡수 52회/분 이 었다. 이전에 쌕쌕거린 적은 없었다. 가슴 X선 사진과 혈액검사는 다음과 같았다. 치료는? Hb 12.8 g/dL, WBC 13,600/mm3 (Neutrophil 42%, Lymphocyte 56%), ESR 14 mm/hr (참고치 20 mm/hr 이하), C-활성 단백 0.5 g/dL ( 0-0.9 g/dL)",
+      "passage": "",
+      "choices": [
+        "살부타몰",
+        "아목시실린",
+        "히드록시진",
+        "덱사메타손",
+        "아세틸시스테인"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "임대현",
+      "professor": "임대현",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        41
+      ],
+      "lectureId": 41,
+      "lectureTitle": "소아호흡기학 각론I",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 34번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "40·41강은 독립 강의록이 없고 정리본도 합본이다. 2025 문항 주제의 배정을 따라 중이염·부비동염은 40강, 크루프·세기관지염은 41강으로 잠정 구분했으며 두 강의 간 정확한 경계는 미확인.",
+        "X-ray를 언급하지만 공식 원문에도 실제 사진 없음. 해설 101쪽의 2019 사진은 참고문항이므로 대체 금지."
+      ],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R040"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R040",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-034",
+            "2021-110",
+            "2022-113",
+            "2023-101",
+            "2025-095"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-035",
+      "recordId": "resp-2020-035",
+      "displayId": "568번",
+      "globalNumber": 568,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 35,
+      "originalNumbers": [
+        35
+      ],
+      "question": "중장비기사인 52세 과체중 남성이 봄이면 눈이 가렵고 눈물과 콧물이 나서 일차 진료기관을 방문하였다. 환자는 위의 증상이 상당히 오래전부터 나타났음에도 병원에 가고 싶지는 않았으나, 가족의 설득에 의해 오늘 내원하게 되었다고 한다. 다음 중 이 환자에게 가장 적합한 처치는 어느 것인가?",
+      "passage": "",
+      "choices": [
+        "Albuterol",
+        "Diphenhydramine",
+        "Promethazine",
+        "Hydroxyzine",
+        "Loratadine"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김일진",
+      "professor": "김채균",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        10
+      ],
+      "lectureId": 10,
+      "lectureTitle": "히스타민 길항제, 항알러지 약물",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 35번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-036",
+      "recordId": "resp-2020-036",
+      "displayId": "569번",
+      "globalNumber": 569,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 36,
+      "originalNumbers": [
+        36
+      ],
+      "question": "22세 남성이 계절성 알레르기성 비염 증세를 완화하기 위해 antihistamine을 복용했다. 대부분의 경우 antihistamine 은 이 환자에게 효과적이었다. Histamine은 다음 중 어느 아미노산이 탈 탄산화 되어 형성 되는 천연 아민인가?",
+      "passage": "",
+      "choices": [
+        "L-arginine",
+        "Heparin",
+        "Histidine",
+        "Lysine",
+        "Tyrosine"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김일진",
+      "professor": "김채균",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        10
+      ],
+      "lectureId": 10,
+      "lectureTitle": "히스타민 길항제, 항알러지 약물",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 36번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-037",
+      "recordId": "resp-2020-037",
+      "displayId": "570번",
+      "globalNumber": 570,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 37,
+      "originalNumbers": [
+        37
+      ],
+      "question": "다음 중 영유아가 호흡기 질환에 불리한 설명 중 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "주로 구강호흡을 한다",
+        "기도내 점액선이 발달이 부족하다.",
+        "늑골이 성인보다는 수직으로 위치한다.",
+        "호흡에 불리한 급속 눈운동 수면을 더 많이 한다.",
+        "기도의 구조적인 특징으로 학동기 아동보다 상대적으로 기도저항 증가가 적다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김정희",
+      "professor": "김정희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        27
+      ],
+      "lectureId": 27,
+      "lectureTitle": "소아호흡기 II-영유아 호흡기 질환과 선천기도 기형",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 37번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-038",
+      "recordId": "resp-2020-038",
+      "displayId": "571번",
+      "globalNumber": 571,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 38,
+      "originalNumbers": [
+        38
+      ],
+      "question": "6개월 남아가 생후 2주경부터 발생한 협착음 (천음, stridor)으로 병원에 왔다. 협착음은 발생 이후 점점 더 커졌다가 최근에는 더 심해지지 않고 있다고 하였다. 엎어 눕히면 소리가 덜하다고 한다. 수유 중에도 소리가 나지만 수유의 어려움은 없다고 한다. 다음 올바른 조치는?",
+      "passage": "",
+      "choices": [
+        "경과 관찰",
+        "경부 초음파",
+        "강직성 후두 내시경",
+        "경부 X-선 (전후, 측면)",
+        "수술 (supraglattoplasty)"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김정희",
+      "professor": "김정희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        27
+      ],
+      "lectureId": 27,
+      "lectureTitle": "소아호흡기 II-영유아 호흡기 질환과 선천기도 기형",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 38번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-039",
+      "recordId": "resp-2020-039",
+      "displayId": "572번",
+      "globalNumber": 572,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 39,
+      "originalNumbers": [
+        39
+      ],
+      "question": "9세 남아가 10일전부터 발생한 열, 기침, 가래, 좌측 어깨 통증으로 입원하였다. 다음은 가슴 사진과 CT 소견이다. 진단은?",
+      "passage": "",
+      "choices": [
+        "폐농양",
+        "횡경막 탈장",
+        "기관지성 낭포 (bronchogenic cyst)",
+        "폐격리증 (pulmonary sequestration)",
+        "선천폐기도기형 (congenital pulmonary airway malformation)"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q039_01.jpg",
+        "J/2020/q039_02.jpg"
+      ],
+      "legacyProfessor": "김정희",
+      "professor": "김정희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        28
+      ],
+      "lectureId": 28,
+      "lectureTitle": "소아호흡기 II - 기도이물과 흡인 폐렴",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 39번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q039_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q039_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R041"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R041",
+          "examYears": [
+            2020,
+            2022
+          ],
+          "yearCount": 2,
+          "questionIds": [
+            "2020-039",
+            "2022-059"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-040",
+      "recordId": "resp-2020-040",
+      "displayId": "573번",
+      "globalNumber": 573,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 40,
+      "originalNumbers": [
+        40
+      ],
+      "question": "5개월 남아가 2일전부터 열이 발생하여 병원에 왔다. 10 일전부터 가래와 기침이 있었으며 기침 하면서 자주 토하였 다. 전 폐에서 천명이 들렸다. 다음은 흉부 X-선 사진과 CT이 다. 진단은 ?",
+      "passage": "",
+      "choices": [
+        "천식",
+        "기도이물",
+        "흡인 폐렴",
+        "급성세기관지염",
+        "지역사회획득폐렴"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q040_01.jpg",
+        "J/2020/q040_02.jpg"
+      ],
+      "legacyProfessor": "김정희",
+      "professor": "김정희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        28
+      ],
+      "lectureId": 28,
+      "lectureTitle": "소아호흡기 II - 기도이물과 흡인 폐렴",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 40번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q040_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q040_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-041",
+      "recordId": "resp-2020-041",
+      "displayId": "574번",
+      "globalNumber": 574,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 41,
+      "originalNumbers": [
+        41
+      ],
+      "question": "기저 질환이 없었던 74세 여자가 2일 전부터 발생한 호흡 곤란을 주소로 내원하였다. 4일 전부터 발열, 기침, 가래 가 있었고 응급실 방문 당시 활력 증후는 혈압150/80 mmHg, 맥박 120 회/분, 호흡수 35회/분, 체온 38도 확인 되었고 의 식은 혼미 하였다. 동맥혈 가스 검사 pH 7.32 PaCO2 25 mmHg PaO2 mmHg SaO2 88% 확인 되었다. 가슴 X-선 이 다. 기계 환기를 적용하기로 결정하였다. 적절한 기계 환기 적 용은?",
+      "passage": "",
+      "choices": [
+        "Flow mode로 설정하였다.",
+        "고원부 평탄압을 30 mmH2O 미만으로 유지하였다",
+        "일회 호흡량을 10 mL/predicted body weight으로 설정하 였다",
+        "Postive endexpiratory pressure를 3 mmH2O이하로 유지 하였다.",
+        "산소 포화도 개선을 위해 High frequency oscillation ventilation을 적용하였다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q041_01.jpg"
+      ],
+      "legacyProfessor": "김정수",
+      "professor": "김정수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        6
+      ],
+      "lectureId": 6,
+      "lectureTitle": "중환자의학I",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 41번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "공식 8쪽에 41–42 공통 그림으로 명시된 사진을 42번만 연결했던 추출 누락을 보완함."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q041_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R021"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R021",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-041",
+            "2021-050",
+            "2022-055",
+            "2023-050",
+            "2025-026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-042",
+      "recordId": "resp-2020-042",
+      "displayId": "575번",
+      "globalNumber": 575,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 42,
+      "originalNumbers": [
+        42
+      ],
+      "question": "앞서 언급한 환자가 적절한 기계 호흡 적용 이후에도 PaO2/FiO2 가 150 이상으로 호전 되지 않았다. 산소화를 개 선시키기 위해 우선적으로 고려할 수 있는 다음 방법은?",
+      "passage": "공통 증례 (2020 호흡기계 41번)\n기저 질환이 없었던 74세 여자가 2일 전부터 발생한 호흡 곤란을 주소로 내원하였다. 4일 전부터 발열, 기침, 가래 가 있었고 응급실 방문 당시 활력 증후는 혈압150/80 mmHg, 맥박 120 회/분, 호흡수 35회/분, 체온 38도 확인 되었고 의 식은 혼미 하였다. 동맥혈 가스 검사 pH 7.32 PaCO2 25 mmHg PaO2 mmHg SaO2 88% 확인 되었다. 가슴 X-선 이 다. 기계 환기를 적용하기로 결정하였다.",
+      "choices": [
+        "NO gas",
+        "Prone position",
+        "Systemic steroids",
+        "Early Tracheostomy",
+        "Extracorporeal membrane oxygenation"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q041_01.jpg"
+      ],
+      "legacyProfessor": "김정수",
+      "professor": "김정수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        6
+      ],
+      "lectureId": 6,
+      "lectureTitle": "중환자의학I",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 42번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q041_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R022"
+      ],
+      "sharedCaseQuestionId": "2020-041",
+      "repeatHistory": [
+        {
+          "familyId": "R022",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-042",
+            "2021-051",
+            "2022-056",
+            "2023-051",
+            "2025-027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-043",
+      "recordId": "resp-2020-043",
+      "displayId": "576번",
+      "globalNumber": 576,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 43,
+      "originalNumbers": [
+        43
+      ],
+      "question": "61세 남자가 2일 전 숨이 차서 응급실에 왔다. 기침, 가 래, 발열은 없었다. 담배는 피우지 않았다. 혈압 142/80 mmHg, 맥박 110 회/분, 호흡 24회/분, 체온 36.5 ℃ 였다. 호 흡음은 정상 이었다. 대기 호흡에서 동맥혈 가스 검사는 다음 과 같았다. 가슴 X-선 이다. 숨이 찬 기전은? pH 7.31 PCO2 52 mmHg HCO3- 27 mEq/L PaO2 65 mmHg SaO2 85%",
+      "passage": "",
+      "choices": [
+        "심 박출량 감소",
+        "호흡 중추 억제",
+        "폐포 환기 감소",
+        "폐 확산능 감소",
+        "패내 션트 (Shunt) 감소"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q043_01.jpg"
+      ],
+      "legacyProfessor": "김정수",
+      "professor": "김정수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        5
+      ],
+      "lectureId": 5,
+      "lectureTitle": "환기장애",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 43번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q043_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-044",
+      "recordId": "resp-2020-044",
+      "displayId": "577번",
+      "globalNumber": 577,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 44,
+      "originalNumbers": [
+        44
+      ],
+      "question": "78세 남자가 3일 전부터 악화된 호흡곤란을 주소로 병원 에 왔다. 10여 년 전 숨이 차기 시작했고 1년 전부터는 100m 걷기도 어려울 정도라고 한다. 50갑년의 흡연자이다. 활력 증 후는 혈압 110/80 mmHg, 맥박 110 회/분, 호흡 27 회/분, 체 온 36도 확인 되었으며 정신 상태는 정상이었다. 가슴청진에 쌕쌕 거리는 소리가 숨을 내쉴 때 들렸다. 정강이 앞 오목부 종이 확인 되었으며 호흡곤란 때문에 산소를 투여하였으나 호 흡곤란이 호전 되지 않았다. 가슴 X-선이다. 동맥혈 가스 검사 가 다음가 같을 때 우선적으로 고려할 수 있는 치료는? 동맥혈가스분석 (O2 5L/min pH 7.20, PaCO2 82mmHg, PaO2 60mmHg, HCO3-37meq/L)",
+      "passage": "",
+      "choices": [
+        "고유량 산소 요법",
+        "비침습적 양압 환기",
+        "기관 삽관 후 기계 환기",
+        "마스크를 통한 산소 공급",
+        "기관 절개 후 산소 투여"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q044_01.jpg"
+      ],
+      "legacyProfessor": "김정수",
+      "professor": "김정수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        5
+      ],
+      "lectureId": 5,
+      "lectureTitle": "환기장애",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 44번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q044_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-045",
+      "recordId": "resp-2020-045",
+      "displayId": "578번",
+      "globalNumber": 578,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 45,
+      "originalNumbers": [
+        45
+      ],
+      "question": "IIP에서 각 군에 속하는 질환에 합당한 문항은? A. Chronic Fibrosing B. Acute / Subacute C. Smoking-related",
+      "passage": "",
+      "choices": [
+        "A: Idiopathic NSIP / B: AIP / C: COP",
+        "A: IPF / B: Idiopathic NSIP / C: RB-ILD",
+        "A: IPF / B: DIP / C: COP",
+        "A: IPF / B: AIP / C: COP",
+        "A: Idiopathic NSIP / B: COP / C: DIP"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이홍렬",
+      "professor": "장혜진",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        42
+      ],
+      "lectureId": 42,
+      "lectureTitle": "간질성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 45번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-046",
+      "recordId": "resp-2020-046",
+      "displayId": "579번",
+      "globalNumber": 579,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 46,
+      "originalNumbers": [
+        46,
+        48
+      ],
+      "question": "HRCT상 UIP pattern에 대한 설명이다. 빈 칸에 알맞은 내용이 순서대로 되어 있는 항목은? - ( 1 ) and ( 2 ) predominant; distribution is often heterogeneous - ( 3 ) with or without peripheral traction bronchiectasis or bronchiolectasis",
+      "passage": "",
+      "choices": [
+        "subpleural / perilymphatic / cysts",
+        "central/ upper & mid-lung /ground-glass opacities",
+        "subpleural / basal /honeycombing",
+        "diffuse / central / micronodules",
+        "subpleural / peribronchovascular / consolidation"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이홍렬",
+      "professor": "장혜진",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        42
+      ],
+      "lectureId": 42,
+      "lectureTitle": "간질성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 46,48번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "같은 연도의 동일 발문·선지. 공식 시험지에 실제로 두 번 수록되어 원번호를 별칭으로 보존하고 하나로 합침."
+      ],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-047",
+      "recordId": "resp-2020-047",
+      "displayId": "580번",
+      "globalNumber": 580,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 47,
+      "originalNumbers": [
+        47
+      ],
+      "question": "3개월 미만의 기침, 발열, 권태감, 피로감, 체중감소 등을 동반한 인플루엔자 같은 양상으로 나타날 수 있고 HRCT상 폐 포 경화 음영, 젖빛유리 음영 등이 주로 폐 주변 부위와 폐 하부에서 관찰된다. BAL상 림프구증다증을 보이면서 CD4+/ CD8+림프구가 감소하고 부신피질호르몬제를 사용하면 호전되 는 경향을 보이는 간질성 폐질환은?",
+      "passage": "",
+      "choices": [
+        "특발성 폐섬유증",
+        "비특이성 간질성 폐렴",
+        "특발성 기질화 폐렴",
+        "급성 간질성 폐렴",
+        "박리성 간질성 폐렴"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이홍렬",
+      "professor": "장혜진",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        42
+      ],
+      "lectureId": 42,
+      "lectureTitle": "간질성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 47번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-049",
+      "recordId": "resp-2020-049",
+      "displayId": "581번",
+      "globalNumber": 581,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 49,
+      "originalNumbers": [
+        49
+      ],
+      "question": "다음 중 IIP에 대한 올바른 기술은?",
+      "passage": "",
+      "choices": [
+        "특발성 기질화 폐렴, 급성 간질성 폐렴과 박리성 간질성 폐렴은 부신피질호르몬제에 비교적 좋은 반응을 보인다.",
+        "비특이성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.",
+        "일반적인 Chest CT scan은 UIP와 non-UIP를 구분하는데 필수적이다",
+        "특발성 기질화 폐렴과 호흡세기관지염과 연관된 간질성 폐질환은 pigmented granule을 가진 macrophage가 중요한 소견이다.",
+        "비특이성 간질성 폐렴은 병리 소견상 Temporal heterogeneity가 특징적 소견이다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이홍렬",
+      "professor": "장혜진",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        42
+      ],
+      "lectureId": 42,
+      "lectureTitle": "간질성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 49번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-050",
+      "recordId": "resp-2020-050",
+      "displayId": "582번",
+      "globalNumber": 582,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 50,
+      "originalNumbers": [
+        50
+      ],
+      "question": "간질성 폐렴에 대한 기술 중 맞는 항목은?",
+      "passage": "",
+      "choices": [
+        "폐 림프관평활근종증은 젊은 남자에서, 폐랑게르한스세포 조직구증은 젊은 여자에서 호발한다.",
+        "폐꽈리단백증은 대부분 부신피질호르몬제를 사용하여 치 료한다.",
+        "호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 부신피질호르몬제를 조기에 중단하면 잘 재발한다.",
+        "Allergic bronchopulmonary aspergillosis는 균의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.",
+        "Goodpasture 증후군은 다발성 결절의 소견을 보이며 c-ANCA 양성이 특징이다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이홍렬",
+      "professor": "장혜진",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        43
+      ],
+      "lectureId": 43,
+      "lectureTitle": "교원성/과민성/호산구성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 50번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-051",
+      "recordId": "resp-2020-051",
+      "displayId": "583번",
+      "globalNumber": 583,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 51,
+      "originalNumbers": [
+        51
+      ],
+      "question": "간질성 폐렴에 대한 기술 중 맞는 항목은?",
+      "passage": "",
+      "choices": [
+        "과민성 폐장염은 과민성 면역반응이기 때문에 급성 시에 주로 blood eosinophilia가 동반된다",
+        "과민성 폐장염에서 원인 물질에 대한 precipitin의 증명 은 확진적인 소견은 아니며 Thermophilic actinomycetes가 가장 중요한 원인이다.",
+        "유육종증은 1, 2, 3형중 1형이 가장 빈도가 높고 대개 비 가역적으로 진행하기 때문 에 대부분에서 즉각적인 부신피질호르몬제의 투여가 필요하 다.",
+        "유육종증은 폐와 림프절에 흔하게 발생하며 BAL 소견상 림프구가 증가하고 조직 검사에서 치즈괴사성 육아종 (caseous necrotic granuloma) 을 형성한다.",
+        "유육종증은 hypocalcemia, hypocalciuria, skin anergy 등 의 소견을 보일 수 있다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이홍렬",
+      "professor": "장혜진",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        43
+      ],
+      "lectureId": 43,
+      "lectureTitle": "교원성/과민성/호산구성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 51번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-052",
+      "recordId": "resp-2020-052",
+      "displayId": "584번",
+      "globalNumber": 584,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 52,
+      "originalNumbers": [
+        52
+      ],
+      "question": "23세 남자가 폴란드 출장을 마치고 비행기로 귀국한 후 공항에서 흉통 및 호흡곤란을 호소 하여 응급실로 내원하였다. 혈압은 60/40 mmHg, 맥박은 140 회/분, 호흡수는 30회/분. 체온 은 36도 였다. 심전도는 동율성 빈맥였다. NT proBNP 는 2100 ng/L, D-dimer 는 28.5 ng/mL, lactic acid 5 mmol/L 였다. 동맥혈 가스 분석 결과 pH 7.4, pCO2 30 mmHg, pO2 57 mmHg, SpO2 90% 였다. 경흉부 심장 초음파 검사에 서 좌심실은 D-shape (그림1) 이며 좌심실 구혈률은 65% 였으며, 우심실 확장 및 심각한 수축 기능 부전을 보였고, 수축기 최대 폐동맥 압력은 100 mmHg 였다. 흉부단층촬영 영상 (그림 2)은 사진과 같았다. 환자의 쇼크의 병태생리학적인 분류는 무엇인가?",
+      "passage": "",
+      "choices": [
+        "Distributive (septic) shock",
+        "Distributive (neurogenic) shock",
+        "Cardiogenic shock",
+        "Hypovolemic shock",
+        "Extra-cardiac obstructive shock 그림1. 경흉부 심장초음파 영상 (parasternal short axis view) 그림2. 흉부전산화촬영"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q052_01.jpg",
+        "J/2020/q052_02.jpg"
+      ],
+      "legacyProfessor": "이만종",
+      "professor": "이만종",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        12
+      ],
+      "lectureId": 12,
+      "lectureTitle": "중환자의학II",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 52번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q052_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q052_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R023"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R023",
+          "examYears": [
+            2020,
+            2021,
+            2022
+          ],
+          "yearCount": 3,
+          "questionIds": [
+            "2020-052",
+            "2021-090",
+            "2022-092"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-053",
+      "recordId": "resp-2020-053",
+      "displayId": "585번",
+      "globalNumber": 585,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 53,
+      "originalNumbers": [
+        53
+      ],
+      "question": "52세 남자가 직장에서 일하던 중 흉통 및 호흡곤란을 호 소하며 바닥에 쓰러졌다. 직장 동료들이 심폐소생술을 진행하 며 119 구급대에 연락하였고, 5분 뒤 구급대원이 도착하여 자동심장충격기 (AED)를 부착한 모니터에서 심실 세동을 보여 심폐소생술 및 제세동을 하며 응급실로 내원하였다. 응급실에 서 5분 간 심폐소생 후 순환 회복하였다. 혈압은 70/40 mmHg, 맥박은 40회/분, 호흡수는 10회/분, 체 온은 34도 였다. 심전도는 그림과 같았다. 심장 효소 검사에 서 CK 1521 IU/L, CK-MB 65.8 ng/ml, Troponin-I 35.0 ng/ml 였으며, lactic acid 22 mmol/L 였다. 즉시 심도자실로 이송하 여 일차적 심혈관 중재시술을 시행하였다. 노르에프네프린 0.5 mcg/kg/min, 도부타민 15 mcg/kg/min을 투여 중이었으 며 혈압은 50/20 mmHg 측정되었다. 혈역학적 최적화를 위해 다음으로 환자에게 적용해야 할 것은 무엇인가?",
+      "passage": "",
+      "choices": [
+        "체외막산소요법 (VA ECMO, veno-arterial extracorporeal membrane oxygenation)",
+        "대동맥내풍선펌프 (IABP, Intra aortic balloon pump)",
+        "바소프레신 주입",
+        "도파민 주입",
+        "증류수 수액 주입 그림. 심전도"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q053_01.jpg"
+      ],
+      "legacyProfessor": "이만종",
+      "professor": "이만종",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        12
+      ],
+      "lectureId": 12,
+      "lectureTitle": "중환자의학II",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 53번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q053_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-054",
+      "recordId": "resp-2020-054",
+      "displayId": "586번",
+      "globalNumber": 586,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 54,
+      "originalNumbers": [
+        54
+      ],
+      "question": "20세 남자가 신체검사에서 우연히 발견된 폐종괴를 주소로 내원하였다. 환자는 어렸을 때부터 폐렴을 자주 앓은 과거력이 있었으나 현재 특별한 증상을 보이지 않았다. 가슴 CT검사에서 폐 좌하엽에 불규칙한 경계를 가진 경화성 병변이 있었다(그림 A). 환자는 좌하엽 폐절제술을 시행받았고 병리검사에서 main bronchus와 연결되지 않는 폐조직이 basal segment에서 발견되었고 사진과 같은 병리 소견을 보였다 (그림 B). 정확한 진단을 위해 확인해야 하는 임상 소견 중 가장 합당한 것을 다음 중에서 고르시오. (A) (B)",
+      "passage": "",
+      "choices": [
+        "수술 소견에서 횡격막 결손이 동반되었는지 여부",
+        "혈중 alpha-fetoprotein 수치가 상승하였는지 여부",
+        "수술 소견에서 대동맥에서 분지한 동맥이 병변을 supply 하는지 여부",
+        "가래에서 결핵균이 검출되었는지 확인",
+        "현미경 소견에서 병변 부위에 분포하는 낭의 크기와 낭을 구성하는 세포의 분화 정도"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q054_01.jpg",
+        "J/2020/q054_02.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        39
+      ],
+      "lectureId": 39,
+      "lectureTitle": "[실습] 병리실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 54번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q054_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q054_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-055",
+      "recordId": "resp-2020-055",
+      "displayId": "587번",
+      "globalNumber": 587,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 55,
+      "originalNumbers": [
+        55
+      ],
+      "question": "62세 남자가 3개월간 지속된 기침을 주소로 내원하였다. Chest CT 검사에서 우상엽에 직경 5 cm 크기의 종괴가 발견 되었고 CT 검사에 포함된 간에 약 3 cm 크기의 종괴가 보였 다. 간 종괴에 대한 침생검을 시행하였고 조직 소견과 CD56, Chromogranin 에 대한 면역조직화학염색 소견이 다음과 같 은 때 가장 합당한 진단을 고르시오.",
+      "passage": "",
+      "choices": [
+        "Hepatocellular carcinoma",
+        "Cholangiocarcinoma",
+        "Acute suppurative inflammation with abscess formation",
+        "Interstitial and intraalveolar edema with hemorrhage",
+        "peribronchial epithelioid granulomas with suppuration"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q055_01.jpg",
+        "J/2020/q055_02.jpg",
+        "J/2020/q055_03.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        37
+      ],
+      "lectureId": 37,
+      "lectureTitle": "폐종양의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 55번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "증례와 3–5번 선지의 내용 불일치는 공식 원문 12–13쪽에도 존재. 추출 오류로 간주하여 임의 고치지 않음."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q055_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q055_02.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q055_03.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-056",
+      "recordId": "resp-2020-056",
+      "displayId": "588번",
+      "globalNumber": 588,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 56,
+      "originalNumbers": [
+        56
+      ],
+      "question": "67세 남자 환자가 흉부 CT 검사에서 좌측 흉강에 7cm 크기의 종괴가 관찰되었다. 이 종괴는 경계가 분명하면서 우 상엽측 흉강내에 있었고 폐침범 소견은 확실하지 않았다. 우 상엽절제술을 시행하였고 장측 흉막에 붙어서 자라는 경계가 좋은 종괴가 있었다. 종괴 단면에서 괴사나 출혈의 소견은 없 었고 회백색의 치밀한 섬유성 종양이었다. 병리 소견이 다음 과 같았고 면역조직화학염색에서 CD34에 양성을 보였다. 이 종양에서 가장 예상되는 유전자 이상 소견을 고르시오.",
+      "passage": "",
+      "choices": [
+        "EGFR mutation",
+        "EML4-ALK fusion",
+        "Homozygous deletion of CDKN2A",
+        "High tumor mutation burden (TMB)",
+        "NAB2-STAT6 fusion"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q056_01.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        38
+      ],
+      "lectureId": 38,
+      "lectureTitle": "흉막 종격동 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 56번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q056_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R029"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R029",
+          "examYears": [
+            2020,
+            2023,
+            2025
+          ],
+          "yearCount": 3,
+          "questionIds": [
+            "2020-056",
+            "2023-031",
+            "2025-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-057",
+      "recordId": "resp-2020-057",
+      "displayId": "589번",
+      "globalNumber": 589,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 57,
+      "originalNumbers": [
+        57
+      ],
+      "question": "49세 남자가 가슴 종괴를 주소로 내원하였다. 1년 전 흉 부 CT 검사에서 전종격동에 약 4cm 크기의 종괴가 관찰되어 추적관찰 중 종괴의 크기가 약간 커져 수술을 위해 내원하였 다. 종격동에 있는 림프절은 커져 있지 않으며 심장막에 붙어 있었지만 주변 조직으로 침범은 보이지 않았다. 환자의 혈액 검사에서 α- fetoprotein 이나 b-HCG 는 정상 수치를 보였다. 가장 예상되는 진단을 고르시오.",
+      "passage": "",
+      "choices": [
+        "Thymic carcinoma",
+        "Acute lymphoblastic lymphoma",
+        "Seminoma",
+        "Non-seminomatous germ cell tumor",
+        "Thymoma"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        38
+      ],
+      "lectureId": 38,
+      "lectureTitle": "흉막 종격동 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 57번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-058",
+      "recordId": "resp-2020-058",
+      "displayId": "590번",
+      "globalNumber": 590,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 58,
+      "originalNumbers": [
+        58
+      ],
+      "question": "다음 사진을 보고 이 질환의 발생기전과 관련이 있는 것 을 고르시오.",
+      "passage": "",
+      "choices": [
+        "Vascular smooth muscle cell and endothelial cell proliferation",
+        "Recurrent bronchial obstruction and infection",
+        "Type 1 hypersensitivity reaction",
+        "Hyperplasia of submucosal glands with hypersecretion of mucus",
+        "Smoking induced inflammation and protease-antiprotease imbalance"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q058_01.jpg",
+        "J/2020/q058_02.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        15
+      ],
+      "lectureId": 15,
+      "lectureTitle": "폐쇄성폐질환의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 58번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q058_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q058_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-059",
+      "recordId": "resp-2020-059",
+      "displayId": "591번",
+      "globalNumber": 591,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 59,
+      "originalNumbers": [
+        59
+      ],
+      "question": "69세 남자환자가 한달 전부터 지속되는 기침과 호흡곤 란, 발열 증상을 주소로 내원하였다. 환자는 당뇨병으로 약을 복용 중이었고 내원 3개월 전 대상 포진으로 치료를 받은 병 력이 있었다. 가슴 단층촬영에서 우상엽에 경계가 불분명한 경화성 병변을 관찰할 수 있었다. 폐병변에 대한 진단을 위해 폐생검을 시행하였고 다음과 같은 소견을 보였다. 진단을 위 해 시행해야 하는 특수 염색을 선택하시오.",
+      "passage": "",
+      "choices": [
+        "Gomori-Methenamine-Silver (GMS) stain",
+        "Ziehl-Neelsen stain",
+        "Auramine-Rodanine stain",
+        "Elastic stain",
+        "Masson-Trichrome stain"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q059_01.jpg",
+        "J/2020/q059_02.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        39
+      ],
+      "lectureId": 39,
+      "lectureTitle": "[실습] 병리실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 59번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q059_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q059_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R033"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R033",
+          "examYears": [
+            2020,
+            2023,
+            2025
+          ],
+          "yearCount": 3,
+          "questionIds": [
+            "2020-059",
+            "2023-035",
+            "2024-024",
+            "2025-013"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-060",
+      "recordId": "resp-2020-060",
+      "displayId": "592번",
+      "globalNumber": 592,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 60,
+      "originalNumbers": [
+        60
+      ],
+      "question": "72세 남자가 기침과 가슴통증을 주소로 내원하여 시행한 Chest CT검사에서 폐 중심부에 불규칙한 경계를 가진 종괴가 있었고 종격동 림프절을 침범하고 있었다. 이 종괴의 병리 소 견이 다음과 같을 때 진단명을 쓰시오. [주관식]",
+      "passage": "",
+      "choices": [],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q060_01.jpg",
+        "J/2020/q060_02.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        39
+      ],
+      "lectureId": 39,
+      "lectureTitle": "[실습] 병리실습",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 60번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "written",
+      "sourceStatus": "official_exam",
+      "parseMethod": "unparsed_or_written",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q060_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q060_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-061",
+      "recordId": "resp-2020-061",
+      "displayId": "593번",
+      "globalNumber": 593,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 61,
+      "originalNumbers": [
+        61
+      ],
+      "question": "다음 폐 질환 중에서 흡연과 밀접한 관련이 있는 폐질환 이 아닌 것을 고르시오.",
+      "passage": "",
+      "choices": [
+        "Pulmonary Langerhans cell histiocytosis",
+        "Bronchiolitis obliterans organizing pneumonia",
+        "Desquamative interstitial pneumonia",
+        "Respiratory bronchiolitis associated interstitial lung disease",
+        "Chronic bronchitis"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        16
+      ],
+      "lectureId": 16,
+      "lectureTitle": "제한성폐질환의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 61번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-062",
+      "recordId": "resp-2020-062",
+      "displayId": "594번",
+      "globalNumber": 594,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 62,
+      "originalNumbers": [
+        62
+      ],
+      "question": "다음은 진폐증 (Pneumoconiosis)에 대한 설명이다. 맞게 설명한 것을 고르시오.",
+      "passage": "",
+      "choices": [
+        "석면에 노출된 사람이 흡연을 하면 중피종의 발생 위험이 월등히 증가한다.",
+        "진폐증을 유발하는 분진의 크기는 일반적으로 5 ~ 10um 이다.",
+        "Chest CT에서 가슴막판 (pleural plaque) 이 보이는 것은 석면노출 사실을 알려준다",
+        "탄광부진폐증 환자의 경우 흡연을 하지 않아도 폐암 발생 위험도가 급격히 증가한다.",
+        "만성규소폐증은 폐하엽과 흉막하 폐를 주로 침범한다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        16
+      ],
+      "lectureId": 16,
+      "lectureTitle": "제한성폐질환의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 62번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-063",
+      "recordId": "resp-2020-063",
+      "displayId": "595번",
+      "globalNumber": 595,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 63,
+      "originalNumbers": [
+        63
+      ],
+      "question": "66세 여자가 폐결핵으로 치료를 받다가 폐병변이 호전되 지 않고 크기가 커져 내원하였다. Chest CT 검사에서 좌상엽 에 약 3cm 크기의 종괴가 있고 그 주변으로 작은 소결절이 흩어져 있었다. 흉막삼출이 동반되어 있었고 흉막에 작은 결 절도 보였다. 폐종괴에 대한 세침흡인세포검사를 시행하였다. 병리 소견이 다음과 같을 때 이 환자의 진단과 치료방침을 결 정하기 위해 시행하는 검사가 아닌 것을 선택하시오.",
+      "passage": "",
+      "choices": [
+        "원발 폐암이라는 것을 확인할 수 있는 TTF1 면역조직화 학 염색",
+        "EGFR mutation을 찾기 위한 real time PCR 검사",
+        "ALK fusion을 찾기 위한 Fluorescent in situ hybridization (FISH) 검사",
+        "ROS1 fusion을 찾기 위한 reverse transcription PCR 검사",
+        "HER2 amplification을 찾기 위한 면역조직화학염색"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q063_01.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        37
+      ],
+      "lectureId": 37,
+      "lectureTitle": "폐종양의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 63번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q063_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-064",
+      "recordId": "resp-2020-064",
+      "displayId": "596번",
+      "globalNumber": 596,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 64,
+      "originalNumbers": [
+        64
+      ],
+      "question": "다음은 Usual interstitial pneumonia pattern (보통사이질 폐렴) 을 진단할 때 도움을 주는 조직 소견을 나열한 것이다. 이러한 소견에 해당되지 않는 것을 고르시오.",
+      "passage": "",
+      "choices": [
+        "Ill defined small granulomas in the interstitium",
+        "Fibroblastic foci",
+        "Patchy fibrosis obliterating alveolar architecture",
+        "Microscopic honeycomb change",
+        "Temporal heterogeneity"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        16
+      ],
+      "lectureId": 16,
+      "lectureTitle": "제한성폐질환의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 64번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-065",
+      "recordId": "resp-2020-065",
+      "displayId": "597번",
+      "globalNumber": 597,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 65,
+      "originalNumbers": [
+        65
+      ],
+      "question": "다음 중에서 비소세포폐암의 발생과 생존에 밀접한 관련 이 있어 표적치료의 대상이 될 수 있는 driver oncogene이 아닌 것을 고르시오.",
+      "passage": "",
+      "choices": [
+        "BRAF",
+        "ROS1",
+        "RB1",
+        "ALK",
+        "RET"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        37
+      ],
+      "lectureId": 37,
+      "lectureTitle": "폐종양의 병리",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 65번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-066",
+      "recordId": "resp-2020-066",
+      "displayId": "598번",
+      "globalNumber": 598,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 66,
+      "originalNumbers": [
+        66
+      ],
+      "question": "64세 남자가 2주 이상 지속되는 기침, 가래, 오한을 주소 로 내원하였다. 환자는 고혈압, 당뇨로 약을 복용 중이었으나 조절은 잘 되지 않고 있었다고 한다. 폐사진에서 한 엽을 침 범하는 폐렴 소견이 있어 항생제 치료를 받던 중 갑자기 혈중 산소 농도가 감소하고 산소요법에 반응하지 않으며 흉부 X선 촬영에서 광범위한 폐 침윤 소견이 나타났다. 이 환자의 폐 생검 소견이 다음 그림과 같을 때, 표시한 구조물을 무엇이라 고 부르는지 고르시오.",
+      "passage": "",
+      "choices": [
+        "Fibroblastic foci",
+        "fungal hyphae",
+        "Charcot-Layden crystal",
+        "Hyaline membrane",
+        "Type2 pneumoncytes"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q066_01.jpg"
+      ],
+      "legacyProfessor": "김루시아",
+      "professor": "김루시아",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        14
+      ],
+      "lectureId": 14,
+      "lectureTitle": "선천성기형,급성폐손상",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 66번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q066_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-067",
+      "recordId": "resp-2020-067",
+      "displayId": "599번",
+      "globalNumber": 599,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 67,
+      "originalNumbers": [
+        67
+      ],
+      "question": "52세 여자 환자가 최근 기침, 가래가 생겨서 내원하여 촬영한 흉부 CT 소견이다. 가래 항산막대균펴바른 표본검사는 2+ 양성, Tb PCR 검사는 음성이었다. 향후의 조치는?",
+      "passage": "",
+      "choices": [
+        "일차 표준 항결핵제 투여를 시작한다.",
+        "항산균 배양검사와 균동정 검사를 기다려본다",
+        "타인에게의 전염성을 우려해서 음압병실에서 격리시킨다",
+        "SM 주사제와 INH,RFP 치료를 시작한다.",
+        "수술적 절제를 고려한다"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q067_01.jpg"
+      ],
+      "legacyProfessor": "곽승민",
+      "professor": "유우경",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        30
+      ],
+      "lectureId": 30,
+      "lectureTitle": "결핵과 비결핵성 항산균",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 67번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q067_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-068",
+      "recordId": "resp-2020-068",
+      "displayId": "600번",
+      "globalNumber": 600,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 68,
+      "originalNumbers": [
+        68
+      ],
+      "question": "다음 항결핵제 중 다제내성 결핵(multi drug resistant, MDR TB) 치료시 최근 세계 보건 기구(WHO)에서 필수적으로 포함시켜야 할 약으로 분류한 약(그룹 A)이 아닌 것은?",
+      "passage": "",
+      "choices": [
+        "레보플록사신",
+        "피라진아미드",
+        "리네졸리드",
+        "베다퀼린",
+        "목시플록사신"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "유우경",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        30
+      ],
+      "lectureId": 30,
+      "lectureTitle": "결핵과 비결핵성 항산균",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 68번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-069",
+      "recordId": "resp-2020-069",
+      "displayId": "601번",
+      "globalNumber": 601,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 69,
+      "originalNumbers": [
+        69
+      ],
+      "question": "56세 남자 환자. 10년전 폐결핵으로 진단 받았으나, 1-2개 월 복용후 증상 좋아져서 임의로 중단한 과거력 있음. 내원 2 주전부터 기침, 가래, 야간 발한이 있어서 흉부 촬영 시행, 우 상엽에 결핵이 의심되는 공동과 주위 결절이 관찰됨. 이 환자 의 진단과 약제 선택을 위해 즉시 실시해야 할 검사는 ?",
+      "passage": "",
+      "choices": [
+        "흉부 CT",
+        "가래 세균 검사",
+        "가래 Xpert MTB/RIF 검사",
+        "가래 곰팡이 검사",
+        "혈청 아스페르길루스(aspergillus) 항체 검사"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "유우경",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        30
+      ],
+      "lectureId": 30,
+      "lectureTitle": "결핵과 비결핵성 항산균",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 69번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-070",
+      "recordId": "resp-2020-070",
+      "displayId": "602번",
+      "globalNumber": 602,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 70,
+      "originalNumbers": [
+        70
+      ],
+      "question": "다음 중 전염성 폐결핵 환자의 밀접접촉자로 잠복결핵 검 사 양성으로 판명되면 잠복결핵 치료를 하여야 할 대상이 아 닌 것은?",
+      "passage": "",
+      "choices": [
+        "2형 당뇨병 환자",
+        "투석중인 만성신부전 환자",
+        "위절제술환자",
+        "허혈성 심질환자",
+        "두경부암 환자"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "유우경",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        30
+      ],
+      "lectureId": 30,
+      "lectureTitle": "결핵과 비결핵성 항산균",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 70번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-071",
+      "recordId": "resp-2020-071",
+      "displayId": "603번",
+      "globalNumber": 603,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 71,
+      "originalNumbers": [
+        71
+      ],
+      "question": "기관지 확장증 진단을 위해서 한국과 유럽호흡기 학회에서 최소한으로 권장하는 진단검사(minimum diagnostic bundle)가 아닌 것은?",
+      "passage": "",
+      "choices": [
+        "고해상도 흉부 단층 촬영(HRCT)",
+        "가래 항산균 배양 검사",
+        "혈액 immunoglobulin A,G,M 수치",
+        "Aspergillus 피부반응 검사",
+        "혈청 C-reactive(CRP) 수치"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        34
+      ],
+      "lectureId": 34,
+      "lectureTitle": "기관지확장증",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 71번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-072",
+      "recordId": "resp-2020-072",
+      "displayId": "604번",
+      "globalNumber": 604,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 72,
+      "originalNumbers": [
+        72
+      ],
+      "question": "원발성 폐농양(primary lung abscess) 의 가장 중 요한 원인 균은?",
+      "passage": "",
+      "choices": [
+        "Streptococcus pneumoniae",
+        "Anaerobic bacteria",
+        "Pseudomonas areuginosa",
+        "Staphylococcus aureus",
+        "Klebsiella pneumoniae"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        33
+      ],
+      "lectureId": 33,
+      "lectureTitle": "폐렴,폐농양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 72번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-073",
+      "recordId": "resp-2020-073",
+      "displayId": "605번",
+      "globalNumber": 605,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 73,
+      "originalNumbers": [
+        73
+      ],
+      "question": "지역사회 폐렴(community aquiired pneumonia)의 진단과 치료에 대한 설명 중 맞지 않는 것은?",
+      "passage": "",
+      "choices": [
+        "외래에서 치료 가능한 환자는 객담 그람 염색 및 세 균 배양 검사가 필요없다",
+        "혈청 procalcitonin 검사는 항생제 투여 여부를 결정 하는 데 도움을 준다",
+        "CURB-65 는 폐렴 환자를 치료하는 장소를 결정하는 데 사용된다",
+        "호흡수 30회 이상인 환자는 중증 폐렴(severe pneumonia)을 의심할 수 있다",
+        "혈압 상승제에 반응하지 않는 쇽을 동반한 중증 폐 렴 환자에게 스테로이드를 투여해 볼 수 있다"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        33
+      ],
+      "lectureId": 33,
+      "lectureTitle": "폐렴,폐농양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 73번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-074",
+      "recordId": "resp-2020-074",
+      "displayId": "606번",
+      "globalNumber": 606,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 74,
+      "originalNumbers": [
+        74
+      ],
+      "question": "일반 병동에 입원해서 치료해야 할 지역사회 폐렴 환자가 30일전에 녹농균(pseudomonas, aeruginosa)이 증명되어 항생제 투여를 했던 과거력이 있는 환자라면 선택을 고려해야 할 항생제는?",
+      "passage": "",
+      "choices": [
+        "반코마이신",
+        "마크로라이드(아지스로마이신)",
+        "리네졸리드",
+        "세프타지딤",
+        "호흡기 퀴놀론(레보플로사신)"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "곽승민",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        33
+      ],
+      "lectureId": 33,
+      "lectureTitle": "폐렴,폐농양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 74번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-075",
+      "recordId": "resp-2020-075",
+      "displayId": "607번",
+      "globalNumber": 607,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 75,
+      "originalNumbers": [
+        75
+      ],
+      "question": "만성 폐쇄성 폐질환 환자의 호흡재활교육으로 옳은 것 은?",
+      "passage": "",
+      "choices": [
+        "짧은 호흡을 연습시킨다.",
+        "이완자세는 복강을 이완시켜 횡경막이 더 내려오게하여 사 강을 줄이는데 도움을 준다",
+        "pursed lip breathing은 제한성 폐질환에 더 효과적이다.",
+        "흡기와 호기의 비율은 1:1로 하도록 한다.",
+        "횡격막 호흡은 호기 시 가슴을 손으로 지그시 누르면서 숨 을 내쉬게 한다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "좌경림",
+      "professor": "좌경림",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        23
+      ],
+      "lectureId": 23,
+      "lectureTitle": "호흡재활",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 75번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R014"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R014",
+          "examYears": [
+            2020,
+            2023
+          ],
+          "yearCount": 2,
+          "questionIds": [
+            "2020-075",
+            "2023-106",
+            "2024-054"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-076",
+      "recordId": "resp-2020-076",
+      "displayId": "608번",
+      "globalNumber": 608,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 76,
+      "originalNumbers": [
+        76
+      ],
+      "question": "Amyotrophic lateral scelrosis를 앓고 있는 45세 여 자가 폐렴에 걸린 과거력이 있으며 가래가 많이 끓어 외래를 방문하여 시행한 검사가 아래와 같다. 고려해야 할 치료는? Lung sound: hoarse Vital capacity: 3.2L(정상 예측치의 72%) Peak cough flow: 190L/min SaO2: 93%, 호흡수 18회/분, 심박수: 87 호기 후 CO2 분압: 39mmHg",
+      "passage": "",
+      "choices": [
+        "기관절제술 시행",
+        "Mechanical insufflator-exsufflator",
+        "위루중재술",
+        "야간 비침습적 양압환",
+        "Diaphramatic breaathing/pursed lip breathing"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "좌경림",
+      "professor": "좌경림",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        23
+      ],
+      "lectureId": 23,
+      "lectureTitle": "호흡재활",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 76번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R013"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R013",
+          "examYears": [
+            2020,
+            2023,
+            2025
+          ],
+          "yearCount": 3,
+          "questionIds": [
+            "2020-076",
+            "2023-107",
+            "2025-119"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-077",
+      "recordId": "resp-2020-077",
+      "displayId": "609번",
+      "globalNumber": 609,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 77,
+      "originalNumbers": [
+        77
+      ],
+      "question": "52세 여자가 4주전 감기 후 시작된 기침과 호흡곤 란으로 병원에 왔다. 숨이 차서 밤에 잠을 자기가 힘들 고, 계단을 오르기 힘들다고 한다. 혈압 130/80mmHg, 맥박 분당 107회, 호흡수 분당 24회 였으며 천명음이 들렸다. 진단을 위해 가장 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "호기산화질소 검사",
+        "최대호기유속 측정",
+        "기관지확장제반응 검사",
+        "메타콜린 기관지유발시험",
+        "스테로이드 치료 후 폐기능 검사"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김철우",
+      "professor": "김철우",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        24
+      ],
+      "lectureId": 24,
+      "lectureTitle": "기관지천식",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 77번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-078",
+      "recordId": "resp-2020-078",
+      "displayId": "610번",
+      "globalNumber": 610,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 78,
+      "originalNumbers": [
+        78
+      ],
+      "question": "55세 여자가 천식으로 저용량 스테로이드와 지속성 베타 2항진제 병합 흡입제를 매일 사용중이나, 기침과 천명음이 간 혹 나타나고 자다가 숨이 차서 자주 깬다고 한다. 천식 조절을 위해 가장 먼저 해야 할 것은?",
+      "passage": "",
+      "choices": [
+        "Tiotropium 추가",
+        "Theophylline 추가",
+        "류코트리엔 길항제 추가",
+        "저용량 스테로이드/formoterol 흡입제로 변경",
+        "중간용량 스테로이드/지속성 베타2항진제 흡입제로 변경"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김철우",
+      "professor": "김철우",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        24
+      ],
+      "lectureId": 24,
+      "lectureTitle": "기관지천식",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 78번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-079",
+      "recordId": "resp-2020-079",
+      "displayId": "611번",
+      "globalNumber": 611,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 79,
+      "originalNumbers": [
+        79
+      ],
+      "question": "다음 중 천식에 대하여 맞는 설명은?",
+      "passage": "",
+      "choices": [
+        "세균 감염에 의하여 증상이 악화된다.",
+        "폐의 일부에서 국소 천명음이 들린다.",
+        "약물에 의해서 증상이 심해지지는 않는다.",
+        "알레르겐 감작없이 기도 호산구염증이 나타날 수 있다.",
+        "단일한 병태생리가 관여하기 때문에 생물학적 제제가 효과 적이다"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김철우",
+      "professor": "김철우",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        24
+      ],
+      "lectureId": 24,
+      "lectureTitle": "기관지천식",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 79번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-080",
+      "recordId": "resp-2020-080",
+      "displayId": "612번",
+      "globalNumber": 612,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 80,
+      "originalNumbers": [
+        80
+      ],
+      "question": "천식 치료에 대한 설명 중 맞는 것은?",
+      "passage": "",
+      "choices": [
+        "흡입력이 약한 환자는 분말흡입제 (DPI)를 권한다.",
+        "구강 캔디다증이 발생한 경우 다른 흡입제로 변경한다.",
+        "경증 천식은 필요한 경우에만 기관지확장제 치료를 한다.",
+        "기관지확장을 위해 규칙적인 속효성 기관지확장제 치료를 권한다.",
+        "구강 세척 후 마심으로 흡입 스테로이드의 부작용을 줄일 수 있다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김철우",
+      "professor": "김철우",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        24
+      ],
+      "lectureId": 24,
+      "lectureTitle": "기관지천식",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 80번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-081",
+      "recordId": "resp-2020-081",
+      "displayId": "613번",
+      "globalNumber": 613,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 81,
+      "originalNumbers": [
+        81
+      ],
+      "question": "24세 여자환자가 운전 중 자동차사고로 응급실에 내원 하였다. 내원당시 혈압이 80/60 mmHg, 맥박이 135회/분, 호 흡수는 45회/분, 환자는 몹시 힘들어하는 상태였다. 이하학적 소견상 흥분된 상태였고 흉골 동요가 있었으며 좌측 흉곽에 호흡음이 들리지 않았다. 좌측 흉곽에 촉진상 염발음과 타진 상 공명음의 소견을 나타내었다. 이환자의 응급 처치 로서 가 장 적절한 것은 ?",
+      "passage": "",
+      "choices": [
+        "흉부 단순촬영을 한다",
+        "기도 삽관을 시행한다",
+        "좌측 흉곽에 흉관을 삽입한다",
+        "중심 정맥 주사를 시작한다",
+        "anti-shock 자켓을 입힌다"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "윤용한",
+      "professor": "윤용한",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        18
+      ],
+      "lectureId": 18,
+      "lectureTitle": "흉부외과 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 81번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-082",
+      "recordId": "resp-2020-082",
+      "displayId": "614번",
+      "globalNumber": 614,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 82,
+      "originalNumbers": [
+        82
+      ],
+      "question": "호흡기 질환으로 흉부심장혈관외과에서 폐엽절제술을 시 행할 수 있는 질병을 기술하세요 ? (서술형)",
+      "passage": "",
+      "choices": [],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "윤용한",
+      "professor": "윤용한",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        18
+      ],
+      "lectureId": 18,
+      "lectureTitle": "흉부외과 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 82번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "written",
+      "sourceStatus": "official_exam",
+      "parseMethod": "unparsed_or_written",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-083",
+      "recordId": "resp-2020-083",
+      "displayId": "615번",
+      "globalNumber": 615,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 83,
+      "originalNumbers": [
+        83
+      ],
+      "question": "응급 폐쇄성 흉관 삽입술 및 응급 개흉술이 필요한 질환 을 기술하세요 ? (서술형)",
+      "passage": "",
+      "choices": [],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "윤용한",
+      "professor": "윤용한",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        18
+      ],
+      "lectureId": 18,
+      "lectureTitle": "흉부외과 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 83번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "written",
+      "sourceStatus": "official_exam",
+      "parseMethod": "unparsed_or_written",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-084",
+      "recordId": "resp-2020-084",
+      "displayId": "616번",
+      "globalNumber": 616,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 84,
+      "originalNumbers": [
+        84
+      ],
+      "question": "긴장성 기흉의 증상 및 증후는 ? (서술형)",
+      "passage": "",
+      "choices": [],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "윤용한",
+      "professor": "윤용한",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        18
+      ],
+      "lectureId": 18,
+      "lectureTitle": "흉부외과 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 84번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "written",
+      "sourceStatus": "official_exam",
+      "parseMethod": "unparsed_or_written",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-085",
+      "recordId": "resp-2020-085",
+      "displayId": "617번",
+      "globalNumber": 617,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 85,
+      "originalNumbers": [
+        85
+      ],
+      "question": "S-1 Lung perfusion study에 관하여 다음 기술한 것 중 틀린 것은?",
+      "passage": "",
+      "choices": [
+        "Tc99m-MAA를 IV로 주사하여 영상을 얻는다.",
+        "RES에 의해 대략 2-4시간 정도 후면 제거된다.",
+        "pre-capillary arteriole을 막는다.",
+        "각 Segment 의 ventilation percentage를 반영한다.",
+        "particle size는 대략 10～30 μm이다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "이민경",
+      "professor": "유민영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        25
+      ],
+      "lectureId": 25,
+      "lectureTitle": "핵의학검사",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 85번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-086",
+      "recordId": "resp-2020-086",
+      "displayId": "618번",
+      "globalNumber": 618,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 86,
+      "originalNumbers": [
+        86
+      ],
+      "question": "다음 V/Q 스캔에서 modified PIOPED에 의한 폐색전증의 고확률(high probability)에 해당하는 사항은?",
+      "passage": "",
+      "choices": [
+        "한 개의 중등도 불일치 관류 결손 및 정상 환기 소견",
+        "3 개 이상의 작은 분절상 관류 결손과 정상 환기 소견",
+        "환기 병변이 더 큰 모든 관류 결손",
+        "4개 이상의 중등도 분절상 결손이 있고 환기 결손이 없 음.",
+        "1개 이상의 큰 분절상 결손이 있고 환기 결손이 없음."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q086_01.jpg",
+        "J/2020/q086_02.jpg"
+      ],
+      "legacyProfessor": "이민경",
+      "professor": "유민영",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        25
+      ],
+      "lectureId": 25,
+      "lectureTitle": "핵의학검사",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 86번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "공식 원문 위→아래·좌→우 시각 순서로 이미지 참조 배열을 정렬함. 사진 내용은 불변."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q086_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q086_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-087",
+      "recordId": "resp-2020-087",
+      "displayId": "619번",
+      "globalNumber": 619,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 87,
+      "originalNumbers": [
+        87
+      ],
+      "question": "폐암 진단 후 폐절제술을 계획하고 있는 환자에게 수술 전 폐기능 평가를 위해 시행하는 검사로 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "Transthoracic echocardiogram",
+        "TBLB",
+        "Pulmonary function test",
+        "Fiber optic bronchoscopy",
+        "Chest sonogram"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김영삼",
+      "professor": "김영삼",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        45
+      ],
+      "lectureId": 45,
+      "lectureTitle": "수술전 검사",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 87번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-088",
+      "recordId": "resp-2020-088",
+      "displayId": "620번",
+      "globalNumber": 620,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 88,
+      "originalNumbers": [
+        88
+      ],
+      "question": "Chest CT에서 RUL apex subpleural area에서 1.5cm 크기 의 SPN이 발견되었을 때 tissue confirm을 위해 시행할 수 있 는 invasive method로 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "Bronchoscopy,(EBUS)",
+        "Sputum cytology",
+        "Chest MRI",
+        "wedge resection"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김영삼",
+      "professor": "김영삼",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        44
+      ],
+      "lectureId": 44,
+      "lectureTitle": "흉부외과 각론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 88번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R002"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R002",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-088",
+            "2021-043",
+            "2022-043",
+            "2023-040",
+            "2025-017"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-089",
+      "recordId": "resp-2020-089",
+      "displayId": "621번",
+      "globalNumber": 621,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 89,
+      "originalNumbers": [
+        89
+      ],
+      "question": "종격동을 구분하는 구조물로 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "thoracic inlet – inferior border",
+        "diaphragm – anterior bord",
+        "sternum – posterior borde",
+        "spine – superior border",
+        "pleural space – lateral boder"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "김영삼",
+      "professor": "김영삼",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        46
+      ],
+      "lectureId": 46,
+      "lectureTitle": "종격동 질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 89번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R003"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R003",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-089",
+            "2021-042",
+            "2022-045",
+            "2023-042",
+            "2025-019"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-090",
+      "recordId": "resp-2020-090",
+      "displayId": "622번",
+      "globalNumber": 622,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 90,
+      "originalNumbers": [
+        90
+      ],
+      "question": "52세 최00씨는 최근 들어 눈이 침침해지고 오후가 되면 기운이 없고 눈꺼풀이 처지는 증상이 있어 신경과를 방문 하 였다. Chest CT에서는 대동맥 앞쪽 전종격동에 2x2x5cm정도 크기의 sold mass가 발견되었으며 혈액검사상 아세틸콜린수 용체항체(Ach-receptor-Ab)가 상승되어 있었다. 환자는 신경과 에서 스테로이드 처방을 받았으나 증세의 호전이 없어 흉부외 과로 협진 되었다. 이 환자에 대한 설명으로 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "정기적인 혈액 투석으로 Ach-receptor-Ab수치를 낮추어 준다",
+        "Neumogenic tumor로 의심되며 저절로 좋아지는 경우가 있으므로 경과를 관찰한다",
+        "스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.",
+        "PCNB를 통해 tissue confirm을 시행한다.",
+        "종격동염이 의심되므로 항생제를 사용한다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q090_01.jpg"
+      ],
+      "legacyProfessor": "김영삼",
+      "professor": "김영삼",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        46
+      ],
+      "lectureId": 46,
+      "lectureTitle": "종격동 질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 90번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q090_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": [
+        "R004"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R004",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 5,
+          "questionIds": [
+            "2020-090",
+            "2021-044",
+            "2022-046",
+            "2023-043",
+            "2025-020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-091",
+      "recordId": "resp-2020-091",
+      "displayId": "623번",
+      "globalNumber": 623,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 91,
+      "originalNumbers": [
+        91
+      ],
+      "question": "다음 중 만성 폐쇄성 폐질환의 진단 기준이며, 폐쇄성 폐 질환과 제한성 폐질환을 구분하는 폐기능 검사의 지표는?",
+      "passage": "",
+      "choices": [
+        "FVC",
+        "FEV1",
+        "FEV1/FVC",
+        "DLco",
+        "RV"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "임준혁",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        19
+      ],
+      "lectureId": 19,
+      "lectureTitle": "폐기능검사",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 91번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R010"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R010",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "yearCount": 4,
+          "questionIds": [
+            "2020-091",
+            "2021-114",
+            "2022-118",
+            "2023-108"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-092",
+      "recordId": "resp-2020-092",
+      "displayId": "624번",
+      "globalNumber": 624,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 92,
+      "originalNumbers": [
+        92
+      ],
+      "question": "다음 중 만성 폐쇄성 폐질환에서 상승하는 폐기능 검사 지표는?",
+      "passage": "",
+      "choices": [
+        "FVC",
+        "FEV1",
+        "FEV1/FVC",
+        "DLco",
+        "RV"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "임준혁",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        19
+      ],
+      "lectureId": 19,
+      "lectureTitle": "폐기능검사",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 92번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R011"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R011",
+          "examYears": [
+            2020,
+            2022,
+            2023
+          ],
+          "yearCount": 3,
+          "questionIds": [
+            "2020-092",
+            "2022-119",
+            "2023-109"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-093",
+      "recordId": "resp-2020-093",
+      "displayId": "625번",
+      "globalNumber": 625,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 93,
+      "originalNumbers": [
+        93
+      ],
+      "question": "다음 중 급성폐색전증에서 항응고치료 (anticoagulation)의 절대적 금기 (Absolute contraindication)는?",
+      "passage": "",
+      "choices": [
+        "Active peptic ulcer disease",
+        "Hepatin-induced thrombocytopenia",
+        "Hepatic failure",
+        "Intracranial bleeding",
+        "Bleeding diathesis"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "임준혁",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        21
+      ],
+      "lectureId": 21,
+      "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 93번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R008"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R008",
+          "examYears": [
+            2020,
+            2022,
+            2023,
+            2025
+          ],
+          "yearCount": 4,
+          "questionIds": [
+            "2020-093",
+            "2022-121",
+            "2023-111",
+            "2025-114"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-094",
+      "recordId": "resp-2020-094",
+      "displayId": "626번",
+      "globalNumber": 626,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 94,
+      "originalNumbers": [
+        94
+      ],
+      "question": "폐동맥고혈압이 진단된 환자에서 Vasoreactivity test를 시 행하여 양성소견을 보일 경우 우선 고려할 수 있는 약물은?",
+      "passage": "",
+      "choices": [
+        "Calcium channel blocker",
+        "Endothelin receptor antagonist",
+        "Soluble guanylate cyclase (sGC) stimulator",
+        "PDE5 inhibitor",
+        "Prostacyclin analogue"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "임준혁",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        21
+      ],
+      "lectureId": 21,
+      "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 94번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [
+        "R009"
+      ],
+      "repeatHistory": [
+        {
+          "familyId": "R009",
+          "examYears": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "yearCount": 4,
+          "questionIds": [
+            "2020-094",
+            "2021-122",
+            "2022-122",
+            "2023-112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-095",
+      "recordId": "resp-2020-095",
+      "displayId": "627번",
+      "globalNumber": 627,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 95,
+      "originalNumbers": [
+        95
+      ],
+      "question": "다음 중 폐암환자 생존기간에 가장 도움이 되는 것은?",
+      "passage": "",
+      "choices": [
+        "조직 분화도",
+        "병기",
+        "흡연력",
+        "임상증상",
+        "성별"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "류정선",
+      "professor": "임준혁",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        32
+      ],
+      "lectureId": 32,
+      "lectureTitle": "폐종양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 95번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-096",
+      "recordId": "resp-2020-096",
+      "displayId": "628번",
+      "globalNumber": 628,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 96,
+      "originalNumbers": [
+        96
+      ],
+      "question": "조직검사에서 폐암으로 진단된 환자의 흉부 CT 사진이 다. 이 환자와 가장 가까운 임상적 특성은?",
+      "passage": "",
+      "choices": [
+        "여성",
+        "흡연자",
+        "표피생장인자수용체 유전자 돌연변이",
+        "역형성 림프종 수용체 티로신 키나아제 유전자 재배열",
+        "판코스트종양"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q096_01.jpg"
+      ],
+      "legacyProfessor": "류정선",
+      "professor": "임준혁",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        32
+      ],
+      "lectureId": 32,
+      "lectureTitle": "폐종양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 96번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q096_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-097",
+      "recordId": "resp-2020-097",
+      "displayId": "629번",
+      "globalNumber": 629,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 97,
+      "originalNumbers": [
+        97
+      ],
+      "question": "평소에 건강하였던 67세 흡연자가 건강검진에서 이상소견 을 보여 내원했다. 환자 흉부 CT 스캔에서 우상엽에 4cm 종 괴가 흉벽에 붙어있었고, 우측 흉막에 흉수가 관찰되었다. 흉 수검사에서 편평상피세포암로 보이는 세포들이 관찰되었다. 뇌, 뼈, 복부 등 장기에 전이소견은 없었다. 적절한 치료는?",
+      "passage": "",
+      "choices": [
+        "수술",
+        "항암 화학 치료",
+        "방사선 치료",
+        "방사선 및 항암화학 치료",
+        "항암 화학 치료 후 수술"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "류정선",
+      "professor": "임준혁",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        32
+      ],
+      "lectureId": 32,
+      "lectureTitle": "폐종양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 97번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-098",
+      "recordId": "resp-2020-098",
+      "displayId": "630번",
+      "globalNumber": 630,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 98,
+      "originalNumbers": [
+        98
+      ],
+      "question": "우리나라 폐암의 최근 동향에 대한 기술 중 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "폐암은 우리나라 암 발병율 1위의 암이다.",
+        "비흡연자에서 폐암발병은 꾸준히 증가해 흡연자 폐암보다 흔하다.",
+        "흡연자에서 저선량 CT를 이용한 폐암 선별검사는 폐암사 망률을 감소시",
+        "성별로 보았을 때 남성보다 여성에서 폐암발병이 늘고 있 다.",
+        "직업 혹은 환경에 의한 발암물질 노출로 폐암이 발병하는 경우는 드물다."
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "류정선",
+      "professor": "임준혁",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        32
+      ],
+      "lectureId": 32,
+      "lectureTitle": "폐종양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 98번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-099",
+      "recordId": "resp-2020-099",
+      "displayId": "631번",
+      "globalNumber": 631,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 99,
+      "originalNumbers": [
+        99
+      ],
+      "question": "1년전 심근경색으로 진단받았던 환자가 최근 호흡곤란이 있어 내원했다. 좌측 흉수가 있어 흉막액 검사를 시행했으며 검사결과가 아래와 같았다. 적절한 처치는? pH 7.4, WBC 2000/㎣(poly: 70%, mono: 30%), LDH 700 U/L, 포도당 70 mg/dL, ADA: 54 IU/L, CEA: 3 IU/L",
+      "passage": "",
+      "choices": [
+        "주사용 항생제",
+        "이뇨제",
+        "흉관삽입",
+        "항결핵제",
+        "항혈전제"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "류정선",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 99번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-100",
+      "recordId": "resp-2020-100",
+      "displayId": "632번",
+      "globalNumber": 632,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 100,
+      "originalNumbers": [
+        100
+      ],
+      "question": "흉수천자 검사에서 여출성 흉막액 소견을 보이는 것은?",
+      "passage": "",
+      "choices": [
+        "간경화",
+        "신증후군",
+        "저단백혈증",
+        "급성심근경색",
+        "폐색전증"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [],
+      "legacyProfessor": "류정선",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 100번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-101",
+      "recordId": "resp-2020-101",
+      "displayId": "633번",
+      "globalNumber": 633,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 101,
+      "originalNumbers": [
+        101
+      ],
+      "question": "54세 흡연 남자는 한달전부터 숨차기 시작했고 최근 심 해져 응급실에 내원했다. 체온 36.7oC, 혈압 120/70 mmHg, 맥박수 72/min 이었다. 흉부 X선 검사 소견은 아래와 같았을 때 적절한 처치는?",
+      "passage": "",
+      "choices": [
+        "심장초음파 검사",
+        "주사용 항생제",
+        "경피적 폐생검",
+        "흉부 CT 스캔",
+        "기관지내시경"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q101_01.jpg"
+      ],
+      "legacyProfessor": "류정선",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 101번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q101_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-102",
+      "recordId": "resp-2020-102",
+      "displayId": "634번",
+      "globalNumber": 634,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 102,
+      "originalNumbers": [
+        102
+      ],
+      "question": "중심정맥관 확보를 목적으로 빗장밑정맥도관 삽입술 시 행 중 호흡곤란과 저혈압이 갑자기 발생해 촬영한 흉부 X선 사진이다. 호흡곤란의 원인은?",
+      "passage": "",
+      "choices": [
+        "기관지 수축",
+        "심박출량 감소",
+        "폐혈관 손상",
+        "폐동맥 고혈압",
+        "급성호흡곤란증후군"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q102_01.jpg"
+      ],
+      "legacyProfessor": "류정선",
+      "professor": "김준",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 102번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q102_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-103",
+      "recordId": "resp-2020-103",
+      "displayId": "635번",
+      "globalNumber": 635,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 103,
+      "originalNumbers": [
+        103
+      ],
+      "question": "흉부 X-선 소견의 원인질환은?",
+      "passage": "",
+      "choices": [
+        "결핵",
+        "클렙시엘라 폐렴",
+        "사르코이드증",
+        "종격동종괴",
+        "폐암"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q103_01.jpg",
+        "J/2020/q103_02.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        22
+      ],
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 103번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q103_01.jpg",
+          "role": "official_exam_image_appendix"
+        },
+        {
+          "path": "J/2020/q103_02.jpg",
+          "role": "official_exam_image_appendix"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-104",
+      "recordId": "resp-2020-104",
+      "displayId": "636번",
+      "globalNumber": 636,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 104,
+      "originalNumbers": [
+        104
+      ],
+      "question": "Lung cancer환자의 CT이다. T stage는 ?",
+      "passage": "",
+      "choices": [
+        "T1",
+        "T2a",
+        "T2b",
+        "T3",
+        "T4"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q104_01.jpg",
+        "J/2020/q104_02.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        22
+      ],
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 104번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q104_01.jpg",
+          "role": "official_exam_image_appendix"
+        },
+        {
+          "path": "J/2020/q104_02.jpg",
+          "role": "official_exam_image_appendix"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-105",
+      "recordId": "resp-2020-105",
+      "displayId": "637번",
+      "globalNumber": 637,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 105,
+      "originalNumbers": [
+        105
+      ],
+      "question": "급성 호흡곤란이 있는 33세 남자의 흉부 X-선이다 진단 은?",
+      "passage": "",
+      "choices": [
+        "폐기종",
+        "폐렴",
+        "기흉",
+        "흉막삼출",
+        "폐암"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q105_01.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        22
+      ],
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 105번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q105_01.jpg",
+          "role": "official_exam_image_appendix"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-106",
+      "recordId": "resp-2020-106",
+      "displayId": "638번",
+      "globalNumber": 638,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 106,
+      "originalNumbers": [
+        106
+      ],
+      "question": "72세 여자의 흉부 X-선과 CT이다. 진단은?",
+      "passage": "",
+      "choices": [
+        "사르코이드증",
+        "특발간질폐렴",
+        "전이암",
+        "림프관근종증",
+        "폐암"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q106_01.jpg",
+        "J/2020/q106_02.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        22
+      ],
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 106번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "공식 원문 위→아래·좌→우 시각 순서로 이미지 참조 배열을 정렬함. 사진 내용은 불변."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q106_01.jpg",
+          "role": "official_exam_image_appendix"
+        },
+        {
+          "path": "J/2020/q106_02.jpg",
+          "role": "official_exam_image_appendix"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-107",
+      "recordId": "resp-2020-107",
+      "displayId": "639번",
+      "globalNumber": 639,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 107,
+      "originalNumbers": [
+        107
+      ],
+      "question": "화살표가 가르키는 cardiac border를 이루는 심장의 구조 물은 무엇인가?",
+      "passage": "",
+      "choices": [
+        "우심실",
+        "상대정맥",
+        "하대정맥",
+        "우심방",
+        "대동맥"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q107_01.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        13
+      ],
+      "lectureId": 13,
+      "lectureTitle": "흉부영상 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 107번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q107_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-108",
+      "recordId": "resp-2020-108",
+      "displayId": "640번",
+      "globalNumber": 640,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 108,
+      "originalNumbers": [
+        108
+      ],
+      "question": "다음 흉부 X-선 에서 병변의 위치는 어디인가?",
+      "passage": "",
+      "choices": [
+        "좌하엽의 내기저분절",
+        "좌상엽의 설상분절",
+        "좌상엽의 후첨분절",
+        "좌하흉막",
+        "좌하종격동"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q108_01.jpg",
+        "J/2020/q108_02.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        13
+      ],
+      "lectureId": 13,
+      "lectureTitle": "흉부영상 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 108번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q108_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q108_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-109",
+      "recordId": "resp-2020-109",
+      "displayId": "641번",
+      "globalNumber": 641,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 109,
+      "originalNumbers": [
+        109
+      ],
+      "question": "2달 동안의 기침이 있는 48세 남자의 X-선과 CT이다 진 단은?",
+      "passage": "",
+      "choices": [
+        "활동성 폐결핵",
+        "패혈성 폐렴",
+        "폐농양",
+        "사르코이드증",
+        "진폐증"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q109_01.jpg",
+        "J/2020/q109_02.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        13
+      ],
+      "lectureId": 13,
+      "lectureTitle": "흉부영상 총론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 109번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "provisional",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q109_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q109_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-110",
+      "recordId": "resp-2020-110",
+      "displayId": "642번",
+      "globalNumber": 642,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 110,
+      "originalNumbers": [
+        110
+      ],
+      "question": "간헐적인 객혈이 있는 63세 남자의 CT이다. 진단은?",
+      "passage": "",
+      "choices": [
+        "활동성 폐결핵",
+        "폐암",
+        "아스페르길루스종",
+        "폐농양",
+        "혈관염"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q110_01.jpg",
+        "J/2020/q110_02.jpg"
+      ],
+      "legacyProfessor": "이경희",
+      "professor": "이경희",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        22
+      ],
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 110번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [
+        "공식 원문 위→아래·좌→우 시각 순서로 이미지 참조 배열을 정렬함. 사진 내용은 불변."
+      ],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q110_01.jpg",
+          "role": "official_exam_original"
+        },
+        {
+          "path": "J/2020/q110_02.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    },
+    {
+      "id": "2020-111",
+      "recordId": "resp-2020-111",
+      "displayId": "643번",
+      "globalNumber": 643,
+      "year": 2020,
+      "sourceType": "공식 시험지",
+      "originalNumber": 111,
+      "originalNumbers": [
+        111
+      ],
+      "question": "70세 남자가 호흡곤란으로 내원하였다. 5년 전 만성페쇄성폐질환(COPD)으로 진단 후 지속성항콜린 제(Long acting muscarinic antagonist)+지속성베타-2작용제 (Long acting beta-agonist)의 복합 흡입기를 사용하고 있다. 7일 전부터 기침의 횟수가 증가되면서 평지를 100m만 걸어 도 숨이 차서 쉬어야 했다. 혈압 130/80 mmHg, 맥박 90회, 호흡 22회, 체온 36.8℃ 였다. 비강 캐뉼라 2L중 동맥혈가스분 석 pH 7.44, PaCO2 38 mmHg, PaO2 74 mmHg, HCO3 24 meq/L, SaO2 95%였다. 가슴 양쪽 하부에서 쌕쌕거림 (wheezing)이 청진되었다. 가슴 X선 사진과 폐활량 검사 결과이다. 적절한 치료는?",
+      "passage": "",
+      "choices": [
+        "경구용 항생제",
+        "경구용 이뇨제",
+        "경구용 스테로이드",
+        "비침습적 양압환기",
+        "내시경적 폐용적 축소술"
+      ],
+      "answerIndex": null,
+      "answerIndices": [],
+      "answerLabel": "정답 미등록",
+      "explanation": "",
+      "images": [
+        "J/2020/q111_01.jpg"
+      ],
+      "legacyProfessor": "남해성",
+      "professor": "김혜수",
+      "examinerStatus": "inferred_not_confirmed",
+      "examinerEvidence": [
+        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+      ],
+      "lectureIds": [
+        20
+      ],
+      "lectureId": 20,
+      "lectureTitle": "만성폐쇄성폐질환",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "source": "2020 호흡기계 111번 (공식 시험지)",
+      "mappingConfidence": "",
+      "classificationStatus": "content_classified",
+      "originalNumberStatus": "reconstructed_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_exam",
+      "parseMethod": "numbered",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "J/2020/q111_01.jpg",
+          "role": "official_exam_original"
+        }
+      ],
+      "repeatFamilyIds": []
+    }
+  ]
+}
