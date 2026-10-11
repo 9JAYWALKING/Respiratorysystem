@@ -387,7 +387,7 @@ html:not([data-theme="dark"]) .study-ui .study-answer-status.is-correct { color:
   .lecture-pane-head { display:none; }
 }
 /* Compact lecture tabs: preserve both documents, expose one full-width pane. */
-.study-ui .detail-topline { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); }
+.study-ui .detail-topline { display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:8px; touch-action:pan-y pinch-zoom; }
 .study-ui .detail-course-controls { justify-self:end; }
 .study-ui .lecture-view-tabs { display:flex; align-items:center; gap:3px; padding:3px; border:1px solid #ffffff38; border-radius:11px; background:#ffffff12; }
 .study-ui .lecture-view-tabs button { border:0; border-radius:8px; background:transparent; color:#fff; font:inherit; font-size:15px; font-weight:700; line-height:1.2; padding:8px 16px; cursor:pointer; }
