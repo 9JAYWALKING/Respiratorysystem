@@ -1983,7 +1983,7 @@
 <div id="jbl-image-modal" class="jbl-image-modal" role="dialog" aria-modal="true" aria-label="문항 이미지 확대"><button class="jbl-image-close" type="button" aria-label="이미지 닫기">×</button><img alt="확대된 문항 이미지"></div>
 <script id="lecture-note-data" src="./lecture-notes.js"></script>
 <script src="./course-data.js"></script>
-<script id="jbl-data-script" src="./J/jbl-data.js"></script>
+<script id="jbl-data-script" src="./jbl-data.js"></script>
 <script src="./lecture-study.js"></script>
 <script>
   window.THEME_WIKI_DATA = {documents:[]};
@@ -3585,7 +3585,7 @@
       const dataScript = clone.querySelector('#jbl-data-script, script[src="./J/jbl-data.js"], script[src="./jbl-data.js"]');
       const payload = JSON.stringify(window.JBL_DATA).replace(/</g, '\\u003c');
       dataScript.removeAttribute('id');
-      dataScript.setAttribute('src', './J/jbl-data.js');
+      dataScript.setAttribute('src', './jbl-data.js');
       dataScript.textContent = '';
       const noteDataScript = clone.querySelector('#lecture-note-data, script[src="./lecture-notes.js"]');
       const notePayload = JSON.stringify(lectureNoteSources).replace(/</g, '\\u003c');
