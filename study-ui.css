@@ -1,4 +1,6 @@
 /* Respiratory study shell. Existing exam pages deliberately do not load this skin. */
+/* Reserve the viewport scrollbar space when a dialog locks body scrolling. */
+html:has(body.study-ui) { scrollbar-gutter:stable; }
 body.study-ui { --study-surface:#fff; --study-muted:#716875; --study-border:#e8dfe6; --study-accent:#815e79; background:#faf8fa; color:#332b35; }
 html[data-theme="dark"] body.study-ui { --study-surface:#000; --study-muted:#fff; --study-border:#352a33; --study-accent:#d9afce; background:#000; color:#fff; }
 .study-ui .masthead { position:sticky; top:0; z-index:950; padding:0; background:var(--brand-pastel); border:0; box-shadow:none; }
