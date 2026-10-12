@@ -3484,7 +3484,9 @@
       const choices = question.choices.length ? `<div class="jbl-choices">${question.choices.map((choice,index) => {
         const number = index + 1;
         let status = '';
-        if (revealAnswer) {
+        if (state.choiceEffectsHidden?.[question.id]) {
+          // Dismissing the visual feedback must not erase the answer or attempt.
+        } else if (revealAnswer) {
           if (answerIndices.includes(number)) status = ' correct';
           else if (selectedIndices.includes(number)) status = answerIndices.length ? ' wrong' : ' selected';
         } else if (state.feedbackHidden?.[question.id] || (isMultipleAnswer && !selectionComplete)) {
@@ -3574,6 +3576,7 @@
         if (state.answerShown[question.id] || state.explanationShown[question.id]) markQuestionPeeked(state, question);
         state.answerShown[question.id] = false;
         state.explanationShown[question.id] = false;
+        if (state.choiceEffectsHidden) delete state.choiceEffectsHidden[question.id];
         if (state.feedbackHidden) delete state.feedbackHidden[question.id];
         if (answerIndices.length > 1) {
           const current = Array.isArray(state.selected[question.id]) ? state.selected[question.id].slice() : [];
@@ -3652,6 +3655,7 @@
     }
 
     function renderQuestionCard(container, questions, key, rerender) {
+      container.setAttribute('data-jbl-choice-viewer', key);
       container.questionViewer = { questions, key, rerender };
       const state = viewerState(key);
       if (!container.hasAttribute('data-explanation-question-root')) questionExplanationViewers.set(state, {...container.questionViewer, container});
@@ -3666,6 +3670,34 @@
       if (questionExplanationState?.active && questionExplanationState.state === state && !container.hasAttribute('data-explanation-question-root')) syncQuestionExplanationSplit();
     }
 
+    function dismissQuestionChoiceEffects(event) {
+      if (event.defaultPrevented || (event.button != null && event.button !== 0)) return;
+      const target = event.target;
+      if (!(target instanceof Element) || target.closest('button,a,input,select,textarea,label,summary,[role="button"],[contenteditable],img,video,canvas,dialog,[inert],[aria-hidden="true"]')) return;
+      if (window.getSelection?.()?.toString().trim()) return;
+      // Only the empty surfaces of a J pane dismiss feedback, not text or the other Wiki pane.
+      const surfaces = '[data-jbl-choice-viewer],.jbl-card,.jbl-card-head,.jbl-card-body,.jbl-choices,.jbl-meta,.jbl-meta-right,.jbl-author-source,.jbl-page-block,.jbl-passage,.jbl-passage-text,.jbl-wrap,#jbl-standalone,#jbl-view,[data-course-j-host],.lecture-j-pane,.context-link-body,.context-link-target,.jbl-explanation-question';
+      if (!target.matches(surfaces)) return;
+      const scope = target.closest('[data-jbl-choice-viewer],.jbl-wrap,#jbl-standalone,#jbl-view,[data-course-j-host],.lecture-j-pane,.context-link-body,.context-link-target,.jbl-explanation-question');
+      const root = scope?.matches('[data-jbl-choice-viewer]') ? scope : scope?.querySelector('[data-jbl-choice-viewer]');
+      const viewer = root?.questionViewer;
+      if (!viewer || root.closest('[hidden],[inert],[aria-hidden="true"]')) return;
+      const state = viewerState(viewer.key), question = viewer.questions[state.index];
+      if (!question || question.studyKind === 'wiki' || state.editing) return;
+      const selected = state.selected[question.id];
+      if (!(Array.isArray(selected) ? selected.length : selected) && !state.answerShown[question.id]) return;
+      (state.choiceEffectsHidden ||= {})[question.id] = true;
+      // Update the displayed card and any suspended copy without rebuilding or scrolling either pane.
+      document.querySelectorAll('[data-jbl-choice-viewer]').forEach(element => {
+        if (element.getAttribute('data-jbl-choice-viewer') !== viewer.key) return;
+        const card = element.querySelector('[data-jbl-question]');
+        if (card?.dataset.jblQuestion !== question.id) return;
+        card.querySelectorAll('[data-jbl-choice]').forEach(button => button.classList.remove('selected','correct','wrong'));
+        if (document.activeElement?.closest('[data-jbl-choice]') && card.contains(document.activeElement)) document.activeElement.blur();
+      });
+    }
+    document.addEventListener('click', dismissQuestionChoiceEffects);
+
     function toggleQuestionExplanation(state, question, rerender) {
       if (!question || question.studyKind==='wiki') return;
       const restoreFocus = document.activeElement?.hasAttribute('data-jbl-explanation');
@@ -3674,7 +3706,10 @@
         closeQuestionExplanationSplit();
         return;
       }
-      if (shown) markQuestionPeeked(state, question);
+      if (shown) {
+        markQuestionPeeked(state, question);
+        if (state.choiceEffectsHidden) delete state.choiceEffectsHidden[question.id];
+      }
       state.answerShown[question.id] = shown;
       state.explanationShown[question.id] = shown;
       (state.feedbackHidden ||= {})[question.id] = !shown;
