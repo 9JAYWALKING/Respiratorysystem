@@ -138,23 +138,44 @@ function bindLectureTabSwipe(bar, course) {
   bar._lectureSwipeCleanup?.();
   let start = null, suppressClickUntil = 0;
   let previewPane = null;
+  const minDistance = 32, horizontalRatio = 1.15, verticalDistance = 24;
   const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const resetPreview = () => {
     if (previewPane) { previewPane.style.removeProperty('transform');previewPane.style.removeProperty('filter'); }
     previewPane = null;
   };
-  const down = event => {
-    if (event.isPrimary === false) { start = null; resetPreview(); return; }
-    if ((event.button != null && event.button !== 0) || event.target.closest('input,select,textarea')) return;
-    start = {id:event.pointerId,x:event.clientX,y:event.clientY,horizontal:false};
+  const release = id => {
+    try { if (bar.hasPointerCapture?.(id)) bar.releasePointerCapture(id); } catch (_) {}
+  };
+  const cancel = event => {
+    // Touch initially captures the pressed child (e.g. a tab button). Its
+    // capture-loss event bubbles when we take over; that is not a cancellation.
+    if (event?.type === 'lostpointercapture' && event.target !== bar) return;
+    if (event && start && event.pointerId !== start.id) return;
+    const gesture = start; start = null;
+    if (gesture?.horizontal) suppressClickUntil = Date.now()+500;
     resetPreview();
+    if (gesture) release(gesture.id);
+  };
+  const down = event => {
+    if (event.isPrimary === false) { cancel(); return; }
+    if ((event.button != null && event.button !== 0) || event.target.closest('input,select,textarea,[contenteditable="true"]')) return;
+    cancel();
+    // A fresh tap after a swipe is intentional, not its synthetic trailing click.
+    suppressClickUntil = 0;
+    start = {id:event.pointerId,x:event.clientX,y:event.clientY,horizontal:false};
   };
   const move = event => {
     if (!start || event.pointerId !== start.id) return;
     const dx = Math.abs(event.clientX-start.x), dy = Math.abs(event.clientY-start.y);
-    if (!start.horizontal && dy > 10 && dy >= dx) { start = null; return; }
-    if (dx > 12 && dx > dy*1.5) {
+    // Keep a small undecided zone for natural diagonal starts. Clear vertical
+    // gestures still belong to the browser's native scroll/pinch handling.
+    if (!start.horizontal && dy >= verticalDistance && dy > dx*1.35) { cancel(); return; }
+    if (!start.horizontal && dx >= 10 && dx > dy*horizontalRatio) {
       start.horizontal = true;
+      try { bar.setPointerCapture?.(event.pointerId); } catch (_) {}
+    }
+    if (start.horizontal) {
       if (!reducedMotion()) {
         previewPane = document.querySelector('.lecture-pane:not([hidden])');
         if (previewPane) {
@@ -163,7 +184,6 @@ function bindLectureTabSwipe(bar, course) {
           previewPane.style.filter = `blur(${Math.min(1.4,dx/70)}px)`;
         }
       }
-      bar.setPointerCapture?.(event.pointerId);
       if (event.cancelable) event.preventDefault();
     }
   };
@@ -172,9 +192,9 @@ function bindLectureTabSwipe(bar, course) {
     const gesture = start; start = null;
     resetPreview();
     const dx = Math.abs(event.clientX-gesture.x), dy = Math.abs(event.clientY-gesture.y);
-    if (gesture.horizontal || dx > 12) suppressClickUntil = Date.now()+500;
-    if (bar.hasPointerCapture?.(event.pointerId)) bar.releasePointerCapture(event.pointerId);
-    if (dx < 44 || dx <= dy*1.5) return;
+    if (gesture.horizontal || dx >= 10) suppressClickUntil = Date.now()+500;
+    release(event.pointerId);
+    if (dx < minDistance || dx <= dy*horizontalRatio) return;
     const state = lectureStudyState(course);
     setLectureStudyView(course,(state.expanded || state.view) === 'wiki' ? 'j' : 'wiki');
     if (!reducedMotion()) {
@@ -186,7 +206,6 @@ function bindLectureTabSwipe(bar, course) {
       ],{duration:240,easing:'cubic-bezier(.2,.75,.25,1)'});
     }
   };
-  const cancel = () => { start = null; resetPreview(); };
   const click = event => {
     if (Date.now() < suppressClickUntil && event.detail !== 0) {
       event.preventDefault();event.stopImmediatePropagation();
@@ -209,7 +228,9 @@ function renderLectureStudy(course, target) {
   const bar = document.querySelector('#detail-view .detail-topline');
   bar?.querySelector('.lecture-view-tabs')?.remove();
   if (bar) {
-    bindLectureTabSwipe(bar,course);
+    // Include the coloured bar's padding, not just its inner title row.
+    bar._lectureSwipeCleanup?.();
+    bindLectureTabSwipe(bar.closest('.detail-bar') || bar,course);
     const tabs = document.createElement('div');
     tabs.className = 'lecture-view-tabs';
     tabs.setAttribute('role','group');

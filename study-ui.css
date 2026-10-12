@@ -269,6 +269,10 @@ html[data-theme="dark"] .lecture-workspace .wiki-hero { background:#130d11; }
 html[data-theme="dark"] .lecture-pane-body,html[data-theme="dark"] .lecture-workspace .wiki-toc { background:#000; color:#fff; }
 body.context-link-open .lecture-workspace { height:auto; display:block; }
 body.context-link-open .lecture-pane { max-height:75dvh; margin-bottom:16px; }
+/* Linked J must not turn the source Wiki into a second, top-reset scroller. */
+.study-ui .context-wiki-source .lecture-workspace { position:static; inset:auto; height:auto; min-height:0; display:block; }
+.study-ui .context-wiki-source .lecture-pane { height:auto; max-height:none; overflow:visible; }
+.study-ui .context-wiki-source .lecture-pane-body { height:auto; max-height:none; overflow:visible; flex:none; }
 @media(max-width:900px) {
   .lecture-workspace { grid-template-columns:minmax(0,1fr); grid-template-rows:auto auto; height:auto; min-height:0; align-items:start; gap:16px; }
   .lecture-workspace:not([data-expanded="wiki"]):not([data-expanded="j"]) .lecture-pane-body { overflow:visible; flex:none; }
@@ -410,6 +414,7 @@ html:not([data-theme="dark"]) .study-ui .study-answer-status.is-correct { color:
   .lecture-pane-head { display:none; }
 }
 /* Compact lecture tabs: preserve both documents, expose one full-width pane. */
+.study-ui .detail-bar { touch-action:pan-y pinch-zoom; }
 .study-ui .detail-topline { display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:8px; touch-action:pan-y pinch-zoom; }
 .study-ui .detail-course-controls { justify-self:end; }
 .study-ui .lecture-view-tabs { display:flex; align-items:center; gap:3px; padding:3px; border:1px solid #ffffff38; border-radius:11px; background:#ffffff12; }
