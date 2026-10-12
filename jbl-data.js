@@ -4730,10 +4730,12 @@ window.JBL_DATA = {
         "PCO2 감소",
         "pH 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — 운동",
+      "explanation": "'''정답: 2번, 운동.'''\n\n=== 같은 PO₂에서 얼마나 붙잡는가 ===\nHb의 산소 친화도가 높으면 같은 PO₂에서 산소를 더 많이 결합하지만, 조직에는 덜 내려놓는다. '''우측 이동은 친화도 감소·P50 증가·조직 방출 증가''', 좌측 이동은 그 반대다. P50은 Hb가 50% 포화되는 데 필요한 PO₂이므로, 친화도가 높을수록 더 낮은 분압에서도 절반을 채운다.\n\n||= 우측 이동 ||= 좌측 이동 ||\n|| 온도↑, PCO₂↑, H⁺↑·pH↓, 2,3-DPG↑ || 온도↓, PCO₂↓, H⁺↓·pH↑, 2,3-DPG↓ ||\n|| 운동 조직에서 산소 방출에 유리 || 폐에서 결합에 유리하지만 조직 방출은 불리 ||\n|| P50↑ || P50↓ ||\n\nPO₂ 자체의 증가는 곡선을 이동시키는 것이 아니라 '''같은 곡선 위에서 오른쪽 위로 이동'''하여 포화도를 높인다. Hb의 양과 혈액의 산소 함량도 별도로 구별해야 한다.\n\n=== 선지별로 보면 ===\n* ① 저온 — 좌측 이동으로 같은 PO₂에서 Hb의 산소 친화도와 포화도를 높인다.\n* ② 운동 — 조직의 온도·CO₂·H⁺가 증가해 우측 이동을 일으킨다. 같은 PO₂에서 산소를 더 내려놓으므로 포화도를 높이는 조건이 아니다.\n* ③ PO₂ 증가 — 해리곡선 자체의 이동은 아니지만 결합 가능한 산소가 많아져 같은 곡선 위에서 포화도가 증가한다.\n* ④ PCO₂ 감소 — 좌측 이동으로 산소 결합을 유리하게 한다.\n* ⑤ pH 증가 — H⁺가 감소하여 좌측 이동한다. pH 감소와 반대로 읽어야 한다.\n\n[[7강#우측 이동은 조직 방출을, 좌측 이동은 결합을 유리하게 한다|Wiki · 우측 이동은 조직 방출을, 좌측 이동은 결합을 유리하게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 18·20·21·22쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -4756,7 +4758,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          18,
+          20,
+          21,
+          22
+        ],
+        "chapter": "우측 이동은 조직 방출을, 좌측 이동은 결합을 유리하게 한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-085",
@@ -4778,10 +4795,12 @@ window.JBL_DATA = {
         "Double Bohr effect",
         "Gibbs-Donnan effect"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Haldane effect",
+      "explanation": "'''정답: 2번, Haldane effect.'''\n\n=== O₂가 붙으면 CO₂를 내리고, O₂가 떨어지면 CO₂를 싣는다 ===\n'''탈산소 Hb는 CO₂를 더 잘 결합하고 H⁺도 더 잘 완충'''한다. 조직에서 O₂를 내려놓은 Hb는 CO₂와 H⁺를 받아들여 CO₂ 운반을 돕는다. 폐에서 산소화되면 반대가 되어 CO₂ 결합이 줄고 H⁺가 풀려난다. H⁺ + HCO₃⁻가 H₂CO₃를 거쳐 CO₂ + H₂O로 돌아가므로 폐포로 CO₂를 내보내기 쉬워진다.\n\n||= 효과 ||= 먼저 바뀌는 것 ||= 결과 ||\n|| '''Haldane''' || Hb의 O₂ 결합·산소화 상태 || Hb가 운반할 수 있는 '''CO₂와 H⁺'''의 양 변화 ||\n|| '''Bohr''' || CO₂·H⁺ 증가, pH 감소 || Hb의 '''O₂''' 친화도 감소와 조직 방출 증가 ||\n\n같은 PCO₂에서 탈산소혈이 산소화혈보다 더 많은 CO₂를 운반한다. 따라서 CO₂ 해리곡선에서 탈산소화는 위쪽/왼쪽 이동으로 표현된다. 산소 해리곡선의 좌우 이동과 축을 섞지 않는다.\n\n=== 선지별로 보면 ===\n* ① Bohr effect — CO₂·H⁺가 Hb의 산소 친화도를 바꾸는 현상이다. 산소화가 CO₂ 운반을 바꾸는 Haldane과 방향이 다르다.\n* ② Haldane effect — 탈산소 Hb의 CO₂·H⁺ 운반이 더 유리하고, 폐에서 산소화되면 CO₂ 배출이 쉬워진다.\n* ③ Warburg effect — 대사와 관련된 개념으로 Hb 산소화에 따른 CO₂ 운반 변화의 이름이 아니다.\n* ④ Double Bohr effect — 태반에서 태아와 모체 사이 CO₂ 이동으로 양쪽 pH와 산소 친화도가 반대 방향으로 변해 O₂ 전달을 돕는 현상이다.\n* ⑤ Gibbs–Donnan effect — 막을 통과하지 못하는 전하 입자와 관련된 이온 분포의 원리다. 이 CO₂ 해리곡선 변화의 명칭이 아니다.\n\n[[7강#Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다|Wiki · Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 22·46·47·48쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -4804,7 +4823,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          22,
+          46,
+          47,
+          48
+        ],
+        "chapter": "Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-086",
@@ -4826,10 +4860,12 @@ window.JBL_DATA = {
         "CO",
         "Ether"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — CO",
+      "explanation": "'''정답: 4번, CO.'''\n\n=== 빨리 평형에 도달하는 기체와 계속 분압 차이를 남기는 기체 ===\n확산제한은 혈액이 폐모세혈관을 지나는 동안 폐포와 충분히 평형에 도달하지 못해, 막을 건너는 능력이 전달량을 제한하는 경우다. 관류제한은 평형에 빨리 도달하여 더 많은 기체를 옮기려면 새로운 혈액을 더 보내야 하는 경우다.\n\n||= 기체 ||= 대표 양상 ||= 이유 ||\n|| '''CO''' || 확산제한 || Hb에 강하게 붙어 용해된 CO의 분압이 잘 올라가지 않으므로 폐포–혈액 분압 차이가 지속 ||\n|| N₂O || 관류제한 || 혈액 분압이 폐포와 빠르게 평형에 도달 ||\n|| O₂ || 정상 안정 시 관류제한 || 보통 약 0.25초에 평형. 섬유화·심한 운동·저산소 등에서는 확산제한 가능 ||\n|| CO₂ || 보통 잘 확산 || 높은 용해도 덕분에 O₂보다 약 20배 잘 확산 ||\n\nCO가 ‘막을 통과할 수 없다’는 뜻은 아니다. 혈액 쪽 자유 CO 분압이 낮게 유지되어 '''막의 확산능'''을 측정하기 좋은 기체라는 뜻이다.\n\n=== 선지별로 보면 ===\n* ① N₂O — 폐포와 모세혈관혈이 빨리 평형에 도달하므로 대표적인 관류제한 기체다.\n* ② CO₂ — 용해도가 높아 잘 확산하며, 대표적인 확산제한 기체를 고르는 답은 아니다.\n* ③ O₂ — 정상에서는 관류제한이다. 병적 조건에서는 확산제한이 가능하지만, 조건 없이 대표 기체를 물으면 CO를 고른다.\n* ④ CO — Hb에 결합하여 혈액의 자유 CO 분압이 낮게 유지된다. 확산제한의 대표다.\n* ⑤ Ether — 이 문항에서 CO와 같은 대표적인 확산제한 표지 기체가 아니다. 혈액의 용해·평형 및 관류에 의해 전달이 달라지는 기체로 구별한다.\n\n[[7강#CO는 확산제한, N₂O는 관류제한을 보여준다|Wiki · CO는 확산제한, N₂O는 관류제한을 보여준다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 5·6·7·8·9쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -4868,7 +4904,23 @@ window.JBL_DATA = {
             "2025-086"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "chapter": "CO는 확산제한, N₂O는 관류제한을 보여준다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-087",
@@ -4890,10 +4942,12 @@ window.JBL_DATA = {
         "Dissolved CO2",
         "Albumin 결합"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — HCO3-",
+      "explanation": "'''정답: 2번, HCO3-.'''\n\n=== 생성되는 곳과 운반되는 형태를 구별한다 ===\n조직의 CO₂가 적혈구로 들어오면 carbonic anhydrase가 CO₂ + H₂O ⇄ H₂CO₃ ⇄ H⁺ + HCO₃⁻ 반응을 빠르게 한다. H⁺는 주로 탈산소 Hb가 완충하고, HCO₃⁻는 Cl⁻와 교환되어 혈장으로 나간다. 이것이 '''chloride shift'''다.\n\n||= 운반 형태 ||= 대표 비중·위치 ||\n|| '''HCO₃⁻''' || 약 70% 이상. 주로 적혈구에서 생성되지만 대부분 혈장으로 나와 운반 ||\n|| Carbamino 화합물 || 대략 20%대. 주로 Hb의 globin 부분에 CO₂가 결합 ||\n|| 용해된 CO₂ || 약 7% 수준. 분압을 만드는 자유 기체 ||\n|| H₂CO₃ || 반응 중간체로 양은 작음 ||\n\n폐에서는 반응이 역전된다. HCO₃⁻가 적혈구로 돌아오고 Cl⁻가 나가며, H⁺와 결합해 최종적으로 CO₂가 되어 폐포로 빠져나간다. 따라서 '''반응이 빠른 장소는 RBC, 주된 운반 형태·장소는 혈장의 HCO₃⁻'''다. 비율은 조건에 따라 조금 달라진다.\n\n=== 선지별로 보면 ===\n* ① Carbaminohemoglobin — 중요한 운반 형태지만 HCO₃⁻보다 비중이 작다. CO₂는 heme의 철이 아니라 globin의 아미노기에 결합한다.\n* ② HCO₃⁻ — 가장 많은 CO₂가 이 형태로 운반된다.\n* ③ H₂CO₃ — CO₂ 수화 반응의 중간체이며, 대부분 H⁺와 HCO₃⁻로 나뉜다.\n* ④ 용해된 CO₂ — 분압과 확산에는 중요하지만 전체 운반량에서는 적은 비중이다.\n* ⑤ Albumin 결합 — 혈장 단백질도 일부 결합·완충에 기여하지만 주된 형태는 아니다.\n\n[[7강#CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다|Wiki · CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 41·42·43·44·45쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -4916,7 +4970,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "chapter": "CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-088",
@@ -4936,10 +5006,12 @@ window.JBL_DATA = {
         "Diving reflex",
         "Aspiration reflex"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — Hering-Breuer reflex",
+      "explanation": "'''정답: 1번, Hering-Breuer reflex.'''\n\n=== 폐 팽창이 다음 들숨을 막는 경로 ===\n'''Hering–Breuer inflation reflex'''는 폐 팽창이 들숨을 끝내는 반사다. 기관지·세기관지 벽의 '''slowly adapting stretch receptor''' → '''미주신경 감각 입력''' → 연수 호흡 회로 → 흡기성 출력 억제 순서로 이어진다. 횡격막으로 나가는 운동신경은 phrenic nerve이므로 vagus를 운동 출력으로 외우면 안 된다.\n\n||= 수용체 ||= 주된 자극·결과 ||\n|| '''Slow stretch receptor''' || 폐 팽창 → 들숨 억제 ||\n|| Rapidly adapting/irritant receptor || 기도 자극 → 기침·기관지수축 등 ||\n|| J receptor || 폐울혈·간질부종 등 → 빠르고 얕은 호흡·호흡곤란 ||\n|| 근육·관절 수용체 || 흉곽 위치와 호흡근 장력 정보 ||\n\n영아에서 특히 중요하며, 정상 성인의 안정 호흡에서는 기여가 작다. 강의는 큰 일회호흡량 '''약 1 L 이상'''의 상황을 제시한다. 반사의 본질은 '''들숨 종료'''이지 호흡 빈도가 무조건 증가한다는 것이 아니다. 팽창이 지속되면 날숨이 연장될 수도 있다.\n\n=== 선지별로 보면 ===\n* ① Hering–Breuer reflex — 폐 팽창·slow stretch receptor·vagal afferent·들숨 억제를 묶는 정답이다.\n* ② Diving reflex — 얼굴의 찬물 자극 등에 의한 무호흡·서맥이다. 폐 팽창 반사가 아니다.\n* ③ Aspiration reflex — 인두 자극 등으로 짧고 강한 흡기가 유발되는 반사다. 폐 팽창으로 들숨을 멈추는 것과 다르다.\n\n[[8강#Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다|Wiki · Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다]]\n~~근거: 38기 「호흡의 조절」 PDF 45·47·48·49쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -4962,7 +5034,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          45,
+          47,
+          48,
+          49
+        ],
+        "chapter": "Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-089",
@@ -4984,10 +5071,12 @@ window.JBL_DATA = {
         "동맥혈의 CO2 증가",
         "Csf의 H+ 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Csf의 H+ 증가",
+      "explanation": "'''정답: 5번, Csf의 H+ 증가.'''\n\n=== CO₂가 장벽을 통과하고, H⁺가 수용체를 자극한다 ===\n혈액뇌장벽은 H⁺와 HCO₃⁻의 빠른 이동을 제한하지만 CO₂는 잘 통과한다. 따라서 '''혈액 PCO₂ 증가 → CO₂의 BBB 통과 → CSF에서 H⁺ 생성 → 중추화학수용체 자극'''의 순서가 된다. 직접 자극과 그 자극을 만든 원인은 다르다.\n\n||= 변화 ||= 중추·말초와의 관계 ||\n|| '''CSF H⁺ 증가·pH 감소''' || 중추화학수용체의 직접 자극 ||\n|| 동맥혈 CO₂ 증가 || BBB를 통과한 뒤 H⁺를 만들어 중추 자극. 말초에도 작용 ||\n|| 동맥혈 H⁺ 증가 || 장벽 통과가 제한되어 주로 말초화학수용체를 통해 환기 증가 ||\n|| 동맥혈 PO₂ 감소 || 말초화학수용체 자극 ||\n\nCSF는 단백질 완충이 적어 CO₂ 변화에 pH가 쉽게 달라진다. 지속적인 고탄산혈증에서는 HCO₃⁻ 조정으로 1–2일에 걸쳐 반응이 약해질 수 있다. 이것도 중추가 단순히 CO₂ 수치를 직접 읽기만 하는 것이 아니라 주변 산도에 반응한다는 점과 연결된다.\n\n=== 선지별로 보면 ===\n* ① 동맥혈 H⁺ 증가 — 주로 말초를 자극한다. 혈액 H⁺가 곧바로 CSF로 잘 들어가는 것은 아니다.\n* ② CSF O₂ 증가 — 중추화학수용체의 직접 흥분 신호가 아니다.\n* ③ 동맥혈 O₂ 증가 — 저산소성 말초 자극을 오히려 줄인다.\n* ④ 동맥혈 CO₂ 증가 — 강한 호흡 자극의 원인이지만, 중추의 직접 자극으로 바뀌는 중간 단계는 CSF H⁺ 증가다.\n* ⑤ CSF H⁺ 증가 — 중추화학수용체의 직접 자극이다.\n\n[[8강#중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다|Wiki · 중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다]]\n~~근거: 38기 「호흡의 조절」 PDF 32·35·36·37쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -5026,7 +5115,22 @@ window.JBL_DATA = {
             "2025-089"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          32,
+          35,
+          36,
+          37
+        ],
+        "chapter": "중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-091",
@@ -5048,10 +5152,12 @@ window.JBL_DATA = {
         "J. Receptor",
         "Stretch receptor"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — Carotid body",
+      "explanation": "'''정답: 1번, Carotid body.'''\n\n=== 낮은 PO₂를 직접 감지하는 곳 ===\n'''Carotid body'''는 낮은 동맥혈 PO₂를 감지하는 핵심 말초화학수용체다. 신호는 설인신경 IX를 통해 NTS/DRG로 들어간다. Aortic body는 미주신경 X를 이용한다. 두 수용체는 CO₂와 H⁺ 증가에도 반응한다.\n\n저산소에서 glomus cell의 K⁺ 유출이 감소하면 탈분극하고 Ca²⁺가 들어와 전달물질이 분비된다. 전체 환기 반응은 특히 '''PaO₂ 약 60 mmHg 이하'''에서 크게 증가한다. 이 센서는 Hb에 담긴 산소 총량이 아니라 '''용해된 산소가 만드는 분압'''을 읽으므로, 빈혈·CO 중독의 낮은 산소 함량과 단순한 낮은 PaO₂를 구분해야 한다.\n\n> 감지: carotid body → 전달: IX → 통합: NTS/DRG → 출력: phrenic nerve 등 → 환기 증가. 중추화학수용체의 직접 자극은 별도로 CSF H⁺다.\n\n=== 선지별로 보면 ===\n* ① Carotid body — 동맥혈 저산소를 직접 감지한다.\n* ② Apneustic center — 교뇌에서 들숨 지속에 관여하는 영역이지 혈액 PO₂ 감지기관은 아니다.\n* ③ DSG — 원문 표기를 보존했다. DRG를 의도한 복원이라도 감각 통합 중추이지 직접적인 말초 PO₂ 센서가 아니므로 정답은 달라지지 않는다.\n* ④ J receptor — 폐울혈·부종 등에 반응하는 폐실질 감각 말단이다.\n* ⑤ Stretch receptor — 폐 팽창을 감지한다. 혈액 PO₂ 감소를 직접 감지하는 센서가 아니다.\n\n[[8강#Carotid body는 낮은 동맥혈 PO₂를 감지한다|Wiki · Carotid body는 낮은 동맥혈 PO₂를 감지한다]]\n~~근거: 38기 「호흡의 조절」 PDF 29·30·31·38·41쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -5074,7 +5180,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          29,
+          30,
+          31,
+          38,
+          41
+        ],
+        "chapter": "Carotid body는 낮은 동맥혈 PO₂를 감지한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-092",
@@ -7601,10 +7723,12 @@ window.JBL_DATA = {
         "Hb와 결합한 Fe2+의 산화",
         "혈중 2,3-DPG 농도 감소"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — 체온 상승",
+      "explanation": "'''출제 의도로 판단한 답: 1번, 체온 상승.'''\n\n=== 같은 PO₂에서 얼마나 붙잡는가 ===\nHb의 산소 친화도가 높으면 같은 PO₂에서 산소를 더 많이 결합하지만, 조직에는 덜 내려놓는다. '''우측 이동은 친화도 감소·P50 증가·조직 방출 증가''', 좌측 이동은 그 반대다. P50은 Hb가 50% 포화되는 데 필요한 PO₂이므로, 친화도가 높을수록 더 낮은 분압에서도 절반을 채운다.\n\n||= 우측 이동 ||= 좌측 이동 ||\n|| 온도↑, PCO₂↑, H⁺↑·pH↓, 2,3-DPG↑ || 온도↓, PCO₂↓, H⁺↓·pH↑, 2,3-DPG↓ ||\n|| 운동 조직에서 산소 방출에 유리 || 폐에서 결합에 유리하지만 조직 방출은 불리 ||\n|| P50↑ || P50↓ ||\n\nPO₂ 자체의 증가는 곡선을 이동시키는 것이 아니라 '''같은 곡선 위에서 오른쪽 위로 이동'''하여 포화도를 높인다. Hb의 양과 혈액의 산소 함량도 별도로 구별해야 한다.\n\n=== Fe²⁺ 산화 선지가 애매한 이유 ===\nFe²⁺가 Fe³⁺로 산화된 MetHb의 자리는 O₂를 결합하지 못한다. 동시에 같은 Hb에 남은 Fe²⁺ 자리의 친화도는 높아져 '''남은 결합 자리의 해리곡선은 좌측 이동'''한다. 강의의 MetHb 그래프를 기준으로 친화도 변화를 묻는 문항으로 읽으면 온도 증가인 1번이 답이다.\n\n다만 발문의 ‘산소포화도’를 전체 Hb 중 oxyHb의 비율로 엄밀히 해석하면 MetHb 증가도 그 비율을 낮출 수 있다. '''친화도 증가와 혈액의 실제 산소 운반 개선은 다르다.''' 이 용어상 한계를 남기며, 공식 정답이 확인된 것으로 단정하지 않는다.~~Functional saturation은 oxyHb/(oxyHb+deoxyHb), fractional saturation은 MetHb·COHb까지 포함한 전체 Hb를 분모로 한다. https://pmc.ncbi.nlm.nih.gov/articles/PMC5772567/ 참고.~~~\n\n=== 선지별로 보면 ===\n* ① 온도 증가 — 우측 이동으로 친화도와 같은 PO₂에서의 포화도가 감소한다. 해리곡선 이동이라는 출제 의도에서 정답이다.\n* ② PCO₂ 감소 — 좌측 이동하여 산소 결합을 유리하게 한다.\n* ③ 대사성 알칼리증 — pH 상승으로 좌측 이동한다.\n* ④ Fe²⁺ 산화 — MetHb 형성으로 유효 결합 자리는 감소한다. 남은 Fe²⁺ 자리의 친화도는 증가한다는 강의의 그래프를 적용하되, 산소 운반 자체가 좋아진다는 뜻으로 읽으면 안 된다.\n* ⑤ 2,3-DPG 감소 — 탈산소 T 상태의 안정화가 줄어 좌측 이동한다.\n\n[[7강#우측 이동은 조직 방출을, 좌측 이동은 결합을 유리하게 한다|Wiki · 우측 이동은 조직 방출을, 좌측 이동은 결합을 유리하게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 16·18·20·23쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "이진영",
@@ -7627,7 +7751,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          16,
+          18,
+          20,
+          23
+        ],
+        "chapter": "우측 이동은 조직 방출을, 좌측 이동은 결합을 유리하게 한다",
+        "answerStatus": "qualified_interpretation",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2024-016",
@@ -7711,10 +7850,12 @@ window.JBL_DATA = {
         "Double Bohr effect",
         "Gibbs-Donnan effect"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Haldane effect",
+      "explanation": "'''정답: 2번, Haldane effect.'''\n\n=== O₂가 붙으면 CO₂를 내리고, O₂가 떨어지면 CO₂를 싣는다 ===\n'''탈산소 Hb는 CO₂를 더 잘 결합하고 H⁺도 더 잘 완충'''한다. 조직에서 O₂를 내려놓은 Hb는 CO₂와 H⁺를 받아들여 CO₂ 운반을 돕는다. 폐에서 산소화되면 반대가 되어 CO₂ 결합이 줄고 H⁺가 풀려난다. H⁺ + HCO₃⁻가 H₂CO₃를 거쳐 CO₂ + H₂O로 돌아가므로 폐포로 CO₂를 내보내기 쉬워진다.\n\n||= 효과 ||= 먼저 바뀌는 것 ||= 결과 ||\n|| '''Haldane''' || Hb의 O₂ 결합·산소화 상태 || Hb가 운반할 수 있는 '''CO₂와 H⁺'''의 양 변화 ||\n|| '''Bohr''' || CO₂·H⁺ 증가, pH 감소 || Hb의 '''O₂''' 친화도 감소와 조직 방출 증가 ||\n\n같은 PCO₂에서 탈산소혈이 산소화혈보다 더 많은 CO₂를 운반한다. 따라서 CO₂ 해리곡선에서 탈산소화는 위쪽/왼쪽 이동으로 표현된다. 산소 해리곡선의 좌우 이동과 축을 섞지 않는다.\n\n=== 선지별로 보면 ===\n* ① Bohr effect — CO₂·H⁺가 Hb의 산소 친화도를 바꾸는 현상이다. 산소화가 CO₂ 운반을 바꾸는 Haldane과 방향이 다르다.\n* ② Haldane effect — 탈산소 Hb의 CO₂·H⁺ 운반이 더 유리하고, 폐에서 산소화되면 CO₂ 배출이 쉬워진다.\n* ③ Warburg effect — 대사와 관련된 개념으로 Hb 산소화에 따른 CO₂ 운반 변화의 이름이 아니다.\n* ④ Double Bohr effect — 태반에서 태아와 모체 사이 CO₂ 이동으로 양쪽 pH와 산소 친화도가 반대 방향으로 변해 O₂ 전달을 돕는 현상이다.\n* ⑤ Gibbs–Donnan effect — 막을 통과하지 못하는 전하 입자와 관련된 이온 분포의 원리다. 이 CO₂ 해리곡선 변화의 명칭이 아니다.\n\n[[7강#Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다|Wiki · Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 22·46·47·48쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "이진영",
@@ -7737,7 +7878,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          22,
+          46,
+          47,
+          48
+        ],
+        "chapter": "Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2024-018",
@@ -7759,10 +7915,12 @@ window.JBL_DATA = {
         "Hering-Breuer reflex",
         "J receptor reflex"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Hering-Breuer reflex",
+      "explanation": "'''정답: 4번, Hering-Breuer reflex.'''\n\n=== 폐 팽창이 다음 들숨을 막는 경로 ===\n'''Hering–Breuer inflation reflex'''는 폐 팽창이 들숨을 끝내는 반사다. 기관지·세기관지 벽의 '''slowly adapting stretch receptor''' → '''미주신경 감각 입력''' → 연수 호흡 회로 → 흡기성 출력 억제 순서로 이어진다. 횡격막으로 나가는 운동신경은 phrenic nerve이므로 vagus를 운동 출력으로 외우면 안 된다.\n\n||= 수용체 ||= 주된 자극·결과 ||\n|| '''Slow stretch receptor''' || 폐 팽창 → 들숨 억제 ||\n|| Rapidly adapting/irritant receptor || 기도 자극 → 기침·기관지수축 등 ||\n|| J receptor || 폐울혈·간질부종 등 → 빠르고 얕은 호흡·호흡곤란 ||\n|| 근육·관절 수용체 || 흉곽 위치와 호흡근 장력 정보 ||\n\n영아에서 특히 중요하며, 정상 성인의 안정 호흡에서는 기여가 작다. 강의는 큰 일회호흡량 '''약 1 L 이상'''의 상황을 제시한다. 반사의 본질은 '''들숨 종료'''이지 호흡 빈도가 무조건 증가한다는 것이 아니다. 팽창이 지속되면 날숨이 연장될 수도 있다.\n\n발문의 미주신경 표현은 '''폐에서 중추로 들어오는 감각 경로'''로 읽는다. 중추가 미주신경을 운동신경처럼 써서 횡격막을 멈춘다는 뜻이라면 부정확하다. 수용체와 결과가 Hering–Breuer를 분명히 가리키므로 답은 4번으로 판단한다.\n\n=== 선지별로 보면 ===\n* ① Diving reflex — 얼굴의 찬물 자극 등에 의한 무호흡·서맥이다. 폐 팽창 반사가 아니다.\n* ② Aspiration reflex — 인두 자극 등으로 짧고 강한 흡기가 유발되는 반사다. 폐 팽창으로 들숨을 멈추는 것과 다르다.\n* ③ Sniff — 짧고 강한 들숨과 관련된다. 이 문항의 폐 팽창–흡기 억제 경로가 아니다.\n* ④ Hering–Breuer reflex — 폐 팽창·slow stretch receptor·vagal afferent·들숨 억제를 묶는 정답이다.\n* ⑤ J receptor 반응 — 폐울혈·부종과 빠르고 얕은 호흡을 연결한다.\n\n[[8강#Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다|Wiki · Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다]]\n~~근거: 38기 「호흡의 조절」 PDF 45·47·48·49쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "이진영",
@@ -7785,7 +7943,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          45,
+          47,
+          48,
+          49
+        ],
+        "chapter": "Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2024-019",
@@ -10215,10 +10388,12 @@ window.JBL_DATA = {
         "기체의 분압 차이",
         "Lung의 diffusion capacity"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — Blood-air barrier의 두께 (thickness)",
+      "explanation": "'''정답: 3번, Blood-air barrier의 두께 (thickness).'''\n\n=== Fick의 법칙에서 분모를 찾는다 ===\n기체 이동량은 '''V̇gas = A × D × ΔP / T'''다. A는 교환면적, ΔP는 분압 차이, T는 장벽 두께다. 확산계수 D는 용해도에 비례하고 분자량의 제곱근에 반비례한다.\n\n||= 커지는 값 ||= 확산에 미치는 영향 ||\n|| 용해도·표면적·분압 차이 || 증가 ||\n|| '''막 두께''' || '''감소''' ||\n|| 분자량 || 제곱근에 반비례해 감소 ||\n|| 폐확산능 DL || 같은 ΔP에서 전달량 증가 ||\n\n폐섬유화로 장벽이 두꺼워지는 상황과 폐기종으로 면적이 줄어드는 상황은 모두 확산능을 낮추지만, 수식에서 작용하는 자리가 다르다.\n\n=== 선지별로 보면 ===\n* ① 기체 용해도 — 높을수록 확산계수가 커져 잘 이동한다.\n* ② 표면적 — 넓을수록 동시에 이동할 수 있는 기체가 많다.\n* ③ 막의 두께 — 두꺼울수록 이동 거리가 길어져 확산 속도가 감소한다. 반비례하는 요소다.\n* ④ 분압 차이 — 양쪽 차이가 클수록 확산의 구동력이 커진다.\n* ⑤ 폐확산능 — DL이 클수록 같은 분압 차이에서 더 많은 기체가 이동한다.\n\n[[7강#확산은 넓고 얇은 막에서 빨라진다|Wiki · 확산은 넓고 얇은 막에서 빨라진다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 5·6·7쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "이진영",
@@ -10241,7 +10416,21 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "chapter": "확산은 넓고 얇은 막에서 빨라진다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-001",
@@ -11480,10 +11669,12 @@ window.JBL_DATA = {
         "Rostral ventral respiratory group",
         "Caudal nucleus retroambiguus"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Dorsal respiratory group",
+      "explanation": "'''정답: 2번, Dorsal respiratory group.'''\n\n=== 호흡중추를 위치보다 기능으로 구별한다 ===\n||= 구조 ||= 주요 기능 ||\n|| '''DRG, NTS 부근''' || 주로 흡기성. IX·X 감각 입력을 받아 들숨근과 VRG에 연결 ||\n|| Rostral VRG, retrofacialis/Bötzinger || 강의 분류에서 주로 호기성 뉴런 ||\n|| Intermediate VRG || 주로 흡기성과 일부 호기성, 상기도·흡기근 출력. Pre-Bötzinger 회로는 리듬 생성 ||\n|| Caudal VRG, NRA || 강의에서 rostral NRA는 흡기성, caudal NRA는 호기성 ||\n|| PRG || 교뇌에서 들숨의 길이와 전환 조절 ||\n\nDRG는 감각 입력의 중요한 통합점이다. '''Carotid body가 저산소를 감지 → IX → NTS/DRG → 호흡 운동 조절'''의 순서로 생각한다. 이름에 rostral이 있다고 모두 같은 집단은 아니다. 특히 강의의 rostral VRG와 rostral NRA를 구별한다.\n\n=== 선지별로 보면 ===\n* ① Nucleus retrofacialis — 강의의 rostral VRG/Bötzinger 영역으로 주로 호기성이다.\n* ② DRG — 강의에서는 주로 흡기성 뉴런군으로 제시한다. ‘흡기 뉴런’의 대표를 묻는 선택지다.\n* ③ PRG — 교뇌에서 들숨 종료와 호흡 패턴을 조정한다. 연수의 흡기 뉴런군과 구별한다.\n* ④ Rostral VRG — 이 강의의 명명에서는 Bötzinger의 호기성 영역이다. 다른 문헌의 rVRG 용어와 섞지 않는다.\n* ⑤ Caudal NRA — 호기성 뉴런이다. 흡기성인 rostral NRA와 반대다.\n\n[[8강#DRG는 감각 정보를 받아 들숨 운동에 연결한다|Wiki · DRG는 감각 정보를 받아 들숨 운동에 연결한다]]\n~~근거: 38기 「호흡의 조절」 PDF 8·9·10·11·14쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -11506,7 +11697,23 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          8,
+          9,
+          10,
+          11,
+          14
+        ],
+        "chapter": "DRG는 감각 정보를 받아 들숨 운동에 연결한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-022",
@@ -11528,10 +11735,12 @@ window.JBL_DATA = {
         "Irritant receptor",
         "Muscle-joint receptor"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Slowly adapting pulmonary stretch receptor",
+      "explanation": "'''정답: 2번, Slowly adapting pulmonary stretch receptor.'''\n\n=== 폐 팽창이 다음 들숨을 막는 경로 ===\n'''Hering–Breuer inflation reflex'''는 폐 팽창이 들숨을 끝내는 반사다. 기관지·세기관지 벽의 '''slowly adapting stretch receptor''' → '''미주신경 감각 입력''' → 연수 호흡 회로 → 흡기성 출력 억제 순서로 이어진다. 횡격막으로 나가는 운동신경은 phrenic nerve이므로 vagus를 운동 출력으로 외우면 안 된다.\n\n||= 수용체 ||= 주된 자극·결과 ||\n|| '''Slow stretch receptor''' || 폐 팽창 → 들숨 억제 ||\n|| Rapidly adapting/irritant receptor || 기도 자극 → 기침·기관지수축 등 ||\n|| J receptor || 폐울혈·간질부종 등 → 빠르고 얕은 호흡·호흡곤란 ||\n|| 근육·관절 수용체 || 흉곽 위치와 호흡근 장력 정보 ||\n\n영아에서 특히 중요하며, 정상 성인의 안정 호흡에서는 기여가 작다. 강의는 큰 일회호흡량 '''약 1 L 이상'''의 상황을 제시한다. 반사의 본질은 '''들숨 종료'''이지 호흡 빈도가 무조건 증가한다는 것이 아니다. 팽창이 지속되면 날숨이 연장될 수도 있다.\n\n=== 선지별로 보면 ===\n* ① Rapidly adapting stretch receptor — 기도 자극·동적 변화에 반응하는 쪽이며, 전형적인 Hering–Breuer inflation reflex의 수용체는 slow receptor다.\n* ② Slowly adapting stretch receptor — 지속적인 폐 팽창 정보를 제공하여 영아의 흡기 종료에 기여한다.\n* ③ J receptor — 폐포 모세혈관 주변의 울혈·부종 감지와 관련된다.\n* ④ Irritant receptor — 먼지·연기 등 기도 자극에 대한 기침과 기관지수축이 대표다.\n* ⑤ 근육·관절 수용체 — 흉곽 움직임과 장력 정보를 주지만, 문항의 폐 팽창 반사 수용체는 아니다.\n\n[[8강#Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다|Wiki · Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다]]\n~~근거: 38기 「호흡의 조절」 PDF 45·46·47·48쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -11554,7 +11763,22 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "chapter": "Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-023",
@@ -11576,10 +11800,12 @@ window.JBL_DATA = {
         "Erythropoietin 생산 증가",
         "2,3-DPG 농도 감소"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Erythropoietin 생산 증가",
+      "explanation": "'''정답: 4번, Erythropoietin 생산 증가.'''\n\n=== 고지대의 출발점은 낮은 흡입 산소분압이다 ===\n고지대에서는 대기압 감소로 흡입 PO₂와 PaO₂가 낮아진다. 말초화학수용체가 환기를 늘리고, 신장은 EPO를 분비해 적혈구 생성을 촉진한다. 이때 과환기로 CO₂가 줄어 호흡성 알칼리증이 생기며, 시간이 지나 신장의 HCO₃⁻ 배출 등이 이를 보상한다.\n\n||= 적응 항목 ||= 방향 ||\n|| 환기 || 증가 ||\n|| PaO₂ || 평지보다 감소 ||\n|| EPO·적혈구 생성 || 증가 ||\n|| 2,3-DPG || 증가하여 조직 방출에 도움 ||\n|| 폐혈관저항 || 저산소성 수축으로 증가, 장기적으로 우심실 부담 가능 ||\n\nEPO는 Hb의 친화도를 직접 바꾸는 물질이 아니라 산소를 운반할 적혈구의 수를 늘린다. 환기·운반 용량·친화도 변화를 나누어 기억한다.\n\n=== 선지별로 보면 ===\n* ① 저환기 — 정상적인 초기 적응은 과환기다. 만성 고산병의 환기 저하와 섞으면 안 된다.\n* ② PaO₂ 100 mmHg 이상 — 고지대 저산소 상황을 반대로 설명한다.\n* ③ 폐혈관 확장 — 폐에서는 저산소에 혈관수축으로 반응한다. 전신 조직의 저산소성 혈관확장과 다르다.\n* ④ EPO 증가 — 신장의 저산소 감지로 적혈구 생성이 증가한다.\n* ⑤ 2,3-DPG 감소 — 장기 적응은 대체로 증가하여 조직 산소 방출을 돕는다.\n\n[[7강#고지대에서는 환기와 적혈구 생성이 함께 적응한다|Wiki · 고지대에서는 환기와 적혈구 생성이 함께 적응한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 30·31·32·33쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -11604,7 +11830,22 @@ window.JBL_DATA = {
         "고지대 적응의 EPO를 묻는다. 기체운반 자료 PDF31쪽에 EPO 직접 근거가 있어 7강 우선; 8강 고지대 호흡 반응과 교차."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "chapter": "고지대에서는 환기와 적혈구 생성이 함께 적응한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-024",
@@ -11626,10 +11867,12 @@ window.JBL_DATA = {
         "Carotid body",
         "Apneustic center"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Carotid body",
+      "explanation": "'''정답: 4번, Carotid body.'''\n\n=== 낮은 PO₂를 직접 감지하는 곳 ===\n'''Carotid body'''는 낮은 동맥혈 PO₂를 감지하는 핵심 말초화학수용체다. 신호는 설인신경 IX를 통해 NTS/DRG로 들어간다. Aortic body는 미주신경 X를 이용한다. 두 수용체는 CO₂와 H⁺ 증가에도 반응한다.\n\n저산소에서 glomus cell의 K⁺ 유출이 감소하면 탈분극하고 Ca²⁺가 들어와 전달물질이 분비된다. 전체 환기 반응은 특히 '''PaO₂ 약 60 mmHg 이하'''에서 크게 증가한다. 이 센서는 Hb에 담긴 산소 총량이 아니라 '''용해된 산소가 만드는 분압'''을 읽으므로, 빈혈·CO 중독의 낮은 산소 함량과 단순한 낮은 PaO₂를 구분해야 한다.\n\n> 감지: carotid body → 전달: IX → 통합: NTS/DRG → 출력: phrenic nerve 등 → 환기 증가. 중추화학수용체의 직접 자극은 별도로 CSF H⁺다.\n\n=== 선지별로 보면 ===\n* ① NTS — 화학수용체 신호를 받는 연수의 통합 지점이다. 말초에서 PO₂를 직접 읽는 센서와 다르다.\n* ② J receptor — 폐포 모세혈관 주변의 울혈·부종 및 자극을 감지한다.\n* ③ 연수 화학수용체 — CO₂에 의해 변한 CSF H⁺가 직접 자극이다.\n* ④ Carotid body — 저산소성 환기 반응을 시작하는 말초 센서다.\n* ⑤ Apneustic center — 들숨 패턴을 조절하는 교뇌 기능이다.\n\n[[8강#Carotid body는 낮은 동맥혈 PO₂를 감지한다|Wiki · Carotid body는 낮은 동맥혈 PO₂를 감지한다]]\n~~근거: 38기 「호흡의 조절」 PDF 29·30·31·37·38쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -11652,7 +11895,23 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          29,
+          30,
+          31,
+          37,
+          38
+        ],
+        "chapter": "Carotid body는 낮은 동맥혈 PO₂를 감지한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-029",
@@ -17889,10 +18148,12 @@ window.JBL_DATA = {
         "2,3-DPG",
         "Exercise"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — Methemoglobin",
+      "explanation": "'''정답: 1번, Methemoglobin.'''\n\n=== 같은 PO₂에서 얼마나 붙잡는가 ===\nHb의 산소 친화도가 높으면 같은 PO₂에서 산소를 더 많이 결합하지만, 조직에는 덜 내려놓는다. '''우측 이동은 친화도 감소·P50 증가·조직 방출 증가''', 좌측 이동은 그 반대다. P50은 Hb가 50% 포화되는 데 필요한 PO₂이므로, 친화도가 높을수록 더 낮은 분압에서도 절반을 채운다.\n\n||= 우측 이동 ||= 좌측 이동 ||\n|| 온도↑, PCO₂↑, H⁺↑·pH↓, 2,3-DPG↑ || 온도↓, PCO₂↓, H⁺↓·pH↑, 2,3-DPG↓ ||\n|| 운동 조직에서 산소 방출에 유리 || 폐에서 결합에 유리하지만 조직 방출은 불리 ||\n|| P50↑ || P50↓ ||\n\nPO₂ 자체의 증가는 곡선을 이동시키는 것이 아니라 '''같은 곡선 위에서 오른쪽 위로 이동'''하여 포화도를 높인다. Hb의 양과 혈액의 산소 함량도 별도로 구별해야 한다.\n\n=== MetHb의 두 가지 문제 ===\nMetHb는 철이 '''Fe³⁺'''로 산화된 Hb다. Fe³⁺ 자체는 O₂를 결합하지 못하므로 유효 산소 용량이 감소한다. 남은 Fe²⁺ 자리는 산소 친화도가 증가하여 붙잡은 산소도 조직에 잘 놓아주지 않는다. 강의의 ‘high affinity methemoglobin’ 곡선은 이 '''남은 자리의 좌측 이동'''을 표현한다. MetHb가 산소를 잘 운반한다는 의미가 아니다.\n\n=== 선지별로 보면 ===\n* ① Methemoglobin — 남은 정상 결합 자리의 산소 친화도 증가로 P50이 감소한다. Fe³⁺ 자리가 직접 산소를 잘 결합한다는 뜻은 아니다.\n* ② 온도 증가 — 우측 이동, P50 증가다.\n* ③ pH 감소 — 산성화에 의한 Bohr 효과로 우측 이동, P50 증가다.\n* ④ 2,3-DPG — 문맥상 증가의 효과를 묻는 것으로 읽는다. 탈산소 T 상태를 안정화하여 P50을 높인다. 선지 자체에는 증감 방향이 생략되어 있다.\n* ⑤ 운동 — 온도·PCO₂·H⁺ 증가로 산소 방출을 돕고 P50이 증가한다.\n\n[[7강#MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다|Wiki · MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 16·20·23쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -17917,7 +18178,21 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          16,
+          20,
+          23
+        ],
+        "chapter": "MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-019",
@@ -17939,10 +18214,12 @@ window.JBL_DATA = {
         "CO",
         "Ether"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — CO",
+      "explanation": "'''정답: 4번, CO.'''\n\n=== 빨리 평형에 도달하는 기체와 계속 분압 차이를 남기는 기체 ===\n확산제한은 혈액이 폐모세혈관을 지나는 동안 폐포와 충분히 평형에 도달하지 못해, 막을 건너는 능력이 전달량을 제한하는 경우다. 관류제한은 평형에 빨리 도달하여 더 많은 기체를 옮기려면 새로운 혈액을 더 보내야 하는 경우다.\n\n||= 기체 ||= 대표 양상 ||= 이유 ||\n|| '''CO''' || 확산제한 || Hb에 강하게 붙어 용해된 CO의 분압이 잘 올라가지 않으므로 폐포–혈액 분압 차이가 지속 ||\n|| N₂O || 관류제한 || 혈액 분압이 폐포와 빠르게 평형에 도달 ||\n|| O₂ || 정상 안정 시 관류제한 || 보통 약 0.25초에 평형. 섬유화·심한 운동·저산소 등에서는 확산제한 가능 ||\n|| CO₂ || 보통 잘 확산 || 높은 용해도 덕분에 O₂보다 약 20배 잘 확산 ||\n\nCO가 ‘막을 통과할 수 없다’는 뜻은 아니다. 혈액 쪽 자유 CO 분압이 낮게 유지되어 '''막의 확산능'''을 측정하기 좋은 기체라는 뜻이다.\n\n=== 선지별로 보면 ===\n* ① N₂O — 폐포와 모세혈관혈이 빨리 평형에 도달하므로 대표적인 관류제한 기체다.\n* ② CO₂ — 용해도가 높아 잘 확산하며, 대표적인 확산제한 기체를 고르는 답은 아니다.\n* ③ O₂ — 정상에서는 관류제한이다. 병적 조건에서는 확산제한이 가능하지만, 조건 없이 대표 기체를 물으면 CO를 고른다.\n* ④ CO — Hb에 결합하여 혈액의 자유 CO 분압이 낮게 유지된다. 확산제한의 대표다.\n* ⑤ Ether — 이 문항에서 CO와 같은 대표적인 확산제한 표지 기체가 아니다. 혈액의 용해·평형 및 관류에 의해 전달이 달라지는 기체로 구별한다.\n\n[[7강#CO는 확산제한, N₂O는 관류제한을 보여준다|Wiki · CO는 확산제한, N₂O는 관류제한을 보여준다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 5·6·7·8·9쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -17983,7 +18260,23 @@ window.JBL_DATA = {
             "2025-086"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "chapter": "CO는 확산제한, N₂O는 관류제한을 보여준다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-020",
@@ -18005,10 +18298,12 @@ window.JBL_DATA = {
         "H2CO3 in RBC",
         "HCO3- in RBC"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — HCO3- in plasma",
+      "explanation": "'''정답: 2번, HCO3- in plasma.'''\n\n=== 생성되는 곳과 운반되는 형태를 구별한다 ===\n조직의 CO₂가 적혈구로 들어오면 carbonic anhydrase가 CO₂ + H₂O ⇄ H₂CO₃ ⇄ H⁺ + HCO₃⁻ 반응을 빠르게 한다. H⁺는 주로 탈산소 Hb가 완충하고, HCO₃⁻는 Cl⁻와 교환되어 혈장으로 나간다. 이것이 '''chloride shift'''다.\n\n||= 운반 형태 ||= 대표 비중·위치 ||\n|| '''HCO₃⁻''' || 약 70% 이상. 주로 적혈구에서 생성되지만 대부분 혈장으로 나와 운반 ||\n|| Carbamino 화합물 || 대략 20%대. 주로 Hb의 globin 부분에 CO₂가 결합 ||\n|| 용해된 CO₂ || 약 7% 수준. 분압을 만드는 자유 기체 ||\n|| H₂CO₃ || 반응 중간체로 양은 작음 ||\n\n폐에서는 반응이 역전된다. HCO₃⁻가 적혈구로 돌아오고 Cl⁻가 나가며, H⁺와 결합해 최종적으로 CO₂가 되어 폐포로 빠져나간다. 따라서 '''반응이 빠른 장소는 RBC, 주된 운반 형태·장소는 혈장의 HCO₃⁻'''다. 비율은 조건에 따라 조금 달라진다.\n\n=== 2022 오답30 p.10 원문 해설 ===\n> 조직에서 혈액으로 이동한 이산화탄소는 대부분 RBC로 확산해서 들어간다. RBC에서 70% 이상의 이산화탄소는 HCO3-를 생성하고 나머지는 hemoglobin과 결합하여 carbaminohemoglobin을 형성한다. RBC 안에서 생성된 HCO3-는 Cl-와 교환되어 plasma로 이동한 뒤 폐까지 운반된다. 따라서 정답은 2)\n\n공식 문구는 주요 두 경로를 요약한 것이다. 소량의 용해 CO₂도 존재한다는 점은 위 표와 함께 기억한다.\n\n=== 선지별로 보면 ===\n* ① 혈장에 용해 — 운반 경로 중 하나지만 가장 큰 비중은 아니다.\n* ② 혈장 HCO₃⁻ — 생성된 HCO₃⁻가 적혈구 밖으로 이동하므로 형태와 위치가 모두 맞다.\n* ③ RBC의 carbaminohemoglobin — 실제 경로지만 HCO₃⁻보다 적다.\n* ④ RBC의 H₂CO₃ — 반응 중간체라 주된 운반 형태가 아니다.\n* ⑤ RBC의 HCO₃⁻ — 생성 장소에만 주목한 오답이다. 대부분 혈장으로 나간다.\n\n[[7강#CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다|Wiki · CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 42·43·44·45쪽. 2022 오답30 10쪽의 공식 정답·해설도 대조했다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -18036,7 +18331,22 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 10
+      "officialPage": 10,
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          42,
+          43,
+          44,
+          45
+        ],
+        "chapter": "CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다",
+        "answerStatus": "official_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 10,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-021",
@@ -18058,10 +18368,12 @@ window.JBL_DATA = {
         "H2CO3 생성 감소",
         "Hemoglobin과 CO2의 affinity 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — 폐포의 높은 산소 분압",
+      "explanation": "'''정답: 1번, 폐포의 높은 산소 분압.'''\n\n=== O₂가 붙으면 CO₂를 내리고, O₂가 떨어지면 CO₂를 싣는다 ===\n'''탈산소 Hb는 CO₂를 더 잘 결합하고 H⁺도 더 잘 완충'''한다. 조직에서 O₂를 내려놓은 Hb는 CO₂와 H⁺를 받아들여 CO₂ 운반을 돕는다. 폐에서 산소화되면 반대가 되어 CO₂ 결합이 줄고 H⁺가 풀려난다. H⁺ + HCO₃⁻가 H₂CO₃를 거쳐 CO₂ + H₂O로 돌아가므로 폐포로 CO₂를 내보내기 쉬워진다.\n\n||= 효과 ||= 먼저 바뀌는 것 ||= 결과 ||\n|| '''Haldane''' || Hb의 O₂ 결합·산소화 상태 || Hb가 운반할 수 있는 '''CO₂와 H⁺'''의 양 변화 ||\n|| '''Bohr''' || CO₂·H⁺ 증가, pH 감소 || Hb의 '''O₂''' 친화도 감소와 조직 방출 증가 ||\n\n같은 PCO₂에서 탈산소혈이 산소화혈보다 더 많은 CO₂를 운반한다. 따라서 CO₂ 해리곡선에서 탈산소화는 위쪽/왼쪽 이동으로 표현된다. 산소 해리곡선의 좌우 이동과 축을 섞지 않는다.\n\n=== 2022 오답30 p.11 원문 해설 ===\n> 혈액을 통해 폐로 이동한 이산화탄소는 폐포로 이동해서 제거되어야 한다. Haldane effect에 의해 폐포에서는 이산화탄소를 쉽게 폐포로 이동하게 한다. 따라서 정답은 1)\n\n=== 선지별로 보면 ===\n* ① 폐포에서 O₂ 증가 — Hb가 산소화되며 CO₂를 놓고 H⁺를 방출한다. 폐에서 CO₂ 제거를 돕는 방향이다.\n* ② Hb 탈산소화 — 조직에서 CO₂를 싣는 방향이다. 폐에서의 CO₂ 해리 촉진과 반대다.\n* ③ Hb의 산성도 감소 — 산소화된 Hb는 상대적으로 H⁺를 더 방출한다. 폐에서의 설명을 반대로 쓴 선지다.\n* ④ H₂CO₃ 생성 감소 — 풀려난 H⁺와 HCO₃⁻가 H₂CO₃를 거쳐 CO₂로 바뀌는 과정이 폐의 배출을 돕는다. 이 경로를 줄인다는 설명은 맞지 않는다.\n* ⑤ Hb의 CO₂ 친화도 증가 — 폐에서는 산소화로 CO₂ 친화도가 감소해야 잘 내려놓는다.\n\n[[7강#Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다|Wiki · Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 46·47·48쪽. 2022 오답30 11쪽의 공식 정답·해설도 대조했다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -18089,7 +18401,21 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 11
+      "officialPage": 11,
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          46,
+          47,
+          48
+        ],
+        "chapter": "Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다",
+        "answerStatus": "official_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 11,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-022",
@@ -18111,10 +18437,12 @@ window.JBL_DATA = {
         "Cerebellum",
         "Spinal cord"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Medulla",
+      "explanation": "'''정답: 2번, Medulla.'''\n\n=== 리듬 생성과 리듬 조절은 다르다 ===\n연수와 척수 사이를 끊으면 호흡근으로 내려가는 출력이 사라져 호흡운동이 멎는다. 교뇌와 연수 사이를 끊어도 연수 회로는 리듬성 활동을 만들 수 있지만 양상이 불규칙해질 수 있다. 기본 리듬의 핵심 회로인 '''pre-Bötzinger complex'''도 연수에 있다.\n\n||= 부위 ||= 맡는 일 ||\n|| '''연수''' || 기본 리듬 생성과 호흡 운동 회로 ||\n|| 교뇌 || 들숨 종료, 깊이와 주기 조정 ||\n|| 대뇌피질 || 말하기·숨 참기 같은 의식적 조절 ||\n|| 척수 || 호흡근 운동뉴런으로 명령 전달 ||\n\n‘자동 리듬이 생기는 곳’과 ‘의식적으로 바꾸는 곳’, ‘근육까지 전달하는 곳’을 구별하면 된다.\n\n=== 선지별로 보면 ===\n* ① 대뇌피질 — 의식적 조절을 하지만 수면 중에도 유지되는 기본 리듬의 주된 생성 장소는 아니다.\n* ② 연수 — 기본 호흡 리듬의 핵심 회로가 위치한다.\n* ③ 교뇌 — 정상적인 호흡 양상을 다듬지만 기본 리듬의 핵심 장소를 고르는 답은 아니다.\n* ④ 소뇌 — 운동 협응 등에 관여하지만 호흡 리듬 생성 중추의 대표 위치가 아니다.\n* ⑤ 척수 — 호흡근으로의 운동 출력을 전달한다. 연수의 리듬 생성과 다르다.\n\n[[8강#리듬의 기본 장치는 연수에, 조정 장치는 교뇌에 있다|Wiki · 리듬의 기본 장치는 연수에, 조정 장치는 교뇌에 있다]]\n~~근거: 38기 「호흡의 조절」 PDF 7·8·26·27쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -18139,7 +18467,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          7,
+          8,
+          26,
+          27
+        ],
+        "chapter": "리듬의 기본 장치는 연수에, 조정 장치는 교뇌에 있다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-023",
@@ -18161,10 +18504,12 @@ window.JBL_DATA = {
         "Rostral VRG",
         "Pontine respiratory group (PRG)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Dorsal respiratory group (DRG)",
+      "explanation": "'''정답: 2번, Dorsal respiratory group (DRG).'''\n\n=== 호흡중추를 위치보다 기능으로 구별한다 ===\n||= 구조 ||= 주요 기능 ||\n|| '''DRG, NTS 부근''' || 주로 흡기성. IX·X 감각 입력을 받아 들숨근과 VRG에 연결 ||\n|| Rostral VRG, retrofacialis/Bötzinger || 강의 분류에서 주로 호기성 뉴런 ||\n|| Intermediate VRG || 주로 흡기성과 일부 호기성, 상기도·흡기근 출력. Pre-Bötzinger 회로는 리듬 생성 ||\n|| Caudal VRG, NRA || 강의에서 rostral NRA는 흡기성, caudal NRA는 호기성 ||\n|| PRG || 교뇌에서 들숨의 길이와 전환 조절 ||\n\nDRG는 감각 입력의 중요한 통합점이다. '''Carotid body가 저산소를 감지 → IX → NTS/DRG → 호흡 운동 조절'''의 순서로 생각한다. 이름에 rostral이 있다고 모두 같은 집단은 아니다. 특히 강의의 rostral VRG와 rostral NRA를 구별한다.\n\n=== 2022 오답30 p.12 원문 해설 ===\n> DRG는 주로 inspiratory neuron을 포함하며 미주신경 등을 통해 여러 sensory receptor로부터 감각 정보를 받는다.\n\n문제의 핵심은 근육에 나가는 운동 출력보다 '''폐의 stretch receptor에서 들어오는 감각 입력'''이다.\n\n=== 선지별로 보면 ===\n* ① Rostral NRA — 흡기성 운동 출력과 관련되지만, 폐 감각 입력의 대표적 직접 수용 지점은 DRG다.\n* ② DRG — 미주신경 등을 통해 폐 수용체의 감각 정보를 받는다. 공식 정답이다.\n* ③ Intermediate VRG — 흡기·상기도 운동과 리듬 회로에 관여한다. 이 감각 경로의 대표적 입력 지점은 아니다.\n* ④ Rostral VRG — 강의상 주로 호기성 조절 영역이다.\n* ⑤ PRG — 교뇌에서 패턴을 조정하지만, 질문의 미주신경 감각 입력은 DRG/NTS로 연결한다.\n\n[[8강#DRG는 감각 정보를 받아 들숨 운동에 연결한다|Wiki · DRG는 감각 정보를 받아 들숨 운동에 연결한다]]\n~~근거: 38기 「호흡의 조절」 PDF 9·14·47·48쪽. 2022 오답30 12쪽의 공식 정답·해설도 대조했다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -18192,7 +18537,22 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 12
+      "officialPage": 12,
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          9,
+          14,
+          47,
+          48
+        ],
+        "chapter": "DRG는 감각 정보를 받아 들숨 운동에 연결한다",
+        "answerStatus": "official_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 12,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-024",
@@ -18214,10 +18574,12 @@ window.JBL_DATA = {
         "동맥혈의 co2 증가",
         "Csf의 H+ 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Csf의 H+ 증가",
+      "explanation": "'''정답: 5번, Csf의 H+ 증가.'''\n\n=== CO₂가 장벽을 통과하고, H⁺가 수용체를 자극한다 ===\n혈액뇌장벽은 H⁺와 HCO₃⁻의 빠른 이동을 제한하지만 CO₂는 잘 통과한다. 따라서 '''혈액 PCO₂ 증가 → CO₂의 BBB 통과 → CSF에서 H⁺ 생성 → 중추화학수용체 자극'''의 순서가 된다. 직접 자극과 그 자극을 만든 원인은 다르다.\n\n||= 변화 ||= 중추·말초와의 관계 ||\n|| '''CSF H⁺ 증가·pH 감소''' || 중추화학수용체의 직접 자극 ||\n|| 동맥혈 CO₂ 증가 || BBB를 통과한 뒤 H⁺를 만들어 중추 자극. 말초에도 작용 ||\n|| 동맥혈 H⁺ 증가 || 장벽 통과가 제한되어 주로 말초화학수용체를 통해 환기 증가 ||\n|| 동맥혈 PO₂ 감소 || 말초화학수용체 자극 ||\n\nCSF는 단백질 완충이 적어 CO₂ 변화에 pH가 쉽게 달라진다. 지속적인 고탄산혈증에서는 HCO₃⁻ 조정으로 1–2일에 걸쳐 반응이 약해질 수 있다. 이것도 중추가 단순히 CO₂ 수치를 직접 읽기만 하는 것이 아니라 주변 산도에 반응한다는 점과 연결된다.\n\n=== 선지별로 보면 ===\n* ① 동맥혈 H⁺ 증가 — 주로 말초를 자극한다. 혈액 H⁺가 곧바로 CSF로 잘 들어가는 것은 아니다.\n* ② CSF O₂ 증가 — 중추화학수용체의 직접 흥분 신호가 아니다.\n* ③ 동맥혈 O₂ 증가 — 저산소성 말초 자극을 오히려 줄인다.\n* ④ 동맥혈 CO₂ 증가 — 강한 호흡 자극의 원인이지만, 중추의 직접 자극으로 바뀌는 중간 단계는 CSF H⁺ 증가다.\n* ⑤ CSF H⁺ 증가 — 중추화학수용체의 직접 자극이다.\n\n[[8강#중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다|Wiki · 중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다]]\n~~근거: 38기 「호흡의 조절」 PDF 32·35·36·37쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -18258,7 +18620,22 @@ window.JBL_DATA = {
             "2025-089"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          32,
+          35,
+          36,
+          37
+        ],
+        "chapter": "중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-025",
@@ -18280,10 +18657,12 @@ window.JBL_DATA = {
         "O2 농도의 감소",
         "Sleep"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — O2 농도의 감소",
+      "explanation": "'''정답: 4번, O2 농도의 감소.'''\n\n=== 같은 CO₂에서도 저산소이면 더 크게 반응한다 ===\nCO₂가 증가하면 중추와 말초화학수용체를 통해 환기가 증가한다. 여기에 PO₂ 감소로 말초화학수용체 자극이 더해지면 '''CO₂에 대한 환기 반응이 강화'''된다. 반면 수면과 중추 억제 약물은 반응을 약하게 만든다.\n\n||= 조건 ||= CO₂ 반응 ||\n|| '''PO₂ 감소''' || 강화 ||\n|| PO₂ 증가 || 저산소성 강화 효과 감소 ||\n|| 수면·barbiturate·opioid·마취제 || 억제 ||\n|| COPD || 기계적 부담과 만성 적응 등으로 실제 환기 반응이 둔화될 수 있음 ||\n\nCOPD에서 CO₂가 높다는 사실과 CO₂가 올라갈 때 환기를 얼마나 더 늘릴 수 있는지는 다르다. 그래프에서는 같은 PCO₂의 세로 위치 또는 반응의 기울기를 비교한다.\n\n=== 선지별로 보면 ===\n* ① COPD — 큰 호흡 부담 등이 환기 증가를 제한한다. 반응 증가의 대표 조건이 아니다.\n* ② O₂ 증가 — 말초의 저산소 자극이 줄어든다.\n* ③ Barbiturate — 중추를 억제하여 반응을 낮춘다.\n* ④ O₂ 감소 — 말초화학수용체 자극으로 CO₂ 환기 반응이 강화된다.\n* ⑤ 수면 — 깨어 있을 때보다 반응이 감소한다.\n\n[[8강#CO₂ 반응은 강하지만 저산소·약물·수면에 따라 달라진다|Wiki · CO₂ 반응은 강하지만 저산소·약물·수면에 따라 달라진다]]\n~~근거: 38기 「호흡의 조절」 PDF 39·40·41쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -18308,7 +18687,21 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          39,
+          40,
+          41
+        ],
+        "chapter": "CO₂ 반응은 강하지만 저산소·약물·수면에 따라 달라진다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-028",
@@ -24950,10 +25343,12 @@ window.JBL_DATA = {
         "Methemoglobin 증가",
         "pH 감소"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Methemoglobin 증가",
+      "explanation": "'''정답: 4번, Methemoglobin 증가.'''\n\n그림의 A에서 B로의 변화는 '''좌측 이동'''이다. 같은 PO₂에서 더 많이 결합하고, 50% 포화에 필요한 PO₂는 낮아진다.\n\n=== 같은 PO₂에서 얼마나 붙잡는가 ===\nHb의 산소 친화도가 높으면 같은 PO₂에서 산소를 더 많이 결합하지만, 조직에는 덜 내려놓는다. '''우측 이동은 친화도 감소·P50 증가·조직 방출 증가''', 좌측 이동은 그 반대다. P50은 Hb가 50% 포화되는 데 필요한 PO₂이므로, 친화도가 높을수록 더 낮은 분압에서도 절반을 채운다.\n\n||= 우측 이동 ||= 좌측 이동 ||\n|| 온도↑, PCO₂↑, H⁺↑·pH↓, 2,3-DPG↑ || 온도↓, PCO₂↓, H⁺↓·pH↑, 2,3-DPG↓ ||\n|| 운동 조직에서 산소 방출에 유리 || 폐에서 결합에 유리하지만 조직 방출은 불리 ||\n|| P50↑ || P50↓ ||\n\nPO₂ 자체의 증가는 곡선을 이동시키는 것이 아니라 '''같은 곡선 위에서 오른쪽 위로 이동'''하여 포화도를 높인다. Hb의 양과 혈액의 산소 함량도 별도로 구별해야 한다.\n\n=== MetHb의 두 가지 문제 ===\nMetHb는 철이 '''Fe³⁺'''로 산화된 Hb다. Fe³⁺ 자체는 O₂를 결합하지 못하므로 유효 산소 용량이 감소한다. 남은 Fe²⁺ 자리는 산소 친화도가 증가하여 붙잡은 산소도 조직에 잘 놓아주지 않는다. 강의의 ‘high affinity methemoglobin’ 곡선은 이 '''남은 자리의 좌측 이동'''을 표현한다. MetHb가 산소를 잘 운반한다는 의미가 아니다.\n\n=== 선지별로 보면 ===\n* ① 운동 — 우측 이동이므로 그림과 반대다.\n* ② 2,3-DPG 증가 — 탈산소 Hb를 안정화하여 우측 이동한다.\n* ③ 조직 저산소증 — 만성 적응으로 DPG가 증가하는 상황이라면 우측 이동하여 방출을 돕는다. 그림의 좌측 이동을 대표하지 않는다.\n* ④ MetHb 증가 — 강의의 그래프에서 남은 결합 자리의 높은 친화도에 따른 좌측 이동으로 제시된다. 산소 용량은 오히려 줄어든다.\n* ⑤ pH 감소 — H⁺ 증가로 우측 이동한다.\n\n[[7강#MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다|Wiki · MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 16·20·23쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [
         "J/2021/q014_01.jpg"
       ],
@@ -24987,7 +25382,21 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          16,
+          20,
+          23
+        ],
+        "chapter": "MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-015",
@@ -25367,10 +25776,12 @@ window.JBL_DATA = {
         "Albumin과 결합한 상태",
         "Carbaminohemoglobin"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — HCO3-",
+      "explanation": "'''정답: 1번, HCO3-.'''\n\n=== 생성되는 곳과 운반되는 형태를 구별한다 ===\n조직의 CO₂가 적혈구로 들어오면 carbonic anhydrase가 CO₂ + H₂O ⇄ H₂CO₃ ⇄ H⁺ + HCO₃⁻ 반응을 빠르게 한다. H⁺는 주로 탈산소 Hb가 완충하고, HCO₃⁻는 Cl⁻와 교환되어 혈장으로 나간다. 이것이 '''chloride shift'''다.\n\n||= 운반 형태 ||= 대표 비중·위치 ||\n|| '''HCO₃⁻''' || 약 70% 이상. 주로 적혈구에서 생성되지만 대부분 혈장으로 나와 운반 ||\n|| Carbamino 화합물 || 대략 20%대. 주로 Hb의 globin 부분에 CO₂가 결합 ||\n|| 용해된 CO₂ || 약 7% 수준. 분압을 만드는 자유 기체 ||\n|| H₂CO₃ || 반응 중간체로 양은 작음 ||\n\n폐에서는 반응이 역전된다. HCO₃⁻가 적혈구로 돌아오고 Cl⁻가 나가며, H⁺와 결합해 최종적으로 CO₂가 되어 폐포로 빠져나간다. 따라서 '''반응이 빠른 장소는 RBC, 주된 운반 형태·장소는 혈장의 HCO₃⁻'''다. 비율은 조건에 따라 조금 달라진다.\n\n=== 선지별로 보면 ===\n* ① HCO₃⁻ — 가장 많은 비중이며 혈장에서 주로 운반된다.\n* ② H₂CO₃ — 소량의 중간체이지 주된 저장 형태가 아니다.\n* ③ 용해된 CO₂ — 소량이며 혈액 PCO₂를 만든다.\n* ④ Albumin 결합 — 일부 운반·완충에 기여하지만 HCO₃⁻가 훨씬 많다.\n* ⑤ Carbaminohemoglobin — 두 번째 주요 경로지만 가장 많은 형태는 아니다.\n\n[[7강#CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다|Wiki · CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 41·42·43·44·45쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -25395,7 +25806,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "chapter": "CO₂는 대부분 HCO₃⁻가 되어 혈장으로 운반된다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-021",
@@ -25417,10 +25844,12 @@ window.JBL_DATA = {
         "Bohr effect",
         "Fowler effect"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — Haldane effect",
+      "explanation": "'''정답: 1번, Haldane effect.'''\n\n=== O₂가 붙으면 CO₂를 내리고, O₂가 떨어지면 CO₂를 싣는다 ===\n'''탈산소 Hb는 CO₂를 더 잘 결합하고 H⁺도 더 잘 완충'''한다. 조직에서 O₂를 내려놓은 Hb는 CO₂와 H⁺를 받아들여 CO₂ 운반을 돕는다. 폐에서 산소화되면 반대가 되어 CO₂ 결합이 줄고 H⁺가 풀려난다. H⁺ + HCO₃⁻가 H₂CO₃를 거쳐 CO₂ + H₂O로 돌아가므로 폐포로 CO₂를 내보내기 쉬워진다.\n\n||= 효과 ||= 먼저 바뀌는 것 ||= 결과 ||\n|| '''Haldane''' || Hb의 O₂ 결합·산소화 상태 || Hb가 운반할 수 있는 '''CO₂와 H⁺'''의 양 변화 ||\n|| '''Bohr''' || CO₂·H⁺ 증가, pH 감소 || Hb의 '''O₂''' 친화도 감소와 조직 방출 증가 ||\n\n같은 PCO₂에서 탈산소혈이 산소화혈보다 더 많은 CO₂를 운반한다. 따라서 CO₂ 해리곡선에서 탈산소화는 위쪽/왼쪽 이동으로 표현된다. 산소 해리곡선의 좌우 이동과 축을 섞지 않는다.\n\n=== 선지별로 보면 ===\n* ① Haldane effect — 탈산소 Hb의 CO₂·H⁺ 운반이 더 유리하고, 폐에서 산소화되면 CO₂ 배출이 쉬워진다.\n* ② Double Bohr effect — 태반에서 태아와 모체 사이 CO₂ 이동으로 양쪽 pH와 산소 친화도가 반대 방향으로 변해 O₂ 전달을 돕는 현상이다.\n* ③ Steric hindrance — 분자의 공간적 방해를 뜻한다. 이 생리 현상의 이름이 아니다.\n* ④ Bohr effect — CO₂·H⁺가 Hb의 산소 친화도를 바꾸는 현상이다. 산소화가 CO₂ 운반을 바꾸는 Haldane과 방향이 다르다.\n* ⑤ Fowler effect — 이 문항에서 설명한 산소화와 CO₂ 운반 관계를 지칭하는 표준 명칭은 아니다. 설명의 방향이 Haldane인지 Bohr인지로 판단한다.\n\n[[7강#Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다|Wiki · Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 22·46·47·48쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -25445,7 +25874,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          22,
+          46,
+          47,
+          48
+        ],
+        "chapter": "Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-022",
@@ -25467,10 +25911,12 @@ window.JBL_DATA = {
         "Rostral ventral respiratory group (VRG)",
         "Dorsal respiratory group (DRG)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Dorsal respiratory group (DRG)",
+      "explanation": "'''정답: 5번, Dorsal respiratory group (DRG).'''\n\n=== 호흡중추를 위치보다 기능으로 구별한다 ===\n||= 구조 ||= 주요 기능 ||\n|| '''DRG, NTS 부근''' || 주로 흡기성. IX·X 감각 입력을 받아 들숨근과 VRG에 연결 ||\n|| Rostral VRG, retrofacialis/Bötzinger || 강의 분류에서 주로 호기성 뉴런 ||\n|| Intermediate VRG || 주로 흡기성과 일부 호기성, 상기도·흡기근 출력. Pre-Bötzinger 회로는 리듬 생성 ||\n|| Caudal VRG, NRA || 강의에서 rostral NRA는 흡기성, caudal NRA는 호기성 ||\n|| PRG || 교뇌에서 들숨의 길이와 전환 조절 ||\n\nDRG는 감각 입력의 중요한 통합점이다. '''Carotid body가 저산소를 감지 → IX → NTS/DRG → 호흡 운동 조절'''의 순서로 생각한다. 이름에 rostral이 있다고 모두 같은 집단은 아니다. 특히 강의의 rostral VRG와 rostral NRA를 구별한다.\n\n=== 선지별로 보면 ===\n* ① Pneumotaxic center — 들숨을 끝내고 패턴을 조정하는 상부 교뇌 기능이다.\n* ② Caudal NRA — 주로 호기성으로, 강제 날숨근에 연결된다.\n* ③ Apneustic center — 들숨을 지속시키는 교뇌의 기능적 영역이다. 기본적인 연수 흡기 뉴런군의 이름은 아니다.\n* ④ Rostral VRG — 강의의 분류에서는 주로 호기성인 Bötzinger 영역이다.\n* ⑤ DRG — 안정 들숨에 관여하는 흡기성 뉴런군이다.\n\n[[8강#DRG는 감각 정보를 받아 들숨 운동에 연결한다|Wiki · DRG는 감각 정보를 받아 들숨 운동에 연결한다]]\n~~근거: 38기 「호흡의 조절」 PDF 8·9·10·11·14·15·16·17쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -25495,7 +25941,26 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          8,
+          9,
+          10,
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "chapter": "DRG는 감각 정보를 받아 들숨 운동에 연결한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-023",
@@ -25587,10 +26052,12 @@ window.JBL_DATA = {
         "Irritant receptor",
         "Juxtaalveolar receptor"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — Chemoreceptors in carotid body",
+      "explanation": "'''정답: 3번, Chemoreceptors in carotid body.'''\n\n=== 낮은 PO₂를 직접 감지하는 곳 ===\n'''Carotid body'''는 낮은 동맥혈 PO₂를 감지하는 핵심 말초화학수용체다. 신호는 설인신경 IX를 통해 NTS/DRG로 들어간다. Aortic body는 미주신경 X를 이용한다. 두 수용체는 CO₂와 H⁺ 증가에도 반응한다.\n\n저산소에서 glomus cell의 K⁺ 유출이 감소하면 탈분극하고 Ca²⁺가 들어와 전달물질이 분비된다. 전체 환기 반응은 특히 '''PaO₂ 약 60 mmHg 이하'''에서 크게 증가한다. 이 센서는 Hb에 담긴 산소 총량이 아니라 '''용해된 산소가 만드는 분압'''을 읽으므로, 빈혈·CO 중독의 낮은 산소 함량과 단순한 낮은 PaO₂를 구분해야 한다.\n\n> 감지: carotid body → 전달: IX → 통합: NTS/DRG → 출력: phrenic nerve 등 → 환기 증가. 중추화학수용체의 직접 자극은 별도로 CSF H⁺다.\n\n=== 선지별로 보면 ===\n* ① Phrenic nerve — 횡격막 운동 출력이다. 혈액 PO₂ 감지기관이 아니다.\n* ② 연수 화학수용체 — CO₂가 만든 CSF H⁺에 반응한다.\n* ③ Carotid chemoreceptor — 낮은 동맥혈 PO₂를 직접 감지한다.\n* ④ Irritant receptor — 먼지·연기 등 기도 자극에 반응한다.\n* ⑤ J receptor — 폐실질의 울혈·부종 등과 관련된다.\n\n[[8강#Carotid body는 낮은 동맥혈 PO₂를 감지한다|Wiki · Carotid body는 낮은 동맥혈 PO₂를 감지한다]]\n~~근거: 38기 「호흡의 조절」 PDF 29·30·31·37·45쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -25615,7 +26082,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          29,
+          30,
+          31,
+          37,
+          45
+        ],
+        "chapter": "Carotid body는 낮은 동맥혈 PO₂를 감지한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-025",
@@ -25637,10 +26120,12 @@ window.JBL_DATA = {
         "Erythropoietin 분비 증가",
         "100% 산소 흡입"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 일산화탄소 중독",
+      "explanation": "'''정답: 3번, 일산화탄소 중독.'''\n\n그림의 세로축은 '''산소포화도 %가 아니라 산소 함량'''이다. 정상 A보다 B의 최대 높이가 낮다는 것은 Hb가 실을 수 있는 유효 산소량이 줄었다는 뜻이다. CO 중독에서는 CO가 Hb 자리를 차지해 용량을 낮추고, 남은 산소 자리의 친화도도 높여 조직 방출을 방해한다.\n\n||= 상태 ||= PaO₂ ||= 산소 함량·방출 ||\n|| 빈혈 || 정상 가능 || Hb 양이 적어 함량 감소. 친화도는 반드시 변하는 것은 아님 ||\n|| CO 중독 || 정상 가능 || 유효 자리 감소로 함량 감소 + 남은 자리의 좌측 이동 ||\n|| 적혈구증가증 || 별개 변수 || Hb 양 증가로 보통 함량 증가 ||\n\n산소 함량은 대략 '''1.34 × Hb × SaO₂ + 0.003 × PaO₂'''로 생각한다. 단, COHb·MetHb가 있으면 기능성 Hb와 측정 포화도의 의미를 확인해야 하며 정상 PaO₂만으로 산소 운반이 정상이라고 판단하면 안 된다.\n\n=== 선지별로 보면 ===\n* ① 적혈구증가증 — 산소를 실을 Hb가 많아져 보통 곡선 높이가 올라간다.\n* ② Hb 증가 — 같은 포화도에서 산소 함량이 증가하므로 아래로 이동하는 그림과 반대다.\n* ③ CO 중독 — 유효 결합 자리를 빼앗아 함량을 낮춘다. 그림 변화에 해당한다.\n* ④ EPO 증가 — 시간이 지나 적혈구가 늘면 산소 운반 용량이 증가한다.\n* ⑤ 100% O₂ 흡입 — PaO₂와 용해 산소를 높이는 방향이다. Hb의 최대 운반량이 내려가는 이유가 아니다.\n\n[[7강#CO 중독은 결합 자리를 빼앗고 산소 방출도 막는다|Wiki · CO 중독은 결합 자리를 빼앗고 산소 방출도 막는다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 18·26·27·28쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [
         "J/2021/q025_01.jpg"
       ],
@@ -25674,7 +26159,22 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          18,
+          26,
+          27,
+          28
+        ],
+        "chapter": "CO 중독은 결합 자리를 빼앗고 산소 방출도 막는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-026",
@@ -25746,10 +26246,12 @@ window.JBL_DATA = {
         "Coughing reflex",
         "Hering-Breuer reflex"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Hering-Breuer reflex",
+      "explanation": "'''정답: 5번, Hering-Breuer reflex.'''\n\n=== 폐 팽창이 다음 들숨을 막는 경로 ===\n'''Hering–Breuer inflation reflex'''는 폐 팽창이 들숨을 끝내는 반사다. 기관지·세기관지 벽의 '''slowly adapting stretch receptor''' → '''미주신경 감각 입력''' → 연수 호흡 회로 → 흡기성 출력 억제 순서로 이어진다. 횡격막으로 나가는 운동신경은 phrenic nerve이므로 vagus를 운동 출력으로 외우면 안 된다.\n\n||= 수용체 ||= 주된 자극·결과 ||\n|| '''Slow stretch receptor''' || 폐 팽창 → 들숨 억제 ||\n|| Rapidly adapting/irritant receptor || 기도 자극 → 기침·기관지수축 등 ||\n|| J receptor || 폐울혈·간질부종 등 → 빠르고 얕은 호흡·호흡곤란 ||\n|| 근육·관절 수용체 || 흉곽 위치와 호흡근 장력 정보 ||\n\n영아에서 특히 중요하며, 정상 성인의 안정 호흡에서는 기여가 작다. 강의는 큰 일회호흡량 '''약 1 L 이상'''의 상황을 제시한다. 반사의 본질은 '''들숨 종료'''이지 호흡 빈도가 무조건 증가한다는 것이 아니다. 팽창이 지속되면 날숨이 연장될 수도 있다.\n\n=== 선지별로 보면 ===\n* ① Sniff — 짧고 강한 들숨과 관련된다. 이 문항의 폐 팽창–흡기 억제 경로가 아니다.\n* ② Diving reflex — 얼굴의 찬물 자극 등에 의한 무호흡·서맥이다. 폐 팽창 반사가 아니다.\n* ③ Aspiration reflex — 인두 자극 등으로 짧고 강한 흡기가 유발되는 반사다. 폐 팽창으로 들숨을 멈추는 것과 다르다.\n* ④ Cough reflex — 기도 자극을 제거하는 기침 반사다.\n* ⑤ Hering–Breuer reflex — 폐 팽창·slow stretch receptor·vagal afferent·들숨 억제를 묶는 정답이다.\n\n[[8강#Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다|Wiki · Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다]]\n~~근거: 38기 「호흡의 조절」 PDF 45·47·48·49쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -25774,7 +26276,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          45,
+          47,
+          48,
+          49
+        ],
+        "chapter": "Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-028",
@@ -25796,10 +26313,12 @@ window.JBL_DATA = {
         "정맥의 PCO2는 증가한다.",
         "동맥의 PO2는 감소하고 PCO2는 증가한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — 정맥의 PCO2는 증가한다.",
+      "explanation": "'''정답: 4번, 정맥의 PCO2는 증가한다..'''\n\n=== 중등도 운동에서는 동맥혈 기체가 비교적 일정하다 ===\n근육이 O₂를 소비하고 CO₂를 더 만들면 환기와 순환도 증가한다. 대뇌의 central command와 근육·관절 감각 입력이 빠르게 호흡을 올리므로, '''동맥혈 CO₂가 먼저 쌓여야 운동 과환기가 시작되는 것은 아니다'''. 시작 직후 PaCO₂는 잠시 낮아질 수도 있다.\n\n||= 관찰 항목 ||= 중등도 운동에서의 대표 변화 ||\n|| 동맥혈 PO₂·PCO₂·pH || 비교적 유지 ||\n|| 정맥혈 CO₂ || 조직 생성 증가로 상승 ||\n|| 정맥혈 O₂ || 조직 추출 증가로 감소 ||\n|| 환기·폐혈류 || 모두 증가 ||\n|| 매우 강한 운동 || 젖산성 산증과 추가 환기로 pH·PaCO₂ 감소 가능 ||\n\n따라서 혈액이 '''동맥인지 정맥인지''', 운동이 '''중등도인지 젖산이 쌓일 정도로 강한지'''를 먼저 확인한다.\n\n=== 선지별로 보면 ===\n* ① 동맥혈 pH 감소 — 매우 강한 운동의 젖산 축적에서는 가능하지만 중등도 운동의 대표 변화는 아니다.\n* ② 폐혈류 감소로 V/Q 증가 — 운동에서는 심박출량과 폐혈류가 증가한다.\n* ③ 동맥혈 CO₂ 증가가 먼저 호흡중추 자극 — central command 등으로 환기가 미리 증가하므로 이 설명만으로는 맞지 않는다.\n* ④ 정맥혈 CO₂ 증가 — 근육이 더 많은 CO₂를 만들어 내므로 맞는 방향이다.\n* ⑤ 동맥혈 O₂ 감소·CO₂ 증가 — 정상적인 중등도 운동에서는 환기가 대사 요구에 맞추어 증가해 두 값이 대체로 유지된다.\n\n[[8강#운동 중 환기 증가는 동맥혈 CO₂ 상승을 기다리지 않는다|Wiki · 운동 중 환기 증가는 동맥혈 CO₂ 상승을 기다리지 않는다]]\n~~근거: 38기 「호흡의 조절」 PDF 42·43쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -25824,7 +26343,20 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          42,
+          43
+        ],
+        "chapter": "운동 중 환기 증가는 동맥혈 CO₂ 상승을 기다리지 않는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-029",
@@ -32728,10 +33260,12 @@ window.JBL_DATA = {
         "Hemoglobin 농도 감소",
         "Methemoglobin 농도 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — Blood pH 감소",
+      "explanation": "'''출제 의도로 판단한 답: 1번, Blood pH 감소.'''\n\n=== 전달량과 추출량을 구별한다 ===\n동맥혈 산소 함량 CaO₂는 대략 '''1.34 × Hb × SaO₂ + 0.003 × PaO₂'''이다. 조직에 도착하는 산소 전달량은 '''DO₂ = 심박출량 × CaO₂'''이고, 실제 소비량은 '''V̇O₂ = 심박출량 × (CaO₂ − CvO₂)'''다. 함량을 mL/dL, 심박출량을 L/min으로 쓰면 10을 곱해 단위를 맞춘다.\n\n||= 바뀌는 것 ||= 직접 연결되는 개념 ||\n|| Hb·SaO₂·PaO₂ || 동맥혈 산소 함량 ||\n|| 심박출량 || 혈액을 보내는 양 ||\n|| 해리곡선 우측 이동 || 조직에서 산소를 놓기 쉬워짐 ||\n|| 조직의 산소 소비 증가 || 더 많은 산소 추출, 동정맥 산소 차 확대 가능 ||\n\n분압이나 포화도 하나만 정상이라고 충분한 조직 산소화를 보장하지 않는다. 혈액 양·Hb·산소화·조직 추출을 함께 본다.\n\n=== 발문의 ‘산소 공급’을 어떻게 읽었는가 ===\n1번 pH 감소는 Bohr 효과로 산소를 조직에 '''더 잘 방출'''하게 한다. 다른 선지들은 혈류·산소화·유효 Hb 감소로 공급을 낮추므로, ‘조직 산소 방출을 도와주는 조건’을 구별하려는 의도에서는 1번이 가장 타당하다.\n\n다만 전신 산증에서 PaO₂를 일정하게 고정하면 SaO₂와 CaO₂가 낮아져 DO₂가 줄 수도 있다. '''pH 감소가 어떤 상황에서도 산소 전달량을 낮추지 않는다'''는 보편 법칙은 아니다. 혈류와 폐 산소화가 유지되는 상태에서 조직의 해리를 비교하는 출제 의도로 판단한 답임을 남긴다.\n\n=== 선지별로 보면 ===\n* ① pH 감소 — 조직의 Bohr 효과로 우측 이동하여 방출을 돕는다. 위의 조건부 해석에서 정답이다.\n* ② 심박출량 감소 — 같은 산소 함량이라도 보내는 혈액이 줄어 DO₂가 감소한다.\n* ③ COPD — 가스교환 장애로 저산소혈증이 생기면 CaO₂와 공급이 감소한다. 모든 COPD에서 항상 같은 정도로 감소한다는 뜻은 아니다.\n* ④ Hb 감소 — 산소 운반 용량과 CaO₂를 낮춘다.\n* ⑤ MetHb 증가 — 결합 가능한 Fe²⁺ 자리가 줄고 남은 산소의 방출도 어려워진다.\n\n[[7강#산소 전달량과 산소 소비량을 따로 계산한다|Wiki · 산소 전달량과 산소 소비량을 따로 계산한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 18·20·21·29쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -32756,7 +33290,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          18,
+          20,
+          21,
+          29
+        ],
+        "chapter": "산소 전달량과 산소 소비량을 따로 계산한다",
+        "answerStatus": "qualified_interpretation",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-020",
@@ -32778,10 +33327,12 @@ window.JBL_DATA = {
         "혈중 산소 분압 증가",
         "Deoxygenation of hemoglobin"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — 혈중 산소 분압 증가",
+      "explanation": "'''정답: 4번, 혈중 산소 분압 증가.'''\n\n=== O₂가 붙으면 CO₂를 내리고, O₂가 떨어지면 CO₂를 싣는다 ===\n'''탈산소 Hb는 CO₂를 더 잘 결합하고 H⁺도 더 잘 완충'''한다. 조직에서 O₂를 내려놓은 Hb는 CO₂와 H⁺를 받아들여 CO₂ 운반을 돕는다. 폐에서 산소화되면 반대가 되어 CO₂ 결합이 줄고 H⁺가 풀려난다. H⁺ + HCO₃⁻가 H₂CO₃를 거쳐 CO₂ + H₂O로 돌아가므로 폐포로 CO₂를 내보내기 쉬워진다.\n\n||= 효과 ||= 먼저 바뀌는 것 ||= 결과 ||\n|| '''Haldane''' || Hb의 O₂ 결합·산소화 상태 || Hb가 운반할 수 있는 '''CO₂와 H⁺'''의 양 변화 ||\n|| '''Bohr''' || CO₂·H⁺ 증가, pH 감소 || Hb의 '''O₂''' 친화도 감소와 조직 방출 증가 ||\n\n같은 PCO₂에서 탈산소혈이 산소화혈보다 더 많은 CO₂를 운반한다. 따라서 CO₂ 해리곡선에서 탈산소화는 위쪽/왼쪽 이동으로 표현된다. 산소 해리곡선의 좌우 이동과 축을 섞지 않는다.\n\n=== CO₂ 함량을 늘리는 조건 ===\n같은 PCO₂에서 혈액이 CO₂를 많이 담으려면 CO₂ 결합과 H⁺ 완충이 유리해야 한다. 단백질·Hb가 많거나 pH가 높아 HCO₃⁻ 형성에 유리하면 운반량이 증가한다. 반면 산소화는 Haldane 효과로 CO₂ 함량을 낮춘다.\n\n||= 증가하는 요소 ||= CO₂ 운반량의 대표 변화 ||\n|| 단백질·Hb || 결합 및 완충 능력 증가 ||\n|| pH || HCO₃⁻ 형태로 보유하는 양 증가 ||\n|| 탈산소 Hb || CO₂ 결합과 H⁺ 완충 증가 ||\n|| '''PO₂·Hb 산소화''' || '''CO₂ 방출 촉진, 함량 감소''' ||\n\n=== 선지별로 보면 ===\n* ① 단백질 증가 — 결합과 H⁺ 완충에 기여해 CO₂를 더 담는 방향이다.\n* ② pH 증가 — 같은 PCO₂에서 HCO₃⁻ 형태로 보유할 수 있는 양이 증가한다.\n* ③ Hb 증가 — CO₂ 결합과 H⁺ 완충 능력을 늘린다.\n* ④ PO₂ 증가 — Hb 산소화가 증가하여 CO₂를 내리는 방향이다. 함량 증가 요인이 아니다.\n* ⑤ 탈산소화 — Haldane 효과로 CO₂ 운반량을 늘린다.\n\n[[7강#CO₂ 운반량은 분압뿐 아니라 단백질·pH·Hb·산소화에 달려 있다|Wiki · CO₂ 운반량은 분압뿐 아니라 단백질·pH·Hb·산소화에 달려 있다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 42·46·47·49쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -32806,7 +33357,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          42,
+          46,
+          47,
+          49
+        ],
+        "chapter": "CO₂ 운반량은 분압뿐 아니라 단백질·pH·Hb·산소화에 달려 있다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-021",
@@ -32828,10 +33394,12 @@ window.JBL_DATA = {
         "일산화탄소 중독",
         "운동"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — 운동",
+      "explanation": "'''정답: 5번, 운동.'''\n\n=== 전달량과 추출량을 구별한다 ===\n동맥혈 산소 함량 CaO₂는 대략 '''1.34 × Hb × SaO₂ + 0.003 × PaO₂'''이다. 조직에 도착하는 산소 전달량은 '''DO₂ = 심박출량 × CaO₂'''이고, 실제 소비량은 '''V̇O₂ = 심박출량 × (CaO₂ − CvO₂)'''다. 함량을 mL/dL, 심박출량을 L/min으로 쓰면 10을 곱해 단위를 맞춘다.\n\n||= 바뀌는 것 ||= 직접 연결되는 개념 ||\n|| Hb·SaO₂·PaO₂ || 동맥혈 산소 함량 ||\n|| 심박출량 || 혈액을 보내는 양 ||\n|| 해리곡선 우측 이동 || 조직에서 산소를 놓기 쉬워짐 ||\n|| 조직의 산소 소비 증가 || 더 많은 산소 추출, 동정맥 산소 차 확대 가능 ||\n\n분압이나 포화도 하나만 정상이라고 충분한 조직 산소화를 보장하지 않는다. 혈액 양·Hb·산소화·조직 추출을 함께 본다.\n\n운동 조직은 산소를 많이 소비하여 정맥혈의 산소 함량을 낮춘다. 온도·CO₂·H⁺도 증가해 우측 이동하므로 산소를 더 쉽게 추출한다. 이때 '''동맥혈과 정맥혈의 산소 함량 차가 커진다'''.\n\n=== 선지별로 보면 ===\n* ① 온도 감소 — 좌측 이동하여 산소를 더 붙잡는다. 운동의 추출 증가를 대표하는 조건이 아니다.\n* ② 2,3-DPG 감소 — 좌측 이동으로 조직 방출을 어렵게 한다.\n* ③ pH 증가 — 역시 좌측 이동이다.\n* ④ CO 중독 — 산소 함량과 방출을 모두 불리하게 한다. 보상성 혈류·추출 변화에 따라 실제 동정맥 차는 달라질 수 있어, 증가의 대표 조건으로 단순화하지 않는다.\n* ⑤ 운동 — 소비량과 산소 추출이 증가하고 정맥혈 산소가 감소해 동정맥 함량 차가 증가한다.\n\n[[7강#산소 전달량과 산소 소비량을 따로 계산한다|Wiki · 산소 전달량과 산소 소비량을 따로 계산한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 18·20·21·28·29쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -32856,7 +33424,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          18,
+          20,
+          21,
+          28,
+          29
+        ],
+        "chapter": "산소 전달량과 산소 소비량을 따로 계산한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-022",
@@ -32878,10 +33462,12 @@ window.JBL_DATA = {
         "산소의 확산 속도는 solubility coefficient에 비례한다.",
         "Hb saturation이 높을수록 더 많은 이산화탄소가 운반될 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — 산소 분압이 높으면 CO2와 hemoglobin이 잘 떨어진다.",
+      "explanation": "'''정답: 1번, 산소 분압이 높으면 CO2와 hemoglobin이 잘 떨어진다..'''\n\n=== O₂가 붙으면 CO₂를 내리고, O₂가 떨어지면 CO₂를 싣는다 ===\n'''탈산소 Hb는 CO₂를 더 잘 결합하고 H⁺도 더 잘 완충'''한다. 조직에서 O₂를 내려놓은 Hb는 CO₂와 H⁺를 받아들여 CO₂ 운반을 돕는다. 폐에서 산소화되면 반대가 되어 CO₂ 결합이 줄고 H⁺가 풀려난다. H⁺ + HCO₃⁻가 H₂CO₃를 거쳐 CO₂ + H₂O로 돌아가므로 폐포로 CO₂를 내보내기 쉬워진다.\n\n||= 효과 ||= 먼저 바뀌는 것 ||= 결과 ||\n|| '''Haldane''' || Hb의 O₂ 결합·산소화 상태 || Hb가 운반할 수 있는 '''CO₂와 H⁺'''의 양 변화 ||\n|| '''Bohr''' || CO₂·H⁺ 증가, pH 감소 || Hb의 '''O₂''' 친화도 감소와 조직 방출 증가 ||\n\n같은 PCO₂에서 탈산소혈이 산소화혈보다 더 많은 CO₂를 운반한다. 따라서 CO₂ 해리곡선에서 탈산소화는 위쪽/왼쪽 이동으로 표현된다. 산소 해리곡선의 좌우 이동과 축을 섞지 않는다.\n\n=== 선지별로 보면 ===\n* ① 높은 O₂에서 Hb에 결합한 CO₂ 해리 — Hb 산소화가 CO₂ 운반 능력을 낮추는 Haldane 효과다.\n* ② 낮은 pH에서 O₂ 친화도 감소 — Bohr 효과다. 방향을 반대로 묻는 함정이다.\n* ③ 낮은 PCO₂에서 O₂ 친화도 증가 — 역시 CO₂가 O₂ 친화도에 미치는 Bohr 관계의 반대 방향 표현이다.\n* ④ O₂ 확산과 용해도 — Fick의 확산계수 관계로 Haldane 효과가 아니다.\n* ⑤ O₂ 포화도가 높을수록 CO₂를 더 많이 운반 — 반대다. 같은 PCO₂에서는 탈산소 Hb가 더 많이 운반한다.\n\n[[7강#Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다|Wiki · Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다]]\n~~근거: 38기 「혈액에 의한 기체운반」 PDF 22·46·47·48쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -32906,7 +33492,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 혈액에 의한 기체운반",
+        "pages": [
+          22,
+          46,
+          47,
+          48
+        ],
+        "chapter": "Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-023",
@@ -32928,10 +33529,12 @@ window.JBL_DATA = {
         "Dorsal respiratory group (DRG)",
         "Ventral respiratory group (VRG)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Dorsal respiratory group (DRG)",
+      "explanation": "'''정답: 4번, Dorsal respiratory group (DRG).'''\n\n=== 호흡중추를 위치보다 기능으로 구별한다 ===\n||= 구조 ||= 주요 기능 ||\n|| '''DRG, NTS 부근''' || 주로 흡기성. IX·X 감각 입력을 받아 들숨근과 VRG에 연결 ||\n|| Rostral VRG, retrofacialis/Bötzinger || 강의 분류에서 주로 호기성 뉴런 ||\n|| Intermediate VRG || 주로 흡기성과 일부 호기성, 상기도·흡기근 출력. Pre-Bötzinger 회로는 리듬 생성 ||\n|| Caudal VRG, NRA || 강의에서 rostral NRA는 흡기성, caudal NRA는 호기성 ||\n|| PRG || 교뇌에서 들숨의 길이와 전환 조절 ||\n\nDRG는 감각 입력의 중요한 통합점이다. '''Carotid body가 저산소를 감지 → IX → NTS/DRG → 호흡 운동 조절'''의 순서로 생각한다. 이름에 rostral이 있다고 모두 같은 집단은 아니다. 특히 강의의 rostral VRG와 rostral NRA를 구별한다.\n\n=== 이 문제는 수용체가 아니라 입력을 받는 중추를 묻는다 ===\n저산소 신호를 '''직접 감지'''하는 곳을 물으면 carotid body다. 하지만 이 문항은 그 정보를 받아들이는 '''호흡중추'''를 고르게 한다. 말초화학수용체의 정보가 IX·X를 통해 들어오는 DRG가 답이다. 같은 저산소라는 단어가 있어도 질문의 단계가 다르다.\n\n=== 선지별로 보면 ===\n* ① Pneumotaxic center — 교뇌의 들숨 종료 조절이다.\n* ② Apneustic center — 들숨 지속에 기여하는 교뇌 영역이다.\n* ③ Pre-Bötzinger complex — 리듬 생성에 중요하지만 저산소 감각 입력의 대표적 첫 통합 부위는 아니다.\n* ④ DRG — NTS 부근에서 말초화학수용체의 정보를 받아 호흡운동에 연결한다.\n* ⑤ VRG — 흡기·호기·상기도·리듬 회로를 포함하지만, 이 감각 입력을 대표하는 답은 DRG다.\n\n[[8강#DRG는 감각 정보를 받아 들숨 운동에 연결한다|Wiki · DRG는 감각 정보를 받아 들숨 운동에 연결한다]]\n~~근거: 38기 「호흡의 조절」 PDF 9·14·29·30쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -32956,7 +33559,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          9,
+          14,
+          29,
+          30
+        ],
+        "chapter": "DRG는 감각 정보를 받아 들숨 운동에 연결한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-024",
@@ -32978,10 +33596,12 @@ window.JBL_DATA = {
         "External intercostal muscle",
         "Back muscle"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — External intercostal muscle",
+      "explanation": "'''정답: 4번, External intercostal muscle.'''\n\n=== 기본 들숨근과 강제 날숨근을 나눈다 ===\nDRG와 VRG는 모두 흡기성 출력을 가질 수 있다. 횡격막과 '''외늑간근'''은 들숨에 관여하여 두 회로의 영향을 받는다. 반면 복근과 호기성 내늑간근의 동원은 강제 날숨에 해당하며 VRG 출력으로 설명한다.\n\n||= 근육 ||= 기능·대표 연결 ||\n|| 횡격막 || 흡기. 척수 운동뉴런·phrenic nerve로 출력 ||\n|| '''외늑간근''' || 흡기. DRG·VRG의 영향을 함께 받음 ||\n|| 내늑간근·복근 || 강제 호기, 주로 VRG의 호기성 출력 ||\n|| 인두·후두 근육 || 기도 개방과 협응. VRG·nucleus ambiguus 계열의 상기도 조절 ||\n\n안정 날숨은 주로 탄성 반동이라 호기근을 적극적으로 쓸 필요가 적다. 강의 도식의 근육 분류를 기준으로 판단한다.\n\n=== 선지별로 보면 ===\n* ① 복근 — 강제 날숨근으로 VRG의 호기성 출력과 연결된다.\n* ② 인두·후두근 — 상기도 조절에 관여하며 강의는 VRG 쪽 출력으로 제시한다.\n* ③ 내늑간근 — 이 강의의 구분에서는 강제 호기근이다. 흡기성 외늑간근과 구별한다.\n* ④ 외늑간근 — DRG와 VRG의 흡기성 출력이 모두 관여하는 선지다.\n* ⑤ 등 근육 — 호흡의 자세·보조 운동에 관여할 수 있으나, 도식에서 두 회로의 공통 기본 들숨근으로 제시된 답은 외늑간근이다.\n\n[[8강#VRG는 부위에 따라 들숨·날숨·상기도 운동을 나누어 맡는다|Wiki · VRG는 부위에 따라 들숨·날숨·상기도 운동을 나누어 맡는다]]\n~~근거: 38기 「호흡의 조절」 PDF 13·14쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -33006,7 +33626,20 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          13,
+          14
+        ],
+        "chapter": "VRG는 부위에 따라 들숨·날숨·상기도 운동을 나누어 맡는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-025",
@@ -33028,10 +33661,12 @@ window.JBL_DATA = {
         "뇌척수액 pH",
         "중추신경계 capillary blood pH"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — 중추신경계 capillary blood pH",
+      "explanation": "'''정답: 5번, 중추신경계 capillary blood pH.'''\n\n=== CO₂가 장벽을 통과하고, H⁺가 수용체를 자극한다 ===\n혈액뇌장벽은 H⁺와 HCO₃⁻의 빠른 이동을 제한하지만 CO₂는 잘 통과한다. 따라서 '''혈액 PCO₂ 증가 → CO₂의 BBB 통과 → CSF에서 H⁺ 생성 → 중추화학수용체 자극'''의 순서가 된다. 직접 자극과 그 자극을 만든 원인은 다르다.\n\n||= 변화 ||= 중추·말초와의 관계 ||\n|| '''CSF H⁺ 증가·pH 감소''' || 중추화학수용체의 직접 자극 ||\n|| 동맥혈 CO₂ 증가 || BBB를 통과한 뒤 H⁺를 만들어 중추 자극. 말초에도 작용 ||\n|| 동맥혈 H⁺ 증가 || 장벽 통과가 제한되어 주로 말초화학수용체를 통해 환기 증가 ||\n|| 동맥혈 PO₂ 감소 || 말초화학수용체 자극 ||\n\nCSF는 단백질 완충이 적어 CO₂ 변화에 pH가 쉽게 달라진다. 지속적인 고탄산혈증에서는 HCO₃⁻ 조정으로 1–2일에 걸쳐 반응이 약해질 수 있다. 이것도 중추가 단순히 CO₂ 수치를 직접 읽기만 하는 것이 아니라 주변 산도에 반응한다는 점과 연결된다.\n\n문항은 호흡을 전혀 바꾸지 못하는 물질을 찾는 것이 아니라, 제시된 '''위치·경로에서 중추 조절에 가장 직접적인 영향이 적은 것'''을 고르는 문제다. 뇌 모세혈관 속 혈액 pH와 CSF pH는 장벽 때문에 같은 변수가 아니다.\n\n=== 선지별로 보면 ===\n* ① 폐 stretch receptor — 미주신경 감각을 통해 들숨 종료 등 호흡 패턴을 바꾼다.\n* ② 말초화학수용체 부근 PO₂ — 동맥혈 저산소를 감지해 환기를 바꾼다.\n* ③ 중추 모세혈관 혈액 PCO₂ — CO₂가 BBB를 통과하여 CSF H⁺를 바꾸므로 중요하다.\n* ④ CSF pH — 중추화학수용체의 직접적인 화학 환경이다.\n* ⑤ 중추 모세혈관 혈액 pH — 혈액 H⁺의 빠른 BBB 통과가 제한된다. 혈액 pH가 호흡에 전혀 영향이 없다는 뜻이 아니라, 주로 말초 경로를 이용한다는 구별이다.\n\n[[8강#중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다|Wiki · 중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다]]\n~~근거: 38기 「호흡의 조절」 PDF 30·32·35·36·37·47쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -33056,7 +33691,24 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          30,
+          32,
+          35,
+          36,
+          37,
+          47
+        ],
+        "chapter": "중추화학수용체를 직접 자극하는 것은 CSF의 H⁺다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-026",
@@ -33078,10 +33730,12 @@ window.JBL_DATA = {
         "Ataxic respiration",
         "Hyperpnea"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — Cheyne-Stokes respiration",
+      "explanation": "'''정답: 1번, Cheyne-Stokes respiration.'''\n\n=== 깊이의 점진적 증감과 무호흡의 반복을 읽는다 ===\n'''Cheyne–Stokes breathing'''은 호흡이 점점 깊어졌다가 점점 얕아진 뒤 무호흡이 나타나는 주기를 반복한다. 심박출량 감소로 되먹임 전달이 지연되거나, 중추 조절 이상·고지대 수면 등에서 환기 반응이 불안정해질 때 나타날 수 있다.\n\n||= 양상 ||= 구별할 특징 ||\n|| '''Cheyne–Stokes''' || Crescendo–decrescendo 뒤 무호흡 반복 ||\n|| Obstructive sleep apnea || 기류는 멎어도 호흡 노력은 지속 ||\n|| Apneusis || 긴 들숨과 짧은 날숨 ||\n|| Ataxic/Biot pattern || 불규칙한 호흡과 무호흡, 일정한 점진적 증감이 아님 ||\n|| Hyperpnea || 깊은 호흡. 반드시 주기적 무호흡이 있는 것은 아님 ||\n|| Kussmaul || 대사성 산증에서 깊고 큰 보상 호흡 ||\n\n=== 선지별로 보면 ===\n* ① Cheyne–Stokes — 주기적으로 깊어졌다 얕아지고 무호흡이 이어지는 묘사와 일치한다.\n* ② Obstructive sleep apnea — 상기도 폐쇄와 호흡 노력의 지속이 핵심이다. 점진적인 깊이 증감을 정의로 하지 않는다.\n* ③ Apneusis — 들숨이 길게 지속되는 교뇌 조절 이상이다.\n* ④ Ataxic breathing — 일정한 증감 주기가 없는 불규칙한 호흡이다.\n* ⑤ Hyperpnea — 호흡 깊이 증가를 뜻하며, 주기적 무호흡을 포함해야 하는 것은 아니다.\n\n[[8강#호흡의 깊이와 주기를 보면 조절 이상의 양상이 드러난다|Wiki · 호흡의 깊이와 주기를 보면 조절 이상의 양상이 드러난다]]\n~~근거: 38기 「호흡의 조절」 PDF 53·54·55·56쪽. 별도로 확인되지 않은 과거 정답을 공식 정답으로 간주하지 않았다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
       "professor": "이진영",
@@ -33106,7 +33760,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "38기 호흡의 조절",
+        "pages": [
+          53,
+          54,
+          55,
+          56
+        ],
+        "chapter": "호흡의 깊이와 주기를 보면 조절 이상의 양상이 드러난다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-027",
