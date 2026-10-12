@@ -401,8 +401,8 @@ html:not([data-theme="dark"]) .study-ui :is(.jbl-explanation-text,.jbl-wiki-text
 html:not([data-theme="dark"]) .study-ui .jbl-explanation .jbl-wiki-text h3 { border-color:#dce8ed; color:#173f50; }
 html:not([data-theme="dark"]) .study-ui .jbl-explanation .jbl-wiki-text h4 { color:#28586b; }
 html:not([data-theme="dark"]) .study-ui .jbl-explanation .jbl-wiki-text blockquote { border-left-color:#76b8ce; background:#f2f9fb; }
-html:not([data-theme="dark"]) .study-ui .jbl-card .jbl-question-link:not(.jbl-question-link-missing) { color:#137ca4; }
-html:not([data-theme="dark"]) .study-ui .jbl-card .jbl-question-link::before { background:#dff2f8; }
+html:not([data-theme="dark"]) .study-ui .jbl-card:not(.jbl-wiki-card) .jbl-question-link:not(.jbl-question-link-missing) { color:#137ca4; }
+html:not([data-theme="dark"]) .study-ui .jbl-card:not(.jbl-wiki-card) .jbl-question-link::before { background:#dff2f8; }
 html:not([data-theme="dark"]) .study-ui .jbl-empty { background:#fff; border-color:#cbd5e1; color:#64748b; }
 html:not([data-theme="dark"]) .study-ui .jbl-counter { color:#334155; }
 html:not([data-theme="dark"]) .study-ui :is(.jbl-bottom-nav,.jbl-inline-nav,.context-question-nav,.lecture-j-pane>.lecture-pane-head) { background:#fff; border-color:#e2e8f0; color:#0f172a; }
@@ -524,4 +524,33 @@ body.jbl-explanation-open { overflow:hidden; }
   .study-ui .jbl-explanation-split .jbl-explanation { padding:12px; }
 }
 @media print { .jbl-explanation-split { display:none!important; } }
+
+/* Animate only the incoming pane: source geometry and its reading anchor stay intact. */
+.study-ui .context-link-split { overflow:hidden; }
+.study-ui .context-link-split.is-closing { pointer-events:none; }
+.study-ui .context-link-split > .context-link-target {
+  --linked-pane-enter-x:28px;
+  --linked-pane-enter-y:0px;
+  animation:linked-pane-arrive 340ms cubic-bezier(.22,.8,.25,1) backwards;
+}
+@keyframes linked-pane-arrive {
+  from {
+    opacity:0;
+    transform:translate3d(var(--linked-pane-enter-x),var(--linked-pane-enter-y),0);
+    filter:blur(6px);
+  }
+  to { opacity:1; transform:none; filter:none; }
+}
+@media (orientation:portrait), (max-width:700px) {
+  .study-ui .context-link-split > .context-link-target {
+    --linked-pane-enter-x:0px;
+    --linked-pane-enter-y:24px;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .study-ui .context-link-split > .context-link-target { animation:none; }
+}
+@media print {
+  .study-ui .context-link-split > .context-link-target { animation:none; }
+}
 

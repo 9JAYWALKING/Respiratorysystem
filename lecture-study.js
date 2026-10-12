@@ -527,10 +527,14 @@ function syncQuestionExplanationSplit() {
   } finally { panel.rendering = false; }
 }
 
-function closeQuestionExplanationSplit(restoreFocus = true, conceal = true, rerender = true) {
+function closeQuestionExplanationSplit(restoreFocus = true, conceal = true, rerender = true, animate = restoreFocus !== false) {
   const panel = questionExplanationState;
   if (!panel.active) return;
   const {state,question,viewer,suspended,split} = panel;
+  if (animate && animateSplitClose(split, () => {
+    if (panel.split === split) closeQuestionExplanationSplit(restoreFocus, conceal, rerender, false);
+  })) return;
+  cancelSplitCloseMotion(split);
   panel.active = false;
   if (conceal) {
     state.answerShown[question.id] = false;

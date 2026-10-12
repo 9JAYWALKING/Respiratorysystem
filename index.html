@@ -5185,6 +5185,7 @@
 
     function showContextLinkTarget(target, push = true) {
       if (!target) return;
+      cancelSplitCloseMotion(contextLinkState.split);
       if (push) {
         const current = contextLinkState.stack.at(-1);
         if (!current || contextLinkTargetKey(current) !== contextLinkTargetKey(target)) contextLinkState.stack.push(target);
@@ -5281,7 +5282,63 @@
       window.PATHOLOGY_MAP?.refreshLayout?.();
     }
 
-    function closeContextLinkSplit(restorePosition = true) {
+    function cancelSplitCloseMotion(split) {
+      split?._closeMotion?.cancel();
+    }
+
+    function animateSplitClose(split, complete) {
+      if (!split?.isConnected) return false;
+      if (split._closeMotion) return true;
+      const pane = split.querySelector(':scope > .context-link-target');
+      if (!pane?.animate || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+      const style = getComputedStyle(pane);
+      const stacked = window.matchMedia('(orientation: portrait), (max-width: 700px)').matches;
+      const initialInert = split.inert;
+      let animation, timer;
+      const finish = () => {
+        if (split._closeMotion !== motion) return;
+        clearTimeout(timer);
+        split._closeMotion = null;
+        complete();
+      };
+      const motion = { cancel() {
+        if (split._closeMotion !== motion) return;
+        split._closeMotion = null;
+        clearTimeout(timer);
+        if (animation) {
+          animation.onfinish = null;
+          animation.oncancel = null;
+          animation.cancel();
+        }
+        split.inert = initialInert;
+        split.classList.remove('is-closing');
+      } };
+      split._closeMotion = motion;
+      split.inert = true;
+      split.classList.add('is-closing');
+      try {
+        // Start at the current frame, including an unfinished opening animation.
+        animation = pane.animate([
+          {opacity:style.opacity || '1', transform:style.transform || 'none', filter:style.filter || 'none'},
+          {opacity:0, transform:stacked ? 'translate3d(0,22px,0)' : 'translate3d(22px,0,0)', filter:'blur(6px)'}
+        ], {duration:210, easing:'cubic-bezier(.4,0,.8,.5)', fill:'forwards'});
+        animation.onfinish = finish;
+        animation.oncancel = finish;
+        // A background tab or interrupted animation must never leave an inert overlay behind.
+        timer = setTimeout(finish, 320);
+        return true;
+      } catch (_) {
+        motion.cancel();
+        return false;
+      }
+    }
+
+    function closeContextLinkSplit(restorePosition = true, animate = restorePosition !== false) {
+      const split = contextLinkState.split;
+      if (contextLinkState.active && animate && animateSplitClose(split, () => {
+        if (contextLinkState.split === split) closeContextLinkSplit(restorePosition, false);
+      })) return;
+      cancelSplitCloseMotion(split);
       const positionRevision = ++contextLinkState.positionRevision;
       closeQuestionExplanationSplit(false);
       if (!contextLinkState.active) return;
