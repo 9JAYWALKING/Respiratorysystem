@@ -270,6 +270,7 @@ html[data-theme="dark"] .lecture-pane-body,html[data-theme="dark"] .lecture-work
 body.context-link-open .lecture-workspace { height:auto; display:block; }
 body.context-link-open .lecture-pane { max-height:75dvh; margin-bottom:16px; }
 /* Linked J must not turn the source Wiki into a second, top-reset scroller. */
+.study-ui .context-wiki-source[data-context-positioning] { overflow-anchor:none; scroll-behavior:auto; }
 .study-ui .context-wiki-source .lecture-workspace { position:static; inset:auto; height:auto; min-height:0; display:block; }
 .study-ui .context-wiki-source .lecture-pane { height:auto; max-height:none; overflow:visible; }
 .study-ui .context-wiki-source .lecture-pane-body { height:auto; max-height:none; overflow:visible; flex:none; }

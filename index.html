@@ -2927,9 +2927,14 @@
 
     function scrollWikiElementIntoView(target, { block = 'start', flash = false, behavior = 'smooth' } = {}) {
       if (!target) return false;
+      const navigationToken = ++wikiNavigationToken;
       const parentSection = target.classList?.contains('wiki-section') ? target : target.closest?.('.wiki-section');
       if (parentSection?.classList.contains('is-collapsed')) setWikiSectionExpanded(parentSection, true);
-      const align = behavior => target.scrollIntoView({ behavior, block, inline:'nearest' });
+      const align = behavior => {
+        // A lazy image from an earlier navigation must not move a new split/view.
+        if (navigationToken !== wikiNavigationToken || !target.isConnected) return;
+        target.scrollIntoView({ behavior, block, inline:'nearest' });
+      };
       align(behavior);
       const imageScope = target.closest?.('.wiki-note, .jbl-card') || target.parentElement || document;
       const pendingImages = [...imageScope.querySelectorAll('img')].filter(image =>
@@ -4781,7 +4786,7 @@
     const contextLinkState = {
       active:false, expanded:false, split:null, source:null, target:null, body:null, title:null, back:null, nav:null, expand:null,
       shell:null, originalParent:null, originalNextSibling:null, sourceScroll:0, opener:null,
-      stack:[], renderToken:0, sourcePaneScroll:0, returnPosition:null, positionRevision:0
+      stack:[], renderToken:0, sourcePaneScroll:0, returnPosition:null, positionRevision:0, positionCleanup:null
     };
 
     function validContextQuestionNumbers(numbers) {
@@ -4897,7 +4902,10 @@
     }
 
     function contextSourceScrollElement() {
-      return contextLinkState.source?.querySelector('#jbl-standalone .jbl-wrap') || contextLinkState.source;
+      const source = contextLinkState.source;
+      if (contextLinkState.returnPosition) return source;
+      // All views remain mounted: a hidden question bank is not the current scroller.
+      return source?.querySelector('#jbl-view:not([hidden]) #jbl-standalone .jbl-wrap') || source;
     }
 
     function captureContextWikiPosition(shell, opener) {
@@ -4952,6 +4960,62 @@
         const top = source.getBoundingClientRect().top + (source.clientTop || 0);
         source.scrollTop += anchor.element.getBoundingClientRect().top - top - anchor.offset;
       }
+    }
+
+    function keepContextWikiPosition(position, source, split) {
+      contextLinkState.positionCleanup?.();
+      let stopped = false, scheduled = false, layoutChanged = false, lastScroll = source.scrollTop;
+      const current = () => !stopped && contextLinkState.active && contextLinkState.split === split && !contextLinkState.expanded;
+      const align = () => {
+        if (!current()) return;
+        alignContextWikiSource(position, source);
+        lastScroll = source.scrollTop;
+      };
+      const schedule = (reflow = false) => {
+        if (!current()) return;
+        layoutChanged ||= reflow;
+        if (scheduled) return;
+        scheduled = true;
+        requestAnimationFrame(() => {
+          scheduled = false;
+          if (!current()) return;
+          // Do not undo intentional scrolling between opening and the next frame.
+          if (!layoutChanged && Math.abs(source.scrollTop - lastScroll) > 1) { stop(); return; }
+          layoutChanged = false;
+          align();
+        });
+      };
+      const onLayout = () => schedule(true);
+      const onKey = event => {
+        if (['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(event.key)) stop();
+      };
+      const observer = typeof ResizeObserver === 'function' ? new ResizeObserver(onLayout) : null;
+      const stop = () => {
+        if (stopped) return;
+        stopped = true;
+        observer?.disconnect();
+        source.removeAttribute('data-context-positioning');
+        for (const type of ['wheel','touchstart','pointerdown']) source.removeEventListener(type, stop, true);
+        source.removeEventListener('keydown', onKey, true);
+        source.removeEventListener('load', onLayout, true);
+        source.removeEventListener('error', onLayout, true);
+        window.removeEventListener('resize', onLayout);
+        if (contextLinkState.positionCleanup === stop) contextLinkState.positionCleanup = null;
+      };
+      contextLinkState.positionCleanup = stop;
+      source.setAttribute('data-context-positioning', '');
+      // Reading can begin before lazy images/font metrics finish settling. Keep the
+      // visible paragraph anchored until the reader deliberately interacts with it.
+      for (const type of ['wheel','touchstart','pointerdown']) source.addEventListener(type, stop, {capture:true,passive:true});
+      source.addEventListener('keydown', onKey, true);
+      source.addEventListener('load', onLayout, true);
+      source.addEventListener('error', onLayout, true);
+      window.addEventListener('resize', onLayout);
+      if (contextLinkState.shell) observer?.observe(contextLinkState.shell);
+      observer?.observe(source);
+      document.fonts?.ready.then(onLayout);
+      align();
+      schedule();
     }
 
     function restoreContextWikiPosition(position) {
@@ -5050,6 +5114,7 @@
       const state = contextLinkState;
       if (!state.active) return;
       const expanding = !state.expanded;
+      if (expanding) state.positionCleanup?.();
       const contentScroll = state.body.scrollTop;
       if (expanding) state.sourcePaneScroll = contextSourceScrollElement().scrollTop;
       state.expanded = expanding;
@@ -5078,6 +5143,7 @@
       const shell = document.querySelector(document.body.classList.contains('study-ui') ? '.site-shell > main' : '.site-shell');
       if (!shell) return;
       ++contextLinkState.positionRevision;
+      ++wikiNavigationToken;
       const returnPosition = captureContextWikiPosition(shell, opener);
       const split = document.createElement('div');
       split.className = 'context-link-split';
@@ -5119,24 +5185,26 @@
         toggleContextLinkExpanded();
       });
       showContextLinkTarget(target, true);
-      const alignSource = () => {
-        if (contextLinkState.split !== split || !contextLinkState.active || contextLinkState.expanded) return;
-        if (returnPosition) alignContextWikiSource(returnPosition, source);
-        else contextSourceScrollElement().scrollTop = contextLinkState.sourceScroll;
-        window.PATHOLOGY_MAP?.refreshLayout?.();
-      };
-      alignSource();
-      const initialScroll = contextSourceScrollElement().scrollTop;
-      requestAnimationFrame(() => {
-        if (contextLinkState.split !== split || contextSourceScrollElement()?.scrollTop !== initialScroll) return;
-        alignSource();
-      });
+      if (returnPosition) keepContextWikiPosition(returnPosition, source, split);
+      else {
+        const scroller = contextSourceScrollElement();
+        scroller.scrollTop = contextLinkState.sourceScroll;
+        const initialScroll = scroller.scrollTop;
+        requestAnimationFrame(() => {
+          if (contextLinkState.split === split && contextLinkState.active && !contextLinkState.expanded && scroller.scrollTop === initialScroll) {
+            scroller.scrollTop = contextLinkState.sourceScroll;
+          }
+        });
+      }
+      window.PATHOLOGY_MAP?.refreshLayout?.();
     }
 
     function closeContextLinkSplit(restorePosition = true) {
       const positionRevision = ++contextLinkState.positionRevision;
       closeQuestionExplanationSplit(false);
       if (!contextLinkState.active) return;
+      ++wikiNavigationToken;
+      contextLinkState.positionCleanup?.();
       hideWikiFootnotePreview();
       const scroll = contextLinkState.expanded ? contextLinkState.sourcePaneScroll : contextSourceScrollElement()?.scrollTop || 0;
       const shell = contextLinkState.shell;
@@ -5150,7 +5218,7 @@
       }
       contextLinkState.split?.remove();
       document.body.classList.remove('context-link-open');
-      Object.assign(contextLinkState, { active:false, expanded:false, split:null, source:null, target:null, body:null, title:null, back:null, nav:null, expand:null, shell:null, originalParent:null, originalNextSibling:null, sourceScroll:0, sourcePaneScroll:0, opener:null, stack:[], returnPosition:null });
+      Object.assign(contextLinkState, { active:false, expanded:false, split:null, source:null, target:null, body:null, title:null, back:null, nav:null, expand:null, shell:null, originalParent:null, originalNextSibling:null, sourceScroll:0, sourcePaneScroll:0, opener:null, stack:[], returnPosition:null, positionCleanup:null });
       document.dispatchEvent(new CustomEvent('context-link-visibility', { detail:{active:false} }));
       if (restorePosition) {
         const restore = () => {
