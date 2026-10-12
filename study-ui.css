@@ -1,4 +1,8 @@
 /* Respiratory study shell. Existing exam pages deliberately do not load this skin. */
+/* Suppress browser double-tap zoom, including nested scrollers and dialogs.
+   Zero specificity preserves the intentional swipe/drag rules below.
+   Native panning and pinch zoom remain available; no touch events are cancelled. */
+:where(html, body, body *) { touch-action:manipulation; }
 /* Keep dialog scroll-lock stable. Paint the reserved root gutter too: the two
    equal gradient stops are a solid header strip, not a visual gradient.
    A viewport-wide element would instead risk horizontal overflow. */
