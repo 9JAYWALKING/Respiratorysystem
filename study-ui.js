@@ -44,6 +44,9 @@
     recall.setAttribute('aria-expanded','false');recall.setAttribute('aria-label','강의 제목 바 펼치기');
   }
   function syncLectureRecall() {
+    if(document.body.classList.contains('context-link-open')){
+      closeRecalledBar();recall.hidden=true;return;
+    }
     const bar=document.querySelector('#detail-view:not([hidden]) .detail-bar');
     if(!bar || (recalledBar && recalledBar!==bar))closeRecalledBar();
     if(!bar){recall.hidden=true;return;}
@@ -62,6 +65,7 @@
     recall.setAttribute('aria-expanded','true');recall.setAttribute('aria-label','강의 제목 바 접기');
   });
   document.addEventListener('scroll',syncLectureRecall,{passive:true,capture:true});
+  document.addEventListener('context-link-visibility',syncLectureRecall);
   document.addEventListener('lecture-question-navigation',()=>{closeRecalledBar();syncLectureRecall();});
   window.addEventListener('resize',syncLectureRecall);
   new MutationObserver(syncLectureRecall).observe(document.querySelector('main'),{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
@@ -115,6 +119,8 @@
   const visibleRoot=()=>document.querySelector('main>.view:not([hidden])');
   function proxy(selector) {close();visibleRoot()?.querySelector(selector)?.click();}
   function renderTools() {
+    const expandedFilters=new Set(Array.from(dialog.querySelectorAll('[data-center-multi][open]'),element=>element.dataset.centerMulti));
+    const scrollTop=dialog.scrollTop;
     const state=app.context(),root=visibleRoot(), isJ=state.hash.startsWith('#jbl');
     const questionFilters=app.questionFilterContext();
     if(questionFilters){state.filters=questionFilters.filters;state.randomEnabled=questionFilters.randomEnabled;}
@@ -133,10 +139,15 @@
       return `<button type="button" class="study-filter-icon" data-center-status="${key}" aria-label="${label}" title="${label}" aria-pressed="${Boolean(selected)}">${svg(key)}</button>`;
     }).join('');
     const options=(items,selected,label)=>'<option value="">'+label+'</option>'+items.map(([value,text])=>`<option value="${escape(value)}" ${String(selected)===String(value)?'selected':''}>${escape(text)}</option>`).join('');
+    const multiFilter=(key,label,items,allLabel)=>{
+      const selected=new Set(app.filterValues(state.filters[key]));
+      const summary=items.filter(([value])=>selected.has(String(value))).map(([,text,shortLabel=text])=>shortLabel).join(', ')||allLabel;
+      return `<div class="study-multi-filter"><span id="study-filter-${key}">${label}</span><details data-center-multi="${key}" ${expandedFilters.has(key)?'open':''}><summary aria-label="${label} 복수 선택"><span data-center-multi-summary>${escape(summary)}</span></summary><div class="study-multi-options" role="group" aria-labelledby="study-filter-${key}"><button type="button" data-center-multi-clear="${key}" aria-pressed="${!selected.size}">${allLabel}</button>${items.map(([value,text,shortLabel=text])=>`<label><input type="checkbox" data-center-multi-value="${key}" data-summary-label="${escape(shortLabel)}" value="${escape(value)}" ${selected.has(String(value))?'checked':''}><span>${escape(text)}</span></label>`).join('')}</div></details></div>`;
+    };
     const chapterFilter=questionFilters?.course ? `<div class="study-center-filters"><label>세부 분류<select data-center-chapter aria-label="관련 문항 범위">${options(questionFilters.chapters.map(item=>[item.slug,item.heading+' · '+item.count]),questionFilters.chapter,'전체 문항 · '+questionFilters.total)}</select></label></div>` : '';
     dialog.innerHTML=`<button class="study-center-grip" type="button" aria-label="도구 닫기 · 위로 쓸어올리기"></button>
       <div class="study-center-controls"><div class="study-center-theme"><button type="button" class="theme-button" data-theme-toggle></button><span>화면 모드</span></div><div class="study-font-control" aria-label="글자 크기"><button type="button" data-scale-minus aria-label="글자 작게">A−</button><output>${Math.round(scale*100)}%</output><button type="button" data-scale-plus aria-label="글자 크게">A＋</button></div></div>
-      ${questionFilters ? `<section class="study-center-section"><h3>문항 필터</h3>${isJ ? `<div class="study-center-filters"><label>연도<select data-center-filter="year">${options(state.years.map(y=>[y,y]),state.filters.year,'전체 연도')}</select></label><label>강의<select data-center-filter="lectureId">${options(state.courses.map(c=>[c.id,c.id+'강 '+c.title]),state.filters.lectureId,'전체 강의')}</select></label><label>출제교수<select data-center-filter="professor">${options(state.professors.map(p=>[p,p]),state.filters.professor,'전체 교수')}</select></label></div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div><button type="button" class="study-random-toggle" data-center-random aria-pressed="${state.randomEnabled}" aria-label="문항 순서 랜덤 ${state.randomEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('shuffle')}</span><span>문항 순서 랜덤</span></button></section>` : ''}
+      ${questionFilters ? `<section class="study-center-section"><h3>문항 필터</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div><button type="button" class="study-random-toggle" data-center-random aria-pressed="${state.randomEnabled}" aria-label="문항 순서 랜덤 ${state.randomEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('shuffle')}</span><span>문항 순서 랜덤</span></button></section>` : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
@@ -155,6 +166,26 @@
       const value=input.type==='checkbox'?input.checked:input.value;
       app.filter({[input.dataset.centerFilter]:value});
     });
+    const applyMultiFilter=(key,values)=>{
+      app.filter({[key]:values});
+      const group=dialog.querySelector(`[data-center-multi="${key}"]`);
+      const selected=new Set(values);
+      const labels=[];
+      group.querySelectorAll('[data-center-multi-value]').forEach(input=>{
+        input.checked=selected.has(input.value);
+        if(input.checked)labels.push(input.dataset.summaryLabel||input.nextElementSibling.textContent);
+      });
+      const clear=group.querySelector('[data-center-multi-clear]');
+      clear.setAttribute('aria-pressed',String(!selected.size));
+      group.querySelector('[data-center-multi-summary]').textContent=labels.join(', ')||clear.textContent;
+    };
+    dialog.querySelectorAll('[data-center-multi-value]').forEach(input=>input.addEventListener('change',()=>{
+      const key=input.dataset.centerMultiValue;
+      const values=new Set(app.filterValues(app.context().filters[key]));
+      if(input.checked)values.add(input.value);else values.delete(input.value);
+      applyMultiFilter(key,[...values]);
+    }));
+    dialog.querySelectorAll('[data-center-multi-clear]').forEach(button=>button.onclick=()=>applyMultiFilter(button.dataset.centerMultiClear,[]));
     dialog.querySelectorAll('[data-center-status]').forEach(button=>button.onclick=()=>{
       const key=button.dataset.centerStatus,filters=app.questionFilterContext().filters;
       const statuses=new Set(filters.statuses||[]);
@@ -165,7 +196,7 @@
     });
     dialog.querySelector('[data-center-random]')?.addEventListener('click',()=>{app.randomQuestions();renderTools();dialog.querySelector('[data-center-random]')?.focus();});
     gesture(dialog.querySelector('.study-center-grip'),-1,dismiss,dismiss);
-    window.RespiratoryTheme.syncButtons();setScale(scale);
+    window.RespiratoryTheme.syncButtons();setScale(scale);dialog.scrollTop=scrollTop;
   }
   function positionTools() {
     // Fixed-position coordinates use the layout viewport; the visible viewport can

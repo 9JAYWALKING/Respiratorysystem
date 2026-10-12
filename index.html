@@ -2363,13 +2363,18 @@
         .map(canonicalContentCourseId).filter(id => Number.isInteger(id) && id > 0)
     )];
     const questionBelongsToCourse = (question, id) => questionLectureIds(question).includes(canonicalContentCourseId(id));
-    const jblFilterSignature = filters => JSON.stringify([filters.year, filters.lectureId, filters.professor, filters.favoritesOnly, filters.wrongOnly, filters.statuses || []]);
+    // Accept old single-value filter states as well as the multi-select controls.
+    const jblFilterValues = value => [...new Set((Array.isArray(value) ? value : [value]).map(item => String(item ?? '').trim()).filter(Boolean))];
+    const jblFilterSignature = filters => JSON.stringify([jblFilterValues(filters.year).sort(), jblFilterValues(filters.lectureId).sort(), jblFilterValues(filters.professor).sort(), filters.favoritesOnly, filters.wrongOnly, filters.statuses || []]);
     const filteredJblQuestions = () => {
       const { filters } = standaloneState();
+      const years = new Set(jblFilterValues(filters.year));
+      const lectures = new Set(jblFilterValues(filters.lectureId).map(canonicalContentCourseId));
+      const professors = new Set(jblFilterValues(filters.professor));
       return jblQuestions.filter(question => {
-        if (filters.year && Number(question.year) !== Number(filters.year)) return false;
-        if (filters.lectureId && !questionBelongsToCourse(question, filters.lectureId)) return false;
-        if (filters.professor && questionExamProfessor(question) !== filters.professor) return false;
+        if (years.size && !years.has(String(question.year))) return false;
+        if (lectures.size && !questionLectureIds(question).some(id => lectures.has(id))) return false;
+        if (professors.size && !professors.has(questionExamProfessor(question))) return false;
         const statuses = filters.statuses || [];
         if (statuses.length || filters.favoritesOnly || filters.wrongOnly) {
           const matches = statuses.includes(questionStudyStatus(question.id))
@@ -3714,6 +3719,8 @@
       const clonedContextSplit = clone.querySelector('.context-link-split');
       const clonedContextShell = clonedContextSplit?.querySelector('.site-shell');
       if (clonedContextShell) clone.querySelector('body')?.prepend(clonedContextShell);
+      const clonedContextMain = clonedContextSplit?.querySelector('[data-context-link-source] > main');
+      if (clonedContextMain) clone.querySelector('.site-shell')?.append(clonedContextMain);
       clonedContextSplit?.remove();
       clone.querySelectorAll('.information-dialog').forEach(element => element.remove());
       clone.querySelectorAll('.view').forEach(view => { view.hidden = view.id !== 'catalog-view'; });
@@ -3782,7 +3789,7 @@
       const years = [...new Set(jblQuestions.map(question => Number(question.year)).filter(Boolean))].sort((a,b) => b-a);
       const lectureIds = [...new Set(jblQuestions.flatMap(questionLectureIds))].sort((a,b) => a-b);
       const professors = [...new Set(jblQuestions.map(questionExamProfessor).filter(Boolean))].sort((a,b) => a.localeCompare(b, 'ko'));
-      const filterPanel = state.panel === 'filter' ? `<section class="jbl-filter-panel" aria-label="문항 필터"><h2 class="jbl-filter-title">필터</h2><div class="jbl-filter-grid"><div class="jbl-filter-item"><label for="jbl-filter-year">연도</label><select id="jbl-filter-year" class="jbl-select" data-jbl-filter-year><option value="">전체 연도</option>${years.map(year => `<option value="${year}" ${String(state.filters.year) === String(year) ? 'selected' : ''}>${year}</option>`).join('')}</select></div><div class="jbl-filter-item"><label for="jbl-filter-lecture">강의명</label><select id="jbl-filter-lecture" class="jbl-select" data-jbl-filter-lecture><option value="">전체 강의</option>${lectureIds.map(id => `<option value="${id}" ${String(state.filters.lectureId) === String(id) ? 'selected' : ''}>${escapeHtml(questionLectureLabel(id))}</option>`).join('')}</select></div><div class="jbl-filter-item"><label for="jbl-filter-professor">출제교수</label><select id="jbl-filter-professor" class="jbl-select" data-jbl-filter-professor><option value="">전체 교수</option>${professors.map(professor => `<option value="${escapeHtml(professor)}" ${state.filters.professor === professor ? 'selected' : ''}>${escapeHtml(professor)} 교수</option>`).join('')}</select></div><div class="jbl-filter-item"><label>즐겨찾기</label><label class="jbl-favorite-filter"><input type="checkbox" data-jbl-filter-favorites ${state.filters.favoritesOnly ? 'checked' : ''} /> 즐겨찾기한 문제만 보기</label><label class="jbl-favorite-filter"><input type="checkbox" data-jbl-filter-wrong ${state.filters.wrongOnly ? 'checked' : ''} /> 틀린 문항만 보기</label></div></div><p class="jbl-filter-summary">전체 ${jblQuestions.length}문항 중 ${questions.length}문항 표시${state.randomOrder.length ? ' · 랜덤 순서' : ''}</p>${state.filters.wrongOnly ? '<div class="jbl-wrong-session"><span>다시 맞힌 문항은 다음 복습부터 제외됩니다.</span><button type="button" data-wrong-restart>남은 오답으로 다시 시작</button></div>' : ''}</section>` : '';
+      const filterPanel = state.panel === 'filter' ? `<section class="jbl-filter-panel" aria-label="문항 필터"><h2 class="jbl-filter-title">필터</h2><div class="jbl-filter-grid"><div class="jbl-filter-item"><label for="jbl-filter-year">연도</label><select id="jbl-filter-year" class="jbl-select" data-jbl-filter-year multiple size="4" aria-label="연도 복수 선택">${years.map(year => `<option value="${year}" ${jblFilterValues(state.filters.year).includes(String(year)) ? 'selected' : ''}>${year}</option>`).join('')}</select></div><div class="jbl-filter-item"><label for="jbl-filter-lecture">강의명</label><select id="jbl-filter-lecture" class="jbl-select" data-jbl-filter-lecture multiple size="4" aria-label="강의 복수 선택">${lectureIds.map(id => `<option value="${id}" ${jblFilterValues(state.filters.lectureId).includes(String(id)) ? 'selected' : ''}>${escapeHtml(questionLectureLabel(id))}</option>`).join('')}</select></div><div class="jbl-filter-item"><label for="jbl-filter-professor">출제교수</label><select id="jbl-filter-professor" class="jbl-select" data-jbl-filter-professor multiple size="4" aria-label="출제교수 복수 선택">${professors.map(professor => `<option value="${escapeHtml(professor)}" ${jblFilterValues(state.filters.professor).includes(professor) ? 'selected' : ''}>${escapeHtml(professor)} 교수</option>`).join('')}</select></div><div class="jbl-filter-item"><label>즐겨찾기</label><label class="jbl-favorite-filter"><input type="checkbox" data-jbl-filter-favorites ${state.filters.favoritesOnly ? 'checked' : ''} /> 즐겨찾기한 문제만 보기</label><label class="jbl-favorite-filter"><input type="checkbox" data-jbl-filter-wrong ${state.filters.wrongOnly ? 'checked' : ''} /> 틀린 문항만 보기</label></div></div><p class="jbl-filter-summary">전체 ${jblQuestions.length}문항 중 ${questions.length}문항 표시${state.randomOrder.length ? ' · 랜덤 순서' : ''}</p>${state.filters.wrongOnly ? '<div class="jbl-wrong-session"><span>다시 맞힌 문항은 다음 복습부터 제외됩니다.</span><button type="button" data-wrong-restart>남은 오답으로 다시 시작</button></div>' : ''}</section>` : '';
       const settingsPanel = state.panel === 'settings' ? `<section class="jbl-filter-panel" aria-label="JBL 설정"><h2 class="jbl-filter-title">설정</h2><div class="jbl-settings-actions"><button class="jbl-btn jbl-btn-sub" type="button" data-jbl-random>문항 랜덤 표시</button><button class="jbl-btn jbl-btn-sub" type="button" data-jbl-reset>초기화</button><button class="jbl-btn jbl-btn-sub" type="button" data-jbl-exit>강의 화면</button><button class="jbl-btn jbl-save-btn" type="button" data-jbl-save-files>현재 파일 저장</button></div></section>` : '';
       target.innerHTML = `<div class="jbl-wrap"><section class="jbl-panel jbl-topbar"><div class="jbl-top-actions">${linkedMode ? `<button class="jbl-btn jbl-btn-sub" type="button" data-jbl-linked-back>← 돌아가기</button>` : `<button class="jbl-btn jbl-btn-sub jbl-toolbar-btn ${state.panel === 'filter' ? 'active' : ''}" type="button" data-jbl-panel="filter" aria-expanded="${state.panel === 'filter'}">필터</button><button class="jbl-btn jbl-btn-sub jbl-toolbar-btn ${state.panel === 'settings' ? 'active' : ''}" type="button" data-jbl-panel="settings" aria-expanded="${state.panel === 'settings'}">설정</button>`}<button class="jbl-btn jbl-btn-primary" type="button" data-jbl-home>홈으로</button></div><div class="jbl-jump-box"><label for="jbl-jump" style="font-size:14px;font-weight:800;color:#475569">문제 번호 이동</label><input id="jbl-jump" type="text" inputmode="numeric" placeholder="예: 472" /><button class="jbl-btn jbl-btn-primary" type="button" data-jbl-jump>이동</button></div></section>${linkedMode ? '' : filterPanel}${linkedMode ? '' : settingsPanel}<div data-jbl-root></div></div><div class="jbl-bottom-nav"><div class="jbl-bottom-inner">${navMarkup(state, questions)}</div></div>`;
       const themeButton = document.createElement('button');
@@ -3810,9 +3817,9 @@
         clearJblRandomOrder(state);
         renderJblStandalone();
       };
-      target.querySelector('[data-jbl-filter-year]')?.addEventListener('change', event => updateFilter('year', event.target.value));
-      target.querySelector('[data-jbl-filter-lecture]')?.addEventListener('change', event => updateFilter('lectureId', event.target.value));
-      target.querySelector('[data-jbl-filter-professor]')?.addEventListener('change', event => updateFilter('professor', event.target.value));
+      target.querySelector('[data-jbl-filter-year]')?.addEventListener('change', event => updateFilter('year', Array.from(event.target.selectedOptions, option => option.value)));
+      target.querySelector('[data-jbl-filter-lecture]')?.addEventListener('change', event => updateFilter('lectureId', Array.from(event.target.selectedOptions, option => option.value)));
+      target.querySelector('[data-jbl-filter-professor]')?.addEventListener('change', event => updateFilter('professor', Array.from(event.target.selectedOptions, option => option.value)));
       target.querySelector('[data-jbl-filter-favorites]')?.addEventListener('change', event => updateFilter('favoritesOnly', event.target.checked));
       target.querySelector('[data-jbl-filter-wrong]')?.addEventListener('change', event => updateFilter('wrongOnly', event.target.checked));
       target.querySelector('[data-wrong-restart]')?.addEventListener('click', () => updateFilter('wrongOnly', true));
@@ -4774,7 +4781,7 @@
     const contextLinkState = {
       active:false, expanded:false, split:null, source:null, target:null, body:null, title:null, back:null, nav:null, expand:null,
       shell:null, originalParent:null, originalNextSibling:null, sourceScroll:0, opener:null,
-      stack:[], renderToken:0, sourcePaneScroll:0
+      stack:[], renderToken:0, sourcePaneScroll:0, returnPosition:null, positionRevision:0
     };
 
     function validContextQuestionNumbers(numbers) {
@@ -4893,6 +4900,26 @@
       return contextLinkState.source?.querySelector('#jbl-standalone .jbl-wrap') || contextLinkState.source;
     }
 
+    function captureContextWikiPosition(shell, opener) {
+      if (!opener?.closest('.wiki-note') || !shell.contains(opener)) return null;
+      // Splitting changes both the document width and the scroll containers.
+      // Keep the original reading position, not the split pane's clamped offset.
+      const elements = new Set();
+      for (let element = opener.parentElement; element && shell.contains(element); element = element.parentElement) elements.add(element);
+      shell.querySelectorAll('*').forEach(element => {
+        if (element.scrollTop || element.scrollLeft) elements.add(element);
+      });
+      return { top:window.scrollY, left:window.scrollX || 0, hash:location.hash,
+        elements:[...elements].map(element => ({element, top:element.scrollTop || 0, left:element.scrollLeft || 0})) };
+    }
+
+    function restoreContextWikiPosition(position) {
+      position.elements.forEach(({element, top, left}) => {
+        if (element.isConnected) { element.scrollTop = top; element.scrollLeft = left; }
+      });
+      window.scrollTo({ top:position.top, left:position.left, behavior:'instant' });
+    }
+
     function namespaceContextPreviewIds(container, token) {
       const map = new Map();
       container.querySelectorAll('[id]').forEach(element => {
@@ -5005,8 +5032,12 @@
         showContextLinkTarget(target, true);
         return;
       }
-      const shell = document.querySelector('.site-shell');
+      // The study split starts below the shared masthead. Move only the page
+      // content; moving the whole shell would put a second header in the left pane.
+      const shell = document.querySelector(document.body.classList.contains('study-ui') ? '.site-shell > main' : '.site-shell');
       if (!shell) return;
+      ++contextLinkState.positionRevision;
+      const returnPosition = captureContextWikiPosition(shell, opener);
       const split = document.createElement('div');
       split.className = 'context-link-split';
       split.setAttribute('role', 'group');
@@ -5026,11 +5057,13 @@
       contextLinkState.originalParent = shell.parentNode;
       contextLinkState.originalNextSibling = shell.nextSibling;
       contextLinkState.sourceScroll = window.scrollY;
+      contextLinkState.returnPosition = returnPosition;
       contextLinkState.opener = opener;
       contextLinkState.stack = [];
+      document.body.classList.add('context-link-open');
+      document.dispatchEvent(new CustomEvent('context-link-visibility', { detail:{active:true} }));
       document.body.append(split);
       source.append(shell);
-      document.body.classList.add('context-link-open');
       contextLinkState.back.addEventListener('click', () => {
         if (contextLinkState.stack.length < 2) return;
         contextLinkState.stack.pop();
@@ -5043,11 +5076,16 @@
         event.preventDefault();
         toggleContextLinkExpanded();
       });
-      requestAnimationFrame(() => { contextSourceScrollElement().scrollTop = contextLinkState.sourceScroll; window.PATHOLOGY_MAP?.refreshLayout?.(); });
+      requestAnimationFrame(() => {
+        if (contextLinkState.split !== split || !contextLinkState.active) return;
+        contextSourceScrollElement().scrollTop = contextLinkState.sourceScroll;
+        window.PATHOLOGY_MAP?.refreshLayout?.();
+      });
       showContextLinkTarget(target, true);
     }
 
     function closeContextLinkSplit(restorePosition = true) {
+      const positionRevision = ++contextLinkState.positionRevision;
       closeQuestionExplanationSplit(false);
       if (!contextLinkState.active) return;
       hideWikiFootnotePreview();
@@ -5056,17 +5094,28 @@
       const parent = contextLinkState.originalParent;
       const next = contextLinkState.originalNextSibling;
       const opener = contextLinkState.opener;
+      const returnPosition = contextLinkState.returnPosition;
       if (shell && parent) {
         if (next && next.parentNode === parent) parent.insertBefore(shell, next);
         else parent.append(shell);
       }
       contextLinkState.split?.remove();
       document.body.classList.remove('context-link-open');
-      Object.assign(contextLinkState, { active:false, expanded:false, split:null, source:null, target:null, body:null, title:null, back:null, nav:null, expand:null, shell:null, originalParent:null, originalNextSibling:null, sourceScroll:0, sourcePaneScroll:0, opener:null, stack:[] });
-      if (restorePosition) requestAnimationFrame(() => {
-        window.scrollTo({ top:scroll, behavior:'auto' });
-        if (opener?.isConnected) opener.focus({ preventScroll:true });
-      });
+      Object.assign(contextLinkState, { active:false, expanded:false, split:null, source:null, target:null, body:null, title:null, back:null, nav:null, expand:null, shell:null, originalParent:null, originalNextSibling:null, sourceScroll:0, sourcePaneScroll:0, opener:null, stack:[], returnPosition:null });
+      document.dispatchEvent(new CustomEvent('context-link-visibility', { detail:{active:false} }));
+      if (restorePosition) {
+        const restore = () => {
+          // An old close callback must never scroll a newly opened view or split.
+          if (positionRevision !== contextLinkState.positionRevision || contextLinkState.active || !shell?.isConnected || shell.parentNode !== parent) return;
+          if (returnPosition && location.hash !== returnPosition.hash) return;
+          if (returnPosition) restoreContextWikiPosition(returnPosition);
+          else window.scrollTo({ top:scroll, behavior:'auto' });
+          if (opener?.isConnected) opener.focus({ preventScroll:true });
+        };
+        restore();
+        // Reapply after the full-width layout/scroll lock has settled on mobile.
+        requestAnimationFrame(restore);
+      }
     }
 
     function handleContextLinkClick(event) {
@@ -5634,6 +5683,7 @@
     if (!wrongAnswers || typeof wrongAnswers !== 'object' || Array.isArray(wrongAnswers)) wrongAnswers = {};
     window.RespiratoryStudy = {
       navigate:quickNavigate,
+      filterValues:jblFilterValues,
       wikiTools:studyWikiTools,
       toggleWiki:toggleStudyWiki,
       editWiki:editStudyWiki,
