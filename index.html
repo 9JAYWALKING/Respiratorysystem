@@ -4910,7 +4910,48 @@
         if (element.scrollTop || element.scrollLeft) elements.add(element);
       });
       return { top:window.scrollY, left:window.scrollX || 0, hash:location.hash,
+        anchor:captureContextWikiAnchor(opener.closest('.wiki-note'), shell),
         elements:[...elements].map(element => ({element, top:element.scrollTop || 0, left:element.scrollLeft || 0})) };
+    }
+
+    function captureContextWikiAnchor(note, shell) {
+      let top = Math.max(0, document.querySelector('.masthead')?.getBoundingClientRect().bottom || 0);
+      let bottom = window.innerHeight;
+      for (let element = note.parentElement; element && shell.contains(element); element = element.parentElement) {
+        const style = getComputedStyle(element);
+        if (!/(auto|scroll|hidden|clip)/.test(style.overflowY || style.overflow)) continue;
+        const rect = element.getBoundingClientRect();
+        if (rect.height > 0) { top = Math.max(top, rect.top); bottom = Math.min(bottom, rect.bottom); }
+      }
+      if (bottom <= top) return null;
+      let anchor = null;
+      // Track the visible paragraph, not a page offset: text reflows in the narrower pane.
+      for (const element of note.querySelectorAll('h3,h4,h5,h6,p,li,blockquote,figure,tr')) {
+        if (!element.getClientRects?.().length) continue;
+        const rect = element.getBoundingClientRect();
+        if (rect.height <= 0 || rect.bottom <= top || rect.top >= bottom) continue;
+        const coversTop = rect.top <= top;
+        if (!anchor || (coversTop && !anchor.coversTop) ||
+            (coversTop === anchor.coversTop && (coversTop ? rect.top > anchor.top : rect.top < anchor.top))) {
+          anchor = {element, top:rect.top, offset:rect.top - top, coversTop};
+        }
+      }
+      return anchor;
+    }
+
+    function alignContextWikiSource(position, source) {
+      position.elements.forEach(({element, top, left}) => {
+        if (!source.contains(element)) return;
+        // Lecture Wiki uses only the outer source scroller while the split is open.
+        element.scrollTop = element.matches('.lecture-pane-body') ? 0 : top;
+        element.scrollLeft = left;
+      });
+      source.scrollTop = position.top;
+      const anchor = position.anchor;
+      if (anchor?.element.isConnected && source.contains(anchor.element)) {
+        const top = source.getBoundingClientRect().top + (source.clientTop || 0);
+        source.scrollTop += anchor.element.getBoundingClientRect().top - top - anchor.offset;
+      }
     }
 
     function restoreContextWikiPosition(position) {
@@ -5044,6 +5085,7 @@
       split.setAttribute('aria-label', '현재 화면과 연결된 내용을 함께 보기');
       split.innerHTML = `<section class="context-link-source" data-context-link-source aria-label="현재 화면"></section><aside class="context-link-target" data-context-link-target aria-label="연결된 내용"><header class="context-link-head" title="더블클릭으로 전체화면 전환"><div class="context-link-heading"><span class="context-link-eyebrow">연결된 내용</span><strong class="context-link-title" data-context-link-title></strong></div><div class="context-link-controls"><button class="context-link-control" type="button" data-context-link-back aria-label="이전 연결 내용으로 돌아가기">←</button><button class="context-link-control context-link-expand" type="button" data-context-link-expand aria-label="연결된 내용 전체화면으로 확대" aria-pressed="false" title="연결된 내용 전체화면으로 확대">−</button><button class="context-link-control context-link-close" type="button" data-context-link-close aria-label="분할 화면 닫기">×</button></div></header><div class="context-link-body" data-context-link-body aria-live="polite"></div><nav class="context-question-nav" data-context-link-nav aria-label="이 Wiki의 연결 문항 탐색" hidden></nav></aside>`;
       const source = split.querySelector('[data-context-link-source]');
+      source.classList.toggle('context-wiki-source', !!returnPosition);
       contextLinkState.active = true;
       contextLinkState.split = split;
       contextLinkState.source = source;
@@ -5076,12 +5118,19 @@
         event.preventDefault();
         toggleContextLinkExpanded();
       });
-      requestAnimationFrame(() => {
-        if (contextLinkState.split !== split || !contextLinkState.active) return;
-        contextSourceScrollElement().scrollTop = contextLinkState.sourceScroll;
-        window.PATHOLOGY_MAP?.refreshLayout?.();
-      });
       showContextLinkTarget(target, true);
+      const alignSource = () => {
+        if (contextLinkState.split !== split || !contextLinkState.active || contextLinkState.expanded) return;
+        if (returnPosition) alignContextWikiSource(returnPosition, source);
+        else contextSourceScrollElement().scrollTop = contextLinkState.sourceScroll;
+        window.PATHOLOGY_MAP?.refreshLayout?.();
+      };
+      alignSource();
+      const initialScroll = contextSourceScrollElement().scrollTop;
+      requestAnimationFrame(() => {
+        if (contextLinkState.split !== split || contextSourceScrollElement()?.scrollTop !== initialScroll) return;
+        alignSource();
+      });
     }
 
     function closeContextLinkSplit(restorePosition = true) {
