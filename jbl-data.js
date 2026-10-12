@@ -2046,10 +2046,12 @@ window.JBL_DATA = {
         "동공 확대, 변비, 구강 건조",
         "축동, 빈맥, 기관지 수축"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 축동, 서맥, 기관지 분비물 증가",
+      "explanation": "'''강의 기준의 답: 3번, 축동, 서맥, 기관지 분비물 증가.'''\n\n=== ACh가 많아지면 여러 기관이 함께 반응한다 ===\n유기인제는 '''AChE의 esteratic site를 인산화하여 효소를 억제'''한다. ACh가 분해되지 않고 축적되므로 muscarinic·nicotinic 수용체와 중추신경계가 과도하게 자극된다. 전형적인 muscarinic 소견부터 잡고, 신경근·중추 증상을 덧붙이면 된다.\n\n||= 부위 ||= 전형적인 반응 ||= 이유 ||\n|| 눈 || 축동 || 동공괄약근 수축 ||\n|| 심장 || 서맥·전도 감소 || Muscarinic 자극 ||\n|| 기관지 || 수축 + 분비물 증가 || 평활근과 분비샘이 함께 자극됨 ||\n|| 장·방광 || 설사·배뇨 증가 || 운동·분비 증가, 배출구 이완 ||\n|| 침·눈물·땀 || 분비 증가 || 땀샘도 말단 ACh–muscarinic 전달 사용 ||\n|| 신경근접합부 || 떨림 → 근력 저하·마비 가능 || Nicotinic 과자극 ||\n|| 중추신경계 || 흥분·경련·혼수 가능 || 중추 콜린성 이상 ||\n\n'''DUMBELS'''는 diarrhea, urination, miosis, bronchospasm, excitation, lacrimation, seizure/sweating/salivation이다. 실제 환자는 nicotinic ganglion 자극이나 저산소증 때문에 빈맥·고혈압도 보일 수 있다. 따라서 이 문제의 '''전형적인 muscarinic 소견'''을 고르는 것과 ‘그 외 소견은 절대 생기지 않는다’고 말하는 것은 구분해야 한다.\n\n=== 선지별로 보면 ===\n* ① 축동과 기관지 분비 증가는 맞지만, 빈맥은 강의가 묻는 전형적인 muscarinic 조합의 서맥과 다르다. 실제 빈맥 가능성까지 부정하는 것은 아니다.\n* ② 서맥은 맞지만 동공 확대와 기관지 확장은 반대다. 기본 양상은 축동과 기관지 수축이다.\n* ③ 축동·서맥·기관지 분비물 증가는 세 항목 모두 전형적인 콜린성 과자극과 일치한다.\n* ④ 동공 확대·변비·구강 건조는 오히려 muscarinic 차단의 방향이다.\n* ⑤ 축동과 기관지 수축은 맞지만 빈맥이 들어 있어 3번보다 전형적인 조합으로 적절하지 않다.\n\n[[9강#축동·분비 증가·기관지 수축을 한 묶음으로 읽는다|Wiki · 축동·분비 증가·기관지 수축을 한 묶음으로 읽는다]]\n~~근거: 39기 「OP and PQ 2026」 11·12·13·14쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2072,7 +2074,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "chapter": "축동·분비 증가·기관지 수축을 한 묶음으로 읽는다",
+        "answerStatus": "qualified_interpretation",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-033",
@@ -2094,10 +2111,12 @@ window.JBL_DATA = {
         "Cytochrome P450의 억제로 인해 대사장애가 일어나므로 효소 유도제를 투여해야 한다.",
         "[선지 미복원]"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "조건부 답: 3번 — 5번 선지 미복원",
+      "explanation": "'''강의 기준의 답: 3번, Superoxide radical의 생성으로 폐 손상 및 섬유화가 일어나므로, 흡수되기 전에 활성탄을 투여하여 흡수를 억제해야 한다..'''\n\n=== 폐 섬유화를 만드는 산화·환원 고리 ===\nParaquat는 비선택적 bipyridyl 제초제다. '''PQ²⁺ → PQ•⁺ → PQ²⁺'''로 돌아오는 redox cycling 과정에서 산소에 전자를 전달하여 '''superoxide(O₂•⁻)'''를 만든다. 이어 철이 관여하는 '''Fenton reaction: Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH''' 등이 산화 손상을 증폭한다. 핵심 작용기전은 '''free radical formation'''이지 AChE 억제가 아니다.\n\n||= 시간·기관 ||= 주요 변화 ||\n|| 섭취 초기의 구강·위장관 || 직접 자극·궤양, 토혈·혈변 가능 ||\n|| 폐 || 폐포 상피 손상·폐부종 → 섬유화·가스교환 저하 ||\n|| 신장·간 || 혈뇨, BUN/Cr 및 AST/ALT 상승 등 ||\n|| 중증 전신 손상 || 심근 기능 장애·다장기부전 ||\n\n효과가 확립된 특이 해독제는 없다. '''경구 섭취 후 아직 장내에 남아 있는 물질'''은 활성탄 등으로 흡착하여 추가 흡수를 줄이고, 이후에는 장기 기능을 지지한다. 이미 흡수된 물질을 활성탄이 혈액에서 없애 주는 것은 아니다.\n\n=== 이 증례에서 가장 중요한 연결 ===\n호흡곤란·청색증은 폐 손상, AST/ALT와 BUN/Cr 상승은 간·신장 손상을 가리킨다. 서로 무관한 질환이 아니라 paraquat의 다장기 산화 손상으로 묶인다. 3번의 활성탄은 '''흡수 전'''이라는 조건에서 타당하다. 이미 다장기 손상이 있다는 사실만으로 활성탄의 적응증이나 효과가 자동 확정되는 것은 아니다.\n\n'''복원 한계:''' 5번 선지가 원복원본에도 빠져 있다. 남아 있는 선지 중 3번이 강의와 일치하므로 조건부 답으로 등록하지만, 누락된 5번까지 배제하여 단일 정답을 완전히 검증한 것은 아니다.\n\n=== 선지별로 보면 ===\n* ① 간 손상이 있다는 이유만으로 acetaminophen 해독제 NAC를 반드시 투여해야 한다고 결론 낼 수 없다. Paraquat에는 확립된 특이 해독제가 없다.\n* ② Paraquat를 콜린성 과자극으로 설명한 기전부터 다르다. 유기인제의 atropine 치료와 혼동했다.\n* ③ 활성산소에 의한 폐 손상과 흡수 전 활성탄에 의한 장내 흡수 억제를 연결한 설명으로 타당하다.\n* ④ Paraquat의 핵심은 CYP450 억제로 인한 대사 장애가 아니다. 효소 유도제를 쓰자는 결론도 근거가 없다.\n* ⑤ 미복원 상태라 내용과 정오를 판단할 수 없다. 임의로 선지를 채우지 않았다.\n\n[[9강#초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다|Wiki · 초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다]]\n~~근거: 39기 「OP and PQ 2026」 19·20·21·22·23쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2120,7 +2139,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "chapter": "초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다",
+        "answerStatus": "incomplete_options",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-034",
@@ -2192,8 +2227,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 불가 — 약명 불완전·수용체 구분 불성립",
+      "explanation": "'''정답 확정 불가 — 약명 불완전·수용체 구분 불성립.'''\n\n=== ‘어느 수용체인가’와 ‘몇 세대인가’를 따로 묻는다 ===\n'''H₁'''은 Gq–PLC–IP₃/DAG–Ca²⁺ 경로를 통해 가려움·혈관 투과성·평활근 반응 등을 만들고, '''H₂'''는 Gs–cAMP 경로를 통해 위산 분비 등을 자극한다. H₁ 항히스타민제의 1세대·2세대 구분은 이 수용체 종류를 바꾸는 것이 아니라 주로 중추 침투와 진정·항콜린 작용의 차이를 나눈 것이다.\n\n||= 범주 ||= 대표 약물 ||= 구분할 특징 ||\n|| 1세대 H₁ || diphenhydramine, chlorpheniramine, hydroxyzine, meclizine, promethazine || 대체로 BBB 통과·진정이 더 크며 약마다 항콜린·항구토 작용 ||\n|| 2세대 H₁ || loratadine, desloratadine, fexofenadine, cetirizine || 대체로 진정·항콜린 작용이 적음 ||\n|| H₂ || famotidine, cimetidine; ranitidine은 역사적 예 || 위 벽세포의 산 분비 억제 ||\n\nPiperidine·piperazine·ethanolamine은 화학구조의 이름이다. 구조 계열과 수용체 종류, 세대 분류를 하나로 섞지 않아야 한다. Cetirizine과 meclizine은 세대가 다르지만 '''둘 다 H₁ 약물'''이다.\n\n=== 복원된 선지로는 다른 수용체를 고를 수 없다 ===\n현재 원복원본의 1번은 약명 대신 '''piperidine'''이고, 5번은 '''ce-'''로 끝난다. 2025 풀이 파일에는 5번 옆에 cetirizine이라는 보충과 4번 정답 표시가 보이지만, 이를 공식 원문이나 정답 근거로 채택하지 않았다. Cetirizine이라고 보충해도 3번과 중복되고, meclizine 역시 H₁이므로 문제를 해결하지 못한다.\n\n'''‘ce-’를 cimetidine으로 임의 복원하거나, 4번을 H₂ 약물로 설명하지 않는다.''' 현 상태에서는 정답 확정이 불가능하다. 만약 다른 수용체를 묻고 싶었다면 H₂ 약물 같은 명확한 비교 대상이 필요하지만, 그것이 원래 5번이었다는 증거는 없다.\n\n=== 선지별로 보면 ===\n* ① Piperidine은 화학구조 계열명이다. Fexofenadine·loratadine 같은 H₁ 약물과 연결할 수 있으나, 이 단어만으로 단일 약물의 표적을 정할 수 없다.\n* ② Loratadine은 2세대 H₁ 약물이다.\n* ③ Cetirizine도 2세대 H₁ 약물이다.\n* ④ Meclizine은 멀미에도 사용하는 1세대 H₁ 약물이다. 세대가 다르다는 이유로 수용체가 다르다고 할 수 없다.\n* ⑤ ce-만으로 약물을 식별할 수 없다. 풀이 파일의 cetirizine 보충은 비공식이고, 그대로 받아들여도 3번과 중복된다.\n\n[[10강#세대 분류와 화학구조 분류는 다른 기준이다|Wiki · 세대 분류와 화학구조 분류는 다른 기준이다]]\n~~근거: 39기 「Anti-histamine2026」 13·21·22·23·24·25·26·35쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2216,7 +2251,26 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          13,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          35
+        ],
+        "chapter": "세대 분류와 화학구조 분류는 다른 기준이다",
+        "answerStatus": "incomplete_options",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2025-036",
@@ -4154,9 +4208,12 @@ window.JBL_DATA = {
         "paranasal sinus가 pcce로 lining됨."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "단일 정답 확정 불가 — 4·5번이 모두 성립 가능",
-      "explanation": "> 단일 정답 확정 불가 — 4·5번이 모두 성립 가능\n\n5번의 '''부비동은 PCCE로 덮인다'''는 설명은 옳다. 그러나 현재 4번의 ‘코 앞쪽을 유리연골이 지지한다’도 잘못된 설명으로 배제할 수 없다. 비슷한 267번의 4번은 '''elastic cartilage'''여서 오답이지만, 이 문항은 '''hyaline cartilage'''로 복원되어 있다. 두 문제를 같다고 보고 4번을 틀렸다고 처리하면 안 된다.\n\n=== 이 문제를 풀기 위한 개념 ===\n올해 강의록이 직접 설명하는 축은 비강의 구역과 상피다. 전정에서 안쪽으로 들어가며 각질중층편평상피 → 비각질중층편평상피 → PCCE로 바뀌고, 중간·아래코선반은 호흡영역, 위코선반·코안천정은 후각영역이다. 후각상피 아래 고유판에는 장액성 Bowman샘이 있다.\n\n||= 구역 ||= 상피·분비 ||\n|| 전정 || 바깥쪽 피부형 상피에서 안쪽 PCCE로 이행, 코털 ||\n|| 중간·아래코선반 || 호흡상피 ||\n|| 위코선반·코안천정 || 후각상피, 아래 고유판의 Bowman샘 ||\n|| 부비동 || PCCE. 기존 J에 필요한 보충 범위 ||\n\n=== 선지별 판단 ===\n* ① 판정에 주의한다. 비강의 고유판과 점막밑조직의 경계를 기술하는 방식이 다르며, 올해 7–9쪽은 이 문장의 정오를 직접 규정하지 않는다. 큰 기도의 일반적인 층 설명만으로 비강에 그대로 적용하지 않는다.\n* ② 틀리다. 술잔세포의 존재가 샘의 부재를 뜻하지 않는다. 올해 강의록에도 후각점막 고유판의 Bowman샘이 나온다.\n* ③ 틀리다. 후각상피는 middle concha가 아니라 superior concha와 코안천정에 있다.\n* ④ 옳은 설명으로 성립할 수 있다. 코 앞쪽 지지연골은 유리연골이다. 267번의 elastic cartilage와 실제 문구가 다르다.\n* ⑤ 옳다. 부비동은 PCCE로 덮인다.\n\n=== 표현과 복원에 관하여 ===\n2025 문제복원 PDF 23쪽에도 4번이 hyaline cartilage로 적혀 있다. 과거 유사 문항을 근거로 elastic으로 바꾸지 않았다. 원시험 선지나 공식 정답을 확인하기 전까지 단일 정답은 보류한다.\n\n> 후각상피의 위치를 먼저 확정하고, 호흡상피와 후각상피의 세포·샘을 구별한다. 비슷한 문제라도 hyaline과 elastic 한 단어의 차이가 정오를 바꾼다.\n\n[[1강#비강은 전정·호흡영역·후각영역으로 나뉜다|Wiki · 비강은 전정·호흡영역·후각영역으로 나뉜다]]\n~~근거: 39기 「호흡기계의 조직학」 7·8·9쪽.~~~",
+      "answerIndices": [
+        4,
+        5
+      ],
+      "answerLabel": "4·5번 (복수정답)",
+      "explanation": "정답: 4·5번 (복수정답)\n\n5번의 '''부비동은 PCCE로 덮인다'''는 설명은 옳다. 그러나 현재 4번의 ‘코 앞쪽을 유리연골이 지지한다’도 잘못된 설명으로 배제할 수 없다. 비슷한 267번의 4번은 '''elastic cartilage'''여서 오답이지만, 이 문항은 '''hyaline cartilage'''로 복원되어 있다. 두 문제를 같다고 보고 4번을 틀렸다고 처리하면 안 된다.\n\n=== 이 문제를 풀기 위한 개념 ===\n올해 강의록이 직접 설명하는 축은 비강의 구역과 상피다. 전정에서 안쪽으로 들어가며 각질중층편평상피 → 비각질중층편평상피 → PCCE로 바뀌고, 중간·아래코선반은 호흡영역, 위코선반·코안천정은 후각영역이다. 후각상피 아래 고유판에는 장액성 Bowman샘이 있다.\n\n||= 구역 ||= 상피·분비 ||\n|| 전정 || 바깥쪽 피부형 상피에서 안쪽 PCCE로 이행, 코털 ||\n|| 중간·아래코선반 || 호흡상피 ||\n|| 위코선반·코안천정 || 후각상피, 아래 고유판의 Bowman샘 ||\n|| 부비동 || PCCE. 기존 J에 필요한 보충 범위 ||\n\n=== 선지별 판단 ===\n* ① 판정에 주의한다. 비강의 고유판과 점막밑조직의 경계를 기술하는 방식이 다르며, 올해 7–9쪽은 이 문장의 정오를 직접 규정하지 않는다. 큰 기도의 일반적인 층 설명만으로 비강에 그대로 적용하지 않는다.\n* ② 틀리다. 술잔세포의 존재가 샘의 부재를 뜻하지 않는다. 올해 강의록에도 후각점막 고유판의 Bowman샘이 나온다.\n* ③ 틀리다. 후각상피는 middle concha가 아니라 superior concha와 코안천정에 있다.\n* ④ 옳다. 코 앞쪽 지지연골은 유리연골이다. 267번의 elastic cartilage와 실제 문구가 다르다.\n* ⑤ 옳다. 부비동은 PCCE로 덮인다.\n\n=== 표현과 복원에 관하여 ===\n2025 문제복원 PDF 23쪽에도 4번이 hyaline cartilage로 적혀 있다. 과거 유사 문항을 근거로 elastic으로 바꾸지 않았다. 현재 복원된 선지를 기준으로 사용자 확인에 따라 4·5번을 복수정답으로 처리한다. 원시험의 공식 정답이 확인되었다는 뜻은 아니다.\n\n> 후각상피의 위치를 먼저 확정하고, 호흡상피와 후각상피의 세포·샘을 구별한다. 비슷한 문제라도 hyaline과 elastic 한 단어의 차이가 정오를 바꾼다.\n\n[[1강#비강은 전정·호흡영역·후각영역으로 나뉜다|Wiki · 비강은 전정·호흡영역·후각영역으로 나뉜다]]\n~~근거: 39기 「호흡기계의 조직학」 7·8·9쪽.~~~",
       "images": [],
       "legacyProfessor": "이자경",
       "professor": "이은주",
@@ -4191,9 +4248,10 @@ window.JBL_DATA = {
           9
         ],
         "chapter": "비강은 전정·호흡영역·후각영역으로 나뉜다",
-        "answerStatus": "restoration_ambiguous",
+        "answerStatus": "user_confirmed_multiple",
         "officialAnswerVerified": false,
-        "peerExplanationUsed": false
+        "peerExplanationUsed": false,
+        "answerDecision": "사용자 요청에 따라 4·5번 복수정답으로 확정"
       }
     },
     {
@@ -9298,10 +9356,12 @@ window.JBL_DATA = {
         "Lysine",
         "Histidine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Histidine",
+      "explanation": "'''정답: 5번, Histidine.'''\n\n=== 히스타민은 histidine의 탈탄산화로 만들어진다 ===\n\"\"L-histidine → histidine decarboxylase → histamine + CO₂\"\"가 핵심이다. Histidine에서 carboxyl group이 떨어져 나가므로 반응 이름은 '''decarboxylation(탈탄산화)'''이다. Histamine은 피부·폐·위장관 등 외부와 접하는 조직에 많고, mast cell과 basophil의 과립에 저장되었다가 자극에 의해 풀려난다.\n\n||= 물질 ||= 연결할 역할 ||\n|| Histidine || Histamine의 아미노산 전구체 ||\n|| Heparin || 비만세포 과립에 함께 존재할 수 있으나 전구체 아미노산은 아님 ||\n|| Histamine || H₁에서 가려움·투과성·평활근 반응, H₂에서 위산 분비 등 ||\n|| Histamine 분해 || HNMT에 의한 methylation 또는 diamine oxidase에 의한 oxidative deamination ||\n\n항히스타민제를 복용했다는 증례는 histamine과 알레르기를 연결하는 배경이다. 일반적인 H₁ 약물이 histidine decarboxylase를 억제한다는 뜻은 아니며, '''합성의 기질'''과 '''약물이 차단하는 수용체'''를 구분해야 한다.\n\n=== 선지별로 보면 ===\n* ① L-arginine은 histamine 전구체가 아니다. 대표적으로 nitric oxide 생성과 연결되는 아미노산이다.\n* ② Heparin은 아미노산이 아니며, 과립에 histamine과 함께 있다는 사실과 histamine의 전구체라는 말은 다르다.\n* ③ Tyrosine은 catecholamine 등 다른 합성 경로와 연결한다. Histamine을 만드는 탈탄산화의 기질은 histidine이다.\n* ④ Lysine도 아미노산이지만 histamine의 전구체가 아니다.\n* ⑤ Histidine decarboxylase가 histidine에서 CO₂를 떼어 histamine을 만든다. 전구체와 반응 이름 모두 발문에 맞는다.\n\n[[10강#Histidine에서 만들어져 두 경로로 대사된다|Wiki · Histidine에서 만들어져 두 경로로 대사된다]]\n~~근거: 39기 「Anti-histamine2026」 3·4·5·6·8쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김채균",
@@ -9324,7 +9384,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "chapter": "Histidine에서 만들어져 두 경로로 대사된다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2024-041",
@@ -13710,8 +13786,8 @@ window.JBL_DATA = {
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "모범답안 — AChE 인산화·억제 → ACh 축적",
+      "explanation": "'''모범답안 — AChE 인산화·억제 → ACh 축적.'''\n\n=== 모범답안 ===\n유기인제는 acetylcholinesterase의 esteratic site를 인산화하여 효소를 억제한다. 이로 인해 acetylcholine의 분해가 감소하고 시냅스에 축적되어 muscarinic·nicotinic 수용체와 중추신경계의 과도한 콜린성 자극이 발생한다.\n\n=== ACh가 많아지면 여러 기관이 함께 반응한다 ===\n유기인제는 '''AChE의 esteratic site를 인산화하여 효소를 억제'''한다. ACh가 분해되지 않고 축적되므로 muscarinic·nicotinic 수용체와 중추신경계가 과도하게 자극된다. 전형적인 muscarinic 소견부터 잡고, 신경근·중추 증상을 덧붙이면 된다.\n\n||= 부위 ||= 전형적인 반응 ||= 이유 ||\n|| 눈 || 축동 || 동공괄약근 수축 ||\n|| 심장 || 서맥·전도 감소 || Muscarinic 자극 ||\n|| 기관지 || 수축 + 분비물 증가 || 평활근과 분비샘이 함께 자극됨 ||\n|| 장·방광 || 설사·배뇨 증가 || 운동·분비 증가, 배출구 이완 ||\n|| 침·눈물·땀 || 분비 증가 || 땀샘도 말단 ACh–muscarinic 전달 사용 ||\n|| 신경근접합부 || 떨림 → 근력 저하·마비 가능 || Nicotinic 과자극 ||\n|| 중추신경계 || 흥분·경련·혼수 가능 || 중추 콜린성 이상 ||\n\n'''DUMBELS'''는 diarrhea, urination, miosis, bronchospasm, excitation, lacrimation, seizure/sweating/salivation이다. 실제 환자는 nicotinic ganglion 자극이나 저산소증 때문에 빈맥·고혈압도 보일 수 있다. 따라서 이 문제의 '''전형적인 muscarinic 소견'''을 고르는 것과 ‘그 외 소견은 절대 생기지 않는다’고 말하는 것은 구분해야 한다.\n\n=== 수용체를 막는 치료와 효소를 회복시키는 치료 ===\n'''Atropine'''은 muscarinic receptor를 차단하여 분비·기관지 수축·서맥을 줄이고, '''pralidoxime(2-PAM)'''은 인산화된 AChE를 재활성화한다. Atropine만으로 nicotinic 신경근 마비를 직접 되돌리지는 못한다. 2-PAM은 BBB 통과가 제한적이므로 말초 효과가 중심이며, 기도와 환기 지지는 별도로 필요하다.\n\n||= 비교 ||= 유기인제 ||= Carbamate ||\n|| 효소 억제 || AChE 인산화 || AChE carbamylation, 대체로 가역적 ||\n|| 증상 || 콜린성 과자극 || 비슷한 콜린성 증상 가능 ||\n|| Atropine || Muscarinic 증상 완화 || Muscarinic 증상 완화 ||\n|| 2-PAM || Aging 전에 가능한 한 빨리 || 순수 carbamate 중독에 일률적으로 사용하지 않음 ||\n\n시간이 지나면 OP–AChE 결합이 탈알킬화되어 안정해지는 '''aging'''이 진행한다. 2-PAM의 표적은 '''non-aged complex'''이므로 가능한 한 일찍 투여해야 한다. 강의의 성인 투여 예는 1–2 g을 15–30분에 걸쳐 정맥주입하는 것이다. Carbamate, 특히 carbaryl에서는 pralidoxime이 독성을 높일 수 있어 같은 처치를 그대로 복사하면 안 된다.\n\n=== 답안을 확장할 때 ===\n발문이 ‘작용 원리’만 묻는다면 '''AChE 인산화·억제 → ACh 축적'''까지가 중심이다. 증상을 요구하면 축동·분비 증가·기관지 수축과 근육·중추 증상을, 치료까지 요구하면 atropine과 aging 전 2-PAM의 차이를 덧붙인다. NTE 억제에 따른 지연 다발신경병증은 급성 AChE 억제와 구분한다.\n\n~~원복원본은 발문만 남아 있어 실제 시험이 서술형이었는지, 객관식 선지가 누락되었는지까지 확정할 수 없다. 현재 자료에 맞춰 학습용 모범답안을 제공하며 선지는 만들지 않았다.~~~\n\n[[9강#AChE의 인산화가 콜린성 과자극을 만든다|Wiki · AChE의 인산화가 콜린성 과자극을 만든다]]\n~~근거: 39기 「OP and PQ 2026」 11·12·13·14·15·16쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -13734,7 +13810,24 @@ window.JBL_DATA = {
       "parseMethod": "unparsed_or_written",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "chapter": "AChE의 인산화가 콜린성 과자극을 만든다",
+        "answerStatus": "model_answer",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-057",
@@ -13747,7 +13840,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         57
       ],
-      "question": "파라쿼트 흡입에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
+      "question": "파라쿼트 섭취에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
       "passage": "",
       "choices": [
         "Pralidoxime을 주사한다.",
@@ -13756,10 +13849,12 @@ window.JBL_DATA = {
         "Deferoxamine을 투여한다.",
         "N-acetylcysteine을 경구 투여한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 활성탄을 투여하여 흡수를 막는다.",
+      "explanation": "'''정답: 3번, 활성탄을 투여하여 흡수를 막는다..'''\n\n=== 폐 섬유화를 만드는 산화·환원 고리 ===\nParaquat는 비선택적 bipyridyl 제초제다. '''PQ²⁺ → PQ•⁺ → PQ²⁺'''로 돌아오는 redox cycling 과정에서 산소에 전자를 전달하여 '''superoxide(O₂•⁻)'''를 만든다. 이어 철이 관여하는 '''Fenton reaction: Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH''' 등이 산화 손상을 증폭한다. 핵심 작용기전은 '''free radical formation'''이지 AChE 억제가 아니다.\n\n||= 시간·기관 ||= 주요 변화 ||\n|| 섭취 초기의 구강·위장관 || 직접 자극·궤양, 토혈·혈변 가능 ||\n|| 폐 || 폐포 상피 손상·폐부종 → 섬유화·가스교환 저하 ||\n|| 신장·간 || 혈뇨, BUN/Cr 및 AST/ALT 상승 등 ||\n|| 중증 전신 손상 || 심근 기능 장애·다장기부전 ||\n\n효과가 확립된 특이 해독제는 없다. '''경구 섭취 후 아직 장내에 남아 있는 물질'''은 활성탄 등으로 흡착하여 추가 흡수를 줄이고, 이후에는 장기 기능을 지지한다. 이미 흡수된 물질을 활성탄이 혈액에서 없애 주는 것은 아니다.\n\n=== ‘섭취 후 초기’라는 조건이 치료를 결정한다 ===\n장내에 남은 paraquat를 활성탄으로 흡착하면 추가 흡수를 줄일 수 있다. 그래서 발문이 '''섭취 후 초기 치료'''를 묻는 상황에서는 3번이 답이다. 이미 폐나 다른 장기에 축적된 물질을 활성탄이 제거한다는 뜻은 아니다. Deferoxamine은 철 매개 Fenton reaction을 줄이려는 강의의 보조 치료 후보이지, 확립된 특이 해독제나 장내 흡수 억제제는 아니다.\n\n~~복원 문구 수정: 원복원본의 ‘흡입’을 사용자 확인에 따라 ‘섭취’로 수정했다. 강의의 경구 노출 후 초기 흡수 억제 맥락에 맞춘 수정이며, 원시험 문구를 새로 확인했다는 의미는 아니다.~~~\n\n=== 선지별로 보면 ===\n* ① Pralidoxime은 aging 전 유기인제–AChE 결합을 풀어 주는 약이다. Paraquat의 redox cycling을 해결하는 약이 아니다.\n* ② 산화 손상 때문에 불필요한 고농도 산소를 피한다는 것과 CO를 공급한다는 것은 전혀 다르다. CO는 별개의 유독가스이므로 틀리다.\n* ③ 정답이다. 경구 섭취 후 아직 장내에 남은 paraquat를 흡착하여 추가 흡수를 줄이는 초기 제독이다. 효과가 확립된 특이 해독제와는 구분한다.\n* ④ 철 킬레이션으로 Fenton reaction을 줄이려는 강의의 보조 치료 논리다. 확립된 특이 해독제나 흡입 중독의 확정적 초기 치료로 볼 수 없다.\n* ⑤ NAC는 acetaminophen–NAPQI–GSH 고갈의 대표 치료다. Paraquat 초기 치료를 반드시 경구 NAC로 한다고 판단할 근거는 없다.\n\n[[9강#초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다|Wiki · 초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다]]\n~~근거: 39기 「OP and PQ 2026」 19·21·23·24쪽 및 대응하는 38기 필기본. 발문 수정과 정답 지정은 2026-10-12 사용자 확인에 따라 반영했다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -13782,7 +13877,25 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          19,
+          21,
+          23,
+          24
+        ],
+        "chapter": "초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다",
+        "answerStatus": "user_authorized_reconstruction",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false,
+        "originalQuestion": "파라쿼트 흡입에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
+        "questionCorrection": "흡입 → 섭취",
+        "userConfirmedDate": "2026-10-12"
+      }
     },
     {
       "id": "2023-058",
@@ -15145,7 +15258,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         84
       ],
-      "question": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 환자가 경험했을 가능성이 있는 약물 부작용은 어느 것인가?",
+      "question": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 이 약물의 부작용이 아닌 것은?",
       "passage": "",
       "choices": [
         "Appetite enhancement",
@@ -15154,10 +15267,12 @@ window.JBL_DATA = {
         "Reflex bradycardia",
         "Urinary retention"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Reflex bradycardia",
+      "explanation": "'''정답: 4번, Reflex bradycardia.'''\n\n=== Diphenhydramine은 H₁ 외의 작용도 함께 가진다 ===\nDiphenhydramine은 1세대 H₁ 약물로 중추 침투와 항콜린 효과가 크다. 반복 복용하면 알레르기를 줄이는 효과 외에 졸음·주의력 저하·어지럼과 입마름·요정체 등이 문제가 될 수 있다. 강의 28쪽의 수용체 지도를 증상별로 나누어 보면 다음과 같다.\n\n||= 작용 ||= 나타날 수 있는 변화 ||\n|| 중추 H₁ 차단 || 진정, 인지·정신운동 기능 저하; 식욕 증가 가능 ||\n|| Muscarinic 차단 || 구강 건조, 시야 흐림, 요정체, 동성 빈맥 ||\n|| α 차단 등 혈역학적 영향 || 저혈압·어지럼, 반사성 빈맥 ||\n|| 일부 약물의 serotonin 차단 || 식욕 증가; cyproheptadine에서 특히 강조 ||\n\n다만 이 표는 계열의 수용체별 효과를 설명하는 그림이어서 각 약물이 모든 효과를 같은 강도로 일으킨다는 뜻은 아니다. [[https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f808ee14-fccf-4abe-b53a-a40b0b3bba03&version=1|Diphenhydramine 약품 설명서]]에는 dizziness, hypotension, urinary retention이 모두 부작용으로 제시되어 있다.\n\n=== 반사성 변화의 방향을 확인한다 ===\n강의 28쪽은 혈압 저하에 대한 반사 반응을 '''reflex tachycardia'''로 제시한다. Muscarinic 차단도 보통 동성 빈맥의 방향이다. 따라서 이 약물의 부작용이 '''아닌 것'''을 묻는 현재 발문에서는 '''4번 reflex bradycardia'''가 답이다. 다른 네 선지를 모두 ‘diphenhydramine에서 절대 나타날 수 없는 증상’으로 배제하는 방식은 잘못이다.\n\n~~복원 문구 수정: 원복원본은 ‘경험했을 가능성이 있는 부작용’을 물어 여러 선지가 성립했다. 사용자 확인에 따라 ‘부작용이 아닌 것은?’으로 수정하고 4번을 정답으로 지정했다. 나머지 선지와 증례는 보존했다.~~~\n\n=== 선지별로 보면 ===\n* ① 식욕 증가는 cyproheptadine의 항세로토닌 작용에서 특히 강조되지만, 28쪽 그림은 중추 H₁ 차단에도 식욕 증가를 연결한다. Diphenhydramine에서 불가능하다고 단정할 수 없다.\n* ② 어지럼은 가능한 부작용이다. 중추 영향과 혈압 변화 등 여러 원인이 있을 수 있다.\n* ③ 저혈압도 가능한 부작용으로 약품 설명서에 포함된다. α 차단을 promethazine에서 강조했다는 이유만으로 배제하지 않는다.\n* ④ 정답이다. 강의의 α 차단·혈압 저하 도식에서 반사성 변화는 bradycardia가 아니라 tachycardia다. 항콜린 작용도 보통 동성 빈맥을 일으키므로 ‘반사성 서맥’이 이 비교에서 맞지 않는 연결이다.\n* ⑤ 요정체는 항무스카린 작용에 의한 대표적인 부작용이다. 특히 전립선비대 등이 있으면 문제가 커질 수 있지만, 다른 질병이 없는 환자에서 불가능한 것은 아니다.\n\n[[10강#1세대의 여러 수용체 작용이 부작용을 설명한다|Wiki · 1세대의 여러 수용체 작용이 부작용을 설명한다]]\n~~근거: 39기 「Anti-histamine2026」 23·28·29·30·33쪽 및 대응하는 38기 필기본. 발문 수정과 정답 지정은 2026-10-12 사용자 확인에 따라 반영했다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
       "professor": "김채균",
@@ -15180,7 +15295,26 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          23,
+          28,
+          29,
+          30,
+          33
+        ],
+        "chapter": "1세대의 여러 수용체 작용이 부작용을 설명한다",
+        "answerStatus": "user_authorized_reconstruction",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false,
+        "originalQuestion": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 환자가 경험했을 가능성이 있는 약물 부작용은 어느 것인가?",
+        "questionCorrection": "가능성이 있는 부작용 → 부작용이 아닌 것",
+        "userConfirmedDate": "2026-10-12"
+      }
     },
     {
       "id": "2023-085",
@@ -15202,10 +15336,12 @@ window.JBL_DATA = {
         "Fexofenadine",
         "Ipratropium"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Fexofenadine",
+      "explanation": "'''정답: 4번, Fexofenadine.'''\n\n=== 같은 알레르기 치료라도 업무에 따라 약을 고른다 ===\n가려움·콧물·두드러기 등의 histamine 반응에는 H₁ 차단이 도움이 된다. 다만 '''1세대는 BBB를 통과하여 중추 H₁을 차단하므로 졸음과 정신운동 기능 저하'''를 일으킬 수 있다. 알레르기가 좋아져도 집중력과 반응속도가 떨어지면 운전·관제·시험 같은 상황에는 적절하지 않을 수 있다.\n\n||= 비교 ||= 1세대 H₁ ||= 2세대 H₁ ||\n|| 중추 침투·진정 || 대체로 더 큼 || 대체로 적음 ||\n|| 항콜린 부담 || 입마름·시야 흐림·요정체 등 || 대체로 적음 ||\n|| 대표 약 || diphenhydramine, chlorpheniramine, hydroxyzine, promethazine || fexofenadine, loratadine, desloratadine, cetirizine ||\n|| 선택에서 중요한 조건 || 멀미·구토 등에서 유용한 성질도 있음 || 각성 유지가 필요한 알레르기 환자에게 유리 ||\n\n이 비교는 2세대가 모든 사람에게 절대 졸음을 일으키지 않는다는 뜻은 아니다. '''주어진 보기에서 덜 진정적이며 증상에 맞는 약'''을 고르는 문제다.\n\n시험 기간이라는 정보는 두드러기의 중증도보다 '''진정을 피해야 한다'''는 약물 선택 조건을 제공한다. 피부에 국한된 증례에서 가장 알맞은 것은 fexofenadine이다. Anaphylaxis라면 epinephrine이 우선이라는 별도의 원칙과 혼동하지 않는다.\n\n=== 선지별로 보면 ===\n* ① Chlorpheniramine은 1세대라서 진정 부담이 있다. 다른 1세대보다 덜 졸릴 수 있어도 이 보기에서는 fexofenadine이 적절하다.\n* ② Dimenhydrinate는 1세대 H₁ 약물로 멀미 예방과 진정·항콜린 작용에 연결한다.\n* ③ Diphenhydramine은 진정이 뚜렷한 1세대이므로 시험 공부라는 조건에 불리하다.\n* ④ Fexofenadine은 덜 진정적인 2세대 H₁ 약물로 두드러기와 각성 유지라는 두 조건을 만족한다.\n* ⑤ Ipratropium은 muscarinic 길항제다. H₁ 차단으로 두드러기를 치료하는 선택이 아니다.\n\n[[10강#집중력이 필요한 환자는 덜 진정적인 약을 선택한다|Wiki · 집중력이 필요한 환자는 덜 진정적인 약을 선택한다]]\n~~근거: 39기 「Anti-histamine2026」 22·23·28·29·30·31·32쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
       "professor": "김채균",
@@ -15228,7 +15364,25 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          22,
+          23,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "chapter": "집중력이 필요한 환자는 덜 진정적인 약을 선택한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2023-086",
@@ -21057,10 +21211,12 @@ window.JBL_DATA = {
         "carbamate insecticides는 2-PAM으로 치료한다.",
         "해독제는 2-PAM을 ASAP 사용한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — carbamate insecticides는 2-PAM으로 치료한다.",
+      "explanation": "'''정답: 4번, carbamate insecticides는 2-PAM으로 치료한다..'''\n\n=== 수용체를 막는 치료와 효소를 회복시키는 치료 ===\n'''Atropine'''은 muscarinic receptor를 차단하여 분비·기관지 수축·서맥을 줄이고, '''pralidoxime(2-PAM)'''은 인산화된 AChE를 재활성화한다. Atropine만으로 nicotinic 신경근 마비를 직접 되돌리지는 못한다. 2-PAM은 BBB 통과가 제한적이므로 말초 효과가 중심이며, 기도와 환기 지지는 별도로 필요하다.\n\n||= 비교 ||= 유기인제 ||= Carbamate ||\n|| 효소 억제 || AChE 인산화 || AChE carbamylation, 대체로 가역적 ||\n|| 증상 || 콜린성 과자극 || 비슷한 콜린성 증상 가능 ||\n|| Atropine || Muscarinic 증상 완화 || Muscarinic 증상 완화 ||\n|| 2-PAM || Aging 전에 가능한 한 빨리 || 순수 carbamate 중독에 일률적으로 사용하지 않음 ||\n\n시간이 지나면 OP–AChE 결합이 탈알킬화되어 안정해지는 '''aging'''이 진행한다. 2-PAM의 표적은 '''non-aged complex'''이므로 가능한 한 일찍 투여해야 한다. 강의의 성인 투여 예는 1–2 g을 15–30분에 걸쳐 정맥주입하는 것이다. Carbamate, 특히 carbaryl에서는 pralidoxime이 독성을 높일 수 있어 같은 처치를 그대로 복사하면 안 된다.\n\n=== 선지별로 보면 ===\n* ① AChE 억제로 ACh 분해가 감소한다. 유기인제의 핵심 기전이다.\n* ② 기관지 수축·배뇨 증가·서맥은 muscarinic 과자극과 맞는다. 여기서 소변 증가는 주로 배뇨 반응을 표현한 것으로, 신장 여과율이 반드시 증가한다는 뜻은 아니다.\n* ③ 중추신경 증상으로 흥분·경련·혼수 등이 가능하므로 맞는 설명이다.\n* ④ 틀린 설명이다. Carbamate도 AChE를 억제하지만 2-PAM을 통상적인 치료로 일괄 적용하지 않는다. Atropine과 지지 치료를 중심으로 접근한다.\n* ⑤ 유기인제–AChE 결합의 aging 전에 재활성화해야 하므로 ASAP가 맞다.\n\n[[9강#Carbamate는 AChE를 억제하지만 치료를 그대로 복사하지 않는다|Wiki · Carbamate는 AChE를 억제하지만 치료를 그대로 복사하지 않는다]]\n~~근거: 39기 「OP and PQ 2026」 11·13·14·15·16·17쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -21085,7 +21241,24 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          11,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "chapter": "Carbamate는 AChE를 억제하지만 치료를 그대로 복사하지 않는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-062",
@@ -21107,10 +21280,12 @@ window.JBL_DATA = {
         "free radical formation",
         "depletion of antioxidant glutathione"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — free radical formation",
+      "explanation": "'''정답: 4번, free radical formation.'''\n\n=== 폐 섬유화를 만드는 산화·환원 고리 ===\nParaquat는 비선택적 bipyridyl 제초제다. '''PQ²⁺ → PQ•⁺ → PQ²⁺'''로 돌아오는 redox cycling 과정에서 산소에 전자를 전달하여 '''superoxide(O₂•⁻)'''를 만든다. 이어 철이 관여하는 '''Fenton reaction: Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH''' 등이 산화 손상을 증폭한다. 핵심 작용기전은 '''free radical formation'''이지 AChE 억제가 아니다.\n\n||= 시간·기관 ||= 주요 변화 ||\n|| 섭취 초기의 구강·위장관 || 직접 자극·궤양, 토혈·혈변 가능 ||\n|| 폐 || 폐포 상피 손상·폐부종 → 섬유화·가스교환 저하 ||\n|| 신장·간 || 혈뇨, BUN/Cr 및 AST/ALT 상승 등 ||\n|| 중증 전신 손상 || 심근 기능 장애·다장기부전 ||\n\n효과가 확립된 특이 해독제는 없다. '''경구 섭취 후 아직 장내에 남아 있는 물질'''은 활성탄 등으로 흡착하여 추가 흡수를 줄이고, 이후에는 장기 기능을 지지한다. 이미 흡수된 물질을 활성탄이 혈액에서 없애 주는 것은 아니다.\n\n=== 선지별로 보면 ===\n* ① Na⁺ channel 불활성화는 paraquat의 중심 독성 기전이 아니다.\n* ② AChE 억제는 유기인제·carbamate와 연결한다.\n* ③ Cholinesterase 활성 재생은 독성 발생이 아니라 pralidoxime의 해독 기전이다.\n* ④ Redox cycling을 통한 free radical formation이 강의에서 제시한 직접적인 정답이다.\n* ⑤ Glutathione 소모가 산화 스트레스에서 동반될 수는 있지만, 이 비교에서는 NAPQI–GSH 고갈을 acetaminophen에 연결한다. Paraquat의 대표 시작 기전을 묻는 답은 4번이다.\n\n[[9강#Redox cycling에서 Fenton reaction으로 이어진다|Wiki · Redox cycling에서 Fenton reaction으로 이어진다]]\n~~근거: 39기 「OP and PQ 2026」 19·20·21·22·23·24·25쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -21135,7 +21310,25 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "chapter": "Redox cycling에서 Fenton reaction으로 이어진다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-063",
@@ -22614,10 +22807,12 @@ window.JBL_DATA = {
         "Fexofenadine",
         "Hydroxylamine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Fexofenadine",
+      "explanation": "'''정답: 4번, Fexofenadine.'''\n\n=== 같은 알레르기 치료라도 업무에 따라 약을 고른다 ===\n가려움·콧물·두드러기 등의 histamine 반응에는 H₁ 차단이 도움이 된다. 다만 '''1세대는 BBB를 통과하여 중추 H₁을 차단하므로 졸음과 정신운동 기능 저하'''를 일으킬 수 있다. 알레르기가 좋아져도 집중력과 반응속도가 떨어지면 운전·관제·시험 같은 상황에는 적절하지 않을 수 있다.\n\n||= 비교 ||= 1세대 H₁ ||= 2세대 H₁ ||\n|| 중추 침투·진정 || 대체로 더 큼 || 대체로 적음 ||\n|| 항콜린 부담 || 입마름·시야 흐림·요정체 등 || 대체로 적음 ||\n|| 대표 약 || diphenhydramine, chlorpheniramine, hydroxyzine, promethazine || fexofenadine, loratadine, desloratadine, cetirizine ||\n|| 선택에서 중요한 조건 || 멀미·구토 등에서 유용한 성질도 있음 || 각성 유지가 필요한 알레르기 환자에게 유리 ||\n\n이 비교는 2세대가 모든 사람에게 절대 졸음을 일으키지 않는다는 뜻은 아니다. '''주어진 보기에서 덜 진정적이며 증상에 맞는 약'''을 고르는 문제다.\n\n=== 오답30 공식 해설 원문 ===\n> 이 환자의 증세는 항히스타민제 사용으로 호전될 수 있다. 그러나 그의 업무는 명료한 의식이 필수적이다. 따라서 진정 효과가 없는 약물 선택이 중요하다. 보기 중에서 진정 효과 없이 환자의 증상을 완화 시키는 약물은 Fexofenadine이다.\n\n공식 오답30 28쪽의 정답은 '''4번'''이다. 복원본에는 약물 순서가 다르게 남아 있지만 이 항목은 공식 원문의 보기 순서를 따른다. 약 이름과 정답 번호를 함께 확인해야 한다.\n\n=== 선지별로 보면 ===\n* ① Chlorpheniramine은 1세대 H₁ 약물이다. 진정과 반응속도 저하 가능성 때문에 관제 업무에 가장 적합하지 않다.\n* ② Diphenhydramine은 진정·항콜린 효과가 큰 1세대로, 명료한 의식이 필요한 상황에서 피하려는 성질을 갖는다.\n* ③ Doxylamine은 진정성 1세대 H₁ 약물로 수면보조제에도 사용된다.\n* ④ Fexofenadine이 공식 정답이다. 말초 H₁ 효과를 얻으면서 중추 진정 부담을 줄이는 선택이다.\n* ⑤ 공식 원문에도 Hydroxylamine이라고 적혀 있다. 이를 임의로 hydroxyzine으로 바꾸지 않았다. Hydroxylamine 자체는 이 목적의 H₁ 항알레르기 약으로 선택하지 않으며, 혹시 hydroxyzine의 오기라 해도 그 약은 진정성 1세대이므로 4번보다 부적절하다.\n\n[[10강#집중력이 필요한 환자는 덜 진정적인 약을 선택한다|Wiki · 집중력이 필요한 환자는 덜 진정적인 약을 선택한다]]\n~~근거: 39기 「Anti-histamine2026」 22·23·28·29·31쪽 및 대응하는 38기 필기본. 2022 공식 오답30 28쪽의 정답과 원문 해설을 대조했다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
       "professor": "김채균",
@@ -22645,7 +22840,23 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 28
+      "officialPage": 28,
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          22,
+          23,
+          28,
+          29,
+          31
+        ],
+        "chapter": "집중력이 필요한 환자는 덜 진정적인 약을 선택한다",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 28,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-097",
@@ -22667,10 +22878,12 @@ window.JBL_DATA = {
         "B1 agonist",
         "B1 antagonist"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — H1 antagonist",
+      "explanation": "'''정답: 2번, H1 antagonist.'''\n\n=== ‘어느 수용체인가’와 ‘몇 세대인가’를 따로 묻는다 ===\n'''H₁'''은 Gq–PLC–IP₃/DAG–Ca²⁺ 경로를 통해 가려움·혈관 투과성·평활근 반응 등을 만들고, '''H₂'''는 Gs–cAMP 경로를 통해 위산 분비 등을 자극한다. H₁ 항히스타민제의 1세대·2세대 구분은 이 수용체 종류를 바꾸는 것이 아니라 주로 중추 침투와 진정·항콜린 작용의 차이를 나눈 것이다.\n\n||= 범주 ||= 대표 약물 ||= 구분할 특징 ||\n|| 1세대 H₁ || diphenhydramine, chlorpheniramine, hydroxyzine, meclizine, promethazine || 대체로 BBB 통과·진정이 더 크며 약마다 항콜린·항구토 작용 ||\n|| 2세대 H₁ || loratadine, desloratadine, fexofenadine, cetirizine || 대체로 진정·항콜린 작용이 적음 ||\n|| H₂ || famotidine, cimetidine; ranitidine은 역사적 예 || 위 벽세포의 산 분비 억제 ||\n\nPiperidine·piperazine·ethanolamine은 화학구조의 이름이다. 구조 계열과 수용체 종류, 세대 분류를 하나로 섞지 않아야 한다. Cetirizine과 meclizine은 세대가 다르지만 '''둘 다 H₁ 약물'''이다.\n\n=== Cetirizine의 반응 방향 ===\nCetirizine은 histamine에 의한 H₁ 반응을 줄여 재채기·콧물·가려움 등을 완화한다. 강의에서는 '''가역적·경쟁적 H₁ antagonist'''로 설명한다. 더 정밀한 수용체 개념으로는 비활성 상태를 안정화하는 inverse agonist지만, 이 선지 구성에서는 H₁ antagonist가 분명한 정답이다.\n\n2세대는 중추 작용이 적다는 뜻이지 전혀 졸리지 않음을 보장하지 않는다. Cetirizine은 신기능에 따른 투여 조정과 개인별 졸림도 고려한다.\n\n=== 선지별로 보면 ===\n* ① H₁ agonist라면 histamine의 가려움·혈관 투과성·평활근 반응을 유발하는 방향이므로 치료 목적과 반대다.\n* ② H₁ antagonist가 강의와 일치한다.\n* ③ α₁ agonist는 혈관 수축과 연결되는 별개의 약리작용이다. Cetirizine을 비충혈 제거용 α 작용제로 보지 않는다.\n* ④ β₁ agonist는 심장 자극과 연결된다. H₁ 알레르기 반응을 억제하는 기전이 아니다.\n* ⑤ β₁ antagonist는 심박수 등을 낮추는 약물의 기전이며 cetirizine과 다르다.\n\n[[10강#H₁ 길항제는 수용체의 반응을 낮춘다|Wiki · H₁ 길항제는 수용체의 반응을 낮춘다]]\n~~근거: 39기 「Anti-histamine2026」 13·22·24·25쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
       "professor": "김채균",
@@ -22695,7 +22908,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          13,
+          22,
+          24,
+          25
+        ],
+        "chapter": "H₁ 길항제는 수용체의 반응을 낮춘다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2022-098",
@@ -27653,10 +27881,12 @@ window.JBL_DATA = {
         "Chlorpheniramine",
         "Loratadine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Loratadine",
+      "explanation": "'''정답: 5번, Loratadine.'''\n\n=== ‘어느 수용체인가’와 ‘몇 세대인가’를 따로 묻는다 ===\n'''H₁'''은 Gq–PLC–IP₃/DAG–Ca²⁺ 경로를 통해 가려움·혈관 투과성·평활근 반응 등을 만들고, '''H₂'''는 Gs–cAMP 경로를 통해 위산 분비 등을 자극한다. H₁ 항히스타민제의 1세대·2세대 구분은 이 수용체 종류를 바꾸는 것이 아니라 주로 중추 침투와 진정·항콜린 작용의 차이를 나눈 것이다.\n\n||= 범주 ||= 대표 약물 ||= 구분할 특징 ||\n|| 1세대 H₁ || diphenhydramine, chlorpheniramine, hydroxyzine, meclizine, promethazine || 대체로 BBB 통과·진정이 더 크며 약마다 항콜린·항구토 작용 ||\n|| 2세대 H₁ || loratadine, desloratadine, fexofenadine, cetirizine || 대체로 진정·항콜린 작용이 적음 ||\n|| H₂ || famotidine, cimetidine; ranitidine은 역사적 예 || 위 벽세포의 산 분비 억제 ||\n\nPiperidine·piperazine·ethanolamine은 화학구조의 이름이다. 구조 계열과 수용체 종류, 세대 분류를 하나로 섞지 않아야 한다. Cetirizine과 meclizine은 세대가 다르지만 '''둘 다 H₁ 약물'''이다.\n\n=== 선지별로 보면 ===\n* ① Famotidine은 H₂ 차단제로 위산 분비 억제에 사용한다.\n* ② Diphenhydramine은 1세대 H₁ 약물이며 진정·항콜린 작용이 뚜렷하다.\n* ③ Ranitidine은 강의에서 H₂ 차단제로 제시된 역사적 약물이다. 2세대 H₁이라는 의미가 아니다.\n* ④ Chlorpheniramine은 1세대 H₁ 약물이다. 일부 1세대보다 덜 졸릴 수 있어도 2세대로 바뀌지는 않는다.\n* ⑤ Loratadine은 2세대 H₁ 약물이다. 덜 진정적인 항알레르기 약물을 묻는 조건과 맞는다.\n\n[[10강#세대 분류와 화학구조 분류는 다른 기준이다|Wiki · 세대 분류와 화학구조 분류는 다른 기준이다]]\n~~근거: 39기 「Anti-histamine2026」 13·21·22·23·26·35쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
       "professor": "김채균",
@@ -27681,7 +27911,24 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          13,
+          21,
+          22,
+          23,
+          26,
+          35
+        ],
+        "chapter": "세대 분류와 화학구조 분류는 다른 기준이다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-049",
@@ -27703,10 +27950,12 @@ window.JBL_DATA = {
         "1세대 H1-antihistamine은 2세대에 비해 진정작용이 강하다",
         "dimenhydrinate(dramamine)은 멀미(motion sickness) 예방에 효과가 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — 2세대 H1-antihistamine은 위 벽세포에 작용하여 위산분비를 억제한다",
+      "explanation": "'''정답: 1번, 2세대 H1-antihistamine은 위 벽세포에 작용하여 위산분비를 억제한다.'''\n\n=== H₁과 H₂를 나눈 뒤 임상 용도를 붙인다 ===\n‘2세대’는 H₁ 약물 내부의 분류다. '''H₁–Gq'''는 알레르기·평활근·혈관 투과성 등과, '''H₂–Gs–cAMP'''는 위 벽세포의 산 분비와 연결한다. 따라서 H₁ 2세대가 위산 억제제로 바뀌지는 않는다.\n\n||= 임상 상황 ||= 기억할 연결 ||\n|| 알레르기 비염 || H₁ 약물은 가려움·재채기·콧물 완화; 비강 스테로이드는 코막힘을 포함한 전반적 조절에 효과적 ||\n|| 두드러기 || H₁ 차단이 중요한 치료 축 ||\n|| 천식 || 여러 염증 매개물질이 관여하여 H₁ 약물만으로 불충분 ||\n|| 멀미 || Dimenhydrinate 등 일부 1세대의 중추 H₁·항콜린 효과 활용 ||\n|| 위산 분비 || Famotidine·cimetidine 같은 H₂ 차단제 ||\n|| 진정 부담 || 1세대에서 대체로 더 큼; 2세대도 개인차 가능 ||\n\n히스타민 유리는 IgE 교차결합에 따른 비만세포 탈과립이 대표적이지만 비면역성 자극도 가능하다. ‘비만세포에서 나온다’와 ‘모든 알레르기 증상을 H₁ 하나로 해결할 수 있다’는 같은 말이 아니다.\n\n=== 선지별로 보면 ===\n* ① 틀린 설명이다. 위 벽세포의 histamine 수용체는 H₂이며, H₂ 차단제가 위산을 억제한다. 2세대 H₁ 약물의 주된 역할은 덜 진정적으로 알레르기 증상을 줄이는 것이다.\n* ② 맞다. IgE 매개 비만세포 탈과립은 저장 histamine이 유리되는 대표 경로다. 이것이 유일한 경로라는 뜻은 아니다.\n* ③ 맞다. 비강 corticosteroid는 코막힘을 포함한 비염 증상의 조절에 효과가 있다.\n* ④ 맞다. 1세대는 대체로 BBB 통과와 중추 H₁ 차단이 더 커 진정이 강하다.\n* ⑤ 맞다. Dimenhydrinate는 1세대 H₁ 약물로 멀미 예방에 이용된다.\n\n[[10강#비염·두드러기·천식에서는 기대할 효과가 다르다|Wiki · 비염·두드러기·천식에서는 기대할 효과가 다르다]]\n~~근거: 39기 「Anti-histamine2026」 8·13·22·23·28·29·31·32·35쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
       "professor": "김채균",
@@ -27731,7 +27980,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          8,
+          13,
+          22,
+          23,
+          28,
+          29,
+          31,
+          32,
+          35
+        ],
+        "chapter": "비염·두드러기·천식에서는 기대할 효과가 다르다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-050",
@@ -28573,10 +28842,12 @@ window.JBL_DATA = {
         "Pralidoxime",
         "N-acetylcysteine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — Deferoxamine",
+      "explanation": "'''정답: 2번, Deferoxamine.'''\n\n=== 철을 묶는 약과 glutathione을 회복시키는 약 ===\n'''Deferoxamine'''은 철과 aluminum을 킬레이트한다. Ferrous sulfate 같은 철분 제제의 과량 노출과 수혈 관련 철 과부하가 대표적인 단서다. 유전적 철 과부하가 있다는 설명도 철 킬레이터를 식별하는 데 도움이 되지만, 모든 혈색소증 환자의 1차 치료가 deferoxamine이라는 뜻은 아니다.\n\n||= 물질·상황 ||= 독성의 중심 ||= 연결할 약물 ||\n|| 철분 과량·반복 수혈 || 철 과부하 || Deferoxamine ||\n|| Aluminum 축적 || Aluminum 독성 || Deferoxamine ||\n|| Paraquat || Free radical·철 매개 Fenton reaction || 강의에서 deferoxamine을 보조 치료 후보로 제시 ||\n|| Acetaminophen || CYP2E1 → NAPQI, GSH 고갈·간 손상 || N-acetylcysteine(NAC) ||\n\nParaquat에서 deferoxamine을 언급하는 논리는 '''Fenton reaction에 필요한 철을 묶는다'''는 것이다. 그러나 강의는 동시에 ‘no definite therapeutic tool’이라고 명시한다. 족보에서 이 약을 연결하더라도 '''효과가 확립된 paraquat 특이 해독제'''라고 해석하지 않는다. 반면 acetaminophen의 NAC는 cysteine을 공급하여 glutathione 방어를 회복시키는 별도의 치료다.\n\n=== 선지별로 보면 ===\n* ① Atropine은 muscarinic receptor 차단제다. 철·aluminum 킬레이션이 아니며, 유기인제의 분비·기관지 증상과 연결한다.\n* ② 철과 aluminum을 킬레이트하는 약이다. 여러 독성물질이 나열되어도 이 금속 결합 성질이 가장 직접적인 단서다.\n* ③ Donepezil은 AChE 억제제로 인지 증상 치료에 사용되는 약이다. 중독에서 효소 활성을 되살리는 pralidoxime과 반대 방향이다.\n* ④ Pralidoxime은 aging 전 인산화 AChE를 재활성화한다. 금속 킬레이터가 아니다.\n* ⑤ NAC는 acetaminophen 중독의 GSH 방어 회복과 연결하며, 철·aluminum 배출을 위한 킬레이터가 아니다.\n\n[[9강#Deferoxamine은 철을 묶는 약이라는 데서 출발한다|Wiki · Deferoxamine은 철을 묶는 약이라는 데서 출발한다]]\n~~근거: 39기 「OP and PQ 2026」 19·21·23·24·25쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -28617,7 +28888,23 @@ window.JBL_DATA = {
             "2021-061"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          19,
+          21,
+          23,
+          24,
+          25
+        ],
+        "chapter": "Deferoxamine은 철을 묶는 약이라는 데서 출발한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-062",
@@ -29385,10 +29672,12 @@ window.JBL_DATA = {
         "빈맥",
         "고혈압"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — 발한",
+      "explanation": "'''강의 기준의 답: 1번, 발한.'''\n\n=== ACh가 많아지면 여러 기관이 함께 반응한다 ===\n유기인제는 '''AChE의 esteratic site를 인산화하여 효소를 억제'''한다. ACh가 분해되지 않고 축적되므로 muscarinic·nicotinic 수용체와 중추신경계가 과도하게 자극된다. 전형적인 muscarinic 소견부터 잡고, 신경근·중추 증상을 덧붙이면 된다.\n\n||= 부위 ||= 전형적인 반응 ||= 이유 ||\n|| 눈 || 축동 || 동공괄약근 수축 ||\n|| 심장 || 서맥·전도 감소 || Muscarinic 자극 ||\n|| 기관지 || 수축 + 분비물 증가 || 평활근과 분비샘이 함께 자극됨 ||\n|| 장·방광 || 설사·배뇨 증가 || 운동·분비 증가, 배출구 이완 ||\n|| 침·눈물·땀 || 분비 증가 || 땀샘도 말단 ACh–muscarinic 전달 사용 ||\n|| 신경근접합부 || 떨림 → 근력 저하·마비 가능 || Nicotinic 과자극 ||\n|| 중추신경계 || 흥분·경련·혼수 가능 || 중추 콜린성 이상 ||\n\n'''DUMBELS'''는 diarrhea, urination, miosis, bronchospasm, excitation, lacrimation, seizure/sweating/salivation이다. 실제 환자는 nicotinic ganglion 자극이나 저산소증 때문에 빈맥·고혈압도 보일 수 있다. 따라서 이 문제의 '''전형적인 muscarinic 소견'''을 고르는 것과 ‘그 외 소견은 절대 생기지 않는다’고 말하는 것은 구분해야 한다.\n\n=== 선지별로 보면 ===\n* ① 발한은 DUMBELS의 S에 해당한다. 땀샘이 교감신경 지배라고 해서 ACh 증가의 영향을 받지 않는 것은 아니다.\n* ② 변비보다 장운동·분비 증가에 의한 설사가 전형적이다.\n* ③ 동공 확대보다 축동이 전형적이다.\n* ④ 강의의 기본 조합은 서맥이다. 다만 실제 중독에서 빈맥이 불가능하다는 뜻은 아니다.\n* ⑤ 강의의 전형적인 muscarinic 조합을 묻는 맥락에서는 발한이 더 직접적이다. Nicotinic 자극 등으로 고혈압이 나타날 가능성은 있어 발문을 임상적 가능성 전체로 읽으면 모호함이 남는다.\n\n[[9강#축동·분비 증가·기관지 수축을 한 묶음으로 읽는다|Wiki · 축동·분비 증가·기관지 수축을 한 묶음으로 읽는다]]\n~~근거: 39기 「OP and PQ 2026」 11·12·13·14쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -29413,7 +29702,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "chapter": "축동·분비 증가·기관지 수축을 한 묶음으로 읽는다",
+        "answerStatus": "qualified_interpretation",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2021-077",
@@ -33797,10 +34101,12 @@ window.JBL_DATA = {
         "기관지 분비물 증가",
         "유즙 분비 저하"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — 기관지 분비물 증가",
+      "explanation": "'''정답: 4번, 기관지 분비물 증가.'''\n\n=== ACh가 많아지면 여러 기관이 함께 반응한다 ===\n유기인제는 '''AChE의 esteratic site를 인산화하여 효소를 억제'''한다. ACh가 분해되지 않고 축적되므로 muscarinic·nicotinic 수용체와 중추신경계가 과도하게 자극된다. 전형적인 muscarinic 소견부터 잡고, 신경근·중추 증상을 덧붙이면 된다.\n\n||= 부위 ||= 전형적인 반응 ||= 이유 ||\n|| 눈 || 축동 || 동공괄약근 수축 ||\n|| 심장 || 서맥·전도 감소 || Muscarinic 자극 ||\n|| 기관지 || 수축 + 분비물 증가 || 평활근과 분비샘이 함께 자극됨 ||\n|| 장·방광 || 설사·배뇨 증가 || 운동·분비 증가, 배출구 이완 ||\n|| 침·눈물·땀 || 분비 증가 || 땀샘도 말단 ACh–muscarinic 전달 사용 ||\n|| 신경근접합부 || 떨림 → 근력 저하·마비 가능 || Nicotinic 과자극 ||\n|| 중추신경계 || 흥분·경련·혼수 가능 || 중추 콜린성 이상 ||\n\n'''DUMBELS'''는 diarrhea, urination, miosis, bronchospasm, excitation, lacrimation, seizure/sweating/salivation이다. 실제 환자는 nicotinic ganglion 자극이나 저산소증 때문에 빈맥·고혈압도 보일 수 있다. 따라서 이 문제의 '''전형적인 muscarinic 소견'''을 고르는 것과 ‘그 외 소견은 절대 생기지 않는다’고 말하는 것은 구분해야 한다.\n\n=== 선지별로 보면 ===\n* ① 동공괄약근 수축으로 축동이 대표적이므로 방향이 반대다.\n* ② 장운동·분비 증가로 설사가 대표적이므로 방향이 반대다.\n* ③ 전형적인 muscarinic 반응은 서맥이다. 실제 환자의 빈맥 가능성은 별개다.\n* ④ 분비샘 자극으로 기관지 분비물이 증가하며, 기관지 평활근 수축까지 겹쳐 호흡을 악화시킨다.\n* ⑤ 유즙 분비 저하는 DUMBELS의 대표 소견이 아니다. 침·눈물·땀·기관지 분비 증가와 유즙의 내분비 조절을 같은 것으로 묶지 않는다.\n\n[[9강#축동·분비 증가·기관지 수축을 한 묶음으로 읽는다|Wiki · 축동·분비 증가·기관지 수축을 한 묶음으로 읽는다]]\n~~근거: 39기 「OP and PQ 2026」 11·12·13·14쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -33825,7 +34131,22 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "chapter": "축동·분비 증가·기관지 수축을 한 묶음으로 읽는다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-028",
@@ -33847,10 +34168,12 @@ window.JBL_DATA = {
         "Blood transfusion",
         "Aluminum"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — Acetaminophen",
+      "explanation": "'''정답: 3번, Acetaminophen.'''\n\n=== 철을 묶는 약과 glutathione을 회복시키는 약 ===\n'''Deferoxamine'''은 철과 aluminum을 킬레이트한다. Ferrous sulfate 같은 철분 제제의 과량 노출과 수혈 관련 철 과부하가 대표적인 단서다. 유전적 철 과부하가 있다는 설명도 철 킬레이터를 식별하는 데 도움이 되지만, 모든 혈색소증 환자의 1차 치료가 deferoxamine이라는 뜻은 아니다.\n\n||= 물질·상황 ||= 독성의 중심 ||= 연결할 약물 ||\n|| 철분 과량·반복 수혈 || 철 과부하 || Deferoxamine ||\n|| Aluminum 축적 || Aluminum 독성 || Deferoxamine ||\n|| Paraquat || Free radical·철 매개 Fenton reaction || 강의에서 deferoxamine을 보조 치료 후보로 제시 ||\n|| Acetaminophen || CYP2E1 → NAPQI, GSH 고갈·간 손상 || N-acetylcysteine(NAC) ||\n\nParaquat에서 deferoxamine을 언급하는 논리는 '''Fenton reaction에 필요한 철을 묶는다'''는 것이다. 그러나 강의는 동시에 ‘no definite therapeutic tool’이라고 명시한다. 족보에서 이 약을 연결하더라도 '''효과가 확립된 paraquat 특이 해독제'''라고 해석하지 않는다. 반면 acetaminophen의 NAC는 cysteine을 공급하여 glutathione 방어를 회복시키는 별도의 치료다.\n\n=== 선지별로 보면 ===\n* ① 강의에서는 철 매개 Fenton reaction 억제라는 논리로 deferoxamine을 연결한다. 다만 paraquat에 임상 효과가 확립된 특이 해독제가 있다는 의미는 아니다.\n* ② Ferrous sulfate는 철분 제제이므로 철 과량 노출 시 킬레이션이라는 약물의 성격과 맞는다.\n* ③ NAPQI–GSH 고갈이 중심이므로 NAC를 연결한다. Deferoxamine으로 독성을 낮추는 상황을 묻는 이 비교에서 정답이다.\n* ④ 정상적인 모든 수혈을 뜻하는 것이 아니라 반복 수혈에 따른 철 과부하의 맥락이다.\n* ⑤ Aluminum도 deferoxamine의 킬레이션 대상에 들어간다.\n\n[[9강#Deferoxamine은 철을 묶는 약이라는 데서 출발한다|Wiki · Deferoxamine은 철을 묶는 약이라는 데서 출발한다]]\n~~근거: 39기 「OP and PQ 2026」 19·21·23·24·25쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -33891,7 +34214,23 @@ window.JBL_DATA = {
             "2021-061"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          19,
+          21,
+          23,
+          24,
+          25
+        ],
+        "chapter": "Deferoxamine은 철을 묶는 약이라는 데서 출발한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-029",
@@ -34362,10 +34701,12 @@ window.JBL_DATA = {
         "Hydroxyzine",
         "Loratadine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — Loratadine",
+      "explanation": "'''정답: 5번, Loratadine.'''\n\n=== 같은 알레르기 치료라도 업무에 따라 약을 고른다 ===\n가려움·콧물·두드러기 등의 histamine 반응에는 H₁ 차단이 도움이 된다. 다만 '''1세대는 BBB를 통과하여 중추 H₁을 차단하므로 졸음과 정신운동 기능 저하'''를 일으킬 수 있다. 알레르기가 좋아져도 집중력과 반응속도가 떨어지면 운전·관제·시험 같은 상황에는 적절하지 않을 수 있다.\n\n||= 비교 ||= 1세대 H₁ ||= 2세대 H₁ ||\n|| 중추 침투·진정 || 대체로 더 큼 || 대체로 적음 ||\n|| 항콜린 부담 || 입마름·시야 흐림·요정체 등 || 대체로 적음 ||\n|| 대표 약 || diphenhydramine, chlorpheniramine, hydroxyzine, promethazine || fexofenadine, loratadine, desloratadine, cetirizine ||\n|| 선택에서 중요한 조건 || 멀미·구토 등에서 유용한 성질도 있음 || 각성 유지가 필요한 알레르기 환자에게 유리 ||\n\n이 비교는 2세대가 모든 사람에게 절대 졸음을 일으키지 않는다는 뜻은 아니다. '''주어진 보기에서 덜 진정적이며 증상에 맞는 약'''을 고르는 문제다.\n\n중장비기사라는 직업이 핵심 조건이다. 봄철의 눈 가려움·눈물·콧물은 알레르기 증상이고, 기계를 조작해야 하므로 진정성 약물을 피하는 방향으로 선택한다. 과체중이나 늦게 내원했다는 정보보다 '''증상에 맞는 H₁ 효과 + 각성 유지'''가 답을 결정한다.\n\n=== 선지별로 보면 ===\n* ① Albuterol은 β₂ 작용제인 기관지 확장제다. 현재 제시된 알레르기성 눈·코 증상을 치료하기 위한 H₁ 약물이 아니다.\n* ② Diphenhydramine은 진정·항콜린 작용이 커서 기계 조작에 불리하다.\n* ③ Promethazine은 진정성 1세대이며 α 차단과 항콜린 부담도 있다.\n* ④ Hydroxyzine은 진정이 뚜렷한 1세대 H₁ 약물이다.\n* ⑤ Loratadine은 덜 진정적인 2세대 H₁ 약물로 증상과 직업 조건을 함께 고려한 답이다.\n\n[[10강#집중력이 필요한 환자는 덜 진정적인 약을 선택한다|Wiki · 집중력이 필요한 환자는 덜 진정적인 약을 선택한다]]\n~~근거: 39기 「Anti-histamine2026」 22·23·26·28·29·31쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김일진",
       "professor": "김채균",
@@ -34390,7 +34731,24 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          22,
+          23,
+          26,
+          28,
+          29,
+          31
+        ],
+        "chapter": "집중력이 필요한 환자는 덜 진정적인 약을 선택한다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-036",
@@ -34412,10 +34770,12 @@ window.JBL_DATA = {
         "Lysine",
         "Tyrosine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — Histidine",
+      "explanation": "'''정답: 3번, Histidine.'''\n\n=== 히스타민은 histidine의 탈탄산화로 만들어진다 ===\n\"\"L-histidine → histidine decarboxylase → histamine + CO₂\"\"가 핵심이다. Histidine에서 carboxyl group이 떨어져 나가므로 반응 이름은 '''decarboxylation(탈탄산화)'''이다. Histamine은 피부·폐·위장관 등 외부와 접하는 조직에 많고, mast cell과 basophil의 과립에 저장되었다가 자극에 의해 풀려난다.\n\n||= 물질 ||= 연결할 역할 ||\n|| Histidine || Histamine의 아미노산 전구체 ||\n|| Heparin || 비만세포 과립에 함께 존재할 수 있으나 전구체 아미노산은 아님 ||\n|| Histamine || H₁에서 가려움·투과성·평활근 반응, H₂에서 위산 분비 등 ||\n|| Histamine 분해 || HNMT에 의한 methylation 또는 diamine oxidase에 의한 oxidative deamination ||\n\n항히스타민제를 복용했다는 증례는 histamine과 알레르기를 연결하는 배경이다. 일반적인 H₁ 약물이 histidine decarboxylase를 억제한다는 뜻은 아니며, '''합성의 기질'''과 '''약물이 차단하는 수용체'''를 구분해야 한다.\n\n=== 선지별로 보면 ===\n* ① L-arginine은 histamine 전구체가 아니다. 대표적으로 nitric oxide 생성과 연결되는 아미노산이다.\n* ② Heparin은 아미노산이 아니며, 과립에 histamine과 함께 있다는 사실과 histamine의 전구체라는 말은 다르다.\n* ③ Histidine decarboxylase가 histidine에서 CO₂를 떼어 histamine을 만든다. 전구체와 반응 이름 모두 발문에 맞는다.\n* ④ Lysine도 아미노산이지만 histamine의 전구체가 아니다.\n* ⑤ Tyrosine은 catecholamine 등 다른 합성 경로와 연결한다. Histamine을 만드는 탈탄산화의 기질은 histidine이다.\n\n[[10강#Histidine에서 만들어져 두 경로로 대사된다|Wiki · Histidine에서 만들어져 두 경로로 대사된다]]\n~~근거: 39기 「Anti-histamine2026」 3·4·5·6·8쪽 및 대응하는 38기 필기본. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
       "images": [],
       "legacyProfessor": "김일진",
       "professor": "김채균",
@@ -34440,7 +34800,23 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-12",
+        "basis": "39기 강의록 + 38기 필기본 대조",
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "chapter": "Histidine에서 만들어져 두 경로로 대사된다",
+        "answerStatus": "lecture_based",
+        "officialAnswerVerified": false,
+        "officialSourcePage": null,
+        "peerExplanationUsed": false
+      }
     },
     {
       "id": "2020-037",
