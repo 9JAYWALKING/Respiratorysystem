@@ -2053,7 +2053,8 @@
     function recordQuestionAttempt(state, question, answerIndices) {
       state.attempts ||= {};
       const attempt = state.attempts[question.id] ||= {};
-      if (attempt.done || attempt.peeked) return;
+      // The latest completed selection wins, even after a manual status or an earlier reveal.
+      // Opening an explanation alone never calls this function and does not change status.
       const expected = [...new Set(answerIndices.map(Number))];
       if (!expected.length || expected.some(n => !Number.isInteger(n) || n < 1 || n > question.choices.length)) return;
       const selected = [state.selected[question.id]].flat().map(Number).filter(Number.isFinite);
