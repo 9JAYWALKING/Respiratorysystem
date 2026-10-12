@@ -16,6 +16,159 @@ function lectureStudyState(course) {
   if (!lectureStudyStates.has(id)) lectureStudyStates.set(id, { chapter:'', expanded:'', view:'wiki' });
   return lectureStudyStates.get(id);
 }
+function lectureStudyViewerKey(course) {
+  return (lectureStudyState(course).view === 'jbl' ? 'course-jbl-' : 'course-') + course.id;
+}
+function lectureStudyCourseForKey(key) {
+  const match = String(key).match(/^course-(?:jbl-)?(\d+)$/);
+  return match ? byId(Number(match[1])) : null;
+}
+let lectureJblWikiStatuses;
+const lectureJblWikiStatusKey = 'respiratory-jbl-wiki-status-v1';
+function lectureJblWikiStatus(id) {
+  if (!lectureJblWikiStatuses) {
+    const saved = readStudyStorage(lectureJblWikiStatusKey, {});
+    lectureJblWikiStatuses = saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
+  }
+  const status = lectureJblWikiStatuses[id];
+  return Object.hasOwn(questionStudyStatuses, status) ? status : 'unanswered';
+}
+function saveLectureJblWikiStatus(id, status) {
+  lectureJblWikiStatus(id);
+  const next = {...lectureJblWikiStatuses, [id]:status};
+  if (!writeStudyStorage(lectureJblWikiStatusKey, next)) return false;
+  lectureJblWikiStatuses = next;
+  refreshQuestionStudyStatus(id);
+  return true;
+}
+function lectureJblSectionSource(source, full, courseId) {
+  const definitions = new Map([...full.matchAll(/\[\*([^\s\]]+)\s+([^\]]+)\]/g)].map(match => [match[1],match[2]]));
+  const seen = new Set();
+  return source.replace(/\[\*([^\s\]]+)(?:\s+([^\]]+))?\]/g, (whole,name,body) => {
+    if (seen.has(name)) return `[*${name}]`;
+    seen.add(name);
+    const content = body || definitions.get(name);
+    return content ? `[*${name} ${content}]` : whole;
+  }).replace(/\[\[#([^\]]+)\]\]/g, `[[${courseId}강#$1]]`);
+}
+function lectureJblGroups(course) {
+  const full = String(lectureNoteSources[course.id] || '').replace(/\r\n?/g,'\n');
+  if (!full.trim()) return [];
+  const sections = wikiEditableSections(full);
+  const available = new Map(jblQuestions.map(question => [Number(question.globalNumber),question]));
+  const groups = [];
+  const add = (slug,heading,source,parent='',sourceCourse=course.id,unlinked=false) => {
+    const sourceFull = String(lectureNoteSources[sourceCourse] || full);
+    const numbers = [...new Set([...source.matchAll(/\{\{(\d+)\}\}/g)].map(match=>Number(match[1])))].filter(number=>available.has(number));
+    groups.push({slug,bookmarkSlug:slug,heading,parent,source:lectureJblSectionSource(source,sourceFull,sourceCourse),sourceCourse:Number(sourceCourse),numbers,unlinked});
+  };
+  const first = sections.find(section=>section.level>=2);
+  const lead = full.slice(0,first?.start ?? full.length).split('\n').filter(line=>!/^=\s+.*\s+=$/.test(line)&&!/^@(summary|tag)\s/.test(line)).join('\n').trim();
+  if (lead) add('lecture-introduction','강의 요약',lead);
+  let parent = '';
+  for (const section of sections) {
+    if (section.level === 2) {
+      parent = section.heading;
+      const child = sections.find(item=>item.level===3 && item.start>section.start && item.start<section.end);
+      const source = full.slice(section.start,child ? child.start : section.end).trim();
+      const body = source.split('\n').slice(1).join('\n').trim();
+      if (body) add(section.slug,section.heading,source);
+    } else if (section.level === 3) add(section.slug,section.heading,section.source,parent);
+  }
+  const linked = new Set(groups.flatMap(group=>group.numbers));
+  const unlinked = jblQuestions.filter(question=>questionBelongsToCourse(question,course.id)&&!linked.has(Number(question.globalNumber))).sort((a,b)=>Number(a.globalNumber)-Number(b.globalNumber));
+  const supplements = new Map();
+  for (const question of unlinked) {
+    let origin;
+    for (const match of String(question.explanation||'').matchAll(/\[\[(\d+)강#([^|\]]+)/g)) {
+      const sourceCourse = Number(match[1]), source = lectureNoteSources[sourceCourse];
+      if (!source) continue;
+      const section = wikiEditableSections(source).find(item=>item.slug===match[2] || normalizeWikiKey(item.heading)===normalizeWikiKey(match[2]));
+      if (section && section.level>=2) { origin={sourceCourse,section};break; }
+    }
+    const key = origin ? `unlinked-${origin.sourceCourse}-${origin.section.slug}` : 'unlinked-questions';
+    if (!supplements.has(key)) supplements.set(key,{origin,questions:[]});
+    supplements.get(key).questions.push(question);
+  }
+  for (const [slug,{origin,questions}] of supplements) {
+    const heading = origin?.section.heading || 'Wiki 유형 미연결 문항';
+    const source = origin?.section.source || '앞선 Wiki 문단에 문항 링크가 없는 강의 문항이다. 각 문제를 풀고 해설에서 필요한 개념을 확인한다.';
+    add(slug,heading,source,origin ? `${origin.sourceCourse}강 · 해설에 연결된 문단` : '',origin?.sourceCourse || course.id,true);
+    groups.at(-1).numbers = questions.map(question=>Number(question.globalNumber));
+    groups.at(-1).bookmarkSlug = origin?.section.slug || '';
+  }
+  return groups;
+}
+function lectureJblWikiCard(course,group) {
+  return {studyKind:'wiki',id:`jbl-wiki:${course.id}:${group.slug}`,displayId:'Wiki',globalNumber:null,
+    question:group.heading,passage:'',choices:[],images:[],answerIndices:[],answerIndex:null,answerLabel:'',explanation:'',
+    lectureIds:[group.sourceCourse],group,source:group.parent || `${course.id}강`,professor:course.professor};
+}
+function lectureJblEntries(course) {
+  const view = lectureStudyState(course), state = viewerState('course-jbl-'+course.id), filters=state.filters||{};
+  const statuses = filters.statuses||[], filtering=Boolean(statuses.length||filters.favoritesOnly);
+  const favorites = question => question.studyKind==='wiki'
+    ? wikiBookmarks.some(bookmark=>bookmark.courseId===question.group.sourceCourse&&bookmark.slug===question.group.bookmarkSlug)
+    : jblFavorites.has(question.id);
+  const matches = item => !filtering || statuses.includes(questionStudyStatus(item.id)) || Boolean(filters.favoritesOnly&&favorites(item));
+  const byNumber = new Map(jblQuestions.map(question=>[Number(question.globalNumber),question]));
+  const result=[];
+  for (const group of lectureJblGroups(course).filter(group=>!view.jblChapter||group.slug===view.jblChapter)) {
+    const note = lectureJblWikiCard(course,group);
+    let questions = group.numbers.map(number=>byNumber.get(number)).filter(question=>question&&matches(question));
+    if (filtering && !matches(note) && !questions.length) continue;
+    if (state.randomEnabled) {
+      const signature=JSON.stringify(questions.map(question=>question.id));
+      const cache=state.jblRandomGroups ||= {};
+      if (cache[group.slug]?.signature!==signature) cache[group.slug]={signature,ids:shuffleQuestions(questions).map(question=>question.id)};
+      const byId=new Map(questions.map(question=>[question.id,question]));
+      questions=cache[group.slug].ids.map(id=>byId.get(id)).filter(Boolean);
+    }
+    result.push(note,...questions);
+  }
+  return result;
+}
+function lectureStudyViewerQuestions(course) {
+  return lectureStudyState(course).view==='jbl' ? lectureJblEntries(course) : lectureStudyQuestions(course);
+}
+function lectureJblWikiCardMarkup(card) {
+  const course=byId(card.lectureIds[0])||emptyRenderCourse;
+  const source=card.group.source.split('\n').filter((line,index)=>index!==0||!parseWikiHeading(line)).join('\n');
+  const bookmarked=wikiBookmarks.some(bookmark=>bookmark.courseId===card.group.sourceCourse&&bookmark.slug===card.group.bookmarkSlug);
+  const favorite=card.group.bookmarkSlug ? `<button class="jbl-favorite ${bookmarked?'active':''}" type="button" data-jbl-wiki-favorite aria-pressed="${bookmarked}" aria-label="문단 즐겨찾기 ${bookmarked?'해제':'추가'}">${bookmarked?'★':'☆'}</button>` : '';
+  return `<article class="jbl-card jbl-wiki-card" data-jbl-wiki-card="${escapeHtml(card.id)}"><header class="jbl-card-head"><div class="jbl-meta"><div class="jbl-author-source"><span class="jbl-prof">${card.group.unlinked?'Wiki 유형 미연결':'Wiki'}</span><div class="jbl-source">${escapeHtml(card.source)}</div></div><div class="jbl-meta-right">${questionStudyStatusMarkup(card.id)}<span class="jbl-qid jbl-wiki-label">Wiki</span>${favorite}</div></div><h2 class="jbl-title">${renderWikiInline(card.question,course,{items:[],named:new Map()},false)}</h2></header><div class="jbl-card-body"><div class="jbl-wiki-content">${renderJblWikiFragment(source,card,'type')}</div></div></article>`;
+}
+function bindLectureJblWikiCard(container,card) {
+  const content=container.querySelector('.jbl-wiki-content');
+  namespaceContextPreviewIds(content,'jbl-type-'+card.id.replace(/[^a-zA-Z0-9_-]/g,'-'));
+  bindWikiDocument(content,byId(card.lectureIds[0])||emptyRenderCourse);
+  container.querySelector('[data-study-status]')?.addEventListener('change',event=>saveQuestionStudyStatus(card.id,event.currentTarget.value,true));
+  container.querySelector('[data-jbl-wiki-favorite]')?.addEventListener('click',()=>{
+    const group=card.group,key=`${group.sourceCourse}#${group.bookmarkSlug}`;
+    const next=wikiBookmarks.filter(bookmark=>bookmark.key!==key);
+    if (next.length===wikiBookmarks.length) next.push({key,courseId:group.sourceCourse,slug:group.bookmarkSlug,heading:group.heading,link:`[[${group.sourceCourse}강#${group.bookmarkSlug}|${group.heading}]]`});
+    if (!writeStudyStorage(wikiBookmarkKey,next)) return;
+    wikiBookmarks=next;
+    document.querySelectorAll('[data-course-wiki] [data-wiki-section]').forEach(heading=>{
+      if (heading.dataset.wikiSection!==group.bookmarkSlug) return;
+      const button=heading.querySelector('.wiki-bookmark');if (!button) return;
+      const active=next.some(bookmark=>bookmark.key===key);
+      button.textContent=active?'★':'☆';button.setAttribute('aria-pressed',String(active));
+    });
+    container.questionViewer.rerender();
+  });
+}
+function jumpLectureJblQuestion(course,question) {
+  const view=lectureStudyState(course),state=viewerState('course-jbl-'+course.id);
+  let entries=lectureJblEntries(course),index=entries.findIndex(item=>item.id===question.id);
+  if (index<0 && questionBelongsToCourse(question,course.id)) {
+    view.jblChapter='';state.filters={};state.jblRandomGroups={};
+    entries=lectureJblEntries(course);index=entries.findIndex(item=>item.id===question.id);
+  }
+  if (index<0) return false;
+  state.index=index;renderCourseJ(course);scrollLectureStudyQuestion(document.querySelector('[data-course-j-host]'));
+  return true;
+}
 function lectureStudyChapters(course) {
   const available = new Set(jblQuestions.map(question => Number(question.globalNumber)));
   return wikiEditableSections(lectureNoteSources[course.id] || '')
@@ -56,7 +209,7 @@ function refreshLectureStudyLinks(course) {
     if (element.matches('h5')) chapter = element.dataset.wikiSection;
     else element.dataset.studyChapter = chapter;
   });
-  const activeNumber = lectureStudyQuestions(course)[viewerState('course-' + course.id).index]?.globalNumber;
+  const activeNumber = lectureStudyViewerQuestions(course)[viewerState(lectureStudyViewerKey(course)).index]?.globalNumber;
   wiki.querySelectorAll('[data-jbl-question-link]').forEach(link => {
     const active = Number(link.dataset.jblQuestionLink) === Number(activeNumber);
     link.classList.toggle('is-study-current', active);
@@ -68,23 +221,24 @@ function renderLectureStudyFilter(course) {
   const select = document.querySelector('#content-panel [data-lecture-chapter]');
   if (!select) return;
   const state = lectureStudyState(course);
-  const chapters = lectureStudyChapters(course).filter(chapter => chapter.numbers.length);
+  const jbl = state.view==='jbl';
+  const chapters = jbl ? lectureJblGroups(course) : lectureStudyChapters(course).filter(chapter => chapter.numbers.length);
   const total = jblQuestions.filter(question => questionBelongsToCourse(question, course.id)).length;
-  select.innerHTML = '<option value="">전체 문항 · ' + total + '</option>' + chapters.map(chapter =>
+  select.innerHTML = '<option value="">' + (jbl ? '전체 유형 · '+chapters.length : '전체 문항 · '+total) + '</option>' + chapters.map(chapter =>
     '<option value="' + escapeHtml(chapter.slug) + '">' + escapeHtml(chapter.heading) + ' · ' + chapter.numbers.length + '</option>'
   ).join('');
-  select.value = state.chapter;
+  select.value = jbl ? state.jblChapter||'' : state.chapter;
   refreshLectureStudyLinks(course);
 }
 function syncLectureStudyView(course) {
   const state = lectureStudyState(course);
-  const view = state.expanded || state.view || 'wiki';
+  const view = state.expanded==='wiki' ? 'wiki' : state.view || 'wiki';
   const workspace = document.querySelector('#content-panel .lecture-workspace');
   if (!workspace) return;
   workspace.dataset.view = view;
-  document.body.classList.toggle('lecture-j-active', view === 'j');
+  document.body.classList.toggle('lecture-j-active', view === 'j' || view === 'jbl');
   workspace.querySelectorAll('[data-lecture-pane]').forEach(section => {
-    const hidden = section.dataset.lecturePane !== view;
+    const hidden = section.dataset.lecturePane !== (view==='jbl' ? 'j' : view);
     section.hidden = hidden;
     section.inert = hidden;
     section.setAttribute('aria-hidden', String(hidden));
@@ -94,8 +248,12 @@ function syncLectureStudyView(course) {
   });
 }
 function setLectureStudyView(course, view) {
+  if (!['wiki','j','jbl'].includes(view) || (view==='jbl'&&!String(lectureNoteSources[course.id]||'').trim())) return;
+  closeQuestionExplanationSplit(false);
+  const changed = lectureStudyState(course).view !== view;
   lectureStudyState(course).view = view;
-  activeDetailTab = view === 'j' ? 'KMLE' : '정리본';
+  activeDetailTab = view === 'j' ? 'KMLE' : view==='jbl' ? 'JBL' : '정리본';
+  if (changed) renderCourseJ(course);
   setLectureStudyExpanded(course, '');
   history.replaceState({...(history.state || {}), detailTab:activeDetailTab}, '', location.href);
 }
@@ -104,7 +262,7 @@ function setLectureStudyExpanded(course, pane) {
   if (!workspace) return;
   const state = lectureStudyState(course);
   state.expanded = pane || '';
-  if (pane) state.view = pane;
+  if (pane && !(pane==='j'&&state.view==='jbl')) state.view = pane;
   workspace.dataset.expanded = state.expanded;
   document.body.classList.toggle('lecture-pane-expanded', Boolean(state.expanded));
   const masthead = document.querySelector('.masthead');
@@ -138,7 +296,7 @@ function bindLectureTabSwipe(bar, course) {
   bar._lectureSwipeCleanup?.();
   let start = null, suppressClickUntil = 0;
   let previewPane = null;
-  const minDistance = 32, horizontalRatio = 1.15, verticalDistance = 24;
+  const minDistance = 48, horizontalRatio = 1.15, verticalDistance = 24;
   const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const resetPreview = () => {
     if (previewPane) { previewPane.style.removeProperty('transform');previewPane.style.removeProperty('filter'); }
@@ -171,17 +329,20 @@ function bindLectureTabSwipe(bar, course) {
     // Keep a small undecided zone for natural diagonal starts. Clear vertical
     // gestures still belong to the browser's native scroll/pinch handling.
     if (!start.horizontal && dy >= verticalDistance && dy > dx*1.35) { cancel(); return; }
-    if (!start.horizontal && dx >= 10 && dx > dy*horizontalRatio) {
+    if (!start.horizontal && dx >= 14 && dx > dy*horizontalRatio) {
       start.horizontal = true;
       try { bar.setPointerCapture?.(event.pointerId); } catch (_) {}
     }
     if (start.horizontal) {
+      // Retain the horizontal intent through normal hand drift, but let an
+      // obvious turn into a vertical gesture cancel without changing tabs.
+      if (dy > Math.max(64,dx*1.6)) { cancel(); return; }
       if (!reducedMotion()) {
         previewPane = document.querySelector('.lecture-pane:not([hidden])');
         if (previewPane) {
           previewPane.getAnimations?.().forEach(animation => animation.cancel());
-          previewPane.style.transform = `translateX(${Math.max(-18,Math.min(18,(event.clientX-start.x)*.15))}px)`;
-          previewPane.style.filter = `blur(${Math.min(1.4,dx/70)}px)`;
+          previewPane.style.transform = `translateX(${Math.max(-12,Math.min(12,(event.clientX-start.x)*.1))}px)`;
+          previewPane.style.filter = `blur(${Math.min(.7,dx/160)}px)`;
         }
       }
       if (event.cancelable) event.preventDefault();
@@ -194,16 +355,22 @@ function bindLectureTabSwipe(bar, course) {
     const dx = Math.abs(event.clientX-gesture.x), dy = Math.abs(event.clientY-gesture.y);
     if (gesture.horizontal || dx >= 10) suppressClickUntil = Date.now()+500;
     release(event.pointerId);
-    if (dx < minDistance || dx <= dy*horizontalRatio) return;
+    // No speed or duration limit: a deliberate slow drag is also a swipe.
+    // Once intent is established, do not reject it just for the release angle.
+    if (dx < minDistance || (gesture.horizontal ? dy > Math.max(64,dx*1.6) : dx <= dy*horizontalRatio)) return;
     const state = lectureStudyState(course);
-    setLectureStudyView(course,(state.expanded || state.view) === 'wiki' ? 'j' : 'wiki');
+    const views = ['wiki','j'];
+    if (String(lectureNoteSources[course.id]||'').trim()) views.push('jbl');
+    const nextIndex = views.indexOf(state.view) + (event.clientX < gesture.x ? 1 : -1);
+    if (nextIndex < 0 || nextIndex >= views.length) return;
+    setLectureStudyView(course,views[nextIndex]);
     if (!reducedMotion()) {
       const pane = document.querySelector('.lecture-pane:not([hidden])');
       pane?.getAnimations?.().forEach(animation => animation.cancel());
       pane?.animate?.([
-        {transform:`translateX(${event.clientX < gesture.x ? 18 : -18}px)`,filter:'blur(1.4px)',opacity:.65},
+        {transform:`translateX(${event.clientX < gesture.x ? 14 : -14}px)`,filter:'blur(.7px)',opacity:.82},
         {transform:'translateX(0)',filter:'blur(0)',opacity:1}
-      ],{duration:240,easing:'cubic-bezier(.2,.75,.25,1)'});
+      ],{duration:280,easing:'cubic-bezier(.2,.75,.25,1)'});
     }
   };
   const click = event => {
@@ -235,11 +402,11 @@ function renderLectureStudy(course, target) {
     tabs.className = 'lecture-view-tabs';
     tabs.setAttribute('role','group');
     tabs.setAttribute('aria-label','강의 화면 선택');
-    tabs.innerHTML = '<button type="button" data-lecture-view="wiki" aria-controls="lecture-wiki">Wiki</button><button type="button" data-lecture-view="j" aria-controls="lecture-questions">J</button>';
+    tabs.innerHTML = '<button type="button" data-lecture-view="wiki" aria-controls="lecture-wiki">Wiki</button><button type="button" data-lecture-view="j" aria-controls="lecture-questions">J</button><button type="button" data-lecture-view="jbl" aria-controls="lecture-questions" ' + (String(lectureNoteSources[course.id]||'').trim() ? '' : 'disabled title="Wiki가 준비되면 사용할 수 있습니다."') + '>JBL</button>';
     bar.insertBefore(tabs, bar.querySelector('.detail-course-controls'));
     tabs.querySelectorAll('button').forEach(button => button.addEventListener('click', () => setLectureStudyView(course,button.dataset.lectureView)));
   }
-  lectureStudyState(course).view = activeDetailTab === 'KMLE' ? 'j' : 'wiki';
+  lectureStudyState(course).view = activeDetailTab === 'JBL' && String(lectureNoteSources[course.id]||'').trim() ? 'jbl' : activeDetailTab === 'KMLE' || activeDetailTab === 'JBL' ? 'j' : 'wiki';
   target.innerHTML = '<div class="lecture-workspace" data-lecture-course="' + course.id + '">' +
     '<section class="lecture-pane lecture-wiki-pane" data-lecture-pane="wiki" aria-label="강의 Wiki">' +
       '<header class="lecture-pane-head" data-lecture-head="wiki"><strong>Wiki</strong><button type="button" class="lecture-pane-expand" data-lecture-expand="wiki">−</button></header>' +
@@ -258,8 +425,10 @@ function renderLectureStudy(course, target) {
     setLectureStudyExpanded(course,lectureStudyState(course).expanded === head.dataset.lectureHead ? '' : head.dataset.lectureHead);
   }));
   target.querySelector('[data-lecture-chapter]').addEventListener('change',event => {
-    lectureStudyState(course).chapter = event.target.value;
-    viewerState('course-' + course.id).index = 0;
+    const view=lectureStudyState(course);
+    if (view.view==='jbl') view.jblChapter=event.target.value;
+    else view.chapter=event.target.value;
+    viewerState(lectureStudyViewerKey(course)).index = 0;
     renderCourseJ(course);
     scrollLectureStudyQuestion(target.querySelector('[data-course-j-host]'));
   });

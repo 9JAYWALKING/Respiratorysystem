@@ -58,7 +58,7 @@ html[data-theme="dark"] .study-ui .detail-bar { background:var(--study-lecture-b
 .study-ui .detail-topline { align-items:center; }
 .study-ui .detail-topline>div:first-child { min-width:0; flex:1; }
 .study-ui .detail-topline h2 { font-size:28px; line-height:1.35; color:#fff; font-weight:800; text-shadow:none; }
-.study-ui .detail-bar .detail-breadcrumb { font-size:13px; color:var(--study-lecture-muted); }
+.study-ui .detail-bar .detail-breadcrumb { font-size:13px; color:var(--study-lecture-muted); white-space:normal; overflow-wrap:anywhere; line-height:1.45; }
 .study-ui .detail-bar .detail-info { font-size:12px; color:var(--study-lecture-muted); }
 .study-ui .detail-course-controls { display:flex; align-items:center; align-self:center; gap:8px; width:auto; }
 .study-ui .detail-course-nav { display:grid; place-items:center; width:42px; min-width:42px; height:42px; padding:0; border-radius:12px; }
@@ -110,6 +110,17 @@ html[data-theme="dark"] .study-answer-status.is-wrong { color:#ffaabe; }
 .study-saved-question>button, [data-wiki-remove] { align-self:flex-start; color:var(--study-accent); background:none; border:0; font-size:20px; cursor:pointer; }
 .study-ui .bookmark-collected-section { margin-bottom:20px; border:1px solid var(--study-border); border-radius:18px; overflow:hidden; padding:20px; }
 .study-ui .bookmark-origin { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.study-ui .bookmark-category-buttons { gap:8px; margin:0 0 14px; }
+.study-ui .bookmark-category { padding:9px 12px; font-size:14px; border-radius:12px; }
+.study-ui .bookmark-category.all { background:var(--study-surface); color:var(--study-muted); border-color:var(--study-border); }
+.study-ui .bookmark-category.all[aria-pressed="true"] { border-color:currentColor; }
+.study-ui .bookmark-section-buttons { display:flex; flex-wrap:wrap; gap:7px; margin:0 0 18px; }
+.study-ui .bookmark-section-buttons button { border:1px solid var(--study-border); border-radius:10px; padding:7px 10px; background:var(--study-surface); color:inherit; font:inherit; font-size:13px; cursor:pointer; }
+.study-ui .bookmark-section-buttons button[aria-pressed="true"] { border-color:var(--study-accent); box-shadow:inset 0 0 0 1px var(--study-accent); }
+.study-ui .bookmark-section-buttons span { margin-left:7px; font-size:12px; color:var(--study-muted); }
+.study-ui .bookmark-collection-title { margin:18px 0 14px; font-size:18px; line-height:1.5; overflow-wrap:anywhere; }
+html[data-theme="dark"] .study-ui .bookmark-category.basic { background:#101820; color:#b6d9fa; }
+html[data-theme="dark"] .study-ui .bookmark-category.clinical { background:#211416; color:#f4bec4; }
 .study-ui .schedule-toolbar { margin-bottom:20px; }
 .study-ui .schedule-toolbar h2 { font-size:24px; }
 .study-ui .week-card { border:1px solid var(--study-border); border-radius:18px; overflow:hidden; box-shadow:none; scroll-margin-top:72px; }
@@ -421,6 +432,13 @@ html:not([data-theme="dark"]) .study-ui .study-answer-status.is-correct { color:
 .study-ui .lecture-view-tabs { display:flex; align-items:center; gap:3px; padding:3px; border:1px solid #ffffff38; border-radius:11px; background:#ffffff12; }
 .study-ui .lecture-view-tabs button { border:0; border-radius:8px; background:transparent; color:#fff; font:inherit; font-size:15px; font-weight:700; line-height:1.2; padding:8px 16px; cursor:pointer; }
 .study-ui .lecture-view-tabs button[aria-pressed="true"] { background:#fff; color:var(--study-lecture-bg); }
+.study-ui .lecture-view-tabs button:disabled { opacity:.4; cursor:default; }
+.study-ui .jbl-wiki-content { font-size:calc(17px * var(--study-text-scale,1)); line-height:1.8; overflow-wrap:anywhere; }
+.study-ui .jbl-wiki-content .jbl-wiki-text>p:first-child { margin-top:0; }
+.study-ui .jbl-wiki-content .wiki-grid img { max-width:100%; }
+.study-ui .jbl-wiki-content .wiki-table-wrap { max-width:100%; overflow:auto; }
+.study-ui .jbl-wiki-label { color:var(--study-accent); background:var(--brand-soft); }
+.study-ui .jbl-wiki-card .jbl-title { margin-bottom:0; }
 .study-ui .lecture-workspace { grid-template-columns:minmax(0,1fr); grid-template-rows:minmax(0,1fr); }
 .study-ui .lecture-pane[hidden] { display:none!important; }
 .study-ui .lecture-pane-head { display:none!important; }
@@ -431,6 +449,10 @@ html:not([data-theme="dark"]) .study-ui .study-answer-status.is-correct { color:
   .study-ui .detail-course-controls { gap:4px; }
   .study-ui .detail-course-nav { width:32px; min-width:32px; }
   .study-ui :is(.detail-number-form,.detail-number,.detail-number-input) { width:36px; min-width:36px; }
+}
+@media(max-width:480px) {
+  .study-ui .detail-topline { column-gap:5px; }
+  .study-ui .lecture-view-tabs button { padding-inline:8px; }
 }
 /* Multi-select union filters share the compact screen-mode icon treatment. */
 .study-status-filters{display:flex;gap:12px;margin-top:14px}

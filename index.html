@@ -1998,6 +1998,7 @@
       uncertain:{symbol:'△', label:'보류'}, wrong:{symbol:'X', label:'오답'}
     };
     function questionStudyStatus(id) {
+      if (String(id).startsWith('jbl-wiki:')) return lectureJblWikiStatus(id);
       const record = wrongAnswers[id];
       if (record && Object.hasOwn(questionStudyStatuses, record.status)) return record.status;
       // Older records stored only wrong answers and subsequent corrections.
@@ -2007,22 +2008,25 @@
     }
     function questionStudyStatusMarkup(id) {
       const status = questionStudyStatus(id), current = questionStudyStatuses[status];
-      return `<label class="study-answer-status is-${status}" title="풀이 상태: ${current.label} · 클릭하여 변경"><span data-study-status-symbol aria-hidden="true">${current.symbol}</span><select data-study-status="${escapeHtml(id)}" aria-label="풀이 상태: ${current.label}. 직접 변경">${Object.entries(questionStudyStatuses).map(([value,item]) => `<option value="${value}" ${status === value ? 'selected' : ''}>${item.symbol ? item.symbol + ' ' : ''}${item.label}</option>`).join('')}</select></label>`;
+      const label=String(id).startsWith('jbl-wiki:') ? '학습 상태' : '풀이 상태';
+      return `<label class="study-answer-status is-${status}" title="${label}: ${current.label} · 클릭하여 변경"><span data-study-status-symbol aria-hidden="true">${current.symbol}</span><select data-study-status="${escapeHtml(id)}" aria-label="${label}: ${current.label}. 직접 변경">${Object.entries(questionStudyStatuses).map(([value,item]) => `<option value="${value}" ${status === value ? 'selected' : ''}>${item.symbol ? item.symbol + ' ' : ''}${item.label}</option>`).join('')}</select></label>`;
     }
     function refreshQuestionStudyStatus(id) {
       const status = questionStudyStatus(id), current = questionStudyStatuses[status];
       document.querySelectorAll('[data-study-status]').forEach(select => {
         if (select.dataset.studyStatus !== id) return;
         const box = select.closest('.study-answer-status');
+        const label=String(id).startsWith('jbl-wiki:') ? '학습 상태' : '풀이 상태';
         select.value = status;
         box.className = `study-answer-status is-${status}`;
-        box.title = `풀이 상태: ${current.label} · 클릭하여 변경`;
-        select.setAttribute('aria-label', `풀이 상태: ${current.label}. 직접 변경`);
+        box.title = `${label}: ${current.label} · 클릭하여 변경`;
+        select.setAttribute('aria-label', `${label}: ${current.label}. 직접 변경`);
         box.querySelector('[data-study-status-symbol]').textContent = current.symbol;
       });
     }
     function saveQuestionStudyStatus(id, status, manual = false) {
       if (!Object.hasOwn(questionStudyStatuses, status)) return false;
+      if (String(id).startsWith('jbl-wiki:')) return saveLectureJblWikiStatus(id,status);
       const old = wrongAnswers[id] || {}, now = Date.now();
       const addWrong = status === 'wrong' && (!manual || questionStudyStatus(id) !== 'wrong');
       const next = {...wrongAnswers, [id]: {...old, status, pending:status === 'wrong', manual,
@@ -2071,7 +2075,19 @@
       if (location.hash !== hash) history.pushState(null, '', hash);
       routeFromHash();
     }
-    const quickCategories = [];
+    const quickCategories = [
+      ['histology','조직학','기초의학',c=>c.discipline==='조직학'],
+      ['physiology','생리학','기초의학',c=>c.discipline==='생리학'],
+      ['pharmacology','약리학','기초의학',c=>c.discipline==='약리학'],
+      ['pathology','병리학','기초의학',c=>c.discipline==='병리학'],
+      ['respiratory','호흡기내과','임상의학',c=>c.discipline==='호흡기내과'],
+      ['critical','중환자의학','임상의학',c=>c.discipline==='중환자의학'],
+      ['pediatrics','소아청소년과','임상의학',c=>c.discipline==='소아청소년과'],
+      ['surgery','흉부외과','임상의학',c=>c.discipline==='흉부외과'],
+      ['support','진단·치료 지원분과','임상의학',c=>c.discipline==='진단·치료 지원분과']
+    ];
+    const respiratoryBookmarkSections = ['진단·검사','기도·알레르기질환','호흡기감염','폐혈관질환','간질성·면역성 폐질환','폐종양','흉막질환'];
+    const bookmarkCollectionState = {category:'all',section:''};
     let quickClock = {time:Date.now(), tick:performance.now(), source:'기기 시간'};
     let quickClockPromise = null;
     function koreanDateKey(time) {
@@ -2237,14 +2253,39 @@
         body.querySelectorAll('[data-context-question]').forEach(b=>b.onclick=event=>{event.preventDefault();openContextLinkSplit({type:'j',questionNumber:Number(b.dataset.contextQuestion)},b);});
         return;
       }
-      if (!wikiBookmarks.length) { body.innerHTML='<div class="personal-note-empty">Wiki 소제목 옆의 ☆로 문단을 저장할 수 있습니다.</div>'; return; }
-      wikiBookmarks.slice().sort((a,b)=>a.courseId-b.courseId).forEach((bookmark,index)=> {
+      const allCategory = ['all','전체','',()=>true];
+      const category = quickCategories.find(item=>item[0]===bookmarkCollectionState.category) || allCategory;
+      const selectedSection = category[0]==='respiratory' && respiratoryBookmarkSections.includes(bookmarkCollectionState.section) ? bookmarkCollectionState.section : '';
+      const categoryItems = categoryBookmarks(category);
+      const bookmarks = categoryItems.filter(bookmark=>!selectedSection || byId(bookmark.courseId)?.section===selectedSection);
+      const categoryButtons = [allCategory,...quickCategories].map(item=>`<button type="button" class="bookmark-category ${item[2]==='기초의학' ? 'basic' : item[2]==='임상의학' ? 'clinical' : 'all'}" data-bookmark-category="${item[0]}" aria-pressed="${item[0]===category[0]}">${escapeHtml(item[1])}<span>${categoryBookmarks(item).length}</span></button>`).join('');
+      const sectionButtons = category[0]==='respiratory' ? `<div class="bookmark-section-buttons" role="group" aria-label="호흡기내과 학습 범주">${['',...respiratoryBookmarkSections].map(name=>`<button type="button" data-bookmark-section="${escapeHtml(name)}" aria-pressed="${name===selectedSection}">${escapeHtml(name||'전체')}<span>${categoryItems.filter(bookmark=>!name || byId(bookmark.courseId)?.section===name).length}</span></button>`).join('')}</div>` : '';
+      const collectionTitle = category[0]==='all' ? '전체 즐겨찾기 모아보기' : `${category[1]}${selectedSection ? ' · '+selectedSection : ''} 즐겨찾기 모아보기`;
+      body.innerHTML = `<div class="bookmark-category-buttons" role="group" aria-label="즐겨찾기 분과">${categoryButtons}</div>${sectionButtons}<h3 class="bookmark-collection-title">${escapeHtml(collectionTitle)}</h3><div data-bookmark-document></div>`;
+      body.querySelectorAll('[data-bookmark-category]').forEach(button=>button.onclick=()=>{
+        bookmarkCollectionState.category=button.dataset.bookmarkCategory;
+        bookmarkCollectionState.section='';
+        renderBookmarkCollection('wiki');
+      });
+      body.querySelectorAll('[data-bookmark-section]').forEach(button=>button.onclick=()=>{
+        bookmarkCollectionState.section=button.dataset.bookmarkSection;
+        renderBookmarkCollection('wiki');
+      });
+      const documentBody=body.querySelector('[data-bookmark-document]');
+      if (!bookmarks.length) {
+        documentBody.innerHTML=`<div class="personal-note-empty">${wikiBookmarks.length ? '이 범주에 즐겨찾기한 문단이 없습니다.' : 'Wiki 소제목 옆의 ☆로 문단을 저장할 수 있습니다.'}</div>`;
+        return;
+      }
+      bookmarks.forEach((bookmark,index)=> {
         const course=byId(bookmark.courseId)||questionMappedCourse(bookmark.courseId);
         if(!course)return;
         const source=wikiBookmarkSource(bookmark);
         const section=document.createElement('section');section.className='bookmark-collected-section wiki-note';
+        section.dataset.bookmarkCourse=String(course.id);
+        section.dataset.bookmarkSlug=bookmark.slug;
         section.innerHTML=`<div class="bookmark-origin">${renderWikiInline(`[[${course.id}강#${bookmark.slug}|${contentCourseText(course)}]]`,course,{items:[],named:new Map()})}<button type="button" data-wiki-remove aria-label="즐겨찾기 해제">★</button></div>${source == null ? '<p class="bookmark-missing">원문에서 문단 위치를 다시 확인해 주세요.</p>' : renderJblWikiFragment(source,{lectureIds:[course.id],globalNumber:'saved-'+index},'bookmark')}`;
-        body.append(section);bindWikiDocument(section,course);
+        namespaceContextPreviewIds(section,'saved-'+index);
+        documentBody.append(section);bindWikiDocument(section,course);
         section.querySelector('[data-wiki-remove]').onclick=()=>{const next=wikiBookmarks.filter(b=>b.key!==bookmark.key);if(writeStudyStorage(wikiBookmarkKey,next)){wikiBookmarks=next;renderBookmarkCollection();}};
       });
     }
@@ -3431,6 +3472,7 @@
     }
 
     function questionCardMarkup(question, state) {
+      if (question.studyKind==='wiki') return lectureJblWikiCardMarkup(question);
       const wikiCourse = byId(question.lectureIds?.[0]) || emptyRenderCourse;
       const renderJblInline = value => renderWikiInline(value, wikiCourse, { items:[], named:new Map() }, false);
       const selected = state.selected[question.id];
@@ -3469,6 +3511,7 @@
       const state = viewerState(key);
       const question = questions[state.index];
       if (!question) return;
+      if (question.studyKind==='wiki') { bindLectureJblWikiCard(container,question);return; }
       const numberButton = container.querySelector('[data-jbl-number-button]');
       const numberInput = container.querySelector('[data-jbl-number-input]');
       let enteringNumber = false;
@@ -3493,6 +3536,9 @@
           const current = contextLinkState.stack.at(-1);
           const wikiSequence = current?.wikiSequence?.numbers.includes(Number(value)) ? current.wikiSequence : undefined;
           showContextLinkTarget({type:'j',questionNumber:Number(value),wikiSequence},true);
+        } else if (key.startsWith('course-jbl-')) {
+          const course=lectureStudyCourseForKey(key);
+          if (!jumpLectureJblQuestion(course,destination)) openContextLinkSplit({type:'j',questionNumber:Number(value)},numberButton);
         } else if (key.startsWith('course-')) {
           const course = byId(Number(key.slice(7)));
           if (questionBelongsToCourse(destination,course.id)) {
@@ -3621,7 +3667,7 @@
     }
 
     function toggleQuestionExplanation(state, question, rerender) {
-      if (!question) return;
+      if (!question || question.studyKind==='wiki') return;
       const restoreFocus = document.activeElement?.hasAttribute('data-jbl-explanation');
       const shown = !state.explanationShown[question.id];
       if (!shown && questionExplanationState.active && questionExplanationState.state === state) {
@@ -3651,17 +3697,18 @@
       if (!viewer) return;
       if (questionExplanationState.active) closeQuestionExplanationSplit(false);
       const state = viewerState(viewer.key), question = viewer.questions[state.index];
-      if (!question) return;
+      if (!question || question.studyKind==='wiki') return;
       state.editing = state.editing === question.id ? null : question.id;
       viewer.rerender();
     }
 
     function navMarkup(state, questions, context = false) {
       const question = questions[state.index], editing = question && state.editing === question.id;
+      const wikiCard=question?.studyKind==='wiki';
       const previous = context ? 'data-context-question-prev' : 'data-jbl-prev';
       const next = context ? 'data-context-question-next' : 'data-jbl-next';
       const shown = Boolean(question && state.explanationShown[question.id]);
-      return `<button class="jbl-btn jbl-btn-primary jbl-nav-explanation" type="button" data-jbl-explanation aria-pressed="${shown}" ${!question || editing ? 'disabled' : ''}>${shown ? '해설 닫기' : '해설 보기'}</button><div class="jbl-nav-pages"><button class="jbl-btn jbl-btn-primary jbl-nav-previous" type="button" ${previous} aria-label="이전 문제" ${!question || state.index <= 0 || editing ? 'disabled' : ''}><span class="jbl-nav-arrow" aria-hidden="true">← </span>이전 문제</button><span class="jbl-counter">${questions.length ? state.index + 1 : 0} / ${questions.length}</span><button class="jbl-btn jbl-btn-primary jbl-nav-next" type="button" ${next} aria-label="다음 문제" ${!question || state.index >= questions.length - 1 || editing ? 'disabled' : ''}>다음 문제<span class="jbl-nav-arrow" aria-hidden="true"> →</span></button></div>`;
+      return `<button class="jbl-btn jbl-btn-primary jbl-nav-explanation" type="button" data-jbl-explanation aria-pressed="${shown}" ${!question || editing || wikiCard ? 'disabled' : ''}>${shown ? '해설 닫기' : '해설 보기'}</button><div class="jbl-nav-pages"><button class="jbl-btn jbl-btn-primary jbl-nav-previous" type="button" ${previous} aria-label="이전 문제" ${!question || state.index <= 0 || editing ? 'disabled' : ''}><span class="jbl-nav-arrow" aria-hidden="true">← </span>이전 문제</button><span class="jbl-counter">${questions.length ? state.index + 1 : 0} / ${questions.length}</span><button class="jbl-btn jbl-btn-primary jbl-nav-next" type="button" ${next} aria-label="다음 문제" ${!question || state.index >= questions.length - 1 || editing ? 'disabled' : ''}>다음 문제<span class="jbl-nav-arrow" aria-hidden="true"> →</span></button></div>`;
     }
 
     function scrollCurrentQuestionToTop(key) {
@@ -3763,8 +3810,8 @@
 
     function renderCourseJ(course) {
       const target = document.querySelector('#content-panel [data-course-j-host]') || document.querySelector('#content-panel');
-      const questions = lectureStudyQuestions(course);
-      const key = `course-${course.id}`;
+      const questions = lectureStudyViewerQuestions(course);
+      const key = lectureStudyViewerKey(course);
       const state = viewerState(key);
       const rerender = () => renderCourseJ(course);
       const footer = target.closest('.lecture-j-pane')?.querySelector('[data-course-j-nav]');
@@ -5629,8 +5676,8 @@
         const course = match ? byId(match[1]) : null;
         if (!course) return null;
         return {
-          questions:lectureStudyQuestions(course),
-          key:`course-${course.id}`,
+          questions:lectureStudyViewerQuestions(course),
+          key:lectureStudyViewerKey(course),
           rerender:() => renderCourseJ(course)
         };
       }
@@ -5804,22 +5851,24 @@
       wikiTools:studyWikiTools,
       toggleWiki:toggleStudyWiki,
       editWiki:editStudyWiki,
-      questionTools:()=>{const viewer=studyQuestionViewer();const state=viewer&&viewerState(viewer.key);return {available:Boolean(viewer?.questions[state?.index]),editing:Boolean(state?.editing)};},
+      questionTools:()=>{const viewer=studyQuestionViewer();const state=viewer&&viewerState(viewer.key);const current=viewer?.questions[state?.index];return {available:Boolean(current&&current.studyKind!=='wiki'),editing:Boolean(state?.editing)};},
       editQuestion:editStudyQuestion,
       questionFilterContext:()=>{
         const viewer=activeQuestionViewer();
         if(!viewer)return null;
         const state=viewerState(viewer.key);
-        const course=viewer.key.startsWith('course-')?byId(Number(viewer.key.slice(7))):null;
-        return {course:Boolean(course),filters:{...(state.filters||{})},randomEnabled:Boolean(state.randomEnabled||state.randomOrder?.length),
-          chapter:course?lectureStudyState(course).chapter:'',
-          chapters:course?lectureStudyChapters(course).filter(item=>item.numbers.length).map(item=>({slug:item.slug,heading:item.heading,count:item.numbers.length})):[],
-          total:course?jblQuestions.filter(question=>questionBelongsToCourse(question,course.id)).length:0};
+        const course=lectureStudyCourseForKey(viewer.key),jbl=Boolean(course&&lectureStudyState(course).view==='jbl');
+        const chapters=course ? (jbl ? lectureJblGroups(course) : lectureStudyChapters(course).filter(item=>item.numbers.length)) : [];
+        return {course:Boolean(course),mode:jbl?'jbl':'j',filters:{...(state.filters||{})},randomEnabled:Boolean(state.randomEnabled||state.randomOrder?.length),
+          chapter:course?(jbl?lectureStudyState(course).jblChapter||'':lectureStudyState(course).chapter):'',
+          chapters:chapters.map(item=>({slug:item.slug,heading:(item.unlinked?'미연결 · ':'')+item.heading,count:item.numbers.length})),
+          total:course?(jbl?chapters.length:jblQuestions.filter(question=>questionBelongsToCourse(question,course.id)).length):0};
       },
       selectQuestionChapter:slug=>{
         const viewer=activeQuestionViewer();if(!viewer?.key.startsWith('course-'))return;
-        const course=byId(Number(viewer.key.slice(7)));
-        lectureStudyState(course).chapter=lectureStudyChapters(course).some(item=>item.slug===slug)?slug:'';
+        const course=lectureStudyCourseForKey(viewer.key),view=lectureStudyState(course);
+        if (view.view==='jbl') view.jblChapter=lectureJblGroups(course).some(item=>item.slug===slug)?slug:'';
+        else view.chapter=lectureStudyChapters(course).some(item=>item.slug===slug)?slug:'';
         const state=viewerState(viewer.key);state.index=0;clearJblRandomOrder(state);viewer.rerender();
       },
       filterQuestions:values=>{
@@ -5832,6 +5881,7 @@
         const viewer=activeQuestionViewer();if(!viewer)return;
         if(viewer.key==='jbl-all'){window.RespiratoryStudy.random();return;}
         const state=viewerState(viewer.key);state.randomEnabled=!state.randomEnabled;state.index=0;
+        state.jblRandomGroups={};
         clearJblRandomOrder(state);viewer.rerender();
       },
       context:()=>({hash:location.hash, courses:courses.map(c=>({id:c.id,title:c.title,professor:c.professor})),
