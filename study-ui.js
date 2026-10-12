@@ -168,16 +168,31 @@
     window.RespiratoryTheme.syncButtons();setScale(scale);
   }
   function positionTools() {
-    const edge=12, viewportWidth=window.innerWidth, viewportHeight=window.innerHeight;
-    const top=Math.max(edge,Math.min(shell.getBoundingClientRect().bottom+8,viewportHeight-84));
-    const right=Math.max(edge,Math.min(viewportWidth-tools.getBoundingClientRect().right,viewportWidth-edge));
+    // Fixed-position coordinates use the layout viewport; the visible viewport can
+    // be smaller or offset by a keyboard, browser chrome, zoom, or device rotation.
+    const edge=12, layoutWidth=document.documentElement.clientWidth||window.innerWidth;
+    const viewport=window.visualViewport;
+    const viewportLeft=viewport?.offsetLeft||0, viewportTop=viewport?.offsetTop||0;
+    const viewportWidth=viewport?.width||layoutWidth, viewportHeight=viewport?.height||window.innerHeight;
+    const style=getComputedStyle(dialog);
+    const safe=side=>Math.max(0,parseFloat(style.getPropertyValue('--study-center-safe-'+side))||0);
+    const leftBound=viewportLeft+Math.max(edge,safe('left'));
+    const rightBound=viewportLeft+viewportWidth-Math.max(edge,safe('right'));
+    const topBound=viewportTop+Math.max(edge,safe('top'));
+    const bottomBound=viewportTop+viewportHeight-Math.max(edge,safe('bottom'));
+    const width=Math.min(460,Math.max(0,rightBound-leftBound));
+    const anchorRight=Math.max(leftBound+width,Math.min(tools.getBoundingClientRect().right,rightBound));
+    const top=Math.max(topBound,Math.min(shell.getBoundingClientRect().bottom+8,bottomBound-84));
+    const right=layoutWidth-anchorRight;
     dialog.style.setProperty('--study-center-top',top+'px');
     dialog.style.setProperty('--study-center-right',right+'px');
+    dialog.style.setProperty('--study-center-width',width+'px');
+    dialog.style.setProperty('--study-center-max-height',Math.max(0,bottomBound-top)+'px');
   }
   function prepare(opener) {
     stopClosing();
     shell.classList.remove('search-open');sourceScroll=window.scrollY;returnFocus=opener||tools;
-    renderTools();positionTools();
+    renderTools();positionTools();dialog.scrollTop=0;
     reveal(0,true);
     // Non-modal preview preserves the header's pointer capture throughout a pull.
     dialog.setAttribute('data-preview','');
@@ -244,5 +259,9 @@
   document.addEventListener('keydown',e=>{if(e.key==='Escape')shell.classList.remove('search-open');});
   document.addEventListener('click',e=>{if(shell.classList.contains('search-open')&&!shell.contains(e.target))shell.classList.remove('search-open');});
   window.addEventListener('hashchange',()=>close());window.addEventListener('popstate',()=>close());
-  window.addEventListener('resize',()=>{if(dialog.open)positionTools();});
+  const repositionTools=()=>{if(dialog.open||dialog.hasAttribute('data-preview'))positionTools();};
+  window.addEventListener('resize',repositionTools,{passive:true});
+  window.visualViewport?.addEventListener('resize',repositionTools,{passive:true});
+  window.visualViewport?.addEventListener('scroll',repositionTools,{passive:true});
+  new ResizeObserver(repositionTools).observe(shell);
 })();
