@@ -270,3 +270,141 @@ document.addEventListener('keydown',event => {
   setLectureStudyExpanded(byId(Number(workspace.dataset.lectureCourse)), '');
   workspace.querySelector('[data-lecture-expand="' + pane + '"]')?.focus({preventScroll:true});
 });
+// One question/answer workspace for standalone, course and linked J viewers.
+// The original viewer stays intact behind it; both cards share its answer state.
+const questionExplanationViewers = new WeakMap();
+const questionExplanationState = { active:false, rendering:false, split:null };
+
+function openQuestionExplanationSplit(state, question, rerender) {
+  const viewer = questionExplanationViewers.get(state);
+  if (!viewer || !question || state.editing) return;
+  if (questionExplanationState.active) closeQuestionExplanationSplit(false);
+  const split = document.createElement('div');
+  split.className = 'context-link-split jbl-explanation-split';
+  split.setAttribute('role','group');
+  split.setAttribute('aria-label','문제와 해설 나란히 보기');
+  split.innerHTML = `<section class="context-link-source jbl-explanation-question" aria-label="문제"><div data-explanation-question-root></div><nav class="context-question-nav" data-explanation-question-nav aria-label="문항 탐색"></nav></section><aside class="context-link-target" aria-label="해설"><header class="context-link-head" title="더블클릭으로 전체화면 전환"><strong class="context-link-title">${escapeHtml(question.displayId)} 해설</strong><div class="context-link-controls"><button class="context-link-control context-link-expand" type="button" data-explanation-expand aria-label="해설 전체화면으로 확대" aria-pressed="false">−</button><button class="context-link-control context-link-close" type="button" data-explanation-close aria-label="해설 닫기">×</button></div></header><div class="context-link-body" data-explanation-body tabindex="-1"></div></aside>`;
+  const suspended = [document.querySelector('main'), contextLinkState.active ? contextLinkState.target : null]
+    .filter(Boolean).map(element => ({element,inert:element.inert,hidden:element.getAttribute('aria-hidden')}));
+  for (const {element} of suspended) {
+    element.inert = true;
+    element.setAttribute('aria-hidden','true');
+    element.setAttribute('data-explanation-suspended','');
+  }
+  Object.assign(questionExplanationState,{active:true,rendering:false,split,state,question,viewer,rerender,suspended,
+    expanded:false,root:split.querySelector('[data-explanation-question-root]'),nav:split.querySelector('[data-explanation-question-nav]'),
+    body:split.querySelector('[data-explanation-body]'),revision:0});
+  document.body.append(split);
+  document.body.classList.add('jbl-explanation-open');
+  split.querySelector('[data-explanation-close]').addEventListener('click',()=>closeQuestionExplanationSplit());
+  split.querySelector('[data-explanation-expand]').addEventListener('click',toggleQuestionExplanationExpanded);
+  split.querySelector('.context-link-head').addEventListener('dblclick',event=>{
+    if (event.target.closest('button,a,input,textarea,select')) return;
+    event.preventDefault();toggleQuestionExplanationExpanded();
+  });
+  syncQuestionExplanationSplit();
+  split.querySelector('[data-explanation-close]').focus({preventScroll:true});
+}
+
+function syncQuestionExplanationSplit() {
+  const panel = questionExplanationState;
+  if (!panel.active || panel.rendering) return;
+  const viewer = questionExplanationViewers.get(panel.state);
+  const current = viewer?.questions[panel.state.index];
+  if (!current || current.id !== panel.question.id || !panel.state.explanationShown[current.id] || panel.state.editing) {
+    closeQuestionExplanationSplit(false, !current || current.id !== panel.question.id || Boolean(panel.state.editing), false);
+    return;
+  }
+  panel.viewer = viewer;
+  panel.rendering = true;
+  const scroll = panel.root.scrollTop, answerScroll = panel.body.scrollTop;
+  try {
+    renderQuestionCard(panel.root,viewer.questions,viewer.key,viewer.rerender);
+    // Duplicate preview IDs must never shadow the live editor or Wiki anchors.
+    namespaceContextPreviewIds(panel.root,`explanation-question-${++panel.revision}`);
+    panel.body.innerHTML = questionExplanationMarkup(current);
+    namespaceContextPreviewIds(panel.body,`explanation-answer-${panel.revision}`);
+    bindWikiDocument(panel.body,byId(current.lectureIds?.[0]) || emptyRenderCourse);
+    const context = viewer.key.startsWith('context-link-question-');
+    const position = context ? contextQuestionPosition(contextLinkState.stack.at(-1)) : null;
+    const questions = context ? position.numbers.map(n=>jblQuestions.find(q=>q.globalNumber===n)) : viewer.questions;
+    panel.nav.innerHTML = navMarkup({...panel.state,index:context ? position.index : panel.state.index},questions);
+    panel.nav.querySelector('[data-jbl-explanation]').addEventListener('click',()=>closeQuestionExplanationSplit());
+    panel.nav.querySelector('[data-jbl-prev]').addEventListener('click',()=>moveQuestionExplanation(-1));
+    panel.nav.querySelector('[data-jbl-next]').addEventListener('click',()=>moveQuestionExplanation(1));
+    panel.root.scrollTop = scroll;
+    panel.body.scrollTop = answerScroll;
+  } finally { panel.rendering = false; }
+}
+
+function closeQuestionExplanationSplit(restoreFocus = true, conceal = true, rerender = true) {
+  const panel = questionExplanationState;
+  if (!panel.active) return;
+  const {state,question,viewer,suspended,split} = panel;
+  panel.active = false;
+  if (conceal) {
+    state.answerShown[question.id] = false;
+    state.explanationShown[question.id] = false;
+    (state.feedbackHidden ||= {})[question.id] = true;
+  }
+  hideWikiFootnotePreview();
+  for (const {element,inert,hidden} of suspended) {
+    element.inert = inert;
+    if (hidden == null) element.removeAttribute('aria-hidden');
+    else element.setAttribute('aria-hidden',hidden);
+    element.removeAttribute('data-explanation-suspended');
+  }
+  split.remove();
+  document.body.classList.remove('jbl-explanation-open');
+  Object.assign(panel,{split:null,root:null,body:null,nav:null,viewer:null,state:null,question:null,suspended:[],expanded:false});
+  if (rerender) viewer.rerender();
+  if (restoreFocus) {
+    const nav = viewer.key.startsWith('context-link-question-') ? contextLinkState.nav
+      : document.querySelector(viewer.key==='jbl-all' ? '#jbl-standalone .jbl-bottom-inner' : '[data-course-j-nav]');
+    nav?.querySelector('[data-jbl-explanation]')?.focus({preventScroll:true});
+  }
+}
+
+function moveQuestionExplanation(direction) {
+  const panel = questionExplanationState;
+  if (!panel.active || ![-1,1].includes(direction)) return;
+  const {viewer,state} = panel;
+  if (viewer.key.startsWith('context-link-question-')) {
+    const {numbers,index}=contextQuestionPosition(contextLinkState.stack.at(-1));
+    if (index+direction<0 || index+direction>=numbers.length) return;
+    closeQuestionExplanationSplit(false);
+    moveContextWikiQuestion(direction);
+  } else {
+    if (state.index+direction<0 || state.index+direction>=viewer.questions.length) return;
+    closeQuestionExplanationSplit(false);
+    state.index+=direction;
+    // Moving never reveals the following answer automatically.
+    const next=viewer.questions[state.index];
+    state.answerShown[next.id]=false;state.explanationShown[next.id]=false;
+    viewer.rerender();scrollCurrentQuestionToTop(viewer.key);
+  }
+}
+
+function toggleQuestionExplanationExpanded() {
+  const panel=questionExplanationState;
+  if (!panel.active) return;
+  panel.expanded=!panel.expanded;
+  panel.split.classList.toggle('is-expanded',panel.expanded);
+  const source=panel.split.querySelector('.context-link-source');
+  source.inert=panel.expanded;
+  source.setAttribute('aria-hidden',String(panel.expanded));
+  const button=panel.split.querySelector('[data-explanation-expand]');
+  button.setAttribute('aria-pressed',String(panel.expanded));
+  button.setAttribute('aria-label',panel.expanded ? '문제와 해설 분할 화면으로 돌아가기' : '해설 전체화면으로 확대');
+}
+
+function handleQuestionExplanationShortcut(event) {
+  if (event.defaultPrevented || event.repeat || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  if (document.querySelector('dialog[open],.wiki-section-editor-overlay,#jbl-image-modal.show')) return;
+  if (event.target.closest?.('input,textarea,select,[contenteditable="true"]')) return;
+  if (event.key==='Escape') {event.preventDefault();closeQuestionExplanationSplit();return;}
+  if (event.target.closest?.('button,a') && !event.target.closest('[data-explanation-question-nav]')) return;
+  if (event.code==='Space') {event.preventDefault();closeQuestionExplanationSplit();}
+  else if (event.key==='ArrowLeft' || event.key==='ArrowRight') {event.preventDefault();moveQuestionExplanation(event.key==='ArrowRight'?1:-1);}
+}
+

@@ -456,3 +456,21 @@ body.study-ui:not(.context-link-open) .lecture-workspace:not([data-expanded="wik
 @media(prefers-reduced-motion:reduce) { .study-ui .detail-bar.is-recalled { animation:none; } }
 /* Short lecture questions still need enough document height for top alignment. */
 body.study-ui.lecture-j-active:not(.context-link-open) .lecture-j-pane { min-height:calc(100dvh - var(--study-header-height,48px) - 62px - env(safe-area-inset-bottom,0px)); }
+/* The same two-pane family as linked content, never a third column inside it. */
+body.jbl-explanation-open { overflow:hidden; }
+.study-ui .jbl-explanation-split { z-index:4100; }
+.study-ui .jbl-explanation-question { display:grid; grid-template-rows:minmax(0,1fr) auto; overflow:hidden; }
+.study-ui [data-explanation-question-root] { min-height:0; min-width:0; overflow:auto; overscroll-behavior:contain; padding:12px 12px 10px; }
+.study-ui .jbl-explanation-split .jbl-card { margin:0; }
+.study-ui .jbl-explanation-split [data-explanation-body] { grid-row:2 / -1; }
+.study-ui .jbl-explanation-split .jbl-explanation { margin:0; padding:14px 16px; min-width:0; }
+.study-ui .jbl-explanation-split .jbl-answer-box { margin-top:0; margin-bottom:14px; }
+.study-ui .jbl-explanation-split .jbl-page-block figure { margin:0; }
+.study-ui .jbl-explanation-split.is-expanded .jbl-explanation-question { display:none; }
+.study-ui .jbl-explanation-empty { color:var(--muted); }
+@media (orientation:portrait), (max-width:700px) {
+  .study-ui [data-explanation-question-root] { padding:8px; }
+  .study-ui .jbl-explanation-split .jbl-explanation { padding:12px; }
+}
+@media print { .jbl-explanation-split { display:none!important; } }
+
