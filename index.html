@@ -821,7 +821,7 @@
       transition: transform .15s ease, opacity .15s ease, background .15s ease;
     }
     .jbl-btn:hover { transform: translateY(-1px); }
-    .jbl-btn:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+    .jbl-btn:disabled, .jbl-btn[aria-disabled="true"] { opacity: .45; cursor: not-allowed; transform: none; }
     .jbl-btn-primary { background: #261320; color: #fff; }
     .jbl-btn-sub { background: #fff; color: #55334a; border: 1px solid #e1cbda; }
     .jbl-card { overflow: hidden; }
@@ -3744,7 +3744,25 @@
       const previous = context ? 'data-context-question-prev' : 'data-jbl-prev';
       const next = context ? 'data-context-question-next' : 'data-jbl-next';
       const shown = Boolean(question && state.explanationShown[question.id]);
-      return `<button class="jbl-btn jbl-btn-primary jbl-nav-explanation" type="button" data-jbl-explanation aria-pressed="${shown}" ${!question || editing || wikiCard ? 'disabled' : ''}>${shown ? '해설 닫기' : '해설 보기'}</button><div class="jbl-nav-pages"><button class="jbl-btn jbl-btn-primary jbl-nav-previous" type="button" ${previous} aria-label="이전 문제" ${!question || state.index <= 0 || editing ? 'disabled' : ''}><span class="jbl-nav-arrow" aria-hidden="true">← </span>이전 문제</button><span class="jbl-counter">${questions.length ? state.index + 1 : 0} / ${questions.length}</span><button class="jbl-btn jbl-btn-primary jbl-nav-next" type="button" ${next} aria-label="다음 문제" ${!question || state.index >= questions.length - 1 || editing ? 'disabled' : ''}>다음 문제<span class="jbl-nav-arrow" aria-hidden="true"> →</span></button></div>`;
+      // Native disabled buttons can bypass iOS fast-tap handling. Keep these
+      // controls touchable; aria-disabled and the guarded handlers block navigation.
+      const previousBlocked = Boolean(!question || state.index <= 0 || editing);
+      const nextBlocked = Boolean(!question || state.index >= questions.length - 1 || editing);
+      return `<button class="jbl-btn jbl-btn-primary jbl-nav-explanation" type="button" data-jbl-explanation aria-pressed="${shown}" ${!question || editing || wikiCard ? 'disabled' : ''}>${shown ? '해설 닫기' : '해설 보기'}</button><div class="jbl-nav-pages"><button class="jbl-btn jbl-btn-primary jbl-nav-previous" type="button" ${previous} aria-label="이전 문제" aria-disabled="${previousBlocked}" ${previousBlocked ? 'tabindex="-1"' : ''}><span class="jbl-nav-arrow" aria-hidden="true">← </span>이전 문제</button><span class="jbl-counter">${questions.length ? state.index + 1 : 0} / ${questions.length}</span><button class="jbl-btn jbl-btn-primary jbl-nav-next" type="button" ${next} aria-label="다음 문제" aria-disabled="${nextBlocked}" ${nextBlocked ? 'tabindex="-1"' : ''}>다음 문제<span class="jbl-nav-arrow" aria-hidden="true"> →</span></button></div>`;
+    }
+
+    function bindQuestionPageNav(container, move) {
+      for (const [selector, direction] of [['[data-jbl-prev], [data-context-question-prev]', -1], ['[data-jbl-next], [data-context-question-next]', 1]]) {
+        const button = container.querySelector(selector);
+        if (!button) continue;
+        button.addEventListener('click', event => {
+          if (button.getAttribute('aria-disabled') === 'true') { event.preventDefault(); return; }
+          move(direction);
+        });
+        // Scope the fallback to page buttons; leave pinch zoom and header
+        // double-click expansion alone.
+        button.addEventListener('dblclick', event => event.preventDefault());
+      }
     }
 
     function scrollCurrentQuestionToTop(key) {
@@ -3769,8 +3787,13 @@
 
     function bindViewerNav(container, questions, key, rerender) {
       const state = viewerState(key);
-      container.querySelector('[data-jbl-prev]')?.addEventListener('click', () => { state.index -= 1; rerender(); scrollCurrentQuestionToTop(key); });
-      container.querySelector('[data-jbl-next]')?.addEventListener('click', () => { state.index += 1; rerender(); scrollCurrentQuestionToTop(key); });
+      bindQuestionPageNav(container, direction => {
+        const question = questions[state.index], next = state.index + direction;
+        if (!question || state.editing === question.id || next < 0 || next >= questions.length) return;
+        state.index = next;
+        rerender();
+        scrollCurrentQuestionToTop(key);
+      });
       container.querySelector('[data-jbl-explanation]')?.addEventListener('click', () => toggleQuestionExplanation(state, questions[state.index], rerender));
     }
 
@@ -4920,8 +4943,7 @@
       const state = viewerState(`context-link-question-${questions[index].id}`);
       nav.setAttribute('aria-label', target.wikiSequence ? '이 Wiki의 연결 문항 탐색' : '고유번호순 문항 탐색');
       nav.innerHTML = navMarkup({...state, index}, questions, true);
-      nav.querySelector('[data-context-question-prev]').addEventListener('click', () => moveContextWikiQuestion(-1));
-      nav.querySelector('[data-context-question-next]').addEventListener('click', () => moveContextWikiQuestion(1));
+      bindQuestionPageNav(nav, moveContextWikiQuestion);
       nav.querySelector('[data-jbl-explanation]').addEventListener('click', () => {
         const viewer = contextLinkState.body?.querySelector('[data-context-question-root]')?.questionViewer;
         if (viewer) toggleQuestionExplanation(viewerState(viewer.key), viewer.questions[0], viewer.rerender);
@@ -4939,8 +4961,8 @@
       // Only the right/bottom pane resets to the new question; the source Wiki stays put.
       if (focusInNav) {
         const action = direction > 0 ? 'next' : 'prev';
-        const button = contextLinkState.nav.querySelector(`[data-context-question-${action}]:not(:disabled)`)
-          || contextLinkState.nav.querySelector('button:not(:disabled)');
+        const button = contextLinkState.nav.querySelector(`[data-context-question-${action}]:not([aria-disabled="true"])`)
+          || contextLinkState.nav.querySelector('button:not(:disabled):not([aria-disabled="true"])');
         button?.focus({ preventScroll:true });
       }
       return true;

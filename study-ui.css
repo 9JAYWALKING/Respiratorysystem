@@ -465,6 +465,8 @@ html:not([data-theme="dark"]) .study-ui .study-answer-status.is-correct { color:
 button.study-filter-icon{cursor:pointer}
 .study-filter-icon[aria-pressed="true"],.study-random-toggle[aria-pressed="true"] .study-filter-icon{background:#65405f;color:#fff;border-color:#65405f}
 .study-random-toggle{display:flex;align-items:center;gap:10px;margin-top:14px;padding:0;border:0;background:transparent;color:inherit;font:inherit;font-size:14px;cursor:pointer}
+.study-gesture-toggle[data-enabled="true"] .study-filter-icon{background:#65405f;color:#fff;border-color:#65405f}
+html[data-study-gestures="off"] .study-ui :is(.masthead-inner,.detail-bar,.detail-topline,.study-center-grip){touch-action:manipulation}
 .study-filter-icon:focus-visible,.study-random-toggle:focus-visible{outline:2px solid #a4769c;outline-offset:3px}
 /* App launcher: familiar icons, concise labels, personal utilities in a dock. */
 .study-ui #quick-start-root .study-app-grid { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px 24px;max-width:920px;margin:36px auto 0;padding:12px 8px; }

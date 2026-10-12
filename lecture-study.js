@@ -1,3 +1,22 @@
+/* One local preference for custom swipes and question explanation double taps. */
+window.RespiratoryGestures = (() => {
+  const key = 'respiratory-gestures-enabled-v1';
+  let enabled = true;
+  try { enabled = localStorage.getItem(key) !== 'false'; } catch (_) {}
+  const apply = () => { document.documentElement.dataset.studyGestures = enabled ? 'on' : 'off'; };
+  function setEnabled(value, persist = true) {
+    enabled = Boolean(value);
+    if (persist) { try { localStorage.setItem(key,String(enabled)); } catch (_) {} }
+    apply();
+    document.dispatchEvent(new CustomEvent('study-gestures-change',{detail:{enabled}}));
+  }
+  apply();
+  window.addEventListener('storage',event => {
+    if (event.key === key || event.key === null) setEnabled(event.newValue !== 'false',false);
+  });
+  return {isEnabled:()=>enabled,setEnabled};
+})();
+
 /* Keep both reading states mounted, but show only the selected lecture tab. */
 const lectureStudyStates = new Map();
 function scrollLectureStudyQuestion(pane) {
@@ -316,6 +335,7 @@ function bindLectureTabSwipe(bar, course) {
     if (gesture) release(gesture.id);
   };
   const down = event => {
+    if (!window.RespiratoryGestures.isEnabled()) { cancel(); return; }
     if (event.isPrimary === false) { cancel(); return; }
     if ((event.button != null && event.button !== 0) || event.target.closest('input,select,textarea,[contenteditable="true"]')) return;
     cancel();
@@ -324,6 +344,7 @@ function bindLectureTabSwipe(bar, course) {
     start = {id:event.pointerId,x:event.clientX,y:event.clientY,horizontal:false};
   };
   const move = event => {
+    if (!window.RespiratoryGestures.isEnabled()) { cancel(); return; }
     if (!start || event.pointerId !== start.id) return;
     const dx = Math.abs(event.clientX-start.x), dy = Math.abs(event.clientY-start.y);
     // Keep a small undecided zone for natural diagonal starts. Clear vertical
@@ -349,6 +370,7 @@ function bindLectureTabSwipe(bar, course) {
     }
   };
   const up = event => {
+    if (!window.RespiratoryGestures.isEnabled()) { cancel(); return; }
     if (!start || event.pointerId !== start.id) return;
     const gesture = start; start = null;
     resetPreview();
@@ -378,6 +400,8 @@ function bindLectureTabSwipe(bar, course) {
       event.preventDefault();event.stopImmediatePropagation();
     }
   };
+  const preferenceChanged = () => { cancel(); suppressClickUntil = 0; };
+  document.addEventListener('study-gestures-change',preferenceChanged);
   bar.addEventListener('pointerdown',down);
   bar.addEventListener('pointermove',move);
   bar.addEventListener('pointerup',up);
@@ -386,6 +410,7 @@ function bindLectureTabSwipe(bar, course) {
   bar.addEventListener('click',click,true);
   bar._lectureSwipeCleanup = () => {
     cancel();
+    document.removeEventListener('study-gestures-change',preferenceChanged);
     bar.removeEventListener('pointerdown',down);bar.removeEventListener('pointermove',move);
     bar.removeEventListener('pointerup',up);bar.removeEventListener('pointercancel',cancel);
     bar.removeEventListener('lostpointercapture',cancel);bar.removeEventListener('click',click,true);
@@ -520,8 +545,7 @@ function syncQuestionExplanationSplit() {
     const questions = context ? position.numbers.map(n=>jblQuestions.find(q=>q.globalNumber===n)) : viewer.questions;
     panel.nav.innerHTML = navMarkup({...panel.state,index:context ? position.index : panel.state.index},questions);
     panel.nav.querySelector('[data-jbl-explanation]').addEventListener('click',()=>closeQuestionExplanationSplit());
-    panel.nav.querySelector('[data-jbl-prev]').addEventListener('click',()=>moveQuestionExplanation(-1));
-    panel.nav.querySelector('[data-jbl-next]').addEventListener('click',()=>moveQuestionExplanation(1));
+    bindQuestionPageNav(panel.nav,moveQuestionExplanation);
     panel.root.scrollTop = scroll;
     panel.body.scrollTop = answerScroll;
   } finally { panel.rendering = false; }
@@ -601,4 +625,134 @@ function handleQuestionExplanationShortcut(event) {
   if (event.code==='Space') {event.preventDefault();closeQuestionExplanationSplit();}
   else if (event.key==='ArrowLeft' || event.key==='ArrowRight') {event.preventDefault();moveQuestionExplanation(event.key==='ArrowRight'?1:-1);}
 }
+
+// Question gestures are separate from the lecture title's Wiki/J/JBL swipe.
+// Touch Events let us cancel only an intentional horizontal drag, without
+// disabling native vertical scrolling, pinch zoom, or scrollable tables.
+(function bindQuestionGestures() {
+  const excluded = 'button,a,input,select,textarea,label,summary,[role="button"],[contenteditable],img,video,canvas,iframe,table,pre,nav,.jbl-editor,.wiki-section-editor,.context-link-head,.lecture-pane-head,.jbl-topbar';
+  const surfaces = '[data-jbl-choice-viewer],.jbl-card,.jbl-card-head,.jbl-card-body,.jbl-choices,.jbl-meta,.jbl-meta-right,.jbl-author-source,.jbl-page-block,.jbl-passage,.jbl-passage-text,.jbl-wrap,#jbl-standalone,#jbl-view,[data-course-j-host],.lecture-j-pane,.context-link-body,.context-link-target,.jbl-explanation-question,[data-explanation-body]';
+  const scopes = '[data-jbl-choice-viewer],.jbl-wrap,#jbl-standalone,#jbl-view,[data-course-j-host],.lecture-j-pane,.context-link-body,.context-link-target,.jbl-explanation-question';
+  let gesture = null, lastTap = null, touchDoubleUntil = 0, pendingClick = null;
+  const blocked = () => !window.RespiratoryGestures.isEnabled() || Boolean(document.querySelector('dialog[open],.wiki-section-editor-overlay,#jbl-image-modal.show'));
+  const selectedText = () => Boolean(window.getSelection?.()?.toString().trim());
+
+  function contextFor(target, blankOnly = false) {
+    if (!(target instanceof Element) || blocked() || selectedText()) return null;
+    if (target.closest(excluded+', [hidden], [inert], [aria-hidden="true"], .is-closing')) return null;
+    if (blankOnly && !target.matches(surfaces)) return null;
+    let root = target.closest('[data-jbl-choice-viewer]');
+    if (!root && target.closest('[data-explanation-body]') && questionExplanationState.active) root = questionExplanationState.root;
+    if (!root && target.matches(surfaces)) root = target.closest(scopes)?.querySelector('[data-jbl-choice-viewer]');
+    if (!root?.isConnected || root.closest('[hidden],[inert],[aria-hidden="true"]')) return null;
+    const viewer = root.questionViewer, state = viewer && viewerState(viewer.key);
+    const question = viewer?.questions[state?.index];
+    if (!question || state.editing) return null;
+    let nav;
+    if (root.hasAttribute('data-explanation-question-root')) nav = questionExplanationState.nav;
+    else if (viewer.key.startsWith('context-link-question-')) nav = contextLinkState.nav;
+    else if (viewer.key === 'jbl-all') nav = root.closest('#jbl-standalone')?.querySelector('.jbl-bottom-inner');
+    else nav = root.closest('.lecture-j-pane')?.querySelector('[data-course-j-nav]');
+    return nav ? {root, viewer, state, question, nav, id:viewer.key+':'+question.id} : null;
+  }
+
+  function perform(context, direction = 0) {
+    if (!context || !context.root.isConnected || blocked() || selectedText() || context.state.editing) return false;
+    if (context.root.closest('[hidden],[inert],[aria-hidden="true"],.is-closing') || context.viewer.questions[context.state.index]?.id !== context.question.id) return false;
+    const selector = direction < 0 ? '[data-jbl-prev],[data-context-question-prev]'
+      : direction > 0 ? '[data-jbl-next],[data-context-question-next]' : '[data-jbl-explanation]';
+    const button = context.nav.querySelector(selector);
+    if (!button || button.disabled || button.getAttribute('aria-disabled') === 'true') return false;
+    // Use the existing controls to preserve Wiki order, filters, answer state,
+    // scroll restoration, and the split pane's opening/closing animation.
+    button.click();
+    return true;
+  }
+
+  function horizontallyScrollable(target) {
+    for (let node = target; node instanceof Element && node !== document.body; node = node.parentElement) {
+      if (node.scrollWidth > node.clientWidth + 2 && /auto|scroll/.test(getComputedStyle(node).overflowX)) return true;
+    }
+    return false;
+  }
+  const cancel = () => { gesture = null; lastTap = null; };
+  document.addEventListener('study-gestures-change',() => {
+    cancel(); pendingClick = null; touchDoubleUntil = 0;
+  });
+  const suppressCompatibilityClick = point => { pendingClick = {x:point.clientX,y:point.clientY,until:Date.now()+650}; };
+
+  document.addEventListener('dblclick', event => {
+    if (event.defaultPrevented || (event.button != null && event.button !== 0)) return;
+    const context = contextFor(event.target,true);
+    if (!context) return;
+    event.preventDefault();
+    // Some browsers also synthesize dblclick after our two touchend events.
+    if (Date.now() < touchDoubleUntil) return;
+    perform(context);
+  });
+
+  document.addEventListener('touchstart', event => {
+    pendingClick = null; // A fresh intentional tap must work immediately.
+    if (event.defaultPrevented || event.touches.length !== 1) { cancel(); return; }
+    const context = contextFor(event.target);
+    if (!context || horizontallyScrollable(event.target)) { cancel(); return; }
+    const point = event.touches[0];
+    // Leave the iOS screen-edge history gesture alone.
+    if (point.clientX < 24 || point.clientX > window.innerWidth-24) { cancel(); return; }
+    gesture = {context,target:event.target,touchId:point.identifier,x:point.clientX,y:point.clientY,
+      time:Date.now(),maxDistance:0,horizontal:false,blank:Boolean(contextFor(event.target,true))};
+  },{passive:true});
+
+  document.addEventListener('touchmove', event => {
+    if (!gesture) return;
+    if (event.touches.length !== 1 || event.defaultPrevented || selectedText()) { cancel(); return; }
+    const point = event.touches[0];
+    if (point.identifier !== gesture.touchId) { cancel(); return; }
+    const dx = Math.abs(point.clientX-gesture.x), dy = Math.abs(point.clientY-gesture.y);
+    gesture.maxDistance = Math.max(gesture.maxDistance,dx,dy);
+    if (!gesture.horizontal && dy >= 12 && dy >= dx) { cancel(); return; }
+    if (!gesture.horizontal && dx >= 14 && dx > dy*1.5) { gesture.horizontal = true; lastTap = null; }
+    if (gesture.horizontal) {
+      if (dy > Math.max(64,dx)) { cancel(); return; }
+      if (!event.cancelable) { cancel(); return; }
+      event.preventDefault();
+    }
+  },{passive:false});
+
+  document.addEventListener('touchend', event => {
+    const finished = gesture; gesture = null;
+    if (!finished) return;
+    const point = Array.from(event.changedTouches).find(touch => touch.identifier === finished.touchId);
+    if (!point || event.touches.length || event.defaultPrevented || selectedText()) { lastTap = null; return; }
+    const context = contextFor(finished.target);
+    if (!context || context.id !== finished.context.id || context.root !== finished.context.root) { lastTap = null; return; }
+    const dx = point.clientX-finished.x, dy = point.clientY-finished.y;
+    const distance = Math.max(Math.abs(dx),Math.abs(dy),finished.maxDistance);
+    if (finished.horizontal) {
+      lastTap = null;
+      if (event.cancelable) event.preventDefault();
+      suppressCompatibilityClick(point);
+      // Deliberate slow swipes count too; speed is not a requirement.
+      if (Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy)*1.35) perform(context,dx > 0 ? 1 : -1);
+      return;
+    }
+    if (!finished.blank || distance > 10 || Date.now()-finished.time > 350) { lastTap = null; return; }
+    const now = Date.now();
+    if (lastTap && lastTap.id === context.id && now-lastTap.time <= 340 && Math.hypot(point.clientX-lastTap.x,point.clientY-lastTap.y) <= 28) {
+      lastTap = null; touchDoubleUntil = now+650;
+      if (event.cancelable) event.preventDefault();
+      suppressCompatibilityClick(point);
+      perform(context);
+    } else lastTap = {id:context.id,time:now,x:point.clientX,y:point.clientY};
+  },{passive:false});
+
+  document.addEventListener('touchcancel',cancel,{passive:true});
+  document.addEventListener('click',event => {
+    if (!pendingClick || event.detail === 0) return;
+    const pending = pendingClick; pendingClick = null;
+    if (Date.now() <= pending.until && Math.hypot(event.clientX-pending.x,event.clientY-pending.y) <= 40) {
+      event.preventDefault();event.stopImmediatePropagation();
+    }
+  },true);
+})();
 
