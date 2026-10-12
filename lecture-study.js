@@ -733,7 +733,7 @@ function handleQuestionExplanationShortcut(event) {
       if (event.cancelable) event.preventDefault();
       suppressCompatibilityClick(point);
       // Deliberate slow swipes count too; speed is not a requirement.
-      if (Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy)*1.35) perform(context,dx > 0 ? 1 : -1);
+      if (Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy)*1.35) perform(context,dx < 0 ? 1 : -1);
       return;
     }
     if (!finished.blank || distance > 10 || Date.now()-finished.time > 350) { lastTap = null; return; }
