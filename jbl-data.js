@@ -4590,7 +4590,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         81
       ],
-      "question": "100%의 산소로 호흡을 하였을 때, AaO2의 값이 변하지 않는 신체 반응은 무엇인가?",
+      "question": "저산소혈증 환자에게 100% 산소를 투여해도 저산소혈증이 충분히 교정되지 않았다. 다음 중 가장 가능성이 높은 기전은?",
       "passage": "",
       "choices": [
         "hypoventilation",
@@ -4599,10 +4599,12 @@ window.JBL_DATA = {
         "physiological shunt",
         "FiO2 감소"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 불가 — 출제 의도 추정 4번",
-      "explanation": "정답: 정답 확정 불가 — 출제 의도 추정 4번\n\n'''출제 의도는 4번 physiological shunt로 보이지만, 현재 발문 그대로의 정답은 확정할 수 없다.''' 원복원본에도 ‘AaO2의 값이 변하지 않는’이라고 적혀 있다. 강의가 설명하는 것은 ‘산소 투여에도 PaO₂가 충분히 개선되지 않는 shunt’이지 ‘A–a 차이가 변하지 않는 shunt’가 아니다. 원문을 고치거나 4번을 확정 정답으로 등록하지 않고 두 지표의 차이를 남긴다.\n\n=== 이 문제를 풀기 위한 개념 ===\n산소 투여 반응은 ‘산소가 적게라도 도착하는 교환면인가, 혈액이 산소를 만나지 못하는가’로 구분한다. Low V/Q에서는 환기가 남아 있고 확산장애에서도 막을 통한 이동이 가능하므로, FiO₂를 높이면 산소분압차를 늘릴 수 있다. 반면 '''환기 0·관류 유지인 폐내 shunt'''나 해부학적 우좌 shunt의 혈액에는 고농도 산소가 직접 닿지 않는다.\n\n||= 원인 ||= 실내공기에서 A–a 차이 ||= 산소 투여 후 PaO₂ 반응 ||\n|| 낮은 흡기 O₂·순수 저환기 || 정상 범위 가능 || 개선 ||\n|| Low V/Q·확산장애 || 증가 || 대개 개선 ||\n|| 상당한 우좌 shunt·폐내 shunt || 증가 || 충분한 교정이 어려움 ||\n\n'''AaDO₂=PAO₂−PaO₂'''와 '''PaO₂ 자체'''는 같은 값이 아니다. FiO₂를 바꾸면 PAO₂도 크게 변하므로 ‘산소를 주어도 저산소혈증이 잘 교정되지 않는다’를 ‘A–a 차이가 수치상 그대로다’로 바꾸면 안 된다. 정상 범위 역시 FiO₂·연령 등의 조건에 따라 달라진다.\n\n=== 선지별 판단 ===\n* 1번: '''순수 저환기에서는 산소 투여로 PaO₂가 개선될 수 있다.''' 환기가 줄었을 뿐 혈액이 교환면을 만나지 못하는 것은 아니기 때문이다. 다만 A–a 차이는 애초에 정상일 수 있어, 이 선지를 ‘산소에 반응하므로 A–a 차이가 반드시 변한다’는 논리로 배제할 수는 없다.\n* 2번: '''확산장애에서는 높은 폐포 O₂가 확산 구동력을 높여 산소화를 개선'''한다. 따라서 ‘고농도 산소에도 저산소혈증이 잘 교정되지 않는 기전’의 대표 답은 아니다. PaO₂ 개선과 A–a 차이의 수치 변화는 별도로 판단해야 한다.\n* 3번: '''V/Q mismatch가 증가했다는 취지'''로 읽으면 환기·관류 불균등에 의한 저산소혈증이다. 환기가 남은 저 V/Q 단위에는 추가 산소가 도착하므로 대개 반응한다. 완전 환기 차단인 V/Q=0은 shunt로 구분한다.\n* 4번: '''환기가 없는 폐포를 지나는 혈액에는 추가 산소가 닿지 않는다.''' 이 때문에 상당한 physiological shunt에서 저산소혈증이 충분히 교정되지 않는다는 출제 의도는 타당하다. 그러나 산소 농도를 높이면 PAO₂도 변하므로 ‘AaDO₂가 그대로’라는 문장을 이 사실로 정당화할 수는 없다.\n* 5번: '''낮은 FiO₂에 의한 저산소혈증은 산소 공급으로 개선'''된다. 이는 교환면의 문제가 아니라 들어오는 산소가 적었던 경우다. 게다가 100% O₂ 투여는 FiO₂를 높이는 조작이므로 ‘FiO₂ 감소’를 그 조작 뒤의 반응으로 읽는 것도 맞지 않는다.\n\n[[3강#산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다|Wiki · 산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다]]\n~~근거: 39기 「폐의 환기 및 가스 교환」 44·45·47·48·50·55쪽.~~~",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — physiological shunt",
+      "explanation": "정답: '''4번 physiological shunt'''\n\n이 문제는 '''100% O₂에 대한 저산소혈증의 반응'''을 묻는다. 산소가 적게라도 들어가는 폐포라면 흡입 산소농도를 높여 산소화를 개선할 여지가 있다. 그러나 환기가 없는 폐포로 혈류만 흐르면, 그 혈액은 공급한 산소를 만나지 못한다. 강의록의 physiological shunt는 이처럼 '''V/Q=0인 폐내 shunt'''를 가리키므로, 상당한 shunt가 있을 때는 100% 산소를 주어도 저산소혈증이 충분히 교정되지 않는다.\n\n=== 저산소혈증을 구분하는 두 가지 축 ===\n먼저 '''AaDO₂가 정상인지 증가했는지'''로 산소가 적게 들어온 것과 가스교환의 문제를 나눈다. 이어서 '''산소 투여에 잘 반응하는지'''를 보면, 환기가 일부 남아 있는 low V/Q와 환기가 완전히 끊긴 shunt를 구분할 수 있다. 아래 표의 AaDO₂는 원인을 비교하는 기본 상태의 소견이며, 산소농도를 바꾸어도 그 수치가 그대로라는 뜻은 아니다.\n\n||= 원인 ||= PaO₂ ||= AaDO₂ ||= 100% O₂에 대한 반응·해석 ||\n|| Anatomic shunt || 감소 || 증가 || 표에는 ‘No significant change’. 교환면을 우회하는 혈액 때문에 충분한 교정이 어렵다. ||\n|| Decreased FiO₂ || 감소 || 정상 || PaO₂ 상승. 부족했던 흡입 산소를 보충한다. ||\n|| Physiological shunt || 감소 || 증가 || 표에는 ‘↓’. '''환기가 없는 폐포를 흐르는 혈액 때문에 저산소혈증이 남는다.''' ||\n|| Low V/Q ratio || 감소 || 증가 || PaO₂ 상승. 환기가 일부 남아 있어 추가 산소가 도달한다. ||\n|| Diffusion abnormality || 감소 || 증가 || PaO₂ 상승. 폐포와 혈액 사이 산소분압차를 높이면 확산이 개선된다. ||\n|| Hypoventilation || 감소 || 정상 || PaO₂ 상승. 산소화는 개선되지만 환기 저하 자체를 해결한 것은 아니다. ||\n\n~~39기 강의록 50쪽의 항목과 표기를 옮기고 기전 설명을 덧붙였다. Physiological shunt의 ‘↓’ 표기만으로 ‘산소를 투여하면 언제나 투여 전보다 PaO₂가 떨어진다’고 일반화하면 안 된다. 48쪽의 설명과 50쪽 그림을 함께 보면 핵심은 '''산소 투여에도 shunt 혈액의 산소화는 개선되지 않아 저산소혈증이 남는다'''는 것이다. 전체 동맥혈 PaO₂가 조금이라도 상승할 수 없다는 뜻도 아니다.~~~\n\n> '''순수 저환기·흡입 산소 부족: AaDO₂ 정상, 산소에 반응. Low V/Q·확산장애: AaDO₂ 증가, 산소에 반응. 상당한 shunt: AaDO₂ 증가, 산소만으로 충분한 교정이 어려움.''' ‘AaDO₂ 정상’과 ‘산소 투여 전후 AaDO₂가 불변’은 서로 다른 말이다.\n\n=== 선지별 해설 ===\n* '''1번 hypoventilation:''' 폐포환기가 줄어 PAO₂와 PaO₂가 낮아진 경우다. 순수 저환기라면 교환면 자체에는 문제가 없으므로 AaDO₂는 정상이고, FiO₂를 높이면 PaO₂는 개선된다. 다만 산소를 주었다고 CO₂ 배출 장애까지 해결된 것은 아니다.\n* '''2번 diffusion abnormal:''' 산소가 폐포에서 혈액으로 이동하기 어려운 상태지만, 이동 경로가 완전히 끊어진 것은 아니다. 산소를 공급하여 폐포 쪽 분압을 높이면 확산의 구동력이 커지므로 PaO₂가 상승할 수 있다.\n* '''3번 V/Q mismatch 상승:''' 이 선지는 V/Q 비 자체가 높다는 뜻이 아니라 '''환기·관류 불균등이 커졌다'''는 표현으로 읽는다. 저산소혈증을 일으키는 low V/Q 단위에도 환기가 일부 남아 있으므로 대개 추가 산소에 반응한다. 환기가 완전히 없는 V/Q=0은 이 문제에서 4번 shunt로 따로 구분한다.\n* '''4번 physiological shunt:''' 강의록에서는 환기 없이 관류만 유지되는 폐포를 가리킨다. 무기폐나 완전한 기도 폐쇄가 예가 될 수 있다. 정상적으로 환기되는 폐포에 산소를 더 공급해도 shunt 부위를 지나는 혈액에 직접 산소를 전달할 수 없으므로, 상당한 shunt에서는 저산소혈증을 충분히 교정하기 어렵다.\n* '''5번 FiO₂ 감소:''' 애초에 들이마시는 산소가 적어서 발생한 저산소혈증이다. 가스교환 장애가 동반되지 않았다면 AaDO₂는 정상이며, 산소농도를 높이는 것이 원인을 직접 교정하므로 PaO₂가 상승한다.\n\n=== 원본을 어떻게 수정했는가 ===\n원복원본의 발문은 ‘100%의 산소로 호흡을 하였을 때, AaO2의 값이 변하지 않는 신체 반응은 무엇인가?’이다. '''선지 다섯 개는 그대로 두고''', 발문만 ‘100% 산소를 투여해도 저산소혈증이 충분히 교정되지 않는 기전’으로 바꾸었다. 강의록의 비교표와 산소 투여 그림으로 풀 수 있도록 만든 '''학습용 변형'''이며, 원시험 발문을 확인하여 복구한 것은 아니다.\n\n원본의 AaO2를 AaDO₂로 읽으면 '''AaDO₂=PAO₂−PaO₂'''이므로, 산소농도를 높인 뒤 그 차이가 그대로라는 조건만으로 shunt를 확정할 수 없다. PaO₂의 산소 투여 반응과 AaDO₂가 혼동되어 복원되었을 가능성을 고려했다. 출제 의도는 산소에 대한 반응으로 shunt를 다른 저산소혈증 기전과 구분하는 것으로 추정하되, 이 추정을 원시험의 확정 사실로 제시하지 않는다. 수정 전 발문·선지·정답 판단·해설은 발문 앞 '''!''' 버튼에서 별도로 확인할 수 있다.\n\n[[3강#산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다|Wiki · 산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다]]\n~~근거: 39기 「폐의 환기 및 가스 교환」 44·47·48·50·53쪽. 산소 반응 및 AaDO₂ 해석 보충: [https://www.merckmanuals.com/professional/pulmonary-disorders/tests-of-pulmonary-function-pft/measurement-of-gas-exchange Merck Manual · Measurement of Gas Exchange].~~~",
       "images": [],
       "legacyProfessor": "이진영",
       "professor": "이진영",
@@ -4616,7 +4618,7 @@ window.JBL_DATA = {
       "domain": "",
       "discipline": "",
       "section": "",
-      "source": "2025 호흡기계 81번",
+      "source": "2025 호흡기계 81번 변형",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
       "originalNumberStatus": "reconstructed_number",
@@ -4627,21 +4629,105 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
+        "date": "2026-10-13",
         "basis": "39기 폐의 환기 및 가스 교환",
         "pages": [
           44,
-          45,
           47,
           48,
           50,
-          55
+          53
         ],
         "chapter": "산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다",
-        "answerStatus": "ambiguous_reconstruction",
+        "answerStatus": "lecture_supported_learning_variant",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "optionByOption": true
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-13T03:19:01.907Z",
+        "description": "학습용 변형 직전의 복원 문항과 해설을 그대로 보존",
+        "question": {
+          "id": "2025-081",
+          "recordId": "resp-2025-081",
+          "displayId": "81번",
+          "globalNumber": 81,
+          "year": 2025,
+          "sourceType": "족보",
+          "originalNumber": 81,
+          "originalNumbers": [
+            81
+          ],
+          "question": "100%의 산소로 호흡을 하였을 때, AaO2의 값이 변하지 않는 신체 반응은 무엇인가?",
+          "passage": "",
+          "choices": [
+            "hypoventilation",
+            "diffusion abnormal",
+            "V/Q mismatch 상승",
+            "physiological shunt",
+            "FiO2 감소"
+          ],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "정답 확정 불가 — 출제 의도 추정 4번",
+          "explanation": "정답: 정답 확정 불가 — 출제 의도 추정 4번\n\n'''출제 의도는 4번 physiological shunt로 보이지만, 현재 발문 그대로의 정답은 확정할 수 없다.''' 원복원본에도 ‘AaO2의 값이 변하지 않는’이라고 적혀 있다. 강의가 설명하는 것은 ‘산소 투여에도 PaO₂가 충분히 개선되지 않는 shunt’이지 ‘A–a 차이가 변하지 않는 shunt’가 아니다. 원문을 고치거나 4번을 확정 정답으로 등록하지 않고 두 지표의 차이를 남긴다.\n\n=== 이 문제를 풀기 위한 개념 ===\n산소 투여 반응은 ‘산소가 적게라도 도착하는 교환면인가, 혈액이 산소를 만나지 못하는가’로 구분한다. Low V/Q에서는 환기가 남아 있고 확산장애에서도 막을 통한 이동이 가능하므로, FiO₂를 높이면 산소분압차를 늘릴 수 있다. 반면 '''환기 0·관류 유지인 폐내 shunt'''나 해부학적 우좌 shunt의 혈액에는 고농도 산소가 직접 닿지 않는다.\n\n||= 원인 ||= 실내공기에서 A–a 차이 ||= 산소 투여 후 PaO₂ 반응 ||\n|| 낮은 흡기 O₂·순수 저환기 || 정상 범위 가능 || 개선 ||\n|| Low V/Q·확산장애 || 증가 || 대개 개선 ||\n|| 상당한 우좌 shunt·폐내 shunt || 증가 || 충분한 교정이 어려움 ||\n\n'''AaDO₂=PAO₂−PaO₂'''와 '''PaO₂ 자체'''는 같은 값이 아니다. FiO₂를 바꾸면 PAO₂도 크게 변하므로 ‘산소를 주어도 저산소혈증이 잘 교정되지 않는다’를 ‘A–a 차이가 수치상 그대로다’로 바꾸면 안 된다. 정상 범위 역시 FiO₂·연령 등의 조건에 따라 달라진다.\n\n=== 선지별 판단 ===\n* 1번: '''순수 저환기에서는 산소 투여로 PaO₂가 개선될 수 있다.''' 환기가 줄었을 뿐 혈액이 교환면을 만나지 못하는 것은 아니기 때문이다. 다만 A–a 차이는 애초에 정상일 수 있어, 이 선지를 ‘산소에 반응하므로 A–a 차이가 반드시 변한다’는 논리로 배제할 수는 없다.\n* 2번: '''확산장애에서는 높은 폐포 O₂가 확산 구동력을 높여 산소화를 개선'''한다. 따라서 ‘고농도 산소에도 저산소혈증이 잘 교정되지 않는 기전’의 대표 답은 아니다. PaO₂ 개선과 A–a 차이의 수치 변화는 별도로 판단해야 한다.\n* 3번: '''V/Q mismatch가 증가했다는 취지'''로 읽으면 환기·관류 불균등에 의한 저산소혈증이다. 환기가 남은 저 V/Q 단위에는 추가 산소가 도착하므로 대개 반응한다. 완전 환기 차단인 V/Q=0은 shunt로 구분한다.\n* 4번: '''환기가 없는 폐포를 지나는 혈액에는 추가 산소가 닿지 않는다.''' 이 때문에 상당한 physiological shunt에서 저산소혈증이 충분히 교정되지 않는다는 출제 의도는 타당하다. 그러나 산소 농도를 높이면 PAO₂도 변하므로 ‘AaDO₂가 그대로’라는 문장을 이 사실로 정당화할 수는 없다.\n* 5번: '''낮은 FiO₂에 의한 저산소혈증은 산소 공급으로 개선'''된다. 이는 교환면의 문제가 아니라 들어오는 산소가 적었던 경우다. 게다가 100% O₂ 투여는 FiO₂를 높이는 조작이므로 ‘FiO₂ 감소’를 그 조작 뒤의 반응으로 읽는 것도 맞지 않는다.\n\n[[3강#산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다|Wiki · 산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다]]\n~~근거: 39기 「폐의 환기 및 가스 교환」 44·45·47·48·50·55쪽.~~~",
+          "images": [],
+          "legacyProfessor": "이진영",
+          "professor": "이진영",
+          "examinerStatus": "peer_label_supported_not_official",
+          "examinerEvidence": "visible_margin_label",
+          "lectureIds": [
+            3
+          ],
+          "lectureId": 3,
+          "lectureTitle": "폐의환기 및 가스교환",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "source": "2025 호흡기계 81번",
+          "mappingConfidence": "high",
+          "classificationStatus": "assigned",
+          "originalNumberStatus": "reconstructed_number",
+          "questionFormat": "multiple_choice",
+          "sourceStatus": "numbered_reconstruction",
+          "parseMethod": "numbered",
+          "restorationNotes": [],
+          "imageProvenance": [],
+          "repeatFamilyIds": [],
+          "explanationReview": {
+            "date": "2026-10-12",
+            "basis": "39기 폐의 환기 및 가스 교환",
+            "pages": [
+              44,
+              45,
+              47,
+              48,
+              50,
+              55
+            ],
+            "chapter": "산소를 주어도 교환면을 우회한 혈액에는 닿지 않는다",
+            "answerStatus": "ambiguous_reconstruction",
+            "officialAnswerVerified": false,
+            "peerExplanationUsed": false,
+            "optionByOption": true
+          }
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-13",
+        "type": "learning_variant",
+        "changedFields": [
+          "question",
+          "answerIndex",
+          "answerIndices",
+          "answerLabel",
+          "source",
+          "explanation"
+        ],
+        "choicesPreserved": true,
+        "reason": "AaO2 불변이라는 불명확한 조건을 산소 투여에 대한 저산소혈증의 불충분한 교정으로 바꾸어 강의록 비교표로 풀 수 있게 함. 원시험의 확정 복구가 아님.",
+        "officialOriginalVerified": false
       }
     },
     {
@@ -39621,6 +39707,152 @@ window.JBL_DATA = {
         }
       ],
       "repeatFamilyIds": []
+    },
+    {
+      "id": "2026-lecture09-001",
+      "recordId": "resp-2026-lecture09-001",
+      "displayId": "644번",
+      "globalNumber": 644,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 1,
+      "question": "가장 가능성이 높은 중독 기전은?",
+      "passage": "52세 남자가 농약을 살포한 뒤 약 1시간 후 응급실에 내원하였다. 환자는 심한 발한과 침 분비 증가를 호소하였으며, 구토와 복통이 발생했다. 의식은 혼미하고 호흡이 가빠져 있었다.\n\n'''신체검사 소견'''\n* 혈압: 85/55 mmHg\n* 맥박: 48회/분\n* 호흡수: 28회/분\n* 동공: 양측 축동(miosis)\n* 피부: 차고 축축하며 발한이 심함\n* 폐: 다량의 기관지 분비물과 천명음\n* 신경학적 검사: 근섬유다발수축(fasciculation)과 근력 저하\n\n혈액검사에서 혈장 pseudocholinesterase 활성이 현저히 감소하였고, 적혈구 acetylcholinesterase 활성도 감소해 있었다.",
+      "choices": [
+        "무스카린 수용체의 비가역적 차단",
+        "아세틸콜린의 소포 내 저장 억제",
+        "아세틸콜린에스테레이스 억제에 따른 아세틸콜린 축적",
+        "니코틴 수용체의 경쟁적 차단",
+        "시냅스 전 신경말단에서 아세틸콜린 합성"
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 아세틸콜린에스테레이스 억제에 따른 아세틸콜린 축적",
+      "explanation": "'''정답: 3번, 아세틸콜린에스테레이스 억제에 따른 아세틸콜린 축적.'''\n\n=== 분비 증가와 근육 증상을 하나의 기전으로 연결한다 ===\n농약 노출 뒤 '''축동·서맥·침과 기관지 분비 증가'''가 함께 나타났고, 근섬유다발수축과 근력 저하도 동반되었다. 이 조합은 콜린성 과자극을 가리킨다. 강의에서 다루는 유기인제 중독은 AChE를 인산화하여 억제하므로, 이미 분비된 acetylcholine(ACh)이 분해되지 못하고 축적되는 것이 핵심이다. ACh를 새로 많이 합성하거나 수용체를 막아서 생기는 중독이 아니다.\n\n||= 증례의 소견 ||= 연결되는 작용 ||= 풀이에 필요한 구분 ||\n|| 축동, 서맥, 침 분비 증가 || Muscarinic 과자극 || 동공괄약근·심장·분비샘이 함께 반응한다 ||\n|| 발한, 차고 축축한 피부 || 땀샘의 muscarinic 자극 || 땀샘은 교감신경 지배를 받지만 말단에서 ACh를 사용한다 ||\n|| 구토·복통 || 위장관 운동·분비 증가 || 장의 콜린성 반응과 연결한다 ||\n|| 기관지 분비물, 천명음 || 분비 증가 + 기관지 수축 || 두 작용이 함께 호흡을 악화시킨다 ||\n|| 근섬유다발수축, 근력 저하 || 신경근접합부의 nicotinic 과자극 || 지속적인 자극이 오히려 신경근 전달 장애와 마비로 이어질 수 있다 ||\n|| 의식 혼미 || 중추 콜린성 영향; 저산소증 등도 악화에 기여 가능 || Muscarinic 말초 증상만으로 중독 전체를 설명하지 않는다 ||\n\n혈장 pseudocholinesterase는 butyrylcholinesterase이고, 적혈구 AChE와는 측정 대상이 다르다. 두 효소 활성이 감소했다는 정보는 증례의 '''cholinesterase 억제'''를 뒷받침한다. 다만 이 검사만으로 유기인제와 carbamate를 완전히 구별할 수 있는 것은 아니다. 이 문제는 농약의 세부 성분명이 아니라, 임상 소견과 검사에 공통으로 맞는 기전을 묻는다.\n\n> AChE 억제 → ACh 축적 → muscarinic 증상 + nicotinic 근육 증상 + 중추 증상. 근력이 떨어졌다는 이유만으로 ‘ACh가 부족하다’거나 ‘nicotinic 수용체가 차단되었다’고 결론 내리지 않는다.\n\n=== 선지별로 보면 ===\n* ① '''Muscarinic 수용체 차단'''은 침·기관지 분비 감소, 동공 확대, 빈맥 쪽으로 작용한다. 이 환자의 축동·서맥·분비 증가와 방향이 반대이며, AChE 활성 감소도 설명하지 못한다.\n* ② '''ACh의 소포 내 저장 억제'''는 신경말단에서 방출할 수 있는 ACh를 줄이는 방향이다. 근력 저하만 떼어 보면 혼동할 수 있지만, 이 환자에게 뚜렷한 분비 증가와 축동을 함께 설명하지 못한다.\n* ③ '''AChE 억제에 따른 ACh 축적'''은 자율신경·신경근접합부·중추 증상과 효소 활성 감소를 한 번에 연결하므로 정답이다. 유기인제는 효소의 esteratic site를 인산화한다.\n* ④ '''Nicotinic 수용체의 경쟁적 차단'''은 신경근 전달을 막아 근력 저하를 일으킬 수 있다. 그러나 muscarinic 분비 증가와 축동, AChE 활성 감소까지 설명하는 기전은 아니다.\n* ⑤ '''시냅스 전 신경말단에서 ACh가 합성되는 것'''은 정상적인 신경전달 과정이다. 유기인제 중독의 핵심 변화는 합성 자체가 아니라 '''분해 억제'''다.\n\n[[9강#AChE의 인산화가 콜린성 과자극을 만든다|Wiki · AChE 억제 기전]] · [[9강#축동·분비 증가·기관지 수축을 한 묶음으로 읽는다|Wiki · 증상과 수용체의 연결]]\n같은 증례의 초기 치료: {{645}}\n~~근거: 39기 「OP and PQ 2026」 11–14쪽. 사용자가 제공한 공통 증례와 선지를 그대로 수록했으며, 정답과 해설은 강의 내용에 근거하여 작성했다.~~~",
+      "images": [],
+      "legacyProfessor": "김채균",
+      "professor": "김채균",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 출제교수 김채균, 출처 2026 강의록, 배정 강의 9강으로 지정하여 증례와 두 문항을 제공함.",
+      "lectureIds": [
+        9
+      ],
+      "lectureId": 9,
+      "lectureTitle": "유기인제/파라콰트",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "not_an_exam_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "user_provided_lecture_question",
+      "parseMethod": "user_provided_text",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "sharedCaseId": "resp-2026-lecture09-organophosphate-case",
+      "relatedQuestionNumbers": [
+        645
+      ],
+      "contentProvenance": {
+        "date": "2026-10-13",
+        "basis": "사용자가 제공한 공통 증례 및 선지",
+        "questionTextPreserved": true,
+        "passageFormatting": "공통 증례를 두 문항에 각각 수록하고 검사 소견을 Wiki 목록으로 표시"
+      },
+      "explanationReview": {
+        "date": "2026-10-13",
+        "basis": "39기 OP and PQ 2026 강의록 및 사용자가 제공한 증례",
+        "pages": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "chapter": "AChE의 인산화가 콜린성 과자극을 만든다",
+        "answerStatus": "lecture_supported_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture09-002",
+      "recordId": "resp-2026-lecture09-002",
+      "displayId": "645번",
+      "globalNumber": 645,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 2,
+      "question": "가장 적절한 초기 치료는?",
+      "passage": "52세 남자가 농약을 살포한 뒤 약 1시간 후 응급실에 내원하였다. 환자는 심한 발한과 침 분비 증가를 호소하였으며, 구토와 복통이 발생했다. 의식은 혼미하고 호흡이 가빠져 있었다.\n\n'''신체검사 소견'''\n* 혈압: 85/55 mmHg\n* 맥박: 48회/분\n* 호흡수: 28회/분\n* 동공: 양측 축동(miosis)\n* 피부: 차고 축축하며 발한이 심함\n* 폐: 다량의 기관지 분비물과 천명음\n* 신경학적 검사: 근섬유다발수축(fasciculation)과 근력 저하\n\n혈액검사에서 혈장 pseudocholinesterase 활성이 현저히 감소하였고, 적혈구 acetylcholinesterase 활성도 감소해 있었다.",
+      "choices": [
+        "아트로핀만 투여하고 호흡 상태를 관찰한다.",
+        "프랄리독심만 투여하고 아트로핀은 투여하지 않는다.",
+        "기도 및 호흡을 안정화하고 아트로핀과 프랄리독심을 투여한다.",
+        "네오스티그민을 투여하여 아세틸콜린 분해를 촉진한다.",
+        "플루마제닐을 투여하여 의식 저하를 개선한다."
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 기도 및 호흡을 안정화하고 아트로핀과 프랄리독심을 투여한다.",
+      "explanation": "'''정답: 3번, 기도 및 호흡을 안정화하고 아트로핀과 프랄리독심을 투여한다.'''\n\n=== 호흡을 지지하면서 서로 다른 두 표적을 치료한다 ===\n농약 노출 후의 축동·서맥·다량의 분비물과 근섬유다발수축, cholinesterase 활성 감소는 유기인제 중독을 의심하게 한다. 특히 이 환자는 의식이 혼미하고 기관지 분비물과 천명음이 있으며, 근력 저하와 저혈압까지 동반되었다. '''해독제 한 가지만 투여한 뒤 관찰할 상황이 아니라 기도·호흡·순환을 즉시 안정화해야 하는 증례'''다.\n\n호흡이 나빠지는 이유는 하나가 아니다. Muscarinic 자극으로 분비물이 기도를 채우고 기관지가 수축하는 한편, nicotinic 과자극은 호흡근을 약하게 만든다. 의식 저하도 기도 보호와 환기를 어렵게 한다. 필요한 기도 확보·분비물 흡인·산소화 및 환기 지원을 시행하면서, 서로 다른 위치에서 작용하는 atropine과 pralidoxime(2-PAM)을 함께 사용한다.\n\n||= 구분 ||= Atropine ||= Pralidoxime(2-PAM) ||\n|| 직접 표적 || Muscarinic receptor || 유기인제에 의해 인산화된 AChE ||\n|| 작용 || ACh에 대한 수용체 반응을 차단한다 || Aging 전 효소에서 인산기를 떼어 AChE 활성을 회복시킨다 ||\n|| 중요한 치료 효과 || 기관지 분비·수축, 서맥 등 muscarinic 증상을 줄인다 || 특히 말초 신경근접합부 기능 회복에 도움을 준다 ||\n|| 근력 저하에 대한 한계 || Nicotinic 근육 마비를 직접 해결하지 못한다 || 효소 재활성화를 통해 개선할 수 있으나 호흡 지원을 대신하지는 못한다 ||\n|| 중추신경계 || 중추로 들어갈 수 있다 || BBB 통과가 제한적이다 ||\n|| 투여 시 기억할 점 || 기관지 분비·환기·순환 등 반응에 맞추어 반복한다 || Aging이 진행되기 전에 가능한 한 빨리 투여한다 ||\n\n'''Aging'''은 OP–AChE 결합이 시간이 지나며 탈알킬화되어 더 안정해지는 과정이다. 이후에는 2-PAM으로 효소를 재활성화하기 어려워진다. 그래서 조기 투여가 중요하지만, 2-PAM의 효과를 기다리느라 atropine이나 기도·호흡 처치를 미루어서는 안 된다. 동공이 커졌는지 하나만으로 치료 반응을 판단하지 않고, 분비물과 호흡·산소화·순환이 회복되는지를 함께 본다.\n\n> 기도·호흡·순환 안정화 + atropine으로 muscarinic 반응 차단 + 2-PAM으로 aging 전 AChE 재활성화. 두 약은 같은 일을 하는 대체제가 아니며, 어느 약도 필요한 환기 지원을 대신하지 못한다.\n\n=== 선지별로 보면 ===\n* ① '''Atropine 자체는 필요한 약'''이지만, ‘그것만 투여하고 관찰한다’는 처치가 부적절하다. 이미 호흡이 위협받고 있고 nicotinic 근력 저하도 있어 적극적인 호흡 지원과 2-PAM을 함께 고려해야 한다.\n* ② '''Pralidoxime 단독'''으로 atropine을 생략하면 심한 기관지 분비·수축과 서맥에 대한 즉각적인 muscarinic 차단이 빠진다. 두 약의 표적이 다르므로 함께 사용한다.\n* ③ '''기도·호흡 안정화와 atropine + pralidoxime'''을 함께 시행하는 것이 강의의 유기인제 초기 치료 원칙에 맞다. 이 환자의 저혈압에 대한 순환 지원도 병행한다.\n* ④ '''Neostigmine은 AChE 억제제'''다. ACh 분해를 촉진하는 약이 아니라 오히려 억제하므로, 이미 ACh가 축적된 콜린성 중독을 악화시킬 수 있다.\n* ⑤ '''Flumazenil은 benzodiazepine 수용체 길항제'''다. 의식 저하라는 소견만 보고 선택할 수 없으며, 이 환자의 콜린성 증상과 AChE 억제를 치료하지 못한다.\n\n[[9강#Atropine은 반응을 막고 2-PAM은 효소를 되살린다|Wiki · Atropine과 2-PAM 비교]]\n같은 증례의 중독 기전: {{644}}\n~~근거: 39기 「OP and PQ 2026」 6·14–16쪽. 두 해독제의 역할과 aging·BBB 관련 설명은 [[https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2741d8fd-51c2-46be-880b-99f2b20a6137|Pralidoxime 공식 약품 설명서]]로도 대조했다. 사용자가 제공한 공통 증례와 선지를 그대로 수록했으며, 정답과 해설은 강의 내용에 근거하여 작성했다.~~~",
+      "images": [],
+      "legacyProfessor": "김채균",
+      "professor": "김채균",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 출제교수 김채균, 출처 2026 강의록, 배정 강의 9강으로 지정하여 증례와 두 문항을 제공함.",
+      "lectureIds": [
+        9
+      ],
+      "lectureId": 9,
+      "lectureTitle": "유기인제/파라콰트",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "not_an_exam_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "user_provided_lecture_question",
+      "parseMethod": "user_provided_text",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "sharedCaseId": "resp-2026-lecture09-organophosphate-case",
+      "relatedQuestionNumbers": [
+        644
+      ],
+      "contentProvenance": {
+        "date": "2026-10-13",
+        "basis": "사용자가 제공한 공통 증례 및 선지",
+        "questionTextPreserved": true,
+        "passageFormatting": "공통 증례를 두 문항에 각각 수록하고 검사 소견을 Wiki 목록으로 표시"
+      },
+      "explanationReview": {
+        "date": "2026-10-13",
+        "basis": "39기 OP and PQ 2026 강의록 및 사용자가 제공한 증례",
+        "pages": [
+          6,
+          14,
+          15,
+          16
+        ],
+        "chapter": "Atropine은 반응을 막고 2-PAM은 효소를 되살린다",
+        "answerStatus": "lecture_supported_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
     }
   ],
   "pendingQuestions": [

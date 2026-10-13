@@ -542,7 +542,7 @@ function syncQuestionExplanationSplit() {
     bindWikiDocument(panel.body,byId(current.lectureIds?.[0]) || emptyRenderCourse);
     const context = viewer.key.startsWith('context-link-question-');
     const position = context ? contextQuestionPosition(contextLinkState.stack.at(-1)) : null;
-    const questions = context ? position.numbers.map(n=>jblQuestions.find(q=>q.globalNumber===n)) : viewer.questions;
+    const questions = context ? contextQuestionsForTarget(contextLinkState.stack.at(-1)) : viewer.questions;
     panel.nav.innerHTML = navMarkup({...panel.state,index:context ? position.index : panel.state.index},questions);
     panel.nav.querySelector('[data-jbl-explanation]').addEventListener('click',()=>closeQuestionExplanationSplit());
     bindQuestionPageNav(panel.nav,moveQuestionExplanation);
