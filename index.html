@@ -2503,11 +2503,17 @@
         const depth = parsed.level - 2;
         sectionPath[depth] += 1;
         for (let index = depth + 1; index < sectionPath.length; index += 1) sectionPath[index] = 0;
-        const base = normalizeWikiKey(parsed.heading) || `section-${lineIndex + 1}`;
+        const legacyHeading = ({
+          'PEEP와 prone position':'PEEP와 복와위',
+          'prone position은 P/F 150 이하에서 하루 16시간 이상 한다':'복와위는 P/F 150 이하에서 하루 16시간 이상 한다',
+          '삽관하지 않은 환자는 고유량 산소와 awake prone position으로 돕는다':'삽관하지 않은 환자는 고유량 산소와 깨어 있는 복와위로 돕는다'
+        })[parsed.heading] || '';
+        const base = normalizeWikiKey(legacyHeading || parsed.heading) || `section-${lineIndex + 1}`;
         const count = (usedSlugs.get(base) || 0) + 1;
         usedSlugs.set(base, count);
         return {
           ...parsed,
+          legacyHeading,
           lineIndex,
           slug:count === 1 ? base : `${base}-${count}`,
           number:`s-${sectionPath.slice(0, depth + 1).join('.')}`
@@ -2612,7 +2618,7 @@
       const records = wikiSourceHeadingRecords(course);
       const exact = records.find(record => record.number === requested || record.slug === requested);
       if (exact) return exact;
-      const ranked = records.map((record, index) => ({ record, index, score:wikiSectionTextScore(record.heading, requested) }))
+      const ranked = records.map((record, index) => ({ record, index, score:Math.max(wikiSectionTextScore(record.heading, requested), wikiSectionTextScore(record.legacyHeading, requested)) }))
         .filter(item => item.score > 0)
         .sort((a, b) => b.score - a.score || a.index - b.index);
       if (!ranked.length) return null;
@@ -4280,8 +4286,8 @@
       const lines = full.split('\n');
       const headings = wikiHeadingRecordsFromLines(lines);
       // Never silently attach a bookmark to an unrelated section after editing.
-      const exact = headings.find(item => item.slug === bookmark.slug && item.heading === bookmark.heading);
-      const sameName = headings.filter(item => item.heading === bookmark.heading && item.level === 3);
+      const exact = headings.find(item => item.slug === bookmark.slug && (item.heading === bookmark.heading || item.legacyHeading === bookmark.heading));
+      const sameName = headings.filter(item => (item.heading === bookmark.heading || item.legacyHeading === bookmark.heading) && item.level === 3);
       const start = exact || (sameName.length === 1 ? sameName[0] : null);
       if (!start) return null;
       const end = headings.find(item => item.lineIndex > start.lineIndex && item.level <= start.level)?.lineIndex ?? lines.length;
