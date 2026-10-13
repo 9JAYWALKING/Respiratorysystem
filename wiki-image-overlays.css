@@ -1,0 +1,48 @@
+/* Original pixels and SVG share exactly the same responsive rectangle. */
+.wiki-grid:has(> .wiki-radiology-figure) { grid-template-columns: minmax(0,1fr); }
+.wiki-grid:has(> .wiki-radiology-figure) > .wiki-figure.wiki-radiology-figure { grid-column: 1 / -1; width: min(100%,980px); }
+.wiki-grid:has(> .wiki-radiology-figure) > .wiki-figure.wiki-radiology-figure:last-child:nth-child(odd) { width: min(100%,980px); }
+.wiki-grid .wiki-figure.wiki-radiology-figure,
+.wiki-figure.wiki-radiology-figure {
+  width: min(100%, 980px); max-width: 100%; flex: 1 1 100%;
+  margin: 16px auto; padding: 12px; box-sizing: border-box;
+}
+.wiki-radiology-figure .wiki-image-stage,
+.wiki-image-modal-body .wiki-image-stage { position: relative; width: 100%; line-height: 0; isolation: isolate; }
+.wiki-radiology-figure .wiki-image-stage img,
+.jbl-image-modal .wiki-image-stage img {
+  display: block; width: 100%; height: auto; max-width: 100%; max-height: none;
+  object-fit: contain; margin: 0; border-radius: 4px;
+}
+.wiki-image-stage > .wiki-image-overlay { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+.wiki-overlay-strokes > * { vector-effect: non-scaling-stroke; filter: drop-shadow(0 0 1.3px #111); }
+.wiki-image-unavailable > .wiki-image-overlay { display: none; }
+.wiki-overlay-controls { display: flex; justify-content: flex-end; margin: 0 0 8px; }
+.wiki-overlay-toggle {
+  font-family: inherit; font-size: 14px; font-weight: 600; line-height: 1.3;
+  color: #65415e; background: #f5edf3; border: 1px solid #d4bfd0;
+  border-radius: 9px; padding: 9px 14px; min-height: 38px; cursor: pointer; touch-action: manipulation;
+}
+.wiki-overlay-toggle[aria-pressed="true"] { color: #fff; background: #68415f; border-color: #68415f; }
+.wiki-overlay-toggle:focus-visible { outline: 3px solid #b871a2; outline-offset: 3px; }
+.wiki-radiology-figure figcaption,
+.wiki-note .wiki-radiology-figure figcaption {
+  color: #30262e; font-size: 16px; line-height: 1.65; font-weight: 650;
+  padding: 12px 3px 2px; text-align: left;
+}
+.wiki-overlay-legend { display: flex; flex-wrap: wrap; gap: 7px 18px; padding: 12px 3px 2px; color: #30262e; font-family: inherit; font-size: 15px; font-weight: 500; line-height: 1.6; }
+.wiki-overlay-legend[hidden] { display: none !important; }
+.wiki-overlay-legend strong { display: inline-grid; place-items: center; min-width: 22px; min-height: 22px; border: 1px solid currentColor; border-radius: 50%; font-size: 13px; }
+.wiki-image-modal-body { max-width: 94vw; max-height: 94vh; overflow: auto; padding: 8px; box-sizing: border-box; }
+.wiki-image-modal-body .wiki-overlay-legend { color: white; }
+.wiki-image-modal-body .wiki-overlay-toggle { background: #fff; color: #58354f; }
+.wiki-image-modal-body .wiki-overlay-toggle[aria-pressed="true"] { background: #68415f; color: #fff; }
+:root[data-theme="dark"] .wiki-radiology-figure figcaption,
+[data-theme="dark"] .wiki-radiology-figure .wiki-overlay-legend { color: #fff; }
+[data-theme="dark"] .wiki-radiology-figure .wiki-overlay-toggle { background: #20151e; color: #fff; border-color: #8d6a83; }
+[data-theme="dark"] .wiki-radiology-figure .wiki-overlay-toggle[aria-pressed="true"] { background: #68415f; }
+@media (max-width: 700px) {
+  .wiki-grid .wiki-figure.wiki-radiology-figure, .wiki-figure.wiki-radiology-figure { padding: 8px; margin: 12px auto; }
+  .wiki-radiology-figure figcaption { font-size: 16px; }
+  .wiki-overlay-toggle { min-height: 42px; }
+}

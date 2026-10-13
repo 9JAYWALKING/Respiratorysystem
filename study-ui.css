@@ -532,6 +532,16 @@ body.jbl-explanation-open { overflow:hidden; }
 @media print { .jbl-explanation-split { display:none!important; } }
 
 /* Animate only the incoming pane: source geometry and its reading anchor stay intact. */
+.study-ui .jbl-original-link {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:1.35em; height:1.35em; box-sizing:border-box; padding:0;
+  margin:0 .2em 0 0; border:1.5px solid currentColor; border-radius:50%;
+  background:transparent; color:var(--brand); font:inherit; font-size:.9em;
+  font-weight:800; line-height:1; vertical-align:.05em; cursor:pointer; touch-action:manipulation;
+}
+.study-ui .jbl-original-link:hover { background:var(--brand-soft); }
+.study-ui .jbl-original-link:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
+:root[data-theme="dark"] .study-ui .jbl-original-link { color:#e6c0df; }
 .study-ui .context-link-split { overflow:hidden; }
 .study-ui .context-link-split.is-closing { pointer-events:none; }
 .study-ui .context-link-split > .context-link-target {

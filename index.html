@@ -1940,6 +1940,7 @@
   :root[data-theme="dark"] .quick-final-heading,:root[data-theme="dark"] .quick-heading h2 {color:#dbb9d1;}
 </style>
   <link rel="stylesheet" href="./study-ui.css">
+  <link rel="stylesheet" href="./wiki-image-overlays.css">
 </head>
 <body class=""><div class="site-shell">
     <header class="masthead">
@@ -1985,6 +1986,8 @@
 <script src="./course-data.js"></script>
 <script id="jbl-data-script" src="./jbl-data.js"></script>
 <script src="./lecture-study.js"></script>
+  <script src="./wiki-image-annotations.js"></script>
+  <script src="./wiki-image-overlays.js"></script>
 <script>
   window.THEME_WIKI_DATA = {documents:[]};
 </script>
@@ -3265,6 +3268,7 @@
 
     function bindContentImages(container) {
       container.querySelectorAll('[data-jbl-image], [data-note-image]').forEach(image => {
+        window.WikiImageOverlays?.enhance(image);
         if (image.dataset.imageEventsBound) return;
         image.dataset.imageEventsBound = 'true';
         let warning, pathLabel, retry;
@@ -3316,7 +3320,7 @@
         image.addEventListener('error', showError);
         image.addEventListener('load', showImage);
         image.addEventListener('click', () => {
-          if (image.naturalWidth > 0) openJblImage(image.src);
+          if (image.naturalWidth > 0) openJblImage(image.src, image);
         });
         // Cached failures may have fired before this card's listeners were bound.
         if (image.complete && image.naturalWidth === 0 && image.getAttribute('src')) showError();
@@ -4036,15 +4040,17 @@
       return true;
     }
 
-    function openJblImage(src) {
+    function openJblImage(src, origin) {
       const modal = document.querySelector('#jbl-image-modal');
-      modal.querySelector('img').src = src;
+      if (window.WikiImageOverlays) window.WikiImageOverlays.openModal(modal, src, origin);
+      else modal.querySelector('img').src = src;
       modal.classList.add('show');
     }
 
     function closeJblImage() {
       const modal = document.querySelector('#jbl-image-modal');
       modal.classList.remove('show');
+      window.WikiImageOverlays?.clearModal(modal);
       modal.querySelector('img').removeAttribute('src');
     }
 
