@@ -481,13 +481,13 @@ window.WIKI_IMAGE_ANNOTATIONS = {
       {
         "type": "ellipse",
         "text": "우상폐야 결절",
-        "cx": 357,
-        "cy": 223,
-        "rx": 59,
-        "ry": 62,
+        "cx": 208,
+        "cy": 322,
+        "rx": 51,
+        "ry": 56,
         "label": [
-          259,
-          213
+          143,
+          285
         ]
       }
     ],
