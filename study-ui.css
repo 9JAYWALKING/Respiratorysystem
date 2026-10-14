@@ -511,6 +511,31 @@ body.study-ui:not(.context-link-open) .lecture-workspace:not([data-expanded="wik
 .study-lecture-placeholder { pointer-events:none; }
 @keyframes lecture-bar-reveal { from { opacity:0;transform:translateY(-10px); } to { opacity:1;transform:translateY(0); } }
 @media(prefers-reduced-motion:reduce) { .study-ui .detail-bar.is-recalled { animation:none; } }
+/* Core equations: type remains selectable and follows the reader's font scale. */
+.study-ui .wiki-formula {
+  box-sizing:border-box; min-width:0; max-width:100%; margin:1.3em 0;
+  font-size:calc(18px * var(--study-text-scale,1));
+  padding:1em 1.2em; border:1px solid #dbc5d5; border-left:4px solid #965f85;
+  border-radius:12px; background:#faf4f8; break-inside:avoid;
+}
+.study-ui .wiki-formula-label { color:#794668; font-size:.84em; font-weight:700; letter-spacing:.01em; }
+.study-ui .wiki-formula-equation {
+  margin:.32em 0; font-family:inherit; font-size:1.65em; font-weight:750;
+  line-height:1.65; color:#482a40; overflow-wrap:anywhere; white-space:normal;
+}
+.study-ui .wiki-formula-equation :is(sub,sup) { font-size:.65em; line-height:0; }
+.study-ui .wiki-formula-note { font-size:.95em; line-height:1.75; color:#493e46; }
+:root[data-theme="dark"] .study-ui .wiki-formula { background:#0b080a; border-color:#49323f; border-left-color:#d49abd; }
+:root[data-theme="dark"] .study-ui .wiki-formula-label { color:#ebbbda; }
+:root[data-theme="dark"] .study-ui :is(.wiki-formula-equation,.wiki-formula-note) { color:#fff; }
+@media(max-width:600px) {
+  .study-ui .wiki-formula { padding:.85em .85em; }
+  .study-ui .wiki-formula-equation { font-size:1.4em; }
+}
+@media print {
+  .study-ui .wiki-formula { border:1px solid #999; background:#fff; }
+  .study-ui :is(.wiki-formula-label,.wiki-formula-equation,.wiki-formula-note) { color:#000; }
+}
 /* Short lecture questions still need enough document height for top alignment. */
 body.study-ui.lecture-j-active:not(.context-link-open) .lecture-j-pane { min-height:calc(100dvh - var(--study-header-height,48px) - 62px - env(safe-area-inset-bottom,0px)); }
 /* The same two-pane family as linked content, never a third column inside it. */
