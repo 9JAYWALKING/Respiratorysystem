@@ -2756,6 +2756,21 @@
       return `<figure class="wiki-figure">${controls}<img data-note-image src="./${escapeHtml(source)}" alt="${escapeHtml(caption)}" /><figcaption>${renderWikiInline(caption, course, footnoteState)}</figcaption></figure>`;
     }
 
+    // A readable equation block shared by full Wiki, JBL, saved sections and previews.
+    // @formula Label | equation (_{subscript}, ^{superscript}) | plain Wiki note
+    function renderWikiFormula(line, course, footnotes) {
+      if (!line.startsWith('@formula ')) return '';
+      const parts = line.slice(9).split('|');
+      if (parts.length < 2 || !parts[0].trim() || !parts[1].trim()) return '';
+      const label = parts.shift().trim();
+      const equation = parts.shift().trim();
+      const note = parts.join('|').trim();
+      const math = escapeHtml(equation)
+        .replace(/_\{([^{}]+)\}/g, '<sub>$1</sub>')
+        .replace(/\^\{([^{}]+)\}/g, '<sup>$1</sup>');
+      return `<div class="wiki-formula" role="group" aria-label="${escapeHtml(label)}"><div class="wiki-formula-label">${escapeHtml(label)}</div><div class="wiki-formula-equation">${math}</div>${note ? `<div class="wiki-formula-note">${renderWikiInline(note, course, footnotes)}</div>` : ''}</div>`;
+    }
+
     function renderWikiDocument(source, course) {
       const lines = expandWikiGrayBlocks(String(source || '').replace(/\r\n?/g, '\n')).split('\n');
       const footnotes = { items:[], named:new Map() };
@@ -2803,6 +2818,8 @@
       for (let index = 0; index < contentLines.length; index += 1) {
         const line = contentLines[index].trim();
         if (!line) { flushText(); continue; }
+        const formula = renderWikiFormula(line, course, footnotes);
+        if (formula) { flushText(); body.push(formula); continue; }
         if (parseWikiTableRow(line)) {
           flushText();
           const rows = [];
@@ -2914,6 +2931,8 @@
         const rawLine = lines[lineIndex];
         const line = rawLine.trim();
         if (!line) { flushText(); continue; }
+        const formula = renderWikiFormula(line, course, footnotes);
+        if (formula) { flushText(); output.push(formula); continue; }
         if (parseWikiTableRow(line)) {
           flushText();
           const rows = [];
