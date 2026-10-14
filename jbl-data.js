@@ -518,10 +518,12 @@ window.JBL_DATA = {
         "Chemotherapy",
         "Gastric contents aspiration"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "정답: ③ Nephrotic syndrome\n\n=== 판단의 출발점 ===\n질환의 이름보다 기전을 두 군으로 나누면 된다. 폐렴·산소독성·항암제·위내용물 흡인은 장벽을 손상시키는 원인이고, 신증후군은 단백질 소실에 따른 교질삼투압 저하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐부종은 '''폐포–모세혈관 장벽을 사이에 두고 물이 이동하는 힘이 달라졌는지''', 아니면 '''장벽 자체가 손상되었는지'''로 나눈다. 좌심부전에서는 폐정맥압이 올라가고, 신증후군에서는 소변으로 단백질이 빠져 혈장 교질삼투압이 낮아진다. 두 경우 모두 장벽 손상 없이 체액이 이동하는 혈역학적 기전이다.\n\n||= 기전 ||= 대표 원인 ||= 폐포 안의 변화 ||\n|| 정수압 증가 || 좌심부전, 체액 과다, 폐정맥 폐쇄 || 단백질이 상대적으로 적은 '''transudate''' ||\n|| 교질삼투압 감소 || 신증후군, 저알부민혈증, 간의 합성능 저하, 단백소실장병증 || 혈관 안에 물을 붙잡는 힘이 감소 ||\n|| 림프 배액 장애 || 림프관 폐쇄 등 || 제거되지 못한 체액이 축적 ||\n|| 직접 장벽 손상 || 폐렴, 위내용물 흡인, 산소독성·연기, 방사선, 약물·항암제 || 단백질이 풍부한 '''exudate''' ||\n|| 간접 장벽 손상 || 패혈증, 쇼크·중증 외상, 화상, 췌장염, TRALI || 염증에 의한 내피·상피 손상; 심하면 DAD ||\n\n[[파일:assets/lecture-14/p021-figures.jpg|혈역학적 폐부종과 장벽 손상성 폐부종의 비교]]\n\n좌심부전의 폐는 무겁고 젖어 있으며, 중력 때문에 기저부의 울혈·부종이 두드러질 수 있다. 미세 출혈이 반복되면 대식세포가 적혈구를 처리해 '''hemosiderin-laden macrophage(heart failure cell)'''가 생긴다. 만성 울혈에서 섬유화까지 더해진 상태가 brown induration이다.\n\n> '''폐포에 액체가 있다는 결과'''만으로 기전을 정하지 않는다. 심부전·저알부민혈증은 압력 차이, 폐렴·독성·흡인은 장벽 손상으로 연결한다.\n\n=== 선지별 해설 ===\n* 1번: 폐렴은 염증으로 내피·폐포상피의 투과성을 높이는 '''장벽 손상''' 기전이다. 심한 경우 DAD로 진행할 수 있다.\n* 2번: 산소독성은 활성산소 등에 의해 폐포–모세혈관 장벽을 손상시킨다. 장기간의 고농도 산소 노출을 맥락으로 이해한다.\n* 3번: 신증후군은 단백뇨로 알부민이 감소해 혈장 교질삼투압이 낮아진다. 다른 네 선택지와 달리 '''혈역학적 폐부종''' 쪽이므로 정답이다.\n* 4번: 항암제 중 bleomycin 등은 직접적인 폐손상·염증을 일으킬 수 있다. 모든 항암제가 동일한 빈도로 폐부종을 일으킨다는 뜻은 아니다.\n* 5번: 산성 위내용물의 흡인은 화학적 폐손상으로 상피·내피 장벽의 누출을 유발한다.\n\n관련 Wiki: [[14강#폐부종의 두 기전은 압력 변화와 장벽 손상이다|폐부종의 두 기전은 압력 변화와 장벽 손상이다]]\n\n근거: 39기 「폐질환의 병리」 PDF 20–24쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -544,7 +546,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "폐부종의 두 기전은 압력 변화와 장벽 손상이다",
+        "pages": "20–24",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2025-010",
@@ -566,10 +578,12 @@ window.JBL_DATA = {
         "Extralobar sequestration",
         "Schwannoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번",
+      "explanation": "정답: ① Bronchogenic cyst\n\n=== 판단의 출발점 ===\n우연히 발견된 경계 좋은 단방성 종격동 낭종에 점액이 차 있고, 사진에서 호흡상피와 기관지벽 성분이 보인다. 종격동 위치와 낭종벽을 함께 보면 '''기관지원성 낭종'''에 합당하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n점액이 찬 낭종을 보면 먼저 '''낭종을 덮는 상피와 벽의 구성요소'''를 확인한다. 기관지원성 낭종은 거짓중층섬모원주상피(PCCE)를 가지며, 평활근·연골·기관지샘이 동반될 수 있다. 종격동에서 흔하지만 폐실질 내에도 생기므로 위치 하나로 배제하지 않는다.\n\n||= 질환 ||= 구분 소견 ||\n|| '''Bronchogenic cyst''' || 점액성 단방성 낭종, PCCE와 기관지벽 성분 ||\n|| CPAM 1형 || 큰 낭종과 넓은 섬유성 격벽, 비정상 기도 구조가 이루는 폐실질 병변; 섬모상피·점액세포도 가능 ||\n|| Extralobar sequestration || 자기 흉막, 정상 기관지와 연결되지 않은 폐조직, '''대동맥 계통의 동맥 공급''' ||\n|| Enteric·esophageal cyst || 소화관 분화를 보이는 피복 상피와 근육벽 ||\n|| Pericardial cyst || 얇은 벽과 중피성 피복, 주로 장액성 내용물 ||\n|| Thymoma·schwannoma || 각각 흉선상피종양·신경초종. 단순한 호흡상피성 발달 낭종과 다름 ||\n\n[[파일:assets/lecture-14/p012-figures.jpg|기관지원성 낭종: 낭성 병변과 호흡상피·기관지벽 구조]]\n\n'''PCCE나 점액이 있다는 사실만으로 모든 낭종을 기관지원성 낭종이라 할 수는 없다.''' CPAM 1형에도 비슷한 상피가 나타난다. 낭종벽과 주변 폐조직의 전체 구조, 비정상 공급 혈관 유무를 함께 판단해야 한다.\n\n=== 선지별 해설 ===\n* 1번: 점액성 내용물과 섬모성 호흡상피·기관지벽 성분을 가진 발달성 낭종이다. 정답이다.\n* 2번: 흉선종은 보통 전종격동의 상피성 종양이며, 흉선상피세포와 다양한 양의 미성숙 T세포를 본다. 호흡상피로 덮인 단순 낭종과 다르다.\n* 3번: CPAM은 비정상 기도 구조가 폐실질을 이루는 병변이다. 섬모상피가 보일 수 있다는 공통점은 있지만, 이 사진의 단방성 낭종과 기관지벽 소견이 기관지원성 낭종을 지지한다.\n* 4번: 폐외분리증은 정상 기도와의 연결이 없고 자기 흉막 및 체순환 공급 동맥이 특징이다. 이 증례에는 그 혈관·폐조직 근거가 없다.\n* 5번: 신경초종은 신경계와 연관된 고형 방추세포종양으로 Antoni A/B 영역 등을 본다. 점액성 호흡상피 낭종이 아니다.\n\n관련 Wiki: [[14강#기관지원성 낭종은 낭종벽의 호흡상피를 확인한다|기관지원성 낭종은 낭종벽의 호흡상피를 확인한다]]\n\n근거: 39기 「폐질환의 병리」 PDF 8–18쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2025/q010_01.jpg"
       ],
@@ -616,7 +630,17 @@ window.JBL_DATA = {
             "2025-010"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "기관지원성 낭종은 낭종벽의 호흡상피를 확인한다",
+        "pages": "8–18",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2025-011",
@@ -638,10 +662,12 @@ window.JBL_DATA = {
         "CD56, chromogranin 면역조직화학염색",
         "Cytomegalovirus 면역조직화학염색"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번",
+      "explanation": "정답: ② Ziehl-Neelsen stain\n\n=== 판단의 출발점 ===\nCT에서 기관지를 막는 종괴·작은 결절·림프절 종대가 보여 폐암을 의심했지만, 생검은 '''괴사성 육아종'''이다. 영상의 최초 추정보다 조직 소견을 우선해 항산균 감염을 확인하는 Ziehl–Neelsen 염색을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n영상에서 폐암처럼 보이는 종괴라도 생검이 '''괴사성 육아종'''이면 감염성 원인을 먼저 확인한다. 중심부의 무정형 괴사와 주변의 상피모양 조직구·거대세포를 보고, 면역억제 치료 중인 숙주에서는 항산균과 진균을 함께 고려한다. SLE라는 병명 자체가 곧 결핵의 확진은 아니다.\n\n[[파일:assets/lecture-17/p156-figures.jpg|괴사성 육아종: 중심 괴사와 주변 상피모양 조직구·거대세포]]\n\n||= 검사 ||= 확인하는 대상 ||= 이 문제에서의 위치 ||\n|| '''Ziehl–Neelsen''' || 항산균, 빨간 막대 모양 균체 || 결핵·비결핵항산균을 찾는 우선 검사 ||\n|| '''GMS''' || 진균의 세포벽·균사·효모, Pneumocystis 낭포 등 || 괴사성 육아종의 진균성 원인 감별 ||\n|| TTF-1 면역염색 || 폐선암·일부 신경내분비종양 등의 분화 평가 || 종양세포가 확인될 때 의미. 항산균 검사 아님 ||\n|| CD56·chromogranin || 신경내분비 분화 || 소세포암 등 의심 시 사용 ||\n|| EGFR mutation test || 폐선암 등의 치료 표적 유전자 변이 || 암 진단·치료 선택의 맥락, 육아종 원인 검사 아님 ||\n|| CMV 면역염색 || CMV 감염 세포 || 세포 비대·핵내 봉입체 등이 단서 ||\n|| BAP1 면역염색 || 특정 종양에서 핵 발현 소실을 평가; 중피성 병변 등의 감별에 활용 || 결핵균이나 육아종의 원인을 찾는 염색 아님 ||\n\nZiehl–Neelsen 양성만으로 '''결핵균과 비결핵항산균을 구분'''하지는 못한다. 균량이 적으면 염색이 음성이어도 감염을 배제할 수 없어 배양·분자검사를 함께 고려한다. GMS 역시 진균을 드러내는 검사이며, 균사·효모 형태와 다른 검사로 종류를 판단한다.\n\n> '''무슨 병으로 의심해 생검했는가'''보다 '''생검에 무엇이 보였는가'''가 다음 검사를 결정한다. 괴사성 육아종이라면 항산균·진균, 악성 상피세포라면 종양 분화와 치료 표적을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: TTF-1은 폐선암 등의 분화를 평가하는 면역표지자다. 생검이 괴사성 육아종이라면 먼저 감염성 원인을 찾아야 한다.\n* 2번: 항산균을 검출하는 Ziehl–Neelsen 염색이다. 괴사성 육아종과 장기간 기침·면역억제 상황에서 가장 적절한 다음 검사다. 정답이다.\n* 3번: BAP1은 특정 종양에서 핵 발현 소실을 평가하는 표지자다. 육아종 속 병원체를 찾는 검사가 아니다.\n* 4번: CD56·chromogranin은 신경내분비 분화를 확인한다. 현재 생검의 중심은 종양세포가 아니라 괴사성 육아종이다.\n* 5번: CMV는 면역억제 환자에서 가능하지만 세포 비대·핵내 봉입체 등 바이러스성 세포변화가 근거가 되어야 한다. 면역억제라는 사실만으로 CMV를 고르지 않는다.\n\n관련 Wiki: [[17강#괴사성 육아종에서는 항산균과 진균을 찾는다|괴사성 육아종에서는 항산균과 진균을 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 150–163쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2025/q011_01.jpg"
       ],
@@ -693,7 +719,17 @@ window.JBL_DATA = {
             "2025-011"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "괴사성 육아종에서는 항산균과 진균을 찾는다",
+        "pages": "150–163",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2025-013",
@@ -783,10 +819,12 @@ window.JBL_DATA = {
         "Chronic eosinophilic pneumonia",
         "Chronic hypersensitivity pneumonitis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ Chronic hypersensitivity pneumonitis\n\n=== 판단의 출발점 ===\n닭을 키우면서 수년에 걸쳐 진행한 호흡곤란, 양측 GGO·reticulation, 제한성 폐기능이 있다. 조직의 세기관지 중심 염증과 느슨한 비괴사성 육아종을 함께 보면 '''chronic hypersensitivity pneumonitis'''가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n새·닭의 단백질이나 곰팡이 등 '''흡입 항원에 반복 노출'''되면 세기관지와 주변 사이질에 면역성 염증이 생길 수 있다. 과민폐렴(HP)에서는 노출력, GGO·reticulation, 제한성 폐기능을 조직 소견과 연결한다. 농부라는 직업이나 흡연력 한 가지가 진단을 대신하지는 않는다.\n\n[[파일:assets/lecture-16/p100-figures.jpg|과민폐렴: 세기관지 주위의 경계 불명확한 비괴사성 육아종]]\n\n||= 질환 ||= 구분할 조직 소견 ||\n|| '''과민폐렴''' || '''세기관지 주위의 느슨하고 작고 잘 형성되지 않은 비괴사성 육아종''', 림프구성 사이질염·세기관지염 ||\n|| Sarcoidosis || 비교적 잘 형성되고 경계가 분명한 비괴사성 육아종, 림프관 주변 분포 ||\n|| UIP || 흉막하·격막 주변의 patchy fibrosis, 시간적 불균일성과 fibroblastic foci ||\n|| NSIP || 비교적 균일한 시기의 사이질 염증·섬유화 ||\n|| Organizing pneumonia || 폐포관·폐포·세기관지 안의 polypoid granulation tissue plug ||\n|| DIP || 폐포강을 넓게 채운 갈색 색소 대식세포 ||\n|| 만성 호산구폐렴 || 폐포·사이질의 뚜렷한 호산구 침윤 ||\n\n과민폐렴이 오래되면 섬유화·벌집변화까지 생겨 UIP와 닮을 수 있다. 따라서 '''honeycomb이 있다'''는 말만으로 IPF를 확정하지 않는다. 노출력과 기도 중심 병변, 작은 육아종이 원인 감별을 돕는다. 섬유화가 진행되면 육아종이 뚜렷하지 않을 수도 있다.\n\n> HP와 sarcoidosis는 모두 비괴사성 육아종을 만들지만, HP에서는 '''작고 느슨한 육아종 + 세기관지 주위 분포 + 흡입 항원'''을 묶는다.\n\n=== 선지별 해설 ===\n* 1번: Sarcoidosis는 잘 형성된 비괴사성 육아종과 림프관 주변 분포가 전형적이다. HP의 느슨한 세기관지 주위 육아종과 구분한다.\n* 2번: DIP에서는 폐포강의 광범위한 색소 대식세포 축적이 중심이고 흡연과 밀접하다. 육아종 중심 사진이 아니다.\n* 3번: UIP는 흉막하 patchy fibrosis, fibroblastic foci와 temporal heterogeneity가 중심이다. 노출력과 기도 중심 육아종은 HP를 지지한다.\n* 4번: 만성 호산구폐렴은 뚜렷한 호산구 침윤이 핵심이다. 단순한 제한성 폐기능만으로 고르지 않는다.\n* 5번: 조류 항원 노출과 세기관지 중심의 염증·경계 불명확한 비괴사성 육아종이 맞아떨어진다. 정답이다.\n\n관련 Wiki: [[16강#과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다|과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 94–100쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2025/q014_01.jpg"
       ],
@@ -818,7 +856,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다",
+        "pages": "94–100",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2025-015",
@@ -840,10 +888,12 @@ window.JBL_DATA = {
         "severe interstitial inflammation",
         "temporal heterogeneity"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ temporal heterogeneity\n\n=== 판단의 출발점 ===\n제한성 폐기능과 reticular opacity·honeycomb에 더해, 조직에서 정상 폐·오래된 섬유화·새 섬유화가 섞인 UIP 양상을 읽는다. 진단에 중요한 것은 '''temporal heterogeneity'''다.\n\n=== 이 문항을 풀기 위한 개념 ===\nUIP는 '''조직의 손상 양상'''이며, IPF는 원인을 배제한 뒤 붙이는 질환명이다. 결합조직질환, 만성 과민폐렴, 석면 노출 등도 UIP와 닮은 섬유화를 보일 수 있으므로 조직 소견만으로 모든 원인을 정하지 않는다.\n\n[[파일:assets/lecture-16/p084-figures.jpg|UIP의 patchy fibrosis: 보존된 폐와 섬유화 부위가 섞이고 작은 fibroblastic focus가 보인다]]\n\n||= UIP에서 찾는 것 ||= 의미 ||\n|| '''Patchy fibrosis / spatial heterogeneity''' || 심하게 섬유화된 곳 옆에 비교적 정상인 폐가 남음 ||\n|| '''Temporal heterogeneity''' || 오래된 치밀한 collagen 반흔과 새로 진행 중인 섬유화가 함께 존재 ||\n|| '''Fibroblastic foci''' || 섬유모세포·근섬유모세포가 모인 작은 활동성 수복 초점 ||\n|| 흉막하·격막 주변 우세 || 말초에서 두드러지는 분포 ||\n|| Honeycomb change || 정상 폐포 구조가 파괴되고 상피로 둘러싸인 낭성 공간이 생긴 말기 변화 ||\n\n||= 다른 양상 ||= UIP와 갈리는 단서 ||\n|| '''NSIP''' || 염증·섬유화의 시기가 비교적 균일. 정상/오래된 반흔/새 foci의 강한 대비가 적음 ||\n|| DAD || 급성 손상과 폐포벽의 hyaline membrane ||\n|| Organizing pneumonia || 공기 공간 안의 fibroblastic plug; 전체 폐 구조는 상대적으로 보존 ||\n|| 과민폐렴 || 세기관지 주위의 경계 불명확한 작은 비괴사성 육아종 ||\n|| Sarcoidosis || 잘 형성된 비괴사성 육아종 ||\n\n> UIP의 중심은 '''반흔이 있다'''가 아니라 '''위치도 시기도 고르지 않은 섬유화'''다. 심한 염증이나 육아종이 전면에 나오면 다른 원인을 다시 생각한다.\n\n=== 선지별 해설 ===\n* 1번: 비괴사성 육아종은 sarcoidosis나 HP 등을 생각하게 한다. 전형적 UIP를 정의하는 소견이 아니다.\n* 2번: Hyaline membrane은 급성 DAD의 대표 소견이다. 만성 UIP의 핵심 소견과 다르다.\n* 3번: 폐포강의 fibrotic plug는 organizing pneumonia의 수복 조직이다. UIP의 사이질 fibroblastic focus와 위치·형태를 구별한다.\n* 4번: 심한 사이질 염증은 UIP의 중심 특징이 아니다. 염증이 두드러지면 NSIP나 다른 원인도 검토해야 한다.\n* 5번: 오래된 collagen 반흔과 새 fibroblastic foci가 함께 있어 손상의 시기가 고르지 않다는 뜻이다. 정답이다.\n\n관련 Wiki: [[16강#UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다|UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다]]\n\n근거: 39기 「폐질환의 병리」 PDF 78–93쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2025/q015_01.jpg",
         "J/2025/q015_02.jpg"
@@ -880,7 +930,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다",
+        "pages": "78–93",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2025-016",
@@ -13018,10 +13078,12 @@ window.JBL_DATA = {
         "Chemotherapy",
         "Gastric contents aspiration"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "정답: ③ Nephrotic syndrome\n\n=== 판단의 출발점 ===\n질환의 이름보다 기전을 두 군으로 나누면 된다. 폐렴·산소독성·항암제·위내용물 흡인은 장벽을 손상시키는 원인이고, 신증후군은 단백질 소실에 따른 교질삼투압 저하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐부종은 '''폐포–모세혈관 장벽을 사이에 두고 물이 이동하는 힘이 달라졌는지''', 아니면 '''장벽 자체가 손상되었는지'''로 나눈다. 좌심부전에서는 폐정맥압이 올라가고, 신증후군에서는 소변으로 단백질이 빠져 혈장 교질삼투압이 낮아진다. 두 경우 모두 장벽 손상 없이 체액이 이동하는 혈역학적 기전이다.\n\n||= 기전 ||= 대표 원인 ||= 폐포 안의 변화 ||\n|| 정수압 증가 || 좌심부전, 체액 과다, 폐정맥 폐쇄 || 단백질이 상대적으로 적은 '''transudate''' ||\n|| 교질삼투압 감소 || 신증후군, 저알부민혈증, 간의 합성능 저하, 단백소실장병증 || 혈관 안에 물을 붙잡는 힘이 감소 ||\n|| 림프 배액 장애 || 림프관 폐쇄 등 || 제거되지 못한 체액이 축적 ||\n|| 직접 장벽 손상 || 폐렴, 위내용물 흡인, 산소독성·연기, 방사선, 약물·항암제 || 단백질이 풍부한 '''exudate''' ||\n|| 간접 장벽 손상 || 패혈증, 쇼크·중증 외상, 화상, 췌장염, TRALI || 염증에 의한 내피·상피 손상; 심하면 DAD ||\n\n[[파일:assets/lecture-14/p021-figures.jpg|혈역학적 폐부종과 장벽 손상성 폐부종의 비교]]\n\n좌심부전의 폐는 무겁고 젖어 있으며, 중력 때문에 기저부의 울혈·부종이 두드러질 수 있다. 미세 출혈이 반복되면 대식세포가 적혈구를 처리해 '''hemosiderin-laden macrophage(heart failure cell)'''가 생긴다. 만성 울혈에서 섬유화까지 더해진 상태가 brown induration이다.\n\n> '''폐포에 액체가 있다는 결과'''만으로 기전을 정하지 않는다. 심부전·저알부민혈증은 압력 차이, 폐렴·독성·흡인은 장벽 손상으로 연결한다.\n\n=== 선지별 해설 ===\n* 1번: 폐렴은 염증으로 내피·폐포상피의 투과성을 높이는 '''장벽 손상''' 기전이다. 심한 경우 DAD로 진행할 수 있다.\n* 2번: 산소독성은 활성산소 등에 의해 폐포–모세혈관 장벽을 손상시킨다. 장기간의 고농도 산소 노출을 맥락으로 이해한다.\n* 3번: 신증후군은 단백뇨로 알부민이 감소해 혈장 교질삼투압이 낮아진다. 다른 네 선택지와 달리 '''혈역학적 폐부종''' 쪽이므로 정답이다.\n* 4번: 항암제 중 bleomycin 등은 직접적인 폐손상·염증을 일으킬 수 있다. 모든 항암제가 동일한 빈도로 폐부종을 일으킨다는 뜻은 아니다.\n* 5번: 산성 위내용물의 흡인은 화학적 폐손상으로 상피·내피 장벽의 누출을 유발한다.\n\n관련 Wiki: [[14강#폐부종의 두 기전은 압력 변화와 장벽 손상이다|폐부종의 두 기전은 압력 변화와 장벽 손상이다]]\n\n근거: 39기 「폐질환의 병리」 PDF 20–24쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -13044,7 +13106,17 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "폐부종의 두 기전은 압력 변화와 장벽 손상이다",
+        "pages": "20–24",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2023-033",
@@ -13066,10 +13138,12 @@ window.JBL_DATA = {
         "Hemosiderin-laden macrophages",
         "malignant glandular cells"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번",
+      "explanation": "정답: ④ Hemosiderin-laden macrophages\n\n=== 판단의 출발점 ===\n미만성 폐포출혈에서 찾는 것은 적혈구를 처리한 흔적이다. BAL에서 '''hemosiderin-laden macrophage'''가 확인되면 최근 또는 반복된 폐포 내 출혈을 뒷받침한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐포 안으로 나온 적혈구를 대식세포가 먹고 분해하면 철이 '''hemosiderin'''으로 남는다. 이런 세포가 hemosiderin-laden macrophage, 또는 siderophage다. BAL에서 반복 출혈을 뒷받침하는 소견이며 철염색으로 확인할 수 있다.\n\n[[파일:assets/lecture-14/p044-figures.jpg|폐포출혈: 적혈구와 hemosiderin을 가진 대식세포, 철염색]]\n\n||= 상황·구조 ||= 해석 ||\n|| 연속 BAL 검체가 점점 더 혈성 || 미만성 폐포출혈을 뒷받침 ||\n|| Hemosiderin 대식세포 || 최근·반복 출혈의 흔적. 출혈 직후에는 아직 적을 수 있음 ||\n|| 폐출혈 + 사구체신염 + anti-GBM || Goodpasture/anti-GBM disease; 기저막을 따른 linear IF ||\n|| 혈관염·SLE || 전신 소견과 자가항체를 함께 평가 ||\n|| 소아의 반복 출혈, 다른 원인 없음 || 특발성 폐혈철소증 고려 ||\n|| 좌심부전의 만성 폐울혈 || 같은 세포가 '''heart failure cell'''로 나타날 수 있음 ||\n\n> BAL에서 이 세포를 확인하면 '''출혈을 했다는 근거'''를 얻는 것이지, 출혈의 원인까지 자동으로 확정되는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: Pneumocystis 균체는 기회감염성 폐렴의 근거다. 호산성 거품 모양 폐포 내용물과 특수염색에서의 균체를 연결한다.\n* 2번: 유리질막은 DAD의 조직 소견으로, 폐포벽을 따라 쌓인 삼출물·세포 잔해다. 출혈 후 대식세포를 묻는 BAL 문항의 중심 소견이 아니다.\n* 3번: Charcot–Leyden crystal은 호산구 분해산물로 천식·호산구성 반응과 연결한다.\n* 4번: 대식세포가 적혈구를 분해한 뒤 철을 hemosiderin으로 저장한 세포다. 정답이다. 다만 출혈의 원인까지 특정하지는 못한다.\n* 5번: 악성 샘세포는 선암 등 악성 상피성 종양을 시사한다. 폐포출혈 자체를 확인하는 특징 소견이 아니다.\n\n관련 Wiki: [[14강#미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다|미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 41–44쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -13092,7 +13166,17 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다",
+        "pages": "41–44",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2023-034",
@@ -13114,10 +13198,12 @@ window.JBL_DATA = {
         "CD56, chromogranin 면역조직화학염색",
         "Cytomegalovirus 면역조직화학염색"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번",
+      "explanation": "정답: ② Ziehl-Neelsen stain\n\n=== 판단의 출발점 ===\nCT에서 기관지를 막는 종괴·작은 결절·림프절 종대가 보여 폐암을 의심했지만, 생검은 '''괴사성 육아종'''이다. 영상의 최초 추정보다 조직 소견을 우선해 항산균 감염을 확인하는 Ziehl–Neelsen 염색을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n영상에서 폐암처럼 보이는 종괴라도 생검이 '''괴사성 육아종'''이면 감염성 원인을 먼저 확인한다. 중심부의 무정형 괴사와 주변의 상피모양 조직구·거대세포를 보고, 면역억제 치료 중인 숙주에서는 항산균과 진균을 함께 고려한다. SLE라는 병명 자체가 곧 결핵의 확진은 아니다.\n\n[[파일:assets/lecture-17/p156-figures.jpg|괴사성 육아종: 중심 괴사와 주변 상피모양 조직구·거대세포]]\n\n||= 검사 ||= 확인하는 대상 ||= 이 문제에서의 위치 ||\n|| '''Ziehl–Neelsen''' || 항산균, 빨간 막대 모양 균체 || 결핵·비결핵항산균을 찾는 우선 검사 ||\n|| '''GMS''' || 진균의 세포벽·균사·효모, Pneumocystis 낭포 등 || 괴사성 육아종의 진균성 원인 감별 ||\n|| TTF-1 면역염색 || 폐선암·일부 신경내분비종양 등의 분화 평가 || 종양세포가 확인될 때 의미. 항산균 검사 아님 ||\n|| CD56·chromogranin || 신경내분비 분화 || 소세포암 등 의심 시 사용 ||\n|| EGFR mutation test || 폐선암 등의 치료 표적 유전자 변이 || 암 진단·치료 선택의 맥락, 육아종 원인 검사 아님 ||\n|| CMV 면역염색 || CMV 감염 세포 || 세포 비대·핵내 봉입체 등이 단서 ||\n|| BAP1 면역염색 || 특정 종양에서 핵 발현 소실을 평가; 중피성 병변 등의 감별에 활용 || 결핵균이나 육아종의 원인을 찾는 염색 아님 ||\n\nZiehl–Neelsen 양성만으로 '''결핵균과 비결핵항산균을 구분'''하지는 못한다. 균량이 적으면 염색이 음성이어도 감염을 배제할 수 없어 배양·분자검사를 함께 고려한다. GMS 역시 진균을 드러내는 검사이며, 균사·효모 형태와 다른 검사로 종류를 판단한다.\n\n> '''무슨 병으로 의심해 생검했는가'''보다 '''생검에 무엇이 보였는가'''가 다음 검사를 결정한다. 괴사성 육아종이라면 항산균·진균, 악성 상피세포라면 종양 분화와 치료 표적을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: TTF-1은 폐선암 등의 분화를 평가하는 면역표지자다. 생검이 괴사성 육아종이라면 먼저 감염성 원인을 찾아야 한다.\n* 2번: 항산균을 검출하는 Ziehl–Neelsen 염색이다. 괴사성 육아종과 장기간 기침·면역억제 상황에서 가장 적절한 다음 검사다. 정답이다.\n* 3번: BAP1은 특정 종양에서 핵 발현 소실을 평가하는 표지자다. 육아종 속 병원체를 찾는 검사가 아니다.\n* 4번: CD56·chromogranin은 신경내분비 분화를 확인한다. 현재 생검의 중심은 종양세포가 아니라 괴사성 육아종이다.\n* 5번: CMV는 면역억제 환자에서 가능하지만 세포 비대·핵내 봉입체 등 바이러스성 세포변화가 근거가 되어야 한다. 면역억제라는 사실만으로 CMV를 고르지 않는다.\n\n관련 Wiki: [[17강#괴사성 육아종에서는 항산균과 진균을 찾는다|괴사성 육아종에서는 항산균과 진균을 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 150–163쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2023/q034_01.jpg"
       ],
@@ -13169,7 +13255,17 @@ window.JBL_DATA = {
             "2025-011"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "괴사성 육아종에서는 항산균과 진균을 찾는다",
+        "pages": "150–163",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2023-035",
@@ -13267,10 +13363,12 @@ window.JBL_DATA = {
         "Chronic eosinophilic pneumonia",
         "Chronic hypersensitivity pneumonitis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ Chronic hypersensitivity pneumonitis\n\n=== 판단의 출발점 ===\n닭을 키우면서 수년에 걸쳐 진행한 호흡곤란, 양측 GGO·reticulation, 제한성 폐기능이 있다. 조직의 세기관지 중심 염증과 느슨한 비괴사성 육아종을 함께 보면 '''chronic hypersensitivity pneumonitis'''가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n새·닭의 단백질이나 곰팡이 등 '''흡입 항원에 반복 노출'''되면 세기관지와 주변 사이질에 면역성 염증이 생길 수 있다. 과민폐렴(HP)에서는 노출력, GGO·reticulation, 제한성 폐기능을 조직 소견과 연결한다. 농부라는 직업이나 흡연력 한 가지가 진단을 대신하지는 않는다.\n\n[[파일:assets/lecture-16/p100-figures.jpg|과민폐렴: 세기관지 주위의 경계 불명확한 비괴사성 육아종]]\n\n||= 질환 ||= 구분할 조직 소견 ||\n|| '''과민폐렴''' || '''세기관지 주위의 느슨하고 작고 잘 형성되지 않은 비괴사성 육아종''', 림프구성 사이질염·세기관지염 ||\n|| Sarcoidosis || 비교적 잘 형성되고 경계가 분명한 비괴사성 육아종, 림프관 주변 분포 ||\n|| UIP || 흉막하·격막 주변의 patchy fibrosis, 시간적 불균일성과 fibroblastic foci ||\n|| NSIP || 비교적 균일한 시기의 사이질 염증·섬유화 ||\n|| Organizing pneumonia || 폐포관·폐포·세기관지 안의 polypoid granulation tissue plug ||\n|| DIP || 폐포강을 넓게 채운 갈색 색소 대식세포 ||\n|| 만성 호산구폐렴 || 폐포·사이질의 뚜렷한 호산구 침윤 ||\n\n과민폐렴이 오래되면 섬유화·벌집변화까지 생겨 UIP와 닮을 수 있다. 따라서 '''honeycomb이 있다'''는 말만으로 IPF를 확정하지 않는다. 노출력과 기도 중심 병변, 작은 육아종이 원인 감별을 돕는다. 섬유화가 진행되면 육아종이 뚜렷하지 않을 수도 있다.\n\n> HP와 sarcoidosis는 모두 비괴사성 육아종을 만들지만, HP에서는 '''작고 느슨한 육아종 + 세기관지 주위 분포 + 흡입 항원'''을 묶는다.\n\n=== 선지별 해설 ===\n* 1번: Sarcoidosis는 잘 형성된 비괴사성 육아종과 림프관 주변 분포가 전형적이다. HP의 느슨한 세기관지 주위 육아종과 구분한다.\n* 2번: DIP에서는 폐포강의 광범위한 색소 대식세포 축적이 중심이고 흡연과 밀접하다. 육아종 중심 사진이 아니다.\n* 3번: UIP는 흉막하 patchy fibrosis, fibroblastic foci와 temporal heterogeneity가 중심이다. 노출력과 기도 중심 육아종은 HP를 지지한다.\n* 4번: 만성 호산구폐렴은 뚜렷한 호산구 침윤이 핵심이다. 단순한 제한성 폐기능만으로 고르지 않는다.\n* 5번: 조류 항원 노출과 세기관지 중심의 염증·경계 불명확한 비괴사성 육아종이 맞아떨어진다. 정답이다.\n\n관련 Wiki: [[16강#과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다|과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 94–100쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2023/q036_01.jpg"
       ],
@@ -13302,7 +13400,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다",
+        "pages": "94–100",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2023-037",
@@ -13324,10 +13432,12 @@ window.JBL_DATA = {
         "Diffuse alveolar damage",
         "Acute Cor Pulmonale(Right heart failure)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ Acute Cor Pulmonale(Right heart failure)\n\n=== 판단의 출발점 ===\n3주간의 침상 안정은 DVT의 위험을 높인다. 움직이던 중 갑자기 쓰러지고 주폐동맥에 큰 혈전이 확인되었다면 '''폐혈관 저항의 급상승으로 생긴 급성 우심부전'''이 급사를 가장 잘 설명한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n오래 누워 있으면 다리 깊은정맥에 혈전이 생기기 쉽다. 혈전이 떨어져 우심장을 거쳐 폐동맥에 걸리면 폐혈전색전증이 발생한다. 결과는 '''막힌 혈관의 크기와 원래 심폐 예비력'''에 달려 있다.\n\n||= 폐쇄 양상 ||= 주요 결과 ||\n|| 작은 색전 || 무증상이거나 일시적 호흡곤란·출혈. 이중 혈액 공급 때문에 반드시 경색이 되지는 않음 ||\n|| 말초 색전과 혈류 부족 || 하엽·흉막 쪽의 쐐기 모양 '''출혈성 경색''' ||\n|| '''큰 중심부·saddle embolus''' || 폐혈관 저항 급증 → '''급성 우심부전''' → 쇼크·급사 ||\n|| 반복되는 색전 || 만성 폐고혈압과 우심실 비대·만성 폐성심 ||\n\n[[파일:assets/lecture-14/p034-figures.jpg|주폐동맥의 혈전색전: 갑작스러운 우심실 후부하 증가를 일으킨다]]\n\n큰 혈전이 폐동맥 혈류를 급격히 막으면 우심실이 갑자기 높아진 후부하를 감당하지 못한다. 폐를 지나 좌심장으로 오는 혈액도 줄어 심박출량과 혈압이 떨어진다. '''폐동맥압 상승은 이 과정의 원인 단계이고, acute cor pulmonale는 사망에 이르는 우심장 기능 실패를 표현한다.''' 수개월에 걸친 우심실 비대가 있어야만 폐성심이라고 부르는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 기관지수축은 공기가 지나가는 기도를 좁힌다. 사진의 주폐동맥 혈전은 혈관 폐쇄가 중심이며 중증 천식의 사진이 아니다.\n* 2번: 압박성 무기폐는 흉수·기흉·종괴 등이 폐를 바깥에서 눌러 생긴다. 주폐동맥 색전에 의한 급사를 설명하지 못한다.\n* 3번: 폐혈관 저항과 폐동맥압의 급증은 실제 기전에 포함된다. 다만 발문은 사망에 이르게 한 결과를 묻고, 그 뒤 우심실이 버티지 못한 상태를 표현한 ⑤가 가장 적합하다.\n* 4번: DAD는 광범위 폐포–모세혈관 장벽 손상이다. 여기서는 큰 폐동맥의 급성 폐쇄가 부검상 직접 확인되었다.\n* 5번: 갑작스러운 우심실 후부하 증가 → 우심실 기능 실패 → 좌심실 충만과 심박출량 감소·쇼크로 이어진다. 정답이다.\n\n관련 Wiki: [[14강#폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다|폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 32–35쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2023/q037_01.jpg"
       ],
@@ -13359,7 +13469,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다",
+        "pages": "32–35",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2023-038",
@@ -13381,10 +13501,12 @@ window.JBL_DATA = {
         "nonatopic bronchial asthma",
         "pulmonary alveolar proteinosis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번",
+      "explanation": "정답: ① usual interstitial pneumonia\n\n=== 판단의 출발점 ===\n폐하부 reticulation·honeycomb과 제한성 폐기능이 있고, 조직은 '''불균일한 섬유화와 fibroblastic foci'''를 보인다. 병리 패턴으로는 UIP가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nUIP는 '''조직의 손상 양상'''이며, IPF는 원인을 배제한 뒤 붙이는 질환명이다. 결합조직질환, 만성 과민폐렴, 석면 노출 등도 UIP와 닮은 섬유화를 보일 수 있으므로 조직 소견만으로 모든 원인을 정하지 않는다.\n\n[[파일:assets/lecture-16/p084-figures.jpg|UIP의 patchy fibrosis: 보존된 폐와 섬유화 부위가 섞이고 작은 fibroblastic focus가 보인다]]\n\n||= UIP에서 찾는 것 ||= 의미 ||\n|| '''Patchy fibrosis / spatial heterogeneity''' || 심하게 섬유화된 곳 옆에 비교적 정상인 폐가 남음 ||\n|| '''Temporal heterogeneity''' || 오래된 치밀한 collagen 반흔과 새로 진행 중인 섬유화가 함께 존재 ||\n|| '''Fibroblastic foci''' || 섬유모세포·근섬유모세포가 모인 작은 활동성 수복 초점 ||\n|| 흉막하·격막 주변 우세 || 말초에서 두드러지는 분포 ||\n|| Honeycomb change || 정상 폐포 구조가 파괴되고 상피로 둘러싸인 낭성 공간이 생긴 말기 변화 ||\n\n||= 다른 양상 ||= UIP와 갈리는 단서 ||\n|| '''NSIP''' || 염증·섬유화의 시기가 비교적 균일. 정상/오래된 반흔/새 foci의 강한 대비가 적음 ||\n|| DAD || 급성 손상과 폐포벽의 hyaline membrane ||\n|| Organizing pneumonia || 공기 공간 안의 fibroblastic plug; 전체 폐 구조는 상대적으로 보존 ||\n|| 과민폐렴 || 세기관지 주위의 경계 불명확한 작은 비괴사성 육아종 ||\n|| Sarcoidosis || 잘 형성된 비괴사성 육아종 ||\n\n> UIP의 중심은 '''반흔이 있다'''가 아니라 '''위치도 시기도 고르지 않은 섬유화'''다. 심한 염증이나 육아종이 전면에 나오면 다른 원인을 다시 생각한다.\n\n=== 선지별 해설 ===\n* 1번: 흉막하 patchy fibrosis, 시간적 불균일성, foci와 honeycomb을 묶는 UIP다. 정답이다.\n* 2번: NSIP는 비교적 균일한 시기의 변화가 중심이다. 같은 직업·비슷한 증상을 쓰더라도 조직 소견이 다르면 구분해야 한다.\n* 3번: DIP는 흡연 연관 색소 대식세포가 폐포강을 채우는 패턴이다. 파괴성·불균일한 섬유화가 중심인 사진과 다르다.\n* 4번: 천식은 기도수축·만성 기도 염증에 의한 폐쇄성 질환이다. 이 환자의 제한성 기능과 폐실질 섬유화에 맞지 않는다.\n* 5번: PAP는 폐포 안의 과립상 단백질성 물질과 PAS 양성이 중심이다. 조직 구조가 섬유화로 파괴된 UIP와 다르다.\n\n관련 Wiki: [[16강#UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다|UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다]]\n\n근거: 39기 「폐질환의 병리」 PDF 78–93쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2023/q038_01.jpg",
         "J/2023/q038_02.jpg"
@@ -13421,7 +13543,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다",
+        "pages": "78–93",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2023-039",
@@ -20541,10 +20673,12 @@ window.JBL_DATA = {
         "resorption atelectasis",
         "acute suppurative inflammation in alveolar space"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번",
+      "explanation": "정답: ② Transudate in alveolar space\n\n=== 판단의 출발점 ===\n심근경색 뒤 좌심장 기능이 나빠졌고, 거품 섞인 객담·양측 수포음·기저부 침윤이 동반되었다. 좌심부전으로 폐모세혈관 정수압이 올라가 '''폐포강에 누출액이 찬 상태'''가 가장 자연스럽다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐부종은 '''폐포–모세혈관 장벽을 사이에 두고 물이 이동하는 힘이 달라졌는지''', 아니면 '''장벽 자체가 손상되었는지'''로 나눈다. 좌심부전에서는 폐정맥압이 올라가고, 신증후군에서는 소변으로 단백질이 빠져 혈장 교질삼투압이 낮아진다. 두 경우 모두 장벽 손상 없이 체액이 이동하는 혈역학적 기전이다.\n\n||= 기전 ||= 대표 원인 ||= 폐포 안의 변화 ||\n|| 정수압 증가 || 좌심부전, 체액 과다, 폐정맥 폐쇄 || 단백질이 상대적으로 적은 '''transudate''' ||\n|| 교질삼투압 감소 || 신증후군, 저알부민혈증, 간의 합성능 저하, 단백소실장병증 || 혈관 안에 물을 붙잡는 힘이 감소 ||\n|| 림프 배액 장애 || 림프관 폐쇄 등 || 제거되지 못한 체액이 축적 ||\n|| 직접 장벽 손상 || 폐렴, 위내용물 흡인, 산소독성·연기, 방사선, 약물·항암제 || 단백질이 풍부한 '''exudate''' ||\n|| 간접 장벽 손상 || 패혈증, 쇼크·중증 외상, 화상, 췌장염, TRALI || 염증에 의한 내피·상피 손상; 심하면 DAD ||\n\n[[파일:assets/lecture-14/p021-figures.jpg|혈역학적 폐부종과 장벽 손상성 폐부종의 비교]]\n\n좌심부전의 폐는 무겁고 젖어 있으며, 중력 때문에 기저부의 울혈·부종이 두드러질 수 있다. 미세 출혈이 반복되면 대식세포가 적혈구를 처리해 '''hemosiderin-laden macrophage(heart failure cell)'''가 생긴다. 만성 울혈에서 섬유화까지 더해진 상태가 brown induration이다.\n\n> '''폐포에 액체가 있다는 결과'''만으로 기전을 정하지 않는다. 심부전·저알부민혈증은 압력 차이, 폐렴·독성·흡인은 장벽 손상으로 연결한다.\n\n=== 선지별 해설 ===\n* 1번: 기관지 출혈은 객혈을 설명할 수 있지만, 좌심부전 뒤 양측 기저부 침윤과 거품 객담을 묶는 중심 기전은 아니다.\n* 2번: 폐포강 내 transudate가 가스교환을 방해하고 수포음·호흡곤란을 만든다. 정답이다.\n* 3번: 위내용물 흡인은 의식 저하·구토·흡인 상황 등이 단서이며 화학적 장벽 손상이다. 이 발문은 좌심기능 저하를 직접 제시했다.\n* 4번: 흡수성 무기폐는 기도가 막힌 뒤 원위부 공기가 흡수되어 허탈하는 현상이다. 양측 울혈성 폐부종과는 기전이 다르다.\n* 5번: 급성 화농성 염증은 세균성 폐렴에서 호중구와 삼출물이 폐포를 채우는 변화다. 이 환자에서는 감염보다 정수압 상승이 앞선다.\n\n관련 Wiki: [[14강#폐부종의 두 기전은 압력 변화와 장벽 손상이다|폐부종의 두 기전은 압력 변화와 장벽 손상이다]]\n\n근거: 39기 「폐질환의 병리」 PDF 20–24쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -20569,7 +20703,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "폐부종의 두 기전은 압력 변화와 장벽 손상이다",
+        "pages": "20–24",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2022-036",
@@ -20591,10 +20735,12 @@ window.JBL_DATA = {
         "Bronchogenic cyst",
         "Congenital pulmonary airway malformation, type1"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번",
+      "explanation": "정답: ④ Bronchogenic cyst\n\n=== 판단의 출발점 ===\n점액이 차 있는 경계 좋은 낭성 병변과 현재 붙어 있는 기관지원성 낭종 조직사진을 함께 판단한다. 폐실질 내나 흉막에 붙은 위치에서도 기관지원성 낭종이 생길 수 있으므로, 위치만으로 폐분리증을 선택하지 않는다.\n\n발문 끝의 “2021 40과 동일”은 복원 당시의 메모다. 현재 {{451}}에는 다른 조직사진이 연결되어 있고, 그 사진은 올해 강의록의 CPAM 1형 예시와 일치한다. '''서로의 답을 그대로 복사하지 않고 각 문항에 실제로 붙은 사진을 기준으로 구분했다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\n점액이 찬 낭종을 보면 먼저 '''낭종을 덮는 상피와 벽의 구성요소'''를 확인한다. 기관지원성 낭종은 거짓중층섬모원주상피(PCCE)를 가지며, 평활근·연골·기관지샘이 동반될 수 있다. 종격동에서 흔하지만 폐실질 내에도 생기므로 위치 하나로 배제하지 않는다.\n\n||= 질환 ||= 구분 소견 ||\n|| '''Bronchogenic cyst''' || 점액성 단방성 낭종, PCCE와 기관지벽 성분 ||\n|| CPAM 1형 || 큰 낭종과 넓은 섬유성 격벽, 비정상 기도 구조가 이루는 폐실질 병변; 섬모상피·점액세포도 가능 ||\n|| Extralobar sequestration || 자기 흉막, 정상 기관지와 연결되지 않은 폐조직, '''대동맥 계통의 동맥 공급''' ||\n|| Enteric·esophageal cyst || 소화관 분화를 보이는 피복 상피와 근육벽 ||\n|| Pericardial cyst || 얇은 벽과 중피성 피복, 주로 장액성 내용물 ||\n|| Thymoma·schwannoma || 각각 흉선상피종양·신경초종. 단순한 호흡상피성 발달 낭종과 다름 ||\n\n[[파일:assets/lecture-14/p012-figures.jpg|기관지원성 낭종: 낭성 병변과 호흡상피·기관지벽 구조]]\n\n'''PCCE나 점액이 있다는 사실만으로 모든 낭종을 기관지원성 낭종이라 할 수는 없다.''' CPAM 1형에도 비슷한 상피가 나타난다. 낭종벽과 주변 폐조직의 전체 구조, 비정상 공급 혈관 유무를 함께 판단해야 한다.\n\n=== 선지별 해설 ===\n* 1번: 장원성 낭종이라면 소화관형 상피와 근육벽 등 소화관 분화가 근거가 되어야 한다.\n* 2번: 폐외분리증의 핵심은 자기 흉막과 비정상 체순환 동맥 공급이다. 흉막에 넓게 접한다는 말만으로 이를 확정하지 않는다.\n* 3번: 심낭낭종은 중피성 피복과 얇은 벽·장액성 액체가 중심이다. 현재 호흡상피성 점액 낭종과 다르다.\n* 4번: 현재 사진의 낭종벽과 점액성 내용물에 가장 맞는 진단이다. 정답이다.\n* 5번: CPAM 1형도 큰 낭종·섬모상피를 보일 수 있으므로 감별 대상이다. 이 문항은 현재 연결된 사진을 기관지원성 낭종의 예시와 대조해 풀이한다.\n\n관련 Wiki: [[14강#기관지원성 낭종은 낭종벽의 호흡상피를 확인한다|기관지원성 낭종은 낭종벽의 호흡상피를 확인한다]]\n\n근거: 39기 「폐질환의 병리」 PDF 8–18쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2022/q036_01.jpg"
       ],
@@ -20628,7 +20774,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "기관지원성 낭종은 낭종벽의 호흡상피를 확인한다",
+        "pages": "8–18",
+        "answerStatus": "reviewed_with_restoration_caveat",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2022-037",
@@ -20650,10 +20806,12 @@ window.JBL_DATA = {
         "Cd56, chromogranin",
         "Cytomegalovirus"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "정답: ③ Ziehl-Neelsen\n\n=== 판단의 출발점 ===\nCT에서 기관지를 막는 종괴·작은 결절·림프절 종대가 보여 폐암을 의심했지만, 생검은 '''괴사성 육아종'''이다. 영상의 최초 추정보다 조직 소견을 우선해 항산균 감염을 확인하는 Ziehl–Neelsen 염색을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n영상에서 폐암처럼 보이는 종괴라도 생검이 '''괴사성 육아종'''이면 감염성 원인을 먼저 확인한다. 중심부의 무정형 괴사와 주변의 상피모양 조직구·거대세포를 보고, 면역억제 치료 중인 숙주에서는 항산균과 진균을 함께 고려한다. SLE라는 병명 자체가 곧 결핵의 확진은 아니다.\n\n[[파일:assets/lecture-17/p156-figures.jpg|괴사성 육아종: 중심 괴사와 주변 상피모양 조직구·거대세포]]\n\n||= 검사 ||= 확인하는 대상 ||= 이 문제에서의 위치 ||\n|| '''Ziehl–Neelsen''' || 항산균, 빨간 막대 모양 균체 || 결핵·비결핵항산균을 찾는 우선 검사 ||\n|| '''GMS''' || 진균의 세포벽·균사·효모, Pneumocystis 낭포 등 || 괴사성 육아종의 진균성 원인 감별 ||\n|| TTF-1 면역염색 || 폐선암·일부 신경내분비종양 등의 분화 평가 || 종양세포가 확인될 때 의미. 항산균 검사 아님 ||\n|| CD56·chromogranin || 신경내분비 분화 || 소세포암 등 의심 시 사용 ||\n|| EGFR mutation test || 폐선암 등의 치료 표적 유전자 변이 || 암 진단·치료 선택의 맥락, 육아종 원인 검사 아님 ||\n|| CMV 면역염색 || CMV 감염 세포 || 세포 비대·핵내 봉입체 등이 단서 ||\n|| BAP1 면역염색 || 특정 종양에서 핵 발현 소실을 평가; 중피성 병변 등의 감별에 활용 || 결핵균이나 육아종의 원인을 찾는 염색 아님 ||\n\nZiehl–Neelsen 양성만으로 '''결핵균과 비결핵항산균을 구분'''하지는 못한다. 균량이 적으면 염색이 음성이어도 감염을 배제할 수 없어 배양·분자검사를 함께 고려한다. GMS 역시 진균을 드러내는 검사이며, 균사·효모 형태와 다른 검사로 종류를 판단한다.\n\n> '''무슨 병으로 의심해 생검했는가'''보다 '''생검에 무엇이 보였는가'''가 다음 검사를 결정한다. 괴사성 육아종이라면 항산균·진균, 악성 상피세포라면 종양 분화와 치료 표적을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: TTF-1은 폐선암 등의 분화를 평가하는 면역표지자다. 생검이 괴사성 육아종이라면 먼저 감염성 원인을 찾아야 한다.\n* 2번: EGFR 변이는 폐선암의 치료 표적을 평가하는 검사다. 아직 생검이 감염성 육아종을 가리키는 상황에서 우선할 검사는 아니다.\n* 3번: 항산균을 검출하는 Ziehl–Neelsen 염색이다. 괴사성 육아종과 장기간 기침·면역억제 상황에서 가장 적절한 다음 검사다. 정답이다.\n* 4번: CD56·chromogranin은 신경내분비 분화를 확인한다. 현재 생검의 중심은 종양세포가 아니라 괴사성 육아종이다.\n* 5번: CMV는 면역억제 환자에서 가능하지만 세포 비대·핵내 봉입체 등 바이러스성 세포변화가 근거가 되어야 한다. 면역억제라는 사실만으로 CMV를 고르지 않는다.\n\n관련 Wiki: [[17강#괴사성 육아종에서는 항산균과 진균을 찾는다|괴사성 육아종에서는 항산균과 진균을 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 150–163쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2022/q037_01.jpg"
       ],
@@ -20708,7 +20866,17 @@ window.JBL_DATA = {
             "2025-011"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "괴사성 육아종에서는 항산균과 진균을 찾는다",
+        "pages": "150–163",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2022-038",
@@ -20789,10 +20957,12 @@ window.JBL_DATA = {
         "Polypoid plugs of organizing connective tissue within acini",
         "Fibroblastic foci (좀 더 긴 내용의 선지)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번",
+      "explanation": "정답: ① Poorly defined, non-caseating granuloma\n\n=== 판단의 출발점 ===\n조류 항원 노출을 시사하는 농부의 병력과 조직사진이 과민폐렴을 가리킨다. 이 질환을 가장 잘 집어내는 소견은 '''잘 형성되지 않은 비괴사성 육아종'''이다.\n\n⑤는 “좀 더 긴 내용의 선지”로 일부가 복원되지 않았다. 현재 확인되는 보기와 사진에서는 ①이 가장 적합하며, 누락 문구 자체는 보충하지 않았다.\n\n=== 이 문항을 풀기 위한 개념 ===\n새·닭의 단백질이나 곰팡이 등 '''흡입 항원에 반복 노출'''되면 세기관지와 주변 사이질에 면역성 염증이 생길 수 있다. 과민폐렴(HP)에서는 노출력, GGO·reticulation, 제한성 폐기능을 조직 소견과 연결한다. 농부라는 직업이나 흡연력 한 가지가 진단을 대신하지는 않는다.\n\n[[파일:assets/lecture-16/p100-figures.jpg|과민폐렴: 세기관지 주위의 경계 불명확한 비괴사성 육아종]]\n\n||= 질환 ||= 구분할 조직 소견 ||\n|| '''과민폐렴''' || '''세기관지 주위의 느슨하고 작고 잘 형성되지 않은 비괴사성 육아종''', 림프구성 사이질염·세기관지염 ||\n|| Sarcoidosis || 비교적 잘 형성되고 경계가 분명한 비괴사성 육아종, 림프관 주변 분포 ||\n|| UIP || 흉막하·격막 주변의 patchy fibrosis, 시간적 불균일성과 fibroblastic foci ||\n|| NSIP || 비교적 균일한 시기의 사이질 염증·섬유화 ||\n|| Organizing pneumonia || 폐포관·폐포·세기관지 안의 polypoid granulation tissue plug ||\n|| DIP || 폐포강을 넓게 채운 갈색 색소 대식세포 ||\n|| 만성 호산구폐렴 || 폐포·사이질의 뚜렷한 호산구 침윤 ||\n\n과민폐렴이 오래되면 섬유화·벌집변화까지 생겨 UIP와 닮을 수 있다. 따라서 '''honeycomb이 있다'''는 말만으로 IPF를 확정하지 않는다. 노출력과 기도 중심 병변, 작은 육아종이 원인 감별을 돕는다. 섬유화가 진행되면 육아종이 뚜렷하지 않을 수도 있다.\n\n> HP와 sarcoidosis는 모두 비괴사성 육아종을 만들지만, HP에서는 '''작고 느슨한 육아종 + 세기관지 주위 분포 + 흡입 항원'''을 묶는다.\n\n=== 선지별 해설 ===\n* 1번: HP의 작고 느슨하며 경계 불명확한 비괴사성 육아종을 표현한다. 정답이다.\n* 2번: Honeycomb은 여러 만성 섬유성 폐질환의 말기 변화다. 만성 HP에도 가능하지만 원인을 특정하는 가장 좋은 단서는 아니다.\n* 3번: 흉막하 섬유화와 시간적 불균일성은 UIP의 전형적 기술이다. 현재의 노출력·육아종을 설명하는 핵심은 아니다.\n* 4번: 샘꽈리 공기 공간 안의 기질화 결합조직 마개는 organizing pneumonia다. HP에 동반될 수 있어도 진단을 대표하는 답은 아니다.\n* 5번: Fibroblastic foci는 UIP에서 중요한 활동성 섬유화 초점이다. 현재 복원본은 뒤 문구가 생략되어 있으므로 그 부분을 만들어 해석하지 않는다.\n\n관련 Wiki: [[16강#과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다|과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 94–100쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2022/q039_01.jpg"
       ],
@@ -20842,7 +21012,17 @@ window.JBL_DATA = {
             "2022-039"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다",
+        "pages": "94–100",
+        "answerStatus": "reviewed_with_restoration_caveat",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2022-040",
@@ -20864,10 +21044,12 @@ window.JBL_DATA = {
         "acute cor pulmonale(right heart failure)",
         "hemorrhagic infiltration in lung"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번",
+      "explanation": "정답: ④ acute cor pulmonale(right heart failure)\n\n=== 판단의 출발점 ===\n입원·침상 안정 뒤 갑작스러운 흉통과 호흡곤란, 수십 분 내 사망, 주폐동맥 색전 사진을 묶으면 '''massive pulmonary embolism에 의한 acute cor pulmonale'''다.\n\n=== 이 문항을 풀기 위한 개념 ===\n오래 누워 있으면 다리 깊은정맥에 혈전이 생기기 쉽다. 혈전이 떨어져 우심장을 거쳐 폐동맥에 걸리면 폐혈전색전증이 발생한다. 결과는 '''막힌 혈관의 크기와 원래 심폐 예비력'''에 달려 있다.\n\n||= 폐쇄 양상 ||= 주요 결과 ||\n|| 작은 색전 || 무증상이거나 일시적 호흡곤란·출혈. 이중 혈액 공급 때문에 반드시 경색이 되지는 않음 ||\n|| 말초 색전과 혈류 부족 || 하엽·흉막 쪽의 쐐기 모양 '''출혈성 경색''' ||\n|| '''큰 중심부·saddle embolus''' || 폐혈관 저항 급증 → '''급성 우심부전''' → 쇼크·급사 ||\n|| 반복되는 색전 || 만성 폐고혈압과 우심실 비대·만성 폐성심 ||\n\n[[파일:assets/lecture-14/p034-figures.jpg|주폐동맥의 혈전색전: 갑작스러운 우심실 후부하 증가를 일으킨다]]\n\n큰 혈전이 폐동맥 혈류를 급격히 막으면 우심실이 갑자기 높아진 후부하를 감당하지 못한다. 폐를 지나 좌심장으로 오는 혈액도 줄어 심박출량과 혈압이 떨어진다. '''폐동맥압 상승은 이 과정의 원인 단계이고, acute cor pulmonale는 사망에 이르는 우심장 기능 실패를 표현한다.''' 수개월에 걸친 우심실 비대가 있어야만 폐성심이라고 부르는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 현재 선지는 “acute severe bronchiectasis”다. 기관지확장증은 폐쇄·감염에 따른 영구적인 기도 확장으로, 큰 폐동맥 색전에 의한 급사와 다르다.\n* 2번: 압박성 무기폐는 흉강 바깥 압력에 의한 폐허탈이다. 색전의 직접 사망 기전이 아니다.\n* 3번: 급성 폐부종도 호흡곤란을 일으키지만, 제시된 큰 폐동맥 혈전에서 중심이 되는 것은 급격한 우심실 후부하 증가다.\n* 4번: 큰 폐동맥 폐쇄로 우심실이 혈액을 밀어내지 못해 쇼크에 빠지는 급성 우심부전이다. 정답이다.\n* 5번: 출혈성 폐경색은 말초 색전에서 나타날 수 있지만, 중심부 대량 색전 후 짧은 시간 내 급사하는 주된 기전은 우심부전이다.\n\n관련 Wiki: [[14강#폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다|폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 32–35쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2022/q040_01.jpg"
       ],
@@ -20901,7 +21083,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다",
+        "pages": "32–35",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2022-041",
@@ -20923,10 +21115,12 @@ window.JBL_DATA = {
         "Nonatopic bronchial asthma",
         "PAP"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번",
+      "explanation": "정답: ② NSIP\n\n=== 판단의 출발점 ===\n발문의 '''same stage의 interstitial fibrosis'''가 정답을 가른다. 시간적 불균일성을 보이는 UIP가 아니라, 비교적 균일한 병변인 NSIP다. BAL 림프구·형질세포는 보조 단서다.\n\n=== 이 문항을 풀기 위한 개념 ===\nNSIP는 사이질의 염증 또는 섬유화가 '''비교적 같은 시기·균일한 양상'''으로 나타나는 병리 패턴이다. 세포성 유형에서는 림프구·형질세포 중심의 염증이, 섬유성 유형에서는 균일한 collagen 축적이 두드러진다. 결합조직질환·약물 등과 연관되기도 한다.\n\n[[파일:assets/lecture-16/p089-figures.jpg|NSIP: 비교적 균일하게 두꺼워진 폐포격벽과 사이질 염증]]\n\n||= 구분 ||= NSIP ||= UIP ||\n|| 시간적 양상 || '''Temporal uniformity''' || '''Temporal heterogeneity''' ||\n|| 분포 || 상대적으로 고른 사이질 변화 || Patchy, 흉막하·격막 주변 우세 ||\n|| 주요 조직 || 림프구·형질세포 또는 균일한 섬유화 || 오래된 반흔과 새 fibroblastic foci, 보존된 폐의 혼재 ||\n|| Honeycomb·foci || 보통 적거나 뚜렷하지 않음 || 전형적인 감별 단서 ||\n|| 경과 || 일반적으로 UIP보다 양호하나 섬유성 NSIP는 진행 가능 || 진행성 섬유화와 불량한 경과 ||\n\nBAL의 림프구 증가만으로 NSIP를 확정할 수는 없다. 과민폐렴 등에서도 보일 수 있기 때문이다. 이 문항에서는 '''same stage의 interstitial fibrosis'''가 직접적인 구분 단서다. 비슷한 나이·직업·증상을 쓴 다른 문항이 UIP였더라도 조직의 시기가 달라지면 답도 달라진다.\n\n=== 선지별 해설 ===\n* 1번: UIP는 오래된 반흔과 새 fibroblastic foci가 섞이는 temporal heterogeneity가 핵심이다. same stage라는 직접 설명과 반대다.\n* 2번: 균일한 시기의 사이질 섬유화·염증이라는 NSIP 양상에 맞는다. 정답이다.\n* 3번: DIP라면 폐포강의 색소 대식세포가 핵심이다. BAL의 림프구·형질세포만으로 DIP라고 하지 않는다.\n* 4번: 비아토피 천식은 폐쇄성 기도 질환이다. 균일한 사이질 섬유화와 reticular pattern을 설명하지 못한다.\n* 5번: PAP는 surfactant 처리 이상에 따른 폐포 내 단백질성 축적이며, 균일한 사이질 섬유화가 정의 소견은 아니다.\n\n관련 Wiki: [[16강#NSIP는 병변의 시간이 비교적 균일하다|NSIP는 병변의 시간이 비교적 균일하다]]\n\n근거: 39기 「폐질환의 병리」 PDF 78–93쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -20951,7 +21145,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "NSIP는 병변의 시간이 비교적 균일하다",
+        "pages": "78–93",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2022-042",
@@ -28487,10 +28691,12 @@ window.JBL_DATA = {
         "gastric aspiration",
         "near-drowning"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "정답: ③ pulmonary vein obstruction\n\n=== 판단의 출발점 ===\nDAD를 만드는 것은 장벽 손상이다. 반면 '''폐정맥 폐쇄는 정수압을 높여 혈역학적 폐부종'''을 일으키므로 강의록의 원인 분류상 ③이 가장 적합하다.\n\n복원 주의: ②의 “hemorrhage”는 강의록의 “coagulation”과 다르다. '''원문 선지는 보존하고, 출제 의도가 DIC와 폐정맥 폐쇄를 구분하는 것이었다는 해석 아래 ③을 제시한다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nDAD(diffuse alveolar damage)는 원인이 서로 달라도 심한 '''폐포상피·모세혈관내피 손상''' 뒤에 나타나는 조직 반응이다. ARDS는 임상적 증후군이고 DAD는 대표적인 병리 양상이므로, 두 말을 완전한 동의어로 쓰지는 않는다.\n\n||= 구분 ||= 알아둘 내용 ||\n|| 직접 손상 || 폐렴, 위내용물 흡인, 산소·유해가스, 익수, 폐좌상, 방사선 ||\n|| 전신·간접 손상 || 패혈증, 쇼크, 중증 외상·화상, 췌장염, DIC, TRALI 등 ||\n|| 약물·독성물질 || 항암제, paraquat, 약물 과량 등 ||\n|| '''급성 삼출기''' || 부종·출혈·fibrin과 '''hyaline membrane''' ||\n|| 기질화·증식기 || '''제2형 폐포세포 증식''', 섬유모세포·육아조직 증가 ||\n|| 결과 || 회복하거나 일부에서 섬유화가 남음 ||\n\n[[파일:assets/lecture-14/p028-figures.jpg|DAD의 유리질막: 폐포벽을 따라 붙은 진한 분홍색 막]]\n\n장벽이 새면서 나온 단백질·fibrin과 괴사한 상피 잔해가 폐포벽을 따라 붙으면 유리질막이 된다. 공기 공간을 액체가 채우고 surfactant가 소실되어 허탈하면 산소 투여에도 저산소혈증이 충분히 교정되지 않을 수 있다.\n\n> '''폐포벽의 막'''은 hyaline membrane, '''핵을 가진 입방세포'''는 제2형 폐포세포, '''방추형 세포가 모인 섬유화 초점'''은 fibroblastic focus, '''공기 공간 안의 폴립 모양 수복 조직'''은 organizing pneumonia의 plug다.\n\n=== 선지별 해설 ===\n* 1번: 바이러스 폐렴은 폐포상피 손상과 염증을 통해 DAD를 유발할 수 있다.\n* 2번: 현재 선지는 “disseminated intravascular hemorrhage”로 되어 있다. 강의록에는 DIC, 즉 disseminated intravascular coagulation이 DAD 원인으로 실려 있다. 이 선지는 DIC를 의도한 복원일 가능성이 있지만 두 표현은 같은 정식 용어가 아니다.\n* 3번: 폐정맥 폐쇄는 폐모세혈관 정수압 상승 → transudate라는 혈역학적 기전이 중심이다. 전형적인 DAD 유발 원인들과 구분하는 정답이다.\n* 4번: 위내용물 흡인은 화학적 상피 손상을 일으켜 DAD로 진행할 수 있다.\n* 5번: Near-drowning은 흡인·저산소성 폐손상과 함께 DAD를 유발할 수 있는 상황이다.\n\n관련 Wiki: [[14강#ALI·ARDS의 조직학적 손상은 DAD로 읽는다|ALI·ARDS의 조직학적 손상은 DAD로 읽는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 25–29쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -28515,7 +28721,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "ALI·ARDS의 조직학적 손상은 DAD로 읽는다",
+        "pages": "25–29",
+        "answerStatus": "reviewed_with_restoration_caveat",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2021-035",
@@ -28537,10 +28753,12 @@ window.JBL_DATA = {
         "Polypoid plugs of organizing connective tissue within acini",
         "Fibroblastic foci"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "정답: ③ Poorly formed, non-necrotizing granulomas in peribronchiolar wall\n\n=== 판단의 출발점 ===\n40갑년 흡연력 때문에 DIP·RB-ILD에 먼저 끌릴 수 있지만, 조직사진에서는 '''세기관지 주위의 작고 잘 형성되지 않은 비괴사성 육아종'''이 더 직접적인 단서다. 농부의 흡입 항원 노출 가능성과 함께 HP로 판단한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n새·닭의 단백질이나 곰팡이 등 '''흡입 항원에 반복 노출'''되면 세기관지와 주변 사이질에 면역성 염증이 생길 수 있다. 과민폐렴(HP)에서는 노출력, GGO·reticulation, 제한성 폐기능을 조직 소견과 연결한다. 농부라는 직업이나 흡연력 한 가지가 진단을 대신하지는 않는다.\n\n[[파일:assets/lecture-16/p100-figures.jpg|과민폐렴: 세기관지 주위의 경계 불명확한 비괴사성 육아종]]\n\n||= 질환 ||= 구분할 조직 소견 ||\n|| '''과민폐렴''' || '''세기관지 주위의 느슨하고 작고 잘 형성되지 않은 비괴사성 육아종''', 림프구성 사이질염·세기관지염 ||\n|| Sarcoidosis || 비교적 잘 형성되고 경계가 분명한 비괴사성 육아종, 림프관 주변 분포 ||\n|| UIP || 흉막하·격막 주변의 patchy fibrosis, 시간적 불균일성과 fibroblastic foci ||\n|| NSIP || 비교적 균일한 시기의 사이질 염증·섬유화 ||\n|| Organizing pneumonia || 폐포관·폐포·세기관지 안의 polypoid granulation tissue plug ||\n|| DIP || 폐포강을 넓게 채운 갈색 색소 대식세포 ||\n|| 만성 호산구폐렴 || 폐포·사이질의 뚜렷한 호산구 침윤 ||\n\n과민폐렴이 오래되면 섬유화·벌집변화까지 생겨 UIP와 닮을 수 있다. 따라서 '''honeycomb이 있다'''는 말만으로 IPF를 확정하지 않는다. 노출력과 기도 중심 병변, 작은 육아종이 원인 감별을 돕는다. 섬유화가 진행되면 육아종이 뚜렷하지 않을 수도 있다.\n\n> HP와 sarcoidosis는 모두 비괴사성 육아종을 만들지만, HP에서는 '''작고 느슨한 육아종 + 세기관지 주위 분포 + 흡입 항원'''을 묶는다.\n\n=== 선지별 해설 ===\n* 1번: Honeycomb은 말기 섬유화의 비특이적 결과로 HP 자체를 가장 잘 구분하지 못한다.\n* 2번: 흉막하 섬유화와 temporal heterogeneity는 UIP를 대표한다. 이 문항의 가장 구별되는 조직 소견은 육아종이다.\n* 3번: HP의 특징인 기도 중심 분포와 느슨한 비괴사성 육아종을 모두 포함한다. 정답이다.\n* 4번: 공기 공간의 폴립 모양 육아조직은 organizing pneumonia의 모습이다. 현재 HP의 핵심 판독 소견과 다르다.\n* 5번: Fibroblastic foci는 새로 진행 중인 섬유화를 뜻하며 UIP에서 중요하다. 흡연력이나 섬유화만으로 이 답을 고르지 않는다.\n\n관련 Wiki: [[16강#과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다|과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 94–100쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2021/q035_01.jpg",
         "J/2021/q035_02.jpg"
@@ -28595,7 +28813,17 @@ window.JBL_DATA = {
             "2022-039"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다",
+        "pages": "94–100",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2021-036",
@@ -28743,9 +28971,12 @@ window.JBL_DATA = {
         "GMS (Gomori-methenamine-Silver) stain"
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        1,
+        5
+      ],
+      "answerLabel": "1번, 5번",
+      "explanation": "정답: ① Ziehl-Neelsen stain / ⑤ GMS (Gomori-methenamine-Silver) stain\n\n=== 판단의 출발점 ===\n이 문항은 '''두 가지 검사'''를 묻는다. 괴사성 육아종에서 항산균뿐 아니라 진균도 감별해야 하므로 '''Ziehl–Neelsen과 GMS'''를 함께 고른다. 다른 연도의 비슷한 문항이 한 가지 검사를 물었다고 같은 개수만 선택하면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\n영상에서 폐암처럼 보이는 종괴라도 생검이 '''괴사성 육아종'''이면 감염성 원인을 먼저 확인한다. 중심부의 무정형 괴사와 주변의 상피모양 조직구·거대세포를 보고, 면역억제 치료 중인 숙주에서는 항산균과 진균을 함께 고려한다. SLE라는 병명 자체가 곧 결핵의 확진은 아니다.\n\n[[파일:assets/lecture-17/p156-figures.jpg|괴사성 육아종: 중심 괴사와 주변 상피모양 조직구·거대세포]]\n\n||= 검사 ||= 확인하는 대상 ||= 이 문제에서의 위치 ||\n|| '''Ziehl–Neelsen''' || 항산균, 빨간 막대 모양 균체 || 결핵·비결핵항산균을 찾는 우선 검사 ||\n|| '''GMS''' || 진균의 세포벽·균사·효모, Pneumocystis 낭포 등 || 괴사성 육아종의 진균성 원인 감별 ||\n|| TTF-1 면역염색 || 폐선암·일부 신경내분비종양 등의 분화 평가 || 종양세포가 확인될 때 의미. 항산균 검사 아님 ||\n|| CD56·chromogranin || 신경내분비 분화 || 소세포암 등 의심 시 사용 ||\n|| EGFR mutation test || 폐선암 등의 치료 표적 유전자 변이 || 암 진단·치료 선택의 맥락, 육아종 원인 검사 아님 ||\n|| CMV 면역염색 || CMV 감염 세포 || 세포 비대·핵내 봉입체 등이 단서 ||\n|| BAP1 면역염색 || 특정 종양에서 핵 발현 소실을 평가; 중피성 병변 등의 감별에 활용 || 결핵균이나 육아종의 원인을 찾는 염색 아님 ||\n\nZiehl–Neelsen 양성만으로 '''결핵균과 비결핵항산균을 구분'''하지는 못한다. 균량이 적으면 염색이 음성이어도 감염을 배제할 수 없어 배양·분자검사를 함께 고려한다. GMS 역시 진균을 드러내는 검사이며, 균사·효모 형태와 다른 검사로 종류를 판단한다.\n\n> '''무슨 병으로 의심해 생검했는가'''보다 '''생검에 무엇이 보였는가'''가 다음 검사를 결정한다. 괴사성 육아종이라면 항산균·진균, 악성 상피세포라면 종양 분화와 치료 표적을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: 항산균을 검출하는 Ziehl–Neelsen 염색이다. 괴사성 육아종과 장기간 기침·면역억제 상황에서 가장 적절한 다음 검사다. 첫 번째 정답이다.\n* 2번: EGFR 변이는 폐선암의 치료 표적을 평가하는 검사다. 아직 생검이 감염성 육아종을 가리키는 상황에서 우선할 검사는 아니다.\n* 3번: TTF-1은 폐선암 등의 분화를 평가하는 면역표지자다. 생검이 괴사성 육아종이라면 먼저 감염성 원인을 찾아야 한다.\n* 4번: CMV는 면역억제 환자에서 가능하지만 세포 비대·핵내 봉입체 등 바이러스성 세포변화가 근거가 되어야 한다. 면역억제라는 사실만으로 CMV를 고르지 않는다.\n* 5번: GMS는 진균의 세포벽을 드러내며 괴사성 육아종의 진균성 원인을 찾는 데 적절하다. 항산균염색과 함께 선택한다. 두 번째 정답이다.\n\n관련 Wiki: [[17강#괴사성 육아종에서는 항산균과 진균을 찾는다|괴사성 육아종에서는 항산균과 진균을 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 150–163쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2021/q038_01.jpg"
       ],
@@ -28799,7 +29030,17 @@ window.JBL_DATA = {
             "2025-011"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "괴사성 육아종에서는 항산균과 진균을 찾는다",
+        "pages": "150–163",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2021-039",
@@ -28898,10 +29139,12 @@ window.JBL_DATA = {
         "Extralobar sequestration",
         "CPAM type 1"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ CPAM type 1\n\n=== 판단의 출발점 ===\n현재 문항의 조직사진은 '''올해 강의록 15쪽 CPAM 1형의 조직사진과 동일'''하다. 따라서 사진을 포함한 현재 문항의 답은 ⑤ CPAM type 1로 판단한다. “3.1 cm, thick mucoid”라는 짧은 글만으로 기관지원성 낭종이라 단정하면 안 된다.\n\n복원 한계: 발문이 짧고 {{327}}과 유사한 내용으로 연결되어 있지만 사진은 다르다. '''현재 수록 사진을 근거로 ⑤를 채점 답으로 두었으며, 복원된 사진이 원시험 사진과 달랐다는 자료가 나오면 재검토해야 한다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCPAM은 정상적인 폐 발달이 어긋나 생긴 비정상 기도·폐실질 구조다. '''낭종 크기와 분화 수준'''을 함께 읽는다. 1형은 가장 흔하며 큰 낭종을 만들고, 낭종벽은 섬모원주상피·평활근·섬유성 조직과 점액세포를 보일 수 있다.\n\n||= CPAM 유형 ||= 분화 수준·형태 ||= 기억할 연결 ||\n|| 0형 || 기관·기관지형, 연골이 풍부한 고형성 병변 || 드물고 치명적 ||\n|| '''1형''' || '''3–10 cm의 큰 낭종''', 넓은 섬유성 격벽, 기관지형 상피 || 가장 흔함; 일부 점액성 선암과 연관 ||\n|| 2형 || 2 cm 미만의 비교적 균일한 세기관지형 낭종 || 다른 선천성 기형이 중요 ||\n|| 3형 || 0.5 cm 미만의 미세낭종, 육안상 고형 종괴 || 태아 폐를 닮은 구조, 예후 불량 ||\n|| 4형 || 말초의 얇은 벽 낭종, 원위 폐포형 상피 || 낭성 pleuropulmonary blastoma와 감별 ||\n\n[[파일:assets/lecture-14/p015-figures.jpg|올해 강의록 15쪽의 CPAM 1형: 이 문항의 조직사진과 동일한 예시]]\n\n기관지원성 낭종도 점액과 섬모상피를 보일 수 있다. 크기 3.1 cm와 점액성 내용물만으로는 둘을 완전히 구분하지 못하므로, '''사진에서 확인되는 구조와 강의록의 병리 예시'''가 핵심이다. CPAM 1형을 종양으로 정의하거나, 모두 암으로 진행한다고 외우지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: 기관지원성 낭종도 점액과 섬모상피를 보일 수 있어 발문만 보면 유력한 감별이다. 그러나 현재 사진은 CPAM 1형 예시에 해당한다.\n* 2번: 장원성 낭종은 소화관형 분화를 확인해야 한다. 현재 사진의 강의록 대응은 CPAM 1형이다.\n* 3번: 식도낭종이라면 식도벽과의 관계·근육벽·피복 상피 등 식도중복의 근거가 필요하다.\n* 4번: 폐외분리증은 정상 기도와 단절된 폐조직 및 체순환 동맥 공급이 핵심이다. 낭종 크기와 점액만으로 진단하지 않는다.\n* 5번: 큰 낭종을 형성하는 가장 흔한 CPAM 유형이며, 현재 사진이 올해 강의록의 해당 예시와 일치한다. 정답이다.\n\n관련 Wiki: [[14강#CPAM은 낭종의 크기와 분화 수준으로 나눈다|CPAM은 낭종의 크기와 분화 수준으로 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 11–18쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2021/q040_01.jpg"
       ],
@@ -28936,7 +29179,17 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "CPAM은 낭종의 크기와 분화 수준으로 나눈다",
+        "pages": "11–18",
+        "answerStatus": "reviewed_with_restoration_caveat",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2021-041",
@@ -38179,10 +38432,12 @@ window.JBL_DATA = {
         "Hyperplasia of submucosal glands with hypersecretion of mucus",
         "Smoking induced inflammation and protease-antiprotease imbalance"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ Smoking induced inflammation and protease-antiprotease imbalance\n\n=== 판단의 출발점 ===\n사진에서 폐포 사이의 벽이 소실되어 공기 공간이 크게 합쳐져 있다. '''폐기종'''을 읽고, 흡연성 염증과 protease–antiprotease 불균형을 연결한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐기종은 종말세기관지 원위부 공기 공간이 '''영구적으로 커지면서 폐포벽이 파괴'''되는 병변이다. 넓어진 빈 공간만 보지 말고, 그 사이에 있어야 할 얇은 폐포벽이 끊기고 줄어든 것을 확인한다.\n\n[[파일:assets/lecture-15/p050-figures.jpg|폐기종의 조직: 공기 공간 확대와 폐포벽 소실]]\n\n흡연은 호중구·대식세포를 불러들이고 protease와 활성산소를 증가시킨다. 동시에 antiprotease 방어도 약화되므로 elastin 등 지지조직이 분해된다. '''α₁-antitrypsin 결핍'''은 protease를 막는 쪽이 부족한 대표 원인이다. 벽이 소실되면 탄성반동과 작은 기도를 바깥으로 당기는 힘이 줄어 호기 때 공기가 갇힌다.\n\n||= 유형 ||= 분포·연관 ||\n|| Centriacinar || 호흡세기관지 중심, 상엽 우세, 흡연 ||\n|| Panacinar || 샘꽈리 전체, 하엽 우세, α₁-antitrypsin 결핍 ||\n|| Distal acinar/paraseptal || 흉막·격막 인접 원위부, 수포와 자발기흉 ||\n|| Irregular || 반흔 주변의 불규칙 침범 ||\n\n||= 병변 ||= 중심 기전·조직 ||\n|| '''폐기종''' || Protease–antiprotease 불균형, 폐포벽 파괴 ||\n|| 만성기관지염 || 점액샘·술잔세포 증가, 점액 과분비; Reid index 증가 ||\n|| 알레르기 천식 || Th2–IgE–비만세포 및 호산구, 가역적 기도수축과 재형성 ||\n|| 기관지확장증 || 폐쇄·감염이 반복되어 기도벽이 파괴되고 영구 확장 ||\n|| 폐동맥고혈압 || 혈관 중막·내막의 증식과 내강 협착 ||\n\n=== 선지별 해설 ===\n* 1번: 혈관 평활근세포·내피세포 증식은 폐동맥고혈압의 혈관벽 재형성과 연결한다. 폐포벽 파괴의 중심 기전이 아니다.\n* 2번: 반복 기관지 폐쇄·감염은 기관지확장증에서 기도벽을 파괴하고 영구 확장을 만든다. 커진 폐포 공간과 구별한다.\n* 3번: 제1형 과민반응은 알레르기 천식의 IgE·비만세포 반응을 뜻한다. 이 사진은 폐포벽 파괴다.\n* 4번: 점막밑샘 증식과 점액 과분비는 만성기관지염이다. 폐기종과 COPD 안에서 공존할 수 있지만 사진의 직접 기전은 아니다.\n* 5번: 흡연이 염증세포·protease·활성산소를 증가시키고 antiprotease 방어를 떨어뜨려 폐포벽이 파괴된다. 정답이다.\n\n관련 Wiki: [[15강#흡연과 α₁-antitrypsin 결핍은 단백분해의 균형을 무너뜨린다|흡연과 α₁-antitrypsin 결핍은 단백분해의 균형을 무너뜨린다]]\n\n근거: 39기 「폐질환의 병리」 PDF 47–61쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2020/q058_01.jpg",
         "J/2020/q058_02.jpg"
@@ -38219,7 +38474,17 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "흡연과 α₁-antitrypsin 결핍은 단백분해의 균형을 무너뜨린다",
+        "pages": "47–61",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2020-059",
@@ -38378,10 +38643,12 @@ window.JBL_DATA = {
         "Respiratory bronchiolitis associated interstitial lung disease",
         "Chronic bronchitis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번",
+      "explanation": "정답: ② Bronchiolitis obliterans organizing pneumonia\n\n=== 판단의 출발점 ===\nPLCH·DIP·RB-ILD·만성기관지염은 흡연과 특징적인 관련이 있다. '''BOOP, 즉 organizing pneumonia'''는 이 흡연 연관군을 묶을 때 빠지는 질환이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흡연과 관련된 폐질환은 모두 기도 폐쇄를 보이는 것은 아니다. 폐포나 사이질을 침범하는 DIP·RB-ILD, 결절과 낭종을 만드는 PLCH도 흡연과 밀접하다. 병명과 함께 '''어떤 세포가 어디에 모이는지'''를 기억한다.\n\n||= 질환 ||= 흡연과의 연결 ||= 대표 소견 ||\n|| '''DIP''' || 밀접 || 폐포강에 갈색 색소 대식세포가 광범위하게 축적. 이름과 달리 주된 세포는 탈락한 상피가 아님 ||\n|| '''RB-ILD''' || 밀접 || 호흡세기관지 중심의 색소 대식세포와 주위 사이질 변화 ||\n|| '''PLCH''' || 성인 폐형에서 강한 연관 || 결절·불규칙 낭종, 홈이 있는 핵, CD1a·langerin 양성 Langerhans 세포 ||\n|| '''만성기관지염''' || 대표적 위험 요인 || 점액샘·술잔세포 증가, 만성 객담 ||\n|| '''Organizing pneumonia, 종전 BOOP''' || 흡연이 핵심 원인인 군에 속하지 않음 || 폐포·폐포관·세기관지 안의 폴립 모양 육아조직 ||\n\n[[파일:assets/lecture-16/p106-figures.jpg|DIP: 폐포 안을 채운 색소 대식세포]]\n\nBOOP는 bronchiolitis obliterans organizing pneumonia라는 과거 명칭이다. 원인을 모르면 COP라 부르고, 감염·약물·결합조직질환 등에 이어 생기면 이차성 organizing pneumonia다. '''흡연자에게 발생할 수 없다'''는 뜻이 아니라, 다른 네 질환처럼 흡연이 특징적인 연결고리가 아니라는 뜻이다.\n\n=== 선지별 해설 ===\n* 1번: 성인 폐 PLCH는 흡연과 강하게 연관된다. 결절·낭종과 CD1a·langerin 양성 Langerhans 세포를 연결한다.\n* 2번: Organizing pneumonia는 손상 후 공기 공간에 육아조직이 자라는 패턴이며 흡연이 특징적인 중심 원인은 아니다. 정답이다.\n* 3번: DIP는 흡연 연관 색소 대식세포가 폐포강을 넓게 채우는 질환이다.\n* 4번: RB-ILD는 호흡세기관지 중심의 흡연성 대식세포 축적과 주변 사이질 손상이다.\n* 5번: 만성기관지염에서 흡연은 점액 과분비와 기도 염증을 유발하는 대표 위험 요인이다.\n\n관련 Wiki: [[16강#PLCH는 흡연·낭성 변화·Langerhans 세포를 연결한다|PLCH는 흡연·낭성 변화·Langerhans 세포를 연결한다]]\n\n근거: 39기 「폐질환의 병리」 PDF 104–109쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -38406,7 +38673,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "PLCH는 흡연·낭성 변화·Langerhans 세포를 연결한다",
+        "pages": "104–109",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2020-062",
@@ -38428,10 +38705,12 @@ window.JBL_DATA = {
         "탄광부진폐증 환자의 경우 흡연을 하지 않아도 폐암 발생 위험도가 급격히 증가한다.",
         "만성규소폐증은 폐하엽과 흉막하 폐를 주로 침범한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "정답: ③ Chest CT에서 가슴막판 (pleural plaque)이 보이는 것은 석면노출 사실을 알려준다\n\n=== 판단의 출발점 ===\n보기들은 각 진폐증의 특징을 다른 질환이나 다른 종양으로 바꾸어 놓았다. '''Pleural plaque는 석면 노출을 알려주는 소견'''이라는 ③이 맞다.\n\n=== 이 문항을 풀기 위한 개념 ===\n진폐증은 '''분진의 성질, 입자 크기, 노출량·기간, 폐의 청소 능력'''에 따라 달라진다. 강의록은 폐 안에 침착하기 쉬운 크기를 '''약 1–5 μm'''로 제시한다. 큰 입자는 상기도에서 걸러지기 쉽고, 매우 작은 입자는 침착하지 않고 다시 나갈 수도 있다.\n\n||= 항목 ||= 탄광부진폐증 ||= 규소폐증 ||= 석면 관련 질환 ||\n|| 중심 물질·조직 || 탄분 대식세포, coal macule·결절 || 소용돌이 모양의 유리질화 collagen 결절 || 철·단백질로 덮인 '''asbestos body''' ||\n|| 분포·진행 || 상엽 우세, 심하면 progressive massive fibrosis || '''상엽''' 결절, 진행하면 융합성 섬유화 || '''하엽·흉막하''' 사이질 섬유화 ||\n|| 추가 단서 || 단순 탄분침착과 심한 섬유화를 구분 || Eggshell 림프절 석회화, 결핵 위험 증가 || 가슴막판, 폐암·중피종 ||\n|| 암과의 연결 || 순수 탄분만으로 폐암이 급증한다고 단정하지 않음 || 폐암 위험 증가 가능 || 폐암·중피종 위험 증가. 흡연과의 상승효과는 특히 '''폐암''' ||\n\n[[파일:assets/lecture-16/p129-figures.jpg|가슴막판: 석면 노출의 흔적인 치밀한 흉막 섬유화]]\n\n'''Pleural plaque는 석면 노출의 표지'''이며 벽측흉막·횡격막 면에 잘 생긴다. 폐실질의 석면증과는 구별하고, 흉막판 자체가 중피종으로 바뀌는 전구병변이라고 해석하지 않는다. '''석면 + 흡연'''의 매우 큰 암 위험 상승은 기관지성 폐암에 해당하며, 중피종에 같은 흡연 상승효과를 적용하지 않는다.\n\n=== 선지별 해설 ===\n* 1번: 석면과 흡연의 큰 상승효과는 기관지성 폐암에서 중요하다. 중피종 발생에 같은 흡연 상승효과를 적용한 부분이 틀렸다.\n* 2번: 강의록에서 폐에 침착하기 쉬운 분진 크기는 약 1–5 μm다. 5–10 μm로 옮겨 놓은 선지다.\n* 3번: 가슴막판은 석면 노출의 흔적인 치밀한 흉막 섬유화다. 정답이다. 이것만으로 폐실질 석면증이나 중피종을 확진하지 않는다.\n* 4번: 순수 탄분에 의한 탄광부진폐증 자체만으로 비흡연자의 폐암 위험이 급격히 증가한다고 하는 것은 강의록의 설명과 맞지 않는다. 석면·규소·흡연 등 다른 노출과 구별한다.\n* 5번: 만성 규소폐증은 상엽 우세가 전형적이다. 하엽·흉막하 섬유화는 석면증의 대표 분포다.\n\n관련 Wiki: [[16강#흉막판은 노출의 흔적이지 중피종의 전구병변이 아니다|흉막판은 노출의 흔적이지 중피종의 전구병변이 아니다]]\n\n근거: 39기 「폐질환의 병리」 PDF 112–131쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -38456,7 +38735,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "흉막판은 노출의 흔적이지 중피종의 전구병변이 아니다",
+        "pages": "112–131",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2020-063",
@@ -38535,10 +38824,12 @@ window.JBL_DATA = {
         "Microscopic honeycomb change",
         "Temporal heterogeneity"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번",
+      "explanation": "정답: ① Ill defined small granulomas in the interstitium\n\n=== 판단의 출발점 ===\n보기 ②–⑤는 모두 UIP의 서로 연결된 특징이다. 사이질의 '''작고 경계 불명확한 육아종'''은 오히려 HP 같은 다른 원인을 의심하게 하므로 ①을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\nUIP는 '''조직의 손상 양상'''이며, IPF는 원인을 배제한 뒤 붙이는 질환명이다. 결합조직질환, 만성 과민폐렴, 석면 노출 등도 UIP와 닮은 섬유화를 보일 수 있으므로 조직 소견만으로 모든 원인을 정하지 않는다.\n\n[[파일:assets/lecture-16/p084-figures.jpg|UIP의 patchy fibrosis: 보존된 폐와 섬유화 부위가 섞이고 작은 fibroblastic focus가 보인다]]\n\n||= UIP에서 찾는 것 ||= 의미 ||\n|| '''Patchy fibrosis / spatial heterogeneity''' || 심하게 섬유화된 곳 옆에 비교적 정상인 폐가 남음 ||\n|| '''Temporal heterogeneity''' || 오래된 치밀한 collagen 반흔과 새로 진행 중인 섬유화가 함께 존재 ||\n|| '''Fibroblastic foci''' || 섬유모세포·근섬유모세포가 모인 작은 활동성 수복 초점 ||\n|| 흉막하·격막 주변 우세 || 말초에서 두드러지는 분포 ||\n|| Honeycomb change || 정상 폐포 구조가 파괴되고 상피로 둘러싸인 낭성 공간이 생긴 말기 변화 ||\n\n||= 다른 양상 ||= UIP와 갈리는 단서 ||\n|| '''NSIP''' || 염증·섬유화의 시기가 비교적 균일. 정상/오래된 반흔/새 foci의 강한 대비가 적음 ||\n|| DAD || 급성 손상과 폐포벽의 hyaline membrane ||\n|| Organizing pneumonia || 공기 공간 안의 fibroblastic plug; 전체 폐 구조는 상대적으로 보존 ||\n|| 과민폐렴 || 세기관지 주위의 경계 불명확한 작은 비괴사성 육아종 ||\n|| Sarcoidosis || 잘 형성된 비괴사성 육아종 ||\n\n> UIP의 중심은 '''반흔이 있다'''가 아니라 '''위치도 시기도 고르지 않은 섬유화'''다. 심한 염증이나 육아종이 전면에 나오면 다른 원인을 다시 생각한다.\n\n=== 선지별 해설 ===\n* 1번: Ill-defined small granuloma는 전형적 UIP의 진단 소견이 아니며, HP의 기도 중심 육아종 등을 감별해야 한다. 정답이다.\n* 2번: Fibroblastic foci는 새로 진행 중인 섬유화의 작은 초점으로 UIP를 지지한다.\n* 3번: 정상 폐포 구조를 무너뜨리는 patchy fibrosis는 공간적 불균일성을 나타내는 UIP 소견이다.\n* 4번: Microscopic honeycomb은 구조 파괴 후 생긴 낭성 공간으로 진행된 UIP를 지지한다. 단, 다른 말기 섬유성 질환에도 가능하다.\n* 5번: Temporal heterogeneity는 오래된 반흔과 새 병변의 혼재다. NSIP와 구분할 때 특히 중요하다.\n\n관련 Wiki: [[16강#UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다|UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다]]\n\n근거: 39기 「폐질환의 병리」 PDF 78–93쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -38563,7 +38854,17 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다",
+        "pages": "78–93",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2020-065",
@@ -38635,10 +38936,12 @@ window.JBL_DATA = {
         "Hyaline membrane",
         "Type 2 pneumocytes"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번",
+      "explanation": "정답: ④ Hyaline membrane\n\n=== 판단의 출발점 ===\n폐렴 치료 중 급격한 저산소혈증과 양측의 광범위한 침윤이 생겼고 산소요법 반응도 나쁘다. 사진의 표지는 폐포벽을 따라 붙은 '''호산성 막 모양 물질'''로, DAD의 hyaline membrane이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nDAD(diffuse alveolar damage)는 원인이 서로 달라도 심한 '''폐포상피·모세혈관내피 손상''' 뒤에 나타나는 조직 반응이다. ARDS는 임상적 증후군이고 DAD는 대표적인 병리 양상이므로, 두 말을 완전한 동의어로 쓰지는 않는다.\n\n||= 구분 ||= 알아둘 내용 ||\n|| 직접 손상 || 폐렴, 위내용물 흡인, 산소·유해가스, 익수, 폐좌상, 방사선 ||\n|| 전신·간접 손상 || 패혈증, 쇼크, 중증 외상·화상, 췌장염, DIC, TRALI 등 ||\n|| 약물·독성물질 || 항암제, paraquat, 약물 과량 등 ||\n|| '''급성 삼출기''' || 부종·출혈·fibrin과 '''hyaline membrane''' ||\n|| 기질화·증식기 || '''제2형 폐포세포 증식''', 섬유모세포·육아조직 증가 ||\n|| 결과 || 회복하거나 일부에서 섬유화가 남음 ||\n\n[[파일:assets/lecture-14/p028-figures.jpg|DAD의 유리질막: 폐포벽을 따라 붙은 진한 분홍색 막]]\n\n장벽이 새면서 나온 단백질·fibrin과 괴사한 상피 잔해가 폐포벽을 따라 붙으면 유리질막이 된다. 공기 공간을 액체가 채우고 surfactant가 소실되어 허탈하면 산소 투여에도 저산소혈증이 충분히 교정되지 않을 수 있다.\n\n> '''폐포벽의 막'''은 hyaline membrane, '''핵을 가진 입방세포'''는 제2형 폐포세포, '''방추형 세포가 모인 섬유화 초점'''은 fibroblastic focus, '''공기 공간 안의 폴립 모양 수복 조직'''은 organizing pneumonia의 plug다.\n\n=== 선지별 해설 ===\n* 1번: Fibroblastic focus는 방추형 섬유모세포가 모인 활동성 섬유화 초점으로 UIP에서 중요하다. 벽을 따라 붙는 무세포성 막과 다르다.\n* 2번: 진균 균사는 관 모양의 분지 구조다. 격벽·분지 각도 등을 확인해야 하며 이 사진의 유리질막과 다르다.\n* 3번: Charcot–Leyden crystal은 길쭉하고 뾰족한 호산구 유래 결정이다. 폐포벽을 넓게 둘러싸는 막이 아니다.\n* 4번: 단백질·fibrin과 괴사한 상피 잔해가 폐포벽에 붙은 유리질막이다. 급성 DAD의 핵심 소견이므로 정답이다.\n* 5번: 제2형 폐포세포는 핵이 있는 입방형 세포이며 수복기에 증식한다. 막 모양 침착물과 구별한다.\n\n관련 Wiki: [[14강#ALI·ARDS의 조직학적 손상은 DAD로 읽는다|ALI·ARDS의 조직학적 손상은 DAD로 읽는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 25–29쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2020/q066_01.jpg"
       ],
@@ -38670,7 +38973,17 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-14",
+        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "chapter": "ALI·ARDS의 조직학적 손상은 DAD로 읽는다",
+        "pages": "25–29",
+        "answerStatus": "lecture_based_review",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "originalQuestionAndImagesPreserved": true
+      }
     },
     {
       "id": "2020-067",
