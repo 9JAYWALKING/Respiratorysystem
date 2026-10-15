@@ -19,6 +19,7 @@
     wrong:'<path d="m5 5 14 14M19 5 5 19"/>',
     favorite:'<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"/>',
     shuffle:'<path d="M3 6h3c5 0 7 12 12 12h3m-4-4 4 4-4 4M3 18h3c5 0 7-12 12-12h3m-4-4 4 4-4 4"/>',
+    lectureOrder:'<path d="M4 4v16m-3-3 3 3 3-3M11 5h10M11 12h7M11 19h4"/>',
     hand:'<path d="M18 11V7a2 2 0 0 0-4 0v4M14 10V5a2 2 0 0 0-4 0v6M10 10.5V7a2 2 0 0 0-4 0v9M18 8a2 2 0 0 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-1-6-3l-3.6-4.8a2 2 0 0 1 3.2-2.4L6 13"/>',
     edit:'<path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15l-1 6Z"/>',
     search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
@@ -154,11 +155,12 @@
       return `<div class="study-multi-filter"><span id="study-filter-${key}">${label}</span><details data-center-multi="${key}" ${expandedFilters.has(key)?'open':''}><summary aria-label="${label} 복수 선택"><span data-center-multi-summary>${escape(summary)}</span></summary><div class="study-multi-options" role="group" aria-labelledby="study-filter-${key}"><button type="button" data-center-multi-clear="${key}" aria-pressed="${!selected.size}">${allLabel}</button>${items.map(([value,text,shortLabel=text])=>`<label><input type="checkbox" data-center-multi-value="${key}" data-summary-label="${escape(shortLabel)}" value="${escape(value)}" ${selected.has(String(value))?'checked':''}><span>${escape(text)}</span></label>`).join('')}</div></details></div>`;
     };
     const isJbl=questionFilters?.mode==='jbl';
+    const orderControls=questionFilters ? `<div class="study-order-controls" role="group" aria-label="문항 순서"><button type="button" class="study-random-toggle" data-center-random aria-pressed="${state.randomEnabled}" aria-label="문항 순서 랜덤 ${state.randomEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('shuffle')}</span><span>${isJbl?'유형 안 문항 순서 랜덤':'문항 순서 랜덤'}</span></button>${questionFilters.standalone ? `<button type="button" class="study-random-toggle" data-center-lecture-order aria-pressed="${questionFilters.lectureOrderEnabled}" aria-label="강의순 정렬 ${questionFilters.lectureOrderEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('lectureOrder')}</span><span>강의순 정렬</span></button>` : ''}</div>` : '';
     const chapterFilter=questionFilters?.course ? `<div class="study-center-filters"><label>${isJbl?'유형':'세부 분류'}<select data-center-chapter aria-label="관련 문항 범위">${options(questionFilters.chapters.map(item=>[item.slug,item.heading+' · '+item.count]),questionFilters.chapter,(isJbl?'전체 유형 · ':'전체 문항 · ')+questionFilters.total)}</select></label></div>` : '';
     dialog.innerHTML=`<button class="study-center-grip" type="button" aria-label="도구 닫기 · 위로 쓸어올리기"></button>
       <div class="study-center-controls"><div class="study-center-theme"><button type="button" class="theme-button" data-theme-toggle></button><span>화면 모드</span></div><div class="study-font-control" aria-label="글자 크기"><button type="button" data-scale-minus aria-label="글자 작게">A−</button><output>${Math.round(scale*100)}%</output><button type="button" data-scale-plus aria-label="글자 크게">A＋</button></div></div>
       <button type="button" class="study-random-toggle study-gesture-toggle" data-center-gestures><span class="study-filter-icon" aria-hidden="true">${svg('hand')}</span><span data-gesture-label></span></button>
-      ${questionFilters ? `<section class="study-center-section"><h3>${isJbl?'학습 필터':'문항 필터'}</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div><button type="button" class="study-random-toggle" data-center-random aria-pressed="${state.randomEnabled}" aria-label="문항 순서 랜덤 ${state.randomEnabled?'켜짐':'꺼짐'}"><span class="study-filter-icon">${svg('shuffle')}</span><span>${isJbl?'유형 안 문항 순서 랜덤':'문항 순서 랜덤'}</span></button></section>` : ''}
+      ${questionFilters ? `<section class="study-center-section"><h3>${isJbl?'학습 필터':'문항 필터'}</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div>${orderControls}</section>` : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
@@ -208,6 +210,7 @@
       renderTools();dialog.querySelector(`[data-center-status="${key}"]`)?.focus();
     });
     dialog.querySelector('[data-center-random]')?.addEventListener('click',()=>{app.randomQuestions();renderTools();dialog.querySelector('[data-center-random]')?.focus();});
+    dialog.querySelector('[data-center-lecture-order]')?.addEventListener('click',()=>{app.toggleLectureOrder();renderTools();dialog.querySelector('[data-center-lecture-order]')?.focus();});
     gesture(dialog.querySelector('.study-center-grip'),-1,dismiss,dismiss);
     window.RespiratoryTheme.syncButtons();setScale(scale);dialog.scrollTop=scrollTop;
   }

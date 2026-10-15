@@ -545,6 +545,7 @@ function syncQuestionExplanationSplit() {
     const questions = context ? contextQuestionsForTarget(contextLinkState.stack.at(-1)) : viewer.questions;
     panel.nav.innerHTML = navMarkup({...panel.state,index:context ? position.index : panel.state.index},questions);
     panel.nav.querySelector('[data-jbl-explanation]').addEventListener('click',()=>closeQuestionExplanationSplit());
+    panel.nav.querySelector('[data-jbl-answer]').addEventListener('click',()=>toggleQuestionAnswer(panel.state,current,viewer.rerender));
     bindQuestionPageNav(panel.nav,moveQuestionExplanation);
     panel.root.scrollTop = scroll;
     panel.body.scrollTop = answerScroll;
