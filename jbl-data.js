@@ -142,10 +142,12 @@ window.JBL_DATA = {
         "ROS1 fusion을 보기 위한 reverse transcription PCR 검사",
         "종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 38기 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-16쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -187,7 +189,36 @@ window.JBL_DATA = {
             "2025-003"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-004",
@@ -209,10 +240,12 @@ window.JBL_DATA = {
         "ROS",
         "TP53"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n조직의 각질화와 종양 둥지는 편평상피세포암에 해당한다. 강의에서 편평상피세포암은 높은 돌연변이 부담과 매우 흔한 TP53 변이를 특징으로 제시한다. EGFR·ALK·KRAS·ROS1은 이 사진의 대표 유전 이상으로 적절하지 않다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 12,27-30쪽.~~~",
       "images": [
         "J/2025/q004_01.jpg"
       ],
@@ -244,7 +277,31 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              12,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-005",
@@ -266,10 +323,12 @@ window.JBL_DATA = {
         "CD56",
         "P53"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "잠정 정답: ⑤",
+      "explanation": "잠정 정답: ⑤\n\n기관지 내로 자라는 경계 좋은 종괴는 carcinoid가 유력하다. Chromogranin·synaptophysin·CD56은 신경내분비 분화를 확인하고 TTF-1은 폐 기원 감별에 활용할 수 있다. p53은 이 기본 감별 표지자 묶음에 해당하지 않는다. 현재 조직사진이 누락되어 있어 임상 서술과 반복 증례를 토대로 판단한 답이다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-40쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -309,7 +368,37 @@ window.JBL_DATA = {
             "2025-005"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              13,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-006",
@@ -331,10 +420,12 @@ window.JBL_DATA = {
         "Substernal goiter – follow up",
         "Lymphoblastic lymphoma – Biopsy"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -377,7 +468,29 @@ window.JBL_DATA = {
             "2025-006"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-007",
@@ -399,10 +512,12 @@ window.JBL_DATA = {
         "Loss of BAP1 nuclear expression",
         "PD-L1 protein expression"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7,12쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -446,7 +561,28 @@ window.JBL_DATA = {
             "2025-007"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              7,
+              12
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-008",
@@ -468,10 +604,12 @@ window.JBL_DATA = {
         "NAB2-STAT6 fusion",
         "Microsatellite instability"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7-8쪽.~~~",
       "images": [
         "J/2025/q008_01.jpg"
       ],
@@ -521,7 +659,28 @@ window.JBL_DATA = {
             "2025-008"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-009",
@@ -775,10 +934,12 @@ window.JBL_DATA = {
         "Ziehl-Neelsen stain",
         "GMS stain"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "잠정 정답: ④",
+      "explanation": "잠정 정답: ④\n\n반복 출제된 유사 증례와 비교하면 진균을 확인하는 GMS stain이 가장 유력하다. GMS는 진균 세포벽을 검게 드러내며, 항산균은 Ziehl–Neelsen 염색으로 확인한다. 다만 이 문항에는 진단을 좌우하는 조직사진이 누락되어 있으므로 4번은 잠정 답이고, 사진 없이 특정 진균 형태까지 판독했다고 볼 수 없다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 165-174쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -822,7 +983,36 @@ window.JBL_DATA = {
             "2025-013"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-014",
@@ -987,10 +1177,12 @@ window.JBL_DATA = {
         "Transthoracic echocardiogram",
         "Chest sonogram"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -1034,7 +1226,28 @@ window.JBL_DATA = {
             "2025-016"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-017",
@@ -1056,10 +1269,12 @@ window.JBL_DATA = {
         "wedge resection",
         "PET-CT"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -1104,7 +1319,28 @@ window.JBL_DATA = {
             "2025-017"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-018",
@@ -1126,10 +1362,12 @@ window.JBL_DATA = {
         "수술 전 2주일",
         "금연 기간은 환자의 흡연기간에 따라 다르다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n제시된 보기에서 가장 타당한 수술 전 금연 기간은 2주다. 충분히 일찍 금연해 기도 분비물과 수술 후 폐합병증 위험을 줄이는 것이 목적이며, 2주만 지나면 위험이 정상화되거나 그보다 오래 금연할 필요가 없다는 뜻은 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -1170,7 +1408,28 @@ window.JBL_DATA = {
             "2025-018"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-019",
@@ -1192,10 +1451,12 @@ window.JBL_DATA = {
         "spine - superior border",
         "pleural space - lateral border"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n종격동의 위쪽은 thoracic inlet, 아래쪽은 diaphragm, 앞쪽은 sternum, 뒤쪽은 thoracic spine이다. 양옆은 mediastinal pleura로 경계 지어지므로, 보기의 pleural space–lateral border가 의도한 답이다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -1240,7 +1501,28 @@ window.JBL_DATA = {
             "2025-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-020",
@@ -1262,10 +1544,12 @@ window.JBL_DATA = {
         "PCNB를 통해 tissue confirm을 시행한다.",
         "종격동염이 의심되므로 즉각적인 개흉술의 적응증이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2025/q020_01.jpg"
       ],
@@ -1317,7 +1601,28 @@ window.JBL_DATA = {
             "2025-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-021",
@@ -1339,10 +1644,12 @@ window.JBL_DATA = {
         "평소 폐섬유화증으로 오랜 기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화되어 인공호흡기치료 중 폐이식을 기다리고 있는 55세 환자",
         "악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 인공호흡기 치료를 시작하였으며 적극적인 인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nECMO는 회복 가능한 심폐부전, 이식까지의 가교 등 다음 치료로 연결될 가능성이 있을 때 고려한다. 악성 흉수를 동반한 진행성 폐암에서 회복·이식 가능성이 없이 지속되는 호흡부전은 적절한 적응증이 아니다. 다른 보기 역시 ECMO를 무조건 시행한다는 뜻은 아니며, 소생 가능성이나 장기기증 절차 등을 따로 평가한다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -1383,7 +1690,28 @@ window.JBL_DATA = {
             "2025-021"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-022",
@@ -1933,10 +2261,12 @@ window.JBL_DATA = {
         "선천성 코기형",
         "아데노이드 비대"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n코골이·구강호흡·반복 중이염은 비인두의 아데노이드 비대로 설명된다. 입에서 보이는 편도 크기가 작아도 아데노이드 비대는 가능하다. 제시된 검사 중에는 측면 방사선 사진으로 비인두 기도와 아데노이드를 평가하는 선택지가 가장 적절하다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 17쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -1959,7 +2289,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              17
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-029",
@@ -1981,10 +2331,12 @@ window.JBL_DATA = {
         "후두연화증",
         "선천폐기도기형"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n기관삽관 중에는 호전되지만 수유를 다시 시작하면 사레·기침·폐렴이 반복되는 점이 기관식도루를 시사한다. 식도에서 기도로 수유물이 넘어가는 통로가 있어 흡인이 반복되는 것이다. 흡인폐렴은 결과이고, 이 문항은 그 원인을 묻는다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」; 38기 정리본 「1028 정리본 (27. 소아호흡기 I _ 김정희) - Google Docs」.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -2007,7 +2359,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": []
+          },
+          {
+            "key": "S26",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1028 정리본 (27. 소아호흡기 I _ 김정희) - Google Docs.pdf",
+            "name": "1028 정리본 (27. 소아호흡기 I _ 김정희) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2025-030",
@@ -2028,10 +2405,12 @@ window.JBL_DATA = {
         "기관지낭",
         "선천대엽폐기종"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n음식 섭취나 일상 활동 중 갑자기 생긴 기침·천명과 한쪽 폐의 air trapping은 기도 이물의 전형적인 단서다. 이물이 check-valve처럼 작용하면 공기는 들어가지만 잘 빠지지 않는다. 확진과 제거에는 소아에서 강직성 기관지내시경을 이용한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 34-39쪽.~~~",
       "images": [
         "J/2025/q030_01.jpg"
       ],
@@ -2063,7 +2442,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-031",
@@ -2085,10 +2489,12 @@ window.JBL_DATA = {
         "호흡기 감염 시 비점막 생검",
         "비점막 생검의 일반현미경 경검"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nPCD의 원인 유전자 검사가 적절하다. 섬모의 미세구조는 일반 광학현미경이 아니라 투과전자현미경으로 보며, 감염 중에는 이차적인 섬모 변화가 생겨 오판할 수 있다. 부비동염 CT는 동반 병변을 보여줄 뿐 PCD를 확진하지 않는다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 10쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -2111,7 +2517,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              10
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-032",
@@ -2264,10 +2690,12 @@ window.JBL_DATA = {
         "cromolyn은 mast cell의 탈과립을 억제한다.",
         "cromolyn은 류코트리엔 조절제이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nCromolyn은 비만세포의 탈과립과 매개물질 방출을 억제한다. LABA는 β₂ 수용체 작용제, theophylline은 PDE 억제제, ipratropium은 muscarinic 수용체 길항제이며, cromolyn은 류코트리엔 조절제가 아니다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 10-23쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2290,7 +2718,40 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-035",
@@ -2379,10 +2840,12 @@ window.JBL_DATA = {
         "montelukast는 D4의 작용을 억제하여 smooth m.의 contraction을 일으킨다",
         "Cromolyn은 mast cell의 탈과립을 억제하여 작용하며, sedation을 부작용으로 일으킨다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "잠정 정답: ①",
+      "explanation": "잠정 정답: ①\n\n복원된 보기 중에서는 1번이 옳다. 항무스카린제는 ACh에 의한 기관지 평활근 수축을 억제한다. Montelukast 역시 LTD₄ 작용을 막아 수축을 억제하며, cromolyn의 대표 부작용은 국소 자극이지 진정이 아니다. 다만 2·3번이 미복원되어 단일 정답임을 완전히 검증할 수는 없다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 17,19-23쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2405,7 +2868,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              17,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-037",
@@ -2427,8 +2915,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n보기의 약 이름만 있고 실제 설명 문장이 없어 정답을 정할 수 없다. Ipratropium은 단시간 항무스카린제, roflumilast는 PDE4 억제제이며, azithromycin은 일부 COPD 환자에서 악화 예방 목적으로 고려하는 macrolide다. 각 선지의 주장과 조건이 복원되어야 정오를 판단할 수 있다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2451,7 +2939,25 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2025-038",
@@ -2473,10 +2979,12 @@ window.JBL_DATA = {
         "Low dose ICS + Formoterol 후 폐기능 검사",
         "High dose ICS + LABA 후 폐기능 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nFEV₁/FVC 58%로 기류폐쇄가 있으므로 SABA 투여 후 폐기능을 다시 측정해 가역성을 확인한다. 강의 기준은 FEV₁이 12% 이상이면서 200 mL 이상 증가하는 것이다. 메타콜린 검사는 기저 폐기능이 정상에 가깝거나 폐쇄가 크지 않을 때 기도과민성을 평가하는 검사다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 9-15쪽.~~~",
       "images": [
         "J/2025/q038_01.jpg"
       ],
@@ -2525,7 +3033,33 @@ window.JBL_DATA = {
             "2025-038"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-039",
@@ -2547,10 +3081,12 @@ window.JBL_DATA = {
         "저용량 스테로이드, 포모테롤",
         "중간용량 스테로이드, 포모테롤"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "잠정 정답: ④",
+      "explanation": "잠정 정답: ④\n\nICS–formoterol을 유지치료 중인 환자가 증상 발생 시 추가할 완화제를 묻는 뜻이라면 저용량 ICS–formoterol이 답이다(MART). 다만 현재 발문에는 추가 완화제인지 유지치료의 step-up인지 구분하는 조건이 빠져 있다. 4번은 전자의 출제 의도로 추정한 답이며, 기존 중간용량 유지치료를 저용량으로 낮추라는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 22-26쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -2573,7 +3109,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-040",
@@ -2596,9 +3156,12 @@ window.JBL_DATA = {
         "큰 웃음이나 감정에 의해서도 악화된다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        2,
+        5
+      ],
+      "answerLabel": "정답: ②·⑤ (복수정답)",
+      "explanation": "정답: ②·⑤ (복수정답)\n\n현재 문장대로는 2번과 5번이 모두 맞다. 천식은 밤이나 이른 새벽에 악화되기 쉽고, 웃음·감정 변화도 비특이적 기도과민성을 자극한다. 장기간 염증이 지속되면 비가역적 기도개형이 생길 수 있고, 흔한 감염성 악화 요인은 세균보다 바이러스성 상기도 감염이다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 4,8-9,13쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -2621,7 +3184,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              4,
+              8,
+              9,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-041",
@@ -2643,10 +3229,12 @@ window.JBL_DATA = {
         "저용량 ICS/formoterol 흡입",
         "지속성 베타2항진제와 지속성 항콜린제 흡입"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n흡입 SABA와 항콜린제에도 호흡곤란이 지속되어 전신 스테로이드를 신속히 추가해야 한다. 경구 투여가 가능하면 경구제도 효과적이며, 해당 보기에서는 각각 경구 또는 정맥 스테로이드를 고른다. 특히 PaCO₂ 상승과 산증은 호흡부전 위험 신호다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 34-35쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -2688,7 +3276,28 @@ window.JBL_DATA = {
             "2025-041"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              34,
+              35
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-042",
@@ -2983,10 +3592,12 @@ window.JBL_DATA = {
         "폐고혈압",
         "전신염증반응"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n사진은 한쪽 폐가 허탈되고 흉강에 공기가 찬 기흉이다. 특히 갑작스러운 저혈압이 동반된 긴장성 기흉에서는 흉강 내 압력 상승이 정맥환류를 감소시켜 심박출량을 떨어뜨린다. 천식 병력에만 끌려 기관지 수축을 고르면 안 된다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 40-43쪽.~~~",
       "images": [
         "J/2025/q048_01.jpg"
       ],
@@ -3018,7 +3629,30 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-049",
@@ -3040,10 +3674,12 @@ window.JBL_DATA = {
         "정수압(hydrostatic pressure) 증가",
         "모세혈관 투과성(capillary permeability) 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n흉수/혈장 단백질 비는 5.2/6.0≈0.87, LDH 비는 340/120≈2.83으로 Light 기준상 삼출액이다. 염증·종양 등에 의한 모세혈관 투과성 증가를 선택한다. 정수압 증가나 교질삼투압 감소는 대표적으로 여출액을 만든다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 13-16쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -3066,7 +3702,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-050",
@@ -3088,10 +3747,12 @@ window.JBL_DATA = {
         "폐색전증",
         "특발성 폐섬유화증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n높은 LDH, 낮아진 pH·포도당과 CEA 상승은 악성 흉수를 우선 생각하게 한다. ADA 14는 전형적인 결핵성 흉막염을 지지하지 않는다. CEA만으로 확진하지는 않으며 실제 확진에는 흉수 세포검사나 흉막 조직검사가 필요하다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 17-22,28쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -3129,7 +3790,33 @@ window.JBL_DATA = {
             "2025-050"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              28
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-052",
@@ -3151,10 +3838,12 @@ window.JBL_DATA = {
         "가, 나, 다",
         "가, 나, 다, 라"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n관류스캔은 Tc-99m MAA를 정맥 주사하여 폐의 precapillary arteriole·모세혈관에 일시적으로 포획되게 한다. 강의에서 제시한 차단 비율은 약 1/1,000(0.1%)이며 10%나 100%가 아니다. 환기스캔에서는 에어로졸보다 Xe-133 같은 방사성 기체가 가장 생리적이다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 8,11쪽.~~~",
       "images": [],
       "legacyProfessor": "유민영",
       "professor": "유민영",
@@ -3177,7 +3866,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              8,
+              11
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-053",
@@ -3195,8 +3905,8 @@ window.JBL_DATA = {
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "참고 답안: ㄱ, ㄷ, ㄹ",
+      "explanation": "참고 답안: ㄱ, ㄷ, ㄹ\n\nㄱ·ㄷ·ㄹ이 옳다. 환기 결손 없이 중등도 분절상 관류결손이 4개 이상이면 고확률이고, MAA는 precapillary arteriole 등에 포획된다. 관류결손이 전혀 없으면 정상이다. ㄴ의 10%는 틀리며 강의 수치는 약 0.1%다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 8,41-42쪽.~~~",
       "images": [],
       "legacyProfessor": "유민영",
       "professor": "유민영",
@@ -3219,7 +3929,30 @@ window.JBL_DATA = {
       "parseMethod": "unparsed_or_written",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "written",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              8,
+              41,
+              42
+            ]
+          }
+        ],
+        "modelAnswer": "ㄱ, ㄷ, ㄹ"
+      }
     },
     {
       "id": "2025-054",
@@ -3238,10 +3971,12 @@ window.JBL_DATA = {
         "결핵으로 진단 – 결핵으로 진단 – NTM으로 추정 – 임상적 판단",
         "결핵으로 진단 – NTM으로 추정 – 결핵으로 진단 – 임상적 판단"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n결핵균 핵산검사가 양성이면 도말 결과와 관계없이 결핵을 진단하는 방향이다. 도말 양성·결핵균 핵산검사 음성이면 NTM을 우선 의심하여 배양·균동정으로 확인한다. 두 검사 모두 음성이어도 결핵이 완전히 배제되는 것은 아니므로 임상 판단이 필요하다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2쪽.~~~",
       "images": [
         "J/2025/q054_01.jpg"
       ],
@@ -3271,7 +4006,27 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-055",
@@ -3293,10 +4048,12 @@ window.JBL_DATA = {
         "폐고름집",
         "아스페르길루스종"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n장기간의 기침·가래, 체중 감소와 상엽 공동 및 주변 소엽중심성 결절은 활동성 폐결핵을 우선 의심하게 한다. 당뇨병도 위험인자다. 객담 항산균 도말·배양과 결핵균 핵산검사로 확인한다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [
         "J/2025/q055_01.jpg",
         "J/2025/q055_02.jpg"
@@ -3334,7 +4091,28 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-056",
@@ -3358,8 +4136,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n현재 복원문은 흉수 ANA 90으로 적혀 있고 증례도 요약되어 있어 단일 정답을 확정할 수 없다. 단백질 비 3.5/6.1 및 LDH 비 450/180은 삼출액을 지지한다. ANA가 ADA의 오기이고 림프구성 흉수의 ADA가 90 U/L라는 뜻이었다면 1번 항결핵제가 유력하다. ANA와 ADA는 다른 검사이므로 수치를 임의로 바꾸어 채점하지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 1-2쪽; 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」.~~~",
       "images": [],
       "legacyProfessor": "유우경",
       "professor": "유우경",
@@ -3385,7 +4163,38 @@ window.JBL_DATA = {
         "재검토: 결핵성 흉막염 자체가 결핵 정리본에 수록되어 있고 유우경 문항 블록도 지지한다. 흉수라는 이유만으로 다른 교수의 흉막질환에 옮기지 않는다."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          },
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": []
+          }
+        ],
+        "proposedAnswerIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "2025-057",
@@ -3403,8 +4212,8 @@ window.JBL_DATA = {
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "참고 답안: NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다.",
+      "explanation": "참고 답안: NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다.\n\n항산균 도말은 결핵균과 NTM을 구분하지 못한다. 도말 양성인데 Xpert MTB/RIF가 음성이면 NTM을 의심하고 항산균 배양 및 균동정을 확인한다. 환자의 증상·영상과 반복 배양 결과를 종합하여 NTM 폐질환 여부를 판단하며, Xpert 음성 하나만으로 모든 결핵을 절대 배제하지는 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2,4쪽.~~~",
       "images": [],
       "legacyProfessor": "유우경",
       "professor": "유우경",
@@ -3427,7 +4236,29 @@ window.JBL_DATA = {
       "parseMethod": "unparsed_or_written",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "written",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2,
+              4
+            ]
+          }
+        ],
+        "modelAnswer": "NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다."
+      }
     },
     {
       "id": "2025-058",
@@ -3448,10 +4279,12 @@ window.JBL_DATA = {
         "숨 쉬는 것이 불편함",
         "2주 전 심근경색"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n최근 심근경색이나 불안정 협심증에서는 기관지내시경과 진정 과정의 저산소증·빈맥이 심근허혈을 악화시킬 수 있다. 반면 원인 불명의 객혈, 무기폐, 치료에 반응하지 않는 폐렴은 검사 적응증이 될 수 있다. 응급 검사 필요성과 심혈관 안정성을 먼저 평가한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 6-8쪽.~~~",
       "images": [],
       "legacyProfessor": "유우경",
       "professor": "유우경",
@@ -3474,7 +4307,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-059",
@@ -3496,10 +4351,12 @@ window.JBL_DATA = {
         "사르코이드증",
         "기관지확장증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n고령·흡연력·객혈과 함께 기관지를 막는 병변 및 그 원위부 무기폐가 보여 폐암을 우선 의심한다. 기관지내시경으로 병변을 관찰하고 조직을 얻어 확진한다. 이 사진만으로 세부 조직형까지 단정하지는 않는다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 6,15쪽.~~~",
       "images": [
         "J/2025/q059_01.jpg"
       ],
@@ -3544,7 +4401,28 @@ window.JBL_DATA = {
             "2025-059"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              6,
+              15
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-060",
@@ -3641,10 +4519,12 @@ window.JBL_DATA = {
         "좌측 종양",
         "좌측 수기흉"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n좌측 흉막강에 공기와 액체가 함께 있고 곧게 수평인 air–fluid level이 보이므로 hydropneumothorax이다. 공기 없이 액체만 찬 일반적인 흉수의 meniscus와 구분한다.\n\n~~근거: 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 61-66쪽; 38기 정리본 「1029 정리본 (30. 흉부영상 각론 (기타 폐질환) _ 이경희) - Google Docs」 PDF 9쪽.~~~",
       "images": [
         "J/2025/q061_01.jpg"
       ],
@@ -3676,7 +4556,41 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              61,
+              62,
+              63,
+              64,
+              65,
+              66
+            ]
+          },
+          {
+            "key": "S29",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1029 정리본 (30. 흉부영상 각론 (기타 폐질환) _ 이경희) - Google Docs.pdf",
+            "name": "1029 정리본 (30. 흉부영상 각론 (기타 폐질환) _ 이경희) - Google Docs.pdf",
+            "pages": [
+              9
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-062",
@@ -3886,10 +4800,12 @@ window.JBL_DATA = {
         "림프관근종증",
         "기관지확장증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nCT에서 두꺼운 벽을 가진 확장 기관지가 여러 개 모여 보이는 기관지확장증이다. 폐포벽이 소실되는 폐기종이나 얇은 벽 낭종이 미만성으로 분포하는 LAM과 달리 병변이 기관지의 모양과 분포를 따른다. 복원본에서 사진이 유사 자료라고 명시된 경우에는 현재 첨부 영상 기준의 판단이다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」 PDF 1-8쪽.~~~",
       "images": [
         "J/2025/q064_01.jpg"
       ],
@@ -3921,7 +4837,34 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-066",
@@ -3943,10 +4886,12 @@ window.JBL_DATA = {
         "T4N3M1b",
         "T4N3M1c"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "잠정 정답: ⑤",
+      "explanation": "잠정 정답: ⑤\n\n제시된 출제 의도는 7 cm 초과 종괴 T4, 반대쪽 종격동·폐문 림프절 N3, 양측 부신의 다발성 흉곽외 전이 M1c이다. 크기 경계는 엄밀히 7 cm까지 T3이고 7 cm를 초과해야 T4이므로, 복원문의 ‘7 cm 이상’에는 경계값 표현의 한계가 있다. 보기에서는 이 조건 조합에 해당하는 5번을 선택한다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 56,59,63,73쪽.~~~",
       "images": [
         "J/2025/q066_01.jpg"
       ],
@@ -3976,7 +4921,30 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              56,
+              59,
+              63,
+              73
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-068",
@@ -5823,10 +6791,12 @@ window.JBL_DATA = {
         "덱사메타손",
         "세프트리악손"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n컹컹거리는 기침, 쉰 목소리, 들숨 stridor와 흉벽 함몰은 크룹의 전형적인 조합이다. 덱사메타손으로 상기도 부종을 줄이며, 중등도 이상에서는 흡입 에피네프린도 고려한다. 곧바로 기관절개술이나 항생제를 선택할 상황은 아니다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2025/q092_01.jpg"
       ],
@@ -5880,7 +6850,27 @@ window.JBL_DATA = {
             "2025-092"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-093",
@@ -5902,10 +6892,12 @@ window.JBL_DATA = {
         "아목시실린",
         "프레드니솔론"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2025/q093_01.jpg"
       ],
@@ -5959,7 +6951,27 @@ window.JBL_DATA = {
             "2025-093"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-094",
@@ -5981,10 +6993,12 @@ window.JBL_DATA = {
         "클라리트로마이신",
         "레보세티리신"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2025/q094_01.jpg"
       ],
@@ -6038,7 +7052,27 @@ window.JBL_DATA = {
             "2025-094"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-095",
@@ -6062,8 +7096,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n진단은 영아의 급성 세기관지염이다. 첫 천명, 선행 콧물·기침과 경미한 염증 소견이 근거다. 치료의 기본은 산소화·수분상태를 평가한 지지치료이며 살부타몰을 일률적으로 투여하지 않는다. 현재 보기에는 기본 지지치료가 없고, 이 증례에 기관지확장제를 선택해야 한다는 강의 근거도 확인되지 않아 자동 채점은 보류한다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽 · [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations 보충 근거 1].~~~",
       "images": [
         "J/2025/q095_01.jpg"
       ],
@@ -6117,7 +7151,30 @@ window.JBL_DATA = {
             "2025-095"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.nice.org.uk/guidance/ng9/chapter/Recommendations"
+        ]
+      }
     },
     {
       "id": "2025-097",
@@ -6139,10 +7196,12 @@ window.JBL_DATA = {
         "폐암",
         "유방암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n악성 중피종은 석면 노출 후 수십 년, 전형적으로 30–40년의 긴 잠복기를 거쳐 나타날 수 있다. 흡연과 강하게 연관된 일반 폐암과 달리 석면 노출력을 특히 확인해야 한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 17-18쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -6182,7 +7241,28 @@ window.JBL_DATA = {
             "2025-097"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              17,
+              18
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-098",
@@ -6204,10 +7284,12 @@ window.JBL_DATA = {
         "독성 흡입 폐손상",
         "규폐증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n화재 현장의 연기·유독가스·흄에 고농도로 노출되면 독성 흡입 폐손상이 발생할 수 있다. 소방수의 급성 화재 노출이라는 상황이 핵심이며, 규폐증·석면폐증은 주로 장기간의 특정 분진 노출과 연결한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 5쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -6246,7 +7328,27 @@ window.JBL_DATA = {
             "2025-098"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-099",
@@ -6268,10 +7370,12 @@ window.JBL_DATA = {
         "만성 폐쇄성 폐질환",
         "악성 중피종"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n유기분진 등에 감작된 사람이 다시 노출된 뒤 수시간 후 발열·오한·기침·호흡곤란을 보이면 직업성 과민성 폐장염을 생각한다. 이 문항의 4–12시간은 노출과 지연성 증상 사이의 관계를 묻고, 강의 본문에서는 급성 발현을 주로 4–6시간으로 설명한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 8-10쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -6294,7 +7398,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              8,
+              9,
+              10
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-100",
@@ -6316,10 +7442,12 @@ window.JBL_DATA = {
         "EBUS-TBNA",
         "Radial EBUS (Radial Endobronchial Ultrasound)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nConvex EBUS-TBNA는 기관지 주변 폐문·종격동 림프절을 초음파로 보면서 바늘로 채취하여 진단과 N 병기 평가에 활용한다. Radial EBUS는 주로 말초 폐병변의 위치를 찾는 데 사용한다. 1–3번은 미복원이지만 복원된 발문의 핵심에는 4번이 정확히 대응한다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 29-30,36쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "임준혁",
@@ -6342,7 +7470,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              29,
+              30,
+              36
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-101",
@@ -6364,10 +7514,12 @@ window.JBL_DATA = {
         "EGFR 돌연변이 여부",
         "전이 여부"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n폐암의 해부학적 병기는 종양의 크기·주변 구조 침범(T), 림프절 전이(N), 원격 전이(M)로 정하며 생존 예측의 중심 기준이다. EGFR 변이는 치료약 선택에는 중요하지만 TNM 병기를 결정하는 항목은 아니다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 51-56쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "임준혁",
@@ -6390,7 +7542,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-102",
@@ -6413,8 +7590,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n나이·흡연력·선암이라는 조직형만으로 최선의 치료를 정할 수 없다. 병기, 전신상태, 표적 가능한 유전자 변이, PD-L1 등의 정보가 필요하다. 흡연자라는 이유만으로 면역관문억제제나 세포독성항암제를 단독 정답으로 확정하지 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 51-56,64-73쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "임준혁",
@@ -6473,6 +7650,41 @@ window.JBL_DATA = {
         ],
         "resolution": "공식 원문이 없어 어느 쪽을 원시험 선지로 확정하지 않고 두 자료를 보존한다.",
         "answer_not_imported": true
+      },
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73
+            ]
+          }
+        ]
       }
     },
     {
@@ -6495,10 +7707,12 @@ window.JBL_DATA = {
         "특발 폐섬유증은 병리 소견상 Temporal heterogeneity가 특징적 소견이다.",
         "특발 폐섬유증은 fibroblastic focus와 honeycombing이 같은 시기에 나타난다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\n강의에서는 idiopathic NSIP의 확진에 임상·영상 평가와 폐생검을 함께 요구하므로 HRCT만으로 확진한다는 2번이 틀리다. UIP/IPF는 서로 다른 시기에 생긴 섬유화와 fibroblastic foci가 한 조직에 공존하는 temporal heterogeneity가 특징이다. 5번의 ‘같은 시기에 나타난다’는 한 검체에서 함께 관찰된다는 뜻이면 가능하지만, 병변이 동시에 발생했다는 뜻이면 역시 틀리므로 표현에 주의해야 한다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 30,72-76쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -6521,7 +7735,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              30,
+              72,
+              73,
+              74,
+              75,
+              76
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-105",
@@ -6543,10 +7782,12 @@ window.JBL_DATA = {
         "corticosteroid는 치료에 도움이 된다",
         "Bosentan, ambrisentan을 사용한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n38기 강의는 pirfenidone과 nintedanib을 권고하는 항섬유화제로 제시한다. 이미 생긴 섬유화를 정상 폐로 되돌리는 약이 아니라 폐기능 감소 속도를 늦추는 약이다. Prednisone·azathioprine·NAC 삼제요법과 steroid 단독요법, bosentan·ambrisentan은 이 치료로 선택하지 않으며 PPI를 폐기능 향상 목적으로 쓰지도 않는다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 60-64쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -6569,7 +7810,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              60,
+              61,
+              62,
+              63,
+              64
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-106",
@@ -6589,10 +7854,12 @@ window.JBL_DATA = {
         "TGF b1이 섬유화한다",
         "Type 1 cell 손상 후 type 2의 전환 실패"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\nTGF-β1은 fibroblast 활성화와 세포외기질 축적을 촉진하는 핵심 섬유화 신호다. IPF는 염증이 반드시 먼저 생겨야 하는 병이 아니라 반복되는 상피 손상과 비정상적인 복구가 중심이다. 3번은 AT2가 AT1으로 분화해 상피를 회복하는 과정의 실패를 뜻했다면 맞는 설명이지만, 현재 복원문에는 전환 방향이 빠져 있어 2번을 가장 명확한 답으로 둔다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 21-24쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -6615,7 +7882,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-107",
@@ -6638,9 +7928,12 @@ window.JBL_DATA = {
         "임상적 증상, 생리적 증상, 영상적 증상 중 2가지를 만족하면 PPF로 진단이 가능하다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        2,
+        3
+      ],
+      "answerLabel": "정답: ②·③ (복수정답)",
+      "explanation": "정답: ②·③ (복수정답)\n\n현재 문장 그대로라면 2·3번이 모두 부정확하다. PPF는 non-IPF 섬유화성 ILD에서 최근 1년간 증상·생리·영상 악화 중 두 영역을 충족하므로 증상 악화가 반드시 있어야 하는 것은 아니다. 생리 기준은 TLC가 아니라 FVC 감소 또는 Hb 보정 DLCO 감소이며, 둘 모두를 요구하지 않는다. 강의 표의 수치는 FVC 절대 5% 및 DLCO 절대 10% 수준이다. 3번이 주된 출제 의도로 보이나 단일 정답은 성립하지 않는다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 116-117쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -6663,7 +7956,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              116,
+              117
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-108",
@@ -6686,9 +8000,12 @@ window.JBL_DATA = {
         "사르코이드증은 CD8+ 증가로, CD4+/CD8+가 감소한다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        2,
+        3
+      ],
+      "answerLabel": "정답: ②·③ (복수정답)",
+      "explanation": "정답: ②·③ (복수정답)\n\n과민성 폐렴은 주로 III·IV형 면역반응과 관련되고 BAL 림프구 증가 및 CD4/CD8 감소가 강의의 특징이다. Sarcoidosis는 Th1·CD4 T세포 반응과 비건락성 육아종, 증가한 CD4/CD8 비가 대표적이므로 2·3번 모두 맞는다. IgE·호산구 중심의 I형 알레르기 반응과 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 27,38,48,53쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -6711,7 +8028,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              27,
+              38,
+              48,
+              53
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-109",
@@ -6734,9 +8074,12 @@ window.JBL_DATA = {
         "두 질환 모두 임상상으로 천식과 동반된다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        4,
+        5
+      ],
+      "answerLabel": "정답: ④·⑤ (복수정답)",
+      "explanation": "정답: ④·⑤ (복수정답)\n\nCEP에서는 말초혈액과 BAL의 호산구 증가가 중요하므로 4번이 틀리다. 천식은 CEP에 흔히 동반되지만 AEP의 전형적 특징은 아니므로 두 질환 모두 천식을 동반한다는 5번도 틀리다. AEP는 급성 호흡부전과 빠른 steroid 반응, 낮은 재발률이 특징이고 CEP는 치료 중단 후 재발을 주의한다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 75,81쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -6759,7 +8102,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              75,
+              81
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-111",
@@ -6781,10 +8145,12 @@ window.JBL_DATA = {
         "기관지 내 병변을 확인하기 위해 기관지내시경이 필요하다.",
         "항생제 치료기간은 흉부 X-ray가 호전될 때까지 최소 3주 이상 치료한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\nCURB-65에서 나이 65세 이상과 BUN 19 mg/dL 초과로 각각 1점, 총 2점이므로 입원치료를 고려한다. 의식·호흡수·혈압 항목은 0점이다. 폐렴구균 양성이라고 vancomycin을 일률적으로 선택하거나 영상이 완전히 정상화될 때까지 3주 이상 치료하는 것은 아니다. 사진과 발문의 좌우 표기는 일치하지 않지만 점수 계산에는 영향을 주지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 18-21쪽.~~~",
       "images": [
         "J/2025/q111_01.jpg"
       ],
@@ -6829,7 +8195,30 @@ window.JBL_DATA = {
             "2025-111"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-112",
@@ -6851,8 +8240,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n발문에 균명과 질문의 핵심이 제대로 복원되지 않아 정답을 확정할 수 없다. 만약 Mycoplasma·Chlamydia·Legionella 같은 비정형 병원체가 흔히 속하는 폐렴 범주를 묻는다면 CAP인 1번이 유력하다. 그러나 atypical pneumomycobacterium이라는 현재 표현을 임의로 특정 균명으로 바꾸어 채점하지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 7-8쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "김준",
@@ -6877,7 +8266,31 @@ window.JBL_DATA = {
         "병원체 철자와 보기 복원이 불완전하여 세부 주제 확정 불가."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ],
+        "proposedAnswerIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "2025-113",
@@ -6899,10 +8312,12 @@ window.JBL_DATA = {
         "Echocardiogram",
         "CT pulmonary angiogram"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n최근 고관절 수술, 한쪽 다리 부종과 빈맥에 새 호흡곤란이 동반되어 폐색전증의 임상 가능성이 높다. 혈압이 유지되므로 CT pulmonary angiography로 확인한다. 단순 흉부 사진이 정상에 가까워도 배제되지 않으며, 고확률 환자에게 D-dimer 음성만으로 배제하는 접근은 적절하지 않다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-10쪽.~~~",
       "images": [
         "J/2025/q113_01.jpg"
       ],
@@ -6947,7 +8362,30 @@ window.JBL_DATA = {
             "2025-113"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-114",
@@ -6969,10 +8407,12 @@ window.JBL_DATA = {
         "intracranial bleeding",
         "bleeding diathesis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n강의의 항응고치료 절대 금기는 심한 활동성 출혈, 두개내 출혈, 최근 2주 이내 중추신경계·안과 수술이다. 활동성 소화성궤양, 간부전, 출혈성 소인 등은 표에서 상대 금기로 구분한다. HIT에서는 heparin은 중단해야 하지만 모든 종류의 항응고치료가 금기인 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "김혜수",
@@ -7015,7 +8455,27 @@ window.JBL_DATA = {
             "2025-114"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-115",
@@ -7037,10 +8497,12 @@ window.JBL_DATA = {
         "Venous ultrasonography",
         "Lung scan"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nD-dimer는 민감도가 높고 특이도가 낮다. 임상 가능성이 낮거나 중간인 환자에서 음성일 때 폐색전증 배제에 유용하지만, 수술·감염·암·임신 등에서도 상승하므로 양성만으로 확진하지 않는다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-8쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "김혜수",
@@ -7083,7 +8545,28 @@ window.JBL_DATA = {
             "2025-115"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-116",
@@ -7105,10 +8588,12 @@ window.JBL_DATA = {
         "혐기성 균에 의한 감염이 많고, 1차 치료는 클라리딘 또는 β-lactam/β-lactamase 억제제 병용 요법이다.",
         "대부분의 환자는 1주 이내 완전 치유된다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "잠정 정답: ④",
+      "explanation": "잠정 정답: ④\n\n혐기균을 포함한 구강 내 세균에 의한 폐농양은 clindamycin 또는 β-lactam/β-lactamase inhibitor 병합제로 치료한다. Metronidazole 단독은 미세호기성 streptococci를 충분히 치료하지 못한다. 4번의 클라리딘은 강의의 clindamycin과 다른 표기이므로 약명 복원 오류 가능성이 있지만, 나머지 설명과 병합요법 부분을 고려하면 출제 의도상 4번이 유력하다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 31-40쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "김준",
@@ -7131,7 +8616,36 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-117",
@@ -7153,10 +8667,12 @@ window.JBL_DATA = {
         "폐렴간균(K.pneumoniae)",
         "결핵균(M. tuberculosis)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "잠정 정답: ①",
+      "explanation": "잠정 정답: ①\n\n사진은 확장된 기관지들이 여러 개 보이는 기관지확장증이다. 보기 중 이 질환에서 중요하게 반복 분리되고 악화·폐기능 저하와 연결되는 균은 Pseudomonas aeruginosa다. 다만 전체 환자에서 가장 흔한 균이라는 절대적 순위는 지역·중증도에 따라 달라지고 H. influenzae도 흔하며, 발문의 배양 검체 종류가 불완전하게 복원되어 있다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」 PDF 27쪽.~~~",
       "images": [
         "J/2025/q117_01.jpg"
       ],
@@ -7189,7 +8705,27 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": [
+              27
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-118",
@@ -7211,10 +8747,12 @@ window.JBL_DATA = {
         "흡기를 호기보다 길게 한다.",
         "intercostal muscle을 이용해 흉곽을 최대한 이용하도록 한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nPursed-lip breathing은 호기 중 기도 내 압력을 유지하여 작은 기도의 조기 허탈과 air trapping을 줄인다. COPD에서는 숨을 천천히 내쉬고 흡기보다 호기를 길게 하는 것이 핵심이다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -7237,7 +8775,36 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-119",
@@ -7259,10 +8826,12 @@ window.JBL_DATA = {
         "야간 비침습적 양압환기",
         "Diaphragmatic breathing / pursed lip breathing"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nALS 환자의 peak cough flow가 190 L/min으로 낮아 분비물을 충분히 배출하기 어렵다. Mechanical insufflator-exsufflator는 양압으로 공기를 넣은 뒤 음압으로 빼내 기침을 보조한다. 이 증례의 핵심은 CO₂ 저류보다 기침 능력 저하이므로 야간 환기보조보다 객담 배출 보조를 먼저 고른다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -7303,7 +8872,36 @@ window.JBL_DATA = {
             "2025-119"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-120",
@@ -7325,10 +8923,12 @@ window.JBL_DATA = {
         "항진균제",
         "수술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n폐암과 종격동 병변에 안면 부종·홍조가 동반되어 상대정맥증후군을 의심한다. 제시된 보기에서는 종양의 압박을 줄이는 방사선치료가 적절하다. 실제 처치는 기도·신경학적 응급 여부와 조직형에 따라 스텐트, 항암치료 등을 함께 판단한다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "최윤선",
       "professor": "최윤선",
@@ -7351,7 +8951,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-121",
@@ -7373,10 +9001,12 @@ window.JBL_DATA = {
         "폐절제",
         "항생제"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "최윤선",
       "professor": "최윤선",
@@ -7399,7 +9029,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2025-122",
@@ -7423,8 +9081,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n2번은 강의의 편평상피세포암에서 높은 PD-L1 발현이라는 설명과 일치한다. 1번은 EGFR 변이가 비흡연자에서 더 흔하므로 틀리고, 4번의 가장 흔한 변이는 ALK가 아니라 EGFR이다. 5번도 편평상피세포암의 높은 돌연변이 부담과 반대다. 두 개를 고르는 문제인데 3번이 미복원이므로 전체 정답 조합은 확정할 수 없다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-12쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -7447,7 +9105,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          }
+        ],
+        "proposedAnswerIndices": [
+          2
+        ]
+      }
     },
     {
       "id": "2024-001",
@@ -7469,10 +9155,12 @@ window.JBL_DATA = {
         "Sclerosing pneumocytoma",
         "Chondroid hamartoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n기관지 내로 돌출한 경계 좋은 종괴와 비교적 균일한 세포의 신경내분비 배열, chromogranin·synaptophysin 양성이 carcinoid를 지지한다. 연골·지방의 혼합인 hamartoma나 신경내분비 표지자 음성인 sclerosing pneumocytoma와 구분한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 31,37-40쪽.~~~",
       "images": [
         "J/2024/q001_01.jpg",
         "J/2024/q001_02.jpg"
@@ -7522,7 +9210,31 @@ window.JBL_DATA = {
             "2025-005"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              31,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-002",
@@ -7544,10 +9256,12 @@ window.JBL_DATA = {
         "저용량 스테로이드-formoterol 흡입제로 변경",
         "중간용량 스테로이드-지속성 베타2항진제 흡입제로 변경"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n저용량 ICS 단독으로 조절되지 않으면 저용량 ICS–formoterol 병합으로 한 단계 올린다. 먼저 흡입법·순응도와 악화 인자를 확인하며, 곧바로 tiotropium이나 theophylline을 추가하는 것이 우선은 아니다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 22-26쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김철우",
@@ -7570,7 +9284,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-003",
@@ -7799,10 +9537,12 @@ window.JBL_DATA = {
         "사르코이드증",
         "기관지확장증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n흡연력이 있는 고령 환자에서 객혈과 국소 호흡음 감소가 있고, CT의 좌상엽 허탈 및 기관지내시경의 기도 내 종괴가 보여 폐암에 의한 기관지 폐쇄를 의심한다. 기흉은 기관지 안에 종괴를 만들지 않으며 기관지확장증은 확장된 기관지 구조가 핵심이다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 28-34쪽.~~~",
       "images": [
         "J/2024/q006_01.jpg"
       ],
@@ -7847,7 +9587,33 @@ window.JBL_DATA = {
             "2025-059"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-007",
@@ -7939,10 +9705,12 @@ window.JBL_DATA = {
         "스테로이드",
         "광범위항생제"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n림프구 87%인 삼출성 흉수에 ADA 96.6 U/L가 동반되어 결핵성 흉막염이 가장 유력하다. 흉수 TB PCR은 민감도가 충분하지 않아 음성만으로 결핵성 흉막염을 배제하지 않는다. 증례의 임상상과 흉수 결과를 종합하면 항결핵제가 적절하다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」; 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [
         "J/2024/q008_01.jpg"
       ],
@@ -7972,7 +9740,35 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": []
+          },
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-009",
@@ -7994,10 +9790,12 @@ window.JBL_DATA = {
         "폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.",
         "ABPA는 호산구의 침윤과 기관지내 점액의 축적으로 기관지확장증이 발생하는 것이 특징이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nABPA는 Aspergillus에 대한 과민반응으로, 천식·IgE 상승·호산구 증가와 함께 점액마개 및 중심성 기관지확장증을 보인다. AEP는 steroid 중단 후 재발이 드물고 재발이 흔한 쪽은 CEP이다. PAP의 기본 치료는 전폐세척이며, LAM은 주로 가임기 여성에 발생한다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 75,81,86,88-89쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "장혜진",
@@ -8020,7 +9818,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              75,
+              81,
+              86,
+              88,
+              89
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-010",
@@ -8042,10 +9864,12 @@ window.JBL_DATA = {
         "폐암",
         "유방암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n악성 중피종은 석면 노출 후 수십 년, 전형적으로 30–40년의 긴 잠복기를 거쳐 나타날 수 있다. 흡연과 강하게 연관된 일반 폐암과 달리 석면 노출력을 특히 확인해야 한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 17-18쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "임종한",
@@ -8085,7 +9909,28 @@ window.JBL_DATA = {
             "2025-097"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              17,
+              18
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-011",
@@ -8107,10 +9952,12 @@ window.JBL_DATA = {
         "Pulmonary thromboendarterectomy",
         "UFH IV followed by t-PA 100mg IV"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n폐동맥 내 충만결손과 우심실 기능저하에 혈압 70/42 mmHg의 쇼크가 동반된 고위험 급성 폐색전증이다. 출혈 금기가 없으므로 항응고치료와 함께 전신 혈전용해치료를 우선 고려한다. 항응고제만 투여하거나 IVC filter만 넣는 것으로는 현재의 혈역학적 위기를 해결하기 어렵다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 18-20쪽.~~~",
       "images": [
         "J/2024/q011_01.jpg"
       ],
@@ -8140,7 +9987,29 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-012",
@@ -8162,10 +10031,12 @@ window.JBL_DATA = {
         "Echocardiogram",
         "CT pulmonary angiogram"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n최근 고관절 수술, 한쪽 다리 부종과 빈맥에 새 호흡곤란이 동반되어 폐색전증의 임상 가능성이 높다. 혈압이 유지되므로 CT pulmonary angiography로 확인한다. 단순 흉부 사진이 정상에 가까워도 배제되지 않으며, 고확률 환자에게 D-dimer 음성만으로 배제하는 접근은 적절하지 않다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-10쪽.~~~",
       "images": [
         "J/2024/q012_01.jpg"
       ],
@@ -8210,7 +10081,30 @@ window.JBL_DATA = {
             "2025-113"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-013",
@@ -8688,10 +10582,12 @@ window.JBL_DATA = {
         "ROS1 translocation (fusion)",
         "HER2 (ERBB2) mutation"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n흡연자에서 생긴 폐선암은 비흡연자 폐선암보다 KRAS 변이가 흔하다. EGFR·ALK·ROS1은 상대적으로 비흡연자에서 더 자주 만나는 표적이다. 흡연력만으로 유전자형을 확정하는 것은 아니므로 실제 치료 전에는 검사해야 한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 4,7-11쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김루시아",
@@ -8714,7 +10610,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              4,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-020",
@@ -8736,10 +10657,12 @@ window.JBL_DATA = {
         "ROS1 fusion을 보기 위한 reverse transcription PCR 검사",
         "종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 38기 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-16쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김루시아",
@@ -8781,7 +10704,36 @@ window.JBL_DATA = {
             "2025-003"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-021",
@@ -8803,10 +10755,12 @@ window.JBL_DATA = {
         "Loss of BAP1 nuclear expression",
         "PD-L1 protein expression"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7,12쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김루시아",
@@ -8850,7 +10804,28 @@ window.JBL_DATA = {
             "2025-007"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              7,
+              12
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-022",
@@ -8872,10 +10847,12 @@ window.JBL_DATA = {
         "Extralobar sequestration",
         "Schwannoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n점액을 담은 단방성 낭종의 벽에 호흡상피·연골·기관지샘 등 기관지 성분이 보이면 bronchogenic cyst이다. 정상 기도와 연결되지 않고 전신동맥을 공급받는 폐격리증이나, 폐 안에 여러 비정상 기도가 형성되는 CPAM과 다르다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 4-9쪽; 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 19쪽.~~~",
       "images": [
         "J/2024/q022_01.jpg",
         "J/2024/q022_02.jpg"
@@ -8925,7 +10902,41 @@ window.JBL_DATA = {
             "2025-010"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              19
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-023",
@@ -8947,10 +10958,12 @@ window.JBL_DATA = {
         "Fiber optic bronchoscopy",
         "Chest sonogram"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김영삼",
@@ -8994,7 +11007,28 @@ window.JBL_DATA = {
             "2025-016"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-024",
@@ -9016,10 +11050,12 @@ window.JBL_DATA = {
         "EGFR PCR 검사",
         "GMS, alcian blue 염색"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n육아종과 거대세포 속에 맑은 테두리를 가진 둥근 효모가 보여 Cryptococcus를 의심한다. GMS로 진균 벽을, Alcian blue 등으로 다당류 피막을 확인할 수 있다. 길고 분지하는 균사가 특징인 Aspergillus나 항산균 염색으로 확인하는 결핵과 구분한다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 165-174쪽.~~~",
       "images": [
         "J/2024/q024_01.jpg",
         "J/2024/q024_02.jpg"
@@ -9073,7 +11109,36 @@ window.JBL_DATA = {
             "2025-013"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-025",
@@ -9335,10 +11400,12 @@ window.JBL_DATA = {
         "예방목적으로 산소포화도 모니터링이 필요하다.",
         "아기 주변에는 푹신한 이불이나 물건을 두지 않는다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n영아는 단단하고 평평한 별도 수면 공간에서 supine position으로 재운다. 푹신한 이불·베개·인형이나 침대 공유는 피한다. 가정용 산소포화도 감시는 SIDS 예방을 대신하지 못하며, 고무젖꼭지를 일률적으로 금지하지 않는다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김정희",
@@ -9361,7 +11428,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-029",
@@ -9383,10 +11470,12 @@ window.JBL_DATA = {
         "고용량 스테로이드+지속성 베타2항진제 흡입 치료 후 폐기능 검사",
         "중간용량 스테로이드+formoterol+지속성 항콜린제 흡입 치료 후 폐기능 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n기관지확장제 직후 FEV₁ 증가가 12%·200 mL 기준에 못 미쳐도 천식을 배제하지 않는다. 심한 염증이나 바이러스 감염 뒤에는 반응이 뚜렷하지 않을 수 있어 고용량 ICS를 포함한 항염증 치료를 약 4주 시행한 뒤 폐기능 호전을 확인한다. ICS 없이 LABA–LAMA만 투여하는 선택은 천식 치료에 맞지 않는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 11-13쪽.~~~",
       "images": [
         "J/2024/q029_01.jpg"
       ],
@@ -9435,7 +11524,29 @@ window.JBL_DATA = {
             "2025-038"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-030",
@@ -9457,10 +11568,12 @@ window.JBL_DATA = {
         "지속성 베타2 항진제 흡입",
         "지속성 베타2 항진제와 지속성 항콜린제 흡입"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n흡입 SABA와 항콜린제에도 호흡곤란이 지속되어 전신 스테로이드를 신속히 추가해야 한다. 경구 투여가 가능하면 경구제도 효과적이며, 해당 보기에서는 각각 경구 또는 정맥 스테로이드를 고른다. 특히 PaCO₂ 상승과 산증은 호흡부전 위험 신호다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 34-35쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김철우",
@@ -9502,7 +11615,28 @@ window.JBL_DATA = {
             "2025-041"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              34,
+              35
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-031",
@@ -9524,10 +11658,12 @@ window.JBL_DATA = {
         "항암제와 면역치료를 시행한다.",
         "항암제 치료와 방사선치료를 동시에 시행한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "최윤선",
@@ -9550,7 +11686,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-032",
@@ -9704,10 +11868,12 @@ window.JBL_DATA = {
         "theophylline",
         "tiotropium"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nTheophylline은 PDE를 억제하여 cAMP 분해를 줄이고 기관지 평활근을 이완시킨다. Salmeterol·terbutaline은 β₂ 수용체를 통해 cAMP 생성을 높이며, tiotropium은 muscarinic 수용체를 차단한다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 12-17쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김채균",
@@ -9730,7 +11896,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-035",
@@ -9752,10 +11943,12 @@ window.JBL_DATA = {
         "폐색전증",
         "특발성 폐섬유화증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n높은 LDH, 낮아진 pH·포도당과 CEA 상승은 악성 흉수를 우선 생각하게 한다. ADA 14는 전형적인 결핵성 흉막염을 지지하지 않는다. CEA만으로 확진하지는 않으며 실제 확진에는 흉수 세포검사나 흉막 조직검사가 필요하다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 17-22,28쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김준",
@@ -9793,7 +11986,33 @@ window.JBL_DATA = {
             "2025-050"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              28
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-036",
@@ -9816,9 +12035,12 @@ window.JBL_DATA = {
         "관류스캔에서 관류 결손이 전혀 없는 경우에는 정상으로 판정한다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        3,
+        5
+      ],
+      "answerLabel": "정답: ③·⑤ (복수정답)",
+      "explanation": "정답: ③·⑤ (복수정답)\n\n현재 문장을 문자 그대로 읽으면 3·5번이 모두 성립한다. 강의의 고확률 기준은 폐색전 가능성 80% 초과이므로 50% 이상이라는 말도 수학적으로는 참이지만 정확한 정의는 아니다. 5번의 관류결손 없음=정상은 명확히 옳다. 고확률 결손은 분절상 결손이어야 하므로 4번의 비분절상은 틀리다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 41-42쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "유민영",
@@ -9841,7 +12063,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              41,
+              42
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-037",
@@ -10182,10 +12425,12 @@ window.JBL_DATA = {
         "폐암",
         "폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n좌측에 visceral pleural line이 보이고 그 바깥쪽에는 폐혈관 음영이 없어 pneumothorax이다. 안쪽으로 쪼그라든 폐와 흉벽 사이의 공기를 찾는 것이 핵심이다. 단순히 폐가 검게 보인다는 이유로 폐기종으로 고르지 않는다.\n\n~~근거: 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 10,20쪽.~~~",
       "images": [
         "J/2024/q041_01.jpg"
       ],
@@ -10215,7 +12460,28 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              10,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-042",
@@ -10237,10 +12503,12 @@ window.JBL_DATA = {
         "폐농양",
         "혈관염"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n기존 공동 안의 둥근 연부조직 덩어리와 이를 둘러싼 초승달 모양 공기는 fungus ball, 즉 aspergilloma를 시사한다. 간헐적 객혈도 잘 맞는다. 공동 전체가 액체로 차는 폐농양이나 불규칙한 공동벽 자체가 종양인 폐암과 구분한다.\n\n~~근거: 38기 강의록 「20251023_13. 흉부영상 총론 II_이경희(도훈)」 PDF 49-52쪽.~~~",
       "images": [
         "J/2024/q042_01.jpg"
       ],
@@ -10270,7 +12538,30 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L1",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "name": "20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "pages": [
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-043",
@@ -10454,10 +12745,12 @@ window.JBL_DATA = {
         "LAM, RA를 제외한 CTD, TS",
         "PLCH, DIP, RB-ILD"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의가 객혈과 연결해 제시한 ILD 묶음은 Goodpasture syndrome·LAM·PLCH이다. 특히 Goodpasture syndrome은 폐포출혈과 사구체신염을 연결한다. PLCH·DIP·RB-ILD는 객혈보다 흡연과의 연관성을 묻는 별도 묶음이다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 9쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "장혜진",
@@ -10495,7 +12788,27 @@ window.JBL_DATA = {
             "2024-045"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              9
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-046",
@@ -10668,10 +12981,12 @@ window.JBL_DATA = {
         "탄광부 진폐증",
         "용접공폐"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n규폐증은 결정형 silica를 흡입하는 채석·석재가공·터널·주조·도자기 등의 작업과 관련된다. 탄광부 진폐증뿐 아니라 제조업·건설업의 silica 분진 노출을 확인해야 한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 13-16쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "임종한",
@@ -10694,7 +13009,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-049",
@@ -10716,10 +13054,12 @@ window.JBL_DATA = {
         "폐렴",
         "간질성폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "잠정 정답: ③",
+      "explanation": "잠정 정답: ③\n\n출제 시점에 새로 관련성이 논의·인정된 질환을 묻는 의도로 보면 폐암이 유력하다. 38기 강의록도 가습기살균제 질환에 폐암을 포함한다. 다만 현재 자료에는 천식·중증폐손상·폐렴·간질성폐렴도 함께 나와 있으므로, 최근이라는 기준 연도가 빠진 이 발문만으로 다른 질환의 관련성을 부정할 수는 없다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 18쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "임종한",
@@ -10757,7 +13097,27 @@ window.JBL_DATA = {
             "2024-049"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              18
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-050",
@@ -10779,10 +13139,12 @@ window.JBL_DATA = {
         "수술적 치료",
         "PET, Bone scan, Brain MRI"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n조직검사로 폐암이 확인되면 치료를 정하기 전에 전신 병기를 평가한다. 제시된 보기에서는 PET, 뼈 평가, brain MRI를 묶은 5번이 이에 해당한다. 모든 검사를 무조건 중복 시행한다는 뜻은 아니며 PET/CT 결과와 임상상에 따라 뼈 검사를 조정할 수 있다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 51-55쪽.~~~",
       "images": [
         "J/2024/q050_01.jpg"
       ],
@@ -10812,7 +13174,31 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              51,
+              52,
+              53,
+              54,
+              55
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-051",
@@ -10982,10 +13368,12 @@ window.JBL_DATA = {
         "기관지 내 병변을 확인하기 위해 기관지내시경이 필요하다.",
         "항생제 치료기간은 흉부 X-ray가 호전될 때까지 최소 3주 이상 치료한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\nCURB-65에서 나이 65세 이상과 BUN 19 mg/dL 초과로 각각 1점, 총 2점이므로 입원치료를 고려한다. 의식·호흡수·혈압 항목은 0점이다. 폐렴구균 양성이라고 vancomycin을 일률적으로 선택하거나 영상이 완전히 정상화될 때까지 3주 이상 치료하는 것은 아니다. 사진과 발문의 좌우 표기는 일치하지 않지만 점수 계산에는 영향을 주지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 18-21쪽.~~~",
       "images": [
         "J/2024/q053_01.jpg"
       ],
@@ -11030,7 +13418,30 @@ window.JBL_DATA = {
             "2025-111"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-054",
@@ -11052,10 +13463,12 @@ window.JBL_DATA = {
         "흡기와 호기의 비율은 1:1로 하도록 한다.",
         "횡격막 호흡은 호기 시 가슴을 손으로 지그시 누르면서 숨을 내쉬게 한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의에서 설명하는 이완자세는 복부를 이완시키고 횡격막 운동과 보조호흡근 사용을 도와 호흡 부담을 줄인다. 다른 보기와 달리 2번이 이 취지에 맞는다. 느리고 깊게 호흡하고 호기를 길게 하며, 횡격막 호흡을 도울 때는 가슴이 아니라 복부에 손을 댄다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "좌경림",
@@ -11095,7 +13508,36 @@ window.JBL_DATA = {
             "2024-054"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2024-055",
@@ -11397,10 +13839,12 @@ window.JBL_DATA = {
         "가래에서 녹농균(P. aeruginosa) 배양",
         "65세 이상의 고령환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n기관지확장증에서 녹농균의 만성 감염·집락화는 잦은 악화, 입원, 폐기능 저하 및 나쁜 예후와 관련된다. 객담 배양에서 녹농균을 확인하는 이유가 여기에 있다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」 PDF 27쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -11423,7 +13867,27 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": [
+              27
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-002",
@@ -11445,10 +13909,12 @@ window.JBL_DATA = {
         "ceftriaxone + tobramycin",
         "azithromycin + imipenem"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n일반적인 입원 CAP의 경험적 치료는 ceftriaxone 같은 β-lactam에 azithromycin 같은 macrolide를 병합하여 전형균과 비정형균을 함께 치료한다. 녹농균 위험인자가 없는 증례에 항녹농균 약제를 과도하게 넓혀 쓰지 않는다. Doxycycline 병합도 특정 상황에서 대안이지만 제시된 기본 선택은 β-lactam+macrolide이다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 18-21쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -11473,7 +13939,30 @@ window.JBL_DATA = {
         "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-003",
@@ -11495,10 +13984,12 @@ window.JBL_DATA = {
         "과거 활동성 폐결핵으로 치료한 환자",
         "기관지 내시경 근무자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n과거 활동성 결핵을 적절히 치료한 환자의 감염검사는 치료 뒤에도 양성일 수 있다. 새로운 노출이나 재감염 상황이 없는 한 양성 결과만으로 잠복결핵 치료를 반복하지 않는다. 다른 보기들은 접촉력·면역저하·직업적 노출 등의 평가가 필요한 경우다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3-4쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -11522,7 +14013,28 @@ window.JBL_DATA = {
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 7
+      "officialPage": 7,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3,
+              4
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-004",
@@ -11545,9 +14057,14 @@ window.JBL_DATA = {
         "객담에서 검출된 MAC은 colonization일 가능성이 많아 경과 관찰이 필요하다"
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "answerLabel": "정답: ①·②·③·⑤ (복수정답)",
+      "explanation": "정답: ①·②·③·⑤ (복수정답)\n\n현재 선지대로라면 틀린 설명은 1·2·3·5번으로 단일 답이 성립하지 않는다. MAC은 macrolide를 중심으로 ethambutol·rifamycin 등을 병합하며 단독 치료하지 않는다. 치료 성패와 특히 관련되는 내성은 macrolide 내성이다. 증상·공동·반복 양성 배양이 있는 이 증례를 단순 집락화로 넘기기 어렵고, macrolide 내성이나 심한 공동성 질환에서는 주사용 amikacin을 고려한다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 4-5쪽 · [https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/ 보충 근거 1].~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -11570,7 +14087,31 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              4,
+              5
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/"
+        ]
+      }
     },
     {
       "id": "2023-005",
@@ -11593,9 +14134,12 @@ window.JBL_DATA = {
         "초치료 6개월 또는 마지막 달에 시행한 배양이 양성인 경우 치료 실패로 분류한다"
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        2,
+        5
+      ],
+      "answerLabel": "정답: ②·⑤ (복수정답)",
+      "explanation": "정답: ②·⑤ (복수정답)\n\n현재 문장대로는 2번과 5번이 모두 맞는다. Xpert는 결핵균과 rifampin 내성을 신속히 확인하여 내성 결핵 평가에 도움을 준다. 강의에서 사용하는 치료 결과 분류에서는 치료 5개월 이후 배양 양성이 치료 실패에 해당하므로 6개월 또는 마지막 달 양성도 포함된다. IGRA는 활동성과 잠복 감염을 구별하지 못하며, PZA 관련 단순 관절통·고요산혈증만으로 영구 중단하는 것은 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -11618,7 +14162,28 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-006",
@@ -11640,10 +14205,12 @@ window.JBL_DATA = {
         "2차 항결핵제로 바꾼다",
         "모든 결핵약을 중단하고 관찰한다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n결핵 치료 후 다른 병변은 호전되는데 림프절이 새로 커지는 상황은 역설적 반응을 우선 고려한다. 복약 순응도와 내성·다른 감염을 확인하되, 역설적 반응이면 기존 항결핵치료를 유지한다. 림프절 종대만으로 즉시 모든 약을 중단하거나 2차 약제로 바꾸지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -11666,7 +14233,27 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-007",
@@ -11688,10 +14275,12 @@ window.JBL_DATA = {
         "이소니아지드/리팜핀/에탐부톨/피라진아미드 병합요법",
         "고용량 전신 스테로이드"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n음주·흡인 위험, 악취 나는 객담과 air-fluid level을 보이는 공동은 원발성 폐농양의 전형이다. 혐기균이 중요하며 clindamycin이나 β-lactam/β-lactamase inhibitor를 사용한다. 흡인 병변은 상엽 후분절·하엽 상분절 등 자세에 따른 의존 부위에 잘 생기므로 우중엽·좌설상엽을 대표 호발 부위로 제시한 설명은 맞지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 31-40쪽.~~~",
       "images": [
         "J/2023/q007_01.jpg"
       ],
@@ -11721,7 +14310,36 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-008",
@@ -11743,10 +14361,12 @@ window.JBL_DATA = {
         "외래에서 치료가 가능한 폐렴환자에서 원인균 규명을 위한 그람 염색 및 배양 검사 시행을 권유한다.",
         "일반적으로 흡인성 폐렴(간농양, 폐기종 시)에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "잠정 정답: ⑤",
+      "explanation": "잠정 정답: ⑤\n\n일반적인 흡인성 폐렴에 혐기균 치료를 일률적으로 추가하지 않는다는 뜻에서 5번이 유력하다. 다만 폐농양이나 농흉이 있으면 혐기균을 치료해야 한다. 5번 괄호의 간농양·폐기종은 이 예외를 제대로 표현하지 못한 복원 문구다. Steroid도 모든 CAP에 일률적으로 투여하는 것이 아니라 중증도와 쇼크 등 조건을 따진다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 19쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -11769,7 +14389,27 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              19
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-009",
@@ -12391,10 +15031,12 @@ window.JBL_DATA = {
         "EGFR L858R",
         "EGFR L861Q"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 9쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -12419,7 +15061,27 @@ window.JBL_DATA = {
         "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              9
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-018",
@@ -12442,10 +15104,12 @@ window.JBL_DATA = {
         "ROS1 fusion을 보기 위한 reverse transcription PCR 검사",
         "종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 38기 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-16쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -12489,7 +15153,36 @@ window.JBL_DATA = {
             "2025-003"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-019",
@@ -12512,10 +15205,12 @@ window.JBL_DATA = {
         "CD56",
         "WT-1"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 27-30쪽.~~~",
       "images": [
         "J/2023/q019_01.jpg",
         "J/2023/q019_02.jpg"
@@ -12573,7 +15268,30 @@ window.JBL_DATA = {
             "2023-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-020",
@@ -12596,10 +15314,12 @@ window.JBL_DATA = {
         "Sclerosing pneumocytoma",
         "Chondroid hamartoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n경계 좋은 작은 말초 결절에 연골·지방·기관지형 상피가 뒤섞인 사진은 chondroid hamartoma이다. 단면이 희고 연골처럼 단단하다는 설명도 일치한다. 이름과 달리 강의에서는 단순 발생기형보다 양성 종양으로 설명한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 45-46쪽.~~~",
       "images": [
         "J/2023/q020_01.jpg",
         "J/2023/q020_02.jpg"
@@ -12654,7 +15374,28 @@ window.JBL_DATA = {
             "2023-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              45,
+              46
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-021",
@@ -12989,10 +15730,12 @@ window.JBL_DATA = {
         "substernal goiter-follow up",
         "lymphoblastic lymphoma-biopsy"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -13035,7 +15778,29 @@ window.JBL_DATA = {
             "2025-006"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-030",
@@ -13057,10 +15822,12 @@ window.JBL_DATA = {
         "Loss of BAP1 nuclear expression",
         "PD-L1 protein expression"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7,12쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -13105,7 +15872,28 @@ window.JBL_DATA = {
             "2025-007"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              7,
+              12
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-031",
@@ -13127,10 +15915,12 @@ window.JBL_DATA = {
         "NAB2-STAT6 fusion",
         "Microsatellite instability"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7-8쪽.~~~",
       "images": [
         "J/2023/q031_01.jpg"
       ],
@@ -13180,7 +15970,28 @@ window.JBL_DATA = {
             "2025-008"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-032",
@@ -13411,10 +16222,12 @@ window.JBL_DATA = {
         "Lung abscess",
         "Bronchiectasis with necrosis of bronchial wall"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n육아종과 거대세포 속에 맑은 테두리를 가진 둥근 효모가 보여 Cryptococcus를 의심한다. GMS로 진균 벽을, Alcian blue 등으로 다당류 피막을 확인할 수 있다. 길고 분지하는 균사가 특징인 Aspergillus나 항산균 염색으로 확인하는 결핵과 구분한다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 165-174쪽.~~~",
       "images": [
         "J/2023/q035_01.jpg"
       ],
@@ -13465,7 +16278,36 @@ window.JBL_DATA = {
             "2025-013"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-036",
@@ -13699,10 +16541,12 @@ window.JBL_DATA = {
         "Fiber optic bronchoscopy",
         "Chest sonogram"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -13746,7 +16590,28 @@ window.JBL_DATA = {
             "2025-016"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-040",
@@ -13768,10 +16633,12 @@ window.JBL_DATA = {
         "wedge resection",
         "PET-CT"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -13818,7 +16685,28 @@ window.JBL_DATA = {
             "2025-017"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-041",
@@ -13840,10 +16728,12 @@ window.JBL_DATA = {
         "수술 전 2주일",
         "금연 기간은 환자의 흡연기간에 따라 다르다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n제시된 보기에서 가장 타당한 수술 전 금연 기간은 2주다. 충분히 일찍 금연해 기도 분비물과 수술 후 폐합병증 위험을 줄이는 것이 목적이며, 2주만 지나면 위험이 정상화되거나 그보다 오래 금연할 필요가 없다는 뜻은 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -13884,7 +16774,28 @@ window.JBL_DATA = {
             "2025-018"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-042",
@@ -13908,8 +16819,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n현재 선지에는 옳은 답이 없다. 위·아래·앞·뒤의 경계는 각각 thoracic inlet·diaphragm·sternum·spine이고, mediastinal pleura는 종격동의 lateral border다. 5번의 medial을 lateral로 바꾸면 정답이 되지만, 다른 해와 선지가 다르므로 원문을 유지하고 정답 확정을 보류한다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -13954,7 +16865,31 @@ window.JBL_DATA = {
             "2025-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ],
+        "proposedAnswerIndices": [
+          5
+        ]
+      }
     },
     {
       "id": "2023-043",
@@ -13976,10 +16911,12 @@ window.JBL_DATA = {
         "PCNB를 통해 tissue confirm을 시행한다.",
         "종격동염이 의심되므로 즉각적인 개흉술의 적응증이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2023/q043_01.jpg"
       ],
@@ -14031,7 +16968,28 @@ window.JBL_DATA = {
             "2025-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-044",
@@ -14053,10 +17011,12 @@ window.JBL_DATA = {
         "평소 폐섬유화증으로 오랜 기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화되어 인공호흡기치료 중 폐이식을 기다리고 있는 55세 환자",
         "악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 인공호흡기 치료를 시작했고 적극적인 인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nECMO는 회복 가능한 심폐부전, 이식까지의 가교 등 다음 치료로 연결될 가능성이 있을 때 고려한다. 악성 흉수를 동반한 진행성 폐암에서 회복·이식 가능성이 없이 지속되는 호흡부전은 적절한 적응증이 아니다. 다른 보기 역시 ECMO를 무조건 시행한다는 뜻은 아니며, 소생 가능성이나 장기기증 절차 등을 따로 평가한다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -14099,7 +17059,28 @@ window.JBL_DATA = {
             "2025-021"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-046",
@@ -14636,10 +17617,12 @@ window.JBL_DATA = {
         "고무젖꼭지 사용 금지",
         "가정용 산소 포화도 기기로 산소 포화도 감시"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n영아는 단단하고 평평한 별도 수면 공간에서 supine position으로 재운다. 푹신한 이불·베개·인형이나 침대 공유는 피한다. 가정용 산소포화도 감시는 SIDS 예방을 대신하지 못하며, 고무젖꼭지를 일률적으로 금지하지 않는다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -14662,7 +17645,27 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-053",
@@ -14684,10 +17687,12 @@ window.JBL_DATA = {
         "산소포화도 측정",
         "저유량 산소공급"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n생후 수주부터 생긴 흡기성 stridor가 supine position과 울 때 심해지지만 수유와 성장이 정상인 전형적인 경증 후두연화증이다. 대개 성장하며 호전되어 경과를 관찰한다. 진단 확인에는 후두경을 이용할 수 있으나, 저산소증·성장부전·심한 호흡곤란이 없는 이 증례에서 산소나 수술을 먼저 시행할 이유는 없다. 수면 자세 자체를 prone position으로 권장한다는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 51-52쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -14710,7 +17715,28 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              51,
+              52
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-054",
@@ -14732,10 +17758,12 @@ window.JBL_DATA = {
         "선천 폐기관기형 (낭성샘종양기형)",
         "폐동맥걸이 (pulmonary artery sling)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n신생아의 한 폐엽이 과도하게 팽창하고 주변 폐를 압박하며 종격동을 반대쪽으로 미는 모습은 선천성 폐엽 과팽창에 맞는다. 기흉과 달리 팽창한 폐엽 안에 폐혈관 음영이 남는 점을 확인한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」; 38기 정리본 「1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs」.~~~",
       "images": [
         "J/2023/q054_01.jpg"
       ],
@@ -14767,7 +17795,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": []
+          },
+          {
+            "key": "S27",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs.pdf",
+            "name": "1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2023-055",
@@ -14789,10 +17842,12 @@ window.JBL_DATA = {
         "선천 폐엽폐기종",
         "난치성 영아천식"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n음식 섭취나 일상 활동 중 갑자기 생긴 기침·천명과 한쪽 폐의 air trapping은 기도 이물의 전형적인 단서다. 이물이 check-valve처럼 작용하면 공기는 들어가지만 잘 빠지지 않는다. 확진과 제거에는 소아에서 강직성 기관지내시경을 이용한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 34-39쪽.~~~",
       "images": [
         "J/2023/q055_01.jpg"
       ],
@@ -14822,7 +17877,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-056",
@@ -14971,10 +18051,12 @@ window.JBL_DATA = {
         "osteoporosis",
         "hyperkalemia"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nTheophylline은 치료역이 좁고 혈중 농도가 높아지면 중추신경 자극으로 경련, 심장 자극으로 빈맥·부정맥을 일으킬 수 있다. 진정·졸림·서맥이 아니라 seizure를 고른다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 15-16쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -15013,7 +18095,28 @@ window.JBL_DATA = {
             "2023-058"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-059",
@@ -15035,10 +18138,12 @@ window.JBL_DATA = {
         "Zafirlukast",
         "Zileuton"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nZileuton은 5-lipoxygenase를 억제하여 arachidonic acid에서 leukotriene이 합성되는 단계를 차단한다. Montelukast와 zafirlukast는 이미 만들어진 leukotriene의 수용체 작용을 막는 약이므로 합성 억제제와 구분한다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 19-21쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -15061,7 +18166,29 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-060",
@@ -15083,10 +18210,12 @@ window.JBL_DATA = {
         "고용량 스테로이드+지속성 베타2항진제 치료 후 폐기능 검사",
         "중간용량 스테로이드+formoterol+지속성 항콜린제 치료 후 폐기능 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n기관지확장제 직후 FEV₁ 증가가 12%·200 mL 기준에 못 미쳐도 천식을 배제하지 않는다. 심한 염증이나 바이러스 감염 뒤에는 반응이 뚜렷하지 않을 수 있어 고용량 ICS를 포함한 항염증 치료를 약 4주 시행한 뒤 폐기능 호전을 확인한다. ICS 없이 LABA–LAMA만 투여하는 선택은 천식 치료에 맞지 않는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 11-13쪽.~~~",
       "images": [
         "J/2023/q060_01.jpg"
       ],
@@ -15135,7 +18264,29 @@ window.JBL_DATA = {
             "2025-038"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-061",
@@ -15157,10 +18308,12 @@ window.JBL_DATA = {
         "저용량 스테로이드-formoterol 흡입제로 변경",
         "중간용량 스테로이드-지속성 베타2항진제 흡입제로 변경"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n이미 저용량 ICS–LABA를 쓰는데 야간 각성이 반복되므로 조절이 충분하지 않다. 흡입법과 순응도를 확인한 뒤 중간용량 ICS–LABA로 증량하는 것이 제시된 보기 중 적절하다. 저용량 ICS 단독에서 시작하는 다른 문항과 현재 치료 단계를 구분해야 한다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 24-26쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -15183,7 +18336,29 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-062",
@@ -15205,10 +18380,12 @@ window.JBL_DATA = {
         "알레르겐 노출",
         "비스테로이드 항염증제"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n급성 천식 악화의 대표적이고 흔한 유발 요인은 바이러스성 상기도 감염이다. 운동·알레르겐·NSAIDs도 악화 요인이지만, 이 문항은 가장 흔한 원인을 묻는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 8쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -15231,7 +18408,27 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-063",
@@ -15253,10 +18450,12 @@ window.JBL_DATA = {
         "속효성 항콜린제 흡입",
         "속효성 베타2항진제 흡입"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n아직 급성 기관지확장 치료를 받지 않은 천식 악화에서는 산소와 흡입 SABA를 먼저 투여한다. 중등도 이상이면 전신 스테로이드도 조기에 병행하지만 즉각적인 기관지 수축 완화는 SABA가 담당한다. 아미노필린은 응급실 초기 치료로 권장되지 않는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 34-35쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -15298,7 +18497,28 @@ window.JBL_DATA = {
             "2025-041"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              34,
+              35
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-064",
@@ -15320,10 +18540,12 @@ window.JBL_DATA = {
         "미만성폐포출혈",
         "특발성폐섬유화증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n폐포단백증에서는 폐포 안에 계면활성제 성분이 축적되어 BAL 액이 우윳빛으로 뿌옇게 보인다. 세척할수록 붉어지는 미만성 폐포출혈과 구분하며, 폐포단백증에서는 whole-lung lavage가 치료에도 사용된다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 24,29-30쪽.~~~",
       "images": [
         "J/2023/q064_01.jpg"
       ],
@@ -15355,7 +18577,29 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              24,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-065",
@@ -15377,10 +18621,12 @@ window.JBL_DATA = {
         "편평 상피세포가 현미경상 25개 이상 나오면 적절한 가래 검체이다.",
         "특별한 원인 질환 없이 가래에서 Streptococcus균이 동정될 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n객담은 하부기도에서 나온 분비물이며 타액·비인두 분비물과 구분한다. 편평상피세포가 많으면 구강 오염을 의심한다. Streptococcus 일부나 Candida는 집락화·오염으로 검출될 수 있지만 결핵균을 정상균으로 취급하지 않는다. 유도객담에는 일반적으로 고장성 식염수를 사용한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」; 38기 정리본 「1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs」.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -15405,7 +18651,32 @@ window.JBL_DATA = {
         "남해성 진단법 구간의 객담 검체 적절성. 29강 우선; 폐렴 검사와 교차."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": []
+          },
+          {
+            "key": "S21",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
+            "name": "1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2023-066",
@@ -15669,10 +18940,12 @@ window.JBL_DATA = {
         "표적 및 면역항암제 개발로 유병률이 감소하고 있다.",
         "비흡연자에서 폐암 발병은 유전적 요인에 의한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n연령을 보정한 발생률의 추세와 고령화로 늘어나는 실제 환자 수를 구별해야 한다. 이 문항은 연령표준화 발생률의 감소 추세를 묻는다. 저선량 CT 검진의 입증된 효과는 폐암 사망률 감소이지 발병 자체의 예방이 아니며, 생존 개선은 오히려 유병 환자 수를 늘릴 수 있다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 9-14쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -15698,7 +18971,32 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 4
+      "officialPage": 4,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-071",
@@ -15720,10 +19018,12 @@ window.JBL_DATA = {
         "가, 나, 다",
         "가, 나, 다, 라"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n관류스캔은 Tc-99m MAA를 정맥 주사하여 폐의 precapillary arteriole·모세혈관에 일시적으로 포획되게 한다. 강의에서 제시한 차단 비율은 약 1/1,000(0.1%)이며 10%나 100%가 아니다. 환기스캔에서는 에어로졸보다 Xe-133 같은 방사성 기체가 가장 생리적이다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 8,11쪽.~~~",
       "images": [],
       "legacyProfessor": "유민영",
       "professor": "유민영",
@@ -15746,7 +19046,28 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              8,
+              11
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-072",
@@ -15966,10 +19287,12 @@ window.JBL_DATA = {
         "폐기종",
         "간질성폐질환"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\nCT에서 두꺼운 벽을 가진 확장 기관지가 여러 개 모여 보이는 기관지확장증이다. 폐포벽이 소실되는 폐기종이나 얇은 벽 낭종이 미만성으로 분포하는 LAM과 달리 병변이 기관지의 모양과 분포를 따른다. 복원본에서 사진이 유사 자료라고 명시된 경우에는 현재 첨부 영상 기준의 판단이다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」 PDF 1-8쪽.~~~",
       "images": [
         "J/2023/q075_01.jpg"
       ],
@@ -15999,7 +19322,34 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-076",
@@ -16194,10 +19544,12 @@ window.JBL_DATA = {
         "우폐폐렴",
         "종격동 종괴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n우측 하부를 넓게 채우는 균질한 음영과 위로 오목한 경계는 우측 흉수에 해당한다. 대량 흉수는 종격동을 반대편으로 밀 수 있지만, 폐허탈은 용적 감소로 종격동과 엽간열을 병변 쪽으로 끌어당긴다.\n\n~~근거: 38기 강의록 「20251023_13. 흉부영상 총론 II_이경희(도훈)」 PDF 47-48쪽; 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 31쪽.~~~",
       "images": [
         "J/2023/q078_01.jpg"
       ],
@@ -16229,7 +19581,37 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L1",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "name": "20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "pages": [
+              47,
+              48
+            ]
+          },
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              31
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-079",
@@ -16336,10 +19718,12 @@ window.JBL_DATA = {
         "cT2aN0M1a",
         "cT2bN0M0"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n2.6 cm라는 크기만 보면 T1c이지만 visceral pleura 침습이 있으면 T2 범주가 된다. 4 cm 이하이고 별도의 림프절·원격 전이 소견이 없으므로 T2aN0M0이다. 원발종양의 직접 흉막 침습을 별개의 흉막 전이 결절이나 악성 흉수인 M1a와 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 50,52,73쪽.~~~",
       "images": [
         "J/2023/q081_01.jpg"
       ],
@@ -16369,7 +19753,29 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              50,
+              52,
+              73
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-082",
@@ -17128,10 +20534,12 @@ window.JBL_DATA = {
         "PLCH, DIP, RB-ILD",
         "Goodpasture, LAM, PLCH"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n강의가 객혈과 연결해 제시한 ILD 묶음은 Goodpasture syndrome·LAM·PLCH이다. 특히 Goodpasture syndrome은 폐포출혈과 사구체신염을 연결한다. PLCH·DIP·RB-ILD는 객혈보다 흡연과의 연관성을 묻는 별도 묶음이다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 9쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -17171,7 +20579,27 @@ window.JBL_DATA = {
             "2024-045"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              9
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-093",
@@ -17193,10 +20621,12 @@ window.JBL_DATA = {
         "① NSIP ② IPF",
         "① COP ② AIP"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nAIP는 수일∼수주 내 빠르게 호흡부전으로 진행하고 COP는 보통 3개월 미만의 아급성 경과를 보인다. IPF·NSIP는 만성 섬유화군, RB-ILD·DIP는 흡연 관련군으로 묶는다. COP와 AIP의 시간 경과 및 steroid 반응을 서로 바꾸어 외우지 않는 것이 핵심이다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 86,96,102,107,121-123쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -17219,7 +20649,33 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              86,
+              96,
+              102,
+              107,
+              121,
+              122,
+              123
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-094",
@@ -17241,10 +20697,12 @@ window.JBL_DATA = {
         "FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서 호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다.",
         "특발성 폐섬유증에서 항섬유화제제를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n원인이 알려진 ILD를 배제한 적절한 임상 맥락에서 HRCT가 UIP pattern이면 수술적 폐생검 없이 IPF로 진단할 수 있다. 병변은 상폐야가 아니라 흉막하·폐기저부가 우세하고 시간적 이질성을 보인다. 항섬유화제는 진행을 늦추지만 이미 생긴 섬유화를 되돌리지는 않는다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 30,60-64,122쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -17267,7 +20725,33 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              30,
+              60,
+              61,
+              62,
+              63,
+              64,
+              122
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-095",
@@ -17290,9 +20774,12 @@ window.JBL_DATA = {
         "급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        1,
+        5
+      ],
+      "answerLabel": "정답: ①·⑤ (복수정답)",
+      "explanation": "정답: ①·⑤ (복수정답)\n\n현재 보기에서는 1·5번이 모두 성립한다. COP라고 부르려면 약물·감염·결체조직질환 등 이차 원인을 배제하고 이후에도 재평가해야 한다. AIP는 급격하고 심한 호흡부전을 보이며 steroid 반응이 확실하지 않고 사망률도 높다. RB-ILD의 대식세포는 세기관지 중심, DIP는 폐포 안에 넓게 분포하며 NSIP의 예후는 일반적으로 IPF보다 좋다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 72-87,95-107쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -17315,7 +20802,55 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-096",
@@ -17337,10 +20872,12 @@ window.JBL_DATA = {
         "폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.",
         "Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nPAP는 폐포 대식세포의 surfactant 제거 기능에 문제가 생겨 폐포 안에 물질이 축적되는 질환으로, whole lung lavage로 이를 제거한다. AEP는 재발이 드물고 CEP가 잘 재발한다. ABPA는 침습성 진균감염이 아니라 과민반응이며, 항진균제를 사용할 수 있더라도 ‘감염이 원인’이라는 설명은 옳지 않다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 75,81,86,88-89쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -17363,7 +20900,31 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              75,
+              81,
+              86,
+              88,
+              89
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-097",
@@ -17385,10 +20946,12 @@ window.JBL_DATA = {
         "과민성 폐장염에서 원인 물질에 대한 precipitin의 증명만으로도 확진이 가능하며 Thermophilic actinomycetes가 가장 흔한 원인이다",
         "과민성 폐장염은 과민성으로 1형 면역 반응이 관여하기 때문에 IgE가 증가하는 소견을 보인다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nSarcoidosis는 폐·흉부 림프절을 흔히 침범하며 비건락성 육아종이 특징이다. 조직 소견만으로 끝내지 않고 임상·영상의 적합성과 결핵 등 다른 육아종 질환의 배제를 함께 확인한다. 무증상 림프절 병변까지 모두 즉시 steroid 치료하는 것은 아니며, BAL CD4/CD8 비와 칼슘은 감소보다 증가하는 쪽이 중요하다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 27-38쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -17411,7 +20974,38 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-098",
@@ -17433,10 +21027,12 @@ window.JBL_DATA = {
         "덱사메타손",
         "세프트리악손"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n컹컹거리는 기침, 쉰 목소리, 들숨 stridor와 흉벽 함몰은 크룹의 전형적인 조합이다. 덱사메타손으로 상기도 부종을 줄이며, 중등도 이상에서는 흡입 에피네프린도 고려한다. 곧바로 기관절개술이나 항생제를 선택할 상황은 아니다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [],
       "legacyProfessor": "임대현",
       "professor": "임대현",
@@ -17484,7 +21080,27 @@ window.JBL_DATA = {
             "2025-092"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-099",
@@ -17506,10 +21122,12 @@ window.JBL_DATA = {
         "아목시실린",
         "프레드니솔론"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [],
       "legacyProfessor": "임대현",
       "professor": "임대현",
@@ -17557,7 +21175,27 @@ window.JBL_DATA = {
             "2025-093"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-100",
@@ -17579,10 +21217,12 @@ window.JBL_DATA = {
         "클라리트로마이신",
         "아목시실린+클라불란산"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2023/q100_01.jpg"
       ],
@@ -17636,7 +21276,27 @@ window.JBL_DATA = {
             "2025-094"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-101",
@@ -17660,8 +21320,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n진단은 영아의 급성 세기관지염이다. 첫 천명, 선행 콧물·기침과 경미한 염증 소견이 근거다. 치료의 기본은 산소화·수분상태를 평가한 지지치료이며 살부타몰을 일률적으로 투여하지 않는다. 현재 보기에는 기본 지지치료가 없고, 이 증례에 기관지확장제를 선택해야 한다는 강의 근거도 확인되지 않아 자동 채점은 보류한다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽 · [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations 보충 근거 1].~~~",
       "images": [
         "J/2023/q101_01.jpg"
       ],
@@ -17715,7 +21375,30 @@ window.JBL_DATA = {
             "2025-095"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.nice.org.uk/guidance/ng9/chapter/Recommendations"
+        ]
+      }
     },
     {
       "id": "2023-102",
@@ -17737,10 +21420,12 @@ window.JBL_DATA = {
         "최대호기속도검사",
         "직업력 조사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n직업력 조사를 통해 작업 내용, 물질, 노출 시기, 근무일과 휴일의 증상 차이를 확인하는 것이 출발점이다. 검사는 천식이나 폐손상을 증명할 수 있지만, 직업과 질병의 시간적 관계는 상세한 노출력 없이는 판단하기 어렵다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 1,3쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -17763,7 +21448,28 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-103",
@@ -17785,10 +21491,12 @@ window.JBL_DATA = {
         "최대호기속도검사",
         "직업력조사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n의심하는 원인물질을 이용한 특이적 흡입유발검사는 그 물질과 기관지 수축의 관계를 직접 확인하는 기준 검사다. 메타콜린 검사는 비특이적 기도과민성을 보여주므로 원인물질 자체를 특정하지 못한다. 특이적 유발검사는 위험성이 있어 전문기관에서 시행한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 3쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -17811,7 +21519,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-104",
@@ -17833,10 +21561,12 @@ window.JBL_DATA = {
         "독성흡입손상",
         "만성폐쇄성폐질환"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n화재 현장의 연기·유독가스·흄에 고농도로 노출되면 독성 흡입 폐손상이 발생할 수 있다. 소방수의 급성 화재 노출이라는 상황이 핵심이며, 규폐증·석면폐증은 주로 장기간의 특정 분진 노출과 연결한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 5쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -17859,7 +21589,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-105",
@@ -17881,10 +21631,12 @@ window.JBL_DATA = {
         "폐렴",
         "간질성폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "잠정 정답: ③",
+      "explanation": "잠정 정답: ③\n\n출제 시점에 새로 관련성이 논의·인정된 질환을 묻는 의도로 보면 폐암이 유력하다. 38기 강의록도 가습기살균제 질환에 폐암을 포함한다. 다만 현재 자료에는 천식·중증폐손상·폐렴·간질성폐렴도 함께 나와 있으므로, 최근이라는 기준 연도가 빠진 이 발문만으로 다른 질환의 관련성을 부정할 수는 없다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 18쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -17922,7 +21674,27 @@ window.JBL_DATA = {
             "2024-049"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              18
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-106",
@@ -17944,10 +21716,12 @@ window.JBL_DATA = {
         "흡기와 호기의 비율은 1:1로 하도록 한다.",
         "횡격막 호흡은 호기 시 가슴을 손으로 지그시 누르면서 숨을 내쉬게 한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의에서 설명하는 이완자세는 복부를 이완시키고 횡격막 운동과 보조호흡근 사용을 도와 호흡 부담을 줄인다. 다른 보기와 달리 2번이 이 취지에 맞는다. 느리고 깊게 호흡하고 호기를 길게 하며, 횡격막 호흡을 도울 때는 가슴이 아니라 복부에 손을 댄다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -17987,7 +21761,36 @@ window.JBL_DATA = {
             "2024-054"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-107",
@@ -18009,10 +21812,12 @@ window.JBL_DATA = {
         "야간 비침습적 양압환기",
         "Diaphragmatic breathing/pursed lip breathing"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nALS 환자의 peak cough flow가 190 L/min으로 낮아 분비물을 충분히 배출하기 어렵다. Mechanical insufflator-exsufflator는 양압으로 공기를 넣은 뒤 음압으로 빼내 기침을 보조한다. 이 증례의 핵심은 CO₂ 저류보다 기침 능력 저하이므로 야간 환기보조보다 객담 배출 보조를 먼저 고른다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -18053,7 +21858,36 @@ window.JBL_DATA = {
             "2025-119"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-108",
@@ -18231,10 +22065,12 @@ window.JBL_DATA = {
         "Venous ultrasonography",
         "Lung scan"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nD-dimer는 민감도가 높고 특이도가 낮다. 임상 가능성이 낮거나 중간인 환자에서 음성일 때 폐색전증 배제에 유용하지만, 수술·감염·암·임신 등에서도 상승하므로 양성만으로 확진하지 않는다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-8쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -18277,7 +22113,28 @@ window.JBL_DATA = {
             "2025-115"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-111",
@@ -18299,10 +22156,12 @@ window.JBL_DATA = {
         "intracranial bleeding",
         "bleeding diathesis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n강의의 항응고치료 절대 금기는 심한 활동성 출혈, 두개내 출혈, 최근 2주 이내 중추신경계·안과 수술이다. 활동성 소화성궤양, 간부전, 출혈성 소인 등은 표에서 상대 금기로 구분한다. HIT에서는 heparin은 중단해야 하지만 모든 종류의 항응고치료가 금기인 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -18345,7 +22204,27 @@ window.JBL_DATA = {
             "2025-114"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-112",
@@ -18368,10 +22247,12 @@ window.JBL_DATA = {
         "PDE5 inhibitor",
         "prostacyclin analogue"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n적절한 PAH 환자에서 급성 혈관반응검사가 양성이면 고용량 calcium channel blocker에 반응할 가능성이 있다. 강의의 양성 기준은 심박출량 감소 없이 mPAP가 10 mmHg 이상 감소하면서 40 mmHg 이하가 되는 것이다. 모든 종류의 폐고혈압에 CCB를 일률적으로 쓰는 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 35-37쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -18416,7 +22297,29 @@ window.JBL_DATA = {
             "2023-112"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              35,
+              36,
+              37
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-115",
@@ -18438,10 +22341,12 @@ window.JBL_DATA = {
         "피부경유가는바늘생검",
         "혈청 앤지오텐신전환효소 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nCT의 말초 폐결절은 경계가 불규칙하여 폐암을 의심한다. 피부에 가까운 말초 병변에서는 CT 유도 경피적 바늘생검으로 조직을 얻을 수 있다. 결핵이나 유육종증 검사만으로 이 결절의 성격을 확정하지 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 25-38쪽.~~~",
       "images": [
         "J/2023/q115_01.jpg"
       ],
@@ -18471,7 +22376,40 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-116",
@@ -18493,10 +22431,12 @@ window.JBL_DATA = {
         "가래 항산막대균펴바른표본",
         "혈청 아스페르길루스 침전항체 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n이전 사진과 비교하여 새로 생기거나 커진 폐 음영은 CT로 위치·크기·경계와 주변 병변을 먼저 평가한다. 발문의 1세는 당뇨병·25갑년 흡연력과 양립하지 않아 연령 복원 오류가 있지만, 다음 단계로 CT를 선택하는 판단은 변하지 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 15-22쪽.~~~",
       "images": [
         "J/2023/q116_01.jpg"
       ],
@@ -18528,7 +22468,34 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-117",
@@ -18550,10 +22517,12 @@ window.JBL_DATA = {
         "혈장 D-이량체 검사",
         "헤파린 정맥주사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nCT에서 폐동맥 내 조영되지 않는 충만결손이 보이고 한쪽 다리가 부어 있어 심부정맥혈전증을 동반한 폐색전증으로 읽어야 한다. 혈압이 안정적인 급성 폐색전증의 제시된 치료는 heparin 항응고요법이다. 흡연력과 쇄골상부 림프절에만 끌려 생검을 먼저 고르지 않는다. 발문의 0세는 복원 오류로 보이지만 원문은 보존했다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-10,14쪽.~~~",
       "images": [
         "J/2023/q117_01.jpg"
       ],
@@ -18585,7 +22554,31 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-118",
@@ -18607,10 +22600,12 @@ window.JBL_DATA = {
         "우측 횡격막 투과도 증가",
         "흉막 투과도 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n류마티스 흉막염처럼 염증이 있는 흉수에서는 백혈구의 포도당 소비와 흉막을 통한 포도당 이동 장애로 포도당이 낮아진다. 보기에서는 백혈구 증가가 가장 가깝다. 심부전의 정수압 상승이나 간성 흉수의 이동 자체는 이처럼 낮은 흉수 포도당을 잘 설명하지 못한다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 17-20쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -18634,7 +22629,30 @@ window.JBL_DATA = {
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 5
+      "officialPage": 5,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-119",
@@ -18656,10 +22674,12 @@ window.JBL_DATA = {
         "혈장 교질삼투압(oncotic pressure) 감소",
         "횡격막을 통한 복수의 이동"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n흉수 triglyceride 724 mg/dL는 유미흉을 강하게 지지한다. 흉관 파열·폐쇄로 유미가 흉막강에 유입되는 기전이다. 유미흉의 기준은 통상 TG >110 mg/dL이며, 흉수 hematocrit가 매우 낮아 혈흉으로 볼 수 없다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 34쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -18682,7 +22702,27 @@ window.JBL_DATA = {
       "parseMethod": "word_numbering",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              34
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-120",
@@ -18704,10 +22744,12 @@ window.JBL_DATA = {
         "폐렴",
         "결핵"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n열·흉막통과 함께 좌측 흉막강에 큰 액체 음영이 보이므로 농흉을 우선 의심한다. 폐농양은 폐실질 안의 공동과 air-fluid level이 중심이고, 농흉은 흉막강에 고름이 모인 것이다. 확진과 치료 계획에는 초음파·CT 및 흉수검사를 활용한다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 23-27쪽.~~~",
       "images": [
         "J/2023/q120_01.jpg"
       ],
@@ -18737,7 +22779,31 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              23,
+              24,
+              25,
+              26,
+              27
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-121",
@@ -18759,10 +22825,12 @@ window.JBL_DATA = {
         "항생제",
         "항진균제"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n림프구 90%인 삼출성 흉수와 ADA 74 IU/L는 결핵성 흉막염을 강하게 시사하므로 항결핵치료를 선택한다. 현재 데이터에는 언급된 조직사진이 없지만 제시된 흉수 소견으로 가장 유력한 치료를 고를 수 있다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 22쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -18787,7 +22855,27 @@ window.JBL_DATA = {
         "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              22
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2023-122",
@@ -18809,10 +22897,12 @@ window.JBL_DATA = {
         "항암제와 면역치료를 시행한다.",
         "항암제 치료와 방사선 치료를 동시에 진행한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -18837,7 +22927,35 @@ window.JBL_DATA = {
         "제한성 소세포암에서 항암·흉부 방사선 병용을 묻는 문항. 36강 우선이나 원문 출제자 표기가 없고 끝번호의 가나다순이 맞지 않아 김우철 출제는 추정에 한정."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-001",
@@ -18915,10 +23033,12 @@ window.JBL_DATA = {
         "결핵성 심낭염",
         "경부 임파선 결핵"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n6개월 치료가 가능하면서 보조 corticosteroid를 연결하는 출제 당시의 전형적인 대상은 결핵성 심낭염이다. 결핵성 수막염도 steroid를 사용하지만 보통 더 긴 항결핵치료 기간을 적용한다. 다만 심낭염에서 steroid를 모든 환자에게 강력히 권고한다는 표현은 지침 시대에 따라 달라지므로 이 문항의 과거 기준으로 해석한다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -18946,7 +23066,27 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 1
+      "officialPage": 1,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-003",
@@ -18968,10 +23108,12 @@ window.JBL_DATA = {
         "오렌지색 소변색깔",
         "전신소양감"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n심한 혈소판 감소는 rifampin에 의한 면역성 혈소판감소증을 의심하게 하므로 원인 약을 중단하고 평가해야 한다. 소변이 주황색으로 변하는 것은 흔한 색 변화이며, 경한 간효소 상승이나 가려움만으로 일률적으로 모든 치료를 중단하지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -18999,7 +23141,27 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 2
+      "officialPage": 2,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-004",
@@ -19021,10 +23183,12 @@ window.JBL_DATA = {
         "같이 거주하는 배우자의 검사를 시행",
         "Xpert MTB/RIF 검사 보낸다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n결절성 기관지확장증에 도말 양성·결핵균 PCR 음성이면 NTM 폐질환이 유력하다. 항산균 배양과 균동정을 확인하여 균종과 반복 검출 여부에 맞춰 치료한다. 도말 양성이라는 이유만으로 곧바로 표준 결핵약을 투여하는 선택은 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2,4쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -19049,7 +23213,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2,
+              4
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-006",
@@ -19071,10 +23256,12 @@ window.JBL_DATA = {
         "항생제는 일반적으로 2주 정도 투여한다",
         "수액치료에 반응한 혈압 저하 환자는 관찰을 위해 중환자실 배정이 필요하다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n외래에서 치료하는 경증 CAP에 객담 그람염색·배양을 일률적으로 시행하지 않는다. 비정형균에는 β-lactam 단독이 적절하지 않고, 결핵 의심 환자의 경험적 fluoroquinolone은 진단 지연과 내성 위험을 고려해야 한다. 항생제 기간과 ICU 입원도 획일적으로 정하지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 14-21쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -19102,7 +23289,34 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 3
+      "officialPage": 3,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-007",
@@ -19124,10 +23338,12 @@ window.JBL_DATA = {
         "Vancomycin + aminoglycoside",
         "Doxycycline + azithromycin"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n일반적인 입원 CAP의 경험적 치료는 ceftriaxone 같은 β-lactam에 azithromycin 같은 macrolide를 병합하여 전형균과 비정형균을 함께 치료한다. 녹농균 위험인자가 없는 증례에 항녹농균 약제를 과도하게 넓혀 쓰지 않는다. Doxycycline 병합도 특정 상황에서 대안이지만 제시된 기본 선택은 β-lactam+macrolide이다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 18-21쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -19155,7 +23371,30 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 4
+      "officialPage": 4,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-008",
@@ -19177,10 +23416,12 @@ window.JBL_DATA = {
         "만성 염증성 장질환",
         "과민성 폐장염"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n면역글로불린 결핍, 류마티스관절염, COPD, 염증성 장질환은 기관지확장증과 연관되는 대표 질환이다. 과민성 폐장염은 이 문항의 원인 질환 목록에 해당하지 않는다. 섬유화성 폐질환에서 생기는 견인성 기관지확장과 원발성 기도질환으로서의 기관지확장증을 구분한다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」; 38기 정리본 「1030 정리본 (35. 기관지확장증 _ 장혜진) - Google Docs」 PDF 1쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -19208,7 +23449,34 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 5
+      "officialPage": 5,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": []
+          },
+          {
+            "key": "S35",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 정리본 (35. 기관지확장증 _ 장혜진) - Google Docs.pdf",
+            "name": "1030 정리본 (35. 기관지확장증 _ 장혜진) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-009",
@@ -19230,10 +23498,12 @@ window.JBL_DATA = {
         "폐에 생기는 병변이므로 혐기성균과는 관련이 없다.",
         "폐암이 가장 흔한 원인이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n적절한 항생제에 반응하지 않거나 수술 위험이 큰 폐농양에서는 경피적 배농 등을 고려한다. Metronidazole은 일부 혐기균에 효과가 있어도 폐농양의 단독 치료제로는 부적절하다. 가장 흔한 원인은 폐암이 아니라 흡인과 관련된 감염이다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 39-40쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -19258,7 +23528,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-010",
@@ -20408,10 +24699,12 @@ window.JBL_DATA = {
         "Metastatic adenocarcinoma from lung",
         "Metastatic small cell carcinoma from lung"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n간에서 채취한 조직에 샘 구조를 만드는 암과 TTF-1 핵 양성이 보이고 폐에 원발 종괴가 있다. 이를 종합하면 폐선암의 간 전이가 가장 적절하다. TTF-1 하나만으로 모든 종양을 확진하는 것은 아니지만 샘 구조와 임상 위치를 함께 읽으면 신경내분비암보다 선암에 맞는다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 18-26,43-44쪽.~~~",
       "images": [
         "J/2022/q028_01.jpg"
       ],
@@ -20461,7 +24754,37 @@ window.JBL_DATA = {
             "2022-028"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              43,
+              44
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-029",
@@ -20483,10 +24806,12 @@ window.JBL_DATA = {
         "CD56",
         "WT-1"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 27-30쪽.~~~",
       "images": [
         "J/2022/q029_01.jpg"
       ],
@@ -20538,7 +24863,30 @@ window.JBL_DATA = {
             "2023-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-030",
@@ -20560,10 +24908,12 @@ window.JBL_DATA = {
         "Sclerosing pneumocytoma",
         "Chondroid hamartoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n경계 좋은 작은 말초 결절에 연골·지방·기관지형 상피가 뒤섞인 사진은 chondroid hamartoma이다. 단면이 희고 연골처럼 단단하다는 설명도 일치한다. 이름과 달리 강의에서는 단순 발생기형보다 양성 종양으로 설명한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 45-46쪽.~~~",
       "images": [
         "J/2022/q030_01.jpg"
       ],
@@ -20613,7 +24963,28 @@ window.JBL_DATA = {
             "2023-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              45,
+              46
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-031",
@@ -20635,10 +25006,12 @@ window.JBL_DATA = {
         "thymic carcinoma-surgery",
         "seminoma-biopsy"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -20683,7 +25056,29 @@ window.JBL_DATA = {
             "2025-006"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-032",
@@ -20705,10 +25100,12 @@ window.JBL_DATA = {
         "NAB2-STAT4 translocation",
         "Preserved BAP1 nuclear expression"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "잠정 정답: ①",
+      "explanation": "잠정 정답: ①\n\n대표적인 진단 관련 변화로 강의에 직접 제시된 것은 CDKN2A 동형접합 결실이다. BAP1 핵 발현은 보존이 아니라 소실되는 쪽이 중요하다. 3번처럼 chromatin-remodeling 관련 변이라는 넓은 표현은 BAP1 등과의 생물학적 관련성까지 완전히 배제하기 어려워, 가장 대표적인 강의 표지자를 묻는 단일최선답으로 1번을 선택한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 12쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -20754,7 +25151,27 @@ window.JBL_DATA = {
             "2025-007"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              12
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-033",
@@ -20776,10 +25193,12 @@ window.JBL_DATA = {
         "RB1 biallelic mutation",
         "KRAS mutation"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n작은 세포의 치밀한 증식에 TTF-1·CD56·chromogranin 양성이 동반되어 소세포암을 생각한다. 특징적인 유전 이상은 TP53 및 RB1의 양대립유전자 비활성화다. MEN1은 carcinoid와, KRAS·STK11은 다른 비소세포암 계열과 더 연결된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-34쪽.~~~",
       "images": [
         "J/2022/q033_01.jpg"
       ],
@@ -20829,7 +25248,31 @@ window.JBL_DATA = {
             "2022-033"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              13,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-034",
@@ -20851,10 +25294,12 @@ window.JBL_DATA = {
         "type B3 thymoma",
         "thymic carcinoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\nType A thymoma는 방추형 흉선 상피세포가 증식하고 미성숙 림프구가 거의 없는 유형이다. TdT는 종양 상피세포 자체보다 동반된 미성숙 T림프구를 보는 표지자이므로, TdT 양성 림프구가 풍부한 B1·B2와 구분한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 21-24쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -20879,7 +25324,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-035",
@@ -20954,7 +25422,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         36
       ],
-      "question": "35세 남자 환자가 건강검진에서 우연히 발견된 폐종물을 주소로 내원하였다. 흉부 CT 검사에서 좌하엽에 3.1cm 크기의 경계가 잘 지어지는 종물이 가슴막에 broad base를 가지면서 위치해 있었다. 좌하엽 종물을 쐐기절제술로 절제하였고 육안검사에서는 Thick mucoid material이 차 있는 cystic mass였고 현미경 소견은 사진과 같았다. 가장 합당한 진단은 무엇인가?(2021 40과 동일)",
+      "question": "35세 남자 환자가 건강검진에서 우연히 발견된 폐종물을 주소로 내원하였다. 흉부 CT 검사에서 좌하엽에 3.1cm 크기의 경계가 잘 지어지는 종물이 가슴막에 broad base를 가지면서 위치해 있었다. 좌하엽 종물을 쐐기절제술로 절제하였고 육안검사에서는 Thick mucoid material이 차 있는 cystic mass였고 현미경 소견은 사진과 같았다. 가장 합당한 진단은 무엇인가?",
       "passage": "",
       "choices": [
         "Enteric cyst",
@@ -20963,12 +25431,12 @@ window.JBL_DATA = {
         "Bronchogenic cyst",
         "Congenital pulmonary airway malformation, type1"
       ],
-      "answerIndex": 4,
+      "answerIndex": 5,
       "answerIndices": [
-        4
+        5
       ],
-      "answerLabel": "4번",
-      "explanation": "정답: ④ Bronchogenic cyst\n\n=== 판단의 출발점 ===\n점액이 차 있는 경계 좋은 낭성 병변과 현재 붙어 있는 기관지원성 낭종 조직사진을 함께 판단한다. 폐실질 내나 흉막에 붙은 위치에서도 기관지원성 낭종이 생길 수 있으므로, 위치만으로 폐분리증을 선택하지 않는다.\n\n발문 끝의 “2021 40과 동일”은 복원 당시의 메모다. 현재 {{451}}에는 다른 조직사진이 연결되어 있고, 그 사진은 올해 강의록의 CPAM 1형 예시와 일치한다. '''서로의 답을 그대로 복사하지 않고 각 문항에 실제로 붙은 사진을 기준으로 구분했다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\n점액이 찬 낭종을 보면 먼저 '''낭종을 덮는 상피와 벽의 구성요소'''를 확인한다. 기관지원성 낭종은 거짓중층섬모원주상피(PCCE)를 가지며, 평활근·연골·기관지샘이 동반될 수 있다. 종격동에서 흔하지만 폐실질 내에도 생기므로 위치 하나로 배제하지 않는다.\n\n||= 질환 ||= 구분 소견 ||\n|| '''Bronchogenic cyst''' || 점액성 단방성 낭종, PCCE와 기관지벽 성분 ||\n|| CPAM 1형 || 큰 낭종과 넓은 섬유성 격벽, 비정상 기도 구조가 이루는 폐실질 병변; 섬모상피·점액세포도 가능 ||\n|| Extralobar sequestration || 자기 흉막, 정상 기관지와 연결되지 않은 폐조직, '''대동맥 계통의 동맥 공급''' ||\n|| Enteric·esophageal cyst || 소화관 분화를 보이는 피복 상피와 근육벽 ||\n|| Pericardial cyst || 얇은 벽과 중피성 피복, 주로 장액성 내용물 ||\n|| Thymoma·schwannoma || 각각 흉선상피종양·신경초종. 단순한 호흡상피성 발달 낭종과 다름 ||\n\n[[파일:assets/lecture-14/p012-figures.jpg|기관지원성 낭종: 낭성 병변과 호흡상피·기관지벽 구조]]\n\n'''PCCE나 점액이 있다는 사실만으로 모든 낭종을 기관지원성 낭종이라 할 수는 없다.''' CPAM 1형에도 비슷한 상피가 나타난다. 낭종벽과 주변 폐조직의 전체 구조, 비정상 공급 혈관 유무를 함께 판단해야 한다.\n\n=== 선지별 해설 ===\n* 1번: 장원성 낭종이라면 소화관형 상피와 근육벽 등 소화관 분화가 근거가 되어야 한다.\n* 2번: 폐외분리증의 핵심은 자기 흉막과 비정상 체순환 동맥 공급이다. 흉막에 넓게 접한다는 말만으로 이를 확정하지 않는다.\n* 3번: 심낭낭종은 중피성 피복과 얇은 벽·장액성 액체가 중심이다. 현재 호흡상피성 점액 낭종과 다르다.\n* 4번: 현재 사진의 낭종벽과 점액성 내용물에 가장 맞는 진단이다. 정답이다.\n* 5번: CPAM 1형도 큰 낭종·섬모상피를 보일 수 있으므로 감별 대상이다. 이 문항은 현재 연결된 사진을 기관지원성 낭종의 예시와 대조해 풀이한다.\n\n관련 Wiki: [[14강#기관지원성 낭종은 낭종벽의 호흡상피를 확인한다|기관지원성 낭종은 낭종벽의 호흡상피를 확인한다]]\n\n근거: 39기 「폐질환의 병리」 PDF 8–18쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "5번",
+      "explanation": "정답: ⑤ Congenital pulmonary airway malformation, type 1\n\n=== 판단의 출발점 ===\n{{451}}과 동일한 질환을 묻는 문항으로, 정답은 '''CPAM type 1'''이다. 3.1 cm의 큰 낭종과 점액성 내용물은 CPAM 1형에서도 나타날 수 있다. 점액이 차 있다는 이유만으로 기관지원성 낭종으로 단정하지 않고, 조직사진에서 낭종벽과 주변 폐조직의 구조를 함께 살펴야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCPAM은 정상적인 폐 발달이 어긋나 생긴 비정상 기도·폐실질 구조다. '''낭종 크기와 분화 수준'''을 함께 읽는다. 1형은 가장 흔하며 큰 낭종을 만들고, 낭종벽은 섬모원주상피·평활근·섬유성 조직과 점액세포를 보일 수 있다.\n\n||= CPAM 유형 ||= 분화 수준·형태 ||= 기억할 연결 ||\n|| 0형 || 기관·기관지형, 연골이 풍부한 고형성 병변 || 드물고 치명적 ||\n|| '''1형''' || '''3–10 cm의 큰 낭종''', 넓은 섬유성 격벽, 기관지형 상피 || 가장 흔함; 일부 점액성 선암과 연관 ||\n|| 2형 || 2 cm 미만의 비교적 균일한 세기관지형 낭종 || 다른 선천성 기형이 중요 ||\n|| 3형 || 0.5 cm 미만의 미세낭종, 육안상 고형 종괴 || 태아 폐를 닮은 구조, 예후 불량 ||\n|| 4형 || 말초의 얇은 벽 낭종, 원위 폐포형 상피 || 낭성 pleuropulmonary blastoma와 감별 ||\n\n[[파일:assets/lecture-14/p015-figures.jpg|CPAM 1형: 큰 낭종, 섬유성 격벽과 기관지형 상피]]\n\n기관지원성 낭종도 점액과 섬모상피를 보일 수 있다. '''크기와 내용물만으로 둘을 완전히 구분할 수는 없다.''' 기관지원성 낭종은 낭종벽의 기관지 성분을, CPAM은 비정상 기도 구조가 이루는 폐실질 병변을 함께 확인한다. CPAM 1형을 종양으로 정의하거나 모두 암으로 진행한다고 외우지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: 장원성 낭종은 소화관형 상피와 근육벽 등 소화관 분화가 진단 근거다. 점액성 내용물이 있다는 사실만으로 장원성 낭종을 선택하지 않는다.\n* 2번: 폐외분리증의 핵심은 자기 흉막, 정상 기관지와의 연결 부재, 대동맥 계통에서 공급받는 동맥이다. 흉막에 넓게 접한다는 설명만으로 이를 확정할 수 없다.\n* 3번: 심낭낭종은 중피성 피복과 얇은 벽, 주로 장액성 내용물이 특징이다. 이 문항의 CPAM 1형과는 다른 발달성 낭종이다.\n* 4번: 기관지원성 낭종도 점액과 섬모상피를 보이므로 혼동하기 쉽다. 그러나 이 소견들은 기관지원성 낭종에만 특이적이지 않으며, 이 문항은 451번과 같은 CPAM 1형을 묻는다.\n* 5번: 큰 낭종을 형성하는 가장 흔한 CPAM 유형이다. 3.1 cm의 낭성 병변과 조직 소견을 함께 해석하는 이 문항의 정답이다.\n\n관련 Wiki: [[14강#CPAM은 낭종의 크기와 분화 수준으로 나눈다|CPAM은 낭종의 크기와 분화 수준으로 나눈다]]\n\n근거: 14강의 CPAM 유형별 정리 및 {{451}}. 451번과 동일 문항이라는 확인에 따라 정답을 ⑤로 바로잡았다.",
       "images": [
         "J/2022/q036_01.jpg"
       ],
@@ -21004,14 +25472,16 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "기관지원성 낭종은 낭종벽의 호흡상피를 확인한다",
-        "pages": "8–18",
-        "answerStatus": "reviewed_with_restoration_caveat",
+        "date": "2026-10-15",
+        "basis": "사용자가 451번과 동일 문항·정답 5번임을 확인하여 정정; 기존 14강 CPAM 설명에 맞추어 해설 갱신",
+        "chapter": "CPAM은 낭종의 크기와 분화 수준으로 나눈다",
+        "pages": "11–18",
+        "answerStatus": "user_confirmed_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "originalQuestionAndImagesPreserved": false,
+        "questionEdit": "발문 끝의 (2021 40과 동일) 비교 메모만 제거. 의학적 발문·선지·사진은 유지.",
+        "imagesPreserved": true
       }
     },
     {
@@ -21126,10 +25596,12 @@ window.JBL_DATA = {
         "Lung abscess",
         "Bronchiectasis with necrosis of bronchial wall"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nGMS에서 길고 분지하는 균사가 보이며 Aspergillus의 가는 격벽성 균사와 예각 분지에 맞는다. 둥근 효모와 피막을 보이는 Cryptococcus와 다르다. 손상된 폐의 공동·괴사성 병변과 함께 나타난 사진이다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 169-174쪽.~~~",
       "images": [
         "J/2022/q038_01.jpg"
       ],
@@ -21163,7 +25635,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              169,
+              170,
+              171,
+              172,
+              173,
+              174
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-039",
@@ -21405,10 +25902,12 @@ window.JBL_DATA = {
         "Chest sonogram",
         "Lung perfusion scan"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -21454,7 +25953,28 @@ window.JBL_DATA = {
             "2025-016"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-043",
@@ -21476,10 +25996,12 @@ window.JBL_DATA = {
         "Sputum cytology",
         "Bronchoscopy, EBUS"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2022/q043_01.jpg"
       ],
@@ -21536,7 +26058,28 @@ window.JBL_DATA = {
             "2025-017"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-044",
@@ -21558,10 +26101,12 @@ window.JBL_DATA = {
         "수술 전 2주일",
         "흡연기간에 따라 다름"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n제시된 보기에서 가장 타당한 수술 전 금연 기간은 2주다. 충분히 일찍 금연해 기도 분비물과 수술 후 폐합병증 위험을 줄이는 것이 목적이며, 2주만 지나면 위험이 정상화되거나 그보다 오래 금연할 필요가 없다는 뜻은 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -21604,7 +26149,28 @@ window.JBL_DATA = {
             "2025-018"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-045",
@@ -21626,10 +26192,12 @@ window.JBL_DATA = {
         "spine- superior border",
         "pleural space- lateral border"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n종격동의 위쪽은 thoracic inlet, 아래쪽은 diaphragm, 앞쪽은 sternum, 뒤쪽은 thoracic spine이다. 양옆은 mediastinal pleura로 경계 지어지므로, 보기의 pleural space–lateral border가 의도한 답이다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -21676,7 +26244,28 @@ window.JBL_DATA = {
             "2025-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-046",
@@ -21698,10 +26287,12 @@ window.JBL_DATA = {
         "스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.",
         "PCNB를 통해 tissue confirm을 시행한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2022/q046_01.jpg"
       ],
@@ -21757,7 +26348,28 @@ window.JBL_DATA = {
             "2025-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-047",
@@ -21779,10 +26391,12 @@ window.JBL_DATA = {
         "평소 폐섬유화증으로 오랜 기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화되어 인공호흡기치료 중 폐이식을 기다리고 있는 환자.",
         "악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 인공호흡기 치료를 시작하였으며 적극적인 인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nECMO는 회복 가능한 심폐부전, 이식까지의 가교 등 다음 치료로 연결될 가능성이 있을 때 고려한다. 악성 흉수를 동반한 진행성 폐암에서 회복·이식 가능성이 없이 지속되는 호흡부전은 적절한 적응증이 아니다. 다른 보기 역시 ECMO를 무조건 시행한다는 뜻은 아니며, 소생 가능성이나 장기기증 절차 등을 따로 평가한다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -21828,7 +26442,28 @@ window.JBL_DATA = {
             "2025-021"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-048",
@@ -21850,10 +26485,12 @@ window.JBL_DATA = {
         "항암제 치료와 방사선 치료를 동시에 시행하는 것이 좋다.",
         "가능한 많은 항암제치료를 하여 크기를 줄인 후 방사선 치료를 시행한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -21878,7 +26515,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-049",
@@ -21900,10 +26565,12 @@ window.JBL_DATA = {
         "수술을 한다면 한쪽 폐 전체 절제술을 시행해야 한다.",
         "표적치료제로도 좋은 성적을 기대할 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n수술을 견딜 수 없는 1기 비소세포폐암에서는 정위체부방사선치료(SBRT)를 근치적 치료로 고려한다. 수술이 가능하면 절제가 기본이지만 모든 환자에게 한쪽 폐 전체를 절제하는 것은 아니다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -21928,7 +26595,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-050",
@@ -22585,10 +27280,12 @@ window.JBL_DATA = {
         "콧물 호산구 검사",
         "경부 컴퓨터 단층촬영"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n코골이·구강호흡·반복 중이염은 비인두의 아데노이드 비대로 설명된다. 입에서 보이는 편도 크기가 작아도 아데노이드 비대는 가능하다. 제시된 검사 중에는 측면 방사선 사진으로 비인두 기도와 아데노이드를 평가하는 선택지가 가장 적절하다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 17쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -22613,7 +27310,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              17
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-058",
@@ -22635,10 +27352,12 @@ window.JBL_DATA = {
         "설압자를 이용해 혀를 누른다",
         "어깨 밑에 수건을 말아서 넣는다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n외상이 의심되지 않는 소아에서 구조 호흡을 할 때는 head tilt–chin lift로 혀에 의한 기도 폐쇄를 풀고 입을 덮어 환기한다. 목을 앞으로 굽히거나 단순히 옆으로 돌리는 것은 적절하지 않다. 경추 손상이 의심될 때는 접근이 달라진다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」; 38기 정리본 「1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs」.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -22663,7 +27382,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": []
+          },
+          {
+            "key": "S27",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs.pdf",
+            "name": "1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2022-059",
@@ -22685,10 +27429,12 @@ window.JBL_DATA = {
         "폐격리증 (pulmonary sequestration)",
         "선천폐기도기형 (congenital pulmonary airway malformation)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n한 폐엽에 여러 낭성 공간이 모여 있는 CT 소견은 선천성 폐기도기형(CPAM)에 맞는다. 감염을 계기로 발견될 수 있으며, 단일한 두꺼운 벽의 농양이나 전신동맥 공급이 특징인 폐격리증과 구분한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 4-13쪽.~~~",
       "images": [
         "J/2022/q059_01.jpg",
         "J/2022/q059_02.jpg"
@@ -22743,7 +27489,36 @@ window.JBL_DATA = {
             "2022-059"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-060",
@@ -22765,10 +27540,12 @@ window.JBL_DATA = {
         "엄지와 집게손가락을 아이의 입속에 넣어 이물 제거",
         "머리를 20도 아래로 향하게 한 후 양측 견갑골 사이를 5회 빠르게 때림"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n의식이 있는 1세 이상 소아의 심한 기도 폐쇄에서 제시된 선택지 중 적절한 처치는 복부 밀어올리기이다. 1세 미만 영아에게는 복부 밀어올리기 대신 등 두드리기와 가슴 밀어내기를 사용한다. 이 문항은 강의에서 구분한 연령별 처치를 묻는다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 40-41쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -22793,7 +27570,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              40,
+              41
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-061",
@@ -22954,10 +27752,12 @@ window.JBL_DATA = {
         "Theophylline",
         "Umeclidinium"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의의 약물 분류에 따르면 montelukast는 류코트리엔 경로를 차단하는 조절제이므로, 직접적인 기관지확장제들과 구분하는 답은 2번이다. 다만 LTD₄에 의한 기관지 수축을 억제하므로 확장에 전혀 기여하지 않는다는 문장을 엄밀하게 받아들이면 부정확하다. 이 문항은 약물의 주된 분류를 묻는 것으로 해석한다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 9-11,17,19-21쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -22985,7 +27785,33 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 15
+      "officialPage": 15,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              9,
+              10,
+              11,
+              17,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-065",
@@ -23007,10 +27833,12 @@ window.JBL_DATA = {
         "고용량 ICS-LABA 치료 후 폐기능 검사",
         "고용량 ICS-LABA 치료 + anti-TSLP 치료"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n기관지확장제 직후 FEV₁ 증가가 12%·200 mL 기준에 못 미쳐도 천식을 배제하지 않는다. 심한 염증이나 바이러스 감염 뒤에는 반응이 뚜렷하지 않을 수 있어 고용량 ICS를 포함한 항염증 치료를 약 4주 시행한 뒤 폐기능 호전을 확인한다. ICS 없이 LABA–LAMA만 투여하는 선택은 천식 치료에 맞지 않는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 11-13쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -23062,7 +27890,29 @@ window.JBL_DATA = {
             "2025-038"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-067",
@@ -23084,10 +27934,12 @@ window.JBL_DATA = {
         "만성적인 염증에 의하여 기관지과민성을 보이고 비가역적인 기류폐쇄는 없다.",
         "지속성 베타2항진제는 기관지확장 효과로 경증 천식에서 단독으로 사용할 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n아스피린 과민 천식은 COX-1 억제와 관련된 류코트리엔 경로 활성화가 중요하므로 항류코트리엔제가 도움이 된다. 선택적 COX-2 억제제는 일반적인 COX-1 억제 NSAIDs와 달리 대체약으로 고려한다. LABA 단독 사용, 비가역적 변화가 전혀 없다는 설명, 일률적인 운동 제한은 옳지 않다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 4,29,36-39쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -23115,7 +27967,32 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 17
+      "officialPage": 17,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              4,
+              29,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-069",
@@ -23137,10 +28014,12 @@ window.JBL_DATA = {
         "정상 가래에서도 streptococcus가 검출될 수 있다",
         "호산구가 3% 이상 검출되면 기관지 호산구염으로 진단한다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n객담은 하부기도에서 나온 분비물이며 타액·비인두 분비물과 구분한다. 편평상피세포가 많으면 구강 오염을 의심한다. Streptococcus 일부나 Candida는 집락화·오염으로 검출될 수 있지만 결핵균을 정상균으로 취급하지 않는다. 유도객담에는 일반적으로 고장성 식염수를 사용한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」; 38기 정리본 「1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs」.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -23165,7 +28044,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": []
+          },
+          {
+            "key": "S21",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
+            "name": "1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2022-070",
@@ -23187,10 +28091,12 @@ window.JBL_DATA = {
         "Thyroid cancer",
         "Diffuse Alveolar Hemorrhage 6. Eosinophilic pneumonia"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n연속한 BAL 검체가 뒤로 갈수록 더 짙은 혈성으로 변하므로 미만성 폐포출혈이 답이다. 시술 손상에 의한 초기 출혈이나 우윳빛 폐포단백증과 구분한다. 현재 5번 뒤에 6번 선지가 붙어 있는 복원 문제는 있지만, 사진이 가리키는 질환은 Diffuse alveolar hemorrhage다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 29쪽.~~~",
       "images": [
         "J/2022/q070_01.jpg"
       ],
@@ -23224,7 +28130,27 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              29
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-071",
@@ -23432,10 +28358,12 @@ window.JBL_DATA = {
         "50갑년 흡연력이 있는 83세 남성",
         "40갑년 흡연력이 있는 60세 말기췌장암 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n출제 당시 강의의 고위험 검진 기준에 맞는 선택은 30갑년, 금연 10년, 65세인 3번이다. 말기암 등으로 기대여명이나 근치적 치료 가능성이 제한된 경우에는 검진 이득이 작다. 최근 일부 해외 기준은 50세·20갑년까지 확대되어 1번도 대상이 될 수 있으므로, 과거 시험의 기준과 최신 기준을 섞지 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 13-14쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -23468,7 +28396,28 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 19
+      "officialPage": 19,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-078",
@@ -23490,10 +28439,12 @@ window.JBL_DATA = {
         "항암 화학 치료",
         "방사선 치료"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n전이가 없고 수술을 감당할 폐기능이 있는 초기 비소세포폐암은 절제술과 림프절 평가가 치료의 기본이다. 이 문항들의 강의 기준은 폐엽절제 및 종격동 림프절 평가에 해당한다. 현재는 엄선한 작은 말초 종양에서 구역절제도 고려하지만, 이를 모든 초기암의 정답으로 바꾸지는 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 56-64쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -23518,7 +28469,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-079",
@@ -23540,10 +28519,12 @@ window.JBL_DATA = {
         "정수압 (hydrostatic pressure) 증가",
         "모세혈관 투과성 (capillary permeability) 증가"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n흉수/혈장 단백질 비는 5.2/6.0≈0.87, LDH 비는 340/120≈2.83으로 Light 기준상 삼출액이다. 염증·종양 등에 의한 모세혈관 투과성 증가를 선택한다. 정수압 증가나 교질삼투압 감소는 대표적으로 여출액을 만든다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 13-16쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -23569,7 +28550,30 @@ window.JBL_DATA = {
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 22
+      "officialPage": 22,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-080",
@@ -23591,10 +28595,12 @@ window.JBL_DATA = {
         "포도당 150 (mg/dL), pH 7.1, 단백 1.5 (g/dL)",
         "포도당 150 (mg/dL), pH 7.5, 단백 4.5 (g/dL)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n고열을 동반한 loculated 흉수 또는 낮은 pH·포도당과 높은 LDH는 복잡성 폐렴연관 흉수/농흉을 시사한다. 항생제만 투여하지 않고 흉관 배액을 함께 고려한다. LDH >1,000 U/L, glucose <60 mg/dL, pH <7.2 등이 강의의 중요 지표다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 26-27쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -23620,7 +28626,28 @@ window.JBL_DATA = {
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 23
+      "officialPage": 23,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              26,
+              27
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-081",
@@ -23642,10 +28669,12 @@ window.JBL_DATA = {
         "흉선종(thymoma)",
         "흉골하 갑상선(retrosternal thyroid)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n중간 종격동의 대표적인 낭성 병변은 기관지원성 낭종이다. 흉선종·기형종·흉골하 갑상선은 앞종격동, 신경모세포종 등 신경원성 종양은 뒤종격동에 주로 위치한다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 44-47쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -23671,7 +28700,30 @@ window.JBL_DATA = {
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 24
+      "officialPage": 24,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              44,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-082",
@@ -23693,10 +28745,12 @@ window.JBL_DATA = {
         "폐동맥 고혈압",
         "급성호흡곤란증후군"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n사진은 한쪽 폐가 허탈되고 흉강에 공기가 찬 기흉이다. 특히 갑작스러운 저혈압이 동반된 긴장성 기흉에서는 흉강 내 압력 상승이 정맥환류를 감소시켜 심박출량을 떨어뜨린다. 천식 병력에만 끌려 기관지 수축을 고르면 안 된다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 40-43쪽.~~~",
       "images": [
         "J/2022/q082_01.jpg"
       ],
@@ -23732,7 +28786,30 @@ window.JBL_DATA = {
         }
       ],
       "repeatFamilyIds": [],
-      "officialPage": 25
+      "officialPage": 25,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-083",
@@ -24096,10 +29173,12 @@ window.JBL_DATA = {
         "폐사르코이드증",
         "림프관근종증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n양측 폐에 매우 작고 비슷한 크기의 결절이 무작위로 흩어진 miliary pattern과 미열·기침을 합치면 속립성 결핵이 가장 적절하다. 혈행성 전파 소견이며, 큰 결절들의 크기가 다양한 전이암이나 얇은 벽 낭종이 특징인 LAM과 다르다.\n\n~~근거: 38기 강의록 「20251023_13. 흉부영상 총론 II_이경희(도훈)」 PDF 37-44쪽; 38기 강의록 「251023_13. 흉부영상 총론_이경희(수민)」 PDF 53쪽.~~~",
       "images": [
         "J/2022/q087_01.jpg"
       ],
@@ -24133,7 +29212,43 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L1",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "name": "20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "pages": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44
+            ]
+          },
+          {
+            "key": "L11",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_13. 흉부영상 총론_이경희(수민).pdf",
+            "name": "251023_13. 흉부영상 총론_이경희(수민).pdf",
+            "pages": [
+              53
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-089",
@@ -24155,10 +29270,12 @@ window.JBL_DATA = {
         "결핵",
         "과민성 폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n영상의 소엽중심성 작은 결절과 나뭇가지가 갈라지는 tree-in-bud 양상은 작은 기도를 따라 퍼진 병변, 즉 bronchiolitis를 지지한다. 결체조직질환에서는 세기관지 병변도 생길 수 있다. 과민성 폐렴은 항원 노출력과 GGO·mosaic attenuation 등을 함께 평가해야 하며 이 사진의 가장 직접적인 형태학적 답은 2번이다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 6쪽; 38기 강의록 「20251023_13. 흉부영상 총론 II_이경희(도훈)」 PDF 15,37쪽.~~~",
       "images": [
         "J/2022/q089_01.jpg"
       ],
@@ -24193,7 +29310,37 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              6
+            ]
+          },
+          {
+            "key": "L1",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "name": "20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "pages": [
+              15,
+              37
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-090",
@@ -24215,10 +29362,12 @@ window.JBL_DATA = {
         "cT4N3M1b",
         "cT4N3M1c"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "잠정 정답: ⑤",
+      "explanation": "잠정 정답: ⑤\n\n제시된 출제 의도는 7 cm 초과 종괴 T4, 반대쪽 종격동·폐문 림프절 N3, 양측 부신의 다발성 흉곽외 전이 M1c이다. 크기 경계는 엄밀히 7 cm까지 T3이고 7 cm를 초과해야 T4이므로, 복원문의 ‘7 cm 이상’에는 경계값 표현의 한계가 있다. 보기에서는 이 조건 조합에 해당하는 5번을 선택한다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 56,59,63,73쪽.~~~",
       "images": [
         "J/2022/q090_01.jpg"
       ],
@@ -24253,7 +29402,30 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              56,
+              59,
+              63,
+              73
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-091",
@@ -24275,10 +29447,12 @@ window.JBL_DATA = {
         "폐농양",
         "폐결핵"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n우상엽 무기폐로 끌려 올라간 엽간열이 폐문 쪽 종괴 때문에 볼록해지면서 Golden S sign을 이룬다. 원인은 기관지를 막은 중심성 폐암이다. 특히 498·635번 사진은 38기 흉부영상각론1 29쪽의 사진과 일치한다. Klebsiella 폐렴의 팽창성 경화와 bulging fissure로 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 28-30쪽; 38기 정리본 「1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs」 PDF 5쪽.~~~",
       "images": [
         "J/2022/q091_01.jpg"
       ],
@@ -24312,7 +29486,38 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "key": "S30",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs.pdf",
+            "name": "1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs.pdf",
+            "pages": [
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-092",
@@ -24536,10 +29741,12 @@ window.JBL_DATA = {
         "나, 다",
         "다, 라"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n사진에는 환기에 비해 뚜렷한 여러 쐐기 모양 관류결손이 있어 폐색전증을 시사한다. 하지 정맥 혈전의 추가 평가는 진단에 도움이 된다. 다는 비정상 환기를 덧붙여 틀리고, central airway deposition만으로 low probability라 판단할 수 없으므로 가·나를 고른다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 41-46쪽.~~~",
       "images": [
         "J/2022/q095_01.jpg"
       ],
@@ -24585,7 +29792,32 @@ window.JBL_DATA = {
         }
       ],
       "repeatFamilyIds": [],
-      "officialPage": 27
+      "officialPage": 27,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-096",
@@ -25204,10 +30436,12 @@ window.JBL_DATA = {
         "PLCH, DIP, RB-ILD",
         "Goodpasture, LAM, PLCH"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n흡연 관련 ILD의 대표 묶음은 PLCH·DIP·RB-ILD이며 금연이 치료의 기본이다. DIP는 폐포 내, RB-ILD는 호흡세기관지와 그 주변의 흡연자 대식세포 축적이 특징이다. LAM은 이 묶음에 넣지 않는다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 9,102-107쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -25232,7 +30466,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              9,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-105",
@@ -25254,10 +30514,12 @@ window.JBL_DATA = {
         "PAP, PLCH, AIP",
         "EP, sarcoidosis, COP"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\nNSIP·COP·HP는 BAL에서 림프구 증가를 보일 수 있는 대표 질환이다. IPF는 상대적으로 호중구, eosinophilic pneumonia는 호산구, DIP/RB-ILD는 흡연자 대식세포가 중요하다. 다만 발문의 ‘객담’은 강의에서 다루는 BAL과 다르므로, BAL 세포분획을 묻는 의도로 해석한 잠정 답이다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 12-14,72,86쪽; 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 53쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -25282,7 +30544,40 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              12,
+              13,
+              14,
+              72,
+              86
+            ]
+          },
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              53
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-106",
@@ -25304,10 +30599,12 @@ window.JBL_DATA = {
         "항섬유화제제를 사용하면 섬유화 자체를 회복시킬 수 있어 예후가 좋다.",
         "FVC의 절대값이 10%, DLco가 15% 정도 감소하면 사망률이 증가한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nIPF에서 FVC와 DLCO의 의미 있는 감소는 나쁜 예후를 시사하며 이 문항은 FVC 10%, DLCO 15% 감소 기준을 묻는다. 병변은 하폐야 중심부가 아니라 흉막하에 우세하고, UIP 영상만 보기 전에 다른 원인을 배제해야 한다. 서로 다른 나이의 섬유화가 함께 보이는 것이므로 2번을 ‘동시에 발생한 병변’이라는 뜻으로 읽으면 틀리다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 30,60-64,122쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -25332,7 +30629,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              30,
+              60,
+              61,
+              62,
+              63,
+              64,
+              122
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-107",
@@ -25354,10 +30677,12 @@ window.JBL_DATA = {
         "RB-ILD는 특징적으로 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적된다.",
         "박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\nNSIP pattern은 결체조직질환·약물·과민성 폐렴 등에 동반될 수 있어 진단 전후로 원인 질환을 찾아야 한다. COP는 아급성이고 steroid 반응이 좋으며, AIP는 급성 호흡부전과 나쁜 예후가 특징이다. RB-ILD는 세기관지 중심 대식세포, DIP는 주로 하폐야 GGO와 폐포 내 대식세포 축적을 보인다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 72-87,95-107쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -25382,7 +30707,55 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-108",
@@ -25404,10 +30777,12 @@ window.JBL_DATA = {
         "Allergic bronchopulmonary aspergillosis는 진균의 감염에 의해 발생하기 때문에 항진균제를 통해 치료할 수 있다.",
         "Wegener’s granulomatosis와 MPO는 c-ANCA가 특징적으로 나타나는 질환이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nPAP는 폐포 대식세포의 surfactant 제거 기능에 문제가 생겨 폐포 안에 물질이 축적되는 질환으로, whole lung lavage로 이를 제거한다. AEP는 재발이 드물고 CEP가 잘 재발한다. ABPA는 침습성 진균감염이 아니라 과민반응이며, 항진균제를 사용할 수 있더라도 ‘감염이 원인’이라는 설명은 옳지 않다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 75,81,86,88-89쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -25432,7 +30807,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              75,
+              81,
+              86,
+              88,
+              89
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-109",
@@ -25454,10 +30853,12 @@ window.JBL_DATA = {
         "유육종증의 stage는 4단계로 구분되며 stage 2가 가장 흔하고 stage 4가 가장 심각하다.",
         "유육종증은 hypocalcemia, hypocaluria, skin anergy 등의 소견을 보일 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nSarcoidosis는 폐·흉부 림프절을 흔히 침범하며 비건락성 육아종이 특징이다. 조직 소견만으로 끝내지 않고 임상·영상의 적합성과 결핵 등 다른 육아종 질환의 배제를 함께 확인한다. 무증상 림프절 병변까지 모두 즉시 steroid 치료하는 것은 아니며, BAL CD4/CD8 비와 칼슘은 감소보다 증가하는 쪽이 중요하다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 27-38쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -25482,7 +30883,38 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-110",
@@ -25504,10 +30936,12 @@ window.JBL_DATA = {
         "기관내삽관",
         "기관절개술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n컹컹거리는 기침, 쉰 목소리, 들숨 stridor와 흉벽 함몰은 크룹의 전형적인 조합이다. 덱사메타손으로 상기도 부종을 줄이며, 중등도 이상에서는 흡입 에피네프린도 고려한다. 곧바로 기관절개술이나 항생제를 선택할 상황은 아니다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2022/q110_01.jpg"
       ],
@@ -25564,7 +30998,27 @@ window.JBL_DATA = {
             "2025-092"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-111",
@@ -25586,10 +31040,12 @@ window.JBL_DATA = {
         "프레드니솔론",
         "배농"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2022/q111_01.jpg"
       ],
@@ -25646,7 +31102,27 @@ window.JBL_DATA = {
             "2025-093"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-112",
@@ -25668,10 +31144,12 @@ window.JBL_DATA = {
         "clarithromycin",
         "amoxicillin + clavulanic acid"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2022/q112_01.jpg"
       ],
@@ -25728,7 +31206,27 @@ window.JBL_DATA = {
             "2025-094"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-113",
@@ -25752,8 +31250,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n진단은 영아의 급성 세기관지염이다. 첫 천명, 선행 콧물·기침과 경미한 염증 소견이 근거다. 치료의 기본은 산소화·수분상태를 평가한 지지치료이며 살부타몰을 일률적으로 투여하지 않는다. 현재 보기에는 기본 지지치료가 없고, 이 증례에 기관지확장제를 선택해야 한다는 강의 근거도 확인되지 않아 자동 채점은 보류한다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽 · [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations 보충 근거 1].~~~",
       "images": [
         "J/2022/q113_01.jpg"
       ],
@@ -25811,7 +31309,30 @@ window.JBL_DATA = {
             "2025-095"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.nice.org.uk/guidance/ng9/chapter/Recommendations"
+        ]
+      }
     },
     {
       "id": "2022-115",
@@ -25833,10 +31354,12 @@ window.JBL_DATA = {
         "폐암",
         "유방암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n악성 중피종은 석면 노출 후 수십 년, 전형적으로 30–40년의 긴 잠복기를 거쳐 나타날 수 있다. 흡연과 강하게 연관된 일반 폐암과 달리 석면 노출력을 특히 확인해야 한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 17-18쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -25881,7 +31404,28 @@ window.JBL_DATA = {
             "2025-097"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              17,
+              18
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-117",
@@ -25902,10 +31446,12 @@ window.JBL_DATA = {
         "가습기 살균제 폐손상",
         "나머지는 기타 폐질환 보기"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n해당 시기에 판매된 가습기살균제 노출과 산모·영유아의 중증 폐손상을 연결하는 문항이다. 원인물질로 PHMG, PGH, CMIT/MIT 등이 다뤄지며, 규폐증이나 탄광 분진에 의한 진폐증과 구분한다. 나머지 보기의 세부 문장은 일부 미복원되어 있다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 18쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -25930,7 +31476,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              18
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-118",
@@ -26111,10 +31677,12 @@ window.JBL_DATA = {
         "D-dimer",
         "Venous ultrasonography"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nD-dimer는 민감도가 높고 특이도가 낮다. 임상 가능성이 낮거나 중간인 환자에서 음성일 때 폐색전증 배제에 유용하지만, 수술·감염·암·임신 등에서도 상승하므로 양성만으로 확진하지 않는다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-8쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -26159,7 +31727,28 @@ window.JBL_DATA = {
             "2025-115"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-121",
@@ -26181,10 +31770,12 @@ window.JBL_DATA = {
         "Intracranial bleeding",
         "Bleeding diathesis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n강의의 항응고치료 절대 금기는 심한 활동성 출혈, 두개내 출혈, 최근 2주 이내 중추신경계·안과 수술이다. 활동성 소화성궤양, 간부전, 출혈성 소인 등은 표에서 상대 금기로 구분한다. HIT에서는 heparin은 중단해야 하지만 모든 종류의 항응고치료가 금기인 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -26229,7 +31820,27 @@ window.JBL_DATA = {
             "2025-114"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-122",
@@ -26251,10 +31862,12 @@ window.JBL_DATA = {
         "Prostacyclin analogue",
         "PDE5 inhibitor"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n적절한 PAH 환자에서 급성 혈관반응검사가 양성이면 고용량 calcium channel blocker에 반응할 가능성이 있다. 강의의 양성 기준은 심박출량 감소 없이 mPAP가 10 mmHg 이상 감소하면서 40 mmHg 이하가 되는 것이다. 모든 종류의 폐고혈압에 CCB를 일률적으로 쓰는 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 35-37쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -26299,7 +31912,29 @@ window.JBL_DATA = {
             "2023-112"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              35,
+              36,
+              37
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-124",
@@ -26321,10 +31956,12 @@ window.JBL_DATA = {
         "호기 시 가슴을 손으로 지그시 누른다",
         "Chest percussion과 post drainage는 객담이 적어도 필수적으로 시행한다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n상체를 앞으로 기울이고 팔을 지지하는 tripod position은 어깨띠를 고정하여 보조호흡근을 효과적으로 사용하도록 돕는다. Pursed-lip breathing의 목적은 과환기가 아니라 기도 허탈과 air trapping을 줄이는 것이고, 객담이 적은 모든 환자에게 타진·체위배액을 의무적으로 시행하지 않는다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -26349,7 +31986,36 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-125",
@@ -26371,10 +32037,12 @@ window.JBL_DATA = {
         "Mechanical insufflator-exsufflator",
         "Diaphragmatic breathing/pursed lip breathing"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nAir stacking은 여러 번의 흡기로 공기를 누적시켜 폐를 충분히 팽창시키는 방법이다. 신경근육질환에서 감소하기 쉬운 폐·흉곽의 유순도를 유지하는 목적이며, 기침으로 분비물을 빼내는 mechanical insufflation-exsufflation과 구분한다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -26415,7 +32083,36 @@ window.JBL_DATA = {
             "2022-125"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-official-p007",
@@ -26582,10 +32279,12 @@ window.JBL_DATA = {
         "결핵",
         "국균종"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n비흡연 여성에서 말초의 불규칙한 폐결절은 선암을 가장 먼저 고려한다. 흡연과 중심부 병변에 더 강하게 연결되는 편평상피세포암과 비교할 수 있지만, 영상과 인구학적 특징만으로 확진하는 것은 아니며 최종적으로 조직검사가 필요하다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 39-43쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -26613,7 +32312,31 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 20
+      "officialPage": 20,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-official-p021",
@@ -26633,10 +32356,12 @@ window.JBL_DATA = {
         "효과적인 표적 및 면역항암제 개발로 폐암 유병률이 감소하고 있다.",
         "직업 혹은 환경적 요인으로 발암물질 노출되어 발병하는 경우는 드물다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "잠정 정답: ①",
+      "explanation": "잠정 정답: ①\n\n출제 당시 제시된 우리나라 암 통계를 기준으로 1번을 선택한다. 암 발생 순위는 통계 연도와 남녀 합산 여부에 따라 변하므로 이를 영구적인 순위로 암기하지 않는다. 다른 보기의 비흡연자 폐암이 흡연자보다 흔하다는 단정, 검진이 발병률을 줄인다는 설명, 치료 발전으로 유병률이 줄어든다는 설명은 적절하지 않다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 7-14쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -26664,7 +32389,34 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 21
+      "officialPage": 21,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-official-p029",
@@ -26684,10 +32436,12 @@ window.JBL_DATA = {
         "과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 Thermophilic actinomycetes가 가장 흔한 원인이다.",
         "과민성 폐장염의 발생에는 1형 면역 반응이 관여하기 때문에 Ig E가 증가하는 소견을 보인다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nSarcoidosis는 상·중폐야의 perilymphatic nodule 및 폐문·종격동 림프절 비대가 특징이고 경기관지폐생검도 진단에 도움을 준다. 비건락성 육아종만으로 확진하지 않으며, HP의 serum precipitin도 노출을 뒷받침할 뿐 단독 확진 검사가 아니다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 27-38,53쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -26716,7 +32470,39 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 29
+      "officialPage": 29,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              53
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2022-official-p031",
@@ -26736,10 +32522,12 @@ window.JBL_DATA = {
         "반감기가 짧아 수술 전 항응고치료 필요 시에 투여한다.",
         "별도의 모니터링이 필요하지 않다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nWarfarin은 경구 vitamin K 길항제이며 PT를 표준화한 INR로 효과를 감시한다. 완전한 항응고 효과에는 수일이 걸리고 급성 폐색전증에서는 필요에 따라 초기 heparin과 겹쳐 사용한다. aPTT, 피하주사, 짧은 반감기라는 설명은 warfarin에 맞지 않는다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 14쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -26768,7 +32556,27 @@ window.JBL_DATA = {
       ],
       "imageProvenance": [],
       "repeatFamilyIds": [],
-      "officialPage": 31
+      "officialPage": 31,
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-001",
@@ -26982,10 +32790,12 @@ window.JBL_DATA = {
         "Ampicillin/Sulbactam",
         "Azithromycin"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n최근 녹농균 감염이 확인된 병력은 경험적 항생제에서 녹농균을 포함해야 하는 중요한 단서다. 보기 중 ceftazidime이 항녹농균 β-lactam이다. Vancomycin·linezolid는 주로 MRSA를 겨냥하므로 대체할 수 없다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 20-24쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -27010,7 +32820,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              20,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-005",
@@ -27032,10 +32866,12 @@ window.JBL_DATA = {
         "퀴놀론 항생제",
         "이소니아지드"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nMAC 치료의 핵심 약제는 macrolide이며, 이 계열의 내성 여부가 치료 결과와 밀접하게 연결된다. Macrolide 단독 사용은 내성 위험 때문에 피하고 적절한 병합요법을 사용한다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 4-5쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -27060,7 +32896,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-006",
@@ -27082,10 +32939,12 @@ window.JBL_DATA = {
         "4개월 결핵 치료 후에도 항산균 배양 양성 환자",
         "비결핵항산균 폐질환 의심자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nXpert MTB/RIF는 결핵균 및 rifampin 내성을 확인하는 검사이지 NTM 균종을 동정하는 검사가 아니다. 보기 중 NTM 자체의 진단을 위한 검사라는 연결이 부적절하다. 다만 실제로 NTM과 결핵을 감별하는 과정에서 결핵균을 확인하기 위해 Xpert를 사용할 수는 있다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2,4쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -27110,7 +32969,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2,
+              4
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-007",
@@ -27211,10 +33091,12 @@ window.JBL_DATA = {
         "치료 약제 중 아미카신, 가나마이신 중 한 가지를 적어도 6개월 이상 투여한다",
         "이소니아지드(INH), 리팜핀(RIF)에 동시 내성인 결핵을 말한다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nMDR-TB는 INH와 rifampin 동시 내성이며, 치료의 주요 Group A 약제는 fluoroquinolone·bedaquiline·linezolid이다. PZA는 Group A가 아니다. 모든 환자에게 amikacin 또는 kanamycin을 반드시 6개월 이상 투여한다는 설명은 경구 중심 치료 원칙과 맞지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3쪽 · [https://www.who.int/publications/i/item/9789240018662 보충 근거 1] · [https://www.who.int/news/item/22-12-2018-who-updates-its-treatment-guidelines-for-multidrug--and-rifampicin-resistant-tuberculosis 보충 근거 2].~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -27239,7 +33121,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.who.int/publications/i/item/9789240018662",
+          "https://www.who.int/news/item/22-12-2018-who-updates-its-treatment-guidelines-for-multidrug--and-rifampicin-resistant-tuberculosis"
+        ]
+      }
     },
     {
       "id": "2021-009",
@@ -27261,10 +33167,12 @@ window.JBL_DATA = {
         "일반적으로 속발성 폐농양에 비해 사망률이 낮다",
         "페니실린보다는 클린다마이신이 우수한 효과를 보인다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n음주·흡인 위험, 악취 나는 객담과 air-fluid level을 보이는 공동은 원발성 폐농양의 전형이다. 혐기균이 중요하며 clindamycin이나 β-lactam/β-lactamase inhibitor를 사용한다. 흡인 병변은 상엽 후분절·하엽 상분절 등 자세에 따른 의존 부위에 잘 생기므로 우중엽·좌설상엽을 대표 호발 부위로 제시한 설명은 맞지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 31-40쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -27289,7 +33197,36 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-010",
@@ -27393,10 +33330,12 @@ window.JBL_DATA = {
         "약제 감수성 검사 결과가 나올 때까지 이차 항결핵제로 바꾼다",
         "경부 임파선 절제술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n결핵 치료 후 다른 병변은 호전되는데 림프절이 새로 커지는 상황은 역설적 반응을 우선 고려한다. 복약 순응도와 내성·다른 감염을 확인하되, 역설적 반응이면 기존 항결핵치료를 유지한다. 림프절 종대만으로 즉시 모든 약을 중단하거나 2차 약제로 바꾸지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -27421,7 +33360,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-012",
@@ -27510,10 +33469,12 @@ window.JBL_DATA = {
         "모든 폐렴 환자의 원인균 규명이 필요하다",
         "합병증 없는 폐렴에는 적어도 2주 정도의 항생제 치료가 필요하다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n일반 CAP에서 혐기균 항생제를 별도로 일률적으로 추가하지 않는다. 폐농양·농흉 등에서는 예외다. PCT나 배양검사가 모든 환자에게 필수인 것은 아니며, 합병증 없는 폐렴의 치료를 반드시 2주 이상 시행하지도 않는다. Steroid는 중증 CAP·불응성 쇼크 등 제한된 상황과 일반 CAP를 구별해야 한다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 14-21쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -27538,7 +33499,34 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-014",
@@ -28266,10 +34254,12 @@ window.JBL_DATA = {
         "Thymic carcinoma- surgery",
         "Seminoma- Biopsy"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -28314,7 +34304,29 @@ window.JBL_DATA = {
             "2025-006"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              18,
+              19,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-024",
@@ -28502,10 +34514,12 @@ window.JBL_DATA = {
         "EGFR L858R",
         "EGFR L861Q"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 9쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -28530,7 +34544,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              9
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-027",
@@ -28702,10 +34736,12 @@ window.JBL_DATA = {
         "KRAS mutation을 보기 위한 allele specific PCR 검사",
         "ALK fusion을 보기 위한 Fluorescent in situ hybridization 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "잠정 정답: ④",
+      "explanation": "잠정 정답: ④\n\n출제 당시 EGFR·ALK·ROS1·PD-L1을 필수 묶음으로 다루던 맥락에서는 KRAS 검사인 4번을 선택한다. 다만 38기 강의는 KRAS G12C 표적치료를 명시한다. 따라서 현재 KRAS가 치료와 무관하다는 설명은 틀리며, 이 답은 과거 문항의 검사 범위를 따른 것이다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 11,14-16쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -28749,7 +34785,30 @@ window.JBL_DATA = {
             "2025-003"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              11,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-030",
@@ -28771,10 +34830,12 @@ window.JBL_DATA = {
         "가래에서 녹농균(P. aeruginosa) 상재(colonization)",
         "65세 이상의 기관지 확장증 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n기관지확장증에서 녹농균의 만성 감염·집락화는 잦은 악화, 입원, 폐기능 저하 및 나쁜 예후와 관련된다. 객담 배양에서 녹농균을 확인하는 이유가 여기에 있다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」 PDF 27쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -28799,7 +34860,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": [
+              27
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-031",
@@ -28821,10 +34902,12 @@ window.JBL_DATA = {
         "Metastatic adenocarcinoma from lung",
         "Metastatic small cell carcinoma from lung"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n간에서 채취한 조직에 샘 구조를 만드는 암과 TTF-1 핵 양성이 보이고 폐에 원발 종괴가 있다. 이를 종합하면 폐선암의 간 전이가 가장 적절하다. TTF-1 하나만으로 모든 종양을 확진하는 것은 아니지만 샘 구조와 임상 위치를 함께 읽으면 신경내분비암보다 선암에 맞는다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 18-26,43-44쪽.~~~",
       "images": [
         "J/2021/q031_01.jpg",
         "J/2021/q031_02.jpg"
@@ -28879,7 +34962,37 @@ window.JBL_DATA = {
             "2022-028"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              43,
+              44
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-032",
@@ -28901,10 +35014,12 @@ window.JBL_DATA = {
         "Chondroid hamartoma",
         "Metastatic adenocarcinoma from breast"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n경계가 좋고 출혈·경화를 동반한 고형 종괴에서 표면 세포와 원형 세포, 유두상·고형 등 여러 배열을 보이며 TTF-1 양성, 신경내분비 표지자 음성인 경우 sclerosing pneumocytoma가 적절하다. Carcinoid라면 chromogranin·synaptophysin 양성을 기대한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 47-49쪽.~~~",
       "images": [
         "J/2021/q032_01.jpg"
       ],
@@ -28938,7 +35053,29 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              47,
+              48,
+              49
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-033",
@@ -28960,10 +35097,12 @@ window.JBL_DATA = {
         "NAB2-STAT4 translocation",
         "Preserved BAP1 nuclear expression"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "잠정 정답: ①",
+      "explanation": "잠정 정답: ①\n\n대표적인 진단 관련 변화로 강의에 직접 제시된 것은 CDKN2A 동형접합 결실이다. BAP1 핵 발현은 보존이 아니라 소실되는 쪽이 중요하다. 3번처럼 chromatin-remodeling 관련 변이라는 넓은 표현은 BAP1 등과의 생물학적 관련성까지 완전히 배제하기 어려워, 가장 대표적인 강의 표지자를 묻는 단일최선답으로 1번을 선택한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 12쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -29009,7 +35148,27 @@ window.JBL_DATA = {
             "2025-007"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              12
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-034",
@@ -29185,10 +35344,12 @@ window.JBL_DATA = {
         "RB1 biallelic mutation",
         "KRAS mutation"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n작은 세포의 치밀한 증식에 TTF-1·CD56·chromogranin 양성이 동반되어 소세포암을 생각한다. 특징적인 유전 이상은 TP53 및 RB1의 양대립유전자 비활성화다. MEN1은 carcinoid와, KRAS·STK11은 다른 비소세포암 계열과 더 연결된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-34쪽.~~~",
       "images": [
         "J/2021/q036_01.jpg"
       ],
@@ -29238,7 +35399,31 @@ window.JBL_DATA = {
             "2022-033"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              13,
+              31,
+              32,
+              33,
+              34
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-037",
@@ -29260,10 +35445,12 @@ window.JBL_DATA = {
         "Type B2 Thymoma",
         "Type B3 Thymoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nType B1 thymoma는 정상 흉선과 가장 닮고 TdT 양성 미성숙 T림프구가 풍부하다. Type A는 방추형 상피세포 위주, B3는 상피세포가 더 두드러지고 림프구가 적은 유형이다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 21-25쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -29288,7 +35475,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-038",
@@ -29402,10 +35613,12 @@ window.JBL_DATA = {
         "Cytokeratin 5/6",
         "TTF-1"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 27-30쪽.~~~",
       "images": [
         "J/2021/q039_01.jpg"
       ],
@@ -29457,7 +35670,30 @@ window.JBL_DATA = {
             "2023-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-040",
@@ -29484,7 +35720,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "5번",
-      "explanation": "정답: ⑤ CPAM type 1\n\n=== 판단의 출발점 ===\n현재 문항의 조직사진은 '''올해 강의록 15쪽 CPAM 1형의 조직사진과 동일'''하다. 따라서 사진을 포함한 현재 문항의 답은 ⑤ CPAM type 1로 판단한다. “3.1 cm, thick mucoid”라는 짧은 글만으로 기관지원성 낭종이라 단정하면 안 된다.\n\n복원 한계: 발문이 짧고 {{327}}과 유사한 내용으로 연결되어 있지만 사진은 다르다. '''현재 수록 사진을 근거로 ⑤를 채점 답으로 두었으며, 복원된 사진이 원시험 사진과 달랐다는 자료가 나오면 재검토해야 한다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCPAM은 정상적인 폐 발달이 어긋나 생긴 비정상 기도·폐실질 구조다. '''낭종 크기와 분화 수준'''을 함께 읽는다. 1형은 가장 흔하며 큰 낭종을 만들고, 낭종벽은 섬모원주상피·평활근·섬유성 조직과 점액세포를 보일 수 있다.\n\n||= CPAM 유형 ||= 분화 수준·형태 ||= 기억할 연결 ||\n|| 0형 || 기관·기관지형, 연골이 풍부한 고형성 병변 || 드물고 치명적 ||\n|| '''1형''' || '''3–10 cm의 큰 낭종''', 넓은 섬유성 격벽, 기관지형 상피 || 가장 흔함; 일부 점액성 선암과 연관 ||\n|| 2형 || 2 cm 미만의 비교적 균일한 세기관지형 낭종 || 다른 선천성 기형이 중요 ||\n|| 3형 || 0.5 cm 미만의 미세낭종, 육안상 고형 종괴 || 태아 폐를 닮은 구조, 예후 불량 ||\n|| 4형 || 말초의 얇은 벽 낭종, 원위 폐포형 상피 || 낭성 pleuropulmonary blastoma와 감별 ||\n\n[[파일:assets/lecture-14/p015-figures.jpg|올해 강의록 15쪽의 CPAM 1형: 이 문항의 조직사진과 동일한 예시]]\n\n기관지원성 낭종도 점액과 섬모상피를 보일 수 있다. 크기 3.1 cm와 점액성 내용물만으로는 둘을 완전히 구분하지 못하므로, '''사진에서 확인되는 구조와 강의록의 병리 예시'''가 핵심이다. CPAM 1형을 종양으로 정의하거나, 모두 암으로 진행한다고 외우지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: 기관지원성 낭종도 점액과 섬모상피를 보일 수 있어 발문만 보면 유력한 감별이다. 그러나 현재 사진은 CPAM 1형 예시에 해당한다.\n* 2번: 장원성 낭종은 소화관형 분화를 확인해야 한다. 현재 사진의 강의록 대응은 CPAM 1형이다.\n* 3번: 식도낭종이라면 식도벽과의 관계·근육벽·피복 상피 등 식도중복의 근거가 필요하다.\n* 4번: 폐외분리증은 정상 기도와 단절된 폐조직 및 체순환 동맥 공급이 핵심이다. 낭종 크기와 점액만으로 진단하지 않는다.\n* 5번: 큰 낭종을 형성하는 가장 흔한 CPAM 유형이며, 현재 사진이 올해 강의록의 해당 예시와 일치한다. 정답이다.\n\n관련 Wiki: [[14강#CPAM은 낭종의 크기와 분화 수준으로 나눈다|CPAM은 낭종의 크기와 분화 수준으로 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 11–18쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "explanation": "정답: ⑤ CPAM type 1\n\n=== 판단의 출발점 ===\n현재 문항의 조직사진은 '''올해 강의록 15쪽 CPAM 1형의 조직사진과 동일'''하다. 따라서 사진을 포함한 현재 문항의 답은 ⑤ CPAM type 1로 판단한다. “3.1 cm, thick mucoid”라는 짧은 글만으로 기관지원성 낭종이라 단정하면 안 된다.\n\n{{327}}과 같은 문항으로, 두 문항 모두 정답은 ⑤ CPAM type 1이다. 점액이 차 있는 낭종이라는 설명만으로 기관지원성 낭종과 혼동하지 않도록 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCPAM은 정상적인 폐 발달이 어긋나 생긴 비정상 기도·폐실질 구조다. '''낭종 크기와 분화 수준'''을 함께 읽는다. 1형은 가장 흔하며 큰 낭종을 만들고, 낭종벽은 섬모원주상피·평활근·섬유성 조직과 점액세포를 보일 수 있다.\n\n||= CPAM 유형 ||= 분화 수준·형태 ||= 기억할 연결 ||\n|| 0형 || 기관·기관지형, 연골이 풍부한 고형성 병변 || 드물고 치명적 ||\n|| '''1형''' || '''3–10 cm의 큰 낭종''', 넓은 섬유성 격벽, 기관지형 상피 || 가장 흔함; 일부 점액성 선암과 연관 ||\n|| 2형 || 2 cm 미만의 비교적 균일한 세기관지형 낭종 || 다른 선천성 기형이 중요 ||\n|| 3형 || 0.5 cm 미만의 미세낭종, 육안상 고형 종괴 || 태아 폐를 닮은 구조, 예후 불량 ||\n|| 4형 || 말초의 얇은 벽 낭종, 원위 폐포형 상피 || 낭성 pleuropulmonary blastoma와 감별 ||\n\n[[파일:assets/lecture-14/p015-figures.jpg|올해 강의록 15쪽의 CPAM 1형: 이 문항의 조직사진과 동일한 예시]]\n\n기관지원성 낭종도 점액과 섬모상피를 보일 수 있다. 크기 3.1 cm와 점액성 내용물만으로는 둘을 완전히 구분하지 못하므로, '''사진에서 확인되는 구조와 강의록의 병리 예시'''가 핵심이다. CPAM 1형을 종양으로 정의하거나, 모두 암으로 진행한다고 외우지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: 기관지원성 낭종도 점액과 섬모상피를 보일 수 있어 발문만 보면 유력한 감별이다. 그러나 현재 사진은 CPAM 1형 예시에 해당한다.\n* 2번: 장원성 낭종은 소화관형 분화를 확인해야 한다. 현재 사진의 강의록 대응은 CPAM 1형이다.\n* 3번: 식도낭종이라면 식도벽과의 관계·근육벽·피복 상피 등 식도중복의 근거가 필요하다.\n* 4번: 폐외분리증은 정상 기도와 단절된 폐조직 및 체순환 동맥 공급이 핵심이다. 낭종 크기와 점액만으로 진단하지 않는다.\n* 5번: 큰 낭종을 형성하는 가장 흔한 CPAM 유형이며, 현재 사진이 올해 강의록의 해당 예시와 일치한다. 정답이다.\n\n관련 Wiki: [[14강#CPAM은 낭종의 크기와 분화 수준으로 나눈다|CPAM은 낭종의 크기와 분화 수준으로 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 11–18쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
       "images": [
         "J/2021/q040_01.jpg"
       ],
@@ -29521,11 +35757,11 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 필기 강의록은 개념 설명 보조, 문항의 실제 사진 별도 대조",
+        "date": "2026-10-15",
+        "basis": "사용자가 327번과 동일 문항·정답 5번임을 확인; 기존 CPAM 해설은 유지하고 327번과 모순되던 비교 문단 정정",
         "chapter": "CPAM은 낭종의 크기와 분화 수준으로 나눈다",
         "pages": "11–18",
-        "answerStatus": "reviewed_with_restoration_caveat",
+        "answerStatus": "user_confirmed_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "originalQuestionAndImagesPreserved": true
@@ -29551,10 +35787,12 @@ window.JBL_DATA = {
         "Tuberculosis",
         "Bronchiectasis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nGMS에서 길고 분지하는 균사가 보이며 Aspergillus의 가는 격벽성 균사와 예각 분지에 맞는다. 둥근 효모와 피막을 보이는 Cryptococcus와 다르다. 손상된 폐의 공동·괴사성 병변과 함께 나타난 사진이다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 169-174쪽.~~~",
       "images": [
         "J/2021/q041_01.jpg",
         "J/2021/q041_02.jpg"
@@ -29593,7 +35831,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              169,
+              170,
+              171,
+              172,
+              173,
+              174
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-042",
@@ -29615,10 +35878,12 @@ window.JBL_DATA = {
         "Spine – supf. border",
         "Pleural space – lateral border"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n종격동의 위쪽은 thoracic inlet, 아래쪽은 diaphragm, 앞쪽은 sternum, 뒤쪽은 thoracic spine이다. 양옆은 mediastinal pleura로 경계 지어지므로, 보기의 pleural space–lateral border가 의도한 답이다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -29665,7 +35930,28 @@ window.JBL_DATA = {
             "2025-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-043",
@@ -29687,10 +35973,12 @@ window.JBL_DATA = {
         "Sputum cytology",
         "Bronchoscopy, EBUS"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2021/q043_01.jpg"
       ],
@@ -29746,7 +36034,28 @@ window.JBL_DATA = {
             "2025-017"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-044",
@@ -29768,10 +36077,12 @@ window.JBL_DATA = {
         "스테로이드 사용에도 증세 호전이 없다면 Surgical excision을 고려한다.",
         "PCNB를 통해 tissue confirm을 시행한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2021/q044_01.jpg"
       ],
@@ -29827,7 +36138,28 @@ window.JBL_DATA = {
             "2025-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-045",
@@ -29849,10 +36181,12 @@ window.JBL_DATA = {
         "Chest sonogram",
         "Lung perfusion scan"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -29898,7 +36232,28 @@ window.JBL_DATA = {
             "2025-016"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-046",
@@ -29920,10 +36275,12 @@ window.JBL_DATA = {
         "kidney",
         "adrenal gland"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\n방사선종양학의 뇌전이 평가·치료 맥락에서 출제 의도상 brain을 잠정 선택한다. 다만 확인한 38기 강의록은 뇌·뼈 전이를 중요하게 다룰 뿐 비소세포폐암의 최빈 혈행성 전이 장기를 직접 순위로 제시하지 않는다. 뼈·간·부신도 흔하고 집계 방식에 따라 순위가 달라지므로, 공식 정답 확인이 필요한 문항이다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -29948,7 +36305,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-047",
@@ -29970,10 +36355,12 @@ window.JBL_DATA = {
         "항암제치료와 방사선치료를 동시에 시행하는 것이 좋다.",
         "가능한 많은 항암제치료를 하여 체적을 줄인 후 방사선 치료를 시행한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -30004,7 +36391,35 @@ window.JBL_DATA = {
         }
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L30",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
+            "pages": []
+          },
+          {
+            "key": "S37",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-048",
@@ -30638,10 +37053,12 @@ window.JBL_DATA = {
         "연장아보다 횡경막이 돔의 형태여서 횡경막 수축으로 인한 흉곽의 용적 증가에 불리하다.",
         "신생아는 PaCO2 증가에 대하여 중추화학수용체의 반응이 성인보다 더 많은 환기 증가를 보인다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n신생아의 저산소 반응은 초기 환기 증가 뒤 환기가 감소하는 이상성 반응이다. 영아는 REM 수면 비중이 크고 흉벽이 유연하며 기도가 좁아 호흡기 질환에 취약하다. 성인보다 CO₂ 반응이 더 강하거나 기도 저항 증가가 적다는 설명은 반대다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 4-5쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -30666,7 +37083,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-056",
@@ -30771,10 +37209,12 @@ window.JBL_DATA = {
         "초음파 검사",
         "심장초음파 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n출생 직후 과도한 침, 수유 시 사레·청색증은 식도폐쇄와 기관식도루를 의심하게 한다. 코위관이 위로 통과하는지 확인하고 방사선 사진에서 관의 위치를 평가하는 것이 우선이다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」; 38기 정리본 「1028 정리본 (27. 소아호흡기 I _ 김정희) - Google Docs」.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -30799,7 +37239,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": []
+          },
+          {
+            "key": "S26",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1028 정리본 (27. 소아호흡기 I _ 김정희) - Google Docs.pdf",
+            "name": "1028 정리본 (27. 소아호흡기 I _ 김정희) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2021-058",
@@ -30821,10 +37286,12 @@ window.JBL_DATA = {
         "Prednisolone (oral)",
         "Albuterol (inhalation)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n현재 보기의 투여 경로까지 따르면 흡입 budesonide가 적절하다. ICS는 기도 염증을 조절하여 악화를 예방한다. Cromolyn도 알레르겐 유발 천식의 예방약이지만 천식에는 흡입 제형을 사용하며, 2번의 oral cromolyn을 그대로 정답으로 삼기는 어렵다. Albuterol은 신속한 증상 완화제다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 18,22-23쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -30849,7 +37316,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              18,
+              22,
+              23
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-059",
@@ -30871,10 +37360,12 @@ window.JBL_DATA = {
         "흉부 CT",
         "폐기능검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n음식 섭취나 일상 활동 중 갑자기 생긴 기침·천명과 한쪽 폐의 air trapping은 기도 이물의 전형적인 단서다. 이물이 check-valve처럼 작용하면 공기는 들어가지만 잘 빠지지 않는다. 확진과 제거에는 소아에서 강직성 기관지내시경을 이용한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 34-39쪽.~~~",
       "images": [
         "J/2021/q059_01.jpg"
       ],
@@ -30908,7 +37399,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-060",
@@ -30930,10 +37446,12 @@ window.JBL_DATA = {
         "폐동맥걸이 (pulmonary artery sling)",
         "기관지낭"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n신생아의 한 폐엽이 과도하게 팽창하고 주변 폐를 압박하며 종격동을 반대쪽으로 미는 모습은 선천성 폐엽 과팽창에 맞는다. 기흉과 달리 팽창한 폐엽 안에 폐혈관 음영이 남는 점을 확인한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」; 38기 정리본 「1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs」.~~~",
       "images": [
         "J/2021/q060_01.jpg"
       ],
@@ -30967,7 +37485,32 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": []
+          },
+          {
+            "key": "S27",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs.pdf",
+            "name": "1028 정리본 (28. 소아호흡기 II _ 김정희) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2021-061",
@@ -31073,10 +37616,12 @@ window.JBL_DATA = {
         "Ipratropium",
         "Triamcinolone"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\nAlbuterol과 그 활성 R-이성질체인 levalbuterol은 속효성 β₂ 작용제(SABA)다. 급성 기관지 수축을 빠르게 완화하며, ICS·cromolyn·zileuton 같은 조절제를 즉각적인 기관지확장제 대신 선택하지 않는다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 12-14쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -31101,7 +37646,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-063",
@@ -31123,10 +37690,12 @@ window.JBL_DATA = {
         "단일한 병태생리로 발병한 기도의 만성 염증질환이다.",
         "낮에 활동하거나 운동할 때 악화되는 게 특징이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n아스피린 과민 천식은 COX-1 억제와 관련된 류코트리엔 경로 활성화가 중요하므로 항류코트리엔제가 도움이 된다. 선택적 COX-2 억제제는 일반적인 COX-1 억제 NSAIDs와 달리 대체약으로 고려한다. LABA 단독 사용, 비가역적 변화가 전혀 없다는 설명, 일률적인 운동 제한은 옳지 않다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 4,29,36-39쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -31151,7 +37720,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              4,
+              29,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-064",
@@ -31173,10 +37767,12 @@ window.JBL_DATA = {
         "류코트리엔 길항제",
         "저용량 흡입 스테로이드+formoterol"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n중간용량 ICS–LABA에도 야간 증상과 잦은 구제약 사용이 남아 있어 치료 강화를 고려한다. 이 보기에서는 흡입 스테로이드 증량이 가장 적절하며, 장기 경구 스테로이드보다 먼저 흡입 치료를 최적화한다. 실제 step-up 전에는 흡입법과 순응도를 확인한다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 24-26쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -31201,7 +37797,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-065",
@@ -31223,10 +37841,12 @@ window.JBL_DATA = {
         "항염증 치료 후 폐활량 측정",
         "운동유발검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nFEV₁/FVC=1.8/3.0=60%로 이미 기류폐쇄가 있다. 원칙적으로 기관지확장제 반응을 먼저 확인하지만 그 보기가 없으므로, 항염증 치료 뒤 폐활량을 측정하여 가역성을 확인하는 4번이 적절하다. 뚜렷한 폐쇄가 있는 상태에서 메타콜린 유발검사를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 9-15쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -31251,7 +37871,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-066",
@@ -31273,10 +37919,12 @@ window.JBL_DATA = {
         "객혈로 내원한 불안정 협심증을 지닌 55세 여자 환자",
         "항생제 치료에도 반응이 없는 80세 남자 폐렴 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n최근 심근경색이나 불안정 협심증에서는 기관지내시경과 진정 과정의 저산소증·빈맥이 심근허혈을 악화시킬 수 있다. 반면 원인 불명의 객혈, 무기폐, 치료에 반응하지 않는 폐렴은 검사 적응증이 될 수 있다. 응급 검사 필요성과 심혈관 안정성을 먼저 평가한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 6-8쪽.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -31301,7 +37949,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-067",
@@ -31323,10 +37993,12 @@ window.JBL_DATA = {
         "기관지확장증 (Bronchiectasis)",
         "특발성폐섬유화증 (Idiopathic pulmonary fibrosis)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n폐포단백증에서는 폐포 안에 계면활성제 성분이 축적되어 BAL 액이 우윳빛으로 뿌옇게 보인다. 세척할수록 붉어지는 미만성 폐포출혈과 구분하며, 폐포단백증에서는 whole-lung lavage가 치료에도 사용된다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 24,29-30쪽.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -31351,7 +38023,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              24,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-068",
@@ -31373,10 +38067,12 @@ window.JBL_DATA = {
         "속효성 베타2 항진제 흡입",
         "스테로이드 정맥주사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n아직 급성 기관지확장 치료를 받지 않은 천식 악화에서는 산소와 흡입 SABA를 먼저 투여한다. 중등도 이상이면 전신 스테로이드도 조기에 병행하지만 즉각적인 기관지 수축 완화는 SABA가 담당한다. 아미노필린은 응급실 초기 치료로 권장되지 않는다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 34-35쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -31420,7 +38116,28 @@ window.JBL_DATA = {
             "2025-041"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              34,
+              35
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-069",
@@ -31634,10 +38351,12 @@ window.JBL_DATA = {
         "현재 흡연자",
         "여성"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nCT의 큰 중심부·폐문 및 종격동 종괴 양상은 흡연과 관련이 강한 폐암을 우선 생각하게 한다. 비흡연 여성의 말초 선암에서 상대적으로 흔한 EGFR·ALK 특성을 영상만으로 붙이지 않는다. 사진 자체로 조직형이나 유전자형까지 확진할 수는 없다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 39-43쪽.~~~",
       "images": [
         "J/2021/q072_01.jpg"
       ],
@@ -31671,7 +38390,31 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-073",
@@ -31693,10 +38436,12 @@ window.JBL_DATA = {
         "항암 화학 치료",
         "수술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n전이가 없고 수술을 감당할 폐기능이 있는 초기 비소세포폐암은 절제술과 림프절 평가가 치료의 기본이다. 이 문항들의 강의 기준은 폐엽절제 및 종격동 림프절 평가에 해당한다. 현재는 엄선한 작은 말초 종양에서 구역절제도 고려하지만, 이를 모든 초기암의 정답으로 바꾸지는 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 56-64쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -31721,7 +38466,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-074",
@@ -31813,10 +38586,12 @@ window.JBL_DATA = {
         "저선량 CT를 이용한 폐암 선별검사는 흡연자에서 폐암사망률을 감소시킨",
         "다. 6. 폐암은 우리나라 암 발병률 1위의 암이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n고위험 흡연자에서 저선량 CT 선별검사는 폐암 사망률을 감소시킨다. 폐암 발병을 막는 검사라는 뜻은 아니다. 발생률·사망률·유병률을 구분하는 것이 핵심이다. 복원문에 문장이 잘린 부분이 있으나 해당 선택지의 의미는 사망률 감소로 명확하다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 13-14쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -31841,7 +38616,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-076",
@@ -31930,10 +38726,12 @@ window.JBL_DATA = {
         "임상증상",
         "성별"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n폐암의 해부학적 병기는 종양의 크기·주변 구조 침범(T), 림프절 전이(N), 원격 전이(M)로 정하며 생존 예측의 중심 기준이다. EGFR 변이는 치료약 선택에는 중요하지만 TNM 병기를 결정하는 항목은 아니다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 51-56쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -31958,7 +38756,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-078",
@@ -31980,10 +38803,12 @@ window.JBL_DATA = {
         "항결핵제",
         "항생제"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n고열을 동반한 loculated 흉수 또는 낮은 pH·포도당과 높은 LDH는 복잡성 폐렴연관 흉수/농흉을 시사한다. 항생제만 투여하지 않고 흉관 배액을 함께 고려한다. LDH >1,000 U/L, glucose <60 mg/dL, pH <7.2 등이 강의의 중요 지표다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 26-27쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -32008,7 +38833,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              26,
+              27
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-079",
@@ -32111,10 +38957,12 @@ window.JBL_DATA = {
         "단백 5.0 g/dL",
         "아밀라제 200 IU/L"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n심근경색 후 약물 중단, 말초부종과 흉수는 심부전에 의한 여출액을 시사한다. 비교적 정상에 가까운 pH 7.45가 적절하다. 낮은 포도당이나 높은 단백질은 염증성·악성 삼출액을 더 시사하며, LDH 210/320은 0.6을 넘어 삼출액 기준에 걸린다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 13-16,35쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -32139,7 +38987,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              13,
+              14,
+              15,
+              16,
+              35
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-081",
@@ -32161,10 +39033,12 @@ window.JBL_DATA = {
         "폐부분절술 + 수술 후 방사선치료 및 항암 치료",
         "폐구역절제술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n전이가 없고 수술을 감당할 폐기능이 있는 초기 비소세포폐암은 절제술과 림프절 평가가 치료의 기본이다. 이 문항들의 강의 기준은 폐엽절제 및 종격동 림프절 평가에 해당한다. 현재는 엄선한 작은 말초 종양에서 구역절제도 고려하지만, 이를 모든 초기암의 정답으로 바꾸지는 않는다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 56-64쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -32189,7 +39063,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-082",
@@ -32450,10 +39352,12 @@ window.JBL_DATA = {
         "혈관염",
         "폐농양"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n기존 공동 안의 둥근 연부조직 덩어리와 이를 둘러싼 초승달 모양 공기는 fungus ball, 즉 aspergilloma를 시사한다. 간헐적 객혈도 잘 맞는다. 공동 전체가 액체로 차는 폐농양이나 불규칙한 공동벽 자체가 종양인 폐암과 구분한다.\n\n~~근거: 38기 강의록 「20251023_13. 흉부영상 총론 II_이경희(도훈)」 PDF 49-52쪽.~~~",
       "images": [
         "J/2021/q085_01.jpg"
       ],
@@ -32487,7 +39391,30 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L1",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "name": "20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "pages": [
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-086",
@@ -32509,10 +39436,12 @@ window.JBL_DATA = {
         "폐암",
         "전이암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n양측 폐기저부·흉막하의 reticulation과 여러 층의 honeycombing은 UIP pattern을 시사하여 보기에서는 특발간질폐렴이 맞는다. 영상만으로 원인을 무조건 특발성으로 확정하는 것은 아니므로 실제 진단에서는 약물·결체조직질환·노출력 등을 배제한다.\n\n~~근거: 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 43-44쪽; 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 122쪽.~~~",
       "images": [
         "J/2021/q086_01.jpg"
       ],
@@ -32546,7 +39475,37 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              43,
+              44
+            ]
+          },
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              122
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-087",
@@ -32568,10 +39527,12 @@ window.JBL_DATA = {
         "사르코이드증",
         "클렙시엘라 폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n우상엽 무기폐로 끌려 올라간 엽간열이 폐문 쪽 종괴 때문에 볼록해지면서 Golden S sign을 이룬다. 원인은 기관지를 막은 중심성 폐암이다. 특히 498·635번 사진은 38기 흉부영상각론1 29쪽의 사진과 일치한다. Klebsiella 폐렴의 팽창성 경화와 bulging fissure로 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 28-30쪽; 38기 정리본 「1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs」 PDF 5쪽.~~~",
       "images": [
         "J/2021/q087_01.jpg"
       ],
@@ -32605,7 +39566,38 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "key": "S30",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs.pdf",
+            "name": "1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs.pdf",
+            "pages": [
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-088",
@@ -32627,10 +39619,12 @@ window.JBL_DATA = {
         "T4N3M1a",
         "T1cN2M0"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n우하엽 원발종양 외에 동측 다른 엽의 결절이 보여 T4, 반대편 종격동 림프절 전이로 N3, 반대편 폐 결절로 M1a를 판단한다. 같은 엽의 별도 결절은 T3, 동측 다른 엽은 T4, 반대쪽 폐는 M1a라는 위치 기준을 구분해야 한다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 56,59,63,73쪽.~~~",
       "images": [
         "J/2021/q088_01.jpg"
       ],
@@ -32664,7 +39658,30 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              56,
+              59,
+              63,
+              73
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-089",
@@ -32888,9 +39905,13 @@ window.JBL_DATA = {
         "흉부 X-ray 사진보다 관류결손이 작은 경우 고확률이다."
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "answerLabel": "정답: ①·②·③ (복수정답)",
+      "explanation": "정답: ①·②·③ (복수정답)\n\n현재 표현대로는 1·2·3번이 성립한다. 고확률의 정확한 기준은 80% 초과이며, 이는 60% 이상에도 포함되므로 1번을 수학적으로 틀렸다고 할 수 없다. 중등도 불일치 분절상 결손 4개 이상은 고확률, 관류결손이 없으면 정상이다. 단일 정답을 원했다면 1번의 부등식이나 복수선택 지시를 확인해야 한다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 41-42쪽.~~~",
       "images": [],
       "legacyProfessor": "이민경",
       "professor": "유민영",
@@ -32915,7 +39936,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              41,
+              42
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-092",
@@ -33314,10 +40356,12 @@ window.JBL_DATA = {
         "세포형 비특이성 간질성 폐렴, 특발성 기질화 폐렴과 박리성 간질성 폐렴은 부신피질호르몬제에 비교적 불량한 반응을 보인다.",
         "급성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "잠정 정답: ①",
+      "explanation": "잠정 정답: ①\n\nNSIP에서 흉막 바로 밑이 상대적으로 보존되는 subpleural sparing은 중요한 감별 소견이다. 흡연 관련군은 COP가 아니라 DIP·RB-ILD이고, NSIP·COP는 BAL 림프구 증가 및 비교적 좋은 steroid 반응과 연결된다. 5번의 원인 질환 재평가도 임상적으로 잘못된 원칙은 아니므로, 이 문제는 강의에서 직접 강조한 특징인 1번을 단일최선답으로 해석한다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 73-79,84-87,96,102-107쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -33342,7 +40386,44 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              84,
+              85,
+              86,
+              87,
+              96,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-098",
@@ -33441,10 +40522,12 @@ window.JBL_DATA = {
         "폐기종",
         "선천성 폐분리증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n좌측에 visceral pleural line이 보이고 그 바깥쪽에는 폐혈관 음영이 없어 pneumothorax이다. 안쪽으로 쪼그라든 폐와 흉벽 사이의 공기를 찾는 것이 핵심이다. 단순히 폐가 검게 보인다는 이유로 폐기종으로 고르지 않는다.\n\n~~근거: 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 10,20쪽.~~~",
       "images": [
         "J/2021/q099_01.jpg"
       ],
@@ -33478,7 +40561,28 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              10,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-100",
@@ -33565,10 +40669,12 @@ window.JBL_DATA = {
         "BAL상 lymphocytosis와 CD4/8 비가 증가하는 특징적 소견을 보인다.",
         "조직검사상 특징적인 geographic & temporal homogeneity를 보인다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nUIP의 핵심 영상 소견은 subpleural·basal predominance와 honeycombing이며 traction bronchiectasis가 함께 보일 수 있다. 시간적·공간적 이질성을 보이고 NSIP처럼 균일한 시기의 병변이 아니다. 전형적인 UIP 영상과 적절한 임상 조건이 맞으면 언제나 폐생검이 필요한 것은 아니다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 30,122쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -33593,7 +40699,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              30,
+              122
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-102",
@@ -33615,10 +40742,12 @@ window.JBL_DATA = {
         "특발성 폐섬유증에서 섬유화가 진행되면 bibasilar inspiratory velcro-crackle을 특징적으로 청진할 수 있다.",
         "HRCT에서 probable UIP, Histopathology에서 probable UIP이면 최종 진단은 IPF가 아니다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n양측 폐기저부의 흡기성 Velcro crackle이 IPF의 대표 진찰 소견이다. 초기에는 운동 시 호흡곤란과 마른기침이 흔하고 fibroblastic focus는 오래된 섬유화가 아니라 비교적 활발한 섬유화 부위다. 급성 악화는 steroid를 쓰더라도 예후가 나쁘며, probable UIP라는 이름만으로 IPF를 배제하지 않는다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 18-30쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -33643,7 +40772,39 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-103",
@@ -33665,10 +40826,12 @@ window.JBL_DATA = {
         "Paraseptal emphysema",
         "Honeycombing"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n화살표는 흉막하에 여러 층으로 모인 벽이 있는 낭성 공기공간, 즉 honeycombing을 가리킨다. UIP의 진행된 섬유화 소견이다. 길게 늘어난 기관지인 traction bronchiectasis나, 주로 한 층의 흉막하 저음영인 paraseptal emphysema와 구분한다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 30,122쪽; 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 43-44쪽.~~~",
       "images": [
         "J/2021/q103_01.jpg"
       ],
@@ -33702,7 +40865,38 @@ window.JBL_DATA = {
           "role": "reconstruction_body_image_not_verified_as_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              30,
+              122
+            ]
+          },
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              43,
+              44
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-104",
@@ -33724,10 +40918,12 @@ window.JBL_DATA = {
         "Allergic bronchopulmonary aspergillosis는 aspergillus의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.",
         "류마티스 관절염은 여자에서 더 많으나 류마티스 관절염에 의한 간질성 폐질환은 남자에서 많다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n류마티스관절염 자체는 여성에 더 흔하지만 RA 관련 ILD는 남성에서 더 흔하다. 강의는 각각 남녀비 1:2와 3:1로 대비한다. PAP를 일반적으로 steroid로 치료하지 않으며, ABPA를 단순한 진균 침습 감염으로 설명하는 것도 틀리다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 6,86,88-89쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -33752,7 +40948,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              6,
+              86,
+              88,
+              89
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-105",
@@ -33774,10 +40993,12 @@ window.JBL_DATA = {
         "프레드니솔론",
         "배농"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2021/q105_01.jpg"
       ],
@@ -33834,7 +41055,27 @@ window.JBL_DATA = {
             "2025-093"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-106",
@@ -33856,10 +41097,12 @@ window.JBL_DATA = {
         "과민성 폐장염의 가장 중요한 예후 인자는 섬유화를 동반하였는지의 여부이다.",
         "유육종증은 폐와 림프절에 발생하는 경우에는 병기에 관계없이 저절로 호전되는 경우가 더 많기 때문에 대부분에서 부신피질호르몬제의 투여가 필요하지 않다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nHP에서 섬유화 동반 여부는 예후를 크게 가르는 기준이다. 원인 항원 노출을 피하는 것이 중요하며, precipitin 양성만으로 확진할 수 없다. Sarcoidosis의 육아종은 건락성이 아니라 비건락성이고, 모든 병기가 자연 호전되거나 steroid가 불필요한 것은 아니다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 48-56쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -33884,7 +41127,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-107",
@@ -33906,10 +41177,12 @@ window.JBL_DATA = {
         "기관내삽관",
         "기관절개술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n컹컹거리는 기침, 쉰 목소리, 들숨 stridor와 흉벽 함몰은 크룹의 전형적인 조합이다. 덱사메타손으로 상기도 부종을 줄이며, 중등도 이상에서는 흡입 에피네프린도 고려한다. 곧바로 기관절개술이나 항생제를 선택할 상황은 아니다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2021/q107_01.jpg"
       ],
@@ -33966,7 +41239,27 @@ window.JBL_DATA = {
             "2025-092"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-108",
@@ -33988,10 +41281,12 @@ window.JBL_DATA = {
         "클라리트로마이신",
         "레보세티리진"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2021/q108_01.jpg"
       ],
@@ -34048,7 +41343,27 @@ window.JBL_DATA = {
             "2025-094"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-109",
@@ -34072,8 +41387,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n출제 의도는 1번의 차단 비율을 약 0.1%와 구분하려는 것으로 보인다. 그러나 현재 선지는 10%가 아니라 10% 이하이므로 0.1%도 포함된다. 나머지 보기 역시 기본 원리에 맞아 명확한 오답이 없으며, 정답을 임의로 확정하지 않는다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 8,11,41-42쪽.~~~",
       "images": [],
       "legacyProfessor": "이민경",
       "professor": "유민영",
@@ -34098,7 +41413,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              8,
+              11,
+              41,
+              42
+            ]
+          }
+        ],
+        "proposedAnswerIndices": [
+          1
+        ]
+      }
     },
     {
       "id": "2021-110",
@@ -34122,8 +41463,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n진단은 영아의 급성 세기관지염이다. 첫 천명, 선행 콧물·기침과 경미한 염증 소견이 근거다. 치료의 기본은 산소화·수분상태를 평가한 지지치료이며 살부타몰을 일률적으로 투여하지 않는다. 현재 보기에는 기본 지지치료가 없고, 이 증례에 기관지확장제를 선택해야 한다는 강의 근거도 확인되지 않아 자동 채점은 보류한다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽 · [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations 보충 근거 1].~~~",
       "images": [
         "J/2021/q110_01.jpg"
       ],
@@ -34180,7 +41521,30 @@ window.JBL_DATA = {
             "2025-095"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.nice.org.uk/guidance/ng9/chapter/Recommendations"
+        ]
+      }
     },
     {
       "id": "2021-111",
@@ -34202,10 +41566,12 @@ window.JBL_DATA = {
         "최대호기속도검사",
         "직접 유발 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n직업력 조사를 통해 작업 내용, 물질, 노출 시기, 근무일과 휴일의 증상 차이를 확인하는 것이 출발점이다. 검사는 천식이나 폐손상을 증명할 수 있지만, 직업과 질병의 시간적 관계는 상세한 노출력 없이는 판단하기 어렵다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 1,3쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -34230,7 +41596,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              1,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-112",
@@ -34252,10 +41639,12 @@ window.JBL_DATA = {
         "독성 흡입 폐손상",
         "규폐증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n화재 현장의 연기·유독가스·흄에 고농도로 노출되면 독성 흡입 폐손상이 발생할 수 있다. 소방수의 급성 화재 노출이라는 상황이 핵심이며, 규폐증·석면폐증은 주로 장기간의 특정 분진 노출과 연결한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 5쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -34296,7 +41685,27 @@ window.JBL_DATA = {
             "2025-098"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-113",
@@ -34318,10 +41727,12 @@ window.JBL_DATA = {
         "주석폐증",
         "면폐증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n규폐증은 결정형 silica를 흡입하는 채석·석재가공·터널·주조·도자기 등의 작업과 관련된다. 탄광부 진폐증뿐 아니라 제조업·건설업의 silica 분진 노출을 확인해야 한다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 13-16쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -34346,7 +41757,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-114",
@@ -34449,10 +41883,12 @@ window.JBL_DATA = {
         "직업성천식",
         "탄광부진폐증"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n이 강의의 당시 역학자료에서 국내 주요 사망원인으로 제시한 질환은 COPD다. 다른 보기의 특정 분진 질환들보다 질병 부담이 크다는 취지이며, 사망원인 순위 자체는 통계 연도에 따라 바뀌므로 현재의 순위로 일반화하지 않는다.\n\n~~근거: 38기 강의록 「251024_14 직업성폐질환_임종한 (영범, 광환)」 PDF 3-4쪽.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
@@ -34477,7 +41913,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L12",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "name": "251024_14 직업성폐질환_임종한 (영범, 광환).pdf",
+            "pages": [
+              3,
+              4
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-116",
@@ -34499,10 +41956,12 @@ window.JBL_DATA = {
         "D-dimer",
         "Venous ultrasonography"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\nD-dimer는 민감도가 높고 특이도가 낮다. 임상 가능성이 낮거나 중간인 환자에서 음성일 때 폐색전증 배제에 유용하지만, 수술·감염·암·임신 등에서도 상승하므로 양성만으로 확진하지 않는다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 7-8쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -34547,7 +42006,28 @@ window.JBL_DATA = {
             "2025-115"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-117",
@@ -34630,10 +42110,12 @@ window.JBL_DATA = {
         "반감기가 짧아 수술 전 항응고치료 필요 시에 투여한다.",
         "피하 주사로 투여한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nWarfarin은 경구 vitamin K 길항제이며 PT를 표준화한 INR로 효과를 감시한다. 완전한 항응고 효과에는 수일이 걸리고 급성 폐색전증에서는 필요에 따라 초기 heparin과 겹쳐 사용한다. aPTT, 피하주사, 짧은 반감기라는 설명은 warfarin에 맞지 않는다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 14쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -34658,7 +42140,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-119",
@@ -34680,10 +42182,12 @@ window.JBL_DATA = {
         "Recent CNS surgery",
         "Hepatic failure"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n강의의 항응고치료 절대 금기는 심한 활동성 출혈, 두개내 출혈, 최근 2주 이내 중추신경계·안과 수술이다. 활동성 소화성궤양, 간부전, 출혈성 소인 등은 표에서 상대 금기로 구분한다. HIT에서는 heparin은 중단해야 하지만 모든 종류의 항응고치료가 금기인 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -34708,7 +42212,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-120",
@@ -34730,10 +42254,12 @@ window.JBL_DATA = {
         "야간 비침습적 양압환기",
         "Air stacking exercise"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nAir stacking은 여러 번의 흡기로 공기를 누적시켜 폐를 충분히 팽창시키는 방법이다. 신경근육질환에서 감소하기 쉬운 폐·흉곽의 유순도를 유지하는 목적이며, 기침으로 분비물을 빼내는 mechanical insufflation-exsufflation과 구분한다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -34774,7 +42300,36 @@ window.JBL_DATA = {
             "2022-125"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-121",
@@ -34796,10 +42351,12 @@ window.JBL_DATA = {
         "횡격막 호흡은 호기 시 가슴을 손으로 지그시 누르면서 숨을 내쉬게 한다.",
         "pursed lip breathing이나 huffing이 호흡과 객담배출에 도움이 된다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nPursed-lip breathing은 호기 시 기도 허탈을 줄이고, huffing은 성문을 연 상태에서 강하게 숨을 내쉬어 분비물을 이동시킨다. 흡기:호기는 보통 1:2 정도로 호기를 길게 하며, 객담이 적은 환자에게 타진과 체위배액이 항상 필요한 것은 아니다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -34824,7 +42381,36 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2021-122",
@@ -34846,10 +42432,12 @@ window.JBL_DATA = {
         "Prostacyclin analogue",
         "PDE5 inhibitor"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n적절한 PAH 환자에서 급성 혈관반응검사가 양성이면 고용량 calcium channel blocker에 반응할 가능성이 있다. 강의의 양성 기준은 심박출량 감소 없이 mPAP가 10 mmHg 이상 감소하면서 40 mmHg 이하가 되는 것이다. 모든 종류의 폐고혈압에 CCB를 일률적으로 쓰는 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 35-37쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -34894,7 +42482,29 @@ window.JBL_DATA = {
             "2023-112"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              35,
+              36,
+              37
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-001",
@@ -35352,10 +42962,12 @@ window.JBL_DATA = {
         "협대역 기관지내시경 검사를 통하여 3차원 이미지를 얻을 수 있다.",
         "기관지폐포세척술(bronchoalveolar lavage)을 통하여 조직을 얻을 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nEBUS-TBNA는 폐문·종격동 림프절을 초음파로 확인하고 바늘로 채취하여 폐암 진단과 병기 평가에 이용한다. BAL은 주로 세척액의 세포·미생물 검사이며 조직생검과 다르고, 자가형광 검사는 높은 특이도를 보장하지 않는다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 15,21-24쪽.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -35380,7 +42992,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": [
+              15,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-008",
@@ -35402,10 +43038,12 @@ window.JBL_DATA = {
         "증류수를 이용하여 유도 객담 검사를 시행한다",
         "가래는 비인두에서 나오는 분비물이다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n객담은 하부기도에서 나온 분비물이며 타액·비인두 분비물과 구분한다. 편평상피세포가 많으면 구강 오염을 의심한다. Streptococcus 일부나 Candida는 집락화·오염으로 검출될 수 있지만 결핵균을 정상균으로 취급하지 않는다. 유도객담에는 일반적으로 고장성 식염수를 사용한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」; 38기 정리본 「1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs」.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -35430,7 +43068,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L17",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
+            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "pages": []
+          },
+          {
+            "key": "S21",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
+            "name": "1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2020-009",
@@ -36935,10 +44598,12 @@ window.JBL_DATA = {
         "Zileuton",
         "Cromolyn"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nAlbuterol과 그 활성 R-이성질체인 levalbuterol은 속효성 β₂ 작용제(SABA)다. 급성 기관지 수축을 빠르게 완화하며, ICS·cromolyn·zileuton 같은 조절제를 즉각적인 기관지확장제 대신 선택하지 않는다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 12-14쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -36963,7 +44628,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              12,
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-030",
@@ -36985,10 +44672,12 @@ window.JBL_DATA = {
         "Bronchocontraction",
         "Sedation"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nTheophylline은 치료역이 좁고 혈중 농도가 높아지면 중추신경 자극으로 경련, 심장 자극으로 빈맥·부정맥을 일으킬 수 있다. 진정·졸림·서맥이 아니라 seizure를 고른다.\n\n~~근거: 38기 강의록 「251023_12.천식약제약물_김채균(소은)」 PDF 15-16쪽.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -37029,7 +44718,28 @@ window.JBL_DATA = {
             "2023-058"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L10",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251023_12.천식약제약물_김채균(소은).pdf",
+            "name": "251023_12.천식약제약물_김채균(소은).pdf",
+            "pages": [
+              15,
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-031",
@@ -37051,10 +44761,12 @@ window.JBL_DATA = {
         "부데소니드",
         "아목시실린-클라불란산"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n컹컹거리는 기침·쉰 목소리·들숨 stridor는 크룹을 가리킨다. 이 문항에는 덱사메타손이 없고 흡입 부데소니드가 제시되어 있으므로 4번을 고른다. 부데소니드는 기도 부종을 줄이는 스테로이드다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2020/q031_01.jpg",
         "J/2020/q031_02.jpg"
@@ -37115,7 +44827,27 @@ window.JBL_DATA = {
             "2025-092"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-032",
@@ -37137,10 +44869,12 @@ window.JBL_DATA = {
         "아목시실린",
         "프레드니솔론"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2020/q032_01.jpg"
       ],
@@ -37196,7 +44930,27 @@ window.JBL_DATA = {
             "2025-093"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-033",
@@ -37218,10 +44972,12 @@ window.JBL_DATA = {
         "클라리트로마이신",
         "아목시실린+클라불란산"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽.~~~",
       "images": [
         "J/2020/q033_01.jpg",
         "J/2020/q033_02.jpg",
@@ -37287,7 +45043,27 @@ window.JBL_DATA = {
             "2025-094"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-034",
@@ -37311,8 +45087,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n진단은 영아의 급성 세기관지염이다. 첫 천명, 선행 콧물·기침과 경미한 염증 소견이 근거다. 치료의 기본은 산소화·수분상태를 평가한 지지치료이며 살부타몰을 일률적으로 투여하지 않는다. 현재 보기에는 기본 지지치료가 없고, 이 증례에 기관지확장제를 선택해야 한다는 강의 근거도 확인되지 않아 자동 채점은 보류한다.\n\n~~근거: 38기 정리본 「1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs」 PDF 1쪽 · [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations 보충 근거 1].~~~",
       "images": [],
       "legacyProfessor": "임대현",
       "professor": "임대현",
@@ -37362,7 +45138,30 @@ window.JBL_DATA = {
             "2025-095"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S38",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "name": "1103 정리본 (38, 39. 소아호흡기학 총론, 각론 _ 임대현) - Google Docs.pdf",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.nice.org.uk/guidance/ng9/chapter/Recommendations"
+        ]
+      }
     },
     {
       "id": "2020-035",
@@ -37521,10 +45320,12 @@ window.JBL_DATA = {
         "호흡에 불리한 급속 눈운동 수면을 더 많이 한다.",
         "기도의 구조적인 특징으로 학동기 아동보다 상대적으로 기도저항 증가가 적다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n신생아의 저산소 반응은 초기 환기 증가 뒤 환기가 감소하는 이상성 반응이다. 영아는 REM 수면 비중이 크고 흉벽이 유연하며 기도가 좁아 호흡기 질환에 취약하다. 성인보다 CO₂ 반응이 더 강하거나 기도 저항 증가가 적다는 설명은 반대다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 4-5쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -37549,7 +45350,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-038",
@@ -37571,10 +45393,12 @@ window.JBL_DATA = {
         "경부 X-선 (전후, 측면)",
         "수술 (supraglottoplasty)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n생후 수주부터 생긴 흡기성 stridor가 supine position과 울 때 심해지지만 수유와 성장이 정상인 전형적인 경증 후두연화증이다. 대개 성장하며 호전되어 경과를 관찰한다. 진단 확인에는 후두경을 이용할 수 있으나, 저산소증·성장부전·심한 호흡곤란이 없는 이 증례에서 산소나 수술을 먼저 시행할 이유는 없다. 수면 자세 자체를 prone position으로 권장한다는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251028_27. 소아호흡기 II(1번째수업) (김정희)」 PDF 51-52쪽.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
@@ -37599,7 +45423,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L19",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "name": "251028_27. 소아호흡기 II(1번째수업) (김정희).pdf",
+            "pages": [
+              51,
+              52
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-039",
@@ -37621,10 +45466,12 @@ window.JBL_DATA = {
         "폐격리증 (pulmonary sequestration)",
         "선천폐기도기형 (congenital pulmonary airway malformation)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n한 폐엽에 여러 낭성 공간이 모여 있는 CT 소견은 선천성 폐기도기형(CPAM)에 맞는다. 감염을 계기로 발견될 수 있으며, 단일한 두꺼운 벽의 농양이나 전신동맥 공급이 특징인 폐격리증과 구분한다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 4-13쪽.~~~",
       "images": [
         "J/2020/q039_01.jpg",
         "J/2020/q039_02.jpg"
@@ -37677,7 +45524,36 @@ window.JBL_DATA = {
             "2022-059"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-040",
@@ -37699,10 +45575,12 @@ window.JBL_DATA = {
         "급성세기관지염",
         "지역사회획득폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n반복 구토 뒤 기침·호흡곤란이 생기고 누운 영아에서 의존 부위인 상엽 후방에 침윤이 보이면 흡인폐렴을 생각한다. 국소 폐렴만 보고 원발성 세균 감염으로 단정하지 않고, 구토와 흡인의 시간적 관계를 함께 읽는다.\n\n~~근거: 38기 강의록 「251028_28. 소아호흡기 II(2번째수업) (김정희)」 PDF 42-45쪽.~~~",
       "images": [
         "J/2020/q040_01.jpg",
         "J/2020/q040_02.jpg"
@@ -37739,7 +45617,30 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L20",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "name": "251028_28. 소아호흡기 II(2번째수업) (김정희).pdf",
+            "pages": [
+              42,
+              43,
+              44,
+              45
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-041",
@@ -38114,10 +46015,12 @@ window.JBL_DATA = {
         "A: IPF / B: AIP / C: COP",
         "A: Idiopathic NSIP / B: COP / C: DIP"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nAIP는 수일∼수주 내 빠르게 호흡부전으로 진행하고 COP는 보통 3개월 미만의 아급성 경과를 보인다. IPF·NSIP는 만성 섬유화군, RB-ILD·DIP는 흡연 관련군으로 묶는다. COP와 AIP의 시간 경과 및 steroid 반응을 서로 바꾸어 외우지 않는 것이 핵심이다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 86,96,102,107,121-123쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -38142,7 +46045,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              86,
+              96,
+              102,
+              107,
+              121,
+              122,
+              123
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-046",
@@ -38165,10 +46094,12 @@ window.JBL_DATA = {
         "diffuse / central / micronodules",
         "subpleural / peribronchovascular / consolidation"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nUIP의 핵심 영상 소견은 subpleural·basal predominance와 honeycombing이며 traction bronchiectasis가 함께 보일 수 있다. 시간적·공간적 이질성을 보이고 NSIP처럼 균일한 시기의 병변이 아니다. 전형적인 UIP 영상과 적절한 임상 조건이 맞으면 언제나 폐생검이 필요한 것은 아니다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 30,122쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -38195,7 +46126,28 @@ window.JBL_DATA = {
         "같은 연도의 동일 발문·선지. 공식 시험지에 실제로 두 번 수록되어 원번호를 별칭으로 보존하고 하나로 합침."
       ],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              30,
+              122
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-047",
@@ -38217,10 +46169,12 @@ window.JBL_DATA = {
         "급성 간질성 폐렴",
         "박리성 간질성 폐렴"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n아급성 독감 유사 증상, 말초·하폐야의 이동성 경화와 GGO, BAL 림프구 증가 및 CD4/CD8 감소, 좋은 steroid 반응을 합치면 COP이다. IPF의 만성 비가역적 섬유화나 AIP의 급격한 중증 호흡부전과 구분한다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 85-87쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -38245,7 +46199,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              85,
+              86,
+              87
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-049",
@@ -38267,10 +46243,12 @@ window.JBL_DATA = {
         "특발성 기질화 폐렴과 호흡세기관지염과 연관된 간질성 폐질환은 pigmented granule을 가진 macrophage가 중요한 소견이다.",
         "비특이성 간질성 폐렴은 병리 소견상 Temporal heterogeneity가 특징적 소견이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nNSIP pattern은 결체조직질환·약물·과민성 폐렴 등에 동반될 수 있어 진단 전후로 원인 질환을 찾아야 한다. COP는 아급성이고 steroid 반응이 좋으며, AIP는 급성 호흡부전과 나쁜 예후가 특징이다. RB-ILD는 세기관지 중심 대식세포, DIP는 주로 하폐야 GGO와 폐포 내 대식세포 축적을 보인다.\n\n~~근거: 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 72-87,95-107쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -38295,7 +46273,55 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-050",
@@ -38317,10 +46343,12 @@ window.JBL_DATA = {
         "Allergic bronchopulmonary aspergillosis는 균의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.",
         "Goodpasture 증후군은 다발성 결절의 소견을 보이며 c-ANCA 양성이 특징이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nCEP는 AEP보다 서서히 발생하고 steroid에 잘 반응하지만 조기에 중단하면 재발하기 쉽다. AEP는 빠른 호흡부전에도 치료 후 재발은 드물다는 점이 대조된다. Goodpasture syndrome은 anti-GBM 항체와 폐포출혈·신장염을 연결하며 c-ANCA 결절성 혈관염으로 설명하지 않는다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 75,81쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -38345,7 +46373,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              75,
+              81
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-051",
@@ -38367,10 +46416,12 @@ window.JBL_DATA = {
         "유육종증은 폐와 림프절에 흔하게 발생하며 BAL 소견상 림프구가 증가하고 조직 검사에서 치즈괴사성 육아종 (caseous necrotic granuloma)을 형성한다.",
         "유육종증은 hypocalcemia, hypocalciuria, skin anergy 등의 소견을 보일 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nHP에서 serum precipitin은 원인 항원 노출을 뒷받침하지만 단독 확진 소견은 아니다. Thermophilic actinomycetes는 특히 farmer’s lung의 전통적인 주요 항원이다. 강의도 과거의 대표 원인이라는 맥락으로 제시하므로, 모든 환경에서 언제나 가장 흔한 항원이라고 확대해 외우지 않는다.\n\n~~근거: 38기 강의록 「251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진)」 PDF 48-53쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -38395,7 +46446,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L5",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "name": "251022_ 8. 교원성 과민성 호산구성 폐질환(장혜진).pdf",
+            "pages": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-052",
@@ -38615,10 +46691,12 @@ window.JBL_DATA = {
         "가래에서 결핵균이 검출되었는지 확인",
         "현미경 소견에서 병변 부위에 분포하는 낭의 크기와 낭을 구성하는 세포의 분화 정도"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n기도와 정상적으로 연결되지 않는 하엽 폐조직에 반복 감염이 생긴 경우 폐격리증을 의심한다. 대동맥 또는 그 분지에서 오는 비정상 전신동맥 공급을 확인하는 것이 핵심이다. CPAM은 낭성 기도의 형태와 상피 분화를 중심으로 구분한다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 8-9쪽.~~~",
       "images": [
         "J/2020/q054_01.jpg",
         "J/2020/q054_02.jpg"
@@ -38655,7 +46733,28 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              8,
+              9
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-055",
@@ -38679,8 +46778,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n제시된 조직과 CD56·chromogranin 양성은 폐 신경내분비암의 간 전이를 검토하게 한다. 그러나 현재 공식 문항에 수록된 보기에는 해당 진단이 없으며 간세포암·담관암·농양·부종·육아종만 제시되어 있다. 신경내분비 분화를 보인다는 이유로 전혀 다른 암을 고를 수 없어 정답을 확정하지 않는다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-36쪽.~~~",
       "images": [
         "J/2020/q055_01.jpg",
         "J/2020/q055_02.jpg",
@@ -38724,7 +46823,33 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              13,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-056",
@@ -38746,10 +46871,12 @@ window.JBL_DATA = {
         "High tumor mutation burden (TMB)",
         "NAB2-STAT6 fusion"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7-8쪽.~~~",
       "images": [
         "J/2020/q056_01.jpg"
       ],
@@ -38799,7 +46926,28 @@ window.JBL_DATA = {
             "2025-008"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-057",
@@ -38821,10 +46969,12 @@ window.JBL_DATA = {
         "Non-seminomatous germ cell tumor",
         "Thymoma"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n중년 환자의 천천히 자라는 앞종격동 종괴로 림프절 종대가 없고 AFP·β-hCG가 정상인 경우 흉선종이 가장 유력하다. 빠른 성장·전신 림프절병증이 특징인 림프종이나 뚜렷한 침윤성 흉선암과 대비한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-25쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -38849,7 +46999,34 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L32",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
+            "pages": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-058",
@@ -38945,10 +47122,12 @@ window.JBL_DATA = {
         "Elastic stain",
         "Masson-Trichrome stain"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n육아종과 거대세포 속에 맑은 테두리를 가진 둥근 효모가 보여 Cryptococcus를 의심한다. GMS로 진균 벽을, Alcian blue 등으로 다당류 피막을 확인할 수 있다. 길고 분지하는 균사가 특징인 Aspergillus나 항산균 염색으로 확인하는 결핵과 구분한다.\n\n~~근거: 38기 강의록 「251028_23 ~ 26폐질환의 병리(김루시아)」 PDF 165-174쪽.~~~",
       "images": [
         "J/2020/q059_01.jpg",
         "J/2020/q059_02.jpg"
@@ -39004,7 +47183,36 @@ window.JBL_DATA = {
             "2025-013"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L18",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "name": "251028_23 ~ 26폐질환의 병리(김루시아).pdf",
+            "pages": [
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-060",
@@ -39022,8 +47230,8 @@ window.JBL_DATA = {
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "참고 답안: 폐 편평상피세포암(squamous cell carcinoma of the lung).",
+      "explanation": "참고 답안: 폐 편평상피세포암(squamous cell carcinoma of the lung).\n\n종양세포가 둥지를 이루고 중심부 각질화가 보이는 편평상피세포암이다. 폐선암의 샘 구조·점액이나 소세포암의 작은 세포와 nuclear molding보다 편평상피 분화가 핵심이다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 27-30쪽.~~~",
       "images": [
         "J/2020/q060_01.jpg",
         "J/2020/q060_02.jpg"
@@ -39060,7 +47268,31 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "written",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        ],
+        "modelAnswer": "폐 편평상피세포암(squamous cell carcinoma of the lung)."
+      }
     },
     {
       "id": "2020-061",
@@ -39206,10 +47438,12 @@ window.JBL_DATA = {
         "ROS1 fusion을 찾기 위한 reverse transcription PCR 검사",
         "HER2 amplification을 찾기 위한 면역조직화학염색"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n폐선암의 진단과 표적치료를 위한 검사들이다. TTF-1 IHC는 폐 기원을 지지하고 EGFR PCR·ALK FISH·ROS1 RT-PCR은 각각의 변이를 평가한다. IHC는 단백질 발현을 보는 검사이므로 HER2 유전자 증폭을 직접 확인하는 검사라는 5번의 연결이 부정확하다. 증폭은 FISH·NGS 등으로 평가한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 14-15쪽.~~~",
       "images": [
         "J/2020/q063_01.jpg"
       ],
@@ -39241,7 +47475,28 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              14,
+              15
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-064",
@@ -39325,10 +47580,12 @@ window.JBL_DATA = {
         "ALK",
         "RET"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\nRB1은 종양억제유전자이며 기능 상실이 암 발생에 기여한다. BRAF·ROS1·ALK·RET처럼 활성화 변이를 겨냥해 억제하는 driver oncogene과 구분한다. 특히 RB1 비활성화는 소세포암에서 TP53 변화와 함께 중요하다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7,13쪽.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -39353,7 +47610,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L31",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
+            "pages": [
+              7,
+              13
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-066",
@@ -39444,10 +47722,12 @@ window.JBL_DATA = {
         "SM 주사제와 INH, RFP 치료를 시작한다.",
         "수술적 절제를 고려한다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n결절성 기관지확장증에 도말 양성·결핵균 PCR 음성이면 NTM 폐질환이 유력하다. 항산균 배양과 균동정을 확인하여 균종과 반복 검출 여부에 맞춰 치료한다. 도말 양성이라는 이유만으로 곧바로 표준 결핵약을 투여하는 선택은 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2,4쪽.~~~",
       "images": [
         "J/2020/q067_01.jpg"
       ],
@@ -39479,7 +47759,28 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2,
+              4
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-068",
@@ -39501,10 +47802,12 @@ window.JBL_DATA = {
         "베다퀼린",
         "목시플록사신"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nMDR-TB는 INH와 rifampin 동시 내성이며, 치료의 주요 Group A 약제는 fluoroquinolone·bedaquiline·linezolid이다. PZA는 Group A가 아니다. 모든 환자에게 amikacin 또는 kanamycin을 반드시 6개월 이상 투여한다는 설명은 경구 중심 치료 원칙과 맞지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3쪽 · [https://www.who.int/publications/i/item/9789240018662 보충 근거 1] · [https://www.who.int/news/item/22-12-2018-who-updates-its-treatment-guidelines-for-multidrug--and-rifampicin-resistant-tuberculosis 보충 근거 2].~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -39529,7 +47832,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3
+            ]
+          }
+        ],
+        "externalSources": [
+          "https://www.who.int/publications/i/item/9789240018662",
+          "https://www.who.int/news/item/22-12-2018-who-updates-its-treatment-guidelines-for-multidrug--and-rifampicin-resistant-tuberculosis"
+        ]
+      }
     },
     {
       "id": "2020-069",
@@ -39551,10 +47878,12 @@ window.JBL_DATA = {
         "가래 곰팡이 검사",
         "혈청 아스페르길루스(aspergillus) 항체 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n과거 임의 중단한 결핵 치료력에 상엽 공동·야간 발한이 동반되면 결핵 재발과 약제 내성을 함께 평가한다. Xpert MTB/RIF로 결핵균과 rifampin 내성을 빠르게 확인하고 배양·추가 감수성 검사를 병행한다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -39579,7 +47908,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-070",
@@ -39601,10 +47951,12 @@ window.JBL_DATA = {
         "허혈성 심질환자",
         "두경부암 환자"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n이 문항은 잠복감염 뒤 활동성 결핵으로 진행할 고위험 질환을 구분한다. 당뇨병·투석·위절제·두경부암과 달리 허혈성 심질환 자체는 대표 고위험 인자에 포함되지 않는다. 다만 밀접접촉자라는 노출력만으로도 현재 지침상 치료 평가 대상이 될 수 있으므로, 4번 환자는 언제나 치료하지 않는다는 뜻으로 일반화하지 않는다.\n\n~~근거: 38기 정리본 「1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs」 PDF 3-4쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "유우경",
@@ -39629,7 +47981,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S41",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "name": "1104 정리본 (43. 결핵과 비결핵성 향산균 _ 유우경) - Google Docs.pdf",
+            "pages": [
+              3,
+              4
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-071",
@@ -39651,10 +48024,12 @@ window.JBL_DATA = {
         "Aspergillus 피부반응 검사",
         "혈청 C-reactive(CRP) 수치"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\nHRCT로 기관지확장증을 확인하고, 면역글로불린·항산균 배양·ABPA 평가 등으로 치료 가능한 원인을 찾는다. CRP는 현재 염증 정도의 보조 지표이지만 이 문항의 최소 원인 평가 묶음에 해당하지 않는다. Aspergillus 피부반응은 ABPA 감작 평가의 일부다.\n\n~~근거: 38기 강의록 「251030_35.기관지확장증_장혜진(도훈)」; 38기 정리본 「1030 정리본 (35. 기관지확장증 _ 장혜진) - Google Docs」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -39679,7 +48054,35 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L28",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_35.기관지확장증_장혜진(도훈).pdf",
+            "name": "251030_35.기관지확장증_장혜진(도훈).pdf",
+            "pages": []
+          },
+          {
+            "key": "S35",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 정리본 (35. 기관지확장증 _ 장혜진) - Google Docs.pdf",
+            "name": "1030 정리본 (35. 기관지확장증 _ 장혜진) - Google Docs.pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-072",
@@ -39701,10 +48104,12 @@ window.JBL_DATA = {
         "Staphylococcus aureus",
         "Klebsiella pneumoniae"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n음주·흡인 위험, 악취 나는 객담과 air-fluid level을 보이는 공동은 원발성 폐농양의 전형이다. 혐기균이 중요하며 clindamycin이나 β-lactam/β-lactamase inhibitor를 사용한다. 흡인 병변은 상엽 후분절·하엽 상분절 등 자세에 따른 의존 부위에 잘 생기므로 우중엽·좌설상엽을 대표 호발 부위로 제시한 설명은 맞지 않는다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 31-40쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -39729,7 +48134,36 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-073",
@@ -39751,10 +48185,12 @@ window.JBL_DATA = {
         "호흡수 30회 이상인 환자는 중증 폐렴(severe pneumonia)을 의심할 수 있다",
         "혈압 상승제에 반응하지 않는 쇽을 동반한 중증 폐렴 환자에게 스테로이드를 투여해 볼 수 있다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "잠정 정답: ②",
+      "explanation": "잠정 정답: ②\n\n출제 의도상 2번이다. 강의는 PCT만으로 CAP의 초기 항생제 투여 여부를 결정하지 말라는 지침을 강조한다. 다만 현재 선지의 도움을 준다는 표현은 너무 넓어서, 다른 임상정보와 함께 보조적으로 참고할 수 있다는 사실까지 부정해서는 안 된다. 입원 판단에는 CURB-65를 사용하며 불응성 패혈쇼크에서는 steroid를 고려할 수 있다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 17-19쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -39779,7 +48215,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              17,
+              18,
+              19
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-074",
@@ -39801,10 +48259,12 @@ window.JBL_DATA = {
         "세프타지딤",
         "호흡기 퀴놀론(레보플록사신)"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n최근 녹농균 감염이 확인된 병력은 경험적 항생제에서 녹농균을 포함해야 하는 중요한 단서다. 보기 중 ceftazidime이 항녹농균 β-lactam이다. Vancomycin·linezolid는 주로 MRSA를 겨냥하므로 대체할 수 없다.\n\n~~근거: 38기 강의록 「251030_33.폐렴, 폐농양_장혜진(소은)」 PDF 20-24쪽.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "김준",
@@ -39829,7 +48289,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L26",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "name": "251030_33.폐렴, 폐농양_장혜진(소은).pdf",
+            "pages": [
+              20,
+              21,
+              22,
+              23,
+              24
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-075",
@@ -39851,10 +48335,12 @@ window.JBL_DATA = {
         "흡기와 호기의 비율은 1:1로 하도록 한다.",
         "횡격막 호흡은 호기 시 가슴을 손으로 지그시 누르면서 숨을 내쉬게 한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의에서 설명하는 이완자세는 복부를 이완시키고 횡격막 운동과 보조호흡근 사용을 도와 호흡 부담을 줄인다. 다른 보기와 달리 2번이 이 취지에 맞는다. 느리고 깊게 호흡하고 호기를 길게 하며, 횡격막 호흡을 도울 때는 가슴이 아니라 복부에 손을 댄다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -39896,7 +48382,36 @@ window.JBL_DATA = {
             "2024-054"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-076",
@@ -39918,10 +48433,12 @@ window.JBL_DATA = {
         "야간 비침습적 양압환기",
         "Diaphragmatic breathing/pursed lip breathing"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nALS 환자의 peak cough flow가 190 L/min으로 낮아 분비물을 충분히 배출하기 어렵다. Mechanical insufflator-exsufflator는 양압으로 공기를 넣은 뒤 음압으로 빼내 기침을 보조한다. 이 증례의 핵심은 CO₂ 저류보다 기침 능력 저하이므로 야간 환기보조보다 객담 배출 보조를 먼저 고른다.\n\n~~근거: 38기 강의록 「251030_34. 호흡재활_좌경림(수민)」; 38기 정리본 「1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs」 PDF 3-5쪽.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
@@ -39964,7 +48481,36 @@ window.JBL_DATA = {
             "2025-119"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L27",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_34. 호흡재활_좌경림(수민).pdf",
+            "name": "251030_34. 호흡재활_좌경림(수민).pdf",
+            "pages": []
+          },
+          {
+            "key": "S32",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "name": "1030 강의록 (34. 호흡재활 _ 좌경림) - Google Docs.pdf",
+            "pages": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-077",
@@ -39986,10 +48532,12 @@ window.JBL_DATA = {
         "메타콜린 기관지유발시험",
         "스테로이드 치료 후 폐기능 검사"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n변동하는 기침·호흡곤란·천명으로 천식이 의심되므로 폐활량을 측정하고 기관지확장제 반응을 확인한다. 기류폐쇄의 가역성이 확인되면 진단을 뒷받침하며, 메타콜린 검사는 정상 폐기능 등으로 진단이 불분명할 때 고려한다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 9-15쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -40014,7 +48562,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-078",
@@ -40036,10 +48610,12 @@ window.JBL_DATA = {
         "저용량 스테로이드/formoterol 흡입제로 변경",
         "중간용량 스테로이드/지속성 베타2항진제 흡입제로 변경"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n이미 저용량 ICS–LABA를 쓰는데 야간 각성이 반복되므로 조절이 충분하지 않다. 흡입법과 순응도를 확인한 뒤 중간용량 ICS–LABA로 증량하는 것이 제시된 보기 중 적절하다. 저용량 ICS 단독에서 시작하는 다른 문항과 현재 치료 단계를 구분해야 한다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 24-26쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -40064,7 +48640,29 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              24,
+              25,
+              26
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-079",
@@ -40086,10 +48684,12 @@ window.JBL_DATA = {
         "알레르겐 감작 없이 기도 호산구염증이 나타날 수 있다.",
         "단일한 병태생리가 관여하기 때문에 생물학적 제제가 효과적이다"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n알레르겐 감작이 없는 비알레르기성 천식에서도 호산구성 기도염증이 나타날 수 있다. 천식은 이질적인 질환이며 약물에 의해 악화될 수 있다. 1번은 세균감염이 절대 악화시킬 수 없다는 뜻으로 배제하는 것이 아니라, 강의가 강조하는 전형적·흔한 감염성 악화가 바이러스성이라는 맥락에서 4번을 가장 명확한 답으로 고른다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 5-8쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -40114,7 +48714,30 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-080",
@@ -40136,10 +48759,12 @@ window.JBL_DATA = {
         "기관지확장을 위해 규칙적인 속효성 기관지확장제 치료를 권한다.",
         "구강 세척 후 마심으로 흡입 스테로이드의 부작용을 줄일 수 있다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n강의는 ICS 국소 부작용을 줄이는 방법으로 가글, spacer, 다른 흡입기 기구로 변경을 제시한다. 따라서 2번을 다른 device로 변경한다는 의미로 읽으면 답이 된다. 가글한 물은 뱉어야 하므로 5번의 마신다는 설명은 틀리며, 흡입력이 약한 환자에게 DPI를 권하거나 SABA를 규칙적으로 단독 사용하는 것도 적절하지 않다.\n\n~~근거: 38기 강의록 「251024_15 기관지천식_김철우 (소정, 단).pdf」 PDF 29-33쪽.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
@@ -40164,7 +48789,31 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L13",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "name": "251024_15 기관지천식_김철우 (소정, 단).pdf.pdf",
+            "pages": [
+              29,
+              30,
+              31,
+              32,
+              33
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-081",
@@ -40423,10 +49072,12 @@ window.JBL_DATA = {
         "각 Segment의 ventilation percentage를 반영한다.",
         "particle size는 대략 10～30 μm이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n폐관류스캔에서 MAA 분포는 각 영역의 혈류, 즉 perfusion을 반영한다. 4번의 ventilation percentage는 환기스캔의 정보이므로 틀리다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 8쪽.~~~",
       "images": [],
       "legacyProfessor": "이민경",
       "professor": "유민영",
@@ -40451,7 +49102,27 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              8
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-086",
@@ -40473,10 +49144,12 @@ window.JBL_DATA = {
         "4개 이상의 중등도 분절상 결손이 있고 환기 결손이 없음.",
         "1개 이상의 큰 분절상 결손이 있고 환기 결손이 없음."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n환기가 유지되는데 분절상 관류결손이 큰 것 2개 이상 또는 중등도 4개 이상이면 modified PIOPED 고확률에 해당한다. 단순히 큰 결손 1개만 있는 경우와 구분한다.\n\n~~근거: 38기 강의록 「251030_32. 핵의학검사_유민영 (명선)」 PDF 41-42쪽.~~~",
       "images": [
         "J/2020/q086_01.jpg",
         "J/2020/q086_02.jpg"
@@ -40515,7 +49188,28 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L25",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251030_32. 핵의학검사_유민영 (명선).pdf",
+            "name": "251030_32. 핵의학검사_유민영 (명선).pdf",
+            "pages": [
+              41,
+              42
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-087",
@@ -40537,10 +49231,12 @@ window.JBL_DATA = {
         "Fiber optic bronchoscopy",
         "Chest sonogram"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n이 문항의 보기는 다른 해의 폐관류스캔 문항과 다르다. 수술 전 폐기능의 기본 평가는 pulmonary function test로 시행하며 FEV₁, DLCO와 예상 수술 후 기능을 평가한다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -40565,7 +49261,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-088",
@@ -40586,10 +49303,12 @@ window.JBL_DATA = {
         "Chest MRI",
         "wedge resection"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -40636,7 +49355,28 @@ window.JBL_DATA = {
             "2025-017"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-089",
@@ -40658,10 +49398,12 @@ window.JBL_DATA = {
         "spine – superior border",
         "pleural space – lateral border"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n종격동의 위쪽은 thoracic inlet, 아래쪽은 diaphragm, 앞쪽은 sternum, 뒤쪽은 thoracic spine이다. 양옆은 mediastinal pleura로 경계 지어지므로, 보기의 pleural space–lateral border가 의도한 답이다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
@@ -40708,7 +49450,28 @@ window.JBL_DATA = {
             "2025-019"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-090",
@@ -40730,10 +49493,12 @@ window.JBL_DATA = {
         "PCNB를 통해 tissue confirm을 시행한다.",
         "종격동염이 의심되므로 항생제를 사용한다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n~~근거: 38기 정리본 「1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼)」 PDF 2-3쪽.~~~",
       "images": [
         "J/2020/q090_01.jpg"
       ],
@@ -40787,7 +49552,28 @@ window.JBL_DATA = {
             "2025-020"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "S40",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\3주차\\1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "name": "1104 정리본 (21. 중환자의학II _ 이만종) (44, 45, 46. 흉부외과 각론, 수술전 검사, 종격동 질환 _ 김영삼).pdf",
+            "pages": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-091",
@@ -40969,10 +49755,12 @@ window.JBL_DATA = {
         "Intracranial bleeding",
         "Bleeding diathesis"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "정답: ④\n\n강의의 항응고치료 절대 금기는 심한 활동성 출혈, 두개내 출혈, 최근 2주 이내 중추신경계·안과 수술이다. 활동성 소화성궤양, 간부전, 출혈성 소인 등은 표에서 상대 금기로 구분한다. HIT에서는 heparin은 중단해야 하지만 모든 종류의 항응고치료가 금기인 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 16쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -41017,7 +49805,27 @@ window.JBL_DATA = {
             "2025-114"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              16
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-094",
@@ -41039,10 +49847,12 @@ window.JBL_DATA = {
         "PDE5 inhibitor",
         "Prostacyclin analogue"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "정답: ①",
+      "explanation": "정답: ①\n\n적절한 PAH 환자에서 급성 혈관반응검사가 양성이면 고용량 calcium channel blocker에 반응할 가능성이 있다. 강의의 양성 기준은 심박출량 감소 없이 mPAP가 10 mmHg 이상 감소하면서 40 mmHg 이하가 되는 것이다. 모든 종류의 폐고혈압에 CCB를 일률적으로 쓰는 것은 아니다.\n\n~~근거: 38기 강의록 「251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영)」 PDF 35-37쪽.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
       "professor": "김혜수",
@@ -41087,7 +49897,29 @@ window.JBL_DATA = {
             "2023-112"
           ]
         }
-      ]
+      ],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L21",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "name": "251029_29 폐혈관질환_ 폐성심, 폐동맥고혈압, 폐색전증_장혜진 (나임, 아영).pdf",
+            "pages": [
+              35,
+              36,
+              37
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-095",
@@ -41109,10 +49941,12 @@ window.JBL_DATA = {
         "임상증상",
         "성별"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n폐암의 해부학적 병기는 종양의 크기·주변 구조 침범(T), 림프절 전이(N), 원격 전이(M)로 정하며 생존 예측의 중심 기준이다. EGFR 변이는 치료약 선택에는 중요하지만 TNM 병기를 결정하는 항목은 아니다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 51-56쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -41137,7 +49971,32 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-096",
@@ -41159,10 +50018,12 @@ window.JBL_DATA = {
         "역형성 림프종 수용체 티로신 키나아제 유전자 재배열",
         "판코스트종양"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\nCT의 큰 중심부·폐문 및 종격동 종괴 양상은 흡연과 관련이 강한 폐암을 우선 생각하게 한다. 비흡연 여성의 말초 선암에서 상대적으로 흔한 EGFR·ALK 특성을 영상만으로 붙이지 않는다. 사진 자체로 조직형이나 유전자형까지 확진할 수는 없다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 39-43쪽.~~~",
       "images": [
         "J/2020/q096_01.jpg"
       ],
@@ -41194,7 +50055,31 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-097",
@@ -41216,10 +50101,12 @@ window.JBL_DATA = {
         "방사선 및 항암화학 치료",
         "항암 화학 치료 후 수술"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n흉수에서 암세포가 확인된 악성 흉수는 M1a에 해당하여 원격 장기에 전이가 없어도 전이성 폐암이다. 단순히 폐 종괴가 작다는 이유로 수술하지 않고 전신 치료를 시행한다. 제시된 과거 선택지에서는 항암화학치료가 맞으며, 실제 약제는 조직형·분자표지자·전신상태에 따라 정한다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 51-64쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -41244,7 +50131,40 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-098",
@@ -41266,10 +50186,12 @@ window.JBL_DATA = {
         "성별로 보았을 때 남성보다 여성에서 폐암발병이 늘고 있다.",
         "직업 혹은 환경에 의한 발암물질 노출로 폐암이 발병하는 경우는 드물다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n고위험 흡연자에서 저선량 CT 선별검사는 폐암 사망률을 감소시킨다. 폐암 발병을 막는 검사라는 뜻은 아니다. 발생률·사망률·유병률을 구분하는 것이 핵심이다. 복원문에 문장이 잘린 부분이 있으나 해당 선택지의 의미는 사망률 감소로 명확하다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 13-14쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "임준혁",
@@ -41294,7 +50216,28 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              13,
+              14
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-099",
@@ -41318,8 +50261,8 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerLabel": "정답 확정 보류",
+      "explanation": "정답 확정 보류\n\n정답을 단정하기 어렵다. 호중구 70%는 폐렴연관 흉수를 지지하지만 ADA 54 IU/L는 결핵도 고려하게 하며, 초기 결핵에서도 호중구 우세가 가능하다. pH 7.4·glucose 70·LDH 700만으로 즉시 배액할 근거는 약하다. 폐렴 증상·영상이나 결핵 배양 등 추가 정보 없이 1번 항생제와 4번 항결핵제를 확실히 가르기 어렵고, 심근경색 병력만으로 이뇨제를 정답 처리할 수도 없다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 7,22,26쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -41344,7 +50287,33 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "unresolved",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              7,
+              22,
+              26
+            ]
+          }
+        ],
+        "proposedAnswerIndices": [
+          1,
+          4
+        ]
+      }
     },
     {
       "id": "2020-100",
@@ -41367,9 +50336,14 @@ window.JBL_DATA = {
         "폐색전증"
       ],
       "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "answerLabel": "정답: ①·②·③·⑤ (복수정답)",
+      "explanation": "정답: ①·②·③·⑤ (복수정답)\n\n현재 발문은 하나의 정답으로 성립하지 않는다. 간경화·신증후군·저단백혈증은 모두 대표적인 여출액 원인이다. 강의는 폐색전증도 여출액과 삼출액 양쪽에 포함하므로 5번도 가능하다. 급성심근경색 자체와 심부전으로 인한 여출액, 심근경색 후 염증성 흉막염은 구별해야 한다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 13-16쪽; 38기 정리본 「1031 정리본 (36. 흉막질환 _ 류정선) - Google Docs」 PDF 2쪽.~~~",
       "images": [],
       "legacyProfessor": "류정선",
       "professor": "김준",
@@ -41394,7 +50368,39 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [],
       "imageProvenance": [],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_multiple",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              13,
+              14,
+              15,
+              16
+            ]
+          },
+          {
+            "key": "S36",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (36. 흉막질환 _ 류정선) - Google Docs.pdf",
+            "name": "1031 정리본 (36. 흉막질환 _ 류정선) - Google Docs.pdf",
+            "pages": [
+              2
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-101",
@@ -41416,10 +50422,12 @@ window.JBL_DATA = {
         "흉부 CT 스캔",
         "기관지내시경"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "잠정 정답: ⑤",
+      "explanation": "잠정 정답: ⑤\n\n한쪽 흉곽이 거의 전부 희게 보이면서 종격동이 병변 쪽으로 당겨진 양상은 큰 흉수보다 폐쇄성 무기폐를 우선 생각하게 한다. 흡연자에서 주기관지를 막는 종양을 의심하여 기관지내시경으로 기도와 조직을 확인한다. CT도 폐쇄 원인 평가에 유용하지만 보기의 직접적인 진단 조치는 기관지내시경이다.\n\n~~근거: 38기 강의록 「251029_31 폐종양_임준혁 (소정,단).pdf」 PDF 25-38쪽; 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」.~~~",
       "images": [
         "J/2020/q101_01.jpg"
       ],
@@ -41451,7 +50459,47 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "provisional",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L24",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "name": "251029_31 폐종양_임준혁 (소정,단).pdf.pdf",
+            "pages": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          },
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": []
+          }
+        ]
+      }
     },
     {
       "id": "2020-102",
@@ -41473,10 +50521,12 @@ window.JBL_DATA = {
         "폐동맥 고혈압",
         "급성호흡곤란증후군"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n사진은 한쪽 폐가 허탈되고 흉강에 공기가 찬 기흉이다. 특히 갑작스러운 저혈압이 동반된 긴장성 기흉에서는 흉강 내 압력 상승이 정맥환류를 감소시켜 심박출량을 떨어뜨린다. 천식 병력에만 끌려 기관지 수축을 고르면 안 된다.\n\n~~근거: 38기 강의록 「251031_36.흉막 질환_류정선(광환, 영범)」 PDF 40-43쪽.~~~",
       "images": [
         "J/2020/q102_01.jpg"
       ],
@@ -41508,7 +50558,30 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L29",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "name": "251031_36.흉막 질환_류정선(광환, 영범).pdf",
+            "pages": [
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-103",
@@ -41530,10 +50603,12 @@ window.JBL_DATA = {
         "종격동종괴",
         "폐암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n우상엽 무기폐로 끌려 올라간 엽간열이 폐문 쪽 종괴 때문에 볼록해지면서 Golden S sign을 이룬다. 원인은 기관지를 막은 중심성 폐암이다. 특히 498·635번 사진은 38기 흉부영상각론1 29쪽의 사진과 일치한다. Klebsiella 폐렴의 팽창성 경화와 bulging fissure로 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 28-30쪽; 38기 정리본 「1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs」 PDF 5쪽.~~~",
       "images": [
         "J/2020/q103_01.jpg",
         "J/2020/q103_02.jpg"
@@ -41570,7 +50645,38 @@ window.JBL_DATA = {
           "role": "official_exam_image_appendix"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": true,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "key": "S30",
+            "kind": "summary",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs.pdf",
+            "name": "1029 정리본 (30. 흉부영상 각론 (폐종양) _ 이경희) - Google Docs.pdf",
+            "pages": [
+              5
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-104",
@@ -41592,10 +50698,12 @@ window.JBL_DATA = {
         "T3",
         "T4"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n우상엽 원발종괴와 별도로 우하엽에도 종양 결절이 보인다. 동일 폐의 다른 엽에 생긴 별도 종양 결절은 T4이며, 같은 엽 안의 별도 결절인 T3와 다르다. 강의록 62쪽이 이 구분을 직접 보여준다.\n\n~~근거: 38기 강의록 「251029_30 흉부영상각론1 (이경희)」 PDF 59,62쪽.~~~",
       "images": [
         "J/2020/q104_01.jpg",
         "J/2020/q104_02.jpg"
@@ -41632,7 +50740,28 @@ window.JBL_DATA = {
           "role": "official_exam_image_appendix"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L22",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30 흉부영상각론1 (이경희).pdf",
+            "name": "251029_30 흉부영상각론1 (이경희).pdf",
+            "pages": [
+              59,
+              62
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-105",
@@ -41654,10 +50783,12 @@ window.JBL_DATA = {
         "흉막삼출",
         "폐암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n좌측에 visceral pleural line이 보이고 그 바깥쪽에는 폐혈관 음영이 없어 pneumothorax이다. 안쪽으로 쪼그라든 폐와 흉벽 사이의 공기를 찾는 것이 핵심이다. 단순히 폐가 검게 보인다는 이유로 폐기종으로 고르지 않는다.\n\n~~근거: 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 10,20쪽.~~~",
       "images": [
         "J/2020/q105_01.jpg"
       ],
@@ -41689,7 +50820,28 @@ window.JBL_DATA = {
           "role": "official_exam_image_appendix"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              10,
+              20
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-106",
@@ -41711,10 +50863,12 @@ window.JBL_DATA = {
         "림프관근종증",
         "폐암"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n양측 폐기저부·흉막하의 reticulation과 여러 층의 honeycombing은 UIP pattern을 시사하여 보기에서는 특발간질폐렴이 맞는다. 영상만으로 원인을 무조건 특발성으로 확정하는 것은 아니므로 실제 진단에서는 약물·결체조직질환·노출력 등을 배제한다.\n\n~~근거: 38기 강의록 「251029_30. 흉부영상각론2 (이경희)」 PDF 43-44쪽; 38기 강의록 「251022_7. 간질성 폐질환_장혜진」 PDF 122쪽.~~~",
       "images": [
         "J/2020/q106_01.jpg",
         "J/2020/q106_02.jpg"
@@ -41753,7 +50907,37 @@ window.JBL_DATA = {
           "role": "official_exam_image_appendix"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L23",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_30. 흉부영상각론2 (이경희).pdf",
+            "name": "251029_30. 흉부영상각론2 (이경희).pdf",
+            "pages": [
+              43,
+              44
+            ]
+          },
+          {
+            "key": "L7",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\251022_7. 간질성 폐질환_장혜진.pdf",
+            "name": "251022_7. 간질성 폐질환_장혜진.pdf",
+            "pages": [
+              122
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-107",
@@ -42044,10 +51228,12 @@ window.JBL_DATA = {
         "폐농양",
         "혈관염"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 미등록",
-      "explanation": "",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n기존 공동 안의 둥근 연부조직 덩어리와 이를 둘러싼 초승달 모양 공기는 fungus ball, 즉 aspergilloma를 시사한다. 간헐적 객혈도 잘 맞는다. 공동 전체가 액체로 차는 폐농양이나 불규칙한 공동벽 자체가 종양인 폐암과 구분한다.\n\n~~근거: 38기 강의록 「20251023_13. 흉부영상 총론 II_이경희(도훈)」 PDF 49-52쪽.~~~",
       "images": [
         "J/2020/q110_01.jpg",
         "J/2020/q110_02.jpg"
@@ -42086,7 +51272,30 @@ window.JBL_DATA = {
           "role": "official_exam_original"
         }
       ],
-      "repeatFamilyIds": []
+      "repeatFamilyIds": [],
+      "explanationReview": {
+        "date": "2026-10-15",
+        "scope": "wiki_unlinked_questions",
+        "answerStatus": "lecture_based_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "summaryUsed": false,
+        "originalQuestionAndImagesPreserved": true,
+        "sources": [
+          {
+            "key": "L1",
+            "kind": "lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\1주차_호흡\\20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "name": "20251023_13. 흉부영상 총론 II_이경희(도훈).pdf",
+            "pages": [
+              49,
+              50,
+              51,
+              52
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2020-111",
