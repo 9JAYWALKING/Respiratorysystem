@@ -2,6 +2,10 @@
 .wiki-grid:has(> .wiki-radiology-figure) { grid-template-columns: minmax(0,1fr); }
 .wiki-grid:has(> .wiki-radiology-figure) > .wiki-figure.wiki-radiology-figure { grid-column: 1 / -1; width: min(100%,980px); }
 .wiki-grid:has(> .wiki-radiology-figure) > .wiki-figure.wiki-radiology-figure:last-child:nth-child(odd) { width: min(100%,980px); }
+.lecture-workspace .wiki-grid.single > .wiki-figure.wiki-radiology-figure,
+.lecture-workspace .wiki-grid:not(.single) > .wiki-figure.wiki-radiology-figure:last-child:nth-child(odd) {
+  width: min(100%,980px); max-width: 100%;
+}
 .wiki-grid .wiki-figure.wiki-radiology-figure,
 .wiki-figure.wiki-radiology-figure {
   width: min(100%, 980px); max-width: 100%; flex: 1 1 100%;

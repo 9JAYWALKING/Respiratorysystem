@@ -8,7 +8,7 @@
     let path;
     try { path = decodeURIComponent(new URL(src, document.baseURI).pathname); }
     catch (_) { path = String(src).split(/[?#]/)[0]; }
-    const prefix = 'assets/lecture-13/';
+    const prefix = 'assets/';
     const at = path.lastIndexOf(prefix);
     return at < 0 ? null : (window.WIKI_IMAGE_ANNOTATIONS || {})[path.slice(at)] || null;
   }

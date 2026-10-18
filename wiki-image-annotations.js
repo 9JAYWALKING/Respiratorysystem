@@ -1903,5 +1903,1547 @@ window.WIKI_IMAGE_ANNOTATIONS = {
       "deck": "pneumonia",
       "page": 66
     }
+  },
+  "assets/lecture-22/part1-009.jpg": {
+    "width": 1498,
+    "height": 792,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 9
+    }
+  },
+  "assets/lecture-22/part1-010.jpg": {
+    "width": 1547,
+    "height": 1148,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 10
+    }
+  },
+  "assets/lecture-22/part1-011.jpg": {
+    "width": 1256,
+    "height": 888,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 11
+    }
+  },
+  "assets/lecture-22/part1-012.jpg": {
+    "width": 1590,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 12
+    }
+  },
+  "assets/lecture-22/part1-013.jpg": {
+    "width": 1382,
+    "height": 891,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 13
+    }
+  },
+  "assets/lecture-22/part1-014.jpg": {
+    "width": 1386,
+    "height": 1039,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 14
+    }
+  },
+  "assets/lecture-22/part1-015.jpg": {
+    "width": 1066,
+    "height": 1128,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 15
+    }
+  },
+  "assets/lecture-22/part1-016.jpg": {
+    "width": 1419,
+    "height": 1035,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 16
+    }
+  },
+  "assets/lecture-22/part1-017.jpg": {
+    "width": 1560,
+    "height": 923,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 17
+    }
+  },
+  "assets/lecture-22/part1-018.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "혈관처럼 강하게 조영되는 병변",
+        "from": [
+          540,
+          760
+        ],
+        "to": [
+          418,
+          895
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "병변으로 이어지는 조영 혈관",
+        "from": [
+          780,
+          280
+        ],
+        "to": [
+          705,
+          319
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 18
+    }
+  },
+  "assets/lecture-22/part1-019.jpg": {
+    "width": 1157,
+    "height": 1060,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 19
+    }
+  },
+  "assets/lecture-22/part1-020.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 20
+    }
+  },
+  "assets/lecture-22/part1-021.jpg": {
+    "width": 1168,
+    "height": 1168,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 21
+    }
+  },
+  "assets/lecture-22/part1-022.jpg": {
+    "width": 1525,
+    "height": 813,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 22
+    }
+  },
+  "assets/lecture-22/part1-023.jpg": {
+    "width": 1524,
+    "height": 1135,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 23
+    }
+  },
+  "assets/lecture-22/part1-026.jpg": {
+    "width": 1491,
+    "height": 883,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 26
+    }
+  },
+  "assets/lecture-22/part1-027.jpg": {
+    "width": 1494,
+    "height": 1110,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 27
+    }
+  },
+  "assets/lecture-22/part1-029.jpg": {
+    "width": 1148,
+    "height": 1133,
+    "marks": [
+      {
+        "type": "path",
+        "text": "위로 당겨진 엽간열과 중심부의 볼록한 돌출: Golden S sign",
+        "points": [
+          "M",
+          205,
+          365,
+          "C",
+          225,
+          305,
+          248,
+          290,
+          267,
+          323,
+          "C",
+          295,
+          360,
+          293,
+          438,
+          365,
+          487
+        ],
+        "label": [
+          175,
+          420
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 29
+    }
+  },
+  "assets/lecture-22/part1-030.jpg": {
+    "width": 1160,
+    "height": 1160,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 30
+    }
+  },
+  "assets/lecture-22/part1-031.jpg": {
+    "width": 973,
+    "height": 1150,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 31
+    }
+  },
+  "assets/lecture-22/part1-032.jpg": {
+    "width": 1366,
+    "height": 1090,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 32
+    }
+  },
+  "assets/lecture-22/part1-033.jpg": {
+    "width": 1100,
+    "height": 1025,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 33
+    }
+  },
+  "assets/lecture-22/part1-034.jpg": {
+    "width": 1541,
+    "height": 590,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 34
+    }
+  },
+  "assets/lecture-22/part1-036.jpg": {
+    "width": 1065,
+    "height": 1163,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 36
+    }
+  },
+  "assets/lecture-22/part1-037.jpg": {
+    "width": 1557,
+    "height": 976,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 37
+    }
+  },
+  "assets/lecture-22/part1-038.jpg": {
+    "width": 1529,
+    "height": 996,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 38
+    }
+  },
+  "assets/lecture-22/part1-039.jpg": {
+    "width": 1585,
+    "height": 1190,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 39
+    }
+  },
+  "assets/lecture-22/part1-041.jpg": {
+    "width": 1578,
+    "height": 949,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 41
+    }
+  },
+  "assets/lecture-22/part1-042.jpg": {
+    "width": 1584,
+    "height": 1185,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 42
+    }
+  },
+  "assets/lecture-22/part1-044.jpg": {
+    "width": 1508,
+    "height": 1151,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 44
+    }
+  },
+  "assets/lecture-22/part1-046.jpg": {
+    "width": 1115,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 46
+    }
+  },
+  "assets/lecture-22/part1-047.jpg": {
+    "width": 1391,
+    "height": 1152,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 47
+    }
+  },
+  "assets/lecture-22/part1-051.jpg": {
+    "width": 1273,
+    "height": 983,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 51
+    }
+  },
+  "assets/lecture-22/part1-053.jpg": {
+    "width": 1223,
+    "height": 955,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 53
+    }
+  },
+  "assets/lecture-22/part1-054.jpg": {
+    "width": 1494,
+    "height": 1136,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 54
+    }
+  },
+  "assets/lecture-22/part1-055.jpg": {
+    "width": 1548,
+    "height": 1150,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 55
+    }
+  },
+  "assets/lecture-22/part1-057.jpg": {
+    "width": 1473,
+    "height": 905,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 57
+    }
+  },
+  "assets/lecture-22/part1-058.jpg": {
+    "width": 1339,
+    "height": 998,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 58
+    }
+  },
+  "assets/lecture-22/part1-060.jpg": {
+    "width": 1586,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 60
+    }
+  },
+  "assets/lecture-22/part1-061.jpg": {
+    "width": 1575,
+    "height": 862,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 61
+    }
+  },
+  "assets/lecture-22/part1-062.jpg": {
+    "width": 1583,
+    "height": 1190,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 62
+    }
+  },
+  "assets/lecture-22/part1-064.jpg": {
+    "width": 1552,
+    "height": 936,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 64
+    }
+  },
+  "assets/lecture-22/part1-067.jpg": {
+    "width": 1357,
+    "height": 639,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "1R · 우측 쇄골상부",
+        "from": [
+          342,
+          617
+        ],
+        "to": [
+          432,
+          319
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "1L · 좌측 쇄골상부",
+        "from": [
+          722,
+          624
+        ],
+        "to": [
+          652,
+          319
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 67
+    }
+  },
+  "assets/lecture-22/part1-068.jpg": {
+    "width": 1362,
+    "height": 992,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "2R · 우측 상부 기관주위",
+        "from": [
+          250,
+          539
+        ],
+        "to": [
+          416,
+          412
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "3A · 혈관앞",
+        "from": [
+          790,
+          379
+        ],
+        "to": [
+          575,
+          281
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 68
+    }
+  },
+  "assets/lecture-22/part1-069.jpg": {
+    "width": 1507,
+    "height": 1066,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "4R · 우측 하부 기관주위",
+        "from": [
+          256,
+          572
+        ],
+        "to": [
+          412,
+          485
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "6 · 대동맥주위",
+        "from": [
+          754,
+          438
+        ],
+        "to": [
+          619,
+          360
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 69
+    }
+  },
+  "assets/lecture-22/part1-070.jpg": {
+    "width": 1495,
+    "height": 995,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "4L · 좌측 하부 기관주위",
+        "from": [
+          715,
+          590
+        ],
+        "to": [
+          535,
+          473
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "5 · 대동맥하",
+        "from": [
+          795,
+          454
+        ],
+        "to": [
+          623,
+          388
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 70
+    }
+  },
+  "assets/lecture-22/part1-071.jpg": {
+    "width": 1480,
+    "height": 1002,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "7 · 기관분기부 아래",
+        "from": [
+          316,
+          662
+        ],
+        "to": [
+          477,
+          551
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 71
+    }
+  },
+  "assets/lecture-22/part1-072.jpg": {
+    "width": 1494,
+    "height": 1052,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "8 · 식도주위",
+        "from": [
+          702,
+          657
+        ],
+        "to": [
+          550,
+          571
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "11 · 엽간",
+        "from": [
+          838,
+          637
+        ],
+        "to": [
+          677,
+          527
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part1",
+      "page": 72
+    }
+  },
+  "assets/lecture-22/part1-074.jpg": {
+    "width": 1542,
+    "height": 1150,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 74
+    }
+  },
+  "assets/lecture-22/part1-076.jpg": {
+    "width": 1503,
+    "height": 871,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 76
+    }
+  },
+  "assets/lecture-22/part1-077.jpg": {
+    "width": 1514,
+    "height": 1108,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 77
+    }
+  },
+  "assets/lecture-22/part1-078.jpg": {
+    "width": 1555,
+    "height": 1143,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 78
+    }
+  },
+  "assets/lecture-22/part1-079.jpg": {
+    "width": 1534,
+    "height": 1129,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 79
+    }
+  },
+  "assets/lecture-22/part1-080.jpg": {
+    "width": 1592,
+    "height": 1190,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 80
+    }
+  },
+  "assets/lecture-22/part1-082.jpg": {
+    "width": 1584,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 82
+    }
+  },
+  "assets/lecture-22/part1-085.jpg": {
+    "width": 1560,
+    "height": 1151,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 85
+    }
+  },
+  "assets/lecture-22/part1-088.jpg": {
+    "width": 1547,
+    "height": 1137,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 88
+    }
+  },
+  "assets/lecture-22/part1-089.jpg": {
+    "width": 1567,
+    "height": 962,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 89
+    }
+  },
+  "assets/lecture-22/part1-090.jpg": {
+    "width": 1424,
+    "height": 1045,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 90
+    }
+  },
+  "assets/lecture-22/part1-092.jpg": {
+    "width": 1534,
+    "height": 1122,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 92
+    }
+  },
+  "assets/lecture-22/part1-093.jpg": {
+    "width": 1584,
+    "height": 987,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 93
+    }
+  },
+  "assets/lecture-22/part1-094.jpg": {
+    "width": 1250,
+    "height": 943,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 94
+    }
+  },
+  "assets/lecture-22/part1-096.jpg": {
+    "width": 1513,
+    "height": 846,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 96
+    }
+  },
+  "assets/lecture-22/part1-097.jpg": {
+    "width": 1518,
+    "height": 1124,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 97
+    }
+  },
+  "assets/lecture-22/part1-099.jpg": {
+    "width": 1498,
+    "height": 1135,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 99
+    }
+  },
+  "assets/lecture-22/part1-101.jpg": {
+    "width": 1507,
+    "height": 1083,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 101
+    }
+  },
+  "assets/lecture-22/part1-103.jpg": {
+    "width": 1507,
+    "height": 1124,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 103
+    }
+  },
+  "assets/lecture-22/part1-105.jpg": {
+    "width": 1497,
+    "height": 1125,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 105
+    }
+  },
+  "assets/lecture-22/part1-107.jpg": {
+    "width": 1585,
+    "height": 1194,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 107
+    }
+  },
+  "assets/lecture-22/part1-109.jpg": {
+    "width": 1492,
+    "height": 934,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 109
+    }
+  },
+  "assets/lecture-22/part1-110.jpg": {
+    "width": 1553,
+    "height": 998,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 110
+    }
+  },
+  "assets/lecture-22/part1-112.jpg": {
+    "width": 988,
+    "height": 1030,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 112
+    }
+  },
+  "assets/lecture-22/part1-113.jpg": {
+    "width": 1540,
+    "height": 1144,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 113
+    }
+  },
+  "assets/lecture-22/part1-114.jpg": {
+    "width": 1297,
+    "height": 973,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 114
+    }
+  },
+  "assets/lecture-22/part1-116.jpg": {
+    "width": 1590,
+    "height": 939,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 116
+    }
+  },
+  "assets/lecture-22/part1-117.jpg": {
+    "width": 1332,
+    "height": 965,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 117
+    }
+  },
+  "assets/lecture-22/part1-119.jpg": {
+    "width": 1515,
+    "height": 1090,
+    "marks": [],
+    "source": {
+      "deck": "part1",
+      "page": 119
+    }
+  },
+  "assets/lecture-22/part2-006.jpg": {
+    "width": 1521,
+    "height": 922,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 6
+    }
+  },
+  "assets/lecture-22/part2-007.jpg": {
+    "width": 1541,
+    "height": 1145,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 7
+    }
+  },
+  "assets/lecture-22/part2-008.jpg": {
+    "width": 1547,
+    "height": 861,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 8
+    }
+  },
+  "assets/lecture-22/part2-009.jpg": {
+    "width": 845,
+    "height": 845,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 9
+    }
+  },
+  "assets/lecture-22/part2-010.jpg": {
+    "width": 972,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 10
+    }
+  },
+  "assets/lecture-22/part2-011.jpg": {
+    "width": 1553,
+    "height": 1088,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 11
+    }
+  },
+  "assets/lecture-22/part2-012.jpg": {
+    "width": 1542,
+    "height": 1145,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 12
+    }
+  },
+  "assets/lecture-22/part2-013.jpg": {
+    "width": 1472,
+    "height": 1142,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 13
+    }
+  },
+  "assets/lecture-22/part2-016.jpg": {
+    "width": 1498,
+    "height": 1093,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 16
+    }
+  },
+  "assets/lecture-22/part2-017.jpg": {
+    "width": 785,
+    "height": 756,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "소엽 중심의 세기관지·폐동맥",
+        "from": [
+          750,
+          470
+        ],
+        "to": [
+          559,
+          543
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "소엽 경계의 중격",
+        "from": [
+          680,
+          830
+        ],
+        "to": [
+          644,
+          755
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part2",
+      "page": 17
+    }
+  },
+  "assets/lecture-22/part2-018.jpg": {
+    "width": 1484,
+    "height": 792,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 18
+    }
+  },
+  "assets/lecture-22/part2-019.jpg": {
+    "width": 1532,
+    "height": 1144,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 19
+    }
+  },
+  "assets/lecture-22/part2-020.jpg": {
+    "width": 1543,
+    "height": 1139,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 20
+    }
+  },
+  "assets/lecture-22/part2-025.jpg": {
+    "width": 1002,
+    "height": 1163,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 25
+    }
+  },
+  "assets/lecture-22/part2-026.jpg": {
+    "width": 1584,
+    "height": 1190,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 26
+    }
+  },
+  "assets/lecture-22/part2-027.jpg": {
+    "width": 1076,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 27
+    }
+  },
+  "assets/lecture-22/part2-028.jpg": {
+    "width": 1528,
+    "height": 1125,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 28
+    }
+  },
+  "assets/lecture-22/part2-031.jpg": {
+    "width": 976,
+    "height": 1109,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 31
+    }
+  },
+  "assets/lecture-22/part2-032.jpg": {
+    "width": 1584,
+    "height": 1190,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 32
+    }
+  },
+  "assets/lecture-22/part2-033.jpg": {
+    "width": 1586,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 33
+    }
+  },
+  "assets/lecture-22/part2-034.jpg": {
+    "width": 1056,
+    "height": 1052,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "흉막 옆 원형 무기폐",
+        "from": [
+          220,
+          595
+        ],
+        "to": [
+          366,
+          720
+        ]
+      },
+      {
+        "type": "path",
+        "text": "병변으로 휘어 들어가는 기관지혈관: comet-tail",
+        "points": [
+          "M",
+          405,
+          520,
+          "C",
+          370,
+          540,
+          321,
+          590,
+          355,
+          668
+        ],
+        "label": [
+          475,
+          575
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part2",
+      "page": 34
+    }
+  },
+  "assets/lecture-22/part2-035.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 35
+    }
+  },
+  "assets/lecture-22/part2-037.jpg": {
+    "width": 1168,
+    "height": 1184,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 37
+    }
+  },
+  "assets/lecture-22/part2-038.jpg": {
+    "width": 1584,
+    "height": 1187,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 38
+    }
+  },
+  "assets/lecture-22/part2-039.jpg": {
+    "width": 1173,
+    "height": 1178,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 39
+    }
+  },
+  "assets/lecture-22/part2-040.jpg": {
+    "width": 1584,
+    "height": 1191,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 40
+    }
+  },
+  "assets/lecture-22/part2-043.jpg": {
+    "width": 1016,
+    "height": 987,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 43
+    }
+  },
+  "assets/lecture-22/part2-044.jpg": {
+    "width": 1584,
+    "height": 1189,
+    "marks": [
+      {
+        "type": "ellipse",
+        "text": "폐기저부·흉막하의 층상 낭성 공간: honeycombing",
+        "cx": 895,
+        "cy": 813,
+        "rx": 43,
+        "ry": 90,
+        "label": [
+          910,
+          670
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "망상 음영과 구조 왜곡",
+        "from": [
+          508,
+          642
+        ],
+        "to": [
+          510,
+          830
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part2",
+      "page": 44
+    }
+  },
+  "assets/lecture-22/part2-045.jpg": {
+    "width": 1062,
+    "height": 1010,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 45
+    }
+  },
+  "assets/lecture-22/part2-046.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 46
+    }
+  },
+  "assets/lecture-22/part2-047.jpg": {
+    "width": 1584,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 47
+    }
+  },
+  "assets/lecture-22/part2-048.jpg": {
+    "width": 1073,
+    "height": 930,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 48
+    }
+  },
+  "assets/lecture-22/part2-049.jpg": {
+    "width": 1584,
+    "height": 1190,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 49
+    }
+  },
+  "assets/lecture-22/part2-050.jpg": {
+    "width": 1585,
+    "height": 1195,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 50
+    }
+  },
+  "assets/lecture-22/part2-051.jpg": {
+    "width": 1584,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 51
+    }
+  },
+  "assets/lecture-22/part2-052.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 52
+    }
+  },
+  "assets/lecture-22/part2-055.jpg": {
+    "width": 1073,
+    "height": 1003,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 55
+    }
+  },
+  "assets/lecture-22/part2-056.jpg": {
+    "width": 1585,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 56
+    }
+  },
+  "assets/lecture-22/part2-057.jpg": {
+    "width": 983,
+    "height": 1023,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 57
+    }
+  },
+  "assets/lecture-22/part2-058.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "기관지혈관 주위의 작은 결절",
+        "from": [
+          380,
+          290
+        ],
+        "to": [
+          218,
+          234
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part2",
+      "page": 58
+    }
+  },
+  "assets/lecture-22/part2-061.jpg": {
+    "width": 1569,
+    "height": 1118,
+    "marks": [
+      {
+        "type": "arrow",
+        "text": "흉막강의 수평 공기–액체층",
+        "from": [
+          715,
+          145
+        ],
+        "to": [
+          628,
+          348
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "흉막강 액체를 둘러싸는 두꺼운 흉막",
+        "from": [
+          780,
+          448
+        ],
+        "to": [
+          660,
+          414
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part2",
+      "page": 61
+    }
+  },
+  "assets/lecture-22/part2-062.jpg": {
+    "width": 1584,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 62
+    }
+  },
+  "assets/lecture-22/part2-063.jpg": {
+    "width": 1053,
+    "height": 1122,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 63
+    }
+  },
+  "assets/lecture-22/part2-064.jpg": {
+    "width": 1553,
+    "height": 1149,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 64
+    }
+  },
+  "assets/lecture-22/part2-065.jpg": {
+    "width": 1360,
+    "height": 1160,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 65
+    }
+  },
+  "assets/lecture-22/part2-067.jpg": {
+    "width": 1547,
+    "height": 1124,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 67
+    }
+  },
+  "assets/lecture-22/part2-069.jpg": {
+    "width": 1547,
+    "height": 1149,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 69
+    }
+  },
+  "assets/lecture-22/part2-070.jpg": {
+    "width": 1543,
+    "height": 1146,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 70
+    }
+  },
+  "assets/lecture-22/part2-071.jpg": {
+    "width": 1098,
+    "height": 1143,
+    "marks": [
+      {
+        "type": "path",
+        "text": "안쪽으로 물러난 좌측 폐의 장측흉막선",
+        "points": [
+          "M",
+          699,
+          230,
+          "C",
+          706,
+          350,
+          708,
+          435,
+          692,
+          535
+        ],
+        "label": [
+          785,
+          240
+        ]
+      },
+      {
+        "type": "arrow",
+        "text": "흉막선 바깥에는 폐혈관 음영이 없다",
+        "from": [
+          855,
+          605
+        ],
+        "to": [
+          795,
+          450
+        ]
+      }
+    ],
+    "source": {
+      "deck": "part2",
+      "page": 71
+    }
+  },
+  "assets/lecture-22/part2-072.jpg": {
+    "width": 1511,
+    "height": 774,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 72
+    }
+  },
+  "assets/lecture-22/part2-074.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 74
+    }
+  },
+  "assets/lecture-22/part2-075.jpg": {
+    "width": 1584,
+    "height": 1188,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 75
+    }
+  },
+  "assets/lecture-22/part2-076.jpg": {
+    "width": 1584,
+    "height": 1006,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 76
+    }
+  },
+  "assets/lecture-22/part2-077.jpg": {
+    "width": 1592,
+    "height": 1199,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 77
+    }
+  },
+  "assets/lecture-22/part2-078.jpg": {
+    "width": 1584,
+    "height": 973,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 78
+    }
+  },
+  "assets/lecture-22/part2-079.jpg": {
+    "width": 1586,
+    "height": 1189,
+    "marks": [],
+    "source": {
+      "deck": "part2",
+      "page": 79
+    }
   }
 };
