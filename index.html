@@ -4162,7 +4162,7 @@
 
     function renderScheduleOp(course) {
       const professor = course.professor.trim();
-      if (!scheduleBeeProfessors.has(professor)) return '';
+      if (!scheduleBeeProfessors.has(professor) && Number(course.id) !== 26) return '';
       const bee = '<img class="course-op-image" src="./assets/op-bee.png" alt="" aria-hidden="true" draggable="false" decoding="async">';
       if (!scheduleOpProfessors.has(professor)) return bee;
       return '<span class="course-op-stack" aria-hidden="true">' + bee + '<img class="course-op-badge" src="./assets/op-badge.png" width="1672" height="941" alt="" aria-hidden="true" draggable="false" decoding="async"></span>';
