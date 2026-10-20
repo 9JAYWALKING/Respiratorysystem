@@ -4256,7 +4256,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n최근 심근경색이나 불안정 협심증에서는 기관지내시경과 진정 과정의 저산소증·빈맥이 심근허혈을 악화시킬 수 있다. 반면 원인 불명의 객혈, 무기폐, 치료에 반응하지 않는 폐렴은 검사 적응증이 될 수 있다. 응급 검사 필요성과 심혈관 안정성을 먼저 평가한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 6-8쪽.~~~",
+      "explanation": "정답: ④ 2주 전 심근경색\n\n=== 이 환자에서는 검사 적응증과 안전성을 따로 본다 ===\n무기폐와 간헐적 객혈은 기도 폐쇄·종양·감염의 원인을 확인해야 하는 단서다. 그러나 '''심근경색이 2주 전에 발생했다'''는 사실은 검사와 진정의 스트레스를 견딜 수 있는지 먼저 확인하게 한다. 기관지내시경 중 기도 점유·흡인·진정은 저산소증을 만들 수 있고, 기침·빈맥·혈압 변화는 심근 산소 수요를 높여 허혈을 악화시킬 수 있다.\n\n=== 선지별 판단 ===\n* '''① 무기폐 — 검사 이유가 될 수 있다.''' 폐엽이 왜 허탈했는지 확인하려면 기관지 안의 종양·이물·점액마개를 찾아야 할 수 있다.\n* '''② 피가 섞인 가래 — 원인 불명 객혈은 적응증이다.''' 출혈 위치와 원인을 평가한다. 대량 객혈에서는 기도 확보·안정화가 우선이라는 별도 판단이 필요하다.\n* '''③ 호흡 불편 — 이것만으로 금기를 확정하지 않는다.''' 실제 산소화·환기 상태가 중요하다. 심한 저산소혈증이나 고탄산혈증이면 위험해지지만 발문은 그 정도를 제시하지 않았다.\n* '''④ 최근 심근경색 — 정답이다.''' 주어진 선택지 중 검사 위험을 가장 분명하게 높이는 조건이다. 단, 과거에 심근경색이 있었다는 이유로 평생 내시경을 못 한다는 뜻은 아니다.\n\n=== 변형 문항까지 풀기 위한 금기 표 ===\n||= 범주 ||= 기억할 내용 ||\n|| 검사 적응증 || 원인 불명 객혈, 지속 무기폐, 낫지 않는 폐렴, 고정된 국소 천명, 설명되지 않는 지속 기침, 종양·림프절 평가 ||\n|| 심혈관 위험 || 최근 심근경색, 불안정 협심증, 불안정 부정맥, 조절되지 않는 심한 고혈압 ||\n|| 호흡 위험 || 불안정 천식, 저산소혈증, 고탄산혈증. 진정·기도 점유·흡인·세척으로 악화 가능 ||\n|| 생검 시 추가 위험 || 교정되지 않은 출혈성 질환, 혈소판감소, 요독증·간경변, 심한 폐고혈압, 상대정맥 폐쇄, 심한 빈혈, 기흉, 기계환기·PEEP ||\n|| 신경·환경 || 두개내압 상승, 조절되지 않는 발작, 산소화·응급처치가 불가능한 환경, 동의 없음·협조 불가 등 ||\n\n> 적응증이 있어도 당장 안전한 것은 아니다. 최근 심근경색·불안정 협심증은 심혈관 안정성 평가가 우선이고, 단순 관찰·BAL과 조직 생검의 위험도 구분한다.\n\n[[29강#금기는 병명보다 현재의 불안정성과 시술 종류를 본다|금기는 병명보다 현재의 불안정성과 시술 종류를 본다]]\n~~근거: 강의록 7·9–11쪽. 발문이 설명하는 무기폐는 현재 별도 X선 이미지가 없어 제공된 문장을 바탕으로 해석했다.~~~",
       "images": [],
       "legacyProfessor": "유우경",
       "professor": "유우경",
@@ -4281,26 +4281,27 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
-              6,
               7,
-              8
+              9,
+              10,
+              11
             ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -4328,7 +4329,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "정답: ①",
-      "explanation": "정답: ①\n\n고령·흡연력·객혈과 함께 기관지를 막는 병변 및 그 원위부 무기폐가 보여 폐암을 우선 의심한다. 기관지내시경으로 병변을 관찰하고 조직을 얻어 확진한다. 이 사진만으로 세부 조직형까지 단정하지는 않는다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 6,15쪽.~~~",
+      "explanation": "정답: ① 폐암\n\n=== 영상과 진찰 소견은 하나의 폐쇄 과정이다 ===\n'''80세·40갑년 흡연·객혈'''이 폐암의 임상 가능성을 높인다. 여기에 CT에서 좌상부의 용적 감소를 동반한 폐 음영, 내시경에서 기관지 내강을 좁히는 불규칙한 병변이 보인다. 기관지를 막는 종양 때문에 원위부 환기가 차단되면 공기가 흡수되어 '''폐쇄성 무기폐'''가 생긴다. 해당 부위의 호흡음 감소와 타진 둔탁도 이 과정으로 설명된다.\n\n> CT의 허탈 폐와 내시경의 종괴를 따로 맞히는 문제가 아니다. “내강 종양 → 기관지 폐쇄 → 원위부 무기폐”를 연결하는 문제다.\n\n=== 선지별 감별 ===\n* '''① 폐암 — 정답.''' 고령 흡연자의 객혈과 폐쇄성 기관지 병변에 가장 잘 맞는다. 확진과 조직형 판정에는 생검이 필요하다.\n* '''② 공기가슴증(기흉) — 흉막강에 공기가 찬 상태다.''' 흉막선 바깥의 혈관 음영 소실이 핵심이며 타진은 과공명 쪽이다. 이 증례의 내강 종괴·무기폐와 맞지 않는다.\n* '''③ 기관지결핵 — 실제로 감별할 수 있는 질환이다.''' 점막의 염증·괴사·협착을 만들 수 있어 내시경 모양 하나로 완전히 배제하지는 않는다. 그러나 제시된 위험인자와 폐쇄성 종괴의 조합에서는 폐암이 우선이고 미생물·조직검사로 구분한다.\n* '''④ 사르코이드증 — 전형적 단서가 다르다.''' 양측 폐문 림프절 비대나 림프관 주위 결절 등이 대표적이다. 이 증례를 가장 잘 설명하는 단일 진단은 아니다.\n* '''⑤ 기관지확장증 — 기관지의 비정상 확장을 확인한다.''' 만성 화농성 객담·반복 감염·객혈은 가능하지만, CT에서 늘어난 기관지와 tapering 소실 등을 찾아야 한다. 현재의 폐쇄성 종괴와 다르다.\n\n=== 다음 검사도 표적의 위치로 선택한다 ===\n||= 방법 ||= 표적·얻는 검체 ||\n|| Endobronchial biopsy || 눈에 보이는 기도 내 병변의 '''조직''' ||\n|| TBLB || 기관지를 통해 말초 폐실질의 '''조직''' ||\n|| Radial EBUS || 말초 병변 내부·인접 여부를 확인하고 해당 경로로 채취 ||\n|| Linear EBUS-TBNA || 기도 벽 밖의 폐문·종격동 림프절 등에서 바늘 검체 ||\n|| Washing·brushing || 기도 세척액·세포 ||\n|| BAL || 말초기도·폐포의 세척액, 세포, 미생물. 조직 구조를 얻는 생검과 다름 ||\n\n내시경에서 직접 보이는 종괴라면 '''endobronchial biopsy'''로 채취할 수 있다. 중심부에 있다는 이유만으로 소세포암이나 편평세포암으로 조직형까지 확정하지 않는다. 림프절 병기는 필요에 따라 EBUS-TBNA 등으로 평가한다.\n\n[[29강#불규칙한 내강 병변과 그 원위부의 무기폐를 연결한다|불규칙한 내강 병변과 그 원위부의 무기폐를 연결한다]]\n~~근거: 강의록 6–7·16·18–26쪽과 문항의 CT·기관지내시경 사진.~~~",
       "images": [
         "J/2025/q059_01.jpg"
       ],
@@ -4375,25 +4376,29 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
               6,
-              15
+              7,
+              16,
+              18,
+              20,
+              24
             ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -9590,7 +9595,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "정답: ①",
-      "explanation": "정답: ① 폐암\n\n=== 영상에서 확인할 소견 ===\nCT의 좌측 폐엽 허탈과 기관지내시경에서 기도를 막는 종괴를 함께 읽는다. 고령, 40갑·년 흡연, 객혈, 국소 호흡음 감소가 있어 '''폐암에 의한 기관지 폐쇄와 무기폐'''가 가장 적절하다. 폐암을 고르는 근거는 흡연력 하나가 아니라 기도 내 종괴와 원위부 부피 감소의 조합이다.\n\n=== 선지별 해설 ===\n* 1번: 맞다. 기도 내 종괴와 폐쇄성 무기폐를 임상 배경과 함께 설명한다.\n* 2번: 기흉이다. 보통 흉막선 바깥의 혈관 음영 소실과 과공명음이 단서이며, 기관지 안 종괴를 설명하지 못한다.\n* 3번: 기관지 협착과 무기폐를 일으킬 수 있으나 점막 병변·감염 근거 등을 함께 보아야 한다. 현재 종괴의 형태와 고령 흡연자의 객혈에서는 폐암이 우선이다.\n* 4번: 대칭성 폐문 림프절 비대와 림프관성 결절이 대표적이다. 제시된 국소 기도 내 폐쇄성 종괴의 설명으로 덜 적절하다.\n* 5번: 기관지가 늘어나고 말초로 가늘어지지 않는 것이 핵심이다. 객혈만으로 선택하지 말고 CT의 확장 기관지를 확인해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양이 기관지를 막으면 원위부 공기가 흡수되어 무기폐가 생기고, 분비물 정체로 폐쇄성 폐렴도 동반할 수 있다. 단순사진에서는 종괴보다 하얗고 작아진 폐가 두드러질 수 있어 CT와 기관지내시경으로 폐쇄 원인을 확인한다.\n\n||= 소견 ||= 의미 ||\n|| 기관지 내 연부조직 종괴 || 기도 폐쇄의 원인 ||\n|| 원위부 폐의 부피 감소 || 흡수성 무기폐 ||\n|| 엽간열·폐문의 병변 쪽 이동 || 부피 감소를 지지 ||\n|| 객혈과 고위험 흡연력 || 악성 원인을 우선 고려할 배경 ||\n\n호흡음 감소는 기흉과 흉수에서도 생기므로 비특이적이다. 기흉은 흉막선과 무혈관 공기, 흉수는 액체 저류를 찾아야 한다.\n\n[[22강#기관지가 막히면 종괴보다 무기폐가 먼저 보일 수 있다|기관지가 막히면 종괴보다 무기폐가 먼저 보일 수 있다]]\n\n~~근거: 38기 흉부영상각론1 PDF 28–34쪽. 영상과 원문을 대조한 풀이이며 공식 정답표의 확인 여부와는 구분한다.~~~",
+      "explanation": "정답: ① 폐암\n\n=== 영상과 진찰 소견은 하나의 폐쇄 과정이다 ===\n'''80세·40갑년 흡연·객혈'''이 폐암의 임상 가능성을 높인다. 여기에 CT에서 좌상부의 용적 감소를 동반한 폐 음영, 내시경에서 기관지 내강을 좁히는 불규칙한 병변이 보인다. 기관지를 막는 종양 때문에 원위부 환기가 차단되면 공기가 흡수되어 '''폐쇄성 무기폐'''가 생긴다. 해당 부위의 호흡음 감소와 타진 둔탁도 이 과정으로 설명된다.\n\n> CT의 허탈 폐와 내시경의 종괴를 따로 맞히는 문제가 아니다. “내강 종양 → 기관지 폐쇄 → 원위부 무기폐”를 연결하는 문제다.\n\n=== 선지별 감별 ===\n* '''① 폐암 — 정답.''' 고령 흡연자의 객혈과 폐쇄성 기관지 병변에 가장 잘 맞는다. 확진과 조직형 판정에는 생검이 필요하다.\n* '''② 공기가슴증(기흉) — 흉막강에 공기가 찬 상태다.''' 흉막선 바깥의 혈관 음영 소실이 핵심이며 타진은 과공명 쪽이다. 이 증례의 내강 종괴·무기폐와 맞지 않는다.\n* '''③ 기관지결핵 — 실제로 감별할 수 있는 질환이다.''' 점막의 염증·괴사·협착을 만들 수 있어 내시경 모양 하나로 완전히 배제하지는 않는다. 그러나 제시된 위험인자와 폐쇄성 종괴의 조합에서는 폐암이 우선이고 미생물·조직검사로 구분한다.\n* '''④ 사르코이드증 — 전형적 단서가 다르다.''' 양측 폐문 림프절 비대나 림프관 주위 결절 등이 대표적이다. 이 증례를 가장 잘 설명하는 단일 진단은 아니다.\n* '''⑤ 기관지확장증 — 기관지의 비정상 확장을 확인한다.''' 만성 화농성 객담·반복 감염·객혈은 가능하지만, CT에서 늘어난 기관지와 tapering 소실 등을 찾아야 한다. 현재의 폐쇄성 종괴와 다르다.\n\n=== 다음 검사도 표적의 위치로 선택한다 ===\n||= 방법 ||= 표적·얻는 검체 ||\n|| Endobronchial biopsy || 눈에 보이는 기도 내 병변의 '''조직''' ||\n|| TBLB || 기관지를 통해 말초 폐실질의 '''조직''' ||\n|| Radial EBUS || 말초 병변 내부·인접 여부를 확인하고 해당 경로로 채취 ||\n|| Linear EBUS-TBNA || 기도 벽 밖의 폐문·종격동 림프절 등에서 바늘 검체 ||\n|| Washing·brushing || 기도 세척액·세포 ||\n|| BAL || 말초기도·폐포의 세척액, 세포, 미생물. 조직 구조를 얻는 생검과 다름 ||\n\n내시경에서 직접 보이는 종괴라면 '''endobronchial biopsy'''로 채취할 수 있다. 중심부에 있다는 이유만으로 소세포암이나 편평세포암으로 조직형까지 확정하지 않는다. 림프절 병기는 필요에 따라 EBUS-TBNA 등으로 평가한다.\n\n[[29강#불규칙한 내강 병변과 그 원위부의 무기폐를 연결한다|불규칙한 내강 병변과 그 원위부의 무기폐를 연결한다]]\n~~근거: 강의록 6–7·16·18–26쪽과 문항의 CT·기관지내시경 사진.~~~",
       "images": [
         "J/2024/q006_01.jpg"
       ],
@@ -9637,21 +9642,29 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture22_wiki_j_jbl",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "kind": "lecture_comparison",
-            "description": "38기 흉부영상각론1 PDF 28–34쪽"
+            "kind": "lecture",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
+            "pages": [
+              6,
+              7,
+              16,
+              18,
+              20,
+              24
+            ]
           }
         ],
-        "basis": "38기 흉부영상각론1 PDF 28–34쪽",
-        "chapter": "기관지가 막히면 종괴보다 무기폐가 먼저 보일 수 있다"
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       },
       "classificationReview": {
         "date": "2026-10-20",
@@ -18709,7 +18722,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n폐포단백증에서는 폐포 안에 계면활성제 성분이 축적되어 BAL 액이 우윳빛으로 뿌옇게 보인다. 세척할수록 붉어지는 미만성 폐포출혈과 구분하며, 폐포단백증에서는 whole-lung lavage가 치료에도 사용된다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 24,29-30쪽.~~~",
+      "explanation": "정답: ③ 폐포단백증(Pulmonary alveolar proteinosis, PAP)\n\n=== 결정적인 단서는 우윳빛 회수액이다 ===\nX선·CT의 양측 폐 음영만으로는 여러 미만성 폐질환이 가능하다. 그러나 이 사진에는 '''불투명한 우윳빛 BAL 회수액'''이 함께 제시되어 있다. 폐포에 단백·지질성 물질이 축적되는 PAP를 가장 강하게 시사하는 조합이다. 무증상 검진에서 발견되었다는 점만으로 병변을 가볍게 보거나 배제하지 않는다.\n\nPAP에서는 GGO에 중격 비후가 겹치는 '''crazy-paving'''을 볼 수 있다. 다만 저해상도 사진에서 모든 선을 억지로 판독하거나 crazy-paving만으로 확정할 필요는 없다. '''영상 + 우윳빛 검체 + 단백성 물질의 세포·병리 확인'''이 진단의 연결고리다.\n\n=== 선지별 판단 ===\n* '''① 호산구성 폐렴 — 호산구 분획이 중요하다.''' BAL eosinophil ≥25%가 강한 단서이며 우윳빛 액체가 대표 소견은 아니다.\n* '''② 과민성폐장염(HP) — 노출력과 림프구성 BAL을 연결한다.''' 림프구 >50%는 HP 또는 cellular NSIP를 생각하게 한다. 검체 색만으로 진단하지 않는다.\n* '''③ PAP — 정답.''' 폐포의 surfactant 관련 물질 축적, 우윳빛 회수액, PAS 양성 단백성 물질을 한 묶음으로 이해한다.\n* '''④ DAH — 피빛과 연속 채취 양상이 핵심이다.''' 같은 부위에서 회수할수록 더 혈성으로 변하는 검체가 대표적이다. 현재의 우윳빛 검체와 다르다.\n* '''⑤ IPF — 만성 섬유화 패턴을 본다.''' 적절한 임상 상황에서 기저부·흉막하 망상음영과 honeycombing 등의 UIP 패턴을 평가한다. 우윳빛 BAL은 전형적이지 않다.\n\n=== BAL 판독의 비교표 ===\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\nPAP의 일부 환자에서 시행하는 '''whole-lung lavage'''는 축적된 물질을 제거하는 치료다. 작은 영역에서 검체를 얻는 진단용 BAL과 목적·규모가 다르다. 세척을 반복하면 처음의 탁한 회수액이 점차 맑아질 수 있다.\n\n[[29강#우윳빛 BAL은 폐포단백증으로 연결한다|우윳빛 BAL은 폐포단백증으로 연결한다]]\n[[29강#증가한 세포의 종류가 감별 범위를 좁힌다|BAL 세포 분획의 전체 비교]]\n~~근거: 강의록 27–33쪽과 문항 영상.~~~",
       "images": [
         "J/2023/q064_01.jpg"
       ],
@@ -18743,26 +18756,30 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
-              24,
+              27,
+              28,
               29,
-              30
+              30,
+              31,
+              32,
+              33
             ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -18790,7 +18807,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n객담은 하부기도에서 나온 분비물이며 타액·비인두 분비물과 구분한다. 편평상피세포가 많으면 구강 오염을 의심한다. Streptococcus 일부나 Candida는 집락화·오염으로 검출될 수 있지만 결핵균을 정상균으로 취급하지 않는다. 유도객담에는 일반적으로 고장성 식염수를 사용한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」; 38기 정리본 「1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs」.~~~",
+      "explanation": "정답: ⑤ 특별한 원인 질환 없이 Streptococcus가 동정될 수 있다.\n\n=== 균 검출과 감염 진단을 구별한다 ===\n객담은 하부기도에서 올라오지만 입을 통과하면서 구강 분비물이 섞일 수 있다. 일부 Streptococcus는 구강 상재균이므로 '''배양에서 검출되었다는 사실만으로 폐렴의 원인균이라고 할 수 없다.''' 반대로 모든 Streptococcus가 무해하다는 뜻도 아니다. 균종, 검체의 질, 증상·영상이 일치하는지 확인한다.\n\n=== 선지별 판단 ===\n* '''① 증류수로 유도 — 틀리다.''' 대표적인 유도 방법은 고장성 식염수 에어로졸이다. 상황에 따라 등장성 식염수도 쓰며, 기관지수축에 대비해 폐기능을 관찰한다.\n* '''② 비인두 분비물 — 틀리다.''' 목표는 하부기도에서 올라온 분비물이다. 침·비인두 점액은 오염의 원인이 된다.\n* '''③ 결핵균은 정상균 — 틀리다.''' 결핵균을 정상 상재균으로 처리할 수 없다.\n* '''④ 편평상피세포 ≥25개면 적절 — 방향이 반대다.''' 편평상피세포가 많을수록 구강 오염 가능성이 커진다. 많이 보이는 검체를 좋은 검체라고 하지 않는다.\n* '''⑤ 특별한 질환 없이 Streptococcus 동정 — 맞다.''' 일부 구강 상재균의 혼입·집락화를 생각할 수 있다.\n\n=== 객담 문항을 한 번에 정리하기 ===\n||= 항목 ||= 바르게 기억할 내용 ||\n|| 기원 || '''하부기도''' 분비물을 깊게 기침해 얻는다. 비인두 점액·침과 구분한다. ||\n|| 채취 || 아침 자발적 객담을 활용한다. 구강 분비물 혼입을 줄인다. ||\n|| 유도 || 대표적으로 '''고장성 식염수''' 에어로졸. 상황에 따라 등장성 식염수도 사용하며 증류수가 표준 유도액은 아니다. ||\n|| 편평상피세포 || 많으면 구강 오염을 의심한다. 기출의 일반 객담 검체 기준은 저배율에서 10개 이상이면 부적절하다는 방향이다. ||\n|| Streptococcus·Candida || 구강 오염·집락화로 검출될 수 있어 배양 양성만으로 원인 질환을 확정하지 않는다. ||\n|| 결핵균 || 정상 상재균이 아니다. 검출 결과를 임상·다른 검사와 연결해야 한다. ||\n|| 객담 호산구 ≥3% || 호산구성 기도 염증의 단서. 비천식성 호산구성 기관지염은 천식·기도과민성 등과 구분해서 진단한다. ||\n\n> 먼저 좋은 검체인지 확인하고, 그다음 균이 원인인지 해석한다. “많은 편평상피세포 = 오염 의심”, “배양 양성 = 반드시 감염”이 아니라는 두 축을 구별한다.\n\n[[29강#객담은 침이 아니라 하부기도에서 올라온 검체다|객담은 침이 아니라 하부기도에서 올라온 검체다]]\n~~보충 근거: [[https://publications.ersnet.org/content/erj/20/37suppl/3s|ERS 객담 유도 지침]], [[https://www.idsociety.org/practice-guideline/candidiasis/|IDSA candidiasis 지침]]. 상피세포 수의 판정은 일반 세균배양용 객담 맥락이며 검사실·검사 목적에 따라 달라질 수 있다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -18817,29 +18834,24 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
-        "summaryUsed": true,
-        "originalQuestionAndImagesPreserved": true,
+        "summaryUsed": false,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
-            "pages": []
-          },
-          {
-            "key": "S21",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
-            "name": "1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
-            "pages": []
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
+            "pages": [
+              2
+            ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -28278,7 +28290,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\n객담은 하부기도에서 나온 분비물이며 타액·비인두 분비물과 구분한다. 편평상피세포가 많으면 구강 오염을 의심한다. Streptococcus 일부나 Candida는 집락화·오염으로 검출될 수 있지만 결핵균을 정상균으로 취급하지 않는다. 유도객담에는 일반적으로 고장성 식염수를 사용한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」; 38기 정리본 「1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs」.~~~",
+      "explanation": "정답: ② 객담은 비인두에서 나오는 물질이다.\n\n=== 객담의 기원을 묻는 문항이다 ===\n객담 검사는 '''하부기도 분비물'''을 대상으로 한다. 비인두에서 넘어온 점액이나 침은 좋은 객담 검체의 정의가 아니다. 따라서 ②가 가장 명확하게 틀린 설명이다.\n\n=== 선지별 판단과 문장상의 한계 ===\n* '''① 아침의 자발적 가래 — 적절한 설명이다.''' 깊게 기침해 얻은 검체를 활용하고 침 혼입을 줄인다.\n* '''② 비인두에서 나오는 물질 — 정답인 틀린 설명이다.''' 기원은 하부기도다.\n* '''③ Epithelial cell 10개 이상 — 일반 객담의 편평상피세포 기준으로 읽는다.''' 저배율에서 편평상피세포가 많으면 구강 오염을 의심한다. 모든 종류의 상피세포·모든 시야 배율에 같은 숫자를 적용하는 문장은 아니다.\n* '''④ 정상 가래에서도 Streptococcus 검출 — 가능하다.''' 일부 구강 상재균이 섞일 수 있다. 검출만으로 폐렴을 확정하지 않는다.\n* '''⑤ 호산구 ≥3%면 호산구성 기관지염 — 기출 의도는 맞지만 표현이 압축되어 있다.''' 이 수치는 호산구성 기도 염증을 지지한다. 실제 비천식성 호산구성 기관지염의 진단에는 만성 기침의 맥락과 천식·가변적 기류제한·기도과민성 등과의 구분이 필요하다. 수치 하나만으로 확진한다는 뜻으로 일반화하면 정확하지 않다.\n\n현재 문항에서는 ②를 정답으로 유지한다. 다만 '''⑤를 글자 그대로 읽으면 진단 조건이 생략된 한계가 있다.''' 객담 호산구 증가만으로 비천식성 호산구성 기관지염을 확정할 수는 없다.\n\n||= 항목 ||= 바르게 기억할 내용 ||\n|| 기원 || '''하부기도''' 분비물을 깊게 기침해 얻는다. 비인두 점액·침과 구분한다. ||\n|| 채취 || 아침 자발적 객담을 활용한다. 구강 분비물 혼입을 줄인다. ||\n|| 유도 || 대표적으로 '''고장성 식염수''' 에어로졸. 상황에 따라 등장성 식염수도 사용하며 증류수가 표준 유도액은 아니다. ||\n|| 편평상피세포 || 많으면 구강 오염을 의심한다. 기출의 일반 객담 검체 기준은 저배율에서 10개 이상이면 부적절하다는 방향이다. ||\n|| Streptococcus·Candida || 구강 오염·집락화로 검출될 수 있어 배양 양성만으로 원인 질환을 확정하지 않는다. ||\n|| 결핵균 || 정상 상재균이 아니다. 검출 결과를 임상·다른 검사와 연결해야 한다. ||\n|| 객담 호산구 ≥3% || 호산구성 기도 염증의 단서. 비천식성 호산구성 기관지염은 천식·기도과민성 등과 구분해서 진단한다. ||\n\n=== 객담 수치와 BAL 수치를 섞지 않는다 ===\n객담 호산구 '''3%'''와 BAL 정상 호산구 '''≤1%''', 호산구성 폐렴을 강하게 시사하는 BAL '''≥25%'''는 서로 다른 맥락이다. 어떤 검체의 수치인지 먼저 확인한다.\n\n[[29강#객담은 침이 아니라 하부기도에서 올라온 검체다|객담은 침이 아니라 하부기도에서 올라온 검체다]]\n[[29강#증가한 세포의 종류가 감별 범위를 좁힌다|BAL의 세포 분획과 비교]]\n~~보충 근거: [[https://publications.ersnet.org/content/erj/20/37suppl/3s|ERS 객담 유도 지침]], [[https://www.idsociety.org/practice-guideline/candidiasis/|IDSA candidiasis 지침]]. 상피세포 수의 판정은 일반 세균배양용 객담 맥락이며 검사실·검사 목적에 따라 달라질 수 있다.~~~\n~~발문·선지 확인: 「2022학년도 2학기 호흡기계 문제 복원」 PDF 17쪽. 진단 조건은 [[https://publications.ersnet.org/content/erj/55/1/1901136|ERS 만성기침 지침]]의 호산구성 기관지염 설명도 참고한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -28305,29 +28317,26 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
+        "answerStatus": "best_answer_with_qualification",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
-        "summaryUsed": true,
-        "originalQuestionAndImagesPreserved": true,
+        "summaryUsed": false,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
-            "pages": []
-          },
-          {
-            "key": "S21",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
-            "name": "1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
-            "pages": []
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
+            "pages": [
+              2,
+              29,
+              30
+            ]
           }
-        ]
+        ],
+        "notes": "⑤ omits diagnostic conditions; ② remains the clearest intended wrong statement."
       }
     },
     {
@@ -28348,14 +28357,15 @@ window.JBL_DATA = {
         "[선지 미복원]",
         "Pulmonary Alveolar Proteinosis",
         "Thyroid cancer",
-        "Diffuse Alveolar Hemorrhage 6. Eosinophilic pneumonia"
+        "Diffuse Alveolar Hemorrhage",
+        "Eosinophilic pneumonia"
       ],
       "answerIndex": 5,
       "answerIndices": [
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n연속한 BAL 검체가 뒤로 갈수록 더 짙은 혈성으로 변하므로 미만성 폐포출혈이 답이다. 시술 손상에 의한 초기 출혈이나 우윳빛 폐포단백증과 구분한다. 현재 5번 뒤에 6번 선지가 붙어 있는 복원 문제는 있지만, 사진이 가리키는 질환은 Diffuse alveolar hemorrhage다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 29쪽.~~~",
+      "explanation": "정답: ⑤ Diffuse alveolar hemorrhage(미만성폐포출혈, DAH)\n\n=== 사진은 색 하나보다 연속 채취의 방향을 보여 준다 ===\n1→2→3번 검체로 갈수록 회수액이 더 짙은 혈성으로 변한다. 같은 영역에서 연속 시행한 BAL이 이렇게 보이면 '''폐포 안에서 계속 피가 섞여 나오는 DAH'''를 의심한다. X선의 양측 폐포성 음영과도 연결된다.\n\n기관지 점막을 건드려 생긴 단순 시술성 출혈에서는 처음의 혈액이 이후 씻겨 나가며 옅어질 수 있다. 따라서 “붉은 액체가 하나 있다”보다 '''연속 검체가 더 혈성으로 변하거나 혈성이 지속되는가'''가 중요하다. Hemosiderin-laden macrophage가 뒷받침할 수 있지만 아주 초기에는 뚜렷하지 않을 수 있다.\n\n=== 선지별 판단 ===\n* '''① Lung cancer — 이 패턴으로 암을 진단하지 않는다.''' 종양도 객혈을 만들 수 있지만 진단에는 악성 세포·조직과 병변 평가가 필요하다.\n* '''② [선지 미복원] — 비교할 원문이 없어 판단을 보류한다.''' 임의로 선택지를 만들어 넣지 않았다.\n* '''③ PAP — 우윳빛·불투명한 회수액이 대표적이다.''' 점점 진해지는 혈성 검체와 다르다.\n* '''④ Thyroid cancer — 제시된 BAL 패턴의 설명이 아니다.''' 갑상샘 종양을 진단할 근거가 없다.\n* '''⑤ DAH — 정답이다.''' 연속 BAL의 혈성 증가와 양측 폐 음영을 함께 설명한다.\n* '''⑥ Eosinophilic pneumonia — 호산구 분획을 확인해야 한다.''' 대표적으로 BAL eosinophil ≥25%가 강한 단서이며, 이 사진의 혈성 변화 자체를 설명하는 선택지는 아니다.\n\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\n> DAH는 원인 진단이 아니라 출혈 증후군의 확인이다. 이후 혈관염·자가면역질환·응고 이상·약제 등 원인을 찾아야 하며, 객혈이 없다고 배제할 수 없다.\n\n[[29강#연속으로 회수할수록 더 붉어지면 폐포출혈을 의심한다|연속으로 회수할수록 더 붉어지면 폐포출혈을 의심한다]]\n~~입력 정정: 원복원본 PDF 17쪽에는 ⑤ DAH와 ⑥ Eosinophilic pneumonia가 별도 선지다. 사이트에서 두 선지가 한 줄로 붙어 있던 입력 오류만 분리했다. ②는 원문에서도 비어 있어 미복원 표시를 유지했다. 정답 ⑤는 사진과 강의록 32쪽에 근거한 판단이며 미복원 선지를 확인한 것은 아니다.~~~",
       "images": [
         "J/2022/q070_01.jpg"
       ],
@@ -28381,7 +28391,8 @@ window.JBL_DATA = {
       "sourceStatus": "reconstruction",
       "parseMethod": "numbered",
       "restorationNotes": [
-        "복원본의 사진으로, 원시험 사진인지 강의록 대체 사진인지 출처 표기와 실제 페이지를 함께 확인해야 함."
+        "복원본의 사진으로, 원시험 사진인지 강의록 대체 사진인지 출처 표기와 실제 페이지를 함께 확인해야 함.",
+        "2026-10-21: 원복원본 17쪽에서 별도 선지인 ⑤ DAH와 ⑥ Eosinophilic pneumonia가 사이트에 합쳐진 입력 오류를 분리. ② 미복원 표시는 유지."
       ],
       "imageProvenance": [
         {
@@ -28391,24 +28402,30 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
+        "answerStatus": "image_based_answer_incomplete_choice",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
-              29
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
             ]
           }
-        ]
+        ],
+        "notes": "Original reconstruction p17: separate choices 5/6; choice 2 remains missing."
       }
     },
     {
@@ -38321,7 +38338,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n최근 심근경색이나 불안정 협심증에서는 기관지내시경과 진정 과정의 저산소증·빈맥이 심근허혈을 악화시킬 수 있다. 반면 원인 불명의 객혈, 무기폐, 치료에 반응하지 않는 폐렴은 검사 적응증이 될 수 있다. 응급 검사 필요성과 심혈관 안정성을 먼저 평가한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 6-8쪽.~~~",
+      "explanation": "정답: ④ 객혈로 내원한 불안정 협심증 환자\n\n=== 객혈은 적응증, 불안정 협심증은 위험 요인이다 ===\n같은 환자 안에 검사할 이유와 미룰 이유가 함께 있을 수 있다. '''원인 불명 객혈'''은 기관지내시경으로 위치·원인을 확인할 수 있는 적응증이다. 그러나 '''불안정 협심증'''에서는 검사 중 저산소증, 기침·빈맥·혈압 변화가 심근허혈을 악화시킬 수 있어 심혈관 안정화와 위험 평가가 우선이다.\n\n=== 선지별 판단 ===\n* '''① 2개월 이상 치료에 반응 없는 기침 — 평가 적응증이 될 수 있다.''' 흔한 원인 평가 후 국소 기도 병변 등을 확인할 필요가 있다.\n* '''② 기관지결핵 의심 + 부정맥 약 복용 — 복용 사실만으로 금기는 아니다.''' 실제로 불안정한 부정맥인지 확인해야 한다. 결핵 의심 병변은 검체 확보의 적응증이 될 수 있다.\n* '''③ FiO₂ 0.7·PEEP 10·SpO₂ 95%의 기계환기 환자 — 고위험이지만 일률적 절대금기는 아니다.''' 높은 산소·환기 지원이 필요하다는 점은 중요하다. 그러나 기계환기 중에도 기도 폐쇄·감염 등을 위해 내시경을 시행할 수 있고, 생검을 추가할 때는 기흉·출혈 위험을 더 따진다. 이 수치만으로 안전하다고 단정하는 것도 잘못이다.\n* '''④ 불안정 협심증 — 정답.''' 다른 선지보다 명시적으로 불안정한 심혈관 상태다.\n* '''⑤ 항생제에 반응하지 않는 폐렴 — 원인 평가의 적응증이다.''' 비전형·기회감염, 내강 폐쇄, 비감염성 질환 등을 검토하고 적절한 검체를 얻을 수 있다.\n\n=== 금기 표는 검사 종류와 함께 읽는다 ===\n||= 범주 ||= 기억할 내용 ||\n|| 검사 적응증 || 원인 불명 객혈, 지속 무기폐, 낫지 않는 폐렴, 고정된 국소 천명, 설명되지 않는 지속 기침, 종양·림프절 평가 ||\n|| 심혈관 위험 || 최근 심근경색, 불안정 협심증, 불안정 부정맥, 조절되지 않는 심한 고혈압 ||\n|| 호흡 위험 || 불안정 천식, 저산소혈증, 고탄산혈증. 진정·기도 점유·흡인·세척으로 악화 가능 ||\n|| 생검 시 추가 위험 || 교정되지 않은 출혈성 질환, 혈소판감소, 요독증·간경변, 심한 폐고혈압, 상대정맥 폐쇄, 심한 빈혈, 기흉, 기계환기·PEEP ||\n|| 신경·환경 || 두개내압 상승, 조절되지 않는 발작, 산소화·응급처치가 불가능한 환경, 동의 없음·협조 불가 등 ||\n\n강의 표가 기계환기·PEEP를 '''생검 관련 위험'''으로 따로 둔 이유가 중요하다. 표의 일부 단어만 떼어 “인공호흡기 환자는 기관지내시경 불가”라고 하면 ③과 ④를 잘못 비교하게 된다.\n\n[[29강#금기는 병명보다 현재의 불안정성과 시술 종류를 본다|금기는 병명보다 현재의 불안정성과 시술 종류를 본다]]\n~~근거: 강의록 7·9–11쪽. 응급 기도 확보·출혈 조절이 필요한 상황에서는 이득과 위험을 따로 판단한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -38348,26 +38365,27 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
-              6,
               7,
-              8
+              9,
+              10,
+              11
             ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -38395,7 +38413,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n폐포단백증에서는 폐포 안에 계면활성제 성분이 축적되어 BAL 액이 우윳빛으로 뿌옇게 보인다. 세척할수록 붉어지는 미만성 폐포출혈과 구분하며, 폐포단백증에서는 whole-lung lavage가 치료에도 사용된다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 24,29-30쪽.~~~",
+      "explanation": "정답: ③ 폐포단백증(PAP)\n\n=== 우윳빛은 폐포에 쌓인 물질을 반영한다 ===\nPAP에서는 폐포 안에 surfactant 관련 단백·지질성 물질이 축적된다. 이를 씻어 회수하면 '''우윳빛의 불투명한 BAL'''이 나올 수 있다. PAS 양성 단백성 물질 등의 확인이 진단을 뒷받침한다. 기관지내시경은 기도를 보는 검사이면서 폐포 내용물을 얻는 통로이기도 하다.\n\n=== 선지별 판단 ===\n* '''① 소세포암 — 세포·조직이 필요하다.''' 종양의 육안 모습이나 세척액의 특정 색만으로 조직형을 정할 수 없다.\n* '''② 폐결핵 — 결핵균 검사가 핵심이다.''' 도말·배양·분자검사 등과 임상·영상을 연결한다. 고유한 BAL 색으로 확정하는 질환이 아니다.\n* '''③ PAP — 정답.''' 우윳빛 회수액이 특징적인 단서다.\n* '''④ 기관지확장증 — CT에서 확장된 기관지를 평가한다.''' 화농성 객담이 있을 수 있지만 이는 여러 감염에서 보일 수 있어 특유한 BAL 색으로 진단하지 않는다.\n* '''⑤ IPF — 임상과 HRCT의 섬유화 패턴을 평가한다.''' BAL 색만으로 IPF를 진단할 수 없다.\n\n=== 색과 세포 분획을 나누어 기억한다 ===\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\n||= BAL 세포·지표 ||= 비흡연 정상 성인 기준 ||\n|| Alveolar macrophage || >85% ||\n|| Lymphocyte || 10–15% ||\n|| CD4/CD8 || 0.9–2.5 ||\n|| Neutrophil || ≤3% ||\n|| Eosinophil || ≤1% ||\n|| Squamous/ciliated columnar epithelial cell || ≤5% ||\n\nPAP의 whole-lung lavage는 축적 물질을 씻어 내는 치료다. 진단용 BAL의 소량 검체와 구별하며, 강의의 여러 회수병이 차츰 맑아지는 사진은 반복 세척에 따른 변화를 보여 준다.\n\n[[29강#우윳빛 BAL은 폐포단백증으로 연결한다|우윳빛 BAL은 폐포단백증으로 연결한다]]\n[[29강#정상 BAL은 macrophage가 대부분이다|정상 BAL 분획]]\n~~근거: 강의록 27–33쪽. 이 문항의 ‘색깔로 진단’은 특징적인 육안 단서를 묻는 표현이며 실제 진단은 임상·영상·세포 소견을 함께 확인한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -38422,26 +38440,30 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
-              24,
+              27,
+              28,
               29,
-              30
+              30,
+              31,
+              32,
+              33
             ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -43441,7 +43463,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\nEBUS-TBNA는 폐문·종격동 림프절을 초음파로 확인하고 바늘로 채취하여 폐암 진단과 병기 평가에 이용한다. BAL은 주로 세척액의 세포·미생물 검사이며 조직생검과 다르고, 자가형광 검사는 높은 특이도를 보장하지 않는다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」 PDF 15,21-24쪽.~~~",
+      "explanation": "정답: ② 경기관지 초음파는 종격동 림프절 검사에 유용하다.\n\n=== 초음파는 기도 벽 너머를 보게 해 준다 ===\n일반 내시경은 내강과 점막을 보지만, '''linear EBUS'''는 기도 벽 밖의 림프절·종괴를 초음파로 확인한다. EBUS-TBNA로 표적을 바늘 채취하면 영상만으로 구분하기 어려운 염증성 림프절과 전이를 평가하고 폐암의 병기를 정하는 데 도움이 된다.\n\n=== 선지별 판단 ===\n* '''① 원인 미상 객혈이 금기 — 틀리다.''' 원인·출혈 위치를 찾는 적응증이다. 다만 대량 출혈이나 심폐 불안정 상태에서는 기도 확보와 안정화가 우선이다.\n* '''② 종격동 림프절 검사에 유용 — 맞다.''' 특히 linear EBUS-TBNA를 연결한다.\n* '''③ Autofluorescence의 높은 특이도 — 핵심 장점을 잘못 짚었다.''' 정상·비정상 점막의 형광 차이를 이용해 미세 병변 발견의 민감도를 높이지만, 염증 등에서도 이상 소견이 나타나 특이도의 한계가 있다. 내시경 색 변화만으로 암을 확진하지 않는다.\n* '''④ NBI로 3차원 영상을 얻음 — 틀리다.''' 좁은 파장대의 빛으로 점막·점막하 혈관 패턴을 강조하는 기법이다. 3차원 공간 정보를 얻는 검사라는 뜻이 아니다.\n* '''⑤ BAL로 조직 획득 — 틀리다.''' BAL은 세척액 속 세포·미생물·물질을 얻는다. 조직 구조를 확인하려는 forceps biopsy나 TBLB와 구분해야 한다.\n\n=== 검체 채취법의 전체 비교 ===\n||= 방법 ||= 표적·얻는 검체 ||\n|| Endobronchial biopsy || 눈에 보이는 기도 내 병변의 '''조직''' ||\n|| TBLB || 기관지를 통해 말초 폐실질의 '''조직''' ||\n|| Radial EBUS || 말초 병변 내부·인접 여부를 확인하고 해당 경로로 채취 ||\n|| Linear EBUS-TBNA || 기도 벽 밖의 폐문·종격동 림프절 등에서 바늘 검체 ||\n|| Washing·brushing || 기도 세척액·세포 ||\n|| BAL || 말초기도·폐포의 세척액, 세포, 미생물. 조직 구조를 얻는 생검과 다름 ||\n\n||= 헷갈리는 한 쌍 ||= 구분점 ||\n|| Radial EBUS / linear EBUS-TBNA || 말초 병변 위치 확인 / 폐문·종격동 표적의 초음파 유도 바늘 채취 ||\n|| BAL / biopsy || 폐포 표면의 액체·세포 / 조직 구조 ||\n|| Autofluorescence / NBI || 조직 형광 차이 / 혈관 패턴의 광학적 강조 ||\n\n[[29강#내시경의 이름보다 무엇을 보는지 구별한다|내시경의 이름보다 무엇을 보는지 구별한다]]\n~~근거: 강의록 7·18–28쪽. 광학 기법은 [[https://publications.ersnet.org/content/erj/19/2/356|ERS/ATS 중재 호흡기학 성명]]과 [[https://pubmed.ncbi.nlm.nih.gov/23275117/|NBI 혈관 패턴 연구]]를 참고한 보충이다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -43468,28 +43490,34 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
             "pages": [
-              15,
+              7,
+              18,
+              19,
+              20,
               21,
               22,
-              23,
-              24
+              24,
+              25,
+              26,
+              27,
+              28
             ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
@@ -43517,7 +43545,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n객담은 하부기도에서 나온 분비물이며 타액·비인두 분비물과 구분한다. 편평상피세포가 많으면 구강 오염을 의심한다. Streptococcus 일부나 Candida는 집락화·오염으로 검출될 수 있지만 결핵균을 정상균으로 취급하지 않는다. 유도객담에는 일반적으로 고장성 식염수를 사용한다.\n\n~~근거: 38기 강의록 「251027_22. 기관지 내시경_유우경」; 38기 정리본 「1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs」.~~~",
+      "explanation": "정답: ③ 특별한 원인 질환 없이 Candida가 동정될 수 있다.\n\n=== Candida 배양 양성은 곧 Candida 폐렴이 아니다 ===\n객담이 입을 통과할 때 구강의 균이 섞일 수 있고, 호흡기에서 Candida가 집락화해 있을 수도 있다. 따라서 '''Candida가 나왔다는 사실만으로 침습성 폐감염이나 항진균제 치료를 결정하지 않는다.''' 면역 상태, 감염을 지지하는 소견과 필요시 조직 등 추가 근거를 함께 평가한다.\n\n=== 선지별 판단 ===\n* '''① 편평상피세포 ≥10개면 적절 — 방향이 반대다.''' 일반 객담 검체에서 편평상피세포가 많으면 구강 오염을 의심한다.\n* '''② 결핵균은 정상균 — 틀리다.''' 정상 상재균처럼 처리할 수 없다.\n* '''③ 원인 질환 없이 Candida 동정 — 맞다.''' 오염·집락화 가능성을 구별하는 문장이다.\n* '''④ 증류수로 객담 유도 — 틀리다.''' 대표적으로 고장성 식염수를 이용하며 상황에 따라 등장성 식염수도 사용한다.\n* '''⑤ 비인두 분비물 — 틀리다.''' 목표 검체는 하부기도 분비물이다. 비인두 점액이나 침을 객담의 정의로 삼지 않는다.\n\n=== 같은 유형의 변형에 대비하기 ===\n||= 항목 ||= 바르게 기억할 내용 ||\n|| 기원 || '''하부기도''' 분비물을 깊게 기침해 얻는다. 비인두 점액·침과 구분한다. ||\n|| 채취 || 아침 자발적 객담을 활용한다. 구강 분비물 혼입을 줄인다. ||\n|| 유도 || 대표적으로 '''고장성 식염수''' 에어로졸. 상황에 따라 등장성 식염수도 사용하며 증류수가 표준 유도액은 아니다. ||\n|| 편평상피세포 || 많으면 구강 오염을 의심한다. 기출의 일반 객담 검체 기준은 저배율에서 10개 이상이면 부적절하다는 방향이다. ||\n|| Streptococcus·Candida || 구강 오염·집락화로 검출될 수 있어 배양 양성만으로 원인 질환을 확정하지 않는다. ||\n|| 결핵균 || 정상 상재균이 아니다. 검출 결과를 임상·다른 검사와 연결해야 한다. ||\n|| 객담 호산구 ≥3% || 호산구성 기도 염증의 단서. 비천식성 호산구성 기관지염은 천식·기도과민성 등과 구분해서 진단한다. ||\n\n> Candida 대신 일부 Streptococcus로 바뀌어도 원리는 같다. 좋은 검체인지 먼저 보고, 검출된 균이 단순히 섞인 것인지 실제 질환의 원인인지 판단한다. 결핵균은 이와 달리 정상 상재균이라고 할 수 없다.\n\n[[29강#객담은 침이 아니라 하부기도에서 올라온 검체다|객담은 침이 아니라 하부기도에서 올라온 검체다]]\n~~보충 근거: [[https://publications.ersnet.org/content/erj/20/37suppl/3s|ERS 객담 유도 지침]], [[https://www.idsociety.org/practice-guideline/candidiasis/|IDSA candidiasis 지침]]. 상피세포 수의 판정은 일반 세균배양용 객담 맥락이며 검사실·검사 목적에 따라 달라질 수 있다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "유우경",
@@ -43544,29 +43572,24 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
+        "date": "2026-10-21",
+        "scope": "lecture_29_wiki_j_jbl",
         "answerStatus": "lecture_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
-        "summaryUsed": true,
-        "originalQuestionAndImagesPreserved": true,
+        "summaryUsed": false,
+        "annotatedPriorLectureConsulted": true,
         "sources": [
           {
-            "key": "L17",
             "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251027_22. 기관지 내시경_유우경.pdf",
-            "name": "251027_22. 기관지 내시경_유우경.pdf",
-            "pages": []
-          },
-          {
-            "key": "S21",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
-            "name": "1027 정리본 (22. 호흡기 질환 진단법-기관지내시경 중심 _ 유우경) - Google Docs.pdf",
-            "pages": []
+            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
+            "name": "29. 호흡기질환진단법_강의록.pdf",
+            "pages": [
+              2
+            ]
           }
-        ]
+        ],
+        "notes": "Current lecture content and direct question/image review; no inferred official answer."
       }
     },
     {
