@@ -1,0 +1,75 @@
+.kmle-root{--k-accent:var(--study-accent,#815e79);--k-border:var(--study-border,#e8dfe6);--k-surface:var(--study-surface,#fff);color:inherit;max-width:1500px;margin:0 auto;font-size:calc(15px * var(--study-text-scale,1))}
+.kmle-root button:where(:not(.jbl-choice,.jbl-qid,.jbl-favorite,.jbl-btn,.study-answer-status)),.kmle-root input:where(:not(.jbl-number-input)){font:inherit}
+.kmle-root button,.kmle-root a,.kmle-root summary{touch-action:manipulation}
+.kmle-root button{cursor:pointer}
+.kmle-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 4px}
+.kmle-heading h1{font-size:1.8em;margin:0 0 7px;color:var(--k-accent)}
+.kmle-heading p,.kmle-small{font-size:.86em;color:var(--study-muted,#716875);margin:0}
+.kmle-root button:where(:not(.jbl-choice,.jbl-qid,.jbl-favorite,.jbl-btn,.study-answer-status)){border:1px solid var(--k-border);background:var(--k-surface);color:inherit;border-radius:10px;padding:8px 12px}
+.kmle-root button:where(:not(.jbl-choice,.jbl-qid,.jbl-favorite,.jbl-btn,.study-answer-status)):hover{border-color:var(--k-accent)}
+.kmle-root button:focus-visible,.kmle-root a:focus-visible,.kmle-root input:focus-visible,.kmle-root summary:focus-visible{outline:2px solid var(--k-accent);outline-offset:3px}
+.kmle-root button:disabled{opacity:.35;cursor:default}
+.kmle-root .kmle-primary{background:var(--k-accent);color:white;border-color:var(--k-accent);white-space:nowrap}
+.kmle-map-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 22px}
+.kmle-map-tools input{min-width:0;width:330px;padding:12px;border:1px solid var(--k-border);border-radius:12px;color:inherit;background:var(--k-surface)}
+.kmle-categories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:4px 0 72px;min-height:300px}
+.kmle-category{border:1px solid var(--k-border);border-radius:16px;background:var(--k-surface);padding:20px;align-self:start;min-width:0}
+.kmle-category h2{font-size:1.15em;margin:0 0 16px;display:flex;gap:12px;align-items:center}
+.kmle-category h2>span{font-size:.8em;font-weight:500;color:var(--k-accent)}
+.kmle-group{border-top:1px solid var(--k-border)}
+.kmle-group summary{padding:13px 0;cursor:pointer;font-weight:600}
+.kmle-group summary>span{float:right;font-size:.85em;font-weight:400;color:var(--study-muted)}
+.kmle-question-links{display:flex;flex-wrap:wrap;gap:7px;padding:0 0 12px}
+.kmle-question-links a{color:var(--k-accent);border:1px solid var(--k-border);border-radius:8px;padding:6px 9px;text-decoration:none;font-weight:600}
+.kmle-question-links a.is-wrong{border-color:#d69b9b}
+.kmle-question-links a.is-right{border-color:#90bbc2}
+.kmle-lecture-links{display:flex;gap:7px 12px;flex-wrap:wrap;margin:0 0 12px}
+.kmle-lecture-links a{color:var(--k-accent);font-size:.85em;text-decoration:none;line-height:1.7}
+.kmle-lecture-links a:hover{text-decoration:underline}
+.kmle-bank-heading{display:flex;align-items:center;gap:14px;margin:8px 0 16px;color:var(--study-muted);font-size:.88em}
+.kmle-bank-heading>.kmle-small{margin-left:auto}
+.kmle-split{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;align-items:start;padding-bottom:calc(var(--k-nav-height,68px) + 24px)}
+.kmle-root.has-explanation .kmle-split{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.kmle-root.kmle-question-view{max-width:none}
+.kmle-root .kmle-question{margin:0;min-width:0;touch-action:pan-y pinch-zoom}
+.kmle-question,.kmle-bottom{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",Arial,sans-serif;font-size:16px;line-height:1.6}
+/* Question controls deliberately share J styles; the explanation keeps its own layout. */
+html:not([data-theme=dark]):has(#kmle-view:not([hidden]) .kmle-question-view),html:not([data-theme=dark]) body.study-ui:has(#kmle-view:not([hidden]) .kmle-question-view){background:#fff}
+body.study-ui:has(#kmle-view:not([hidden]) .kmle-question-view) main{padding-top:10px}
+.kmle-image figcaption{font-size:.78em;color:var(--study-muted);padding-top:8px}
+.kmle-multiple{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 0;font-size:.9em}
+.kmle-answer{margin-top:18px;padding:13px 15px;border-left:3px solid var(--k-accent);background:color-mix(in srgb,var(--k-accent) 8%,transparent);line-height:1.7;font-weight:600}
+.kmle-explanation{min-width:0;border:1px solid var(--k-border);border-radius:16px;background:var(--k-surface);max-height:calc(100dvh - 160px);overflow:auto;position:sticky;top:65px;overscroll-behavior:contain;animation:kmle-enter .24s ease both}
+.kmle-explanation[hidden]{display:none}
+.kmle-explanation>header{position:sticky;top:0;display:flex;align-items:center;gap:8px;background:var(--k-surface);padding:12px 18px;border-bottom:1px solid var(--k-border);z-index:1;touch-action:manipulation}
+.kmle-explanation>header strong{margin-right:auto}
+.kmle-explanation>header button{padding:3px 9px;font-size:1.3em}
+.kmle-explanation-body{padding:4px 22px 25px;line-height:1.85}
+.kmle-explanation-body h3{font-size:1.1em;margin:26px 0 10px;color:var(--k-accent)}
+.kmle-explanation-body p{margin:8px 0 14px;word-break:keep-all;overflow-wrap:anywhere}
+.kmle-explanation-body ol{padding-left:24px}
+.kmle-explanation-body li{padding-left:3px;margin-bottom:18px}
+.kmle-correct-explanation>strong{color:var(--k-accent)}
+.kmle-explanation-body table{border-collapse:collapse;width:100%;font-size:.91em}
+.kmle-explanation-body th,.kmle-explanation-body td{padding:10px;border:1px solid var(--k-border);vertical-align:top;text-align:left}
+.kmle-explanation-body th{width:25%;min-width:70px;background:color-mix(in srgb,var(--k-accent) 7%,transparent)}
+.kmle-adaptation{border-top:1px solid var(--k-border);font-size:.85em;color:var(--study-muted);margin-top:24px;padding-top:14px}
+.kmle-adaptation summary{cursor:pointer}
+.kmle-explanation.closing{animation:kmle-exit .16s ease both}
+.kmle-root.explanation-expanded .kmle-question{display:none}
+.kmle-root.explanation-expanded .kmle-split{grid-template-columns:minmax(0,1fr)}
+.kmle-root.explanation-expanded .kmle-explanation{position:relative;top:0;max-height:none;width:min(100%,1000px);margin:auto}
+@keyframes kmle-enter{from{opacity:0;filter:blur(5px);transform:translateX(12px)}to{opacity:1;filter:blur(0);transform:translateX(0)}}
+@keyframes kmle-exit{to{opacity:0;filter:blur(4px);transform:translateX(12px)}}
+@media(max-width:1000px){.kmle-categories{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+ .kmle-root{font-size:calc(14px * var(--study-text-scale,1))}
+ .kmle-heading{padding:15px 0;gap:10px}.kmle-heading h1{font-size:1.55em}
+ .kmle-map-tools{align-items:stretch;flex-direction:column;gap:10px}.kmle-map-tools input{width:100%}
+ .kmle-categories{grid-template-columns:1fr;gap:12px}.kmle-category{padding:18px}
+ .kmle-root.has-explanation .kmle-split{grid-template-columns:minmax(0,1fr)}
+ .kmle-explanation{position:relative;top:0;max-height:none;scroll-margin-top:65px}
+ .kmle-bank-heading{gap:8px}
+ .kmle-explanation-body{padding:0 17px 20px}
+}
+@media(prefers-reduced-motion:reduce){.kmle-explanation,.kmle-explanation.closing{animation:none}}
