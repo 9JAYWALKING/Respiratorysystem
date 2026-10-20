@@ -3445,5 +3445,14 @@ window.WIKI_IMAGE_ANNOTATIONS = {
       "deck": "part2",
       "page": 79
     }
+  },
+  "assets/lecture-22/ild-classification.jpg": {
+    "width": 1599,
+    "height": 1119,
+    "marks": [],
+    "source": {
+      "deck": "기타 폐질환",
+      "page": 37
+    }
   }
 };
