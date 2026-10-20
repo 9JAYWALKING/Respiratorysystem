@@ -613,14 +613,16 @@ body.jbl-explanation-open { overflow:hidden; }
   .study-ui .context-link-split > .context-link-target { animation:none; }
 }
 
-/* Keep rehabilitation and asthma teaching figures readable in narrow cards. */
+/* Keep teaching figures readable in narrow cards. */
 @media (max-width:700px) {
   .study-ui .wiki-grid:has(img[src*="assets/lecture-23/"]),
-  .study-ui .wiki-grid:has(img[src*="assets/lecture-24/"]) {
+  .study-ui .wiki-grid:has(img[src*="assets/lecture-24/"]),
+  .study-ui .wiki-grid:has(img[src*="assets/lecture-25/"]) {
     grid-template-columns:minmax(0,1fr);
   }
   .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-23/"]),
-  .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-24/"]) {
+  .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-24/"]),
+  .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-25/"]) {
     grid-column:1 / -1;
     width:100%;
     max-width:100%;
