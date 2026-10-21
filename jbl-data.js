@@ -7583,19 +7583,24 @@ window.JBL_DATA = {
       "originalNumbers": [
         102
       ],
-      "question": "78세 남자가 50갑년의 흡연력을 가지고 있다. 폐 선암 (adenocarcinoma)를 진단받았을 때 가장 좋은 치료는?",
+      "question": "70세 남자가 3개월 전부터 마른 기침이 지속되어 병원에 왔다. 30갑년의 흡연력이 있다. 좌측 흉부에서 호흡음이 감소되었다. 가슴 X선 사진이다. 흉부 CT 검사 및 percutaneous CT-guided biopsy 결과 선암(adenocarcinoma)이 진단되었다. 다음 단계로 가장 적절한 것은?",
       "passage": "",
       "choices": [
+        "면역관문억제제",
         "표적항암제",
-        "면역관문치료제",
-        "방사선 치료",
-        "세포독성항암제"
+        "Pleural biopsy",
+        "수술적 치료",
+        "PET, Bone scan, Brain MRI"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 보류",
-      "explanation": "=== 풀이의 핵심 ===\n'''현재 복원된 내용만으로는 단일 정답을 확정할 수 없다.''' 2025 복원본 28쪽에도 나이·흡연력·선암 진단만 있고, 병기·EGFR/ALK 등 driver alteration·PD-L1·수행능력이 없다. 고령의 흡연자라는 사실로 이 검사 결과를 대신할 수 없다.\n표적치료의 중요성을 묻으려던 문제였을 가능성은 있지만, '''선암이면 무조건 표적항암제'''라는 결론은 성립하지 않는다. 초기암이라면 수술 가능성부터 평가해야 하고, 진행암이라면 분자검사와 환자 상태에 따라 전신치료가 달라진다. 누락된 조건을 임의로 만들거나 선배가 추정한 답을 채점용 정답으로 넣지 않았다.\n\n=== 선지별 해설 ===\n* 1번: '''표적항암제: 조건부로 가능하다.''' 해당 약에 맞는 actionable alteration이 확인되어야 한다. 선암이라는 조직명만으로는 충분하지 않다.\n* 2번: '''면역관문치료제: 조건부로 가능하다.''' 병기·driver 결과·PD-L1·전신 상태와 단독/병합 맥락을 확인해야 한다. 흡연력 하나로 우선순위를 확정하지 않는다.\n* 3번: '''방사선치료: 목적과 병기에 따라 가능하다.''' 수술 불가능한 국소 병변, CCRT, 전이 부위 증상 완화 등 서로 다른 역할이 있다. 현재 정보로 최선 치료라고 단정할 수 없다.\n* 4번: '''세포독성항암제: 여러 진행암 치료의 구성 요소다.''' 그러나 표적치료·면역치료 가능성과 병기를 확인하지 않은 채 자동으로 선택하는 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''선암이라는 이름만으로 항암제 종류를 정하지 않는다'''\n\n치료는 '''조직형 + 병기 + 분자표지자 + 환자 상태'''의 조합으로 결정한다. 같은 선암이라도 수술 가능한 초기암인지, 표적 변이가 있는 진행암인지, 면역치료를 고려할 수 있는 상황인지에 따라 답이 달라진다. 나이와 흡연력만으로 EGFR 변이의 유무나 면역치료의 적합성을 확정하지 않는다.\n\n||= 확인할 정보 ||= 바꾸는 결정 ||\n|| 병기와 절제 가능성 || 수술 중심인가, 국소·전신 복합치료인가, 전신치료 중심인가 ||\n|| EGFR·ALK 등 actionable alteration || 해당 변이에 맞는 표적치료 경로가 있는가 ||\n|| PD-L1과 다른 임상 조건 || 면역관문억제제 단독·병합 등을 어떻게 고려하는가 ||\n|| 조직형·수행능력·동반질환 || 약제 선택과 치료를 견딜 수 있는 정도 ||\n\n> \"\"선암 → 무조건 표적항암제\"\"도, \"\"흡연자 → 무조건 세포독성항암제\"\"도 아니다. 필요한 검사 결과가 빠져 있으면 한 가지 최선 치료를 확정할 수 없다.\n\n'''조직형을 정한 뒤에는 치료 표적을 찾는다'''\n\n선암이라는 이름이 같아도 암을 유지하는 driver alteration이 다르면 반응하는 약물이 달라진다. 그래서 충분한 검체를 얻는 목적에는 조직형 확인뿐 아니라 '''분자검사'''도 포함된다. EGFR·KRAS의 비중은 연구 집단과 인구집단에 따라 다르므로, 하나의 원그래프를 한국 전체 환자의 비율로 외우지는 않는다. 일반적으로 동아시아 선암에서는 EGFR 변이의 중요성이 크다.\n\n\n||= 검사 범주 ||= 올해 자료에 제시된 항목 ||\n|| EGFR || Exon 19 deletion, L858R / S768I·L861Q·G719X / exon 20 insertion ||\n|| 다른 point mutation || KRAS G12C, BRAF V600E, ERBB2(HER2) mutation ||\n|| Gene fusion || ALK, ROS1, NTRK1/2/3, RET, NRG1 ||\n|| Splicing alteration || MET exon 14 skipping ||\n|| 면역치료 관련 표지자 || PD-L1. 위 actionable biomarker 결과와 함께 판단 ||\n\n> '''Driver alteration은 어떤 표적치료를 쓸지, PD-L1은 면역치료를 어떻게 고려할지 알려준다.''' 둘 다 중요하지만 TNM의 T·N·M 항목은 아니다.\n\n자료의 1999년 조직학적 분류에는 선암의 옛 명칭인 bronchioloalveolar carcinoma, 선편평암, 다형성·육종양 계열, carcinoid, 침샘형 종양(점액표피암·선양낭성암), 미분류암도 나온다. 이 목록은 폐종양의 범위를 보여주는 '''옛 분류표'''로 읽고, 현재 진단에 옛 이름을 그대로 적용하지 않는다. 드문 조직형도 존재한다는 점을 남기되, 임상 판단의 기본은 NSCLC와 SCLC를 먼저 구분하는 것이다.\n\n[[32강#선암이라는 이름만으로 항암제 종류를 정하지 않는다|선암이라는 이름만으로 항암제 종류를 정하지 않는다]]\n\n~~근거: 39기 「32. 폐종양」 45, 61–73쪽과 38기 동명 필기 강의록·정리본. 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
-      "images": [],
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "=== 풀이의 핵심 ===\n'''정답은 5번 PET·bone scan·brain MRI'''다. X선과 CT로 병변을 찾았고 CT-guided biopsy로 선암까지 확진했다. 이제 필요한 것은 같은 진단을 반복하는 것이 아니라 '''병기 평가'''다. 수술할 수 있는 국소암인지, 림프절·원격전이가 있어 다른 치료가 필요한지 확인해야 한다.\nX선의 좌측 상부 큰 음영은 병변의 존재를 알려주지만, 그것만으로 T·N·M 전체를 확정하지는 못한다. 선택지 5번은 강의의 staging 검사 묶음을 대표한다. 실제 진료에서 PET/CT와 bone scan을 모든 환자에게 기계적으로 중복 시행한다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: '''면역관문억제제: 치료를 정하기에 이르다.''' 병기·분자표지자·PD-L1 등 필요한 정보가 남아 있다.\n* 2번: '''표적항암제: 선암이라는 이유만으로 선택하지 않는다.''' 표적 변이와 치료 상황을 확인해야 한다.\n* 3번: '''Pleural biopsy: 이미 원발 병변에서 선암을 확진했다.''' 별도로 평가할 흉막 병변이 있다는 정보도 없다. 현재 다음 단계의 대표 선택은 staging이다.\n* 4번: '''수술적 치료: 병기와 operability 확인 뒤 결정한다.''' 사진에서 암이 보인다는 것만으로 절제 가능하다고 판단할 수 없다.\n* 5번: '''PET·bone scan·brain MRI: 정답.''' 국소 범위와 전신 전이를 평가하는 흐름이다. CT와 림프절 조직검사 등도 상황에 맞게 함께 사용한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''조직검사 다음에는 병기 평가가 필요하다'''\n\n조직검사에서 선암이 나왔다고 바로 수술이나 특정 항암제를 고를 수는 없다. 치료 전에 어디까지 퍼져 있는지 확인해야 한다. CT는 종양과 주변 구조를, PET/CT는 대사활성과 전신의 의심 병변을, brain MRI는 뇌전이를 평가한다. Bone scan은 골전이 평가에 사용된다. 모든 환자에게 네 검사를 기계적으로 중복 시행한다는 뜻은 아니며, 필요한 검사 조합은 임상 상황에 따라 정한다.\n\n\n||= 검사 ||= 답하려는 질문 ||= 한계·보완 ||\n|| 조영 흉부 CT || 종양의 크기·직접 침범·림프절 비대는? || 커진 림프절이 모두 전이는 아니다. ||\n|| PET/CT || 대사활성이 높은 종양·림프절·원격 병변은? || 염증도 섭취가 증가할 수 있다. ||\n|| Brain MRI || 뇌전이가 있는가? || 정상 뇌의 높은 FDG 섭취 때문에 PET만으로 대체하기 어렵다. ||\n|| Bone scan || 골전이를 시사하는 분포가 있는가? || 양성 골질환도 섭취가 증가할 수 있다. ||\n|| EBUS-TBNA 등 || 의심 림프절에 실제 종양세포가 있는가? || 영상의 의심 소견을 조직으로 확인한다. ||\n\n[[32강#조직검사 다음에는 병기 평가가 필요하다|조직검사 다음에는 병기 평가가 필요하다]]\n\n~~근거: 39기 「32. 폐종양」 46–47, 52–59쪽과 38기 동명 필기 강의록·정리본. 선배 풀이를 정답 근거로 사용하지 않았다. 공식 시험지 원문 대조와 공식 정답표 확인은 구분한다.~~~\n\n=== 원본을 어떻게 수정했는가 ===\n기존 102번은 '''78세·50갑년·폐선암'''이라는 정보만으로 최선의 치료를 묻고, 치료 선택지 네 개를 제시한 복원이었다. 병기·분자표지자가 없어 단일 정답을 확정하기 어려웠고, 다른 비공식 복원 자료에는 172번과 유사한 다섯 선지가 실려 있어 복원본 사이의 충돌도 있었다.\n\n사용자의 요청에 따라 반복 출제되었을 가능성을 고려하여 '''172번(2024 호흡기계 50번)의 발문·선지·사진·정답을 그대로 적용'''했다. 따라서 현재 문항은 ‘선암 확진 뒤 병기 평가를 시행한다’는 개념으로 풀며 정답은 '''5번 PET·bone scan·brain MRI'''다.\n\n'''2025년 원시험이 실제로 2024년 문항과 동일했음을 확인한 것은 아니다.''' 반복 출제 경향에 근거한 추정을 학습용 변형에 반영한 것이며, 현재의 나이·흡연력·영상도 2024년 문항에서 가져온 것이다. 수정 전 102번과 당시 해설·정답 확정 보류 판단은 발문 앞 '''!''' 버튼에서 확인할 수 있다.\n\n동일하게 적용한 문항: {{172}}\n",
+      "images": [
+        "J/2024/q050_01.jpg"
+      ],
       "legacyProfessor": "임준혁",
       "professor": "임준혁",
       "examinerStatus": "inferred_not_confirmed",
@@ -7608,22 +7613,28 @@ window.JBL_DATA = {
       "domain": "",
       "discipline": "",
       "section": "",
-      "source": "2025 호흡기계 102번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
+      "source": "2025 호흡기계 102번 변형",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
       "originalNumberStatus": "reconstructed_number",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "learning_variant_from_prior_official_exam",
+      "parseMethod": "user_requested_prior_exam_substitution",
       "restorationNotes": [
-        "정답·해설을 참고하지 않음. 두 파일의 선택지 차이가 있어 완전한 원문 확정 불가.",
+        "복원 실패 가능성을 고려해 사용자의 요청으로 172번(2024 호흡기계 50번)의 발문·선지·사진·정답을 그대로 사용한 학습용 변형.",
+        "2025년 원시험이 2024년 문항과 동일했다는 사실은 확인되지 않음. 반복 출제 경향에 따른 사용자 추정으로 대체.",
+        "기존 102번의 발문·선지·정답 판단·해설 및 복원본 간 충돌 기록은 originalVersion.question에 보존."
+      ],
+      "imageProvenance": [
         {
-          "reference": "2025-102",
-          "severity": "reconstruction_version_conflict",
-          "note": "2024-50과 비슷한 동기 풀이판과 다른 치료 선택형 최초 복원판이 공존한다. 과거 문항과 유사하다는 이유로 하나를 확정하지 않는다."
+          "path": "J/2024/q050_01.jpg",
+          "role": "prior_exam_image_reused_for_learning_variant",
+          "sourceQuestionId": "2024-050",
+          "sourceGlobalNumber": 172,
+          "source": "2024 호흡기계 50번",
+          "notVerifiedAs2025Original": true
         }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [],
       "restorationConflict": {
         "kind": "두 비공식 자료의 선지 충돌",
@@ -7651,22 +7662,22 @@ window.JBL_DATA = {
             ]
           }
         ],
-        "resolution": "공식 원문이 없어 어느 쪽을 원시험 선지로 확정하지 않고 두 자료를 보존한다.",
-        "answer_not_imported": true
+        "resolution": "기존 복원 충돌은 원본 보기에 보존. 사용자의 요청에 따라 172번을 그대로 적용한 학습용 변형으로 대체하며, 2025년 원시험 선지가 확정되었다는 뜻은 아니다.",
+        "answer_not_imported": false
       },
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture32_wiki_j_jbl",
-        "answerStatus": "missing_stage_and_biomarkers_no_answer",
+        "date": "2026-10-21",
+        "scope": "lecture32_q102_learning_variant",
+        "answerStatus": "lecture_supported_learning_variant",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
+        "originalQuestionAndImagesPreserved": false,
         "sources": [
           {
             "kind": "current_lecture",
             "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\32. 폐종양.pptx",
-            "pages": "45, 61–73"
+            "pages": "46–47, 52–59"
           },
           {
             "kind": "prior_annotated_lecture",
@@ -7677,10 +7688,294 @@ window.JBL_DATA = {
             "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1029 정리본 (31. 폐종양 _ 임준혁) - Google Docs.pdf"
           }
         ],
-        "chapter": "선암이라는 이름만으로 항암제 종류를 정하지 않는다",
-        "basis": "45, 61–73",
+        "chapter": "조직검사 다음에는 병기 평가가 필요하다",
+        "basis": "46–47, 52–59",
         "priorLectureAndSummaryUsed": true,
-        "choiceTextChanged": false
+        "choiceTextChanged": true,
+        "adaptedFrom": {
+          "id": "2024-050",
+          "globalNumber": 172,
+          "source": "2024 호흡기계 50번",
+          "questionChoicesImagesAndAnswerCopied": true
+        },
+        "original2025ExamVerified": false,
+        "original2025ContentPreservedIn": "originalVersion.question"
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-21",
+        "description": "172번으로 학습용 대체하기 직전의 102번 복원 문항·해설·정답 판단·복원 충돌 기록 전체 보존",
+        "question": {
+          "id": "2025-102",
+          "recordId": "resp-2025-102",
+          "displayId": "102번",
+          "globalNumber": 102,
+          "year": 2025,
+          "sourceType": "족보",
+          "originalNumber": 102,
+          "originalNumbers": [
+            102
+          ],
+          "question": "78세 남자가 50갑년의 흡연력을 가지고 있다. 폐 선암 (adenocarcinoma)를 진단받았을 때 가장 좋은 치료는?",
+          "passage": "",
+          "choices": [
+            "표적항암제",
+            "면역관문치료제",
+            "방사선 치료",
+            "세포독성항암제"
+          ],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "정답 확정 보류",
+          "explanation": "=== 풀이의 핵심 ===\n'''현재 복원된 내용만으로는 단일 정답을 확정할 수 없다.''' 2025 복원본 28쪽에도 나이·흡연력·선암 진단만 있고, 병기·EGFR/ALK 등 driver alteration·PD-L1·수행능력이 없다. 고령의 흡연자라는 사실로 이 검사 결과를 대신할 수 없다.\n표적치료의 중요성을 묻으려던 문제였을 가능성은 있지만, '''선암이면 무조건 표적항암제'''라는 결론은 성립하지 않는다. 초기암이라면 수술 가능성부터 평가해야 하고, 진행암이라면 분자검사와 환자 상태에 따라 전신치료가 달라진다. 누락된 조건을 임의로 만들거나 선배가 추정한 답을 채점용 정답으로 넣지 않았다.\n\n=== 선지별 해설 ===\n* 1번: '''표적항암제: 조건부로 가능하다.''' 해당 약에 맞는 actionable alteration이 확인되어야 한다. 선암이라는 조직명만으로는 충분하지 않다.\n* 2번: '''면역관문치료제: 조건부로 가능하다.''' 병기·driver 결과·PD-L1·전신 상태와 단독/병합 맥락을 확인해야 한다. 흡연력 하나로 우선순위를 확정하지 않는다.\n* 3번: '''방사선치료: 목적과 병기에 따라 가능하다.''' 수술 불가능한 국소 병변, CCRT, 전이 부위 증상 완화 등 서로 다른 역할이 있다. 현재 정보로 최선 치료라고 단정할 수 없다.\n* 4번: '''세포독성항암제: 여러 진행암 치료의 구성 요소다.''' 그러나 표적치료·면역치료 가능성과 병기를 확인하지 않은 채 자동으로 선택하는 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''선암이라는 이름만으로 항암제 종류를 정하지 않는다'''\n\n치료는 '''조직형 + 병기 + 분자표지자 + 환자 상태'''의 조합으로 결정한다. 같은 선암이라도 수술 가능한 초기암인지, 표적 변이가 있는 진행암인지, 면역치료를 고려할 수 있는 상황인지에 따라 답이 달라진다. 나이와 흡연력만으로 EGFR 변이의 유무나 면역치료의 적합성을 확정하지 않는다.\n\n||= 확인할 정보 ||= 바꾸는 결정 ||\n|| 병기와 절제 가능성 || 수술 중심인가, 국소·전신 복합치료인가, 전신치료 중심인가 ||\n|| EGFR·ALK 등 actionable alteration || 해당 변이에 맞는 표적치료 경로가 있는가 ||\n|| PD-L1과 다른 임상 조건 || 면역관문억제제 단독·병합 등을 어떻게 고려하는가 ||\n|| 조직형·수행능력·동반질환 || 약제 선택과 치료를 견딜 수 있는 정도 ||\n\n> \"\"선암 → 무조건 표적항암제\"\"도, \"\"흡연자 → 무조건 세포독성항암제\"\"도 아니다. 필요한 검사 결과가 빠져 있으면 한 가지 최선 치료를 확정할 수 없다.\n\n'''조직형을 정한 뒤에는 치료 표적을 찾는다'''\n\n선암이라는 이름이 같아도 암을 유지하는 driver alteration이 다르면 반응하는 약물이 달라진다. 그래서 충분한 검체를 얻는 목적에는 조직형 확인뿐 아니라 '''분자검사'''도 포함된다. EGFR·KRAS의 비중은 연구 집단과 인구집단에 따라 다르므로, 하나의 원그래프를 한국 전체 환자의 비율로 외우지는 않는다. 일반적으로 동아시아 선암에서는 EGFR 변이의 중요성이 크다.\n\n\n||= 검사 범주 ||= 올해 자료에 제시된 항목 ||\n|| EGFR || Exon 19 deletion, L858R / S768I·L861Q·G719X / exon 20 insertion ||\n|| 다른 point mutation || KRAS G12C, BRAF V600E, ERBB2(HER2) mutation ||\n|| Gene fusion || ALK, ROS1, NTRK1/2/3, RET, NRG1 ||\n|| Splicing alteration || MET exon 14 skipping ||\n|| 면역치료 관련 표지자 || PD-L1. 위 actionable biomarker 결과와 함께 판단 ||\n\n> '''Driver alteration은 어떤 표적치료를 쓸지, PD-L1은 면역치료를 어떻게 고려할지 알려준다.''' 둘 다 중요하지만 TNM의 T·N·M 항목은 아니다.\n\n자료의 1999년 조직학적 분류에는 선암의 옛 명칭인 bronchioloalveolar carcinoma, 선편평암, 다형성·육종양 계열, carcinoid, 침샘형 종양(점액표피암·선양낭성암), 미분류암도 나온다. 이 목록은 폐종양의 범위를 보여주는 '''옛 분류표'''로 읽고, 현재 진단에 옛 이름을 그대로 적용하지 않는다. 드문 조직형도 존재한다는 점을 남기되, 임상 판단의 기본은 NSCLC와 SCLC를 먼저 구분하는 것이다.\n\n[[32강#선암이라는 이름만으로 항암제 종류를 정하지 않는다|선암이라는 이름만으로 항암제 종류를 정하지 않는다]]\n\n~~근거: 39기 「32. 폐종양」 45, 61–73쪽과 38기 동명 필기 강의록·정리본. 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+          "images": [],
+          "legacyProfessor": "임준혁",
+          "professor": "임준혁",
+          "examinerStatus": "inferred_not_confirmed",
+          "examinerEvidence": "inferred_content_and_historical_schedule",
+          "lectureIds": [
+            32
+          ],
+          "lectureId": 32,
+          "lectureTitle": "폐종양",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "source": "2025 호흡기계 102번",
+          "mappingConfidence": "medium",
+          "classificationStatus": "provisional",
+          "originalNumberStatus": "reconstructed_number",
+          "questionFormat": "multiple_choice",
+          "sourceStatus": "numbered_reconstruction",
+          "parseMethod": "numbered",
+          "restorationNotes": [
+            "정답·해설을 참고하지 않음. 두 파일의 선택지 차이가 있어 완전한 원문 확정 불가.",
+            {
+              "reference": "2025-102",
+              "severity": "reconstruction_version_conflict",
+              "note": "2024-50과 비슷한 동기 풀이판과 다른 치료 선택형 최초 복원판이 공존한다. 과거 문항과 유사하다는 이유로 하나를 확정하지 않는다."
+            }
+          ],
+          "imageProvenance": [],
+          "repeatFamilyIds": [],
+          "restorationConflict": {
+            "kind": "두 비공식 자료의 선지 충돌",
+            "stem": "78세 남자가 50갑년의 흡연력을 가지고 있다. 폐 선암(adenocarcinoma)을 진단 받았을 때 가장 좋은 치료는?",
+            "alternatives": [
+              {
+                "source_file": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/족보/2025/2025 호흡기계 문제 복원.pdf",
+                "pdf_page": 28,
+                "options": [
+                  "표적항암제",
+                  "면역관문치료제",
+                  "방사선 치료",
+                  "세포독성항암제"
+                ]
+              },
+              {
+                "source_file": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/족보/2025/호흡기계_38기 족보 풀이.pdf",
+                "pdf_page": 26,
+                "options": [
+                  "면역관문억제제",
+                  "표적항암제",
+                  "Pleural biopsy",
+                  "수술적 치료",
+                  "PET, Bone scan, Brain MRI"
+                ]
+              }
+            ],
+            "resolution": "공식 원문이 없어 어느 쪽을 원시험 선지로 확정하지 않고 두 자료를 보존한다.",
+            "answer_not_imported": true
+          },
+          "explanationReview": {
+            "date": "2026-10-20",
+            "scope": "lecture32_wiki_j_jbl",
+            "answerStatus": "missing_stage_and_biomarkers_no_answer",
+            "officialAnswerVerified": false,
+            "peerExplanationUsed": false,
+            "summaryUsed": false,
+            "originalQuestionAndImagesPreserved": true,
+            "sources": [
+              {
+                "kind": "current_lecture",
+                "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\32. 폐종양.pptx",
+                "pages": "45, 61–73"
+              },
+              {
+                "kind": "prior_annotated_lecture",
+                "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251029_31 폐종양_임준혁 (소정,단).pdf.pdf"
+              },
+              {
+                "kind": "prior_summary_secondary_only",
+                "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1029 정리본 (31. 폐종양 _ 임준혁) - Google Docs.pdf"
+              }
+            ],
+            "chapter": "선암이라는 이름만으로 항암제 종류를 정하지 않는다",
+            "basis": "45, 61–73",
+            "priorLectureAndSummaryUsed": true,
+            "choiceTextChanged": false
+          }
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-21",
+        "type": "learning_variant",
+        "changedFields": [
+          "question",
+          "choices",
+          "images",
+          "imageProvenance",
+          "answerIndex",
+          "answerIndices",
+          "answerLabel",
+          "source",
+          "explanation"
+        ],
+        "choicesPreserved": false,
+        "reason": "반복 출제 가능성에 관한 사용자 판단을 반영해 기존 102번을 172번과 동일한 학습용 문항으로 대체. 원시험의 확정 복구가 아님.",
+        "adaptedFrom": {
+          "id": "2024-050",
+          "globalNumber": 172,
+          "source": "2024 호흡기계 50번"
+        },
+        "officialOriginalVerified": false
+      }
+    },
+    {
+      "id": "2025-103",
+      "recordId": "resp-2025-103",
+      "displayId": "103번",
+      "globalNumber": 103,
+      "year": 2025,
+      "sourceType": "족보",
+      "originalNumber": 103,
+      "originalNumbers": [
+        103
+      ],
+      "images": [],
+      "legacyProfessor": "임준혁",
+      "professor": "임준혁",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자 확인(2026-10-21): 출제교수 임준혁",
+      "lectureIds": [
+        32
+      ],
+      "lectureId": 32,
+      "lectureTitle": "폐종양",
+      "domain": "",
+      "discipline": "",
+      "section": "",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "user_reported_reconstruction",
+      "restorationNotes": [
+        "사용자가 전달한 비공식 복원의 발문 요지·정답 선지를 바탕으로 학습용 문항 구성. 공식 원문 확인 아님.",
+        "원래 오답 선지와 정답 선지 번호는 미확인. 원본 보기에는 전달받은 단서만 보존."
+      ],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "question": "EGFR exon 19 deletion이 확인된 전이성 폐선암 환자의 일차 치료로 가장 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "세포독성항암제 단독",
+        "면역관문억제제 단독",
+        "표적항암제",
+        "흉부 방사선치료 단독",
+        "폐절제술 단독"
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 표적항암제",
+      "explanation": "정답: 3번 — 표적항암제\n\nEGFR exon 19 deletion은 '''EGFR-TKI 감수성 변이'''의 대표적인 예다. 전이성 폐선암에서 이 변이가 확인되면, 암의 성장 신호를 차단하는 '''EGFR 표적치료'''를 중심으로 전신치료를 선택한다. 표적항암제의 예는 '''osimertinib'''이다.\n\n=== 병기와 분자검사가 서로 다른 질문에 답한다 ===\n폐선암이라는 진단은 조직형을 알려 준다. 병기는 암이 어디까지 퍼졌는지를 알려 주고, 분자검사는 암을 자라게 하는 신호 중 약으로 막을 수 있는 표적이 있는지를 알려 준다. 이 문제는 '''전이성'''이라는 조건으로 전신치료가 필요함을, '''EGFR exon 19 deletion'''으로 그 치료의 표적을 제시했다.\n\n||= 확인한 정보 ||= 의미 ||= 치료로의 연결 ||\n|| 폐선암 || 비소세포폐암의 한 조직형 || 조직형만으로 특정 항암제를 고르지는 않는다. ||\n|| 전이성 질환 || 폐 한 부위에 국한되지 않은 전신 질환 || 수술·흉부 방사선치료 단독보다 전신치료가 중심이다. ||\n|| EGFR exon 19 deletion || EGFR-TKI에 감수성을 보이는 대표적 변이 || EGFR 표적항암제를 중심으로 치료한다. ||\n|| 나이·흡연력 || 위험인자·환자 상태를 판단하는 정보 || 분자검사 결과를 대신하지 못한다. ||\n\nEGFR은 세포 안으로 성장 신호를 전달하는 수용체다. 활성화 변이가 생기면 이 신호가 과도하게 이어져 종양의 성장에 기여한다. EGFR-TKI는 수용체의 tyrosine kinase 작용을 억제하여 그 신호를 끊는다. '''면역관문억제제처럼 T세포의 억제를 푸는 약이 아니라, 암세포가 의존하는 신호를 직접 막는 약'''이다.\n\n> \"\"전이성 폐선암 + EGFR-TKI 감수성 변이 → EGFR 표적치료.\"\" 선암이면 무조건 표적항암제를 쓴다는 뜻도, 모든 EGFR 변이를 같은 약으로 치료한다는 뜻도 아니다.\n\n=== 선지별 해설 ===\n* '''1번 · 세포독성항암제 단독''': 세포분열·DNA 합성 등을 방해하는 전신치료다. 그러나 이 환자에서는 치료 가능한 EGFR 표적이 확인되었으므로 이를 활용한 치료가 우선이다. ‘단독’을 배제하는 것이지 세포독성항암제를 평생 사용할 수 없다는 뜻은 아니다.\n* '''2번 · 면역관문억제제 단독''': PD-1/PD-L1 등 면역 억제 신호를 차단한다. EGFR-TKI 감수성 변이가 확인된 환자에서 EGFR 표적치료를 건너뛰고 일차 치료로 선택할 약은 아니다. EGFR 변이와 PD-L1 발현은 서로 다른 치료 선택 정보다.\n* '''3번 · 표적항암제''': 정답. 이 문항에서는 '''EGFR-TKI'''를 뜻한다. EGFR exon 19 deletion이라는 분자검사 결과가 약제 선택의 결정적인 단서다.\n* '''4번 · 흉부 방사선치료 단독''': 조사 범위의 종양을 조절하는 국소치료다. 전이성 폐암 전체의 치료를 흉부 방사선만으로 대신할 수 없다. 특정 병변의 증상 완화나 선택적 국소 조절에 쓰는 역할은 별도로 남아 있다.\n* '''5번 · 폐절제술 단독''': 수술 가능한 국한된 비소세포폐암의 중요한 치료다. 하지만 이 문제는 전이성 질환을 제시하므로, 폐의 원발 병소만 절제하는 것을 전신치료보다 우선하지 않는다.\n\n~~보충: 실제 EGFR 변이 폐암 치료에는 표적항암제 단독뿐 아니라 세포독성항암제와의 병합요법도 있다. 따라서 이 문제는 특정 단독요법만이 유일하다고 묻는 것이 아니라, '''치료의 중심이 되는 표적항암제'''를 고르는 문제다. [[https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-osimertinib-chemotherapy-egfr-mutated-non-small-cell-lung-cancer|FDA · Osimertinib 병합요법]], [[https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq|NCI · 비소세포폐암 치료]].~~~\n\n=== 비공식 복원에서 무엇을 다듬었는가 ===\n비공식 복원에서 확인된 것으로 사용자가 전달한 '''‘EGFR 변이 폐암의 치료 — 표적항암제’'''라는 내용을 바탕으로 구성했다. 표적항암제가 명확한 정답이 되도록 발문에 '''전이성 폐선암'''과 '''EGFR exon 19 deletion'''을 보충하고, 치료 선택을 묻는 다섯 선지로 정리했다. 원래 오답 선지와 정답 번호는 확인되지 않아 '''오답 선지 네 개와 현재 선지 순서는 새로 작성'''했다.\n\n출제 의도는 EGFR 변이와 표적항암제를 연결하는 것으로 추정한다. 공식 원문·공식 정답을 확인하여 그대로 옮긴 문항은 아니다. 발문 앞 '''!'''에서는 전달받은 수정 전 복원 단서를 확인할 수 있다.\n\n[[32강#선암이라는 이름만으로 항암제 종류를 정하지 않는다|Wiki · 병기와 분자표지자로 치료 선택하기]]\n[[32강#항암치료의 세 갈래는 표적이 다르다|Wiki · 세포독성·표적·면역 항암치료 비교]]\n\n~~강의 근거: 「32. 폐종양」의 병기별 치료·맞춤치료·항암제 분류(67–73쪽). EGFR exon 19 deletion 및 구체적인 약제 예는 NCI 자료로 보충 확인했다.~~~",
+      "source": "2025 호흡기계 103번 변형",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "unofficial_reconstruction_adapted",
+      "parseMethod": "user_supplied_fragment",
+      "explanationReview": {
+        "date": "2026-10-21",
+        "basis": "32강 폐종양 Wiki와 강의록, EGFR 치료 조건은 NCI·FDA로 보충 확인",
+        "pages": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "chapter": "선암이라는 이름만으로 항암제 종류를 정하지 않는다",
+        "answerStatus": "lecture_supported_learning_variant",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false,
+        "optionByOption": true
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-21",
+        "description": "사용자가 전달한 비공식 복원 단서 보존. 원래 전체 선지와 정답 번호는 미확인.",
+        "question": {
+          "id": "2025-103",
+          "recordId": "resp-2025-103",
+          "displayId": "103번",
+          "globalNumber": 103,
+          "year": 2025,
+          "sourceType": "족보",
+          "originalNumber": 103,
+          "originalNumbers": [
+            103
+          ],
+          "images": [],
+          "legacyProfessor": "임준혁",
+          "professor": "임준혁",
+          "examinerStatus": "user_confirmed",
+          "examinerEvidence": "사용자 확인(2026-10-21): 출제교수 임준혁",
+          "lectureIds": [
+            32
+          ],
+          "lectureId": 32,
+          "lectureTitle": "폐종양",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "mappingConfidence": "high",
+          "classificationStatus": "assigned",
+          "originalNumberStatus": "user_reported_reconstruction",
+          "restorationNotes": [
+            "사용자가 전달한 비공식 복원의 발문 요지·정답 선지를 바탕으로 학습용 문항 구성. 공식 원문 확인 아님.",
+            "원래 오답 선지와 정답 선지 번호는 미확인. 원본 보기에는 전달받은 단서만 보존."
+          ],
+          "imageProvenance": [],
+          "repeatFamilyIds": [],
+          "question": "EGFR 변이로 인한 폐암의 치료법으로 적절한 것은?",
+          "passage": "복원된 정답 선지: 표적항암제\n원래 오답 선지와 정답 선지 번호는 미확인.",
+          "choices": [],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "복원 정보: 표적항암제(원래 선지 번호 미확인)",
+          "explanation": "복원된 정답 선지: 표적항암제\n\n사용자가 비공식 복원에서 확인하여 전달한 발문 요지와 정답 선지를 보존한 화면이다. 공식 원문을 확보한 것은 아니며, 원래 오답 선지와 정답 선지 번호는 확인되지 않았다.\n\nEGFR 변이로 활성화된 성장 신호를 해당 표적항암제로 차단한다는 개념을 묻는 것으로 추정된다. 다만 이 복원 단서에는 병기와 EGFR 변이의 세부 종류가 없어 실제 치료 상황까지 특정하기는 어렵다. 기본 화면의 변형 문항에는 '''전이성 폐선암·EGFR exon 19 deletion''' 조건을 보충하고, 정답 선지 ‘표적항암제’를 유지한 채 오답 선지 네 개를 새로 작성했다.\n\n[[32강#선암이라는 이름만으로 항암제 종류를 정하지 않는다|Wiki · 병기와 분자표지자로 치료 선택하기]]",
+          "source": "2025 호흡기계 103번",
+          "questionFormat": "incomplete_reconstruction",
+          "sourceStatus": "unofficial_reconstruction_fragment",
+          "parseMethod": "user_supplied_fragment"
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-21",
+        "type": "learning_variant",
+        "changedFields": [
+          "question",
+          "choices",
+          "answerIndex",
+          "answerIndices",
+          "answerLabel",
+          "source",
+          "explanation"
+        ],
+        "choicesPreserved": false,
+        "reason": "EGFR 변이와 표적항암제를 연결하는 복원 요지를 바탕으로, 전이성 폐선암·EGFR exon 19 deletion 조건을 보충하고 오답 선지 4개를 새로 작성.",
+        "officialOriginalVerified": false
       }
     },
     {
@@ -52101,13 +52396,6 @@ window.JBL_DATA = {
       "originalNumber": 96,
       "reservedGlobalNumber": 96,
       "sourceStatus": "not_found_in_peer_visual_review"
-    },
-    {
-      "id": "2025-103",
-      "year": 2025,
-      "originalNumber": 103,
-      "reservedGlobalNumber": 103,
-      "sourceStatus": "peer_tentative_fragment"
     },
     {
       "id": "2025-110",
