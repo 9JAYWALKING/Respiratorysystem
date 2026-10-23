@@ -147,7 +147,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 38기 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-16쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 2번 · NTRK fusion을 보기 위한 Fluorescent in situ hybridization 검사: NTRK fusion은 실제 표적 가능한 이상이며 FISH로 재배열을 평가할 수도 있다. 기존 2번 답은 과거 필수 검사 묶음의 출제 의도로만 해석한다. 이 선지가 의학적으로 불가능한 검사라는 뜻은 아니다.\n* 3번 · ALK fusion을 보기 위한 immunohistochemistry 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n* 4번 · ROS1 fusion을 보기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 5번 · 종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -191,33 +191,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              7,
-              8,
-              9,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -328,7 +306,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "잠정 정답: ⑤",
-      "explanation": "잠정 정답: ⑤\n\n기관지 내로 자라는 경계 좋은 종괴는 carcinoid가 유력하다. Chromogranin·synaptophysin·CD56은 신경내분비 분화를 확인하고 TTF-1은 폐 기원 감별에 활용할 수 있다. p53은 이 기본 감별 표지자 묶음에 해당하지 않는다. 현재 조직사진이 누락되어 있어 임상 서술과 반복 증례를 토대로 판단한 답이다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-40쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ⑤\n\n기관지 내로 자라는 경계 좋은 종괴는 carcinoid가 유력하다. Chromogranin·synaptophysin·CD56은 신경내분비 분화를 확인하고 TTF-1은 폐 기원 감별에 활용할 수 있다. p53은 이 기본 감별 표지자 묶음에 해당하지 않는다. 현재 조직사진이 누락되어 있어 임상 서술과 반복 증례를 토대로 판단한 답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCarcinoid는 비교적 젊은 연령에서 생기며 흡연과의 관련이 약하다. 저등급이지만 '''악성 잠재력을 가진 종양이지 양성 종양이 아니다.''' MEN1 등 염색질 조절 유전자와 연결되고, 소세포암의 전형적인 TP53·RB1 소실 패턴과 다르다.\n\n||= 항목 ||= Typical ||= Atypical ||\n|| 유사분열(강의 단위) || <2/10 HPF || 2–10/10 HPF ||\n|| 괴사 || 없음 || 점상 괴사가 있으면 atypical을 지지 ||\n|| 형태 || 균일한 세포, organoid·trabecular·ribbon·rosette, 섬세한 혈관성 기질 || 더 불규칙한 배열·이형성·뚜렷한 핵소체·림프관 침범 ||\n|| 흔한 위치 || 주기관지 내 polypoid/collar-button || 말초 고형 결절이 더 흔함 ||\n|| 중앙 연령 || 약 45세 || 약 55세 ||\n|| 림프절 전이 || 약 10% || 약 50% ||\n|| 원격 전이 || <5% || 20–30% ||\n|| 강의의 5년/10년 생존율 || 87%/87% || 56%/35% ||\n\n이 수치는 강의의 비교값이다. Atypical은 유사분열 범위 '''또는''' 점상 괴사로 구분하며 둘 다 반드시 있어야 하는 것은 아니다. 실제 계수에서는 현미경 시야 면적이 달라 HPF와 mm² 단위를 임의 환산하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · Chromogranin: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 2번 · TTF-1: 폐선암의 기원을 지지하며 일부 소세포암·carcinoid 등에서도 발현할 수 있다. 따라서 단독으로 종양 계열을 확정하지 않고 형태·신경내분비 표지자와 함께 판독한다.\n* 3번 · Synaptophysin: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 4번 · CD56: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 5번 · P53: p53 이상은 고등급 신경내분비암 등에서 의미가 있지만, carcinoid의 신경내분비 분화를 확인하는 기본 표지자 묶음과는 다르다.\n\n[[37강#Carcinoid는 괴사와 유사분열로 typical과 atypical을 나눈다|Wiki · Carcinoid는 괴사와 유사분열로 typical과 atypical을 나눈다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -370,34 +348,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              13,
-              31,
-              32,
-              33,
-              34,
-              35,
-              36,
-              37,
-              38,
-              39,
-              40
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "Carcinoid는 괴사와 유사분열로 typical과 atypical을 나눈다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -425,7 +380,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · Thymic carcinoma – surgery: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 2번 · Metastatic carcinoma – Biopsy: 전이암이면 원발 종양과 조직 확인이 필요하다. 이 소아 증례에서는 LBL이 더 전형적인 연령·경과이다.\n* 3번 · Non-seminomatous germ cell tumor – Chemotherapy: 젊은 남성의 급성 앞종격동 종괴 및 AFP/β-hCG 상승이 중요한 조합이다. 정상 표지자만으로 완전히 배제되지는 않지만, 이 소아 림프절 증례의 최선 진단은 LBL이다.\n* 4번 · Substernal goiter – follow up: 갑상선과 연결되는 종괴를 생각한다. 소아의 B symptoms·여러 림프절 종대를 단순 추적으로 처리할 상황은 아니다.\n* 5번 · Lymphoblastic lymphoma – Biopsy: 소아의 급속 성장·발열·야간발한·다발 림프절 종대이면 우선 고려하고 생검으로 확진한다. 중년의 오랜 무증상 경과와 림프절 종대 부재는 덜 전형적이다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -470,26 +425,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              18,
-              19,
-              20
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -517,7 +457,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7,12쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · CDKN2A translocation: 틀리다. 특징적인 변화는 translocation이 아니라 homozygous deletion이다.\n* 4번 · Loss of BAP1 nuclear expression: 상피형 중피종에서 중요한 BAP1 핵 발현 소실이다. 주변 정상세포의 양성 내부대조를 함께 확인한다.\n* 5번 · PD-L1 protein expression: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -563,25 +503,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              7,
-              12
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -9477,7 +9403,7 @@ window.JBL_DATA = {
       "answerIndex": null,
       "answerIndices": [],
       "answerLabel": "정답 확정 보류",
-      "explanation": "정답 확정 보류\n\n2번은 강의의 편평상피세포암에서 높은 PD-L1 발현이라는 설명과 일치한다. 1번은 EGFR 변이가 비흡연자에서 더 흔하므로 틀리고, 4번의 가장 흔한 변이는 ALK가 아니라 EGFR이다. 5번도 편평상피세포암의 높은 돌연변이 부담과 반대다. 두 개를 고르는 문제인데 3번이 미복원이므로 전체 정답 조합은 확정할 수 없다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-12쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답 확정 보류\n\n2번은 강의의 편평상피세포암에서 높은 PD-L1 발현이라는 설명과 일치한다. 1번은 EGFR 변이가 비흡연자에서 더 흔하므로 틀리고, 4번의 가장 흔한 변이는 ALK가 아니라 EGFR이다. 5번도 편평상피세포암의 높은 돌연변이 부담과 반대다. 두 개를 고르는 문제인데 3번이 미복원이므로 전체 정답 조합은 확정할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흡연과 관련된 편평세포암은 돌연변이와 염색체 변화가 많다. 선암에서 흔한 EGFR·KRAS·ALK driver는 매우 드물고, '''높은 PD-L1 발현'''과 면역치료의 맥락이 중요하다. ‘표적 driver가 드물다’와 ‘돌연변이가 적다’는 정반대 이야기다.\n\n* TP53 변이: 이형성에서 10–50%, 편평세포암에서 60–90%로 제시된다.\n* 9p/CDKN2A, 17p/TP53 결실; CDKN2A 비활성화에 따른 p16 소실(약 60%), RB 발현 소실(약 15%).\n* 증폭: SOX2·TP63, EGFR, FGFR 계열. FGFR1 증폭, PTEN 변이, PDGFRA 증폭, PIK3CA 변이, MET 증폭 등도 있다.\n\n=== 선지별 해설 ===\n* 1번 · 흡연자에서는 EGFR 돌연변이가 더 잘 일어난다.: 틀리다. EGFR 변이는 상대적으로 비흡연자·동아시아인·여성의 선암에서 흔하다. 흡연자 선암에서 상대적으로 더 흔한 driver는 KRAS이다.\n* 2번 · squamous lung cancer에서는 PD-L1 발현이 더 잘 일어난다.: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n* 3번 · [선지 미복원]: 원래 내용을 확인할 수 없어 판단할 수 없다. 복수선택 문항의 누락 선지를 임의 보충하여 전체 정답을 확정하지 않는다.\n* 4번 · adenocarcinoma에서 동양인, 비흡연자, 여성에서 제일 잘 일어나는 변이는 ALK fusion이다: 틀리다. 이 조합에서 대표적인 변이는 EGFR이다. ALK는 젊은 비흡연자와 연결하되 뚜렷한 인종 차이를 강조하지 않는다.\n* 5번 · squamous lung cancer는 유전자 돌연변이가 적은 것이 특징이다.: 틀리다. 편평세포암은 돌연변이 부담이 높다. 흔한 선암 driver가 드문 것과 전체 변이가 적다는 것은 다르다.\n\n[[37강#편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다|Wiki · 편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -9502,32 +9428,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "unresolved",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              7,
-              8,
-              9,
-              10,
-              11,
-              12
-            ]
-          }
-        ],
-        "proposedAnswerIndices": [
-          2
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -11063,7 +10968,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n흡연자에서 생긴 폐선암은 비흡연자 폐선암보다 KRAS 변이가 흔하다. EGFR·ALK·ROS1은 상대적으로 비흡연자에서 더 자주 만나는 표적이다. 흡연력만으로 유전자형을 확정하는 것은 아니므로 실제 치료 전에는 검사해야 한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 4,7-11쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n흡연자에서 생긴 폐선암은 비흡연자 폐선암보다 KRAS 변이가 흔하다. EGFR·ALK·ROS1은 상대적으로 비흡연자에서 더 자주 만나는 표적이다. 흡연력만으로 유전자형을 확정하는 것은 아니므로 실제 치료 전에는 검사해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n비흡연자에게도 폐암이 생기며 여성·샘암종의 비중이 높다. 강의는 전체 폐암의 약 25%를 비흡연자 폐암으로 제시한다. 비흡연자에서는 EGFR이 더 흔하고 KRAS는 드물다. TP53 변이도 가능하지만 흡연 관련 암보다 빈도가 낮다.\n\n||= 표적 ||= 특징과 변이 형태 ||= 기억할 점 ||\n|| EGFR || 동아시아인·여성·비흡연자 샘암종 || 돌연변이 유형에 따라 TKI 감수성이 다름 ||\n|| ALK || 젊은 비흡연자, 뚜렷한 인종 차이 없음 || EML4-ALK fusion이 대표적 ||\n|| KRAS || 강의 비교: 비흡연자 5%, 흡연자 30%; 서양인에서 흔한 driver || EGFR 억제제와 구분, G12C는 별도 표적치료 대상 ||\n|| ROS1 || 약 1–2%, 재배열 || Fusion을 검출 ||\n|| BRAF || 약 1–5%, V600E와 non-V600E 구분 || V600E는 표적치료와 연결 ||\n|| MET || Exon 14 skipping 또는 amplification || Exon skipping과 증폭은 다른 사건 ||\n|| RET, NTRK1/2/3 || Fusion || 희귀하다고 무의미한 표적은 아님 ||\n|| HER2/ERBB2 || Mutation, 대표적으로 exon 20 insertion; 증폭도 별도 평가 || 변이·증폭·단백 과발현을 구분 ||\n\n=== 선지별 해설 ===\n* 1번 · EGFR L858R mutation: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 2번 · ALK translocation (fusion): 젊은 비흡연자 폐선암과 연결되는 driver fusion이다. 흡연자 선암에서 상대적으로 증가하는 대표 답인 KRAS와 구분한다.\n* 3번 · KRAS mutation: 흡연자 선암에서 상대적으로 흔한 driver이다. G12C는 별도 표적치료와 연결되며, 소세포암·SFT의 대표 변화는 아니다.\n* 4번 · ROS1 translocation (fusion): 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 5번 · HER2 (ERBB2) mutation: 폐선암의 표적 가능한 변이지만, 흡연자에서 더 자주 나타나는 대표 driver를 고르는 이 문항에서는 KRAS가 적절하다.\n\n[[37강#비흡연자 샘암종은 EGFR, 흡연자 샘암종은 KRAS와 연결한다|Wiki · 비흡연자 샘암종은 EGFR, 흡연자 샘암종은 KRAS와 연결한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김루시아",
@@ -11088,29 +10993,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              4,
-              7,
-              8,
-              9,
-              10,
-              11
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "비흡연자 샘암종은 EGFR, 흡연자 샘암종은 KRAS와 연결한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -11138,7 +11025,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 38기 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-16쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 2번 · NTRK fusion을 보기 위한 Fluorescent in situ hybridization 검사: NTRK fusion은 실제 표적 가능한 이상이며 FISH로 재배열을 평가할 수도 있다. 기존 2번 답은 과거 필수 검사 묶음의 출제 의도로만 해석한다. 이 선지가 의학적으로 불가능한 검사라는 뜻은 아니다.\n* 3번 · ALK fusion을 보기 위한 immunohistochemistry 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n* 4번 · ROS1 fusion을 보기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 5번 · 종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김루시아",
@@ -11182,33 +11069,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              7,
-              8,
-              9,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -11236,7 +11101,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7,12쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · CDKN2A translocation: 틀리다. 특징적인 변화는 translocation이 아니라 homozygous deletion이다.\n* 4번 · Loss of BAP1 nuclear expression: 상피형 중피종에서 중요한 BAP1 핵 발현 소실이다. 주변 정상세포의 양성 내부대조를 함께 확인한다.\n* 5번 · PD-L1 protein expression: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "김루시아",
@@ -11282,25 +11147,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              7,
-              12
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -15690,7 +15541,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 9쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nEGFR의 tyrosine kinase 신호가 계속 켜져 있으면 세포가 증식한다. 하지만 같은 EGFR이라는 이름만으로 모든 변이가 같은 약에 반응하지는 않는다.\n\n||= 강의의 분류 ||= 변이 ||= 핵심 ||\n|| Sensitizing || Exon 19 deletion(약 45%), L858R(약 40%) || 대표 감수성 변이 두 가지 ||\n|| Sensitizing || G719X, L861Q || 덜 흔하지만 반응 가능한 변이 ||\n|| Resistant || Exon 20 insertion, T790M || 전통적 EGFR-TKI에 대한 내성 분류 ||\n\n> '''Exon 19 deletion과 exon 20 insertion을 바꾸어 외우지 않는다.''' Deletion·insertion·점돌연변이는 각각 정확한 이름으로 구분한다.\n\n강의의 ‘내성’은 모든 세대의 약제에 영구적으로 반응하지 않는다는 뜻이 아니다. T790M을 억제하는 osimertinib과 exon 20 insertion을 겨냥하는 별도 치료가 있다. 시험에서는 제시 약제와 질문의 맥락을 먼저 확인한다.[*보충 [[https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq|NCI NSCLC PDQ]]의 변이별 치료 구분.]\n\n=== 선지별 해설 ===\n* 1번 · EGFR 19 deletion: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 2번 · EGFR 20 insertion: 강의의 전통적 EGFR-TKI 분류에서 내성군이다. Exon 20 insertion을 겨냥한 별도 치료까지 없다는 뜻은 아니다.\n* 3번 · EGFR g719c: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 4번 · EGFR L858R: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 5번 · EGFR L861Q: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n\n[[37강#EGFR은 감수성 변이와 내성 변이를 나누어 외운다|Wiki · EGFR은 감수성 변이와 내성 변이를 나누어 외운다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -15717,24 +15568,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              9
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "EGFR은 감수성 변이와 내성 변이를 나누어 외운다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -15763,7 +15601,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 38기 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7-16쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 2번 · NTRK fusion을 보기 위한 Fluorescent in situ hybridization 검사: NTRK fusion은 실제 표적 가능한 이상이며 FISH로 재배열을 평가할 수도 있다. 기존 2번 답은 과거 필수 검사 묶음의 출제 의도로만 해석한다. 이 선지가 의학적으로 불가능한 검사라는 뜻은 아니다.\n* 3번 · ALK fusion을 보기 위한 immunohistochemistry 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n* 4번 · ROS1 fusion을 보기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 5번 · 종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -15809,33 +15647,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              7,
-              8,
-              9,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -15973,7 +15789,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n경계 좋은 작은 말초 결절에 연골·지방·기관지형 상피가 뒤섞인 사진은 chondroid hamartoma이다. 단면이 희고 연골처럼 단단하다는 설명도 일치한다. 이름과 달리 강의에서는 단순 발생기형보다 양성 종양으로 설명한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 45-46쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n경계 좋은 작은 말초 결절에 연골·지방·기관지형 상피가 뒤섞인 사진은 chondroid hamartoma이다. 단면이 희고 연골처럼 단단하다는 설명도 일치한다. 이름과 달리 강의에서는 단순 발생기형보다 양성 종양으로 설명한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nChondroid hamartoma는 폐 말초의 경계 좋은 단일 coin lesion으로 보이며 보통 3–4 cm 미만이다. 이름의 hamartoma는 그 장기에 원래 있는 성분이 섞인 종괴라는 뜻이지만, 폐 연골과오종은 단순 선천기형보다는 '''양성 종양'''으로 설명한다.\n\n희고 단단한 연골 결절 사이에 지방·섬유조직·혈관·기관지형 섬모상피가 섞인다. 연골 사이로 '''slit-like 상피 틈'''이 보이면 진단에 도움이 된다. 균일한 carcinoid 세포나 악성 샘 구조와 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · Typical carcinoid tumor: 균일한 신경내분비세포의 organoid/rosette 배열이 특징이다. 연골과 지방이 섞인 병변의 진단은 아니다.\n* 2번 · Tuberculosis: 건락괴사·육아종을 찾아야 한다. 성숙 연골과 지방, 기관지형 상피가 섞인 종양과는 맞지 않는다.\n* 3번 · Metastatic adenocarcinoma from breast: 악성 샘 구조와 원발 종양의 근거가 필요하다. 경계 좋은 연골성 혼합 조직의 과오종을 설명하지 못한다.\n* 4번 · Sclerosing pneumocytoma: 표면 입방세포와 둥근 기질세포의 두 군이 특징이다. TTF-1은 둘 다, CK7은 표면세포에 발현한다. 연골 중심의 과오종과 다르다.\n* 5번 · Chondroid hamartoma: 연골·지방·섬유조직과 slit-like 기관지 상피가 섞인 양성 종양이다. 연골처럼 단단하고 소엽성인 종괴 설명과 맞는다.\n\n[[37강#연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다|Wiki · 연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2023/q020_01.jpg",
         "J/2023/q020_02.jpg"
@@ -16030,25 +15846,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              45,
-              46
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -16389,7 +16191,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · thymic carcinoma-surgery: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 2번 · metastatic carcinoma-biopsy: 전이암이면 원발 종양과 조직 확인이 필요하다. 이 소아 증례에서는 LBL이 더 전형적인 연령·경과이다.\n* 3번 · non-seminomatous germ cell tumor-chemotherapy: 젊은 남성의 급성 앞종격동 종괴 및 AFP/β-hCG 상승이 중요한 조합이다. 정상 표지자만으로 완전히 배제되지는 않지만, 이 소아 림프절 증례의 최선 진단은 LBL이다.\n* 4번 · substernal goiter-follow up: 갑상선과 연결되는 종괴를 생각한다. 소아의 B symptoms·여러 림프절 종대를 단순 추적으로 처리할 상황은 아니다.\n* 5번 · lymphoblastic lymphoma-biopsy: 소아의 급속 성장·발열·야간발한·다발 림프절 종대이면 우선 고려하고 생검으로 확진한다. 중년의 오랜 무증상 경과와 림프절 종대 부재는 덜 전형적이다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -16434,26 +16236,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              18,
-              19,
-              20
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -16481,7 +16268,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7,12쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · CDKN2A translocation: 틀리다. 특징적인 변화는 translocation이 아니라 homozygous deletion이다.\n* 4번 · Loss of BAP1 nuclear expression: 상피형 중피종에서 중요한 BAP1 핵 발현 소실이다. 주변 정상세포의 양성 내부대조를 함께 확인한다.\n* 5번 · PD-L1 protein expression: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -16528,25 +16315,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              7,
-              12
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -25611,7 +25384,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 27-30쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n주로 중심부 기관지에 생기고 흡연과 밀접하다. 그러나 드물게 말초에도 생기므로 '''위치보다 실제 조직 분화'''가 우선이다. 각질 진주·각질화와 intercellular bridge가 편평상피 분화의 근거다.\n\n* 양성: '''p40, CK5/6, p63'''.\n* 보통 음성: '''TTF-1, Napsin A'''.\n* Keratinizing, nonkeratinizing, basaloid 아형이 있다. 각질화가 약한 경우 면역염색이 더 중요하다.\n* 주요 선암 driver가 드물어 면역치료·항암치료와 연결되는 경우가 많다. 같은 병기에서 선암보다 예후가 좋은 경향이라는 강의 설명은 개별 환자의 예후를 보장하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · TTF-1: 폐선암의 기원을 지지하며 일부 소세포암·carcinoid 등에서도 발현할 수 있다. 따라서 단독으로 종양 계열을 확정하지 않고 형태·신경내분비 표지자와 함께 판독한다.\n* 2번 · P40: 편평상피 분화를 지지한다. 각질화·세포사이교가 있는 종양의 적절한 표지자이며, 중심부/말초라는 위치보다 실제 분화가 우선한다.\n* 3번 · Chromogranin: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 4번 · CD56: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 5번 · WT-1: 중피 분화를 지지하는 패널 표지자이다. 편평세포 분화 확인에는 p40·CK5/6가 더 적절하다.\n\n[[37강#편평세포암은 각질화와 세포사이교를 찾는다|Wiki · 편평세포암은 각질화와 세포사이교를 찾는다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2022/q029_01.jpg"
       ],
@@ -25665,27 +25438,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              27,
-              28,
-              29,
-              30
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "편평세포암은 각질화와 세포사이교를 찾는다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -25811,7 +25568,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · Non-seminomatous germ cell tumor-chemotherapy: 젊은 남성의 급성 앞종격동 종괴 및 AFP/β-hCG 상승이 중요한 조합이다. 정상 표지자만으로 완전히 배제되지는 않지만, 이 소아 림프절 증례의 최선 진단은 LBL이다.\n* 2번 · mediastinal large cell non-Hodgkin's lymphoma-chemotherapy: 종격동 림프종의 감별이지만 소아 급속 종괴에서는 LBL이 더 전형적이다. 확진 조직 없이 곧바로 항암치료로 건너뛰는 조합도 적절하지 않다.\n* 3번 · lymphoblastic lymphoma-biopsy: 소아의 급속 성장·발열·야간발한·다발 림프절 종대이면 우선 고려하고 생검으로 확진한다. 중년의 오랜 무증상 경과와 림프절 종대 부재는 덜 전형적이다.\n* 4번 · thymic carcinoma-surgery: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 5번 · seminoma-biopsy: 주로 젊은 남성의 앞종격동 종양으로 균질한 종괴를 보이고 생검한다. 정상 AFP만으로 확진하지 않으며 소아의 광범위 림프절 증상에서는 LBL이 우선이다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -25858,26 +25615,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              18,
-              19,
-              20
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -25905,7 +25647,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "잠정 정답: ①",
-      "explanation": "잠정 정답: ①\n\n대표적인 진단 관련 변화로 강의에 직접 제시된 것은 CDKN2A 동형접합 결실이다. BAP1 핵 발현은 보존이 아니라 소실되는 쪽이 중요하다. 3번처럼 chromatin-remodeling 관련 변이라는 넓은 표현은 BAP1 등과의 생물학적 관련성까지 완전히 배제하기 어려워, 가장 대표적인 강의 표지자를 묻는 단일최선답으로 1번을 선택한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 12쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ①\n\n대표적인 진단 관련 변화로 강의에 직접 제시된 것은 CDKN2A 동형접합 결실이다. BAP1 핵 발현은 보존이 아니라 소실되는 쪽이 중요하다. 3번처럼 chromatin-remodeling 관련 변이라는 넓은 표현은 BAP1 등과의 생물학적 관련성까지 완전히 배제하기 어려워, 가장 대표적인 강의 표지자를 묻는 단일최선답으로 1번을 선택한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · Homozygous deletion of CDKN2A: 중피종의 대표적인 종양억제유전자 양대립유전자 결실이다. 9p 결실을 FISH로 평가한다. Translocation과 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · Mutations in chromatin-remodeling genes: BAP1 등을 포함한 염색질 조절 관련 이상과의 관련성을 전혀 부정할 수 없다. 이 문항의 가장 구체적인 대표 진단 이상은 CDKN2A 동형접합 결실이지만, 이 넓은 선지는 단순히 거짓이라고 단정하기 어렵다.\n* 4번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 5번 · Preserved BAP1 nuclear expression: 대표적 이상은 보존이 아니라 핵 발현 소실이다. 다만 보존되어 있다고 중피종을 완전히 배제하는 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -25953,24 +25695,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              12
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -25998,7 +25727,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n작은 세포의 치밀한 증식에 TTF-1·CD56·chromogranin 양성이 동반되어 소세포암을 생각한다. 특징적인 유전 이상은 TP53 및 RB1의 양대립유전자 비활성화다. MEN1은 carcinoid와, KRAS·STK11은 다른 비소세포암 계열과 더 연결된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-34쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n작은 세포의 치밀한 증식에 TTF-1·CD56·chromogranin 양성이 동반되어 소세포암을 생각한다. 특징적인 유전 이상은 TP53 및 RB1의 양대립유전자 비활성화다. MEN1은 carcinoid와, KRAS·STK11은 다른 비소세포암 계열과 더 연결된다.\n\n=== 이 문항을 풀기 위한 개념 ===\n신경내분비 분화는 '''chromogranin·synaptophysin·CD56''' 등으로 확인한다. CD57도 강의 표지자이며, 전자현미경에서는 분비과립을 볼 수 있다. 표지자 양성만으로 carcinoid인지 소세포암인지 정하지 않고 세포 크기·배열·유사분열·괴사를 더 본다.\n\n소세포암은 흡연과 가장 밀접하며 중심부 종괴와 종격동 림프절 종대, 조기 림프·혈행 전이를 보인다. 림프구의 약 2–3배 크기인 작은 세포에 세포질이 적고 핵이 서로 눌리는 '''nuclear molding'''이 특징이다. 유사분열 >10/10 HPF와 빈번한 괴사가 동반된다.\n\n> '''작은 세포 + 높은 N/C ratio + molding + 괴사·유사분열 → small cell carcinoma. 유전자에서는 TP53와 RB1의 양대립유전자 비활성화.''' TTF-1도 양성일 수 있으므로 TTF-1을 선암 전용으로 생각하지 않는다.\n\n항암·방사선에 민감해도 재발과 광범위 전이 때문에 예후가 나쁘다. 강의의 ‘수술로 치유가 어렵다’는 일반적 생물학을 설명하며, 모든 병기의 수술을 절대 금지한다는 뜻은 아니다. NOTCH family 비활성화도 약 25%로 제시된다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation: 주로 폐선암의 성장 신호 driver이다. 소세포암의 대표 RB1 기능 소실이나 SFT의 NAB2–STAT6 fusion과 구별한다.\n* 2번 · MEN1 mutation: Carcinoid 계열과 관련되는 유전자이다. 고등급 소세포암의 대표 TP53·RB1 비활성화와 구분한다.\n* 3번 · STK11 mutation: KRAS·KEAP1 등과 함께 일부 비소세포암 및 NSCC-like LCNEC에 관련된다. 전형적 소세포암의 대표 답은 RB1이다.\n* 4번 · RB1 biallelic mutation: 종양억제유전자이다. 소세포암에서는 TP53와 함께 양대립유전자 비활성화가 특징이며, 활성화된 driver oncogene과는 작동 방향이 반대이다.\n* 5번 · KRAS mutation: 흡연자 선암에서 상대적으로 흔한 driver이다. G12C는 별도 표적치료와 연결되며, 소세포암·SFT의 대표 변화는 아니다.\n\n[[37강#소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다|Wiki · 소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2022/q033_01.jpg"
       ],
@@ -26050,28 +25779,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              13,
-              31,
-              32,
-              33,
-              34
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -26099,7 +25811,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "정답: ①",
-      "explanation": "정답: ①\n\nType A thymoma는 방추형 흉선 상피세포가 증식하고 미성숙 림프구가 거의 없는 유형이다. TdT는 종양 상피세포 자체보다 동반된 미성숙 T림프구를 보는 표지자이므로, TdT 양성 림프구가 풍부한 B1·B2와 구분한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 21-24쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ①\n\nType A thymoma는 방추형 흉선 상피세포가 증식하고 미성숙 림프구가 거의 없는 유형이다. TdT는 종양 상피세포 자체보다 동반된 미성숙 T림프구를 보는 표지자이므로, TdT 양성 림프구가 풍부한 B1·B2와 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nThymoma는 정상 흉선의 organotypic 특징을 남기는 악성 잠재력의 흉선 상피종양이다. Type A는 수질성 분화, B1·B2·B3는 피질성 분화, AB는 혼합형이다. 경계가 좋거나 예후가 좋다고 무조건 양성으로 분류하지 않는다.\n\n||= 아형 ||= 상피세포 ||= 림프구·정상 흉선 유사성 ||\n|| A || 방추형 상피세포 || 거의 없거나 소수; 경계 좋고 좋은 예후 ||\n|| AB || A와 B형 성분 혼합 || 부위에 따라 림프구 풍부 ||\n|| B1 || 적어서 눈에 잘 안 띔 || TdT+ 림프구 풍부, '''정상 흉선과 가장 유사''' ||\n|| B2 || 상피세포 증식이 뚜렷함 || TdT+ 림프구도 풍부, 소엽 구조 뚜렷 ||\n|| B3 || 다각형 상피세포의 sheet/solid 성장 || 림프구 적고 진행 병기와 관련 ||\n\n> '''방추세포·림프구 적음 → A. 정상 흉선 같은 모습·림프구 우세 → B1. 상피도 림프구도 뚜렷 → B2. 다각형 상피 우세 → B3.''' 예후에는 조직형뿐 아니라 침범 범위도 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · type A thymoma: 방추형 상피세포가 주를 이루고 미성숙 림프구는 적다. 따라서 TdT 양성 림프구가 풍부한 정상 흉선 유사 B1과 구분한다.\n* 2번 · type B1 thymoma: 정상 흉선에 가장 닮으며 TdT 양성 미성숙 T림프구가 풍부하고 상피세포는 상대적으로 적다.\n* 3번 · type B2 thymoma: 상피세포 증식과 풍부한 TdT 양성 림프구가 함께 뚜렷하고 소엽 구조를 보인다. B1보다 상피 성분이 눈에 띈다.\n* 4번 · type B3 thymoma: 다각형 상피세포의 sheet-like 성장이 주이고 림프구는 적다. 방추형 세포의 A형과는 형태가 다르다.\n* 5번 · thymic carcinoma: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n\n[[38강#흉선종 A·B1·B2·B3는 상피세포와 림프구의 비율로 읽는다|Wiki · 흉선종 A·B1·B2·B3는 상피세포와 림프구의 비율로 읽는다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -26126,27 +25838,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              21,
-              22,
-              23,
-              24
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "흉선종 A·B1·B2·B3는 상피세포와 림프구의 비율로 읽는다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -35288,7 +34984,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-20쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · Non-seminomatous germ cell tumor- Chemotherapy: 젊은 남성의 급성 앞종격동 종괴 및 AFP/β-hCG 상승이 중요한 조합이다. 정상 표지자만으로 완전히 배제되지는 않지만, 이 소아 림프절 증례의 최선 진단은 LBL이다.\n* 2번 · Mediastinal large cell non-Hodgkin’s lymphoma - Chemotherapy: 종격동 림프종의 감별이지만 소아 급속 종괴에서는 LBL이 더 전형적이다. 확진 조직 없이 곧바로 항암치료로 건너뛰는 조합도 적절하지 않다.\n* 3번 · Lymphoblastic lymphoma-Biopsy: 소아의 급속 성장·발열·야간발한·다발 림프절 종대이면 우선 고려하고 생검으로 확진한다. 중년의 오랜 무증상 경과와 림프절 종대 부재는 덜 전형적이다.\n* 4번 · Thymic carcinoma- surgery: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 5번 · Seminoma- Biopsy: 주로 젊은 남성의 앞종격동 종양으로 균질한 종괴를 보이고 생검한다. 정상 AFP만으로 확진하지 않으며 소아의 광범위 림프절 증상에서는 LBL이 우선이다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -35335,26 +35031,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              18,
-              19,
-              20
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -35548,7 +35229,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "정답: ①",
-      "explanation": "정답: ①\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 9쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ①\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nEGFR의 tyrosine kinase 신호가 계속 켜져 있으면 세포가 증식한다. 하지만 같은 EGFR이라는 이름만으로 모든 변이가 같은 약에 반응하지는 않는다.\n\n||= 강의의 분류 ||= 변이 ||= 핵심 ||\n|| Sensitizing || Exon 19 deletion(약 45%), L858R(약 40%) || 대표 감수성 변이 두 가지 ||\n|| Sensitizing || G719X, L861Q || 덜 흔하지만 반응 가능한 변이 ||\n|| Resistant || Exon 20 insertion, T790M || 전통적 EGFR-TKI에 대한 내성 분류 ||\n\n> '''Exon 19 deletion과 exon 20 insertion을 바꾸어 외우지 않는다.''' Deletion·insertion·점돌연변이는 각각 정확한 이름으로 구분한다.\n\n강의의 ‘내성’은 모든 세대의 약제에 영구적으로 반응하지 않는다는 뜻이 아니다. T790M을 억제하는 osimertinib과 exon 20 insertion을 겨냥하는 별도 치료가 있다. 시험에서는 제시 약제와 질문의 맥락을 먼저 확인한다.[*보충 [[https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq|NCI NSCLC PDQ]]의 변이별 치료 구분.]\n\n=== 선지별 해설 ===\n* 1번 · EGFR Exon 20 insertion: 강의의 전통적 EGFR-TKI 분류에서 내성군이다. Exon 20 insertion을 겨냥한 별도 치료까지 없다는 뜻은 아니다.\n* 2번 · EGFR Exon 19 deletion: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 3번 · EGFR G719C: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 4번 · EGFR L858R: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 5번 · EGFR L861Q: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n\n[[37강#EGFR은 감수성 변이와 내성 변이를 나누어 외운다|Wiki · EGFR은 감수성 변이와 내성 변이를 나누어 외운다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -35575,24 +35256,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              9
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "EGFR은 감수성 변이와 내성 변이를 나누어 외운다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -35770,7 +35438,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "잠정 정답: ④",
-      "explanation": "잠정 정답: ④\n\n출제 당시 EGFR·ALK·ROS1·PD-L1을 필수 묶음으로 다루던 맥락에서는 KRAS 검사인 4번을 선택한다. 다만 38기 강의는 KRAS G12C 표적치료를 명시한다. 따라서 현재 KRAS가 치료와 무관하다는 설명은 틀리며, 이 답은 과거 문항의 검사 범위를 따른 것이다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 11,14-16쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ④\n\n출제 당시 EGFR·ALK·ROS1·PD-L1을 필수 묶음으로 다루던 맥락에서는 KRAS 검사인 4번을 선택한다. 다만 강의는 KRAS G12C 표적치료를 명시한다. 따라서 현재 KRAS가 치료와 무관하다는 설명은 틀리며, 이 답은 과거 문항의 검사 범위를 따른 것이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 2번 · 종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n* 3번 · ROS1 fusion을 보기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 4번 · KRAS mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 5번 · ALK fusion을 보기 위한 Fluorescent in situ hybridization 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -35816,27 +35484,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              11,
-              14,
-              15,
-              16
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -36139,7 +35791,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "잠정 정답: ①",
-      "explanation": "잠정 정답: ①\n\n대표적인 진단 관련 변화로 강의에 직접 제시된 것은 CDKN2A 동형접합 결실이다. BAP1 핵 발현은 보존이 아니라 소실되는 쪽이 중요하다. 3번처럼 chromatin-remodeling 관련 변이라는 넓은 표현은 BAP1 등과의 생물학적 관련성까지 완전히 배제하기 어려워, 가장 대표적인 강의 표지자를 묻는 단일최선답으로 1번을 선택한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 12쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ①\n\n대표적인 진단 관련 변화로 강의에 직접 제시된 것은 CDKN2A 동형접합 결실이다. BAP1 핵 발현은 보존이 아니라 소실되는 쪽이 중요하다. 3번처럼 chromatin-remodeling 관련 변이라는 넓은 표현은 BAP1 등과의 생물학적 관련성까지 완전히 배제하기 어려워, 가장 대표적인 강의 표지자를 묻는 단일최선답으로 1번을 선택한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · Homozygous deletion of CDKN2A: 중피종의 대표적인 종양억제유전자 양대립유전자 결실이다. 9p 결실을 FISH로 평가한다. Translocation과 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · Mutations in chromatin-remodeling genes: BAP1 등을 포함한 염색질 조절 관련 이상과의 관련성을 전혀 부정할 수 없다. 이 문항의 가장 구체적인 대표 진단 이상은 CDKN2A 동형접합 결실이지만, 이 넓은 선지는 단순히 거짓이라고 단정하기 어렵다.\n* 4번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 5번 · Preserved BAP1 nuclear expression: 대표적 이상은 보존이 아니라 핵 발현 소실이다. 다만 보존되어 있다고 중피종을 완전히 배제하는 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -36187,24 +35839,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              12
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -36386,7 +36025,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n작은 세포의 치밀한 증식에 TTF-1·CD56·chromogranin 양성이 동반되어 소세포암을 생각한다. 특징적인 유전 이상은 TP53 및 RB1의 양대립유전자 비활성화다. MEN1은 carcinoid와, KRAS·STK11은 다른 비소세포암 계열과 더 연결된다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-34쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n작은 세포의 치밀한 증식에 TTF-1·CD56·chromogranin 양성이 동반되어 소세포암을 생각한다. 특징적인 유전 이상은 TP53 및 RB1의 양대립유전자 비활성화다. MEN1은 carcinoid와, KRAS·STK11은 다른 비소세포암 계열과 더 연결된다.\n\n=== 이 문항을 풀기 위한 개념 ===\n신경내분비 분화는 '''chromogranin·synaptophysin·CD56''' 등으로 확인한다. CD57도 강의 표지자이며, 전자현미경에서는 분비과립을 볼 수 있다. 표지자 양성만으로 carcinoid인지 소세포암인지 정하지 않고 세포 크기·배열·유사분열·괴사를 더 본다.\n\n소세포암은 흡연과 가장 밀접하며 중심부 종괴와 종격동 림프절 종대, 조기 림프·혈행 전이를 보인다. 림프구의 약 2–3배 크기인 작은 세포에 세포질이 적고 핵이 서로 눌리는 '''nuclear molding'''이 특징이다. 유사분열 >10/10 HPF와 빈번한 괴사가 동반된다.\n\n> '''작은 세포 + 높은 N/C ratio + molding + 괴사·유사분열 → small cell carcinoma. 유전자에서는 TP53와 RB1의 양대립유전자 비활성화.''' TTF-1도 양성일 수 있으므로 TTF-1을 선암 전용으로 생각하지 않는다.\n\n항암·방사선에 민감해도 재발과 광범위 전이 때문에 예후가 나쁘다. 강의의 ‘수술로 치유가 어렵다’는 일반적 생물학을 설명하며, 모든 병기의 수술을 절대 금지한다는 뜻은 아니다. NOTCH family 비활성화도 약 25%로 제시된다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation: 주로 폐선암의 성장 신호 driver이다. 소세포암의 대표 RB1 기능 소실이나 SFT의 NAB2–STAT6 fusion과 구별한다.\n* 2번 · MEN1 mutation: Carcinoid 계열과 관련되는 유전자이다. 고등급 소세포암의 대표 TP53·RB1 비활성화와 구분한다.\n* 3번 · STK11 mutation: KRAS·KEAP1 등과 함께 일부 비소세포암 및 NSCC-like LCNEC에 관련된다. 전형적 소세포암의 대표 답은 RB1이다.\n* 4번 · RB1 biallelic mutation: 종양억제유전자이다. 소세포암에서는 TP53와 함께 양대립유전자 비활성화가 특징이며, 활성화된 driver oncogene과는 작동 방향이 반대이다.\n* 5번 · KRAS mutation: 흡연자 선암에서 상대적으로 흔한 driver이다. G12C는 별도 표적치료와 연결되며, 소세포암·SFT의 대표 변화는 아니다.\n\n[[37강#소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다|Wiki · 소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2021/q036_01.jpg"
       ],
@@ -36438,28 +36077,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              13,
-              31,
-              32,
-              33,
-              34
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -36487,7 +36109,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\nType B1 thymoma는 정상 흉선과 가장 닮고 TdT 양성 미성숙 T림프구가 풍부하다. Type A는 방추형 상피세포 위주, B3는 상피세포가 더 두드러지고 림프구가 적은 유형이다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 21-25쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nType B1 thymoma는 정상 흉선과 가장 닮고 TdT 양성 미성숙 T림프구가 풍부하다. Type A는 방추형 상피세포 위주, B3는 상피세포가 더 두드러지고 림프구가 적은 유형이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nThymoma는 정상 흉선의 organotypic 특징을 남기는 악성 잠재력의 흉선 상피종양이다. Type A는 수질성 분화, B1·B2·B3는 피질성 분화, AB는 혼합형이다. 경계가 좋거나 예후가 좋다고 무조건 양성으로 분류하지 않는다.\n\n||= 아형 ||= 상피세포 ||= 림프구·정상 흉선 유사성 ||\n|| A || 방추형 상피세포 || 거의 없거나 소수; 경계 좋고 좋은 예후 ||\n|| AB || A와 B형 성분 혼합 || 부위에 따라 림프구 풍부 ||\n|| B1 || 적어서 눈에 잘 안 띔 || TdT+ 림프구 풍부, '''정상 흉선과 가장 유사''' ||\n|| B2 || 상피세포 증식이 뚜렷함 || TdT+ 림프구도 풍부, 소엽 구조 뚜렷 ||\n|| B3 || 다각형 상피세포의 sheet/solid 성장 || 림프구 적고 진행 병기와 관련 ||\n\n> '''방추세포·림프구 적음 → A. 정상 흉선 같은 모습·림프구 우세 → B1. 상피도 림프구도 뚜렷 → B2. 다각형 상피 우세 → B3.''' 예후에는 조직형뿐 아니라 침범 범위도 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · Thymic squamous cell carcinoma: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 2번 · Type A Thymoma: 방추형 상피세포가 주를 이루고 미성숙 림프구는 적다. 따라서 TdT 양성 림프구가 풍부한 정상 흉선 유사 B1과 구분한다.\n* 3번 · Type B1 Thymoma: 정상 흉선에 가장 닮으며 TdT 양성 미성숙 T림프구가 풍부하고 상피세포는 상대적으로 적다.\n* 4번 · Type B2 Thymoma: 상피세포 증식과 풍부한 TdT 양성 림프구가 함께 뚜렷하고 소엽 구조를 보인다. B1보다 상피 성분이 눈에 띈다.\n* 5번 · Type B3 Thymoma: 다각형 상피세포의 sheet-like 성장이 주이고 림프구는 적다. 방추형 세포의 A형과는 형태가 다르다.\n\n[[38강#흉선종 A·B1·B2·B3는 상피세포와 림프구의 비율로 읽는다|Wiki · 흉선종 A·B1·B2·B3는 상피세포와 림프구의 비율로 읽는다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -36514,28 +36136,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              21,
-              22,
-              23,
-              24,
-              25
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "흉선종 A·B1·B2·B3는 상피세포와 림프구의 비율로 읽는다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -36655,7 +36260,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 27-30쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n주로 중심부 기관지에 생기고 흡연과 밀접하다. 그러나 드물게 말초에도 생기므로 '''위치보다 실제 조직 분화'''가 우선이다. 각질 진주·각질화와 intercellular bridge가 편평상피 분화의 근거다.\n\n* 양성: '''p40, CK5/6, p63'''.\n* 보통 음성: '''TTF-1, Napsin A'''.\n* Keratinizing, nonkeratinizing, basaloid 아형이 있다. 각질화가 약한 경우 면역염색이 더 중요하다.\n* 주요 선암 driver가 드물어 면역치료·항암치료와 연결되는 경우가 많다. 같은 병기에서 선암보다 예후가 좋은 경향이라는 강의 설명은 개별 환자의 예후를 보장하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · WT-1: 중피 분화를 지지하는 패널 표지자이다. 편평세포 분화 확인에는 p40·CK5/6가 더 적절하다.\n* 2번 · Chromogranin: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 3번 · CD56: 신경내분비 분화 표지자이다. 양성이라는 사실만으로 저등급 carcinoid와 고등급 소세포암을 구분할 수는 없어 괴사·유사분열·세포 크기를 더 본다.\n* 4번 · Cytokeratin 5/6: 편평상피 분화를 지지한다. 각질화·세포사이교가 있는 종양의 적절한 표지자이며, 중심부/말초라는 위치보다 실제 분화가 우선한다.\n* 5번 · TTF-1: 폐선암의 기원을 지지하며 일부 소세포암·carcinoid 등에서도 발현할 수 있다. 따라서 단독으로 종양 계열을 확정하지 않고 형태·신경내분비 표지자와 함께 판독한다.\n\n[[37강#편평세포암은 각질화와 세포사이교를 찾는다|Wiki · 편평세포암은 각질화와 세포사이교를 찾는다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2021/q039_01.jpg"
       ],
@@ -36709,27 +36314,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              27,
-              28,
-              29,
-              30
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "편평세포암은 각질화와 세포사이교를 찾는다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -47951,7 +47540,7 @@ window.JBL_DATA = {
       "answerIndex": null,
       "answerIndices": [],
       "answerLabel": "정답 확정 보류",
-      "explanation": "정답 확정 보류\n\n제시된 조직과 CD56·chromogranin 양성은 폐 신경내분비암의 간 전이를 검토하게 한다. 그러나 현재 공식 문항에 수록된 보기에는 해당 진단이 없으며 간세포암·담관암·농양·부종·육아종만 제시되어 있다. 신경내분비 분화를 보인다는 이유로 전혀 다른 암을 고를 수 없어 정답을 확정하지 않는다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 13,31-36쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답 확정 보류\n\n제시된 조직과 CD56·chromogranin 양성은 폐 신경내분비암의 간 전이를 검토하게 한다. 그러나 현재 저장된 문항의 보기에는 해당 진단이 없으며 간세포암·담관암·농양·부종·육아종만 제시되어 있다. 신경내분비 분화를 보인다는 이유로 전혀 다른 암을 고를 수 없어 정답을 확정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n신경내분비 분화는 '''chromogranin·synaptophysin·CD56''' 등으로 확인한다. CD57도 강의 표지자이며, 전자현미경에서는 분비과립을 볼 수 있다. 표지자 양성만으로 carcinoid인지 소세포암인지 정하지 않고 세포 크기·배열·유사분열·괴사를 더 본다.\n\n소세포암은 흡연과 가장 밀접하며 중심부 종괴와 종격동 림프절 종대, 조기 림프·혈행 전이를 보인다. 림프구의 약 2–3배 크기인 작은 세포에 세포질이 적고 핵이 서로 눌리는 '''nuclear molding'''이 특징이다. 유사분열 >10/10 HPF와 빈번한 괴사가 동반된다.\n\n> '''작은 세포 + 높은 N/C ratio + molding + 괴사·유사분열 → small cell carcinoma. 유전자에서는 TP53와 RB1의 양대립유전자 비활성화.''' TTF-1도 양성일 수 있으므로 TTF-1을 선암 전용으로 생각하지 않는다.\n\n항암·방사선에 민감해도 재발과 광범위 전이 때문에 예후가 나쁘다. 강의의 ‘수술로 치유가 어렵다’는 일반적 생물학을 설명하며, 모든 병기의 수술을 절대 금지한다는 뜻은 아니다. NOTCH family 비활성화도 약 25%로 제시된다.\n\n=== 선지별 해설 ===\n* 1번 · Hepatocellular carcinoma: 간세포 분화의 형태와 표지자가 필요하다. 간 종괴라는 위치만으로 간세포암으로 정할 수 없다.\n* 2번 · Cholangiocarcinoma: 담관형 샘 분화를 확인해야 한다. 제시된 신경내분비 표지자와 폐 종괴의 조합을 설명하는 최선 진단은 아니다.\n* 3번 · Acute suppurative inflammation with abscess formation: 농양이면 호중구 중심의 화농성 염증을 찾아야 한다. 신경내분비 종양세포 증식과 다르다.\n* 4번 · Interstitial and intraalveolar edema with hemorrhage: 부종·출혈은 종양의 조직형을 설명하지 못하며, 신경내분비 면역염색 양성 종양과 맞지 않는다.\n* 5번 · peribronchial epithelioid granulomas with suppuration: 육아종은 조직구 중심의 염증 구조이다. 악성 신경내분비 세포 증식의 대안 진단이 아니다.\n\n[[37강#소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다|Wiki · 소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2020/q055_01.jpg",
         "J/2020/q055_02.jpg",
@@ -47997,30 +47586,11 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "unresolved",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              13,
-              31,
-              32,
-              33,
-              34,
-              35,
-              36
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -48048,7 +47618,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 7-8쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흉막 종양은 일차종양보다 폐·유방·난소암 등의 전이가 더 흔하다. 일차종양의 대표인 solitary fibrous tumor(SFT)는 장측흉막에서 잘 생기는 연부조직종양이다. 줄기로 붙거나 폐 표면에서 흉강 쪽으로 돌출하는 경계 좋은 단일 종괴를 만들며, '''석면과 관련이 없다.'''\n\n* 육안: 회백색의 단단하고 치밀한 섬유성 종괴.\n* 조직: 방추세포와 교원질. 이형성·유사분열·괴사·큰 크기(강의 >10 cm)는 악성 위험을 높이는 소견이다.\n* 면역: '''CD34(+), STAT6 핵 양성, cytokeratin(-)'''.\n* 유전자: '''NAB2–STAT6 fusion'''. STAT4가 아니다.\n\n강의에서는 대부분 양성, 악성 형태 <10%로 설명하지만, 경계가 좋다는 사실 하나만으로 모든 SFT의 행동을 보장하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation: 주로 폐선암의 성장 신호 driver이다. 소세포암의 대표 RB1 기능 소실이나 SFT의 NAB2–STAT6 fusion과 구별한다.\n* 2번 · EML4-ALK fusion: 젊은 비흡연자 폐선암과 연결되는 driver fusion이다. 흡연자 선암에서 상대적으로 증가하는 대표 답인 KRAS와 구분한다.\n* 3번 · Homozygous deletion of CDKN2A: 중피종의 대표적인 종양억제유전자 양대립유전자 결실이다. 9p 결실을 FISH로 평가한다. Translocation과 구분한다.\n* 4번 · High tumor mutation burden (TMB): TMB는 종양의 전체 변이 부담을 나타내며, SFT를 특징짓는 특정 fusion은 아니다.\n* 5번 · NAB2-STAT6 fusion: SFT의 특징적인 fusion이다. 섬유성 방추세포 종괴, CD34 양성과 STAT6 핵 염색을 연결한다.\n\n[[38강#단발섬유종양은 CD34·STAT6와 NAB2-STAT6를 연결한다|Wiki · 단발섬유종양은 CD34·STAT6와 NAB2-STAT6를 연결한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2020/q056_01.jpg"
       ],
@@ -48100,25 +47670,11 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              7,
-              8
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "단발섬유종양은 CD34·STAT6와 NAB2-STAT6를 연결한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -48146,7 +47702,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n중년 환자의 천천히 자라는 앞종격동 종괴로 림프절 종대가 없고 AFP·β-hCG가 정상인 경우 흉선종이 가장 유력하다. 빠른 성장·전신 림프절병증이 특징인 림프종이나 뚜렷한 침윤성 흉선암과 대비한다.\n\n~~근거: 38기 강의록 「251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오)」 PDF 18-25쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n중년 환자의 천천히 자라는 앞종격동 종괴로 림프절 종대가 없고 AFP·β-hCG가 정상인 경우 흉선종이 가장 유력하다. 빠른 성장·전신 림프절병증이 특징인 림프종이나 뚜렷한 침윤성 흉선암과 대비한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · Thymic carcinoma: 정상 흉선의 구조적 특징을 잃고 이형성·침윤성 성장을 보인다. 이 증례처럼 1년 동안 약간 커졌고 림프절 종대와 주변 조직 침범이 없는 경과에서는 흉선종이 더 적절하다. 침범이 없다는 사실 하나로 흉선암을 절대 배제한다는 뜻은 아니다.\n* 2번 · Acute lymphoblastic lymphoma: 주로 소아·청소년에서 빠르게 자라는 앞종격동 종괴로 나타나며 림프절 종대나 B symptoms가 동반될 수 있다. 49세의 느린 성장과 림프절 종대 부재는 덜 전형적이다.\n* 3번 · Seminoma: 주로 젊은 남성의 앞종격동 종양이다. AFP는 보통 정상이고 일부에서 β-hCG가 증가하므로 정상 종양표지자만으로 배제할 수는 없다. 그러나 이 환자의 나이와 완만한 경과는 흉선종에 더 부합한다.\n* 4번 · Non-seminomatous germ cell tumor: 주로 젊은 남성에서 발생하며 종양 성분에 따라 AFP 또는 β-hCG 상승이 단서가 된다. 정상 수치만으로 모든 유형을 배제할 수는 없지만, 중년의 완만한 성장·비침윤성 경과에서는 우선순위가 낮다.\n* 5번 · Thymoma: 중년에서 발견되는 천천히 자라는 앞종격동 종괴에 잘 맞는다. 림프절 종대가 없고 AFP·β-hCG가 정상이며 뚜렷한 주변 침범도 없다는 점을 종합하면 가장 적절한 진단이다. 최종 확진은 조직검사로 한다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -48173,31 +47729,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L32",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "name": "251103_41. 흉막 종격동 병리(pp.50-75)_김루시아(지우, 수오).pdf",
-            "pages": [
-              18,
-              19,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -48615,7 +48151,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n폐선암의 진단과 표적치료를 위한 검사들이다. TTF-1 IHC는 폐 기원을 지지하고 EGFR PCR·ALK FISH·ROS1 RT-PCR은 각각의 변이를 평가한다. IHC는 단백질 발현을 보는 검사이므로 HER2 유전자 증폭을 직접 확인하는 검사라는 5번의 연결이 부정확하다. 증폭은 FISH·NGS 등으로 평가한다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 14-15쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n폐선암의 진단과 표적치료를 위한 검사들이다. TTF-1 IHC는 폐 기원을 지지하고 EGFR PCR·ALK FISH·ROS1 RT-PCR은 각각의 변이를 평가한다. IHC는 단백질 발현을 보는 검사이므로 HER2 유전자 증폭을 직접 확인하는 검사라는 5번의 연결이 부정확하다. 증폭은 FISH·NGS 등으로 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · 원발 폐암이라는 것을 확인할 수 있는 TTF1 면역조직화학 염색: 폐선암의 기원을 지지하며 일부 소세포암·carcinoid 등에서도 발현할 수 있다. 따라서 단독으로 종양 계열을 확정하지 않고 형태·신경내분비 표지자와 함께 판독한다.\n* 2번 · EGFR mutation을 찾기 위한 real time PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 3번 · ALK fusion을 찾기 위한 Fluorescent in situ hybridization (FISH) 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n* 4번 · ROS1 fusion을 찾기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 5번 · HER2 amplification을 찾기 위한 면역조직화학염색: IHC는 단백 발현을 평가한다. 유전자 증폭을 직접 확인하려면 FISH 등 유전자 수준 검사가 필요하다. HER2의 변이·증폭·과발현을 섞으면 안 된다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [
         "J/2020/q063_01.jpg"
       ],
@@ -48649,25 +48185,11 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              14,
-              15
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
@@ -48757,7 +48279,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\nRB1은 종양억제유전자이며 기능 상실이 암 발생에 기여한다. BRAF·ROS1·ALK·RET처럼 활성화 변이를 겨냥해 억제하는 driver oncogene과 구분한다. 특히 RB1 비활성화는 소세포암에서 TP53 변화와 함께 중요하다.\n\n~~근거: 38기 강의록 「251103_40 폐종양의 병리_김루시아(현빈, 지승)」 PDF 7,13쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nRB1은 종양억제유전자이며 기능 상실이 암 발생에 기여한다. BRAF·ROS1·ALK·RET처럼 활성화 변이를 겨냥해 억제하는 driver oncogene과 구분한다. 특히 RB1 비활성화는 소세포암에서 TP53 변화와 함께 중요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n암세포가 특정 성장 신호에 크게 의존하는 상태를 '''oncogene addiction'''이라 한다. 그 신호를 유지하는 driver를 억제하면 세포사멸이나 분화를 유도할 수 있다. 반면 종양억제유전자는 정상적으로 증식을 막는 브레이크여서 기능이 사라질 때 문제가 된다.\n\n||= 구분 ||= 변화의 방향 ||= 대표 예 ||\n|| Driver oncogene || Gain of function: 성장 신호가 계속 켜짐 || EGFR, ALK, ROS1, MET, RET, KRAS, BRAF ||\n|| Tumor suppressor || Loss of function: 억제 기능 소실 || TP53, RB1, CDKN2A ||\n\n주요 driver는 대체로 상호배타적인 양상을 보인다. 예를 들어 EGFR과 KRAS 변이가 한 종양의 주된 driver로 동시에 나타나는 경우는 흔하지 않다. 이를 모든 유전자 변화가 절대 공존할 수 없다는 뜻으로 확대하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · BRAF: 활성화 이상을 겨냥하는 표적치료와 연결되는 driver oncogene이다. 종양억제유전자인 RB1과 구분한다.\n* 2번 · ROS1: 활성화 이상을 겨냥하는 표적치료와 연결되는 driver oncogene이다. 종양억제유전자인 RB1과 구분한다.\n* 3번 · RB1: 종양억제유전자이다. 소세포암에서는 TP53와 함께 양대립유전자 비활성화가 특징이며, 활성화된 driver oncogene과는 작동 방향이 반대이다.\n* 4번 · ALK: 활성화 이상을 겨냥하는 표적치료와 연결되는 driver oncogene이다. 종양억제유전자인 RB1과 구분한다.\n* 5번 · RET: 활성화 이상을 겨냥하는 표적치료와 연결되는 driver oncogene이다. 종양억제유전자인 RB1과 구분한다.\n\n[[37강#Driver oncogene과 종양억제유전자는 반대 방향으로 고장 난다|Wiki · Driver oncogene과 종양억제유전자는 반대 방향으로 고장 난다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -48784,25 +48306,11 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L31",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\3주차_호흡\\251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "name": "251103_40 폐종양의 병리_김루시아(현빈, 지승).pdf",
-            "pages": [
-              7,
-              13
-            ]
-          }
-        ]
+        "date": "2026-10-23",
+        "scope": "lectures37_38",
+        "chapter": "Driver oncogene과 종양억제유전자는 반대 방향으로 고장 난다",
+        "originalPreserved": true,
+        "officialAnswerNewlyVerified": false
       }
     },
     {
