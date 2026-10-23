@@ -9313,7 +9313,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\n폐암과 종격동 병변에 안면 부종·홍조가 동반되어 상대정맥증후군을 의심한다. 제시된 보기에서는 종양의 압박을 줄이는 방사선치료가 적절하다. 실제 처치는 기도·신경학적 응급 여부와 조직형에 따라 스텐트, 항암치료 등을 함께 판단한다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 2번, 방사선치료다. '''안면 홍조·부종 + 종격동 비대 + 편평상피암'''은 상대정맥이 종양에 눌린 SVC syndrome을 시사한다. 제시된 선택지에서는 방사선으로 종양을 줄여 압박을 완화하는 것이 적절하다. 증상의 긴급도에 따라 stent 등 다른 치료가 먼저 필요할 수 있지만, 해당 선택지는 제시되지 않았다.\n\n=== 선지별 해설 ===\n* 1번: 면역치료는 병기·분자표지자와 전신 상태를 고려하는 전신치료다. 현재의 상대정맥 압박을 완화하는 대표 선택으로 제시되지 않았다.\n* 2번: 방사선치료는 종양을 줄여 상대정맥 압박과 부종·호흡곤란을 완화할 수 있다. 이 문항의 정답이다.\n* 3번: 항생제는 세균 감염 치료다. 암과 종격동 비대에 동반된 정맥 울혈을 해결하지 못한다.\n* 4번: 항진균제 역시 제시된 종양성 상대정맥 폐쇄의 치료가 아니다.\n* 5번: 종격동 침범과 SVC syndrome이 있는 환자에게 즉시 폐암 절제술을 선택하지 않는다. 먼저 응급도·병기·절제 가능성을 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''안면 부종과 종격동 종양이면 SVC syndrome을 생각한다'''\n\n상대정맥이 종양에 눌리거나 막히면 얼굴·목·상지의 정맥혈이 심장으로 잘 돌아가지 못한다. '''안면 부종·홍조, 목·흉벽 정맥 확장, 호흡곤란'''이 단서다. 편평상피암이나 SCLC 등 종격동 병변과 함께 나타날 수 있다.\n\n치료는 원인 종양과 응급도에 따라 '''stent, 항암치료, 방사선치료'''를 선택·조합한다. 부종 완화를 위한 약물은 상황에 따라 보조적으로 사용하지만 기계적 폐쇄를 해결하는 치료를 대신하지 못한다. 심한 기도·뇌부종 등 생명위협 상황에서는 신속한 감압이 필요하며, 안정된 환자라면 조직형 확인과 병기 평가를 바탕으로 치료를 정한다.\n\n> 편평상피암 + 종격동 비대 + 안면 부종을 제시하고 치료를 묻는 선택지에서 RT가 주어지면, 종양을 줄여 상대정맥 압박을 완화하는 맥락이다. 모든 SVC syndrome에 조직검사보다 RT가 무조건 먼저라는 뜻은 아니다.\n\n=== 조건과 주의점 ===\n'''이 문제의 선택지 안에서의 정답'''과 모든 SVC syndrome의 처치 순서는 구분한다. 심한 기도·뇌부종이나 순환 장애가 있으면 즉각적인 혈류 회복을 위한 stent 등을 검토한다. 안정된 경우는 조직형을 확인하고 치료를 정하며, SCLC처럼 전신치료에 민감한 암에서는 항암치료가 중요한 역할을 한다.\n\n[[36강#안면 부종과 종격동 종양이면 SVC syndrome을 생각한다|Wiki · 안면 부종과 종격동 종양이면 SVC syndrome을 생각한다]]\n\n~~근거: 「36 폐암의 방사선치료」 44·48쪽.~~~",
       "images": [],
       "legacyProfessor": "최윤선",
       "professor": "최윤선",
@@ -9338,32 +9338,36 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "안면 부종과 종격동 종양이면 SVC syndrome을 생각한다",
+        "pages": [
+          44,
+          48
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -9391,7 +9395,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "정답: ①",
-      "explanation": "정답: ①\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 1번, 동시 항암화학방사선치료다. 생검으로 '''small cell lung cancer'''가 확인되고 흉부 종괴와 림프절 전이가 제시되었다. 원격전이가 없고 흉부 병변을 안전한 조사 범위에 포함할 수 있는 제한병기라는 출제 맥락에서 CCRT를 고른다.\n\n=== 선지별 해설 ===\n* 1번: 동시 항암화학방사선치료는 제한병기 SCLC에서 흉부 국소 제어와 전신의 미세전이 치료를 함께 담당한다.\n* 2번: 면역항암제만으로 초기 CCRT를 대신하지 않는다. 제한병기에서는 CCRT 후 진행하지 않은 환자의 durvalumab 공고치료를 구분한다.\n* 3번: 항암화학요법은 필요하지만, 제한병기에서 흉부 RT를 받을 수 있는 환자라면 항암제만으로 끝내는 것이 대표 선택은 아니다.\n* 4번: 수술은 매우 초기 T1–2N0M0에서 병리적 림프절 평가 등을 거친 선택 환자의 예외다. 이 환자의 5 cm 종괴와 림프절 전이에는 맞지 않는다.\n* 5번: 생검으로 확인된 SCLC에 대한 치료를 항생제로 대신할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n=== 조건과 주의점 ===\n'''복원 범위의 한계:''' 현재 발문은 원격전이 여부와 ECOG를 명시하지 않는다. 정답 1번은 제한병기·동시 치료 가능이라는 출제 의도에 따른 것이다. 실제로 원격전이가 확인되면 extensive-stage 전신치료 중심으로 달라진다. 빠진 조건을 원문에 임의로 추가하지 않았다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34·50쪽.~~~",
       "images": [],
       "legacyProfessor": "최윤선",
       "professor": "최윤선",
@@ -9416,32 +9420,38 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "conditional_limited_stage_intent",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "제한병기 SCLC의 기본은 동시 항암화학방사선치료다",
+        "pages": [
+          32,
+          33,
+          34,
+          50
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -12124,7 +12134,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 5번, 동시 항암화학방사선치료다. 우상엽 종괴에 '''동측 lower paratracheal·subcarinal 림프절''' 전이가 있지만 원격전이는 없다. ECOG 1이고 제시된 FEV1도 치료를 고려할 수 있는 상태다. 이 증례는 종격동 림프절을 포함한 limited-stage SCLC의 CCRT를 묻는다.\n\n=== 선지별 해설 ===\n* 1번: 우상엽 절제와 림프절 제거술을 먼저 하는 상황이 아니다. SCLC 수술의 대표 예외는 매우 초기 N0이며 이 환자는 종격동 림프절 전이가 있다.\n* 2번: 수술 후 항암치료는 초기 N0 SCLC의 선택 환자에서 고려하지만, 이 N2 증례의 기본 경로가 아니다.\n* 3번: 항암제 후 방사선을 순차적으로 하는 방법은 동시 치료를 견디기 어려운 상황 등에 고려한다. ECOG 1인 이 증례에서는 동시 치료가 우선이다.\n* 4번: 항암제와 면역치료만 제시하면 제한병기의 흉부 국소치료가 빠진다. CCRT 후 면역치료를 고려하는 것과 구분한다.\n* 5번: 항암제와 흉부 방사선치료를 동시에 시행한다. 국소 종양·림프절과 잠재적 전신 미세전이를 함께 다루므로 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "최윤선",
@@ -12149,32 +12159,37 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "제한병기 SCLC의 기본은 동시 항암화학방사선치료다",
+        "pages": [
+          32,
+          33,
+          34
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -23619,7 +23634,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 5번, 동시 항암화학방사선치료다. 우상엽 종괴에 '''동측 lower paratracheal·subcarinal 림프절''' 전이가 있지만 원격전이는 없다. ECOG 1이고 제시된 FEV1도 치료를 고려할 수 있는 상태다. 이 증례는 종격동 림프절을 포함한 limited-stage SCLC의 CCRT를 묻는다.\n\n=== 선지별 해설 ===\n* 1번: 우상엽 절제와 림프절 제거술을 먼저 하는 상황이 아니다. SCLC 수술의 대표 예외는 매우 초기 N0이며 이 환자는 종격동 림프절 전이가 있다.\n* 2번: 수술 후 항암치료는 초기 N0 SCLC의 선택 환자에서 고려하지만, 이 N2 증례의 기본 경로가 아니다.\n* 3번: 항암제 후 방사선을 순차적으로 하는 방법은 동시 치료를 견디기 어려운 상황 등에 고려한다. ECOG 1인 이 증례에서는 동시 치료가 우선이다.\n* 4번: 항암제와 면역치료만 제시하면 제한병기의 흉부 국소치료가 빠진다. CCRT 후 면역치료를 고려하는 것과 구분한다.\n* 5번: 항암제와 흉부 방사선치료를 동시에 시행한다. 국소 종양·림프절과 잠재적 전신 미세전이를 함께 다루므로 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -23646,32 +23661,37 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "제한병기 SCLC의 기본은 동시 항암화학방사선치료다",
+        "pages": [
+          32,
+          33,
+          34
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -27270,7 +27290,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번이다. Limited-stage SCLC의 치료 원칙은 '''항암제와 흉부 방사선치료의 동시 시행'''이다. SCLC는 초기부터 미세전이 가능성이 있어 국소치료만으로 끝내지 않는다.\n\n=== 선지별 해설 ===\n* 1번: 방사선 수술, 즉 정위치료가 제한병기 SCLC 전체에서 일반 분할 RT보다 항상 우월한 것은 아니다. SBRT는 T1–2N0 등 선택된 초기 환자에서 전신치료와 조합하는 예외다.\n* 2번: 수술적 절제 후 RT가 제한병기 전체의 최선은 아니다. 아주 초기 N0에서의 수술 예외와 종격동 림프절을 포함한 일반 제한병기를 구분한다.\n* 3번: 방사선만 먼저 끝낸 뒤 항암제를 이어가는 순서를 기본으로 하지 않는다. 전신 미세전이와 흉부 병변을 동시에 치료하는 것이 핵심이다.\n* 4번: 항암제와 방사선치료를 동시에 시행하는 CCRT가 기본이므로 정답이다.\n* 5번: 종양 크기를 줄이려고 가능한 한 많은 항암치료를 먼저 하면 흉부 RT가 불필요하게 늦어진다. 빠른 증식과 전체 치료 기간을 고려해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34·36·37쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -27297,32 +27317,39 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "제한병기 SCLC의 기본은 동시 항암화학방사선치료다",
+        "pages": [
+          32,
+          33,
+          34,
+          36,
+          37
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -27350,7 +27377,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n수술을 견딜 수 없는 1기 비소세포폐암에서는 정위체부방사선치료(SBRT)를 근치적 치료로 고려한다. 수술이 가능하면 절제가 기본이지만 모든 환자에게 한쪽 폐 전체를 절제하는 것은 아니다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 3번이다. 이 문제는 '''1기 비소세포폐암'''의 국소치료를 묻는 맥락이다. 수술할 수 있으면 절제가 기본이고, 수술을 감당하기 어려우면 SBRT/SABR로 근치적 치료를 시행할 수 있다. 선지의 ‘방사선 수술’은 절개하는 수술이 아니라 정위적 고선량 방사선치료를 가리킨다.\n\n=== 선지별 해설 ===\n* 1번: CCRT는 절제 불가능한 국소 진행성 NSCLC나 제한병기 SCLC의 대표 치료다. 1기 NSCLC 전체의 최선이라고 하지 않는다.\n* 2번: 1기 수술 후 5년 생존율을 일률적으로 10%라 하는 것은 틀리다. 초기 폐암은 근치적 치료와 장기 생존을 기대하는 단계다.\n* 3번: 수술이 불가능한 초기 NSCLC에서는 SBRT/SABR가 중요한 근치적 대안이다. 정답이다.\n* 4번: 수술한다고 반드시 한쪽 폐 전체를 제거하는 pneumonectomy를 해야 하는 것은 아니다. 종양 위치·범위·폐기능에 맞춰 절제 범위를 정한다.\n* 5번: 1기라는 사실만으로 표적치료제를 고를 수 없다. 표적 변이와 적응증이 필요하며, 적절한 국소치료를 약물 하나로 무조건 대체하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다'''\n\n초기 NSCLC에서 수술을 견딜 수 있다면 수술과 림프절 평가가 기본 선택이다. '''수술이 불가능하거나 위험이 높고, 충분한 상담 후 수술을 거부한 환자'''에서는 근치적 방사선치료, 특히 '''SBRT = SABR'''를 고려한다.\n\nSBRT는 작은 표적에 고선량을 몇 회만 조사한다. 흔히 5 cm 이하의 N0 병변을 대상으로 하며, 보통 3–5회에 나누지만 위치·크기에 따라 더 긴 분할도 사용한다. 1회 10–18 Gy, 총 48–54 Gy는 대표 범위이며 모든 조합을 서로 곱해 처방하는 것은 아니다. 강의의 핵심 목표는 '''BED₁₀ 약 100 Gy 이상'''이다.\n\n* '''말초의 작은 종양:''' 높은 1회 선량을 비교적 짧게 나눌 수 있다.\n* '''중심부·초중심부:''' 기관지·식도·큰 혈관과 가까워 심한 독성 위험이 크다. 더 많은 횟수로 나누고 정상 장기 제한을 지킨다.\n* '''국소 제어율과 전체 생존율:''' 치료한 종양이 재발하지 않는 비율과 환자가 살아 있는 비율은 다르다. 고령·동반질환이 있는 환자에서는 특히 차이가 난다.\n\n중심부 종양은 흔히 '''proximal bronchial tree에서 2 cm 이내'''인 병변을 말한다. 초중심부는 표적이 주요 기도 등과 접하거나 겹치는 더 위험한 상황으로, 정의는 연구마다 다를 수 있다. ‘폐 가운데에 있어 보인다’보다 실제 기도·정상 장기와의 거리가 중요하다.\n\n수술과 SBRT를 비교한 STARS/ROSEL 통합 연구는 58명의 작은 연구다. Grade 3 이상 독성은 SBRT 10%, lobectomy 48%로 제시되지만, 이 연구 하나로 ‘수술 가능한 모든 환자에서도 SBRT가 우월하다’고 결론 내리지 않는다.\n\n=== 조건과 주의점 ===\n발문에는 조직형이 명시되지 않았지만, 강의의 ‘수술 불가능 초기 NSCLC → SBRT’ 문맥으로 읽는다. 아주 초기 SCLC에는 별도의 병리적 림프절 평가와 전신치료 원칙이 적용된다.\n\n[[36강#수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다|Wiki · 수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다]]\n\n~~근거: 「36 폐암의 방사선치료」 12·13·17·20·21·27·28쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -27377,32 +27404,41 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다",
+        "pages": [
+          12,
+          13,
+          17,
+          20,
+          21,
+          27,
+          28
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -37281,7 +37317,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "잠정 정답: ②\n\n방사선종양학의 뇌전이 평가·치료 맥락에서 출제 의도상 brain을 잠정 선택한다. 다만 확인한 38기 강의록은 뇌·뼈 전이를 중요하게 다룰 뿐 비소세포폐암의 최빈 혈행성 전이 장기를 직접 순위로 제시하지 않는다. 뼈·간·부신도 흔하고 집계 방식에 따라 순위가 달라지므로, 공식 정답 확인이 필요한 문항이다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n이 문항의 학습용 정답은 기존대로 '''2번, brain'''으로 유지한다. 뇌는 NSCLC의 대표적인 혈행성 전이 부위이고, 전이를 확인하면 SRS·WBRT 등 치료 선택에 직접 연결된다. 다만 이번 강의록에는 모든 장기의 전이 빈도를 비교하여 뇌를 1위로 확정하는 표가 없다. ‘가장 흔함’의 순위는 환자군·조직형·조사 시점에 따라 달라질 수 있다는 한계를 구분한다.\n\n=== 선지별 해설 ===\n* 1번: Bone도 매우 흔한 전이 부위다. 통증·골절·척수압박을 일으키며 일부 환자군에서는 빈도가 가장 높게 보고될 수 있어, ‘폐암은 뼈로 잘 전이하지 않는다’는 이유로 배제하면 안 된다.\n* 2번: Brain은 이 문항의 선택 답이다. NSCLC에서 중요한 원격전이 부위로 조영 MRI를 통해 평가하며, 국소 신경학적 증상이 단서가 된다.\n* 3번: Liver 역시 주요 혈행성 전이 장기다. 이 문항의 기존 정답은 아니지만 가능한 전이 부위임은 알아야 한다.\n* 4번: Kidney에도 전이할 수 있으나, 폐암에서 통상 핵심으로 묶는 뇌·뼈·간·부신에 비해 대표성이 낮다.\n* 5번: Adrenal gland는 흔한 전이 부위이며 병기 CT에서 확인한다. 부신 병변이 있다고 모두 전이인 것은 아니므로 성상 평가가 필요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''뇌전이는 SRS와 WBRT의 범위를 구분한다'''\n\n폐암의 대표 원격전이 장기는 '''뇌·뼈·간·부신'''이다. 뇌전이가 있으면 조영 MRI로 개수·크기·위치·전체 종양 부피와 증상을 평가한다.\n\n||= 방법 ||= 대상과 범위 ||= 구분할 점 ||\n|| SRS/SRT || 적절히 선택된 제한된 뇌전이 표적 || 개수만이 아니라 전체 부피·크기·위치·PS 등을 함께 판단 ||\n|| WBRT || 광범위한 뇌전이 등에서 전뇌 조사 || 대표 예 30 Gy/10회. 가능하면 인지기능 보호 전략 고려 ||\n|| PCI || 영상으로 확인된 뇌전이가 없는 선택된 SCLC || 대표 예 25 Gy/10회, 예방 목적 ||\n\n혈행성 전이의 ‘가장 흔한 장기’는 대상 환자군·조직형·검사 시점에 따라 순서가 달라질 수 있다. 뇌가 중요한 전이 부위라는 사실과 모든 환자군에서 언제나 1위라는 주장은 다르다.\n\n=== 조건과 주의점 ===\n'''근거의 범위:''' 기존 2번 답을 유지하되 공식 정답을 새로 확인했다고 주장하지 않는다. 단일 장기 전이 코호트에서 뇌가 가장 흔했다는 연구도 있지만, 이를 전체 NSCLC의 고정된 순위로 일반화할 수 없다. [[https://pubmed.ncbi.nlm.nih.gov/38763103/|단일 장기 전이 NSCLC 코호트 연구]]와 [[https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq|NCI의 전이 평가 설명]]을 함께 참고한다.\n\n[[36강#뇌전이는 SRS와 WBRT의 범위를 구분한다|Wiki · 뇌전이는 SRS와 WBRT의 범위를 구분한다]]\n\n~~근거: 「36 폐암의 방사선치료」 42·43·45쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -37308,32 +37344,37 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "provisional",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "existing_answer_preserved_frequency_caveat",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "뇌전이는 SRS와 WBRT의 범위를 구분한다",
+        "pages": [
+          42,
+          43,
+          45
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -37361,7 +37402,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n원격전이 없이 한쪽 흉곽의 방사선 조사 범위에 포함할 수 있는 limited-stage 소세포폐암은 동시 항암화학방사선치료가 기본이다. 종격동 림프절 전이가 있는 이 상황에서 수술을 먼저 하거나 방사선치료를 늦추는 순차 치료를 우선하지 않는다.\n\n~~근거: 38기 강의록 「251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf」; 38기 정리본 「1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs」 PDF 1-2쪽.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번이다. Limited-stage SCLC의 치료 원칙은 '''항암제와 흉부 방사선치료의 동시 시행'''이다. SCLC는 초기부터 미세전이 가능성이 있어 국소치료만으로 끝내지 않는다.\n\n=== 선지별 해설 ===\n* 1번: 방사선 수술, 즉 정위치료가 제한병기 SCLC 전체에서 일반 분할 RT보다 항상 우월한 것은 아니다. SBRT는 T1–2N0 등 선택된 초기 환자에서 전신치료와 조합하는 예외다.\n* 2번: 수술적 절제 후 RT가 제한병기 전체의 최선은 아니다. 아주 초기 N0에서의 수술 예외와 종격동 림프절을 포함한 일반 제한병기를 구분한다.\n* 3번: 방사선만 먼저 끝낸 뒤 항암제를 이어가는 순서를 기본으로 하지 않는다. 전신 미세전이와 흉부 병변을 동시에 치료하는 것이 핵심이다.\n* 4번: 항암제와 방사선치료를 동시에 시행하는 CCRT가 기본이므로 정답이다.\n* 5번: 종양 크기를 줄이려고 가능한 한 많은 항암치료를 먼저 하면 흉부 RT가 불필요하게 늦어진다. 빠른 증식과 전체 치료 기간을 고려해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34·36·37쪽.~~~",
       "images": [],
       "legacyProfessor": "김우철",
       "professor": "최윤선",
@@ -37394,32 +37435,39 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-15",
-        "scope": "wiki_unlinked_questions",
-        "answerStatus": "lecture_based_answer",
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
         "originalQuestionAndImagesPreserved": true,
         "sources": [
           {
-            "key": "L30",
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "name": "251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf",
-            "pages": []
+            "kind": "current_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
           },
           {
-            "key": "S37",
-            "kind": "summary",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_정리본\\2주차\\1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "name": "1031 정리본 (37. 폐암의 방사선치료 _ 최윤선) - Google Docs.pdf",
-            "pages": [
-              1,
-              2
-            ]
+            "kind": "prior_annotated_lecture",
+            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\38기 강의록\\호흡기계_필기된 강의록\\2주차_호흡\\251031_37. 폐암의 방사선치료_최윤선 (소정, 단).pdf.pdf"
           }
-        ]
+        ],
+        "chapter": "제한병기 SCLC의 기본은 동시 항암화학방사선치료다",
+        "pages": [
+          32,
+          33,
+          34,
+          36,
+          37
+        ],
+        "priorAnnotatedLectureUsed": true
+      },
+      "classificationReview": {
+        "date": "2026-10-23",
+        "lecture": 36,
+        "unchanged": true,
+        "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
+        "historicalExaminerPreserved": true
       }
     },
     {
@@ -52626,6 +52674,707 @@ window.JBL_DATA = {
         "chapter": "Atropine은 반응을 막고 2-PAM은 효소를 되살린다",
         "answerStatus": "lecture_supported_answer",
         "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture36-001",
+      "recordId": "resp-2026-lecture36-001",
+      "displayId": "646번",
+      "globalNumber": 646,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 1,
+      "question": "초기 비소세포폐암(Stage I) 환자로서 수술적 절제가 불가능하거나 환자가 수술을 거부할 때, 종양에 고선량의 방사선을 집중적으로 조사하여 높은 국소 제어율을 보이는 대표적인 정밀 방사선 치료 기법은 무엇인가요?",
+      "passage": "",
+      "choices": [
+        "3차원 입체조형 방사선치료 (3D-CRT)",
+        "정위체부방사선치료 (SBRT)",
+        "전뇌 방사선치료 (WBRT)",
+        "완화적 방사선치료 (Palliative RT)"
+      ],
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ②",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 2번(B), SBRT다. '''초기 NSCLC + 수술 불가능 또는 거부 + 고선량의 정밀 국소치료'''가 핵심 단서다. 치료 목표는 증상 완화만이 아니라 근치적 국소 제어다.\n\n=== 선지별 해설 ===\n* 1번: 3D-CRT는 종양 모양에 맞춘 방사선 기법이지만, 이 문제에서 묻는 소수 분할·고선량 정위치료의 대표 이름은 SBRT다.\n* 2번: SBRT와 SABR는 같은 계열의 정위체부방사선치료를 가리킨다. 작은 초기 N0 병변에 고선량을 정밀하게 조사한다.\n* 3번: WBRT는 전뇌 방사선치료다. 폐의 초기 종양을 치료하는 정답이 아니며, SCLC의 PCI와도 적응 상황을 구분한다.\n* 4번: Palliative RT는 증상 완화 목적이다. 초기 NSCLC의 수술 대안인 SBRT는 근치적 치료라는 점에서 다르다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다'''\n\n초기 NSCLC에서 수술을 견딜 수 있다면 수술과 림프절 평가가 기본 선택이다. '''수술이 불가능하거나 위험이 높고, 충분한 상담 후 수술을 거부한 환자'''에서는 근치적 방사선치료, 특히 '''SBRT = SABR'''를 고려한다.\n\nSBRT는 작은 표적에 고선량을 몇 회만 조사한다. 흔히 5 cm 이하의 N0 병변을 대상으로 하며, 보통 3–5회에 나누지만 위치·크기에 따라 더 긴 분할도 사용한다. 1회 10–18 Gy, 총 48–54 Gy는 대표 범위이며 모든 조합을 서로 곱해 처방하는 것은 아니다. 강의의 핵심 목표는 '''BED₁₀ 약 100 Gy 이상'''이다.\n\n* '''말초의 작은 종양:''' 높은 1회 선량을 비교적 짧게 나눌 수 있다.\n* '''중심부·초중심부:''' 기관지·식도·큰 혈관과 가까워 심한 독성 위험이 크다. 더 많은 횟수로 나누고 정상 장기 제한을 지킨다.\n* '''국소 제어율과 전체 생존율:''' 치료한 종양이 재발하지 않는 비율과 환자가 살아 있는 비율은 다르다. 고령·동반질환이 있는 환자에서는 특히 차이가 난다.\n\n중심부 종양은 흔히 '''proximal bronchial tree에서 2 cm 이내'''인 병변을 말한다. 초중심부는 표적이 주요 기도 등과 접하거나 겹치는 더 위험한 상황으로, 정의는 연구마다 다를 수 있다. ‘폐 가운데에 있어 보인다’보다 실제 기도·정상 장기와의 거리가 중요하다.\n\n수술과 SBRT를 비교한 STARS/ROSEL 통합 연구는 58명의 작은 연구다. Grade 3 이상 독성은 SBRT 10%, lobectomy 48%로 제시되지만, 이 연구 하나로 ‘수술 가능한 모든 환자에서도 SBRT가 우월하다’고 결론 내리지 않는다.\n\n[[36강#수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다|Wiki · 수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다]]\n\n~~근거: 「36 폐암의 방사선치료」 17쪽.~~~",
+      "images": [],
+      "legacyProfessor": "최윤선",
+      "professor": "최윤선",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록의 삽입 문항을 최윤선 교수 강의 문항으로 수록하도록 지정함. 실제 시험 출제를 의미하지 않음.",
+      "lectureIds": [
+        36
+      ],
+      "lectureId": 36,
+      "lectureTitle": "폐암의 방사선치료",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "방사선종양학",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "not_an_exam_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_embedded_question",
+      "parseMethod": "visual_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/36 폐암의 방사선치료.pdf",
+        "page": 17,
+        "originalImage": "assets/lecture-36/quiz-early-nsclc.jpg",
+        "questionOrigin": "강의록에 삽입된 Gemini 생성 확인문항, 사용자 설명",
+        "optionMapping": "원본 A·B·C·D 순서를 J의 1·2·3·4로 대응. 4지선다 보존.",
+        "questionTextPreserved": true,
+        "transcriptionNormalization": "줄바꿈·띄어쓰기만 정리",
+        "answerVerifiedAgainstLecture": true
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "chapter": "수술하기 어려운 초기 NSCLC에는 SBRT를 선택한다",
+        "pages": [
+          17
+        ],
+        "answerStatus": "lecture_supported_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture36-002",
+      "recordId": "resp-2026-lecture36-002",
+      "displayId": "647번",
+      "globalNumber": 647,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 2,
+      "question": "수술이 불가능한 국소 진행성 비소세포폐암(Stage III) 환자의 생존율과 국소 제어율을 극대화하기 위해 현재 표준으로 권장되는 치료 원칙은 무엇인가요?",
+      "passage": "",
+      "choices": [
+        "방사선 치료 단독 요법",
+        "표적항암제 단독 요법 (유전자 변이가 없는 경우)",
+        "순차적 항암화학방사선요법 (Sequential Therapy) 우선 적용",
+        "동시 항암화학방사선요법 (Concurrent Chemoradiotherapy)"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번(D), CCRT다. '''절제 불가능 III기 NSCLC'''에서 치료를 견딜 수 있다면 항암제와 방사선을 동시에 사용한다. 원격전이가 있는 IV기와도, 작고 국한된 N0 초기암의 SBRT와도 다르다.\n\n=== 선지별 해설 ===\n* 1번: RT 단독은 전신치료를 감당하기 어려운 환자 등에서 고려하지만 동시 치료가 가능한 환자의 기본 선택은 아니다.\n* 2번: 표적 변이가 없다고 명시했으므로 해당 변이를 겨냥한 표적항암제 단독을 선택할 근거가 없다. III기 국소치료를 생략하는 선택이기도 하다.\n* 3번: 순차 치료는 동시 치료의 독성을 견디기 어려울 때 등에 고려한다. 모든 절제 불가능 III기에 우선 적용하지 않는다.\n* 4번: 동시 CCRT는 국소 제어와 전신 미세전이 치료를 병행하는 기본 전략이므로 정답이다. 이후 공고치료는 진행 여부와 EGFR 등을 확인해 결정한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''절제 불가능한 III기에서는 항암제와 방사선을 동시에 쓴다'''\n\n종격동 림프절까지 포함한 큰 표적은 SBRT의 전형적인 작은 N0 병변과 다르다. 전신 상태가 허용하는 절제 불가능 III기 NSCLC에서는 '''동시 항암화학방사선치료(CCRT)'''가 기본이다. 종양과 림프절에 대한 국소 제어와 미세전이에 대한 전신치료를 함께 노린다.\n\n||= 방식 ||= 치료 순서 ||= 적용 맥락 ||\n|| 동시 CCRT || 항암치료 기간에 방사선치료를 병행 || 견딜 수 있는 절제 불가능 국소 진행암의 우선 선택 ||\n|| 순차 치료 || 항암치료와 방사선치료를 차례로 시행 || 동시 치료를 견디기 어려운 환자 등에서 고려 ||\n|| RT 단독 || 방사선만 시행 || 전신치료가 어려운 경우 등 개별 판단 ||\n\n대표 처방은 '''60 Gy/30회''', 일반적으로 60–70 Gy를 2 Gy씩 6–7주에 나눈다. 74 Gy로 무조건 증량하는 것은 일상적인 표준이 아니다. 관리 가능한 부작용에는 지지치료를 제공하여 불필요한 중단을 줄인다.\n\n=== 조건과 주의점 ===\n발문은 PS·동반질환을 세부적으로 제시하지 않은 일반 원칙 문제다. 허약하거나 동시 치료를 견딜 수 없는 환자에게 무조건 CCRT를 적용한다는 뜻은 아니다.\n\n[[36강#절제 불가능한 III기에서는 항암제와 방사선을 동시에 쓴다|Wiki · 절제 불가능한 III기에서는 항암제와 방사선을 동시에 쓴다]]\n\n~~근거: 「36 폐암의 방사선치료」 18쪽.~~~",
+      "images": [],
+      "legacyProfessor": "최윤선",
+      "professor": "최윤선",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록의 삽입 문항을 최윤선 교수 강의 문항으로 수록하도록 지정함. 실제 시험 출제를 의미하지 않음.",
+      "lectureIds": [
+        36
+      ],
+      "lectureId": 36,
+      "lectureTitle": "폐암의 방사선치료",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "방사선종양학",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "not_an_exam_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_embedded_question",
+      "parseMethod": "visual_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/36 폐암의 방사선치료.pdf",
+        "page": 18,
+        "originalImage": "assets/lecture-36/quiz-stage3-nsclc.jpg",
+        "questionOrigin": "강의록에 삽입된 Gemini 생성 확인문항, 사용자 설명",
+        "optionMapping": "원본 A·B·C·D 순서를 J의 1·2·3·4로 대응. 4지선다 보존.",
+        "questionTextPreserved": true,
+        "transcriptionNormalization": "줄바꿈·띄어쓰기만 정리",
+        "answerVerifiedAgainstLecture": true
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "chapter": "절제 불가능한 III기에서는 항암제와 방사선을 동시에 쓴다",
+        "pages": [
+          18
+        ],
+        "answerStatus": "lecture_supported_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture36-003",
+      "recordId": "resp-2026-lecture36-003",
+      "displayId": "648번",
+      "globalNumber": 648,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 3,
+      "question": "제한기 소세포암 환자가 항암화학방사선치료 후 완전 관해(Complete Response)에 도달했을 때, 무병 생존율을 높이고 뇌 전이 위험을 줄이기 위해 권장되는 방사선 치료법은 무엇인가요?",
+      "passage": "",
+      "choices": [
+        "전신 척수 방사선조사 (Craniospinal Irradiation)",
+        "감마나이프를 이용한 정위적 뇌 수술 사전 시행",
+        "경추 및 상부 흉추 부위의 국소 예방 방사선조사",
+        "예방적 두부 방사선조사 (Prophylactic Cranial Irradiation, PCI)"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번(D), PCI다. 항암방사선치료에 반응한 SCLC에서 '''아직 영상으로 확인되지 않은 뇌 미세전이의 위험'''을 줄이는 예방 치료다. 강의의 대표 처방은 25 Gy/10회다.\n\n=== 선지별 해설 ===\n* 1번: 원문 한글은 ‘전신 척수’이나 병기된 craniospinal irradiation은 뇌·척수축 조사다. PCI보다 조사 범위가 다르며 SCLC의 표준적인 뇌전이 예방 방법을 묻는 답이 아니다.\n* 2번: 감마나이프 SRS는 확인된 국소 병변을 표적으로 삼는다. 뇌전이가 보이지 않는 환자에서 특정 표적 없이 미리 시행하는 방식은 PCI가 아니다.\n* 3번: 경추·상부 흉추를 조사해 뇌의 미세전이를 예방할 수 없다. 예방하려는 장기와 조사 부위가 맞지 않는다.\n* 4번: PCI는 치료 반응 후 선택된 SCLC 환자의 뇌전이 위험을 낮추기 위해 시행하므로 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''PCI는 뇌전이가 보이기 전에 시행하는 예방 치료다'''\n\nCCRT에 반응한 제한병기 SCLC에서는 뇌전이 위험을 줄이기 위해 '''예방적 두부 방사선조사(PCI)'''를 고려한다. 강의의 대표 처방은 '''25 Gy/10회'''다. 이미 확인된 뇌전이를 치료하는 SRS·WBRT와는 적응 상황이 다르다.\n\nPCI는 모든 환자에게 자동 적용하지 않는다. 연령·인지기능·전신 상태·뇌 MRI 결과와 추적검사 가능성을 고려한다. 해마 보호 기법과 인지기능 보호 전략도 함께 검토한다. 확장병기에서의 PCI 여부는 MRI 추적 등과 함께 개별 판단한다.\n\n=== 조건과 주의점 ===\n완전 관해라는 단서가 있어도 PCI를 자동 처방하지 않는다. 뇌 MRI, 연령, 인지기능, 전신 상태, 추적검사 가능성을 검토한다. 이미 뇌전이가 있으면 예방조사가 아니라 확인된 전이 병변의 치료를 계획한다.\n\n[[36강#PCI는 뇌전이가 보이기 전에 시행하는 예방 치료다|Wiki · PCI는 뇌전이가 보이기 전에 시행하는 예방 치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 40쪽.~~~",
+      "images": [],
+      "legacyProfessor": "최윤선",
+      "professor": "최윤선",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록의 삽입 문항을 최윤선 교수 강의 문항으로 수록하도록 지정함. 실제 시험 출제를 의미하지 않음.",
+      "lectureIds": [
+        36
+      ],
+      "lectureId": 36,
+      "lectureTitle": "폐암의 방사선치료",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "방사선종양학",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "not_an_exam_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_embedded_question",
+      "parseMethod": "visual_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/36 폐암의 방사선치료.pdf",
+        "page": 40,
+        "originalImage": "assets/lecture-36/quiz-pci.jpg",
+        "questionOrigin": "강의록에 삽입된 Gemini 생성 확인문항, 사용자 설명",
+        "optionMapping": "원본 A·B·C·D 순서를 J의 1·2·3·4로 대응. 4지선다 보존.",
+        "questionTextPreserved": true,
+        "transcriptionNormalization": "줄바꿈·띄어쓰기만 정리",
+        "answerVerifiedAgainstLecture": true
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "chapter": "PCI는 뇌전이가 보이기 전에 시행하는 예방 치료다",
+        "pages": [
+          40
+        ],
+        "answerStatus": "lecture_supported_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture36-004",
+      "recordId": "resp-2026-lecture36-004",
+      "displayId": "649번",
+      "globalNumber": 649,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 4,
+      "question": "4기(전이성) 폐암 환자에게 뼈 전이로 인한 극심한 통증이나 상대정맥 증후군(기도 및 혈관 압박)이 발생했을 때 시행하는 방사선 치료의 주된 목적은 무엇인가요?",
+      "passage": "",
+      "choices": [
+        "폐암의 완전한 완치 및 평생 재발 방지",
+        "면역 세포의 자가 증식 유도",
+        "항암제 내성 극복",
+        "증상 완화 및 삶의 질 개선 (Palliative treatment)"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번(D)이다. '''전이성 폐암 + 통증 또는 압박 증상'''이라는 맥락에서 RT의 주목적은 증상 완화와 삶의 질 개선이다. 고식적 치료도 통증 감소, 신경기능 보존, 일상생활 유지에 중요한 치료다.\n\n=== 선지별 해설 ===\n* 1번: 전이성 폐암의 특정 통증 부위에 조사한다고 전체 암의 완치와 평생 재발 방지를 보장할 수 없다.\n* 2번: 방사선과 면역반응의 상호작용이 있더라도, 이 증례의 직접적인 목표는 면역세포의 자가 증식이 아니다.\n* 3번: 국소 RT는 증상 원인 병변을 제어한다. 전신 항암제 내성을 일반적으로 해결하는 치료라고 정의하지 않는다.\n* 4번: 통증·압박·객혈 등 증상을 줄이고 기능과 삶의 질을 개선하는 고식적 치료가 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''통증과 압박을 줄이는 것도 중요한 치료 목표다'''\n\nIV기 폐암의 골전이 통증, 객혈, 기도 폐쇄, 혈관 압박은 고식적 RT의 대표 상황이다. 증상과 예상 생존기간·PS·이전 조사 여부를 고려해 비교적 짧은 처방을 사용할 수 있다.\n\n||= 상황 ||= 강의의 총선량·1회 선량 예 ||= 기간 예 ||\n|| SVC syndrome·폐쇄성 폐렴 등 || 30–45 Gy, 3 Gy씩 || 2–3주 ||\n|| 연부조직 종괴를 동반한 골전이 || 20–30 Gy, 4–3 Gy씩 || 1–2주 ||\n|| 연부조직 종괴 없는 골전이 || 8–30 Gy, 8–3 Gy씩 || 하루–2주 ||\n|| PS가 나쁜 환자의 증상성 흉부 병변 || 17 Gy, 8.5 Gy씩 2회 등 || 1–2주 ||\n|| PS가 나쁜 환자의 전이 병변 || 8–20 Gy, 8–4 Gy씩 || 하루–1주 ||\n\n=== 조건과 주의점 ===\n원문은 SVC syndrome 옆에 ‘기도 및 혈관 압박’을 함께 적었지만, 엄밀히 SVC syndrome은 상대정맥의 혈류 장애다. 기도 압박은 동반할 수 있는 별도 문제다. 심한 기도·뇌부종 또는 척수압박이 있으면 stent·감압수술 등 즉각적인 처치를 함께 검토한다.\n\n[[36강#통증과 압박을 줄이는 것도 중요한 치료 목표다|Wiki · 통증과 압박을 줄이는 것도 중요한 치료 목표다]]\n\n~~근거: 「36 폐암의 방사선치료」 44쪽.~~~",
+      "images": [],
+      "legacyProfessor": "최윤선",
+      "professor": "최윤선",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록의 삽입 문항을 최윤선 교수 강의 문항으로 수록하도록 지정함. 실제 시험 출제를 의미하지 않음.",
+      "lectureIds": [
+        36
+      ],
+      "lectureId": 36,
+      "lectureTitle": "폐암의 방사선치료",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "방사선종양학",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "not_an_exam_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_embedded_question",
+      "parseMethod": "visual_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/36 폐암의 방사선치료.pdf",
+        "page": 44,
+        "originalImage": "assets/lecture-36/quiz-palliation.jpg",
+        "questionOrigin": "강의록에 삽입된 Gemini 생성 확인문항, 사용자 설명",
+        "optionMapping": "원본 A·B·C·D 순서를 J의 1·2·3·4로 대응. 4지선다 보존.",
+        "questionTextPreserved": true,
+        "transcriptionNormalization": "줄바꿈·띄어쓰기만 정리",
+        "answerVerifiedAgainstLecture": true
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture36_wiki_j_jbl",
+        "chapter": "통증과 압박을 줄이는 것도 중요한 치료 목표다",
+        "pages": [
+          44
+        ],
+        "answerStatus": "lecture_supported_answer",
+        "officialAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture35-001",
+      "recordId": "resp-2026-lecture35-001",
+      "displayId": "650번",
+      "globalNumber": 650,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 1,
+      "question": "72세 남자가 3일 전부터 ‘기침이 나고 누런 가래가 나오며 열이 난다’며 응급실에 왔다. 평소 고혈압으로 약물을 복용하고 있으며, 최근 1년간 입원하거나 항생제를 투여받은 적은 없다. 의식은 명료하다.\n\n혈압 125/75 mmHg, 맥박 105회/분, 호흡 32회/분, 체온 38.5℃, 산소포화도 94%(대기호흡)이다. 오른쪽 아래 가슴에서 수포음이 들린다. 혈역학적으로 안정적이며 호흡부전 소견은 없다.\n\n이 환자에게 가장 적절한 초기 치료 장소와 경험적 항생제 조합은?",
+      "passage": "검사실 검사 소견\n백혈구: 15,600/μL (참고치 4,000–10,000)\n혈액요소질소(BUN): 24 mg/dL (참고치 7–20)\n크레아티닌: 1.0 mg/dL (참고치 0.7–1.3)\nC반응단백질: 85 mg/L (참고치 0–5)",
+      "choices": [
+        "통원 치료 – 아목시실린",
+        "통원 치료 – 레보플록사신",
+        "일반병동 입원 – 세프트리악손",
+        "일반병동 입원 – 세프트리악손 + 아지스로마이신",
+        "중환자실 입원 – 피페라실린/타조박탐 + 레보플록사신"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번, 일반병동 입원 후 ceftriaxone + azithromycin이다. 고령·빈호흡·BUN 상승으로 입원이 필요하지만, 혈역학적 안정과 호흡부전 부재가 명시되어 있다. CURB-65 3점을 계산하는 것과 ICU 필요성을 판단하는 것은 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''1. CURB-65를 계산하면 3점이다.'''\n\n||= 항목 ||= 기준 ||= 이 환자 ||= 점수 ||\n|| C || Confusion || 의식 명료 || 0 ||\n|| U || Urea >7 mmol/L, BUN으로 약 19–20 mg/dL 초과 수준 || BUN 24 mg/dL || 1 ||\n|| R || 호흡수 ≥30회/분 || 32회/분 || 1 ||\n|| B || 수축기 혈압 <90 또는 이완기 ≤60 mmHg || 125/75 mmHg || 0 ||\n|| 65 || 나이 ≥65세 || 72세 || 1 ||\n|| '''합계''' || || '''입원 평가가 필요한 고위험군''' || '''3''' ||\n\nCreatinine이 정상이더라도 U 항목은 BUN/urea로 판단한다. CRP와 백혈구 증가가 폐렴을 지지하지만 CURB-65 점수에 직접 들어가지는 않는다.\n\n'''2. CURB-65 3점이 곧 ICU 확정은 아니다.'''\n\nICU 필요성은 기계환기가 필요한 호흡부전, 승압제가 필요한 쇼크, 중증 CAP 기준과 임상 경과를 함께 본다. 이 환자는 명료하고 혈압·산소화가 유지되며, 발문에서도 혈역학적 안정과 호흡부전 부재를 명시했다. 주어진 자료에서 분명한 소기준은 빈호흡과 BUN 상승이다. 다엽성 침윤·P/F ratio·혈소판 등 제시되지 않거나 확정하기 어려운 항목을 임의로 채워 중증 기준을 만들지 않는다.\n\n> '''입원 필요성과 ICU 필요성은 같은 질문이 아니다.''' 이 증례의 제시 정답은 일반병동이다. 다만 CURB-65 3점은 가볍게 볼 점수가 아니므로 면밀한 감시와 악화 시 치료 수준 재평가가 필요하다.\n\n'''3. 입원 CAP에서는 전형균과 비정형균을 함께 치료한다.'''\n\nCeftriaxone은 폐렴알균 등 주요 전형균을, azithromycin은 비정형 병원체를 포함한 범위를 보완한다. 최근 입원·정맥 항생제 노출이나 녹농균·MRSA 배양력 등 추가 단서 없이 처음부터 광범위 내성균 치료를 선택하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · 통원 치료 – amoxicillin: 약제가 사용될 수 있는 외래 CAP 상황은 있지만, 이 환자는 고령·빈호흡·BUN 상승으로 통원치료가 적절하지 않다.\n* 2번 · 통원 치료 – levofloxacin: Levofloxacin 자체가 CAP에 효과가 없어서가 아니다. 이 선지는 '''통원'''이라는 치료 장소가 맞지 않는다.\n* 3번 · 일반병동 입원 – ceftriaxone: 장소는 맞지만, 제시된 입원 CAP의 표준 경험적 조합에서는 비정형균에 대한 치료가 빠진다.\n* 4번 · 일반병동 입원 – ceftriaxone + azithromycin: '''정답.''' 입원 수준과 전형균·비정형균의 치료 범위가 맞는다.\n* 5번 · ICU 입원 – piperacillin/tazobactam + levofloxacin: 이 증례만으로 ICU와 항녹농균 치료를 우선할 근거가 부족하다. 고령·발열만으로 이 조합을 고르지 않는다.\n\n배경 개념: [[33강#CURB-65는 다섯 항목을 한 점씩 더한다|CURB-65]], [[33강#중환자실 판단은 호흡부전과 쇼크에서 시작한다|ICU 판단]], [[33강#입원 CAP는 전형균과 비정형균을 함께 치료한다|입원 CAP의 항생제]].[*보충 확인 [[https://www.idsociety.org/globalassets/idsa/practice-guidelines/community-acquired-pneumonia-in-adults/cap-clinical-pathway-final-online.pdf|IDSA CAP 진료 경로]]는 입원 여부·중증도·내성균 위험을 구분한다.]\n\n[[35강#Case 1. 입원이 필요한 폐렴에서 치료 장소와 항생제를 함께 고른다|Wiki · Case 1. 입원이 필요한 폐렴에서 치료 장소와 항생제를 함께 고른다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의(수정본)」 Case 1, 27–28쪽. 28쪽의 정답 표시와 대조했다.~~~",
+      "images": [
+        "assets/lecture-35/case-01-cap.jpg"
+      ],
+      "legacyProfessor": "김준",
+      "professor": "김준",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록 예시 문항을 김준 교수 문항으로 수록하도록 지정. 강의록 표지와 정답 페이지 대조.",
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "lecture_case_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_example_with_answer",
+      "parseMethod": "visual_and_text_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "assets/lecture-35/case-01-cap.jpg",
+          "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+          "page": 27,
+          "method": "original embedded image",
+          "answerNotIncluded": true
+        }
+      ],
+      "repeatFamilyIds": [],
+      "relatedLectureIds": [
+        33
+      ],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+        "case": 1,
+        "page": 27,
+        "answerPage": 28,
+        "answerMethod": "강의록 정답 페이지의 붉은색 선택지 직접 확인",
+        "transcriptionNormalization": "줄바꿈·띄어쓰기·검사 항목 구분만 정리; 발문·수치·선지 순서 보존",
+        "classificationReason": "35강 수정본의 종합 Case로 수록. 관련 33·34강 개념은 Wiki 하이퍼링크로 연결."
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture35_revised_cases",
+        "chapter": "Case 1. 입원이 필요한 폐렴에서 치료 장소와 항생제를 함께 고른다",
+        "pages": [
+          27,
+          28
+        ],
+        "answerStatus": "lecture_answer_verified",
+        "lectureAnswerVerified": true,
+        "officialExamAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture35-002",
+      "recordId": "resp-2026-lecture35-002",
+      "displayId": "651번",
+      "globalNumber": 651,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 2,
+      "question": "52세 남자가 2주 전부터 ‘기침이 나고 가래에서 심한 악취가 난다’며 병원에 왔다. 최근 10년간 거의 매일 소주 1병 이상을 마셨으며, 종종 술에 취해 잠이 들었다고 한다. 1주 전부터 누런 가래가 증가하고 발열과 피로감이 동반되었다.\n\n혈압 125/75 mmHg, 맥박 102회/분, 호흡 22회/분, 체온 38.3℃이다. 구강 위생상태가 불량하고 다수의 치아우식이 관찰된다. 오른쪽 등 아래쪽 가슴 청진에서 거친 수포음이 들린다.\n\n가장 적절한 초기 치료는?",
+      "passage": "검사실 검사 소견\n백혈구(WBC): 17,200/μL (참고치 4,000–10,000)\nC반응단백질(CRP): 126 mg/L (참고치 0–5)",
+      "choices": [
+        "세프트리악손",
+        "아지스로마이신",
+        "암피실린/설박탐",
+        "세프트리악손 + 아지스로마이신",
+        "피페라실린/타조박탐 + 반코마이신"
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 3번, ampicillin/sulbactam이다. 만성 음주·수면 중 흡인 위험, 불량한 치아, 악취 나는 객담, 우측 공동성 병변을 묶으면 구강 혼합균에 의한 폐농양을 생각한다. 혐기균과 미세호기성 연쇄알균을 함께 치료해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n술에 취하면 기도 보호반사가 떨어져 구강 분비물이 흡인되기 쉽다. 치아·잇몸 상태가 나쁘면 구강 세균 부담도 커진다. 흡인된 혐기균과 미세호기성 연쇄알균 등이 혼합 감염을 일으키고 폐실질이 괴사하면 공동과 농양이 형성된다. 공동 안에 액체가 고이면 air-fluid level이 나타날 수 있지만, 모든 영상에서 뚜렷하게 보여야만 폐농양인 것은 아니다.\n\n> '''흡인 위험만 있으면 모든 폐렴에 혐기균 치료를 추가하는 것은 아니다.''' 이 증례에서는 악취와 공동성 병변이 폐농양을 지지하므로 혐기균을 포함하는 치료가 중요하다.\n\nAmpicillin은 세균 세포벽 합성을 억제하고, sulbactam은 β-lactamase 억제제로 작용하여 약제가 분해되는 것을 막는다. 이 조합은 구강 혐기균과 연쇄알균이 함께 관여하는 감염에 적합하다. 치료 후에는 증상·염증 수치·영상 반응을 추적하고, 반응이 없으면 기관지 폐쇄·종양·내성균 등 다른 원인을 재평가한다.\n\n=== 선지별 해설 ===\n* 1번 · Ceftriaxone: 일반 CAP에는 유용하지만, 이 폐농양에서 필요한 구강 혐기균의 범위를 단독으로 충분히 보장하는 선택은 아니다.\n* 2번 · Azithromycin: 비정형균 치료나 일부 기도질환의 장기 전략과 달리, 혐기성 혼합 감염에 의한 폐농양의 초기 단독치료로 적절하지 않다.\n* 3번 · Ampicillin/sulbactam: '''정답.''' 혐기균과 구강 연쇄알균을 함께 고려한 β-lactam/β-lactamase inhibitor 조합이다.\n* 4번 · Ceftriaxone + azithromycin: Case 1의 입원 CAP에는 맞지만, 여기서는 공동과 악취가 치료 범위를 바꾼다.\n* 5번 · Piperacillin/tazobactam + vancomycin: 혐기균 치료는 가능하지만, 녹농균·MRSA 등까지 넓힐 근거가 제시되지 않았다. 가장 넓은 조합이 언제나 가장 적절한 초기 치료는 아니다.\n\n폐농양은 '''폐실질 안'''의 괴사·고름이며, 농흉은 '''흉막강 안'''의 고름이다. CT로 두 공간을 구분하면 항생제와 배액의 역할도 더 명확해진다. Metronidazole만으로는 혐기균 밖의 구강 연쇄알균 등에 빈틈이 남을 수 있다는 점도 함께 기억한다.\n\n배경 개념: [[33강#흡인된 구강 세균이 의존 부위에서 괴사와 공동을 만든다|흡인과 폐농양]], [[33강#Metronidazole만으로는 혼합 감염의 빈틈이 남는다|폐농양 항생제]].[*보충 확인 [[https://pmc.ncbi.nlm.nih.gov/articles/PMC6812437/|ATS/IDSA CAP 지침]]은 흡인 의심만으로 혐기균 치료를 일률 추가하는 경우와 폐농양·농흉이 의심되는 경우를 구분한다.]\n\n[[35강#Case 2. 악취 나는 객담과 공동은 혐기성 폐농양을 가리킨다|Wiki · Case 2. 악취 나는 객담과 공동은 혐기성 폐농양을 가리킨다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의(수정본)」 Case 2, 29–30쪽. 30쪽의 정답 표시와 대조했다.~~~",
+      "images": [
+        "assets/lecture-35/case-02-abscess.jpg"
+      ],
+      "legacyProfessor": "김준",
+      "professor": "김준",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록 예시 문항을 김준 교수 문항으로 수록하도록 지정. 강의록 표지와 정답 페이지 대조.",
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "lecture_case_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_example_with_answer",
+      "parseMethod": "visual_and_text_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "assets/lecture-35/case-02-abscess.jpg",
+          "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+          "page": 29,
+          "method": "original embedded image",
+          "answerNotIncluded": true
+        }
+      ],
+      "repeatFamilyIds": [],
+      "relatedLectureIds": [
+        33
+      ],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+        "case": 2,
+        "page": 29,
+        "answerPage": 30,
+        "answerMethod": "강의록 정답 페이지의 붉은색 선택지 직접 확인",
+        "transcriptionNormalization": "줄바꿈·띄어쓰기·검사 항목 구분만 정리; 발문·수치·선지 순서 보존",
+        "classificationReason": "35강 수정본의 종합 Case로 수록. 관련 33·34강 개념은 Wiki 하이퍼링크로 연결."
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture35_revised_cases",
+        "chapter": "Case 2. 악취 나는 객담과 공동은 혐기성 폐농양을 가리킨다",
+        "pages": [
+          29,
+          30
+        ],
+        "answerStatus": "lecture_answer_verified",
+        "lectureAnswerVerified": true,
+        "officialExamAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture35-003",
+      "recordId": "resp-2026-lecture35-003",
+      "displayId": "652번",
+      "globalNumber": 652,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 3,
+      "question": "65세 남자가 4일 전부터 ‘기침이 심해지고 누런 가래가 많이 나온다’며 응급실에 왔다. 6년 전 기관지확장증을 진단받았으며, 최근 1년간 급성 악화로 두 차례 입원하였다. 3개월 전 시행한 가래배양검사에서 녹농균(Pseudomonas aeruginosa)이 분리되었다. 평소보다 가래 양이 크게 증가하였고 숨찬 증상도 악화되었다.\n\n혈압 120/75 mmHg, 맥박 108회/분, 호흡 28회/분, 체온 38.5℃, 산소포화도 88%(대기호흡)이다. 의식은 명료하며 양쪽 아래 가슴에서 거친 수포음이 들린다.\n\n가장 적절한 경험적 항생제는?",
+      "passage": "검사실 검사 소견\n백혈구(WBC): 17,200/μL (참고치 4,000–10,000)\nC반응단백질(CRP): 95 mg/L (참고치 0–5)\n혈액요소질소(BUN): 19 mg/dL (참고치 7–20)\n크레아티닌(Creatinine): 0.9 mg/dL (참고치 0.7–1.3)",
+      "choices": [
+        "아목시실린",
+        "아지스로마이신",
+        "독시사이클린",
+        "목시플록사신",
+        "피페라실린/타조박탐"
+      ],
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 5번, piperacillin/tazobactam이다. 기관지확장증 환자의 급성 악화에서 가장 중요한 약제 선택 단서는 3개월 전 녹농균 배양력이다. SpO₂ 88%와 발열·호흡곤란 악화도 있어, 녹농균을 치료하지 못하는 일반 경구 항생제를 선택할 상황이 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n기관지가 늘어나면 가래 배출이 잘되지 않고 세균이 지속해서 머물기 쉽다. 따라서 '''이전에 어떤 균이 배양되었는지'''가 새 악화 때의 경험적 항생제를 정하는 출발점이다. 과거 녹농균 분리가 이번에도 같은 균이라는 확진은 아니지만, 그 위험을 무시한 약제로 시작해서는 안 된다.\n\n* '''치료 전 가능한 경우:''' 객담배양·감수성 검사를 채취한다. 심하게 아픈 환자의 치료를 결과가 나올 때까지 미루지는 않는다.\n* '''초기 경험적 치료:''' 이전 녹농균 배양과 임상 중증도를 반영하여 항녹농균 약제를 선택한다.\n* '''결과 확인 후:''' 현재 배양·감수성 및 반응에 맞추어 범위를 조정한다.\n* '''함께 시행할 치료:''' 산소화 평가·산소 공급, 기도 분비물 배출과 수분 상태 관리. 가래가 고이는 구조적 문제도 다룬다.\n\n=== 선지별 해설 ===\n* 1번 · Amoxicillin: 녹농균을 적절히 치료하지 못한다.\n* 2번 · Azithromycin: 비정형균 치료나 일부 환자의 장기 악화 예방에 역할이 있지만, 이번 녹농균 의심 악화의 단독치료가 아니다.\n* 3번 · Doxycycline: 일부 일반 호흡기 병원체에는 사용할 수 있으나 항녹농균 치료로 선택하지 않는다.\n* 4번 · Moxifloxacin: 호흡기 fluoroquinolone이라는 이름만으로 녹농균까지 치료한다고 생각하면 안 된다. 녹농균에 대한 신뢰할 만한 선택이 아니다.\n* 5번 · Piperacillin/tazobactam: '''정답.''' 항녹농균 β-lactam 조합이며 현재의 저산소혈증·반복 악화·배양력과 맞는다.\n\n> '''Moxifloxacin ≠ 녹농균용 fluoroquinolone.''' Ciprofloxacin·levofloxacin도 감수성·중증도에 따라 고려할 수 있지만, 제시된 선지에서는 piperacillin/tazobactam이 맞는다. 급성 악화 치료와 장기 macrolide·흡입 항생제 전략도 구분한다.\n\n배경 개념: [[34강#급성 악화에서는 이전 배양 결과가 항생제의 출발점이다|급성 악화 항생제]], [[34강#CT에서는 기관지와 옆의 폐동맥을 비교한다|기관지확장증 CT]].[*보충 확인 [[https://doi.org/10.1136/THORAXJNL-2018-212463|BTS 기관지확장증 지침]]의 이전 배양 결과·현재 배양·감수성에 따른 치료 원칙.]\n\n[[35강#Case 3. 기관지확장증 악화에서는 과거 녹농균 배양력을 놓치지 않는다|Wiki · Case 3. 기관지확장증 악화에서는 과거 녹농균 배양력을 놓치지 않는다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의(수정본)」 Case 3, 31–32쪽. 32쪽의 정답 표시와 대조했다.~~~",
+      "images": [
+        "assets/lecture-35/case-03-bronchiectasis.jpg"
+      ],
+      "legacyProfessor": "김준",
+      "professor": "김준",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록 예시 문항을 김준 교수 문항으로 수록하도록 지정. 강의록 표지와 정답 페이지 대조.",
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "lecture_case_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_example_with_answer",
+      "parseMethod": "visual_and_text_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "assets/lecture-35/case-03-bronchiectasis.jpg",
+          "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+          "page": 31,
+          "method": "original embedded image",
+          "answerNotIncluded": true
+        }
+      ],
+      "repeatFamilyIds": [],
+      "relatedLectureIds": [
+        34
+      ],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+        "case": 3,
+        "page": 31,
+        "answerPage": 32,
+        "answerMethod": "강의록 정답 페이지의 붉은색 선택지 직접 확인",
+        "transcriptionNormalization": "줄바꿈·띄어쓰기·검사 항목 구분만 정리; 발문·수치·선지 순서 보존",
+        "classificationReason": "35강 수정본의 종합 Case로 수록. 관련 33·34강 개념은 Wiki 하이퍼링크로 연결."
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture35_revised_cases",
+        "chapter": "Case 3. 기관지확장증 악화에서는 과거 녹농균 배양력을 놓치지 않는다",
+        "pages": [
+          31,
+          32
+        ],
+        "answerStatus": "lecture_answer_verified",
+        "lectureAnswerVerified": true,
+        "officialExamAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture35-004",
+      "recordId": "resp-2026-lecture35-004",
+      "displayId": "653번",
+      "globalNumber": 653,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 4,
+      "question": "48세 여자가 3주 전부터 ‘기침이 나고 왼쪽 가슴이 아프다’며 병원에 왔다. 2주 전부터 미열과 식은땀이 있으며, 최근 한 달 동안 체중이 3 kg 감소하였다. 특별한 과거력은 없고 흡연하지 않는다.\n\n혈압 120/75 mmHg, 맥박 96회/분, 호흡 22회/분, 체온 37.8℃이다. 왼쪽 아래 가슴에서 호흡음이 감소하고 타진 시 둔탁음이 들린다.\n\n가장 가능성이 높은 흉수의 원인은?",
+      "passage": "검사실 검사 소견\n혈청 총단백질: 7.0 g/dL (참고치 6.4–8.3)\n혈청 젖산탈수소효소(LDH): 210 U/L (참고치 120–250)\n흉수 총단백질: 4.8 g/dL\n흉수 젖산탈수소효소(LDH): 360 U/L\n흉수 백혈구: 2,800/μL (림프구 85%)\n흉수 아데노신탈아미노효소(ADA): 78 U/L\n흉수 암배아항원(CEA): 1.2 ng/mL\n흉수 세포병리검사(cytology): 악성세포 관찰되지 않음",
+      "choices": [
+        "심부전",
+        "폐색전증",
+        "악성 흉수",
+        "부폐렴성 흉수",
+        "결핵성 흉막염"
+      ],
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 5번, 결핵성 흉막염이다. Light 기준을 모두 만족하는 삼출액에 림프구 85%, ADA 78 U/L, 미열·식은땀·체중 감소가 동반된다. ADA만 보고 진단하는 문제가 아니라 액체의 성격과 임상 경과를 함께 해석하는 문제다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= Light 기준 ||= 실제 계산 ||= 판정 ||\n|| 흉수 단백질 / 혈청 단백질 >0.5 || 4.8 / 7.0 ≈ '''0.69''' || 충족 ||\n|| 흉수 LDH / 혈청 LDH >0.6 || 360 / 210 ≈ '''1.71''' || 충족 ||\n|| 흉수 LDH > 혈청 LDH 정상상한의 2/3 || 250 × 2/3 ≈ 167 U/L, '''360 >167''' || 충족 ||\n\n'''셋 중 하나만 만족해도 삼출액인데, 이 증례는 모두 충족한다.''' 세 번째 기준에는 환자의 혈청 LDH 210이 아니라 검사실의 '''정상상한 250'''을 넣는다.\n\n그다음 '''림프구 85% + ADA 78 U/L + 수주간 미열·식은땀·체중 감소'''가 결핵 쪽으로 기울게 한다. ADA >40 U/L는 결핵성 흉막염을 지지하는 기준이지만, 농흉·림프종 등에서도 올라갈 수 있어 그 수치만으로 확진하지 않는다. 림프구 우세라는 세포 분획과 임상 맥락이 함께 있어야 한다.\n\n=== 선지별 해설 ===\n* 1번 · 심부전: 대개 여출액이다. 이뇨제 후 가짜 삼출액이라는 맥락도 없고, 높은 ADA·림프구 우세·전신 증상이 더 잘 맞는 원인이 있다.\n* 2번 · 폐색전증: 흉막통과 삼출액을 만들 수 있지만, 이 증례의 수주간 전신 증상·림프구·ADA 조합을 가장 잘 설명하지 못한다.\n* 3번 · 악성 흉수: 림프구 우세 삼출액과 체중 감소를 일으킬 수 있어 감별한다. 다만 이 증례에서는 결핵 단서가 더 강하다. CEA가 낮거나 cytology가 음성이라는 이유만으로 암을 완전히 배제하지는 않는다.\n* 4번 · 폐렴연관 흉수: 급성 발열·폐렴과 호중구 우세가 전형적이다. 현재의 림프구 우세와 높은 ADA, 아급성 경과에서는 결핵이 더 적절하다.\n* 5번 · 결핵성 흉막염: '''정답.''' 삼출액·림프구 우세·ADA 상승·전신 증상이 하나의 진단으로 연결된다.\n\n‘가장 가능성 높은 진단’과 ‘확진’은 구분한다. 흉수 및 필요한 객담의 결핵균 검사·배양을 시행하고, 상황에 따라 흉막 생검 등으로 확인한다. 흉수에서 균이 검출되지 않는 경우에도 결핵성 흉막염이 가능하다.\n\n배경 개념: [[35강#Light 기준은 셋 중 하나만 만족해도 삼출액이다|Light 기준]], [[35강#ADA는 결핵을 지지하지만 단독 확진 수치는 아니다|ADA와 결핵성 흉막염]], [[35강#악성 흉수는 세포검사와 필요 시 조직으로 확인한다|악성 흉수의 확인]].\n\n[[35강#Case 4. 림프구 우세 삼출액에 높은 ADA가 더해지면 결핵을 의심한다|Wiki · Case 4. 림프구 우세 삼출액에 높은 ADA가 더해지면 결핵을 의심한다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의(수정본)」 Case 4, 33–34쪽. 34쪽의 정답 표시와 대조했다.~~~",
+      "images": [
+        "assets/lecture-35/case-04-tb-effusion.jpg"
+      ],
+      "legacyProfessor": "김준",
+      "professor": "김준",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록 예시 문항을 김준 교수 문항으로 수록하도록 지정. 강의록 표지와 정답 페이지 대조.",
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "lecture_case_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_example_with_answer",
+      "parseMethod": "visual_and_text_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "assets/lecture-35/case-04-tb-effusion.jpg",
+          "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+          "page": 33,
+          "method": "original embedded image",
+          "answerNotIncluded": true
+        }
+      ],
+      "repeatFamilyIds": [],
+      "relatedLectureIds": [],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+        "case": 4,
+        "page": 33,
+        "answerPage": 34,
+        "answerMethod": "강의록 정답 페이지의 붉은색 선택지 직접 확인",
+        "transcriptionNormalization": "줄바꿈·띄어쓰기·검사 항목 구분만 정리; 발문·수치·선지 순서 보존",
+        "classificationReason": "35강 수정본의 종합 Case로 수록. 관련 33·34강 개념은 Wiki 하이퍼링크로 연결."
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture35_revised_cases",
+        "chapter": "Case 4. 림프구 우세 삼출액에 높은 ADA가 더해지면 결핵을 의심한다",
+        "pages": [
+          33,
+          34
+        ],
+        "answerStatus": "lecture_answer_verified",
+        "lectureAnswerVerified": true,
+        "officialExamAnswerVerified": false,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2026-lecture35-005",
+      "recordId": "resp-2026-lecture35-005",
+      "displayId": "654번",
+      "globalNumber": 654,
+      "year": 2026,
+      "sourceType": "강의록",
+      "originalNumber": null,
+      "originalNumbers": [],
+      "lectureQuestionNumber": 5,
+      "question": "25세 남자가 30분 전부터 ‘갑자기 오른쪽 가슴이 아프고 숨을 쉴 수 없다’며 응급실에 왔다. 증상은 특별한 외상 없이 갑자기 발생하였고, 응급실에 도착한 후 호흡곤란이 더욱 심해졌다.\n\n응급실 도착 직후 시행한 이동식 가슴 X선사진은 다음과 같다. 사진 촬영 후 호흡곤란이 급격히 악화되었고 혈압은 80/50 mmHg로 감소하였다.\n\n가장 먼저 시행할 조치는?",
+      "passage": "검사실 검사 소견\n백혈구(WBC): 9,200/μL (참고치 4,000–10,000)\n혈색소(Hb): 14.8 g/dL (참고치 13.5–17.5)\n혈소판: 245,000/μL (참고치 150,000–400,000)\n\n동맥혈가스검사\npH: 7.46 (참고치 7.35–7.45)\n동맥혈산소분압(PaO₂): 52 mmHg (참고치 80–100)\n동맥혈이산화탄소분압(PaCO₂): 30 mmHg (참고치 35–45)",
+      "choices": [
+        "산소 투여",
+        "결정질 용액 투여",
+        "승압제 투여",
+        "응급 바늘감압술",
+        "기관내 삽관"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "정답: ④",
+      "explanation": "=== 풀이의 핵심 ===\n정답은 4번, 응급 바늘감압술이다. 영상의 큰 우측 기흉에 급격한 호흡곤란과 혈압 80/50 mmHg가 동반되어 긴장성 기흉의 폐쇄성 쇼크를 의심한다. 산소와 수액만으로는 높아진 흉강 압력을 해결할 수 없어 즉시 감압하고 흉관 배액으로 이어가야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n> 흉막강 공기 축적 → 흉강 압력 상승 → 폐 허탈과 정맥환류 감소 → 전부하·심박출량 감소 → '''폐쇄성 쇼크'''. 따라서 혈압을 올리는 약만 주는 것이 아니라, 압력을 해소해야 한다.\n\n산소 공급과 감시는 동시에 시작할 수 있지만, 선택지에서 묻는 즉시 해결해야 할 원인 치료는 감압이다. '''바늘감압 후에는 흉관 배액으로 이어간다.''' 감압을 했다는 이유만으로 공기 누출의 평가와 지속 배액을 끝내지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · 산소 투여: 저산소혈증에 필요하지만, 높아진 흉강 압력과 정맥환류 장애를 해결하지 못한다. 산소만 투여하며 기다리지 않는다.\n* 2번 · 결정질 용액 투여: 순환 보조로 고려할 수 있어도, 외부 압력에 의해 정맥환류가 막히는 원인을 제거하지 못한다.\n* 3번 · 승압제 투여: 감압을 대신하지 못한다. 폐쇄성 쇼크의 원인 해결이 먼저다.\n* 4번 · 응급 바늘감압술: '''정답.''' 신속히 흉강 압력을 낮춘 뒤 흉관 배액 등 확정 처치로 연결한다.\n* 5번 · 기관내 삽관: 필요한 환자에서는 시행하지만, 감압하지 않은 긴장성 기흉에 양압환기를 먼저 가하면 흉강 압력과 순환 장애가 더 악화될 수 있다.\n\n이 증례는 이미 촬영한 뒤 악화되었다고 명시되어 있다. 이를 ‘긴장성 기흉은 X선을 찍고 나서 치료한다’로 기억하지 않는다. 처음부터 불안정하고 긴장성 기흉이 강하게 의심되면 추가 영상 때문에 감압을 지연하지 않는다.\n\n배경 개념: [[35강#흉막선 바깥에 폐혈관 음영이 없으면 기흉을 찾는다|기흉의 영상]], [[35강#긴장성 기흉은 정맥환류를 막아 심박출량을 떨어뜨린다|긴장성 기흉의 순환 장애]].\n\n[[35강#Case 5. 기흉에 저혈압이 더해지면 감압을 미루지 않는다|Wiki · Case 5. 기흉에 저혈압이 더해지면 감압을 미루지 않는다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의(수정본)」 Case 5, 35–36쪽. 36쪽의 정답 표시와 대조했다.~~~",
+      "images": [
+        "assets/lecture-35/case-05-tension-pneumothorax.jpg"
+      ],
+      "legacyProfessor": "김준",
+      "professor": "김준",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자가 2026 강의록 예시 문항을 김준 교수 문항으로 수록하도록 지정. 강의록 표지와 정답 페이지 대조.",
+      "lectureIds": [
+        35
+      ],
+      "lectureId": 35,
+      "lectureTitle": "흉막질환",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2026 강의록",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "lecture_case_number",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "lecture_example_with_answer",
+      "parseMethod": "visual_and_text_transcription",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "path": "assets/lecture-35/case-05-tension-pneumothorax.jpg",
+          "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+          "page": 35,
+          "method": "original embedded image",
+          "answerNotIncluded": true
+        }
+      ],
+      "repeatFamilyIds": [],
+      "relatedLectureIds": [],
+      "contentProvenance": {
+        "date": "2026-10-23",
+        "sourceFile": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/35. 2026 흉막 질환 학생강의(수정본).pdf",
+        "case": 5,
+        "page": 35,
+        "answerPage": 36,
+        "answerMethod": "강의록 정답 페이지의 붉은색 선택지 직접 확인",
+        "transcriptionNormalization": "줄바꿈·띄어쓰기·검사 항목 구분만 정리; 발문·수치·선지 순서 보존",
+        "classificationReason": "35강 수정본의 종합 Case로 수록. 관련 33·34강 개념은 Wiki 하이퍼링크로 연결."
+      },
+      "explanationReview": {
+        "date": "2026-10-23",
+        "scope": "lecture35_revised_cases",
+        "chapter": "Case 5. 기흉에 저혈압이 더해지면 감압을 미루지 않는다",
+        "pages": [
+          35,
+          36
+        ],
+        "answerStatus": "lecture_answer_verified",
+        "lectureAnswerVerified": true,
+        "officialExamAnswerVerified": false,
         "peerExplanationUsed": false
       }
     }

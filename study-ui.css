@@ -626,7 +626,8 @@ body.jbl-explanation-open { overflow:hidden; }
   .study-ui .wiki-grid:has(img[src*="assets/lecture-32/"]),
   .study-ui .wiki-grid:has(img[src*="assets/lecture-33/"]),
   .study-ui .wiki-grid:has(img[src*="assets/lecture-34/"]),
-  .study-ui .wiki-grid:has(img[src*="assets/lecture-35/"]) {
+  .study-ui .wiki-grid:has(img[src*="assets/lecture-35/"]),
+  .study-ui .wiki-grid:has(img[src*="assets/lecture-36/"]) {
     grid-template-columns:minmax(0,1fr);
   }
   .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-23/"]),
@@ -640,7 +641,8 @@ body.jbl-explanation-open { overflow:hidden; }
   .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-32/"]),
   .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-33/"]),
   .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-34/"]),
-  .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-35/"]) {
+  .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-35/"]),
+  .study-ui .wiki-grid > .wiki-figure:has(img[src*="assets/lecture-36/"]) {
     grid-column:1 / -1;
     width:100%;
     max-width:100%;
