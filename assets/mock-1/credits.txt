@@ -1,0 +1,5 @@
+case-08.jpg: Nephron, Pulmonary alveolar proteinosis -3- low mag. CC BY-SA 3.0.
+https://commons.wikimedia.org/wiki/File:Pulmonary_alveolar_proteinosis_-3-_low_mag.jpg
+https://creativecommons.org/licenses/by-sa/3.0/
+Resized and JPEG-reencoded; representative teaching image, not the fictional vignette patient.
+Other case images are crops from the existing course assets, preserving the original histology.
