@@ -615,6 +615,14 @@ body.jbl-explanation-open { overflow:hidden; }
 
 /* Keep teaching figures readable in narrow cards. */
 @media (max-width:700px) {
+  .study-ui :is([data-lecture-course="39"],[data-lecture-course="40"],[data-lecture-course="41"],[data-lecture-course="42"],[data-lecture-course="43"],[data-lecture-course="44"],[data-lecture-course="45"],[data-lecture-course="46"]) .wiki-grid {
+    grid-template-columns:minmax(0,1fr);
+  }
+  .study-ui :is([data-lecture-course="39"],[data-lecture-course="40"],[data-lecture-course="41"],[data-lecture-course="42"],[data-lecture-course="43"],[data-lecture-course="44"],[data-lecture-course="45"],[data-lecture-course="46"]) .wiki-grid > .wiki-figure {
+    grid-column:1 / -1;
+    width:100%;
+    max-width:100%;
+  }
   .study-ui .wiki-grid:has(img[src*="assets/lecture-23/"]),
   .study-ui .wiki-grid:has(img[src*="assets/lecture-24/"]),
   .study-ui .wiki-grid:has(img[src*="assets/lecture-25/"]),
