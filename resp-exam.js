@@ -3,7 +3,7 @@ const data=window.EXAM_DATA;
 const rules=window.ExamRules;
 const el=id=>document.getElementById(id);
 const STORAGE_KEY='respiratory-exam-'+data.year+'-v1';
-const durationMs=160*60*1000;
+const durationMs=120*60*1000;
 const collator=new Intl.Collator('ko',{numeric:true,sensitivity:'base'});
 const questions=[...data.questions].sort((a,b)=>collator.compare(a.currentProfessor,b.currentProfessor)||a.globalNumber-b.globalNumber);
 const signature=questions.map(q=>q.id).join('|');
@@ -19,7 +19,7 @@ if(saved&&saved.signature!==signature&&Array.isArray(data.addedQuestionIds)){
 }
 const state={index:0,answers:{},flags:[],overrides:{},startedAt:Date.now(),deadline:Date.now()+durationMs,submittedAt:null};
 if(saved&&saved.signature===signature){
- if(Number.isFinite(saved.startedAt)&&Number.isFinite(saved.deadline)&&saved.deadline>saved.startedAt){state.startedAt=saved.startedAt;state.deadline=saved.deadline;}
+ if(Number.isFinite(saved.startedAt)&&Number.isFinite(saved.deadline)&&saved.deadline>saved.startedAt){state.startedAt=saved.startedAt;state.deadline=Number.isFinite(saved.submittedAt)&&saved.submittedAt>0?saved.deadline:saved.startedAt+durationMs;}
  if(Number.isInteger(saved.index))state.index=Math.max(0,Math.min(questions.length-1,saved.index));
  for(const q of questions){
   const value=saved.answers?.[q.id];
@@ -134,7 +134,7 @@ function finish(ask){
 }
 function restartTraining(){
  if(!state.submittedAt)return;
- if(!window.confirm('이 시험의 답안·점수·채점 정정·문제 표시 기록을 지우고 다시 풀기할까요? 160분이 새로 시작됩니다.'))return;
+ if(!window.confirm('이 시험의 답안·점수·채점 정정·문제 표시 기록을 지우고 다시 풀까요? 120분이 새로 시작됩니다.'))return;
  const now=Date.now();
  const fresh={index:0,answers:{},flags:[],overrides:{},startedAt:now,deadline:now+durationMs,submittedAt:null};
  try{localStorage.setItem(STORAGE_KEY,JSON.stringify({...fresh,signature,version:1}));}
