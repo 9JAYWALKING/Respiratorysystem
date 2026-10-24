@@ -3,6 +3,110 @@ window.EXAM_DATA = {
   "subject": "호흡기계",
   "questions": [
     {
+      "id": "2023-072",
+      "globalNumber": 248,
+      "currentProfessor": "윤용한",
+      "source": "2023 호흡기계 72번",
+      "question": "외상성 흉부 환자의 응급 개흉술 적응증 3가지 이상을 논술하세요.",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
+      "brief": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
+      "keywordGroups": [
+        [
+          "장기파열",
+          "기관파열",
+          "기관지파열",
+          "심장파열",
+          "식도파열",
+          "대동맥파열",
+          "rupture"
+        ],
+        [
+          "심장압전",
+          "tamponade"
+        ],
+        [
+          "공기누출",
+          "공기유출",
+          "airleak"
+        ],
+        [
+          "대량혈흉",
+          "외상성혈흉",
+          "massivehemothorax"
+        ],
+        [
+          "지속출혈",
+          "흉관후출혈",
+          "흉관삽입후출혈",
+          "출혈지속",
+          "persistentbleeding"
+        ]
+      ],
+      "minGroups": 3,
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
+    },
+    {
+      "id": "2023-073",
+      "globalNumber": 249,
+      "currentProfessor": "윤용한",
+      "source": "2023 호흡기계 73번, 오답30 p.6",
+      "question": "긴장성 기흉 환자에서 진행되는 증상과 징후에 대하여 5가지 이상을 기술하세요?",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "brief": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "keywordGroups": [
+        [
+          "흉통",
+          "chestpain"
+        ],
+        [
+          "빈호흡",
+          "호흡수증가",
+          "tachypnea"
+        ],
+        [
+          "호흡곤란",
+          "숨참",
+          "dyspnea"
+        ],
+        [
+          "빈맥",
+          "심박수증가",
+          "tachycardia"
+        ],
+        [
+          "저혈압",
+          "혈압저하",
+          "hypotension"
+        ],
+        [
+          "청색증",
+          "cyanosis"
+        ],
+        [
+          "경정맥팽창",
+          "목정맥팽창",
+          "jugularvenousdistension",
+          "jvd"
+        ]
+      ],
+      "minGroups": 5,
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
+    },
+    {
       "id": "2023-017",
       "globalNumber": 197,
       "currentProfessor": "김루시아",
@@ -1784,110 +1888,6 @@ window.EXAM_DATA = {
       "revisionNote": ""
     },
     {
-      "id": "2023-072",
-      "globalNumber": 248,
-      "currentProfessor": "윤용한",
-      "source": "2023 호흡기계 72번",
-      "question": "외상성 흉부 환자의 응급 개흉술 적응증 3가지 이상을 논술하세요.",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
-      "brief": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
-      "keywordGroups": [
-        [
-          "장기파열",
-          "기관파열",
-          "기관지파열",
-          "심장파열",
-          "식도파열",
-          "대동맥파열",
-          "rupture"
-        ],
-        [
-          "심장압전",
-          "tamponade"
-        ],
-        [
-          "공기누출",
-          "공기유출",
-          "airleak"
-        ],
-        [
-          "대량혈흉",
-          "외상성혈흉",
-          "massivehemothorax"
-        ],
-        [
-          "지속출혈",
-          "흉관후출혈",
-          "흉관삽입후출혈",
-          "출혈지속",
-          "persistentbleeding"
-        ]
-      ],
-      "minGroups": 3,
-      "multiple": false,
-      "examOverride": false,
-      "revisionNote": ""
-    },
-    {
-      "id": "2023-073",
-      "globalNumber": 249,
-      "currentProfessor": "윤용한",
-      "source": "2023 호흡기계 73번, 오답30 p.6",
-      "question": "긴장성 기흉 환자에서 진행되는 증상과 징후에 대하여 5가지 이상을 기술하세요?",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
-      "brief": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
-      "keywordGroups": [
-        [
-          "흉통",
-          "chestpain"
-        ],
-        [
-          "빈호흡",
-          "호흡수증가",
-          "tachypnea"
-        ],
-        [
-          "호흡곤란",
-          "숨참",
-          "dyspnea"
-        ],
-        [
-          "빈맥",
-          "심박수증가",
-          "tachycardia"
-        ],
-        [
-          "저혈압",
-          "혈압저하",
-          "hypotension"
-        ],
-        [
-          "청색증",
-          "cyanosis"
-        ],
-        [
-          "경정맥팽창",
-          "목정맥팽창",
-          "jugularvenousdistension",
-          "jvd"
-        ]
-      ],
-      "minGroups": 5,
-      "multiple": false,
-      "examOverride": false,
-      "revisionNote": ""
-    },
-    {
       "id": "2023-074",
       "globalNumber": 250,
       "currentProfessor": "이경희",
@@ -2287,7 +2287,7 @@ window.EXAM_DATA = {
       "globalNumber": 189,
       "currentProfessor": "이진영",
       "source": "2023 호흡기계 9번",
-      "question": "들숨 (inspiration) 동안 나타날 수 있는 변화로 가장 적절한 것은? (해당하는 것을 모두 고르시오.)",
+      "question": "들숨 (inspiration) 동안 나타날 수 있는 변화로 가장 적절한 것은?",
       "passage": "",
       "choices": [
         "Pleural pressure가 0보다 작아진다.",
@@ -2299,14 +2299,13 @@ window.EXAM_DATA = {
       "images": [],
       "points": 1,
       "answerIndices": [
-        1,
         3
       ],
       "modelAnswer": "1·3번 — 복원 문장상 복수 성립",
-      "brief": "현재 복원된 문장으로는 1번과 3번이 모두 성립한다. 흡기 중 Ppl은 음성이고 더 낮아지며, PA도 잠시 대기압보다 낮아진다. 둘은 서로 다른 압력이라 한쪽이 맞다고 다른 쪽이 틀리는 관계가 아니다.",
-      "multiple": true,
-      "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "brief": "정상 호기말 폐포압은 대기압과 같고, 흡기 중 0보다 낮아져 공기 유입을 만든다. 흉막강압은 원래 음수에서 더 낮아진다. 이 출제 의도를 기준으로 3번을 단일 정답으로 채점한다.",
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
     },
     {
       "id": "2023-010",

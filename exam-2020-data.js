@@ -3,6 +3,169 @@ window.EXAM_DATA = {
   "subject": "호흡기계",
   "questions": [
     {
+      "id": "2020-081",
+      "globalNumber": 613,
+      "currentProfessor": "윤용한",
+      "source": "2020 호흡기계 81번 (공식 시험지)",
+      "question": "24세 여자 환자가 운전 중 자동차사고로 응급실에 내원하였다. 내원당시 혈압이 80/60 mmHg, 맥박이 135회/분, 호흡수는 45회/분, 환자는 몹시 힘들어하는 상태였다. 이학적 소견상 흥분된 상태였고 흉골 동요가 있었으며 좌측 흉곽에 호흡음이 들리지 않았다. 좌측 흉곽에 촉진상 염발음과 타진상 공명음의 소견을 나타내었다. 이 환자의 응급 처치로서 가장 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "흉부 단순촬영을 한다",
+        "기도 삽관을 시행한다",
+        "좌측 흉곽에 흉관을 삽입한다",
+        "중심 정맥 주사를 시작한다",
+        "anti-shock 자켓을 입힌다"
+      ],
+      "images": [],
+      "points": 1,
+      "answerIndices": [
+        3
+      ],
+      "modelAnswer": "③ 좌측 흉곽에 흉관을 삽입한다",
+      "brief": "교통사고 이후 좌측 호흡음 소실·공명음·촉진상 염발음이 나타났다. 좌측 흉막강에 공기가 차고 피하조직에도 공기가 샌 외상성 기흉을 우선 생각한다. 여기에 혈압 80/60 mmHg·맥박 135회/분·호흡수 45회/분과 심한 호흡장애가 겹쳐 긴장성 기흉에 의한 순환 장애를 우려해야 한다.",
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
+    },
+    {
+      "id": "2020-082",
+      "globalNumber": 614,
+      "currentProfessor": "윤용한",
+      "source": "2020 호흡기계 82번 (공식 시험지)",
+      "question": "호흡기 질환으로 흉부심장혈관외과에서 폐엽절제술을 시행할 수 있는 질병을 기술하세요? (서술형) 적절한 질환을 3가지 이상 쓰시오.",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "폐엽절제술은 절제 가능한 국소 폐암, 내과적 치료에도 감염·객혈이 반복되는 국소 기관지확장증, 폐격리증, 조절되지 않는 국소 파괴성 감염이나 폐농양, 복구가 어려운 심한 폐·폐엽기관지 손상 등에서 고려할 수 있다. 큰 bulla 등도 병변 범위에 따라 폐엽절제가 필요할 수 있으나, 질환명만으로 결정하지 않고 국소 절제 가능성과 남길 폐의 기능을 함께 평가한다.",
+      "brief": "폐엽절제술은 절제 가능한 국소 폐암, 내과적 치료에도 감염·객혈이 반복되는 국소 기관지확장증, 폐격리증, 조절되지 않는 국소 파괴성 감염이나 폐농양, 복구가 어려운 심한 폐·폐엽기관지 손상 등에서 고려할 수 있다. 큰 bulla 등도 병변 범위에 따라 폐엽절제가 필요할 수 있으나, 질환명만으로 결정하지 않고 국소 절제 가능성과 남길 폐의 기능을 함께 평가한다.",
+      "keywordGroups": [
+        [
+          "폐암",
+          "lungcancer"
+        ],
+        [
+          "기관지확장증",
+          "bronchiectasis"
+        ],
+        [
+          "폐격리증",
+          "sequestration"
+        ],
+        [
+          "폐농양",
+          "국소감염",
+          "lungabscess"
+        ],
+        [
+          "폐손상",
+          "폐엽손상",
+          "외상",
+          "injury"
+        ]
+      ],
+      "minGroups": 3,
+      "multiple": false,
+      "examOverride": true,
+      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+    },
+    {
+      "id": "2020-083",
+      "globalNumber": 615,
+      "currentProfessor": "윤용한",
+      "source": "2020 호흡기계 83번 (공식 시험지)",
+      "question": "응급 폐쇄성 흉관 삽입술 및 응급 개흉술이 필요한 질환을 기술하세요? (서술형)",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "응급 감압·폐쇄성 흉관삽입은 긴장성 기흉, 호흡·순환 장애를 동반한 외상성 기흉, 혈흉·혈기흉 등에 시행한다. 응급 개흉술 또는 직접적인 손상 복구는 주요 흉부 장기의 파열, 심장압전, 지속 공기누출, 대량 외상성 혈흉, 흉관 삽입 후 대량·지속 출혈에서 고려한다. 개방성 흉벽 손상에서는 배액과 흉벽 결손 복구 및 동반 장기 손상의 평가가 필요하다.",
+      "brief": "응급 감압·폐쇄성 흉관삽입은 긴장성 기흉, 호흡·순환 장애를 동반한 외상성 기흉, 혈흉·혈기흉 등에 시행한다. 응급 개흉술 또는 직접적인 손상 복구는 주요 흉부 장기의 파열, 심장압전, 지속 공기누출, 대량 외상성 혈흉, 흉관 삽입 후 대량·지속 출혈에서 고려한다. 개방성 흉벽 손상에서는 배액과 흉벽 결손 복구 및 동반 장기 손상의 평가가 필요하다.",
+      "keywordGroups": [
+        [
+          "기흉",
+          "pneumothorax"
+        ],
+        [
+          "혈흉",
+          "hemothorax"
+        ],
+        [
+          "개흉",
+          "thoracotomy"
+        ],
+        [
+          "파열",
+          "압전",
+          "공기누출",
+          "지속출혈",
+          "rupture",
+          "tamponade",
+          "airleak"
+        ]
+      ],
+      "minGroups": 4,
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
+    },
+    {
+      "id": "2020-084",
+      "globalNumber": 616,
+      "currentProfessor": "윤용한",
+      "source": "2020 호흡기계 84번 (공식 시험지)",
+      "question": "긴장성 기흉의 증상 및 징후는? (서술형) 5가지 이상 쓰시오.",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "brief": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "keywordGroups": [
+        [
+          "흉통",
+          "chestpain"
+        ],
+        [
+          "빈호흡",
+          "호흡수증가",
+          "tachypnea"
+        ],
+        [
+          "호흡곤란",
+          "숨참",
+          "dyspnea"
+        ],
+        [
+          "빈맥",
+          "심박수증가",
+          "tachycardia"
+        ],
+        [
+          "저혈압",
+          "혈압저하",
+          "hypotension"
+        ],
+        [
+          "청색증",
+          "cyanosis"
+        ],
+        [
+          "경정맥팽창",
+          "목정맥팽창",
+          "jugularvenousdistension",
+          "jvd"
+        ]
+      ],
+      "minGroups": 5,
+      "multiple": false,
+      "examOverride": true,
+      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+    },
+    {
       "id": "2020-054",
       "globalNumber": 586,
       "currentProfessor": "김루시아",
@@ -1526,169 +1689,6 @@ window.EXAM_DATA = {
       "multiple": false,
       "examOverride": false,
       "revisionNote": ""
-    },
-    {
-      "id": "2020-081",
-      "globalNumber": 613,
-      "currentProfessor": "윤용한",
-      "source": "2020 호흡기계 81번 (공식 시험지)",
-      "question": "24세 여자 환자가 운전 중 자동차사고로 응급실에 내원하였다. 내원당시 혈압이 80/60 mmHg, 맥박이 135회/분, 호흡수는 45회/분, 환자는 몹시 힘들어하는 상태였다. 이학적 소견상 흥분된 상태였고 흉골 동요가 있었으며 좌측 흉곽에 호흡음이 들리지 않았다. 좌측 흉곽에 촉진상 염발음과 타진상 공명음의 소견을 나타내었다. 이 환자의 응급 처치로서 가장 적절한 것은?",
-      "passage": "",
-      "choices": [
-        "흉부 단순촬영을 한다",
-        "기도 삽관을 시행한다",
-        "좌측 흉곽에 흉관을 삽입한다",
-        "중심 정맥 주사를 시작한다",
-        "anti-shock 자켓을 입힌다"
-      ],
-      "images": [],
-      "points": 1,
-      "answerIndices": [
-        3
-      ],
-      "modelAnswer": "③ 좌측 흉곽에 흉관을 삽입한다",
-      "brief": "교통사고 이후 좌측 호흡음 소실·공명음·촉진상 염발음이 나타났다. 좌측 흉막강에 공기가 차고 피하조직에도 공기가 샌 외상성 기흉을 우선 생각한다. 여기에 혈압 80/60 mmHg·맥박 135회/분·호흡수 45회/분과 심한 호흡장애가 겹쳐 긴장성 기흉에 의한 순환 장애를 우려해야 한다.",
-      "multiple": false,
-      "examOverride": false,
-      "revisionNote": ""
-    },
-    {
-      "id": "2020-082",
-      "globalNumber": 614,
-      "currentProfessor": "윤용한",
-      "source": "2020 호흡기계 82번 (공식 시험지)",
-      "question": "호흡기 질환으로 흉부심장혈관외과에서 폐엽절제술을 시행할 수 있는 질병을 기술하세요? (서술형) 적절한 질환을 3가지 이상 쓰시오.",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "폐엽절제술은 절제 가능한 국소 폐암, 내과적 치료에도 감염·객혈이 반복되는 국소 기관지확장증, 폐격리증, 조절되지 않는 국소 파괴성 감염이나 폐농양, 복구가 어려운 심한 폐·폐엽기관지 손상 등에서 고려할 수 있다. 큰 bulla 등도 병변 범위에 따라 폐엽절제가 필요할 수 있으나, 질환명만으로 결정하지 않고 국소 절제 가능성과 남길 폐의 기능을 함께 평가한다.",
-      "brief": "폐엽절제술은 절제 가능한 국소 폐암, 내과적 치료에도 감염·객혈이 반복되는 국소 기관지확장증, 폐격리증, 조절되지 않는 국소 파괴성 감염이나 폐농양, 복구가 어려운 심한 폐·폐엽기관지 손상 등에서 고려할 수 있다. 큰 bulla 등도 병변 범위에 따라 폐엽절제가 필요할 수 있으나, 질환명만으로 결정하지 않고 국소 절제 가능성과 남길 폐의 기능을 함께 평가한다.",
-      "keywordGroups": [
-        [
-          "폐암",
-          "lungcancer"
-        ],
-        [
-          "기관지확장증",
-          "bronchiectasis"
-        ],
-        [
-          "폐격리증",
-          "sequestration"
-        ],
-        [
-          "폐농양",
-          "국소감염",
-          "lungabscess"
-        ],
-        [
-          "폐손상",
-          "폐엽손상",
-          "외상",
-          "injury"
-        ]
-      ],
-      "minGroups": 3,
-      "multiple": false,
-      "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
-    },
-    {
-      "id": "2020-083",
-      "globalNumber": 615,
-      "currentProfessor": "윤용한",
-      "source": "2020 호흡기계 83번 (공식 시험지)",
-      "question": "응급 폐쇄성 흉관 삽입술 및 응급 개흉술이 필요한 질환을 기술하세요? (서술형)",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "응급 감압·폐쇄성 흉관삽입은 긴장성 기흉, 호흡·순환 장애를 동반한 외상성 기흉, 혈흉·혈기흉 등에 시행한다. 응급 개흉술 또는 직접적인 손상 복구는 주요 흉부 장기의 파열, 심장압전, 지속 공기누출, 대량 외상성 혈흉, 흉관 삽입 후 대량·지속 출혈에서 고려한다. 개방성 흉벽 손상에서는 배액과 흉벽 결손 복구 및 동반 장기 손상의 평가가 필요하다.",
-      "brief": "응급 감압·폐쇄성 흉관삽입은 긴장성 기흉, 호흡·순환 장애를 동반한 외상성 기흉, 혈흉·혈기흉 등에 시행한다. 응급 개흉술 또는 직접적인 손상 복구는 주요 흉부 장기의 파열, 심장압전, 지속 공기누출, 대량 외상성 혈흉, 흉관 삽입 후 대량·지속 출혈에서 고려한다. 개방성 흉벽 손상에서는 배액과 흉벽 결손 복구 및 동반 장기 손상의 평가가 필요하다.",
-      "keywordGroups": [
-        [
-          "기흉",
-          "pneumothorax"
-        ],
-        [
-          "혈흉",
-          "hemothorax"
-        ],
-        [
-          "개흉",
-          "thoracotomy"
-        ],
-        [
-          "파열",
-          "압전",
-          "공기누출",
-          "지속출혈",
-          "rupture",
-          "tamponade",
-          "airleak"
-        ]
-      ],
-      "minGroups": 4,
-      "multiple": false,
-      "examOverride": false,
-      "revisionNote": ""
-    },
-    {
-      "id": "2020-084",
-      "globalNumber": 616,
-      "currentProfessor": "윤용한",
-      "source": "2020 호흡기계 84번 (공식 시험지)",
-      "question": "긴장성 기흉의 증상 및 징후는? (서술형) 5가지 이상 쓰시오.",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
-      "brief": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
-      "keywordGroups": [
-        [
-          "흉통",
-          "chestpain"
-        ],
-        [
-          "빈호흡",
-          "호흡수증가",
-          "tachypnea"
-        ],
-        [
-          "호흡곤란",
-          "숨참",
-          "dyspnea"
-        ],
-        [
-          "빈맥",
-          "심박수증가",
-          "tachycardia"
-        ],
-        [
-          "저혈압",
-          "혈압저하",
-          "hypotension"
-        ],
-        [
-          "청색증",
-          "cyanosis"
-        ],
-        [
-          "경정맥팽창",
-          "목정맥팽창",
-          "jugularvenousdistension",
-          "jvd"
-        ]
-      ],
-      "minGroups": 5,
-      "multiple": false,
-      "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
     },
     {
       "id": "2020-103",

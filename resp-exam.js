@@ -5,10 +5,18 @@ const el=id=>document.getElementById(id);
 const STORAGE_KEY='respiratory-exam-'+data.year+'-v1';
 const durationMs=120*60*1000;
 const collator=new Intl.Collator('ko',{numeric:true,sensitivity:'base'});
-const questions=[...data.questions].sort((a,b)=>collator.compare(a.currentProfessor,b.currentProfessor)||a.globalNumber-b.globalNumber);
+const questions=[...data.questions].sort((a,b)=>Number(b.currentProfessor==='윤용한')-Number(a.currentProfessor==='윤용한')||collator.compare(a.currentProfessor,b.currentProfessor)||a.globalNumber-b.globalNumber);
 const signature=questions.map(q=>q.id).join('|');
 let saved=null;
 try{saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null')}catch{}
+// Keep answers, flags, grading overrides and the active question when only order changes.
+if(saved&&saved.signature!==signature){
+ const oldIds=String(saved.signature||'').split('|'),newIds=questions.map(q=>q.id),newSet=new Set(newIds);
+ if(oldIds.length===newIds.length&&new Set(oldIds).size===oldIds.length&&oldIds.every(id=>newSet.has(id))){
+  try{const key=STORAGE_KEY+'-before-yoon-first';if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify(saved));}catch{}
+  const activeId=oldIds[saved.index||0];saved={...saved,signature,index:Math.max(0,newIds.indexOf(activeId))};
+ }
+}
 // Preserve answers when verified missing questions are added.
 if(saved&&saved.signature!==signature&&Array.isArray(data.addedQuestionIds)){
  const oldIds=String(saved.signature||'').split('|'),added=new Set(data.addedQuestionIds),newIds=questions.map(q=>q.id);

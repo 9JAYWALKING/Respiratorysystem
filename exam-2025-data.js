@@ -3,6 +3,110 @@ window.EXAM_DATA = {
   "subject": "호흡기계",
   "questions": [
     {
+      "id": "2025-001",
+      "globalNumber": 1,
+      "currentProfessor": "윤용한",
+      "source": "2025 호흡기계 1번",
+      "question": "응급개흉술의 적응증을 3가지 이상 서술하시오",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
+      "brief": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
+      "keywordGroups": [
+        [
+          "장기파열",
+          "기관파열",
+          "기관지파열",
+          "심장파열",
+          "식도파열",
+          "대동맥파열",
+          "rupture"
+        ],
+        [
+          "심장압전",
+          "tamponade"
+        ],
+        [
+          "공기누출",
+          "공기유출",
+          "airleak"
+        ],
+        [
+          "대량혈흉",
+          "외상성혈흉",
+          "massivehemothorax"
+        ],
+        [
+          "지속출혈",
+          "흉관후출혈",
+          "흉관삽입후출혈",
+          "출혈지속",
+          "persistentbleeding"
+        ]
+      ],
+      "minGroups": 3,
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
+    },
+    {
+      "id": "2025-002",
+      "globalNumber": 2,
+      "currentProfessor": "윤용한",
+      "source": "2025 호흡기계 2번",
+      "question": "긴장성 기흉 환자에서 진행되는 증상과 징후에 대하여 5가지 이상 기술하시오.",
+      "passage": "",
+      "choices": [],
+      "images": [],
+      "points": 1,
+      "answerIndices": [],
+      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "brief": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "keywordGroups": [
+        [
+          "흉통",
+          "chestpain"
+        ],
+        [
+          "빈호흡",
+          "호흡수증가",
+          "tachypnea"
+        ],
+        [
+          "호흡곤란",
+          "숨참",
+          "dyspnea"
+        ],
+        [
+          "빈맥",
+          "심박수증가",
+          "tachycardia"
+        ],
+        [
+          "저혈압",
+          "혈압저하",
+          "hypotension"
+        ],
+        [
+          "청색증",
+          "cyanosis"
+        ],
+        [
+          "경정맥팽창",
+          "목정맥팽창",
+          "jugularvenousdistension",
+          "jvd"
+        ]
+      ],
+      "minGroups": 5,
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
+    },
+    {
       "id": "2025-003",
       "globalNumber": 3,
       "currentProfessor": "김루시아",
@@ -1633,110 +1737,6 @@ window.EXAM_DATA = {
       ],
       "modelAnswer": "정답: ①",
       "brief": "80세·40갑년 흡연·객혈이 폐암의 임상 가능성을 높인다. 여기에 CT에서 좌상부의 용적 감소를 동반한 폐 음영, 내시경에서 기관지 내강을 좁히는 불규칙한 병변이 보인다. 기관지를 막는 종양 때문에 원위부 환기가 차단되면 공기가 흡수되어 폐쇄성 무기폐가 생긴다. 해당 부위의 호흡음 감소와 타진 둔탁도 이 과정으로 설명된다.",
-      "multiple": false,
-      "examOverride": false,
-      "revisionNote": ""
-    },
-    {
-      "id": "2025-001",
-      "globalNumber": 1,
-      "currentProfessor": "윤용한",
-      "source": "2025 호흡기계 1번",
-      "question": "응급개흉술의 적응증을 3가지 이상 서술하시오",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
-      "brief": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
-      "keywordGroups": [
-        [
-          "장기파열",
-          "기관파열",
-          "기관지파열",
-          "심장파열",
-          "식도파열",
-          "대동맥파열",
-          "rupture"
-        ],
-        [
-          "심장압전",
-          "tamponade"
-        ],
-        [
-          "공기누출",
-          "공기유출",
-          "airleak"
-        ],
-        [
-          "대량혈흉",
-          "외상성혈흉",
-          "massivehemothorax"
-        ],
-        [
-          "지속출혈",
-          "흉관후출혈",
-          "흉관삽입후출혈",
-          "출혈지속",
-          "persistentbleeding"
-        ]
-      ],
-      "minGroups": 3,
-      "multiple": false,
-      "examOverride": false,
-      "revisionNote": ""
-    },
-    {
-      "id": "2025-002",
-      "globalNumber": 2,
-      "currentProfessor": "윤용한",
-      "source": "2025 호흡기계 2번",
-      "question": "긴장성 기흉 환자에서 진행되는 증상과 징후에 대하여 5가지 이상 기술하시오.",
-      "passage": "",
-      "choices": [],
-      "images": [],
-      "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
-      "brief": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
-      "keywordGroups": [
-        [
-          "흉통",
-          "chestpain"
-        ],
-        [
-          "빈호흡",
-          "호흡수증가",
-          "tachypnea"
-        ],
-        [
-          "호흡곤란",
-          "숨참",
-          "dyspnea"
-        ],
-        [
-          "빈맥",
-          "심박수증가",
-          "tachycardia"
-        ],
-        [
-          "저혈압",
-          "혈압저하",
-          "hypotension"
-        ],
-        [
-          "청색증",
-          "cyanosis"
-        ],
-        [
-          "경정맥팽창",
-          "목정맥팽창",
-          "jugularvenousdistension",
-          "jvd"
-        ]
-      ],
-      "minGroups": 5,
       "multiple": false,
       "examOverride": false,
       "revisionNote": ""
