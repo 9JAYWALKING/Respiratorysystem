@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022 호흡기계 실전풀이 · RESPIRATORY SYSTEM</title>
+<style>
+@font-face{font-family:NanumGothic;src:url("./assets/fonts/NanumGothic-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:NanumGothic;src:url("./assets/fonts/NanumGothic-Bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:swap}
+:root{--blue:#005799;--paper:#f7f9fa;--question:#d9edf7;--border:#bce8f1;--ink:#333;--header:68px;--side:218px}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.42857143 NanumGothic,"나눔고딕",sans-serif;color:var(--ink);background:var(--paper)}
+button,input{font:inherit}button{cursor:pointer}button:disabled{cursor:default}
+button:focus-visible,input:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.topbar{height:var(--header);position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 30px;background:var(--blue);color:#fff}
+.brand{font-size:20px;line-height:1.2;font-weight:400;letter-spacing:.1px;margin:0}
+.brand a{color:inherit;text-decoration:none}.brand a:focus-visible{outline:2px solid white;outline-offset:5px}
+.exam-name{font-size:18px;white-space:nowrap}
+.layout{display:grid;grid-template-columns:var(--side) minmax(0,1fr);min-height:calc(100dvh - var(--header))}
+.sidebar{position:sticky;top:var(--header);height:calc(100dvh - var(--header));overflow-y:auto;background:#fff;border-right:1px solid #d9dbdb;align-self:start}
+.sidebar h2{font-size:14px;color:#000;font-weight:700;margin:0;padding:22px 18px;border-bottom:1px solid #ebebeb}
+.sidebar-body{padding:20px}
+.number-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;margin-bottom:13px}
+.question-number{height:31px;min-width:0;position:relative;padding:0;border:1px solid #aaa;border-radius:3px;background:#fff;color:#005799;line-height:29px;font-size:14px;font-weight:700}
+.question-number.answered{background:#d6dce0}
+.question-number.review-correct{background:#cfc}
+.question-number.review-incorrect{background:#fcc}
+.question-number.flagged::after{content:"";position:absolute;right:1px;top:1px;width:0;height:0;border-top:7px solid #c92c2c;border-left:7px solid transparent}
+.question-number[aria-current="step"]{outline:2px solid #005799;outline-offset:1px;border-color:#005799;font-weight:700}
+.question-number:hover{border-color:#005799}
+.submit-button{display:block;width:100%;min-height:34px;border:1px solid #46b8da;border-radius:3px;padding:6px 10px;background:#5bc0de;color:#fff;line-height:20px}
+.submit-button:hover{background:#31b0d5;border-color:#269abc}
+.submit-button:disabled{opacity:.7}
+.remaining-time{margin:13px 0 0;color:#000;font-size:14px;line-height:1.6;white-space:nowrap;font-variant-numeric:tabular-nums}
+#remaining-time{color:#d22121;font-weight:700}
+.main{padding:32px 38px 48px;min-width:0}
+.question-layout{display:grid;grid-template-columns:98px minmax(0,1fr);gap:21px;align-items:start;scroll-margin-top:calc(var(--header) + 20px)}
+.question-info{background:#eee;border:1px solid #ddd;border-radius:2px;padding:8px 7px;font-size:12px;line-height:1.55}
+.question-info h2{font-size:12px;font-weight:400;line-height:1.5;margin:0 0 10px}
+.question-info h2 span{font-size:16px;color:#003d6b;font-weight:700}
+.question-info p{margin:0;font-size:12px}
+.flag-button{display:flex;align-items:center;gap:4px;margin:9px 0 0;padding:0;border:0;background:transparent;color:#555;font-size:12px;line-height:1.6;white-space:nowrap}
+.flag-button svg{width:14px;height:16px;flex:none;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+.flag-button[aria-pressed="true"]{color:#c92c2c}.flag-button[aria-pressed="true"] .flag-cloth{fill:currentColor}
+.question-body{min-width:0}
+.formulation{background:var(--question);border:1px solid var(--border);border-radius:4px;padding:15px;margin:0;min-width:0}
+.question-text{font-size:14px;font-weight:400;white-space:pre-line;line-height:1.65;margin:0 0 19px;overflow-wrap:anywhere}
+.passage{white-space:pre-line;line-height:1.7;margin:0 0 20px;overflow-wrap:anywhere}
+.question-images{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;margin:4px 0 22px}
+.question-images img{display:block;max-width:100%;max-height:390px;width:auto;height:auto;object-fit:contain}
+.question-images:empty{display:none}
+.answers{border:0;padding:0;margin:0;min-width:0}
+.answers legend{padding:0;margin:0 0 3px;font-size:14px}
+.choice{display:flex;gap:6px;align-items:flex-start;padding:5px 6px;line-height:1.55;cursor:pointer;overflow-wrap:anywhere}
+.choice:hover{background:rgba(255,255,255,.3)}
+.choice input{width:13px;height:13px;margin:4px 0 0;flex:none;accent-color:#005799}
+.choice input[type="radio"]{appearance:none;-webkit-appearance:none;border:1px solid #b7c5cc;border-radius:50%;background:#fff;cursor:pointer}
+.choice input[type="radio"]:checked{border:4px solid #009fe3;background:#fff}
+.choice input:disabled{cursor:default;opacity:1}
+.choice.review-correct,.choice.review-correct:hover{background:#dff0d8}
+.choice.review-incorrect,.choice.review-incorrect:hover{background:#f2dede}
+.choice:has(input:disabled){cursor:default}
+.choice-content .choice-text{margin-left:5px}
+.correctness-icon{display:inline-block;margin-left:6px;font:bold 18px/1 Arial,sans-serif;vertical-align:-1px}
+.review-correct .correctness-icon{color:#268b27}.review-incorrect .correctness-icon{color:#ff3838}
+.review-answer{margin:25px 15px 0;line-height:1.7}.review-answer strong{font-weight:700}
+.choice-content{display:block;min-width:0}.choice-text{min-width:0;white-space:pre-line}
+.free-answer{width:100%;min-height:120px;padding:10px;border:1px solid #93bbc9;border-radius:3px;resize:vertical;background:#fff;font:inherit}
+.page-controls{display:flex;justify-content:space-between;gap:14px;margin:26px 0 0}
+.page-button{padding:8px 14px;min-height:36px;color:#333;background:#fff;border:1px solid #ccc;border-radius:4px}
+.page-button:hover:not(:disabled){background:#e6e6e6;border-color:#adadad}
+.page-button:disabled{color:#a1a7ac;border-color:#dfe2e4;background:#f6f7f8}
+.page-button .arrow{font-family:Arial,sans-serif;font-size:17px;line-height:1;margin:0 3px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+[hidden]{display:none!important}
+dialog{border:1px solid #ddd;border-radius:5px;padding:0;width:min(410px,calc(100vw - 32px));box-shadow:0 10px 40px #0002;color:#333;background:#fff}
+dialog::backdrop{background:#17263055}
+.dialog-content{padding:24px}.dialog-content h2{margin:0 0 17px;font-size:18px;font-weight:700}.dialog-content p{line-height:1.7;margin:0 0 12px}
+.dialog-note{color:#777;font-size:12px}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;border-top:1px solid #eee;padding:14px 20px}
+.dialog-actions .submit-button{width:auto;padding:7px 20px}
+.results{padding:0 38px 60px;min-height:calc(100dvh - var(--header))}
+.result-breadcrumb{display:flex;align-items:center;gap:12px;min-height:62px;border-bottom:1px solid #d9dbdb;font-size:12px;color:#666}
+.result-breadcrumb svg{width:16px;height:16px;fill:#999}.result-breadcrumb .separator{color:#999}.result-breadcrumb .current{color:#333}
+.result-title{font-size:24px;line-height:1.2;font-weight:700;margin:36px 0 26px}
+.quizinfo{background:#fff;border:1px solid #e3e3e3;padding:19px;margin:0 0 20px;min-height:130px}
+.quizinfo p{margin:0 0 10px;line-height:20px}.quizinfo p:last-child{margin-bottom:10px}
+.attempt-heading{font-size:24px;font-weight:400;line-height:1.1;margin:20px 0 10px}
+.attempt-table{width:100%;border-collapse:collapse;border:1px solid #e9e9e9;table-layout:fixed;background:#fff;font-size:14px}
+.attempt-table th,.attempt-table td{padding:8px;border:1px solid #e9e9e9;text-align:center;vertical-align:middle;line-height:1.42857143;font-weight:400}
+.attempt-table th{background:#f7f7f7;height:37px}.attempt-table th:first-child,.attempt-table td:first-child{text-align:left;width:50%}
+.attempt-table th:nth-child(2),.attempt-table th:nth-child(3){width:25%}.attempt-table td{height:56px}
+.statedetails{display:block;font-size:13px;margin-top:2px}
+.feedback-link{padding:0;background:none;border:0;color:#0076d3;text-decoration:underline;font:inherit}
+.result-score{width:70%;margin:20px auto 25px;font-size:24px;font-weight:400;line-height:1.4}
+.result-return{text-align:center}.result-return p{margin:0 0 8px}.result-return a{display:inline-block;text-decoration:none;font-size:14px;padding:7px 12px;min-height:34px}
+.detail-button{margin-top:12px;width:100%;padding:6px 3px;border:1px solid #46b8da;border-radius:3px;background:#5bc0de;color:white;font-size:12px;white-space:nowrap}
+.detail-button:hover,.detail-button[aria-expanded="true"]{background:#31b0d5}
+.detail-pane{min-width:0;min-height:0;background:white;display:flex;flex-direction:column;border-left:1px solid #cbd5df}
+.detail-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 15px;background:#e7f7ff;border-bottom:1px solid #cbdfea;flex:none}
+.detail-heading h2{font-size:14px;margin:0;color:#174e72}.detail-close{border:0;background:transparent;color:#174e72;font-size:24px;line-height:1;padding:3px 6px}
+.detail-pane iframe{display:block;flex:1;width:100%;min-height:0;border:0;background:#f1f5f9}
+.detail-status{margin:0;padding:10px 15px;font-size:12px;background:#fff;color:#555}.detail-status a{color:#005799}
+body.detail-open{overflow:hidden}
+body.detail-open .study-workspace{position:fixed;top:var(--header);bottom:0;left:0;right:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:0}
+body.detail-open .layout{min-height:0;overflow:auto;overscroll-behavior:contain;display:block}
+body.detail-open .sidebar{position:static;height:auto;overflow:visible;border-right:0;border-bottom:1px solid #d9dbdb}
+body.detail-open .sidebar h2{padding:12px 16px;border-bottom:0}
+body.detail-open .sidebar-body{padding:0 16px 14px;display:flex;justify-content:space-between;gap:16px}
+body.detail-open .number-grid{grid-template-columns:repeat(5,31px);align-self:start;margin:0}
+body.detail-open .save-area{width:144px;flex:none}
+body.detail-open .remaining-time{font-size:12px;margin-top:6px}
+body.detail-open .main{padding:20px 16px 36px}
+body.detail-open .question-layout{grid-template-columns:82px minmax(0,1fr);gap:12px;scroll-margin-top:12px}
+body.detail-open .question-images img{max-height:300px}
+@media(max-width:700px),(orientation:portrait){body.detail-open .study-workspace{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) minmax(0,1fr)}.detail-pane{border-left:0;border-top:1px solid #cbd5df}}
+@media(max-width:1000px) and (min-width:701px){:root{--side:192px}.sidebar-body{padding:17px}.number-grid{gap:4px}.main{padding:26px 24px}.question-layout{grid-template-columns:85px minmax(0,1fr);gap:16px}}
+@media(max-width:700px){:root{--header:56px}.topbar{padding:0 17px;gap:12px}.brand{font-size:17px}.exam-name{font-size:14px}.layout{display:block}.sidebar{position:static;height:auto;overflow:visible;border-right:0;border-bottom:1px solid #d9dbdb}.sidebar h2{padding:15px 17px;border-bottom:0}.sidebar-body{padding:0 17px 16px;display:grid;grid-template-columns:minmax(0,1fr) 94px;align-items:start;gap:15px}.number-grid{grid-template-columns:repeat(auto-fit,minmax(29px,1fr));gap:6px;margin:0}.submit-button{min-height:34px}.main{padding:22px 16px 32px}.question-layout{display:block;scroll-margin-top:72px}.question-info{display:flex;align-items:center;justify-content:space-between;margin-bottom:11px;padding:7px 10px}.question-info h2{margin:0}.question-info p br{display:none}.formulation{padding:14px 12px}.question-text{line-height:1.7}.question-images img{max-height:310px}.choice{padding:7px 3px;gap:7px}.page-controls{margin-top:20px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media(max-width:700px){.sidebar-body{grid-template-columns:minmax(0,1fr) 144px}.number-grid{grid-template-columns:repeat(auto-fill,minmax(29px,1fr))}.remaining-time{font-size:13px}}
+@media(max-width:700px){.question-info{display:grid;grid-template-columns:1fr auto;gap:2px 12px}.flag-button{grid-column:1 / -1;justify-self:start;margin-top:5px}}
+@media(max-width:700px){.exam-name{font-size:12px}.results{padding:0 16px 40px}.result-title{font-size:22px;margin-top:27px}.result-breadcrumb{min-height:54px;gap:8px;font-size:11px}.attempt-heading{font-size:20px}.attempt-table{font-size:12px}.attempt-table th:first-child,.attempt-table td:first-child{width:44%}.attempt-table th:nth-child(2),.attempt-table th:nth-child(3){width:28%}.statedetails{font-size:11px}.attempt-table th,.attempt-table td{padding:8px 6px}.result-score{width:100%;font-size:20px;margin:21px 0 26px}.result-return p{font-size:13px}}
+
+.review-answer{white-space:pre-line}.exam-override-note{font-size:12px;color:#6b7280;margin:16px 15px}.grade-correction{margin:18px 15px;padding:15px;border:1px solid #cbd5e1;border-radius:4px;background:white}.grade-correction div{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.grade-correction button{padding:6px 10px;border:1px solid #b8c9d1;border-radius:4px;background:#fff;color:#315268}.grade-correction button[aria-pressed="true"]{background:#005799;color:white}.grade-correction button:disabled{opacity:.45}.grade-correction small{color:#64748b}.image-error{color:#b91c1c}.storage-warning{position:fixed;bottom:8px;left:8px;z-index:20;max-width:calc(100vw - 16px);display:none;background:#fff8e8;border:1px solid #b98329;padding:8px}.storage-warning:has(#storage-notice:not([hidden])){display:block}.storage-warning p{margin:0 0 6px}.sidebar-body{display:flex;flex-direction:column}.number-grid{order:2;margin:16px 0 0}.save-area{order:1}.sidebar h2{padding:16px 18px}.sidebar-body{padding-top:10px}.sidebar .save-area{position:sticky;top:0;background:white;z-index:2;padding:8px 0}.detail-open .sidebar-body{display:flex!important;flex-direction:column}.detail-open .sidebar .save-area{position:static;width:100%}.detail-open .number-grid{grid-template-columns:repeat(auto-fill,minmax(31px,1fr))!important;width:100%;max-height:90px;overflow:auto}.detail-open .sidebar h2{display:none}.detail-open .remaining-time{display:none}
+@media(max-width:700px){.sidebar-body{display:flex!important;flex-direction:column}.number-grid{width:100%;grid-template-columns:repeat(auto-fill,minmax(31px,1fr));max-height:105px;overflow:auto}.save-area{width:100%;display:flex;align-items:center;gap:12px}.save-area .submit-button{width:auto;min-width:130px}.remaining-time{margin:0}.question-info .detail-button{grid-column:1/-1;max-width:110px}.detail-open .sidebar{max-height:135px;overflow:auto}.detail-open .main{padding-top:12px}}
+.sidebar .number-grid{order:0;max-height:calc(100dvh - var(--header) - 190px);overflow-y:auto;margin:0 0 13px;padding:3px;flex-shrink:0}.sidebar .save-area{order:1;position:static}.detail-open .sidebar .number-grid{max-height:90px}
+@media(max-width:700px){.sidebar .number-grid{max-height:105px}}
+@media(max-width:700px){body.detail-open .study-workspace{grid-template-columns:1fr;grid-template-rows:45% 55%}.detail-pane{border-top:1px solid #cbd5df}.detail-heading{padding:6px 12px}.detail-open .layout{overflow:auto}}
+</style>
+</head>
+<body>
+<header class="topbar"><h1 class="brand"><a href="./index.html#home" aria-label="홈 화면으로 이동">RESPIRATORY SYSTEM</a></h1><div class="exam-name">2022 호흡기계 실전풀이</div></header>
+<div class="storage-warning"><p id="storage-notice" role="alert" hidden></p><button type="button" id="backup-answers">답안 백업</button></div><div class="study-workspace">
+<div class="layout" id="exam-screen">
+  <aside class="sidebar" aria-labelledby="navigation-title">
+    <h2 id="navigation-title">문항 선택</h2>
+    <div class="sidebar-body">
+      <nav class="number-grid" id="question-navigation" aria-label="문항 선택"></nav>
+      <div class="save-area"><button type="button" class="submit-button" id="save-answers">답안 저장</button><p class="remaining-time" role="timer" aria-label="남은 시험 시간">남은 시간 <span id="remaining-time">2:40:00</span></p></div>
+    </div>
+  </aside>
+  <main class="main" id="main">
+    <div class="question-layout" id="question-top">
+      <aside class="question-info" aria-label="문항 정보">
+        <h2>문제 <span id="question-number">1</span></h2>
+        <p id="question-points">총 1.00점</p>
+        <button type="button" class="flag-button" id="flag-question" aria-pressed="false"><svg viewBox="0 0 16 18" aria-hidden="true"><path d="M3 16V2"/><path class="flag-cloth" d="M3 2c3-2 6 2 10 0l-2 6c-3 2-5-2-8 0Z"/></svg><span>문제 표시</span></button>
+        <button type="button" class="detail-button" id="show-detail" aria-expanded="false" aria-controls="detail-pane" hidden>상세 해설</button>
+      </aside>
+      <div class="question-body">
+        <section class="formulation" aria-labelledby="question-text">
+          <h2 class="question-text" id="question-text" tabindex="-1"></h2>
+          <div class="passage" id="passage" hidden></div>
+          <div class="question-images" id="question-images"></div>
+          <fieldset class="answers" id="answers"><legend>하나를 선택하세요.</legend><div id="choices"></div></fieldset>
+        </section>
+        <p class="review-answer" id="review-answer" hidden></p>
+<p class="review-answer" id="brief-explanation" hidden></p><p class="exam-override-note" id="exam-override-note" hidden>실전시험용 정답 기준 적용 · 상세 해설의 원래 J와 다를 수 있습니다.</p>
+<section id="grade-correction" class="grade-correction" aria-label="주관식 채점 정정" hidden><strong id="correction-status" aria-live="polite"></strong><div><button type="button" id="correct-as-right" aria-pressed="false">정답으로 정정</button><button type="button" id="correct-as-wrong" aria-pressed="false">오답으로 정정</button><button type="button" id="reset-correction">자동 채점으로 복원</button></div><small>모범답안과 비교하여 자동 채점 결과를 정정할 수 있습니다. 정정하면 총점에 반영됩니다.</small></section>
+        <nav class="page-controls" aria-label="문제 페이지 이동">
+          <button type="button" class="page-button" id="previous"><span class="arrow" aria-hidden="true">‹</span> 이전 페이지</button>
+          <button type="button" class="page-button" id="next">다음 페이지 <span class="arrow" aria-hidden="true">›</span></button>
+        </nav>
+      </div>
+    </div>
+    <p class="sr-only" aria-live="polite" id="page-status"></p>
+  </main>
+</div>
+<aside class="detail-pane" id="detail-pane" aria-labelledby="detail-title" hidden>
+  <div class="detail-heading"><h2 id="detail-title">상세 해설</h2><button type="button" class="detail-close" id="close-detail" aria-label="상세 해설 닫기">×</button></div>
+  <p class="detail-status" id="detail-status" role="status"><span id="detail-message">J 문항을 불러오는 중…</span> <a id="detail-original" target="_blank" rel="noopener">원래 J 열기</a></p>
+  <iframe id="detail-frame" title="J 문항과 상세 해설" src="about:blank"></iframe>
+</aside>
+</div>
+<main class="results" id="result-screen" hidden>
+  <div class="result-breadcrumb" aria-label="현재 위치"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 10 9h-3v9h-5v-6h-4v6H5v-9H2Z"/></svg><span>RESPIRATORY SYSTEM</span><span class="separator" aria-hidden="true">›</span><span class="current">2022 호흡기계 실전풀이</span></div>
+  <h2 class="result-title" id="result-title" tabindex="-1">2022 호흡기계 실전풀이</h2>
+  <section class="quizinfo" aria-label="시험 안내"><p><strong>답안 제출 가능 횟수: 1</strong></p><p>종료일시 : <span id="exam-end-date"></span></p><p><strong>시간제한: 160분</strong></p></section>
+  <h3 class="attempt-heading">퀴즈 기록 설명 보기</h3>
+  <table class="attempt-table" aria-label="실전풀이 성적">
+    <thead><tr><th scope="col">진행 상황</th><th scope="col">성적 / <span id="total-grade">2.00</span></th><th scope="col">피드백 보기</th></tr></thead>
+    <tbody><tr><td>종료됨<span class="statedetails" id="submitted-date"></span></td><td id="earned-grade">0.00</td><td><button class="feedback-link" id="view-feedback" type="button">피드백 보기</button></td></tr></tbody>
+  </table>
+  <h3 class="result-score" id="final-score"></h3>
+  <div class="result-return"><p>답안 제출 기회를 모두 사용하였습니다.</p><a class="page-button" href="./index.html#home">강좌로 돌아가기</a><div style="margin-top:12px"><button class="page-button" id="restart-training" type="button">다시 풀어보기</button></div></div>
+</main>
+
+<script src="./exam-2022-data.js?v=1"></script>
+<script src="./resp-exam-rules.js"></script>
+<script src="./resp-exam.js?v=1"></script>
+</body>
+</html>

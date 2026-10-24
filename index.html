@@ -2199,7 +2199,7 @@
           <button class="study-app" type="button" data-quick-route="#respiratory-atlas"><span class="study-app-icon app-atlas" aria-hidden="true"></span><h3>호흡기계 큰 그림</h3></button>
           <button class="study-app" type="button" data-quick-route="#kmle"><span class="study-app-icon app-kmle" aria-hidden="true"></span><h3>국시 호흡기계</h3></button>
           <button class="study-app" type="button" data-quick-wrong><span class="study-app-icon app-wrong" aria-hidden="true">✏️</span><h3>오답 복습</h3><span class="study-app-caption">${wrongQuestionIds().length}문항</span></button>
-          <button class="study-app" type="button" disabled><span class="study-app-icon app-exam" aria-hidden="true">⏱️</span><h3>실전 훈련</h3><span class="study-app-caption">준비 중</span></button>
+          <button class="study-app" type="button" data-resp-exams><span class="study-app-icon app-exam" aria-hidden="true">⏱️</span><h3>실전처럼 풀기</h3><span class="study-app-caption">2020–2025</span></button>
           <button class="study-app" type="button" disabled><span class="study-app-icon app-mock" aria-hidden="true">📝</span><h3>실전 모의고사</h3><span class="study-app-caption">준비 중</span></button>
         </div>
         <nav class="study-home-tools" aria-label="개인 도구"><button class="study-app" type="button" data-quick-route="#personal-notes"><span class="study-app-icon app-notes" aria-hidden="true">📒</span><span class="study-app-name">나만의 정리</span></button><button class="study-app" type="button" data-quick-save aria-label="현재 사이트 파일 저장"><span class="study-app-icon app-save" aria-hidden="true">💾</span><span class="study-app-name">파일 저장</span></button></nav>`;
@@ -6143,4 +6143,6 @@
     routeFromHash();
 </script>
 <script src="./study-ui.js"></script>
+<script src="./resp-exam-menu.js"></script>
+<script src="./resp-exam-bridge.js"></script>
 </body></html>
