@@ -12,6 +12,7 @@
   const actions = shell.querySelector('.top-actions');
   document.body.classList.add('study-ui');
   const icons = {
+    calendar:'<rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v4m8-4v4M4 10h16m-11 4h2m2 0h2m-6 3h2"/>',
     collapse:'<path d="M5 12h14"/>',
     expand:'<path d="M5 12h14M12 5v14"/>',
     correct:'<circle cx="12" cy="12" r="8"/>',
@@ -34,6 +35,26 @@
   const tools=button('data-study-tools','도구 열기','tools');
   tools.setAttribute('aria-haspopup','dialog');tools.setAttribute('aria-controls','study-control-center');tools.setAttribute('aria-expanded','false');
   actions.prepend(search);actions.append(tools);
+  const examDate='2026-11-02';
+  const ddayStorageKey='respiratory-exam-dday-visible-v1';
+  let ddayEnabled=false;
+  try{ddayEnabled=localStorage.getItem(ddayStorageKey)==='true';}catch(_){}
+  const examDday=document.createElement('span');
+  examDday.className='study-exam-dday';
+  examDday.hidden=!ddayEnabled;
+  search.before(examDday);
+  function updateExamDday(){
+    const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+    const value=type=>Number(parts.find(part=>part.type===type).value);
+    const today=Date.UTC(value('year'),value('month')-1,value('day'));
+    const remaining=Math.round((Date.parse(examDate+'T00:00:00Z')-today)/86400000);
+    examDday.textContent=remaining>0?'D−'+remaining:remaining===0?'D-DAY':'D+'+Math.abs(remaining);
+    examDday.title='시험일: 2026년 11월 2일 (월) · 한국시간 기준';
+    examDday.setAttribute('aria-label',remaining>0?'시험까지 '+remaining+'일':remaining===0?'오늘 시험':'시험 종료 후 '+Math.abs(remaining)+'일');
+  }
+  updateExamDday();
+  window.setInterval(updateExamDday,1000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateExamDday();});
   const dialog=document.createElement('dialog');dialog.id='study-control-center';dialog.setAttribute('aria-label','도구');document.body.append(dialog);
   const recall=document.createElement('button');
   recall.type='button';recall.className='study-lecture-recall';recall.hidden=true;
@@ -128,6 +149,17 @@
     toggle.querySelector('[data-gesture-label]').textContent=enabled?'제스처 끄기':'제스처 켜기';
     toggle.title='스와이프·해설 더블클릭 '+(enabled?'켜짐':'꺼짐');
   }
+  function syncDdayButton(){
+    examDday.hidden=!ddayEnabled;
+    const toggle=dialog.querySelector('[data-center-dday]');
+    if(!toggle)return;
+    toggle.setAttribute('aria-pressed',String(ddayEnabled));
+    toggle.querySelector('[data-dday-label]').textContent=ddayEnabled?'디데이 끄기':'디데이 켜기';
+    toggle.title='시험 디데이 '+(ddayEnabled?'켜짐':'꺼짐');
+  }
+  window.addEventListener('storage',event=>{
+    if(event.key===ddayStorageKey||event.key===null){ddayEnabled=event.key!==null&&event.newValue==='true';syncDdayButton();}
+  });
   function renderTools() {
     const expandedFilters=new Set(Array.from(dialog.querySelectorAll('[data-center-multi][open]'),element=>element.dataset.centerMulti));
     const scrollTop=dialog.scrollTop;
@@ -159,12 +191,19 @@
     const chapterFilter=questionFilters?.course ? `<div class="study-center-filters"><label>${isJbl?'유형':'세부 분류'}<select data-center-chapter aria-label="관련 문항 범위">${options(questionFilters.chapters.map(item=>[item.slug,item.heading+' · '+item.count]),questionFilters.chapter,(isJbl?'전체 유형 · ':'전체 문항 · ')+questionFilters.total)}</select></label></div>` : '';
     dialog.innerHTML=`<button class="study-center-grip" type="button" aria-label="도구 닫기 · 위로 쓸어올리기"></button>
       <div class="study-center-controls"><div class="study-center-theme"><button type="button" class="theme-button" data-theme-toggle></button><span>화면 모드</span></div><div class="study-font-control" aria-label="글자 크기"><button type="button" data-scale-minus aria-label="글자 작게">A−</button><output>${Math.round(scale*100)}%</output><button type="button" data-scale-plus aria-label="글자 크게">A＋</button></div></div>
-      <button type="button" class="study-random-toggle study-gesture-toggle" data-center-gestures><span class="study-filter-icon" aria-hidden="true">${svg('hand')}</span><span data-gesture-label></span></button>
+      <div class="study-preference-row"><button type="button" class="study-random-toggle study-gesture-toggle" data-center-gestures><span class="study-filter-icon" aria-hidden="true">${svg('hand')}</span><span data-gesture-label></span></button>
+      <button type="button" class="study-random-toggle" data-center-dday aria-pressed="${ddayEnabled}"><span class="study-filter-icon" aria-hidden="true">${svg('calendar')}</span><span data-dday-label></span></button></div>
       ${questionFilters ? `<section class="study-center-section"><h3>${isJbl?'학습 필터':'문항 필터'}</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div>${orderControls}</section>` : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
     syncGestureButton();
+    syncDdayButton();
+    dialog.querySelector('[data-center-dday]').addEventListener('click',()=>{
+      ddayEnabled=!ddayEnabled;
+      try{localStorage.setItem(ddayStorageKey,String(ddayEnabled));}catch(_){}
+      updateExamDday();syncDdayButton();
+    });
     dialog.querySelector('[data-center-gestures]').addEventListener('click',()=>window.RespiratoryGestures.setEnabled(!window.RespiratoryGestures.isEnabled()));
     const statusFilters=dialog.querySelector('.study-status-filters');
     if(statusFilters && chapterFilter)statusFilters.insertAdjacentHTML('beforebegin',chapterFilter);

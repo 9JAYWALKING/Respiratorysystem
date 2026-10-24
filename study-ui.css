@@ -18,6 +18,9 @@ html[data-theme="dark"] body.study-ui { --study-surface:#000; --study-muted:#fff
 .study-ui .masthead h1 { min-width:0; margin:0; font-size:20px; letter-spacing:.09em; white-space:nowrap; }
 .study-ui .site-logo { font:inherit; text-transform:uppercase; }
 .study-ui .top-actions { gap:8px; }
+.study-ui .study-exam-dday { display:inline-flex; align-items:center; justify-content:center; flex:none; min-width:40px; height:30px; font-size:20px; font-weight:800; line-height:1; letter-spacing:.01em; font-variant-numeric:tabular-nums; white-space:nowrap; color:inherit; }
+.study-ui .study-exam-dday[hidden] { display:none; }
+.study-ui .study-exam-dday { margin-right:4px; }
 .study-ui .main-menu-button, .study-ui .masthead .theme-button, .study-ui .masthead-menu { display:none!important; }
 .study-icon-button { width:34px; height:34px; display:grid; place-items:center; border:1px solid #67415d30; border-radius:10px; background:transparent; color:inherit; cursor:pointer; }
 .study-icon-button svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
@@ -156,7 +159,10 @@ html[data-theme="dark"] .study-ui .bookmark-category.clinical { background:#2114
 .study-center-grip { display:block; width:90px; height:22px; padding:0; border:0; background:none; color:var(--study-muted); margin:0 auto 12px; touch-action:none; cursor:pointer; }
 .study-center-section { border-top:1px solid var(--study-border); padding-top:16px; margin-top:16px; }
 .study-center-section h3 { font-size:12px; color:var(--study-muted); font-weight:600; margin:0 0 10px; }
-.study-center-controls { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.study-center-controls { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; align-items:center; }
+.study-preference-row { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px; }
+.study-preference-row .study-random-toggle { margin-top:0; gap:8px; text-align:left; }
+.study-preference-row .study-random-toggle>span:last-child { white-space:nowrap; }
 .study-center-theme { display:flex; gap:10px; align-items:center; font-size:14px; }
 .study-center-theme .theme-button { border-radius:12px; color:inherit; background:var(--brand-soft); border:1px solid var(--study-border); }
 .study-edit-tools { display:grid; gap:9px; }
@@ -164,9 +170,9 @@ html[data-theme="dark"] .study-ui .bookmark-category.clinical { background:#2114
 .study-edit-icon { display:grid; place-items:center; width:36px; height:36px; flex:0 0 36px; border:1px solid var(--study-border); border-radius:12px; background:var(--brand-soft); font-size:18px; }
 .study-edit-icon svg { width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
 .study-edit-tools button:not(:disabled):hover .study-edit-icon { border-color:var(--study-accent); }
-.study-font-control { display:flex; align-items:center; border:1px solid var(--study-border); border-radius:12px; overflow:hidden; margin-left:auto; }
-.study-font-control button { border:0; padding:10px 14px; background:var(--brand-soft); font:inherit; color:inherit; cursor:pointer; }
-.study-font-control output { padding:0 12px; min-width:48px; font-size:12px; text-align:center; }
+.study-font-control { display:flex; align-items:center; border:1px solid var(--study-border); border-radius:12px; overflow:hidden; margin-left:0; justify-self:start; width:100%; max-width:156px; min-width:0; }
+.study-font-control button { flex:1; min-width:0; border:0; padding:10px 8px; background:var(--brand-soft); font:inherit; color:inherit; cursor:pointer; white-space:nowrap; }
+.study-font-control output { padding:0 6px; min-width:40px; font-size:12px; text-align:center; }
 .study-tool-buttons { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
 .study-tool-buttons button, .study-center-jump button { border:1px solid var(--study-border); border-radius:12px; padding:11px 14px; background:var(--brand-soft); color:inherit; font:inherit; font-size:13px; text-align:left; cursor:pointer; }
 .study-tool-buttons button:disabled { opacity:.45; cursor:default; }
@@ -199,6 +205,7 @@ html[data-theme="dark"] .study-ui .bookmark-category.clinical { background:#2114
   body.study-ui { --study-edge:12px; }
   .study-ui .masthead-inner { grid-template-columns:minmax(0,1fr) auto; min-height:48px; gap:5px; }
   .study-ui .masthead h1 { font-size:14px; line-height:1.15; white-space:normal; letter-spacing:.04em; }
+  .study-ui .study-exam-dday { font-size:14px; }
   .study-ui .site-logo { text-align:left; padding:0; margin:0; }
   .study-ui .top-actions { gap:3px; }
   .study-ui .masthead .study-icon-button { width:30px; height:34px; border-radius:9px; }

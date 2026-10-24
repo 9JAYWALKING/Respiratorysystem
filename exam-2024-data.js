@@ -1253,7 +1253,7 @@ window.EXAM_DATA = {
       "question": "최대 노력으로 숨을 내쉰 후에 폐에 남아 있는 공기의 volume 또는 capacity는?",
       "passage": "",
       "choices": [
-        "Residual volume (TV)",
+        "Residual volume (RV)",
         "Vital capacity (VC)",
         "Expiratory reserve volume (ERV)",
         "Functional residual capacity (FRC)",
@@ -1265,7 +1265,7 @@ window.EXAM_DATA = {
         1
       ],
       "modelAnswer": "1번",
-      "brief": "‘최대 노력으로 내쉰 후 남는 양’이므로 RV다. 정상 호흡에서 조용히 내쉰 뒤 남는 FRC와 끝점을 구별해야 한다. 1번의 명칭 Residual volume은 맞지만 괄호의 TV는 RV의 오기다.",
+      "brief": "최대 노력으로 숨을 내쉰 뒤에도 폐에 남는 공기는 잔기량(Residual volume, RV)이다. 정상 호기말에 남는 FRC와 구별한다. 수정 기록: 1번 선지의 TV를 RV로 수정했다.",
       "multiple": false,
       "examOverride": false,
       "revisionNote": ""
