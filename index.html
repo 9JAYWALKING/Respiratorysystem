@@ -2201,11 +2201,11 @@
           <button class="study-app" type="button" data-quick-wrong><span class="study-app-icon app-wrong" aria-hidden="true">✏️</span><h3>오답 복습</h3><span class="study-app-caption">${wrongQuestionIds().length}문항</span></button>
           <button class="study-app" type="button" data-resp-exams><span class="study-app-icon app-exam" aria-hidden="true">⏱️</span><h3>실전처럼 풀기</h3><span class="study-app-caption">2020–2025</span></button>
           <a class="study-app" href="./mock-1.html" data-resp-mock="1"><span class="study-app-icon app-mock" aria-hidden="true">📝</span><h3>실전 모의고사</h3><span class="study-app-caption">1회 · 126문항</span></a>
+          <a class="study-app" href="./mock-2.html" data-resp-mock="2"><span class="study-app-icon app-mock" aria-hidden="true">📝</span><h3>실전 모의고사</h3><span class="study-app-caption">2회 · 126문항</span></a>
         </div>
         <nav class="study-home-tools" aria-label="개인 도구"><button class="study-app" type="button" data-quick-route="#personal-notes"><span class="study-app-icon app-notes" aria-hidden="true">📒</span><span class="study-app-name">나만의 정리</span></button><button class="study-app" type="button" data-quick-save aria-label="현재 사이트 파일 저장"><span class="study-app-icon app-save" aria-hidden="true">💾</span><span class="study-app-name">파일 저장</span></button></nav>`;
       Object.entries(homeIcons).forEach(([name,paths])=>{
-        const icon=root.querySelector('.app-'+name);
-        if(icon)icon.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'+paths+'</svg>';
+        root.querySelectorAll('.app-'+name).forEach(icon=>{icon.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'+paths+'</svg>';});
       });
       updateQuickReviewLabel(); refreshQuickClock().then(updateQuickReviewLabel);
       root.querySelector('[data-quick-review]').onclick=()=>{const recent=latestStudyCourse(quickClockDate());if(recent)quickNavigate('#lecture-'+recent.course.id);};

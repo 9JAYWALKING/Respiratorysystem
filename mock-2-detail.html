@@ -1,0 +1,17 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>모의고사 2회 상세 해설</title>
+<style>@font-face{font-family:Study;src:url('./assets/fonts/NanumGothic-Regular.woff2') format('woff2');font-display:swap}*{box-sizing:border-box}body{margin:0;background:#fff;color:#29242a;font-family:Study,'Malgun Gothic',sans-serif;line-height:1.8;font-size:16px}main{padding:24px;max-width:820px;margin:auto}h1{font-size:21px;line-height:1.45;color:#62405e;margin:0 0 18px}h2{font-size:17px;margin:25px 0 9px;color:#62405e}.answer{background:#f5eef4;padding:14px 16px;border-radius:12px;white-space:pre-line}.meta{font-size:13px;color:#756d76;margin-bottom:6px}p{margin:8px 0 16px}ol{padding-left:27px}li{padding:7px 0}li strong{display:block;line-height:1.5}a{color:#754f71;text-underline-offset:3px}.links{display:flex;gap:8px;flex-wrap:wrap}.links a{border:1px solid #ded2dc;border-radius:9px;padding:5px 11px;text-decoration:none}.credit{font-size:13px;color:#777;border-top:1px solid #eee;margin-top:26px;padding-top:12px}@media(max-width:600px){main{padding:16px}body{font-size:15px}}</style>
+<main id="content"></main><script src="./mock-2-data.js?v=2-20261025"></script><script>
+const root=document.getElementById('content');const n=Number(new URLSearchParams(location.search).get('n'));const q=window.EXAM_DATA.questions.find(x=>x.examNumber===n);
+function tag(name,text,parent=root,cls){const e=document.createElement(name);e.textContent=text;if(cls)e.className=cls;parent.append(e);return e;}
+function link(parent,text,url){const a=tag('a',text,parent);a.href=url;a.target='_blank';a.rel='noopener';return a;}
+if(!q){tag('h1','문항을 찾을 수 없습니다.');}else{
+ tag('div',q.currentProfessor+' · '+q.lectureId+'강 '+q.lectureTitle,root,'meta');tag('h1','문제 '+n+' 해설');
+ tag('div',q.choices.length?'정답: '+q.answerIndices.map(i=>i+'. '+q.choices[i-1]).join(' / '):'모범답안\n'+q.modelAnswer,root,'answer');
+ tag('h2','판단의 핵심');tag('p',q.brief);
+ if(q.choices.length){tag('h2','선지별 해설');const list=tag('ol','');q.choices.forEach((s,i)=>{const li=tag('li','',list);tag('strong',s,li);tag('span',q.choiceNotes[i],li);});}
+ else{tag('p','핵심 항목을 한국어 또는 영어로 작성할 수 있습니다. 자동 채점이 동의어를 놓쳤다면 모범답안과 비교한 뒤 피드백의 채점 정정 기능을 이용하세요.');}
+ tag('h2','이어서 공부하기');const links=tag('div','',root,'links');link(links,q.lectureId+'강 Wiki',q.wikiUrl);(q.sourceJ||[]).forEach(id=>link(links,'J '+id+' 해설','./index.html#jbl-q-'+id));
+ if(q.references?.length){tag('h2','확인 자료');q.references.forEach(r=>link(tag('p',''),r.title,r.url));}
+ if(q.imageCredits?.length){const credit=tag('div','',root,'credit');q.imageCredits.forEach(r=>{tag('p','사진: '+r.author+' · '+r.changes,credit);link(credit,r.title,r.url);tag('span',' · ',credit);link(credit,r.license,r.licenseUrl);});}
+}
+</script></html>
