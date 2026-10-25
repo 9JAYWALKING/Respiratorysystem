@@ -7863,7 +7863,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ②\n\n강의에서는 idiopathic NSIP의 확진에 임상·영상 평가와 폐생검을 함께 요구하므로 HRCT만으로 확진한다는 2번이 틀리다. UIP/IPF는 서로 다른 시기에 생긴 섬유화와 fibroblastic foci가 한 조직에 공존하는 temporal heterogeneity가 특징이다. 5번의 ‘같은 시기에 나타난다’는 한 검체에서 함께 관찰된다는 뜻이면 가능하지만, 병변이 동시에 발생했다는 뜻이면 역시 틀리므로 표현에 주의해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\n\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. Idiopathic NSIP를 정할 때는 임상·HRCT·필요한 조직검사와 MDD를 함께 사용한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n=== 선지별 해설 ===\n* 1번 · 비특이 사이질폐렴은 ground glass opacity가 보인다.: NSIP에서는 양측 하폐야 GGO가 흔하고 망상음영·traction bronchiectasis가 동반될 수 있다.\n* 2번 · 비특이 사이질폐렴은 HRCT로 확진이 가능하다.: 출제 의도상 오답이다. Idiopathic NSIP는 HRCT 소견만으로 확정하지 않고 원인 조사·임상·필요한 조직검사와 MDD를 종합한다.\n* 3번 · 비특이 사이질폐렴은 BAL상 림프구가 우세하다: BAL 림프구 증가는 NSIP를 지지할 수 있다. 모든 환자에서 반드시 나타나거나 단독 확진 기준이 되는 것은 아니다.\n* 4번 · 특발 폐섬유증은 병리 소견상 Temporal heterogeneity가 특징적 소견이다.: UIP/IPF의 특징이다. 활발한 fibroblastic focus와 오래된 섬유화가 서로 다른 나이의 병변으로 함께 존재한다.\n* 5번 · 특발 폐섬유증은 fibroblastic focus와 honeycombing이 같은 시기에 나타난다: 표현이 모호하다. 한 검체에서 함께 관찰된다는 의미는 맞지만 동시에 발생했다는 의미는 틀리다. 이 복원문은 2번만 유일한 오답이라고 단정하기 어렵다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ②\n\n강의에서는 idiopathic NSIP의 확진에 임상·영상 평가와 폐생검을 함께 요구하므로 HRCT만으로 확진한다는 2번이 틀리다. UIP/IPF는 서로 다른 시기에 생긴 섬유화와 fibroblastic foci가 한 조직에 공존하는 temporal heterogeneity가 특징이다. 5번의 ‘같은 시기에 나타난다’는 한 검체에서 함께 관찰된다는 뜻이면 가능하지만, 병변이 동시에 발생했다는 뜻이면 역시 틀리므로 표현에 주의해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. '''Idiopathic NSIP의 확진에는 폐생검으로 NSIP pattern을 확인하고 이차성 원인을 배제하는 과정이 필요하다.''' HRCT의 GGO·subpleural sparing은 패턴을 시사하는 단서다. 임상·영상·병리를 MDD에서 종합한다. 이미 결체조직질환이 확인된 CTD-ILD의 진단에서는 폐생검을 일률적으로 시행하지 않는다는 점과 적용 대상이 다르다.\n\n치료는 steroid·면역억제제와 원인 질환 조절을 중심으로 하고, 진행성 섬유화가 나타나면 항섬유화 치료를 검토한다. GERD·폐고혈압 치료, 산소와 재활도 함께 시행한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n=== 선지별 해설 ===\n* 1번 · 비특이 사이질폐렴은 ground glass opacity가 보인다.: NSIP에서는 양측 하폐야 GGO가 흔하고 망상음영·traction bronchiectasis가 동반될 수 있다.\n* 2번 · 비특이 사이질폐렴은 HRCT로 확진이 가능하다.: 출제 의도상 오답이다. Idiopathic NSIP는 HRCT 소견만으로 확정하지 않고 원인 조사·임상·폐생검으로 확인한 NSIP pattern·이차 원인 배제와 MDD를 종합한다.\n* 3번 · 비특이 사이질폐렴은 BAL상 림프구가 우세하다: BAL 림프구 증가는 NSIP를 지지할 수 있다. 모든 환자에서 반드시 나타나거나 단독 확진 기준이 되는 것은 아니다.\n* 4번 · 특발 폐섬유증은 병리 소견상 Temporal heterogeneity가 특징적 소견이다.: UIP/IPF의 특징이다. 활발한 fibroblastic focus와 오래된 섬유화가 서로 다른 나이의 병변으로 함께 존재한다.\n* 5번 · 특발 폐섬유증은 fibroblastic focus와 honeycombing이 같은 시기에 나타난다: 표현이 모호하다. 한 검체에서 함께 관찰된다는 의미는 맞지만 동시에 발생했다는 의미는 틀리다. 이 복원문은 2번만 유일한 오답이라고 단정하기 어렵다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 2026 강의록 42강 69–79쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -7888,11 +7888,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "NSIP는 비교적 균일한 염증과 섬유화다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 69–79쪽"
       }
     },
     {
@@ -7920,7 +7921,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n강의는 pirfenidone과 nintedanib을 권고하는 항섬유화제로 제시한다. 이미 생긴 섬유화를 정상 폐로 되돌리는 약이 아니라 폐기능 감소 속도를 늦추는 약이다. Prednisone·azathioprine·NAC 삼제요법과 steroid 단독요법, bosentan·ambrisentan은 이 치료로 선택하지 않으며 PPI를 폐기능 향상 목적으로 쓰지도 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF 치료에서는 질환의 진행을 늦추는 것과 환자의 생활을 지지하는 것을 함께 한다.\n\n||= 치료 ||= 역할·기억할 점 ||\n|| '''Pirfenidone''' || 항섬유화 치료; 위장관 증상·광과민 반응·간기능 모니터링 ||\n|| '''Nintedanib''' || Tyrosine kinase inhibitor 계열 항섬유화 치료; 설사·간기능 모니터링 ||\n|| 산소·재활 || 저산소혈증 교정, 운동능력과 생활 기능 유지 ||\n|| 금연·예방접종·동반질환 관리 || 추가 폐손상과 합병증 감소 ||\n|| 폐이식 평가 || 적절한 환자에서 진행 단계와 이식 시기를 함께 평가 ||\n\n\"\"항섬유화제의 목표는 이미 생긴 흉터를 없애는 것이 아니라 FVC 감소와 질환 진행의 속도를 늦추는 것이다.\"\"\n\n위식도역류가 있으면 해당 질환의 적응증에 따라 치료한다. PPI를 처방하는 이유와 IPF 자체를 치료하는 이유는 따로 판단한다. 안정기 IPF에 과거의 prednisone·azathioprine·NAC 병용요법을 적용하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · Prednisone, Azathioprine, N-acetylcysteine 병용 요법을 한다.: 과거에 사용되던 삼제요법으로, 안정기 IPF의 표준 치료로 사용하지 않는다. 임상시험에서 위해가 확인된 조합이다.\n* 2번 · Pirfenidone, nintedanib이 강력하게 권장된다: 두 약제는 IPF의 항섬유화 치료다. FVC 감소 속도를 늦춘다. 선택지의 “강력하게”를 GRADE의 strong recommendation이라는 엄밀한 등급으로 외우지는 않는다.\n* 3번 · PPI는 폐기능 향상에 도움이 된다: PPI는 GERD 등 별도 적응증에 따라 사용한다. IPF의 폐기능 향상을 목적으로 일률적으로 처방하지 않는다.\n* 4번 · corticosteroid는 치료에 도움이 된다: 안정기 IPF의 장기 치료로 steroid 단독요법을 사용하지 않는다. 급성 악화에서 고려하는 처치와 나누어 생각한다.\n* 5번 · Bosentan, ambrisentan을 사용한다.: Endothelin receptor antagonist는 IPF의 항섬유화 표준 치료가 아니다. 특히 ambrisentan은 IPF에서 선택하지 않는다.\n\n[[42강#항섬유화제로 폐기능 감소 속도를 늦춘다|Wiki · 항섬유화제로 폐기능 감소 속도를 늦춘다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n강의는 pirfenidone과 nintedanib을 권고하는 항섬유화제로 제시한다. 이미 생긴 섬유화를 정상 폐로 되돌리는 약이 아니라 폐기능 감소 속도를 늦추는 약이다. Prednisone·azathioprine·NAC 삼제요법과 steroid 단독요법, bosentan·ambrisentan은 이 치료로 선택하지 않으며 PPI를 폐기능 향상 목적으로 쓰지도 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF 치료에서는 질환의 진행을 늦추는 것과 환자의 생활을 지지하는 것을 함께 한다.\n\n||= 치료 ||= 역할·기억할 점 ||\n|| '''Pirfenidone''' || 항섬유화 치료; 위장관 증상·광과민 반응·간기능 모니터링 ||\n|| '''Nintedanib''' || Tyrosine kinase inhibitor 계열 항섬유화 치료; 설사·간기능 모니터링 ||\n|| 산소·재활 || 저산소혈증 교정, 운동능력과 생활 기능 유지 ||\n|| 금연·예방접종·동반질환 관리 || 추가 폐손상과 합병증 감소 ||\n|| 폐이식 평가 || 적절한 환자에서 진행 단계와 이식 시기를 함께 평가 ||\n\n\"\"항섬유화제의 목표는 이미 생긴 흉터를 없애는 것이 아니라 FVC 감소와 질환 진행의 속도를 늦추는 것이다.\"\"\n\n위식도역류가 있으면 해당 질환의 적응증에 따라 치료한다. PPI를 처방하는 이유와 IPF 자체를 치료하는 이유는 따로 판단한다. 안정기 IPF에 과거의 prednisone·azathioprine·NAC 병용요법을 적용하지 않는다.\n\n=== 선지별 해설 ===\n* 1번 · Prednisone, Azathioprine, N-acetylcysteine 병용 요법을 한다.: 과거에 사용되던 삼제요법으로, 안정기 IPF의 표준 치료로 사용하지 않는다. 임상시험에서 위해가 확인된 조합이다.\n* 2번 · Pirfenidone, nintedanib이 강력하게 권장된다: 두 약제는 IPF의 항섬유화 치료다. FVC 감소 속도를 늦춘다. 67쪽에서 두 약제를 “강력 권장”으로 제시하므로 이 문항은 해당 강의 표현에 맞춰 2번을 고른다.\n* 3번 · PPI는 폐기능 향상에 도움이 된다: PPI는 GERD 등 별도 적응증에 따라 사용한다. IPF의 폐기능 향상을 목적으로 일률적으로 처방하지 않는다.\n* 4번 · corticosteroid는 치료에 도움이 된다: 안정기 IPF의 장기 치료로 steroid 단독요법을 사용하지 않는다. 급성 악화에서 고려하는 처치와 나누어 생각한다.\n* 5번 · Bosentan, ambrisentan을 사용한다.: Endothelin receptor antagonist는 IPF의 항섬유화 표준 치료가 아니다. 특히 ambrisentan은 IPF에서 선택하지 않는다.\n\n[[42강#항섬유화제로 폐기능 감소 속도를 늦춘다|Wiki · 항섬유화제로 폐기능 감소 속도를 늦춘다]]\n\n~~근거: 2026 강의록 42강 62–67쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -7945,11 +7946,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "항섬유화제로 폐기능 감소 속도를 늦춘다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 62–67쪽"
       }
     },
     {
@@ -7975,7 +7977,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ②\n\nTGF-β1은 fibroblast 활성화와 세포외기질 축적을 촉진하는 핵심 섬유화 신호다. IPF는 염증이 반드시 먼저 생겨야 하는 병이 아니라 반복되는 상피 손상과 비정상적인 복구가 중심이다. 3번은 AT2가 AT1으로 분화해 상피를 회복하는 과정의 실패를 뜻했다면 맞는 설명이지만, 현재 복원문에는 전환 방향이 빠져 있어 2번을 가장 명확한 답으로 둔다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF에서는 유전적 소인과 노화 등을 배경으로 폐포상피에 손상이 반복된다. 정상적인 상피 회복 대신 fibroblast와 myofibroblast가 활성화되고 세포외기질이 쌓이면서 폐가 굳는다.\n\n* '''AT2 세포'''는 손상된 폐포상피를 회복하고 AT1 세포로 분화하는 데 관여한다.\n* '''TGF-β1'''은 섬유아세포 활성화와 기질 축적을 촉진하는 중요한 신호다.\n* Telomere 관련 TERT·TERC 이상과 MUC5B promoter 변이 등이 감수성과 연결된다.\n\n> 상피 손상 → 불완전한 재생·비정상 복구 → 섬유아세포 활성화 → 기질 축적 → 폐구조 변형.\n\n이 흐름 때문에 안정기 IPF의 치료는 '''항섬유화 치료'''를 중심으로 잡는다.\n\n=== 선지별 해설 ===\n* 1번 · 염증으로 인한 섬유화가 필수적이다: 염증이 선행해야만 섬유화가 생기는 단순한 모형이 아니다. 상피 손상과 비정상 복구가 IPF의 중심이다.\n* 2번 · TGF b1이 섬유화한다: TGF-β1은 fibroblast·myofibroblast 활성과 기질 축적을 촉진하는 대표 신호다.\n* 3번 · Type 1 cell 손상 후 type 2의 전환 실패: AT2가 AT1으로 분화하여 손상된 상피를 복구하는 과정의 실패라는 뜻이라면 성립한다. 현재 선지는 전환의 주체·방향이 빠져 있어 단일 답을 엄밀하게 확정하기 어렵다.\n\n[[42강#상피의 비정상적인 복구가 섬유화를 만든다|Wiki · 상피의 비정상적인 복구가 섬유화를 만든다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ②\n\nTGF-β1은 fibroblast 활성화와 세포외기질 축적을 촉진하는 핵심 섬유화 신호다. IPF는 염증이 반드시 먼저 생겨야 하는 병이 아니라 반복되는 상피 손상과 비정상적인 복구가 중심이다. 3번은 AT2가 AT1으로 분화해 상피를 회복하는 과정의 실패를 뜻했다면 맞는 설명이지만, 현재 복원문에는 전환 방향이 빠져 있어 2번을 가장 명확한 답으로 둔다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF에서는 유전적 소인과 노화 등을 배경으로 폐포상피에 손상이 반복된다. 정상적인 상피 회복 대신 fibroblast와 myofibroblast가 활성화되고 세포외기질이 쌓이면서 폐가 굳는다.\n\n* '''AT2 세포'''는 손상된 폐포상피를 회복하고 AT1 세포로 분화하는 데 관여한다.\n* '''TGF-β1'''은 섬유아세포 활성화와 기질 축적을 촉진하는 중요한 신호다.\n* Telomere 관련 TERT·TERC 이상과 MUC5B promoter 변이 등이 감수성과 연결된다.\n\n> 상피 손상 → 불완전한 재생·비정상 복구 → 섬유아세포 활성화 → 기질 축적 → 폐구조 변형.\n\n이 흐름 때문에 안정기 IPF의 치료는 '''항섬유화 치료'''를 중심으로 잡는다.\n\n=== 선지별 해설 ===\n* 1번 · 염증으로 인한 섬유화가 필수적이다: 염증이 선행해야만 섬유화가 생기는 단순한 모형이 아니다. 상피 손상과 비정상 복구가 IPF의 중심이다.\n* 2번 · TGF b1이 섬유화한다: TGF-β1은 fibroblast·myofibroblast 활성과 기질 축적을 촉진하는 대표 신호다.\n* 3번 · Type 1 cell 손상 후 type 2의 전환 실패: AT2가 AT1으로 분화하여 손상된 상피를 복구하는 과정의 실패라는 뜻이라면 성립한다. 현재 선지는 전환의 주체·방향이 빠져 있어 단일 답을 엄밀하게 확정하기 어렵다.\n\n[[42강#상피의 비정상적인 복구가 섬유화를 만든다|Wiki · 상피의 비정상적인 복구가 섬유화를 만든다]]\n\n~~근거: 2026 강의록 42강 23–28쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -8000,11 +8002,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "상피의 비정상적인 복구가 섬유화를 만든다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 23–28쪽"
       }
     },
     {
@@ -8033,7 +8036,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ②·③ (복수정답)",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②·③ (복수정답)\n\n현재 문장 그대로라면 2·3번이 모두 부정확하다. PPF는 non-IPF 섬유화성 ILD에서 최근 1년간 증상·생리·영상 악화 중 두 영역을 충족하므로 증상 악화가 반드시 있어야 하는 것은 아니다. 생리 기준은 TLC가 아니라 FVC 감소 또는 Hb 보정 DLCO 감소이며, 둘 모두를 요구하지 않는다. 강의 표의 수치는 FVC 절대 5% 및 DLCO 절대 10% 수준이다. 3번이 주된 출제 의도로 보이나 단일 정답은 성립하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nPPF는 IPF 이외의 섬유화성 ILD가 진행하는 양상을 정의한다. 영상에서 섬유화가 있고, 다른 원인으로 설명되지 않는 변화가 '''최근 1년 이내''' 아래 세 영역 중 '''둘 이상'''에 해당하면 판단한다.\n\n||= 영역 ||= 기억할 기준 ||\n|| 증상 || 호흡곤란 등 호흡기 증상 악화 ||\n|| 생리 || '''FVC 예측치 대비 절대 ≥5%p 감소 또는 Hb 보정 DLCO 절대 ≥10%p 감소''' ||\n|| 영상 || Traction bronchiectasis 증가, 새 traction을 동반한 GGO, 새로운 미세 망상음영, 망상음영의 범위·거칠기 증가, honeycombing 증가, 폐엽 용적 감소 ||\n\n> ‘절대 5%p 감소’는 FVC 70% predicted에서 65% predicted로 떨어지는 변화다. 생리 영역에서 두 검사가 모두 떨어져도 영역 수는 하나로 센다.\n\n증상+생리, 증상+영상, 생리+영상의 조합이 가능하다. 우선 원인 질환의 표준 치료와 노출 관리를 하고, 진행성 섬유화가 지속되면 nintedanib 등 항섬유화 치료를 검토한다.\n\n=== 선지별 해설 ===\n* 1번 · HRCT 상 명확한 섬유화가 관찰되는 non IPF-ILD에서 진단된다.: 맞다. IPF 이외의 ILD에서 영상상 폐섬유화가 있는 환자를 대상으로 진행 양상을 판단한다.\n* 2번 · 1년 안에 호흡곤란 등의 증상이 악화되어야 한다.: 틀리다. 증상·생리·영상 중 두 영역이므로 생리와 영상이 악화하면 증상 악화가 없어도 충족할 수 있다.\n* 3번 · 생리적 증상 악화로는 TLC 5% 이상 절대적 감소와 DLco 10% 이상의 절대적 감소를 의미한다.: 틀리다. TLC가 아니라 FVC 예측치 대비 절대 ≥5%p 감소 또는 Hb 보정 DLCO 절대 ≥10%p 감소다. AND가 아니라 OR이며 둘 다 생리 영역에 속한다.\n* 4번 · HRCT 상 섬유화가 안정적이거나 완화되더라도 임상적으로 PPF로 진단이 가능하다.: 맞다. 증상과 생리 영역이 악화하면 영상 악화 없이도 두 영역을 충족한다. 다른 원인으로 설명되지 않아야 한다.\n* 5번 · 임상적 증상, 생리적 증상, 영상적 증상 중 2가지를 만족하면 PPF로 진단이 가능하다.: 맞다. 최근 1년 이내 세 영역 중 둘 이상을 충족한다. 검사 두 개가 악화되었다고 항상 두 영역인 것은 아니다.\n\n[[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|Wiki · PPF는 최근 1년의 세 영역 중 두 영역이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②·③ (복수정답)\n\n현재 문장 그대로라면 2·3번이 모두 부정확하다. PPF는 non-IPF 섬유화성 ILD에서 최근 1년간 증상·생리·영상 악화 중 두 영역을 충족하므로 증상 악화가 반드시 있어야 하는 것은 아니다. 생리 기준은 TLC가 아니라 FVC 감소 또는 Hb 보정 DLCO 감소이며, 둘 모두를 요구하지 않는다. 124쪽 원문 표의 수치는 FVC 예측치 대비 절대 ≥5%p 또는 Hb 보정 DLCO 절대 ≥10%p 감소다. 3번이 주된 출제 의도로 보이나 단일 정답은 성립하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nPPF는 IPF 이외의 섬유화성 ILD가 진행하는 양상을 정의한다. 영상에서 섬유화가 있고, 다른 원인으로 설명되지 않는 변화가 '''최근 1년 이내''' 아래 세 영역 중 '''둘 이상'''에 해당하면 판단한다.\n\n||= 영역 ||= 기억할 기준 ||\n|| 증상 || 호흡곤란 등 호흡기 증상 악화 ||\n|| 생리 || '''FVC 예측치 대비 절대 ≥5%p 감소 또는 Hb 보정 DLCO 절대 ≥10%p 감소''' ||\n|| 영상 || Traction bronchiectasis 증가, 새 traction을 동반한 GGO, 새로운 미세 망상음영, 망상음영의 범위·거칠기 증가, honeycombing 증가, 폐엽 용적 감소 ||\n\n> ‘절대 5%p 감소’는 FVC 70% predicted에서 65% predicted로 떨어지는 변화다. 생리 영역에서 두 검사가 모두 떨어져도 영역 수는 하나로 센다.\n\n증상+생리, 증상+영상, 생리+영상의 조합이 가능하다. 우선 원인 질환의 표준 치료와 노출 관리를 하고, 진행성 섬유화가 지속되면 nintedanib 등 항섬유화 치료를 검토한다.\n\n=== 선지별 해설 ===\n* 1번 · HRCT 상 명확한 섬유화가 관찰되는 non IPF-ILD에서 진단된다.: 맞다. IPF 이외의 ILD에서 영상상 폐섬유화가 있는 환자를 대상으로 진행 양상을 판단한다.\n* 2번 · 1년 안에 호흡곤란 등의 증상이 악화되어야 한다.: 틀리다. 증상·생리·영상 중 두 영역이므로 생리와 영상이 악화하면 증상 악화가 없어도 충족할 수 있다.\n* 3번 · 생리적 증상 악화로는 TLC 5% 이상 절대적 감소와 DLco 10% 이상의 절대적 감소를 의미한다.: 틀리다. TLC가 아니라 FVC 예측치 대비 절대 ≥5%p 감소 또는 Hb 보정 DLCO 절대 ≥10%p 감소다. AND가 아니라 OR이며 둘 다 생리 영역에 속한다.\n* 4번 · HRCT 상 섬유화가 안정적이거나 완화되더라도 임상적으로 PPF로 진단이 가능하다.: 맞다. 증상과 생리 영역이 악화하면 영상 악화 없이도 두 영역을 충족한다. 다른 원인으로 설명되지 않아야 한다.\n* 5번 · 임상적 증상, 생리적 증상, 영상적 증상 중 2가지를 만족하면 PPF로 진단이 가능하다.: 맞다. 최근 1년 이내 세 영역 중 둘 이상을 충족한다. 검사 두 개가 악화되었다고 항상 두 영역인 것은 아니다.\n\n[[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|Wiki · PPF는 최근 1년의 세 영역 중 두 영역이다]]\n\n~~근거: 2026 강의록 42강 120–125쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -8058,11 +8061,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "PPF는 최근 1년의 세 영역 중 두 영역이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 120–125쪽"
       }
     },
     {
@@ -8091,7 +8095,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ②·③ (복수정답)",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②·③ (복수정답)\n\n과민성 폐렴은 주로 III·IV형 면역반응과 관련되고 BAL 림프구 증가 및 CD4/CD8 감소가 강의의 특징이다. Sarcoidosis는 Th1·CD4 T세포 반응과 비건락성 육아종, 증가한 CD4/CD8 비가 대표적이므로 2·3번 모두 맞는다. IgE·호산구 중심의 I형 알레르기 반응과 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다'''\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n'''HP는 들이마신 항원과 섬유화 여부를 찾는다'''\nHypersensitivity pneumonitis(HP)는 반복적으로 흡입한 항원에 대한 면역 반응이다. 조류, 곰팡이, 농작물·건초, 가습기 등 생활·직업 환경을 구체적으로 조사한다. Thermophilic actinomycetes는 farmer's lung의 전통적인 대표 항원이다.\n\n* 면역: 항원 특이 IgG와 세포매개 면역이 관여한다.\n* BAL: 림프구 증가, CD8 우세와 CD4/CD8 감소 경향.\n* 비섬유화성 영상: centrilobular nodule, GGO, mosaic attenuation, 호기 CT의 air trapping.\n* '''Three-density pattern''': GGO 부위, 정상 폐, 공기가 갇힌 저음영 폐가 섞인 모습.\n* 예후: '''섬유화 동반 여부'''와 진행 정도가 중요하다.\n\n\n\n\nSerum precipitin/항원 특이 IgG는 해당 항원에 노출되었다는 근거다. 임상·영상·BAL과 결합하여 의미를 판단한다. 치료의 출발점은 '''원인 항원 회피'''이며 염증 활성도와 중증도에 따라 steroid를 고려한다. 섬유화가 진행하면 [[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|PPF 평가와 치료]]로 이어진다.\n\n=== 선지별 해설 ===\n* 1번 · 사르코이드증은 type 1 pneumonitis로, IgE 매개 반응에 의해 발생한다.: Sarcoidosis는 CD4·Th1 중심의 육아종성 면역 반응으로 읽는다. IgE 중심 I형 반응이 아니다.\n* 2번 · 과민성 폐렴은 type 4 T-cell mediated hypersensitivity로, BAL에서 CD4+/CD8+가 감소한다.: 강의의 HP 특징에 맞는다. III·IV형 반응과 BAL 림프구 증가, CD4/CD8 감소 경향을 연결한다. 비율은 환자마다 달라질 수 있다.\n* 3번 · 사르코이드증은 과도한 Th1 반응으로, 비건락성 육아종이 형성된다.: Sarcoidosis의 Th1 반응과 비건락성 육아종이라는 핵심 조합이다.\n* 4번 · 과민성 폐렴은 호산구 침윤이 나타나며, BAL에서 호산구가 증가한다.: HP의 대표 BAL 소견은 lymphocytosis다. 호산구 증가가 중심인 EP와 다르다.\n* 5번 · 사르코이드증은 CD8+ 증가로, CD4+/CD8+가 감소한다.: Sarcoidosis는 CD4 우세와 CD4/CD8 증가 경향이다.\n\n[[43강#HP는 들이마신 항원과 섬유화 여부를 찾는다|Wiki · HP는 들이마신 항원과 섬유화 여부를 찾는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②·③ (복수정답)\n\n과민성 폐렴은 주로 III·IV형 면역반응과 관련되고 BAL 림프구 증가 및 CD4/CD8 감소가 강의의 특징이다. Sarcoidosis는 Th1·CD4 T세포 반응과 비건락성 육아종, 증가한 CD4/CD8 비가 대표적이므로 2·3번 모두 맞는다. IgE·호산구 중심의 I형 알레르기 반응과 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nHypersensitivity pneumonitis(HP)는 반복적으로 흡입한 항원에 대한 면역 반응이다. 조류, 곰팡이, 농작물·건초, 가습기 등 생활·직업 환경을 구체적으로 조사한다. Thermophilic actinomycetes는 farmer's lung의 전통적인 대표 항원이다.\n\n* 면역: 항원 특이 IgG와 세포매개 면역이 관여한다.\n* BAL: 림프구 증가, CD8 우세와 CD4/CD8 감소 경향.\n* 비섬유화성 영상: centrilobular nodule, GGO, mosaic attenuation, 호기 CT의 air trapping.\n* '''Three-density pattern''': GGO 부위, 정상 폐, 공기가 갇힌 저음영 폐가 섞인 모습.\n* 예후: '''섬유화 동반 여부'''와 진행 정도가 중요하다.\n\nSerum precipitin/항원 특이 IgG는 해당 항원에 노출되었다는 근거다. 임상·영상·BAL과 결합하여 의미를 판단한다. 치료의 출발점은 '''원인 항원 회피'''이며 염증 활성도와 중증도에 따라 steroid를 고려한다. 섬유화가 진행하면 [[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|PPF 평가와 치료]]로 이어진다.\n\n=== 선지별 해설 ===\n* 1번 · 사르코이드증은 type 1 pneumonitis로, IgE 매개 반응에 의해 발생한다.: Sarcoidosis는 CD4·Th1 중심의 육아종성 면역 반응으로 읽는다. IgE 중심 I형 반응이 아니다.\n* 2번 · 과민성 폐렴은 type 4 T-cell mediated hypersensitivity로, BAL에서 CD4+/CD8+가 감소한다.: 강의의 HP 특징에 맞는다. III·IV형 반응과 BAL 림프구 증가, CD4/CD8 감소 경향을 연결한다. 비율은 환자마다 달라질 수 있다.\n* 3번 · 사르코이드증은 과도한 Th1 반응으로, 비건락성 육아종이 형성된다.: Sarcoidosis의 Th1 반응과 비건락성 육아종이라는 핵심 조합이다.\n* 4번 · 과민성 폐렴은 호산구 침윤이 나타나며, BAL에서 호산구가 증가한다.: HP의 대표 BAL 소견은 lymphocytosis다. 호산구 증가가 중심인 EP와 다르다.\n* 5번 · 사르코이드증은 CD8+ 증가로, CD4+/CD8+가 감소한다.: Sarcoidosis는 CD4 우세와 CD4/CD8 증가 경향이다.\n\n[[43강#HP는 들이마신 항원과 섬유화 여부를 찾는다|Wiki · HP는 들이마신 항원과 섬유화 여부를 찾는다]]\n\n~~근거: 2026 강의록 43강 33–47·55–70쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -8116,11 +8120,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "HP는 들이마신 항원과 섬유화 여부를 찾는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 33–47·55–70쪽"
       }
     },
     {
@@ -8149,7 +8154,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ④·⑤ (복수정답)",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④·⑤ (복수정답)\n\nCEP에서는 말초혈액과 BAL의 호산구 증가가 중요하므로 4번이 틀리다. 천식은 CEP에 흔히 동반되지만 AEP의 전형적 특징은 아니므로 두 질환 모두 천식을 동반한다는 5번도 틀리다. AEP는 급성 호흡부전과 빠른 steroid 반응, 낮은 재발률이 특징이고 CEP는 치료 중단 후 재발을 주의한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐에 호산구가 모이는 경우 약물·기생충·진균 알레르기·혈관염 등의 원인을 평가한다. 그 뒤 급성 또는 만성의 특발성 호산구성 폐렴을 판단한다.\n\n||= 항목 ||= AEP ||= CEP ||\n|| 경과 || 급성 발열·빠른 호흡부전 || 수주 이상의 기침·발열·호흡곤란 ||\n|| 병력 || 새 흡연·흡연 양상 변화 등이 단서 || 천식 동반이 흔함 ||\n|| 호산구 || BAL 호산구 '''>25%'''; 초기 혈액 호산구는 낮을 수 있음 || 혈액·BAL 호산구 증가가 뚜렷함 ||\n|| 영상 || 광범위 침윤·GGO, 흉수 가능 || 말초·상폐야의 consolidation ||\n|| 치료 경과 || Steroid 반응 양호, 재발 드묾 || Steroid 반응 양호, 감량·중단 시 재발 흔함 ||\n\n호흡부전의 중증도는 급성형에서 특히 높을 수 있다. CEP는 좋아진 뒤에도 충분히 추적하며 감량한다.\n\n=== 선지별 해설 ===\n* 1번 · 급성형 (AEP)은 발병 후 7일 이내 급성 호흡부전을 보이며, BAL 호산구가 25% 이상이다: 강의는 급격한 AEP의 경과와 BAL 호산구 약 25% 이상의 기준을 제시한다. 다른 진단 정의에서는 급성 경과를 1개월 이내로 잡기도 한다.\n* 2번 · 만성형(CEP)은 주로 중년 여성에서 발생하며, 말초폐야 중심 침윤이 흔하다.: CEP의 대표 임상·영상 특징이다. 천식과 혈액 호산구 증가도 함께 기억한다.\n* 3번 · AEP는 스테로이드 반응이 빠르고, 재발이 거의 없다.: AEP는 steroid에 빠르게 반응하고 치료 후 재발이 드물다.\n* 4번 · CEP는 말초혈액 호산구증가증이 드물며, BAL에서 림프구 우세 소견이 특징이다.: 틀리다. CEP에서는 혈액과 BAL의 호산구 증가가 중요하다.\n* 5번 · 두 질환 모두 임상상으로 천식과 동반된다.: 틀리다. 천식 동반은 CEP의 중요한 특징이지만 AEP의 전형적 조건은 아니다.\n\n[[43강#호산구성 폐렴은 시간 경과와 재발을 기억한다|Wiki · 호산구성 폐렴은 시간 경과와 재발을 기억한다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④·⑤ (복수정답)\n\nCEP에서는 말초혈액과 BAL의 호산구 증가가 중요하므로 4번이 틀리다. 천식은 CEP에 흔히 동반되지만 AEP의 전형적 특징은 아니므로 두 질환 모두 천식을 동반한다는 5번도 틀리다. AEP는 급성 호흡부전과 빠른 steroid 반응, 낮은 재발률이 특징이고 CEP는 치료 중단 후 재발을 주의한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐에 호산구가 모이는 경우 약물·기생충·진균 알레르기·혈관염 등의 원인을 평가한다. 그 뒤 급성 또는 만성의 특발성 호산구성 폐렴을 판단한다.\n\n||= 항목 ||= AEP ||= CEP ||\n|| 경과 || 급성 발열·빠른 호흡부전 || 수주 이상의 기침·발열·호흡곤란 ||\n|| 병력 || 새 흡연·흡연 양상 변화 등이 단서 || 천식 동반이 흔함 ||\n|| 호산구 || BAL 호산구 '''>25%'''; 초기 혈액 호산구는 낮을 수 있음 || 혈액·BAL 호산구 증가가 뚜렷함 ||\n|| 영상 || 광범위 침윤·GGO, 흉수 가능 || 말초·상폐야의 consolidation ||\n|| 치료 경과 || Steroid 반응 양호, 재발 드묾 || Steroid 반응 양호, 감량·중단 시 재발 흔함 ||\n\n호흡부전의 중증도는 급성형에서 특히 높을 수 있다. CEP는 좋아진 뒤에도 충분히 추적하며 감량한다.\n\n=== 선지별 해설 ===\n* 1번 · 급성형 (AEP)은 발병 후 7일 이내 급성 호흡부전을 보이며, BAL 호산구가 25% 이상이다: 강의는 급격한 AEP의 경과와 BAL 호산구 약 25% 이상의 기준을 제시한다. 다른 진단 정의에서는 급성 경과를 1개월 이내로 잡기도 한다.\n* 2번 · 만성형(CEP)은 주로 중년 여성에서 발생하며, 말초폐야 중심 침윤이 흔하다.: CEP의 대표 임상·영상 특징이다. 천식과 혈액 호산구 증가도 함께 기억한다.\n* 3번 · AEP는 스테로이드 반응이 빠르고, 재발이 거의 없다.: AEP는 steroid에 빠르게 반응하고 치료 후 재발이 드물다.\n* 4번 · CEP는 말초혈액 호산구증가증이 드물며, BAL에서 림프구 우세 소견이 특징이다.: 틀리다. CEP에서는 혈액과 BAL의 호산구 증가가 중요하다.\n* 5번 · 두 질환 모두 임상상으로 천식과 동반된다.: 틀리다. 천식 동반은 CEP의 중요한 특징이지만 AEP의 전형적 조건은 아니다.\n\n[[43강#호산구성 폐렴은 시간 경과와 재발을 기억한다|Wiki · 호산구성 폐렴은 시간 경과와 재발을 기억한다]]\n\n~~근거: 2026 강의록 43강 76–86쪽.~~~",
       "images": [],
       "legacyProfessor": "장혜진",
       "professor": "장혜진",
@@ -8174,11 +8179,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "호산구성 폐렴은 시간 경과와 재발을 기억한다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 76–86쪽"
       }
     },
     {
@@ -9902,7 +9908,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\nABPA는 Aspergillus에 대한 과민반응으로, 천식·IgE 상승·호산구 증가와 함께 점액마개 및 중심성 기관지확장증을 보인다. AEP는 steroid 중단 후 재발이 드물고 재발이 흔한 쪽은 CEP이다. PAP의 기본 치료는 전폐세척이며, LAM은 주로 가임기 여성에 발생한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''ABPA는 천식·IgE·중심성 기관지확장증이다'''\nABPA는 기도에 존재하는 Aspergillus에 대한 과도한 알레르기성 면역 반응이다. 천식 환자에서 반복되는 침윤, 갈색 점액마개, 호산구 증가, 총 IgE 및 Aspergillus 특이 면역 반응이 진단의 단서다.\n\n\"\"천식 + Aspergillus 감작 + IgE 상승 + central bronchiectasis·mucus impaction.\"\"\n\n\n\n\n기도를 채우는 점액은 finger-in-glove 모양으로 보일 수 있다. 치료는 염증 조절과 기도 내 항원 부담 감소를 목표로 한다. 강의에서는 systemic corticosteroid를 중심으로 설명하며, itraconazole 등 항진균제도 상황에 따라 사용할 수 있다. 치료 반응과 재발은 증상·영상·IgE 변화로 추적한다.\n\n'''질환별 암기표'''\n||= 질환 ||= 가장 먼저 묶을 특징 ||= 치료의 중심 ||\n|| Sarcoidosis || BHL·비건락성 육아종·CD4 우세 || 장기 침범과 증상에 따른 관찰 또는 steroid ||\n|| HP || 항원 노출·BAL 림프구·air trapping·섬유화 여부 || 항원 회피 ||\n|| AEP || 급성 호흡부전·BAL 호산구 >25% || Steroid, 재발 드묾 ||\n|| CEP || 천식·말초 침윤·호산구 증가 || Steroid, 재발 추적 ||\n|| ABPA || 천식·IgE·중심성 기관지확장증 || 염증 조절·상황별 항진균 치료 ||\n|| PAP || Anti-GM-CSF·crazy paving·PAS || Whole-lung lavage 등 ||\n|| LAM || 가임기 여성·기흉·유미흉·얇은 벽 낭종 || Sirolimus 적응증 평가 ||\n|| PLCH || 흡연·상폐야 결절과 불규칙 낭종·CD1a || 금연 ||\n\n~~근거: 장혜진 「교원성·과민성·호산구성 폐질환」의 본문·영상 및 수업 필기.~~~\n\n=== 선지별 해설 ===\n* 1번 · 호산구성 폐렴에서 급성은 심한 호흡곤란을 보이고 부신피질호르몬제에 반응이 양호하나 빨리 중단하면 금방 재발한다.: 급성 호흡부전과 좋은 반응은 AEP에 맞지만 조기 중단 후 잦은 재발은 CEP의 특징이다.\n* 2번 · 폐꽈리단백증은 폐포 내에 단백질 성분이 축적되는 질환으로 치료는 부신피질 호르몬제를 사용한다.: PAP는 surfactant 축적과 whole-lung lavage 등을 연결한다. 일반적인 steroid 치료 질환으로 묶지 않는다.\n* 3번 · Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다.: GPA는 PR3/c-ANCA, MPA는 MPO/p-ANCA와 연결한다. 음성인 경우도 있으나 대부분 음성이 특징이라는 설명은 틀리다.\n* 4번 · 폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.: LAM은 주로 가임기 여성이다. PLCH는 젊은 흡연자와 연결한다.\n* 5번 · ABPA는 호산구의 침윤과 기관지내 점액의 축적으로 기관지확장증이 발생하는 것이 특징이다.: 맞다. ABPA의 호산구성 알레르기 반응·점액마개·중심성 기관지확장증을 설명한다.\n\n[[43강#ABPA는 천식·IgE·중심성 기관지확장증이다|Wiki · ABPA는 천식·IgE·중심성 기관지확장증이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\nABPA는 Aspergillus에 대한 과민반응으로, 천식·IgE 상승·호산구 증가와 함께 점액마개 및 중심성 기관지확장증을 보인다. AEP는 steroid 중단 후 재발이 드물고 재발이 흔한 쪽은 CEP이다. PAP의 기본 치료는 전폐세척이며, LAM은 주로 가임기 여성에 발생한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nABPA는 기도에 존재하는 Aspergillus에 대한 과도한 알레르기성 면역 반응이다. 천식 환자에서 반복되는 침윤, 갈색 점액마개, 호산구 증가, 총 IgE 및 Aspergillus 특이 면역 반응이 진단의 단서다.\n\n\"\"천식 + Aspergillus 감작 + IgE 상승 + central bronchiectasis·mucus impaction.\"\"\n\n기도를 채우는 점액은 finger-in-glove 모양으로 보일 수 있다. 치료는 염증 조절과 기도 내 항원 부담 감소를 목표로 한다. 강의에서는 systemic corticosteroid를 중심으로 설명하며, itraconazole 등 항진균제도 상황에 따라 사용할 수 있다. 치료 반응과 재발은 증상·영상·IgE 변화로 추적한다.\n\n=== 선지별 해설 ===\n* 1번 · 호산구성 폐렴에서 급성은 심한 호흡곤란을 보이고 부신피질호르몬제에 반응이 양호하나 빨리 중단하면 금방 재발한다.: 급성 호흡부전과 좋은 반응은 AEP에 맞지만 조기 중단 후 잦은 재발은 CEP의 특징이다.\n* 2번 · 폐꽈리단백증은 폐포 내에 단백질 성분이 축적되는 질환으로 치료는 부신피질 호르몬제를 사용한다.: PAP는 surfactant 축적과 whole-lung lavage 등을 연결한다. 일반적인 steroid 치료 질환으로 묶지 않는다.\n* 3번 · Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다.: GPA는 PR3/c-ANCA, MPA는 MPO/p-ANCA와 연결한다. 음성인 경우도 있으나 대부분 음성이 특징이라는 설명은 틀리다.\n* 4번 · 폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.: LAM은 주로 가임기 여성이다. PLCH는 젊은 흡연자와 연결한다.\n* 5번 · ABPA는 호산구의 침윤과 기관지내 점액의 축적으로 기관지확장증이 발생하는 것이 특징이다.: 맞다. ABPA의 호산구성 알레르기 반응·점액마개·중심성 기관지확장증을 설명한다.\n\n[[43강#ABPA는 천식·IgE·중심성 기관지확장증이다|Wiki · ABPA는 천식·IgE·중심성 기관지확장증이다]]\n\n~~근거: 2026 강의록 43강 78–98쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "장혜진",
@@ -9927,11 +9933,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "ABPA는 천식·IgE·중심성 기관지확장증이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 78–98쪽"
       }
     },
     {
@@ -12802,7 +12809,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n강의가 객혈과 연결해 제시한 ILD 묶음은 Goodpasture syndrome·LAM·PLCH이다. 특히 Goodpasture syndrome은 폐포출혈과 사구체신염을 연결한다. PLCH·DIP·RB-ILD는 객혈보다 흡연과의 연관성을 묻는 별도 묶음이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n객혈·빈혈·양측 폐침윤이 생기면 diffuse alveolar hemorrhage를 생각한다. 객혈이 뚜렷하지 않은 경우도 있다. 혈뇨·단백뇨·신기능 저하가 함께 있으면 폐-신장 증후군의 원인을 찾는다. 폐포 안의 혈액이 CO를 받아들이므로 출혈 때 '''DLCO가 증가'''할 수 있다.\n\n||= 질환 ||= 핵심 조합 ||\n|| Anti-GBM disease/Goodpasture syndrome || 폐포출혈·급속진행성 사구체신염·anti-GBM 항체, 기저막의 선상 Ig 침착 ||\n|| GPA || 상기도 질환·폐결절/공동·사구체신염, PR3-ANCA(c-ANCA) ||\n|| MPA || 폐포출혈·사구체신염, MPO-ANCA(p-ANCA) ||\n|| EGPA || 천식·호산구 증가·전신 혈관염·말초신경병증 ||\n\nGoodpasture syndrome은 혈장교환과 면역억제 치료를 신속히 검토하는 질환이다. ANCA 관련 혈관염도 장기 침범의 중증도에 따라 관해 유도와 유지 치료를 한다.\n\n강의에서 객혈과 연결하는 묶음은 '''Goodpasture syndrome·LAM·PLCH'''다. LAM·PLCH에서도 객혈이 가능하다는 연관을 기억하되, 객혈이 항상 나타나는 필수 소견이라는 뜻은 아니다.\n\nEGPA의 강의상 분류 항목은 천식, 호산구 증가, 신경병증, 이동성 폐침윤, 부비동 이상, 혈관 밖 호산구 침윤이다. 이 전통적인 분류 항목은 특징을 묶는 용도로 익히고, 실제 진단은 감별과 장기 침범 평가를 포함한다.\n\n=== 선지별 해설 ===\n* 1번 · Sarcoidosis, LAM, PLCH: LAM·PLCH의 객혈은 가능하지만 이 문제의 대표 세 질환 묶음에는 Goodpasture가 들어간다.\n* 2번 · Goodpasture, LAM, PLCH: 강의가 객혈과 연결하는 묶음이다. 특히 Goodpasture에서는 폐포출혈과 사구체신염을 함께 확인한다.\n* 3번 · Sarcoidosis, EP, Churg-Strauss: 각 질환의 개별 증상 가능성과 별개로 강의의 대표 객혈 묶음은 Goodpasture·LAM·PLCH다.\n* 4번 · LAM, RA를 제외한 CTD, TS: 결체조직질환을 포괄적으로 섞은 이 조합은 제시된 대표 객혈 묶음과 다르다.\n* 5번 · PLCH, DIP, RB-ILD: PLCH·DIP·RB-ILD는 흡연과 밀접한 질환을 묻는 조합이다.\n\n[[43강#폐포출혈과 신장염은 함께 평가한다|Wiki · 폐포출혈과 신장염은 함께 평가한다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n강의가 객혈과 연결해 제시한 ILD 묶음은 Goodpasture syndrome·LAM·PLCH이다. 특히 Goodpasture syndrome은 폐포출혈과 사구체신염을 연결한다. PLCH·DIP·RB-ILD는 객혈보다 흡연과의 연관성을 묻는 별도 묶음이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n객혈·빈혈·양측 폐침윤이 생기면 diffuse alveolar hemorrhage를 생각한다. 객혈이 뚜렷하지 않은 경우도 있다. 혈뇨·단백뇨·신기능 저하가 함께 있으면 폐-신장 증후군의 원인을 찾는다. 폐포 안의 혈액이 CO를 받아들이므로 출혈 때 '''DLCO가 증가'''할 수 있다.\n\n||= 질환 ||= 핵심 조합 ||\n|| Anti-GBM disease/Goodpasture syndrome || 폐포출혈·급속진행성 사구체신염·anti-GBM 항체, 기저막의 선상 Ig 침착 ||\n|| GPA || 상기도 질환·폐결절/공동·사구체신염, PR3-ANCA(c-ANCA) ||\n|| MPA || 폐포출혈·사구체신염, MPO-ANCA(p-ANCA) ||\n|| EGPA || 천식·호산구 증가·전신 혈관염·말초신경병증 ||\n\nGoodpasture syndrome은 혈장교환과 면역억제 치료를 신속히 검토하는 질환이다. ANCA 관련 혈관염도 장기 침범의 중증도에 따라 관해 유도와 유지 치료를 한다.\n\n강의에서 객혈과 연결하는 묶음은 '''Goodpasture syndrome·LAM·PLCH'''다. LAM·PLCH에서도 객혈이 가능하다는 연관을 기억하되, 객혈이 항상 나타나는 필수 소견이라는 뜻은 아니다.\n\nEGPA의 강의상 분류 항목은 천식, 호산구 증가, 신경병증, 이동성 폐침윤, 부비동 이상, 혈관 밖 호산구 침윤이다. 이 전통적인 분류 항목은 특징을 묶는 용도로 익히고, 실제 진단은 감별과 장기 침범 평가를 포함한다.\n\n=== 선지별 해설 ===\n* 1번 · Sarcoidosis, LAM, PLCH: LAM·PLCH의 객혈은 가능하지만 이 문제의 대표 세 질환 묶음에는 Goodpasture가 들어간다.\n* 2번 · Goodpasture, LAM, PLCH: 강의가 객혈과 연결하는 묶음이다. 특히 Goodpasture에서는 폐포출혈과 사구체신염을 함께 확인한다.\n* 3번 · Sarcoidosis, EP, Churg-Strauss: 각 질환의 개별 증상 가능성과 별개로 강의의 대표 객혈 묶음은 Goodpasture·LAM·PLCH다.\n* 4번 · LAM, RA를 제외한 CTD, TS: 결체조직질환을 포괄적으로 섞은 이 조합은 제시된 대표 객혈 묶음과 다르다.\n* 5번 · PLCH, DIP, RB-ILD: PLCH·DIP·RB-ILD는 흡연과 밀접한 질환을 묻는 조합이다.\n\n[[43강#폐포출혈과 신장염은 함께 평가한다|Wiki · 폐포출혈과 신장염은 함께 평가한다]]\n\n~~근거: 2026 강의록 42강 11쪽; 43강 20–26·95–103쪽.~~~",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "장혜진",
@@ -12842,11 +12849,12 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "폐포출혈과 신장염은 함께 평가한다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 11쪽; 43강 20–26·95–103쪽"
       }
     },
     {
@@ -20525,7 +20533,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n강의가 객혈과 연결해 제시한 ILD 묶음은 Goodpasture syndrome·LAM·PLCH이다. 특히 Goodpasture syndrome은 폐포출혈과 사구체신염을 연결한다. PLCH·DIP·RB-ILD는 객혈보다 흡연과의 연관성을 묻는 별도 묶음이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n객혈·빈혈·양측 폐침윤이 생기면 diffuse alveolar hemorrhage를 생각한다. 객혈이 뚜렷하지 않은 경우도 있다. 혈뇨·단백뇨·신기능 저하가 함께 있으면 폐-신장 증후군의 원인을 찾는다. 폐포 안의 혈액이 CO를 받아들이므로 출혈 때 '''DLCO가 증가'''할 수 있다.\n\n||= 질환 ||= 핵심 조합 ||\n|| Anti-GBM disease/Goodpasture syndrome || 폐포출혈·급속진행성 사구체신염·anti-GBM 항체, 기저막의 선상 Ig 침착 ||\n|| GPA || 상기도 질환·폐결절/공동·사구체신염, PR3-ANCA(c-ANCA) ||\n|| MPA || 폐포출혈·사구체신염, MPO-ANCA(p-ANCA) ||\n|| EGPA || 천식·호산구 증가·전신 혈관염·말초신경병증 ||\n\nGoodpasture syndrome은 혈장교환과 면역억제 치료를 신속히 검토하는 질환이다. ANCA 관련 혈관염도 장기 침범의 중증도에 따라 관해 유도와 유지 치료를 한다.\n\n강의에서 객혈과 연결하는 묶음은 '''Goodpasture syndrome·LAM·PLCH'''다. LAM·PLCH에서도 객혈이 가능하다는 연관을 기억하되, 객혈이 항상 나타나는 필수 소견이라는 뜻은 아니다.\n\nEGPA의 강의상 분류 항목은 천식, 호산구 증가, 신경병증, 이동성 폐침윤, 부비동 이상, 혈관 밖 호산구 침윤이다. 이 전통적인 분류 항목은 특징을 묶는 용도로 익히고, 실제 진단은 감별과 장기 침범 평가를 포함한다.\n\n=== 선지별 해설 ===\n* 1번 · Sarcoidosis, LAM, PLCH: LAM·PLCH의 객혈은 가능하지만 이 문제의 대표 세 질환 묶음에는 Goodpasture가 들어간다.\n* 2번 · LAM, RA를 제외한 CTD, TS: 결체조직질환을 포괄적으로 섞은 이 조합은 제시된 대표 객혈 묶음과 다르다.\n* 3번 · Sarcoidosis, EP, Churg-Strauss: 각 질환의 개별 증상 가능성과 별개로 강의의 대표 객혈 묶음은 Goodpasture·LAM·PLCH다.\n* 4번 · PLCH, DIP, RB-ILD: PLCH·DIP·RB-ILD는 흡연과 밀접한 질환을 묻는 조합이다.\n* 5번 · Goodpasture, LAM, PLCH: 강의가 객혈과 연결하는 묶음이다. 특히 Goodpasture에서는 폐포출혈과 사구체신염을 함께 확인한다.\n\n[[43강#폐포출혈과 신장염은 함께 평가한다|Wiki · 폐포출혈과 신장염은 함께 평가한다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n강의가 객혈과 연결해 제시한 ILD 묶음은 Goodpasture syndrome·LAM·PLCH이다. 특히 Goodpasture syndrome은 폐포출혈과 사구체신염을 연결한다. PLCH·DIP·RB-ILD는 객혈보다 흡연과의 연관성을 묻는 별도 묶음이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n객혈·빈혈·양측 폐침윤이 생기면 diffuse alveolar hemorrhage를 생각한다. 객혈이 뚜렷하지 않은 경우도 있다. 혈뇨·단백뇨·신기능 저하가 함께 있으면 폐-신장 증후군의 원인을 찾는다. 폐포 안의 혈액이 CO를 받아들이므로 출혈 때 '''DLCO가 증가'''할 수 있다.\n\n||= 질환 ||= 핵심 조합 ||\n|| Anti-GBM disease/Goodpasture syndrome || 폐포출혈·급속진행성 사구체신염·anti-GBM 항체, 기저막의 선상 Ig 침착 ||\n|| GPA || 상기도 질환·폐결절/공동·사구체신염, PR3-ANCA(c-ANCA) ||\n|| MPA || 폐포출혈·사구체신염, MPO-ANCA(p-ANCA) ||\n|| EGPA || 천식·호산구 증가·전신 혈관염·말초신경병증 ||\n\nGoodpasture syndrome은 혈장교환과 면역억제 치료를 신속히 검토하는 질환이다. ANCA 관련 혈관염도 장기 침범의 중증도에 따라 관해 유도와 유지 치료를 한다.\n\n강의에서 객혈과 연결하는 묶음은 '''Goodpasture syndrome·LAM·PLCH'''다. LAM·PLCH에서도 객혈이 가능하다는 연관을 기억하되, 객혈이 항상 나타나는 필수 소견이라는 뜻은 아니다.\n\nEGPA의 강의상 분류 항목은 천식, 호산구 증가, 신경병증, 이동성 폐침윤, 부비동 이상, 혈관 밖 호산구 침윤이다. 이 전통적인 분류 항목은 특징을 묶는 용도로 익히고, 실제 진단은 감별과 장기 침범 평가를 포함한다.\n\n=== 선지별 해설 ===\n* 1번 · Sarcoidosis, LAM, PLCH: LAM·PLCH의 객혈은 가능하지만 이 문제의 대표 세 질환 묶음에는 Goodpasture가 들어간다.\n* 2번 · LAM, RA를 제외한 CTD, TS: 결체조직질환을 포괄적으로 섞은 이 조합은 제시된 대표 객혈 묶음과 다르다.\n* 3번 · Sarcoidosis, EP, Churg-Strauss: 각 질환의 개별 증상 가능성과 별개로 강의의 대표 객혈 묶음은 Goodpasture·LAM·PLCH다.\n* 4번 · PLCH, DIP, RB-ILD: PLCH·DIP·RB-ILD는 흡연과 밀접한 질환을 묻는 조합이다.\n* 5번 · Goodpasture, LAM, PLCH: 강의가 객혈과 연결하는 묶음이다. 특히 Goodpasture에서는 폐포출혈과 사구체신염을 함께 확인한다.\n\n[[43강#폐포출혈과 신장염은 함께 평가한다|Wiki · 폐포출혈과 신장염은 함께 평가한다]]\n\n~~근거: 2026 강의록 42강 11쪽; 43강 20–26·95–103쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -20567,11 +20575,12 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "폐포출혈과 신장염은 함께 평가한다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 11쪽; 43강 20–26·95–103쪽"
       }
     },
     {
@@ -20599,7 +20608,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nAIP는 수일∼수주 내 빠르게 호흡부전으로 진행하고 COP는 보통 3개월 미만의 아급성 경과를 보인다. IPF·NSIP는 만성 섬유화군, RB-ILD·DIP는 흡연 관련군으로 묶는다. COP와 AIP의 시간 경과 및 steroid 반응을 서로 바꾸어 외우지 않는 것이 핵심이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nILD는 여러 질환을 묶는 이름이다. 문진에서는 '''직업·환경 노출, 약물, 흡연, 관절·피부·근육 증상'''부터 확인한다. 원인이 밝혀지면 그 원인에 따른 ILD로 분류하고, 충분한 평가 후에도 원인이 설명되지 않는 경우 특발성 간질성폐렴(IIP)을 고려한다.\n\n||= IIP의 큰 범주 ||= 대표 질환 ||= 먼저 떠올릴 경과 ||\n|| 만성 섬유화성 || IPF, idiopathic NSIP || 수개월∼수년에 걸친 호흡곤란 ||\n|| 급성·아급성 || AIP, COP || AIP는 급속한 호흡부전, COP는 아급성 기침·발열 ||\n|| 흡연 관련 || RB-ILD, DIP || 흡연력과 색소를 가진 대식세포 ||\n\n> 원인을 찾는 문진 → HRCT의 분포와 패턴 → 필요한 BAL·조직검사 → 임상·영상·병리의 다학제 판단(MDD).\n\n폐기능검사에서는 제한성 변화와 DLCO 감소가 흔하다. 운동 시 산소포화도 저하, 양측 폐기저부의 흡기성 crackle도 함께 본다. FVC·DLCO·운동능력은 진단 이후 경과를 따라가는 기준이 된다.\n\n||= 동반 단서 ||= 연결할 질환 ||\n|| 반복 기흉 || LAM, PLCH, 결절성경화증, 신경섬유종증 ||\n|| 객혈 || Goodpasture syndrome, LAM, PLCH ||\n|| Wheezing || Sarcoidosis, eosinophilic pneumonia, EGPA ||\n\n조직이 필요하면 환자의 폐기능·연령·동반질환과 검사 위험을 함께 따진다. TBLB는 sarcoidosis 등에서 유용하며, 큰 검체가 필요한 경우 VATS 폐생검 또는 숙련된 기관의 cryobiopsy 등을 검토한다. 검사 결과가 서로 어긋날수록 MDD가 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · ① IPF, ② NSIP: IPF와 NSIP는 모두 만성 섬유화성 IIP에 속한다.\n* 2번 · ① DIP ② RBILD: DIP와 RB-ILD는 흡연 관련 IIP로 묶는다.\n* 3번 · ① AIP ② COP: AIP는 급성 중증 호흡부전, COP는 아급성 기침·발열·호흡곤란이 대표적이다.\n* 4번 · ① NSIP ② IPF: NSIP와 IPF는 만성 섬유화성 군이다.\n* 5번 · ① COP ② AIP: 순서가 바뀌었다. 급성이 AIP, 아급성이 COP다.\n\n[[42강#원인·시간·분포를 먼저 잡는다|Wiki · 원인·시간·분포를 먼저 잡는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nAIP는 수일∼수주 내 빠르게 호흡부전으로 진행하고 COP는 보통 3개월 미만의 아급성 경과를 보인다. IPF·NSIP는 만성 섬유화군, RB-ILD·DIP는 흡연 관련군으로 묶는다. COP와 AIP의 시간 경과 및 steroid 반응을 서로 바꾸어 외우지 않는 것이 핵심이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nILD는 여러 질환을 묶는 이름이다. 문진에서는 '''직업·환경 노출, 약물, 흡연, 관절·피부·근육 증상'''부터 확인한다. 원인이 밝혀지면 그 원인에 따른 ILD로 분류하고, 충분한 평가 후에도 원인이 설명되지 않는 경우 특발성 간질성폐렴(IIP)을 고려한다.\n\n간질성폐렴의 분류는 '''형태(pattern)와 원인'''을 두 축으로 읽는다. UIP가 보이면 IPF뿐 아니라 결체조직질환·HP·약물 등을 먼저 평가한다. 같은 모양도 원인이 다르면 질환명과 치료가 달라진다.\n\n||= 형태의 큰 범주 ||= 포함되는 패턴 ||= 원인을 배제한 뒤 붙는 대표 진단 ||\n|| '''Interstitial patterns''' || UIP, NSIP, BIP, DAD, PPFE, LIP || IPF, idiopathic NSIP, idiopathic DAD 등 ||\n|| '''Alveolar filling patterns''' || OP, RB-ILD, AMP; 드문 형태로 AEP·CEP·PAP 등 || COP, idiopathic AMP 등 ||\n\n||= 연결해서 기억할 명칭 ||= 의미 ||\n|| '''DIP → AMP''' || Alveolar macrophage pneumonia. 폐포에 쌓이는 세포는 주로 대식세포다. ||\n|| '''AIP → idiopathic DAD''' || 원인을 찾을 수 없는 diffuse alveolar damage. DAD 자체는 여러 원인으로 생길 수 있다. ||\n|| '''BIP''' || Bronchiolocentric interstitial pneumonia. 세기관지 중심 패턴이며 HP 등 원인을 평가한다. Idiopathic BIP는 잠정 범주다. ||\n\n전통적인 IIP 분류는 만성 섬유화성(IPF·NSIP), 급성·아급성(AIP·COP), 흡연 관련(RB-ILD·DIP)으로 묶었다. 이 이름으로 제시된 문항은 해당 질환의 성질을 그대로 읽고, DIP는 AMP로, AIP는 idiopathic DAD로 연결하면 된다.\n\n> 원인을 찾는 문진 → HRCT의 분포와 패턴 → 필요한 BAL·조직검사 → 임상·영상·병리의 다학제 판단(MDD).\n\n폐기능검사에서는 제한성 변화와 DLCO 감소가 흔하다. 운동 시 산소포화도 저하, 양측 폐기저부의 흡기성 crackle도 함께 본다. FVC·DLCO·운동능력은 진단 이후 경과를 따라가는 기준이 된다.\n\n||= 동반 단서 ||= 연결할 질환 ||\n|| 반복 기흉 || LAM, PLCH, 결절성경화증, 신경섬유종증 ||\n|| 객혈 || Goodpasture syndrome, LAM, PLCH ||\n|| Wheezing || Sarcoidosis, eosinophilic pneumonia, EGPA ||\n\n조직이 필요하면 환자의 폐기능·연령·동반질환과 검사 위험을 함께 따진다. TBLB는 sarcoidosis 등에서 유용하며, 큰 검체가 필요한 경우 VATS 폐생검 또는 숙련된 기관의 cryobiopsy 등을 검토한다. 검사 결과가 서로 어긋날수록 MDD가 중요하다.\n\n||= 질환 ||= 핵심 영상·병리 ||= 경과·치료 ||\n|| IPF/UIP || 흉막하·기저부 honeycombing, 시간적 이질성 || 만성 진행; pirfenidone·nintedanib ||\n|| NSIP || GGO, subpleural sparing, 시간적 균일성 || 원인 질환 평가; 염증형에서 steroid 반응 ||\n|| COP || 말초성 consolidation, Masson body || 아급성; steroid 반응 양호·재발 가능 ||\n|| Idiopathic DAD(기존 AIP) || 광범위 GGO·consolidation, hyaline membrane || 급성 호흡부전; 지지 치료·불량한 예후 ||\n|| RB-ILD || 세기관지 중심 대식세포 || 흡연 관련; 금연 ||\n|| AMP(기존 DIP) || 미만성 폐포 내 대식세포, 하폐야 GGO || 흡연 관련; 금연·선택적 steroid ||\n\n|| BIP || 세기관지 중심 염증·섬유화, air trapping || HP 등 원인 확인·노출 관리 ||\n|| PPFE || 폐첨부 흉막·흉막하 fibroelastosis || 만성 경과·체중 감소·진행 평가 ||\n|| LIP || 얇은 벽 낭종·다클론성 림프형질세포 침윤 || CTD·면역결핍 평가 ||\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · ① IPF, ② NSIP: IPF와 NSIP는 모두 만성 섬유화성 IIP에 속한다.\n* 2번 · ① DIP ② RBILD: DIP와 RB-ILD는 흡연 관련 IIP로 묶는다.\n* 3번 · ① AIP ② COP: AIP는 급성 중증 호흡부전, COP는 아급성 기침·발열·호흡곤란이 대표적이다.\n* 4번 · ① NSIP ② IPF: NSIP와 IPF는 만성 섬유화성 군이다.\n* 5번 · ① COP ② AIP: 순서가 바뀌었다. 급성이 AIP, 아급성이 COP다.\n\n[[42강#원인·시간·분포를 먼저 잡는다|Wiki · 원인·시간·분포를 먼저 잡는다]]\n\n~~근거: 2026 강의록 42강 3–5·21·90·99–101쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -20624,11 +20633,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "원인·시간·분포를 먼저 잡는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 3–5·21·90·99–101쪽"
       }
     },
     {
@@ -20656,7 +20666,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n원인이 알려진 ILD를 배제한 적절한 임상 맥락에서 HRCT가 UIP pattern이면 수술적 폐생검 없이 IPF로 진단할 수 있다. 병변은 상폐야가 아니라 흉막하·폐기저부가 우세하고 시간적 이질성을 보인다. 항섬유화제는 진행을 늦추지만 이미 생긴 섬유화를 되돌리지는 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\n\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 폐섬유증은 특징적으로 양측 상폐야의 말초부에 발생한다.: UIP는 상폐야보다 흉막하·폐기저부 우세 분포가 대표적이다.\n* 2번 · 다른 원인이 모두 배제되고 HRCT에 UIP pattern이 확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다.: 맞다. 알려진 원인을 배제하고 임상 맥락에 맞는 HRCT UIP가 확인되면 수술적 생검 없이 IPF 진단이 가능하다.\n* 3번 · 섬유화는 모두 동일한 시기에 발생한 특징을 보인다. (Temporal homogeneity): UIP는 서로 다른 시기의 섬유화가 섞이는 temporal heterogeneity가 특징이다.\n* 4번 · FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서 호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다.: 강의의 예후 지표는 FVC 절대 10%p, DLCO 절대 15%p 감소다. 이 보기의 상대 20%·30%와 다르다.\n* 5번 · 특발성 폐섬유증에서 항섬유화제제를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다.: 항섬유화제는 진행을 늦춘다. 이미 생긴 섬유화를 정상 폐로 되돌린다는 설명은 과도하다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n원인이 알려진 ILD를 배제한 적절한 임상 맥락에서 HRCT가 UIP pattern이면 수술적 폐생검 없이 IPF로 진단할 수 있다. 병변은 상폐야가 아니라 흉막하·폐기저부가 우세하고 시간적 이질성을 보인다. 항섬유화제는 진행을 늦추지만 이미 생긴 섬유화를 되돌리지는 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 폐섬유증은 특징적으로 양측 상폐야의 말초부에 발생한다.: UIP는 상폐야보다 흉막하·폐기저부 우세 분포가 대표적이다.\n* 2번 · 다른 원인이 모두 배제되고 HRCT에 UIP pattern이 확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다.: 맞다. 알려진 원인을 배제하고 임상 맥락에 맞는 HRCT UIP가 확인되면 수술적 생검 없이 IPF 진단이 가능하다.\n* 3번 · 섬유화는 모두 동일한 시기에 발생한 특징을 보인다. (Temporal homogeneity): UIP는 서로 다른 시기의 섬유화가 섞이는 temporal heterogeneity가 특징이다.\n* 4번 · FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서 호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다.: 강의의 예후 지표는 FVC 절대 10%p, DLCO 절대 15%p 감소다. 이 보기의 상대 20%·30%와 다르다.\n* 5번 · 특발성 폐섬유증에서 항섬유화제제를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다.: 항섬유화제는 진행을 늦춘다. 이미 생긴 섬유화를 정상 폐로 되돌린다는 설명은 과도하다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 2026 강의록 42강 30–48쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -20681,11 +20691,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "UIP는 흉막하·폐기저부의 벌집 모양이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 30–48쪽"
       }
     },
     {
@@ -20714,7 +20725,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ①·⑤ (복수정답)",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ①·⑤ (복수정답)\n\n현재 보기에서는 1·5번이 모두 성립한다. COP라고 부르려면 약물·감염·결체조직질환 등 이차 원인을 배제하고 이후에도 재평가해야 한다. AIP는 급격하고 심한 호흡부전을 보이며 steroid 반응이 확실하지 않고 사망률도 높다. RB-ILD의 대식세포는 세기관지 중심, DIP는 폐포 안에 넓게 분포하며 NSIP의 예후는 일반적으로 IPF보다 좋다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''NSIP는 비교적 균일한 염증과 섬유화다'''\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\n\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. Idiopathic NSIP를 정할 때는 임상·HRCT·필요한 조직검사와 MDD를 함께 사용한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n'''COP는 폐포 안의 기질화 조직이다'''\n감염이 지나간 자리에 회복 조직이 차오르듯, organizing pneumonia에서는 폐포관·폐포 등에 섬유아세포성 기질화 마개가 생긴다. 조직의 대표 소견은 '''Masson body'''다. 약물·감염·결체조직질환 등의 원인을 찾고 특발성일 때 COP라고 부른다.\n\n* 경과: '''3개월 미만의 아급성''' 기침·발열·권태감·호흡곤란.\n* 영상: 말초·기관지혈관 주위의 consolidation, GGO, 이동성 병변; reversed halo가 가능하다.\n* BAL: 림프구 증가와 CD4/CD8 감소 경향.\n* 치료: corticosteroid에 비교적 잘 반응하지만 감량·중단 과정에서 재발할 수 있다.\n\n'''AIP는 급속한 호흡부전과 DAD다'''\nAIP는 명확한 원인 없이 급격히 발생하는 diffuse alveolar damage(DAD)다. 수일∼수주에 걸쳐 심한 호흡부전이 나타나고 영상에서는 광범위한 GGO·consolidation을 보인다. 감염·약물 등 DAD를 일으킬 다른 원인을 찾은 뒤 특발성을 판단한다.\n\n치료는 ARDS에 준한 지지 치료가 중심이다. Corticosteroid를 사용할 수 있지만 반응이 일정하지 않고 사망률이 높다. 생존자에서는 회복 또는 잔여 섬유화가 가능하다.\n\n'''RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다'''\n흡연으로 생긴 색소성 대식세포가 어디에 모였는지를 본다.\n\n||= 질환 ||= 조직의 중심 ||= 영상 ||= 치료의 출발점 ||\n|| RB-ILD || 호흡세기관지와 주변 폐포의 색소성 대식세포 || Centrilobular nodule·GGO·기관지벽 비후 || '''금연''' ||\n|| DIP || 폐포 공간에 넓게 분포한 대식세포 || 하폐야·말초의 GGO || '''금연''', 필요 시 corticosteroid ||\n\n흡연과 밀접한 ILD를 묶어 기억할 때는 '''RB-ILD·DIP·PLCH'''를 함께 떠올린다. [[43강#PLCH는 흡연과 상폐야 결절·낭종을 연결한다|PLCH의 영상과 치료]]\n\n=== 선지별 해설 ===\n* 1번 · 특발성 기질화 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 맞다. COP라고 부르기 전후에 감염·약물·결체조직질환 등 OP의 원인을 재평가한다.\n* 2번 · RB-ILD는 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적되며 말초 기관지에는 잘 축적되지 않는다.: RB-ILD는 호흡세기관지와 주변 폐포 중심이다. 폐포 공간에 넓게 대식세포가 차는 양상은 DIP와 연결한다.\n* 3번 · 특발성 비특이성 간질성 폐렴은 대부분 섬유화를 동반하여 특발성 폐섬유증보다 예후가 더 불량하다.: NSIP는 일반적으로 IPF보다 예후가 좋고 cellular형이 fibrotic형보다 반응이 좋다.\n* 4번 · 박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다: DIP는 주로 하폐야·말초 GGO와 연결한다.\n* 5번 · 급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다.: 맞다. AIP는 급성 중증 호흡부전과 불량한 예후를 보이며 steroid 효과가 확실하지 않다. 현재 선지에서는 1·5번이 모두 성립한다.\n\n[[42강#AIP는 급속한 호흡부전과 DAD다|Wiki · AIP는 급속한 호흡부전과 DAD다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ①·⑤ (복수정답)\n\n현재 보기에서는 1·5번이 모두 성립한다. COP라고 부르려면 약물·감염·결체조직질환 등 이차 원인을 배제하고 이후에도 재평가해야 한다. AIP는 급격하고 심한 호흡부전을 보이며 steroid 반응이 확실하지 않고 사망률도 높다. RB-ILD의 대식세포는 세기관지 중심, DIP는 폐포 안에 넓게 분포하며 NSIP의 예후는 일반적으로 IPF보다 좋다.\n\n=== 이 문항을 풀기 위한 개념 ===\nAIP의 새 명칭은 '''idiopathic diffuse alveolar damage(idiopathic DAD)'''다. DAD라는 손상 패턴은 패혈증·흡인·폐렴·CTD-ILD 등에서도 생긴다. 충분히 원인을 조사하고도 설명되지 않을 때 idiopathic DAD라고 부른다. 수일∼수주에 걸쳐 심한 호흡부전이 나타나고 영상에서는 광범위한 GGO·consolidation을 보인다. 감염·약물 등 DAD를 일으킬 다른 원인을 찾은 뒤 특발성을 판단한다.\n\n치료는 ARDS에 준한 지지 치료가 중심이다. Corticosteroid를 사용할 수 있지만 반응이 일정하지 않고 사망률이 높다. 생존자에서는 회복 또는 잔여 섬유화가 가능하다.\n\n||= DAD의 단계 ||= 조직에서 보는 변화 ||\n|| 삼출기 || 간질 부종, pneumocyte hyperplasia, '''hyaline membrane''' ||\n|| 기질화기 || 느슨한 결합조직과 pneumocyte 증식 ||\n|| 섬유화기 || 잔여 섬유화와 구조 변형; 일부에서는 진행 지속 ||\n\n||= 질환 ||= 핵심 영상·병리 ||= 경과·치료 ||\n|| IPF/UIP || 흉막하·기저부 honeycombing, 시간적 이질성 || 만성 진행; pirfenidone·nintedanib ||\n|| NSIP || GGO, subpleural sparing, 시간적 균일성 || 원인 질환 평가; 염증형에서 steroid 반응 ||\n|| COP || 말초성 consolidation, Masson body || 아급성; steroid 반응 양호·재발 가능 ||\n|| Idiopathic DAD(기존 AIP) || 광범위 GGO·consolidation, hyaline membrane || 급성 호흡부전; 지지 치료·불량한 예후 ||\n|| RB-ILD || 세기관지 중심 대식세포 || 흡연 관련; 금연 ||\n|| AMP(기존 DIP) || 미만성 폐포 내 대식세포, 하폐야 GGO || 흡연 관련; 금연·선택적 steroid ||\n\n|| BIP || 세기관지 중심 염증·섬유화, air trapping || HP 등 원인 확인·노출 관리 ||\n|| PPFE || 폐첨부 흉막·흉막하 fibroelastosis || 만성 경과·체중 감소·진행 평가 ||\n|| LIP || 얇은 벽 낭종·다클론성 림프형질세포 침윤 || CTD·면역결핍 평가 ||\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 기질화 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 맞다. COP라고 부르기 전후에 감염·약물·결체조직질환 등 OP의 원인을 재평가한다.\n* 2번 · RB-ILD는 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적되며 말초 기관지에는 잘 축적되지 않는다.: RB-ILD는 호흡세기관지와 주변 폐포 중심이다. 폐포 공간에 넓게 대식세포가 차는 양상은 DIP와 연결한다.\n* 3번 · 특발성 비특이성 간질성 폐렴은 대부분 섬유화를 동반하여 특발성 폐섬유증보다 예후가 더 불량하다.: NSIP는 일반적으로 IPF보다 예후가 좋고 cellular형이 fibrotic형보다 반응이 좋다.\n* 4번 · 박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다: DIP는 주로 하폐야·말초 GGO와 연결한다.\n* 5번 · 급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다.: 맞다. AIP는 급성 중증 호흡부전과 불량한 예후를 보이며 steroid 효과가 확실하지 않다. 현재 선지에서는 1·5번이 모두 성립한다.\n\n[[42강#AIP는 급속한 호흡부전과 DAD다|Wiki · AIP는 급속한 호흡부전과 DAD다]]\n\n~~근거: 2026 강의록 42강 89–113쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -20739,11 +20750,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "AIP는 급속한 호흡부전과 DAD다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 89–113쪽"
       }
     },
     {
@@ -20771,7 +20783,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nPAP는 폐포 대식세포의 surfactant 제거 기능에 문제가 생겨 폐포 안에 물질이 축적되는 질환으로, whole lung lavage로 이를 제거한다. AEP는 재발이 드물고 CEP가 잘 재발한다. ABPA는 침습성 진균감염이 아니라 과민반응이며, 항진균제를 사용할 수 있더라도 ‘감염이 원인’이라는 설명은 옳지 않다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''PAP는 surfactant가 폐포에 쌓인다'''\nPulmonary alveolar proteinosis에서는 폐포대식세포의 surfactant 제거가 원활하지 않아 단백질·지질 성분이 폐포를 채운다. 성인의 흔한 자가면역형은 '''anti-GM-CSF 항체'''와 연결된다.\n\n* CT: GGO 위에 중격 비후가 겹치는 '''crazy paving'''.\n* BAL: 우유빛·혼탁한 액체.\n* 병리: 폐포 내 '''PAS 양성 물질'''.\n* 치료: 증상과 가스교환 장애에 따라 '''whole-lung lavage'''; 자가면역형의 GM-CSF 치료 등은 전문 평가를 통해 결정.\n\n'''질환별 암기표'''\n||= 질환 ||= 가장 먼저 묶을 특징 ||= 치료의 중심 ||\n|| Sarcoidosis || BHL·비건락성 육아종·CD4 우세 || 장기 침범과 증상에 따른 관찰 또는 steroid ||\n|| HP || 항원 노출·BAL 림프구·air trapping·섬유화 여부 || 항원 회피 ||\n|| AEP || 급성 호흡부전·BAL 호산구 >25% || Steroid, 재발 드묾 ||\n|| CEP || 천식·말초 침윤·호산구 증가 || Steroid, 재발 추적 ||\n|| ABPA || 천식·IgE·중심성 기관지확장증 || 염증 조절·상황별 항진균 치료 ||\n|| PAP || Anti-GM-CSF·crazy paving·PAS || Whole-lung lavage 등 ||\n|| LAM || 가임기 여성·기흉·유미흉·얇은 벽 낭종 || Sirolimus 적응증 평가 ||\n|| PLCH || 흡연·상폐야 결절과 불규칙 낭종·CD1a || 금연 ||\n\n~~근거: 장혜진 「교원성·과민성·호산구성 폐질환」의 본문·영상 및 수업 필기.~~~\n\n=== 선지별 해설 ===\n* 1번 · 결체조직질환에서 발생하는 간질성 폐렴은 증상이 없고 자가 항체가 음성이면 결체조직질환에 대해 더 이상 추적 관찰할 필요가 없어진다.: CTD의 전신 증상이나 항체가 나중에 드러날 수 있어 의심되는 ILD에서는 추적 평가한다.\n* 2번 · 호산구성 폐렴에서 급성은 급격하게 진행되며 심한 호흡곤란을 보이고 부신피질호르몬제를 빨리 중단하면 금방 재발한다.: AEP는 빠른 호흡부전이 가능하지만 재발은 드물다. 치료 중단 후 재발이 흔한 질환은 CEP다.\n* 3번 · 폐꽈리단백증은 surfactant가 축적되는 질환으로 치료로 whole lung lavage를 시도한다.: PAP의 병태생리와 대표 치료를 정확히 연결했다.\n* 4번 · 폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.: LAM은 가임기 여성, PLCH는 젊은 흡연자라는 조합이 중요하다.\n* 5번 · Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다.: GPA·MPA는 ANCA 관련 혈관염에 속한다. 각각 PR3/c-ANCA·MPO/p-ANCA가 대표적이다.\n\n[[43강#PAP는 surfactant가 폐포에 쌓인다|Wiki · PAP는 surfactant가 폐포에 쌓인다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nPAP는 폐포 대식세포의 surfactant 제거 기능에 문제가 생겨 폐포 안에 물질이 축적되는 질환으로, whole lung lavage로 이를 제거한다. AEP는 재발이 드물고 CEP가 잘 재발한다. ABPA는 침습성 진균감염이 아니라 과민반응이며, 항진균제를 사용할 수 있더라도 ‘감염이 원인’이라는 설명은 옳지 않다.\n\n=== 이 문항을 풀기 위한 개념 ===\nPulmonary alveolar proteinosis에서는 폐포대식세포의 surfactant 제거가 원활하지 않아 단백질·지질 성분이 폐포를 채운다. 성인의 흔한 자가면역형은 '''anti-GM-CSF 항체'''와 연결된다.\n\n* CT: GGO 위에 중격 비후가 겹치는 '''crazy paving'''.\n* BAL: 우유빛·혼탁한 액체.\n* 병리: 폐포 내 '''PAS 양성 물질'''.\n* 치료: 증상과 가스교환 장애에 따라 '''whole-lung lavage'''; 자가면역형의 GM-CSF 치료 등은 전문 평가를 통해 결정.\n\n=== 선지별 해설 ===\n* 1번 · 결체조직질환에서 발생하는 간질성 폐렴은 증상이 없고 자가 항체가 음성이면 결체조직질환에 대해 더 이상 추적 관찰할 필요가 없어진다.: CTD의 전신 증상이나 항체가 나중에 드러날 수 있어 의심되는 ILD에서는 추적 평가한다.\n* 2번 · 호산구성 폐렴에서 급성은 급격하게 진행되며 심한 호흡곤란을 보이고 부신피질호르몬제를 빨리 중단하면 금방 재발한다.: AEP는 빠른 호흡부전이 가능하지만 재발은 드물다. 치료 중단 후 재발이 흔한 질환은 CEP다.\n* 3번 · 폐꽈리단백증은 surfactant가 축적되는 질환으로 치료로 whole lung lavage를 시도한다.: PAP의 병태생리와 대표 치료를 정확히 연결했다.\n* 4번 · 폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.: LAM은 가임기 여성, PLCH는 젊은 흡연자라는 조합이 중요하다.\n* 5번 · Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다.: GPA·MPA는 ANCA 관련 혈관염에 속한다. 각각 PR3/c-ANCA·MPO/p-ANCA가 대표적이다.\n\n[[43강#PAP는 surfactant가 폐포에 쌓인다|Wiki · PAP는 surfactant가 폐포에 쌓인다]]\n\n~~근거: 2026 강의록 43강 78–94쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -20796,11 +20808,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "PAP는 surfactant가 폐포에 쌓인다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 78–94쪽"
       }
     },
     {
@@ -20828,7 +20841,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nSarcoidosis는 폐·흉부 림프절을 흔히 침범하며 비건락성 육아종이 특징이다. 조직 소견만으로 끝내지 않고 임상·영상의 적합성과 결핵 등 다른 육아종 질환의 배제를 함께 확인한다. 무증상 림프절 병변까지 모두 즉시 steroid 치료하는 것은 아니며, BAL CD4/CD8 비와 칼슘은 감소보다 증가하는 쪽이 중요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기 때문에 진단이 되면 즉시 투여한다: 무증상·안정적인 림프절 병변은 관찰 가능하다. 장기 침범과 증상, 폐기능 악화에 따라 치료한다.\n* 2번 · 유육종증은 비건락성 육아종이 특징적이지만 진단을 위해서는 임상 및 영상 소견과의 연관이 되어야 확진이 가능하다: 맞다. 조직의 비건락성 육아종을 임상·영상 및 다른 원인의 배제와 함께 읽는다.\n* 3번 · 유육종증은 주로 양 폐야의 하부에 림프관을 따라 결절이 발생하며 경기관지폐생검으로는 진단이 불가능하다: 상·중폐야 perilymphatic nodule이 대표적이며 경기관지폐생검도 진단에 도움이 될 수 있다.\n* 4번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명만으로도 확진이 가능하며 Thermophilic actinomycetes가 가장 흔한 원인이다: Precipitin은 항원 노출을 뒷받침하지만 단독 확진 소견은 아니다. 항원은 환경별로 다양하다.\n* 5번 · 과민성 폐장염은 과민성으로 1형 면역 반응이 관여하기 때문에 IgE가 증가하는 소견을 보인다.: HP는 IgG·세포매개 면역, III·IV형 반응과 연결한다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nSarcoidosis는 폐·흉부 림프절을 흔히 침범하며 비건락성 육아종이 특징이다. 조직 소견만으로 끝내지 않고 임상·영상의 적합성과 결핵 등 다른 육아종 질환의 배제를 함께 확인한다. 무증상 림프절 병변까지 모두 즉시 steroid 치료하는 것은 아니며, BAL CD4/CD8 비와 칼슘은 감소보다 증가하는 쪽이 중요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기 때문에 진단이 되면 즉시 투여한다: 무증상·안정적인 림프절 병변은 관찰 가능하다. 장기 침범과 증상, 폐기능 악화에 따라 치료한다.\n* 2번 · 유육종증은 비건락성 육아종이 특징적이지만 진단을 위해서는 임상 및 영상 소견과의 연관이 되어야 확진이 가능하다: 맞다. 조직의 비건락성 육아종을 임상·영상 및 다른 원인의 배제와 함께 읽는다.\n* 3번 · 유육종증은 주로 양 폐야의 하부에 림프관을 따라 결절이 발생하며 경기관지폐생검으로는 진단이 불가능하다: 상·중폐야 perilymphatic nodule이 대표적이며 경기관지폐생검도 진단에 도움이 될 수 있다.\n* 4번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명만으로도 확진이 가능하며 Thermophilic actinomycetes가 가장 흔한 원인이다: Precipitin은 항원 노출을 뒷받침하지만 단독 확진 소견은 아니다. 항원은 환경별로 다양하다.\n* 5번 · 과민성 폐장염은 과민성으로 1형 면역 반응이 관여하기 때문에 IgE가 증가하는 소견을 보인다.: HP는 IgG·세포매개 면역, III·IV형 반응과 연결한다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 2026 강의록 43강 33–70쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -20853,11 +20866,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 33–70쪽"
       }
     },
     {
@@ -30235,7 +30249,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n흡연 관련 ILD의 대표 묶음은 PLCH·DIP·RB-ILD이며 금연이 치료의 기본이다. DIP는 폐포 내, RB-ILD는 호흡세기관지와 그 주변의 흡연자 대식세포 축적이 특징이다. LAM은 이 묶음에 넣지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흡연으로 생긴 색소성 대식세포가 어디에 모였는지를 본다.\n\n||= 질환 ||= 조직의 중심 ||= 영상 ||= 치료의 출발점 ||\n|| RB-ILD || 호흡세기관지와 주변 폐포의 색소성 대식세포 || Centrilobular nodule·GGO·기관지벽 비후 || '''금연''' ||\n|| DIP || 폐포 공간에 넓게 분포한 대식세포 || 하폐야·말초의 GGO || '''금연''', 필요 시 corticosteroid ||\n\n흡연과 밀접한 ILD를 묶어 기억할 때는 '''RB-ILD·DIP·PLCH'''를 함께 떠올린다. [[43강#PLCH는 흡연과 상폐야 결절·낭종을 연결한다|PLCH의 영상과 치료]]\n\n=== 선지별 해설 ===\n* 1번 · sarcoidosis, LAM, PLCH: PLCH는 흡연과 밀접하지만 sarcoidosis와 LAM을 같은 흡연 관련 묶음으로 외우지 않는다.\n* 2번 · LAM, RA 제외 CTD, TS: LAM은 TSC-mTOR 경로와 젊은 여성의 낭성 폐질환으로 연결한다.\n* 3번 · sarcoidosis, EP, Churg-Strauss: Sarcoidosis·EP·EGPA는 이 문항의 대표 흡연 관련 세 질환 묶음이 아니다.\n* 4번 · PLCH, DIP, RB-ILD: PLCH·DIP·RB-ILD가 대표 흡연 관련 묶음이며 금연이 치료의 출발점이다.\n* 5번 · Goodpasture, LAM, PLCH: PLCH만 이 흡연 관련 묶음에 해당한다. Goodpasture는 anti-GBM·폐포출혈·신장염, LAM은 낭성 폐질환으로 연결한다.\n\n[[42강#RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다|Wiki · RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n흡연 관련 ILD의 대표 묶음은 PLCH·DIP·RB-ILD이며 금연이 치료의 기본이다. DIP는 폐포 내, RB-ILD는 호흡세기관지와 그 주변의 흡연자 대식세포 축적이 특징이다. LAM은 이 묶음에 넣지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''DIP는 AMP(alveolar macrophage pneumonia)로 이름이 바뀌었다.''' 과거에는 떨어져 나온 폐포상피세포로 생각했지만, 실제로 폐포를 채우는 것은 대식세포다. RB-ILD와 AMP는 대식세포의 분포를 중심으로 읽는다.\n\n||= 질환 ||= 조직의 중심 ||= 영상 ||= 치료의 출발점 ||\n|| RB-ILD || 호흡세기관지와 주변 폐포의 색소성 대식세포 || Centrilobular nodule·GGO·기관지벽 비후 || '''금연''' ||\n|| '''AMP(기존 DIP)''' || 폐포 공간에 미만성으로 분포한 대식세포 || 중·하폐야 및 말초 GGO, GGO 안의 낭종·망상음영 || '''금연''', 필요 시 corticosteroid ||\n\n흡연과 밀접한 ILD를 묶어 기억할 때는 '''RB-ILD·AMP(DIP)·PLCH'''를 함께 떠올린다. [[43강#PLCH는 흡연과 상폐야 결절·낭종을 연결한다|PLCH의 영상과 치료]]\n\nRB-ILD는 금연 후 호전되거나 소실될 수 있다. AMP는 경과가 다양하고 일부에서 섬유화가 진행한다. 두 패턴 모두 흡연과 강하게 연관되지만 약물·CTD·흡인 등의 원인도 평가한다.\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · sarcoidosis, LAM, PLCH: PLCH는 흡연과 밀접하지만 sarcoidosis와 LAM을 같은 흡연 관련 묶음으로 외우지 않는다.\n* 2번 · LAM, RA 제외 CTD, TS: LAM은 TSC-mTOR 경로와 젊은 여성의 낭성 폐질환으로 연결한다.\n* 3번 · sarcoidosis, EP, Churg-Strauss: Sarcoidosis·EP·EGPA는 이 문항의 대표 흡연 관련 세 질환 묶음이 아니다.\n* 4번 · PLCH, DIP, RB-ILD: PLCH·DIP·RB-ILD가 대표 흡연 관련 묶음이며 금연이 치료의 출발점이다.\n* 5번 · Goodpasture, LAM, PLCH: PLCH만 이 흡연 관련 묶음에 해당한다. Goodpasture는 anti-GBM·폐포출혈·신장염, LAM은 낭성 폐질환으로 연결한다.\n\n[[42강#RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다|Wiki · RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다]]\n\n~~근거: 2026 강의록 42강 106–118쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -30262,11 +30276,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 106–118쪽"
       }
     },
     {
@@ -30294,7 +30309,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "잠정 정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ②\n\nNSIP·COP·HP는 BAL에서 림프구 증가를 보일 수 있는 대표 질환이다. IPF는 상대적으로 호중구, eosinophilic pneumonia는 호산구, DIP/RB-ILD는 흡연자 대식세포가 중요하다. 다만 발문의 ‘객담’은 강의에서 다루는 BAL과 다르므로, BAL 세포분획을 묻는 의도로 해석한 잠정 답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nBAL은 기관지내시경으로 폐포 부위를 세척해 얻는 검체다. 감염을 평가하고 세포분획을 확인하며, 결과는 임상·영상과 함께 해석한다.\n\n||= 주된 단서 ||= 연결되는 질환·소견 ||\n|| 림프구 증가 || NSIP, COP, HP, sarcoidosis ||\n|| 호산구 증가 || 호산구성 폐렴 ||\n|| 흡연자 대식세포 || RB-ILD, DIP ||\n|| 호중구 증가 || IPF 등에서 관찰 가능 ||\n|| CD4/CD8 증가 || Sarcoidosis를 지지하는 소견 ||\n|| CD4/CD8 감소 경향 || HP·COP에서 관찰 가능 ||\n\n각 분획은 진단을 돕는 단서다. 세포 하나나 비율 하나만으로 병명을 확정하기보다는 노출력·CT·감염 검사와 함께 읽는다. 특히 검사 검체가 '''BAL인지 객담인지''' 확인해야 한다.\n\n=== 선지별 해설 ===\n* 1번 · IPF, NSIP, PAP: IPF에서 상대적 호중구 증가가 가능하고 PAP는 폐포 내 surfactant 축적이 중심이다.\n* 2번 · NSIP, COP, HP: BAL 세포분획을 묻는 의도라면 NSIP·COP·HP의 림프구 증가가 적절하다. 발문의 “객담”과 BAL은 같은 검체가 아니다.\n* 3번 · IPF, sarcoidosis, DIP: Sarcoidosis는 BAL 림프구 증가가 가능하지만 DIP는 대식세포, IPF는 상대적 호중구 증가와 연결한다.\n* 4번 · PAP, PLCH, AIP: PAP·PLCH·AIP를 BAL 림프구 우세의 대표 묶음으로 사용하지 않는다.\n* 5번 · EP, sarcoidosis, COP: EP의 핵심은 호산구 증가다. Sarcoidosis·COP의 림프구와 한 묶음으로 볼 수 없다.\n\n[[42강#BAL은 어떤 세포가 모였는지를 보여준다|Wiki · BAL은 어떤 세포가 모였는지를 보여준다]]\n\n~~근거: 38기 자료; 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ②\n\nNSIP·COP·HP는 BAL에서 림프구 증가를 보일 수 있는 대표 질환이다. IPF는 상대적으로 호중구, eosinophilic pneumonia는 호산구, DIP/RB-ILD는 흡연자 대식세포가 중요하다. 다만 발문의 ‘객담’은 강의에서 다루는 BAL과 다르므로, BAL 세포분획을 묻는 의도로 해석한 잠정 답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nBAL은 기관지내시경으로 폐포 부위를 세척해 얻는 검체다. 감염을 평가하고 세포분획을 확인하며, 결과는 임상·영상과 함께 해석한다.\n\n||= 주된 단서 ||= 연결되는 질환·소견 ||\n|| 림프구 증가 || NSIP, COP, HP, sarcoidosis ||\n|| 호산구 증가 || 호산구성 폐렴 ||\n|| 흡연자 대식세포 || RB-ILD, AMP(기존 DIP) ||\n|| 호중구 증가 || IPF 등에서 관찰 가능 ||\n|| CD4/CD8 증가 || Sarcoidosis를 지지하는 소견 ||\n|| CD4/CD8 감소 경향 || HP·COP에서 관찰 가능 ||\n\n각 분획은 진단을 돕는 단서다. 세포 하나나 비율 하나만으로 병명을 확정하기보다는 노출력·CT·감염 검사와 함께 읽는다. 특히 검사 검체가 '''BAL인지 객담인지''' 확인해야 한다.\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · IPF, NSIP, PAP: IPF에서 상대적 호중구 증가가 가능하고 PAP는 폐포 내 surfactant 축적이 중심이다.\n* 2번 · NSIP, COP, HP: BAL 세포분획을 묻는 의도라면 NSIP·COP·HP의 림프구 증가가 적절하다. 발문의 “객담”과 BAL은 같은 검체가 아니다.\n* 3번 · IPF, sarcoidosis, DIP: Sarcoidosis는 BAL 림프구 증가가 가능하지만 DIP는 대식세포, IPF는 상대적 호중구 증가와 연결한다.\n* 4번 · PAP, PLCH, AIP: PAP·PLCH·AIP를 BAL 림프구 우세의 대표 묶음으로 사용하지 않는다.\n* 5번 · EP, sarcoidosis, COP: EP의 핵심은 호산구 증가다. Sarcoidosis·COP의 림프구와 한 묶음으로 볼 수 없다.\n\n[[42강#BAL은 어떤 세포가 모였는지를 보여준다|Wiki · BAL은 어떤 세포가 모였는지를 보여준다]]\n\n~~근거: 2026 강의록 42강 15·32·75·90쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -30321,11 +30336,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "BAL은 어떤 세포가 모였는지를 보여준다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 15·32·75·90쪽"
       }
     },
     {
@@ -30353,7 +30369,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\nIPF에서 FVC와 DLCO의 의미 있는 감소는 나쁜 예후를 시사하며 이 문항은 FVC 10%, DLCO 15% 감소 기준을 묻는다. 병변은 하폐야 중심부가 아니라 흉막하에 우세하고, UIP 영상만 보기 전에 다른 원인을 배제해야 한다. 서로 다른 나이의 섬유화가 함께 보이는 것이므로 2번을 ‘동시에 발생한 병변’이라는 뜻으로 읽으면 틀리다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF 환자가 보통 '''1개월 이내'''에 갑자기 호흡곤란이 악화되고, 기존 섬유화 위에 새로운 양측 GGO·consolidation이 생기면 급성 악화를 평가한다. 심부전·수분 과다로 전체 변화가 설명되는지 확인하고 감염·흡인 등 유발 요인도 조사한다.\n\n급성 악화는 예후가 나쁘다. 산소 및 호흡 보조, 유발 요인 치료를 시행하고 상황에 따라 corticosteroid를 사용하지만, 반응과 생존 이득은 불확실하다. 안정기의 항섬유화 치료와 급성 악화의 처치를 나누어 이해한다.\n\n장기 추적에서는 호흡곤란·FVC·DLCO·영상·산소 요구량을 같이 본다. 강의에서 제시하는 IPF의 불량 예후 지표에는 '''FVC 예측치 대비 절대 10%p 감소, DLCO 절대 15%p 감소'''가 포함된다. 아래 PPF의 진단 기준은 다른 목적의 기준이므로 각각의 표 제목과 함께 외운다.\n\n=== 선지별 해설 ===\n* 1번 · 양 하폐야의 중앙부에 병변이 존재한다.: 기저부는 맞지만 중심부가 아니라 흉막하가 대표 분포다.\n* 2번 · fibroblastic focus와 honeycombing이 같은 시기에 나타난다.: 같은 검체 안에 함께 존재할 수 있다. 다만 동일한 시기에 발생했다는 의미라면 틀리며 시간적 이질성이 핵심이다.\n* 3번 · HRCT 소견에서 UIP pattern이 발견되면 다른 소견 필요 없이 확진한다: UIP pattern은 CTD·노출 등에서도 가능하다. 다른 원인 평가와 임상적 적합성이 필요하다.\n* 4번 · 항섬유화제제를 사용하면 섬유화 자체를 회복시킬 수 있어 예후가 좋다.: 항섬유화제의 목표는 진행 속도 감소다. 이미 형성된 섬유화의 역전을 약속하지 않는다.\n* 5번 · FVC의 절대값이 10%, DLco가 15% 정도 감소하면 사망률이 증가한다.: 강의의 IPF 불량 예후 지표다. FVC·DLCO의 예측치 백분율에서 절대 %p 감소로 이해하며 PPF의 5%p·10%p 기준과 목적이 다르다.\n\n[[42강#갑자기 나빠지면 급성 악화와 유발 요인을 함께 찾는다|Wiki · 갑자기 나빠지면 급성 악화와 유발 요인을 함께 찾는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\nIPF에서 FVC와 DLCO의 의미 있는 감소는 나쁜 예후를 시사하며 이 문항은 FVC 10%, DLCO 15% 감소 기준을 묻는다. 병변은 하폐야 중심부가 아니라 흉막하에 우세하고, UIP 영상만 보기 전에 다른 원인을 배제해야 한다. 서로 다른 나이의 섬유화가 함께 보이는 것이므로 2번을 ‘동시에 발생한 병변’이라는 뜻으로 읽으면 틀리다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF 환자가 보통 '''1개월 이내'''에 갑자기 호흡곤란이 악화되고, 기존 섬유화 위에 새로운 양측 GGO·consolidation이 생기면 급성 악화를 평가한다. 심부전·수분 과다로 전체 변화가 설명되는지 확인하고 감염·흡인 등 유발 요인도 조사한다.\n\n급성 악화는 예후가 나쁘다. 산소 및 호흡 보조, 유발 요인 치료를 시행하고 상황에 따라 corticosteroid를 사용하지만, 반응과 생존 이득은 불확실하다. 안정기의 항섬유화 치료와 급성 악화의 처치를 나누어 이해한다.\n\n장기 추적에서는 호흡곤란·FVC·DLCO·영상·산소 요구량을 같이 본다. 강의에서 제시하는 IPF의 불량 예후 지표에는 '''FVC 예측치 대비 절대 10%p 감소, DLCO 절대 15%p 감소'''가 포함된다. 아래 PPF의 진단 기준은 다른 목적의 기준이므로 각각의 표 제목과 함께 외운다.\n\n=== 선지별 해설 ===\n* 1번 · 양 하폐야의 중앙부에 병변이 존재한다.: 기저부는 맞지만 중심부가 아니라 흉막하가 대표 분포다.\n* 2번 · fibroblastic focus와 honeycombing이 같은 시기에 나타난다.: 같은 검체 안에 함께 존재할 수 있다. 다만 동일한 시기에 발생했다는 의미라면 틀리며 시간적 이질성이 핵심이다.\n* 3번 · HRCT 소견에서 UIP pattern이 발견되면 다른 소견 필요 없이 확진한다: UIP pattern은 CTD·노출 등에서도 가능하다. 다른 원인 평가와 임상적 적합성이 필요하다.\n* 4번 · 항섬유화제제를 사용하면 섬유화 자체를 회복시킬 수 있어 예후가 좋다.: 항섬유화제의 목표는 진행 속도 감소다. 이미 형성된 섬유화의 역전을 약속하지 않는다.\n* 5번 · FVC의 절대값이 10%, DLco가 15% 정도 감소하면 사망률이 증가한다.: 강의의 IPF 불량 예후 지표다. FVC·DLCO의 예측치 백분율에서 절대 %p 감소로 이해하며 PPF의 5%p·10%p 기준과 목적이 다르다.\n\n[[42강#갑자기 나빠지면 급성 악화와 유발 요인을 함께 찾는다|Wiki · 갑자기 나빠지면 급성 악화와 유발 요인을 함께 찾는다]]\n\n~~근거: 2026 강의록 42강 49–58쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -30380,11 +30396,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "갑자기 나빠지면 급성 악화와 유발 요인을 함께 찾는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 49–58쪽"
       }
     },
     {
@@ -30412,7 +30429,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "정답: ①",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ①\n\nNSIP pattern은 결체조직질환·약물·과민성 폐렴 등에 동반될 수 있어 진단 전후로 원인 질환을 찾아야 한다. COP는 아급성이고 steroid 반응이 좋으며, AIP는 급성 호흡부전과 나쁜 예후가 특징이다. RB-ILD는 세기관지 중심 대식세포, DIP는 주로 하폐야 GGO와 폐포 내 대식세포 축적을 보인다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''NSIP는 비교적 균일한 염증과 섬유화다'''\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\n\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. Idiopathic NSIP를 정할 때는 임상·HRCT·필요한 조직검사와 MDD를 함께 사용한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n'''COP는 폐포 안의 기질화 조직이다'''\n감염이 지나간 자리에 회복 조직이 차오르듯, organizing pneumonia에서는 폐포관·폐포 등에 섬유아세포성 기질화 마개가 생긴다. 조직의 대표 소견은 '''Masson body'''다. 약물·감염·결체조직질환 등의 원인을 찾고 특발성일 때 COP라고 부른다.\n\n* 경과: '''3개월 미만의 아급성''' 기침·발열·권태감·호흡곤란.\n* 영상: 말초·기관지혈관 주위의 consolidation, GGO, 이동성 병변; reversed halo가 가능하다.\n* BAL: 림프구 증가와 CD4/CD8 감소 경향.\n* 치료: corticosteroid에 비교적 잘 반응하지만 감량·중단 과정에서 재발할 수 있다.\n\n'''AIP는 급속한 호흡부전과 DAD다'''\nAIP는 명확한 원인 없이 급격히 발생하는 diffuse alveolar damage(DAD)다. 수일∼수주에 걸쳐 심한 호흡부전이 나타나고 영상에서는 광범위한 GGO·consolidation을 보인다. 감염·약물 등 DAD를 일으킬 다른 원인을 찾은 뒤 특발성을 판단한다.\n\n치료는 ARDS에 준한 지지 치료가 중심이다. Corticosteroid를 사용할 수 있지만 반응이 일정하지 않고 사망률이 높다. 생존자에서는 회복 또는 잔여 섬유화가 가능하다.\n\n'''RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다'''\n흡연으로 생긴 색소성 대식세포가 어디에 모였는지를 본다.\n\n||= 질환 ||= 조직의 중심 ||= 영상 ||= 치료의 출발점 ||\n|| RB-ILD || 호흡세기관지와 주변 폐포의 색소성 대식세포 || Centrilobular nodule·GGO·기관지벽 비후 || '''금연''' ||\n|| DIP || 폐포 공간에 넓게 분포한 대식세포 || 하폐야·말초의 GGO || '''금연''', 필요 시 corticosteroid ||\n\n흡연과 밀접한 ILD를 묶어 기억할 때는 '''RB-ILD·DIP·PLCH'''를 함께 떠올린다. [[43강#PLCH는 흡연과 상폐야 결절·낭종을 연결한다|PLCH의 영상과 치료]]\n\n=== 선지별 해설 ===\n* 1번 · 특발성 비특이성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 맞다. NSIP의 형태는 CTD·약물·HP 등과 연결될 수 있어 진단 전후 원인 평가를 지속한다.\n* 2번 · 급성 간질성 폐렴은 대개 3개월 이내에 호흡곤란과 기침 등으로 발현하며 부신피질호르몬제에 비교적 양호한 반응을 보인다.: 아급성 경과와 좋은 steroid 반응은 COP의 대표 설명이다. AIP는 빠르고 심한 호흡부전이다.\n* 3번 · 특발성 기질화 폐렴은 3주 이내의 심한 호흡곤란을 보이며 부신피질호르몬제에 비교적 불량한 반응을 보인다.: COP는 아급성 경과와 비교적 좋은 steroid 반응을 보인다.\n* 4번 · RB-ILD는 특징적으로 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적된다.: RB-ILD의 중심은 호흡세기관지 주변이다. 광범위한 폐포 내 대식세포는 DIP다.\n* 5번 · 박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다.: DIP의 전형은 하폐야·말초의 GGO다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ①\n\nNSIP pattern은 결체조직질환·약물·과민성 폐렴 등에 동반될 수 있어 진단 전후로 원인 질환을 찾아야 한다. COP는 아급성이고 steroid 반응이 좋으며, AIP는 급성 호흡부전과 나쁜 예후가 특징이다. RB-ILD는 세기관지 중심 대식세포, DIP는 주로 하폐야 GGO와 폐포 내 대식세포 축적을 보인다.\n\n=== 이 문항을 풀기 위한 개념 ===\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. '''Idiopathic NSIP의 확진에는 폐생검으로 NSIP pattern을 확인하고 이차성 원인을 배제하는 과정이 필요하다.''' HRCT의 GGO·subpleural sparing은 패턴을 시사하는 단서다. 임상·영상·병리를 MDD에서 종합한다. 이미 결체조직질환이 확인된 CTD-ILD의 진단에서는 폐생검을 일률적으로 시행하지 않는다는 점과 적용 대상이 다르다.\n\n치료는 steroid·면역억제제와 원인 질환 조절을 중심으로 하고, 진행성 섬유화가 나타나면 항섬유화 치료를 검토한다. GERD·폐고혈압 치료, 산소와 재활도 함께 시행한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n||= 질환 ||= 핵심 영상·병리 ||= 경과·치료 ||\n|| IPF/UIP || 흉막하·기저부 honeycombing, 시간적 이질성 || 만성 진행; pirfenidone·nintedanib ||\n|| NSIP || GGO, subpleural sparing, 시간적 균일성 || 원인 질환 평가; 염증형에서 steroid 반응 ||\n|| COP || 말초성 consolidation, Masson body || 아급성; steroid 반응 양호·재발 가능 ||\n|| Idiopathic DAD(기존 AIP) || 광범위 GGO·consolidation, hyaline membrane || 급성 호흡부전; 지지 치료·불량한 예후 ||\n|| RB-ILD || 세기관지 중심 대식세포 || 흡연 관련; 금연 ||\n|| AMP(기존 DIP) || 미만성 폐포 내 대식세포, 하폐야 GGO || 흡연 관련; 금연·선택적 steroid ||\n\n|| BIP || 세기관지 중심 염증·섬유화, air trapping || HP 등 원인 확인·노출 관리 ||\n|| PPFE || 폐첨부 흉막·흉막하 fibroelastosis || 만성 경과·체중 감소·진행 평가 ||\n|| LIP || 얇은 벽 낭종·다클론성 림프형질세포 침윤 || CTD·면역결핍 평가 ||\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 비특이성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 맞다. NSIP의 형태는 CTD·약물·HP 등과 연결될 수 있어 진단 전후 원인 평가를 지속한다.\n* 2번 · 급성 간질성 폐렴은 대개 3개월 이내에 호흡곤란과 기침 등으로 발현하며 부신피질호르몬제에 비교적 양호한 반응을 보인다.: 아급성 경과와 좋은 steroid 반응은 COP의 대표 설명이다. AIP는 빠르고 심한 호흡부전이다.\n* 3번 · 특발성 기질화 폐렴은 3주 이내의 심한 호흡곤란을 보이며 부신피질호르몬제에 비교적 불량한 반응을 보인다.: COP는 아급성 경과와 비교적 좋은 steroid 반응을 보인다.\n* 4번 · RB-ILD는 특징적으로 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적된다.: RB-ILD의 중심은 호흡세기관지 주변이다. 광범위한 폐포 내 대식세포는 DIP다.\n* 5번 · 박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다.: DIP의 전형은 하폐야·말초의 GGO다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 2026 강의록 42강 69–113쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -30439,11 +30456,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "NSIP는 비교적 균일한 염증과 섬유화다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 69–113쪽"
       }
     },
     {
@@ -30471,7 +30489,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nPAP는 폐포 대식세포의 surfactant 제거 기능에 문제가 생겨 폐포 안에 물질이 축적되는 질환으로, whole lung lavage로 이를 제거한다. AEP는 재발이 드물고 CEP가 잘 재발한다. ABPA는 침습성 진균감염이 아니라 과민반응이며, 항진균제를 사용할 수 있더라도 ‘감염이 원인’이라는 설명은 옳지 않다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''PAP는 surfactant가 폐포에 쌓인다'''\nPulmonary alveolar proteinosis에서는 폐포대식세포의 surfactant 제거가 원활하지 않아 단백질·지질 성분이 폐포를 채운다. 성인의 흔한 자가면역형은 '''anti-GM-CSF 항체'''와 연결된다.\n\n* CT: GGO 위에 중격 비후가 겹치는 '''crazy paving'''.\n* BAL: 우유빛·혼탁한 액체.\n* 병리: 폐포 내 '''PAS 양성 물질'''.\n* 치료: 증상과 가스교환 장애에 따라 '''whole-lung lavage'''; 자가면역형의 GM-CSF 치료 등은 전문 평가를 통해 결정.\n\n'''질환별 암기표'''\n||= 질환 ||= 가장 먼저 묶을 특징 ||= 치료의 중심 ||\n|| Sarcoidosis || BHL·비건락성 육아종·CD4 우세 || 장기 침범과 증상에 따른 관찰 또는 steroid ||\n|| HP || 항원 노출·BAL 림프구·air trapping·섬유화 여부 || 항원 회피 ||\n|| AEP || 급성 호흡부전·BAL 호산구 >25% || Steroid, 재발 드묾 ||\n|| CEP || 천식·말초 침윤·호산구 증가 || Steroid, 재발 추적 ||\n|| ABPA || 천식·IgE·중심성 기관지확장증 || 염증 조절·상황별 항진균 치료 ||\n|| PAP || Anti-GM-CSF·crazy paving·PAS || Whole-lung lavage 등 ||\n|| LAM || 가임기 여성·기흉·유미흉·얇은 벽 낭종 || Sirolimus 적응증 평가 ||\n|| PLCH || 흡연·상폐야 결절과 불규칙 낭종·CD1a || 금연 ||\n\n~~근거: 장혜진 「교원성·과민성·호산구성 폐질환」의 본문·영상 및 수업 필기.~~~\n\n=== 선지별 해설 ===\n* 1번 · 호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 증상의 정도는 만성이 급성보다 더욱 심하다.: 만성형은 더 서서히 발생하지만 급성형이 빠르고 심한 호흡부전으로 진행할 수 있다.\n* 2번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 thermophilic actinomyces가 가장 중요한 원인이다.: Precipitin 양성은 항원 노출의 근거이며 단독 확진이 아니다.\n* 3번 · 폐꽈리단백증은 surfactant의 축적으로 인한 질환이고, whole lung lavage를 통해 치료한다.: PAP의 surfactant 축적과 whole-lung lavage가 올바른 연결이다.\n* 4번 · Allergic bronchopulmonary aspergillosis는 진균의 감염에 의해 발생하기 때문에 항진균제를 통해 치료할 수 있다.: ABPA는 과민반응이 중심이다. 항진균제를 사용할 수는 있으나 그 이유를 침습 감염 때문이라고 설명한 것이 틀리다.\n* 5번 · Wegener’s granulomatosis와 MPO는 c-ANCA가 특징적으로 나타나는 질환이다.: GPA는 PR3/c-ANCA, MPA는 MPO/p-ANCA가 대표적이다. 복원문의 MPO는 MPA를 지칭한 것으로 보이나 두 질환을 모두 c-ANCA로 묶을 수 없다.\n\n[[43강#PAP는 surfactant가 폐포에 쌓인다|Wiki · PAP는 surfactant가 폐포에 쌓인다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nPAP는 폐포 대식세포의 surfactant 제거 기능에 문제가 생겨 폐포 안에 물질이 축적되는 질환으로, whole lung lavage로 이를 제거한다. AEP는 재발이 드물고 CEP가 잘 재발한다. ABPA는 침습성 진균감염이 아니라 과민반응이며, 항진균제를 사용할 수 있더라도 ‘감염이 원인’이라는 설명은 옳지 않다.\n\n=== 이 문항을 풀기 위한 개념 ===\nPulmonary alveolar proteinosis에서는 폐포대식세포의 surfactant 제거가 원활하지 않아 단백질·지질 성분이 폐포를 채운다. 성인의 흔한 자가면역형은 '''anti-GM-CSF 항체'''와 연결된다.\n\n* CT: GGO 위에 중격 비후가 겹치는 '''crazy paving'''.\n* BAL: 우유빛·혼탁한 액체.\n* 병리: 폐포 내 '''PAS 양성 물질'''.\n* 치료: 증상과 가스교환 장애에 따라 '''whole-lung lavage'''; 자가면역형의 GM-CSF 치료 등은 전문 평가를 통해 결정.\n\n=== 선지별 해설 ===\n* 1번 · 호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 증상의 정도는 만성이 급성보다 더욱 심하다.: 만성형은 더 서서히 발생하지만 급성형이 빠르고 심한 호흡부전으로 진행할 수 있다.\n* 2번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 thermophilic actinomyces가 가장 중요한 원인이다.: Precipitin 양성은 항원 노출의 근거이며 단독 확진이 아니다.\n* 3번 · 폐꽈리단백증은 surfactant의 축적으로 인한 질환이고, whole lung lavage를 통해 치료한다.: PAP의 surfactant 축적과 whole-lung lavage가 올바른 연결이다.\n* 4번 · Allergic bronchopulmonary aspergillosis는 진균의 감염에 의해 발생하기 때문에 항진균제를 통해 치료할 수 있다.: ABPA는 과민반응이 중심이다. 항진균제를 사용할 수는 있으나 그 이유를 침습 감염 때문이라고 설명한 것이 틀리다.\n* 5번 · Wegener’s granulomatosis와 MPO는 c-ANCA가 특징적으로 나타나는 질환이다.: GPA는 PR3/c-ANCA, MPA는 MPO/p-ANCA가 대표적이다. 복원문의 MPO는 MPA를 지칭한 것으로 보이나 두 질환을 모두 c-ANCA로 묶을 수 없다.\n\n[[43강#PAP는 surfactant가 폐포에 쌓인다|Wiki · PAP는 surfactant가 폐포에 쌓인다]]\n\n~~근거: 2026 강의록 43강 78–94쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -30498,11 +30516,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "PAP는 surfactant가 폐포에 쌓인다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 78–94쪽"
       }
     },
     {
@@ -30530,7 +30549,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nSarcoidosis는 폐·흉부 림프절을 흔히 침범하며 비건락성 육아종이 특징이다. 조직 소견만으로 끝내지 않고 임상·영상의 적합성과 결핵 등 다른 육아종 질환의 배제를 함께 확인한다. 무증상 림프절 병변까지 모두 즉시 steroid 치료하는 것은 아니며, BAL CD4/CD8 비와 칼슘은 감소보다 증가하는 쪽이 중요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n=== 선지별 해설 ===\n* 1번 · BAL 소견상 림프구가 증가하면서 CD4+/CD8+ 비율이 감소하는 소견을 보인다.: Sarcoidosis에서는 BAL CD4/CD8가 증가하는 경향이다.\n* 2번 · 유육종증은 폐와 림프절에 가장 흔하게 발생하며 조직 검사상 비괴사성육아종(non-caseous granuloma)가 확인된다.: 폐·림프절과 비건락성 육아종을 올바르게 연결했다. 실제 확진은 임상·영상과 감별을 종합한다.\n* 3번 · 유육종증은 확진이 되면 바로 스테로이드 치료를 시작해야 한다.: 중요 장기 침범·증상·진행이 치료 결정에 중요하다. 확진 즉시 모든 환자에게 steroid를 투여하지 않는다.\n* 4번 · 유육종증의 stage는 4단계로 구분되며 stage 2가 가장 흔하고 stage 4가 가장 심각하다.: 강의에서 가장 흔한 것은 I기 BHL이다. IV기는 섬유화를 보인다.\n* 5번 · 유육종증은 hypocalcemia, hypocaluria, skin anergy 등의 소견을 보일 수 있다.: 칼슘은 hypercalcemia·hypercalciuria와 연결한다. Skin anergy는 가능한 소견이다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nSarcoidosis는 폐·흉부 림프절을 흔히 침범하며 비건락성 육아종이 특징이다. 조직 소견만으로 끝내지 않고 임상·영상의 적합성과 결핵 등 다른 육아종 질환의 배제를 함께 확인한다. 무증상 림프절 병변까지 모두 즉시 steroid 치료하는 것은 아니며, BAL CD4/CD8 비와 칼슘은 감소보다 증가하는 쪽이 중요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n=== 선지별 해설 ===\n* 1번 · BAL 소견상 림프구가 증가하면서 CD4+/CD8+ 비율이 감소하는 소견을 보인다.: Sarcoidosis에서는 BAL CD4/CD8가 증가하는 경향이다.\n* 2번 · 유육종증은 폐와 림프절에 가장 흔하게 발생하며 조직 검사상 비괴사성육아종(non-caseous granuloma)가 확인된다.: 폐·림프절과 비건락성 육아종을 올바르게 연결했다. 실제 확진은 임상·영상과 감별을 종합한다.\n* 3번 · 유육종증은 확진이 되면 바로 스테로이드 치료를 시작해야 한다.: 중요 장기 침범·증상·진행이 치료 결정에 중요하다. 확진 즉시 모든 환자에게 steroid를 투여하지 않는다.\n* 4번 · 유육종증의 stage는 4단계로 구분되며 stage 2가 가장 흔하고 stage 4가 가장 심각하다.: 강의에서 가장 흔한 것은 I기 BHL이다. IV기는 섬유화를 보인다.\n* 5번 · 유육종증은 hypocalcemia, hypocaluria, skin anergy 등의 소견을 보일 수 있다.: 칼슘은 hypercalcemia·hypercalciuria와 연결한다. Skin anergy는 가능한 소견이다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 2026 강의록 43강 33–53쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -30557,11 +30576,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 33–53쪽"
       }
     },
     {
@@ -32139,7 +32159,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nSarcoidosis는 상·중폐야의 perilymphatic nodule 및 폐문·종격동 림프절 비대가 특징이고 경기관지폐생검도 진단에 도움을 준다. 비건락성 육아종만으로 확진하지 않으며, HP의 serum precipitin도 노출을 뒷받침할 뿐 단독 확진 검사가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기 때문에 진단이 되면 즉시 투여한다.: 치료는 증상·장기 위험·진행에 따라 결정한다. 림프절 병변 자체만으로 즉시 steroid를 시작하지 않는다.\n* 2번 · 유육종증은 비건락성 육아종이 특징적으로, 조직검사에서 이 소견이 확인되면 확진이 가능하다.: 비건락성 육아종은 중요한 근거지만 감염 등에서도 가능하므로 조직 하나만으로 확정하지 않는다.\n* 3번 · 유육종증은 주로 양 폐야의 상부와 중간 부위에 림프관을 따라 결절이 발생하며 경기관지폐생검으로도 진단에 도움이 된다.: 상·중폐야 림프 경로의 결절과 경기관지폐생검의 역할을 올바르게 설명했다.\n* 4번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 Thermophilic actinomycetes가 가장 흔한 원인이다.: 항원 특이 IgG/precipitin은 노출을 지지할 뿐 확진적이지 않다.\n* 5번 · 과민성 폐장염의 발생에는 1형 면역 반응이 관여하기 때문에 Ig E가 증가하는 소견을 보인다.: HP는 III·IV형 반응이며 IgE 중심 I형 반응이 아니다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nSarcoidosis는 상·중폐야의 perilymphatic nodule 및 폐문·종격동 림프절 비대가 특징이고 경기관지폐생검도 진단에 도움을 준다. 비건락성 육아종만으로 확진하지 않으며, HP의 serum precipitin도 노출을 뒷받침할 뿐 단독 확진 검사가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSarcoidosis는 여러 장기를 침범하는 '''비건락성 육아종''' 질환으로 폐와 흉부 림프절을 흔히 침범한다. CD4 T세포 중심의 면역 반응이 관여하며, BAL에서는 림프구와 CD4/CD8 비 증가가 진단을 지지할 수 있다.\n\n영상의 대표 조합은 '''양측 폐문 림프절 종대(BHL)와 상·중폐야의 perilymphatic micronodule'''이다. 결절은 기관지혈관다발, 소엽간중격, 흉막·엽간열을 따라 나타난다.\n\n||= 흉부 영상 병기 ||= 소견 ||\n|| 0 || 정상 흉부 영상 ||\n|| I || BHL; 강의에서 가장 흔한 병기로 제시 ||\n|| II || BHL + 폐실질 침윤 ||\n|| III || 폐실질 침윤 ||\n|| IV || 폐섬유화 ||\n\nACE 상승, hypercalcemia·hypercalciuria, 피부 anergy가 동반될 수 있다. 진단은 '''합당한 임상·영상 + 필요한 조직에서 비건락성 육아종 + 다른 육아종성 질환 평가'''를 종합한다. ACE나 BAL 비율 하나로 확정하지 않는다.\n\n경미하고 안정적인 경우 경과를 관찰할 수 있다. 진행성 폐기능 저하, 유의한 증상, 눈·심장·신경계 등 중요한 장기 침범에서는 corticosteroid 및 상황에 맞는 추가 치료를 한다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기 때문에 진단이 되면 즉시 투여한다.: 치료는 증상·장기 위험·진행에 따라 결정한다. 림프절 병변 자체만으로 즉시 steroid를 시작하지 않는다.\n* 2번 · 유육종증은 비건락성 육아종이 특징적으로, 조직검사에서 이 소견이 확인되면 확진이 가능하다.: 비건락성 육아종은 중요한 근거지만 감염 등에서도 가능하므로 조직 하나만으로 확정하지 않는다.\n* 3번 · 유육종증은 주로 양 폐야의 상부와 중간 부위에 림프관을 따라 결절이 발생하며 경기관지폐생검으로도 진단에 도움이 된다.: 상·중폐야 림프 경로의 결절과 경기관지폐생검의 역할을 올바르게 설명했다.\n* 4번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 Thermophilic actinomycetes가 가장 흔한 원인이다.: 항원 특이 IgG/precipitin은 노출을 지지할 뿐 확진적이지 않다.\n* 5번 · 과민성 폐장염의 발생에는 1형 면역 반응이 관여하기 때문에 Ig E가 증가하는 소견을 보인다.: HP는 III·IV형 반응이며 IgE 중심 I형 반응이 아니다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 2026 강의록 43강 33–70쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -32170,11 +32190,12 @@ window.JBL_DATA = {
       "repeatFamilyIds": [],
       "officialPage": 29,
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 33–70쪽"
       }
     },
     {
@@ -39918,7 +39939,7 @@ window.JBL_DATA = {
         1
       ],
       "answerLabel": "잠정 정답: ①",
-      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ①\n\nNSIP에서 흉막 바로 밑이 상대적으로 보존되는 subpleural sparing은 중요한 감별 소견이다. 흡연 관련군은 COP가 아니라 DIP·RB-ILD이고, NSIP·COP는 BAL 림프구 증가 및 비교적 좋은 steroid 반응과 연결된다. 5번의 원인 질환 재평가도 임상적으로 잘못된 원칙은 아니므로, 이 문제는 강의에서 직접 강조한 특징인 1번을 단일최선답으로 해석한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''NSIP는 비교적 균일한 염증과 섬유화다'''\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\n\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. Idiopathic NSIP를 정할 때는 임상·HRCT·필요한 조직검사와 MDD를 함께 사용한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n'''COP는 폐포 안의 기질화 조직이다'''\n감염이 지나간 자리에 회복 조직이 차오르듯, organizing pneumonia에서는 폐포관·폐포 등에 섬유아세포성 기질화 마개가 생긴다. 조직의 대표 소견은 '''Masson body'''다. 약물·감염·결체조직질환 등의 원인을 찾고 특발성일 때 COP라고 부른다.\n\n* 경과: '''3개월 미만의 아급성''' 기침·발열·권태감·호흡곤란.\n* 영상: 말초·기관지혈관 주위의 consolidation, GGO, 이동성 병변; reversed halo가 가능하다.\n* BAL: 림프구 증가와 CD4/CD8 감소 경향.\n* 치료: corticosteroid에 비교적 잘 반응하지만 감량·중단 과정에서 재발할 수 있다.\n\n'''AIP는 급속한 호흡부전과 DAD다'''\nAIP는 명확한 원인 없이 급격히 발생하는 diffuse alveolar damage(DAD)다. 수일∼수주에 걸쳐 심한 호흡부전이 나타나고 영상에서는 광범위한 GGO·consolidation을 보인다. 감염·약물 등 DAD를 일으킬 다른 원인을 찾은 뒤 특발성을 판단한다.\n\n치료는 ARDS에 준한 지지 치료가 중심이다. Corticosteroid를 사용할 수 있지만 반응이 일정하지 않고 사망률이 높다. 생존자에서는 회복 또는 잔여 섬유화가 가능하다.\n\n'''RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다'''\n흡연으로 생긴 색소성 대식세포가 어디에 모였는지를 본다.\n\n||= 질환 ||= 조직의 중심 ||= 영상 ||= 치료의 출발점 ||\n|| RB-ILD || 호흡세기관지와 주변 폐포의 색소성 대식세포 || Centrilobular nodule·GGO·기관지벽 비후 || '''금연''' ||\n|| DIP || 폐포 공간에 넓게 분포한 대식세포 || 하폐야·말초의 GGO || '''금연''', 필요 시 corticosteroid ||\n\n흡연과 밀접한 ILD를 묶어 기억할 때는 '''RB-ILD·DIP·PLCH'''를 함께 떠올린다. [[43강#PLCH는 흡연과 상폐야 결절·낭종을 연결한다|PLCH의 영상과 치료]]\n\n=== 선지별 해설 ===\n* 1번 · 특발성 비특이성 간질성 폐렴은 HRCT scan상 특징적으로 subpleural sparing 소견을 보일 수 있어 진단에 도움이 된다.: 맞다. NSIP의 subpleural sparing은 진단을 돕는 CT 소견이다.\n* 2번 · 흡연과 관련된 특발성 간질성 폐렴은 박리성 간질성 폐렴과 특발성 기질화 폐렴이 있고 pigmented granule을 가진 macrophage가 중요한 소견이다.: 흡연 관련 IIP는 DIP와 RB-ILD다. COP의 조직 특징은 기질화 마개다.\n* 3번 · 특발성 비특이성 간질성 폐렴과 특발성 기질화 폐렴은 BAL상 neutrophilia를 보인다.: NSIP와 COP는 BAL 림프구 증가를 보일 수 있다.\n* 4번 · 세포형 비특이성 간질성 폐렴, 특발성 기질화 폐렴과 박리성 간질성 폐렴은 부신피질호르몬제에 비교적 불량한 반응을 보인다.: Cellular NSIP·COP·DIP는 steroid 반응이 상대적으로 좋은 군이다. 환자별 원인과 섬유화 정도는 함께 평가한다.\n* 5번 · 급성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 이 설명도 임상적으로 타당하다. AIP는 원인을 배제해야 하는 진단이며 이후에도 재평가할 수 있다. 따라서 1번이 직접적인 특징이지만 5번을 무조건 거짓이라고 처리할 수 없다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n잠정 정답: ①\n\nNSIP에서 흉막 바로 밑이 상대적으로 보존되는 subpleural sparing은 중요한 감별 소견이다. 흡연 관련군은 COP가 아니라 DIP·RB-ILD이고, NSIP·COP는 BAL 림프구 증가 및 비교적 좋은 steroid 반응과 연결된다. 5번의 원인 질환 재평가도 임상적으로 잘못된 원칙은 아니므로, 이 문제는 강의에서 직접 강조한 특징인 1번을 단일최선답으로 해석한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. '''Idiopathic NSIP의 확진에는 폐생검으로 NSIP pattern을 확인하고 이차성 원인을 배제하는 과정이 필요하다.''' HRCT의 GGO·subpleural sparing은 패턴을 시사하는 단서다. 임상·영상·병리를 MDD에서 종합한다. 이미 결체조직질환이 확인된 CTD-ILD의 진단에서는 폐생검을 일률적으로 시행하지 않는다는 점과 적용 대상이 다르다.\n\n치료는 steroid·면역억제제와 원인 질환 조절을 중심으로 하고, 진행성 섬유화가 나타나면 항섬유화 치료를 검토한다. GERD·폐고혈압 치료, 산소와 재활도 함께 시행한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n||= 질환 ||= 핵심 영상·병리 ||= 경과·치료 ||\n|| IPF/UIP || 흉막하·기저부 honeycombing, 시간적 이질성 || 만성 진행; pirfenidone·nintedanib ||\n|| NSIP || GGO, subpleural sparing, 시간적 균일성 || 원인 질환 평가; 염증형에서 steroid 반응 ||\n|| COP || 말초성 consolidation, Masson body || 아급성; steroid 반응 양호·재발 가능 ||\n|| Idiopathic DAD(기존 AIP) || 광범위 GGO·consolidation, hyaline membrane || 급성 호흡부전; 지지 치료·불량한 예후 ||\n|| RB-ILD || 세기관지 중심 대식세포 || 흡연 관련; 금연 ||\n|| AMP(기존 DIP) || 미만성 폐포 내 대식세포, 하폐야 GGO || 흡연 관련; 금연·선택적 steroid ||\n\n|| BIP || 세기관지 중심 염증·섬유화, air trapping || HP 등 원인 확인·노출 관리 ||\n|| PPFE || 폐첨부 흉막·흉막하 fibroelastosis || 만성 경과·체중 감소·진행 평가 ||\n|| LIP || 얇은 벽 낭종·다클론성 림프형질세포 침윤 || CTD·면역결핍 평가 ||\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 비특이성 간질성 폐렴은 HRCT scan상 특징적으로 subpleural sparing 소견을 보일 수 있어 진단에 도움이 된다.: 맞다. NSIP의 subpleural sparing은 진단을 돕는 CT 소견이다.\n* 2번 · 흡연과 관련된 특발성 간질성 폐렴은 박리성 간질성 폐렴과 특발성 기질화 폐렴이 있고 pigmented granule을 가진 macrophage가 중요한 소견이다.: 흡연 관련 IIP는 DIP와 RB-ILD다. COP의 조직 특징은 기질화 마개다.\n* 3번 · 특발성 비특이성 간질성 폐렴과 특발성 기질화 폐렴은 BAL상 neutrophilia를 보인다.: NSIP와 COP는 BAL 림프구 증가를 보일 수 있다.\n* 4번 · 세포형 비특이성 간질성 폐렴, 특발성 기질화 폐렴과 박리성 간질성 폐렴은 부신피질호르몬제에 비교적 불량한 반응을 보인다.: Cellular NSIP·COP·DIP는 steroid 반응이 상대적으로 좋은 군이다. 환자별 원인과 섬유화 정도는 함께 평가한다.\n* 5번 · 급성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 이 설명도 임상적으로 타당하다. AIP는 원인을 배제해야 하는 진단이며 이후에도 재평가할 수 있다. 따라서 1번이 직접적인 특징이지만 5번을 무조건 거짓이라고 처리할 수 없다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 2026 강의록 42강 69–113쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -39945,11 +39966,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "NSIP는 비교적 균일한 염증과 섬유화다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 69–113쪽"
       }
     },
     {
@@ -40199,7 +40221,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nUIP의 핵심 영상 소견은 subpleural·basal predominance와 honeycombing이며 traction bronchiectasis가 함께 보일 수 있다. 시간적·공간적 이질성을 보이고 NSIP처럼 균일한 시기의 병변이 아니다. 전형적인 UIP 영상과 적절한 임상 조건이 맞으면 언제나 폐생검이 필요한 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\n\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · 합당한 임상 및 HRCT scan 소견이 있어도 확진을 위하여 폐 조직 검사를 시행하는 것이 원칙이다.: 전형적 HRCT UIP와 합당한 임상, 원인 배제가 이루어진 경우 조직검사 없이 진단할 수 있다.\n* 2번 · HRCT상 subpleural & basal predominant distribution의 특징적 소견을 보인다.: UIP/IPF의 대표 분포는 subpleural·basal predominant다.\n* 3번 · 치료에서 pirfenidone, nintedanib, acetylcysteine, sildenafil 등이 conditional positive로 권고된다.: Pirfenidone·nintedanib이 항섬유화 치료다. NAC·sildenafil까지 모두 같은 긍정 권고로 묶을 수 없다.\n* 4번 · BAL상 lymphocytosis와 CD4/8 비가 증가하는 특징적 소견을 보인다.: BAL lymphocytosis와 높은 CD4/CD8는 sarcoidosis 등 다른 진단을 평가할 단서다.\n* 5번 · 조직검사상 특징적인 geographic & temporal homogeneity를 보인다.: UIP는 geographic·temporal heterogeneity가 특징이다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nUIP의 핵심 영상 소견은 subpleural·basal predominance와 honeycombing이며 traction bronchiectasis가 함께 보일 수 있다. 시간적·공간적 이질성을 보이고 NSIP처럼 균일한 시기의 병변이 아니다. 전형적인 UIP 영상과 적절한 임상 조건이 맞으면 언제나 폐생검이 필요한 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · 합당한 임상 및 HRCT scan 소견이 있어도 확진을 위하여 폐 조직 검사를 시행하는 것이 원칙이다.: 전형적 HRCT UIP와 합당한 임상, 원인 배제가 이루어진 경우 조직검사 없이 진단할 수 있다.\n* 2번 · HRCT상 subpleural & basal predominant distribution의 특징적 소견을 보인다.: UIP/IPF의 대표 분포는 subpleural·basal predominant다.\n* 3번 · 치료에서 pirfenidone, nintedanib, acetylcysteine, sildenafil 등이 conditional positive로 권고된다.: Pirfenidone·nintedanib이 항섬유화 치료다. NAC·sildenafil까지 모두 같은 긍정 권고로 묶을 수 없다.\n* 4번 · BAL상 lymphocytosis와 CD4/8 비가 증가하는 특징적 소견을 보인다.: BAL lymphocytosis와 높은 CD4/CD8는 sarcoidosis 등 다른 진단을 평가할 단서다.\n* 5번 · 조직검사상 특징적인 geographic & temporal homogeneity를 보인다.: UIP는 geographic·temporal heterogeneity가 특징이다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 2026 강의록 42강 30–48쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -40226,11 +40248,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "UIP는 흉막하·폐기저부의 벌집 모양이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 30–48쪽"
       }
     },
     {
@@ -40258,7 +40281,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n양측 폐기저부의 흡기성 Velcro crackle이 IPF의 대표 진찰 소견이다. 초기에는 운동 시 호흡곤란과 마른기침이 흔하고 fibroblastic focus는 오래된 섬유화가 아니라 비교적 활발한 섬유화 부위다. 급성 악화는 steroid를 쓰더라도 예후가 나쁘며, probable UIP라는 이름만으로 IPF를 배제하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\n\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · Fibroblastic focus는 특발성 폐섬유증의 특징적인 소견으로 mature old fibrosis를 시사하고 이것이 확인되면 특발성 폐섬유증을 확진할 수 있다.: Fibroblastic focus는 활발한 섬유화 부위다. 오래된 치밀한 섬유화와 함께 존재하며 그 하나만으로 IPF를 확정하지 않는다.\n* 2번 · 특발성 폐섬유증의 급성 악화는 부신피질호르몬제에 잘 반응하기 때문에 예후가 비교적 양호하다.: 급성 악화는 steroid를 고려하더라도 반응과 생존 이득이 불확실하고 예후가 나쁘다.\n* 3번 · 특발성 폐섬유증의 초기 소견은 안정 시의 호흡 곤란 및 객담을 동반하는 기침 등이다: 초기에는 운동 시 호흡곤란과 마른기침이 흔하다.\n* 4번 · 특발성 폐섬유증에서 섬유화가 진행되면 bibasilar inspiratory velcro-crackle을 특징적으로 청진할 수 있다.: 양측 폐기저부의 흡기성 Velcro crackle이 특징적인 진찰 소견이다.\n* 5번 · HRCT에서 probable UIP, Histopathology에서 probable UIP이면 최종 진단은 IPF가 아니다.: Probable UIP라는 이름만으로 배제하지 않는다. 영상·병리·임상을 MDD에서 종합해 IPF로 판단할 수 있다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n양측 폐기저부의 흡기성 Velcro crackle이 IPF의 대표 진찰 소견이다. 초기에는 운동 시 호흡곤란과 마른기침이 흔하고 fibroblastic focus는 오래된 섬유화가 아니라 비교적 활발한 섬유화 부위다. 급성 악화는 steroid를 쓰더라도 예후가 나쁘며, probable UIP라는 이름만으로 IPF를 배제하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · Fibroblastic focus는 특발성 폐섬유증의 특징적인 소견으로 mature old fibrosis를 시사하고 이것이 확인되면 특발성 폐섬유증을 확진할 수 있다.: Fibroblastic focus는 활발한 섬유화 부위다. 오래된 치밀한 섬유화와 함께 존재하며 그 하나만으로 IPF를 확정하지 않는다.\n* 2번 · 특발성 폐섬유증의 급성 악화는 부신피질호르몬제에 잘 반응하기 때문에 예후가 비교적 양호하다.: 급성 악화는 steroid를 고려하더라도 반응과 생존 이득이 불확실하고 예후가 나쁘다.\n* 3번 · 특발성 폐섬유증의 초기 소견은 안정 시의 호흡 곤란 및 객담을 동반하는 기침 등이다: 초기에는 운동 시 호흡곤란과 마른기침이 흔하다.\n* 4번 · 특발성 폐섬유증에서 섬유화가 진행되면 bibasilar inspiratory velcro-crackle을 특징적으로 청진할 수 있다.: 양측 폐기저부의 흡기성 Velcro crackle이 특징적인 진찰 소견이다.\n* 5번 · HRCT에서 probable UIP, Histopathology에서 probable UIP이면 최종 진단은 IPF가 아니다.: Probable UIP라는 이름만으로 배제하지 않는다. 영상·병리·임상을 MDD에서 종합해 IPF로 판단할 수 있다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 2026 강의록 42강 30–58쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -40285,11 +40308,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "UIP는 흉막하·폐기저부의 벌집 모양이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 30–58쪽"
       }
     },
     {
@@ -40317,7 +40341,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n화살표는 흉막하에 여러 층으로 모인 벽이 있는 낭성 공기공간, 즉 honeycombing을 가리킨다. UIP의 진행된 섬유화 소견이다. 길게 늘어난 기관지인 traction bronchiectasis나, 주로 한 층의 흉막하 저음영인 paraseptal emphysema와 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\n\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · Ground glass opacity: GGO는 혈관이 비쳐 보이는 뿌연 음영이다.\n* 2번 · Traction bronchiectasis: Traction bronchiectasis는 섬유화에 의해 당겨져 확장된 기관지다. 분지·관 모양을 따라 읽는다.\n* 3번 · Fibroblastic focus: Fibroblastic focus는 조직 현미경의 소견이다.\n* 4번 · Paraseptal emphysema: Paraseptal emphysema는 흉막 인접 저음영 공간이며 전형적인 다층 벌집 모양 섬유화와 다르다.\n* 5번 · Honeycombing: 벽을 가진 작은 낭성 공간이 흉막하에 층을 이루는 honeycombing이다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 38기 자료; 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n화살표는 흉막하에 여러 층으로 모인 벽이 있는 낭성 공기공간, 즉 honeycombing을 가리킨다. UIP의 진행된 섬유화 소견이다. 길게 늘어난 기관지인 traction bronchiectasis나, 주로 한 층의 흉막하 저음영인 paraseptal emphysema와 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · Ground glass opacity: GGO는 혈관이 비쳐 보이는 뿌연 음영이다.\n* 2번 · Traction bronchiectasis: Traction bronchiectasis는 섬유화에 의해 당겨져 확장된 기관지다. 분지·관 모양을 따라 읽는다.\n* 3번 · Fibroblastic focus: Fibroblastic focus는 조직 현미경의 소견이다.\n* 4번 · Paraseptal emphysema: Paraseptal emphysema는 흉막 인접 저음영 공간이며 전형적인 다층 벌집 모양 섬유화와 다르다.\n* 5번 · Honeycombing: 벽을 가진 작은 낭성 공간이 흉막하에 층을 이루는 honeycombing이다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 2026 강의록 42강 34–43쪽.~~~",
       "images": [
         "J/2021/q103_01.jpg"
       ],
@@ -40353,11 +40377,12 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "UIP는 흉막하·폐기저부의 벌집 모양이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 34–43쪽"
       }
     },
     {
@@ -40385,7 +40410,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n류마티스관절염 자체는 여성에 더 흔하지만 RA 관련 ILD는 남성에서 더 흔하다. 강의는 각각 남녀비 1:2와 3:1로 대비한다. PAP를 일반적으로 steroid로 치료하지 않으며, ABPA를 단순한 진균 침습 감염으로 설명하는 것도 틀리다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''결체조직질환에서는 관절·피부·근육을 함께 본다'''\nCTD-ILD는 호흡곤란과 마른기침으로 시작할 수 있다. 폐 증상이 먼저 나타나는 경우도 있어 Raynaud phenomenon, 관절통, 피부 변화, 근력 저하, 안구·구강 건조 등을 묻는다. HRCT·폐기능·자가항체를 함께 평가하고 원인 질환과 폐 침범의 활성도를 치료한다.\n\n||= 질환 ||= 기억할 폐 소견 ||\n|| 류마티스관절염(RA) || UIP가 중요한 패턴; 흉막염·결절·기도 질환도 가능 ||\n|| 전신경화증(SSc) || NSIP와 폐동맥고혈압(PAH) ||\n|| 다발근염·피부근염 || NSIP·OP; anti-Jo-1 등 항합성효소항체와 ILD ||\n|| SLE || 흉막염, 폐포출혈, 급성 폐렴형 침범 ||\n|| Sjögren syndrome || NSIP·LIP, 기도 건조·림프증식성 질환 ||\n|| 강직척추염 || 폐첨부 섬유성·수포성 변화 ||\n\nRA 자체는 여성에게 더 흔하지만 '''RA-ILD는 남성에서 더 흔하다'''. SSc에서 DLCO가 폐용적보다 두드러지게 감소하면 폐혈관 질환도 살핀다. 치료에는 원인 질환에 맞는 면역조절제가 사용되며, SSc에서 고용량 steroid를 고려할 때는 신장 위기 위험에 특히 주의한다.\n\n'''질환별 암기표'''\n||= 질환 ||= 가장 먼저 묶을 특징 ||= 치료의 중심 ||\n|| Sarcoidosis || BHL·비건락성 육아종·CD4 우세 || 장기 침범과 증상에 따른 관찰 또는 steroid ||\n|| HP || 항원 노출·BAL 림프구·air trapping·섬유화 여부 || 항원 회피 ||\n|| AEP || 급성 호흡부전·BAL 호산구 >25% || Steroid, 재발 드묾 ||\n|| CEP || 천식·말초 침윤·호산구 증가 || Steroid, 재발 추적 ||\n|| ABPA || 천식·IgE·중심성 기관지확장증 || 염증 조절·상황별 항진균 치료 ||\n|| PAP || Anti-GM-CSF·crazy paving·PAS || Whole-lung lavage 등 ||\n|| LAM || 가임기 여성·기흉·유미흉·얇은 벽 낭종 || Sirolimus 적응증 평가 ||\n|| PLCH || 흡연·상폐야 결절과 불규칙 낭종·CD1a || 금연 ||\n\n~~근거: 장혜진 「교원성·과민성·호산구성 폐질환」의 본문·영상 및 수업 필기.~~~\n\n=== 선지별 해설 ===\n* 1번 · 호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 호흡곤란이나 호흡 부전의 정도는 만성에서 더 심하다.: 빠르고 심한 호흡부전은 AEP에서 중요하다. 만성형이라는 이유로 항상 더 중증은 아니다.\n* 2번 · 폐꽈리단백증은 대부분 부신피질호르몬제나 면역 억제제로 치료한다.: PAP는 폐포 내 surfactant 제거 장애이며 whole-lung lavage 등의 치료를 사용한다.\n* 3번 · 폐 림프관평활근종증은 젊은 남자에서, 폐랑게르한스세포조직구증은 젊은 여자에서 비교적 더 많이 호발한다.: LAM은 주로 젊은 여성, PLCH는 젊은 흡연자와 연결한다.\n* 4번 · Allergic bronchopulmonary aspergillosis는 aspergillus의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.: ABPA는 Aspergillus에 대한 알레르기 반응이다. Itraconazole 등의 실제 사용 가능성과 별개로 침습 감염을 원인으로 단정한 설명은 부정확하다.\n* 5번 · 류마티스 관절염은 여자에서 더 많으나 류마티스 관절염에 의한 간질성 폐질환은 남자에서 많다.: RA 자체는 여성에 흔하지만 RA-ILD는 남성에 더 흔하다는 강의의 대비가 맞다.\n\n[[43강#결체조직질환에서는 관절·피부·근육을 함께 본다|Wiki · 결체조직질환에서는 관절·피부·근육을 함께 본다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n류마티스관절염 자체는 여성에 더 흔하지만 RA 관련 ILD는 남성에서 더 흔하다. 강의는 각각 남녀비 1:2와 3:1로 대비한다. PAP를 일반적으로 steroid로 치료하지 않으며, ABPA를 단순한 진균 침습 감염으로 설명하는 것도 틀리다.\n\n=== 이 문항을 풀기 위한 개념 ===\nSARD-ILD(systemic autoimmune rheumatic diseases–ILD)는 전신 자가면역 류마티스질환에 동반되는 ILD다. CTD-ILD와 연결되는 범주로, 전체적으로 '''NSIP pattern'''이 가장 흔하다. 폐 증상이 전신 증상보다 수개월∼수년 앞설 수 있어 호흡곤란·마른기침만 있어도 Raynaud phenomenon, 관절통, 피부 변화, 근력 저하, 안구·구강 건조를 묻는다.\n\n||= 질환 ||= 폐에서 기억할 특징 ||\n|| '''류마티스관절염(RA)''' || UIP, 흉막염·흉수, 폐결절, bronchiolitis obliterans ||\n|| '''전신경화증(SSc)''' || Fibrotic NSIP와 PAH; FVC·DLCO 및 HRCT 범위로 평가 ||\n|| 다발근염·피부근염(IIM) || NSIP·OP, 하폐야 우세; anti-Jo-1·anti-MDA5 등과 연관 ||\n|| SLE || 가장 흔한 폐 침범은 흉막염; 급성 lupus pneumonitis·폐포출혈도 가능 ||\n|| Sjögren disease(SjD) || NSIP가 LIP보다 흔함; 세기관지염·림프증식성 질환도 평가 ||\n|| 강직척추염 || 상폐야 fibrobullous disease; 진행된 공동에 aspergilloma 가능 ||\n\n면역염증을 조절하는 치료와 섬유화 진행을 늦추는 치료를 나누어 생각한다. 약은 원인 질환·폐 침범·폐 이외 장기 침범에 맞춰 고른다. SSc에서 고용량 glucocorticoid는 '''scleroderma renal crisis''' 위험을 높일 수 있어 특히 주의한다.\n\nRA 자체는 여성에게 더 흔하지만 '''RA-ILD는 남성에서 더 흔하다(RA 남:여 1:2, RA-ILD 3:1)'''. 고령·흡연·혈청양성은 폐 침범을 생각하게 하는 단서다. UIP가 중요한 패턴이며 NSIP·OP 등도 가능하다.\n\n||= 폐 침범 ||= 기억할 소견 ||\n|| ILD || 혈관·기도 주변 림프구 침윤; UIP pattern과 섬유화 진행 평가 ||\n|| Bronchiolitis obliterans || 혈청양성 중년 여성에서 급격한 기류 폐쇄 ||\n|| 흉막 질환 || '''삼출액, 흉수 RF 상승, glucose 감소(혈청의 50% 미만)''' ||\n|| 폐결절 || Necrobiotic rheumatoid nodule; silica 노출·진폐증과 결절이 함께 있으면 Caplan syndrome ||\n\n약물성 폐손상과 감염도 함께 평가한다. 갑작스러운 호흡곤란에서는 폐섬유화의 만성 진행만 생각하지 말고 투약력과 급성 원인을 확인한다. ILD는 RA의 예후에 중요한 영향을 주며, FVC·DLCO·산소 요구량과 영상 변화를 추적한다.\n\n||= 치료를 고르는 조건 ||= 치료 방향 ||\n|| 치료 적응증이 뚜렷하지 않고 안정적 || 관찰·모니터링 ||\n|| 활동성 관절염 동반 || 관절을 목표에 맞게 조절하면서 폐를 함께 평가; abatacept·rituximab·JAK inhibitor 등, 상황에 따라 tocilizumab·glucocorticoid·MMF·azathioprine 검토 ||\n|| 관절염은 조절되지만 ILD가 심하거나 진행 || 면역억제 치료의 조정·병합 검토 ||\n|| '''PPF''' || '''Nintedanib''' 또는 면역억제 치료와 nintedanib 병용 검토 ||\n|| '''UIP pattern의 RA-ILD''' || Pirfenidone을 조건부로 고려 ||\n|| 치료에도 심한 진행 || 약제 변경·추가와 폐이식 평가 ||\n\n> 약을 한꺼번에 모두 쓰는 표가 아니다. 관절 활성도와 폐의 진행 양상을 보고 선택·전환한다. '''생물학적 제제끼리 병용하지 않으며''', 장기간 고용량 glucocorticoid는 피한다.\n\n=== 선지별 해설 ===\n* 1번 · 호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 호흡곤란이나 호흡 부전의 정도는 만성에서 더 심하다.: 빠르고 심한 호흡부전은 AEP에서 중요하다. 만성형이라는 이유로 항상 더 중증은 아니다.\n* 2번 · 폐꽈리단백증은 대부분 부신피질호르몬제나 면역 억제제로 치료한다.: PAP는 폐포 내 surfactant 제거 장애이며 whole-lung lavage 등의 치료를 사용한다.\n* 3번 · 폐 림프관평활근종증은 젊은 남자에서, 폐랑게르한스세포조직구증은 젊은 여자에서 비교적 더 많이 호발한다.: LAM은 주로 젊은 여성, PLCH는 젊은 흡연자와 연결한다.\n* 4번 · Allergic bronchopulmonary aspergillosis는 aspergillus의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.: ABPA는 Aspergillus에 대한 알레르기 반응이다. Itraconazole 등의 실제 사용 가능성과 별개로 침습 감염을 원인으로 단정한 설명은 부정확하다.\n* 5번 · 류마티스 관절염은 여자에서 더 많으나 류마티스 관절염에 의한 간질성 폐질환은 남자에서 많다.: RA 자체는 여성에 흔하지만 RA-ILD는 남성에 더 흔하다는 강의의 대비가 맞다.\n\n[[43강#RA-ILD는 폐와 관절의 활성도를 나누어 치료한다|Wiki · RA-ILD의 특징과 치료]]\n\n~~근거: 2026 강의록 43강 5–15·78–94쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -40412,11 +40437,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "결체조직질환에서는 관절·피부·근육을 함께 본다",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
+        "chapter": "RA-ILD는 폐와 관절의 활성도를 나누어 치료한다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 5–15·78–94쪽"
       }
     },
     {
@@ -40535,7 +40561,7 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\nHP에서 섬유화 동반 여부는 예후를 크게 가르는 기준이다. 원인 항원 노출을 피하는 것이 중요하며, precipitin 양성만으로 확진할 수 없다. Sarcoidosis의 육아종은 건락성이 아니라 비건락성이고, 모든 병기가 자연 호전되거나 steroid가 불필요한 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nHypersensitivity pneumonitis(HP)는 반복적으로 흡입한 항원에 대한 면역 반응이다. 조류, 곰팡이, 농작물·건초, 가습기 등 생활·직업 환경을 구체적으로 조사한다. Thermophilic actinomycetes는 farmer's lung의 전통적인 대표 항원이다.\n\n* 면역: 항원 특이 IgG와 세포매개 면역이 관여한다.\n* BAL: 림프구 증가, CD8 우세와 CD4/CD8 감소 경향.\n* 비섬유화성 영상: centrilobular nodule, GGO, mosaic attenuation, 호기 CT의 air trapping.\n* '''Three-density pattern''': GGO 부위, 정상 폐, 공기가 갇힌 저음영 폐가 섞인 모습.\n* 예후: '''섬유화 동반 여부'''와 진행 정도가 중요하다.\n\n\n\n\nSerum precipitin/항원 특이 IgG는 해당 항원에 노출되었다는 근거다. 임상·영상·BAL과 결합하여 의미를 판단한다. 치료의 출발점은 '''원인 항원 회피'''이며 염증 활성도와 중증도에 따라 steroid를 고려한다. 섬유화가 진행하면 [[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|PPF 평가와 치료]]로 이어진다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증의 Stage는 4 단계로 구분되며 Stage 2가 가장 흔하고 Stage 4가 가장 심각하다.: 가장 흔한 병기는 I기이며 IV기는 섬유화다.\n* 2번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 Thermophilic actinomycetes가 가장 흔한 원인이다: Precipitin 양성만으로 확진하지 않는다. 노출·영상·BAL/조직을 종합한다.\n* 3번 · 유육종증은 폐와 림프절에 가장 흔하게 발생하며 조직 검사상 건락성 (caseous granuloma)가 확인된다.: Sarcoidosis의 대표 육아종은 비건락성이다.\n* 4번 · 과민성 폐장염의 가장 중요한 예후 인자는 섬유화를 동반하였는지의 여부이다.: HP의 중요한 예후 인자는 섬유화 여부다. 섬유화성 HP의 진행과 폐기능 감소를 추적한다.\n* 5번 · 유육종증은 폐와 림프절에 발생하는 경우에는 병기에 관계없이 저절로 호전되는 경우가 더 많기 때문에 대부분에서 부신피질호르몬제의 투여가 필요하지 않다.: 일부는 자연 호전하지만 병기와 무관하게 모두 호전되는 것은 아니다. 장기 위험과 증상·진행에 따라 치료한다.\n\n[[43강#HP는 들이마신 항원과 섬유화 여부를 찾는다|Wiki · HP는 들이마신 항원과 섬유화 여부를 찾는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\nHP에서 섬유화 동반 여부는 예후를 크게 가르는 기준이다. 원인 항원 노출을 피하는 것이 중요하며, precipitin 양성만으로 확진할 수 없다. Sarcoidosis의 육아종은 건락성이 아니라 비건락성이고, 모든 병기가 자연 호전되거나 steroid가 불필요한 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nHypersensitivity pneumonitis(HP)는 반복적으로 흡입한 항원에 대한 면역 반응이다. 조류, 곰팡이, 농작물·건초, 가습기 등 생활·직업 환경을 구체적으로 조사한다. Thermophilic actinomycetes는 farmer's lung의 전통적인 대표 항원이다.\n\n* 면역: 항원 특이 IgG와 세포매개 면역이 관여한다.\n* BAL: 림프구 증가, CD8 우세와 CD4/CD8 감소 경향.\n* 비섬유화성 영상: centrilobular nodule, GGO, mosaic attenuation, 호기 CT의 air trapping.\n* '''Three-density pattern''': GGO 부위, 정상 폐, 공기가 갇힌 저음영 폐가 섞인 모습.\n* 예후: '''섬유화 동반 여부'''와 진행 정도가 중요하다.\n\nSerum precipitin/항원 특이 IgG는 해당 항원에 노출되었다는 근거다. 임상·영상·BAL과 결합하여 의미를 판단한다. 치료의 출발점은 '''원인 항원 회피'''이며 염증 활성도와 중증도에 따라 steroid를 고려한다. 섬유화가 진행하면 [[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|PPF 평가와 치료]]로 이어진다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증의 Stage는 4 단계로 구분되며 Stage 2가 가장 흔하고 Stage 4가 가장 심각하다.: 가장 흔한 병기는 I기이며 IV기는 섬유화다.\n* 2번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견이며 Thermophilic actinomycetes가 가장 흔한 원인이다: Precipitin 양성만으로 확진하지 않는다. 노출·영상·BAL/조직을 종합한다.\n* 3번 · 유육종증은 폐와 림프절에 가장 흔하게 발생하며 조직 검사상 건락성 (caseous granuloma)가 확인된다.: Sarcoidosis의 대표 육아종은 비건락성이다.\n* 4번 · 과민성 폐장염의 가장 중요한 예후 인자는 섬유화를 동반하였는지의 여부이다.: HP의 중요한 예후 인자는 섬유화 여부다. 섬유화성 HP의 진행과 폐기능 감소를 추적한다.\n* 5번 · 유육종증은 폐와 림프절에 발생하는 경우에는 병기에 관계없이 저절로 호전되는 경우가 더 많기 때문에 대부분에서 부신피질호르몬제의 투여가 필요하지 않다.: 일부는 자연 호전하지만 병기와 무관하게 모두 호전되는 것은 아니다. 장기 위험과 증상·진행에 따라 치료한다.\n\n[[43강#HP는 들이마신 항원과 섬유화 여부를 찾는다|Wiki · HP는 들이마신 항원과 섬유화 여부를 찾는다]]\n\n~~근거: 2026 강의록 43강 33–70쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -40562,11 +40588,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "HP는 들이마신 항원과 섬유화 여부를 찾는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 33–70쪽"
       }
     },
     {
@@ -45473,7 +45500,7 @@ window.JBL_DATA = {
         5
       ],
       "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\nAIP는 수일∼수주 내 빠르게 호흡부전으로 진행하고 COP는 보통 3개월 미만의 아급성 경과를 보인다. IPF·NSIP는 만성 섬유화군, RB-ILD·DIP는 흡연 관련군으로 묶는다. COP와 AIP의 시간 경과 및 steroid 반응을 서로 바꾸어 외우지 않는 것이 핵심이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nILD는 여러 질환을 묶는 이름이다. 문진에서는 '''직업·환경 노출, 약물, 흡연, 관절·피부·근육 증상'''부터 확인한다. 원인이 밝혀지면 그 원인에 따른 ILD로 분류하고, 충분한 평가 후에도 원인이 설명되지 않는 경우 특발성 간질성폐렴(IIP)을 고려한다.\n\n||= IIP의 큰 범주 ||= 대표 질환 ||= 먼저 떠올릴 경과 ||\n|| 만성 섬유화성 || IPF, idiopathic NSIP || 수개월∼수년에 걸친 호흡곤란 ||\n|| 급성·아급성 || AIP, COP || AIP는 급속한 호흡부전, COP는 아급성 기침·발열 ||\n|| 흡연 관련 || RB-ILD, DIP || 흡연력과 색소를 가진 대식세포 ||\n\n> 원인을 찾는 문진 → HRCT의 분포와 패턴 → 필요한 BAL·조직검사 → 임상·영상·병리의 다학제 판단(MDD).\n\n폐기능검사에서는 제한성 변화와 DLCO 감소가 흔하다. 운동 시 산소포화도 저하, 양측 폐기저부의 흡기성 crackle도 함께 본다. FVC·DLCO·운동능력은 진단 이후 경과를 따라가는 기준이 된다.\n\n||= 동반 단서 ||= 연결할 질환 ||\n|| 반복 기흉 || LAM, PLCH, 결절성경화증, 신경섬유종증 ||\n|| 객혈 || Goodpasture syndrome, LAM, PLCH ||\n|| Wheezing || Sarcoidosis, eosinophilic pneumonia, EGPA ||\n\n조직이 필요하면 환자의 폐기능·연령·동반질환과 검사 위험을 함께 따진다. TBLB는 sarcoidosis 등에서 유용하며, 큰 검체가 필요한 경우 VATS 폐생검 또는 숙련된 기관의 cryobiopsy 등을 검토한다. 검사 결과가 서로 어긋날수록 MDD가 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · A: Idiopathic NSIP / B: AIP / C: COP: COP는 흡연 관련군이 아니라 급성·아급성군이다.\n* 2번 · A: IPF / B: Idiopathic NSIP / C: RB-ILD: NSIP는 급성·아급성군이 아니라 만성 섬유화성군이다.\n* 3번 · A: IPF / B: DIP / C: COP: DIP는 흡연 관련, COP는 급성·아급성이다.\n* 4번 · A: IPF / B: AIP / C: COP: COP가 흡연 관련군 자리에 들어가 있어 틀리다.\n* 5번 · A: Idiopathic NSIP / B: COP / C: DIP: NSIP–만성 섬유화성, COP–급성·아급성, DIP–흡연 관련의 정확한 조합이다.\n\n[[42강#원인·시간·분포를 먼저 잡는다|Wiki · 원인·시간·분포를 먼저 잡는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n이 문항의 A·B·C는 전통적인 IIP 분류를 묻는다. 만성 섬유화성은 IPF·NSIP, 급성·아급성은 AIP·COP, 흡연 관련은 RB-ILD·DIP로 대응한다.\n\nAIP는 수일∼수주 내 빠르게 호흡부전으로 진행하고 COP는 보통 3개월 미만의 아급성 경과를 보인다. IPF·NSIP는 만성 섬유화군, RB-ILD·DIP는 흡연 관련군으로 묶는다. COP와 AIP의 시간 경과 및 steroid 반응을 서로 바꾸어 외우지 않는 것이 핵심이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nILD는 여러 질환을 묶는 이름이다. 문진에서는 '''직업·환경 노출, 약물, 흡연, 관절·피부·근육 증상'''부터 확인한다. 원인이 밝혀지면 그 원인에 따른 ILD로 분류하고, 충분한 평가 후에도 원인이 설명되지 않는 경우 특발성 간질성폐렴(IIP)을 고려한다.\n\n간질성폐렴의 분류는 '''형태(pattern)와 원인'''을 두 축으로 읽는다. UIP가 보이면 IPF뿐 아니라 결체조직질환·HP·약물 등을 먼저 평가한다. 같은 모양도 원인이 다르면 질환명과 치료가 달라진다.\n\n||= 형태의 큰 범주 ||= 포함되는 패턴 ||= 원인을 배제한 뒤 붙는 대표 진단 ||\n|| '''Interstitial patterns''' || UIP, NSIP, BIP, DAD, PPFE, LIP || IPF, idiopathic NSIP, idiopathic DAD 등 ||\n|| '''Alveolar filling patterns''' || OP, RB-ILD, AMP; 드문 형태로 AEP·CEP·PAP 등 || COP, idiopathic AMP 등 ||\n\n||= 연결해서 기억할 명칭 ||= 의미 ||\n|| '''DIP → AMP''' || Alveolar macrophage pneumonia. 폐포에 쌓이는 세포는 주로 대식세포다. ||\n|| '''AIP → idiopathic DAD''' || 원인을 찾을 수 없는 diffuse alveolar damage. DAD 자체는 여러 원인으로 생길 수 있다. ||\n|| '''BIP''' || Bronchiolocentric interstitial pneumonia. 세기관지 중심 패턴이며 HP 등 원인을 평가한다. Idiopathic BIP는 잠정 범주다. ||\n\n전통적인 IIP 분류는 만성 섬유화성(IPF·NSIP), 급성·아급성(AIP·COP), 흡연 관련(RB-ILD·DIP)으로 묶었다. 이 이름으로 제시된 문항은 해당 질환의 성질을 그대로 읽고, DIP는 AMP로, AIP는 idiopathic DAD로 연결하면 된다.\n\n> 원인을 찾는 문진 → HRCT의 분포와 패턴 → 필요한 BAL·조직검사 → 임상·영상·병리의 다학제 판단(MDD).\n\n폐기능검사에서는 제한성 변화와 DLCO 감소가 흔하다. 운동 시 산소포화도 저하, 양측 폐기저부의 흡기성 crackle도 함께 본다. FVC·DLCO·운동능력은 진단 이후 경과를 따라가는 기준이 된다.\n\n||= 동반 단서 ||= 연결할 질환 ||\n|| 반복 기흉 || LAM, PLCH, 결절성경화증, 신경섬유종증 ||\n|| 객혈 || Goodpasture syndrome, LAM, PLCH ||\n|| Wheezing || Sarcoidosis, eosinophilic pneumonia, EGPA ||\n\n조직이 필요하면 환자의 폐기능·연령·동반질환과 검사 위험을 함께 따진다. TBLB는 sarcoidosis 등에서 유용하며, 큰 검체가 필요한 경우 VATS 폐생검 또는 숙련된 기관의 cryobiopsy 등을 검토한다. 검사 결과가 서로 어긋날수록 MDD가 중요하다.\n\n||= 질환 ||= 핵심 영상·병리 ||= 경과·치료 ||\n|| IPF/UIP || 흉막하·기저부 honeycombing, 시간적 이질성 || 만성 진행; pirfenidone·nintedanib ||\n|| NSIP || GGO, subpleural sparing, 시간적 균일성 || 원인 질환 평가; 염증형에서 steroid 반응 ||\n|| COP || 말초성 consolidation, Masson body || 아급성; steroid 반응 양호·재발 가능 ||\n|| Idiopathic DAD(기존 AIP) || 광범위 GGO·consolidation, hyaline membrane || 급성 호흡부전; 지지 치료·불량한 예후 ||\n|| RB-ILD || 세기관지 중심 대식세포 || 흡연 관련; 금연 ||\n|| AMP(기존 DIP) || 미만성 폐포 내 대식세포, 하폐야 GGO || 흡연 관련; 금연·선택적 steroid ||\n\n|| BIP || 세기관지 중심 염증·섬유화, air trapping || HP 등 원인 확인·노출 관리 ||\n|| PPFE || 폐첨부 흉막·흉막하 fibroelastosis || 만성 경과·체중 감소·진행 평가 ||\n|| LIP || 얇은 벽 낭종·다클론성 림프형질세포 침윤 || CTD·면역결핍 평가 ||\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · A: Idiopathic NSIP / B: AIP / C: COP: COP는 흡연 관련군이 아니라 급성·아급성군이다.\n* 2번 · A: IPF / B: Idiopathic NSIP / C: RB-ILD: NSIP는 급성·아급성군이 아니라 만성 섬유화성군이다.\n* 3번 · A: IPF / B: DIP / C: COP: DIP는 흡연 관련, COP는 급성·아급성이다.\n* 4번 · A: IPF / B: AIP / C: COP: COP가 흡연 관련군 자리에 들어가 있어 틀리다.\n* 5번 · A: Idiopathic NSIP / B: COP / C: DIP: NSIP–만성 섬유화성, COP–급성·아급성, DIP–흡연 관련의 정확한 조합이다.\n\n[[42강#원인·시간·분포를 먼저 잡는다|Wiki · 원인·시간·분포를 먼저 잡는다]]\n\n~~근거: 2026 강의록 42강 3–5·21·130–132쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -45500,11 +45527,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "원인·시간·분포를 먼저 잡는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 3–5·21·130–132쪽"
       }
     },
     {
@@ -45533,7 +45561,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nUIP의 핵심 영상 소견은 subpleural·basal predominance와 honeycombing이며 traction bronchiectasis가 함께 보일 수 있다. 시간적·공간적 이질성을 보이고 NSIP처럼 균일한 시기의 병변이 아니다. 전형적인 UIP 영상과 적절한 임상 조건이 맞으면 언제나 폐생검이 필요한 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\n\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · subpleural / perilymphatic / cysts: UIP의 핵심은 기저부 분포와 honeycombing이다. Perilymphatic은 sarcoidosis 등의 분포를 생각한다.\n* 2번 · central/ upper & mid-lung /ground-glass opacities: 중심성·상중폐야 GGO는 전형적 UIP 조합이 아니다.\n* 3번 · subpleural / basal /honeycombing: Subpleural·basal·honeycombing의 조합이 맞다.\n* 4번 · diffuse / central / micronodules: 미만성 중심부 미세결절은 UIP의 대표 조합이 아니다.\n* 5번 · subpleural / peribronchovascular / consolidation: Peribronchovascular consolidation보다 흉막하·기저부 honeycombing이 UIP의 중심이다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nUIP의 핵심 영상 소견은 subpleural·basal predominance와 honeycombing이며 traction bronchiectasis가 함께 보일 수 있다. 시간적·공간적 이질성을 보이고 NSIP처럼 균일한 시기의 병변이 아니다. 전형적인 UIP 영상과 적절한 임상 조건이 맞으면 언제나 폐생검이 필요한 것은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nIPF는 질환명이고, UIP는 영상·병리에서 읽는 패턴명이다. 대표 환자는 고령의 성인으로 운동 시 호흡곤란과 마른기침이 서서히 심해진다. 양측 폐기저부에서 '''inspiratory Velcro crackle'''을 들을 수 있고 곤봉지가 동반될 수 있다.\n\n||= 읽는 위치 ||= 핵심 소견 ||\n|| HRCT 분포 || '''Subpleural·basal predominance''' ||\n|| 진행된 섬유화 || '''Honeycombing''', traction bronchiectasis/bronchiolectasis ||\n|| 공간적 배열 || 정상에 가까운 부위와 섬유화 부위가 섞인 geographic heterogeneity ||\n|| 시간적 배열 || 활발한 fibroblastic focus와 오래된 섬유화가 함께 있는 temporal heterogeneity ||\n\nHoneycombing은 흉막하에 벽을 가진 낭성 공기공간이 층을 이루는 모습이다. Traction bronchiectasis는 주변 섬유화가 기관지를 잡아당겨 넓힌 모습이다. Fibroblastic focus는 조직에서 보는 비교적 활발한 섬유화 부위다.\n\n원인이 될 노출·약물·결체조직질환 등을 배제하고 임상 맥락과 HRCT의 UIP pattern이 맞으면 폐생검 없이 IPF를 진단할 수 있다. Probable UIP는 환자의 임상적 가능성과 MDD를 통해 판단하며, 필요할 때 조직검사를 더한다.\n\n=== 선지별 해설 ===\n* 1번 · subpleural / perilymphatic / cysts: UIP의 핵심은 기저부 분포와 honeycombing이다. Perilymphatic은 sarcoidosis 등의 분포를 생각한다.\n* 2번 · central/ upper & mid-lung /ground-glass opacities: 중심성·상중폐야 GGO는 전형적 UIP 조합이 아니다.\n* 3번 · subpleural / basal /honeycombing: Subpleural·basal·honeycombing의 조합이 맞다.\n* 4번 · diffuse / central / micronodules: 미만성 중심부 미세결절은 UIP의 대표 조합이 아니다.\n* 5번 · subpleural / peribronchovascular / consolidation: Peribronchovascular consolidation보다 흉막하·기저부 honeycombing이 UIP의 중심이다.\n\n[[42강#UIP는 흉막하·폐기저부의 벌집 모양이다|Wiki · UIP는 흉막하·폐기저부의 벌집 모양이다]]\n\n~~근거: 2026 강의록 42강 33–48쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -45562,11 +45590,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "UIP는 흉막하·폐기저부의 벌집 모양이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 33–48쪽"
       }
     },
     {
@@ -45594,7 +45623,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n아급성 독감 유사 증상, 말초·하폐야의 이동성 경화와 GGO, BAL 림프구 증가 및 CD4/CD8 감소, 좋은 steroid 반응을 합치면 COP이다. IPF의 만성 비가역적 섬유화나 AIP의 급격한 중증 호흡부전과 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n감염이 지나간 자리에 회복 조직이 차오르듯, organizing pneumonia에서는 폐포관·폐포 등에 섬유아세포성 기질화 마개가 생긴다. 조직의 대표 소견은 '''Masson body'''다. 약물·감염·결체조직질환 등의 원인을 찾고 특발성일 때 COP라고 부른다.\n\n* 경과: '''3개월 미만의 아급성''' 기침·발열·권태감·호흡곤란.\n* 영상: 말초·기관지혈관 주위의 consolidation, GGO, 이동성 병변; reversed halo가 가능하다.\n* BAL: 림프구 증가와 CD4/CD8 감소 경향.\n* 치료: corticosteroid에 비교적 잘 반응하지만 감량·중단 과정에서 재발할 수 있다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 폐섬유증: IPF는 만성 진행·흉막하 기저부 섬유화·항섬유화 치료와 연결한다.\n* 2번 · 비특이성 간질성 폐렴: NSIP도 GGO·림프구가 가능하지만 이 증례의 독감 유사 아급성 경과와 말초 경화는 COP에 더 전형적이다.\n* 3번 · 특발성 기질화 폐렴: COP의 아급성 경과, 말초성 consolidation, BAL lymphocytosis와 steroid 반응을 제시했다.\n* 4번 · 급성 간질성 폐렴: AIP는 급속하고 심한 호흡부전·DAD와 연결되며 steroid 반응이 일정하지 않다.\n* 5번 · 박리성 간질성 폐렴: DIP는 흡연력과 폐포 내 대식세포, 하폐야 GGO가 중심이다.\n\n[[42강#COP는 폐포 안의 기질화 조직이다|Wiki · COP는 폐포 안의 기질화 조직이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n아급성 독감 유사 증상, 말초·하폐야의 이동성 경화와 GGO, BAL 림프구 증가 및 CD4/CD8 감소, 좋은 steroid 반응을 합치면 COP이다. IPF의 만성 비가역적 섬유화나 AIP의 급격한 중증 호흡부전과 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n감염이 지나간 자리에 회복 조직이 차오르듯, organizing pneumonia에서는 폐포관·폐포 등에 섬유아세포성 기질화 마개가 생긴다. 조직의 대표 소견은 '''Masson body'''다. 약물·감염·결체조직질환 등의 원인을 찾고 특발성일 때 COP라고 부른다.\n\n* 경과: '''3개월 미만의 아급성''' 기침·발열·권태감·호흡곤란.\n* 영상: 말초·기관지혈관 주위의 consolidation, GGO, 이동성 병변; reversed halo가 가능하다.\n* BAL: 림프구 증가와 CD4/CD8 감소 경향.\n* 치료: corticosteroid에 비교적 잘 반응하지만 감량·중단 과정에서 재발할 수 있다. 재발이 흔해 치료 기간은 보통 적어도 6개월을 고려한다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 폐섬유증: IPF는 만성 진행·흉막하 기저부 섬유화·항섬유화 치료와 연결한다.\n* 2번 · 비특이성 간질성 폐렴: NSIP도 GGO·림프구가 가능하지만 이 증례의 독감 유사 아급성 경과와 말초 경화는 COP에 더 전형적이다.\n* 3번 · 특발성 기질화 폐렴: COP의 아급성 경과, 말초성 consolidation, BAL lymphocytosis와 steroid 반응을 제시했다.\n* 4번 · 급성 간질성 폐렴: AIP는 급속하고 심한 호흡부전·DAD와 연결되며 steroid 반응이 일정하지 않다.\n* 5번 · 박리성 간질성 폐렴: DIP는 흡연력과 폐포 내 대식세포, 하폐야 GGO가 중심이다.\n\n[[42강#COP는 폐포 안의 기질화 조직이다|Wiki · COP는 폐포 안의 기질화 조직이다]]\n\n~~근거: 2026 강의록 42강 89–98쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -45621,11 +45650,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "COP는 폐포 안의 기질화 조직이다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 89–98쪽"
       }
     },
     {
@@ -45653,7 +45683,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nNSIP pattern은 결체조직질환·약물·과민성 폐렴 등에 동반될 수 있어 진단 전후로 원인 질환을 찾아야 한다. COP는 아급성이고 steroid 반응이 좋으며, AIP는 급성 호흡부전과 나쁜 예후가 특징이다. RB-ILD는 세기관지 중심 대식세포, DIP는 주로 하폐야 GGO와 폐포 내 대식세포 축적을 보인다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''NSIP는 비교적 균일한 염증과 섬유화다'''\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\n\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. Idiopathic NSIP를 정할 때는 임상·HRCT·필요한 조직검사와 MDD를 함께 사용한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n'''COP는 폐포 안의 기질화 조직이다'''\n감염이 지나간 자리에 회복 조직이 차오르듯, organizing pneumonia에서는 폐포관·폐포 등에 섬유아세포성 기질화 마개가 생긴다. 조직의 대표 소견은 '''Masson body'''다. 약물·감염·결체조직질환 등의 원인을 찾고 특발성일 때 COP라고 부른다.\n\n* 경과: '''3개월 미만의 아급성''' 기침·발열·권태감·호흡곤란.\n* 영상: 말초·기관지혈관 주위의 consolidation, GGO, 이동성 병변; reversed halo가 가능하다.\n* BAL: 림프구 증가와 CD4/CD8 감소 경향.\n* 치료: corticosteroid에 비교적 잘 반응하지만 감량·중단 과정에서 재발할 수 있다.\n\n'''AIP는 급속한 호흡부전과 DAD다'''\nAIP는 명확한 원인 없이 급격히 발생하는 diffuse alveolar damage(DAD)다. 수일∼수주에 걸쳐 심한 호흡부전이 나타나고 영상에서는 광범위한 GGO·consolidation을 보인다. 감염·약물 등 DAD를 일으킬 다른 원인을 찾은 뒤 특발성을 판단한다.\n\n치료는 ARDS에 준한 지지 치료가 중심이다. Corticosteroid를 사용할 수 있지만 반응이 일정하지 않고 사망률이 높다. 생존자에서는 회복 또는 잔여 섬유화가 가능하다.\n\n'''RB-ILD와 DIP는 흡연자 대식세포의 분포로 읽는다'''\n흡연으로 생긴 색소성 대식세포가 어디에 모였는지를 본다.\n\n||= 질환 ||= 조직의 중심 ||= 영상 ||= 치료의 출발점 ||\n|| RB-ILD || 호흡세기관지와 주변 폐포의 색소성 대식세포 || Centrilobular nodule·GGO·기관지벽 비후 || '''금연''' ||\n|| DIP || 폐포 공간에 넓게 분포한 대식세포 || 하폐야·말초의 GGO || '''금연''', 필요 시 corticosteroid ||\n\n흡연과 밀접한 ILD를 묶어 기억할 때는 '''RB-ILD·DIP·PLCH'''를 함께 떠올린다. [[43강#PLCH는 흡연과 상폐야 결절·낭종을 연결한다|PLCH의 영상과 치료]]\n\n=== 선지별 해설 ===\n* 1번 · 특발성 기질화 폐렴, 급성 간질성 폐렴과 박리성 간질성 폐렴은 부신피질호르몬제에 비교적 좋은 반응을 보인다.: AIP를 좋은 steroid 반응군에 넣은 부분이 틀리다. AIP는 중증 호흡부전과 불량한 예후가 중요하다.\n* 2번 · 비특이성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 맞다. NSIP pattern의 원인 질환은 추적 중 드러날 수 있어 평가를 지속한다.\n* 3번 · 일반적인 Chest CT scan은 UIP와 non-UIP를 구분하는 데 필수적이다: 출제 의도는 일반 CT보다 세밀한 HRCT 패턴 평가다. 다만 현대 CT에서도 얇은 절편 재구성으로 HRCT 평가가 가능하므로 기계 명칭만으로 절대 불가능하다고 외우지 않는다.\n* 4번 · 특발성 기질화 폐렴과 호흡세기관지염과 연관된 간질성 폐질환은 pigmented granule을 가진 macrophage가 중요한 소견이다.: 색소성 대식세포는 RB-ILD·DIP와 연결한다. COP는 organizing plug/Masson body가 중심이다.\n* 5번 · 비특이성 간질성 폐렴은 병리 소견상 Temporal heterogeneity가 특징적 소견이다.: NSIP의 특징은 상대적으로 균일한 시기의 병변, temporal homogeneity다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nNSIP pattern은 결체조직질환·약물·과민성 폐렴 등에 동반될 수 있어 진단 전후로 원인 질환을 찾아야 한다. COP는 아급성이고 steroid 반응이 좋으며, AIP는 급성 호흡부전과 나쁜 예후가 특징이다. RB-ILD는 세기관지 중심 대식세포, DIP는 주로 하폐야 GGO와 폐포 내 대식세포 축적을 보인다.\n\n=== 이 문항을 풀기 위한 개념 ===\nNSIP는 cellular와 fibrotic 형태로 나눈다. 조직의 변화가 비교적 균일한 시기에 생긴 '''temporal homogeneity'''를 보이고, CT에서는 양측 하폐야의 GGO·미세 망상음영과 traction bronchiectasis가 나타날 수 있다. '''Subpleural sparing'''은 진단을 돕는 특징이다.\n\nNSIP pattern이 보이면 결체조직질환·약물·노출 등 원인을 찾는다. 처음에는 폐 증상만 있다가 이후 전신 질환이 드러나기도 하므로 진단 후에도 문진과 검사를 이어간다. '''Idiopathic NSIP의 확진에는 폐생검으로 NSIP pattern을 확인하고 이차성 원인을 배제하는 과정이 필요하다.''' HRCT의 GGO·subpleural sparing은 패턴을 시사하는 단서다. 임상·영상·병리를 MDD에서 종합한다. 이미 결체조직질환이 확인된 CTD-ILD의 진단에서는 폐생검을 일률적으로 시행하지 않는다는 점과 적용 대상이 다르다.\n\n치료는 steroid·면역억제제와 원인 질환 조절을 중심으로 하고, 진행성 섬유화가 나타나면 항섬유화 치료를 검토한다. GERD·폐고혈압 치료, 산소와 재활도 함께 시행한다.\n\n* BAL: 림프구 증가가 진단을 지지할 수 있다.\n* Cellular NSIP: 염증 성분이 두드러지며 corticosteroid 반응과 예후가 상대적으로 좋다.\n* Fibrotic NSIP: 섬유화 성분이 크며 진행 여부에 따라 장기 치료를 판단한다.\n\n||= 질환 ||= 핵심 영상·병리 ||= 경과·치료 ||\n|| IPF/UIP || 흉막하·기저부 honeycombing, 시간적 이질성 || 만성 진행; pirfenidone·nintedanib ||\n|| NSIP || GGO, subpleural sparing, 시간적 균일성 || 원인 질환 평가; 염증형에서 steroid 반응 ||\n|| COP || 말초성 consolidation, Masson body || 아급성; steroid 반응 양호·재발 가능 ||\n|| Idiopathic DAD(기존 AIP) || 광범위 GGO·consolidation, hyaline membrane || 급성 호흡부전; 지지 치료·불량한 예후 ||\n|| RB-ILD || 세기관지 중심 대식세포 || 흡연 관련; 금연 ||\n|| AMP(기존 DIP) || 미만성 폐포 내 대식세포, 하폐야 GGO || 흡연 관련; 금연·선택적 steroid ||\n\n|| BIP || 세기관지 중심 염증·섬유화, air trapping || HP 등 원인 확인·노출 관리 ||\n|| PPFE || 폐첨부 흉막·흉막하 fibroelastosis || 만성 경과·체중 감소·진행 평가 ||\n|| LIP || 얇은 벽 낭종·다클론성 림프형질세포 침윤 || CTD·면역결핍 평가 ||\n\n'''명칭 연결''': AIP는 idiopathic DAD, DIP는 AMP(alveolar macrophage pneumonia)로 연결한다. DAD에는 패혈증·흡인·폐렴 등 이차성 원인도 있으므로 DAD와 idiopathic DAD를 같은 범위로 읽지 않는다. 흡연과 RB-ILD·AMP의 연관성은 명칭이 바뀌어도 유지된다.\n\n=== 선지별 해설 ===\n* 1번 · 특발성 기질화 폐렴, 급성 간질성 폐렴과 박리성 간질성 폐렴은 부신피질호르몬제에 비교적 좋은 반응을 보인다.: AIP를 좋은 steroid 반응군에 넣은 부분이 틀리다. AIP는 중증 호흡부전과 불량한 예후가 중요하다.\n* 2번 · 비특이성 간질성 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다.: 맞다. NSIP pattern의 원인 질환은 추적 중 드러날 수 있어 평가를 지속한다.\n* 3번 · 일반적인 Chest CT scan은 UIP와 non-UIP를 구분하는 데 필수적이다: 출제 의도는 일반 CT보다 세밀한 HRCT 패턴 평가다. 다만 현대 CT에서도 얇은 절편 재구성으로 HRCT 평가가 가능하므로 기계 명칭만으로 절대 불가능하다고 외우지 않는다.\n* 4번 · 특발성 기질화 폐렴과 호흡세기관지염과 연관된 간질성 폐질환은 pigmented granule을 가진 macrophage가 중요한 소견이다.: 색소성 대식세포는 RB-ILD·DIP와 연결한다. COP는 organizing plug/Masson body가 중심이다.\n* 5번 · 비특이성 간질성 폐렴은 병리 소견상 Temporal heterogeneity가 특징적 소견이다.: NSIP의 특징은 상대적으로 균일한 시기의 병변, temporal homogeneity다.\n\n[[42강#NSIP는 비교적 균일한 염증과 섬유화다|Wiki · NSIP는 비교적 균일한 염증과 섬유화다]]\n\n~~근거: 2026 강의록 42강 69–113쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -45680,11 +45710,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "NSIP는 비교적 균일한 염증과 섬유화다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "42강 69–113쪽"
       }
     },
     {
@@ -45712,7 +45743,7 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nCEP는 AEP보다 서서히 발생하고 steroid에 잘 반응하지만 조기에 중단하면 재발하기 쉽다. AEP는 빠른 호흡부전에도 치료 후 재발은 드물다는 점이 대조된다. Goodpasture syndrome은 anti-GBM 항체와 폐포출혈·신장염을 연결하며 c-ANCA 결절성 혈관염으로 설명하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''호산구성 폐렴은 시간 경과와 재발을 기억한다'''\n폐에 호산구가 모이는 경우 약물·기생충·진균 알레르기·혈관염 등의 원인을 평가한다. 그 뒤 급성 또는 만성의 특발성 호산구성 폐렴을 판단한다.\n\n||= 항목 ||= AEP ||= CEP ||\n|| 경과 || 급성 발열·빠른 호흡부전 || 수주 이상의 기침·발열·호흡곤란 ||\n|| 병력 || 새 흡연·흡연 양상 변화 등이 단서 || 천식 동반이 흔함 ||\n|| 호산구 || BAL 호산구 '''>25%'''; 초기 혈액 호산구는 낮을 수 있음 || 혈액·BAL 호산구 증가가 뚜렷함 ||\n|| 영상 || 광범위 침윤·GGO, 흉수 가능 || 말초·상폐야의 consolidation ||\n|| 치료 경과 || Steroid 반응 양호, 재발 드묾 || Steroid 반응 양호, 감량·중단 시 재발 흔함 ||\n\n호흡부전의 중증도는 급성형에서 특히 높을 수 있다. CEP는 좋아진 뒤에도 충분히 추적하며 감량한다.\n\n'''질환별 암기표'''\n||= 질환 ||= 가장 먼저 묶을 특징 ||= 치료의 중심 ||\n|| Sarcoidosis || BHL·비건락성 육아종·CD4 우세 || 장기 침범과 증상에 따른 관찰 또는 steroid ||\n|| HP || 항원 노출·BAL 림프구·air trapping·섬유화 여부 || 항원 회피 ||\n|| AEP || 급성 호흡부전·BAL 호산구 >25% || Steroid, 재발 드묾 ||\n|| CEP || 천식·말초 침윤·호산구 증가 || Steroid, 재발 추적 ||\n|| ABPA || 천식·IgE·중심성 기관지확장증 || 염증 조절·상황별 항진균 치료 ||\n|| PAP || Anti-GM-CSF·crazy paving·PAS || Whole-lung lavage 등 ||\n|| LAM || 가임기 여성·기흉·유미흉·얇은 벽 낭종 || Sirolimus 적응증 평가 ||\n|| PLCH || 흡연·상폐야 결절과 불규칙 낭종·CD1a || 금연 ||\n\n~~근거: 장혜진 「교원성·과민성·호산구성 폐질환」의 본문·영상 및 수업 필기.~~~\n\n=== 선지별 해설 ===\n* 1번 · 폐 림프관평활근종증은 젊은 남자에서, 폐랑게르한스세포 조직구증은 젊은 여자에서 호발한다.: LAM은 가임기 여성, PLCH는 젊은 흡연자에서 중요하다.\n* 2번 · 폐꽈리단백증은 대부분 부신피질호르몬제를 사용하여 치료한다.: PAP의 대표 치료는 whole-lung lavage 등으로, 일반적인 steroid 치료 질환으로 외우지 않는다.\n* 3번 · 호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 부신피질호르몬제를 조기에 중단하면 잘 재발한다.: CEP는 서서히 발생하고 steroid에 잘 반응하지만 조기 중단하면 재발하기 쉽다.\n* 4번 · Allergic bronchopulmonary aspergillosis는 균의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.: ABPA는 알레르기성 과민반응이다. 항진균제를 보조적으로 사용할 수 있으나 단순 침습 감염이라고 설명할 수 없다.\n* 5번 · Goodpasture 증후군은 다발성 결절의 소견을 보이며 c-ANCA 양성이 특징이다.: Goodpasture는 anti-GBM·폐포출혈·사구체신염이다. 공동성 결절·c-ANCA는 GPA와 연결한다.\n\n[[43강#호산구성 폐렴은 시간 경과와 재발을 기억한다|Wiki · 호산구성 폐렴은 시간 경과와 재발을 기억한다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\nCEP는 AEP보다 서서히 발생하고 steroid에 잘 반응하지만 조기에 중단하면 재발하기 쉽다. AEP는 빠른 호흡부전에도 치료 후 재발은 드물다는 점이 대조된다. Goodpasture syndrome은 anti-GBM 항체와 폐포출혈·신장염을 연결하며 c-ANCA 결절성 혈관염으로 설명하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐에 호산구가 모이는 경우 약물·기생충·진균 알레르기·혈관염 등의 원인을 평가한다. 그 뒤 급성 또는 만성의 특발성 호산구성 폐렴을 판단한다.\n\n||= 항목 ||= AEP ||= CEP ||\n|| 경과 || 급성 발열·빠른 호흡부전 || 수주 이상의 기침·발열·호흡곤란 ||\n|| 병력 || 새 흡연·흡연 양상 변화 등이 단서 || 천식 동반이 흔함 ||\n|| 호산구 || BAL 호산구 '''>25%'''; 초기 혈액 호산구는 낮을 수 있음 || 혈액·BAL 호산구 증가가 뚜렷함 ||\n|| 영상 || 광범위 침윤·GGO, 흉수 가능 || 말초·상폐야의 consolidation ||\n|| 치료 경과 || Steroid 반응 양호, 재발 드묾 || Steroid 반응 양호, 감량·중단 시 재발 흔함 ||\n\n호흡부전의 중증도는 급성형에서 특히 높을 수 있다. CEP는 좋아진 뒤에도 충분히 추적하며 감량한다.\n\n=== 선지별 해설 ===\n* 1번 · 폐 림프관평활근종증은 젊은 남자에서, 폐랑게르한스세포 조직구증은 젊은 여자에서 호발한다.: LAM은 가임기 여성, PLCH는 젊은 흡연자에서 중요하다.\n* 2번 · 폐꽈리단백증은 대부분 부신피질호르몬제를 사용하여 치료한다.: PAP의 대표 치료는 whole-lung lavage 등으로, 일반적인 steroid 치료 질환으로 외우지 않는다.\n* 3번 · 호산구성 폐렴에서 만성은 급성보다 더 서서히 진행되나 부신피질호르몬제를 조기에 중단하면 잘 재발한다.: CEP는 서서히 발생하고 steroid에 잘 반응하지만 조기 중단하면 재발하기 쉽다.\n* 4번 · Allergic bronchopulmonary aspergillosis는 균의 감염에 의해 발생하기 때문에 항진균제로 치료할 수 있다.: ABPA는 알레르기성 과민반응이다. 항진균제를 보조적으로 사용할 수 있으나 단순 침습 감염이라고 설명할 수 없다.\n* 5번 · Goodpasture 증후군은 다발성 결절의 소견을 보이며 c-ANCA 양성이 특징이다.: Goodpasture는 anti-GBM·폐포출혈·사구체신염이다. 공동성 결절·c-ANCA는 GPA와 연결한다.\n\n[[43강#호산구성 폐렴은 시간 경과와 재발을 기억한다|Wiki · 호산구성 폐렴은 시간 경과와 재발을 기억한다]]\n\n~~근거: 2026 강의록 43강 20–26·76–86쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -45739,11 +45770,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "호산구성 폐렴은 시간 경과와 재발을 기억한다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 20–26·76–86쪽"
       }
     },
     {
@@ -45771,7 +45803,7 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nHP에서 serum precipitin은 원인 항원 노출을 뒷받침하지만 단독 확진 소견은 아니다. Thermophilic actinomycetes는 특히 farmer’s lung의 전통적인 주요 항원이다. 강의도 과거의 대표 원인이라는 맥락으로 제시하므로, 모든 환경에서 언제나 가장 흔한 항원이라고 확대해 외우지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nHypersensitivity pneumonitis(HP)는 반복적으로 흡입한 항원에 대한 면역 반응이다. 조류, 곰팡이, 농작물·건초, 가습기 등 생활·직업 환경을 구체적으로 조사한다. Thermophilic actinomycetes는 farmer's lung의 전통적인 대표 항원이다.\n\n* 면역: 항원 특이 IgG와 세포매개 면역이 관여한다.\n* BAL: 림프구 증가, CD8 우세와 CD4/CD8 감소 경향.\n* 비섬유화성 영상: centrilobular nodule, GGO, mosaic attenuation, 호기 CT의 air trapping.\n* '''Three-density pattern''': GGO 부위, 정상 폐, 공기가 갇힌 저음영 폐가 섞인 모습.\n* 예후: '''섬유화 동반 여부'''와 진행 정도가 중요하다.\n\n\n\n\nSerum precipitin/항원 특이 IgG는 해당 항원에 노출되었다는 근거다. 임상·영상·BAL과 결합하여 의미를 판단한다. 치료의 출발점은 '''원인 항원 회피'''이며 염증 활성도와 중증도에 따라 steroid를 고려한다. 섬유화가 진행하면 [[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|PPF 평가와 치료]]로 이어진다.\n\n=== 선지별 해설 ===\n* 1번 · 과민성 폐장염은 과민성 면역반응이기 때문에 급성 시에 주로 blood eosinophilia가 동반된다: HP에서는 BAL 림프구 증가가 중요하다. 급성 혈액 호산구 증가를 대표 조건으로 잡지 않는다.\n* 2번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견은 아니며 Thermophilic actinomycetes가 가장 중요한 원인이다.: Precipitin의 한계가 맞다. Thermophilic actinomycetes는 farmer’s lung의 전통적인 주요 항원이며 모든 환경에서 가장 흔하다는 뜻으로 확대하지 않는다.\n* 3번 · 유육종증은 1, 2, 3형 중 1형이 가장 빈도가 높고 대개 비가역적으로 진행하기 때문에 대부분에서 즉각적인 부신피질호르몬제의 투여가 필요하다.: I기는 흔하고 자연 호전도 가능하다. 모든 환자의 즉각적 steroid 적응증은 아니다.\n* 4번 · 유육종증은 폐와 림프절에 흔하게 발생하며 BAL 소견상 림프구가 증가하고 조직 검사에서 치즈괴사성 육아종 (caseous necrotic granuloma)을 형성한다.: 폐·림프절과 BAL 림프구 증가는 맞지만 육아종은 비건락성이다.\n* 5번 · 유육종증은 hypocalcemia, hypocalciuria, skin anergy 등의 소견을 보일 수 있다.: Hypercalcemia·hypercalciuria가 연결된다. Skin anergy 자체는 가능한 소견이다.\n\n[[43강#HP는 들이마신 항원과 섬유화 여부를 찾는다|Wiki · HP는 들이마신 항원과 섬유화 여부를 찾는다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\nHP에서 serum precipitin은 원인 항원 노출을 뒷받침하지만 단독 확진 소견은 아니다. Thermophilic actinomycetes는 특히 farmer’s lung의 전통적인 주요 항원이다. 강의도 과거의 대표 원인이라는 맥락으로 제시하므로, 모든 환경에서 언제나 가장 흔한 항원이라고 확대해 외우지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nHypersensitivity pneumonitis(HP)는 반복적으로 흡입한 항원에 대한 면역 반응이다. 조류, 곰팡이, 농작물·건초, 가습기 등 생활·직업 환경을 구체적으로 조사한다. Thermophilic actinomycetes는 farmer's lung의 전통적인 대표 항원이다.\n\n* 면역: 항원 특이 IgG와 세포매개 면역이 관여한다.\n* BAL: 림프구 증가, CD8 우세와 CD4/CD8 감소 경향.\n* 비섬유화성 영상: centrilobular nodule, GGO, mosaic attenuation, 호기 CT의 air trapping.\n* '''Three-density pattern''': GGO 부위, 정상 폐, 공기가 갇힌 저음영 폐가 섞인 모습.\n* 예후: '''섬유화 동반 여부'''와 진행 정도가 중요하다.\n\nSerum precipitin/항원 특이 IgG는 해당 항원에 노출되었다는 근거다. 임상·영상·BAL과 결합하여 의미를 판단한다. 치료의 출발점은 '''원인 항원 회피'''이며 염증 활성도와 중증도에 따라 steroid를 고려한다. 섬유화가 진행하면 [[42강#PPF는 최근 1년의 세 영역 중 두 영역이다|PPF 평가와 치료]]로 이어진다.\n\n=== 선지별 해설 ===\n* 1번 · 과민성 폐장염은 과민성 면역반응이기 때문에 급성 시에 주로 blood eosinophilia가 동반된다: HP에서는 BAL 림프구 증가가 중요하다. 급성 혈액 호산구 증가를 대표 조건으로 잡지 않는다.\n* 2번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명은 확진적인 소견은 아니며 Thermophilic actinomycetes가 가장 중요한 원인이다.: Precipitin의 한계가 맞다. Thermophilic actinomycetes는 farmer’s lung의 전통적인 주요 항원이며 모든 환경에서 가장 흔하다는 뜻으로 확대하지 않는다.\n* 3번 · 유육종증은 1, 2, 3형 중 1형이 가장 빈도가 높고 대개 비가역적으로 진행하기 때문에 대부분에서 즉각적인 부신피질호르몬제의 투여가 필요하다.: I기는 흔하고 자연 호전도 가능하다. 모든 환자의 즉각적 steroid 적응증은 아니다.\n* 4번 · 유육종증은 폐와 림프절에 흔하게 발생하며 BAL 소견상 림프구가 증가하고 조직 검사에서 치즈괴사성 육아종 (caseous necrotic granuloma)을 형성한다.: 폐·림프절과 BAL 림프구 증가는 맞지만 육아종은 비건락성이다.\n* 5번 · 유육종증은 hypocalcemia, hypocalciuria, skin anergy 등의 소견을 보일 수 있다.: Hypercalcemia·hypercalciuria가 연결된다. Skin anergy 자체는 가능한 소견이다.\n\n[[43강#HP는 들이마신 항원과 섬유화 여부를 찾는다|Wiki · HP는 들이마신 항원과 섬유화 여부를 찾는다]]\n\n~~근거: 2026 강의록 43강 55–70쪽.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
       "professor": "장혜진",
@@ -45798,11 +45830,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
+        "date": "2026-10-26",
+        "scope": "lectures42_43_current_pdf_refresh",
         "chapter": "HP는 들이마신 항원과 섬유화 여부를 찾는다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "sourcePages": "43강 55–70쪽"
       }
     },
     {

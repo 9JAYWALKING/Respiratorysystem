@@ -135,7 +135,6 @@
     };
     root.querySelector('[data-k-prev]').onclick=()=>move(-1);
     root.querySelector('[data-k-next]').onclick=()=>move(1);
-    bindGestures(root.querySelector('.kmle-question'));
     config.bindImages?.(root);
     navObserver?.disconnect();
     navObserver=new ResizeObserver(entries=>{
@@ -172,25 +171,88 @@
     },matchMedia('(prefers-reduced-motion: reduce)').matches?0:160);
   }
   const gesturesEnabled=()=>window.RespiratoryGestures?.isEnabled?.()!==false;
-  function bindGestures(el) {
-    let start=null,lastTap=0,lastTouch=0;
-    const interactive=target=>target.closest('button,a,input,img,select,textarea,summary');
-    el.addEventListener('pointerdown',e=>{
-      if(!gesturesEnabled()||interactive(e.target)||e.pointerType==='mouse')return;
-      lastTouch=Date.now();
-      start={x:e.clientX,y:e.clientY,t:Date.now()};
+  // Delegate once: the question is rerendered on selection, while the reading
+  // surface includes the empty page below it. Keep explanation/UI controls out.
+  (()=>{
+    const excluded='button,a,input,img,select,textarea,label,summary,[role="button"],[contenteditable],nav,table,pre,video,canvas,iframe,.kmle-bank-heading,.kmle-explanation,.masthead';
+    let clearTimer=null,gesture=null,lastTap=null,suppressUntil=0,touchDoubleUntil=0,mouseDown=null;
+    const cancelClear=()=>{clearTimeout(clearTimer);clearTimer=null;};
+    const selectedText=()=>!!window.getSelection?.()?.toString().trim();
+    function surface(target,x,y,blank=false){
+      if(!current||!root?.isConnected||!location.hash.startsWith('#kmle-K')||expanded||selectedText())return false;
+      if(root.closest('[hidden],[inert]')||document.querySelector('dialog[open],#jbl-image-modal.show,.wiki-section-editor-overlay'))return false;
+      if(!(target instanceof Element)||target.closest(excluded+', [hidden], [inert]'))return false;
+      const card=root.querySelector('.kmle-question'),rect=card?.getBoundingClientRect();
+      const bottom=root.querySelector('.kmle-bottom')?.getBoundingClientRect().top??innerHeight;
+      if(!rect||x<rect.left||x>rect.right||y<Math.max(rect.top,document.querySelector('.masthead')?.getBoundingClientRect().bottom||0)||y>=bottom)return false;
+      if(card.contains(target))return !blank||target.matches('.kmle-question,.jbl-card-head,.jbl-card-body,.jbl-meta,.jbl-author-source,.jbl-meta-right,.kmle-choices,.kmle-multiple');
+      // Only the real question column's background, including page space past root.
+      return target===root||target.matches('.kmle-split,#kmle-view,main,body,html');
+    }
+    function scheduleClear(){
+      cancelClear();if(!picked.length&&!revealed)return;
+      const question=current,container=root;
+      clearTimer=setTimeout(()=>{
+        clearTimer=null;
+        if(current!==question||root!==container||!root.isConnected||!location.hash.startsWith('#kmle-K'))return;
+        picked=[];revealed=false;
+        // Clear the selection, not the last graded O/X record or favorite.
+        persist(current,{selected:[],graded:false});renderQuestion(false);
+      },500);
+    }
+    document.addEventListener('pointerdown',e=>{
+      cancelClear();
+      if(e.pointerType==='mouse'){suppressUntil=0;mouseDown={x:e.clientX,y:e.clientY};}
     },{passive:true});
-    el.addEventListener('pointerup',e=>{
-      if(!start||!gesturesEnabled())return;
-      const dx=e.clientX-start.x,dy=e.clientY-start.y,dt=Date.now()-start.t;start=null;
-      if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.6&&dt<1800){move(dx<0?1:-1);return;}
-      if(Math.hypot(dx,dy)<10&&dt<350&&!interactive(e.target)){
-        if(Date.now()-lastTap<320){toggleExplanation();lastTap=0;}else lastTap=Date.now();
+    document.addEventListener('click',e=>{
+      if(e.defaultPrevented||e.detail===0||e.button!==0||Date.now()<suppressUntil)return;
+      if(mouseDown&&Math.hypot(e.clientX-mouseDown.x,e.clientY-mouseDown.y)>10){mouseDown=null;return;}
+      mouseDown=null;
+      if(surface(e.target,e.clientX,e.clientY,true))scheduleClear();
+    });
+    document.addEventListener('dblclick',e=>{
+      if(e.defaultPrevented||e.button!==0||!gesturesEnabled()||!surface(e.target,e.clientX,e.clientY,true))return;
+      e.preventDefault();cancelClear();
+      if(Date.now()>=touchDoubleUntil)toggleExplanation();
+    });
+    document.addEventListener('touchstart',e=>{
+      cancelClear();mouseDown=null;suppressUntil=0;
+      if(e.touches.length!==1||!gesturesEnabled()){gesture=null;lastTap=null;return;}
+      const p=e.touches[0];
+      if(p.clientX<24||p.clientX>innerWidth-24||!surface(e.target,p.clientX,p.clientY)){gesture=null;lastTap=null;return;}
+      gesture={question:current,target:e.target,id:p.identifier,x:p.clientX,y:p.clientY,t:Date.now(),distance:0,horizontal:false,blank:surface(e.target,p.clientX,p.clientY,true)};
+    },{passive:true});
+    document.addEventListener('touchmove',e=>{
+      if(!gesture)return;
+      if(e.touches.length!==1||!gesturesEnabled()||selectedText()){gesture=null;lastTap=null;return;}
+      const p=e.touches[0],dx=Math.abs(p.clientX-gesture.x),dy=Math.abs(p.clientY-gesture.y);
+      gesture.distance=Math.max(gesture.distance,dx,dy);
+      if(!gesture.horizontal&&dy>=12&&dy>=dx){gesture=null;lastTap=null;suppressUntil=Date.now()+650;return;}
+      if(dx>=14&&dx>dy*1.5){gesture.horizontal=true;lastTap=null;}
+      if(gesture.horizontal&&e.cancelable)e.preventDefault();
+    },{passive:false});
+    document.addEventListener('touchend',e=>{
+      const g=gesture;gesture=null;if(!g)return;
+      const p=Array.from(e.changedTouches).find(p=>p.identifier===g.id);
+      if(!p||e.touches.length||g.question!==current||!gesturesEnabled()||selectedText()){lastTap=null;return;}
+      const dx=p.clientX-g.x,dy=p.clientY-g.y;
+      if(g.horizontal){
+        if(e.cancelable)e.preventDefault();suppressUntil=Date.now()+650;lastTap=null;cancelClear();
+        if(Math.abs(dx)>=48&&Math.abs(dx)>Math.abs(dy)*1.35)move(dx<0?1:-1);
+        return;
       }
-    },{passive:true});
-    el.addEventListener('pointercancel',()=>{start=null;});
-    el.ondblclick=e=>{if(gesturesEnabled()&&!interactive(e.target)&&Date.now()-lastTouch>700)toggleExplanation();};
-  }
+      if(!g.blank||Math.max(g.distance,Math.hypot(dx,dy))>10||Date.now()-g.t>350){lastTap=null;suppressUntil=Date.now()+650;return;}
+      const now=Date.now();
+      if(lastTap&&lastTap.question===current&&now-lastTap.time<=340&&Math.hypot(p.clientX-lastTap.x,p.clientY-lastTap.y)<=28){
+        lastTap=null;cancelClear();suppressUntil=touchDoubleUntil=now+700;
+        if(e.cancelable)e.preventDefault();toggleExplanation();
+      }else lastTap={question:current,time:now,x:p.clientX,y:p.clientY};
+    },{passive:false});
+    const reset=()=>{cancelClear();gesture=null;lastTap=null;mouseDown=null;};
+    document.addEventListener('touchcancel',()=>{reset();suppressUntil=Date.now()+650;},{passive:true});
+    document.addEventListener('study-gestures-change',reset);
+    window.addEventListener('hashchange',reset);
+  })();
   window.addEventListener('keydown',e=>{
     if(!location.hash.startsWith('#kmle-K')||!current||document.querySelector('dialog[open],#jbl-image-modal.show')||e.target.closest('input,textarea,select,[contenteditable="true"]'))return;
     if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}

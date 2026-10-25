@@ -115,6 +115,23 @@ function render(){
 function go(index){if(index<0||index>=questions.length)return;state.index=index;persist();render();el('question-text').focus({preventScroll:true});el('question-top').scrollIntoView({block:'start',behavior:'instant'});}
 el('previous').addEventListener('click',()=>go(state.index-1));
 el('next').addEventListener('click',()=>state.index===questions.length-1?finish(true):go(state.index+1));
+// Reuse click behavior for answers, but never submit at a keyboard boundary.
+window.addEventListener('keydown',e=>{
+ if(e.defaultPrevented||e.isComposing||e.repeat||e.ctrlKey||e.metaKey||e.altKey||e.shiftKey||el('exam-screen').hidden)return;
+ const target=e.target instanceof Element?e.target:null;
+ if(target?.closest('textarea,select,[role="textbox"],#detail-pane')||target?.isContentEditable||document.querySelector('dialog[open],[role="dialog"][aria-modal="true"]'))return;
+ if(target?.closest('input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):not([type="submit"])'))return;
+ if(e.key==='ArrowLeft'||e.key==='ArrowRight'){
+  e.preventDefault();
+  go(state.index+(e.key==='ArrowRight'?1:-1));
+  return;
+ }
+ if(!/^[1-5]$/.test(e.key)||state.submittedAt)return;
+ const q=questions[state.index],choice=Number(e.key);
+ if(choice>q.choices.length)return;
+ e.preventDefault();setChoice(q,choice);
+ if(!state.submittedAt)el('choices').querySelectorAll('input')[choice-1]?.focus({preventScroll:true});
+});
 el('save-answers').addEventListener('click',()=>finish(true));
 el('flag-question').addEventListener('click',()=>{const id=questions[state.index].id;state.flags=state.flags.includes(id)?state.flags.filter(n=>n!==id):[...state.flags,id];persist();render();});
 function correctGrade(value){
