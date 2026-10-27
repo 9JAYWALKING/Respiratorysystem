@@ -12,7 +12,7 @@
   const symbols={o:'○',triangle:'△',x:'×'};
   function save(q,patch){records[q.key]={...saved(q),...patch,updatedAt:Date.now()};try{localStorage.setItem(KEY,JSON.stringify(records));storageAvailable=true;}catch(_){storageAvailable=false;}}
   function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-  function makeOptions(q){return shuffle([q.target,...shuffle(q.pool.filter(k=>k!==q.target)).slice(0,4)]);}
+  function makeOptions(q){return shuffle([q.target,...shuffle(q.pool.filter(k=>k!==q.target)).slice(0,3)]);}
   function attempt(q){
     if(!attempts[q.key])attempts[q.key]={options:makeOptions(q),selected:null};
     return attempts[q.key];
@@ -61,15 +61,13 @@
     cancelAnimationFrame(fitFrame);
     fitFrame=requestAnimationFrame(()=>{
       if(!active()||!root||expanded)return;
-      const card=root.querySelector('.path-question'),stage=card?.querySelector('.path-image-stage'),nav=root.querySelector('.path-bottom');
-      if(!stage||!card.offsetHeight)return;
+      const card=root.querySelector('.path-question'),photo=card?.querySelector('.path-image'),nav=root.querySelector('.path-bottom');
+      if(!photo||!card.offsetHeight)return;
       const navHeight=nav.getBoundingClientRect().height;
       root.style.setProperty('--path-nav-height',navHeight+'px');
-      const top=card.getBoundingClientRect().top+window.scrollY;
-      const otherHeight=card.getBoundingClientRect().height-stage.getBoundingClientRect().height;
-      const viewport=window.visualViewport?.scale===1?window.visualViewport.height:window.innerHeight;
-      // Keep readable text and an expandable photograph on unusually short screens.
-      const height=Math.max(140,Math.floor(viewport-top-navHeight-otherHeight-8));
+      const style=getComputedStyle(photo);
+      // Fit the image into the space left after the four large answer targets.
+      const height=Math.max(1,Math.floor(photo.clientHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom)));
       const value=height+'px';
       if(root.style.getPropertyValue('--path-photo-height')!==value)root.style.setProperty('--path-photo-height',value);
     });
@@ -78,7 +76,7 @@
     if(!root||!current)return;const q=current,a=attempt(q),s=saved(q),i=sequence.indexOf(q),y=window.scrollY;
     const expScroll=root.querySelector('.path-explanation')?.scrollTop||0;
     root.className=`pathology-root ${explanation?'has-explanation':''} ${expanded?'explanation-expanded':''}`;
-    root.innerHTML=`<div class="path-split"><article class="path-question jbl-card" aria-label="${q.id} 문제"><header class="jbl-card-head"><h2 class="jbl-title path-stem">${esc(q.question)}</h2><div class="jbl-meta-right">
+    root.innerHTML=`<div class="path-split"><article class="path-question jbl-card ${q.question.length>35?'path-long-stem':''}" aria-label="${q.id} 문제"><header class="jbl-card-head"><h2 class="jbl-title path-stem">${esc(q.question)}</h2><div class="jbl-meta-right">
         <button type="button" class="study-answer-status is-${({o:'correct',triangle:'uncertain',x:'wrong'})[s.status]||'unanswered'}" data-path-status aria-label="풀이 상태 변경" title="풀이 상태 변경"><span data-study-status-symbol>${symbols[s.status]||''}</span></button><button type="button" class="jbl-qid" data-path-number aria-label="병리 고유번호로 이동">${q.id}</button><input class="path-number jbl-number-input" aria-label="병리 고유번호 입력" inputmode="numeric" value="${q.id}" hidden><button type="button" class="jbl-favorite ${s.favorite?'active':''}" data-path-favorite aria-label="즐겨찾기" aria-pressed="${!!s.favorite}">${s.favorite?'★':'☆'}</button><button type="button" class="path-new" data-path-new title="현재 문항의 선지를 다시 섞어 풀기" aria-label="현재 문항 다시 풀기">↻</button></div></header>
         <div class="jbl-card-body"><div class="path-image jbl-page-block"><button type="button" class="path-image-open" data-path-image aria-label="사진 확대">${stage(q)}</button></div>
         <div class="jbl-choices path-choices" role="group" aria-label="선지">${a.options.map((k,n)=>`<button type="button" class="jbl-choice ${selectionVisible&&a.selected===k?'selected':''} ${revealed&&k===q.target?'correct':''} ${revealed&&a.selected===k&&k!==q.target?'wrong':''}" data-path-choice="${k}" aria-pressed="${a.selected===k}"><span class="jbl-choice-num">${n+1}</span><span>${esc(D.concepts[k].label)}</span></button>`).join('')}</div>
@@ -106,7 +104,7 @@
     root.querySelectorAll('.path-image img').forEach(img=>img.onerror=()=>{img.closest('.path-image').innerHTML='<p role="alert">사진을 불러오지 못했습니다. assets/pathology-drill 폴더를 확인해 주세요.</p>';});
     root.querySelectorAll('.path-wiki-link').forEach(link=>link.onclick=e=>{e.preventDefault();explanation=false;expanded=false;draw(false);config.openWiki(Number(link.dataset.wikiCourse),link.dataset.wikiSection,root.querySelector('[data-path-explain]'));});
     navObserver?.disconnect();navObserver=new ResizeObserver(fitPhoto);
-    ['.path-bottom','.path-question>.jbl-card-head','.path-choices'].forEach(selector=>navObserver.observe(root.querySelector(selector)));
+    ['.path-bottom','.path-question>.jbl-card-head','.path-image','.path-choices'].forEach(selector=>navObserver.observe(root.querySelector(selector)));
     fitPhoto();
     if(!reset){window.scrollTo({top:y,behavior:'instant'});const pane=root.querySelector('.path-explanation');if(pane)pane.scrollTop=expScroll;}else window.scrollTo({top:0,behavior:'instant'});
   }
@@ -134,7 +132,7 @@
   document.addEventListener('dblclick',e=>{if(!active()||!root?.contains(e.target)||interactive(e)||!gestures()||Date.now()<suppressClickUntil)return;e.preventDefault();toggleExplanation();});
   document.addEventListener('keydown',e=>{
     if(!active()||!current||e.ctrlKey||e.altKey||e.metaKey||e.target.closest('input,textarea,select,[contenteditable="true"]')||document.querySelector('dialog[open],.context-link-split'))return;
-    if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}else if(e.key==='ArrowRight'){e.preventDefault();move(1);}else if(/^[1-5]$/.test(e.key)){e.preventDefault();choose(attempt(current).options[Number(e.key)-1]);}
+    if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}else if(e.key==='ArrowRight'){e.preventDefault();move(1);}else if(/^[1-4]$/.test(e.key)){e.preventDefault();choose(attempt(current).options[Number(e.key)-1]);}
   });
   addEventListener('resize',fitPhoto,{passive:true});
   window.visualViewport?.addEventListener('resize',fitPhoto,{passive:true});
