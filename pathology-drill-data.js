@@ -549,7 +549,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1444,
       "height": 904,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "폐가 충분히 발달하지 못해 작다. 폐포와 기도의 수가 감소하며, 흉강 내 공간 부족이나 양수 감소 등이 원인이 된다.",
       "pool": [
         "hypoplasia",
@@ -581,7 +581,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1016,
       "height": 794,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "낭종벽의 호흡상피, 연골, 기관지샘이 기관지 기원을 알려 준다. 단순히 공간이 크다는 것보다 벽을 구성하는 조직을 확인한다.",
       "pool": [
         "hypoplasia",
@@ -613,7 +613,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1027,
       "height": 694,
       "arrow": null,
-      "question": "사진에 해당하는 CPAM 유형은?",
+      "question": "CPAM 유형은?",
       "note": "기관·기관지 수준의 분화 이상이다. 작은 낭성 기도에 연골과 샘이 동반될 수 있으며, 광범위한 발달 이상으로 나타난다.",
       "pool": [
         "cpam0",
@@ -644,7 +644,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1018,
       "height": 778,
       "arrow": null,
-      "question": "사진에 해당하는 CPAM 유형은?",
+      "question": "CPAM 유형은?",
       "note": "크고 뚜렷한 낭종이 특징이다. 낭종은 섬모 원주상피로 덮이고 점액세포가 섞일 수 있다. 유형 중 가장 흔하다.",
       "pool": [
         "cpam0",
@@ -675,7 +675,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1010,
       "height": 769,
       "arrow": null,
-      "question": "사진에 해당하는 CPAM 유형은?",
+      "question": "CPAM 유형은?",
       "note": "비교적 균일한 작은 낭종들이 모여 스펀지처럼 보인다. 낭종벽은 섬모 입방·원주상피로 덮이며 다른 선천기형의 동반을 살핀다.",
       "pool": [
         "cpam0",
@@ -706,7 +706,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1020,
       "height": 703,
       "arrow": null,
-      "question": "사진에 해당하는 CPAM 유형은?",
+      "question": "CPAM 유형은?",
       "note": "작은 세기관지 같은 구조와 미성숙 폐포 구조가 빽빽하게 모인다. 낭종이 작아 육안으로는 고형 종괴처럼 보일 수 있다.",
       "pool": [
         "cpam0",
@@ -737,7 +737,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1015,
       "height": 679,
       "arrow": null,
-      "question": "사진에 해당하는 CPAM 유형은?",
+      "question": "CPAM 유형은?",
       "note": "말초 폐포 수준의 분화 이상으로, 얇고 편평한 상피가 큰 낭종을 덮는다. 큰 말초 낭종의 벽을 읽는 것이 핵심이다.",
       "pool": [
         "cpam0",
@@ -768,7 +768,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 510,
       "height": 500,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 안에 옅은 분홍색의 단백성 액체가 찬다. 폐포벽의 모세혈관 울혈과 함께 볼 수 있다. 오래된 울혈에서는 hemosiderin 대식세포가 나타난다.",
       "pool": [
         "edema",
@@ -801,7 +801,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 517,
       "height": 480,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "대식세포 안에 거친 황갈색 hemosiderin 과립이 보인다. Prussian blue에서 철이 청색으로 염색된다. 이전 폐포출혈이나 만성 울혈의 단서다.",
       "pool": [
         "type2",
@@ -833,7 +833,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 803,
       "height": 614,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 장벽의 급성 손상으로 부종과 hyaline membrane이 생긴다. 수복기에는 type II pneumocyte 증식과 조직화가 이어진다. DAD는 조직학적 패턴이며 원인은 다양하다.",
       "pool": [
         "dad",
@@ -867,7 +867,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 871,
       "height": 661,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포벽을 덮는 입방형 상피세포가 증식한 수복 소견이다. DAD 회복기 등에서 나타나며 폐포 내 대식세포와 위치를 구분해 읽는다.",
       "pool": [
         "type2",
@@ -899,7 +899,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 558,
       "height": 494,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "폐동맥 안을 막고 있는 혈전이다. 큰 색전은 급성 우심부전을, 말초 색전은 흉막을 밑변으로 하는 출혈성 경색을 일으킬 수 있다.",
       "pool": [
         "thrombus",
@@ -931,7 +931,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 651,
       "height": 495,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "흉막을 밑변으로 하는 쐐기 모양의 검붉은 병변이다. 혈관 폐쇄로 괴사한 조직에 혈액이 스며들어 출혈성으로 보인다.",
       "pool": [
         "thrombus",
@@ -963,7 +963,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 457,
       "height": 664,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐혈관 안에서 지방 공포와 골수 조혈세포가 보인다. 장골 골절 등으로 골수 성분이 혈류로 유입될 때 나타날 수 있다.",
       "pool": [
         "thrombus",
@@ -1000,7 +1000,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         42,
         38
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "혈관 내막의 섬유조직이 동심원으로 겹쳐 내강을 좁힌다. 단면에서 양파껍질 같은 모양으로 보인다.",
       "pool": [
         "thrombus",
@@ -1032,7 +1032,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 587,
       "height": 460,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐동맥의 중막 평활근이 두꺼워지고 내강이 좁아진다. 폐고혈압에 따른 혈관 재형성의 한 소견이다.",
       "pool": [
         "thrombus",
@@ -1064,7 +1064,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 629,
       "height": 610,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "작은 혈관 통로가 복잡하게 얽혀 증식한 병변이다. 심한 폐동맥고혈압에서 나타나는 특징적 혈관 재형성이다.",
       "pool": [
         "thrombus",
@@ -1096,7 +1096,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 674,
       "height": 625,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "철 염색에서 대식세포 안의 청색 과립을 확인한다. 폐포 내 출혈이나 만성 울혈 후 생긴 hemosiderin이다.",
       "pool": [
         "type2",
@@ -1128,7 +1128,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 648,
       "height": 897,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 공간을 적혈구가 채운다. 시간이 지나면 적혈구를 먹은 대식세포에 hemosiderin이 쌓인다. 조직 소견과 임상·자가항체 검사를 함께 해석한다.",
       "pool": [
         "edema",
@@ -1161,7 +1161,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 648,
       "height": 898,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "기저막을 따라 연속된 선 모양의 면역형광이 보인다. 항기저막항체 질환의 선형 침착이며 과립형 면역복합체 침착과 형태가 다르다.",
       "pool": [
         "linear",
@@ -1192,7 +1192,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 180,
       "height": 143,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 안쪽을 따라 붙은 매끈한 호산성 띠다. 누출된 단백질·fibrin과 손상된 상피 잔해로 이루어지며 DAD의 삼출기를 대표한다.",
       "pool": [
         "hyaline",
@@ -1231,7 +1231,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 907,
       "height": 671,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "말단세기관지 원위부 공기 공간이 영구적으로 확장되고 폐포벽이 파괴된다. 커진 빈 공간과 끊기거나 남은 얇은 폐포중격을 함께 본다.",
       "pool": [
         "emphysema",
@@ -1265,7 +1265,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 814,
       "height": 594,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "말단세기관지 원위부 공기 공간이 영구적으로 확장되고 폐포벽이 파괴된다. 커진 빈 공간과 끊기거나 남은 얇은 폐포중격을 함께 본다.",
       "pool": [
         "emphysema",
@@ -1299,7 +1299,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 822,
       "height": 803,
       "arrow": null,
-      "question": "사진에 해당하는 폐기종의 분포 유형은?",
+      "question": "폐기종의 분포 유형은?",
       "note": "호흡세기관지를 중심으로 샘꽈리의 근위부가 먼저 파괴되고 원위 폐포는 상대적으로 보존된다. 병든 공간과 비교적 정상인 공간이 섞이며 흡연·상엽 우세와 연결된다.",
       "pool": [
         "centri",
@@ -1332,7 +1332,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 555,
       "height": 897,
       "arrow": null,
-      "question": "사진에 해당하는 폐기종의 분포 유형은?",
+      "question": "폐기종의 분포 유형은?",
       "note": "호흡세기관지부터 말단 폐포까지 샘꽈리 전체가 비교적 균일하게 확장된다. α₁-antitrypsin 결핍과 하엽 우세를 연결한다.",
       "pool": [
         "centri",
@@ -1363,7 +1363,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 590,
       "height": 635,
       "arrow": null,
-      "question": "사진에 해당하는 폐기종의 분포 유형은?",
+      "question": "폐기종의 분포 유형은?",
       "note": "샘꽈리 원위부가 흉막·중격 바로 아래에서 확장된다. 흉막하 bleb 또는 bulla가 파열되면 자연기흉이 생길 수 있다.",
       "pool": [
         "centri",
@@ -1394,7 +1394,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 789,
       "height": 621,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "점액샘 비대와 술잔세포 증가로 점액 분비가 늘어난다. 점막밑샘 층이 두꺼워지며, 임상적으로 만성적인 가래 기침의 기간을 확인한다.",
       "pool": [
         "emphysema",
@@ -1426,7 +1426,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 682,
       "height": 424,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "기관지 연골 안쪽 점막밑샘 층이 넓어진다. Reid index는 전체 기관지벽 두께에 대한 점액샘 층 두께의 비율이다.",
       "pool": [
         "gland",
@@ -1458,7 +1458,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 799,
       "height": 618,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "기도 내강을 채운 점액 마개다. 기도 모양을 본뜬 길쭉한 cast로 보이거나 조직에서 내강을 메우는 물질로 보인다.",
       "pool": [
         "curschmann",
@@ -1495,7 +1495,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         52,
         54
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "작은 기도 안에서 굳은 점액이 나선형으로 배출된 구조다. 길게 꼬인 점액 덩어리를 찾는다.",
       "pool": [
         "curschmann",
@@ -1532,7 +1532,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         55,
         49
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "떨어져 나온 기관지 상피세포들이 무리를 이룬 것이다. 점액 나선이나 결정과 달리 개별 세포와 핵을 볼 수 있다.",
       "pool": [
         "curschmann",
@@ -1569,7 +1569,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         78,
         37
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "호산구에서 유래한 단백질 결정으로, 길고 양끝이 뾰족한 형태를 보인다. 호산구성 염증과 연결한다.",
       "pool": [
         "curschmann",
@@ -1601,7 +1601,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 776,
       "height": 592,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "점액 마개, 호산구성 염증, 기저막하 비후, 평활근 비대가 함께 보인다. 객담에서는 Curschmann spiral과 Charcot–Leyden crystal을 찾을 수 있다.",
       "pool": [
         "emphysema",
@@ -1633,7 +1633,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 540,
       "height": 911,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "기관지벽이 파괴되어 기도가 영구적으로 확장된다. 흉막 가까이까지 이어지는 확장 기도와 고름, 조직에서는 벽의 궤양·염증·섬유화를 본다.",
       "pool": [
         "emphysema",
@@ -1667,7 +1667,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 981,
       "height": 687,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "기관지벽이 파괴되어 기도가 영구적으로 확장된다. 흉막 가까이까지 이어지는 확장 기도와 고름, 조직에서는 벽의 궤양·염증·섬유화를 본다.",
       "pool": [
         "emphysema",
@@ -1701,7 +1701,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 527,
       "height": 397,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "말단세기관지 원위부 공기 공간이 영구적으로 확장되고 폐포벽이 파괴된다. 커진 빈 공간과 끊기거나 남은 얇은 폐포중격을 함께 본다.",
       "pool": [
         "emphysema",
@@ -1740,7 +1740,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 518,
       "height": 383,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "점액샘 비대와 술잔세포 증가로 점액 분비가 늘어난다. 점막밑샘 층이 두꺼워지며, 임상적으로 만성적인 가래 기침의 기간을 확인한다.",
       "pool": [
         "emphysema",
@@ -1777,7 +1777,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 850,
       "height": 631,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "흉막의 울퉁불퉁한 표면과 흉막하 섬유화는 UIP에서 볼 수 있는 육안 소견이다. 조직의 불균일한 섬유화와 함께 읽는다.",
       "pool": [
         "dad",
@@ -1813,7 +1813,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 823,
       "height": 621,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "정상 폐, 치밀한 오래된 섬유화, 새로운 fibroblastic focus가 불균일하게 섞인다. 흉막하·격막주위 분포와 honeycomb change를 함께 본다. UIP는 패턴이며 IPF 외 질환에서도 나타난다.",
       "pool": [
         "dad",
@@ -1849,7 +1849,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1030,
       "height": 675,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "정상 폐, 치밀한 오래된 섬유화, 새로운 fibroblastic focus가 불균일하게 섞인다. 흉막하·격막주위 분포와 honeycomb change를 함께 본다. UIP는 패턴이며 IPF 외 질환에서도 나타난다.",
       "pool": [
         "dad",
@@ -1885,7 +1885,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 645,
       "height": 897,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "기존 폐조직과 섬유화 경계에 볼록한 작은 섬유모세포·근섬유모세포 집합이 보인다. 점액성 바탕과 표면 상피로 덮인 새로운 섬유화 병변이다.",
       "pool": [
         "hyaline",
@@ -1919,7 +1919,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 590,
       "height": 785,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "기존 폐조직과 섬유화 경계에 볼록한 작은 섬유모세포·근섬유모세포 집합이 보인다. 점액성 바탕과 표면 상피로 덮인 새로운 섬유화 병변이다.",
       "pool": [
         "hyaline",
@@ -1953,7 +1953,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1003,
       "height": 759,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "섬유화로 재형성된 낭성 공간이 모여 벌집처럼 보인다. 낭성 공간은 세기관지형 상피로 덮이고 점액을 포함할 수 있다.",
       "pool": [
         "hyaline",
@@ -1987,7 +1987,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 504,
       "height": 667,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포중격의 염증이나 섬유화가 비교적 균일한 시기와 분포를 보인다. cellular와 fibrotic 양상이 있으며 전체적으로 고른 변화를 읽는다.",
       "pool": [
         "dad",
@@ -2021,7 +2021,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 731,
       "height": 432,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포중격의 염증이나 섬유화가 비교적 균일한 시기와 분포를 보인다. cellular와 fibrotic 양상이 있으며 전체적으로 고른 변화를 읽는다.",
       "pool": [
         "dad",
@@ -2055,7 +2055,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1050,
       "height": 672,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포·폐포관·세기관지 내강에 느슨한 섬유모세포성 조직이 자라 마개를 만든다. 폐포 구조는 비교적 보존된다. 원인 불명인 COP와 이차성 OP를 구분한다.",
       "pool": [
         "dad",
@@ -2089,7 +2089,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 793,
       "height": 610,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포나 폐포관의 내강을 채우는 느슨한 섬유모세포성 육아조직 마개다. 내강 안에 위치하고 원래 폐포 골격이 남는 것이 OP의 핵심이다.",
       "pool": [
         "hyaline",
@@ -2121,7 +2121,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 849,
       "height": 666,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "잘 형성된 비괴사성 상피양 육아종이 특징이다. 기관지혈관 주위·흉막 등 림프관 경로를 따른다. 감염 배제와 임상 소견을 함께 확인한다.",
       "pool": [
         "sarcoid",
@@ -2153,7 +2153,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 920,
       "height": 648,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "상피양 조직구가 경계가 뚜렷한 집합을 이루지만 중심 괴사가 두드러지지 않는다. 대표적으로 sarcoidosis에서 보며 감염 등 다른 원인도 배제한다.",
       "pool": [
         "necgran",
@@ -2185,7 +2185,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 786,
       "height": 549,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "다핵거대세포 안의 별 모양 호산성 봉입체다. Sarcoidosis에서 볼 수 있으나 그 질환에만 특이적이지는 않다.",
       "pool": [
         "asteroid",
@@ -2217,7 +2217,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 504,
       "height": 786,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "세기관지 중심의 간질 염증에 작고 느슨한 비괴사성 육아종이 섞인다. 만성화하면 섬유화가 생기므로 노출력과 함께 판단한다.",
       "pool": [
         "dad",
@@ -2251,7 +2251,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1030,
       "height": 697,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "조직구와 소수의 거대세포가 작고 느슨한 집합을 이룬다. 세기관지 중심 간질 염증과 동반되면 과민폐렴의 중요한 단서다.",
       "pool": [
         "necgran",
@@ -2283,7 +2283,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 705,
       "height": 897,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "대개 두 엽의 핵과 선명한 붉은 세포질 과립을 가진다. 호산구성 폐렴·알레르기·기생충 등에서 증가하며 세포 하나만으로 원인을 단정하지 않는다.",
       "pool": [
         "type2",
@@ -2315,7 +2315,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1015,
       "height": 808,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 공간을 대식세포가 넓고 비교적 균일하게 채운다. 세포질의 갈색 색소와 경한 중격 비후를 볼 수 있고 흡연과 연관된다.",
       "pool": [
         "dad",
@@ -2349,7 +2349,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 511,
       "height": 432,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "갈색 색소를 가진 대식세포가 호흡세기관지와 바로 주변 폐포에 집중된다. 넓게 퍼진 DIP와 달리 세기관지 중심 분포를 읽는다.",
       "pool": [
         "dad",
@@ -2383,7 +2383,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 811,
       "height": 630,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "핵에 홈이 있는 Langerhans 세포가 호산구와 함께 침윤한다. CD1a·langerin·S100 양성이며 흡연, 세기관지 중심 결절·낭성 변화와 연결한다.",
       "pool": [
         "cwp",
@@ -2415,7 +2415,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 816,
       "height": 653,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "폐포 안을 과립성·호산성 surfactant 물질이 채우며 PAS 양성이다. 폐포중격 자체는 비교적 보존되고 염증은 심하지 않을 수 있다.",
       "pool": [
         "edema",
@@ -2448,7 +2448,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 671,
       "height": 703,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "탄분을 포함한 macule·nodule과 섬유화가 보인다. 진행하면 검은 거대한 반흔을 만드는 progressive massive fibrosis가 생긴다.",
       "pool": [
         "cwp",
@@ -2480,7 +2480,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 587,
       "height": 412,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "대식세포와 간질·림프관 주변에 검은 탄분이 쌓인다. 색소만으로 복잡성 진폐증을 뜻하지는 않으며 섬유화의 양과 분포를 함께 본다.",
       "pool": [
         "asteroid",
@@ -2512,7 +2512,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 808,
       "height": 794,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "상엽 우세의 단단한 섬유성 결절과 동심원성 collagen이 특징이다. 편광에서 입자를 확인할 수 있고 결핵 위험이 증가한다.",
       "pool": [
         "cwp",
@@ -2544,7 +2544,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 604,
       "height": 858,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "중심의 치밀한 collagen이 소용돌이 또는 동심원으로 배열된 결절이다. 주변의 먼지를 먹은 대식세포와 함께 읽는다.",
       "pool": [
         "asteroid",
@@ -2576,7 +2576,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 712,
       "height": 809,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "하엽·흉막하 중심 섬유화와 asbestos body를 함께 읽는다. 섬유화는 UIP처럼 보일 수 있으며 노출력과 흉막판이 보조 단서다.",
       "pool": [
         "cwp",
@@ -2610,7 +2610,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 722,
       "height": 897,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "투명한 중심 섬유를 철 함유 단백질이 감싸 황갈색 막대처럼 보인다. 구슬처럼 분절되거나 양끝이 두꺼운 모양이 특징이다.",
       "pool": [
         "asteroid",
@@ -2649,7 +2649,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         44,
         48
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "투명한 중심 섬유를 철 함유 단백질이 감싸 황갈색 막대처럼 보인다. 구슬처럼 분절되거나 양끝이 두꺼운 모양이 특징이다.",
       "pool": [
         "asteroid",
@@ -2683,7 +2683,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1050,
       "height": 719,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "벽측흉막에 생기는 경계가 뚜렷한 단단한 collagen 판이다. 석회화될 수 있으며 석면 노출의 표지다. 그 자체가 중피종 전구병변은 아니다.",
       "pool": [
         "plaque",
@@ -2715,7 +2715,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 528,
       "height": 396,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "흡연 색소를 가진 대식세포가 호흡세기관지와 주변 공기 공간에 집중되는 respiratory bronchiolitis 형태다. 임상적 ILD 여부는 증상·영상·폐기능을 함께 평가한다.",
       "pool": [
         "dad",
@@ -2754,7 +2754,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "정상 폐, 치밀한 오래된 섬유화, 새로운 fibroblastic focus가 불균일하게 섞인다. 흉막하·격막주위 분포와 honeycomb change를 함께 본다. UIP는 패턴이며 IPF 외 질환에서도 나타난다.",
       "pool": [
         "dad",
@@ -2795,7 +2795,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포중격의 염증이나 섬유화가 비교적 균일한 시기와 분포를 보인다. cellular와 fibrotic 양상이 있으며 전체적으로 고른 변화를 읽는다.",
       "pool": [
         "dad",
@@ -2834,7 +2834,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "갈색 색소를 가진 대식세포가 호흡세기관지와 바로 주변 폐포에 집중된다. 넓게 퍼진 DIP와 달리 세기관지 중심 분포를 읽는다.",
       "pool": [
         "dad",
@@ -2873,7 +2873,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 공간을 대식세포가 넓고 비교적 균일하게 채운다. 세포질의 갈색 색소와 경한 중격 비후를 볼 수 있고 흡연과 연관된다.",
       "pool": [
         "dad",
@@ -2917,7 +2917,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         47,
         56
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "화살표는 공기 공간 안으로 자란 느슨한 섬유모세포성 마개인 Masson body를 가리킨다. 이러한 마개가 organizing pneumonia의 핵심 소견이다.",
       "pool": [
         "hyaline",
@@ -2954,7 +2954,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "림프구·형질세포가 폐간질을 넓게 침윤하며 림프소포와 배중심이 동반될 수 있다. 림프구성 간질 침윤이 중심인 패턴이다.",
       "pool": [
         "dad",
@@ -2993,7 +2993,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "세기관지 중심의 간질 염증에 작고 느슨한 비괴사성 육아종이 섞인다. 만성화하면 섬유화가 생기므로 노출력과 함께 판단한다.",
       "pool": [
         "dad",
@@ -3032,7 +3032,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 600,
       "height": 475,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "핵에 홈이 있는 Langerhans 세포가 호산구와 함께 침윤한다. CD1a·langerin·S100 양성이며 흡연, 세기관지 중심 결절·낭성 변화와 연결한다.",
       "pool": [
         "cwp",
@@ -3069,7 +3069,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 308,
       "height": 236,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "정상 폐, 치밀한 오래된 섬유화, 새로운 fibroblastic focus가 불균일하게 섞인다. 흉막하·격막주위 분포와 honeycomb change를 함께 본다. UIP는 패턴이며 IPF 외 질환에서도 나타난다.",
       "pool": [
         "dad",
@@ -3110,7 +3110,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 308,
       "height": 236,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "섬유화로 재형성된 낭성 공간이 모여 벌집처럼 보인다. 낭성 공간은 세기관지형 상피로 덮이고 점액을 포함할 수 있다.",
       "pool": [
         "hyaline",
@@ -3154,7 +3154,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         40,
         44
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "기존 폐조직과 섬유화 경계에 볼록한 작은 섬유모세포·근섬유모세포 집합이 보인다. 점액성 바탕과 표면 상피로 덮인 새로운 섬유화 병변이다.",
       "pool": [
         "hyaline",
@@ -3193,7 +3193,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 308,
       "height": 234,
       "arrow": null,
-      "question": "노출력과 세기관지 중심 bridging fibrosis가 있는 사례의 조직이다. 해당 질환은?",
+      "question": "노출력과 세기관지 중심 bridging fibrosis가 있다. 질환은?",
       "note": "만성 과민폐렴 사례의 거대세포와 cholesterol cleft를 보이는 시야다. 다른 시야의 세기관지 중심 손상·bridging fibrosis와 함께 해석한다.",
       "pool": [
         "dad",
@@ -3232,7 +3232,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 563,
       "height": 790,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "기관지·세기관지 주위의 반점 모양 화농성 병변이 여러 군데 흩어진다. 서로 합쳐질 수 있지만 초기 분포는 국소적·산재성이다.",
       "pool": [
         "bronchopneumonia",
@@ -3264,7 +3264,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 562,
       "height": 790,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "한 엽의 넓은 부위가 연속적으로 경화된다. 울혈·적색간화·회색간화·해소로 이어지는 폐포 내 삼출의 변화를 읽는다.",
       "pool": [
         "bronchopneumonia",
@@ -3296,7 +3296,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 929,
       "height": 536,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 공간을 다핵 호중구와 fibrin이 채운다. 세균성 폐렴에서 흔한 화농성 삼출 양상이다.",
       "pool": [
         "edema",
@@ -3329,7 +3329,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 607,
       "height": 898,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "폐실질이 화농성 염증으로 괴사해 고름을 담은 공동이 형성된다. 중심의 액화괴사와 주위 염증·조직 파괴가 핵심이다.",
       "pool": [
         "bronchopneumonia",
@@ -3361,7 +3361,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 542,
       "height": 900,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "흉막하의 일차 폐 병소와 폐문 림프절 병변을 함께 보이는 Ghon complex이다. 병소와 림프절의 위치를 연결해 읽는다.",
       "pool": [
         "bronchopneumonia",
@@ -3395,7 +3395,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 649,
       "height": 786,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "건락괴사성 육아종과 항산균이 주요 단서다. 재활성 결핵은 상엽 공동, 파종은 수많은 작은 결절로 나타날 수 있다.",
       "pool": [
         "bronchopneumonia",
@@ -3429,7 +3429,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 965,
       "height": 370,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "중심의 무정형 괴사 주위를 상피양 조직구와 다핵거대세포가 둘러싼다. 결핵·진균 감염 등을 고려하고 특수염색으로 원인을 확인한다.",
       "pool": [
         "necgran",
@@ -3463,7 +3463,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1030,
       "height": 678,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "Ziehl–Neelsen 염색에서 가늘고 붉은 막대균이 보인다. 결핵 등 항산균 감염을 뒷받침하며 염색만으로 균종을 모두 구분하지는 않는다.",
       "pool": [
         "afb",
@@ -3497,7 +3497,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 910,
       "height": 704,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "폐포 안의 거품 모양 삼출물과 GMS에서 보이는 컵·초승달 모양 낭포를 연결한다. 면역저하 환자에서 중요하다.",
       "pool": [
         "bronchopneumonia",
@@ -3529,7 +3529,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 746,
       "height": 652,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "GMS에서 작은 컵·초승달 모양의 낭포벽이 염색된다. 폐포 내 거품 모양 삼출물과 함께 P. jirovecii를 확인하는 단서다.",
       "pool": [
         "asperhypha",
@@ -3560,7 +3560,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 615,
       "height": 896,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "굵기가 비교적 균일한 가는 균사에 격벽이 있고 약 45°의 예각으로 분지한다. Aspergillus의 대표적인 조직 형태다.",
       "pool": [
         "asperhypha",
@@ -3593,7 +3593,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 615,
       "height": 897,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "넓고 불규칙한 리본 모양 균사에 격벽이 적으며 대체로 직각에 가까운 분지를 보인다. Mucorales를 시사한다.",
       "pool": [
         "asperhypha",
@@ -3624,7 +3624,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 796,
       "height": 897,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "이미 존재하던 폐 공동 안에 Aspergillus 균사가 덩어리로 모여 fungal ball을 이룬다. 균사 모양과 공동 안의 위치를 함께 확인한다.",
       "pool": [
         "aspergilloma",
@@ -3658,7 +3658,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 488,
       "height": 734,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "기관지 안의 층상 알레르기성 점액과 호산구, 때로 소수의 균사가 보인다. 천식·과민반응·중심성 기관지확장과 연결한다.",
       "pool": [
         "aspergilloma",
@@ -3690,7 +3690,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 871,
       "height": 428,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "갈색의 두꺼운 껍질과 한쪽 끝의 operculum을 가진 충란이다. 폐흡충 감염에서 객담·조직의 충란을 확인한다.",
       "pool": [
         "afb",
@@ -3722,7 +3722,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 192,
       "height": 143,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "굵기가 비교적 균일한 가는 균사에 격벽이 있고 약 45°의 예각으로 분지한다. Aspergillus의 대표적인 조직 형태다.",
       "pool": [
         "asperhypha",
@@ -3760,7 +3760,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 679,
       "height": 771,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "종양세포가 기존 폐포중격을 따라 한 층으로 자란다. 공기 공간과 폐포 골격이 남는다. 사진 한 장의 lepidic 양상만으로 침윤 여부 전체를 확정하지는 않는다.",
       "pool": [
         "lepidic",
@@ -3792,7 +3792,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 679,
       "height": 771,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "종양세포질 안에 점액성 공포가 보인다. 샘 형성과 함께 샘암종의 분화를 뒷받침하며 필요하면 점액 염색을 사용한다.",
       "pool": [
         "keratin",
@@ -3824,7 +3824,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 644,
       "height": 399,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "종양세포가 샘 구조를 만들거나 세포질 내 점액을 가진다. Lepidic·acinar·papillary·micropapillary·solid 등 다양한 성장 양상이 있다.",
       "pool": [
         "scc",
@@ -3857,7 +3857,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 506,
       "height": 386,
       "arrow": null,
-      "question": "폐샘암종에서 보이는 성장 양상은?",
+      "question": "폐샘암종의 성장 양상은?",
       "note": "종양세포가 기존 폐포중격을 따라 한 층으로 자란다. 공기 공간과 폐포 골격이 남는다. 사진 한 장의 lepidic 양상만으로 침윤 여부 전체를 확정하지는 않는다.",
       "pool": [
         "lepidic",
@@ -3889,7 +3889,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 506,
       "height": 386,
       "arrow": null,
-      "question": "폐샘암종에서 보이는 성장 양상은?",
+      "question": "폐샘암종의 성장 양상은?",
       "note": "종양세포가 중심 내강을 갖는 샘 구조를 만든다. 간질 안에 분리된 샘들이 침윤하는 모습을 본다.",
       "pool": [
         "lepidic",
@@ -3921,7 +3921,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 523,
       "height": 386,
       "arrow": null,
-      "question": "폐샘암종에서 보이는 성장 양상은?",
+      "question": "폐샘암종의 성장 양상은?",
       "note": "섬유혈관 중심을 가진 유두를 종양세포가 덮는다. 중심 기질의 존재가 핵심이다.",
       "pool": [
         "lepidic",
@@ -3953,7 +3953,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 436,
       "height": 386,
       "arrow": null,
-      "question": "폐샘암종에서 보이는 성장 양상은?",
+      "question": "폐샘암종의 성장 양상은?",
       "note": "섬유혈관 중심 없이 작은 종양세포 덩이가 유두처럼 모인다. 공기 공간 안에 떠 있는 작은 군집을 찾는다.",
       "pool": [
         "lepidic",
@@ -3985,7 +3985,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 408,
       "height": 377,
       "arrow": null,
-      "question": "폐샘암종에서 보이는 성장 양상은?",
+      "question": "폐샘암종의 성장 양상은?",
       "note": "종양세포 덩이 안에 작은 내강이 여러 개 뚫려 체 같은 구조를 만든다. 복잡한 샘 구조에 속한다.",
       "pool": [
         "lepidic",
@@ -4017,7 +4017,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 343,
       "height": 386,
       "arrow": null,
-      "question": "폐샘암종에서 보이는 성장 양상은?",
+      "question": "폐샘암종의 성장 양상은?",
       "note": "샘이나 유두 구조가 거의 없이 종양세포가 판상·둥지 모양으로 채운다. 샘암종의 solid형 판단에는 다른 분화 근거도 함께 확인한다.",
       "pool": [
         "lepidic",
@@ -4054,7 +4054,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         48,
         56
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "종양세포 둥지 중심의 각질이 동심원으로 겹친 호산성 소용돌이 구조다. 잘 분화한 편평세포암의 대표적 소견이다.",
       "pool": [
         "keratin",
@@ -4088,7 +4088,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 306,
       "height": 440,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "인접한 편평분화 세포 사이가 가는 가시·다리처럼 이어진다. 세포 경계와 세포 사이의 연결을 고배율에서 읽는다.",
       "pool": [
         "keratin",
@@ -4122,7 +4122,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 593,
       "height": 358,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "세포질이 매우 적은 작은 종양세포가 빽빽하게 모이고 서로 핵의 모양을 누르는 nuclear molding이 나타난다. 미세한 chromatin, 많은 유사분열·괴사를 함께 본다. Chromogranin·synaptophysin·CD56 등 신경내분비 표지자가 분화를 뒷받침하며, 전자현미경에서는 dense-core neurosecretory granule을 볼 수 있다.",
       "pool": [
         "scc",
@@ -4157,7 +4157,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 784,
       "height": 441,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "세포질이 매우 적은 작은 종양세포가 빽빽하게 모이고 서로 핵의 모양을 누르는 nuclear molding이 나타난다. 미세한 chromatin, 많은 유사분열·괴사를 함께 본다. Chromogranin·synaptophysin·CD56 등 신경내분비 표지자가 분화를 뒷받침하며, 전자현미경에서는 dense-core neurosecretory granule을 볼 수 있다.",
       "pool": [
         "scc",
@@ -4192,7 +4192,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 547,
       "height": 290,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "큰 종양세포에 신경내분비성 organoid nesting·rosette·palisading이 나타난다. 높은 유사분열과 괴사, 신경내분비 표지자를 함께 평가한다.",
       "pool": [
         "scc",
@@ -4225,7 +4225,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 463,
       "height": 313,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "비교적 균일한 신경내분비 세포가 둥지·띠·rosette를 이룬다. Salt-and-pepper chromatin이 특징이며 typical/atypical 분류에는 유사분열과 괴사를 평가한다.",
       "pool": [
         "scc",
@@ -4258,7 +4258,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 762,
       "height": 497,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "비교적 균일한 신경내분비 세포가 둥지·띠·rosette를 이룬다. Salt-and-pepper chromatin이 특징이며 typical/atypical 분류에는 유사분열과 괴사를 평가한다.",
       "pool": [
         "scc",
@@ -4291,7 +4291,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 656,
       "height": 441,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "성숙 연골 사이에 지방과 틈새 모양의 기관지 상피가 섞인 양성 병변이다. 연골 하나보다 서로 다른 성숙 조직의 조합을 읽는다.",
       "pool": [
         "scc",
@@ -4324,7 +4324,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 656,
       "height": 438,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "성숙 연골 사이에 지방과 틈새 모양의 기관지 상피가 섞인 양성 병변이다. 연골 하나보다 서로 다른 성숙 조직의 조합을 읽는다.",
       "pool": [
         "scc",
@@ -4357,7 +4357,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 535,
       "height": 300,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "표면 입방세포와 둥근 간질세포 두 세포군이 보이며 papillary·solid·sclerotic·hemorrhagic 양상이 섞인다. 두 세포군의 TTF-1 발현과 다른 상피표지자 차이를 확인한다.",
       "pool": [
         "scc",
@@ -4390,7 +4390,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 518,
       "height": 383,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "정상 호흡상피가 중층편평상피로 바뀐 것이다. 만성 자극에 대한 적응이며, 이형성이나 침윤과는 별도로 판단한다.",
       "pool": [
         "gland",
@@ -4427,7 +4427,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 197,
       "height": 138,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "인접한 편평분화 세포 사이가 가는 가시·다리처럼 이어진다. 세포 경계와 세포 사이의 연결을 고배율에서 읽는다.",
       "pool": [
         "keratin",
@@ -4466,7 +4466,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 511,
       "height": 711,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "흉막 표면을 거친 fibrin 삼출물이 덮는다. 조직화되면 흉막의 유착과 섬유화로 이어진다.",
       "pool": [
         "plaque",
@@ -4498,7 +4498,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 470,
       "height": 704,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "흉막강 안에 고름이 축적된 상태다. 폐실질 내부의 농양과 달리 고름이 있는 공간이 흉막강이다.",
       "pool": [
         "plaque",
@@ -4530,7 +4530,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 586,
       "height": 428,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "방추세포가 collagen과 함께 일정한 배열 없이 자라고 staghorn 혈관이 섞인다. STAT6 핵 양성 및 NAB2–STAT6 fusion을 연결한다.",
       "pool": [
         "plaque",
@@ -4562,7 +4562,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 417,
       "height": 582,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "흉막을 따라 미만성으로 자라 폐를 감싸는 종양이다. 상피형·육종형·이상성 양상이 있으며 면역염색 패널과 분자 소견을 함께 평가한다.",
       "pool": [
         "plaque",
@@ -4594,7 +4594,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 744,
       "height": 552,
       "arrow": null,
-      "question": "흉막을 따라 미만성으로 자란 종양의 조직이다. 해당 질환은?",
+      "question": "흉막을 따라 미만성으로 자란 종양이다. 질환은?",
       "note": "흉막을 따라 미만성으로 자라 폐를 감싸는 종양이다. 상피형·육종형·이상성 양상이 있으며 면역염색 패널과 분자 소견을 함께 평가한다.",
       "pool": [
         "plaque",
@@ -4626,7 +4626,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 522,
       "height": 624,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "세포 표면에 길고 가는 미세융모가 많이 뻗는다. 전통적으로 중피세포 분화의 전자현미경적 단서다.",
       "pool": [
         "densecore",
@@ -4781,7 +4781,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 603,
       "height": 468,
       "arrow": null,
-      "question": "흉선에서 발생한 종양이다. 해당 질환은?",
+      "question": "흉선에서 발생한 종양이다. 질환은?",
       "note": "뚜렷한 악성 상피세포와 침윤이 보이며 정상 흉선의 조직적 특징을 잃는다. 편평세포암 양상이 흔하다.",
       "pool": [
         "thymomaA",
@@ -4812,7 +4812,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 563,
       "height": 744,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "밝은 세포질과 뚜렷한 핵소체를 가진 큰 종양세포가 림프구성 격막 사이로 모인다. 앞종격동의 생식세포종양을 고려한다.",
       "pool": [
         "seminoma",
@@ -4844,7 +4844,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 545,
       "height": 744,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "서로 다른 배엽에서 유래한 성숙 조직이 한 종괴 안에 섞인다. 피부·샘·연골 등 다양한 조직과 낭성 내용물을 볼 수 있다.",
       "pool": [
         "seminoma",
@@ -4876,7 +4876,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 506,
       "height": 719,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "작고 미분화된 신경모세포와 neuropil을 보며 Homer Wright rosette가 나타날 수 있다. 소아의 후종격동 신경성 종양이다.",
       "pool": [
         "seminoma",
@@ -4908,7 +4908,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 506,
       "height": 414,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "미성숙 신경모세포와 분화한 신경절세포가 함께 보인다. 미성숙·성숙 성분의 공존을 읽는다.",
       "pool": [
         "seminoma",
@@ -4940,7 +4940,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 535,
       "height": 414,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "성숙한 신경절세포가 Schwann 세포성 기질 속에 분포한다. 분화가 잘 된 신경성 종양이다.",
       "pool": [
         "seminoma",
@@ -4972,7 +4972,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 673,
       "height": 490,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "낭종벽의 호흡상피, 연골, 기관지샘이 기관지 기원을 알려 준다. 단순히 공간이 크다는 것보다 벽을 구성하는 조직을 확인한다.",
       "pool": [
         "hypoplasia",
@@ -5004,7 +5004,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 556,
       "height": 577,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "크기가 다양한 둥근 효모 주위의 투명한 피막과 좁은 목의 출아가 단서다. 다핵거대세포 안팎에서 보이며 피막은 mucicarmine·Alcian blue로 확인한다.",
       "pool": [
         "aspergilloma",
@@ -5038,7 +5038,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 560,
       "height": 582,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "둥근 효모를 넓은 투명 피막이 둘러싸고 출아의 연결부가 좁다. Cryptococcus의 특징적 형태다.",
       "pool": [
         "asperhypha",
@@ -5071,7 +5071,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 456,
       "height": 715,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "강의 실습 자료에서 편평세포암으로 제시한 사진이다. 종양세포의 각질화와 세포 사이 연결을 찾고, p40 등 편평분화 표지자와 연결한다.",
       "pool": [
         "scc",
@@ -5106,7 +5106,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 621,
       "height": 843,
       "arrow": null,
-      "question": "폐종양 환자의 전이 병변이다. 종양의 조직형은?",
+      "question": "폐종양의 전이 병변이다. 조직형은?",
       "note": "종양세포가 샘 구조를 만들거나 세포질 내 점액을 가진다. Lepidic·acinar·papillary·micropapillary·solid 등 다양한 성장 양상이 있다.",
       "pool": [
         "scc",
@@ -5141,7 +5141,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1412,
       "height": 476,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "비교적 균일한 신경내분비 세포가 둥지·띠·rosette를 이룬다. Salt-and-pepper chromatin이 특징이며 typical/atypical 분류에는 유사분열과 괴사를 평가한다.",
       "pool": [
         "scc",
@@ -5174,7 +5174,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 978,
       "height": 1279,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "성숙 연골 사이에 지방과 틈새 모양의 기관지 상피가 섞인 양성 병변이다. 연골 하나보다 서로 다른 성숙 조직의 조합을 읽는다.",
       "pool": [
         "scc",
@@ -5207,7 +5207,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1080,
       "height": 799,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "가늘고 길게 가지치는 혈관 주위에 방추세포가 배열된다. SFT의 patternless spindle-cell 배경에서 특징적으로 보인다.",
       "pool": [
         "keratin",
@@ -5239,7 +5239,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1500,
       "height": 514,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포·폐포관·세기관지 내강에 느슨한 섬유모세포성 조직이 자라 마개를 만든다. 폐포 구조는 비교적 보존된다. 원인 불명인 COP와 이차성 OP를 구분한다.",
       "pool": [
         "dad",
@@ -5273,7 +5273,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1117,
       "height": 1500,
       "arrow": null,
-      "question": "사진에 해당하는 CPAM 유형은?",
+      "question": "CPAM 유형은?",
       "note": "크고 뚜렷한 낭종이 특징이다. 낭종은 섬모 원주상피로 덮이고 점액세포가 섞일 수 있다. 유형 중 가장 흔하다.",
       "pool": [
         "cpam0",
@@ -5304,7 +5304,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 920,
       "height": 693,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "큰 종양세포에 신경내분비성 organoid nesting·rosette·palisading이 나타난다. 높은 유사분열과 괴사, 신경내분비 표지자를 함께 평가한다.",
       "pool": [
         "scc",
@@ -5342,7 +5342,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         79,
         25
       ],
-      "question": "폐 신경내분비세포의 전자현미경 사진이다. 화살표가 가리키는 구조는?",
+      "question": "폐 신경내분비세포(전자현미경). 표시된 구조는?",
       "note": "이 사진은 햄스터의 정상 폐 신경내분비세포이다. 세포질의 막으로 둘러싸인 검은 dense-core granule을 익히는 자료이며, 소세포암에서도 이러한 신경내분비 분화가 관찰될 수 있다.",
       "pool": [
         "densecore",
@@ -5380,7 +5380,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1009,
       "height": 604,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "표면 입방세포와 둥근 간질세포 두 세포군이 보이며 papillary·solid·sclerotic·hemorrhagic 양상이 섞인다. 두 세포군의 TTF-1 발현과 다른 상피표지자 차이를 확인한다.",
       "pool": [
         "scc",
@@ -5413,7 +5413,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 899,
       "height": 791,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "폐포 장벽의 급성 손상으로 부종과 hyaline membrane이 생긴다. 수복기에는 type II pneumocyte 증식과 조직화가 이어진다. DAD는 조직학적 패턴이며 원인은 다양하다.",
       "pool": [
         "dad",
@@ -5455,7 +5455,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         74,
         47
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "폐포 안쪽을 따라 붙은 매끈한 호산성 띠다. 누출된 단백질·fibrin과 손상된 상피 잔해로 이루어지며 DAD의 삼출기를 대표한다.",
       "pool": [
         "hyaline",
@@ -5490,7 +5490,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 792,
       "height": 655,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "말단세기관지 원위부 공기 공간이 영구적으로 확장되고 폐포벽이 파괴된다. 커진 빈 공간과 끊기거나 남은 얇은 폐포중격을 함께 본다.",
       "pool": [
         "emphysema",
@@ -5525,7 +5525,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1094,
       "height": 757,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "이미 존재하던 폐 공동 안에 Aspergillus 균사가 덩어리로 모여 fungal ball을 이룬다. 균사 모양과 공동 안의 위치를 함께 확인한다.",
       "pool": [
         "aspergilloma",
@@ -5560,7 +5560,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 832,
       "height": 739,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "굵기가 비교적 균일한 가는 균사에 격벽이 있고 약 45°의 예각으로 분지한다. Aspergillus의 대표적인 조직 형태다.",
       "pool": [
         "asperhypha",
@@ -5594,7 +5594,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1207,
       "height": 1012,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "굵기가 비교적 균일한 가는 균사에 격벽이 있고 약 45°의 예각으로 분지한다. Aspergillus의 대표적인 조직 형태다.",
       "pool": [
         "asperhypha",
@@ -5628,7 +5628,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1204,
       "height": 1061,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "굵기가 비교적 균일한 가는 균사에 격벽이 있고 약 45°의 예각으로 분지한다. Aspergillus의 대표적인 조직 형태다.",
       "pool": [
         "asperhypha",
@@ -5662,7 +5662,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1437,
       "height": 941,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "크기가 다양한 둥근 효모 주위의 투명한 피막과 좁은 목의 출아가 단서다. 다핵거대세포 안팎에서 보이며 피막은 mucicarmine·Alcian blue로 확인한다.",
       "pool": [
         "aspergilloma",
@@ -5697,7 +5697,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1400,
       "height": 1075,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "이 검체는 Cryptococcus 감염 사례이지만, 이 시야에서 묻는 것은 공기 공간 안의 조직화 마개이다. 원인 질환과 동반된 OP 패턴을 구분해 읽는다.",
       "pool": [
         "dad",
@@ -5734,7 +5734,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1166,
       "height": 1046,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "둥근 효모를 넓은 투명 피막이 둘러싸고 출아의 연결부가 좁다. Cryptococcus의 특징적 형태다.",
       "pool": [
         "asperhypha",
@@ -5768,7 +5768,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1093,
       "height": 985,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "둥근 효모를 넓은 투명 피막이 둘러싸고 출아의 연결부가 좁다. Cryptococcus의 특징적 형태다.",
       "pool": [
         "asperhypha",
@@ -5802,7 +5802,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1441,
       "height": 1016,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "Alcian blue로 염색한 효모의 피막을 확인한다. Cryptococcus의 다당류 피막이 청색으로 보인다.",
       "pool": [
         "asperhypha",
@@ -5836,7 +5836,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1351,
       "height": 1055,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "정상 폐, 치밀한 오래된 섬유화, 새로운 fibroblastic focus가 불균일하게 섞인다. 흉막하·격막주위 분포와 honeycomb change를 함께 본다. UIP는 패턴이며 IPF 외 질환에서도 나타난다.",
       "pool": [
         "dad",
@@ -5878,7 +5878,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         44,
         55
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "기존 폐조직과 섬유화 경계에 볼록한 작은 섬유모세포·근섬유모세포 집합이 보인다. 점액성 바탕과 표면 상피로 덮인 새로운 섬유화 병변이다.",
       "pool": [
         "hyaline",
@@ -5913,7 +5913,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1490,
       "height": 1023,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "섬유화로 재형성된 낭성 공간이 모여 벌집처럼 보인다. 낭성 공간은 세기관지형 상피로 덮이고 점액을 포함할 수 있다.",
       "pool": [
         "hyaline",
@@ -5948,7 +5948,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1500,
       "height": 1063,
       "arrow": null,
-      "question": "석면 노출력이 있고 다른 시야에서 asbestos body가 확인된 폐조직이다. 해당 질환은?",
+      "question": "석면 노출력이 있고 다른 시야에서 asbestos body가 확인되었다. 질환은?",
       "note": "하엽·흉막하 중심 섬유화와 asbestos body를 함께 읽는다. 섬유화는 UIP처럼 보일 수 있으며 노출력과 흉막판이 보조 단서다.",
       "pool": [
         "cwp",
@@ -5988,7 +5988,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         56,
         53
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "투명한 중심 섬유를 철 함유 단백질이 감싸 황갈색 막대처럼 보인다. 구슬처럼 분절되거나 양끝이 두꺼운 모양이 특징이다.",
       "pool": [
         "asteroid",
@@ -6023,7 +6023,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1343,
       "height": 1085,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "종양세포의 keratinization과 intercellular bridge를 찾는다. Keratin pearl과 강한 호산성 세포질이 단서이며 p40 등으로 편평분화를 확인한다.",
       "pool": [
         "scc",
@@ -6059,7 +6059,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1350,
       "height": 1108,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "종양세포의 keratinization과 intercellular bridge를 찾는다. Keratin pearl과 강한 호산성 세포질이 단서이며 p40 등으로 편평분화를 확인한다.",
       "pool": [
         "scc",
@@ -6095,7 +6095,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1500,
       "height": 991,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "종양세포 둥지 중심의 각질이 동심원으로 겹친 호산성 소용돌이 구조다. 잘 분화한 편평세포암의 대표적 소견이다.",
       "pool": [
         "keratin",
@@ -6130,7 +6130,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1385,
       "height": 1029,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "종양세포가 샘 구조를 만들거나 세포질 내 점액을 가진다. Lepidic·acinar·papillary·micropapillary·solid 등 다양한 성장 양상이 있다.",
       "pool": [
         "scc",
@@ -6166,7 +6166,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1151,
       "height": 1024,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "종양세포가 중심 내강을 갖는 샘 구조를 만든다. 간질 안에 분리된 샘들이 침윤하는 모습을 본다.",
       "pool": [
         "lepidic",
@@ -6201,7 +6201,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1432,
       "height": 908,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "세포질이 매우 적은 작은 종양세포가 빽빽하게 모이고 서로 핵의 모양을 누르는 nuclear molding이 나타난다. 미세한 chromatin, 많은 유사분열·괴사를 함께 본다. Chromogranin·synaptophysin·CD56 등 신경내분비 표지자가 분화를 뒷받침하며, 전자현미경에서는 dense-core neurosecretory granule을 볼 수 있다.",
       "pool": [
         "scc",
@@ -6242,7 +6242,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         57,
         40
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "세포질이 적은 종양세포가 밀착해 한 핵이 이웃 핵의 윤곽을 따라 눌린다. 소세포암을 떠올리게 하는 중요한 소견이다.",
       "pool": [
         "keratin",
@@ -6282,7 +6282,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         62,
         45
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "정상 조직 구조가 사라진 과립성·무정형의 호산성 괴사다. 결핵성 육아종의 중심에서 대표적으로 보인다.",
       "pool": [
         "caseation",
@@ -6316,7 +6316,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1349,
       "height": 1026,
       "arrow": null,
-      "question": "사진에서 보이는 병리 소견은?",
+      "question": "병리 소견은?",
       "note": "중심의 무정형 괴사 주위를 상피양 조직구와 다핵거대세포가 둘러싼다. 결핵·진균 감염 등을 고려하고 특수염색으로 원인을 확인한다.",
       "pool": [
         "necgran",
@@ -6356,7 +6356,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
         46,
         47
       ],
-      "question": "화살표가 가리키는 병리 소견은?",
+      "question": "표시된 병리 소견은?",
       "note": "여러 핵이 세포 가장자리를 따라 말발굽 또는 고리 모양으로 배열된다. 육아종에서 볼 수 있으나 이 세포 하나가 결핵에 특이적인 것은 아니다.",
       "pool": [
         "type2",
@@ -6391,7 +6391,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1466,
       "height": 1084,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "기관지벽이 파괴되어 기도가 영구적으로 확장된다. 흉막 가까이까지 이어지는 확장 기도와 고름, 조직에서는 벽의 궤양·염증·섬유화를 본다.",
       "pool": [
         "emphysema",
@@ -6426,7 +6426,7 @@ window.RESPIRATORY_PATHOLOGY_DATA = {
       "width": 1020,
       "height": 1032,
       "arrow": null,
-      "question": "사진에 해당하는 질환은?",
+      "question": "질환은?",
       "note": "기관지벽이 파괴되어 기도가 영구적으로 확장된다. 흉막 가까이까지 이어지는 확장 기도와 고름, 조직에서는 벽의 궤양·염증·섬유화를 본다.",
       "pool": [
         "emphysema",
