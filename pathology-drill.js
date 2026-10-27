@@ -31,7 +31,7 @@
       const id=current.id,selected=a.selected;
       window.RespiratoryQuickMode?.schedule(()=>{
         if(active()&&current.id===id&&attempt(current).selected===selected&&!explanation&&!document.querySelector('.context-link-split'))move(1);
-      });
+      },selected===current.target);
     }
   }
   function arrowSVG(q){

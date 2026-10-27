@@ -13,14 +13,14 @@
     isEnabled:()=>quickEnabled,
     cancel:cancelQuick,
     setEnabled(value){cancelQuick();quickEnabled=!!value;try{localStorage.setItem(quickKey,String(quickEnabled));}catch(_){}},
-    schedule(advance){
+    schedule(advance,correct=false){
       cancelQuick();if(!quickEnabled)return;
       const hash=location.hash;
       quickTimer=setTimeout(()=>{
         quickTimer=0;
         if(!quickEnabled||document.hidden||location.hash!==hash||document.querySelector('dialog[open],.wiki-section-editor-overlay,#jbl-image-modal.show'))return;
         advance();
-      },500);
+      },correct?500:1000);
     }
   };
   document.addEventListener('pointerdown',cancelQuick,{capture:true,passive:true});

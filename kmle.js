@@ -58,7 +58,7 @@
     revealed=true;
     renderQuestion(false);
     const id=current.id;
-    window.RespiratoryQuickMode?.schedule(()=>{if(location.hash==='#kmle-'+id&&current?.id===id&&!explanation)move(1);});
+    window.RespiratoryQuickMode?.schedule(()=>{if(location.hash==='#kmle-'+id&&current?.id===id&&!explanation)move(1);},resultFor(current));
   }
   function choose(n) {
     window.RespiratoryQuickMode?.cancel();

@@ -2029,9 +2029,9 @@ SOFTWARE.
   <script src="./wiki-image-overlays.js"></script>
   <script src="./respiratory-atlas.js"></script>
   <script src="./kmle-data.js"></script>
-  <script src="./kmle.js?v=20261027-quick-mode"></script>
+  <script src="./kmle.js?v=20261027-quick-timing"></script>
   <script src="./pathology-drill-data.js?v=20261027-short-stems"></script>
-  <script src="./pathology-drill.js?v=20261027-quick-mode"></script>
+  <script src="./pathology-drill.js?v=20261027-quick-timing"></script>
 <script>
   window.THEME_WIKI_DATA = {documents:[]};
 </script>
@@ -3709,13 +3709,15 @@ SOFTWARE.
         rerender();
         const selected=state.selected[question.id];
         const complete=answerIndices.length>1 ? Array.isArray(selected)&&selected.length===answerIndices.length : Boolean(selected);
+        const selectedIndices=Array.isArray(selected)?selected:[selected];
+        const correct=answerIndices.length>0&&selectedIndices.length===answerIndices.length&&selectedIndices.every(n=>answerIndices.includes(n));
         if(complete)window.RespiratoryQuickMode?.schedule(()=>{
           const viewer=studyQuestionViewer();
           if(!viewer||viewer.key!==key||viewerState(key).editing||viewer.questions[viewerState(key).index]?.id!==question.id)return;
           const nav=questionExplanationState.active ? questionExplanationState.nav : contextLinkState.active ? contextLinkState.nav : document.querySelector('#jbl-view:not([hidden]) .jbl-bottom-inner, #detail-view:not([hidden]) [data-course-j-nav]');
           const next=nav?.querySelector('[data-jbl-next],[data-context-question-next]');
           if(next&&!next.disabled&&next.getAttribute('aria-disabled')!=='true')next.click();
-        });
+        },correct);
       }));
       container.querySelector('[data-study-status]')?.addEventListener('change', event => {
         saveQuestionStudyStatus(question.id, event.currentTarget.value, true);
@@ -6197,7 +6199,7 @@ SOFTWARE.
     };
     routeFromHash();
 </script>
-<script src="./study-ui.js?v=20261027-quick-mode"></script>
+<script src="./study-ui.js?v=20261027-quick-timing"></script>
 <script src="./resp-exam-menu.js?v=mock-picker-20261025"></script>
 <script src="./resp-exam-bridge.js"></script>
 </body></html>
