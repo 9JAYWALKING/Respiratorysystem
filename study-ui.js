@@ -164,7 +164,8 @@
     const expandedFilters=new Set(Array.from(dialog.querySelectorAll('[data-center-multi][open]'),element=>element.dataset.centerMulti));
     const scrollTop=dialog.scrollTop;
     const state=app.context(),root=visibleRoot(), isJ=state.hash.startsWith('#jbl');
-    const questionFilters=app.questionFilterContext();
+    const pathology=window.RespiratoryPathology?.isActive()?window.RespiratoryPathology:null;
+    const questionFilters=pathology?null:app.questionFilterContext();
     if(questionFilters){state.filters=questionFilters.filters;state.randomEnabled=questionFilters.randomEnabled;}
     const wiki=app.wikiTools();
     const question=app.questionTools();
@@ -194,8 +195,10 @@
       <div class="study-preference-row"><button type="button" class="study-random-toggle study-gesture-toggle" data-center-gestures><span class="study-filter-icon" aria-hidden="true">${svg('hand')}</span><span data-gesture-label></span></button>
       <button type="button" class="study-random-toggle" data-center-dday aria-pressed="${ddayEnabled}"><span class="study-filter-icon" aria-hidden="true">${svg('calendar')}</span><span data-dday-label></span></button></div>
       ${questionFilters ? `<section class="study-center-section"><h3>${isJbl?'학습 필터':'문항 필터'}</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div>${orderControls}</section>` : ''}
+      ${pathology ? pathology.toolsHTML() : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
+    if(pathology)pathology.bindTools(dialog,renderTools);
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
     syncGestureButton();
     syncDdayButton();

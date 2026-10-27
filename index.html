@@ -1952,6 +1952,7 @@
   <link rel="stylesheet" href="./wiki-image-overlays.css">
   <link rel="stylesheet" href="./respiratory-atlas.css">
   <link rel="stylesheet" href="./kmle.css">
+  <link rel="stylesheet" href="./pathology-drill.css?v=20261027-compact">
 <!-- AI brand icon SVGs: Lobe Icons, https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg ; https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claude.svg
 MIT License
 
@@ -2005,6 +2006,7 @@ SOFTWARE.
     <main>
   <section id="home-view" class="view"><div id="quick-start-root"></div></section>
   <section id="respiratory-atlas-view" class="view" hidden><div id="respiratory-atlas-root"></div></section>
+  <section id="pathology-view" class="view" hidden><div id="pathology-root"></div></section>
   <section id="kmle-view" class="view" hidden><div id="kmle-root"></div></section>
   <section id="map-view" class="view" hidden><div id="disease-map-root"></div></section>
   <section id="bookmarks-view" class="view" hidden><div id="bookmark-collection-root"></div></section>
@@ -2028,6 +2030,8 @@ SOFTWARE.
   <script src="./respiratory-atlas.js"></script>
   <script src="./kmle-data.js"></script>
   <script src="./kmle.js?v=blank-gestures-20261026"></script>
+  <script src="./pathology-drill-data.js?v=20261027"></script>
+  <script src="./pathology-drill.js?v=20261027-answer-colors"></script>
 <script>
   window.THEME_WIKI_DATA = {documents:[]};
 </script>
@@ -2212,6 +2216,7 @@ SOFTWARE.
     function renderQuickStart() {
       const root = document.querySelector('#quick-start-root');
       const homeIcons = {
+        pathology:'<path d="m9 3 6 3-4 8-6-3 4-8Zm4 6a6 6 0 0 1 4 10M5 21h15M4 16h9M8 16v5"/>',
         kmle:'<path d="M5 3h14v18H5zM9 7h6M9 11h6M9 15l2 2 4-4"/>',
         atlas:'<path d="M10 3v7l-3 3m7-10v7l3 3M9 7C5 7 2 12 2 18c0 4 6 3 8 0V7m5 0c4 0 7 5 7 11 0 4-6 3-8 0V7"/>',
         calendar:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18M7 14h3m4 0h3M7 17h3"/>',
@@ -2231,6 +2236,7 @@ SOFTWARE.
           <button class="study-app" type="button" data-quick-bookmarks><span class="study-app-icon app-favorites" aria-hidden="true">⭐</span><h3>즐겨찾기</h3><span class="study-app-caption">문단 ${wikiBookmarks.length} · 문항 ${jblFavorites.size}</span></button>
           <button class="study-app" type="button" data-quick-route="#respiratory-atlas"><span class="study-app-icon app-atlas" aria-hidden="true"></span><h3>호흡기계 큰 그림</h3></button>
           <button class="study-app" type="button" data-quick-route="#kmle"><span class="study-app-icon app-kmle" aria-hidden="true"></span><h3>국시 호흡기계</h3></button>
+          <button class="study-app" type="button" data-quick-route="#pathology"><span class="study-app-icon app-pathology" aria-hidden="true"></span><h3>병리 땡시</h3></button>
           <button class="study-app" type="button" data-quick-wrong><span class="study-app-icon app-wrong" aria-hidden="true">✏️</span><h3>오답 복습</h3><span class="study-app-caption">${wrongQuestionIds().length}문항</span></button>
           <button class="study-app" type="button" data-resp-exams><span class="study-app-icon app-exam" aria-hidden="true">⏱️</span><h3>실전처럼 풀기</h3><span class="study-app-caption">2020–2025</span></button>
           <button class="study-app" type="button" data-resp-mocks aria-haspopup="dialog"><span class="study-app-icon app-mock" aria-hidden="true">📝</span><h3>실전 모의고사</h3><span class="study-app-caption">1회 · 2회</span></button>
@@ -5895,6 +5901,12 @@ SOFTWARE.
       if (contextLinkState.active) closeContextLinkSplit(false);
       setMainMenuOpen(false);
       const hash = location.hash;
+      const pathologyRoute = hash.match(/^#pathology(?:-(P\d+))?$/i);
+      if (pathologyRoute) {
+        showView('pathology', false);
+        window.RespiratoryPathology.render(document.querySelector('#pathology-root'), {courses, openWiki:(courseId,section,opener)=>openContextLinkSplit({type:'wiki',courseId,section},opener)}, pathologyRoute[1]?.toUpperCase());
+        return;
+      }
       const kmleRoute = hash.match(/^#kmle(?:-(K\d+))?$/i);
       if (kmleRoute) {
         showView('kmle', false);
@@ -6176,7 +6188,7 @@ SOFTWARE.
     };
     routeFromHash();
 </script>
-<script src="./study-ui.js?v=20261024-dday-layout"></script>
+<script src="./study-ui.js?v=20261027-pathology"></script>
 <script src="./resp-exam-menu.js?v=mock-picker-20261025"></script>
 <script src="./resp-exam-bridge.js"></script>
 </body></html>
