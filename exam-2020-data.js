@@ -197,26 +197,30 @@ window.EXAM_DATA = {
       "id": "2020-055",
       "globalNumber": 587,
       "currentProfessor": "김루시아",
-      "source": "2020 호흡기계 55번 (공식 시험지)",
-      "question": "폐 종괴와 간 종괴가 있는 환자에서 간 생검상 작은 세포, 높은 N/C ratio, nuclear molding, 빈번한 유사분열·괴사가 보였다. CD56·chromogranin 양성이다. 가장 적절한 진단은?",
+      "source": "2020 호흡기계 55번 (공식 시험지) 변형",
+      "question": "62세 남자가 3개월간 지속된 기침을 주소로 내원하였다. Chest CT 검사에서 우상엽에 직경 5 cm 크기의 종괴가 발견되었고 CT 검사에 포함된 간에 약 3 cm 크기의 종괴가 보였다. 간 종괴에 대한 침생검을 시행하였고 조직 소견과 CD56, Chromogranin에 대한 면역조직화학염색 소견이 다음과 같을 때 가장 합당한 진단을 고르시오.",
       "passage": "",
       "choices": [
-        "간세포암",
-        "담관암",
-        "화농성 간농양",
-        "폐 소세포암의 간 전이",
-        "폐 편평상피암의 간 전이"
+        "cholangiocarcinoma",
+        "Hepatocellular carcinoma",
+        "Metastatic large cell neuroendocrine carcinoma from lung",
+        "Metastatic adenocarcinoma from lung",
+        "Metastatic small cell carcinoma from lung"
       ],
-      "images": [],
+      "images": [
+        "J/2020/q055_01.jpg",
+        "J/2020/q055_02.jpg",
+        "J/2020/q055_03.jpg"
+      ],
       "points": 1,
       "answerIndices": [
-        4
+        3
       ],
-      "modelAnswer": "정답 확정 보류",
-      "brief": "작은 세포·nuclear molding·높은 증식과 괴사에 신경내분비 표지자 양성이 더해져 소세포암을 지지한다.",
+      "modelAnswer": "③ Metastatic large cell neuroendocrine carcinoma from lung",
+      "brief": "큰 종양세포와 뚜렷한 핵소체·세포질, 신경내분비 배열 및 CD56·chromogranin 양성을 종합하면 폐 LCNEC의 간 전이가 가장 합당하다.",
       "multiple": false,
       "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "revisionNote": "공식 시험지의 선지가 증례·사진과 맞지 않아, 김루시아 교수의 319·442번 기출에 사용된 간 종괴 감별 선지 다섯 개를 같은 순서로 적용했다. 발문과 원본 사진은 유지했다. 원시험 선지·정답을 복구한 것이 아니라 조직 형태와 강의록에 근거한 학습용 변형이다."
     },
     {
       "id": "2020-056",
@@ -1924,7 +1928,7 @@ window.EXAM_DATA = {
         "Distributive (neurogenic) shock",
         "Cardiogenic shock",
         "Hypovolemic shock",
-        "Extra-cardiac obstructive shock 그림1. 경흉부 심장초음파 영상 (parasternal short axis view) 그림2. 흉부전산화촬영"
+        "Extra-cardiac obstructive shock"
       ],
       "images": [
         "J/2020/q052_01.jpg",
@@ -1935,7 +1939,7 @@ window.EXAM_DATA = {
         5
       ],
       "modelAnswer": "5번 — Extra-cardiac obstructive shock",
-      "brief": "장거리 비행 직후에서 갑작스러운 호흡곤란과 저산소혈증이 발생했다. 혈압 60/40 mmHg, lactate 5 mmol/L는 심한 저관류를 보여 주고, 우심실 확장·심각한 수축 기능 부전, D-shape LV, 폐동맥압 상승은 급성 우심실 부하를 가리킨다. 정맥혈전 위험과 이 소견을 연결하면 폐색전증에 의한 폐쇄성 쇼크가 가장 적절하다.",
+      "brief": "장거리 비행 직후 갑작스러운 호흡곤란과 저산소혈증이 발생했다. 혈압 60/40 mmHg, lactate 5 mmol/L는 심한 저관류를 보여 주고, 우심실 확장·심각한 수축 기능 부전, D-shape LV, 폐동맥압 상승은 급성 우심실 부하를 가리킨다. 정맥혈전 위험과 이 소견을 연결하면 폐색전증에 의한 폐쇄성 쇼크가 가장 적절하다.",
       "multiple": false,
       "examOverride": false,
       "revisionNote": ""
@@ -2911,5 +2915,9 @@ window.EXAM_DATA = {
       "examOverride": false,
       "revisionNote": ""
     }
+  ],
+  "recordRevision": "variant587-20261027",
+  "resetAnswerIds": [
+    "2020-055"
   ]
 };

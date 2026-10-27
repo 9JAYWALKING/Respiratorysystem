@@ -2545,19 +2545,21 @@ window.JBL_DATA = {
       "originalNumbers": [
         35
       ],
-      "question": "항히스타민 길항제 중 수용체가 다른 것은?",
+      "question": "다음 히스타민 수용체 길항제 중 나머지 네 약물과 표적 수용체가 다른 것은?",
       "passage": "",
       "choices": [
-        "piperidine",
-        "loratadine",
-        "cetirizine",
-        "meclizine",
-        "ce-"
+        "Fexofenadine",
+        "Loratadine",
+        "Cetirizine",
+        "Meclizine",
+        "Cimetidine"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 불가 — 약명 불완전·수용체 구분 불성립",
-      "explanation": "'''정답 확정 불가 — 약명 불완전·수용체 구분 불성립.'''\n\n=== ‘어느 수용체인가’와 ‘몇 세대인가’를 따로 묻는다 ===\n'''H₁'''은 Gq–PLC–IP₃/DAG–Ca²⁺ 경로를 통해 가려움·혈관 투과성·평활근 반응 등을 만들고, '''H₂'''는 Gs–cAMP 경로를 통해 위산 분비 등을 자극한다. H₁ 항히스타민제의 1세대·2세대 구분은 이 수용체 종류를 바꾸는 것이 아니라 주로 중추 침투와 진정·항콜린 작용의 차이를 나눈 것이다.\n\n||= 범주 ||= 대표 약물 ||= 구분할 특징 ||\n|| 1세대 H₁ || diphenhydramine, chlorpheniramine, hydroxyzine, meclizine, promethazine || 대체로 BBB 통과·진정이 더 크며 약마다 항콜린·항구토 작용 ||\n|| 2세대 H₁ || loratadine, desloratadine, fexofenadine, cetirizine || 대체로 진정·항콜린 작용이 적음 ||\n|| H₂ || famotidine, cimetidine; ranitidine은 역사적 예 || 위 벽세포의 산 분비 억제 ||\n\nPiperidine·piperazine·ethanolamine은 화학구조의 이름이다. 구조 계열과 수용체 종류, 세대 분류를 하나로 섞지 않아야 한다. Cetirizine과 meclizine은 세대가 다르지만 '''둘 다 H₁ 약물'''이다.\n\n=== 복원된 선지로는 다른 수용체를 고를 수 없다 ===\n현재 원복원본의 1번은 약명 대신 '''piperidine'''이고, 5번은 '''ce-'''로 끝난다. 2025 풀이 파일에는 5번 옆에 cetirizine이라는 보충과 4번 정답 표시가 보이지만, 이를 공식 원문이나 정답 근거로 채택하지 않았다. Cetirizine이라고 보충해도 3번과 중복되고, meclizine 역시 H₁이므로 문제를 해결하지 못한다.\n\n'''‘ce-’를 cimetidine으로 임의 복원하거나, 4번을 H₂ 약물로 설명하지 않는다.''' 현 상태에서는 정답 확정이 불가능하다. 만약 다른 수용체를 묻고 싶었다면 H₂ 약물 같은 명확한 비교 대상이 필요하지만, 그것이 원래 5번이었다는 증거는 없다.\n\n=== 선지별로 보면 ===\n* ① Piperidine은 화학구조 계열명이다. Fexofenadine·loratadine 같은 H₁ 약물과 연결할 수 있으나, 이 단어만으로 단일 약물의 표적을 정할 수 없다.\n* ② Loratadine은 2세대 H₁ 약물이다.\n* ③ Cetirizine도 2세대 H₁ 약물이다.\n* ④ Meclizine은 멀미에도 사용하는 1세대 H₁ 약물이다. 세대가 다르다는 이유로 수용체가 다르다고 할 수 없다.\n* ⑤ ce-만으로 약물을 식별할 수 없다. 풀이 파일의 cetirizine 보충은 비공식이고, 그대로 받아들여도 3번과 중복된다.\n\n[[10강#세대 분류와 화학구조 분류는 다른 기준이다|Wiki · 세대 분류와 화학구조 분류는 다른 기준이다]]\n~~근거: 39기 「Anti-histamine2026」 13·21·22·23·24·25·26·35쪽 및 대응하는 38기 자료. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n=== 풀이의 핵심 ===\n'''Cimetidine은 H₂ 수용체 길항제'''이고 나머지는 H₁ 수용체 길항제다. Meclizine은 1세대, fexofenadine·loratadine·cetirizine은 2세대이지만, 세대가 다르다는 이유로 표적 수용체가 달라지지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: 2세대 H₁ 약물이며 piperidine 계열이다.\n* 2번: 2세대 H₁ 약물이다.\n* 3번: 2세대 H₁ 약물이다. Piperazine 계열이라는 구조 분류도 함께 구별한다.\n* 4번: 1세대 H₁ 약물이며 멀미·구역 완화에도 쓰인다.\n* 5번: H₂ 수용체를 차단하여 위산 분비를 줄인다. 표적 수용체가 다른 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nH₁ 항히스타민제의 '''1세대·2세대''' 구분은 중추 침투와 진정·비선택적 작용의 차이를 이해하는 데 유용하다. 반면 ethanolamine, piperazine, piperidine 같은 이름은 '''화학구조'''에 따른 범주다. 구조가 다르다고 표적 histamine 수용체도 반드시 다른 것은 아니다.\n\n[[파일:assets/lecture-10/h1-chemical-classes.jpg|39기 21쪽. 공통 구조를 바탕으로 ethanolamine, alkylamine, piperidine 계열 등이 나뉜다.]]\n\n||= 세대·구조 ||= 강의의 약물 ||= 기억할 특징 ||\n|| 1세대 ethanolamine || diphenhydramine, dimenhydrinate, carbinoxamine || 항콜린 작용; diphenhydramine·dimenhydrinate는 진정과 멀미 억제 ||\n|| 1세대 piperazine || hydroxyzine, cyclizine, meclizine || Hydroxyzine의 진정; cyclizine·meclizine의 멀미 억제 ||\n|| 1세대 alkylamine || chlorpheniramine, brompheniramine || 감기약 등에 포함; 진정이 상대적으로 약해도 없어지는 것은 아님 ||\n|| 1세대 phenothiazine || promethazine || 진정·항구토·항콜린·α 차단 작용 ||\n|| 기타 1세대 || cyproheptadine || 항세로토닌 작용과 식욕 증가 ||\n|| 2세대 || fexofenadine, loratadine, desloratadine, cetirizine || 대체로 중추 침투·진정·항콜린 작용이 적음 ||\n\n2세대에도 화학구조가 여러 가지다. Fexofenadine·loratadine 계열은 piperidine과, cetirizine은 piperazine 계열과 연결된다. '''Piperidine은 약 하나의 이름이 아니며''', meclizine도 H₁ 약물이다. 따라서 meclizine의 세대가 다르다는 이유로 H₂ 약물이라고 판단하면 안 된다.\n\n경구 약물은 일반적으로 흡수가 잘되며 강의는 최고 혈중농도 도달을 약 '''1–2시간''', 많은 1세대의 작용 지속을 '''4–6시간'''으로 소개한다. Meclizine과 일부 2세대는 '''12–24시간''' 지속할 수 있다. 이 수치는 계열의 경향이며 개별 제형과 투여 간격은 구분한다.\n\n[[파일:assets/lecture-10/antihistamine-table.jpg|39기 23쪽. 세대·구조·성인 용량·항콜린 작용·진정 정도를 함께 제시한 원표. 용량은 표의 성인 예시이며 모든 제형의 처방 기준은 아니다.]]\n\n||= 표적 ||= 약물 ||= 핵심 ||\n|| H₁ || Fexofenadine, loratadine, cetirizine, meclizine || 알레르기 증상·약물별 멀미 억제. 1·2세대는 같은 H₁ 안의 구분 ||\n|| H₂ || Cimetidine, famotidine || 위산 분비 억제 ||\n\n=== 원본에서 바꾼 부분 ===\n약물의 수용체 종류를 비교하는 발문을 유지하고, 계열명 piperidine은 대표 H₁ 약물 fexofenadine으로, 식별할 수 없는 ce-는 H₂ 약물 cimetidine으로 구성했다. 원래 약명을 확인한 복원이 아니라 출제 의도를 추정한 학습용 변형이다.\n\n기존의 ‘수용체가 다른 것은?’이라는 질문과 약 이름을 비교하는 형식은 살렸다. 'ce-'가 실제로 cimetidine이었다고 단정하지 않는다. 원본은 발문 앞의 !에서 확인할 수 있다.\n\n[[10강#세대 분류와 화학구조 분류는 다른 기준이다|Wiki · 세대 분류와 화학구조 분류는 다른 기준이다]]",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2571,7 +2573,7 @@ window.JBL_DATA = {
       "domain": "",
       "discipline": "",
       "section": "",
-      "source": "2025 호흡기계 35번",
+      "source": "2025 호흡기계 35번 변형",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
       "originalNumberStatus": "reconstructed_number",
@@ -2582,7 +2584,7 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
+        "date": "2026-10-27",
         "basis": "39기 강의록 + 38기 자료 대조",
         "pages": [
           13,
@@ -2595,10 +2597,88 @@ window.JBL_DATA = {
           35
         ],
         "chapter": "세대 분류와 화학구조 분류는 다른 기준이다",
-        "answerStatus": "incomplete_options",
+        "answerStatus": "original_preserved_learning_variant",
         "officialAnswerVerified": false,
         "officialSourcePage": null,
         "peerExplanationUsed": false
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-27T00:00:00+09:00",
+        "description": "불완전 복원 문항을 다듬기 전의 원본",
+        "question": {
+          "id": "2025-035",
+          "recordId": "resp-2025-035",
+          "displayId": "35번",
+          "globalNumber": 35,
+          "year": 2025,
+          "sourceType": "족보",
+          "originalNumber": 35,
+          "originalNumbers": [
+            35
+          ],
+          "question": "항히스타민 길항제 중 수용체가 다른 것은?",
+          "passage": "",
+          "choices": [
+            "piperidine",
+            "loratadine",
+            "cetirizine",
+            "meclizine",
+            "ce-"
+          ],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "정답 확정 불가 — 약명 불완전·수용체 구분 불성립",
+          "explanation": "'''정답 확정 불가 — 약명 불완전·수용체 구분 불성립.'''\n\n=== ‘어느 수용체인가’와 ‘몇 세대인가’를 따로 묻는다 ===\n'''H₁'''은 Gq–PLC–IP₃/DAG–Ca²⁺ 경로를 통해 가려움·혈관 투과성·평활근 반응 등을 만들고, '''H₂'''는 Gs–cAMP 경로를 통해 위산 분비 등을 자극한다. H₁ 항히스타민제의 1세대·2세대 구분은 이 수용체 종류를 바꾸는 것이 아니라 주로 중추 침투와 진정·항콜린 작용의 차이를 나눈 것이다.\n\n||= 범주 ||= 대표 약물 ||= 구분할 특징 ||\n|| 1세대 H₁ || diphenhydramine, chlorpheniramine, hydroxyzine, meclizine, promethazine || 대체로 BBB 통과·진정이 더 크며 약마다 항콜린·항구토 작용 ||\n|| 2세대 H₁ || loratadine, desloratadine, fexofenadine, cetirizine || 대체로 진정·항콜린 작용이 적음 ||\n|| H₂ || famotidine, cimetidine; ranitidine은 역사적 예 || 위 벽세포의 산 분비 억제 ||\n\nPiperidine·piperazine·ethanolamine은 화학구조의 이름이다. 구조 계열과 수용체 종류, 세대 분류를 하나로 섞지 않아야 한다. Cetirizine과 meclizine은 세대가 다르지만 '''둘 다 H₁ 약물'''이다.\n\n=== 복원된 선지로는 다른 수용체를 고를 수 없다 ===\n현재 원복원본의 1번은 약명 대신 '''piperidine'''이고, 5번은 '''ce-'''로 끝난다. 2025 풀이 파일에는 5번 옆에 cetirizine이라는 보충과 4번 정답 표시가 보이지만, 이를 공식 원문이나 정답 근거로 채택하지 않았다. Cetirizine이라고 보충해도 3번과 중복되고, meclizine 역시 H₁이므로 문제를 해결하지 못한다.\n\n'''‘ce-’를 cimetidine으로 임의 복원하거나, 4번을 H₂ 약물로 설명하지 않는다.''' 현 상태에서는 정답 확정이 불가능하다. 만약 다른 수용체를 묻고 싶었다면 H₂ 약물 같은 명확한 비교 대상이 필요하지만, 그것이 원래 5번이었다는 증거는 없다.\n\n=== 선지별로 보면 ===\n* ① Piperidine은 화학구조 계열명이다. Fexofenadine·loratadine 같은 H₁ 약물과 연결할 수 있으나, 이 단어만으로 단일 약물의 표적을 정할 수 없다.\n* ② Loratadine은 2세대 H₁ 약물이다.\n* ③ Cetirizine도 2세대 H₁ 약물이다.\n* ④ Meclizine은 멀미에도 사용하는 1세대 H₁ 약물이다. 세대가 다르다는 이유로 수용체가 다르다고 할 수 없다.\n* ⑤ ce-만으로 약물을 식별할 수 없다. 풀이 파일의 cetirizine 보충은 비공식이고, 그대로 받아들여도 3번과 중복된다.\n\n[[10강#세대 분류와 화학구조 분류는 다른 기준이다|Wiki · 세대 분류와 화학구조 분류는 다른 기준이다]]\n~~근거: 39기 「Anti-histamine2026」 13·21·22·23·24·25·26·35쪽 및 대응하는 38기 자료. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
+          "images": [],
+          "legacyProfessor": "김채균",
+          "professor": "김채균",
+          "examinerStatus": "peer_label_supported_not_official",
+          "examinerEvidence": "visible_margin_label",
+          "lectureIds": [
+            10
+          ],
+          "lectureId": 10,
+          "lectureTitle": "히스타민 길항제, 항알러지 약물",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "source": "2025 호흡기계 35번",
+          "mappingConfidence": "high",
+          "classificationStatus": "assigned",
+          "originalNumberStatus": "reconstructed_number",
+          "questionFormat": "multiple_choice",
+          "sourceStatus": "numbered_reconstruction",
+          "parseMethod": "numbered",
+          "restorationNotes": [],
+          "imageProvenance": [],
+          "repeatFamilyIds": [],
+          "explanationReview": {
+            "date": "2026-10-12",
+            "basis": "39기 강의록 + 38기 자료 대조",
+            "pages": [
+              13,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              35
+            ],
+            "chapter": "세대 분류와 화학구조 분류는 다른 기준이다",
+            "answerStatus": "incomplete_options",
+            "officialAnswerVerified": false,
+            "officialSourcePage": null,
+            "peerExplanationUsed": false
+          }
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-27",
+        "reason": "약물의 수용체 종류를 비교하는 발문을 유지하고, 계열명 piperidine은 대표 H₁ 약물 fexofenadine으로, 식별할 수 없는 ce-는 H₂ 약물 cimetidine으로 구성했다. 원래 약명을 확인한 복원이 아니라 출제 의도를 추정한 학습용 변형이다.",
+        "originalPreserved": true,
+        "officialOriginalRecovered": false
       }
     },
     {
@@ -2692,14 +2772,18 @@ window.JBL_DATA = {
       "question": "COPD 및 기타 기관지 질환의 약물에 대한 설명으로 옳은 것은?",
       "passage": "",
       "choices": [
-        "Ipratropium에 대한 설명",
-        "Azithromycin에 대한 설명",
-        "Roflumilast에 대한 설명"
+        "Ipratropium은 β₂ 수용체를 자극하여 기관지를 확장한다.",
+        "Azithromycin은 선택적 PDE4 억제제로 급성 기관지수축을 해소한다.",
+        "Roflumilast는 PDE4를 억제하여 선택한 COPD 환자의 악화 위험을 줄인다.",
+        "Tiotropium은 경구로 투여하는 단기 작용 항무스카린제이다.",
+        "Budesonide는 β₂ 수용체를 자극하는 속효성 기관지확장제이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 보류",
-      "explanation": "정답 확정 불가 — 선지의 실제 설명 미복원\n\n=== 풀이의 핵심 ===\n'''정답 확정 불가 — 약물 이름만 남고 선지의 실제 서술이 복원되지 않았다.''' 현재의 “Ipratropium에 대한 설명”, “Azithromycin에 대한 설명”, “Roflumilast에 대한 설명”만으로는 어느 선지가 옳은지 정할 수 없다. 원문 상태와 빈 정답을 유지하며, 아래 비교를 복원된 범위에서 공부할 수 있는 근거로 제시한다.\n\n세 약은 모두 호흡기 질환에서 만날 수 있지만 역할이 다르다. Ipratropium은 '''muscarinic 차단에 의한 기관지확장''', azithromycin은 '''macrolide 항생제이면서 선택한 COPD 환자에서 악화 예방에 고려''', roflumilast는 '''PDE4 억제에 의한 항염증·악화 감소'''로 묶는다. 어떤 약도 같은 뜻의 “기관지 치료제”로만 외우면 안 된다.\n\n=== 선지별 해설 ===\n* 1번: 판정 불가. 실제 설명이 없다. Ipratropium은 '''흡입 SAMA'''이며 ACh의 muscarinic 작용을 차단한다. PDE 억제제나 경구 항생제라는 설명이었다면 틀렸을 것이다.\n* 2번: 판정 불가. 실제 설명이 없다. Azithromycin은 '''macrolide 항생제'''이다. 반복 악화가 있는 일부 COPD 환자에서 장기 악화 예방을 고려할 수 있으나, 직접적인 급성 기관지확장제는 아니다. QT 연장·청력 저하·내성 위험을 함께 구분한다.\n* 3번: 판정 불가. 실제 설명이 없다. Roflumilast는 '''선택적 PDE4 억제제'''로, 만성기관지염 양상·중증 COPD·악화 병력의 조합에서 고려한다. 급성 기관지수축을 즉시 풀어 주는 구조약으로 설명했다면 틀리다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Roflumilast는 PDE 억제제지만 구조약은 아니다'''\n\nCOPD 치료에도 β₂ 작용제와 항무스카린제가 쓰인다. 여기에 등장하는 '''roflumilast'''는 theophylline과 같이 PDE라는 이름을 공유하지만, 역할까지 같지는 않다. '''선택적 PDE4 억제'''를 통해 염증을 줄이고 악화 위험을 낮추는 경구 약이다.\n\n||= 약물·범주 ||= 역할 ||= 구분점 ||\n|| Albuterol 등 β₂ 작용제 || 기관지 확장 || β₂ → cAMP 생성 증가 ||\n|| Ipratropium, tiotropium·aclidinium·umeclidinium || 기관지 확장 || Muscarinic 차단; 단기와 장기 작용 구별 ||\n|| \"\"Roflumilast\"\" || '''COPD 악화 감소''' || PDE4 억제. 급성 기관지수축을 바로 푸는 약이 아님 ||\n|| ICS || 선택한 환자에서 항염증 추가 || COPD 전체에 ICS 단독을 일률적으로 적용하지 않음 ||\n\n'''보충해서 구분할 두 약'''\n* '''Roflumilast:''' 특히 만성기관지염 양상의 중증 COPD와 악화 병력에서 고려한다. 설사·오심, 체중 감소, 불면·기분 변화에 주의한다.\n* '''Azithromycin:''' Macrolide 항생제이다. 선택한 반복 악화 환자에서 악화 예방 목적으로 장기 사용을 고려하지만, 직접적인 기관지확장제는 아니다. QT 연장·청력 문제·내성 등을 따로 고려한다.\n\n> '''Theophylline = 기관지확장 + 좁은 치료역. Roflumilast = 선택적 PDE4 억제 + COPD 악화 감소.''' “PDE 억제”라는 한 단어만 보고 같은 적응증·역할로 묶지 않는다.\n\n~~34쪽은 roflumilast의 선택적 PDE 억제·폐기능 개선·악화 빈도 감소를 제시한다. PDE4, 적용 환자, 부작용은 [[https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cb11d48-6bb9-437b-bc7f-382050a2d3e6|허가정보]]로 보충했다. Azithromycin은 현재 복원 문항에 등장하여 20강 COPD 내용을 함께 연결한 보충이다. QT 연장 위험·청력·내성에 관한 주의점은 [[https://www.nejm.org/doi/full/10.1056/NEJMoa1104623|COPD 악화 예방 임상시험]]을 참고했다.~~~\n\n[[31강#Roflumilast는 PDE 억제제지만 구조약은 아니다|Roflumilast는 PDE 억제제지만 구조약은 아니다]]\n\n~~근거: 39기 「31. Drug used in asthma 2026」 32–34; 20강 COPD 약물 보충쪽. 38기 자료는 보조 참고했으며 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "정답: ③",
+      "explanation": "정답: ③\n\n=== 풀이의 핵심 ===\n'''Roflumilast는 선택적 PDE4 억제제'''다. 만성기관지염 양상과 반복 악화를 보이는 중증 COPD 등에서 악화 감소 목적으로 고려한다. 급성 호흡곤란을 즉시 해소하는 구조용 기관지확장제는 아니다.\n\n=== 선지별 해설 ===\n* 1번: Ipratropium은 흡입 SAMA로 muscarinic 수용체를 차단한다. β₂ 자극은 albuterol 등과 연결한다.\n* 2번: Azithromycin은 macrolide 항생제다. 선택한 반복 악화 COPD 환자의 악화 예방에 고려하지만 PDE4 억제제나 즉효성 기관지확장제가 아니다.\n* 3번: 맞다. PDE4 억제에 의한 항염증 효과를 악화 위험 감소와 연결한다. 설사·체중 감소·정신신경계 부작용 등을 고려한다.\n* 4번: Tiotropium은 흡입 LAMA로 장기 작용 약물이다. 경구·단기 작용이라는 두 부분이 틀리다.\n* 5번: Budesonide는 glucocorticoid다. 흡입 시 ICS로 기도 염증을 조절하며 β₂ 자극제가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD 치료에도 β₂ 작용제와 항무스카린제가 쓰인다. 여기에 등장하는 '''roflumilast'''는 theophylline과 같이 PDE라는 이름을 공유하지만, 역할까지 같지는 않다. '''선택적 PDE4 억제'''를 통해 염증을 줄이고 악화 위험을 낮추는 경구 약이다.\n\n||= 약물·범주 ||= 역할 ||= 구분점 ||\n|| Albuterol 등 β₂ 작용제 || 기관지 확장 || β₂ → cAMP 생성 증가 ||\n|| Ipratropium, tiotropium·aclidinium·umeclidinium || 기관지 확장 || Muscarinic 차단; 단기와 장기 작용 구별 ||\n|| \"\"Roflumilast\"\" || '''COPD 악화 감소''' || PDE4 억제. 급성 기관지수축을 바로 푸는 약이 아님 ||\n|| ICS || 선택한 환자에서 항염증 추가 || COPD 전체에 ICS 단독을 일률적으로 적용하지 않음 ||\n\n'''보충해서 구분할 두 약'''\n* '''Roflumilast:''' 특히 만성기관지염 양상의 중증 COPD와 악화 병력에서 고려한다. 설사·오심, 체중 감소, 불면·기분 변화에 주의한다.\n* '''Azithromycin:''' Macrolide 항생제이다. 선택한 반복 악화 환자에서 악화 예방 목적으로 장기 사용을 고려하지만, 직접적인 기관지확장제는 아니다. QT 연장·청력 문제·내성 등을 따로 고려한다.\n\n> '''Theophylline = 기관지확장 + 좁은 치료역. Roflumilast = 선택적 PDE4 억제 + COPD 악화 감소.''' “PDE 억제”라는 한 단어만 보고 같은 적응증·역할로 묶지 않는다.\n\n~~34쪽은 roflumilast의 선택적 PDE 억제·폐기능 개선·악화 빈도 감소를 제시한다. PDE4, 적용 환자, 부작용은 [[https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cb11d48-6bb9-437b-bc7f-382050a2d3e6|허가정보]]로 보충했다. Azithromycin은 현재 복원 문항에 등장하여 20강 COPD 내용을 함께 연결한 보충이다. QT 연장 위험·청력·내성에 관한 주의점은 [[https://www.nejm.org/doi/full/10.1056/NEJMoa1104623|COPD 악화 예방 임상시험]]을 참고했다.~~~\n\n=== 원본에서 바꾼 부분 ===\n원본에는 ipratropium·azithromycin·roflumilast라는 약명만 있고 각 선지의 설명은 복원되지 않았다. 세 약을 유지하여 약물–역할을 연결하는 선지를 새로 작성하고 tiotropium·budesonide 선지를 추가했다. 실제 시험 문장을 복구한 것이 아니라 Wiki를 바탕으로 만든 변형이다.\n\n약 이름마다 기전 또는 용도를 하나씩 대응시키는 기존 출제 형식을 따랐다. 원본은 발문 앞의 !에서 확인할 수 있다.\n\n[[31강#Roflumilast는 PDE 억제제지만 구조약은 아니다|Wiki · Roflumilast는 PDE 억제제지만 구조약은 아니다]]",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
@@ -2713,7 +2797,7 @@ window.JBL_DATA = {
       "domain": "",
       "discipline": "",
       "section": "",
-      "source": "2025 호흡기계 37번",
+      "source": "2025 호흡기계 37번 변형",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
       "originalNumberStatus": "reconstructed_number",
@@ -2724,9 +2808,9 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "scope": "lecture31_wiki_j_jbl",
-        "answerStatus": "unrestored_statements_no_answer",
+        "answerStatus": "original_preserved_learning_variant",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
@@ -2749,6 +2833,90 @@ window.JBL_DATA = {
         "chapter": "Roflumilast는 PDE 억제제지만 구조약은 아니다",
         "basis": "39기 강의록 32–34; 20강 COPD 약물 보충쪽",
         "priorLectureAndSummaryUsed": true
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-27T00:00:00+09:00",
+        "description": "불완전 복원 문항을 다듬기 전의 원본",
+        "question": {
+          "id": "2025-037",
+          "recordId": "resp-2025-037",
+          "displayId": "37번",
+          "globalNumber": 37,
+          "year": 2025,
+          "sourceType": "족보",
+          "originalNumber": 37,
+          "originalNumbers": [
+            37
+          ],
+          "question": "COPD 및 기타 기관지 질환의 약물에 대한 설명으로 옳은 것은?",
+          "passage": "",
+          "choices": [
+            "Ipratropium에 대한 설명",
+            "Azithromycin에 대한 설명",
+            "Roflumilast에 대한 설명"
+          ],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "정답 확정 보류",
+          "explanation": "정답 확정 불가 — 선지의 실제 설명 미복원\n\n=== 풀이의 핵심 ===\n'''정답 확정 불가 — 약물 이름만 남고 선지의 실제 서술이 복원되지 않았다.''' 현재의 “Ipratropium에 대한 설명”, “Azithromycin에 대한 설명”, “Roflumilast에 대한 설명”만으로는 어느 선지가 옳은지 정할 수 없다. 원문 상태와 빈 정답을 유지하며, 아래 비교를 복원된 범위에서 공부할 수 있는 근거로 제시한다.\n\n세 약은 모두 호흡기 질환에서 만날 수 있지만 역할이 다르다. Ipratropium은 '''muscarinic 차단에 의한 기관지확장''', azithromycin은 '''macrolide 항생제이면서 선택한 COPD 환자에서 악화 예방에 고려''', roflumilast는 '''PDE4 억제에 의한 항염증·악화 감소'''로 묶는다. 어떤 약도 같은 뜻의 “기관지 치료제”로만 외우면 안 된다.\n\n=== 선지별 해설 ===\n* 1번: 판정 불가. 실제 설명이 없다. Ipratropium은 '''흡입 SAMA'''이며 ACh의 muscarinic 작용을 차단한다. PDE 억제제나 경구 항생제라는 설명이었다면 틀렸을 것이다.\n* 2번: 판정 불가. 실제 설명이 없다. Azithromycin은 '''macrolide 항생제'''이다. 반복 악화가 있는 일부 COPD 환자에서 장기 악화 예방을 고려할 수 있으나, 직접적인 급성 기관지확장제는 아니다. QT 연장·청력 저하·내성 위험을 함께 구분한다.\n* 3번: 판정 불가. 실제 설명이 없다. Roflumilast는 '''선택적 PDE4 억제제'''로, 만성기관지염 양상·중증 COPD·악화 병력의 조합에서 고려한다. 급성 기관지수축을 즉시 풀어 주는 구조약으로 설명했다면 틀리다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Roflumilast는 PDE 억제제지만 구조약은 아니다'''\n\nCOPD 치료에도 β₂ 작용제와 항무스카린제가 쓰인다. 여기에 등장하는 '''roflumilast'''는 theophylline과 같이 PDE라는 이름을 공유하지만, 역할까지 같지는 않다. '''선택적 PDE4 억제'''를 통해 염증을 줄이고 악화 위험을 낮추는 경구 약이다.\n\n||= 약물·범주 ||= 역할 ||= 구분점 ||\n|| Albuterol 등 β₂ 작용제 || 기관지 확장 || β₂ → cAMP 생성 증가 ||\n|| Ipratropium, tiotropium·aclidinium·umeclidinium || 기관지 확장 || Muscarinic 차단; 단기와 장기 작용 구별 ||\n|| \"\"Roflumilast\"\" || '''COPD 악화 감소''' || PDE4 억제. 급성 기관지수축을 바로 푸는 약이 아님 ||\n|| ICS || 선택한 환자에서 항염증 추가 || COPD 전체에 ICS 단독을 일률적으로 적용하지 않음 ||\n\n'''보충해서 구분할 두 약'''\n* '''Roflumilast:''' 특히 만성기관지염 양상의 중증 COPD와 악화 병력에서 고려한다. 설사·오심, 체중 감소, 불면·기분 변화에 주의한다.\n* '''Azithromycin:''' Macrolide 항생제이다. 선택한 반복 악화 환자에서 악화 예방 목적으로 장기 사용을 고려하지만, 직접적인 기관지확장제는 아니다. QT 연장·청력 문제·내성 등을 따로 고려한다.\n\n> '''Theophylline = 기관지확장 + 좁은 치료역. Roflumilast = 선택적 PDE4 억제 + COPD 악화 감소.''' “PDE 억제”라는 한 단어만 보고 같은 적응증·역할로 묶지 않는다.\n\n~~34쪽은 roflumilast의 선택적 PDE 억제·폐기능 개선·악화 빈도 감소를 제시한다. PDE4, 적용 환자, 부작용은 [[https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cb11d48-6bb9-437b-bc7f-382050a2d3e6|허가정보]]로 보충했다. Azithromycin은 현재 복원 문항에 등장하여 20강 COPD 내용을 함께 연결한 보충이다. QT 연장 위험·청력·내성에 관한 주의점은 [[https://www.nejm.org/doi/full/10.1056/NEJMoa1104623|COPD 악화 예방 임상시험]]을 참고했다.~~~\n\n[[31강#Roflumilast는 PDE 억제제지만 구조약은 아니다|Roflumilast는 PDE 억제제지만 구조약은 아니다]]\n\n~~근거: 39기 「31. Drug used in asthma 2026」 32–34; 20강 COPD 약물 보충쪽. 38기 자료는 보조 참고했으며 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+          "images": [],
+          "legacyProfessor": "김채균",
+          "professor": "김채균",
+          "examinerStatus": "peer_label_supported_not_official",
+          "examinerEvidence": "visible_margin_label",
+          "lectureIds": [
+            31
+          ],
+          "lectureId": 31,
+          "lectureTitle": "천식약제",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "source": "2025 호흡기계 37번",
+          "mappingConfidence": "high",
+          "classificationStatus": "assigned",
+          "originalNumberStatus": "reconstructed_number",
+          "questionFormat": "multiple_choice",
+          "sourceStatus": "numbered_reconstruction",
+          "parseMethod": "numbered",
+          "restorationNotes": [],
+          "imageProvenance": [],
+          "repeatFamilyIds": [],
+          "explanationReview": {
+            "date": "2026-10-20",
+            "scope": "lecture31_wiki_j_jbl",
+            "answerStatus": "unrestored_statements_no_answer",
+            "officialAnswerVerified": false,
+            "peerExplanationUsed": false,
+            "summaryUsed": false,
+            "originalQuestionAndImagesPreserved": true,
+            "sources": [
+              {
+                "kind": "current_lecture",
+                "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\31. Drug used in asthma 2026.pdf",
+                "description": "39기 강의록 32–34; 20강 COPD 약물 보충쪽"
+              },
+              {
+                "kind": "prior_annotated_lecture",
+                "path": "38기 자료"
+              },
+              {
+                "kind": "prior_summary_secondary_only",
+                "path": "38기 자료"
+              }
+            ],
+            "chapter": "Roflumilast는 PDE 억제제지만 구조약은 아니다",
+            "basis": "39기 강의록 32–34; 20강 COPD 약물 보충쪽",
+            "priorLectureAndSummaryUsed": true
+          }
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-27",
+        "reason": "원본에는 ipratropium·azithromycin·roflumilast라는 약명만 있고 각 선지의 설명은 복원되지 않았다. 세 약을 유지하여 약물–역할을 연결하는 선지를 새로 작성하고 tiotropium·budesonide 선지를 추가했다. 실제 시험 문장을 복구한 것이 아니라 Wiki를 바탕으로 만든 변형이다.",
+        "originalPreserved": true,
+        "officialOriginalRecovered": false
       }
     },
     {
@@ -3665,7 +3833,12 @@ window.JBL_DATA = {
           }
         ],
         "basis": "39기 「25. 핵의학」 6–15쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "★ 환기스캔은 작은 입자일수록 더 깊이 들어간다"
+        "chapter": "★ 환기스캔은 작은 입자일수록 더 깊이 들어간다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -3735,7 +3908,12 @@ window.JBL_DATA = {
         "modelAnswer": "④ ㄱ, ㄷ, ㄹ",
         "basis": "39기 「25. 핵의학」 8·11·30–31쪽; 38기 자료의 대응 원리 비교",
         "chapter": "저확률과 정상은 같은 말이 아니다",
-        "choiceRestoration": "복원되지 않은 조합 선지를 보완하여 5지선다형으로 구성하였다. ㄱ·ㄴ·ㄷ·ㄹ의 내용은 유지하였다."
+        "choiceRestoration": "복원되지 않은 조합 선지를 보완하여 5지선다형으로 구성하였다. ㄱ·ㄴ·ㄷ·ㄹ의 내용은 유지하였다.",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -4089,13 +4267,21 @@ window.JBL_DATA = {
       "originalNumbers": [
         57
       ],
-      "question": "객담도말 결과는 양성, xpert 결과는 음성이었다. 다음에 해야 할 것은?",
+      "question": "만성 기침과 객담으로 검사한 환자의 객담 항산균 도말검사는 양성이지만, Xpert MTB/RIF에서 결핵균군은 검출되지 않았다. 환자의 활력징후는 안정적이며 항산균 배양 결과는 아직 나오지 않았다. 가장 적절한 다음 진단 조치는?",
       "passage": "",
-      "choices": [],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "참고 답안: NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다.",
-      "explanation": "정답 번호 없음 — 선지 미복원\n\n=== 풀이의 핵심 ===\n모범답안: '''NTM을 우선 의심하고 항산균 배양 및 균 동정 결과를 확인한다.''' 필요한 경우 서로 다른 객담을 추가로 채취해 같은 균종이 반복 배양되는지 평가하고, 증상·영상과 함께 NTM 폐질환 진단기준을 확인한다.\n\n도말 양성은 항산균이 보인다는 뜻이고, Xpert 음성은 해당 검체에서 결핵균군이 검출되지 않았다는 뜻이다. 조합은 NTM을 시사하지만 그 자체로 NTM 폐질환의 확진은 아니다. 임상적으로 결핵 가능성이 높으면 Xpert 위음성도 고려해 추가 검체를 검사한다.\n\n'''선지 미복원 문항'''이므로 임의의 선택지나 정답 번호를 만들지 않았다. 위 내용은 현재 발문에 대한 서술형 모범답안이다.\n\n=== 선지별 해설 ===\n선지가 복원되지 않아 번호별 판정은 할 수 없다. 현재 발문에는 위 모범답안처럼 항산균 배양·균 동정과 임상적 평가를 제시할 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''도말과 결핵균 PCR의 네 조합을 읽는다'''\n\n두 검사는 같은 균을 같은 방법으로 보는 것이 아니다. 도말은 항산균 전체를, 결핵균 PCR·Xpert는 결핵균군을 겨냥한다. 이 차이를 기억하면 결과가 서로 어긋나도 다음 단계가 보인다.\n\n||= 항산균 도말 ||= 결핵균 PCR·Xpert ||= 우선 해석 ||= 다음 판단 ||\n|| 양성 || 양성 || 결핵으로 진단하는 방향 || 치료와 전염성 평가, 배양·약제감수성 확인 ||\n|| 음성 || 양성 || 도말 음성 결핵으로 진단하는 방향 || 균량이 적을 수 있다. 배양을 함께 진행한다. ||\n|| '''양성''' || '''음성''' || '''NTM 추정''' || '''항산균 배양·균 동정'''으로 확인한다. 임상적으로 결핵 가능성이 높으면 위음성도 검토한다. ||\n|| 음성 || 음성 || 임상적 판단 || 결핵을 완전히 배제하지 않는다. 영상·병력·추가 검체·배양을 종합한다. ||\n\n도말 양성·PCR 음성인데 중년 여성의 결절성 기관지확장증이 보인다면 NTM 쪽에 무게가 실린다. 그렇다고 도말 결과만으로 NTM 치료까지 시작하지는 않는다. 안정적인 환자라면 배양과 동정을 확인하면서 질병의 기준을 충족하는지 평가한다.\n\n'''NTM 폐질환은 임상·영상·미생물 조건을 함께 충족한다'''\n\nNTM 폐질환의 진단에는 '''호흡기 또는 전신 증상''', '''적합한 영상''', '''다른 진단의 배제'''가 필요하고, 여기에 아래 미생물 조건 중 하나가 더해져야 한다.\n\n||= 검체 ||= 미생물학적 기준 ||\n|| '''서로 다른 객담''' || '''같은 NTM 균종이 2회 이상''' 배양. 균종·필요한 아종까지 확인 ||\n|| '''기관지 세척액 또는 BAL''' || '''1회 이상''' 배양 양성 ||\n|| '''폐조직''' || 육아종 또는 AFB 등 항산균 감염에 맞는 조직 소견 + 조직 배양 양성 ||\n|| 조직 소견 + 다른 검체 || 적합한 조직 소견 + 객담 또는 기관지 세척액 배양 1회 이상 양성 ||\n\n* '''AFB 양성·TB PCR 음성''': NTM을 의심하는 단계다. 아직 균종과 진단기준이 확정되지 않았다.\n* '''객담에서 NTM 한 번''': 검출 사실은 있지만 객담 기준을 충족하지 않는다.\n* '''객담에서 NTM 두 번''': 두 결과가 같은 균종인지 확인해야 한다.\n* '''서로 다른 객담에서 M. avium 두 번 + 적합한 증상·영상''': NTM 폐질환의 진단기준에 부합한다.\n\n> ‘객담 두 번’과 ‘기관지 세척액 한 번’을 서로 바꾸지 않는다. 배양 횟수만 맞춰도 되는 것이 아니라 증상·영상과 다른 진단의 배제가 함께 필요하다.\n\n[[30강#도말과 결핵균 PCR의 네 조합을 읽는다|도말과 결핵균 PCR의 네 조합을 읽는다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 16–29, 77–82쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "choices": [
+        "활동성 폐결핵으로 확진하고 추가 미생물검사를 생략한다.",
+        "항산균 감염을 배제하고 추적검사를 종료한다.",
+        "비결핵항산균 감염을 의심하여 항산균 배양과 균 동정 결과를 확인한다.",
+        "MAC 폐질환으로 확진하고 clarithromycin 단독치료를 시작한다.",
+        "IGRA를 시행하여 결핵균과 비결핵항산균의 균종을 구별한다."
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번",
+      "explanation": "'''정답: ③ 비결핵항산균 감염을 의심하여 항산균 배양과 균 동정 결과를 확인한다.'''\n\n=== 풀이의 핵심 ===\n'''항산균 도말 양성 + Xpert에서 결핵균군 미검출'''이면 NTM을 우선 의심하고 '''항산균 배양·균 동정'''으로 확인한다. 도말검사는 항산균을 보여 주지만 결핵균과 NTM을 구별하지 못한다. Xpert는 결핵균군을 검출하는 검사이므로 두 검사의 대상이 다르다.\n\n이 조합만으로 NTM 폐질환을 확진하거나 치료를 시작하지 않는다. 임상적으로 결핵 가능성이 높으면 Xpert 위음성도 고려하여 추가 검체와 검사를 평가한다. 현재 환자는 안정적이고 배양 결과가 나오지 않았으므로, 보기 중 다음 진단 단계는 '''배양 결과와 균종 확인'''이다.\n\n=== 선지별 해설 ===\n* '''①''': 도말 양성만으로 활동성 폐결핵을 확진할 수 없다. NTM도 도말 양성이 될 수 있으며 배양·균 동정은 계속 필요하다.\n* '''②''': Xpert 음성은 모든 항산균 감염의 배제를 뜻하지 않는다. NTM 가능성이 남고 결핵도 임상적 의심도에 따라 추가 평가가 필요하다.\n* '''③''': 정답이다. 균종을 확인한 뒤 증상·영상·반복 배양 결과를 함께 평가하여 NTM 폐질환의 진단기준 충족 여부를 판단한다.\n* '''④''': 아직 MAC이 동정되지 않았고 NTM 폐질환도 확진되지 않았다. MAC 치료가 필요하더라도 macrolide 단독요법은 내성 위험 때문에 적절하지 않다.\n* '''⑤''': IGRA는 항원에 대한 면역반응을 평가하는 검사다. 객담에서 검출된 항산균의 균종을 동정하는 검사가 아니며 배양·균 동정을 대신하지 못한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''도말과 결핵균 PCR의 네 조합을 읽는다'''\n\n두 검사는 같은 균을 같은 방법으로 보는 것이 아니다. 도말은 항산균 전체를, 결핵균 PCR·Xpert는 결핵균군을 겨냥한다. 이 차이를 기억하면 결과가 서로 어긋나도 다음 단계가 보인다.\n\n||= 항산균 도말 ||= 결핵균 PCR·Xpert ||= 우선 해석 ||= 다음 판단 ||\n|| 양성 || 양성 || 결핵으로 진단하는 방향 || 치료와 전염성 평가, 배양·약제감수성 확인 ||\n|| 음성 || 양성 || 도말 음성 결핵으로 진단하는 방향 || 균량이 적을 수 있다. 배양을 함께 진행한다. ||\n|| '''양성''' || '''음성''' || '''NTM 추정''' || '''항산균 배양·균 동정'''으로 확인한다. 임상적으로 결핵 가능성이 높으면 위음성도 검토한다. ||\n|| 음성 || 음성 || 임상적 판단 || 결핵을 완전히 배제하지 않는다. 영상·병력·추가 검체·배양을 종합한다. ||\n\n도말 양성·PCR 음성인데 중년 여성의 결절성 기관지확장증이 보인다면 NTM 쪽에 무게가 실린다. 그렇다고 도말 결과만으로 NTM 치료까지 시작하지는 않는다. 안정적인 환자라면 배양과 동정을 확인하면서 질병의 기준을 충족하는지 평가한다.\n\n'''NTM 폐질환은 임상·영상·미생물 조건을 함께 충족한다'''\n\nNTM 폐질환의 진단에는 '''호흡기 또는 전신 증상''', '''적합한 영상''', '''다른 진단의 배제'''가 필요하고, 여기에 아래 미생물 조건 중 하나가 더해져야 한다.\n\n||= 검체 ||= 미생물학적 기준 ||\n|| '''서로 다른 객담''' || '''같은 NTM 균종이 2회 이상''' 배양. 균종·필요한 아종까지 확인 ||\n|| '''기관지 세척액 또는 BAL''' || '''1회 이상''' 배양 양성 ||\n|| '''폐조직''' || 육아종 또는 AFB 등 항산균 감염에 맞는 조직 소견 + 조직 배양 양성 ||\n|| 조직 소견 + 다른 검체 || 적합한 조직 소견 + 객담 또는 기관지 세척액 배양 1회 이상 양성 ||\n\n* '''AFB 양성·TB PCR 음성''': NTM을 의심하는 단계다. 아직 균종과 진단기준이 확정되지 않았다.\n* '''객담에서 NTM 한 번''': 검출 사실은 있지만 객담 기준을 충족하지 않는다.\n* '''객담에서 NTM 두 번''': 두 결과가 같은 균종인지 확인해야 한다.\n* '''서로 다른 객담에서 M. avium 두 번 + 적합한 증상·영상''': NTM 폐질환의 진단기준에 부합한다.\n\n> ‘객담 두 번’과 ‘기관지 세척액 한 번’을 서로 바꾸지 않는다. 배양 횟수만 맞춰도 되는 것이 아니라 증상·영상과 다른 진단의 배제가 함께 필요하다.\n\n[[30강#도말과 결핵균 PCR의 네 조합을 읽는다|도말과 결핵균 PCR의 네 조합을 읽는다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 16–29, 77–82쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n=== 원본에서 수정한 내용 ===\n원복원본은 ‘객담도말 결과는 양성, xpert 결과는 음성이었다. 다음에 해야 할 것은?’이라는 발문만 있고 선지가 미복원되어 있었다. 기존 참고 답안인 '''NTM 의심 → 항산균 배양·균 동정 확인'''을 정답으로 삼아 5개 선지를 새로 작성하였다. 객담 도말을 항산균 도말로 명확히 하고, Xpert의 결핵균군 미검출·안정적인 활력징후·배양 결과 대기라는 조건을 학습용으로 보완하였다. 원문의 의도는 두 검사 결과의 불일치를 해석하고 다음 검사로 연결하는 것으로 추정했다. 추가한 조건과 선지는 원시험에서 확인된 정보가 아니며, 수정 전 발문과 참고 답안·해설은 '''!''' 버튼으로 확인할 수 있다.\n\n~~보충 확인: [https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/ ATS/ERS/ESCMID/IDSA NTM 진료지침] · [https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html CDC 결핵 검사 해석].~~~",
       "images": [],
       "legacyProfessor": "유우경",
       "professor": "유우경",
@@ -4109,24 +4295,24 @@ window.JBL_DATA = {
       "domain": "",
       "discipline": "",
       "section": "",
-      "source": "2025 호흡기계 57번",
+      "source": "2025 호흡기계 57번 변형",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
       "originalNumberStatus": "reconstructed_number",
-      "questionFormat": "unresolved",
+      "questionFormat": "multiple_choice",
       "sourceStatus": "numbered_reconstruction",
       "parseMethod": "unparsed_or_written",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "scope": "lecture30_wiki_j_jbl",
-        "answerStatus": "unrestored_choices_model_answer_only",
+        "answerStatus": "lecture_supported_learning_variant",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": true,
-        "originalQuestionAndImagesPreserved": true,
+        "originalQuestionAndImagesPreserved": false,
         "sources": [
           {
             "kind": "current_lecture",
@@ -4138,9 +4324,97 @@ window.JBL_DATA = {
             "path": "38기 자료"
           }
         ],
-        "modelAnswer": "NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다.",
+        "modelAnswer": "비결핵항산균 감염을 의심하여 항산균 배양과 균 동정 결과를 확인한다.",
         "chapter": "도말과 결핵균 PCR의 네 조합을 읽는다",
-        "basis": "39기 강의록 16–29、77–82쪽"
+        "basis": "39기 강의록 16–29、77–82쪽",
+        "optionByOption": true
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-27T04:19:51.263Z",
+        "description": "선지가 미복원된 원복원 문항과 참고 답안·해설",
+        "question": {
+          "id": "2025-057",
+          "recordId": "resp-2025-057",
+          "displayId": "57번",
+          "globalNumber": 57,
+          "year": 2025,
+          "sourceType": "족보",
+          "originalNumber": 57,
+          "originalNumbers": [
+            57
+          ],
+          "question": "객담도말 결과는 양성, xpert 결과는 음성이었다. 다음에 해야 할 것은?",
+          "passage": "",
+          "choices": [],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "참고 답안: NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다.",
+          "explanation": "정답 번호 없음 — 선지 미복원\n\n=== 풀이의 핵심 ===\n모범답안: '''NTM을 우선 의심하고 항산균 배양 및 균 동정 결과를 확인한다.''' 필요한 경우 서로 다른 객담을 추가로 채취해 같은 균종이 반복 배양되는지 평가하고, 증상·영상과 함께 NTM 폐질환 진단기준을 확인한다.\n\n도말 양성은 항산균이 보인다는 뜻이고, Xpert 음성은 해당 검체에서 결핵균군이 검출되지 않았다는 뜻이다. 조합은 NTM을 시사하지만 그 자체로 NTM 폐질환의 확진은 아니다. 임상적으로 결핵 가능성이 높으면 Xpert 위음성도 고려해 추가 검체를 검사한다.\n\n'''선지 미복원 문항'''이므로 임의의 선택지나 정답 번호를 만들지 않았다. 위 내용은 현재 발문에 대한 서술형 모범답안이다.\n\n=== 선지별 해설 ===\n선지가 복원되지 않아 번호별 판정은 할 수 없다. 현재 발문에는 위 모범답안처럼 항산균 배양·균 동정과 임상적 평가를 제시할 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''도말과 결핵균 PCR의 네 조합을 읽는다'''\n\n두 검사는 같은 균을 같은 방법으로 보는 것이 아니다. 도말은 항산균 전체를, 결핵균 PCR·Xpert는 결핵균군을 겨냥한다. 이 차이를 기억하면 결과가 서로 어긋나도 다음 단계가 보인다.\n\n||= 항산균 도말 ||= 결핵균 PCR·Xpert ||= 우선 해석 ||= 다음 판단 ||\n|| 양성 || 양성 || 결핵으로 진단하는 방향 || 치료와 전염성 평가, 배양·약제감수성 확인 ||\n|| 음성 || 양성 || 도말 음성 결핵으로 진단하는 방향 || 균량이 적을 수 있다. 배양을 함께 진행한다. ||\n|| '''양성''' || '''음성''' || '''NTM 추정''' || '''항산균 배양·균 동정'''으로 확인한다. 임상적으로 결핵 가능성이 높으면 위음성도 검토한다. ||\n|| 음성 || 음성 || 임상적 판단 || 결핵을 완전히 배제하지 않는다. 영상·병력·추가 검체·배양을 종합한다. ||\n\n도말 양성·PCR 음성인데 중년 여성의 결절성 기관지확장증이 보인다면 NTM 쪽에 무게가 실린다. 그렇다고 도말 결과만으로 NTM 치료까지 시작하지는 않는다. 안정적인 환자라면 배양과 동정을 확인하면서 질병의 기준을 충족하는지 평가한다.\n\n'''NTM 폐질환은 임상·영상·미생물 조건을 함께 충족한다'''\n\nNTM 폐질환의 진단에는 '''호흡기 또는 전신 증상''', '''적합한 영상''', '''다른 진단의 배제'''가 필요하고, 여기에 아래 미생물 조건 중 하나가 더해져야 한다.\n\n||= 검체 ||= 미생물학적 기준 ||\n|| '''서로 다른 객담''' || '''같은 NTM 균종이 2회 이상''' 배양. 균종·필요한 아종까지 확인 ||\n|| '''기관지 세척액 또는 BAL''' || '''1회 이상''' 배양 양성 ||\n|| '''폐조직''' || 육아종 또는 AFB 등 항산균 감염에 맞는 조직 소견 + 조직 배양 양성 ||\n|| 조직 소견 + 다른 검체 || 적합한 조직 소견 + 객담 또는 기관지 세척액 배양 1회 이상 양성 ||\n\n* '''AFB 양성·TB PCR 음성''': NTM을 의심하는 단계다. 아직 균종과 진단기준이 확정되지 않았다.\n* '''객담에서 NTM 한 번''': 검출 사실은 있지만 객담 기준을 충족하지 않는다.\n* '''객담에서 NTM 두 번''': 두 결과가 같은 균종인지 확인해야 한다.\n* '''서로 다른 객담에서 M. avium 두 번 + 적합한 증상·영상''': NTM 폐질환의 진단기준에 부합한다.\n\n> ‘객담 두 번’과 ‘기관지 세척액 한 번’을 서로 바꾸지 않는다. 배양 횟수만 맞춰도 되는 것이 아니라 증상·영상과 다른 진단의 배제가 함께 필요하다.\n\n[[30강#도말과 결핵균 PCR의 네 조합을 읽는다|도말과 결핵균 PCR의 네 조합을 읽는다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 16–29, 77–82쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+          "images": [],
+          "legacyProfessor": "유우경",
+          "professor": "유우경",
+          "examinerStatus": "peer_label_supported_not_official",
+          "examinerEvidence": "visible_margin_label",
+          "lectureIds": [
+            30
+          ],
+          "lectureId": 30,
+          "lectureTitle": "결핵과 비결핵성 항산균",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "source": "2025 호흡기계 57번",
+          "mappingConfidence": "high",
+          "classificationStatus": "assigned",
+          "originalNumberStatus": "reconstructed_number",
+          "questionFormat": "unresolved",
+          "sourceStatus": "numbered_reconstruction",
+          "parseMethod": "unparsed_or_written",
+          "restorationNotes": [],
+          "imageProvenance": [],
+          "repeatFamilyIds": [],
+          "explanationReview": {
+            "date": "2026-10-20",
+            "scope": "lecture30_wiki_j_jbl",
+            "answerStatus": "unrestored_choices_model_answer_only",
+            "officialAnswerVerified": false,
+            "peerExplanationUsed": false,
+            "summaryUsed": true,
+            "originalQuestionAndImagesPreserved": true,
+            "sources": [
+              {
+                "kind": "current_lecture",
+                "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\30. 결핵과 비결핵항산균_강의록.pdf",
+                "description": "39기 강의록 16–29、77–82쪽"
+              },
+              {
+                "kind": "prior_summary_secondary_only",
+                "path": "38기 자료"
+              }
+            ],
+            "modelAnswer": "NTM 감염을 의심하여 항산균 배양검사와 균동정 결과를 확인한다.",
+            "chapter": "도말과 결핵균 PCR의 네 조합을 읽는다",
+            "basis": "39기 강의록 16–29、77–82쪽"
+          }
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-27",
+        "type": "learning_variant",
+        "changedFields": [
+          "question",
+          "choices",
+          "answerIndex",
+          "answerIndices",
+          "answerLabel",
+          "questionFormat",
+          "source",
+          "explanation"
+        ],
+        "choicesPreserved": false,
+        "reason": "선지 미복원 문항의 참고 답안을 정답으로 하는 객관식 학습용 변형. 검사 종류·배양 대기·안정적 상태를 보완.",
+        "officialOriginalVerified": false
       }
     },
     {
@@ -9233,10 +9507,12 @@ window.JBL_DATA = {
         "adenocarcinoma에서 동양인, 비흡연자, 여성에서 제일 잘 일어나는 변이는 ALK fusion이다",
         "squamous lung cancer는 유전자 돌연변이가 적은 것이 특징이다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 보류",
-      "explanation": "=== 풀이의 핵심 ===\n정답 확정 보류\n\n2번은 강의의 편평상피세포암에서 높은 PD-L1 발현이라는 설명과 일치한다. 1번은 EGFR 변이가 비흡연자에서 더 흔하므로 틀리고, 4번의 가장 흔한 변이는 ALK가 아니라 EGFR이다. 5번도 편평상피세포암의 높은 돌연변이 부담과 반대다. 두 개를 고르는 문제인데 3번이 미복원이므로 전체 정답 조합은 확정할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흡연과 관련된 편평세포암은 돌연변이와 염색체 변화가 많다. 선암에서 흔한 EGFR·KRAS·ALK driver는 매우 드물고, '''높은 PD-L1 발현'''과 면역치료의 맥락이 중요하다. ‘표적 driver가 드물다’와 ‘돌연변이가 적다’는 정반대 이야기다.\n\n* TP53 변이: 이형성에서 10–50%, 편평세포암에서 60–90%로 제시된다.\n* 9p/CDKN2A, 17p/TP53 결실; CDKN2A 비활성화에 따른 p16 소실(약 60%), RB 발현 소실(약 15%).\n* 증폭: SOX2·TP63, EGFR, FGFR 계열. FGFR1 증폭, PTEN 변이, PDGFRA 증폭, PIK3CA 변이, MET 증폭 등도 있다.\n\n=== 선지별 해설 ===\n* 1번 · 흡연자에서는 EGFR 돌연변이가 더 잘 일어난다.: 틀리다. EGFR 변이는 상대적으로 비흡연자·동아시아인·여성의 선암에서 흔하다. 흡연자 선암에서 상대적으로 더 흔한 driver는 KRAS이다.\n* 2번 · squamous lung cancer에서는 PD-L1 발현이 더 잘 일어난다.: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n* 3번 · [선지 미복원]: 원래 내용을 확인할 수 없어 판단할 수 없다. 복수선택 문항의 누락 선지를 임의 보충하여 전체 정답을 확정하지 않는다.\n* 4번 · adenocarcinoma에서 동양인, 비흡연자, 여성에서 제일 잘 일어나는 변이는 ALK fusion이다: 틀리다. 이 조합에서 대표적인 변이는 EGFR이다. ALK는 젊은 비흡연자와 연결하되 뚜렷한 인종 차이를 강조하지 않는다.\n* 5번 · squamous lung cancer는 유전자 돌연변이가 적은 것이 특징이다.: 틀리다. 편평세포암은 돌연변이 부담이 높다. 흔한 선암 driver가 드문 것과 전체 변이가 적다는 것은 다르다.\n\n[[37강#편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다|Wiki · 편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "정답: ② — 복원된 선지 기준",
+      "explanation": "=== 풀이의 핵심 ===\n'''2번만 선택하면 정답 처리한다.''' 미복원 선지가 옳은 선지일 것으로 추정.\n\n2번은 강의의 편평상피세포암에서 높은 PD-L1 발현이라는 설명과 일치한다. 1번은 EGFR 변이가 비흡연자에서 더 흔하므로 틀리고, 4번의 가장 흔한 변이는 ALK가 아니라 EGFR이다. 5번도 편평상피세포암의 높은 돌연변이 부담과 반대다. 원문은 두 개를 고르라고 하지만 3번이 미복원되어 있다. 3번의 실제 내용은 만들지 않고, 복원된 보기에서 확인 가능한 2번만 채점에 반영한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흡연과 관련된 편평세포암은 돌연변이와 염색체 변화가 많다. 선암에서 흔한 EGFR·KRAS·ALK driver는 매우 드물고, '''높은 PD-L1 발현'''과 면역치료의 맥락이 중요하다. ‘표적 driver가 드물다’와 ‘돌연변이가 적다’는 정반대 이야기다.\n\n* TP53 변이: 이형성에서 10–50%, 편평세포암에서 60–90%로 제시된다.\n* 9p/CDKN2A, 17p/TP53 결실; CDKN2A 비활성화에 따른 p16 소실(약 60%), RB 발현 소실(약 15%).\n* 증폭: SOX2·TP63, EGFR, FGFR 계열. FGFR1 증폭, PTEN 변이, PDGFRA 증폭, PIK3CA 변이, MET 증폭 등도 있다.\n\n=== 선지별 해설 ===\n* 1번 · 흡연자에서는 EGFR 돌연변이가 더 잘 일어난다.: 틀리다. EGFR 변이는 상대적으로 비흡연자·동아시아인·여성의 선암에서 흔하다. 흡연자 선암에서 상대적으로 더 흔한 driver는 KRAS이다.\n* 2번 · squamous lung cancer에서는 PD-L1 발현이 더 잘 일어난다.: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n* 3번 · [선지 미복원]: 미복원 선지가 옳은 선지일 것으로 추정. 실제 문장은 확인할 수 없어 [선지 미복원]을 유지하며, 이 선지를 선택하도록 요구하지 않는다.\n* 4번 · adenocarcinoma에서 동양인, 비흡연자, 여성에서 제일 잘 일어나는 변이는 ALK fusion이다: 틀리다. 이 조합에서 대표적인 변이는 EGFR이다. ALK는 젊은 비흡연자와 연결하되 뚜렷한 인종 차이를 강조하지 않는다.\n* 5번 · squamous lung cancer는 유전자 돌연변이가 적은 것이 특징이다.: 틀리다. 편평세포암은 돌연변이 부담이 높다. 흔한 선암 driver가 드문 것과 전체 변이가 적다는 것은 다르다.\n\n[[37강#편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다|Wiki · 편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 발문과 미복원 선지는 보존하고 사용자 확인에 따라 2번만 채점 정답으로 지정했다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
@@ -9261,11 +9537,12 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-23",
+        "date": "2026-10-27",
         "scope": "lectures37_38",
         "chapter": "편평세포암의 분자 변화는 높은 돌연변이 부담과 연결된다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "answerStatus": "user_confirmed_option2_only"
       }
     },
     {
@@ -12102,13 +12379,12 @@ window.JBL_DATA = {
         "4개 이상의 중등도 비분절상 결손이 있고 환기 결손이 없으면 고확률이다.",
         "관류스캔에서 관류 결손이 전혀 없는 경우에는 정상으로 판정한다."
       ],
-      "answerIndex": null,
+      "answerIndex": 5,
       "answerIndices": [
-        3,
         5
       ],
-      "answerLabel": "정답: ③·⑤ (복수정답)",
-      "explanation": "정답: ③·⑤ (복수정답)\n\n=== 풀이의 핵심 ===\n'''현재 선지 표현을 그대로 읽으면 3·5번이 모두 성립'''한다. 5번은 정상의 정의와 정확히 일치한다. 3번은 고확률의 정의인 '''>80%'''를 정확히 제시하지는 않지만, 80% 초과는 50% 이상에도 포함되므로 “50% 이상”을 수학적으로 거짓이라고 배제할 수 없다.\n\n공식 시험지의 문구를 대조했으며, 여기서 공식 정답표까지 확인한 것은 아니다. 정의를 가장 명료하게 말한 선지는 5번이지만, 3번의 표현 문제를 숨기고 단일 정답처럼 설명하지 않는다.\n\n=== 선지별 해설 ===\n* 1번: 이 조건만으로 중간확률이라고 정할 수 없다. '''Matched V/Q defect + 정상 흉부 X선'''이면 강의 기준상 저확률이다. 큰 관류결손이 여러 개라는 말만 보고 환기의 일치 여부와 X선을 건너뛰면 안 된다.\n* 2번: 틀리다. X선 병변이 관류결손보다 '''상당히 더 크면 저확률'''이다. 고확률은 그 반대 방향, 즉 X선 병변으로 설명되지 않을 만큼 관류결손이 더 큰 경우다.\n* 3번: 문자 그대로는 맞지만 정의를 정확히 말한 표현은 아니다. 고확률은 '''80% 초과'''이며 그 결과 50% 이상이기도 하다. “고확률의 경계값이 50%다”라고 외우면 안 된다.\n* 4번: 틀리다. 네 개라는 숫자가 아니라 '''비분절상'''이라는 단어가 문제다. 고확률에 해당하는 것은 중등도 '''불일치 분절상''' 결손 4개 이상이다.\n* 5번: 맞다. 관류결손이 전혀 없으면 Normal로 판독한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nV/Q 판독은 '''Q 결손을 찾고 → 분절상인지 확인하고 → 같은 방향의 V와 비교하고 → 흉부 X선으로 설명되는지 판단'''하는 순서로 생각한다. PE의 전형은 '''여러 쐐기 모양 관류결손 + 보존된 환기 + 대개 정상 흉부 X선'''이다.\n\n||= 결손의 크기 ||= 한 폐분절을 기준으로 한 범위 ||\n|| Large || '''>75%''' ||\n|| Moderate || '''25–75%''' ||\n|| Small || '''<25%''' ||\n\n||= Modified PIOPED 범주 ||= 강의의 기준 ||\n|| '''High >80%''' || '''큰 불일치 분절상 결손 ≥2개''' 또는 동등한 조합. 흉부 X선이 정상이거나 Q 결손이 X선 이상보다 '''상당히 더 큼''' ||\n|| '''Intermediate 20–80%''' || 정상 X선에서 중등도 불일치 분절상 결손 1개, 또는 큰 것 1개+중등도 1개. 고·저확률로 분류하기 어렵거나 해당 기준을 충족하지 않는 경우도 포함 ||\n|| '''Low <20%''' || 비분절상 Q 결손 / Q 결손보다 훨씬 큰 X선 병변 / 정상 X선에서 matched V/Q defect / 작은 subsegmental Q 결손 ||\n|| '''Normal''' || '''관류결손이 전혀 없음''' ||\n\n고확률의 동등 조합은 '''large 2개 = large 1개+moderate 2개 = moderate 4개'''다. 중등도 두 개를 큰 결손 한 개로 계산한다. 단, 결손이 '''분절상이고 환기에 비해 관류가 빠진 mismatch'''여야 한다. 비분절상 결손의 개수만 늘려서는 같은 기준이 되지 않는다.\n\n저확률의 비분절상 결손에는 늑횡격막각을 무디게 하는 소량 흉수, 심비대, 횡격막 상승, 대동맥·폐문·종격동 확대 등이 해당한다. Matched defect는 '''V와 Q가 함께 감소'''하는 것이며, COPD·bullae·폐부종·흉수·천식·mucus plug 등으로 생길 수 있다. 반대로 mismatch도 급성 PE 외에 과거 PE, 종양, 혈관염, 방사선치료 후 변화, 폐혈관 기형에서 보일 수 있다.\n\n> '''X선 병변보다 Q 결손이 크면''' 설명되지 않는 관류 감소가 남아 고확률 쪽을 생각하고, '''Q 결손보다 X선 병변이 훨씬 크면''' 다른 병변으로 설명하기 쉬워 저확률 쪽을 생각한다. 저확률과 정상은 다르며 임상적 사전확률도 함께 고려한다. 이 표는 강의의 modified PIOPED 평면영상 기준으로, modified PIOPED II나 SPECT 기준으로 바꿔 외우지 않는다.\n\n[[25강#저확률과 정상은 같은 말이 아니다|저확률과 정상은 같은 말이 아니다]]\n\n~~근거: 39기 「25. 핵의학」 17–24·30–31쪽; 38기 자료의 대응 원리 비교. 공식 시험지의 발문·선지·사진을 대조했으며, 공식 정답표 확인과는 구분한다.~~~",
+      "answerLabel": "정답: ⑤",
+      "explanation": "정답: ⑤\n\n=== 풀이의 핵심 ===\n'''관류결손이 전혀 없으면 정상'''이므로 정답은 5번이다. 이 문제는 modified PIOPED의 '''분류 기준'''을 묻는다. 강의의 고확률 기준은 '''>80%'''이며 50%를 그 기준으로 제시한 3번을 정답으로 인정하지 않는다. 이전 해설이 수학적 포함관계만으로 3번을 추가한 판단을 바로잡았다.\n\n=== 선지별 해설 ===\n* 1번: V와 Q가 함께 감소하는 matched defect만으로 중간확률이라고 일괄 판정하지 않는다. 강의는 정상 흉부 X선에서 matched defect를 저확률로 분류한다.\n* 2번: 방향이 반대다. 관류결손보다 X선 병변이 상당히 크면 저확률 쪽이며, 고확률은 X선으로 설명되지 않는 분절상 mismatch가 충분해야 한다.\n* 3번: 고확률의 기준은 >80%다. 50% 이상을 고확률의 분류 기준으로 제시한 설명은 부정확하므로 이 문항의 정답에 포함하지 않는다.\n* 4번: ‘비분절상’이 틀렸다. 동등 조합으로 세는 대상은 중등도 불일치 ‘분절상’ 결손이다.\n* 5번: 맞다. 관류결손이 전혀 없는 경우 Normal이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\"\"High probability의 강의 기준은 80% 초과\"\"다. 모양이 분절상이고, 환기와 일치하지 않는 관류결손이 충분히 넓어야 한다. 기본 기준은 '''큰 불일치 분절상 결손 두 개 이상'''이며, 흉부 X선에 이를 설명할 이상이 없거나 '''관류결손이 X선 이상보다 상당히 더 커야''' 한다.\n\n큰 결손의 수만 세는 것은 아니다. '''중등도 결손 두 개를 큰 결손 한 개와 동등하게''' 계산하므로, 다음 조합은 같은 양에 해당한다.\n\n||= 큰 불일치 결손 ||= 중등도 불일치 결손 ||= 판독에 필요한 전제 ||\n|| 2개 이상 || 0개여도 가능 || 분절상 결손이며 V가 보존됨. 정상 X선 또는 Q 결손이 X선 이상보다 훨씬 큼 ||\n|| 1개 || 2개 이상 || 동일 ||\n|| 0개 || 4개 이상 || 동일 ||\n\n> '''Large 2 = large 1 + moderate 2 = moderate 4.''' 그러나 비분절상 결손을 네 개 모은다고 고확률이 되는 것은 아니다. '''크기·개수·분절성·불일치·X선 조건'''이 함께 맞아야 한다.\n\n[[25강#저확률과 정상은 같은 말이 아니다|Wiki · 저확률과 정상]]\n\n~~근거: 39기 핵의학 슬라이드 30–31. 공식 정답표를 새로 발견했다는 뜻은 아니며 강의 기준으로 재판정했다.~~~\n\n[[25강#고확률은 큰 불일치 분절상 결손 두 개에 해당한다|Wiki · 고확률은 큰 불일치 분절상 결손 두 개에 해당한다]]",
       "images": [],
       "legacyProfessor": "미확인",
       "professor": "유민영",
@@ -12133,9 +12409,9 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "scope": "lecture25_wiki_j_jbl",
-        "answerStatus": "multiple_answers_literal_probability_inequality",
+        "answerStatus": "lecture_threshold_reaudit_single5",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
@@ -12148,7 +12424,12 @@ window.JBL_DATA = {
           }
         ],
         "basis": "39기 「25. 핵의학」 17–24·30–31쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "저확률과 정상은 같은 말이 아니다"
+        "chapter": "저확률과 정상은 같은 말이 아니다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -13910,51 +14191,39 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''4번'''이다. 객담에서 녹농균이 반복 분리되는 만성 감염·집락화는 잦은 악화와 더 빠른 폐기능 저하의 대표 위험인자다. 다른 보기가 모두 무해하다는 뜻이 아니라, 이 문항이 강조하는 가장 직접적인 예후 단서를 고른다.\n\n=== 선지별 해설 ===\n* 1번: '''원인·동반질환이다.''' Crohn disease는 기관지확장증과 연관되지만 여기서 묻는 대표적인 반복 악화 균의 단서는 아니다.\n* 2번: '''진찰 소견이다.''' Crackles는 병변을 시사하지만 그 자체가 급격한 폐기능 저하의 독립적인 원인이라는 뜻은 아니다.\n* 3번: '''중요한 질환이다.''' 공동성 NTM 폐질환은 진행성일 수 있다. 다만 기관지확장증 전반에서 반복 악화·빠른 기능 저하와 연결되는 대표 출제 단서는 녹농균의 만성 감염이다.\n* 4번: '''맞다.''' 녹농균의 지속 분리는 악화·입원·사망 위험 증가와 연관된다.\n* 5번: '''고령도 예후에 영향을 준다.''' 그러나 65세라는 경계만으로 이 문제의 감염 관련 급격한 악화를 가장 잘 설명하지는 못한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''녹농균의 지속 분리는 악화와 폐기능 저하의 경고다'''\n\n'''Pseudomonas aeruginosa의 만성 감염·집락화'''는 잦은 악화·입원, 더 빠른 폐기능 저하, 나쁜 예후와 관련된다. 객담 배양을 반복해서 확인하는 이유가 여기 있다. 한 번 검출되었다는 사실과 지속적인 만성 감염을 구분하되 가볍게 넘기지는 않는다.\n\n고령, 낮은 기저 FEV₁, 반복되는 심한 악화, 넓은 병변 등도 예후에 영향을 준다. 공동성 NTM 폐질환 역시 중요한 질환이므로 ‘녹농균이 답’이라는 이유로 다른 위험요인을 무해하다고 외우지 않는다.\n\n대량·반복 객혈에서는 '''기관지동맥 색전술'''을 고려하고, 국소 병변에서 내과적 치료가 실패하면 절제술을 검토한다. 매우 진행된 미만성 질환에서는 폐이식이 선택지가 될 수 있다.\n\n[[34강#녹농균의 지속 분리는 악화와 폐기능 저하의 경고다|녹농균의 지속 분리는 악화와 폐기능 저하의 경고다]]\n\n~~근거: 김준 「2026 기관지확장증 학생강의」 2–21쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "4번 — 가래에서 녹농균(P. aeruginosa) 배양",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답은 '''4번'''이다. 객담에서 녹농균이 반복 분리되는 만성 감염·집락화는 잦은 악화와 더 빠른 폐기능 저하의 대표 위험인자다. 다른 보기가 모두 무해하다는 뜻이 아니라, 이 문항이 강조하는 가장 직접적인 예후 단서를 고른다.\n\n=== 선지별 해설 ===\n* 1번: '''원인·동반질환이다.''' Crohn disease는 기관지확장증과 연관되지만 여기서 묻는 대표적인 반복 악화 균의 단서는 아니다.\n* 2번: '''진찰 소견이다.''' Crackles는 병변을 시사하지만 그 자체가 급격한 폐기능 저하의 독립적인 원인이라는 뜻은 아니다.\n* 3번: '''중요한 질환이다.''' 공동성 NTM 폐질환은 진행성일 수 있다. 다만 기관지확장증 전반에서 반복 악화·빠른 기능 저하와 연결되는 대표 출제 단서는 녹농균의 만성 감염이다.\n* 4번: '''맞다.''' 녹농균의 지속 분리는 악화·입원·사망 위험 증가와 연관된다.\n* 5번: '''고령도 예후에 영향을 준다.''' 그러나 65세라는 경계만으로 이 문제의 감염 관련 급격한 악화를 가장 잘 설명하지는 못한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''녹농균의 지속 분리는 악화와 폐기능 저하의 경고다'''\n\n'''Pseudomonas aeruginosa의 만성 감염·집락화'''는 잦은 악화·입원, 더 빠른 폐기능 저하, 나쁜 예후와 관련된다. 객담 배양을 반복해서 확인하는 이유가 여기 있다. 한 번 검출되었다는 사실과 지속적인 만성 감염을 구분하되 가볍게 넘기지는 않는다.\n\n고령, 낮은 기저 FEV₁, 반복되는 심한 악화, 넓은 병변 등도 예후에 영향을 준다. 공동성 NTM 폐질환 역시 중요한 질환이므로 ‘녹농균이 답’이라는 이유로 다른 위험요인을 무해하다고 외우지 않는다.\n\n대량·반복 객혈에서는 '''기관지동맥 색전술'''을 고려하고, 국소 병변에서 내과적 치료가 실패하면 절제술을 검토한다. 매우 진행된 미만성 질환에서는 폐이식이 선택지가 될 수 있다.\n\n[[34강#녹농균의 지속 분리는 악화와 폐기능 저하의 경고다|녹농균의 지속 분리는 악화와 폐기능 저하의 경고다]]\n\n~~근거: 김준 「2026 기관지확장증 학생강의」 2–21쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.1. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.1 출제자란 확인",
       "lectureIds": [
         34
       ],
       "lectureId": 34,
       "lectureTitle": "기관지확장증",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 1번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.1",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 1,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 기관지확장증 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "녹농균의 지속 분리는 악화와 폐기능 저하의 경고다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -13962,6 +14231,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 1,
+        "professor": "곽승민",
+        "lecture": "기관지확장증",
+        "question": "기관지확장증 환자가 자주 악화 빈도를 보이고, 급격한 폐기능 장애의 원인이 되는 요인은?",
+        "choices": [
+          "크론씨 병을 가진 환자",
+          "폐하엽에서 수포음 청진되는 환자",
+          "공동이 동반된 비결핵 항산균 폐질환",
+          "가래에서 녹농균(P. aeruginosa) 배양",
+          "65세 이상의 고령환자"
+        ],
+        "answer": "4)",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -13975,7 +14262,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         2
       ],
-      "question": "65세 남자 환자가 발열과 기침으로 응급실에 내원하였다. 최근 3개월 내에 감염성 질환으로 입원하거나 항생제 투여받은 적은 없으며 고혈압으로 약 복용하고 있었고, 그 외 다른 과거 질환력은 없다고 하였다. 내원 당시 의식은 명료하였고, 맥박수 125/분, 호흡수 35회/분, 혈압 130/80 mmHg, 체온 38.2도였다. 신체 검진 우측 폐하부에서 타진 시, 수포음이 청취되었다. 혈액검사상 백혈구 수치 13,000/ul, 중성구 80%, BUN/Cr 25/0.4, AST/ALT/T.bil 33/40/1.0 CRP 13.0이었다. 단순 흉부 촬영 소견이다. 이 환자에게 선택되어야 할 가장 적합한 항생제는?",
+      "question": "65세 남자 환자가 발열과 기침으로 응급실에 내원하였다. 최근 3개월 내에 감염성 질환으로 입원하거나 항생제 투여받은 적은 없으며 고혈압으로 약 복용하고 있었고, 그 외 다른 과거 질환력은 없다고 하였다. 내원 당시 의식은 명료하였고, 맥박수 125/분, 호흡수 35회/분, 혈압 130//80 mmHg, 체온 38.2도 이었다. 신체 검진 우측 폐하부에서 타진 시, 수포음이 청취되었다. 혈액검사상 백혈구 수치 13,000/ul, 중성구 80%, BUN/Cr 25/0.4, AST/ALT/T.bil 33/40/1.0 CRP 13.0이었다. 단순 흉부 촬영 소견이다. 이 환자에게 선택되어야 할 가장 적합한 항생제는?",
       "passage": "",
       "choices": [
         "ceftriaxone + doxycycline",
@@ -13988,53 +14275,49 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''2번 ceftriaxone + azithromycin'''이다. CURB-65는 나이 65세, BUN 25, RR 35로 3점이다. 입원·중증도 평가가 필요하며 최근 입원·항생제 또는 녹농균 병력이 없는 CAP에서는 전형균과 비정형균을 함께 치료하는 기본 조합을 선택한다. '''CURB-65 3점과 중증 CAP minor criterion 3개는 서로 다른 기준'''이다. 발문이 언급하는 X선 사진은 현재 복원 자료에 없어 영상 세부 소견을 가정하지 않았다.\n\n=== 선지별 해설 ===\n* 1번: '''일부 상황에서 가능한 대안이지만 기본 선택은 아니다.''' β-lactam+doxycycline은 비중증 입원 CAP에서 macrolide·fluoroquinolone을 쓰기 어려운 경우 등 대안이 될 수 있다. 이 문항의 강의상 대표 조합은 2번이다.\n* 2번: '''맞다.''' Ceftriaxone으로 전형 세균, azithromycin으로 비정형 병원체를 함께 치료한다.\n* 3번: '''불필요하게 녹농균 범위를 넓힌 조합이다.''' Ceftazidime은 항녹농균 cephalosporin이며 일반 CAP의 기본 β-lactam 선택을 대신하는 근거가 이 증례에 없다.\n* 4번: '''부적절한 기본 조합이다.''' Tobramycin은 비정형 병원체를 보완하기 위해 쓰는 약이 아니다. 신독성 등도 고려해야 한다.\n* 5번: '''과도한 광범위 치료다.''' Imipenem은 내성 그람음성균 위험 등 특별한 근거가 있을 때 고려하며 이 환자의 기본 CAP 처방으로 우선하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''입원 CAP는 전형균과 비정형균을 함께 치료한다'''\n\n||= 환자군 ||= 강의의 기본 경험적 치료 ||= 대표 약제 ||\n|| 외래 || β-lactam ± macrolide 또는 respiratory fluoroquinolone || Amoxicillin, amoxicillin/clavulanate, cefditoren·cefpodoxime / azithromycin·clarithromycin·roxithromycin / levofloxacin·moxifloxacin·gemifloxacin ||\n|| 일반 병동의 비중증 CAP || '''β-lactam + macrolide''' 또는 respiratory fluoroquinolone || Ceftriaxone + azithromycin 등 ||\n|| 중증 CAP || '''β-lactam + macrolide 또는 β-lactam + respiratory fluoroquinolone''' || 중증에서 respiratory fluoroquinolone 하나만 쓰는 방식과 구별 ||\n\nβ-lactam은 주로 전형 세균을, macrolide는 비정형 병원체까지 치료 범위를 넓힌다. β-lactam으로 ampicillin/sulbactam, ceftriaxone, cefotaxime, ceftaroline 등이 사용되며 실제 약제는 알레르기·장기 기능·지역 내성을 고려한다.\n\n'''Ceftriaxone과 ceftazidime은 같은 cephalosporin이라고 역할이 같지 않다.''' 일반 CAP의 기본 조합에서는 ceftriaxone이 익숙하고, ceftazidime은 아래의 녹농균 위험에서 중요하다. Ceftriaxone+doxycycline은 특정 비중증 환자의 대안이 될 수 있으나 강의에서 제시한 기본 입원 조합은 ceftriaxone+azithromycin이다.\n\n'''CURB-65는 다섯 항목을 한 점씩 더한다'''\n\n||= 항목 ||= 1점이 되는 조건 ||\n|| C, confusion || 새로 발생한 혼돈 ||\n|| U, urea || Urea >7 mmol/L, BUN 약 19–20 mg/dL 초과 ||\n|| R, respiratory rate || 호흡수 ≥30회/분 ||\n|| B, blood pressure || 저혈압. 강의 표기는 SBP ≤90 또는 DBP ≤60 mmHg ||\n|| 65 || 나이 ≥65세 ||\n\n* '''0–1점:''' 외래 치료를 고려한다.\n* '''2점:''' 입원 치료를 고려한다.\n* '''3–5점:''' 중증으로 보고 입원·집중 치료 필요성을 평가한다.\n\n예를 들어 75세, BUN 25 mg/dL이면서 의식·호흡수·혈압이 정상이라면 '''나이 1점 + BUN 1점 = 2점'''이다. 나이가 75세라고 75점을 더하는 것은 CURB-65가 아니라 아래 PSI의 방식이다.\n\n> \"\"점수는 치료 장소를 돕는 도구이지 환자를 대신 판단하는 명령문이 아니다.\"\" SpO₂ <92%, 경구 섭취 불가, 복약·돌봄의 어려움이 있으면 낮은 점수라도 입원이 필요할 수 있다.\n\n~~CURB-65의 표준 SBP 경계는 <90으로 제시되는 자료가 많다. 여기서는 강의 표기의 ≤90을 남겼으며, 실제 문항에서는 경계값과 발문을 함께 확인한다.~~~\n\n[[33강#입원 CAP는 전형균과 비정형균을 함께 치료한다|입원 CAP는 전형균과 비정형균을 함께 치료한다]] · [[33강#CURB-65는 다섯 항목을 한 점씩 더한다|CURB-65는 다섯 항목을 한 점씩 더한다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
-      "images": [],
+      "answerLabel": "2번 — ceftriaxone + azithromycin",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답은 '''2번 ceftriaxone + azithromycin'''이다. CURB-65는 나이 65세, BUN 25, RR 35로 3점이다. 입원·중증도 평가가 필요하며 최근 입원·항생제 또는 녹농균 병력이 없는 CAP에서는 전형균과 비정형균을 함께 치료하는 기본 조합을 선택한다. '''CURB-65 3점과 중증 CAP minor criterion 3개는 서로 다른 기준'''이다. 원본의 흉부 X선 사진을 복구했다. 항생제 선택은 영상과 함께 중증도·내성균 위험을 종합한다.\n\n=== 선지별 해설 ===\n* 1번: '''일부 상황에서 가능한 대안이지만 기본 선택은 아니다.''' β-lactam+doxycycline은 비중증 입원 CAP에서 macrolide·fluoroquinolone을 쓰기 어려운 경우 등 대안이 될 수 있다. 이 문항의 강의상 대표 조합은 2번이다.\n* 2번: '''맞다.''' Ceftriaxone으로 전형 세균, azithromycin으로 비정형 병원체를 함께 치료한다.\n* 3번: '''불필요하게 녹농균 범위를 넓힌 조합이다.''' Ceftazidime은 항녹농균 cephalosporin이며 일반 CAP의 기본 β-lactam 선택을 대신하는 근거가 이 증례에 없다.\n* 4번: '''부적절한 기본 조합이다.''' Tobramycin은 비정형 병원체를 보완하기 위해 쓰는 약이 아니다. 신독성 등도 고려해야 한다.\n* 5번: '''과도한 광범위 치료다.''' Imipenem은 내성 그람음성균 위험 등 특별한 근거가 있을 때 고려하며 이 환자의 기본 CAP 처방으로 우선하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''입원 CAP는 전형균과 비정형균을 함께 치료한다'''\n\n||= 환자군 ||= 강의의 기본 경험적 치료 ||= 대표 약제 ||\n|| 외래 || β-lactam ± macrolide 또는 respiratory fluoroquinolone || Amoxicillin, amoxicillin/clavulanate, cefditoren·cefpodoxime / azithromycin·clarithromycin·roxithromycin / levofloxacin·moxifloxacin·gemifloxacin ||\n|| 일반 병동의 비중증 CAP || '''β-lactam + macrolide''' 또는 respiratory fluoroquinolone || Ceftriaxone + azithromycin 등 ||\n|| 중증 CAP || '''β-lactam + macrolide 또는 β-lactam + respiratory fluoroquinolone''' || 중증에서 respiratory fluoroquinolone 하나만 쓰는 방식과 구별 ||\n\nβ-lactam은 주로 전형 세균을, macrolide는 비정형 병원체까지 치료 범위를 넓힌다. β-lactam으로 ampicillin/sulbactam, ceftriaxone, cefotaxime, ceftaroline 등이 사용되며 실제 약제는 알레르기·장기 기능·지역 내성을 고려한다.\n\n'''Ceftriaxone과 ceftazidime은 같은 cephalosporin이라고 역할이 같지 않다.''' 일반 CAP의 기본 조합에서는 ceftriaxone이 익숙하고, ceftazidime은 아래의 녹농균 위험에서 중요하다. Ceftriaxone+doxycycline은 특정 비중증 환자의 대안이 될 수 있으나 강의에서 제시한 기본 입원 조합은 ceftriaxone+azithromycin이다.\n\n'''CURB-65는 다섯 항목을 한 점씩 더한다'''\n\n||= 항목 ||= 1점이 되는 조건 ||\n|| C, confusion || 새로 발생한 혼돈 ||\n|| U, urea || Urea >7 mmol/L, BUN 약 19–20 mg/dL 초과 ||\n|| R, respiratory rate || 호흡수 ≥30회/분 ||\n|| B, blood pressure || 저혈압. 강의 표기는 SBP ≤90 또는 DBP ≤60 mmHg ||\n|| 65 || 나이 ≥65세 ||\n\n* '''0–1점:''' 외래 치료를 고려한다.\n* '''2점:''' 입원 치료를 고려한다.\n* '''3–5점:''' 중증으로 보고 입원·집중 치료 필요성을 평가한다.\n\n예를 들어 75세, BUN 25 mg/dL이면서 의식·호흡수·혈압이 정상이라면 '''나이 1점 + BUN 1점 = 2점'''이다. 나이가 75세라고 75점을 더하는 것은 CURB-65가 아니라 아래 PSI의 방식이다.\n\n> \"\"점수는 치료 장소를 돕는 도구이지 환자를 대신 판단하는 명령문이 아니다.\"\" SpO₂ <92%, 경구 섭취 불가, 복약·돌봄의 어려움이 있으면 낮은 점수라도 입원이 필요할 수 있다.\n\n~~CURB-65의 표준 SBP 경계는 <90으로 제시되는 자료가 많다. 여기서는 강의 표기의 ≤90을 남겼으며, 실제 문항에서는 경계값과 발문을 함께 확인한다.~~~\n\n[[33강#입원 CAP는 전형균과 비정형균을 함께 치료한다|입원 CAP는 전형균과 비정형균을 함께 치료한다]] · [[33강#CURB-65는 다섯 항목을 한 점씩 더한다|CURB-65는 다섯 항목을 한 점씩 더한다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.2. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2023/official-p002.jpg"
+      ],
       "legacyProfessor": "곽승민",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.2 출제자란 확인",
       "lectureIds": [
         33
       ],
       "lectureId": 33,
       "lectureTitle": "폐렴,폐농양",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 2번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.2",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "source": "2023 원본.pdf",
+          "page": 2,
+          "file": "J/2023/official-p002.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 2,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 폐렴, 폐농양 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "입원 CAP는 전형균과 비정형균을 함께 치료한다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -14042,6 +14325,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 2,
+        "professor": "곽승민",
+        "lecture": "폐렴",
+        "question": "65세  남자 환자가 발열과 기침으로 응급실에 내원하였다. 최근 3개월내에  감염성 질환으\n로 입원하거나 항생제 투여 받은 적은 없으며 고혈압으로 약 복용하고 있었고, 그 외 다른\n과거 질환력은 없다고 하였다. 내원 당시 의식은 명료하였고, 맥박수 125/분, 호흡수 35회/\n분, 혈압 130//80 mmHg, 체온 38.2도 이었다. 신체 검진 우측 폐하부에서 타진 시, 수포음\n이 청취되었다. 혈액검사상 백혈구 수치 13,000/ul, 중성구 80%, BUN/Cr 25/ 0.4,\nAST/ALT/T.bil 33/40/1.0  CRP 13.0 이었다.\n단순 흉부 촬영 소견이다. 이 환자에게 선택되어야 할 가장 적합한 항생제는?",
+        "choices": [
+          "ceftriaxone + doxycycline",
+          "ceftriaxone + azithromycin",
+          "ceftazidime +  azithromycin",
+          "ceftriaxone + tobramycin",
+          "azithromycin + imipenem"
+        ],
+        "answer": "2)",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14068,59 +14369,58 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n=== 풀이의 핵심 ===\n과거 활동성 폐결핵을 '''적절하게 치료한 사람'''은 TST·IGRA가 계속 양성일 수 있다. 이 양성 자체만으로 다시 LTBI 치료를 하지는 않으므로 공식 정답은 4번이다. ‘과거 결핵을 치료했다’와 ‘치료력 없이 X선에 자연 치유 흔적이 있다’를 구분해야 한다.\n\n다른 선지는 최근 감염 위험 또는 발병 위험이 높은 대상이다. 올해 강의에서는 의료기관 종사자, 투석·혈액암·면역억제 치료 등의 범위도 함께 확인한다. 공식 원문에 적힌 접촉자 65세 기준은 출제 당시 설명이며, 그것만으로 현재 모든 접촉자의 치료를 일률적으로 제한하지 않는다.\n\n=== 선지별 해설 ===\n* 1번: 위절제술 후 상태는 결핵 발병 위험과 관련된다. 올해 강의에서도 위절제술 시행·예정자 중 고위험군에서 검사를 고려한다. 단순히 수술 후 오래되었다는 이유로 제외하지 않는다.\n* 2번: 전염성 환자의 동거 가족은 밀접접촉자다. 최근 감염 가능성과 발병 위험을 평가하고 활동성 결핵을 배제한 뒤 LTBI 치료를 고려하는 핵심 대상이다.\n* 3번: 당뇨병에 더해 ‘치료력 없이 자연 치유된 결핵흔적’을 의도한 선지다. 이미 적절한 치료를 받은 4번과 다르다. 실제 평가에서는 과거 치료력을 반드시 확인한다.\n* 4번: 정답이다. 과거 적절한 활동성 결핵 치료를 마친 환자의 면역검사 양성만으로 예방치료를 반복하지 않는다. 새 접촉이나 특수 면역억제 상황은 별도로 판단한다.\n* 5번: 기관지내시경실 근무자는 감염성 호흡기 검체·환자와 접촉할 수 있다. 의료기관 종사자의 노출 위험에 따라 검사와 치료를 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료 대상은 최근 감염과 발병 위험으로 고른다'''\n\n잠복결핵 양성이라고 위험이 모두 같은 것은 아니다. 최근 전염성 환자와 가까이 지낸 사람은 새로 감염되었을 가능성이 높고, 면역억제 상태에서는 균을 억제하는 힘이 약해진다. 이 두 축이 검사·치료 대상 선정의 중심이다.\n\n||= 강의의 권고 수준 ||= 대상 ||\n|| '''검사 시행''' || 전염성 결핵 접촉자, HIV, 장기이식·면역억제제 사용 예정, TNF 길항제, 기타 생물학적 제제·소분자 약제 치료 예정, '''치료력 없는 자연 치유 결핵흔적''', 규폐증 ||\n|| '''검사 권고''' || 장기간 스테로이드를 사용하는 자가면역질환, 투석 중 말기신부전, 혈액암, 의료기관 종사자 ||\n|| '''일부 고위험군에서 고려''' || 당뇨병, 고형암, 위절제술 시행 또는 예정 ||\n|| '''양성만으로 재치료하지 않음''' || 과거 활동성 결핵을 적절히 치료한 환자. 치료 후에도 면역검사는 양성일 수 있다. 새 노출 등 특별한 상황은 별도 판단 ||\n\n'''치료받은 과거 결핵'''과 '''치료받지 않고 자연 치유된 결핵흔적'''은 다른 상황이다. 전자는 면역검사가 계속 양성이라는 이유만으로 예방치료를 반복하지 않지만, 후자는 향후 발병 위험을 평가해 치료를 고려한다.\n\n> 당뇨·투석·위절제·두경부암은 발병 위험과 연결된다. 허혈성 심질환 자체는 같은 고위험 인자가 아니다. 다만 밀접접촉자라는 조건이 이미 있으면 그 자체로 검사·치료 평가 대상이므로, ‘심질환자는 접촉 후에도 치료하지 않는다’고 일반화하지 않는다.\n\n'''양성 검사보다 먼저 활동성 결핵을 배제한다'''\n\n'''잠복결핵감염, LTBI'''는 결핵균 감염의 면역학적 증거는 있지만 현재 활동성 질병의 증거가 없는 상태다. 증상이 없고 타인에게 전염시키지 않는다. 영상이 정상일 수 있지만, 과거 자연 치유된 흔적이 있는 환자도 치료 대상에 포함될 수 있으므로 ‘X선이 반드시 완전히 정상’이라는 조건으로 좁히지 않는다.\n\nLTBI 검사에 앞서 증상과 병력, 흉부 X선 등으로 '''활동성 결핵을 배제'''한다. 활동성 결핵을 놓친 채 R 또는 H만 투여하면 불충분한 치료와 내성 위험이 생긴다.\n\n||= 대상 ||= 강의의 검사 선택·판독 ||\n|| 정상 면역 성인, 영아기에 BCG 1회 또는 미접종 || TST 또는 IGRA. TST '''≥10 mm'''이면 양성 ||\n|| BCG ≥2회 또는 접종력 불확실 || IGRA를 선택 ||\n|| 면역저하 성인 || IGRA를 먼저 하고, 음성이면 TST를 추가하는 강의 알고리즘. TST ≥10 mm이면 양성 ||\n\n[[파일:assets/lecture-30/ltbi-immunocompetent-algorithm.jpg|정상 면역 성인: 활동성 결핵 배제 → BCG 접종력 → TST 또는 IGRA]]\n[[파일:assets/lecture-30/ltbi-immunocompromised-algorithm.jpg|면역저하 성인: 활동성 결핵 배제 → IGRA → 음성이면 TST 추가]]\n\n두 도식은 '''활동성 결핵을 먼저 배제한다'''는 출발점은 같다. 갈림길은 그다음이다.\n\n* '''정상 면역''': 영아기 BCG 1회 접종·미접종이면 TST 또는 IGRA를 선택한다. BCG를 2회 이상 맞았거나 접종력이 불확실하면 IGRA 쪽으로 간다.\n* '''면역저하''': IGRA 양성은 LTBI 양성으로 연결하고, '''IGRA 음성일 때 TST를 추가'''한다. 추가 TST가 ≥10 mm이면 양성으로 판단하는 흐름이다.\n* '''추가 검사까지 음성''': 도식의 음성 분기로 가지만, 면역저하·최근 노출 등 검사 반응에 영향을 주는 조건을 함께 본다.\n\nTST는 홍반이 아니라 '''경결'''을 읽는다. 면역저하에서는 반응이 약할 수 있으므로 음성 결과를 감염의 절대적 배제로 받아들이지 않는다. 위 수치는 강의의 성인 알고리즘이며 모든 연령·상황에 동일한 단일 절단값을 적용한다는 뜻은 아니다.\n\n=== 공식 오답30 원문 해설 ===\n2023 호흡기계 오답30 p.7의 원문이다. 줄바꿈만 정리했으며 당시 표현을 보존했다.\n\n> 전염성 결핵환자의 밀접 접촉자에서 잠복 결핵 양성은 최근 감염성이 높고, 위암 수술한 환자와, 흉부X-선 진상 과거 결핵 치료력 없이 자연 치유된 흔적이 있는 당뇨환자는 결핵 발병 중등도 위험군에 해당됨 65세 이하의 밀접접촉자의 경우 치료를 시행한다 기관지 내시경실 의료기관 종사자는 호흡기 결핵 환자와 접촉가능성이 높은 종사자로(1군 분류) 과거 활동성 폐결핵으로 치료했던 잠복 결핵 양성인 환자는 치료 대상자가 아니다.\n\n[[30강#치료 대상은 최근 감염과 발병 위험으로 고른다|치료 대상은 최근 감염과 발병 위험으로 고른다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 64–69쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다. 공식 오답30의 정답·해설·출제자(곽승민)를 직접 대조했다.~~~",
+      "answerLabel": "4번 — 과거 활동성 폐결핵으로 치료한 환자",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④\n\n=== 풀이의 핵심 ===\n과거 활동성 폐결핵을 '''적절하게 치료한 사람'''은 TST·IGRA가 계속 양성일 수 있다. 이 양성 자체만으로 다시 LTBI 치료를 하지는 않으므로 공식 정답은 4번이다. ‘과거 결핵을 치료했다’와 ‘치료력 없이 X선에 자연 치유 흔적이 있다’를 구분해야 한다.\n\n다른 선지는 최근 감염 위험 또는 발병 위험이 높은 대상이다. 올해 강의에서는 의료기관 종사자, 투석·혈액암·면역억제 치료 등의 범위도 함께 확인한다. 공식 원문에 적힌 접촉자 65세 기준은 출제 당시 설명이며, 그것만으로 현재 모든 접촉자의 치료를 일률적으로 제한하지 않는다.\n\n=== 선지별 해설 ===\n* 1번: 위절제술 후 상태는 결핵 발병 위험과 관련된다. 올해 강의에서도 위절제술 시행·예정자 중 고위험군에서 검사를 고려한다. 단순히 수술 후 오래되었다는 이유로 제외하지 않는다.\n* 2번: 전염성 환자의 동거 가족은 밀접접촉자다. 최근 감염 가능성과 발병 위험을 평가하고 활동성 결핵을 배제한 뒤 LTBI 치료를 고려하는 핵심 대상이다.\n* 3번: 당뇨병에 더해 ‘치료력 없이 자연 치유된 결핵흔적’을 의도한 선지다. 이미 적절한 치료를 받은 4번과 다르다. 실제 평가에서는 과거 치료력을 반드시 확인한다.\n* 4번: 정답이다. 과거 적절한 활동성 결핵 치료를 마친 환자의 면역검사 양성만으로 예방치료를 반복하지 않는다. 새 접촉이나 특수 면역억제 상황은 별도로 판단한다.\n* 5번: 기관지내시경실 근무자는 감염성 호흡기 검체·환자와 접촉할 수 있다. 의료기관 종사자의 노출 위험에 따라 검사와 치료를 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료 대상은 최근 감염과 발병 위험으로 고른다'''\n\n잠복결핵 양성이라고 위험이 모두 같은 것은 아니다. 최근 전염성 환자와 가까이 지낸 사람은 새로 감염되었을 가능성이 높고, 면역억제 상태에서는 균을 억제하는 힘이 약해진다. 이 두 축이 검사·치료 대상 선정의 중심이다.\n\n||= 강의의 권고 수준 ||= 대상 ||\n|| '''검사 시행''' || 전염성 결핵 접촉자, HIV, 장기이식·면역억제제 사용 예정, TNF 길항제, 기타 생물학적 제제·소분자 약제 치료 예정, '''치료력 없는 자연 치유 결핵흔적''', 규폐증 ||\n|| '''검사 권고''' || 장기간 스테로이드를 사용하는 자가면역질환, 투석 중 말기신부전, 혈액암, 의료기관 종사자 ||\n|| '''일부 고위험군에서 고려''' || 당뇨병, 고형암, 위절제술 시행 또는 예정 ||\n|| '''양성만으로 재치료하지 않음''' || 과거 활동성 결핵을 적절히 치료한 환자. 치료 후에도 면역검사는 양성일 수 있다. 새 노출 등 특별한 상황은 별도 판단 ||\n\n'''치료받은 과거 결핵'''과 '''치료받지 않고 자연 치유된 결핵흔적'''은 다른 상황이다. 전자는 면역검사가 계속 양성이라는 이유만으로 예방치료를 반복하지 않지만, 후자는 향후 발병 위험을 평가해 치료를 고려한다.\n\n> 당뇨·투석·위절제·두경부암은 발병 위험과 연결된다. 허혈성 심질환 자체는 같은 고위험 인자가 아니다. 다만 밀접접촉자라는 조건이 이미 있으면 그 자체로 검사·치료 평가 대상이므로, ‘심질환자는 접촉 후에도 치료하지 않는다’고 일반화하지 않는다.\n\n'''양성 검사보다 먼저 활동성 결핵을 배제한다'''\n\n'''잠복결핵감염, LTBI'''는 결핵균 감염의 면역학적 증거는 있지만 현재 활동성 질병의 증거가 없는 상태다. 증상이 없고 타인에게 전염시키지 않는다. 영상이 정상일 수 있지만, 과거 자연 치유된 흔적이 있는 환자도 치료 대상에 포함될 수 있으므로 ‘X선이 반드시 완전히 정상’이라는 조건으로 좁히지 않는다.\n\nLTBI 검사에 앞서 증상과 병력, 흉부 X선 등으로 '''활동성 결핵을 배제'''한다. 활동성 결핵을 놓친 채 R 또는 H만 투여하면 불충분한 치료와 내성 위험이 생긴다.\n\n||= 대상 ||= 강의의 검사 선택·판독 ||\n|| 정상 면역 성인, 영아기에 BCG 1회 또는 미접종 || TST 또는 IGRA. TST '''≥10 mm'''이면 양성 ||\n|| BCG ≥2회 또는 접종력 불확실 || IGRA를 선택 ||\n|| 면역저하 성인 || IGRA를 먼저 하고, 음성이면 TST를 추가하는 강의 알고리즘. TST ≥10 mm이면 양성 ||\n\n[[파일:assets/lecture-30/ltbi-immunocompetent-algorithm.jpg|정상 면역 성인: 활동성 결핵 배제 → BCG 접종력 → TST 또는 IGRA]]\n[[파일:assets/lecture-30/ltbi-immunocompromised-algorithm.jpg|면역저하 성인: 활동성 결핵 배제 → IGRA → 음성이면 TST 추가]]\n\n두 도식은 '''활동성 결핵을 먼저 배제한다'''는 출발점은 같다. 갈림길은 그다음이다.\n\n* '''정상 면역''': 영아기 BCG 1회 접종·미접종이면 TST 또는 IGRA를 선택한다. BCG를 2회 이상 맞았거나 접종력이 불확실하면 IGRA 쪽으로 간다.\n* '''면역저하''': IGRA 양성은 LTBI 양성으로 연결하고, '''IGRA 음성일 때 TST를 추가'''한다. 추가 TST가 ≥10 mm이면 양성으로 판단하는 흐름이다.\n* '''추가 검사까지 음성''': 도식의 음성 분기로 가지만, 면역저하·최근 노출 등 검사 반응에 영향을 주는 조건을 함께 본다.\n\nTST는 홍반이 아니라 '''경결'''을 읽는다. 면역저하에서는 반응이 약할 수 있으므로 음성 결과를 감염의 절대적 배제로 받아들이지 않는다. 위 수치는 강의의 성인 알고리즘이며 모든 연령·상황에 동일한 단일 절단값을 적용한다는 뜻은 아니다.\n\n=== 공식 오답30 원문 해설 ===\n2023 호흡기계 오답30 p.7의 원문이다. 줄바꿈만 정리했으며 당시 표현을 보존했다.\n\n> 전염성 결핵환자의 밀접 접촉자에서 잠복 결핵 양성은 최근 감염성이 높고, 위암 수술한 환자와, 흉부X-선 진상 과거 결핵 치료력 없이 자연 치유된 흔적이 있는 당뇨환자는 결핵 발병 중등도 위험군에 해당됨 65세 이하의 밀접접촉자의 경우 치료를 시행한다 기관지 내시경실 의료기관 종사자는 호흡기 결핵 환자와 접촉가능성이 높은 종사자로(1군 분류) 과거 활동성 폐결핵으로 치료했던 잠복 결핵 양성인 환자는 치료 대상자가 아니다.\n\n[[30강#치료 대상은 최근 감염과 발병 위험으로 고른다|치료 대상은 최근 감염과 발병 위험으로 고른다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 64–69쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다. 공식 오답30의 정답·해설·출제자(곽승민)를 직접 대조했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.3. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
       "professor": "곽승민",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 오답30 p.7 출제자란 곽승민 직접 확인 (2026-10-20)",
+      "examinerEvidence": "2023 원본.pdf p.3 출제자란 확인",
       "lectureIds": [
         30
       ],
       "lectureId": 30,
       "lectureTitle": "결핵과 비결핵성 항산균",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 3번, 오답30 p.7",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.3, 오답30 p.7",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "officialPage": 7,
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture30_wiki_j_jbl",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
         "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
-        "summaryUsed": true,
+        "officialSourcePage": 3,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\30. 결핵과 비결핵항산균_강의록.pdf",
-            "description": "39기 강의록 64–69쪽"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "official_low30",
-            "year": 2023,
-            "page": 7,
-            "verifiedProfessor": "곽승민"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 3,
+        "professor": "곽승민",
+        "lecture": "폐결핵",
+        "question": "잠복 결핵의 감염 검사에서 양성으로 나올 경우 치료대상자가 아닌 경우?",
+        "choices": [
+          "10년 전 위암으로 수술한 60세 환자",
+          "전염성 결핵 환자의 동거 가족",
+          "흉부 촬영상 결핵  흔적이 있는 당뇨병 환자",
+          "과거 활동성 폐결핵으로 치료한 환자",
+          "기관지 내시경 근무자"
         ],
-        "chapter": "치료 대상은 최근 감염과 발병 위험으로 고른다",
-        "basis": "39기 강의록 64–69쪽"
+        "answer": "4)",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14134,71 +14434,72 @@ window.JBL_DATA = {
       "originalNumbers": [
         4
       ],
-      "question": "62세 여자 환자가 수개월 전부터 기침, 가래, 혈담이 있어서 내원하였다. 흉부 CT 상 양측 폐에 공동과 결절성 기관지 확장증의 소견을 보였고 객담 검사에서 수차례 비결핵 항산균(NTM)이 배양되었으며, PCR 검사에서 mycobacterium avium complex(MAC)가 동정되었다. 이 환자에 대한 설명으로 맞지 않는 것은?",
+      "question": "62세 여자 환자가 수개월 전부터 기침, 가래, 혈담이 있어서 내원하였다. 흉부 CT 상 양측 폐에 공동과 결절성 기관지 확장증의 소견을 보였고 객담 검사에서 수차례 비결핵 항산균(NTN)이 배양되었으며, PCR 검사에서 mycobacterium avium complex(MAC)가 동정되었다. 이 환자에 대한 설명으로 맞는 것은?",
       "passage": "",
       "choices": [
         "마크로라이드 항생제 단독으로 약 1년 이상 치료해야 한다",
         "약제 감수성 검사에서 리팜핀 내성 여부가 치료 성공과 연관되어 있다",
-        "피라진아마이드, 이소니아지드를 포함해야 한다",
+        "피라진아마드, 이소니아지드를 포함해야 한다",
         "마크로라이드 내성 환자의 경우 아미카신 주사제 투여가 필요하다",
         "객담에서 검출된 MAC은 colonization일 가능성이 많아 경과 관찰이 필요하다"
       ],
-      "answerIndex": null,
+      "answerIndex": 4,
       "answerIndices": [
-        1,
-        2,
-        3,
-        5
+        4
       ],
-      "answerLabel": "정답: ①·②·③·⑤ (복수정답)",
-      "explanation": "정답: ①·②·③·⑤ (복수정답)\n\n=== 풀이의 핵심 ===\n현재 복원된 선지 기준으로는 '''1·2·3·5번이 틀리고, 4번이 맞다.''' 원래 발문은 단일선택처럼 보이지만 여러 선지가 명백하게 어긋나 있어 기존 복수정답 판정을 유지한다. 원시험 선지 표현을 모두 확인한 것은 아니므로 하나의 정답을 억지로 고르지 않는다.\n\nMAC의 축은 '''macrolide 감수성 → macrolide + rifamycin + ethambutol'''이다. 증상, 공동·결절성 기관지확장증, 반복 MAC 배양이 함께 있으므로 단순 colonization으로 치부하기 어렵다. 치료 여부를 신중하게 결정한다는 원칙과 이 환자를 ‘대부분 집락화’로 보는 설명은 다르다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. Macrolide 단독치료는 내성 출현 위험 때문에 피한다. 기본적으로 macrolide·rifamycin·ethambutol을 병합하고 치료 기간은 시작일부터 1년이 아니라 배양 음전 후 최소 12개월이다.\n* 2번: 틀리다. MAC에서는 macrolide 감수성이 치료 성공을 좌우하는 핵심이며 amikacin도 중요하다. RIF 감수성과 임상 성적의 관계를 강조하는 M. kansasii와 혼동하지 않는다.\n* 3번: 틀리다. H·Z를 포함하는 표준 결핵요법을 MAC에 그대로 적용하지 않는다. MAC의 기본 조합은 macrolide + rifamycin + E다.\n* 4번: 맞는 설명이다. Macrolide 내성 MAC은 치료가 어려워 IV amikacin 등을 포함한 다제요법을 전문가와 구성한다. Amikacin 단독치료라는 의미는 아니다.\n* 5번: 이 증례에 대한 설명으로 틀리다. 기침·혈담, 공동과 기관지확장증, 반복 MAC 배양은 실제 MAC 폐질환을 지지한다. 모든 진단 환자를 즉시 치료하는 것은 아니지만, 이 정도 근거를 단순 colonization으로 치부하며 관찰만 한다고 일반화할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''MAC은 macrolide를 중심으로 세 약을 묶는다'''\n\nMAC 치료 성적과 가장 직접적으로 연결되는 감수성은 '''macrolide'''이며 amikacin 감수성도 중요하다. 감수성이 있다면 '''azithromycin 또는 clarithromycin + rifamycin + ethambutol'''이 기본이다. Azithromycin은 상호작용·복용 편의 때문에 흔히 선호한다. \"\"Macrolide 단독치료는 내성을 만들 수 있어 피한다.\"\"\n\n[[파일:assets/lecture-30/mac-treatment-algorithm.jpg|MAC 치료: macrolide 감수성 → 공동·중증도 → 투여 빈도와 추가 약제]]\n\n도식의 첫 갈림길은 '''macrolide가 듣는가'''다. 감수성이 있으면 공동 유무·중증도로 투여 빈도와 주사제 추가 여부를 정한다. 감수성이 없다면 동일한 기본 처방을 반복하는 대신 '''유효한 다른 약제를 조합'''해야 한다. 도식의 '''TIW는 주 3회''', daily는 매일이라는 뜻이다.\n\n||= MAC의 상태 ||= 치료 구성·빈도 ||\n|| 비공동성, 심하지 않은 NB형 || Macrolide + R 또는 rifabutin + E, '''주 3회''' 간헐요법 가능 ||\n|| 공동성 또는 진행·중증 NB형 || 같은 기본 약제를 '''매일''' 투여. 초기 IV amikacin 등을 '''2–3개월''' 추가 고려 ||\n|| Macrolide 내성 || 매일 R·E에 다른 유효 약제를 조합하는 도식. 추가 후보는 clofazimine, moxifloxacin, bedaquiline, 흡입 amikacin 등이며 필요 시 주사 amikacin도 고려. 감수성·독성에 따라 전문가와 구성하며 '''후보 약을 전부 일괄 투여하는 뜻은 아님''' ||\n|| 적절한 치료 ≥6개월에도 배양 양성인 난치성 질환 || Amikacin liposome inhalation suspension, '''ALIS''' 추가 등 검토 ||\n|| 치료 기간 || '''배양 음전 후 최소 12개월''' 유지. 첫 투약일부터 1년이 아님 ||\n\n'''중증이어서 초기 주사제를 보태는 경우'''와 '''충분히 치료해도 배양이 계속 양성이어서 ALIS를 보태는 경우'''를 구별한다. 전자는 치료 시작 단계의 균 부담·공동·중증도에 대한 판단이고, 후자는 적절한 치료를 했는데도 반응이 부족한 난치성 질환에 대한 판단이다.\n\nRIF 감수성과 치료 성공의 연관성이 특히 중요한 균은 M. kansasii다. 이를 MAC의 핵심 감수성으로 바꿔 외우지 않는다. MAC에 표준 결핵요법의 H·Z를 그대로 넣지도 않는다.\n\n'''NTM 폐질환은 임상·영상·미생물 조건을 함께 충족한다'''\n\nNTM 폐질환의 진단에는 '''호흡기 또는 전신 증상''', '''적합한 영상''', '''다른 진단의 배제'''가 필요하고, 여기에 아래 미생물 조건 중 하나가 더해져야 한다.\n\n||= 검체 ||= 미생물학적 기준 ||\n|| '''서로 다른 객담''' || '''같은 NTM 균종이 2회 이상''' 배양. 균종·필요한 아종까지 확인 ||\n|| '''기관지 세척액 또는 BAL''' || '''1회 이상''' 배양 양성 ||\n|| '''폐조직''' || 육아종 또는 AFB 등 항산균 감염에 맞는 조직 소견 + 조직 배양 양성 ||\n|| 조직 소견 + 다른 검체 || 적합한 조직 소견 + 객담 또는 기관지 세척액 배양 1회 이상 양성 ||\n\n* '''AFB 양성·TB PCR 음성''': NTM을 의심하는 단계다. 아직 균종과 진단기준이 확정되지 않았다.\n* '''객담에서 NTM 한 번''': 검출 사실은 있지만 객담 기준을 충족하지 않는다.\n* '''객담에서 NTM 두 번''': 두 결과가 같은 균종인지 확인해야 한다.\n* '''서로 다른 객담에서 M. avium 두 번 + 적합한 증상·영상''': NTM 폐질환의 진단기준에 부합한다.\n\n> ‘객담 두 번’과 ‘기관지 세척액 한 번’을 서로 바꾸지 않는다. 배양 횟수만 맞춰도 되는 것이 아니라 증상·영상과 다른 진단의 배제가 함께 필요하다.\n\n[[30강#MAC은 macrolide를 중심으로 세 약을 묶는다|MAC은 macrolide를 중심으로 세 약을 묶는다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 77–88쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "정답: ④",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④\n\n=== 풀이의 핵심 ===\n'''4번이 맞다.''' Macrolide 내성 MAC 폐질환에서는 주사 amikacin 등을 포함한 다제요법을 고려한다. 이 환자는 증상과 공동·결절성 기관지확장증, 반복 MAC 배양 소견이 함께 있어 MAC 폐질환에 부합한다.\n\n발문의 ‘맞지 않는 것은?’을 ‘맞는 것은?’으로 바로잡았다. 1·2·3·5번은 틀린 설명이며 정답은 4번 하나다.\n\nMAC의 축은 '''macrolide 감수성 → macrolide + rifamycin + ethambutol'''이다. 증상, 공동·결절성 기관지확장증, 반복 MAC 배양이 함께 있으므로 단순 colonization으로 치부하기 어렵다. 치료 여부를 신중하게 결정한다는 원칙과 이 환자를 ‘대부분 집락화’로 보는 설명은 다르다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. Macrolide 단독치료는 내성 출현 위험 때문에 피한다. 기본적으로 macrolide·rifamycin·ethambutol을 병합하고 치료 기간은 시작일부터 1년이 아니라 배양 음전 후 최소 12개월이다.\n* 2번: 틀리다. MAC에서는 macrolide 감수성이 치료 성공을 좌우하는 핵심이며 amikacin도 중요하다. RIF 감수성과 임상 성적의 관계를 강조하는 M. kansasii와 혼동하지 않는다.\n* 3번: 틀리다. H·Z를 포함하는 표준 결핵요법을 MAC에 그대로 적용하지 않는다. MAC의 기본 조합은 macrolide + rifamycin + E다.\n* 4번: 맞는 설명이다. Macrolide 내성 MAC은 치료가 어려워 IV amikacin 등을 포함한 다제요법을 전문가와 구성한다. Amikacin 단독치료라는 의미는 아니다.\n* 5번: 이 증례에 대한 설명으로 틀리다. 기침·혈담, 공동과 기관지확장증, 반복 MAC 배양은 실제 MAC 폐질환을 지지한다. 모든 진단 환자를 즉시 치료하는 것은 아니지만, 이 정도 근거를 단순 colonization으로 치부하며 관찰만 한다고 일반화할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''MAC은 macrolide를 중심으로 세 약을 묶는다'''\n\nMAC 치료 성적과 가장 직접적으로 연결되는 감수성은 '''macrolide'''이며 amikacin 감수성도 중요하다. 감수성이 있다면 '''azithromycin 또는 clarithromycin + rifamycin + ethambutol'''이 기본이다. Azithromycin은 상호작용·복용 편의 때문에 흔히 선호한다. \"\"Macrolide 단독치료는 내성을 만들 수 있어 피한다.\"\"\n\n[[파일:assets/lecture-30/mac-treatment-algorithm.jpg|MAC 치료: macrolide 감수성 → 공동·중증도 → 투여 빈도와 추가 약제]]\n\n도식의 첫 갈림길은 '''macrolide가 듣는가'''다. 감수성이 있으면 공동 유무·중증도로 투여 빈도와 주사제 추가 여부를 정한다. 감수성이 없다면 동일한 기본 처방을 반복하는 대신 '''유효한 다른 약제를 조합'''해야 한다. 도식의 '''TIW는 주 3회''', daily는 매일이라는 뜻이다.\n\n||= MAC의 상태 ||= 치료 구성·빈도 ||\n|| 비공동성, 심하지 않은 NB형 || Macrolide + R 또는 rifabutin + E, '''주 3회''' 간헐요법 가능 ||\n|| 공동성 또는 진행·중증 NB형 || 같은 기본 약제를 '''매일''' 투여. 초기 IV amikacin 등을 '''2–3개월''' 추가 고려 ||\n|| Macrolide 내성 || 매일 R·E에 다른 유효 약제를 조합하는 도식. 추가 후보는 clofazimine, moxifloxacin, bedaquiline, 흡입 amikacin 등이며 필요 시 주사 amikacin도 고려. 감수성·독성에 따라 전문가와 구성하며 '''후보 약을 전부 일괄 투여하는 뜻은 아님''' ||\n|| 적절한 치료 ≥6개월에도 배양 양성인 난치성 질환 || Amikacin liposome inhalation suspension, '''ALIS''' 추가 등 검토 ||\n|| 치료 기간 || '''배양 음전 후 최소 12개월''' 유지. 첫 투약일부터 1년이 아님 ||\n\n'''중증이어서 초기 주사제를 보태는 경우'''와 '''충분히 치료해도 배양이 계속 양성이어서 ALIS를 보태는 경우'''를 구별한다. 전자는 치료 시작 단계의 균 부담·공동·중증도에 대한 판단이고, 후자는 적절한 치료를 했는데도 반응이 부족한 난치성 질환에 대한 판단이다.\n\nRIF 감수성과 치료 성공의 연관성이 특히 중요한 균은 M. kansasii다. 이를 MAC의 핵심 감수성으로 바꿔 외우지 않는다. MAC에 표준 결핵요법의 H·Z를 그대로 넣지도 않는다.\n\n'''NTM 폐질환은 임상·영상·미생물 조건을 함께 충족한다'''\n\nNTM 폐질환의 진단에는 '''호흡기 또는 전신 증상''', '''적합한 영상''', '''다른 진단의 배제'''가 필요하고, 여기에 아래 미생물 조건 중 하나가 더해져야 한다.\n\n||= 검체 ||= 미생물학적 기준 ||\n|| '''서로 다른 객담''' || '''같은 NTM 균종이 2회 이상''' 배양. 균종·필요한 아종까지 확인 ||\n|| '''기관지 세척액 또는 BAL''' || '''1회 이상''' 배양 양성 ||\n|| '''폐조직''' || 육아종 또는 AFB 등 항산균 감염에 맞는 조직 소견 + 조직 배양 양성 ||\n|| 조직 소견 + 다른 검체 || 적합한 조직 소견 + 객담 또는 기관지 세척액 배양 1회 이상 양성 ||\n\n* '''AFB 양성·TB PCR 음성''': NTM을 의심하는 단계다. 아직 균종과 진단기준이 확정되지 않았다.\n* '''객담에서 NTM 한 번''': 검출 사실은 있지만 객담 기준을 충족하지 않는다.\n* '''객담에서 NTM 두 번''': 두 결과가 같은 균종인지 확인해야 한다.\n* '''서로 다른 객담에서 M. avium 두 번 + 적합한 증상·영상''': NTM 폐질환의 진단기준에 부합한다.\n\n> ‘객담 두 번’과 ‘기관지 세척액 한 번’을 서로 바꾸지 않는다. 배양 횟수만 맞춰도 되는 것이 아니라 증상·영상과 다른 진단의 배제가 함께 필요하다.\n\n[[30강#MAC은 macrolide를 중심으로 세 약을 묶는다|MAC은 macrolide를 중심으로 세 약을 묶는다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 77–88쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.4. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
-      "professor": "유우경",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.4 출제자란 확인",
       "lectureIds": [
         30
       ],
       "lectureId": 30,
       "lectureTitle": "결핵과 비결핵성 항산균",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 4번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.4",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture30_wiki_j_jbl",
-        "answerStatus": "restored_multiple_answers_preserved",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 4,
+        "originalQuestionAndImagesPreserved": false,
         "peerExplanationUsed": false,
-        "summaryUsed": true,
-        "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\30. 결핵과 비결핵항산균_강의록.pdf",
-            "description": "39기 강의록 77–88쪽"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "interpretationCaution": false,
+        "correction": "사용자 요청에 따라 맞는 것은?으로 오타 수정, ! 없음"
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 4,
+        "professor": "곽승민",
+        "lecture": "비결핵항산균 폐질환(NTM-LD)",
+        "question": "1) 62세 여자 환자가 수개월전부터 기침, 가래, 혈담이 있어서 내원하였다. 흉부 CT 상 양측\n폐에 공동과 결절성 기관지 확장증의 소견을 보였고 객담 검사에서 수차례 비결핵 항산균\n(NTN)이 배양 되었으며, PCR 검사에서 mycobacterium avium complex(MAC) 가 동정 되\n었다.  이 환자에 대한 설명으로 맞지 않는 것은?",
+        "choices": [
+          "마크로라이드 항생제 단독으로 약 1년 이상 치료해야한다",
+          "약제 감수성 검사에서 리팜핀 내성 여부가 치료 성공과 연관되어 있다",
+          "피라진아마드, 이소니아지드를 포함해야한다",
+          "마크로라이드 내성 환자의 경우 아미카신 주사제 투여가 필요하다",
+          "객담에서 검출된 MAC은 colonization일 가능성이 많아 경과 관찰이 필요하다"
         ],
-        "externalSources": [
-          "https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/"
-        ],
-        "chapter": "MAC은 macrolide를 중심으로 세 약을 묶는다",
-        "basis": "39기 강의록 77–88쪽"
+        "answer": "4)",
+        "explanation": "전염성  결핵환자의 밀접 접촉자에서  잠복 결핵 양성은 최근 감염성이 높고, 위암 수술한 환\n자와, 흉부X-선 진상 과거 결핵 치료력 없이 자연 치유된 흔적이 있는 당뇨환자는 결핵 발병\n중등도 위험군에 해당됨\n65세 이하의 밀접접촉자의 경우 치료를 시행한다\n기관지 내시경실 의료기관 종사자는 호흡기 결핵 환자와 접촉가능성이 높은 종사자로(1군 분\n류)\n과거 활동성 폐결핵으로 치료했던 잠복 결핵 양성인 환자는 치료 대상자가 아니다.",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14221,57 +14522,62 @@ window.JBL_DATA = {
         "과거 6개월 표준 치료로 초치료를 완료한 후 재발한 결핵 환자는 2차 항결핵제를 투여하면서 약제 감수성 검사를 기다려야한다",
         "초치료 6개월 또는 마지막 달에 시행한 배양이 양성인 경우 치료 실패로 분류한다"
       ],
-      "answerIndex": null,
+      "answerIndex": 2,
       "answerIndices": [
-        2,
-        5
+        2
       ],
-      "answerLabel": "정답: ②·⑤ (복수정답)",
-      "explanation": "정답: ②·⑤ (복수정답)\n\n=== 풀이의 핵심 ===\n기존 복원 문장과 출제 당시의 기준으로는 '''2번과 5번'''을 인정한다. 다만 5번은 과거의 치료 실패 판정 문구이고, 올해 43쪽의 결과 분류표는 더 넓은 정의로 정리되어 있다. ‘마지막 달 배양 양성은 중요한 실패 신호’라는 사실과 ‘현재 정의의 정확한 문구’를 나누어 공부한다.\n\n이 문항은 검사·약물 부작용·재치료·결과 판정을 함께 묻는다. 특히 IGRA를 활동성 판정에 쓰는 오류, 단순 Z 관절통을 영구 중단으로 연결하는 오류, 재발 환자를 무조건 2차 약으로 시작하는 오류를 구분해야 한다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. 선지의 ‘폐외 인터페론 감마 분비 검사’는 문맥상 체외 IGRA를 가리킨 것으로 보이지만 원문을 보존했다. IGRA는 면역학적 감염 흔적을 보며 활동성 결핵과 LTBI를 구별하지 못한다. 단독으로 활동성 폐결핵을 감별하는 검사로 사용할 수 없다.\n* 2번: 맞다. 과거 불규칙 치료는 내성을 의심하는 이유이며 Xpert는 결핵균과 RIF 내성을 신속히 확인한다. 다만 Xpert 하나로 H 내성까지 직접 확인해 MDR을 확진하는 것은 아니고 추가 감수성검사가 필요하다.\n* 3번: 틀리다. Z에 의한 고요산혈증·단순 관절통만으로 영구 중단하지 않는다. NSAID 등으로 조절하며 투약할 수 있고, 급성 통풍성 관절염이면 중단을 고려한다. 요산 12라는 숫자만으로 통풍을 확진하지 않는다.\n* 4번: 틀리다. 적절하게 초치료를 완료한 뒤 재발했다고 무조건 2차 약제를 투여하지 않는다. 이전 치료·감수성, 재발 상황, 신속 내성검사 결과를 바탕으로 처방을 구성한다.\n* 5번: 출제 당시의 치료 실패 기준으로 맞는 설명이므로 기존 정답에 포함한다. 올해 강의는 실패를 ‘기존 요법의 영구 종료 또는 새로운 요법·전략으로 변경’으로 정리한다. 지속 배양 양성은 순응도·감수성 등을 재평가할 이유이며, 그 결과와 임상 경과를 함께 판정한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료 종료 판정과 치료 후 폐손상을 구분한다'''\n\n올해 강의가 인용한 제5판에서는 치료 결과를 다음과 같이 정리한다. 과거 문항의 ‘치료 마지막 달 배양 양성 = 실패’는 중요한 경고 상황이지만, 올해의 전체 결과 정의를 그 한 문장으로 대신하지 않는다.\n\n||= 결과 ||= 올해 강의의 정의 ||\n|| 완치 || 시작 시 세균학적으로 확진되었고 치료를 완료했으며, 세균학적 음전 후 양전이나 실패의 증거가 없다. ||\n|| 완료 || 치료를 완료했지만 완치 또는 실패의 정의에 해당하지 않는다. ||\n|| 실패 || 기존 치료법이 영구 종료되거나 새로운 치료법·전략으로 변경된 경우다. ||\n|| 사망 || 치료 시작 전 또는 치료 과정에서 어떤 이유로든 사망한 경우다. ||\n|| 추적방문 중단 || 치료를 시작하지 않았거나 연속 2개월 이상 중단했다. ||\n|| 평가 미정 || 다른 결과에 해당하지 않는다. ||\n|| 치료 성공 || 완치와 완료를 합한 것이다. ||\n|| 치료 성공 지속 || 치료 성공 후 6개월에 생존·무재발이며, 내성 결핵은 12개월에도 평가한다. ||\n\n결핵균을 없앤 뒤에도 폐기능은 정상으로 돌아오지 않을 수 있다. 모든 환자에서 치료 종료 후 호흡기 증상과 후유증을 평가하고, 호흡곤란·구조적 후유증 등이 있으면 '''종료 시 또는 종료 후 6개월 안에 폐기능검사'''를 고려한다. '''Post-tuberculosis lung disease'''는 치료 실패와 같은 말이 아니다.\n\n'''도말·배양·Xpert는 서로 다른 정보를 준다'''\n\n폐결핵이 의심되면 객담을 '''최소 2회, 가능하면 3회''' 채취해 항산균 도말과 배양을 함께 시행한다. 도말은 빠르지만 균종을 구분하지 못하고, 배양은 시간이 걸리지만 균의 동정과 약제감수성검사의 토대가 된다. 고체배지와 액체배지를 병행하면 검출을 보완할 수 있다.\n\n||= 검사 ||= 무엇을 확인하는가 ||= 놓치지 말아야 할 한계 ||\n|| AFB smear, 항산균 도말 || 항산균이 검체에 보이는가. 양성이면 신속하게 보고한다. || 결핵과 NTM을 구분하지 못한다. 음성도 결핵 배제를 뜻하지 않는다. ||\n|| 항산균 배양·균 동정 || 실제로 자라는 균이 무엇인가 || 시간이 필요하다. NTM이면 종 수준의 동정과 반복 검출 여부가 중요하다. ||\n|| TB NAAT, 결핵균 핵산증폭검사 || 결핵균군의 유전물질이 있는가 || 균량이 적거나 검체가 부적절하면 음성일 수 있다. 배양을 대체하지 않는다. ||\n|| '''Xpert MTB/RIF·Ultra''' || 결핵균군 검출과 '''rifampin 내성'''을 신속하게 평가 || INH를 포함한 모든 약의 감수성을 한 번에 알려 주지는 않는다. ||\n|| 약제감수성검사, DST || 어떤 약이 효과를 낼 수 있는가 || 신속검사와 통상검사가 서로 보완한다. 치료 경과에 따라 재검이 필요하다. ||\n\n올해 강의는 \"\"모든 결핵 의심 환자에서 Xpert MTB/RIF 또는 Ultra 같은 핵산증폭검사를 시행한다\"\"는 방향을 제시한다. 과거 불규칙 치료, 내성 결핵 접촉, 중증·HIV, 치료 중 지속 배양 양성은 특히 신속한 내성 확인이 중요한 상황이지, 이 환자들에게만 검사를 제한한다는 뜻이 아니다.\n\n> Xpert의 핵심은 ‘결핵균인가?’와 ‘리팜핀 내성이 있는가?’를 빠르게 묻는 것이다. NTM의 균종과 치료약을 정하려면 별도의 배양·동정이 필요하다.\n\n~~과거 문항의 Xpert ‘우선 대상’과 올해의 넓어진 검사 원칙을 구분한다. NTM이 의심되는 상황에서도 결핵 배제를 위해 Xpert를 활용할 수 있으므로, ‘NTM 의심 시 절대 검사하지 않는다’고 외우지 않는다.~~~\n\n'''H·R·E·Z의 역할과 부작용을 연결한다'''\n\n네 약을 이름만 외우면 부작용 문제에서 흔들리기 쉽다. H·R이 치료의 중심이고, E가 내성 예방을 보완하며, Z가 초기 집중치료의 살균 효과를 높여 기간을 단축한다는 역할부터 잡자.\n\n||= 약물 ||= 역할·기전 ||= 성인 일일 용량: 강의 기준 ||= 핵심 부작용·대처 ||\n|| '''Isoniazid, H''' || Mycolic acid 합성을 억제하며 증식 중인 균에 강한 살균 작용 || 5 mg/kg, 최대 300 mg. 하루 1회 공복 || '''간독성, 말초신경병증''', 피부과민반응. 위험군에는 pyridoxine을 보충한다. ||\n|| '''Rifampin, R''' || RNA polymerase 억제. 치료의 핵심 rifamycin 계열 || 10 mg/kg, 최대 600 mg. <50 kg 450 mg, ≥50 kg 600 mg, 공복 || 간독성·독감양 증후군·발진·위장장애. '''혈소판 감소'''는 중단 후 재투여를 피한다. 체액이 주황색으로 변할 수 있다. ||\n|| '''Ethambutol, E''' || 정균 작용으로 동반 약의 내성 출현을 억제 || 15–20 mg/kg, 최대 1,600 mg. <50 kg 800 mg, 50–70 kg 1,200 mg, ≥70 kg 1,600 mg || '''시신경병증''': 시력·색각 변화. 신기능 저하에서 축적에 유의한다. ||\n|| '''Pyrazinamide, Z''' || 산성 환경과 건락 병변의 천천히 증식하는 균에 작용 || 20–30 mg/kg, 최대 2,000 mg. <50 kg 1,000 mg, 50–70 kg 1,500 mg, ≥70 kg 2,000 mg || '''간독성, 고요산혈증·관절통''', 위장장애·광과민. 단순 관절통과 급성 통풍을 구분한다. ||\n|| Rifabutin || Rifamycin 계열의 대안. 약물 상호작용을 고려해 선택 || 5 mg/kg, 최대 300 mg, 하루 1회 || 간독성·호중구 감소. 상호작용이 전혀 없는 약은 아니다. ||\n\n표의 70 kg 경계가 E·Z의 두 구간에 겹쳐 표기되어 있으므로 실제 처방은 mg/kg과 최대용량으로 확인한다. H의 말초신경병증 위험이 높은 '''임신·수유, 영양실조, 알코올 의존, 고령, 신부전, 당뇨병, HIV, 경련 병력'''에서는 '''pyridoxine 10–50 mg/day'''를 병용한다. R은 약물대사효소 유도로 다른 약의 농도를 떨어뜨릴 수 있어 복용약 확인이 중요하다.\n\n> H는 간·말초신경, R은 간·혈소판·상호작용·주황색 체액, E는 눈, Z는 간·요산·관절로 묶는다. ‘부작용이 생긴다’와 ‘반드시 영구 중단한다’는 다른 판단이다.\n\n[[30강#치료 종료 판정과 치료 후 폐손상을 구분한다|치료 종료 판정과 치료 후 폐손상을 구분한다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 19–25, 31–45쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "2번 — 과거 불규칙하게 치료한 환자에서 활동성 폐결핵이 의심되는 경우 객담 Xpert MTB/RIF 검사가 다제 내성 결핵 여부를 진단하는 데 도움이 된다.",
+      "explanation": "'''공식 정답: ②'''\n\n=== 풀이의 핵심 ===\n원본의 정답란은 '''2번'''이다. 5번도 과거 치료 실패 정의와 연결되는 문장이지만, 채점에는 공식 지정 답인 2번만 반영한다. 5번이 왜 오답으로 처리되었는지에 대한 설명은 원본에 없다. 다만 5번은 과거의 치료 실패 판정 문구이고, 올해 43쪽의 결과 분류표는 더 넓은 정의로 정리되어 있다. ‘마지막 달 배양 양성은 중요한 실패 신호’라는 사실과 ‘현재 정의의 정확한 문구’를 나누어 공부한다.\n\n이 문항은 검사·약물 부작용·재치료·결과 판정을 함께 묻는다. 특히 IGRA를 활동성 판정에 쓰는 오류, 단순 Z 관절통을 영구 중단으로 연결하는 오류, 재발 환자를 무조건 2차 약으로 시작하는 오류를 구분해야 한다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. 선지의 ‘폐외 인터페론 감마 분비 검사’는 문맥상 체외 IGRA를 가리킨 것으로 보이지만 원문을 보존했다. IGRA는 면역학적 감염 흔적을 보며 활동성 결핵과 LTBI를 구별하지 못한다. 단독으로 활동성 폐결핵을 감별하는 검사로 사용할 수 없다.\n* 2번: 맞다. 과거 불규칙 치료는 내성을 의심하는 이유이며 Xpert는 결핵균과 RIF 내성을 신속히 확인한다. 다만 Xpert 하나로 H 내성까지 직접 확인해 MDR을 확진하는 것은 아니고 추가 감수성검사가 필요하다.\n* 3번: 틀리다. Z에 의한 고요산혈증·단순 관절통만으로 영구 중단하지 않는다. NSAID 등으로 조절하며 투약할 수 있고, 급성 통풍성 관절염이면 중단을 고려한다. 요산 12라는 숫자만으로 통풍을 확진하지 않는다.\n* 4번: 틀리다. 적절하게 초치료를 완료한 뒤 재발했다고 무조건 2차 약제를 투여하지 않는다. 이전 치료·감수성, 재발 상황, 신속 내성검사 결과를 바탕으로 처방을 구성한다.\n* 5번: 치료 마지막 달의 배양 양성은 과거 실패 정의에 부합할 수 있다. 따라서 이 선지를 의학적으로 명백한 오답이라고 단정하기는 어렵지만, 공식 정답은 2번만 지정되어 있다. 올해 강의는 실패를 ‘기존 요법의 영구 종료 또는 새로운 요법·전략으로 변경’으로 정리한다. 지속 배양 양성은 순응도·감수성 등을 재평가할 이유이며, 그 결과와 임상 경과를 함께 판정한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료 종료 판정과 치료 후 폐손상을 구분한다'''\n\n올해 강의가 인용한 제5판에서는 치료 결과를 다음과 같이 정리한다. 과거 문항의 ‘치료 마지막 달 배양 양성 = 실패’는 중요한 경고 상황이지만, 올해의 전체 결과 정의를 그 한 문장으로 대신하지 않는다.\n\n||= 결과 ||= 올해 강의의 정의 ||\n|| 완치 || 시작 시 세균학적으로 확진되었고 치료를 완료했으며, 세균학적 음전 후 양전이나 실패의 증거가 없다. ||\n|| 완료 || 치료를 완료했지만 완치 또는 실패의 정의에 해당하지 않는다. ||\n|| 실패 || 기존 치료법이 영구 종료되거나 새로운 치료법·전략으로 변경된 경우다. ||\n|| 사망 || 치료 시작 전 또는 치료 과정에서 어떤 이유로든 사망한 경우다. ||\n|| 추적방문 중단 || 치료를 시작하지 않았거나 연속 2개월 이상 중단했다. ||\n|| 평가 미정 || 다른 결과에 해당하지 않는다. ||\n|| 치료 성공 || 완치와 완료를 합한 것이다. ||\n|| 치료 성공 지속 || 치료 성공 후 6개월에 생존·무재발이며, 내성 결핵은 12개월에도 평가한다. ||\n\n결핵균을 없앤 뒤에도 폐기능은 정상으로 돌아오지 않을 수 있다. 모든 환자에서 치료 종료 후 호흡기 증상과 후유증을 평가하고, 호흡곤란·구조적 후유증 등이 있으면 '''종료 시 또는 종료 후 6개월 안에 폐기능검사'''를 고려한다. '''Post-tuberculosis lung disease'''는 치료 실패와 같은 말이 아니다.\n\n'''도말·배양·Xpert는 서로 다른 정보를 준다'''\n\n폐결핵이 의심되면 객담을 '''최소 2회, 가능하면 3회''' 채취해 항산균 도말과 배양을 함께 시행한다. 도말은 빠르지만 균종을 구분하지 못하고, 배양은 시간이 걸리지만 균의 동정과 약제감수성검사의 토대가 된다. 고체배지와 액체배지를 병행하면 검출을 보완할 수 있다.\n\n||= 검사 ||= 무엇을 확인하는가 ||= 놓치지 말아야 할 한계 ||\n|| AFB smear, 항산균 도말 || 항산균이 검체에 보이는가. 양성이면 신속하게 보고한다. || 결핵과 NTM을 구분하지 못한다. 음성도 결핵 배제를 뜻하지 않는다. ||\n|| 항산균 배양·균 동정 || 실제로 자라는 균이 무엇인가 || 시간이 필요하다. NTM이면 종 수준의 동정과 반복 검출 여부가 중요하다. ||\n|| TB NAAT, 결핵균 핵산증폭검사 || 결핵균군의 유전물질이 있는가 || 균량이 적거나 검체가 부적절하면 음성일 수 있다. 배양을 대체하지 않는다. ||\n|| '''Xpert MTB/RIF·Ultra''' || 결핵균군 검출과 '''rifampin 내성'''을 신속하게 평가 || INH를 포함한 모든 약의 감수성을 한 번에 알려 주지는 않는다. ||\n|| 약제감수성검사, DST || 어떤 약이 효과를 낼 수 있는가 || 신속검사와 통상검사가 서로 보완한다. 치료 경과에 따라 재검이 필요하다. ||\n\n올해 강의는 \"\"모든 결핵 의심 환자에서 Xpert MTB/RIF 또는 Ultra 같은 핵산증폭검사를 시행한다\"\"는 방향을 제시한다. 과거 불규칙 치료, 내성 결핵 접촉, 중증·HIV, 치료 중 지속 배양 양성은 특히 신속한 내성 확인이 중요한 상황이지, 이 환자들에게만 검사를 제한한다는 뜻이 아니다.\n\n> Xpert의 핵심은 ‘결핵균인가?’와 ‘리팜핀 내성이 있는가?’를 빠르게 묻는 것이다. NTM의 균종과 치료약을 정하려면 별도의 배양·동정이 필요하다.\n\n~~과거 문항의 Xpert ‘우선 대상’과 올해의 넓어진 검사 원칙을 구분한다. NTM이 의심되는 상황에서도 결핵 배제를 위해 Xpert를 활용할 수 있으므로, ‘NTM 의심 시 절대 검사하지 않는다’고 외우지 않는다.~~~\n\n'''H·R·E·Z의 역할과 부작용을 연결한다'''\n\n네 약을 이름만 외우면 부작용 문제에서 흔들리기 쉽다. H·R이 치료의 중심이고, E가 내성 예방을 보완하며, Z가 초기 집중치료의 살균 효과를 높여 기간을 단축한다는 역할부터 잡자.\n\n||= 약물 ||= 역할·기전 ||= 성인 일일 용량: 강의 기준 ||= 핵심 부작용·대처 ||\n|| '''Isoniazid, H''' || Mycolic acid 합성을 억제하며 증식 중인 균에 강한 살균 작용 || 5 mg/kg, 최대 300 mg. 하루 1회 공복 || '''간독성, 말초신경병증''', 피부과민반응. 위험군에는 pyridoxine을 보충한다. ||\n|| '''Rifampin, R''' || RNA polymerase 억제. 치료의 핵심 rifamycin 계열 || 10 mg/kg, 최대 600 mg. <50 kg 450 mg, ≥50 kg 600 mg, 공복 || 간독성·독감양 증후군·발진·위장장애. '''혈소판 감소'''는 중단 후 재투여를 피한다. 체액이 주황색으로 변할 수 있다. ||\n|| '''Ethambutol, E''' || 정균 작용으로 동반 약의 내성 출현을 억제 || 15–20 mg/kg, 최대 1,600 mg. <50 kg 800 mg, 50–70 kg 1,200 mg, ≥70 kg 1,600 mg || '''시신경병증''': 시력·색각 변화. 신기능 저하에서 축적에 유의한다. ||\n|| '''Pyrazinamide, Z''' || 산성 환경과 건락 병변의 천천히 증식하는 균에 작용 || 20–30 mg/kg, 최대 2,000 mg. <50 kg 1,000 mg, 50–70 kg 1,500 mg, ≥70 kg 2,000 mg || '''간독성, 고요산혈증·관절통''', 위장장애·광과민. 단순 관절통과 급성 통풍을 구분한다. ||\n|| Rifabutin || Rifamycin 계열의 대안. 약물 상호작용을 고려해 선택 || 5 mg/kg, 최대 300 mg, 하루 1회 || 간독성·호중구 감소. 상호작용이 전혀 없는 약은 아니다. ||\n\n표의 70 kg 경계가 E·Z의 두 구간에 겹쳐 표기되어 있으므로 실제 처방은 mg/kg과 최대용량으로 확인한다. H의 말초신경병증 위험이 높은 '''임신·수유, 영양실조, 알코올 의존, 고령, 신부전, 당뇨병, HIV, 경련 병력'''에서는 '''pyridoxine 10–50 mg/day'''를 병용한다. R은 약물대사효소 유도로 다른 약의 농도를 떨어뜨릴 수 있어 복용약 확인이 중요하다.\n\n> H는 간·말초신경, R은 간·혈소판·상호작용·주황색 체액, E는 눈, Z는 간·요산·관절로 묶는다. ‘부작용이 생긴다’와 ‘반드시 영구 중단한다’는 다른 판단이다.\n\n[[30강#치료 종료 판정과 치료 후 폐손상을 구분한다|치료 종료 판정과 치료 후 폐손상을 구분한다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 19–25, 31–45쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.5. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
-      "professor": "유우경",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.5 출제자란 확인",
       "lectureIds": [
         30
       ],
       "lectureId": 30,
       "lectureTitle": "결핵과 비결핵성 항산균",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 5번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.5",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture30_wiki_j_jbl",
-        "answerStatus": "historical_multiple_answers_current_outcome_definition_separated",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": true,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 5,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\30. 결핵과 비결핵항산균_강의록.pdf",
-            "description": "39기 강의록 19–25、31–45쪽"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false,
+        "interpretationCaution": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 5,
+        "professor": "곽승민",
+        "lecture": "폐결핵",
+        "question": "결핵의 진단과 치료에 대한 설명중 맞는 것은?",
+        "choices": [
+          "폐외 인터페론 감마 분비 검사는 활동성 폐결핵의 감별에 도움이 된다",
+          "과거 불규칙하게 치료한 환자에서 활동성 폐결핵이 의심되는 경우 객담 Xpert MTB/RIF\n검사가 다제 내성 결핵 여부를 진단하는 데 도움이 된다.",
+          "결핵  치료중 혈중 요산치가 12 mg/dl로 상승되고 무릎 관절통이 생긴 경우는 피라진\n아미드를 영구 중단해야한다",
+          "과거 6개월  표준 치료로 초치료를 완료한 후 재발한 결핵 환자는 2차 항결핵제를  투\n여하면서 약제 감수성 검사를 기다려야한다",
+          "초치료 6개월 또는 마지막 달에 시행한 배양이 양성인 경우 치료 실패로 분류한다"
         ],
-        "chapter": "치료 종료 판정과 치료 후 폐손상을 구분한다",
-        "basis": "39기 강의록 19–25、31–45쪽"
+        "answer": "답) 2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14298,52 +14604,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\n=== 풀이의 핵심 ===\n규칙적으로 4제 치료를 받던 환자가 약 2개월 후 발열과 새로운 경부 림프절 종대를 보이는 것은 '''역설적 반응'''을 의도한 전형적인 흐름이다. 적절한 치료를 유지하는 2번이 가장 맞다.\n\n다만 새 병변을 보기만 하고 역설적 반응으로 확정하는 것은 아니다. 복용 상태, 도말·배양 추이, 감수성과 다른 감염·종양을 평가한다. 발문에 추적 배양 자료가 충분하지 않으므로 정답은 ‘그 평가를 전제로 한 최선의 조치’로 이해한다.\n\n=== 선지별 해설 ===\n* 1번: 림프절 생검이 진단에 필요할 수는 있지만 모든 새 림프절 종대를 즉시 절제하는 것이 우선은 아니다. 진단 목적 검사와 치료 목적 절제술을 구분한다.\n* 2번: 정답이다. 순응도와 균 검사 반응이 적절하고 다른 원인이 배제되면 기존 항결핵제를 유지하며 경과를 본다. 역설적 반응만으로 내성 치료로 전환하지 않는다.\n* 3번: IGRA는 치료 반응을 측정하거나 역설적 반응과 내성을 구별하는 검사가 아니다. 필요한 것은 객담 검사·감수성·임상 평가다.\n* 4번: 내성이나 실제 치료 실패의 근거 없이 2차 약제로 바꾸지 않는다. 불필요한 변경은 부작용을 늘리고 적절한 치료를 방해한다.\n* 5번: 모든 약을 중단할 이유가 없다. 역설적 반응에서는 기존 치료를 유지하는 것이 기본이며, 약물 중단이 필요한 심각한 독성과 구분해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''새 림프절이 생겼다고 바로 치료 실패는 아니다'''\n\n치료가 잘 진행되는데도 기존 병변이 일시적으로 커지거나 새로운 림프절 종대·발열·흉수가 나타날 수 있다. 균에 대한 면역반응이 달라지면서 생기는 '''역설적 반응, paradoxical reaction'''이다. 치료 약 2개월 후 경부 림프절이 커지는 증례가 대표적이며 HIV가 없는 환자에서도 생긴다.\n\n||= 먼저 확인할 것 ||= 확인하는 이유 ||\n|| 약을 규칙적으로 제대로 복용했는가? || 불규칙 복용·흡수 문제는 실제 치료 실패 원인이 될 수 있다. ||\n|| 도말·배양과 감수성 결과는 어떤가? || 지속 배양 양성이나 내성에 의한 악화를 배제한다. ||\n|| 다른 감염·종양·약물 부작용 가능성이 있는가? || 새로운 병변을 모두 역설적 반응으로 돌리지 않는다. ||\n|| 전신 상태와 국소 합병증은 안정적인가? || 압박·농양 등은 별도의 평가와 처치가 필요하다. ||\n\n복용이 적절하고 균 검사 반응이 좋으며 다른 원인이 배제된다면 \"\"기존 항결핵제를 유지하면서 경과를 관찰한다.\"\" 새 림프절 하나만으로 2차 약제로 전환하거나 모든 약을 끊지 않는다.\n\n~~기전·대처 보충: [[https://kdca.go.kr/bbs/kdca/55/259948/download.do|결핵 진료지침 제5판, 본문 50–51쪽]].~~~\n\n[[30강#새 림프절이 생겼다고 바로 치료 실패는 아니다|새 림프절이 생겼다고 바로 치료 실패는 아니다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 38–45; 제5판 역설적 반응 보충쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "2번 — 현재의 항결핵제를 계속 투여한다",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: ②\n\n=== 풀이의 핵심 ===\n규칙적으로 4제 치료를 받던 환자가 약 2개월 후 발열과 새로운 경부 림프절 종대를 보이는 것은 '''역설적 반응'''을 의도한 전형적인 흐름이다. 적절한 치료를 유지하는 2번이 가장 맞다.\n\n다만 새 병변을 보기만 하고 역설적 반응으로 확정하는 것은 아니다. 복용 상태, 도말·배양 추이, 감수성과 다른 감염·종양을 평가한다. 발문에 추적 배양 자료가 충분하지 않으므로 정답은 ‘그 평가를 전제로 한 최선의 조치’로 이해한다.\n\n=== 선지별 해설 ===\n* 1번: 림프절 생검이 진단에 필요할 수는 있지만 모든 새 림프절 종대를 즉시 절제하는 것이 우선은 아니다. 진단 목적 검사와 치료 목적 절제술을 구분한다.\n* 2번: 정답이다. 순응도와 균 검사 반응이 적절하고 다른 원인이 배제되면 기존 항결핵제를 유지하며 경과를 본다. 역설적 반응만으로 내성 치료로 전환하지 않는다.\n* 3번: IGRA는 치료 반응을 측정하거나 역설적 반응과 내성을 구별하는 검사가 아니다. 필요한 것은 객담 검사·감수성·임상 평가다.\n* 4번: 내성이나 실제 치료 실패의 근거 없이 2차 약제로 바꾸지 않는다. 불필요한 변경은 부작용을 늘리고 적절한 치료를 방해한다.\n* 5번: 모든 약을 중단할 이유가 없다. 역설적 반응에서는 기존 치료를 유지하는 것이 기본이며, 약물 중단이 필요한 심각한 독성과 구분해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''새 림프절이 생겼다고 바로 치료 실패는 아니다'''\n\n치료가 잘 진행되는데도 기존 병변이 일시적으로 커지거나 새로운 림프절 종대·발열·흉수가 나타날 수 있다. 균에 대한 면역반응이 달라지면서 생기는 '''역설적 반응, paradoxical reaction'''이다. 치료 약 2개월 후 경부 림프절이 커지는 증례가 대표적이며 HIV가 없는 환자에서도 생긴다.\n\n||= 먼저 확인할 것 ||= 확인하는 이유 ||\n|| 약을 규칙적으로 제대로 복용했는가? || 불규칙 복용·흡수 문제는 실제 치료 실패 원인이 될 수 있다. ||\n|| 도말·배양과 감수성 결과는 어떤가? || 지속 배양 양성이나 내성에 의한 악화를 배제한다. ||\n|| 다른 감염·종양·약물 부작용 가능성이 있는가? || 새로운 병변을 모두 역설적 반응으로 돌리지 않는다. ||\n|| 전신 상태와 국소 합병증은 안정적인가? || 압박·농양 등은 별도의 평가와 처치가 필요하다. ||\n\n복용이 적절하고 균 검사 반응이 좋으며 다른 원인이 배제된다면 \"\"기존 항결핵제를 유지하면서 경과를 관찰한다.\"\" 새 림프절 하나만으로 2차 약제로 전환하거나 모든 약을 끊지 않는다.\n\n~~기전·대처 보충: [[https://kdca.go.kr/bbs/kdca/55/259948/download.do|결핵 진료지침 제5판, 본문 50–51쪽]].~~~\n\n[[30강#새 림프절이 생겼다고 바로 치료 실패는 아니다|새 림프절이 생겼다고 바로 치료 실패는 아니다]]\n\n~~근거: 39기 「30. 결핵과 비결핵항산균」 38–45; 제5판 역설적 반응 보충쪽. 38기 자료는 보조 참고, 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.6. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
-      "professor": "유우경",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.6 출제자란 확인",
       "lectureIds": [
         30
       ],
       "lectureId": 30,
       "lectureTitle": "결핵과 비결핵성 항산균",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 6번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.6",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture30_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": true,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 6,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\30. 결핵과 비결핵항산균_강의록.pdf",
-            "description": "39기 강의록 38–45; 제5판 역설적 반응 보충쪽"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 6,
+        "professor": "곽승민",
+        "lecture": "결핵 및 NTM",
+        "question": "1)35세 여자 환자가 균양성 우상엽 폐결핵으로 2개월간 INH,RIF,EMB,PZA 로 규칙적으로\n복용하던 중 경부 임파선 종대가 생기고, 발열 있어서 내원하였다, 이 환자에게 시행할\n검사와 조치로 맞는 것은?",
+        "choices": [
+          "경부 임파선 절제술",
+          "현재의 항결핵제를 계속 투여한다",
+          "체외 인터페론 분비 검사",
+          "2차 항결핵제로 바꾼다",
+          "모든 결핵약을 중단하고 관찰한다"
         ],
-        "chapter": "새 림프절이 생겼다고 바로 치료 실패는 아니다",
-        "basis": "39기 강의록 38–45; 제5판 역설적 반응 보충쪽"
+        "answer": "2)",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14370,58 +14681,49 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''2번 clindamycin'''이다. 과음으로 인한 흡인 위험, 수주간의 경과, 악취 객담과 공동성 영상은 구강 혐기균·미세호기성 streptococci가 섞인 원발성 폐농양을 시사한다. 항혐기성 활성만 보고 metronidazole 하나를 고르면 혼합 감염의 일부를 놓친다.\n\n=== 선지별 해설 ===\n* 1번: '''단독 치료로 부족하다.''' 혐기균에는 효과가 있지만 미세호기성 streptococci를 충분히 치료하지 못한다.\n* 2번: '''맞다.''' 강의에서 제시하는 폐농양 치료제다. β-lactam/β-lactamase inhibitor도 적절한 대안이다.\n* 3번: '''다른 약이다.''' Clarithromycin은 macrolide로 비정형 폐렴 등에 사용하며, clindamycin과 이름이 비슷하다는 이유로 바꾸어 고르면 안 된다.\n* 4번: '''현재 단서에 가장 맞는 치료가 아니다.''' 공동이 있어 결핵도 감별하지만 흡인 위험·악취 객담·농양 소견이 우선한다. 결핵 근거를 확인하지 않고 항결핵제를 선택하지 않는다.\n* 5번: '''감염을 치료하지 못한다.''' 전신 steroid는 폐농양의 기본 치료가 아니며 면역억제로 감염을 악화시킬 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Metronidazole만으로는 혼합 감염의 빈틈이 남는다'''\n\n구강에서 온 폐농양은 혐기균 하나만의 감염이 아니다. '''Clindamycin 또는 β-lactam/β-lactamase inhibitor'''로 혐기균과 함께 섞인 세균을 치료한다. 정맥 치료 후 호전되면 amoxicillin/clavulanate 등의 경구제로 전환할 수 있다.\n\n||= 약제 ||= 폐농양에서의 의미 ||\n|| Clindamycin || 혐기균과 구강 streptococci를 포함하는 강의의 대표 선택 ||\n|| Ampicillin/sulbactam, amoxicillin/clavulanate 등 || β-lactamase 생성 혐기균과 혼합 세균을 함께 치료 ||\n|| Metronidazole 하나만 사용 || 혐기균에는 활성이 있지만 '''미세호기성 streptococci 치료가 부족'''하므로 부적절 ||\n|| 이차성·병원획득 폐농양 || 배양과 기저 원인에 맞게 항녹농균 등 치료 범위를 조정 ||\n\n치료는 1주 만에 끝나는 것이 아니다. 강의에는 '''3–4주에서 길게는 14주'''까지 제시되며, 임상 반응과 영상의 소실 또는 안정된 작은 반흔을 보면서 조정한다. 초기 발열은 7일가량 지속될 수도 있다.\n\n'''악취 나는 객담과 air-fluid level은 폐농양을 떠올리게 한다'''\n\n혐기균 폐농양은 수주에 걸쳐 미열, 기침, 체중 감소, 야간 발한, 빈혈과 함께 진행할 수 있다. '''악취 나는 객담'''은 구강 혐기균을 생각하게 하는 단서지만 모든 환자에서 생기지는 않는다. S. aureus 등은 더 급격한 경과를 보일 수 있다.\n\nX선에서는 두꺼운 벽을 가진 공동과 air-fluid level, CT에서는 주변 폐렴·괴사·공동의 범위를 확인한다. 영상으로 폐실질의 농양과 흉막강의 농흉을 구분하고, 폐쇄성 종양도 살펴본다. 결핵·NTM·진균, 공동성 폐암, 혈관염·폐경색도 감별 대상이다.\n\n원발성에서는 구강 혐기균·미세호기성 streptococci가 중요하다. 이차성이나 면역저하에서는 Pseudomonas 등 그람음성균과 진균까지 범위가 넓어진다. 객담 배양만으로 구강 세균의 원인성을 확정하기 어려우며, 치료 반응이 나쁘면 기관지내시경·BAL이나 선택적 검체 채취를 고려한다.\n\n[[33강#Metronidazole만으로는 혼합 감염의 빈틈이 남는다|Metronidazole만으로는 혼합 감염의 빈틈이 남는다]] · [[33강#악취 나는 객담과 air-fluid level은 폐농양을 떠올리게 한다|악취 나는 객담과 air-fluid level은 폐농양을 떠올리게 한다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "2번 — 클린다마이신",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답은 '''2번 clindamycin'''이다. 과음으로 인한 흡인 위험, 수주간의 경과, 악취 객담과 공동성 영상은 구강 혐기균·미세호기성 streptococci가 섞인 원발성 폐농양을 시사한다. 항혐기성 활성만 보고 metronidazole 하나를 고르면 혼합 감염의 일부를 놓친다.\n\n=== 선지별 해설 ===\n* 1번: '''단독 치료로 부족하다.''' 혐기균에는 효과가 있지만 미세호기성 streptococci를 충분히 치료하지 못한다.\n* 2번: '''맞다.''' 강의에서 제시하는 폐농양 치료제다. β-lactam/β-lactamase inhibitor도 적절한 대안이다.\n* 3번: '''다른 약이다.''' Clarithromycin은 macrolide로 비정형 폐렴 등에 사용하며, clindamycin과 이름이 비슷하다는 이유로 바꾸어 고르면 안 된다.\n* 4번: '''현재 단서에 가장 맞는 치료가 아니다.''' 공동이 있어 결핵도 감별하지만 흡인 위험·악취 객담·농양 소견이 우선한다. 결핵 근거를 확인하지 않고 항결핵제를 선택하지 않는다.\n* 5번: '''감염을 치료하지 못한다.''' 전신 steroid는 폐농양의 기본 치료가 아니며 면역억제로 감염을 악화시킬 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Metronidazole만으로는 혼합 감염의 빈틈이 남는다'''\n\n구강에서 온 폐농양은 혐기균 하나만의 감염이 아니다. '''Clindamycin 또는 β-lactam/β-lactamase inhibitor'''로 혐기균과 함께 섞인 세균을 치료한다. 정맥 치료 후 호전되면 amoxicillin/clavulanate 등의 경구제로 전환할 수 있다.\n\n||= 약제 ||= 폐농양에서의 의미 ||\n|| Clindamycin || 혐기균과 구강 streptococci를 포함하는 강의의 대표 선택 ||\n|| Ampicillin/sulbactam, amoxicillin/clavulanate 등 || β-lactamase 생성 혐기균과 혼합 세균을 함께 치료 ||\n|| Metronidazole 하나만 사용 || 혐기균에는 활성이 있지만 '''미세호기성 streptococci 치료가 부족'''하므로 부적절 ||\n|| 이차성·병원획득 폐농양 || 배양과 기저 원인에 맞게 항녹농균 등 치료 범위를 조정 ||\n\n치료는 1주 만에 끝나는 것이 아니다. 강의에는 '''3–4주에서 길게는 14주'''까지 제시되며, 임상 반응과 영상의 소실 또는 안정된 작은 반흔을 보면서 조정한다. 초기 발열은 7일가량 지속될 수도 있다.\n\n'''악취 나는 객담과 air-fluid level은 폐농양을 떠올리게 한다'''\n\n혐기균 폐농양은 수주에 걸쳐 미열, 기침, 체중 감소, 야간 발한, 빈혈과 함께 진행할 수 있다. '''악취 나는 객담'''은 구강 혐기균을 생각하게 하는 단서지만 모든 환자에서 생기지는 않는다. S. aureus 등은 더 급격한 경과를 보일 수 있다.\n\nX선에서는 두꺼운 벽을 가진 공동과 air-fluid level, CT에서는 주변 폐렴·괴사·공동의 범위를 확인한다. 영상으로 폐실질의 농양과 흉막강의 농흉을 구분하고, 폐쇄성 종양도 살펴본다. 결핵·NTM·진균, 공동성 폐암, 혈관염·폐경색도 감별 대상이다.\n\n원발성에서는 구강 혐기균·미세호기성 streptococci가 중요하다. 이차성이나 면역저하에서는 Pseudomonas 등 그람음성균과 진균까지 범위가 넓어진다. 객담 배양만으로 구강 세균의 원인성을 확정하기 어려우며, 치료 반응이 나쁘면 기관지내시경·BAL이나 선택적 검체 채취를 고려한다.\n\n[[33강#Metronidazole만으로는 혼합 감염의 빈틈이 남는다|Metronidazole만으로는 혼합 감염의 빈틈이 남는다]] · [[33강#악취 나는 객담과 air-fluid level은 폐농양을 떠올리게 한다|악취 나는 객담과 air-fluid level은 폐농양을 떠올리게 한다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.7. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q007_01.jpg"
+        "J/2023/official-p007.jpg"
       ],
       "legacyProfessor": "곽승민",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.7 출제자란 확인",
       "lectureIds": [
         33
       ],
       "lectureId": 33,
       "lectureTitle": "폐렴,폐농양",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 7번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.7",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q007_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 7,
+          "file": "J/2023/official-p007.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 7,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 폐렴, 폐농양 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "Metronidazole만으로는 혼합 감염의 빈틈이 남는다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -14429,6 +14731,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 7,
+        "professor": "곽승민",
+        "lecture": "폐농양",
+        "question": "65세 남자가 3주전부터 미열과 기침, 냄새나는 가래와 혈담으로 내원하였다. 당뇨병으로 10년\n전부터 경구 혈당강하제를 복용하고 있다. 평소 거의 매일 소주 1병씩 마시고, 30 갑년의 흡\n연자이다. 혈압 90/60 mmHg, 맥박 110회/분, 호흡 24회/분, 체온 38도이다, 오른쪽 위 가\n슴에서 호흡음이 감소되어있고 타진시 둔탁음이 들린다. 혈액검사와 가슴 X-선 사진이다. 치\n료는?\n백혈구 15000/mm3(중성구 85%, 림프구 12%, 단핵구 5%, 호산구 1%), 혈색소 13.6g/L, 혈\n소판 400,000/mm3, C-반응단백질 18 mg/L(참고치 10이하), 아스파트산아미노기전달효소\n78 U/L, 알라닌아미노기전달효소   601U/L",
+        "choices": [
+          "메트로니다졸",
+          "클린다마이신",
+          "클라리스로마이신",
+          "이소니아지드/리팜핀/에탐부톨/피라진아미드 병합요법",
+          "고용량 전신 스테로이드"
+        ],
+        "answer": "답) 2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14449,59 +14769,45 @@ window.JBL_DATA = {
         "최근 업데이트된 지침서에는 항생제 투여 시작과 투여 중단을 위해서 혈청 프로칼시토닌검사를 바이오마커로 사용할 것을 권하고 있다.",
         "초기에 저용량의 스테로이드 투여는 사망률을 줄일 수 있다.",
         "외래에서 치료가 가능한 폐렴환자에서 원인균 규명을 위한 그람 염색 및 배양 검사 시행을 권유한다.",
-        "폐농양·농흉이 없는 흡인성 폐렴에서는 혐기균을 일률적으로 추가 치료하지 않는다."
+        "일반적으로 흡인성 폐렴에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다"
       ],
       "answerIndex": 5,
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n'''정답은 5번이다.''' 폐농양·농흉이 없는 일반적인 흡인성 폐렴에서는 혐기균 치료를 일률적으로 추가하지 않는다. ‘흡인했다’는 사실만으로 혐기균 약제를 더하는 것이 아니라, '''폐농양·농흉의 유무'''를 구분해야 한다. 이는 항생제 자체가 필요 없다는 뜻이 아니라 '''혐기균을 겨냥한 추가 치료'''에 관한 원칙이다.\n\n=== 선지별 해설 ===\n* 1번: '''틀리다.''' 합병증 없는 CAP의 치료를 무조건 최소 2주로 정하지 않는다. 임상 안정성과 합병증에 따라 결정한다.\n* 2번: '''틀리다.''' PCT만으로 CAP 초기 항생제의 투여 여부를 결정하지 않는다. 중단 판단의 보조 자료로 활용하는 상황과 시작을 보류하는 판단은 다르다.\n* 3번: '''조건이 빠져 있어 일반적인 CAP의 설명으로 고를 수 없다.''' 일부 중증 CAP·패혈쇼크에서는 steroid를 고려할 수 있지만 모든 CAP에서 저용량을 일찍 주면 사망률이 줄어든다는 일반 명제로 확장하면 안 된다.\n* 4번: '''틀리다.''' 경증 외래 CAP에 객담 그람염색·배양을 일률적으로 권하지 않는다. 중증·내성균 위험 등 적응을 구분한다.\n* 5번: '''맞다.''' 폐농양·농흉이 없는 흡인성 폐렴에는 혐기균 치료를 일률적으로 추가하지 않는다. 반대로 폐농양·농흉이 의심되면 혐기균을 포함한 치료를 고려해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료를 오래 하는 것과 잘 하는 것은 다르다'''\n\n* '''PCT:''' 낮은 값만으로 초기 항생제를 시작하지 않는 판단을 하지 않는다.\n* '''흡인:''' 모든 흡인성 폐렴에 혐기균 약제를 일률적으로 추가하지 않는다. '''폐농양·농흉'''이 있으면 달라진다.\n* '''결핵 가능성:''' Fluoroquinolone에는 항결핵 활성이 있어 진단을 늦추고 내성 문제를 만들 수 있으므로 주의한다.\n* '''치료 기간:''' 합병증 없는 CAP에 무조건 2–3주를 요구하지 않는다. 임상적 안정성과 합병증에 따라 정하며, 공식 문항의 기준은 통상 '''5일 전후의 치료와 안정성 확인'''이다.\n* '''영상:''' 해열·호흡·산소화보다 X선 음영이 늦게 좋아질 수 있다. 영상의 완전 정상화를 항생제 종료의 필수 조건으로 삼지 않는다.\n* '''Steroid:''' 모든 경증 CAP에 일률 투여하는 약은 아니다. 중증 CAP나 지속되는 패혈쇼크 등 별도의 적응 상황에서 판단한다.\n\n> '''일반 CAP, 중증 CAP, 폐농양은 치료 기간과 보조 치료가 다르다.''' 한 범주의 설명을 다른 환자에게 그대로 옮기지 않는다.\n\n~~치료 기간은 공식 오답30에서 제시한 5일 기준을 중심으로 정리했다. 현재 진료에서는 안정된 일부 비중증 환자에 더 짧은 치료도 고려하므로, ‘모든 폐렴은 정확히 5일’이라는 뜻은 아니다.~~~\n\n'''배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다'''\n\n외래에서 치료할 수 있는 경증 CAP에 객담 그람염색·배양이나 혈액배양을 일률적으로 시행하지는 않는다. 반면 '''중증 CAP, MRSA·녹농균 위험 또는 그 균을 겨냥한 경험적 치료'''에서는 검체 확보가 치료 축소와 변경에 중요하다. 입원했다는 이유만으로 모든 환자에게 동일한 검사를 요구하는 것도 아니다.\n\n||= 검사 ||= 무엇을 얻는가 ||= 한계 ||\n|| 객담 그람염색·배양 || 세균과 감수성 정보 || 양질의 검체가 필요하고 집락균·구강 오염과 구별해야 한다 ||\n|| 혈액배양 || 균혈증과 원인균 || 양성률은 높지 않아 중증도·위험에 따라 선택 ||\n|| 소변 항원 || 폐렴구균, Legionella의 빠른 단서 || 해당 검사 대상 밖의 균을 배제하지 못한다 ||\n|| PCR || 호흡기 바이러스·일부 세균의 신속 검출 || 검출 결과와 실제 질병의 인과관계를 함께 판단 ||\n|| 혈청검사 || 일부 비정형 병원체의 감염 근거 || 항체 형성에 시간이 걸려 초기 경험적 치료 결정에는 제한 ||\n|| Procalcitonin, PCT || 세균성 감염 가능성·경과의 보조 정보 || '''낮다는 이유만으로 확인된 CAP의 초기 항생제를 보류하지 않는다''' ||\n\n[[33강#치료를 오래 하는 것과 잘 하는 것은 다르다|치료를 오래 하는 것과 잘 하는 것은 다르다]] · [[33강#배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다|배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n=== 원본에서 수정한 부분 ===\n원복원본의 5번은 ‘일반적으로 흡인성 폐렴(간농양, 폐기종 시)에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다’였다. 괄호 속 '''‘간농양, 폐기종’'''은 이 치료 원칙의 예외인 '''폐농양·농흉'''과 맞지 않아, 원문 그대로는 의도를 명료하게 읽기 어렵다.\n\n일반적인 흡인성 폐렴에 혐기균 치료를 일률적으로 추가하지 않는다는 원칙을 묻는 것으로 추정하여, 사용자의 확인에 따라 5번을 '''‘폐농양·농흉이 없는 흡인성 폐렴에서는 혐기균을 일률적으로 추가 치료하지 않는다’'''로 다듬었다. 발문과 1–4번 선지는 유지했다. 이는 '''학습용 변형'''이며 원시험의 정확한 문장을 확인해 복구했다는 뜻은 아니다. 발문 앞 느낌표를 누르면 수정 전 문항과 해설을 확인할 수 있다.",
+      "answerLabel": "5번 — 일반적으로 흡인성 폐렴에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n'''정답은 5번이다.''' 폐농양·농흉이 없는 일반적인 흡인성 폐렴에서는 혐기균 치료를 일률적으로 추가하지 않는다. ‘흡인했다’는 사실만으로 혐기균 약제를 더하는 것이 아니라, '''폐농양·농흉의 유무'''를 구분해야 한다. 이는 항생제 자체가 필요 없다는 뜻이 아니라 '''혐기균을 겨냥한 추가 치료'''에 관한 원칙이다.\n\n=== 선지별 해설 ===\n* 1번: '''틀리다.''' 합병증 없는 CAP의 치료를 무조건 최소 2주로 정하지 않는다. 임상 안정성과 합병증에 따라 결정한다.\n* 2번: '''틀리다.''' PCT만으로 CAP 초기 항생제의 투여 여부를 결정하지 않는다. 중단 판단의 보조 자료로 활용하는 상황과 시작을 보류하는 판단은 다르다.\n* 3번: '''조건이 빠져 있어 일반적인 CAP의 설명으로 고를 수 없다.''' 일부 중증 CAP·패혈쇼크에서는 steroid를 고려할 수 있지만 모든 CAP에서 저용량을 일찍 주면 사망률이 줄어든다는 일반 명제로 확장하면 안 된다.\n* 4번: '''틀리다.''' 경증 외래 CAP에 객담 그람염색·배양을 일률적으로 권하지 않는다. 중증·내성균 위험 등 적응을 구분한다.\n* 5번: '''맞다.''' 폐농양·농흉이 없는 흡인성 폐렴에는 혐기균 치료를 일률적으로 추가하지 않는다. 반대로 폐농양·농흉이 의심되면 혐기균을 포함한 치료를 고려해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료를 오래 하는 것과 잘 하는 것은 다르다'''\n\n* '''PCT:''' 낮은 값만으로 초기 항생제를 시작하지 않는 판단을 하지 않는다.\n* '''흡인:''' 모든 흡인성 폐렴에 혐기균 약제를 일률적으로 추가하지 않는다. '''폐농양·농흉'''이 있으면 달라진다.\n* '''결핵 가능성:''' Fluoroquinolone에는 항결핵 활성이 있어 진단을 늦추고 내성 문제를 만들 수 있으므로 주의한다.\n* '''치료 기간:''' 합병증 없는 CAP에 무조건 2–3주를 요구하지 않는다. 임상적 안정성과 합병증에 따라 정하며, 공식 문항의 기준은 통상 '''5일 전후의 치료와 안정성 확인'''이다.\n* '''영상:''' 해열·호흡·산소화보다 X선 음영이 늦게 좋아질 수 있다. 영상의 완전 정상화를 항생제 종료의 필수 조건으로 삼지 않는다.\n* '''Steroid:''' 모든 경증 CAP에 일률 투여하는 약은 아니다. 중증 CAP나 지속되는 패혈쇼크 등 별도의 적응 상황에서 판단한다.\n\n> '''일반 CAP, 중증 CAP, 폐농양은 치료 기간과 보조 치료가 다르다.''' 한 범주의 설명을 다른 환자에게 그대로 옮기지 않는다.\n\n~~치료 기간은 공식 오답30에서 제시한 5일 기준을 중심으로 정리했다. 현재 진료에서는 안정된 일부 비중증 환자에 더 짧은 치료도 고려하므로, ‘모든 폐렴은 정확히 5일’이라는 뜻은 아니다.~~~\n\n'''배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다'''\n\n외래에서 치료할 수 있는 경증 CAP에 객담 그람염색·배양이나 혈액배양을 일률적으로 시행하지는 않는다. 반면 '''중증 CAP, MRSA·녹농균 위험 또는 그 균을 겨냥한 경험적 치료'''에서는 검체 확보가 치료 축소와 변경에 중요하다. 입원했다는 이유만으로 모든 환자에게 동일한 검사를 요구하는 것도 아니다.\n\n||= 검사 ||= 무엇을 얻는가 ||= 한계 ||\n|| 객담 그람염색·배양 || 세균과 감수성 정보 || 양질의 검체가 필요하고 집락균·구강 오염과 구별해야 한다 ||\n|| 혈액배양 || 균혈증과 원인균 || 양성률은 높지 않아 중증도·위험에 따라 선택 ||\n|| 소변 항원 || 폐렴구균, Legionella의 빠른 단서 || 해당 검사 대상 밖의 균을 배제하지 못한다 ||\n|| PCR || 호흡기 바이러스·일부 세균의 신속 검출 || 검출 결과와 실제 질병의 인과관계를 함께 판단 ||\n|| 혈청검사 || 일부 비정형 병원체의 감염 근거 || 항체 형성에 시간이 걸려 초기 경험적 치료 결정에는 제한 ||\n|| Procalcitonin, PCT || 세균성 감염 가능성·경과의 보조 정보 || '''낮다는 이유만으로 확인된 CAP의 초기 항생제를 보류하지 않는다''' ||\n\n[[33강#치료를 오래 하는 것과 잘 하는 것은 다르다|치료를 오래 하는 것과 잘 하는 것은 다르다]] · [[33강#배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다|배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n\n\n~~공식 원본의 5번은 ‘일반적으로 흡인성 폐렴에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다’이다. 학습용으로 추가했던 조건은 선지에서 제거하고 원문을 복구했다. 해설의 폐농양·농흉 예외는 임상 원칙을 이해하기 위한 설명이다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.8. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽승민",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽승민",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.8 출제자란 확인",
       "lectureIds": [
         33
       ],
       "lectureId": 33,
       "lectureTitle": "폐렴,폐농양",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 8번 변형",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "호흡기감염",
+      "source": "2023 호흡기계 원본 p.8",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "confirmed_learning_variant",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 8,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 폐렴, 폐농양 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "치료를 오래 하는 것과 잘 하는 것은 다르다",
-        "priorAnnotatedLectureUsed": true,
-        "preservationLocation": "originalVersion.question",
-        "userDecision": "원본 보존 후 5번 선지 변형·5번 정답"
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -14510,107 +14816,23 @@ window.JBL_DATA = {
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
       },
-      "originalVersion": {
-        "schemaVersion": 1,
-        "savedAt": "2026-10-22",
-        "description": "5번 선지를 폐농양·농흉이 없는 흡인성 폐렴으로 다듬기 직전의 원복원 문항·해설·정답 판단 전체 보존",
-        "question": {
-          "id": "2023-008",
-          "recordId": "resp-2023-008",
-          "displayId": "188번",
-          "globalNumber": 188,
-          "year": 2023,
-          "sourceType": "족보",
-          "originalNumber": 8,
-          "originalNumbers": [
-            8
-          ],
-          "question": "지역사회 획득 폐렴(community acquired pneumonia)의 진단과 치료에 대한 설명 중 맞는 것은?",
-          "passage": "",
-          "choices": [
-            "합병증 없는 폐렴환자는 적어도 2주 정도의 항생제 치료가 필요하다.",
-            "최근 업데이트된 지침서에는 항생제 투여 시작과 투여 중단을 위해서 혈청 프로칼시토닌검사를 바이오마커로 사용할 것을 권하고 있다.",
-            "초기에 저용량의 스테로이드 투여는 사망률을 줄일 수 있다.",
-            "외래에서 치료가 가능한 폐렴환자에서 원인균 규명을 위한 그람 염색 및 배양 검사 시행을 권유한다.",
-            "일반적으로 흡인성 폐렴(간농양, 폐기종 시)에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다."
-          ],
-          "answerIndex": 5,
-          "answerIndices": [
-            5
-          ],
-          "answerLabel": "잠정 정답: ⑤",
-          "explanation": "=== 풀이의 핵심 ===\n'''출제 의도상 5번이 유력하지만 복원 문장이 불완전하다.''' 일반적인 흡인성 폐렴에 혐기균 치료를 일률 추가하지 않는다는 원칙을 묻는 것으로 보인다. 다만 선지의 ‘간농양, 폐기종’은 실제 예외인 '''폐농양·농흉'''을 정확히 표현하지 않는다. 원문은 임의로 바꾸지 않았다.\n\n=== 선지별 해설 ===\n* 1번: '''틀리다.''' 합병증 없는 CAP의 치료를 무조건 최소 2주로 정하지 않는다. 임상 안정성과 합병증에 따라 결정한다.\n* 2번: '''과도한 표현이다.''' PCT만으로 CAP 초기 항생제의 투여 여부를 결정하지 않는다. 중단 판단의 보조 자료로 활용하는 상황과 시작을 보류하는 판단은 다르다.\n* 3번: '''조건이 빠져 있다.''' 일부 중증 CAP·패혈쇼크에서는 steroid를 고려할 수 있지만 모든 CAP에서 저용량을 일찍 주면 사망률이 줄어든다는 일반 명제로 확장하면 안 된다.\n* 4번: '''틀리다.''' 경증 외래 CAP에 객담 그람염색·배양을 일률적으로 권하지 않는다. 중증·내성균 위험 등 적응을 구분한다.\n* 5번: '''원래 의도라면 맞지만 괄호에 복원 문제가 있다.''' 폐농양·농흉이 없는 일반 흡인성 폐렴에는 혐기균 치료를 일률 추가하지 않는다. 반대로 폐농양·농흉이 있으면 혐기균 치료가 필요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''치료를 오래 하는 것과 잘 하는 것은 다르다'''\n\n* '''PCT:''' 낮은 값만으로 초기 항생제를 시작하지 않는 판단을 하지 않는다.\n* '''흡인:''' 모든 흡인성 폐렴에 혐기균 약제를 일률적으로 추가하지 않는다. '''폐농양·농흉'''이 있으면 달라진다.\n* '''결핵 가능성:''' Fluoroquinolone에는 항결핵 활성이 있어 진단을 늦추고 내성 문제를 만들 수 있으므로 주의한다.\n* '''치료 기간:''' 합병증 없는 CAP에 무조건 2–3주를 요구하지 않는다. 임상적 안정성과 합병증에 따라 정하며, 공식 문항의 기준은 통상 '''5일 전후의 치료와 안정성 확인'''이다.\n* '''영상:''' 해열·호흡·산소화보다 X선 음영이 늦게 좋아질 수 있다. 영상의 완전 정상화를 항생제 종료의 필수 조건으로 삼지 않는다.\n* '''Steroid:''' 모든 경증 CAP에 일률 투여하는 약은 아니다. 중증 CAP나 지속되는 패혈쇼크 등 별도의 적응 상황에서 판단한다.\n\n> '''일반 CAP, 중증 CAP, 폐농양은 치료 기간과 보조 치료가 다르다.''' 한 범주의 설명을 다른 환자에게 그대로 옮기지 않는다.\n\n~~치료 기간은 공식 오답30에서 제시한 5일 기준을 중심으로 정리했다. 현재 진료에서는 안정된 일부 비중증 환자에 더 짧은 치료도 고려하므로, ‘모든 폐렴은 정확히 5일’이라는 뜻은 아니다.~~~\n\n'''배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다'''\n\n외래에서 치료할 수 있는 경증 CAP에 객담 그람염색·배양이나 혈액배양을 일률적으로 시행하지는 않는다. 반면 '''중증 CAP, MRSA·녹농균 위험 또는 그 균을 겨냥한 경험적 치료'''에서는 검체 확보가 치료 축소와 변경에 중요하다. 입원했다는 이유만으로 모든 환자에게 동일한 검사를 요구하는 것도 아니다.\n\n||= 검사 ||= 무엇을 얻는가 ||= 한계 ||\n|| 객담 그람염색·배양 || 세균과 감수성 정보 || 양질의 검체가 필요하고 집락균·구강 오염과 구별해야 한다 ||\n|| 혈액배양 || 균혈증과 원인균 || 양성률은 높지 않아 중증도·위험에 따라 선택 ||\n|| 소변 항원 || 폐렴구균, Legionella의 빠른 단서 || 해당 검사 대상 밖의 균을 배제하지 못한다 ||\n|| PCR || 호흡기 바이러스·일부 세균의 신속 검출 || 검출 결과와 실제 질병의 인과관계를 함께 판단 ||\n|| 혈청검사 || 일부 비정형 병원체의 감염 근거 || 항체 형성에 시간이 걸려 초기 경험적 치료 결정에는 제한 ||\n|| Procalcitonin, PCT || 세균성 감염 가능성·경과의 보조 정보 || '''낮다는 이유만으로 확인된 CAP의 초기 항생제를 보류하지 않는다''' ||\n\n[[33강#치료를 오래 하는 것과 잘 하는 것은 다르다|치료를 오래 하는 것과 잘 하는 것은 다르다]] · [[33강#배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다|배양검사는 필요한 환자에서 하고 PCT만으로 항생제를 미루지 않는다]]\n\n~~근거: 김준 「2026 폐렴, 폐농양 학생강의」 4–21, 23–43쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
-          "images": [],
-          "legacyProfessor": "곽승민",
-          "professor": "김준",
-          "examinerStatus": "inferred_not_confirmed",
-          "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
-          "lectureIds": [
-            33
-          ],
-          "lectureId": 33,
-          "lectureTitle": "폐렴,폐농양",
-          "domain": "",
-          "discipline": "",
-          "section": "",
-          "source": "2023 호흡기계 8번",
-          "mappingConfidence": "high",
-          "classificationStatus": "assigned",
-          "originalNumberStatus": "reconstructed_number",
-          "questionFormat": "multiple_choice",
-          "sourceStatus": "numbered_reconstruction",
-          "parseMethod": "word_numbering",
-          "restorationNotes": [],
-          "imageProvenance": [],
-          "repeatFamilyIds": [],
-          "explanationReview": {
-            "date": "2026-10-22",
-            "scope": "lecture33_34_35_wiki_j_jbl",
-            "answerStatus": "conditional_see_explanation",
-            "officialAnswerVerified": false,
-            "peerExplanationUsed": false,
-            "summaryUsed": false,
-            "originalQuestionAndImagesPreserved": true,
-            "sources": [
-              {
-                "kind": "current_lecture",
-                "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 폐렴, 폐농양 학생강의.pptx"
-              },
-              {
-                "kind": "prior_annotated_lecture",
-                "path": "38기 자료"
-              }
-            ],
-            "chapter": "치료를 오래 하는 것과 잘 하는 것은 다르다",
-            "priorAnnotatedLectureUsed": true
-          },
-          "classificationReview": {
-            "date": "2026-10-22",
-            "lecture": 33,
-            "unchanged": true,
-            "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
-            "historicalExaminerPreserved": true
-          }
-        }
-      },
-      "modificationReview": {
-        "date": "2026-10-22",
-        "type": "learning_variant",
-        "changedFields": [
-          "choices",
-          "answerLabel",
-          "source",
-          "explanation"
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 8,
+        "professor": "곽승민",
+        "lecture": "폐렴",
+        "question": "지역사회 획득 폐렴(community acquired pneumonia)의 진단과 치료에 대한 설명 중 맞는\n것은?",
+        "choices": [
+          "합병증 없는 폐렴 환자는 적어도 2주정도의 항생제 치료가 필요하다",
+          "최근 업데이트된 지침서에는 항생제 투여 시작과 투여 중단을 위해서 혈청 프로칼시토\n닌 검사를 바이오마커로 사용할 것을 권하고 있다.",
+          "초기에 저용량의 스테로이드 투여는 사망률을 줄일 수 있다",
+          "외래에서 치료가 가능한 폐렴 환자에서 원인균 규명을 위한 그람 염색 및 배양 검사 시\n행을 권유한다",
+          "일반적으로 흡인성 폐렴에 대한 고려로 혐기성 균에 대한 항생제 선택은 필요치 않다"
         ],
-        "choicesPreserved": false,
-        "preservedChoiceNumbers": [
-          1,
-          2,
-          3,
-          4
-        ],
-        "reason": "원복원본의 간농양·폐기종 표기를 그대로 보존하고, 폐농양·농흉이 없는 흡인성 폐렴에서 혐기균 치료를 일률 추가하지 않는 원칙을 묻도록 5번만 명료화. 사용자 승인에 따른 학습용 변형.",
-        "officialOriginalVerified": false
+        "answer": "5)",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14637,56 +14859,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n이 문항은 '''들숨이 시작되면서 대기압보다 낮아져 공기 유입을 만드는 압력'''을 묻는 것으로 해석한다. 폐포압은 호흡이 멈춘 정상 호기말에 대기압과 같고, 흡기 중 대기압보다 낮아진다. 반면 흉막강압은 이미 음수인 상태에서 더 낮아진다. 이 출제 의도를 기준으로 '''3번을 단일 정답'''으로 채점한다.\n\n=== 이 문제를 풀기 위한 개념 ===\n흡기는 횡격막이 수축해 내려가면서 시작한다. 흉곽이 넓어지면 흉막강압이 더 음성이 되고, 폐가 함께 펴지면서 폐포압이 대기압보다 낮아진다. 공기는 이 압력 차이를 따라 들어온다. 흡기말에는 폐용적이 가장 크지만 폐포압이 다시 대기압과 같아져 흐름이 멈춘다.\n\n@formula 안팎의 압력 차이 | P_{L} = P_{A} − P_{pl} | PL은 폐를 펴는 압력이다. 공기의 '''유량'''을 만드는 것은 별도의 '''대기–폐포 압력 차이'''다.\n\n[[파일:assets/lecture-02/tidal-four-curves.jpg|같은 시점의 용적·흉막강압·유량·폐포압을 세로로 비교한다. 이 그림의 흡기 유량은 음수다.]]\n\n그래프에서는 먼저 용적이 증가하는 구간을 흡기로 찾는다. 그 구간의 폐포압은 음성이고 유량이 존재한다. 용적이 꼭대기에 이르면 용적 변화가 멈추므로 유량도 0이다. '''용적의 최대와 유량의 최대는 같은 시점이 아니다.''' 유량의 위아래 부호는 그림의 약속이므로, 음수라고 곧바로 호기라고 판단하지 않는다.\n\n||= 시점 ||= 근육·용적 ||= PA와 흐름 ||= Ppl ||\n|| 정상 호기말 || 호흡근 이완, FRC || 0, 흐름 없음 || 음성 ||\n|| 흡기 중 || 횡격막·외늑간근 수축, 용적 증가 || 음성, 공기 유입 || 더 음성 ||\n|| 흡기말 || 그 일회호흡에서 용적 최대 || 0, 흐름 없음 || 가장 음성인 부근 ||\n|| 조용한 호기 || 흡기근 이완, 탄성반동으로 용적 감소 || 양성, 공기 유출 || 덜 음성 ||\n|| 강제호기 || 복근·내늑간근 수축 || 높은 PA로 공기 배출 || 양성이 될 수 있음 ||\n\n> '''FRC는 정상 호기말의 기준 용적'''이다. 한 번 들이쉬는 동안 커지는 현재 폐용적과 구별한다. 조용한 호기는 주로 수동적이지만, 강제호기는 호기근을 쓴다.\n\n=== 선지별 해설 ===\n* 1번: '''이 문항의 정답에서는 제외한다.''' 흉막강압(Ppl)은 정상 호기말에도 이미 대기압보다 낮으며, 들숨에서 더 음성이 된다. 여기서는 ‘0보다 작아진다’를 새로 음압이 형성되는 변화로 읽는 출제 의도에 따른다. 흉막강압이 흡기 중 음수라는 생리적 사실 자체를 부정하는 것은 아니다.\n* 2번: '''현재 폐용적 증가와 FRC 증가는 다르다.''' 흡기 동안은 FRC에서 VT만큼 올라간다. FRC는 정상 호기말의 기준 용적이며 숨을 한 번 들이쉴 때마다 그 정의가 바뀌지 않는다.\n* 3번: '''흡기 중 PA가 대기압보다 낮아져 공기가 들어온다.''' 대기압을 상대압 0으로 두면 PA<0이다. 흡기말에는 PA가 다시 0이 되어 유량이 멈추므로 들숨의 모든 순간에 계속 음성인 것은 아니다.\n* 4번: '''유량은 흡기말까지 계속 증가하지 않는다.''' 중간에 큰 유량을 보이다가 흡기말에는 0으로 돌아온다. 용적은 유량이 누적된 결과이므로 용적이 최대인 순간에도 유량은 0일 수 있다.\n* 5번: '''복근 수축은 강제호기에 동원된다.''' 복압을 높여 횡격막을 위로 밀어 올리고 흉곽 용적을 줄인다. 조용한 흡기의 주역은 횡격막과 외늑간근이다.\n\n=== 이 문항의 채점 기준 ===\n'''폐포압: 0 → 음수 / 흉막강압: 원래 음수 → 더 낮은 음수.''' 두 압력의 출발점과 변화를 구별하여 3번을 선택한다. ‘0보다 작아진다’라는 표현만으로 1번이 수학적으로 거짓이라고 단정하는 것은 아니며, 출제 의도를 반영한 단일 정답 기준이다. 발문과 선지는 그대로 보존한다.\n\n[[2강#조용한 흡기는 능동적이고 호기는 주로 수동적이다|Wiki · 조용한 흡기는 능동적이고 호기는 주로 수동적이다]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 12·15·18쪽.~~~",
+      "answerLabel": "3번 — Alveolar pressure가 0보다 작아진다.",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③\n\n이 문항은 '''들숨이 시작되면서 대기압보다 낮아져 공기 유입을 만드는 압력'''을 묻는 것으로 해석한다. 폐포압은 호흡이 멈춘 정상 호기말에 대기압과 같고, 흡기 중 대기압보다 낮아진다. 반면 흉막강압은 이미 음수인 상태에서 더 낮아진다. 이 출제 의도를 기준으로 '''3번을 단일 정답'''으로 채점한다.\n\n=== 이 문제를 풀기 위한 개념 ===\n흡기는 횡격막이 수축해 내려가면서 시작한다. 흉곽이 넓어지면 흉막강압이 더 음성이 되고, 폐가 함께 펴지면서 폐포압이 대기압보다 낮아진다. 공기는 이 압력 차이를 따라 들어온다. 흡기말에는 폐용적이 가장 크지만 폐포압이 다시 대기압과 같아져 흐름이 멈춘다.\n\n@formula 안팎의 압력 차이 | P_{L} = P_{A} − P_{pl} | PL은 폐를 펴는 압력이다. 공기의 '''유량'''을 만드는 것은 별도의 '''대기–폐포 압력 차이'''다.\n\n[[파일:assets/lecture-02/tidal-four-curves.jpg|같은 시점의 용적·흉막강압·유량·폐포압을 세로로 비교한다. 이 그림의 흡기 유량은 음수다.]]\n\n그래프에서는 먼저 용적이 증가하는 구간을 흡기로 찾는다. 그 구간의 폐포압은 음성이고 유량이 존재한다. 용적이 꼭대기에 이르면 용적 변화가 멈추므로 유량도 0이다. '''용적의 최대와 유량의 최대는 같은 시점이 아니다.''' 유량의 위아래 부호는 그림의 약속이므로, 음수라고 곧바로 호기라고 판단하지 않는다.\n\n||= 시점 ||= 근육·용적 ||= PA와 흐름 ||= Ppl ||\n|| 정상 호기말 || 호흡근 이완, FRC || 0, 흐름 없음 || 음성 ||\n|| 흡기 중 || 횡격막·외늑간근 수축, 용적 증가 || 음성, 공기 유입 || 더 음성 ||\n|| 흡기말 || 그 일회호흡에서 용적 최대 || 0, 흐름 없음 || 가장 음성인 부근 ||\n|| 조용한 호기 || 흡기근 이완, 탄성반동으로 용적 감소 || 양성, 공기 유출 || 덜 음성 ||\n|| 강제호기 || 복근·내늑간근 수축 || 높은 PA로 공기 배출 || 양성이 될 수 있음 ||\n\n> '''FRC는 정상 호기말의 기준 용적'''이다. 한 번 들이쉬는 동안 커지는 현재 폐용적과 구별한다. 조용한 호기는 주로 수동적이지만, 강제호기는 호기근을 쓴다.\n\n=== 선지별 해설 ===\n* 1번: '''이 문항의 정답에서는 제외한다.''' 흉막강압(Ppl)은 정상 호기말에도 이미 대기압보다 낮으며, 들숨에서 더 음성이 된다. 여기서는 ‘0보다 작아진다’를 새로 음압이 형성되는 변화로 읽는 출제 의도에 따른다. 흉막강압이 흡기 중 음수라는 생리적 사실 자체를 부정하는 것은 아니다.\n* 2번: '''현재 폐용적 증가와 FRC 증가는 다르다.''' 흡기 동안은 FRC에서 VT만큼 올라간다. FRC는 정상 호기말의 기준 용적이며 숨을 한 번 들이쉴 때마다 그 정의가 바뀌지 않는다.\n* 3번: '''흡기 중 PA가 대기압보다 낮아져 공기가 들어온다.''' 대기압을 상대압 0으로 두면 PA<0이다. 흡기말에는 PA가 다시 0이 되어 유량이 멈추므로 들숨의 모든 순간에 계속 음성인 것은 아니다.\n* 4번: '''유량은 흡기말까지 계속 증가하지 않는다.''' 중간에 큰 유량을 보이다가 흡기말에는 0으로 돌아온다. 용적은 유량이 누적된 결과이므로 용적이 최대인 순간에도 유량은 0일 수 있다.\n* 5번: '''복근 수축은 강제호기에 동원된다.''' 복압을 높여 횡격막을 위로 밀어 올리고 흉곽 용적을 줄인다. 조용한 흡기의 주역은 횡격막과 외늑간근이다.\n\n=== 이 문항의 채점 기준 ===\n'''폐포압: 0 → 음수 / 흉막강압: 원래 음수 → 더 낮은 음수.''' 두 압력의 출발점과 변화를 구별하여 3번을 선택한다. ‘0보다 작아진다’라는 표현만으로 1번이 수학적으로 거짓이라고 단정하는 것은 아니며, 출제 의도를 반영한 단일 정답 기준이다. 발문과 선지는 그대로 보존한다.\n\n[[2강#조용한 흡기는 능동적이고 호기는 주로 수동적이다|Wiki · 조용한 흡기는 능동적이고 호기는 주로 수동적이다]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 12·15·18쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.9. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.9 출제자란 확인",
       "lectureIds": [
         2
       ],
       "lectureId": 2,
       "lectureTitle": "호흡의 기계역학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 9번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.9",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-24",
-        "basis": "現 2강 Wiki(2026-10-14 전면 개정), 39기 호흡의 기계역학 및 38기 자료의 개념 보충",
-        "pages": [
-          12,
-          15,
-          18
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 9,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 9,
+        "professor": "곽지연",
+        "lecture": "호흡의 기계 역학",
+        "question": "들숨 (inspiration) 동안 나타날 수 있는 변화로 가장 적절한 것은?",
+        "choices": [
+          "Pleural pressure가 0보다 작아진다",
+          "FRC가 증가한다",
+          "Alveolar pressure가 0보다 작아진다",
+          "Air flow는 날숨을 시작할 때까지 계속 증가한다",
+          "Abdominal muscle이 함께 수축한다"
         ],
-        "chapter": "조용한 흡기는 능동적이고 호기는 주로 수동적이다",
-        "answerStatus": "single_answer_by_exam_intent",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "questionAndAnswerPreserved": false,
-        "images": [
-          {
-            "file": "assets/lecture-02/tidal-four-curves.jpg",
-            "source": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\2. 호흡의 기계역학.pdf",
-            "page": 18
-          }
-        ],
-        "formulaCount": 1,
-        "crossLectureSupport": [],
-        "reviewScope": "정답 근거·필수 개념·그래프 읽기·다섯 선지 해설·문단 링크, 현재 Wiki 기반 JBL 분류",
-        "questionPreserved": true,
-        "answerDecision": "사용자 확인: 흉막압은 기존 음압에서 더 낮아지고 폐포압은 0에서 음수가 되는 출제 의도를 따라 3번 단일 정답."
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14713,54 +14936,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "2번",
-      "explanation": "정답: 2번\n\n최대한 들이마신 뒤 끝까지 내보낼 수 있는 양은 '''VC=TLC−RV'''다. 최대 흡기 후에는 TLC가 들어 있지만 RV는 끝까지 남으므로, 배출된 양을 TLC라고 할 수 없다.\n\n=== 이 문제를 풀기 위한 개념 ===\n폐용적 문제는 '''어디에서 시작해 어디에서 끝나는지'''부터 잡는다. 조용히 내쉰 뒤에는 FRC가 남고, 여기서 더 내쉬어도 끝까지 남는 양이 RV다. 반대로 최대한 들이마신 상태에는 TLC가 들어 있다. TLC에서 RV까지 실제로 움직일 수 있는 양이 VC다.\n\n[[파일:assets/lecture-02/volume-capacities.jpg|최대 흡기말 TLC · 정상 호기말 FRC · 최대 호기말 RV. 두 높이 사이의 차이가 움직인 용적이다.]]\n\n@formula 전체 용적을 나누는 두 방법 | TLC = VC + RV = IC + FRC | '''VC'''는 최대한 드나드는 양, '''RV'''는 끝까지 남는 양이다. 정상 호기말을 기준으로 위쪽은 IC, 아래쪽은 FRC다.\n\n||= 이름 ||= 기준점과 범위 ||= 식 ||\n|| VT 또는 TV || 조용한 한 번의 들숨·날숨 || 대표값 약 500 mL ||\n|| IRV || 정상 흡기말에서 추가로 들이마시는 양 || TLC−(FRC+VT) ||\n|| ERV || 정상 호기말에서 추가로 내쉬는 양 || FRC−RV ||\n|| RV || 최대 노력 호기 후에도 남는 양 || 밖으로 내보낼 수 없음 ||\n|| VC || 최대 흡기말에서 최대 호기말까지 배출되는 양 || IRV+VT+ERV = TLC−RV ||\n|| IC || 정상 호기말에서 최대 흡기말까지 들이마시는 양 || VT+IRV = TLC−FRC ||\n|| FRC || 정상 호기말에 남아 있는 양 || ERV+RV ||\n|| TLC || 최대 흡기 후 들어 있는 전체 양 || IRV+VT+ERV+RV ||\n\n예를 들어 IRV 3.3 L, VT 0.5 L, ERV 1.0 L, RV 1.2 L라면 VC는 4.8 L, FRC는 2.2 L, TLC는 6.0 L다. 이 값은 도식의 예시이지 모든 사람의 정상 기준은 아니다. 식이 낯설게 제시되면 네 기본 용적으로 풀어 '''중복된 항과 빠진 항'''을 찾으면 된다.\n\n> '''남은 양'''을 묻는 RV·FRC·TLC와 '''움직일 수 있는 양'''을 묻는 VC·IC를 구분한다. 단순 spirometry로는 RV를 직접 재지 못하므로 RV가 들어간 FRC·TLC도 별도 측정이 필요하다.\n\n=== 선지별 해설 ===\n* 1번: '''TV는 정상 한 번의 호흡량'''이다. 편안히 들이쉬고 내쉬는 범위만 포함하며, 최대 노력으로 추가 동원하는 IRV·ERV는 포함하지 않는다.\n* 2번: '''VC가 맞다.''' 최대 흡기말부터 최대 호기말까지 내보낼 수 있는 양이며 IRV+VT+ERV다. ‘최대로 들어 있는 양’은 TLC, ‘최대로 내보낼 수 있는 양’은 VC다.\n* 3번: '''ERV는 정상 호기말 이후의 추가 호기량'''이다. 문제는 최대 흡기에서 출발하므로 ERV만으로는 IRV와 VT 구간이 빠진다.\n* 4번: '''FRC는 정상 호기말에 남아 있는 양'''이다. ERV+RV 중 RV는 내보낼 수 없으므로, FRC를 최대 배출량으로 선택할 수 없다.\n* 5번: '''TLC에는 밖으로 나오지 않는 RV까지 포함'''된다. 최대 흡기 후 전체 용적은 TLC지만, 최대 호기까지 실제 배출되는 양은 TLC에서 RV를 뺀 VC다.\n\n[[2강#RV는 끝까지 내쉬어도 남고 VC는 최대한 움직일 수 있는 양이다|Wiki · RV는 끝까지 내쉬어도 남고 VC는 최대한 움직일 수 있는 양이다]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 20·21·22쪽.~~~",
+      "answerLabel": "2번 — Vital capacity (VC)",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: 2번\n\n최대한 들이마신 뒤 끝까지 내보낼 수 있는 양은 '''VC=TLC−RV'''다. 최대 흡기 후에는 TLC가 들어 있지만 RV는 끝까지 남으므로, 배출된 양을 TLC라고 할 수 없다.\n\n=== 이 문제를 풀기 위한 개념 ===\n폐용적 문제는 '''어디에서 시작해 어디에서 끝나는지'''부터 잡는다. 조용히 내쉰 뒤에는 FRC가 남고, 여기서 더 내쉬어도 끝까지 남는 양이 RV다. 반대로 최대한 들이마신 상태에는 TLC가 들어 있다. TLC에서 RV까지 실제로 움직일 수 있는 양이 VC다.\n\n[[파일:assets/lecture-02/volume-capacities.jpg|최대 흡기말 TLC · 정상 호기말 FRC · 최대 호기말 RV. 두 높이 사이의 차이가 움직인 용적이다.]]\n\n@formula 전체 용적을 나누는 두 방법 | TLC = VC + RV = IC + FRC | '''VC'''는 최대한 드나드는 양, '''RV'''는 끝까지 남는 양이다. 정상 호기말을 기준으로 위쪽은 IC, 아래쪽은 FRC다.\n\n||= 이름 ||= 기준점과 범위 ||= 식 ||\n|| VT 또는 TV || 조용한 한 번의 들숨·날숨 || 대표값 약 500 mL ||\n|| IRV || 정상 흡기말에서 추가로 들이마시는 양 || TLC−(FRC+VT) ||\n|| ERV || 정상 호기말에서 추가로 내쉬는 양 || FRC−RV ||\n|| RV || 최대 노력 호기 후에도 남는 양 || 밖으로 내보낼 수 없음 ||\n|| VC || 최대 흡기말에서 최대 호기말까지 배출되는 양 || IRV+VT+ERV = TLC−RV ||\n|| IC || 정상 호기말에서 최대 흡기말까지 들이마시는 양 || VT+IRV = TLC−FRC ||\n|| FRC || 정상 호기말에 남아 있는 양 || ERV+RV ||\n|| TLC || 최대 흡기 후 들어 있는 전체 양 || IRV+VT+ERV+RV ||\n\n예를 들어 IRV 3.3 L, VT 0.5 L, ERV 1.0 L, RV 1.2 L라면 VC는 4.8 L, FRC는 2.2 L, TLC는 6.0 L다. 이 값은 도식의 예시이지 모든 사람의 정상 기준은 아니다. 식이 낯설게 제시되면 네 기본 용적으로 풀어 '''중복된 항과 빠진 항'''을 찾으면 된다.\n\n> '''남은 양'''을 묻는 RV·FRC·TLC와 '''움직일 수 있는 양'''을 묻는 VC·IC를 구분한다. 단순 spirometry로는 RV를 직접 재지 못하므로 RV가 들어간 FRC·TLC도 별도 측정이 필요하다.\n\n=== 선지별 해설 ===\n* 1번: '''TV는 정상 한 번의 호흡량'''이다. 편안히 들이쉬고 내쉬는 범위만 포함하며, 최대 노력으로 추가 동원하는 IRV·ERV는 포함하지 않는다.\n* 2번: '''VC가 맞다.''' 최대 흡기말부터 최대 호기말까지 내보낼 수 있는 양이며 IRV+VT+ERV다. ‘최대로 들어 있는 양’은 TLC, ‘최대로 내보낼 수 있는 양’은 VC다.\n* 3번: '''ERV는 정상 호기말 이후의 추가 호기량'''이다. 문제는 최대 흡기에서 출발하므로 ERV만으로는 IRV와 VT 구간이 빠진다.\n* 4번: '''FRC는 정상 호기말에 남아 있는 양'''이다. ERV+RV 중 RV는 내보낼 수 없으므로, FRC를 최대 배출량으로 선택할 수 없다.\n* 5번: '''TLC에는 밖으로 나오지 않는 RV까지 포함'''된다. 최대 흡기 후 전체 용적은 TLC지만, 최대 호기까지 실제 배출되는 양은 TLC에서 RV를 뺀 VC다.\n\n[[2강#RV는 끝까지 내쉬어도 남고 VC는 최대한 움직일 수 있는 양이다|Wiki · RV는 끝까지 내쉬어도 남고 VC는 최대한 움직일 수 있는 양이다]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 20·21·22쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.10. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.10 출제자란 확인",
       "lectureIds": [
         2
       ],
       "lectureId": 2,
       "lectureTitle": "호흡의 기계역학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 10번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.10",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "現 2강 Wiki(2026-10-14 전면 개정), 39기 호흡의 기계역학 및 38기 자료의 개념 보충",
-        "pages": [
-          20,
-          21,
-          22
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 10,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 10,
+        "professor": "곽지연",
+        "lecture": "호흡의 기계역학",
+        "question": "최대 흡식 후에 있는 힘껏 숨을 내쉴 때 배출될 수 있는 volume 또는 capacity는?",
+        "choices": [
+          "Tidal volume (TV)",
+          "Vital capacity (VC)",
+          "Expiratory reserve volume (ERV)",
+          "Functional residual capacity (FRC)",
+          "Total lung capacity (TLC)"
         ],
-        "chapter": "RV는 끝까지 내쉬어도 남고 VC는 최대한 움직일 수 있는 양이다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-02/volume-capacities.jpg",
-            "source": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\2. 호흡의 기계역학.pdf",
-            "page": 21
-          }
-        ],
-        "formulaCount": 1,
-        "crossLectureSupport": [],
-        "reviewScope": "정답 근거·필수 개념·그래프 읽기·다섯 선지 해설·문단 링크, 현재 Wiki 기반 JBL 분류"
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14787,54 +15013,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "2번",
-      "explanation": "정답: 2번\n\n정답은 '''emphysema'''다. 압력–용적 관계에서는 쉽게 늘어나는 폐지만, 탄성반동과 기도 지지가 줄어 호기에는 공기가 갇힐 수 있다.\n\n=== 이 문제를 풀기 위한 개념 ===\n순응도는 폐가 얼마나 쉽게 늘어나는지를 뜻한다. 같은 압력으로 용적이 더 많이 증가하면 순응도가 높고, 같은 용적을 얻는 데 더 큰 압력이 필요하면 순응도가 낮다. 공기 흐름을 멈춘 정적 압력–용적 관계에서는 기도저항에 의한 압력 손실을 제외해 볼 수 있다.\n\n@formula 폐순응도 | C_{L} = ΔV_{L} / ΔP_{L} | 가로축이 경폐압, 세로축이 폐용적이면 '''기울기'''가 순응도다. 탄성도 elastance는 그 역수다.\n\n[[파일:assets/lecture-02/compliance-disease.jpg|압력–용적 관계: 폐기종은 잘 늘어나지만 반동이 약하고, 섬유화는 같은 압력에서 덜 늘어난다.]]\n\n그림에서는 같은 압력 변화에 용적이 얼마나 바뀌는지를 비교한다. 폐기종은 탄성 지지조직이 소실되어 쉽게 늘어나지만 잘 되돌아오지 않는다. 섬유화는 반대로 뻣뻣해진 폐를 펴는 데 큰 압력이 필요하다. '''순응도 증가가 곧 정상 기능이나 좋은 호기를 뜻하지는 않는다.'''\n\n||= 상태 ||= 순응도 ||= 함께 달라지는 것 ||\n|| 폐기종 || 증가 || 탄성반동·기도 지지 감소, 호기 때 공기 걸림 ||\n|| 폐섬유화 || 감소 || 같은 용적을 펴는 압력과 탄성 일 증가 ||\n|| Surfactant 증가 || 증가 || 표면장력과 그에 의한 반동 감소 ||\n|| Surfactant 부족 || 감소 || 표면장력·허탈 경향 증가 ||\n|| 이미 크게 팽창한 폐 || 감소 || 늘어난 섬유를 더 늘리기 어려움 ||\n|| 매우 낮은 폐용적 || 감소할 수 있음 || 닫힌 폐포·기도를 여는 과정의 영향 ||\n\nFRC 부근의 정상 '''폐 자체''' 순응도는 약 '''200 mL/cmH₂O'''다. 폐와 흉벽을 함께 늘려야 하는 '''전체 호흡계'''의 순응도 약 '''100 mL/cmH₂O'''와 혼동하지 않는다. 또한 큰 폐는 작은 폐보다 용적 변화 자체가 클 수 있으므로 크기가 다른 폐의 성질을 비교할 때는 '''specific compliance=CL/FRC'''를 사용한다.\n\n> 순응도는 '''얼마나 잘 펴지는가''', 기도저항은 '''얼마나 잘 흐르는가'''다. 폐가 커지면 기도저항은 낮아져도 이미 팽창한 폐를 더 펴는 순응도는 낮아질 수 있다.\n\n=== 선지별 해설 ===\n* 1번: '''이미 높은 폐용적에서는 순응도가 감소하는 방향'''이다. 늘어난 섬유를 더 늘리기 어렵기 때문이다. 폐 크기가 큰 사람의 절대 CL이 크다는 비교와, 같은 폐가 고용적에 놓였을 때의 기울기 감소를 혼동하지 않는다.\n* 2번: '''순응도를 증가시킨다.''' 탄성조직이 소실되어 쉽게 팽창하지만 안으로 되돌리는 반동은 약해진다. 기도를 지지하는 실질도 손상되므로 호기 중 조기 기도 폐쇄와 air trapping으로 이어질 수 있다.\n* 3번: '''순응도를 감소시킨다.''' 섬유화된 폐는 뻣뻣해져 같은 압력에서 덜 늘어나며, 같은 환기량을 얻는 탄성 일이 커진다.\n* 4번: '''순응도를 감소시킨다.''' Surfactant가 줄면 표면장력이 커져 펴는 압력과 일이 증가한다. 순응도를 높이는 것은 surfactant의 증가다.\n* 5번: '''정적 순응도가 아니라 흐름의 저항에 관한 변화'''다. 난류에서는 같은 유량을 만들기 위한 압력 손실이 커질 수 있지만, 그 자체로 폐조직이 잘 늘어나게 되는 것은 아니다.\n\n[[2강#순응도는 압력–용적 곡선의 기울기다|Wiki · 순응도는 압력–용적 곡선의 기울기다]]\n\n[[2강#기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다|Wiki · 순응도 증가와 air trapping의 연결]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 29·30·35쪽.~~~",
+      "answerLabel": "2번 — Emphysema",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: 2번\n\n정답은 '''emphysema'''다. 압력–용적 관계에서는 쉽게 늘어나는 폐지만, 탄성반동과 기도 지지가 줄어 호기에는 공기가 갇힐 수 있다.\n\n=== 이 문제를 풀기 위한 개념 ===\n순응도는 폐가 얼마나 쉽게 늘어나는지를 뜻한다. 같은 압력으로 용적이 더 많이 증가하면 순응도가 높고, 같은 용적을 얻는 데 더 큰 압력이 필요하면 순응도가 낮다. 공기 흐름을 멈춘 정적 압력–용적 관계에서는 기도저항에 의한 압력 손실을 제외해 볼 수 있다.\n\n@formula 폐순응도 | C_{L} = ΔV_{L} / ΔP_{L} | 가로축이 경폐압, 세로축이 폐용적이면 '''기울기'''가 순응도다. 탄성도 elastance는 그 역수다.\n\n[[파일:assets/lecture-02/compliance-disease.jpg|압력–용적 관계: 폐기종은 잘 늘어나지만 반동이 약하고, 섬유화는 같은 압력에서 덜 늘어난다.]]\n\n그림에서는 같은 압력 변화에 용적이 얼마나 바뀌는지를 비교한다. 폐기종은 탄성 지지조직이 소실되어 쉽게 늘어나지만 잘 되돌아오지 않는다. 섬유화는 반대로 뻣뻣해진 폐를 펴는 데 큰 압력이 필요하다. '''순응도 증가가 곧 정상 기능이나 좋은 호기를 뜻하지는 않는다.'''\n\n||= 상태 ||= 순응도 ||= 함께 달라지는 것 ||\n|| 폐기종 || 증가 || 탄성반동·기도 지지 감소, 호기 때 공기 걸림 ||\n|| 폐섬유화 || 감소 || 같은 용적을 펴는 압력과 탄성 일 증가 ||\n|| Surfactant 증가 || 증가 || 표면장력과 그에 의한 반동 감소 ||\n|| Surfactant 부족 || 감소 || 표면장력·허탈 경향 증가 ||\n|| 이미 크게 팽창한 폐 || 감소 || 늘어난 섬유를 더 늘리기 어려움 ||\n|| 매우 낮은 폐용적 || 감소할 수 있음 || 닫힌 폐포·기도를 여는 과정의 영향 ||\n\nFRC 부근의 정상 '''폐 자체''' 순응도는 약 '''200 mL/cmH₂O'''다. 폐와 흉벽을 함께 늘려야 하는 '''전체 호흡계'''의 순응도 약 '''100 mL/cmH₂O'''와 혼동하지 않는다. 또한 큰 폐는 작은 폐보다 용적 변화 자체가 클 수 있으므로 크기가 다른 폐의 성질을 비교할 때는 '''specific compliance=CL/FRC'''를 사용한다.\n\n> 순응도는 '''얼마나 잘 펴지는가''', 기도저항은 '''얼마나 잘 흐르는가'''다. 폐가 커지면 기도저항은 낮아져도 이미 팽창한 폐를 더 펴는 순응도는 낮아질 수 있다.\n\n=== 선지별 해설 ===\n* 1번: '''이미 높은 폐용적에서는 순응도가 감소하는 방향'''이다. 늘어난 섬유를 더 늘리기 어렵기 때문이다. 폐 크기가 큰 사람의 절대 CL이 크다는 비교와, 같은 폐가 고용적에 놓였을 때의 기울기 감소를 혼동하지 않는다.\n* 2번: '''순응도를 증가시킨다.''' 탄성조직이 소실되어 쉽게 팽창하지만 안으로 되돌리는 반동은 약해진다. 기도를 지지하는 실질도 손상되므로 호기 중 조기 기도 폐쇄와 air trapping으로 이어질 수 있다.\n* 3번: '''순응도를 감소시킨다.''' 섬유화된 폐는 뻣뻣해져 같은 압력에서 덜 늘어나며, 같은 환기량을 얻는 탄성 일이 커진다.\n* 4번: '''순응도를 감소시킨다.''' Surfactant가 줄면 표면장력이 커져 펴는 압력과 일이 증가한다. 순응도를 높이는 것은 surfactant의 증가다.\n* 5번: '''정적 순응도가 아니라 흐름의 저항에 관한 변화'''다. 난류에서는 같은 유량을 만들기 위한 압력 손실이 커질 수 있지만, 그 자체로 폐조직이 잘 늘어나게 되는 것은 아니다.\n\n[[2강#순응도는 압력–용적 곡선의 기울기다|Wiki · 순응도는 압력–용적 곡선의 기울기다]]\n\n[[2강#기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다|Wiki · 순응도 증가와 air trapping의 연결]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 29·30·35쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.11. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.11 출제자란 확인",
       "lectureIds": [
         2
       ],
       "lectureId": 2,
       "lectureTitle": "호흡의 기계역학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 11번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.11",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "現 2강 Wiki(2026-10-14 전면 개정), 39기 호흡의 기계역학 및 38기 자료의 개념 보충",
-        "pages": [
-          29,
-          30,
-          35
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 11,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 11,
+        "professor": "곽지연",
+        "lecture": "호흡의 기계 역학",
+        "question": "폐의 유순도 (compliance)를 증가시킬 수 있는 원인으로 가장 적합한 것은?",
+        "choices": [
+          "Lung volume 증가",
+          "Emphysema",
+          "Fibrosis",
+          "Surfactant 생산 감소",
+          "Turbulent flow로 전환"
         ],
-        "chapter": "순응도는 압력–용적 곡선의 기울기다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-02/compliance-disease.jpg",
-            "source": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\2. 호흡의 기계역학.pdf",
-            "page": 30
-          }
-        ],
-        "formulaCount": 1,
-        "crossLectureSupport": [],
-        "reviewScope": "정답 근거·필수 개념·그래프 읽기·다섯 선지 해설·문단 링크, 현재 Wiki 기반 JBL 분류"
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14861,62 +15090,57 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "5번 — 폐기종의 반동 감소 맥락",
-      "explanation": "정답: 5번 — 폐기종의 반동 감소 맥락\n\n5번은 '''폐기종에서 탄성반동이 감소한 경우'''를 뜻하는 것으로 읽으면 가장 가깝다. 같은 호기 노력, 즉 같은 Ppl에서 Pel이 작으면 PA도 낮아져 기도가 눌리기까지의 압력 여유가 줄어든다. 그러나 ‘모든 폐쇄성 환자의 폐포압은 항상 낮다’는 설명은 아니다.\n\n=== 이 문제를 풀기 위한 개념 ===\n강제호기에서는 흉막강압에 탄성반동압이 더해져 폐포압이 만들어진다. 공기가 폐포에서 입으로 흐르는 동안 기도저항 때문에 기도 안 압력이 떨어지며, 그 압력이 Ppl과 같아지는 지점이 '''EPP, equal pressure point'''다. 더 입 쪽의 흉곽 내 기도는 바깥 압력이 더 높아져 눌릴 수 있다.\n\n@formula 강제호기의 압력 관계 | P_{A} = P_{pl} + P_{el} | 폐포에서 EPP까지 흐름을 만드는 압력 차이는 '''PA−Ppl=Pel'''이다. 기도를 누르는 압력은 '''Ppl−P기도'''와 구별한다.\n\n[[파일:assets/lecture-02/epp-disease.jpg|기도 협착은 압력 손실을 키우고, 폐기종은 폐포–흉막강의 반동압 차이를 줄인다. 둘 다 작은 기도의 조기 폐쇄로 이어질 수 있다.]]\n\n기도가 좁으면 짧은 거리에서도 압력을 많이 잃는다. 폐기종은 탄성반동이 작아 기도압이 Ppl보다 높게 유지될 여유 자체가 적고, 주변 폐실질의 지지도 약해진다. 두 경우 모두 EPP가 더 말초로 이동해 쉽게 눌리는 작은 기도가 일찍 닫힐 수 있다.\n\n||= 과정·지표 ||= 폐쇄성 질환에서의 전형적 변화 ||= 이유 ||\n|| 호기유량·FEV₁ || 감소 || 저항 증가와 동적 기도 압박 ||\n|| FEV₁/FVC || 감소 || 첫 1초 배출량이 총 배출량보다 더 줄어듦 ||\n|| RV·RV/TLC || 공기 걸림 때 증가 || 충분히 내쉬기 전에 기도가 닫힘 ||\n|| FRC·TLC || 정상 또는 증가, 과팽창 때 증가 || 높은 용적에서 호흡하거나 공기가 남음 ||\n|| FVC || 정상 또는 감소 || 갇힌 공기가 많으면 내보낼 총량도 줄어듦 ||\n|| 저항성 호흡일 || 증가 || 좁은 통로로 같은 환기량을 보내는 부담 ||\n\n> 더 세게 내쉬면 PA뿐 아니라 기도를 누르는 Ppl도 오른다. '''같은 폐용적'''에서 이미 흐름이 제한된 구간은 노력만으로 유량을 계속 늘릴 수 없다. 흡기와 호기 초기부터 모두 노력 독립적이라는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: '''공기 걸림에서는 RV가 늘고 RV/TLC도 증가하는 방향'''이다. 충분히 내쉬기 전에 기도가 닫혀 남는 공기가 많아진다. RV가 TLC보다 더 많이 감소한다는 것은 대표적인 폐쇄성 변화와 반대다.\n* 2번: '''과팽창에서는 FRC가 증가할 수 있다.''' 높은 폐용적에서 기도를 열어 두거나 호기가 끝나기 전에 다음 흡기가 시작되면 정상 호기말 용적이 올라간다. 모든 폐쇄성 질환에서 반드시 증가하는 것은 아니지만 감소가 대표 방향은 아니다.\n* 3번: '''빠르고 얕은 호흡은 섬유화의 탄성 부담을 줄이는 쪽'''으로 이해한다. 폐쇄성에서는 짧은 호기 시간이 공기 걸림을 심하게 할 수 있다. 실제 급성 호흡곤란의 빈호흡과 질환별 역학적 경향을 구분한다.\n* 4번: '''최대 호기유량은 감소한다.''' 좁은 기도와 동적 압박 때문에 내보내는 흐름이 제한된다. 더 큰 노력으로 Ppl을 높여도 흐름 제한이 생긴 구간의 유량은 무한히 늘어나지 않는다.\n* 5번: '''반동 감소와 조기 기도 폐쇄를 연결한 설명으로 읽는다.''' PA=Ppl+Pel에서 같은 Ppl이면 작은 Pel은 작은 PA를 만든다. EPP가 쉽게 눌리는 말초 기도로 이동해 premature closure가 생긴다. 핵심은 PA의 절대값보다 '''PA−Ppl의 반동압 차이'''가 작다는 것이다.\n\n=== 5번의 조건을 수치로 확인하기 ===\n[[파일:assets/lecture-02/epp-sequence.jpg|같은 Ppl=+60 cmH₂O에서 Pel이 +30에서 +10으로 작아지면 PA는 +90에서 +70으로 낮아진다.]]\n\n이 그림은 '''호기 중 폐용적 감소'''에 따라 반동이 작아지는 예다. 폐기종에서 반동이 약한 상황도 같은 압력 관계로 이해할 수 있다. PA는 +90에서 +70으로 작아져도 여전히 양수다. ‘작다’가 음압을 뜻하는 것은 아니다. 천식처럼 주된 문제가 기도 협착인 폐쇄성 질환에서는 PA가 낮지 않아도 압력 손실이 커져 조기 압박이 생길 수 있다.\n\n따라서 현재 선지는 '''폐기종·동일한 호기 노력'''이라는 조건을 보충해 풀이하되, 원문을 모든 폐쇄성 질환의 일반 법칙으로 외우지 않는다.\n\n[[2강#기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다|Wiki · 기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다]]\n\n[[2강#강하게 내쉴수록 기도가 눌려 더 이상 유량이 늘지 않는다|Wiki · EPP의 기본 압력 관계]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 23·26·48·49·50·51쪽.~~~",
+      "answerLabel": "5번 — 날숨 시작할 때 alveolar pressure가 작아서 premature airway closure 발생",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: 5번 — 폐기종의 반동 감소 맥락\n\n5번은 '''폐기종에서 탄성반동이 감소한 경우'''를 뜻하는 것으로 읽으면 가장 가깝다. 같은 호기 노력, 즉 같은 Ppl에서 Pel이 작으면 PA도 낮아져 기도가 눌리기까지의 압력 여유가 줄어든다. 그러나 ‘모든 폐쇄성 환자의 폐포압은 항상 낮다’는 설명은 아니다.\n\n=== 이 문제를 풀기 위한 개념 ===\n강제호기에서는 흉막강압에 탄성반동압이 더해져 폐포압이 만들어진다. 공기가 폐포에서 입으로 흐르는 동안 기도저항 때문에 기도 안 압력이 떨어지며, 그 압력이 Ppl과 같아지는 지점이 '''EPP, equal pressure point'''다. 더 입 쪽의 흉곽 내 기도는 바깥 압력이 더 높아져 눌릴 수 있다.\n\n@formula 강제호기의 압력 관계 | P_{A} = P_{pl} + P_{el} | 폐포에서 EPP까지 흐름을 만드는 압력 차이는 '''PA−Ppl=Pel'''이다. 기도를 누르는 압력은 '''Ppl−P기도'''와 구별한다.\n\n[[파일:assets/lecture-02/epp-disease.jpg|기도 협착은 압력 손실을 키우고, 폐기종은 폐포–흉막강의 반동압 차이를 줄인다. 둘 다 작은 기도의 조기 폐쇄로 이어질 수 있다.]]\n\n기도가 좁으면 짧은 거리에서도 압력을 많이 잃는다. 폐기종은 탄성반동이 작아 기도압이 Ppl보다 높게 유지될 여유 자체가 적고, 주변 폐실질의 지지도 약해진다. 두 경우 모두 EPP가 더 말초로 이동해 쉽게 눌리는 작은 기도가 일찍 닫힐 수 있다.\n\n||= 과정·지표 ||= 폐쇄성 질환에서의 전형적 변화 ||= 이유 ||\n|| 호기유량·FEV₁ || 감소 || 저항 증가와 동적 기도 압박 ||\n|| FEV₁/FVC || 감소 || 첫 1초 배출량이 총 배출량보다 더 줄어듦 ||\n|| RV·RV/TLC || 공기 걸림 때 증가 || 충분히 내쉬기 전에 기도가 닫힘 ||\n|| FRC·TLC || 정상 또는 증가, 과팽창 때 증가 || 높은 용적에서 호흡하거나 공기가 남음 ||\n|| FVC || 정상 또는 감소 || 갇힌 공기가 많으면 내보낼 총량도 줄어듦 ||\n|| 저항성 호흡일 || 증가 || 좁은 통로로 같은 환기량을 보내는 부담 ||\n\n> 더 세게 내쉬면 PA뿐 아니라 기도를 누르는 Ppl도 오른다. '''같은 폐용적'''에서 이미 흐름이 제한된 구간은 노력만으로 유량을 계속 늘릴 수 없다. 흡기와 호기 초기부터 모두 노력 독립적이라는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: '''공기 걸림에서는 RV가 늘고 RV/TLC도 증가하는 방향'''이다. 충분히 내쉬기 전에 기도가 닫혀 남는 공기가 많아진다. RV가 TLC보다 더 많이 감소한다는 것은 대표적인 폐쇄성 변화와 반대다.\n* 2번: '''과팽창에서는 FRC가 증가할 수 있다.''' 높은 폐용적에서 기도를 열어 두거나 호기가 끝나기 전에 다음 흡기가 시작되면 정상 호기말 용적이 올라간다. 모든 폐쇄성 질환에서 반드시 증가하는 것은 아니지만 감소가 대표 방향은 아니다.\n* 3번: '''빠르고 얕은 호흡은 섬유화의 탄성 부담을 줄이는 쪽'''으로 이해한다. 폐쇄성에서는 짧은 호기 시간이 공기 걸림을 심하게 할 수 있다. 실제 급성 호흡곤란의 빈호흡과 질환별 역학적 경향을 구분한다.\n* 4번: '''최대 호기유량은 감소한다.''' 좁은 기도와 동적 압박 때문에 내보내는 흐름이 제한된다. 더 큰 노력으로 Ppl을 높여도 흐름 제한이 생긴 구간의 유량은 무한히 늘어나지 않는다.\n* 5번: '''반동 감소와 조기 기도 폐쇄를 연결한 설명으로 읽는다.''' PA=Ppl+Pel에서 같은 Ppl이면 작은 Pel은 작은 PA를 만든다. EPP가 쉽게 눌리는 말초 기도로 이동해 premature closure가 생긴다. 핵심은 PA의 절대값보다 '''PA−Ppl의 반동압 차이'''가 작다는 것이다.\n\n=== 5번의 조건을 수치로 확인하기 ===\n[[파일:assets/lecture-02/epp-sequence.jpg|같은 Ppl=+60 cmH₂O에서 Pel이 +30에서 +10으로 작아지면 PA는 +90에서 +70으로 낮아진다.]]\n\n이 그림은 '''호기 중 폐용적 감소'''에 따라 반동이 작아지는 예다. 폐기종에서 반동이 약한 상황도 같은 압력 관계로 이해할 수 있다. PA는 +90에서 +70으로 작아져도 여전히 양수다. ‘작다’가 음압을 뜻하는 것은 아니다. 천식처럼 주된 문제가 기도 협착인 폐쇄성 질환에서는 PA가 낮지 않아도 압력 손실이 커져 조기 압박이 생길 수 있다.\n\n따라서 현재 선지는 '''폐기종·동일한 호기 노력'''이라는 조건을 보충해 풀이하되, 원문을 모든 폐쇄성 질환의 일반 법칙으로 외우지 않는다.\n\n[[2강#기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다|Wiki · 기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다]]\n\n[[2강#강하게 내쉴수록 기도가 눌려 더 이상 유량이 늘지 않는다|Wiki · EPP의 기본 압력 관계]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 23·26·48·49·50·51쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.12. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.12 출제자란 확인",
       "lectureIds": [
         2
       ],
       "lectureId": 2,
       "lectureTitle": "호흡의 기계역학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 12번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.12",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "現 2강 Wiki(2026-10-14 전면 개정), 39기 호흡의 기계역학 및 38기 자료의 개념 보충",
-        "pages": [
-          23,
-          26,
-          48,
-          49,
-          50,
-          51
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 12,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 12,
+        "professor": "곽지연",
+        "lecture": "호흡의 기계 역학",
+        "question": "Obstructive lung disease 환자에서 달라지는 호흡의 특성으로 가장 옳은 것은?",
+        "choices": [
+          "RV가 TLC보다 더 많이 감소해서 RV/TLC ratio가 감소한다",
+          "FRC가 정상보다 감소",
+          "호흡이 빠르고 얕아진다",
+          "Maximal expiratory flow가 정상보다 증가",
+          "날숨 시작할 때 alveolar pressure가 작아서 premature airway closure 발생"
         ],
-        "chapter": "기도 협착과 폐기종은 서로 다른 출발점에서 공기를 가둔다",
-        "answerStatus": "conditional_lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-02/epp-disease.jpg",
-            "source": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\2. 호흡의 기계역학.pdf",
-            "page": 51
-          },
-          {
-            "file": "assets/lecture-02/epp-sequence.jpg",
-            "source": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\2. 호흡의 기계역학.pdf",
-            "page": 49
-          }
-        ],
-        "formulaCount": 1,
-        "crossLectureSupport": [],
-        "reviewScope": "정답 근거·필수 개념·그래프 읽기·다섯 선지 해설·문단 링크, 현재 Wiki 기반 JBL 분류"
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -14943,57 +15167,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "2번",
-      "explanation": "정답: 2번\n\n정답은 '''compliance'''다. 첨부는 이미 많이 팽창해 추가로 늘어날 여유가 적고, 기저부는 압력–용적 곡선의 상대적으로 가파른 구간에서 호흡한다. ‘기저부가 더 크다’가 아니라 '''기저부의 용적 변화가 더 크다'''는 뜻이다.\n\n=== 이 문제를 풀기 위한 개념 ===\n서 있는 사람의 정상 호기말에는 폐의 무게 때문에 흉막강압에 위아래 차이가 생긴다. 첨부의 Ppl이 더 음성이므로 PA−Ppl, 즉 경폐압이 더 크고 폐포가 이미 많이 펴져 있다. 기저부는 상대적으로 덜 팽창한 상태에서 출발해 같은 압력 변화에 더 많이 늘어난다.\n\n@formula 지역별 팽창과 순응도 | P_{L} = P_{A} − P_{pl} ; C_{L} = ΔV_{L} / ΔP_{L} | '''큰 현재 용적'''과 '''크게 변할 수 있는 여유'''는 다르다. FRC 부근의 정상 폐를 비교한다.\n\n[[파일:assets/lecture-02/compliance-slope.jpg|고용적 구간은 기울기가 완만하다. 첨부의 이미 팽창한 폐포와 기저부의 팽창 여유를 이해하는 압력–용적 곡선]]\n\n이 그림 자체는 지역별 폐 사진이 아니라 압력–용적 관계다. 첨부는 상대적으로 높은 용적의 완만한 구간, 기저부는 더 가파른 구간에서 호흡한다고 연결하면 된다. '''기저부의 폐포가 처음부터 더 크기 때문에 잘 환기되는 것이 아니다.'''\n\n||= 정상 직립·FRC 부근의 비교 ||= 첨부 ||= 기저부 ||\n|| Ppl의 음성 정도·절대값 || 더 큼 || 더 작음 ||\n|| 경폐압·휴식 시 폐포 크기 || 더 큼 || 더 작음 ||\n|| 같은 ΔP에 대한 ΔV·순응도 || 더 작음 || 더 큼 ||\n|| 환기와 관류 || 상대적으로 적음 || 둘 다 증가, 특히 관류 증가가 큼 ||\n|| V/Q || 더 높음 || 더 낮음 ||\n\n예를 들어 Ppl이 −10과 −3이라면 부호를 포함한 수는 −3이 크지만, '''절대값은 10이 더 크다'''. 문제의 ‘절대값’을 놓치면 Ppl을 반대로 고르게 된다. 한편 시간상수는 '''τ=R×C'''이므로 C만 보고 순서를 확정할 수 없다. 지역별 기도저항까지 주어지지 않은 이 비교에서 기저부의 τ가 반드시 더 크다고 결론 내리지 않는다.\n\n=== 선지별 해설 ===\n* 1번: '''음성 압력의 절대값은 첨부에서 더 크다.''' 예를 들어 −10은 −3보다 수로서는 작지만 절대값은 크다. ‘기저부 Ppl이 덜 음성’이라는 설명과 ‘기저부의 절대값이 더 큼’은 반대다.\n* 2번: '''기저부의 순응도가 더 크다.''' 정상 FRC 부근에서 기저부 폐포는 덜 팽창한 상태라 같은 ΔP에 더 큰 ΔV를 얻는다. 처음 크기가 아니라 압력에 대한 '''용적 변화'''를 비교한다.\n* 3번: '''휴식 시 폐포는 첨부에서 더 크다.''' 첨부의 Ppl이 더 음성이어서 경폐압이 더 크기 때문이다. 기저부가 더 잘 환기된다는 사실과 처음부터 더 큰 폐포라는 주장은 다르다.\n* 4번: '''순응도만으로 시간상수의 지역별 크기를 확정할 수 없다.''' τ=R×C이므로 기도저항도 필요하다. ‘기저부 C가 크니 τ도 반드시 크다’는 추론은 R이 같다는 조건을 임의로 넣은 것이다. 이 선지를 기저부의 보편적 특징으로 외우지 않는다.\n* 5번: '''V/Q는 첨부에서 더 높다.''' 기저부로 갈수록 환기와 관류가 모두 늘지만 관류 증가가 상대적으로 더 커 V/Q는 낮아진다. 환기량 자체가 많다는 이유로 V/Q도 크다고 판단하지 않는다.\n\n[[2강#서 있는 폐의 기저부는 덜 팽창해 있어 더 잘 늘어난다|Wiki · 서 있는 폐의 기저부는 덜 팽창해 있어 더 잘 늘어난다]]\n\n[[3강#첨부는 이미 팽창해 있고 기저부는 더 크게 환기된다|Wiki · 지역별 환기]] · [[3강#시간상수가 길면 같은 시간 안에 덜 채워지고 덜 비워진다|Wiki · 시간상수 τ=RC]] · [[3강#첨부는 환기도 적지만 혈류가 더 적어 V/Q가 높다|Wiki · 지역별 V/Q]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 12·29쪽.~~~",
+      "answerLabel": "2번 — Compliance",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: 2번\n\n정답은 '''compliance'''다. 첨부는 이미 많이 팽창해 추가로 늘어날 여유가 적고, 기저부는 압력–용적 곡선의 상대적으로 가파른 구간에서 호흡한다. ‘기저부가 더 크다’가 아니라 '''기저부의 용적 변화가 더 크다'''는 뜻이다.\n\n=== 이 문제를 풀기 위한 개념 ===\n서 있는 사람의 정상 호기말에는 폐의 무게 때문에 흉막강압에 위아래 차이가 생긴다. 첨부의 Ppl이 더 음성이므로 PA−Ppl, 즉 경폐압이 더 크고 폐포가 이미 많이 펴져 있다. 기저부는 상대적으로 덜 팽창한 상태에서 출발해 같은 압력 변화에 더 많이 늘어난다.\n\n@formula 지역별 팽창과 순응도 | P_{L} = P_{A} − P_{pl} ; C_{L} = ΔV_{L} / ΔP_{L} | '''큰 현재 용적'''과 '''크게 변할 수 있는 여유'''는 다르다. FRC 부근의 정상 폐를 비교한다.\n\n[[파일:assets/lecture-02/compliance-slope.jpg|고용적 구간은 기울기가 완만하다. 첨부의 이미 팽창한 폐포와 기저부의 팽창 여유를 이해하는 압력–용적 곡선]]\n\n이 그림 자체는 지역별 폐 사진이 아니라 압력–용적 관계다. 첨부는 상대적으로 높은 용적의 완만한 구간, 기저부는 더 가파른 구간에서 호흡한다고 연결하면 된다. '''기저부의 폐포가 처음부터 더 크기 때문에 잘 환기되는 것이 아니다.'''\n\n||= 정상 직립·FRC 부근의 비교 ||= 첨부 ||= 기저부 ||\n|| Ppl의 음성 정도·절대값 || 더 큼 || 더 작음 ||\n|| 경폐압·휴식 시 폐포 크기 || 더 큼 || 더 작음 ||\n|| 같은 ΔP에 대한 ΔV·순응도 || 더 작음 || 더 큼 ||\n|| 환기와 관류 || 상대적으로 적음 || 둘 다 증가, 특히 관류 증가가 큼 ||\n|| V/Q || 더 높음 || 더 낮음 ||\n\n예를 들어 Ppl이 −10과 −3이라면 부호를 포함한 수는 −3이 크지만, '''절대값은 10이 더 크다'''. 문제의 ‘절대값’을 놓치면 Ppl을 반대로 고르게 된다. 한편 시간상수는 '''τ=R×C'''이므로 C만 보고 순서를 확정할 수 없다. 지역별 기도저항까지 주어지지 않은 이 비교에서 기저부의 τ가 반드시 더 크다고 결론 내리지 않는다.\n\n=== 선지별 해설 ===\n* 1번: '''음성 압력의 절대값은 첨부에서 더 크다.''' 예를 들어 −10은 −3보다 수로서는 작지만 절대값은 크다. ‘기저부 Ppl이 덜 음성’이라는 설명과 ‘기저부의 절대값이 더 큼’은 반대다.\n* 2번: '''기저부의 순응도가 더 크다.''' 정상 FRC 부근에서 기저부 폐포는 덜 팽창한 상태라 같은 ΔP에 더 큰 ΔV를 얻는다. 처음 크기가 아니라 압력에 대한 '''용적 변화'''를 비교한다.\n* 3번: '''휴식 시 폐포는 첨부에서 더 크다.''' 첨부의 Ppl이 더 음성이어서 경폐압이 더 크기 때문이다. 기저부가 더 잘 환기된다는 사실과 처음부터 더 큰 폐포라는 주장은 다르다.\n* 4번: '''순응도만으로 시간상수의 지역별 크기를 확정할 수 없다.''' τ=R×C이므로 기도저항도 필요하다. ‘기저부 C가 크니 τ도 반드시 크다’는 추론은 R이 같다는 조건을 임의로 넣은 것이다. 이 선지를 기저부의 보편적 특징으로 외우지 않는다.\n* 5번: '''V/Q는 첨부에서 더 높다.''' 기저부로 갈수록 환기와 관류가 모두 늘지만 관류 증가가 상대적으로 더 커 V/Q는 낮아진다. 환기량 자체가 많다는 이유로 V/Q도 크다고 판단하지 않는다.\n\n[[2강#서 있는 폐의 기저부는 덜 팽창해 있어 더 잘 늘어난다|Wiki · 서 있는 폐의 기저부는 덜 팽창해 있어 더 잘 늘어난다]]\n\n[[3강#첨부는 이미 팽창해 있고 기저부는 더 크게 환기된다|Wiki · 지역별 환기]] · [[3강#시간상수가 길면 같은 시간 안에 덜 채워지고 덜 비워진다|Wiki · 시간상수 τ=RC]] · [[3강#첨부는 환기도 적지만 혈류가 더 적어 V/Q가 높다|Wiki · 지역별 V/Q]]\n~~근거: 현재 2강 Wiki의 해당 문단과 39기 「호흡의 기계역학」 12·29쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.13. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.13 출제자란 확인",
       "lectureIds": [
-        2
+        3
       ],
-      "lectureId": 2,
-      "lectureTitle": "호흡의 기계역학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 13번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "lectureId": 3,
+      "lectureTitle": "폐의환기 및 가스교환",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.13",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "폐기저부의 compliance·폐포 크기와 V/Q를 함께 묻는다. 기계역학 2강 우선, 3강 교차."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "現 2강 Wiki(2026-10-14 전면 개정), 39기 호흡의 기계역학 및 38기 자료의 개념 보충",
-        "pages": [
-          12,
-          29
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 13,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 13,
+        "professor": "곽지연",
+        "lecture": "폐의 환기 및 가스교환",
+        "question": "똑바로 서 있을 때, 폐 첨부 (apex)에 비해 기저부 (base)에서 더 큰 값 (절대값)을 갖는\n것은?",
+        "choices": [
+          "Pleural pressure",
+          "Compliance",
+          "Alveolar size",
+          "Time constant",
+          "Ventilation (V)/flow (Q) ratio"
         ],
-        "chapter": "서 있는 폐의 기저부는 덜 팽창해 있어 더 잘 늘어난다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-02/compliance-slope.jpg",
-            "source": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\2. 호흡의 기계역학.pdf",
-            "page": 29
-          }
-        ],
-        "formulaCount": 1,
-        "crossLectureSupport": [
-          3
-        ],
-        "reviewScope": "정답 근거·필수 개념·그래프 읽기·다섯 선지 해설·문단 링크, 현재 Wiki 기반 JBL 분류"
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15020,31 +15244,29 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "1번",
-      "explanation": "정답: 1번\n\n'''FRC 부근'''에서 총 폐혈관저항이 가장 낮다. RV에서는 폐포외혈관이 좁아지고, TLC에서는 폐포혈관의 저항이 커지므로 양 끝에서 저항이 높아지는 U자형 곡선을 떠올리면 된다.\n\n=== 이 문제를 풀기 위한 개념 ===\n\n폐용적이 커지면 모든 혈관이 똑같이 넓어지는 것은 아니다. '''폐포벽 안의 모세혈관'''은 팽창한 폐포에 의해 늘어나고 눌리는 반면, '''폐포 밖의 혈관'''은 주변 실질이 당겨 주어 열린다. 이 반대 작용을 합친 총 폐혈관저항이 '''FRC 부근에서 최소'''가 된다.\n\n[[파일:assets/lecture-03/lung-volume-resistance-figure.jpg|RV → FRC → TLC: 폐포혈관과 폐포외혈관의 반대 변화가 총저항의 U자 곡선을 만든다.]]\n\n그림의 '''가로축은 폐용적, 세로축은 혈관저항'''이다. 아래로 내려가는 폐포외혈관 곡선과 위로 올라가는 폐포혈관 곡선을 각각 확인한 뒤, 합친 총저항 곡선의 가장 낮은 곳을 찾는다. 두 곡선이 교차하는 위치 자체가 정답의 정의는 아니다.\n\n||= 폐용적 ||= 폐포혈관 ||= 폐포외혈관 ||= 총 PVR ||\n|| RV: 최대 호기말 || 팽창에 의한 압박은 적음 || 실질의 당김이 약해 좁아짐 || 증가 ||\n|| '''FRC: 정상 호기말''' || 두 혈관군의 저항 합이 가장 작음 || 두 혈관군의 저항 합이 가장 작음 || '''최소''' ||\n|| TLC: 최대 흡기말 || 늘어나고 눌려 저항 증가 || 실질의 당김으로 확장 || 증가 ||\n\n@formula 저항과 용량의 기준 | PVR = (P̄_{PA} − P_{LA})/Q̇ ; FRC = ERV + RV | PVR은 혈관의 압력 차이를 혈류로 나눈 값이다. FRC는 조용히 내쉰 뒤 폐 안에 남아 있는 공기의 양이다.\n\nVC와 VT는 어떤 시점에 남은 전체 공기량이 아니라 '''두 폐용적 사이의 차이'''다. VC=TLC−RV는 최대한 움직일 수 있는 양이고, VT는 한 번 조용히 호흡하며 드나드는 양이다. 정상 일회호흡이 FRC에서 출발한다고 해서 VT가 FRC라는 뜻은 아니다.\n\n> '''기도저항'''은 폐가 커질수록 대체로 낮아지지만, '''폐혈관저항'''은 U자형이다. ‘폐가 커지면 통로가 잘 열린다’는 한 문장으로 둘을 같이 풀면 TLC를 잘못 고르게 된다.\n\n=== 선지별 해설 ===\n\n* 1번: '''정답.''' Functional residual capacity는 조용히 호기한 뒤 남은 공기량이다. 이 부근에서 폐포혈관과 폐포외혈관 저항의 '''합'''이 가장 작다.\n* 2번: 최대 호기 뒤 남는 residual volume이다. 폐포가 덜 팽창하더라도 주변 실질이 폐포외혈관을 당기는 힘도 약해져, 그 혈관들이 좁아지고 총 PVR은 높아진다.\n* 3번: 최대 흡기 뒤의 total lung capacity다. 폐포외혈관은 잘 열리지만, 팽창한 폐포벽의 모세혈관은 늘어나고 눌리므로 총 PVR은 다시 높아진다.\n* 4번: Vital capacity는 TLC−RV, 즉 최대한 내보낼 수 있는 양이다. 어느 호흡 시점에 폐 안에 남아 있는 총용적을 가리키지 않으므로, 총저항 곡선의 최저점을 나타내는 이름이 아니다.\n* 5번: Tidal volume은 한 번의 일회호흡에서 드나드는 양이다. 정상 호흡이 FRC 근처를 오간다고 해서 VT 자체가 저항 최소점의 폐용적이라는 뜻은 아니다.\n\n[[3강#폐혈관저항은 너무 작은 폐에서도 너무 큰 폐에서도 올라간다|Wiki · 폐혈관저항은 너무 작은 폐에서도 너무 큰 폐에서도 올라간다]]\n\n~~근거: 현재 3강 Wiki(2026-10-16 개정), 39기 「폐의 환기 및 가스 교환」 31·32쪽.~~~",
+      "answerLabel": "1번 — FRC",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: 1번\n\n'''FRC 부근'''에서 총 폐혈관저항이 가장 낮다. RV에서는 폐포외혈관이 좁아지고, TLC에서는 폐포혈관의 저항이 커지므로 양 끝에서 저항이 높아지는 U자형 곡선을 떠올리면 된다.\n\n=== 이 문제를 풀기 위한 개념 ===\n\n폐용적이 커지면 모든 혈관이 똑같이 넓어지는 것은 아니다. '''폐포벽 안의 모세혈관'''은 팽창한 폐포에 의해 늘어나고 눌리는 반면, '''폐포 밖의 혈관'''은 주변 실질이 당겨 주어 열린다. 이 반대 작용을 합친 총 폐혈관저항이 '''FRC 부근에서 최소'''가 된다.\n\n[[파일:assets/lecture-03/lung-volume-resistance-figure.jpg|RV → FRC → TLC: 폐포혈관과 폐포외혈관의 반대 변화가 총저항의 U자 곡선을 만든다.]]\n\n그림의 '''가로축은 폐용적, 세로축은 혈관저항'''이다. 아래로 내려가는 폐포외혈관 곡선과 위로 올라가는 폐포혈관 곡선을 각각 확인한 뒤, 합친 총저항 곡선의 가장 낮은 곳을 찾는다. 두 곡선이 교차하는 위치 자체가 정답의 정의는 아니다.\n\n||= 폐용적 ||= 폐포혈관 ||= 폐포외혈관 ||= 총 PVR ||\n|| RV: 최대 호기말 || 팽창에 의한 압박은 적음 || 실질의 당김이 약해 좁아짐 || 증가 ||\n|| '''FRC: 정상 호기말''' || 두 혈관군의 저항 합이 가장 작음 || 두 혈관군의 저항 합이 가장 작음 || '''최소''' ||\n|| TLC: 최대 흡기말 || 늘어나고 눌려 저항 증가 || 실질의 당김으로 확장 || 증가 ||\n\n@formula 저항과 용량의 기준 | PVR = (P̄_{PA} − P_{LA})/Q̇ ; FRC = ERV + RV | PVR은 혈관의 압력 차이를 혈류로 나눈 값이다. FRC는 조용히 내쉰 뒤 폐 안에 남아 있는 공기의 양이다.\n\nVC와 VT는 어떤 시점에 남은 전체 공기량이 아니라 '''두 폐용적 사이의 차이'''다. VC=TLC−RV는 최대한 움직일 수 있는 양이고, VT는 한 번 조용히 호흡하며 드나드는 양이다. 정상 일회호흡이 FRC에서 출발한다고 해서 VT가 FRC라는 뜻은 아니다.\n\n> '''기도저항'''은 폐가 커질수록 대체로 낮아지지만, '''폐혈관저항'''은 U자형이다. ‘폐가 커지면 통로가 잘 열린다’는 한 문장으로 둘을 같이 풀면 TLC를 잘못 고르게 된다.\n\n=== 선지별 해설 ===\n\n* 1번: '''정답.''' Functional residual capacity는 조용히 호기한 뒤 남은 공기량이다. 이 부근에서 폐포혈관과 폐포외혈관 저항의 '''합'''이 가장 작다.\n* 2번: 최대 호기 뒤 남는 residual volume이다. 폐포가 덜 팽창하더라도 주변 실질이 폐포외혈관을 당기는 힘도 약해져, 그 혈관들이 좁아지고 총 PVR은 높아진다.\n* 3번: 최대 흡기 뒤의 total lung capacity다. 폐포외혈관은 잘 열리지만, 팽창한 폐포벽의 모세혈관은 늘어나고 눌리므로 총 PVR은 다시 높아진다.\n* 4번: Vital capacity는 TLC−RV, 즉 최대한 내보낼 수 있는 양이다. 어느 호흡 시점에 폐 안에 남아 있는 총용적을 가리키지 않으므로, 총저항 곡선의 최저점을 나타내는 이름이 아니다.\n* 5번: Tidal volume은 한 번의 일회호흡에서 드나드는 양이다. 정상 호흡이 FRC 근처를 오간다고 해서 VT 자체가 저항 최소점의 폐용적이라는 뜻은 아니다.\n\n[[3강#폐혈관저항은 너무 작은 폐에서도 너무 큰 폐에서도 올라간다|Wiki · 폐혈관저항은 너무 작은 폐에서도 너무 큰 폐에서도 올라간다]]\n\n~~근거: 현재 3강 Wiki(2026-10-16 개정), 39기 「폐의 환기 및 가스 교환」 31·32쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.14. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.14 출제자란 확인",
       "lectureIds": [
         3
       ],
       "lectureId": 3,
       "lectureTitle": "폐의환기 및 가스교환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 14번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.14",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 폐용적별 폐혈관 저항이 환기·가스교환 정리본에 직접 수록되어 있어 3강을 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R046"
@@ -15065,27 +15287,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-16",
-        "basis": "현재 3강 Wiki(2026-10-16 전면 개정) 및 39기 폐의 환기 및 가스 교환",
-        "pages": [
-          31,
-          32
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 14,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 14,
+        "professor": "곽지연",
+        "lecture": "폐의 환기 및 가스교환",
+        "question": "다음 중 Pulmonary vascular resistance가 가장 낮은 폐의 volume 또는 capacity는?",
+        "choices": [
+          "FRC",
+          "RV",
+          "TLC",
+          "VC",
+          "Tidal volume"
         ],
-        "chapter": "폐혈관저항은 너무 작은 폐에서도 너무 큰 폐에서도 올라간다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "optionByOption": true,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-03/lung-volume-resistance-figure.jpg",
-            "source": "39기 폐의 환기 및 가스 교환",
-            "page": 32
-          }
-        ],
-        "formulaCount": 1,
-        "reviewScope": "필수 개념·그래프 읽기·공식과 계산 예·선지별 근거·표현의 한계·문단 링크, 현재 Wiki 기반 JBL 연결 확인"
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15103,67 +15329,66 @@ window.JBL_DATA = {
       "passage": "",
       "choices": [
         "Recruitment",
-        "Compliance",
+        "Compliance 감소",
         "Vasoconstriction",
         "Pulmonary blood flow 감소",
-        "안정 시에 zone 3이던 apex가 운동하면 zone 1으로 바뀜"
+        "안정 시에 zone III이던 apex가 운동하면 zone I으로 바뀜"
       ],
       "answerIndex": 1,
       "answerIndices": [
         1
       ],
-      "answerLabel": "1번",
-      "explanation": "정답: 1번\n\n운동할 때 기존 혈관을 더 열어 증가한 혈류를 받는 '''recruitment'''가 가장 직접적인 답이다. 다만 이 문항의 2번은 다른 반복 문항과 달리 ‘compliance 감소’가 아니라 단순히 ‘Compliance’다. 높은 순응도 역시 압력 상승을 완화하므로, 2번을 생리학적으로 틀린 말이라고 배제할 수는 없다. 1번은 구체적인 동원 기전, 2번은 이를 가능하게 하는 혈관의 성질이라는 차이로 읽는다.\n\n=== 이 문제를 풀기 위한 개념 ===\n\n폐순환은 우심실이 내보낸 혈액을 모두 받아야 한다. 운동 중 심박출량이 늘었을 때 통로가 그대로라면 압력이 크게 올라가겠지만, 폐혈관은 '''안 쓰던 통로를 열고, 이미 열린 통로를 넓혀''' 추가 혈액을 받아들인다. 앞의 과정이 recruitment, 뒤의 과정이 distension이다.\n\n@formula 폐혈류와 압력의 관계 | PVR = (P̄_{PA} − P_{LA})/Q̇ ; ΔP = Q̇ × PVR | Q̇는 심박출량이다. 혈류가 늘어도 PVR이 낮아지면 압력 차이는 그만큼 크게 오르지 않는다.\n\n[[파일:assets/lecture-03/recruitment-distension-figure.jpg|혈류 증가를 받아들이는 두 방법: 더 많은 혈관을 열고, 열린 혈관을 넓힌다.]]\n\n그림에서 통로의 '''수'''가 늘어나는 것과 통로의 '''지름'''이 커지는 것을 나누어 보자. Recruitment는 짧은 시간에 새 혈관을 만들어 내는 혈관신생이 아니다. 기존에 닫혀 있거나 혈류가 적었던 혈관을 활용하여 병렬 통로를 늘리는 것이다. 높은 혈관 순응도는 작은 압력 변화에도 혈관이 늘어날 수 있게 해 주는 성질이다.\n\n||= 구분 ||= 운동 중 변화 ||= 결과 ||\n|| Recruitment || 관류되는 혈관 수 증가 || 병렬 통로가 늘어 저항 감소 ||\n|| Distension || 이미 관류되는 혈관의 내경 증가 || 통로가 넓어져 저항 감소 ||\n|| Compliance || 원래 높은 순응도가 혈액 수용을 도움 || 같은 용적 증가에 필요한 압력 상승이 작음 ||\n|| 폐혈류 Q̇ || 증가 || 증가한 심박출량을 폐가 받음 ||\n|| PVR / 폐동맥압 || 저항은 감소, 압력은 다소 증가 가능 || 압력 증가만 보고 저항 증가로 단정할 수 없음 ||\n|| West zone || Zone 3 영역 확대, 첨부 혈류 증가 || 지속적으로 관류되는 부위가 늘어남 ||\n\nZone 1은 '''폐포압>동맥압>정맥압'''이어서 혈류가 막히는 상태다. 반대로 zone 3은 '''동맥압>정맥압>폐포압'''이어서 계속 흐른다. 운동의 정상 반응은 관류가 끊기는 방향이 아니라, 혈관압이 올라 첨부까지 더 잘 관류되는 방향이다.\n\n> '''심박출량 증가 → recruitment·distension → PVR 감소 → 압력 상승 완화.''' ‘혈압이 크게 증가하지 않는다’와 ‘혈압이 감소한다’는 다른 말이다.\n\n=== 선지별 해설 ===\n\n* 1번: '''정답.''' 기존에 닫혀 있거나 관류가 적던 혈관을 열어 병렬 통로를 늘린다. 혈류를 줄이는 것이 아니라 '''많아진 혈류가 지나갈 길을 늘리는 반응'''이다.\n* 2번: '''관련되는 성질이므로 무조건 오답인 개념은 아니다.''' 높은 compliance는 작은 압력 변화에 혈관 용적이 크게 늘어날 수 있다는 뜻이다. 이 문항은 운동 시 추가 통로를 동원하는 구체적 반응인 1번을 답으로 삼지만, ‘Compliance’라는 표현만으로는 2번의 관련성을 지울 수 없다.\n* 3번: '''반대 방향이다.''' 혈관 수축은 저항을 높인다. 환기되지 않는 폐포로 혈액을 덜 보내는 HPV에는 적절하지만, 정상 운동에서 늘어난 전체 폐혈류를 낮은 압력으로 받아들이는 설명은 아니다.\n* 4번: '''실제로는 증가한다.''' 폐순환도 늘어난 심박출량을 처리한다. 혈류를 줄여 압력을 유지하는 것이 아니라, PVR을 낮추어 혈류 증가를 받아들인다.\n* 5번: '''구역 변화가 거꾸로다.''' Zone 1은 폐포압이 동맥압보다 높아 관류가 억제된 상태다. 운동하면 첨부 관류가 늘고 zone 3 영역이 확대된다. 정상 직립 휴식 시 첨부를 언제나 zone 3이라고 가정하는 출발점도 적절하지 않다.\n\n[[3강#운동하면 혈관을 더 열고 넓혀 혈류 증가를 받아들인다|Wiki · 운동하면 혈관을 더 열고 넓혀 혈류 증가를 받아들인다]]\n\n[[3강#폐혈류의 구역은 동맥압·폐포압·정맥압의 순서로 나뉜다|함께 보기 · West zone의 압력 순서]]\n\n~~근거: 현재 3강 Wiki(2026-10-16 개정), 39기 「폐의 환기 및 가스 교환」 26·28·31·33·35쪽.~~~",
+      "answerLabel": "1번 — Recruitment",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: 1번\n\n운동할 때 기존 혈관을 더 열어 증가한 혈류를 받는 '''recruitment'''가 가장 직접적인 답이다. 다만 이 문항의 2번은 다른 반복 문항과 달리 ‘compliance 감소’가 아니라 단순히 ‘Compliance’다. 높은 순응도 역시 압력 상승을 완화하므로, 2번을 생리학적으로 틀린 말이라고 배제할 수는 없다. 1번은 구체적인 동원 기전, 2번은 이를 가능하게 하는 혈관의 성질이라는 차이로 읽는다.\n\n=== 이 문제를 풀기 위한 개념 ===\n\n폐순환은 우심실이 내보낸 혈액을 모두 받아야 한다. 운동 중 심박출량이 늘었을 때 통로가 그대로라면 압력이 크게 올라가겠지만, 폐혈관은 '''안 쓰던 통로를 열고, 이미 열린 통로를 넓혀''' 추가 혈액을 받아들인다. 앞의 과정이 recruitment, 뒤의 과정이 distension이다.\n\n@formula 폐혈류와 압력의 관계 | PVR = (P̄_{PA} − P_{LA})/Q̇ ; ΔP = Q̇ × PVR | Q̇는 심박출량이다. 혈류가 늘어도 PVR이 낮아지면 압력 차이는 그만큼 크게 오르지 않는다.\n\n[[파일:assets/lecture-03/recruitment-distension-figure.jpg|혈류 증가를 받아들이는 두 방법: 더 많은 혈관을 열고, 열린 혈관을 넓힌다.]]\n\n그림에서 통로의 '''수'''가 늘어나는 것과 통로의 '''지름'''이 커지는 것을 나누어 보자. Recruitment는 짧은 시간에 새 혈관을 만들어 내는 혈관신생이 아니다. 기존에 닫혀 있거나 혈류가 적었던 혈관을 활용하여 병렬 통로를 늘리는 것이다. 높은 혈관 순응도는 작은 압력 변화에도 혈관이 늘어날 수 있게 해 주는 성질이다.\n\n||= 구분 ||= 운동 중 변화 ||= 결과 ||\n|| Recruitment || 관류되는 혈관 수 증가 || 병렬 통로가 늘어 저항 감소 ||\n|| Distension || 이미 관류되는 혈관의 내경 증가 || 통로가 넓어져 저항 감소 ||\n|| Compliance || 원래 높은 순응도가 혈액 수용을 도움 || 같은 용적 증가에 필요한 압력 상승이 작음 ||\n|| 폐혈류 Q̇ || 증가 || 증가한 심박출량을 폐가 받음 ||\n|| PVR / 폐동맥압 || 저항은 감소, 압력은 다소 증가 가능 || 압력 증가만 보고 저항 증가로 단정할 수 없음 ||\n|| West zone || Zone 3 영역 확대, 첨부 혈류 증가 || 지속적으로 관류되는 부위가 늘어남 ||\n\nZone 1은 '''폐포압>동맥압>정맥압'''이어서 혈류가 막히는 상태다. 반대로 zone 3은 '''동맥압>정맥압>폐포압'''이어서 계속 흐른다. 운동의 정상 반응은 관류가 끊기는 방향이 아니라, 혈관압이 올라 첨부까지 더 잘 관류되는 방향이다.\n\n> '''심박출량 증가 → recruitment·distension → PVR 감소 → 압력 상승 완화.''' ‘혈압이 크게 증가하지 않는다’와 ‘혈압이 감소한다’는 다른 말이다.\n\n=== 선지별 해설 ===\n\n* 1번: '''정답.''' 기존에 닫혀 있거나 관류가 적던 혈관을 열어 병렬 통로를 늘린다. 혈류를 줄이는 것이 아니라 '''많아진 혈류가 지나갈 길을 늘리는 반응'''이다.\n* 2번: '''감소가 아니라 높은 혈관 순응도가 중요하다.''' 공식 선지는 ‘Compliance 감소’다. 운동 시 폐혈관은 recruitment와 distension으로 증가한 혈류를 받아들이며 저항을 낮춘다. 순응도 감소는 혈류 증가에 따른 압력 상승을 완화하는 기전이 아니다.\n* 3번: '''반대 방향이다.''' 혈관 수축은 저항을 높인다. 환기되지 않는 폐포로 혈액을 덜 보내는 HPV에는 적절하지만, 정상 운동에서 늘어난 전체 폐혈류를 낮은 압력으로 받아들이는 설명은 아니다.\n* 4번: '''실제로는 증가한다.''' 폐순환도 늘어난 심박출량을 처리한다. 혈류를 줄여 압력을 유지하는 것이 아니라, PVR을 낮추어 혈류 증가를 받아들인다.\n* 5번: '''구역 변화가 거꾸로다.''' Zone 1은 폐포압이 동맥압보다 높아 관류가 억제된 상태다. 운동하면 첨부 관류가 늘고 zone 3 영역이 확대된다. 정상 직립 휴식 시 첨부를 언제나 zone 3이라고 가정하는 출발점도 적절하지 않다.\n\n[[3강#운동하면 혈관을 더 열고 넓혀 혈류 증가를 받아들인다|Wiki · 운동하면 혈관을 더 열고 넓혀 혈류 증가를 받아들인다]]\n\n[[3강#폐혈류의 구역은 동맥압·폐포압·정맥압의 순서로 나뉜다|함께 보기 · West zone의 압력 순서]]\n\n~~근거: 현재 3강 Wiki(2026-10-16 개정), 39기 「폐의 환기 및 가스 교환」 26·28·31·33·35쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.15. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.15 출제자란 확인",
       "lectureIds": [
         3
       ],
       "lectureId": 3,
       "lectureTitle": "폐의환기 및 가스교환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 15번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.15",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 운동 시 recruitment가 환기·가스교환 정리본에 직접 수록되어 있어 3강을 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-16",
-        "basis": "현재 3강 Wiki(2026-10-16 전면 개정) 및 39기 폐의 환기 및 가스 교환",
-        "pages": [
-          26,
-          28,
-          31,
-          33,
-          35
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 15,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 15,
+        "professor": "곽지연",
+        "lecture": "폐의 환기 및 가스 교환",
+        "question": "격렬한 운동을 하면 근육에 산소 공급을 위해 cardiac output이 증가한다. 폐순환의 특징은\ncardiac output이 3-4배 증가해도 혈압은 크게 증가하지 않는다. 이러한 현상과 가장 관계\n깊은 것은?",
+        "choices": [
+          "Recruitment",
+          "Compliance 감소",
+          "Vasoconstriction",
+          "Pulmonary blood flow 감소",
+          "안정시에 zone III이던 apex가 운동하면 zone I으로 바뀜"
         ],
-        "chapter": "운동하면 혈관을 더 열고 넓혀 혈류 증가를 받아들인다",
-        "answerStatus": "conditional_lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "optionByOption": true,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-03/recruitment-distension-figure.jpg",
-            "source": "39기 폐의 환기 및 가스 교환",
-            "page": 33
-          }
-        ],
-        "formulaCount": 1,
-        "reviewScope": "필수 개념·그래프 읽기·공식과 계산 예·선지별 근거·표현의 한계·문단 링크, 현재 Wiki 기반 JBL 연결 확인"
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15190,57 +15415,57 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "4번",
-      "explanation": "정답: 4번\n\n막힌 기도에 연결된 폐포에서는 산소가 부족해지고, 이를 감지한 폐혈관이 수축하여 그쪽 관류를 줄인다. 이 '''원인 기전을 직접 지칭하는 4번'''을 답으로 삼는다. 다만 2번의 혈류 재분배도 실제로 일어나는 결과이므로, 2번이 거짓이어서 배제되는 문항은 아니다.\n\n=== 이 문제를 풀기 위한 개념 ===\n\n기도가 막힌 단위에서는 관류가 유지되는데 환기가 부족해 '''V/Q가 낮아진다'''. 완전히 막히면 V/Q=0이고, 그곳을 지난 혈액은 산소를 얻지 못한 채 다른 혈액과 섞인다. 필요한 보상은 그 폐포에 혈액을 더 보내는 것이 아니라 '''덜 보내는 것'''이다.\n\n[[파일:assets/lecture-03/low-vq-response-figure.jpg|기도 폐쇄 → 폐포 저산소 → 해당 부위의 혈관 수축과 혈류 재분배]]\n\n'''폐포 PO₂ 감소 → 폐혈관 평활근 세포 내 Ca²⁺ 증가 → 소동맥 수축'''이 hypoxic pulmonary vasoconstriction, HPV다. K⁺ 통로 억제·막 탈분극·Ca²⁺ 유입 같은 연결이 이 수축을 돕는다. 복잡한 신호 경로를 모두 같은 방향으로 외우기보다, 평활근 안의 Ca²⁺가 증가해 저항이 커진다는 결과를 잡자. 관류를 줄이는 '''기전이 HPV''', 혈액이 다른 부위로 가는 '''결과가 재분배'''다.\n\n||= 끊긴 흐름 ||= 폐포 가스·V/Q ||= 낭비를 줄이는 반응 ||\n|| 기도: 환기 감소, 관류 유지 || PO₂ 감소, V/Q↓; 완전 차단이면 0 || '''혈관 수축'''으로 그쪽 Q̇ 감소 ||\n|| 폐동맥: 관류 감소, 환기 유지 || PCO₂ 감소, V/Q↑; 완전 차단이면 ∞ || '''기관지 수축''' 등으로 그쪽 V̇ 감소 ||\n|| 폐 전체가 저산소 || 광범위 HPV || 국소 보상과 달리 총 PVR·폐동맥압 상승 가능 ||\n\n체순환에서는 저산소 조직에 혈액을 더 보내는 혈관 확장이 유리하지만, 폐에서는 공기가 오지 않는 곳에 혈액을 보내도 소용이 없다. 그래서 반응 방향이 다르다. 정상 쪽을 더 환기시키는 것만으로도 충분하지 않다. 그쪽 Hb는 이미 거의 포화되어 있어 O₂를 더 실을 여유가 적기 때문이다.\n\n> '''공기가 부족하면 혈관을 조이고, 혈액이 부족하면 기관지를 조인다.''' 두 반응은 부족한 흐름에 비해 낭비되는 흐름을 줄여 V/Q를 맞추는 방향이다.\n\n=== 선지별 해설 ===\n\n* 1번: 기관지 수축은 이미 부족한 환기를 더 줄이는 방향이다. 강의에서 관류가 끊겨 CO₂가 낮아진 '''high V/Q 단위'''에 나타나는 보상과 구분한다.\n* 2번: '''HPV의 결과로 실제 일어난다.''' 막힌 쪽 저항이 높아지면 혈액은 더 잘 환기되는 다른 부위로 간다. 따라서 혈류 재분배 자체를 틀렸다고 외우면 안 된다. 이 문항에서는 왜 혈류가 재분배되는지를 설명하는 4번이 더 직접적이다.\n* 3번: 이 강의에서는 '''관류 감소·high V/Q''' 단위의 surfactant 생산 감소와 순응도 감소를 함께 다룬다. 기도가 막힌 쪽의 불필요한 관류를 줄이는 핵심 반응을 묻는 여기서는 HPV가 해당한다.\n* 4번: '''정답.''' 폐포 저산소에 반응하여 폐소동맥이 수축한다. 해당 부위 Q̇를 줄여 산소를 받지 못한 혈액이 전체 동맥혈에 섞이는 정도를 완화한다.\n* 5번: 전체 환기를 늘려도 폐쇄된 기도 안쪽에는 공기가 도달하지 않는다. 정상 쪽 혈액의 Hb도 이미 거의 포화되어 있어, 과환기만으로 막힌 쪽의 산소화 부족을 완전히 메울 수는 없다.\n\n[[3강#폐포 산소가 부족하면 혈관이 수축해 혈류를 다른 곳으로 보낸다|Wiki · 폐포 산소가 부족하면 혈관이 수축해 혈류를 다른 곳으로 보낸다]]\n\n[[3강#기도가 막히면 shunt에, 혈관이 막히면 dead space에 가까워진다|함께 보기 · 기도 폐쇄와 폐동맥 폐쇄의 반대 반응]]\n\n~~근거: 현재 3강 Wiki(2026-10-16 개정), 39기 「폐의 환기 및 가스 교환」 36·37·48·49·51·52쪽.~~~",
+      "answerLabel": "4번 — Hypoxic vasoconstriction",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: 4번\n\n막힌 기도에 연결된 폐포에서는 산소가 부족해지고, 이를 감지한 폐혈관이 수축하여 그쪽 관류를 줄인다. 이 '''원인 기전을 직접 지칭하는 4번'''을 답으로 삼는다. 다만 2번의 혈류 재분배도 실제로 일어나는 결과이므로, 2번이 거짓이어서 배제되는 문항은 아니다.\n\n=== 이 문제를 풀기 위한 개념 ===\n\n기도가 막힌 단위에서는 관류가 유지되는데 환기가 부족해 '''V/Q가 낮아진다'''. 완전히 막히면 V/Q=0이고, 그곳을 지난 혈액은 산소를 얻지 못한 채 다른 혈액과 섞인다. 필요한 보상은 그 폐포에 혈액을 더 보내는 것이 아니라 '''덜 보내는 것'''이다.\n\n[[파일:assets/lecture-03/low-vq-response-figure.jpg|기도 폐쇄 → 폐포 저산소 → 해당 부위의 혈관 수축과 혈류 재분배]]\n\n'''폐포 PO₂ 감소 → 폐혈관 평활근 세포 내 Ca²⁺ 증가 → 소동맥 수축'''이 hypoxic pulmonary vasoconstriction, HPV다. K⁺ 통로 억제·막 탈분극·Ca²⁺ 유입 같은 연결이 이 수축을 돕는다. 복잡한 신호 경로를 모두 같은 방향으로 외우기보다, 평활근 안의 Ca²⁺가 증가해 저항이 커진다는 결과를 잡자. 관류를 줄이는 '''기전이 HPV''', 혈액이 다른 부위로 가는 '''결과가 재분배'''다.\n\n||= 끊긴 흐름 ||= 폐포 가스·V/Q ||= 낭비를 줄이는 반응 ||\n|| 기도: 환기 감소, 관류 유지 || PO₂ 감소, V/Q↓; 완전 차단이면 0 || '''혈관 수축'''으로 그쪽 Q̇ 감소 ||\n|| 폐동맥: 관류 감소, 환기 유지 || PCO₂ 감소, V/Q↑; 완전 차단이면 ∞ || '''기관지 수축''' 등으로 그쪽 V̇ 감소 ||\n|| 폐 전체가 저산소 || 광범위 HPV || 국소 보상과 달리 총 PVR·폐동맥압 상승 가능 ||\n\n체순환에서는 저산소 조직에 혈액을 더 보내는 혈관 확장이 유리하지만, 폐에서는 공기가 오지 않는 곳에 혈액을 보내도 소용이 없다. 그래서 반응 방향이 다르다. 정상 쪽을 더 환기시키는 것만으로도 충분하지 않다. 그쪽 Hb는 이미 거의 포화되어 있어 O₂를 더 실을 여유가 적기 때문이다.\n\n> '''공기가 부족하면 혈관을 조이고, 혈액이 부족하면 기관지를 조인다.''' 두 반응은 부족한 흐름에 비해 낭비되는 흐름을 줄여 V/Q를 맞추는 방향이다.\n\n=== 선지별 해설 ===\n\n* 1번: 기관지 수축은 이미 부족한 환기를 더 줄이는 방향이다. 강의에서 관류가 끊겨 CO₂가 낮아진 '''high V/Q 단위'''에 나타나는 보상과 구분한다.\n* 2번: '''HPV의 결과로 실제 일어난다.''' 막힌 쪽 저항이 높아지면 혈액은 더 잘 환기되는 다른 부위로 간다. 따라서 혈류 재분배 자체를 틀렸다고 외우면 안 된다. 이 문항에서는 왜 혈류가 재분배되는지를 설명하는 4번이 더 직접적이다.\n* 3번: 이 강의에서는 '''관류 감소·high V/Q''' 단위의 surfactant 생산 감소와 순응도 감소를 함께 다룬다. 기도가 막힌 쪽의 불필요한 관류를 줄이는 핵심 반응을 묻는 여기서는 HPV가 해당한다.\n* 4번: '''정답.''' 폐포 저산소에 반응하여 폐소동맥이 수축한다. 해당 부위 Q̇를 줄여 산소를 받지 못한 혈액이 전체 동맥혈에 섞이는 정도를 완화한다.\n* 5번: 전체 환기를 늘려도 폐쇄된 기도 안쪽에는 공기가 도달하지 않는다. 정상 쪽 혈액의 Hb도 이미 거의 포화되어 있어, 과환기만으로 막힌 쪽의 산소화 부족을 완전히 메울 수는 없다.\n\n[[3강#폐포 산소가 부족하면 혈관이 수축해 혈류를 다른 곳으로 보낸다|Wiki · 폐포 산소가 부족하면 혈관이 수축해 혈류를 다른 곳으로 보낸다]]\n\n[[3강#기도가 막히면 shunt에, 혈관이 막히면 dead space에 가까워진다|함께 보기 · 기도 폐쇄와 폐동맥 폐쇄의 반대 반응]]\n\n~~근거: 현재 3강 Wiki(2026-10-16 개정), 39기 「폐의 환기 및 가스 교환」 36·37·48·49·51·52쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.16. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.16 출제자란 확인",
       "lectureIds": [
         3
       ],
       "lectureId": 3,
       "lectureTitle": "폐의환기 및 가스교환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 16번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.16",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-16",
-        "basis": "현재 3강 Wiki(2026-10-16 전면 개정) 및 39기 폐의 환기 및 가스 교환",
-        "pages": [
-          36,
-          37,
-          48,
-          49,
-          51,
-          52
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 16,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 16,
+        "professor": "곽지연",
+        "lecture": "폐의 환기 및 가스 교환",
+        "question": "한쪽 기도에 mass가 생겨서 막혔다고 가정할 때 효과적인 기체 교환을 위해 발생하는 보상\n기전으로 가장 적합한 것은?",
+        "choices": [
+          "Bronchiolar constriction",
+          "Redirection of blood flow",
+          "Surfactant 생산 감소",
+          "Hypoxic vasoconstriction",
+          "Hyperventilation"
         ],
-        "chapter": "폐포 산소가 부족하면 혈관이 수축해 혈류를 다른 곳으로 보낸다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "optionByOption": true,
-        "questionAndAnswerPreserved": true,
-        "images": [
-          {
-            "file": "assets/lecture-03/low-vq-response-figure.jpg",
-            "source": "39기 폐의 환기 및 가스 교환",
-            "page": 51
-          }
-        ],
-        "formulaCount": 0,
-        "reviewScope": "필수 개념·그래프 읽기·공식과 계산 예·선지별 근거·표현의 한계·문단 링크, 현재 Wiki 기반 JBL 연결 확인"
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15250,16 +15475,15 @@ window.JBL_DATA = {
       "globalNumber": 197,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 17,
+      "originalNumber": 25,
       "originalNumbers": [
-        17,
         25
       ],
-      "question": "EGFR 유전자 돌연변이에 대하여 EGFR TKI에 대해 저항성을 갖는 것은?",
+      "question": "다음 중 EGFR 유전자 돌연변이 중에서 1세대 EGFR tyrosine kinase inhibitor 치료에 반응을 보이지 않는 resistance mutation을 고르시오.",
       "passage": "",
       "choices": [
-        "EGFR 19 deletion",
-        "EGFR 20 insertion",
+        "EGFR Exon 19 deletion",
+        "EGFR Exon 20 insertion",
         "EGFR g719c",
         "EGFR L858R",
         "EGFR L861Q"
@@ -15268,39 +15492,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n강의의 전통적인 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nEGFR의 tyrosine kinase 신호가 계속 켜져 있으면 세포가 증식한다. 하지만 같은 EGFR이라는 이름만으로 모든 변이가 같은 약에 반응하지는 않는다.\n\n||= 강의의 분류 ||= 변이 ||= 핵심 ||\n|| Sensitizing || Exon 19 deletion(약 45%), L858R(약 40%) || 대표 감수성 변이 두 가지 ||\n|| Sensitizing || G719X, L861Q || 덜 흔하지만 반응 가능한 변이 ||\n|| Resistant || Exon 20 insertion, T790M || 전통적 EGFR-TKI에 대한 내성 분류 ||\n\n> '''Exon 19 deletion과 exon 20 insertion을 바꾸어 외우지 않는다.''' Deletion·insertion·점돌연변이는 각각 정확한 이름으로 구분한다.\n\n강의의 ‘내성’은 모든 세대의 약제에 영구적으로 반응하지 않는다는 뜻이 아니다. T790M을 억제하는 osimertinib과 exon 20 insertion을 겨냥하는 별도 치료가 있다. 시험에서는 제시 약제와 질문의 맥락을 먼저 확인한다.[*보충 [[https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq|NCI NSCLC PDQ]]의 변이별 치료 구분.]\n\n=== 선지별 해설 ===\n* 1번 · EGFR 19 deletion: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 2번 · EGFR 20 insertion: 강의의 전통적 EGFR-TKI 분류에서 내성군이다. Exon 20 insertion을 겨냥한 별도 치료까지 없다는 뜻은 아니다.\n* 3번 · EGFR g719c: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 4번 · EGFR L858R: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 5번 · EGFR L861Q: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n\n[[37강#EGFR은 감수성 변이와 내성 변이를 나누어 외운다|Wiki · EGFR은 감수성 변이와 내성 변이를 나누어 외운다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerLabel": "2번 — EGFR Exon 20 insertion",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답: ②\n\n원본이 명시한 1세대 EGFR-TKI 감수성 분류에서 exon 20 insertion은 저항성 변이다. Exon 19 deletion과 L858R은 대표 감수성 변이이고 G719X·L861Q도 치료 반응이 가능한 변이에 속한다. Exon 20 삽입을 겨냥한 별도 치료법까지 모두 효과 없다는 뜻은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\nEGFR의 tyrosine kinase 신호가 계속 켜져 있으면 세포가 증식한다. 하지만 같은 EGFR이라는 이름만으로 모든 변이가 같은 약에 반응하지는 않는다.\n\n||= 강의의 분류 ||= 변이 ||= 핵심 ||\n|| Sensitizing || Exon 19 deletion(약 45%), L858R(약 40%) || 대표 감수성 변이 두 가지 ||\n|| Sensitizing || G719X, L861Q || 덜 흔하지만 반응 가능한 변이 ||\n|| Resistant || Exon 20 insertion, T790M || 전통적 EGFR-TKI에 대한 내성 분류 ||\n\n> '''Exon 19 deletion과 exon 20 insertion을 바꾸어 외우지 않는다.''' Deletion·insertion·점돌연변이는 각각 정확한 이름으로 구분한다.\n\n강의의 ‘내성’은 모든 세대의 약제에 영구적으로 반응하지 않는다는 뜻이 아니다. T790M을 억제하는 osimertinib과 exon 20 insertion을 겨냥하는 별도 치료가 있다. 시험에서는 제시 약제와 질문의 맥락을 먼저 확인한다.[*보충 [[https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq|NCI NSCLC PDQ]]의 변이별 치료 구분.]\n\n=== 선지별 해설 ===\n* 1번 · EGFR Exon 19 deletion: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 2번 · EGFR Exon 20 insertion: 1세대 EGFR-TKI 분류에서 내성군이다. Exon 20 insertion을 겨냥한 별도 치료까지 없다는 뜻은 아니다.\n* 3번 · EGFR g719c: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 4번 · EGFR L858R: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n* 5번 · EGFR L861Q: EGFR-TKI에 반응 가능한 감수성 변이이다. Exon 19 deletion·L858R이 대표적이고 G719X·L861Q는 덜 흔한 감수성 변이이다.\n\n[[37강#EGFR은 감수성 변이와 내성 변이를 나누어 외운다|Wiki · EGFR은 감수성 변이와 내성 변이를 나누어 외운다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. ~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.25. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.25 출제자란 확인",
       "lectureIds": [
         37
       ],
       "lectureId": 37,
       "lectureTitle": "폐종양의 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 17,25번",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.25",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-23",
-        "scope": "lectures37_38",
-        "chapter": "EGFR은 감수성 변이와 내성 변이를 나누어 외운다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 25,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 25,
+        "professor": "김루시아",
+        "lecture": "폐종양의 병리",
+        "question": "다음 중 EGFR 유전자 돌연변이 중에서 1세대 EGFR tyrosine kinase inhibitor 치료에\n반응을 보이지 않는 resistance mutation을 고르시오.",
+        "choices": [
+          "EGFR Exon 19 deletion",
+          "EGFR Exon 20 insertion",
+          "EGFR G719C",
+          "EGFR L858R",
+          "EGFR L861Q"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15310,9 +15552,8 @@ window.JBL_DATA = {
       "globalNumber": 198,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 18,
+      "originalNumber": 26,
       "originalNumbers": [
-        18,
         26
       ],
       "question": "72세 여자 환자가 폐에 다발성 종괴가 발견되어 생검에서 샘암종으로 진단되었다. 흉부 CT 소견에서 폐의 좌상엽에 6.5cm 크기의 종괴와 함께 다량의 흉수가 차 있었고 흉막 결절도 관찰되었다. 좌측 종격동 림프절 종대도 동반되어 있었다. 이 환자의 치료 방침 결정을 위해 반드시 시행해야 하는 biomarker test가 아닌 것을 고르시오.",
@@ -15328,31 +15569,29 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "잠정 정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n출제 의도상 잠정 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 2번 · NTRK fusion을 보기 위한 Fluorescent in situ hybridization 검사: NTRK fusion은 실제 표적 가능한 이상이며 FISH로 재배열을 평가할 수도 있다. 기존 2번 답은 과거 필수 검사 묶음의 출제 의도로만 해석한다. 이 선지가 의학적으로 불가능한 검사라는 뜻은 아니다.\n* 3번 · ALK fusion을 보기 위한 immunohistochemistry 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n* 4번 · ROS1 fusion을 보기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 5번 · 종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerLabel": "2번 — NTRK fusion을 보기 위한 Fluorescent in situ hybridization 검사",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n출제 의도상 공식 정답: ②\n\n과거 문제에서 기본 필수검사로 묶은 EGFR·ALK·ROS1·PD-L1과 대비하면 2번이 출제 의도상 답이다. 다만 강의에는 NTRK도 표적 가능한 driver로 포함되어 있으며, FISH로 fusion을 검사하는 원리 자체가 틀린 것은 아니다. NTRK 검사가 쓸모없거나 현재도 검사 대상이 아니라는 뜻으로 외우면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\nALK 재배열을 예로 들면 DNA에서 유전자 위치가 바뀌고, RNA에는 fusion transcript가 생기며, 단백질로는 fusion protein이 발현된다. '''같은 이상을 서로 다른 층위에서 확인'''할 수 있기 때문에 검사법이 하나만 정답인 것은 아니다.\n\n||= 확인 대상 ||= 대표 검사 ||= 해석 ||\n|| EGFR·KRAS·BRAF의 염기변이/작은 indel || Sequencing, allele-specific/real-time PCR, PNA clamping, pyrosequencing, NGS || DNA 염기서열 변이 ||\n|| ALK·ROS1·RET 등의 재배열 || FISH, RT-PCR, NGS; 적절한 IHC || FISH는 DNA, RT-PCR은 fusion RNA, IHC는 발현 단백질 ||\n|| MET·HER2 등의 증폭 || FISH, qPCR, NGS || 유전자 copy number 증가 ||\n|| PD-L1 발현 || IHC || 단백질 발현; 유전자 fusion 검사가 아님 ||\n|| 폐 기원을 지지하는 TTF-1·Napsin A || IHC || 조직 기원·분화에 대한 정보 ||\n\nIHC가 증폭에 따른 과발현을 보여 줄 수는 있지만 '''단백질 과발현과 DNA 증폭은 동일한 측정값이 아니다.''' 또 TTF-1은 폐선암을 지지하지 모든 폐암에서 양성인 것도, 양성이면 반드시 폐선암인 것도 아니다.\n\n\n과거 문항의 ‘필수 검사’ 묶음은 출제 시기와 강의 범위를 반영한다. NTRK fusion, KRAS G12C도 치료와 연결되는 표적이므로, 특정 과거 선지에서 제외되었다는 이유로 지금도 검사 가치가 없다고 암기하지 않는다. ···의 한계는 각 해설에서 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · EGFR mutation을 보기 위한 allele specific PCR 검사: EGFR·KRAS 같은 염기변이는 allele-specific/real-time PCR 등의 분자검사로 확인한다. KRAS G12C도 표적치료와 연결되므로 과거의 필수 검사 범위와 현재의 임상 유용성을 구분한다.\n* 2번 · NTRK fusion을 보기 위한 Fluorescent in situ hybridization 검사: NTRK fusion은 실제 표적 가능한 이상이며 FISH로 재배열을 평가할 수도 있다. 기존 2번 답은 과거 필수 검사 묶음의 출제 의도로만 해석한다. 이 선지가 의학적으로 불가능한 검사라는 뜻은 아니다.\n* 3번 · ALK fusion을 보기 위한 immunohistochemistry 검사: ALK fusion은 DNA 수준의 FISH와 단백질 발현을 보는 적절한 IHC 등으로 평가할 수 있다. 두 방법이 서로 다른 것을 측정한다고 해서 하나가 무효인 것은 아니다.\n* 4번 · ROS1 fusion을 보기 위한 reverse transcription PCR 검사: RT-PCR은 역전사를 거쳐 fusion transcript를 검출한다. ROS1 재배열을 평가하는 방법으로 성립한다.\n* 5번 · 종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[37강#검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다|Wiki · 검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. ~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.26. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.26 출제자란 확인",
       "lectureIds": [
         37
       ],
       "lectureId": 37,
       "lectureTitle": "폐종양의 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 18,26번",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.26",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R024"
@@ -15375,11 +15614,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-23",
-        "scope": "lectures37_38",
-        "chapter": "검사법은 DNA, RNA, 단백질 중 무엇을 보는지로 구분한다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 26,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 26,
+        "professor": "김루시아",
+        "lecture": "폐종양의 병리",
+        "question": "72세 여자 환자가 폐에 다발성 종괴가 발견되어 생검에서 샘암종으로 진단되었다. 흉부 CT\n소견에서 폐의 좌상엽에 6.5cm 크기의 종괴와 함께 다량의 흉수가 차 있었고 흉막 결절도\n관찰되었다. 좌측 종격동 림프절 종대도 동반되어 있었다. 이 환자의 치료 방침 결정을 위해\n반드시 시행해야 하는 biomarker test가 아닌 것을 고르시오.",
+        "choices": [
+          "EGFR mutation을 보기 위한 allele specific PCR 검사",
+          "NTRK fusion 을 보기 위한 Fluorescent in situ hybridization 검사",
+          "ALK fusion을 보기 위한 immunohistochemistry 검사",
+          "ROS1 fusion을 보기 위한 reverse transcription PCR 검사",
+          "종양세포에서 PD-L1 발현을 보기 위한 immunohistochemistry 검사"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15389,9 +15648,8 @@ window.JBL_DATA = {
       "globalNumber": 199,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 19,
+      "originalNumber": 27,
       "originalNumbers": [
-        19,
         27
       ],
       "question": "72세 남자가 기침과 가슴통증을 주소로 내원하여 시행한 Chest CT검사에서 폐의 가장자리에 불규칙한 경계를 가진 종괴가 있었고 가슴막과 흉벽을 침범하고 있었다. 이 종괴의 병리 소견이 다음과 같을 때 양성을 보일 것으로 예측되는 면역조직화학염색 마커를 선택하시오.",
@@ -15407,45 +15665,38 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양세포가 둥지를 이루고 그 안에 분홍색 각질이 쌓인다. '''Keratin pearl·개별세포 각질화·세포사이교'''가 편평상피 분화의 근거다. 위치보다 실제 조직 형태를 우선 읽는다.\n\n* 면역염색: '''p40, CK5/6'''.\n* 분자 특징: 흡연과 관련된 높은 변이 부담, 흔한 '''TP53 이상'''.\n* 서술형 진단명: '''폐 편평상피세포암(squamous cell carcinoma of the lung)'''.\n\n=== 선지별 해설 ===\n* 1번 · TTF-1: 폐선암과 일부 신경내분비 종양 등에 발현할 수 있는 핵 표지자다. 샘 구조·신경내분비 형태와 패널을 함께 읽는다. 진균 확인이나 편평상피 분화의 대표 표지자는 아니다.\n* 2번 · P40: 편평상피 분화 표지자다. 각질화·세포사이교·종양 둥지와 함께 양성이면 편평상피세포암을 지지한다.\n* 3번 · Chromogranin: 신경내분비 분화를 지지하는 표지자다. Carcinoid·신경내분비암의 형태와 함께 읽으며 편평상피 분화의 대표 표지는 아니다.\n* 4번 · CD56: 신경내분비 분화를 지지하는 표지자다. Carcinoid·신경내분비암의 형태와 함께 읽으며 편평상피 분화의 대표 표지는 아니다.\n* 5번 · WT-1: 중피 분화를 평가하는 패널 등에 활용한다. 각질화된 폐 편평상피세포암의 우선 표지자는 p40·CK5/6다.\n\n[[39강#편평상피세포암은 각질화와 p40이다|Wiki · 편평상피세포암은 각질화와 p40이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "answerLabel": "2번 — P40",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답: ②\n\n사진의 종양 둥지와 각질화는 편평상피세포암을 지지한다. 편평상피 분화 표지자는 p40 및 CK5/6이다. TTF-1은 주로 폐선암, chromogranin·CD56은 신경내분비 종양, WT-1은 중피종 감별에 활용한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양세포가 둥지를 이루고 그 안에 분홍색 각질이 쌓인다. '''Keratin pearl·개별세포 각질화·세포사이교'''가 편평상피 분화의 근거다. 위치보다 실제 조직 형태를 우선 읽는다.\n\n* 면역염색: '''p40, CK5/6'''.\n* 분자 특징: 흡연과 관련된 높은 변이 부담, 흔한 '''TP53 이상'''.\n* 서술형 진단명: '''폐 편평상피세포암(squamous cell carcinoma of the lung)'''.\n\n=== 선지별 해설 ===\n* 1번 · TTF-1: 폐선암과 일부 신경내분비 종양 등에 발현할 수 있는 핵 표지자다. 샘 구조·신경내분비 형태와 패널을 함께 읽는다. 진균 확인이나 편평상피 분화의 대표 표지자는 아니다.\n* 2번 · P40: 편평상피 분화 표지자다. 각질화·세포사이교·종양 둥지와 함께 양성이면 편평상피세포암을 지지한다.\n* 3번 · Chromogranin: 신경내분비 분화를 지지하는 표지자다. Carcinoid·신경내분비암의 형태와 함께 읽으며 편평상피 분화의 대표 표지는 아니다.\n* 4번 · CD56: 신경내분비 분화를 지지하는 표지자다. Carcinoid·신경내분비암의 형태와 함께 읽으며 편평상피 분화의 대표 표지는 아니다.\n* 5번 · WT-1: 중피 분화를 평가하는 패널 등에 활용한다. 각질화된 폐 편평상피세포암의 우선 표지자는 p40·CK5/6다.\n\n[[39강#편평상피세포암은 각질화와 p40이다|Wiki · 편평상피세포암은 각질화와 p40이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.27. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q019_01.jpg",
-        "J/2023/q019_02.jpg"
+        "J/2023/official-p027.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.27 출제자란 확인",
       "lectureIds": [
         39
       ],
       "lectureId": 39,
       "lectureTitle": "[실습] 병리실습",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 19,27번",
-      "mappingConfidence": "medium",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.27",
+      "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "중복 후보 쌍의 조직 사진도 직접 비교해 동일/유사함을 확인.",
-        "재검토: 폐종양 조직사진에서 면역표지자를 연결하는 판독 문항으로 실습에 배정한다. 실습은 우선 3개 고유 문항으로 구성하되 다른 사진 문항과의 경계는 별도 남긴다.",
-        "재검토: 19번과 같은 조직사진 문항의 중복 복원이다. 19번과 함께 실습으로 옮기며 출제량은 한 번만 센다. 실습은 우선 3개 고유 문항으로 구성하되 다른 사진 문항과의 경계는 별도 남긴다.",
-        "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q019_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
-        },
-        {
-          "path": "J/2023/q019_02.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 27,
+          "file": "J/2023/official-p027.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [
@@ -15468,11 +15719,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "편평상피세포암은 각질화와 p40이다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 27,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 27,
+        "professor": "김루시아",
+        "lecture": "병리 실습",
+        "question": "72세 남자가 기침과 가슴통증을 주소로 내원하여 시행한 Chest CT검사에서 폐의 가장자리\n에 불규칙한 경계를 가진 종괴가 있었고 가슴막과 흉벽을 침범하고 있었다. 이 종괴의 병리\n소견이 다음과 같을 때 양성을 보일 것으로 예측되는 면역조직화학염색 마커를 선택하시오.",
+        "choices": [
+          "TTF-1",
+          "P40",
+          "Chromogranin",
+          "CD56",
+          "WT-1"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15482,12 +15753,11 @@ window.JBL_DATA = {
       "globalNumber": 200,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 20,
+      "originalNumber": 28,
       "originalNumbers": [
-        20,
         28
       ],
-      "question": "56세 여자 환자가 건강검진에서 폐의 종괴가 발견되어 내원하였다. Chest CT에서 좌상엽 가장자리에 2.4cm 크기의 경계가 분명한 고형 종괴가 있었고 종격동 림프절 종대는 없었다. 쐐기절제술로 종괴를 절제했을 때 종양의 단면은 경계가 잘 지어졌고, 단면은 lobulating contour를 보이며 흰색의 연골조직과 유사한 경도를 보였다. 현미경 소견이 다음과 같을 때 가장 적합한 진단을 선택하시오.",
+      "question": "56세 여자 환자가 건강검진에서 폐의 종괴가 발견되어 내원하였다. Chest CT에서 좌상엽 가장자리에 2.4cm 크기의 경계가 분명한 고형 종괴가 있었고 종격동 림프절 종대는 없었다. 쐐기절제술로 종괴를 절제했을 때 종양의 단면은 경계가 잘 지워졌고, 단면은 lobulating contour를 보이며 흰색의 연골조직과 유사한 경도를 보였다. 현미경 소견이 다음과 같을 때 가장 적합한 진단을 선택하시오.",
       "passage": "",
       "choices": [
         "Typical carcinoid tumor",
@@ -15500,44 +15770,38 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n경계 좋은 작은 말초 결절에 연골·지방·기관지형 상피가 뒤섞인 사진은 chondroid hamartoma이다. 단면이 희고 연골처럼 단단하다는 설명도 일치한다. 이름과 달리 강의에서는 단순 발생기형보다 양성 종양으로 설명한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nChondroid hamartoma는 폐 말초의 경계 좋은 단일 coin lesion으로 보이며 보통 3–4 cm 미만이다. 이름의 hamartoma는 그 장기에 원래 있는 성분이 섞인 종괴라는 뜻이지만, 폐 연골과오종은 단순 선천기형보다는 '''양성 종양'''으로 설명한다.\n\n희고 단단한 연골 결절 사이에 지방·섬유조직·혈관·기관지형 섬모상피가 섞인다. 연골 사이로 '''slit-like 상피 틈'''이 보이면 진단에 도움이 된다. 균일한 carcinoid 세포나 악성 샘 구조와 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · Typical carcinoid tumor: 균일한 신경내분비세포의 organoid/rosette 배열이 특징이다. 연골과 지방이 섞인 병변의 진단은 아니다.\n* 2번 · Tuberculosis: 건락괴사·육아종을 찾아야 한다. 성숙 연골과 지방, 기관지형 상피가 섞인 종양과는 맞지 않는다.\n* 3번 · Metastatic adenocarcinoma from breast: 악성 샘 구조와 원발 종양의 근거가 필요하다. 경계 좋은 연골성 혼합 조직의 과오종을 설명하지 못한다.\n* 4번 · Sclerosing pneumocytoma: 표면 입방세포와 둥근 기질세포의 두 군이 특징이다. TTF-1은 둘 다, CK7은 표면세포에 발현한다. 연골 중심의 과오종과 다르다.\n* 5번 · Chondroid hamartoma: 연골·지방·섬유조직과 slit-like 기관지 상피가 섞인 양성 종양이다. 연골처럼 단단하고 소엽성인 종괴 설명과 맞는다.\n\n[[37강#연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다|Wiki · 연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerLabel": "5번 — Chondroid hamartoma",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n정답: ⑤\n\n경계 좋은 작은 말초 결절에 연골·지방·기관지형 상피가 뒤섞인 사진은 chondroid hamartoma이다. 단면이 희고 연골처럼 단단하다는 설명도 일치한다. 이름과 달리 강의에서는 단순 발생기형보다 양성 종양으로 설명한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nChondroid hamartoma는 폐 말초의 경계 좋은 단일 coin lesion으로 보이며 보통 3–4 cm 미만이다. 이름의 hamartoma는 그 장기에 원래 있는 성분이 섞인 종괴라는 뜻이지만, 폐 연골과오종은 단순 선천기형보다는 '''양성 종양'''으로 설명한다.\n\n희고 단단한 연골 결절 사이에 지방·섬유조직·혈관·기관지형 섬모상피가 섞인다. 연골 사이로 '''slit-like 상피 틈'''이 보이면 진단에 도움이 된다. 균일한 carcinoid 세포나 악성 샘 구조와 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · Typical carcinoid tumor: 균일한 신경내분비세포의 organoid/rosette 배열이 특징이다. 연골과 지방이 섞인 병변의 진단은 아니다.\n* 2번 · Tuberculosis: 건락괴사·육아종을 찾아야 한다. 성숙 연골과 지방, 기관지형 상피가 섞인 종양과는 맞지 않는다.\n* 3번 · Metastatic adenocarcinoma from breast: 악성 샘 구조와 원발 종양의 근거가 필요하다. 경계 좋은 연골성 혼합 조직의 과오종을 설명하지 못한다.\n* 4번 · Sclerosing pneumocytoma: 표면 입방세포와 둥근 기질세포의 두 군이 특징이다. TTF-1은 둘 다, CK7은 표면세포에 발현한다. 연골 중심의 과오종과 다르다.\n* 5번 · Chondroid hamartoma: 연골·지방·섬유조직과 slit-like 기관지 상피가 섞인 양성 종양이다. 연골처럼 단단하고 소엽성인 종괴 설명과 맞는다.\n\n[[37강#연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다|Wiki · 연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. ~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.28. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q020_01.jpg",
-        "J/2023/q020_02.jpg"
+        "J/2023/official-p028.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.28 출제자란 확인",
       "lectureIds": [
         37
       ],
       "lectureId": 37,
       "lectureTitle": "폐종양의 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 20,28번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.28",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "중복 후보 쌍의 조직 사진도 직접 비교해 동일/유사함을 확인.",
-        "재검토: 본문에서 육안·조직사진을 사용하므로 39강 실습 대안이 있다. 실습의 통상 3문항 배정과 다른 문항의 더 직접적인 실습 근거를 고려해 현재는 이론에 남긴 잠정 분류이며, 이론 출제로 확정한 것이 아니다.",
-        "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q020_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
-        },
-        {
-          "path": "J/2023/q020_02.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 28,
+          "file": "J/2023/official-p028.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [
@@ -15558,11 +15822,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-23",
-        "scope": "lectures37_38",
-        "chapter": "연골과오종은 연골 사이에 기관지 상피와 지방이 섞인다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 28,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 28,
+        "professor": "김루시아",
+        "lecture": "폐종양의 병리",
+        "question": "56세 여자환자가 건강검진에서 폐의 종괴가 발견되어 내원하였다. Chest CT에서 좌상엽\n가장자리에 2.4cm 크기의 경계가 분명한 고형 종괴가 있었고 종격동 림프절 종대는 없었다.\n쐐기절제술로 종괴를 절제했을 때 종양의 단면은 경계가 잘 지워졌고, 단면은 lobulating\ncontour를 보이며 흰색의 연골조직과 유사한 경도를 보였다. 현미경 소견이 다음과 같을 때\n가장 적합한 진단을 선택하시오.",
+        "choices": [
+          "Typical carcinoid tumor",
+          "Tuberculosis",
+          "Metastatic adenocarcinoma from breast",
+          "Sclerosing pneumocytoma",
+          "Chondroid hamartoma"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15590,58 +15874,56 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "2번 — Dorsal respiratory group",
-      "explanation": "'''기존 정답: 2번, Dorsal respiratory group — 과거 용어 체계에 따른 답이다.'''\n\n올해 7–12쪽은 DRG를 감각 통합, rVRG를 주된 흡기 출력으로 설명한다. 현재 발문의 ‘흡기 뉴런으로만 구성’이라는 단정은 올해의 기능 구분만으로 확정하기 어렵다. '''정답 표시는 보존하되, 올해 기준으로 동일한 발문을 다시 풀 때에는 용어 차이에 주의해야 한다.'''\n\n=== 호흡중추를 위치보다 기능으로 구별한다 ===\n||= 올해의 구분 ||= 주요 역할 ||\n|| '''DRG / NTS''' || IX·X를 통한 화학감각·폐 감각 정보의 통합 ||\n|| '''Pre-Bötzinger complex''' || 넓은 신경망 안에서 흡기 리듬 생성 ||\n|| '''Bötzinger complex''' || 억제성 뉴런을 통한 호흡 단계 협응 ||\n|| '''rVRG''' || 주된 흡기 전운동 출력 → 횡격막·흡기성 늑간근 운동뉴런 ||\n|| '''cVRG''' || 호기 전운동 출력 → 능동적 날숨에서 복근·내늑간근 동원 ||\n|| '''PRG''' || 교뇌에서 들숨 종료·단계 전환·상기도 활동 조절 ||\n\n감각의 시작은 '''carotid body → IX → NTS/DRG''', 흡기 운동의 주된 출력은 '''rVRG → 척수 C3–C5의 phrenic motor neuron → 횡격막신경 → 횡격막'''으로 구별한다. 리듬 생성, 감각 통합, 운동 출력이 서로 연결되어 있지만 같은 기능은 아니다.\n\n과거 자료의 ‘rostral VRG’는 Bötzinger/retrofacialis의 주로 호기성 영역을 가리켰다. 올해는 '''Bötzinger와 rVRG를 따로 구분하고 rVRG를 흡기 출력으로 설명'''한다. 올해 11쪽에 재사용된 원그림에는 고전적인 명칭이 남아 있다는 주석이 있으므로, 기출의 옛 명칭을 올해 본문의 이름과 기계적으로 대응시키지 않는다.\n\n=== 선지별로 보면 ===\n* ① Nucleus retrofacialis — 과거 강의의 Bötzinger/rostral VRG에 해당하는 호기성 영역이다. 올해의 흡기 전운동 rVRG와 구별한다.\n* ② DRG — 과거 자료가 흡기성 뉴런군으로 제시한 기존 정답이다. 올해는 NTS와 연결되는 감각 통합 역할을 강조하므로, ‘DRG 전체가 오직 흡기 뉴런’이라고 일반화하지 않는다.\n* ③ PRG — 교뇌에서 들숨 종료와 호흡 패턴을 조정한다. 연수의 흡기 뉴런군과 구별한다.\n* ④ Rostral VRG — 과거 선지에서는 Bötzinger의 호기성 영역을 뜻했지만 올해 rVRG는 주된 흡기 전운동 출력이다. 이름의 뜻이 바뀌어 올해 자료만으로 과거의 오답 논리를 그대로 적용할 수 없다. 그렇다고 ‘흡기 뉴런으로만 구성’이라는 발문을 근거 없이 확정하지도 않는다.\n* ⑤ Caudal NRA — 호기성 뉴런이다. 흡기성인 rostral NRA와 반대다.\n\n[[8강#DRG는 감각 정보를 받아 들숨 운동에 연결한다|Wiki · DRG는 감각 정보를 받아 들숨 운동에 연결한다]]\n~~근거: 39기 「호흡의 조절_2026_2」 PDF 7·8·9·10·11·12쪽. 쪽수는 PDF 순서다. 과거 명칭과 기출 맥락은 38기 자료와 구분하여 대조했다. 과거 공식 정답이 별도로 확인된 것으로 단정하지 않는다. 2026-10-13 대조·갱신.~~~",
+      "explanation": "'''공식 정답: 2번'''\n\n'''기존 정답: 2번, Dorsal respiratory group — 과거 용어 체계에 따른 답이다.'''\n\n올해 7–12쪽은 DRG를 감각 통합, rVRG를 주된 흡기 출력으로 설명한다. 현재 발문의 ‘흡기 뉴런으로만 구성’이라는 단정은 올해의 기능 구분만으로 확정하기 어렵다. '''정답 표시는 보존하되, 올해 기준으로 동일한 발문을 다시 풀 때에는 용어 차이에 주의해야 한다.'''\n\n=== 호흡중추를 위치보다 기능으로 구별한다 ===\n||= 올해의 구분 ||= 주요 역할 ||\n|| '''DRG / NTS''' || IX·X를 통한 화학감각·폐 감각 정보의 통합 ||\n|| '''Pre-Bötzinger complex''' || 넓은 신경망 안에서 흡기 리듬 생성 ||\n|| '''Bötzinger complex''' || 억제성 뉴런을 통한 호흡 단계 협응 ||\n|| '''rVRG''' || 주된 흡기 전운동 출력 → 횡격막·흡기성 늑간근 운동뉴런 ||\n|| '''cVRG''' || 호기 전운동 출력 → 능동적 날숨에서 복근·내늑간근 동원 ||\n|| '''PRG''' || 교뇌에서 들숨 종료·단계 전환·상기도 활동 조절 ||\n\n감각의 시작은 '''carotid body → IX → NTS/DRG''', 흡기 운동의 주된 출력은 '''rVRG → 척수 C3–C5의 phrenic motor neuron → 횡격막신경 → 횡격막'''으로 구별한다. 리듬 생성, 감각 통합, 운동 출력이 서로 연결되어 있지만 같은 기능은 아니다.\n\n과거 자료의 ‘rostral VRG’는 Bötzinger/retrofacialis의 주로 호기성 영역을 가리켰다. 올해는 '''Bötzinger와 rVRG를 따로 구분하고 rVRG를 흡기 출력으로 설명'''한다. 올해 11쪽에 재사용된 원그림에는 고전적인 명칭이 남아 있다는 주석이 있으므로, 기출의 옛 명칭을 올해 본문의 이름과 기계적으로 대응시키지 않는다.\n\n=== 선지별로 보면 ===\n* ① Nucleus retrofacialis — 과거 강의의 Bötzinger/rostral VRG에 해당하는 호기성 영역이다. 올해의 흡기 전운동 rVRG와 구별한다.\n* ② DRG — 과거 자료가 흡기성 뉴런군으로 제시한 기존 정답이다. 올해는 NTS와 연결되는 감각 통합 역할을 강조하므로, ‘DRG 전체가 오직 흡기 뉴런’이라고 일반화하지 않는다.\n* ③ PRG — 교뇌에서 들숨 종료와 호흡 패턴을 조정한다. 연수의 흡기 뉴런군과 구별한다.\n* ④ Rostral VRG — 과거 선지에서는 Bötzinger의 호기성 영역을 뜻했지만 올해 rVRG는 주된 흡기 전운동 출력이다. 이름의 뜻이 바뀌어 올해 자료만으로 과거의 오답 논리를 그대로 적용할 수 없다. 그렇다고 ‘흡기 뉴런으로만 구성’이라는 발문을 근거 없이 확정하지도 않는다.\n* ⑤ Caudal NRA — 호기성 뉴런이다. 흡기성인 rostral NRA와 반대다.\n\n[[8강#DRG는 감각 정보를 받아 들숨 운동에 연결한다|Wiki · DRG는 감각 정보를 받아 들숨 운동에 연결한다]]\n~~근거: 39기 「호흡의 조절_2026_2」 PDF 7·8·9·10·11·12쪽. 쪽수는 PDF 순서다. 과거 명칭과 기출 맥락은 38기 자료와 구분하여 대조했다.  2026-10-13 대조·갱신.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.21. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.21 출제자란 확인",
       "lectureIds": [
         8
       ],
       "lectureId": 8,
       "lectureTitle": "호흡의 조절",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 21번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.21",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 호흡의 조절_2026_2",
-        "pages": [
-          7,
-          8,
-          9,
-          10,
-          11,
-          12
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 21,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 21,
+        "professor": "곽지연",
+        "lecture": "호흡의 조절",
+        "question": "다음 중 inspiratory neuron으로만 구성된 것은?",
+        "choices": [
+          "Nucleus retrofacialis",
+          "Dorsal respiratory group",
+          "Pontine respiratory group",
+          "Rostral ventral respiratory group",
+          "Caudal nucleus retroambiguus"
         ],
-        "chapter": "DRG는 감각 정보를 받아 들숨 운동에 연결한다",
-        "answerStatus": "historical_terminology_caution",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
-        "peerExplanationUsed": false,
-        "previousLectureBasis": {
-          "basis": "38기 자료",
-          "pages": [
-            8,
-            9,
-            10,
-            11,
-            14
-          ]
-        },
-        "currentLectureChecked": true,
-        "lectureVersionCaution": "기존 답 2 유지. 올해 감각 통합/흡기 전운동 출력 구분에서 발문의 only 및 rostral VRG 명칭 주의."
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15661,7 +15943,7 @@ window.JBL_DATA = {
         "Rapidly adapting pulmonary stretch receptor",
         "Slowly adapting pulmonary stretch receptor",
         "Juxtaalveolar receptor",
-        "Irritant receptor",
+        "Irriant receptor",
         "Muscle-joint receptor"
       ],
       "answerIndex": 2,
@@ -15669,54 +15951,56 @@ window.JBL_DATA = {
         2
       ],
       "answerLabel": "2번 — Slowly adapting pulmonary stretch receptor",
-      "explanation": "'''정답: 2번, Slowly adapting pulmonary stretch receptor.'''\n\n=== 폐 팽창이 다음 들숨을 막는 경로 ===\n'''Hering–Breuer inflation reflex'''는 폐 팽창이 들숨을 끝내는 반사다. 기관지·세기관지 벽의 '''slowly adapting stretch receptor''' → '''미주신경 감각 입력''' → 연수 호흡 회로 → 흡기성 출력 억제 순서로 이어진다. 횡격막으로 나가는 운동신경은 phrenic nerve이므로 vagus를 운동 출력으로 외우면 안 된다.\n\n||= 수용체 ||= 주된 자극·결과 ||\n|| '''Slow stretch receptor''' || 폐 팽창 → 들숨 억제 ||\n|| Rapidly adapting/irritant receptor || 기도 자극 → 기침·기관지수축 등 ||\n|| J receptor || 폐울혈·간질부종 등 → 빠르고 얕은 호흡·호흡곤란 ||\n|| 근육·관절 수용체 || 흉곽 위치와 호흡근 장력 정보 ||\n\n올해 39–40쪽은 '''보편적인 1 L 역치는 없다'''고 명시한다. 수용체는 조용한 호흡에서도 발화할 수 있지만 반사의 전체적인 영향은 정상 성인의 안정 호흡에서 작고, 큰 폐 팽창이나 영아에서 더 두드러진다. 반사의 본질은 '''들숨 억제'''이며, 지속적인 팽창은 날숨을 연장하고 다음 들숨을 늦출 수 있다. ‘들숨을 빨리 끝내므로 호흡수는 반드시 증가한다’는 식으로 외우지 않는다.\n\n=== 선지별로 보면 ===\n* ① Rapidly adapting stretch receptor — 기도 자극·동적 변화에 반응하는 쪽이며, 전형적인 Hering–Breuer inflation reflex의 수용체는 slow receptor다.\n* ② Slowly adapting stretch receptor — 지속적인 폐 팽창 정보를 제공하여 영아의 흡기 종료에 기여한다.\n* ③ J receptor — 폐포 모세혈관 주변의 울혈·부종 감지와 관련된다.\n* ④ Irritant receptor — 먼지·연기 등 기도 자극에 대한 기침과 기관지수축이 대표다.\n* ⑤ 근육·관절 수용체 — 흉곽 움직임과 장력 정보를 주지만, 문항의 폐 팽창 반사 수용체는 아니다.\n\n[[8강#Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다|Wiki · Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다]]\n~~근거: 39기 「호흡의 조절_2026_2」 PDF 37·38·39·40쪽. 쪽수는 PDF 순서다. 과거 공식 정답이 별도로 확인된 것으로 단정하지 않는다. 2026-10-13 대조·갱신.~~~",
+      "explanation": "'''공식 정답: 2번'''\n\n'''정답: 2번, Slowly adapting pulmonary stretch receptor.'''\n\n=== 폐 팽창이 다음 들숨을 막는 경로 ===\n'''Hering–Breuer inflation reflex'''는 폐 팽창이 들숨을 끝내는 반사다. 기관지·세기관지 벽의 '''slowly adapting stretch receptor''' → '''미주신경 감각 입력''' → 연수 호흡 회로 → 흡기성 출력 억제 순서로 이어진다. 횡격막으로 나가는 운동신경은 phrenic nerve이므로 vagus를 운동 출력으로 외우면 안 된다.\n\n||= 수용체 ||= 주된 자극·결과 ||\n|| '''Slow stretch receptor''' || 폐 팽창 → 들숨 억제 ||\n|| Rapidly adapting/irritant receptor || 기도 자극 → 기침·기관지수축 등 ||\n|| J receptor || 폐울혈·간질부종 등 → 빠르고 얕은 호흡·호흡곤란 ||\n|| 근육·관절 수용체 || 흉곽 위치와 호흡근 장력 정보 ||\n\n올해 39–40쪽은 '''보편적인 1 L 역치는 없다'''고 명시한다. 수용체는 조용한 호흡에서도 발화할 수 있지만 반사의 전체적인 영향은 정상 성인의 안정 호흡에서 작고, 큰 폐 팽창이나 영아에서 더 두드러진다. 반사의 본질은 '''들숨 억제'''이며, 지속적인 팽창은 날숨을 연장하고 다음 들숨을 늦출 수 있다. ‘들숨을 빨리 끝내므로 호흡수는 반드시 증가한다’는 식으로 외우지 않는다.\n\n=== 선지별로 보면 ===\n* ① Rapidly adapting stretch receptor — 기도 자극·동적 변화에 반응하는 쪽이며, 전형적인 Hering–Breuer inflation reflex의 수용체는 slow receptor다.\n* ② Slowly adapting stretch receptor — 지속적인 폐 팽창 정보를 제공하여 영아의 흡기 종료에 기여한다.\n* ③ J receptor — 폐포 모세혈관 주변의 울혈·부종 감지와 관련된다.\n* ④ Irritant receptor — 먼지·연기 등 기도 자극에 대한 기침과 기관지수축이 대표다.\n* ⑤ 근육·관절 수용체 — 흉곽 움직임과 장력 정보를 주지만, 문항의 폐 팽창 반사 수용체는 아니다.\n\n[[8강#Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다|Wiki · Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다]]\n~~근거: 39기 「호흡의 조절_2026_2」 PDF 37·38·39·40쪽. 쪽수는 PDF 순서다.  2026-10-13 대조·갱신.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.22. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.22 출제자란 확인",
       "lectureIds": [
         8
       ],
       "lectureId": 8,
       "lectureTitle": "호흡의 조절",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 22번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.22",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 호흡의 조절_2026_2",
-        "pages": [
-          37,
-          38,
-          39,
-          40
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 22,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 22,
+        "professor": "곽지연",
+        "lecture": "호흡의 조절",
+        "question": "폐 또는 기도에 위치한 sensory receptor 중 특히 유아에서 과도한 폐의 확장에 의한 손상을\n방지하는 기능을 하는 것은?",
+        "choices": [
+          "Rapidly adapting pulmonary stretch receptor",
+          "Slowly adapting pulmonary stretch receptor",
+          "Juxtaalveolar receptor",
+          "Irriant receptor",
+          "Muscle-joint receptor"
         ],
-        "chapter": "Hering–Breuer 반사는 폐 팽창을 들숨 종료 신호로 바꾼다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
-        "peerExplanationUsed": false,
-        "previousLectureBasis": {
-          "basis": "38기 자료",
-          "pages": [
-            45,
-            46,
-            47,
-            48
-          ]
-        },
-        "currentLectureChecked": true
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15744,61 +16028,56 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "4번 — Erythropoietin 생산 증가",
-      "explanation": "'''정답: 4번, Erythropoietin 생산 증가.'''\n\n=== 고지대의 출발점은 낮은 흡입 산소분압이다 ===\n고지대에서는 대기압 감소로 흡입 PO₂와 PaO₂가 낮아진다. 말초화학수용체가 환기를 늘리고, 신장은 EPO를 분비해 적혈구 생성을 촉진한다. 이때 과환기로 CO₂가 줄어 호흡성 알칼리증이 생기며, 시간이 지나 신장의 HCO₃⁻ 배출 등이 이를 보상한다.\n\n||= 적응 항목 ||= 방향 ||\n|| 환기 || 증가 ||\n|| PaO₂ || 평지보다 감소 ||\n|| EPO·적혈구 생성 || 증가 ||\n|| 2,3-DPG || 증가하여 조직 방출에 도움 ||\n|| 폐혈관저항 || 저산소성 수축으로 증가, 장기적으로 우심실 부담 가능 ||\n\nEPO는 Hb의 친화도를 직접 바꾸는 물질이 아니라 산소를 운반할 적혈구의 수를 늘린다. 환기·운반 용량·친화도 변화를 나누어 기억한다.\n\n올해 8강 PDF 44쪽은 '''FiO₂는 여전히 약 21%'''라고 명시하고, 적응의 시간 흐름을 나눈다.\n\n||= 시간 ||= 주된 변화 ||\n|| 수분 || 말초화학수용체 자극 → 환기 증가 → PaCO₂ 감소·호흡성 알칼리증 ||\n|| 수일 || 신장의 HCO₃⁻ 배출·중추 산염기 적응 → 과환기 지속을 허용 ||\n|| 수일–수주 || EPO 증가에 뒤따라 적혈구량 증가 ||\n\nDPG 증가의 우측 이동과 알칼리증의 좌측 이동은 반대 방향이다. ‘DPG가 늘어 조직 방출을 돕는다’는 개별 효과는 맞지만, 고지대 혈액의 해리곡선이 모든 순간에 반드시 우측에 있다는 뜻은 아니다.\n\n=== 선지별로 보면 ===\n* ① 저환기 — 정상적인 초기 적응은 과환기다. 만성 고산병의 환기 저하와 섞으면 안 된다.\n* ② PaO₂ 100 mmHg 이상 — 고지대 저산소 상황을 반대로 설명한다.\n* ③ 폐혈관 확장 — 폐에서는 저산소에 혈관수축으로 반응한다. 전신 조직의 저산소성 혈관확장과 다르다.\n* ④ EPO 증가 — 신장의 저산소 감지로 적혈구 생성이 증가한다.\n* ⑤ 2,3-DPG 감소 — 장기 적응은 대체로 증가하여 조직 산소 방출을 돕는다.\n\n[[7강#고지대에서는 환기와 적혈구 생성이 함께 적응한다|Wiki · 고지대에서는 환기와 적혈구 생성이 함께 적응한다]]\n~~근거: 39기 「혈액에 의한 기체운반_2026_2」 PDF 31·33쪽. 쪽수는 PDF 순서다. 8강 「호흡의 조절_2026_2」 PDF 44쪽도 함께 참고했다. 과거 공식 정답이 별도로 확인된 것으로 단정하지 않는다. 2026-10-13 대조·갱신.~~~",
+      "explanation": "'''공식 정답: 4번'''\n\n'''정답: 4번, Erythropoietin 생산 증가.'''\n\n=== 고지대의 출발점은 낮은 흡입 산소분압이다 ===\n고지대에서는 대기압 감소로 흡입 PO₂와 PaO₂가 낮아진다. 말초화학수용체가 환기를 늘리고, 신장은 EPO를 분비해 적혈구 생성을 촉진한다. 이때 과환기로 CO₂가 줄어 호흡성 알칼리증이 생기며, 시간이 지나 신장의 HCO₃⁻ 배출 등이 이를 보상한다.\n\n||= 적응 항목 ||= 방향 ||\n|| 환기 || 증가 ||\n|| PaO₂ || 평지보다 감소 ||\n|| EPO·적혈구 생성 || 증가 ||\n|| 2,3-DPG || 증가하여 조직 방출에 도움 ||\n|| 폐혈관저항 || 저산소성 수축으로 증가, 장기적으로 우심실 부담 가능 ||\n\nEPO는 Hb의 친화도를 직접 바꾸는 물질이 아니라 산소를 운반할 적혈구의 수를 늘린다. 환기·운반 용량·친화도 변화를 나누어 기억한다.\n\n올해 8강 PDF 44쪽은 '''FiO₂는 여전히 약 21%'''라고 명시하고, 적응의 시간 흐름을 나눈다.\n\n||= 시간 ||= 주된 변화 ||\n|| 수분 || 말초화학수용체 자극 → 환기 증가 → PaCO₂ 감소·호흡성 알칼리증 ||\n|| 수일 || 신장의 HCO₃⁻ 배출·중추 산염기 적응 → 과환기 지속을 허용 ||\n|| 수일–수주 || EPO 증가에 뒤따라 적혈구량 증가 ||\n\nDPG 증가의 우측 이동과 알칼리증의 좌측 이동은 반대 방향이다. ‘DPG가 늘어 조직 방출을 돕는다’는 개별 효과는 맞지만, 고지대 혈액의 해리곡선이 모든 순간에 반드시 우측에 있다는 뜻은 아니다.\n\n=== 선지별로 보면 ===\n* ① 저환기 — 정상적인 초기 적응은 과환기다. 만성 고산병의 환기 저하와 섞으면 안 된다.\n* ② PaO₂ 100 mmHg 이상 — 고지대 저산소 상황을 반대로 설명한다.\n* ③ 폐혈관 확장 — 폐에서는 저산소에 혈관수축으로 반응한다. 전신 조직의 저산소성 혈관확장과 다르다.\n* ④ EPO 증가 — 신장의 저산소 감지로 적혈구 생성이 증가한다.\n* ⑤ 2,3-DPG 감소 — 장기 적응은 대체로 증가하여 조직 산소 방출을 돕는다.\n\n[[7강#고지대에서는 환기와 적혈구 생성이 함께 적응한다|Wiki · 고지대에서는 환기와 적혈구 생성이 함께 적응한다]]\n~~근거: 39기 「혈액에 의한 기체운반_2026_2」 PDF 31·33쪽. 쪽수는 PDF 순서다. 8강 「호흡의 조절_2026_2」 PDF 44쪽도 함께 참고했다.  2026-10-13 대조·갱신.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.23. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.23 출제자란 확인",
       "lectureIds": [
         7
       ],
       "lectureId": 7,
       "lectureTitle": "혈액에의한 기체운반",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 23번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.23",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "고지대 적응의 EPO를 묻는다. 기체운반 자료 PDF31쪽에 EPO 직접 근거가 있어 7강 우선; 8강 고지대 호흡 반응과 교차."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 혈액에 의한 기체운반_2026_2",
-        "pages": [
-          31,
-          33
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 23,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 23,
+        "professor": "곽지연",
+        "lecture": "호흡의 조절",
+        "question": "고지대에 살면 답가지 중 어떤 변화가 일어나겠는가?",
+        "choices": [
+          "Hypoventilation",
+          "동맥혈 산소 분압 > 100 mm Hg",
+          "Pulmonary vessel 이완",
+          "Erythropoietin 생산 증가",
+          "2,3-DPG 농도 감소"
         ],
-        "chapter": "고지대에서는 환기와 적혈구 생성이 함께 적응한다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
-        "peerExplanationUsed": false,
-        "previousLectureBasis": {
-          "basis": "38기 자료",
-          "pages": [
-            30,
-            31,
-            32,
-            33
-          ]
-        },
-        "currentLectureChecked": true,
-        "additionalLectureBasis": {
-          "lectureId": 8,
-          "pages": [
-            44
-          ],
-          "basis": "39기 호흡의 조절_2026_2"
-        }
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15826,56 +16105,56 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "4번 — Carotid body",
-      "explanation": "'''정답: 4번, Carotid body.'''\n\n=== 낮은 PO₂를 직접 감지하는 곳 ===\n'''Carotid body'''는 낮은 동맥혈 PO₂를 감지하는 핵심 말초화학수용체다. 신호는 설인신경 IX를 통해 NTS/DRG로 들어간다. Aortic body는 미주신경 X를 이용한다. 두 수용체는 CO₂와 H⁺ 증가에도 반응한다.\n\n저산소에서 glomus cell의 K⁺ 유출이 감소하면 탈분극하고 Ca²⁺가 들어와 전달물질이 분비된다. 전체 환기 반응은 특히 '''PaO₂ 약 60 mmHg 이하'''에서 크게 증가한다. 이 센서는 Hb에 담긴 산소 총량이 아니라 '''용해된 산소가 만드는 분압'''을 읽으므로, 빈혈·CO 중독의 낮은 산소 함량과 단순한 낮은 PaO₂를 구분해야 한다.\n\n> 감지: carotid body → 전달: IX → 통합: NTS/DRG → 출력: phrenic nerve 등 → 환기 증가. 중추화학수용체의 직접 자극은 별도로 CSF H⁺다.\n\n올해 23·33쪽은 '''60 mmHg를 세포가 켜지는 고정 역치로 보지 않는다'''고 설명한다. Carotid body는 정상 산소분압에서도 긴장성 구동에 기여하고, PaO₂가 약 60 mmHg 아래로 내려가면 전체 환기 반응이 가팔라진다. ATP·ACh는 흥분 전달에 기여하고 dopamine은 조절 작용을 한다. 또한 과환기로 PaCO₂가 떨어지면 저산소 자극의 일부를 상쇄하므로, CO₂를 일정하게 유지한 실험과 자연 상태의 반응 크기는 다르다.\n\n=== 선지별로 보면 ===\n* ① NTS — 화학수용체 신호를 받는 연수의 통합 지점이다. 말초에서 PO₂를 직접 읽는 센서와 다르다.\n* ② J receptor — 폐포 모세혈관 주변의 울혈·부종 및 자극을 감지한다.\n* ③ 연수 화학수용체 — CO₂에 의해 변한 CSF H⁺가 직접 자극이다.\n* ④ Carotid body — 저산소성 환기 반응을 시작하는 말초 센서다.\n* ⑤ Apneustic center — 들숨 패턴을 조절하는 교뇌 기능이다.\n\n[[8강#Carotid body는 낮은 동맥혈 PO₂를 감지한다|Wiki · Carotid body는 낮은 동맥혈 PO₂를 감지한다]]\n~~근거: 39기 「호흡의 조절_2026_2」 PDF 21·22·23·24·33쪽. 쪽수는 PDF 순서다. 과거 공식 정답이 별도로 확인된 것으로 단정하지 않는다. 2026-10-13 대조·갱신.~~~",
+      "explanation": "'''공식 정답: 4번'''\n\n'''정답: 4번, Carotid body.'''\n\n=== 낮은 PO₂를 직접 감지하는 곳 ===\n'''Carotid body'''는 낮은 동맥혈 PO₂를 감지하는 핵심 말초화학수용체다. 신호는 설인신경 IX를 통해 NTS/DRG로 들어간다. Aortic body는 미주신경 X를 이용한다. 두 수용체는 CO₂와 H⁺ 증가에도 반응한다.\n\n저산소에서 glomus cell의 K⁺ 유출이 감소하면 탈분극하고 Ca²⁺가 들어와 전달물질이 분비된다. 전체 환기 반응은 특히 '''PaO₂ 약 60 mmHg 이하'''에서 크게 증가한다. 이 센서는 Hb에 담긴 산소 총량이 아니라 '''용해된 산소가 만드는 분압'''을 읽으므로, 빈혈·CO 중독의 낮은 산소 함량과 단순한 낮은 PaO₂를 구분해야 한다.\n\n> 감지: carotid body → 전달: IX → 통합: NTS/DRG → 출력: phrenic nerve 등 → 환기 증가. 중추화학수용체의 직접 자극은 별도로 CSF H⁺다.\n\n올해 23·33쪽은 '''60 mmHg를 세포가 켜지는 고정 역치로 보지 않는다'''고 설명한다. Carotid body는 정상 산소분압에서도 긴장성 구동에 기여하고, PaO₂가 약 60 mmHg 아래로 내려가면 전체 환기 반응이 가팔라진다. ATP·ACh는 흥분 전달에 기여하고 dopamine은 조절 작용을 한다. 또한 과환기로 PaCO₂가 떨어지면 저산소 자극의 일부를 상쇄하므로, CO₂를 일정하게 유지한 실험과 자연 상태의 반응 크기는 다르다.\n\n=== 선지별로 보면 ===\n* ① NTS — 화학수용체 신호를 받는 연수의 통합 지점이다. 말초에서 PO₂를 직접 읽는 센서와 다르다.\n* ② J receptor — 폐포 모세혈관 주변의 울혈·부종 및 자극을 감지한다.\n* ③ 연수 화학수용체 — CO₂에 의해 변한 CSF H⁺가 직접 자극이다.\n* ④ Carotid body — 저산소성 환기 반응을 시작하는 말초 센서다.\n* ⑤ Apneustic center — 들숨 패턴을 조절하는 교뇌 기능이다.\n\n[[8강#Carotid body는 낮은 동맥혈 PO₂를 감지한다|Wiki · Carotid body는 낮은 동맥혈 PO₂를 감지한다]]\n~~근거: 39기 「호흡의 조절_2026_2」 PDF 21·22·23·24·33쪽. 쪽수는 PDF 순서다.  2026-10-13 대조·갱신.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.24. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "곽지연",
-      "professor": "이진영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.24 출제자란 확인",
       "lectureIds": [
         8
       ],
       "lectureId": 8,
       "lectureTitle": "호흡의 조절",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 24번",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.24",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 호흡의 조절_2026_2",
-        "pages": [
-          21,
-          22,
-          23,
-          24,
-          33
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 24,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 24,
+        "professor": "곽지연",
+        "lecture": "호흡의 조절",
+        "question": "저산소증은 다음 중 어느 부위에 직접 작용하여 호흡을 증가시키는가?",
+        "choices": [
+          "Nucleus of solitary tract",
+          "J receptor",
+          "Medullary chemoreceptor",
+          "Carotid body",
+          "Apneustic center"
         ],
-        "chapter": "Carotid body는 낮은 동맥혈 PO₂를 감지한다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
-        "peerExplanationUsed": false,
-        "previousLectureBasis": {
-          "basis": "38기 자료",
-          "pages": [
-            29,
-            30,
-            31,
-            37,
-            38
-          ]
-        },
-        "currentLectureChecked": true
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15902,28 +16181,28 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · thymic carcinoma-surgery: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 2번 · metastatic carcinoma-biopsy: 전이암이면 원발 종양과 조직 확인이 필요하다. 이 소아 증례에서는 LBL이 더 전형적인 연령·경과이다.\n* 3번 · non-seminomatous germ cell tumor-chemotherapy: 젊은 남성의 급성 앞종격동 종괴 및 AFP/β-hCG 상승이 중요한 조합이다. 정상 표지자만으로 완전히 배제되지는 않지만, 이 소아 림프절 증례의 최선 진단은 LBL이다.\n* 4번 · substernal goiter-follow up: 갑상선과 연결되는 종괴를 생각한다. 소아의 B symptoms·여러 림프절 종대를 단순 추적으로 처리할 상황은 아니다.\n* 5번 · lymphoblastic lymphoma-biopsy: 소아의 급속 성장·발열·야간발한·다발 림프절 종대이면 우선 고려하고 생검으로 확진한다. 중년의 오랜 무증상 경과와 림프절 종대 부재는 덜 전형적이다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerLabel": "5번 — lymphoblastic lymphoma-biopsy",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n정답: ⑤\n\n소아의 빠르게 커지는 앞종격동 종괴, 발열·야간발한, 여러 부위 림프절 비대는 lymphoblastic lymphoma를 우선 의심하게 한다. 먼저 생검으로 확진하며, 종양표지자가 정상이라는 이유만으로 수술 가능한 흉선종으로 단정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 환자군 ||= 경과별 우선 감별 ||\n|| 0–9세 || 급성: lymphoblastic lymphoma; 아급성: 생식세포종양/teratoma ||\n|| 10–40세 여성 || Hodgkin/mediastinal large cell lymphoma; 일부 양성 teratoma·thymoma ||\n|| 10–40세 남성 || 급성: NSGCT·LBL; 중간 경과: 종격동 림프종·seminoma; 느림: thymoma·teratoma ||\n|| 40세 이상 남녀 || Thymoma가 흔함, substernal goiter; 급성 경과에서는 carcinoma도 감별 ||\n\n||= 의심 종양 ||= 임상 단서 ||= 강의의 확인 접근 ||\n|| NSGCT || 빠른 경과, 폐전이, AFP·β-hCG 상승 || 전형적 표지자/임상 조합에서는 생검 없이 진단·치료 접근 가능 ||\n|| Lymphoblastic lymphoma || 소아/젊은 남성, 발열·야간발한·LDH 상승·림프절 비대 || '''Biopsy''' ||\n|| Hodgkin/mediastinal large cell lymphoma || 전신 증상·여러 림프절 종대 || Biopsy ||\n|| Seminoma || 균질한 종괴, 폐전이 가능 || Biopsy ||\n|| Thymoma || >30세, 느린 경과, myasthenia gravis·pure red cell aplasia 가능 || 전형적 절제 가능 병변에서는 수술 전 생검 생략 가능 ||\n|| Teratoma || 뼈·치아·지방 음영 || 전형적 절제 가능 병변에서는 생검 생략 가능 ||\n\n표의 ‘No biopsy needed’를 모든 환자에서 절대 생검 금지로 해석하지 않는다. 불명확한 표지자·비전형 영상·절제 불가능 병변에서는 별도 평가가 필요하다.\n\n'''소아 + 빠르게 커지는 종괴 + B symptoms + 여러 림프절 비대'''이면 LBL을 의심하고 조직으로 확진한다. AFP·β-hCG 정상이 LBL을 확진하는 것은 아니지만 분비성 생식세포종양 가능성을 낮춘다. 반대로 중년의 느린 성장·림프절 종대 없음은 흉선종을 지지한다. 큰 앞종격동 종괴는 기도/혈관 압박 위험이 있어 생검 계획에서도 안전한 접근이 중요하다.\n\n=== 선지별 해설 ===\n* 1번 · thymic carcinoma-surgery: 정상 흉선의 organotypic 특징이 없고 명확한 이형성과 침윤성 성장을 보인다. 흉선종과 구분하며 소아 급속 림프절 증례의 최선 진단은 아니다.\n* 2번 · metastatic carcinoma-biopsy: 전이암이면 원발 종양과 조직 확인이 필요하다. 이 소아 증례에서는 LBL이 더 전형적인 연령·경과이다.\n* 3번 · non-seminomatous germ cell tumor-chemotherapy: 젊은 남성의 급성 앞종격동 종괴 및 AFP/β-hCG 상승이 중요한 조합이다. 정상 표지자만으로 완전히 배제되지는 않지만, 이 소아 림프절 증례의 최선 진단은 LBL이다.\n* 4번 · substernal goiter-follow up: 갑상선과 연결되는 종괴를 생각한다. 소아의 B symptoms·여러 림프절 종대를 단순 추적으로 처리할 상황은 아니다.\n* 5번 · lymphoblastic lymphoma-biopsy: 소아의 급속 성장·발열·야간발한·다발 림프절 종대이면 우선 고려하고 생검으로 확진한다. 중년의 오랜 무증상 경과와 림프절 종대 부재는 덜 전형적이다.\n\n[[38강#나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다|Wiki · 나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. ~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.29. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.29 출제자란 확인",
       "lectureIds": [
         38
       ],
       "lectureId": 38,
       "lectureTitle": "흉막 종격동 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 29번",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.29",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -15948,11 +16227,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-23",
-        "scope": "lectures37_38",
-        "chapter": "나이와 진행 속도가 앞종격동 종괴의 감별을 좁힌다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 29,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 29,
+        "professor": "김루시아",
+        "lecture": "흉막, 종격동 병리",
+        "question": "5세 남아가 호흡곤란을 주소로 내원하였다. 환아는 수 주 전부터 점차 숨 쉬기 힘들다고 호\n소하였고 최근에는 열이 나고 식은땀을 흘린다고 하였다. 내원하여 시행한 흉부 CT 검사에\n서 전종격동에 약 6cm 크기의 종괴가 있었고 종격동과 복부 림프절 비대가 동반되어 있었\n다. 환자의 혈액 검사에서 α- fetoprotein 이나 b-HCG 는 정상 수치를 보였다. 가장 예상되\n는 진단과 다음 단계에 해야 할 일을 맞게 짝지은 것을 고르시오.",
+        "choices": [
+          "Thymic carcinoma – surgery",
+          "Metastatic carcinoma – Biopsy",
+          "Non-seminomatous germ cell tumor – Chemotherapy",
+          "Substernal goiter – follow up",
+          "Lymphoblastic lymphoma – Biopsy"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -15979,28 +16278,28 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · CDKN2A translocation: 틀리다. 특징적인 변화는 translocation이 아니라 homozygous deletion이다.\n* 4번 · Loss of BAP1 nuclear expression: 상피형 중피종에서 중요한 BAP1 핵 발현 소실이다. 주변 정상세포의 양성 내부대조를 함께 확인한다.\n* 5번 · PD-L1 protein expression: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerLabel": "4번 — Loss of BAP1 nuclear expression",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답: ④\n\nEpithelioid mesothelioma에서는 BAP1 핵 발현 소실과 CDKN2A 동형접합 결실 등이 중요하다. CDKN2A의 특징은 translocation이 아니라 deletion이다. Solitary fibrous tumor의 융합은 NAB2–STAT6이지 STAT4가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n종양억제 기능을 잃는 변화가 핵심이다. '''CDKN2A/INK4a의 homozygous deletion'''은 9p 결실로 FISH에서 평가하며, 강의는 약 80%라는 수치를 제시한다. 실제 검출률은 아형·방법에 따라 달라 이 수치를 모든 중피종에 일괄 적용하지 않는다.\n\n||= 표적 ||= 이상 소견 ||= 검사 층위 ||\n|| CDKN2A || 양대립유전자 결실 || DNA, FISH ||\n|| BAP1 || '''핵 발현 소실''' || 단백질, IHC ||\n|| MTAP || '''세포질 발현 소실''' || 단백질, IHC ||\n\n> '''Fusion이 아니라 deletion, 보존이 아니라 loss.''' BAP1 발현 소실을 판정할 때에는 주변 정상세포의 양성 내부대조가 있어야 한다. 발현이 보존되어도 중피종이 완전히 배제되는 것은 아니다.\n\nBAP1은 염색질 조절과도 관련되므로 ‘chromatin-remodeling gene 변이’라는 넓은 표현을 생물학적으로 전혀 무관하다고 단정하지 않는다. 구체적인 대표 진단 변화와 포괄적 설명을 구분한다.\n\n=== 선지별 해설 ===\n* 1번 · NAB2-STAT4 translocation: 틀리다. SFT의 특징적인 융합은 NAB2–STAT6이다. STAT4와 STAT6를 구분한다.\n* 2번 · ROS1 translocation: 폐선암의 표적 가능한 재배열이다. 중피종·SFT의 대표 유전자 변화는 아니다.\n* 3번 · CDKN2A translocation: 틀리다. 특징적인 변화는 translocation이 아니라 homozygous deletion이다.\n* 4번 · Loss of BAP1 nuclear expression: 상피형 중피종에서 중요한 BAP1 핵 발현 소실이다. 주변 정상세포의 양성 내부대조를 함께 확인한다.\n* 5번 · PD-L1 protein expression: PD-L1은 IHC로 평가하는 단백 발현 지표이다. 편평세포암에서 높은 발현이 강조되지만 모든 환자에서 동일한 것은 아니다.\n\n[[38강#상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다|Wiki · 상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 50–84쪽 중 해당 주제 및 대응 필기 자료. ~~~\n\n=== 공식 원문 해설 ===\n> Epithelioid mesothelioma에서 보이는 유전자 이상은 homozygous deletion of CDKN2A, loss of BAP1 nuclear expression, Loss of MTAP expression이다.\n\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.30. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 공개문항 PDF 1쪽 출제자·강의명·문항 내용 대조",
+      "examinerEvidence": "2023 원본.pdf p.30 출제자란 확인",
       "lectureIds": [
         38
       ],
       "lectureId": 38,
       "lectureTitle": "흉막 종격동 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 30번, 오답30 p.1",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.30, 오답30 p.1",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -16027,11 +16326,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-23",
-        "scope": "lectures37_38",
-        "chapter": "상피형 중피종은 CDKN2A 결실과 BAP1·MTAP 소실을 본다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 30,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 30,
+        "professor": "김루시아",
+        "lecture": "흉막, 종격동 병리",
+        "question": "다음 중 Epithelioid mesothelioma의 대표적인 유전자 이상은 무엇인가요?",
+        "choices": [
+          "NAB2-STAT4 translocation",
+          "ROS1 translocation",
+          "CDKN2A translocation",
+          "Loss of BAP1 nuclear expression",
+          "PD-L1 protein expression"
+        ],
+        "answer": "4",
+        "explanation": "Epithelioid mesothelioma에서 보이는 유전자 이상은 homozygous deletion of CDKN2A,\nloss of BAP1 nuclear expression, Loss of MTAP expression이다.",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16058,37 +16377,38 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흉막에 붙어 있는 경계 좋은 종괴로, 단면은 회백색이고 치밀한 섬유성 조직처럼 보인다. 현미경에서 방추세포와 collagen, 분지 혈관이 관찰되며 세포 밀도가 다양한 patternless pattern을 보일 수 있다.\n\n* 면역염색: '''CD34, STAT6 핵 양성'''.\n* 대표 유전자: '''NAB2–STAT6 fusion'''.\n* 위험 평가: 크기·유사분열·괴사 등 병리와 임상 정보를 종합한다.\n\n=== 선지별 해설 ===\n* 1번 · ALK translocation: 폐선암의 driver fusion, 염증성 근섬유모세포종 등의 맥락에서 다룬다. 흉막 SFT의 대표 융합은 NAB2–STAT6다.\n* 2번 · KRAS mutation: 폐선암의 대표 driver 중 하나다. SFT를 정의하는 융합이나 편평상피세포암 사진의 대표 답인 TP53와 다르다.\n* 3번 · CDKN2A homozygous deletion: Homozygous deletion은 중피종에서 중요한 유전자 변화다. CD34 양성의 방추세포성 SFT는 NAB2–STAT6를 연결한다.\n* 4번 · NAB2-STAT6 fusion: SFT의 대표 fusion이다. CD34와 STAT6 핵 염색, 방추세포·collagen의 형태를 같이 기억한다.\n* 5번 · Microsatellite instability: Mismatch repair 이상과 관련되는 유전체 불안정성 지표다. 이 SFT의 특징적 분자진단은 NAB2–STAT6 fusion이다.\n\n[[39강#SFT는 CD34와 NAB2–STAT6 fusion이다|Wiki · SFT는 CD34와 NAB2–STAT6 fusion이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "answerLabel": "4번 — NAB2-STAT6 fusion",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답: ④\n\n흉막에 붙어 자라는 경계 좋은 섬유성 종괴, 방추세포와 CD34 양성은 solitary fibrous tumor에 맞는다. 특징적인 NAB2–STAT6 fusion으로 STAT6 핵 염색이 나타난다. CDKN2A 결실은 중피종과 연결하며 두 종양을 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흉막에 붙어 있는 경계 좋은 종괴로, 단면은 회백색이고 치밀한 섬유성 조직처럼 보인다. 현미경에서 방추세포와 collagen, 분지 혈관이 관찰되며 세포 밀도가 다양한 patternless pattern을 보일 수 있다.\n\n* 면역염색: '''CD34, STAT6 핵 양성'''.\n* 대표 유전자: '''NAB2–STAT6 fusion'''.\n* 위험 평가: 크기·유사분열·괴사 등 병리와 임상 정보를 종합한다.\n\n=== 선지별 해설 ===\n* 1번 · ALK translocation: 폐선암의 driver fusion, 염증성 근섬유모세포종 등의 맥락에서 다룬다. 흉막 SFT의 대표 융합은 NAB2–STAT6다.\n* 2번 · KRAS mutation: 폐선암의 대표 driver 중 하나다. SFT를 정의하는 융합이나 편평상피세포암 사진의 대표 답인 TP53와 다르다.\n* 3번 · CDKN2A homozygous deletion: Homozygous deletion은 중피종에서 중요한 유전자 변화다. CD34 양성의 방추세포성 SFT는 NAB2–STAT6를 연결한다.\n* 4번 · NAB2-STAT6 fusion: SFT의 대표 fusion이다. CD34와 STAT6 핵 염색, 방추세포·collagen의 형태를 같이 기억한다.\n* 5번 · Microsatellite instability: Mismatch repair 이상과 관련되는 유전체 불안정성 지표다. 이 SFT의 특징적 분자진단은 NAB2–STAT6 fusion이다.\n\n[[39강#SFT는 CD34와 NAB2–STAT6 fusion이다|Wiki · SFT는 CD34와 NAB2–STAT6 fusion이다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.31. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q031_01.jpg"
+        "J/2023/official-p031.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.31 출제자란 확인",
       "lectureIds": [
         39
       ],
       "lectureId": 39,
       "lectureTitle": "[실습] 병리실습",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 31번",
-      "mappingConfidence": "medium",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.31",
+      "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: CD34 양성 흉막종양의 조직사진에서 질환·유전자를 연결하는 실습형 문항이다. 실습은 우선 3개 고유 문항으로 구성하되 다른 사진 문항과의 경계는 별도 남긴다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q031_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 31,
+          "file": "J/2023/official-p031.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [
@@ -16111,11 +16431,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "SFT는 CD34와 NAB2–STAT6 fusion이다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 31,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 31,
+        "professor": "김루시아",
+        "lecture": "흉막 종격동 병리",
+        "question": "57세 남자 환자가 흉부 CT 검사에서 좌측 흉강에 7cm 크기의 종괴가 관찰되었다. 이 종괴\n는 경계가 분명하면서 우상엽측 흉강내에 있었고 폐침범 소견은 확실하지 않았다. 우상엽절\n제술을 시행하였고 장측 흉막에 붙어서 자라는 경계가 좋은 종괴가 있었다. 종괴 단면에서\n괴사나 출혈의 소견은 없었고 회백색의 치밀한 섬유성 종양이었다. 병리 소견이 다음과 같\n았고 면역조직화학염색에서 CD34에 양성을 보였다. 이 종양에서 가장 예상되는 유전자 이\n상 소견을 고르시오.",
+        "choices": [
+          "ALK translocation",
+          "KRAS mutation",
+          "CDKN2A homozygous deletion",
+          "NAB2-STAT6 fusion",
+          "Microsatellite instability"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16132,7 +16472,7 @@ window.JBL_DATA = {
       "question": "폐부종의 발생기전을 크게 두 가지로 분류할 때 아래 답가지에서 다른 네 개의 답가지와 기전이 다른 것을 선택하시오.",
       "passage": "",
       "choices": [
-        "pneumonia",
+        "peumonia",
         "Oxygen intoxication",
         "Nephrotic syndrome",
         "Chemotherapy",
@@ -16142,40 +16482,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "3번",
-      "explanation": "정답: ③ Nephrotic syndrome\n\n=== 판단의 출발점 ===\n질환의 이름보다 기전을 두 군으로 나누면 된다. 폐렴·산소독성·항암제·위내용물 흡인은 장벽을 손상시키는 원인이고, 신증후군은 단백질 소실에 따른 교질삼투압 저하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐부종은 '''폐포–모세혈관 장벽을 사이에 두고 물이 이동하는 힘이 달라졌는지''', 아니면 '''장벽 자체가 손상되었는지'''로 나눈다. 좌심부전에서는 폐정맥압이 올라가고, 신증후군에서는 소변으로 단백질이 빠져 혈장 교질삼투압이 낮아진다. 두 경우 모두 장벽 손상 없이 체액이 이동하는 혈역학적 기전이다.\n\n||= 기전 ||= 대표 원인 ||= 폐포 안의 변화 ||\n|| 정수압 증가 || 좌심부전, 체액 과다, 폐정맥 폐쇄 || 단백질이 상대적으로 적은 '''transudate''' ||\n|| 교질삼투압 감소 || 신증후군, 저알부민혈증, 간의 합성능 저하, 단백소실장병증 || 혈관 안에 물을 붙잡는 힘이 감소 ||\n|| 림프 배액 장애 || 림프관 폐쇄 등 || 제거되지 못한 체액이 축적 ||\n|| 직접 장벽 손상 || 폐렴, 위내용물 흡인, 산소독성·연기, 방사선, 약물·항암제 || 단백질이 풍부한 '''exudate''' ||\n|| 간접 장벽 손상 || 패혈증, 쇼크·중증 외상, 화상, 췌장염, TRALI || 염증에 의한 내피·상피 손상; 심하면 DAD ||\n\n[[파일:assets/lecture-14/p021-figures.jpg|혈역학적 폐부종과 장벽 손상성 폐부종의 비교]]\n\n좌심부전의 폐는 무겁고 젖어 있으며, 중력 때문에 기저부의 울혈·부종이 두드러질 수 있다. 미세 출혈이 반복되면 대식세포가 적혈구를 처리해 '''hemosiderin-laden macrophage(heart failure cell)'''가 생긴다. 만성 울혈에서 섬유화까지 더해진 상태가 brown induration이다.\n\n> '''폐포에 액체가 있다는 결과'''만으로 기전을 정하지 않는다. 심부전·저알부민혈증은 압력 차이, 폐렴·독성·흡인은 장벽 손상으로 연결한다.\n\n=== 선지별 해설 ===\n* 1번: 폐렴은 염증으로 내피·폐포상피의 투과성을 높이는 '''장벽 손상''' 기전이다. 심한 경우 DAD로 진행할 수 있다.\n* 2번: 산소독성은 활성산소 등에 의해 폐포–모세혈관 장벽을 손상시킨다. 장기간의 고농도 산소 노출을 맥락으로 이해한다.\n* 3번: 신증후군은 단백뇨로 알부민이 감소해 혈장 교질삼투압이 낮아진다. 다른 네 선택지와 달리 '''혈역학적 폐부종''' 쪽이므로 정답이다.\n* 4번: 항암제 중 bleomycin 등은 직접적인 폐손상·염증을 일으킬 수 있다. 모든 항암제가 동일한 빈도로 폐부종을 일으킨다는 뜻은 아니다.\n* 5번: 산성 위내용물의 흡인은 화학적 폐손상으로 상피·내피 장벽의 누출을 유발한다.\n\n관련 Wiki: [[14강#폐부종의 두 기전은 압력 변화와 장벽 손상이다|폐부종의 두 기전은 압력 변화와 장벽 손상이다]]\n\n근거: 39기 「폐질환의 병리」 PDF 20–24쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "3번 — Nephrotic syndrome",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③ Nephrotic syndrome\n\n=== 판단의 출발점 ===\n질환의 이름보다 기전을 두 군으로 나누면 된다. 폐렴·산소독성·항암제·위내용물 흡인은 장벽을 손상시키는 원인이고, 신증후군은 단백질 소실에 따른 교질삼투압 저하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐부종은 '''폐포–모세혈관 장벽을 사이에 두고 물이 이동하는 힘이 달라졌는지''', 아니면 '''장벽 자체가 손상되었는지'''로 나눈다. 좌심부전에서는 폐정맥압이 올라가고, 신증후군에서는 소변으로 단백질이 빠져 혈장 교질삼투압이 낮아진다. 두 경우 모두 장벽 손상 없이 체액이 이동하는 혈역학적 기전이다.\n\n||= 기전 ||= 대표 원인 ||= 폐포 안의 변화 ||\n|| 정수압 증가 || 좌심부전, 체액 과다, 폐정맥 폐쇄 || 단백질이 상대적으로 적은 '''transudate''' ||\n|| 교질삼투압 감소 || 신증후군, 저알부민혈증, 간의 합성능 저하, 단백소실장병증 || 혈관 안에 물을 붙잡는 힘이 감소 ||\n|| 림프 배액 장애 || 림프관 폐쇄 등 || 제거되지 못한 체액이 축적 ||\n|| 직접 장벽 손상 || 폐렴, 위내용물 흡인, 산소독성·연기, 방사선, 약물·항암제 || 단백질이 풍부한 '''exudate''' ||\n|| 간접 장벽 손상 || 패혈증, 쇼크·중증 외상, 화상, 췌장염, TRALI || 염증에 의한 내피·상피 손상; 심하면 DAD ||\n\n[[파일:assets/lecture-14/p021-figures.jpg|혈역학적 폐부종과 장벽 손상성 폐부종의 비교]]\n\n좌심부전의 폐는 무겁고 젖어 있으며, 중력 때문에 기저부의 울혈·부종이 두드러질 수 있다. 미세 출혈이 반복되면 대식세포가 적혈구를 처리해 '''hemosiderin-laden macrophage(heart failure cell)'''가 생긴다. 만성 울혈에서 섬유화까지 더해진 상태가 brown induration이다.\n\n> '''폐포에 액체가 있다는 결과'''만으로 기전을 정하지 않는다. 심부전·저알부민혈증은 압력 차이, 폐렴·독성·흡인은 장벽 손상으로 연결한다.\n\n=== 선지별 해설 ===\n* 1번: 폐렴은 염증으로 내피·폐포상피의 투과성을 높이는 '''장벽 손상''' 기전이다. 심한 경우 DAD로 진행할 수 있다.\n* 2번: 산소독성은 활성산소 등에 의해 폐포–모세혈관 장벽을 손상시킨다. 장기간의 고농도 산소 노출을 맥락으로 이해한다.\n* 3번: 신증후군은 단백뇨로 알부민이 감소해 혈장 교질삼투압이 낮아진다. 다른 네 선택지와 달리 '''혈역학적 폐부종''' 쪽이므로 정답이다.\n* 4번: 항암제 중 bleomycin 등은 직접적인 폐손상·염증을 일으킬 수 있다. 모든 항암제가 동일한 빈도로 폐부종을 일으킨다는 뜻은 아니다.\n* 5번: 산성 위내용물의 흡인은 화학적 폐손상으로 상피·내피 장벽의 누출을 유발한다.\n\n관련 Wiki: [[14강#폐부종의 두 기전은 압력 변화와 장벽 손상이다|폐부종의 두 기전은 압력 변화와 장벽 손상이다]]\n\n근거: 39기 「폐질환의 병리」 PDF 20–24쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.32. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.32 출제자란 확인",
       "lectureIds": [
         14
       ],
       "lectureId": 14,
       "lectureTitle": "선천성기형,급성폐손상",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 32번",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.32",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 자료는 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "폐부종의 두 기전은 압력 변화와 장벽 손상이다",
-        "pages": "20–24",
-        "answerStatus": "lecture_based_review",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 32,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 32,
+        "professor": "김루시아",
+        "lecture": "선천성 기형, 급성폐손상",
+        "question": "폐부종의 발생기전을 크게 두 가지로 분류할 때 아래 답가지에서 다른 네 개의 답가지와\n기전이 다른 것을 선택하시오",
+        "choices": [
+          "peumonia",
+          "oxygen intoxication",
+          "Nephrotic syndrome",
+          "Chemotherapy",
+          "Gastric contents aspiration"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16202,40 +16559,57 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "4번",
-      "explanation": "정답: ④ Hemosiderin-laden macrophages\n\n=== 판단의 출발점 ===\n미만성 폐포출혈에서 찾는 것은 적혈구를 처리한 흔적이다. BAL에서 '''hemosiderin-laden macrophage'''가 확인되면 최근 또는 반복된 폐포 내 출혈을 뒷받침한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐포 안으로 나온 적혈구를 대식세포가 먹고 분해하면 철이 '''hemosiderin'''으로 남는다. 이런 세포가 hemosiderin-laden macrophage, 또는 siderophage다. BAL에서 반복 출혈을 뒷받침하는 소견이며 철염색으로 확인할 수 있다.\n\n[[파일:assets/lecture-14/p044-figures.jpg|폐포출혈: 적혈구와 hemosiderin을 가진 대식세포, 철염색]]\n\n||= 상황·구조 ||= 해석 ||\n|| 연속 BAL 검체가 점점 더 혈성 || 미만성 폐포출혈을 뒷받침 ||\n|| Hemosiderin 대식세포 || 최근·반복 출혈의 흔적. 출혈 직후에는 아직 적을 수 있음 ||\n|| 폐출혈 + 사구체신염 + anti-GBM || Goodpasture/anti-GBM disease; 기저막을 따른 linear IF ||\n|| 혈관염·SLE || 전신 소견과 자가항체를 함께 평가 ||\n|| 소아의 반복 출혈, 다른 원인 없음 || 특발성 폐혈철소증 고려 ||\n|| 좌심부전의 만성 폐울혈 || 같은 세포가 '''heart failure cell'''로 나타날 수 있음 ||\n\n> BAL에서 이 세포를 확인하면 '''출혈을 했다는 근거'''를 얻는 것이지, 출혈의 원인까지 자동으로 확정되는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: Pneumocystis 균체는 기회감염성 폐렴의 근거다. 호산성 거품 모양 폐포 내용물과 특수염색에서의 균체를 연결한다.\n* 2번: 유리질막은 DAD의 조직 소견으로, 폐포벽을 따라 쌓인 삼출물·세포 잔해다. 출혈 후 대식세포를 묻는 BAL 문항의 중심 소견이 아니다.\n* 3번: Charcot–Leyden crystal은 호산구 분해산물로 천식·호산구성 반응과 연결한다.\n* 4번: 대식세포가 적혈구를 분해한 뒤 철을 hemosiderin으로 저장한 세포다. 정답이다. 다만 출혈의 원인까지 특정하지는 못한다.\n* 5번: 악성 샘세포는 선암 등 악성 상피성 종양을 시사한다. 폐포출혈 자체를 확인하는 특징 소견이 아니다.\n\n관련 Wiki: [[14강#미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다|미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 41–44쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "4번 — Hemosiderin-laden macrophages",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④ Hemosiderin-laden macrophages\n\n=== 판단의 출발점 ===\n미만성 폐포출혈에서 찾는 것은 적혈구를 처리한 흔적이다. BAL에서 '''hemosiderin-laden macrophage'''가 확인되면 최근 또는 반복된 폐포 내 출혈을 뒷받침한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐포 안으로 나온 적혈구를 대식세포가 먹고 분해하면 철이 '''hemosiderin'''으로 남는다. 이런 세포가 hemosiderin-laden macrophage, 또는 siderophage다. BAL에서 반복 출혈을 뒷받침하는 소견이며 철염색으로 확인할 수 있다.\n\n[[파일:assets/lecture-14/p044-figures.jpg|폐포출혈: 적혈구와 hemosiderin을 가진 대식세포, 철염색]]\n\n||= 상황·구조 ||= 해석 ||\n|| 연속 BAL 검체가 점점 더 혈성 || 미만성 폐포출혈을 뒷받침 ||\n|| Hemosiderin 대식세포 || 최근·반복 출혈의 흔적. 출혈 직후에는 아직 적을 수 있음 ||\n|| 폐출혈 + 사구체신염 + anti-GBM || Goodpasture/anti-GBM disease; 기저막을 따른 linear IF ||\n|| 혈관염·SLE || 전신 소견과 자가항체를 함께 평가 ||\n|| 소아의 반복 출혈, 다른 원인 없음 || 특발성 폐혈철소증 고려 ||\n|| 좌심부전의 만성 폐울혈 || 같은 세포가 '''heart failure cell'''로 나타날 수 있음 ||\n\n> BAL에서 이 세포를 확인하면 '''출혈을 했다는 근거'''를 얻는 것이지, 출혈의 원인까지 자동으로 확정되는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: Pneumocystis 균체는 기회감염성 폐렴의 근거다. 호산성 거품 모양 폐포 내용물과 특수염색에서의 균체를 연결한다.\n* 2번: 유리질막은 DAD의 조직 소견으로, 폐포벽을 따라 쌓인 삼출물·세포 잔해다. 출혈 후 대식세포를 묻는 BAL 문항의 중심 소견이 아니다.\n* 3번: Charcot–Leyden crystal은 호산구 분해산물로 천식·호산구성 반응과 연결한다.\n* 4번: 대식세포가 적혈구를 분해한 뒤 철을 hemosiderin으로 저장한 세포다. 정답이다. 다만 출혈의 원인까지 특정하지는 못한다.\n* 5번: 악성 샘세포는 선암 등 악성 상피성 종양을 시사한다. 폐포출혈 자체를 확인하는 특징 소견이 아니다.\n\n관련 Wiki: [[14강#미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다|미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 41–44쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.33. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.33 출제자란 확인",
       "lectureIds": [
         14
       ],
       "lectureId": 14,
       "lectureTitle": "선천성기형,급성폐손상",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 33번",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.33",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 자료는 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "미만성 폐포출혈에서는 hemosiderin을 가진 대식세포를 찾는다",
-        "pages": "41–44",
-        "answerStatus": "lecture_based_review",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 33,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 33,
+        "professor": "김루시아",
+        "lecture": "선천성 기형, 급성폐손상",
+        "question": "광범위 폐출혈 증후군이 의심되는 경우 확진을 위해 bronchoalveolar lavage를 시행하였다.\nbronchoalveolar lavage fluid에서 기대되는 소견은 무엇인가?",
+        "choices": [
+          "Pneumocystis jiroveci organism",
+          "hyaline membrane",
+          "Charcot-Leyden crystals",
+          "Hemosiderin-laden macrophages",
+          "malignant glandular cells"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16262,37 +16636,38 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "2번",
-      "explanation": "정답: ② Ziehl-Neelsen stain\n\n=== 판단의 출발점 ===\nCT에서 기관지를 막는 종괴·작은 결절·림프절 종대가 보여 폐암을 의심했지만, 생검은 '''괴사성 육아종'''이다. 영상의 최초 추정보다 조직 소견을 우선해 항산균 감염을 확인하는 Ziehl–Neelsen 염색을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n영상에서 폐암처럼 보이는 종괴라도 생검이 '''괴사성 육아종'''이면 감염성 원인을 먼저 확인한다. 중심부의 무정형 괴사와 주변의 상피모양 조직구·거대세포를 보고, 면역억제 치료 중인 숙주에서는 항산균과 진균을 함께 고려한다. SLE라는 병명 자체가 곧 결핵의 확진은 아니다.\n\n[[파일:assets/lecture-17/p156-figures.jpg|괴사성 육아종: 중심 괴사와 주변 상피모양 조직구·거대세포]]\n\n||= 검사 ||= 확인하는 대상 ||= 이 문제에서의 위치 ||\n|| '''Ziehl–Neelsen''' || 항산균, 빨간 막대 모양 균체 || 결핵·비결핵항산균을 찾는 우선 검사 ||\n|| '''GMS''' || 진균의 세포벽·균사·효모, Pneumocystis 낭포 등 || 괴사성 육아종의 진균성 원인 감별 ||\n|| TTF-1 면역염색 || 폐선암·일부 신경내분비종양 등의 분화 평가 || 종양세포가 확인될 때 의미. 항산균 검사 아님 ||\n|| CD56·chromogranin || 신경내분비 분화 || 소세포암 등 의심 시 사용 ||\n|| EGFR mutation test || 폐선암 등의 치료 표적 유전자 변이 || 암 진단·치료 선택의 맥락, 육아종 원인 검사 아님 ||\n|| CMV 면역염색 || CMV 감염 세포 || 세포 비대·핵내 봉입체 등이 단서 ||\n|| BAP1 면역염색 || 특정 종양에서 핵 발현 소실을 평가; 중피성 병변 등의 감별에 활용 || 결핵균이나 육아종의 원인을 찾는 염색 아님 ||\n\nZiehl–Neelsen 양성만으로 '''결핵균과 비결핵항산균을 구분'''하지는 못한다. 균량이 적으면 염색이 음성이어도 감염을 배제할 수 없어 배양·분자검사를 함께 고려한다. GMS 역시 진균을 드러내는 검사이며, 균사·효모 형태와 다른 검사로 종류를 판단한다.\n\n> '''무슨 병으로 의심해 생검했는가'''보다 '''생검에 무엇이 보였는가'''가 다음 검사를 결정한다. 괴사성 육아종이라면 항산균·진균, 악성 상피세포라면 종양 분화와 치료 표적을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: TTF-1은 폐선암 등의 분화를 평가하는 면역표지자다. 생검이 괴사성 육아종이라면 먼저 감염성 원인을 찾아야 한다.\n* 2번: 항산균을 검출하는 Ziehl–Neelsen 염색이다. 괴사성 육아종과 장기간 기침·면역억제 상황에서 가장 적절한 다음 검사다. 정답이다.\n* 3번: BAP1은 특정 종양에서 핵 발현 소실을 평가하는 표지자다. 육아종 속 병원체를 찾는 검사가 아니다.\n* 4번: CD56·chromogranin은 신경내분비 분화를 확인한다. 현재 생검의 중심은 종양세포가 아니라 괴사성 육아종이다.\n* 5번: CMV는 면역억제 환자에서 가능하지만 세포 비대·핵내 봉입체 등 바이러스성 세포변화가 근거가 되어야 한다. 면역억제라는 사실만으로 CMV를 고르지 않는다.\n\n관련 Wiki: [[17강#괴사성 육아종에서는 항산균과 진균을 찾는다|괴사성 육아종에서는 항산균과 진균을 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 150–163쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "2번 — Ziehl-Neelsen stain",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: ② Ziehl-Neelsen stain\n\n=== 판단의 출발점 ===\nCT에서 기관지를 막는 종괴·작은 결절·림프절 종대가 보여 폐암을 의심했지만, 생검은 '''괴사성 육아종'''이다. 영상의 최초 추정보다 조직 소견을 우선해 항산균 감염을 확인하는 Ziehl–Neelsen 염색을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n영상에서 폐암처럼 보이는 종괴라도 생검이 '''괴사성 육아종'''이면 감염성 원인을 먼저 확인한다. 중심부의 무정형 괴사와 주변의 상피모양 조직구·거대세포를 보고, 면역억제 치료 중인 숙주에서는 항산균과 진균을 함께 고려한다. SLE라는 병명 자체가 곧 결핵의 확진은 아니다.\n\n[[파일:assets/lecture-17/p156-figures.jpg|괴사성 육아종: 중심 괴사와 주변 상피모양 조직구·거대세포]]\n\n||= 검사 ||= 확인하는 대상 ||= 이 문제에서의 위치 ||\n|| '''Ziehl–Neelsen''' || 항산균, 빨간 막대 모양 균체 || 결핵·비결핵항산균을 찾는 우선 검사 ||\n|| '''GMS''' || 진균의 세포벽·균사·효모, Pneumocystis 낭포 등 || 괴사성 육아종의 진균성 원인 감별 ||\n|| TTF-1 면역염색 || 폐선암·일부 신경내분비종양 등의 분화 평가 || 종양세포가 확인될 때 의미. 항산균 검사 아님 ||\n|| CD56·chromogranin || 신경내분비 분화 || 소세포암 등 의심 시 사용 ||\n|| EGFR mutation test || 폐선암 등의 치료 표적 유전자 변이 || 암 진단·치료 선택의 맥락, 육아종 원인 검사 아님 ||\n|| CMV 면역염색 || CMV 감염 세포 || 세포 비대·핵내 봉입체 등이 단서 ||\n|| BAP1 면역염색 || 특정 종양에서 핵 발현 소실을 평가; 중피성 병변 등의 감별에 활용 || 결핵균이나 육아종의 원인을 찾는 염색 아님 ||\n\nZiehl–Neelsen 양성만으로 '''결핵균과 비결핵항산균을 구분'''하지는 못한다. 균량이 적으면 염색이 음성이어도 감염을 배제할 수 없어 배양·분자검사를 함께 고려한다. GMS 역시 진균을 드러내는 검사이며, 균사·효모 형태와 다른 검사로 종류를 판단한다.\n\n> '''무슨 병으로 의심해 생검했는가'''보다 '''생검에 무엇이 보였는가'''가 다음 검사를 결정한다. 괴사성 육아종이라면 항산균·진균, 악성 상피세포라면 종양 분화와 치료 표적을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: TTF-1은 폐선암 등의 분화를 평가하는 면역표지자다. 생검이 괴사성 육아종이라면 먼저 감염성 원인을 찾아야 한다.\n* 2번: 항산균을 검출하는 Ziehl–Neelsen 염색이다. 괴사성 육아종과 장기간 기침·면역억제 상황에서 가장 적절한 다음 검사다. 정답이다.\n* 3번: BAP1은 특정 종양에서 핵 발현 소실을 평가하는 표지자다. 육아종 속 병원체를 찾는 검사가 아니다.\n* 4번: CD56·chromogranin은 신경내분비 분화를 확인한다. 현재 생검의 중심은 종양세포가 아니라 괴사성 육아종이다.\n* 5번: CMV는 면역억제 환자에서 가능하지만 세포 비대·핵내 봉입체 등 바이러스성 세포변화가 근거가 되어야 한다. 면역억제라는 사실만으로 CMV를 고르지 않는다.\n\n관련 Wiki: [[17강#괴사성 육아종에서는 항산균과 진균을 찾는다|괴사성 육아종에서는 항산균과 진균을 찾는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 150–163쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.34. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q034_01.jpg"
+        "J/2023/official-p034.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.34 출제자란 확인",
       "lectureIds": [
-        17
+        39
       ],
-      "lectureId": 17,
-      "lectureTitle": "폐감염의 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 34번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "lectureId": 39,
+      "lectureTitle": "[실습] 병리실습",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.34",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 본문에서 육안·조직사진을 사용하므로 39강 실습 대안이 있다. 실습의 통상 3문항 배정과 다른 문항의 더 직접적인 실습 근거를 고려해 현재는 이론에 남긴 잠정 분류이며, 이론 출제로 확정한 것이 아니다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q034_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 34,
+          "file": "J/2023/official-p034.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [
@@ -16317,14 +16692,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 자료는 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "괴사성 육아종에서는 항산균과 진균을 찾는다",
-        "pages": "150–163",
-        "answerStatus": "lecture_based_review",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 34,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 34,
+        "professor": "김루시아",
+        "lecture": "병리 실습",
+        "question": "59세 여자환자가 약 7-8 개월 전부터 기침과 가래가 지속되어 내원하였다. 환자는 SLE\n(systemic lupus erythematosus)로 치료중인 환자이다. 흉부 CT 검사에서 우측 폐 중앙\n부위에 3 cm 크기의 종괴가 우상엽 lobar bronchus를 막고 있고 우하엽에 기관지를 따라\n여러 개의 작은 종괴가 흩어져 있었고 림프절 종대를 동반하고 있었다. 임상적으로 폐암을\n의심하여 기관지내시경 생검을 시행하였다. 병리 소견이 다음과 같을 때 진단을 위해 추가로\n시행해야 하는 검사로 가장 적절한 것은 무엇인가?",
+        "choices": [
+          "TTF-1 면역조직화학염색",
+          "Ziehl-Neelsen stain",
+          "BAP1 면역조직화학염색",
+          "CD56, chromogranin 면역조직화학염색",
+          "Cytomegalovirus 면역조직화학염색"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16338,7 +16730,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         35
       ],
-      "question": "당뇨를 오래 앓아온 병력이 있는 69세 남자 환자가 타 병원에서 폐렴으로 입원치료를 받았으나 열이 떨어지지 않아 본원에 입원하였다. 흉부 CT검사에서 우상엽에 비교적 경계가 지어지는 consolidation이 발견되었다. 진단을 위한 쐐기절제술을 시행받았고, 절제된 검체의 조직 소견이 다음과 같을 때 가장 적절한 진단을 고르시오. (H&E stain)",
+      "question": "당뇨를 오래 앓아온 병력이 있는 69세 남자 환자가 타 병원에서 폐렴으로 입원치료를 받았으나 열이 떨어지지 않아 본원에 입원하였다. 흉부 CT검사에서 우상엽에 비교적 경계가 지워지는 consolidation이 발견되었다, 진단을 위한 쐐기절제술을 시행받았고, 절제된 검체의 조직 소견이 다음과 같을 때 가장 적절한 진단을 고르시오. (H&E stain)",
       "passage": "",
       "choices": [
         "Tuberculosis with cavitary change",
@@ -16351,37 +16743,38 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n육아종과 거대세포 속에 맑은 테두리를 가진 둥근 효모가 보여 Cryptococcus를 의심한다. GMS로 진균 벽을, Alcian blue 등으로 다당류 피막을 확인할 수 있다. 길고 분지하는 균사가 특징인 Aspergillus나 항산균 염색으로 확인하는 결핵과 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n육아종과 다핵거대세포 안팎에서 둥근 효모를 찾는다. 균 주변의 밝은 테두리는 다당류 피막과 연결된다. 항생제 치료에도 지속되는 폐경화·결절에서 조직을 확인하는 증례로 등장한다.\n\n||= 확인할 구조 ||= 염색 ||\n|| 진균의 세포벽 || '''GMS''', PAS ||\n|| Cryptococcus의 다당류 피막 || Mucicarmine, Alcian blue ||\n|| 항산균 || Ziehl–Neelsen, auramine 계열 ||\n\nGMS는 진균 구조를 검게 드러낸다. 피막 염색까지 합하면 H&E에서 본 둥근 효모의 정체를 더 분명히 할 수 있다.\n\n=== 선지별 해설 ===\n* 1번 · Tuberculosis with cavitary change: 건락괴사·육아종과 항산균 확인이 진단을 지지한다. 종양세포 증식 또는 제시된 진균 형태를 설명하는 답은 아니다.\n* 2번 · Chronic necrotizing aspergillosis: 격벽을 가진 가는 균사가 예각으로 분지한다. GMS에서 길고 검은 분지 구조를 찾는다. 공동·손상된 폐의 만성 감염 맥락을 함께 읽는다.\n* 3번 · Cryptococcosis: 둥근 효모와 맑은 피막의 테두리가 핵심이다. GMS로 벽을, mucicarmine·Alcian blue로 피막을 확인한다.\n* 4번 · Lung abscess: 호중구 중심의 화농성 괴사와 공동·고름이 핵심이다. 특유의 효모나 균사 형태가 있으면 해당 진균을 우선 진단한다.\n* 5번 · Bronchiectasis with necrosis of bronchial wall: 기관지의 영구 확장과 벽 손상·분비물 저류를 읽는다. 조직에서 확인된 효모·분지 균사의 진단명을 대신하지 못한다.\n\n[[39강#Cryptococcus는 맑은 피막을 가진 둥근 효모다|Wiki · Cryptococcus는 맑은 피막을 가진 둥근 효모다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~",
+      "answerLabel": "3번 — Cryptococcosis",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답: ③\n\n육아종과 거대세포 속에 맑은 테두리를 가진 둥근 효모가 보여 Cryptococcus를 의심한다. GMS로 진균 벽을, Alcian blue 등으로 다당류 피막을 확인할 수 있다. 길고 분지하는 균사가 특징인 Aspergillus나 항산균 염색으로 확인하는 결핵과 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n육아종과 다핵거대세포 안팎에서 둥근 효모를 찾는다. 균 주변의 밝은 테두리는 다당류 피막과 연결된다. 항생제 치료에도 지속되는 폐경화·결절에서 조직을 확인하는 증례로 등장한다.\n\n||= 확인할 구조 ||= 염색 ||\n|| 진균의 세포벽 || '''GMS''', PAS ||\n|| Cryptococcus의 다당류 피막 || Mucicarmine, Alcian blue ||\n|| 항산균 || Ziehl–Neelsen, auramine 계열 ||\n\nGMS는 진균 구조를 검게 드러낸다. 피막 염색까지 합하면 H&E에서 본 둥근 효모의 정체를 더 분명히 할 수 있다.\n\n=== 선지별 해설 ===\n* 1번 · Tuberculosis with cavitary change: 건락괴사·육아종과 항산균 확인이 진단을 지지한다. 종양세포 증식 또는 제시된 진균 형태를 설명하는 답은 아니다.\n* 2번 · Chronic necrotizing aspergillosis: 격벽을 가진 가는 균사가 예각으로 분지한다. GMS에서 길고 검은 분지 구조를 찾는다. 공동·손상된 폐의 만성 감염 맥락을 함께 읽는다.\n* 3번 · Cryptococcosis: 둥근 효모와 맑은 피막의 테두리가 핵심이다. GMS로 벽을, mucicarmine·Alcian blue로 피막을 확인한다.\n* 4번 · Lung abscess: 호중구 중심의 화농성 괴사와 공동·고름이 핵심이다. 특유의 효모나 균사 형태가 있으면 해당 진균을 우선 진단한다.\n* 5번 · Bronchiectasis with necrosis of bronchial wall: 기관지의 영구 확장과 벽 손상·분비물 저류를 읽는다. 조직에서 확인된 효모·분지 균사의 진단명을 대신하지 못한다.\n\n[[39강#Cryptococcus는 맑은 피막을 가진 둥근 효모다|Wiki · Cryptococcus는 맑은 피막을 가진 둥근 효모다]]\n\n~~근거: 38기 자료. / 해당 Wiki에 정리한 강의 개념.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.35. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q035_01.jpg"
+        "J/2023/official-p035.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.35 출제자란 확인",
       "lectureIds": [
         39
       ],
       "lectureId": 39,
       "lectureTitle": "[실습] 병리실습",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 35번",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.35",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 문제의 Cryptococcosis H&E 사진이 정리본에서 병리실습이라고 명시한 사진과 대응한다. 명시적 실습 근거를 우선한다. 실습은 우선 3개 고유 문항으로 구성하되 다른 사진 문항과의 경계는 별도 남긴다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q035_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 35,
+          "file": "J/2023/official-p035.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [
@@ -16405,11 +16798,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "Cryptococcus는 맑은 피막을 가진 둥근 효모다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 35,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 35,
+        "professor": "김루시아",
+        "lecture": "폐감염의 병리",
+        "question": "당뇨를 오래 앓아온 병력이 있는 69세 남자환자가 타 병원에서 폐렴으로 입원치료를\n받았으나 열이 떨어지지 않아 본원에 입원하였다. 흉부 CT검사에서 우상엽에 비교적 경계가\n지워지는 consolidation 이 발견되었다, 진단을 위한  쐐기절제술을 시행받았고, 절제된\n검체의 조직 소견이 다음과 같을 때 가장 적절한 진단을 고르시오. (H&E stain)",
+        "choices": [
+          "Tuberculosis with cavitary change",
+          "Chronic necrotizing aspergillosis",
+          "Cryptococcosis",
+          "Lung abscess",
+          "Bronchiectasis with necrosis of bronchial wall"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16423,7 +16836,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         36
       ],
-      "question": "62세 남자 환자가 약 수년 전부터 일할 때 가슴이 답답한 느낌이 있었는데 점차 움직일 때 숨이 차는 증상이 심해져서 내원하였다. 환자는 닭을 키우는 농부라고 한다. 흉부 CT 검사에서 양측 폐를 침범하는 mild ground glass opacity and reticulation 소견이 있어 interstitial lung disease를 의심하였고, 폐기능검사에서 restrictive pattern을 보였다. 진단을 위해 쐐기절제술을 시행하였고 현미경 소견이 다음 사진과 같다고 했을 때 가장 가능성이 있는 진단은 무엇인가?",
+      "question": "62세 남자 환자가 약 수년 전부터 일할 때 가슴이 답답한 느낌이 있었는데 점차 움직일 때 숨이 차는 증상이 심해져서 내원하였다. 환자는 닭을 키우는 농부라고 한다. 흉부 CT 검사에서 양측 폐를 침범하는 mild ground glass opacity and reticulation 소견이 있어 interstitial lung disease를 의심하였고, 폐기능검사에서 restrictive pattern을 보였다. 진단을 위해 쐐기절제술을 시행하였고 현미경 소견이 다음과 사진과 같다고 했을 때 가장 가능성이 있는 진단은 무엇인가?",
       "passage": "",
       "choices": [
         "Sarcoidosis",
@@ -16436,49 +16849,67 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "5번",
-      "explanation": "정답: ⑤ Chronic hypersensitivity pneumonitis\n\n=== 판단의 출발점 ===\n닭을 키우면서 수년에 걸쳐 진행한 호흡곤란, 양측 GGO·reticulation, 제한성 폐기능이 있다. 조직의 세기관지 중심 염증과 느슨한 비괴사성 육아종을 함께 보면 '''chronic hypersensitivity pneumonitis'''가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n새·닭의 단백질이나 곰팡이 등 '''흡입 항원에 반복 노출'''되면 세기관지와 주변 사이질에 면역성 염증이 생길 수 있다. 과민폐렴(HP)에서는 노출력, GGO·reticulation, 제한성 폐기능을 조직 소견과 연결한다. 농부라는 직업이나 흡연력 한 가지가 진단을 대신하지는 않는다.\n\n[[파일:assets/lecture-16/p100-figures.jpg|과민폐렴: 세기관지 주위의 경계 불명확한 비괴사성 육아종]]\n\n||= 질환 ||= 구분할 조직 소견 ||\n|| '''과민폐렴''' || '''세기관지 주위의 느슨하고 작고 잘 형성되지 않은 비괴사성 육아종''', 림프구성 사이질염·세기관지염 ||\n|| Sarcoidosis || 비교적 잘 형성되고 경계가 분명한 비괴사성 육아종, 림프관 주변 분포 ||\n|| UIP || 흉막하·격막 주변의 patchy fibrosis, 시간적 불균일성과 fibroblastic foci ||\n|| NSIP || 비교적 균일한 시기의 사이질 염증·섬유화 ||\n|| Organizing pneumonia || 폐포관·폐포·세기관지 안의 polypoid granulation tissue plug ||\n|| DIP || 폐포강을 넓게 채운 갈색 색소 대식세포 ||\n|| 만성 호산구폐렴 || 폐포·사이질의 뚜렷한 호산구 침윤 ||\n\n과민폐렴이 오래되면 섬유화·벌집변화까지 생겨 UIP와 닮을 수 있다. 따라서 '''honeycomb이 있다'''는 말만으로 IPF를 확정하지 않는다. 노출력과 기도 중심 병변, 작은 육아종이 원인 감별을 돕는다. 섬유화가 진행되면 육아종이 뚜렷하지 않을 수도 있다.\n\n> HP와 sarcoidosis는 모두 비괴사성 육아종을 만들지만, HP에서는 '''작고 느슨한 육아종 + 세기관지 주위 분포 + 흡입 항원'''을 묶는다.\n\n=== 선지별 해설 ===\n* 1번: Sarcoidosis는 잘 형성된 비괴사성 육아종과 림프관 주변 분포가 전형적이다. HP의 느슨한 세기관지 주위 육아종과 구분한다.\n* 2번: DIP에서는 폐포강의 광범위한 색소 대식세포 축적이 중심이고 흡연과 밀접하다. 육아종 중심 사진이 아니다.\n* 3번: UIP는 흉막하 patchy fibrosis, fibroblastic foci와 temporal heterogeneity가 중심이다. 노출력과 기도 중심 육아종은 HP를 지지한다.\n* 4번: 만성 호산구폐렴은 뚜렷한 호산구 침윤이 핵심이다. 단순한 제한성 폐기능만으로 고르지 않는다.\n* 5번: 조류 항원 노출과 세기관지 중심의 염증·경계 불명확한 비괴사성 육아종이 맞아떨어진다. 정답이다.\n\n관련 Wiki: [[16강#과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다|과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 94–100쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "5번 — Chronic hypersensitivity pneumonitis",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤ Chronic hypersensitivity pneumonitis\n\n=== 판단의 출발점 ===\n닭을 키우면서 수년에 걸쳐 진행한 호흡곤란, 양측 GGO·reticulation, 제한성 폐기능이 있다. 조직의 세기관지 중심 염증과 느슨한 비괴사성 육아종을 함께 보면 '''chronic hypersensitivity pneumonitis'''가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n새·닭의 단백질이나 곰팡이 등 '''흡입 항원에 반복 노출'''되면 세기관지와 주변 사이질에 면역성 염증이 생길 수 있다. 과민폐렴(HP)에서는 노출력, GGO·reticulation, 제한성 폐기능을 조직 소견과 연결한다. 농부라는 직업이나 흡연력 한 가지가 진단을 대신하지는 않는다.\n\n[[파일:assets/lecture-16/p100-figures.jpg|과민폐렴: 세기관지 주위의 경계 불명확한 비괴사성 육아종]]\n\n||= 질환 ||= 구분할 조직 소견 ||\n|| '''과민폐렴''' || '''세기관지 주위의 느슨하고 작고 잘 형성되지 않은 비괴사성 육아종''', 림프구성 사이질염·세기관지염 ||\n|| Sarcoidosis || 비교적 잘 형성되고 경계가 분명한 비괴사성 육아종, 림프관 주변 분포 ||\n|| UIP || 흉막하·격막 주변의 patchy fibrosis, 시간적 불균일성과 fibroblastic foci ||\n|| NSIP || 비교적 균일한 시기의 사이질 염증·섬유화 ||\n|| Organizing pneumonia || 폐포관·폐포·세기관지 안의 polypoid granulation tissue plug ||\n|| DIP || 폐포강을 넓게 채운 갈색 색소 대식세포 ||\n|| 만성 호산구폐렴 || 폐포·사이질의 뚜렷한 호산구 침윤 ||\n\n과민폐렴이 오래되면 섬유화·벌집변화까지 생겨 UIP와 닮을 수 있다. 따라서 '''honeycomb이 있다'''는 말만으로 IPF를 확정하지 않는다. 노출력과 기도 중심 병변, 작은 육아종이 원인 감별을 돕는다. 섬유화가 진행되면 육아종이 뚜렷하지 않을 수도 있다.\n\n> HP와 sarcoidosis는 모두 비괴사성 육아종을 만들지만, HP에서는 '''작고 느슨한 육아종 + 세기관지 주위 분포 + 흡입 항원'''을 묶는다.\n\n=== 선지별 해설 ===\n* 1번: Sarcoidosis는 잘 형성된 비괴사성 육아종과 림프관 주변 분포가 전형적이다. HP의 느슨한 세기관지 주위 육아종과 구분한다.\n* 2번: DIP에서는 폐포강의 광범위한 색소 대식세포 축적이 중심이고 흡연과 밀접하다. 육아종 중심 사진이 아니다.\n* 3번: UIP는 흉막하 patchy fibrosis, fibroblastic foci와 temporal heterogeneity가 중심이다. 노출력과 기도 중심 육아종은 HP를 지지한다.\n* 4번: 만성 호산구폐렴은 뚜렷한 호산구 침윤이 핵심이다. 단순한 제한성 폐기능만으로 고르지 않는다.\n* 5번: 조류 항원 노출과 세기관지 중심의 염증·경계 불명확한 비괴사성 육아종이 맞아떨어진다. 정답이다.\n\n관련 Wiki: [[16강#과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다|과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다]]\n\n근거: 39기 「폐질환의 병리」 PDF 94–100쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.36. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q036_01.jpg"
+        "J/2023/official-p036.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.36 출제자란 확인",
       "lectureIds": [
         16
       ],
       "lectureId": 16,
       "lectureTitle": "제한성폐질환의 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 36번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.36",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 본문에서 육안·조직사진을 사용하므로 39강 실습 대안이 있다. 실습의 통상 3문항 배정과 다른 문항의 더 직접적인 실습 근거를 고려해 현재는 이론에 남긴 잠정 분류이며, 이론 출제로 확정한 것이 아니다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q036_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 36,
+          "file": "J/2023/official-p036.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 3
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 자료는 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "과민폐렴은 노출력과 세기관지 주위의 느슨한 육아종을 묶는다",
-        "pages": "94–100",
-        "answerStatus": "lecture_based_review",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 36,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 36,
+        "professor": "김루시아",
+        "lecture": "제한성폐질환의 병리",
+        "question": "62세 남자환자가 약 수년 전부터 일할 때 가슴이 답답한 느낌이 있었는데 점차 움직일 때\n숨이 차는 증상이 심해져서 내원하였다. 환자는 닭을 키우는 농부라고 한다. 흉부 CT\n검사에서 양측 폐를 침범하는 mild ground glass opacity and reticulation 소견이 있어\ninterstitial lung disease를 의심하였고, 폐기능검사에서 restrictive pattern을 보였다.\n진단을 위해 쐐기절제술을 시행하였고 현미경 소견이 다음과 사진과 같다고 했을 때 가장\n가능성이 있는 진단은 무엇인가?",
+        "choices": [
+          "Sarcoidosis",
+          "Desquamative interstitial pneumonia",
+          "Usual interstitial pneumonia",
+          "Chronic eosinophilic pneumonia",
+          "Chronic hypersensitivity pneumonitis"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16505,49 +16936,67 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "5번",
-      "explanation": "정답: ⑤ Acute Cor Pulmonale(Right heart failure)\n\n=== 판단의 출발점 ===\n3주간의 침상 안정은 DVT의 위험을 높인다. 움직이던 중 갑자기 쓰러지고 주폐동맥에 큰 혈전이 확인되었다면 '''폐혈관 저항의 급상승으로 생긴 급성 우심부전'''이 급사를 가장 잘 설명한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n오래 누워 있으면 다리 깊은정맥에 혈전이 생기기 쉽다. 혈전이 떨어져 우심장을 거쳐 폐동맥에 걸리면 폐혈전색전증이 발생한다. 결과는 '''막힌 혈관의 크기와 원래 심폐 예비력'''에 달려 있다.\n\n||= 폐쇄 양상 ||= 주요 결과 ||\n|| 작은 색전 || 무증상이거나 일시적 호흡곤란·출혈. 이중 혈액 공급 때문에 반드시 경색이 되지는 않음 ||\n|| 말초 색전과 혈류 부족 || 하엽·흉막 쪽의 쐐기 모양 '''출혈성 경색''' ||\n|| '''큰 중심부·saddle embolus''' || 폐혈관 저항 급증 → '''급성 우심부전''' → 쇼크·급사 ||\n|| 반복되는 색전 || 만성 폐고혈압과 우심실 비대·만성 폐성심 ||\n\n[[파일:assets/lecture-14/p034-figures.jpg|주폐동맥의 혈전색전: 갑작스러운 우심실 후부하 증가를 일으킨다]]\n\n큰 혈전이 폐동맥 혈류를 급격히 막으면 우심실이 갑자기 높아진 후부하를 감당하지 못한다. 폐를 지나 좌심장으로 오는 혈액도 줄어 심박출량과 혈압이 떨어진다. '''폐동맥압 상승은 이 과정의 원인 단계이고, acute cor pulmonale는 사망에 이르는 우심장 기능 실패를 표현한다.''' 수개월에 걸친 우심실 비대가 있어야만 폐성심이라고 부르는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 기관지수축은 공기가 지나가는 기도를 좁힌다. 사진의 주폐동맥 혈전은 혈관 폐쇄가 중심이며 중증 천식의 사진이 아니다.\n* 2번: 압박성 무기폐는 흉수·기흉·종괴 등이 폐를 바깥에서 눌러 생긴다. 주폐동맥 색전에 의한 급사를 설명하지 못한다.\n* 3번: 폐혈관 저항과 폐동맥압의 급증은 실제 기전에 포함된다. 다만 발문은 사망에 이르게 한 결과를 묻고, 그 뒤 우심실이 버티지 못한 상태를 표현한 ⑤가 가장 적합하다.\n* 4번: DAD는 광범위 폐포–모세혈관 장벽 손상이다. 여기서는 큰 폐동맥의 급성 폐쇄가 부검상 직접 확인되었다.\n* 5번: 갑작스러운 우심실 후부하 증가 → 우심실 기능 실패 → 좌심실 충만과 심박출량 감소·쇼크로 이어진다. 정답이다.\n\n관련 Wiki: [[14강#폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다|폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 32–35쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "5번 — Acute Cor Pulmonale(Right heart failure)",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤ Acute Cor Pulmonale(Right heart failure)\n\n=== 판단의 출발점 ===\n3주간의 침상 안정은 DVT의 위험을 높인다. 움직이던 중 갑자기 쓰러지고 주폐동맥에 큰 혈전이 확인되었다면 '''폐혈관 저항의 급상승으로 생긴 급성 우심부전'''이 급사를 가장 잘 설명한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n오래 누워 있으면 다리 깊은정맥에 혈전이 생기기 쉽다. 혈전이 떨어져 우심장을 거쳐 폐동맥에 걸리면 폐혈전색전증이 발생한다. 결과는 '''막힌 혈관의 크기와 원래 심폐 예비력'''에 달려 있다.\n\n||= 폐쇄 양상 ||= 주요 결과 ||\n|| 작은 색전 || 무증상이거나 일시적 호흡곤란·출혈. 이중 혈액 공급 때문에 반드시 경색이 되지는 않음 ||\n|| 말초 색전과 혈류 부족 || 하엽·흉막 쪽의 쐐기 모양 '''출혈성 경색''' ||\n|| '''큰 중심부·saddle embolus''' || 폐혈관 저항 급증 → '''급성 우심부전''' → 쇼크·급사 ||\n|| 반복되는 색전 || 만성 폐고혈압과 우심실 비대·만성 폐성심 ||\n\n[[파일:assets/lecture-14/p034-figures.jpg|주폐동맥의 혈전색전: 갑작스러운 우심실 후부하 증가를 일으킨다]]\n\n큰 혈전이 폐동맥 혈류를 급격히 막으면 우심실이 갑자기 높아진 후부하를 감당하지 못한다. 폐를 지나 좌심장으로 오는 혈액도 줄어 심박출량과 혈압이 떨어진다. '''폐동맥압 상승은 이 과정의 원인 단계이고, acute cor pulmonale는 사망에 이르는 우심장 기능 실패를 표현한다.''' 수개월에 걸친 우심실 비대가 있어야만 폐성심이라고 부르는 것은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 기관지수축은 공기가 지나가는 기도를 좁힌다. 사진의 주폐동맥 혈전은 혈관 폐쇄가 중심이며 중증 천식의 사진이 아니다.\n* 2번: 압박성 무기폐는 흉수·기흉·종괴 등이 폐를 바깥에서 눌러 생긴다. 주폐동맥 색전에 의한 급사를 설명하지 못한다.\n* 3번: 폐혈관 저항과 폐동맥압의 급증은 실제 기전에 포함된다. 다만 발문은 사망에 이르게 한 결과를 묻고, 그 뒤 우심실이 버티지 못한 상태를 표현한 ⑤가 가장 적합하다.\n* 4번: DAD는 광범위 폐포–모세혈관 장벽 손상이다. 여기서는 큰 폐동맥의 급성 폐쇄가 부검상 직접 확인되었다.\n* 5번: 갑작스러운 우심실 후부하 증가 → 우심실 기능 실패 → 좌심실 충만과 심박출량 감소·쇼크로 이어진다. 정답이다.\n\n관련 Wiki: [[14강#폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다|폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다]]\n\n근거: 39기 「폐질환의 병리」 PDF 32–35쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.37. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q037_01.jpg"
+        "J/2023/official-p037.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.37 출제자란 확인",
       "lectureIds": [
         14
       ],
       "lectureId": 14,
       "lectureTitle": "선천성기형,급성폐손상",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 37번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.37",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 본문에서 육안·조직사진을 사용하므로 39강 실습 대안이 있다. 실습의 통상 3문항 배정과 다른 문항의 더 직접적인 실습 근거를 고려해 현재는 이론에 남긴 잠정 분류이며, 이론 출제로 확정한 것이 아니다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q037_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 37,
+          "file": "J/2023/official-p037.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 자료는 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "폐색전은 큰 혈관의 급성 우심부전과 말초의 경색을 나눈다",
-        "pages": "32–35",
-        "answerStatus": "lecture_based_review",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 37,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 37,
+        "professor": "김루시아",
+        "lecture": "폐쇄성폐질환의 병리",
+        "question": "69세 남자환자가 중풍 (cerebral infarction)으로 3주간 입원 치료 중이었다. 치료로 인해\n침상에서 일어나고 부축을 받고 걸을 수 있을 정도로 상태가 호전되었다. 환자가 침대에서\n일어나 화장실로 걸어가는 도중 갑작스럽게 심한 호흡곤란과 발한, 흉통이 발생하였고 의식을\n잃었다. 심폐소생술을 시행하였으나 30분 만에 사망하였다. 부검 결과 주폐동맥에 다음\n사진과 같은 소견이 있었다. 환자를 사망에 이르게 한 mechanism으로 가장 적합한 것을\n고르시오.",
+        "choices": [
+          "acute severe bronchoconstriction",
+          "Compression atelectasis",
+          "severe pulmonary hypertension",
+          "Diffuse alveolar damage",
+          "Acute Cor Pulmonale (Right heart failure)"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16574,54 +17023,67 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "1번",
-      "explanation": "정답: ① usual interstitial pneumonia\n\n=== 판단의 출발점 ===\n폐하부 reticulation·honeycomb과 제한성 폐기능이 있고, 조직은 '''불균일한 섬유화와 fibroblastic foci'''를 보인다. 병리 패턴으로는 UIP가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nUIP는 '''조직의 손상 양상'''이며, IPF는 원인을 배제한 뒤 붙이는 질환명이다. 결합조직질환, 만성 과민폐렴, 석면 노출 등도 UIP와 닮은 섬유화를 보일 수 있으므로 조직 소견만으로 모든 원인을 정하지 않는다.\n\n[[파일:assets/lecture-16/p084-figures.jpg|UIP의 patchy fibrosis: 보존된 폐와 섬유화 부위가 섞이고 작은 fibroblastic focus가 보인다]]\n\n||= UIP에서 찾는 것 ||= 의미 ||\n|| '''Patchy fibrosis / spatial heterogeneity''' || 심하게 섬유화된 곳 옆에 비교적 정상인 폐가 남음 ||\n|| '''Temporal heterogeneity''' || 오래된 치밀한 collagen 반흔과 새로 진행 중인 섬유화가 함께 존재 ||\n|| '''Fibroblastic foci''' || 섬유모세포·근섬유모세포가 모인 작은 활동성 수복 초점 ||\n|| 흉막하·격막 주변 우세 || 말초에서 두드러지는 분포 ||\n|| Honeycomb change || 정상 폐포 구조가 파괴되고 상피로 둘러싸인 낭성 공간이 생긴 말기 변화 ||\n\n||= 다른 양상 ||= UIP와 갈리는 단서 ||\n|| '''NSIP''' || 염증·섬유화의 시기가 비교적 균일. 정상/오래된 반흔/새 foci의 강한 대비가 적음 ||\n|| DAD || 급성 손상과 폐포벽의 hyaline membrane ||\n|| Organizing pneumonia || 공기 공간 안의 fibroblastic plug; 전체 폐 구조는 상대적으로 보존 ||\n|| 과민폐렴 || 세기관지 주위의 경계 불명확한 작은 비괴사성 육아종 ||\n|| Sarcoidosis || 잘 형성된 비괴사성 육아종 ||\n\n> UIP의 중심은 '''반흔이 있다'''가 아니라 '''위치도 시기도 고르지 않은 섬유화'''다. 심한 염증이나 육아종이 전면에 나오면 다른 원인을 다시 생각한다.\n\n=== 선지별 해설 ===\n* 1번: 흉막하 patchy fibrosis, 시간적 불균일성, foci와 honeycomb을 묶는 UIP다. 정답이다.\n* 2번: NSIP는 비교적 균일한 시기의 변화가 중심이다. 같은 직업·비슷한 증상을 쓰더라도 조직 소견이 다르면 구분해야 한다.\n* 3번: DIP는 흡연 연관 색소 대식세포가 폐포강을 채우는 패턴이다. 파괴성·불균일한 섬유화가 중심인 사진과 다르다.\n* 4번: 천식은 기도수축·만성 기도 염증에 의한 폐쇄성 질환이다. 이 환자의 제한성 기능과 폐실질 섬유화에 맞지 않는다.\n* 5번: PAP는 폐포 안의 과립상 단백질성 물질과 PAS 양성이 중심이다. 조직 구조가 섬유화로 파괴된 UIP와 다르다.\n\n관련 Wiki: [[16강#UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다|UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다]]\n\n근거: 39기 「폐질환의 병리」 PDF 78–93쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.",
+      "answerLabel": "1번 — usual interstitial pneumonia",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: ① usual interstitial pneumonia\n\n=== 판단의 출발점 ===\n폐하부 reticulation·honeycomb과 제한성 폐기능이 있고, 조직은 '''불균일한 섬유화와 fibroblastic foci'''를 보인다. 병리 패턴으로는 UIP가 가장 적합하다.\n\n=== 이 문항을 풀기 위한 개념 ===\nUIP는 '''조직의 손상 양상'''이며, IPF는 원인을 배제한 뒤 붙이는 질환명이다. 결합조직질환, 만성 과민폐렴, 석면 노출 등도 UIP와 닮은 섬유화를 보일 수 있으므로 조직 소견만으로 모든 원인을 정하지 않는다.\n\n[[파일:assets/lecture-16/p084-figures.jpg|UIP의 patchy fibrosis: 보존된 폐와 섬유화 부위가 섞이고 작은 fibroblastic focus가 보인다]]\n\n||= UIP에서 찾는 것 ||= 의미 ||\n|| '''Patchy fibrosis / spatial heterogeneity''' || 심하게 섬유화된 곳 옆에 비교적 정상인 폐가 남음 ||\n|| '''Temporal heterogeneity''' || 오래된 치밀한 collagen 반흔과 새로 진행 중인 섬유화가 함께 존재 ||\n|| '''Fibroblastic foci''' || 섬유모세포·근섬유모세포가 모인 작은 활동성 수복 초점 ||\n|| 흉막하·격막 주변 우세 || 말초에서 두드러지는 분포 ||\n|| Honeycomb change || 정상 폐포 구조가 파괴되고 상피로 둘러싸인 낭성 공간이 생긴 말기 변화 ||\n\n||= 다른 양상 ||= UIP와 갈리는 단서 ||\n|| '''NSIP''' || 염증·섬유화의 시기가 비교적 균일. 정상/오래된 반흔/새 foci의 강한 대비가 적음 ||\n|| DAD || 급성 손상과 폐포벽의 hyaline membrane ||\n|| Organizing pneumonia || 공기 공간 안의 fibroblastic plug; 전체 폐 구조는 상대적으로 보존 ||\n|| 과민폐렴 || 세기관지 주위의 경계 불명확한 작은 비괴사성 육아종 ||\n|| Sarcoidosis || 잘 형성된 비괴사성 육아종 ||\n\n> UIP의 중심은 '''반흔이 있다'''가 아니라 '''위치도 시기도 고르지 않은 섬유화'''다. 심한 염증이나 육아종이 전면에 나오면 다른 원인을 다시 생각한다.\n\n=== 선지별 해설 ===\n* 1번: 흉막하 patchy fibrosis, 시간적 불균일성, foci와 honeycomb을 묶는 UIP다. 정답이다.\n* 2번: NSIP는 비교적 균일한 시기의 변화가 중심이다. 같은 직업·비슷한 증상을 쓰더라도 조직 소견이 다르면 구분해야 한다.\n* 3번: DIP는 흡연 연관 색소 대식세포가 폐포강을 채우는 패턴이다. 파괴성·불균일한 섬유화가 중심인 사진과 다르다.\n* 4번: 천식은 기도수축·만성 기도 염증에 의한 폐쇄성 질환이다. 이 환자의 제한성 기능과 폐실질 섬유화에 맞지 않는다.\n* 5번: PAP는 폐포 안의 과립상 단백질성 물질과 PAS 양성이 중심이다. 조직 구조가 섬유화로 파괴된 UIP와 다르다.\n\n관련 Wiki: [[16강#UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다|UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다]]\n\n근거: 39기 「폐질환의 병리」 PDF 78–93쪽과 해당 Wiki. 정답은 현재 수록된 발문·선지·사진을 강의록에 대조해 판단했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.38. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q038_01.jpg",
-        "J/2023/q038_02.jpg"
+        "J/2023/official-p038.jpg"
       ],
       "legacyProfessor": "김루시아",
       "professor": "김루시아",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.38 출제자란 확인",
       "lectureIds": [
         16
       ],
       "lectureId": 16,
       "lectureTitle": "제한성폐질환의 병리",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 38번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "기초의학",
+      "discipline": "병리학",
+      "section": "병리학",
+      "source": "2023 호흡기계 원본 p.38",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 본문에서 육안·조직사진을 사용하므로 39강 실습 대안이 있다. 실습의 통상 3문항 배정과 다른 문항의 더 직접적인 실습 근거를 고려해 현재는 이론에 남긴 잠정 분류이며, 이론 출제로 확정한 것이 아니다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q038_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
-        },
-        {
-          "path": "J/2023/q038_02.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 38,
+          "file": "J/2023/official-p038.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐질환의 병리 PDF; 38기 자료는 개념 설명 보조, 문항의 실제 사진 별도 대조",
-        "chapter": "UIP는 정상 폐와 오래된 흉터, 새 섬유화가 섞인다",
-        "pages": "78–93",
-        "answerStatus": "lecture_based_review",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 38,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 38,
+        "professor": "김루시아",
+        "lecture": "제한성폐질환의 병리",
+        "question": "65세 남자 환자가 지난 3개월 간 호흡곤란이 지속되어 내원하였다. 환자는 전기기사이고\n비흡연자이다. 환자는 정상 체온과 정상 혈압을 보였다. 가슴 CT 검사에서 양측 폐하부에\nreticular opacity와 mild honeycomb change가 있었다. pulmonary function test에서\nrestrictive pattern을 보였고 기관지경 검사에서 기관지에 이상은 없었다. 진단을 위해 open\nlung biopsy를 시행하였다. 조직검사 소견이 다음 사진과 같을 때 환자의 폐 질환에 대한\n병리진단으로 가장 적합한 것을 고르시오.",
+        "choices": [
+          "Usual interstitial pneumonia",
+          "Nonspecific interstitial pneumonia",
+          "Desquamative interstitial pneumonia",
+          "Nonatopic bronchial asthma",
+          "Pulmonary alveolar proteinosis"
+        ],
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16648,28 +17110,28 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''FEV₁은 기류와 환기 예비력, DLCO는 가스교환 능력'''을 평가한다. Lung perfusion scan은 각 폐가 담당하는 관류의 비중을 보여 주어 절제 후 기능을 예측하는 데 쓰인다.\n\n||= 검사 ||= 기능 평가에서의 역할 ||\n|| Spirometry || FEV₁·FVC 측정 ||\n|| 폐용적 검사 || TLC·RV 등 측정 ||\n|| DLCO || 폐포–혈액 가스교환 능력 ||\n|| Lung perfusion scan || 절제할 폐의 기능 기여분 추정 ||\n|| 운동부하 검사 || VO₂max 등 통합 심폐 예비력 ||\n\n=== 선지별 해설 ===\n* 1번 · Transthoracic echocardiogram: 심장 기능·판막·폐고혈압 등의 평가에는 중요하다. 폐기능 자체를 정량화하는 문항의 답은 PFT 또는 관류검사다.\n* 2번 · TBLB: 경기관지폐생검으로 조직을 얻는 검사다. 진단 목적과 수술 전 기능 평가 목적을 나눈다.\n* 3번 · Lung perfusion scan: 각 폐의 관류 기여도를 정량화하여 절제 후 남을 기능을 예측한다. 수술 전 FEV1과 절제 폐의 관류 분율로 ppoFEV1을 계산할 수 있다.\n* 4번 · Fiber optic bronchoscopy: 기관지경은 기도 병변 관찰·검체 채취에 쓰인다. 폐절제 후 남을 환기·확산 예비력을 정량화하는 검사는 아니다.\n* 5번 · Chest sonogram: 흉수·흉막과 말초 병변 평가에 활용하지만 폐의 기능 기여분과 수술 후 FEV1을 직접 계산하는 검사는 아니다.\n\n[[45강#폐활량과 확산능을 측정한다|Wiki · 폐활량과 확산능을 측정한다]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사 18–68슬라이드.~~~",
+      "answerLabel": "3번 — Lung perfusion scan",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답: ③\n\n폐관류스캔은 절제할 폐가 전체 기능에 기여하는 비율을 구해 수술 후 잔존 폐기능을 예측하는 데 이용한다. 수술 전 기본 폐기능검사에는 FEV₁과 DLCO가 포함되지만, 이 보기에는 없으므로 lung perfusion scan을 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''FEV₁은 기류와 환기 예비력, DLCO는 가스교환 능력'''을 평가한다. Lung perfusion scan은 각 폐가 담당하는 관류의 비중을 보여 주어 절제 후 기능을 예측하는 데 쓰인다.\n\n||= 검사 ||= 기능 평가에서의 역할 ||\n|| Spirometry || FEV₁·FVC 측정 ||\n|| 폐용적 검사 || TLC·RV 등 측정 ||\n|| DLCO || 폐포–혈액 가스교환 능력 ||\n|| Lung perfusion scan || 절제할 폐의 기능 기여분 추정 ||\n|| 운동부하 검사 || VO₂max 등 통합 심폐 예비력 ||\n\n=== 선지별 해설 ===\n* 1번 · Transthoracic echocardiogram: 심장 기능·판막·폐고혈압 등의 평가에는 중요하다. 폐기능 자체를 정량화하는 문항의 답은 PFT 또는 관류검사다.\n* 2번 · TBLB: 경기관지폐생검으로 조직을 얻는 검사다. 진단 목적과 수술 전 기능 평가 목적을 나눈다.\n* 3번 · Lung perfusion scan: 각 폐의 관류 기여도를 정량화하여 절제 후 남을 기능을 예측한다. 수술 전 FEV1과 절제 폐의 관류 분율로 ppoFEV1을 계산할 수 있다.\n* 4번 · Fiber optic bronchoscopy: 기관지경은 기도 병변 관찰·검체 채취에 쓰인다. 폐절제 후 남을 환기·확산 예비력을 정량화하는 검사는 아니다.\n* 5번 · Chest sonogram: 흉수·흉막과 말초 병변 평가에 활용하지만 폐의 기능 기여분과 수술 후 FEV1을 직접 계산하는 검사는 아니다.\n\n[[45강#폐활량과 확산능을 측정한다|Wiki · 폐활량과 확산능을 측정한다]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사 18–68슬라이드.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.39. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.39 출제자란 확인",
       "lectureIds": [
         45
       ],
       "lectureId": 45,
       "lectureTitle": "수술전 검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 39번",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.39",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -16695,11 +17157,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "폐활량과 확산능을 측정한다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 39,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 39,
+        "professor": "김영삼",
+        "lecture": "",
+        "question": "폐암 진단 후 폐절제술을 계획하고 있는 환자에게 수술 전 폐기능 평가를 위해 시행하는 검사\n로 적절한 것은?",
+        "choices": [
+          "Transthoracic echocardiogram",
+          "TBLB",
+          "Lung perfusion scan",
+          "Fiber optic bronchoscopy",
+          "Chest sonogram"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16726,31 +17208,29 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐첨부 흉막 바로 아래의 작은 SPN은 중심기관지에서 직접 보기가 어렵다. '''VATS wedge resection'''은 말초 폐조직을 쐐기 모양으로 절제하여 충분한 조직을 얻는다. 전신마취와 수술의 위험을 평가하고, 동결절편 결과와 병기에 따라 수술 범위를 결정할 수 있다.\n\n||= 방법 ||= 얻는 정보·역할 ||\n|| Bronchoscopy·TBLB || 기관지 내 병변 관찰·기관지를 통한 조직 채취 ||\n|| EBUS || 기도에 인접한 림프절·병변 평가 및 검체 채취 ||\n|| PCNB || 피부와 흉벽을 통과하여 말초 병변의 조직 채취 ||\n|| VATS wedge resection || 말초 결절의 수술적 조직 확보 ||\n|| 객담 세포진 || 객담 내 종양세포 평가, 중심성 병변에서 유리 ||\n|| PET-CT || 대사 활성·전이와 병기 평가 ||\n\n\n작은 흉막하 결절에서 조직학적 확진을 묻고 선택지에 wedge resection이 있으면 이를 연결한다. 실제 검사 선택은 결절의 위치·크기·기관지와의 연결, 환자 폐기능 및 시술 접근성에 따라 달라진다.\n\n=== 선지별 해설 ===\n* 1번 · Bronchoscopy (EBUS): 기관지 내 병변·기관지 인접 림프절에 유리하다. 말초 결절도 접근법에 따라 가능하지만, 이 문항의 작은 흉막하 폐첨부 결절에서는 wedge resection이 직접적인 조직 확보 방법이다.\n* 2번 · Sputum cytology: 객담 세포진은 비침습적이며 중심성 병변에 상대적으로 유리하다. 작은 말초 결절의 침습적 조직 확보라는 질문과 맞지 않는다.\n* 3번 · Chest MRI: 영상으로 위치·침범을 평가한다. 조직을 채취하는 검사는 아니다.\n* 4번 · wedge resection: 흉막 바로 아래 작은 말초 결절을 쐐기로 절제해 충분한 조직을 확보한다. 이 선택지 중 위치와 조직학적 확진 목적에 가장 맞는다.\n* 5번 · PET-CT: 대사 활성·전이와 병기 평가 검사다. 조직형 확진을 위한 검체 채취 방법은 아니다.\n\n[[44강#흉막 가까운 작은 결절과 쐐기절제|Wiki · 흉막 가까운 작은 결절과 쐐기절제]]\n\n~~근거: 38기 자료. / 김영삼 ECMO 19–32슬라이드 및 수술전 검사 57슬라이드.~~~",
+      "answerLabel": "4번 — wedge resection",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답: ④\n\n흉막 가까운 작은 말초 폐결절은 기관지내시경으로 접근하기 어렵다. 제시된 검사 중 조직을 직접 얻는 방법은 wedge resection이며, MRI와 PET-CT는 조직학적 확진 검사가 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐첨부 흉막 바로 아래의 작은 SPN은 중심기관지에서 직접 보기가 어렵다. '''VATS wedge resection'''은 말초 폐조직을 쐐기 모양으로 절제하여 충분한 조직을 얻는다. 전신마취와 수술의 위험을 평가하고, 동결절편 결과와 병기에 따라 수술 범위를 결정할 수 있다.\n\n||= 방법 ||= 얻는 정보·역할 ||\n|| Bronchoscopy·TBLB || 기관지 내 병변 관찰·기관지를 통한 조직 채취 ||\n|| EBUS || 기도에 인접한 림프절·병변 평가 및 검체 채취 ||\n|| PCNB || 피부와 흉벽을 통과하여 말초 병변의 조직 채취 ||\n|| VATS wedge resection || 말초 결절의 수술적 조직 확보 ||\n|| 객담 세포진 || 객담 내 종양세포 평가, 중심성 병변에서 유리 ||\n|| PET-CT || 대사 활성·전이와 병기 평가 ||\n\n\n작은 흉막하 결절에서 조직학적 확진을 묻고 선택지에 wedge resection이 있으면 이를 연결한다. 실제 검사 선택은 결절의 위치·크기·기관지와의 연결, 환자 폐기능 및 시술 접근성에 따라 달라진다.\n\n=== 선지별 해설 ===\n* 1번 · Bronchoscopy (EBUS): 기관지 내 병변·기관지 인접 림프절에 유리하다. 말초 결절도 접근법에 따라 가능하지만, 이 문항의 작은 흉막하 폐첨부 결절에서는 wedge resection이 직접적인 조직 확보 방법이다.\n* 2번 · Sputum cytology: 객담 세포진은 비침습적이며 중심성 병변에 상대적으로 유리하다. 작은 말초 결절의 침습적 조직 확보라는 질문과 맞지 않는다.\n* 3번 · Chest MRI: 영상으로 위치·침범을 평가한다. 조직을 채취하는 검사는 아니다.\n* 4번 · wedge resection: 흉막 바로 아래 작은 말초 결절을 쐐기로 절제해 충분한 조직을 확보한다. 이 선택지 중 위치와 조직학적 확진 목적에 가장 맞는다.\n* 5번 · PET-CT: 대사 활성·전이와 병기 평가 검사다. 조직형 확진을 위한 검체 채취 방법은 아니다.\n\n[[44강#흉막 가까운 작은 결절과 쐐기절제|Wiki · 흉막 가까운 작은 결절과 쐐기절제]]\n\n~~근거: 38기 자료. / 김영삼 ECMO 19–32슬라이드 및 수술전 검사 57슬라이드.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.40. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.40 출제자란 확인",
       "lectureIds": [
         44
       ],
       "lectureId": 44,
       "lectureTitle": "흉부외과 각론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 40번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.40",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "외과 교수 구간의 말초 SPN 조직 확인. 44강 우선, 내과 폐종양 32강 관련."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R002"
@@ -16776,11 +17256,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "흉막 가까운 작은 결절과 쐐기절제",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 40,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 40,
+        "professor": "김영삼",
+        "lecture": "",
+        "question": "Chest CT에서 LUL apex subpleural area에서 1.5cm 크기의 SPN이 발견되었을 때 조직학\n적 확인을 위해 시행할 수 있는 침습적 방법으로 적절한 것은?",
+        "choices": [
+          "Bronchoscopy,(EBUS)",
+          "Sputum cytology",
+          "Chest MRI",
+          "wedge resection",
+          "PET-CT"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16807,28 +17307,28 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n제시된 보기에서 가장 타당한 수술 전 금연 기간은 2주다. 충분히 일찍 금연해 기도 분비물과 수술 후 폐합병증 위험을 줄이는 것이 목적이며, 2주만 지나면 위험이 정상화되거나 그보다 오래 금연할 필요가 없다는 뜻은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n호흡곤란의 정도와 기간, 흡연력, 객담·기침 능력, 직업성 노출, 이전 폐암·폐수술, 항응고제·항혈소판제 사용을 확인한다. Ptosis·miosis·anhidrosis, 곤봉지, 쇄골상 림프절, 흉수의 진찰 소견도 병기와 전신상태 평가에 연결한다.\n'''강의의 최소 금연 기간은 수술 전 2주'''이다. 실제 진료에서는 가능한 일찍 금연을 시작하여 유지한다. 영양상태·체중감소·수행능력, 심장질환·당뇨·신장질환·감염·면역억제 상태도 함께 교정한다.\n\n=== 선지별 해설 ===\n* 1번 · 수술 전날: 강의가 제시하는 최소 2주보다 짧다. 이때라도 금연은 시작하되 시험의 기준 답은 2주다.\n* 2번 · 금연 여부는 상관없다.: 금연은 수술 전 호흡기·상처 합병증 위험을 낮추기 위한 중요한 준비다.\n* 3번 · 수술 전 3일: 강의가 제시하는 최소 2주보다 짧다. 이때라도 금연은 시작하되 시험의 기준 답은 2주다.\n* 4번 · 수술 전 2주일: 강의에서 제시한 최소 기준인 수술 전 2주다. 실제로는 가능한 일찍 중단하고 수술 후에도 유지하는 것이 좋다.\n* 5번 · 금연 기간은 환자의 흡연기간에 따라 다르다.: 흡연량·기간은 위험 평가에 쓰지만 최소 금연 교육을 생략하거나 기간만으로 결정하지 않는다.\n\n[[45강#병력과 진찰에서 수술 위험을 찾는다|Wiki · 병력과 진찰에서 수술 위험을 찾는다]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사 18–68슬라이드.~~~",
+      "answerLabel": "4번 — 수술 전 2주일",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답: ④\n\n제시된 보기에서 가장 타당한 수술 전 금연 기간은 2주다. 충분히 일찍 금연해 기도 분비물과 수술 후 폐합병증 위험을 줄이는 것이 목적이며, 2주만 지나면 위험이 정상화되거나 그보다 오래 금연할 필요가 없다는 뜻은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n호흡곤란의 정도와 기간, 흡연력, 객담·기침 능력, 직업성 노출, 이전 폐암·폐수술, 항응고제·항혈소판제 사용을 확인한다. Ptosis·miosis·anhidrosis, 곤봉지, 쇄골상 림프절, 흉수의 진찰 소견도 병기와 전신상태 평가에 연결한다.\n'''강의의 최소 금연 기간은 수술 전 2주'''이다. 실제 진료에서는 가능한 일찍 금연을 시작하여 유지한다. 영양상태·체중감소·수행능력, 심장질환·당뇨·신장질환·감염·면역억제 상태도 함께 교정한다.\n\n=== 선지별 해설 ===\n* 1번 · 수술 전날: 강의가 제시하는 최소 2주보다 짧다. 이때라도 금연은 시작하되 시험의 기준 답은 2주다.\n* 2번 · 금연 여부는 상관없다.: 금연은 수술 전 호흡기·상처 합병증 위험을 낮추기 위한 중요한 준비다.\n* 3번 · 수술 전 3일: 강의가 제시하는 최소 2주보다 짧다. 이때라도 금연은 시작하되 시험의 기준 답은 2주다.\n* 4번 · 수술 전 2주일: 강의에서 제시한 최소 기준인 수술 전 2주다. 실제로는 가능한 일찍 중단하고 수술 후에도 유지하는 것이 좋다.\n* 5번 · 금연 기간은 환자의 흡연기간에 따라 다르다.: 흡연량·기간은 위험 평가에 쓰지만 최소 금연 교육을 생략하거나 기간만으로 결정하지 않는다.\n\n[[45강#병력과 진찰에서 수술 위험을 찾는다|Wiki · 병력과 진찰에서 수술 위험을 찾는다]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사 18–68슬라이드.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.41. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.41 출제자란 확인",
       "lectureIds": [
         45
       ],
       "lectureId": 45,
       "lectureTitle": "수술전 검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 41번",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.41",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -16851,11 +17351,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "병력과 진찰에서 수술 위험을 찾는다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 41,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 41,
+        "professor": "김영삼",
+        "lecture": "",
+        "question": "폐암 진단 후 폐절제술을 계획하고 있는 환자에게 금연교육을 하려고 한다. 최소 수술 전 언\n제부터 금연을 하도록 설명하여야 하는가?",
+        "choices": [
+          "수술 전날",
+          "금연 여부는 상관없다.",
+          "수술전 3일",
+          "수술전 2주일",
+          "금연 기간은 환자의 흡연기간에 따라 다르다."
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16878,30 +17398,32 @@ window.JBL_DATA = {
         "spine – superior border",
         "mediastinal pleura– medial border"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 보류",
-      "explanation": "=== 풀이의 핵심 ===\n정답 확정 보류\n\n현재 선지에는 옳은 답이 없다. 위·아래·앞·뒤의 경계는 각각 thoracic inlet·diaphragm·sternum·spine이고, mediastinal pleura는 종격동의 lateral border다. 5번의 medial을 lateral로 바꾸면 정답이 되지만, 다른 해와 선지가 다르므로 원문을 유지하고 정답 확정을 보류한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 방향 ||= 경계 ||\n|| 위 || Thoracic inlet ||\n|| 아래 || Diaphragm ||\n|| 앞 || Sternum ||\n|| 뒤 || Spine ||\n|| 양옆 || Mediastinal pleura, pleural spaces ||\n종격동은 흉곽에서 양쪽 폐 사이의 장기와 결합조직이 있는 공간이다. 심장·큰 혈관·기관·식도·흉선·신경·림프절이 이 안에 놓인다.\n\n=== 선지별 해설 ===\n* 1번 · thoracic inlet – inferior border: 위쪽(superior) 경계다.\n* 2번 · diaphragm – anterior border: 아래쪽(inferior) 경계다.\n* 3번 · sternum – posterior border: 앞쪽(anterior) 경계다.\n* 4번 · spine – superior border: 뒤쪽(posterior) 경계다.\n* 5번 · mediastinal pleura– medial border: Mediastinal pleura는 양옆(lateral) 경계다. 현재 medial이라는 선지는 틀려 이 문항에는 맞는 답이 없다.\n\n[[46강#종격동의 경계|Wiki · 종격동의 경계]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사와 종격동 질환 69–104슬라이드.~~~",
+      "answerIndex": 5,
+      "answerIndices": [
+        5
+      ],
+      "answerLabel": "5번 — mediastinal pleura– medial border",
+      "explanation": "'''공식 정답: ⑤'''\n\n=== 풀이의 핵심 ===\n원본에도 5번이 '''mediastinal pleura – medial border'''로 인쇄되어 있고 공식 정답은 5번이다. 이는 복원 과정에서 생긴 오타가 아니다. 종격동의 양옆 경계는 mediastinal pleura이므로 해부학적으로는 '''lateral border'''가 맞다. 원문의 medial을 그대로 보존하고 공식 5번으로 채점하되, 올바른 방향은 lateral로 학습한다.\n\n=== 선지별 해설 ===\n* '''1번''': Thoracic inlet은 superior border다.\n* '''2번''': Diaphragm은 inferior border다.\n* '''3번''': Sternum은 anterior border다.\n* '''4번''': Spine은 posterior border다.\n* '''5번''': 공식 지정 답이다. 다만 종격동을 기준으로 mediastinal pleura는 양옆 경계이므로 lateral border가 정확하다. 원본의 medial 표기에는 오류가 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 방향 ||= 경계 ||\n|| 위 || Thoracic inlet ||\n|| 아래 || Diaphragm ||\n|| 앞 || Sternum ||\n|| 뒤 || Spine ||\n|| 양옆 || Mediastinal pleura, pleural spaces ||\n종격동은 흉곽에서 양쪽 폐 사이의 장기와 결합조직이 있는 공간이다. 심장·큰 혈관·기관·식도·흉선·신경·림프절이 이 안에 놓인다.\n\n\n\n[[46강#종격동의 경계|Wiki · 종격동의 경계]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.42. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.42 출제자란 확인",
       "lectureIds": [
         46
       ],
       "lectureId": 46,
       "lectureTitle": "종격동 질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 42번",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.42",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -16928,11 +17450,32 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "종격동의 경계",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 42,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "interpretationCaution": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 42,
+        "professor": "김영삼",
+        "lecture": "",
+        "question": "종격동을 구분하는 구조물로 옳은 것은?",
+        "choices": [
+          "thoracic inlet – inferior border",
+          "diaphragm – anterior border",
+          "sternum – posterior border",
+          "spine – superior border",
+          "mediastinal pleura– medial border"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -16946,11 +17489,11 @@ window.JBL_DATA = {
       "originalNumbers": [
         43
       ],
-      "question": "52세 최00씨는 최근 들어 눈이 침침해지고 오후가 되면 기운이 없고, 눈꺼풀이 처지는 증상이 있어 신경과를 방문하였다. Chest CT에서는 대동맥 앞쪽 전종격동에 2X2X5cm 정도 크기의 solid mass가 발견되었으며 2년 전 건강검진에서 시행한 흉부 CT와 비교해 볼 때 mass의 크기가 약간 커진 것으로 확인되었다. 혈액검사상 아세틸콜린수용체항체 (Ach-receptor-Ab)가 상승되어 있었으며 환자는 신경과에서 스테로이드 처방을 받았음에도 증세의 호전이 없어 흉부외과로 협진되었다. 이 환자에 대한 설명으로 옳은 것은?",
+      "question": "52세 최00씨는 최근 들어 눈이 침침해지고 오후가 되면 기운이 없고 눈꺼풀이 처지는 증상이 있어 신경과를 방문하였다. Chest CT에서는 대동맥 앞쪽 전종격동에 2x2x5cm 정도 크기의 sold mass가 발견되었으며 2년 전 건강검진에서 시행한 흉부 CT와 비교해 볼 때 mass의 크기가 약간 커진 것으로 확인되었다. 혈액검사상 아세틸콜린수용체항체 (Ach-receptor-Ab)가 상승되어 있었으며 환자는 신경과에서 스테로이드 처방을 받았음에도 증세의 호전이 없어 흉부외과로 협진되었다. 이 환자에 대한 설명으로 옳은 것은?",
       "passage": "",
       "choices": [
         "정기적인 혈액 투석으로 Ach-receptor-Ab 수치를 낮추어 준다",
-        "Neurogenic tumor로 의심되며 저절로 좋아지는 경우가 있으므로 경과를 관찰한다.",
+        "Neumogenic tumor로 의심되며 저절로 좋아지는 경우가 있으므로 경과를 관찰한다.",
         "스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.",
         "PCNB를 통해 tissue confirm을 시행한다.",
         "종격동염이 의심되므로 즉각적인 개흉술의 적응증이다."
@@ -16959,35 +17502,38 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''오후에 심해지는 눈꺼풀 처짐·복시·근력 저하 + ACh receptor antibody + 앞종격동 종괴'''이면 중증근무력증과 흉선종의 연결을 생각한다. 흉선종은 상피세포성 종양이며, 림프구가 함께 풍부할 수 있다.\n\n||= 흉선종 관련 항목 ||= 핵심 ||\n|| 신경근 증상 || Myasthenia gravis ||\n|| 혈액계 || Pure red cell aplasia ||\n|| 면역계 || Hypogammaglobulinemia ||\n|| 국소 평가 || 종괴 크기·피막·주변 장기 침범·절제 가능성 ||\n|| 기본 치료 || 절제 가능한 경우 thymectomy ||\n\nMG는 약물치료와 수술 전 호흡·신경근 상태 평가를 병행한다. 전형적이고 절제 가능한 흉선종은 수술적 절제를 계획할 수 있다. 심한 MG에서는 면역조절과 위기 관리가 필요하며, 혈장교환은 항체를 줄이는 치료 중 하나이다.\n\n=== 선지별 해설 ===\n* 1번 · 정기적인 혈액 투석으로 Ach-receptor-Ab 수치를 낮추어 준다: 항체를 제거하는 혈장교환술과 일반 혈액투석은 다르다. 이 설명은 MG의 적절한 치료를 말한 것이 아니다.\n* 2번 · Neurogenic tumor로 의심되며 저절로 좋아지는 경우가 있으므로 경과를 관찰한다.: 신경성 종양은 주로 뒤종격동이다. AChR 항체 양성의 MG와 앞종격동 종괴는 thymoma를 시사한다.\n* 3번 · 스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.: 절제 가능한 thymoma에서는 thymectomy를 고려한다. Steroid 실패만이 수술의 이유는 아니며 종양 절제 가능성과 MG의 수술 전 안정화를 함께 평가한다.\n* 4번 · PCNB를 통해 tissue confirm을 시행한다.: 전형적인 절제 가능 흉선종에서는 수술 전 경피 생검을 반드시 선행하지 않는다. 림프종 등 감별이 필요하거나 절제 불가능한 경우에는 조직 확보 전략이 달라진다.\n* 5번 · 종격동염이 의심되므로 즉각적인 개흉술의 적응증이다.: 감염성 급성 독성 상태나 종격동 공기·액체가 아니라 MG와 천천히 자라는 앞종격동 종괴가 제시되어 있다.\n\n[[46강#흉선종과 중증근무력증|Wiki · 흉선종과 중증근무력증]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사와 종격동 질환 69–104슬라이드.~~~",
+      "answerLabel": "3번 — 스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답: ③\n\n피로할수록 심해지는 안검하수와 ACh receptor 항체 양성은 중증근무력증을, 전종격동 종괴는 thymoma를 시사한다. 흉선종이 동반된 경우 절제 가능성을 평가하여 수술을 고려한다. 항체를 제거하는 혈장교환술과 일반 혈액투석은 서로 다르며, 절제 가능한 전형적 흉선종에 경피 생검부터 시행하는 것도 적절하지 않다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''오후에 심해지는 눈꺼풀 처짐·복시·근력 저하 + ACh receptor antibody + 앞종격동 종괴'''이면 중증근무력증과 흉선종의 연결을 생각한다. 흉선종은 상피세포성 종양이며, 림프구가 함께 풍부할 수 있다.\n\n||= 흉선종 관련 항목 ||= 핵심 ||\n|| 신경근 증상 || Myasthenia gravis ||\n|| 혈액계 || Pure red cell aplasia ||\n|| 면역계 || Hypogammaglobulinemia ||\n|| 국소 평가 || 종괴 크기·피막·주변 장기 침범·절제 가능성 ||\n|| 기본 치료 || 절제 가능한 경우 thymectomy ||\n\nMG는 약물치료와 수술 전 호흡·신경근 상태 평가를 병행한다. 전형적이고 절제 가능한 흉선종은 수술적 절제를 계획할 수 있다. 심한 MG에서는 면역조절과 위기 관리가 필요하며, 혈장교환은 항체를 줄이는 치료 중 하나이다.\n\n=== 선지별 해설 ===\n* 1번 · 정기적인 혈액 투석으로 Ach-receptor-Ab 수치를 낮추어 준다: 항체를 제거하는 혈장교환술과 일반 혈액투석은 다르다. 이 설명은 MG의 적절한 치료를 말한 것이 아니다.\n* 2번 · Neurogenic tumor로 의심되며 저절로 좋아지는 경우가 있으므로 경과를 관찰한다.: 신경성 종양은 주로 뒤종격동이다. AChR 항체 양성의 MG와 앞종격동 종괴는 thymoma를 시사한다.\n* 3번 · 스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.: 절제 가능한 thymoma에서는 thymectomy를 고려한다. Steroid 실패만이 수술의 이유는 아니며 종양 절제 가능성과 MG의 수술 전 안정화를 함께 평가한다.\n* 4번 · PCNB를 통해 tissue confirm을 시행한다.: 전형적인 절제 가능 흉선종에서는 수술 전 경피 생검을 반드시 선행하지 않는다. 림프종 등 감별이 필요하거나 절제 불가능한 경우에는 조직 확보 전략이 달라진다.\n* 5번 · 종격동염이 의심되므로 즉각적인 개흉술의 적응증이다.: 감염성 급성 독성 상태나 종격동 공기·액체가 아니라 MG와 천천히 자라는 앞종격동 종괴가 제시되어 있다.\n\n[[46강#흉선종과 중증근무력증|Wiki · 흉선종과 중증근무력증]]\n\n~~근거: 38기 자료. / 김영삼 수술전 검사와 종격동 질환 69–104슬라이드.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.43. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q043_01.jpg"
+        "J/2023/official-p043.jpg"
       ],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.43 출제자란 확인",
       "lectureIds": [
         46
       ],
       "lectureId": 46,
       "lectureTitle": "종격동 질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 43번",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.43",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q043_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 43,
+          "file": "J/2023/official-p043.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [
@@ -17014,11 +17560,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "흉선종과 중증근무력증",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 43,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 43,
+        "professor": "김영삼",
+        "lecture": "",
+        "question": "52세 최00씨는 최근 들어 눈이 침침해지고 오후가 되면 기운이 없고 눈꺼풀이 처지는 증상이\n있어 신경과를 방문 하였다. Chest CT에서는 대동맥 앞쪽 전종격동에 2x2x5cm정도 크기의\nsold mass가 발견되었으며 2년전 건강검진에서 시행한 흉부 CT와 비교해 볼 때 mass의 크\n기가 약간 커진것으로 확인되었다. 혈액검사상 아세틸콜린수용체항체(Ach-receptor-Ab)가\n상승되어 있었으며 환자는 신경과에서 스테로이드 처방을 받았음에도 증세의 호전이 없어 흉\n부외과로 협진 되었다. 이 환자에 대한 설명으로 옳은 것은?",
+        "choices": [
+          "정기적인 혈액 투석으로 Ach-receptor-Ab수치를 낮추어 준다.",
+          "Neumogenic tumor로 의심되며 저절로 좋아지는 경우가 있으므로 경과를 관찰한다.",
+          "스테로이드 사용에도 증세 호전이 없다면 surgical excision을 고려한다.",
+          "PCNB를 통해 tissue confirm을 시행한다.",
+          "종격동염이 의심되므로 즉각적인 개흉술의 적응증 이다."
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17036,40 +17602,38 @@ window.JBL_DATA = {
       "passage": "",
       "choices": [
         "특별한 과거력 없이 지내던 중 1주일 전 COVID-19 감염 후 발생한 급성 호흡곤란 증후군으로 인하여 어제 기관삽관술을 시행하였으나 호전을 보이지 않는 39세 환자",
-        "1시간 전부터 시작된 흉부 압박감 및 흉통으로 응급실에서 진료 대기 중 의식을 잃고 쓰러진 65세 환자",
+        "1시간 전부터 시작된 흉부 압박감 및 흉통으로 응급실에서 진료 대기 중 의식을 잃고 쓰러진 환자 65세 환자",
         "평소 환자 본인이 사후 장기기증의 의사표시를 하였으며 최근 물놀이 사고로 인하여 뇌사 상태로 인공호흡기에 의지하여 연명치료 중인 25세 환자로 내일 장기이식을 위해 장기공여수술이 예정된 환자",
         "평소 폐섬유화증으로 오랜 기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화되어 인공호흡기치료 중 폐이식을 기다리고 있는 55세 환자",
-        "악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 인공호흡기 치료를 시작했고 적극적인 인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자"
+        "악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 공호흡기 치료를 시작하였으 며 적극적인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자"
       ],
       "answerIndex": 5,
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\nECMO는 회복 가능한 심폐부전, 이식까지의 가교 등 다음 치료로 연결될 가능성이 있을 때 고려한다. 악성 흉수를 동반한 진행성 폐암에서 회복·이식 가능성이 없이 지속되는 호흡부전은 적절한 적응증이 아니다. 다른 보기 역시 ECMO를 무조건 시행한다는 뜻은 아니며, 소생 가능성이나 장기기증 절차 등을 따로 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 상황 ||= 평가할 치료 목표 ||\n|| 중증 ARDS·가역적 호흡부전 || 폐 회복까지 가스교환 보조 ||\n|| 심인성 쇼크·급성 심근염 || 심장 회복 또는 다음 순환보조 치료까지 유지 ||\n|| 목격된 심정지·교정 가능한 원인 || 선택된 환자의 ECPR ||\n|| 말기 폐질환의 이식 후보 || 폐이식까지의 bridge ||\n|| 장기 기증 과정 || 별도 기증 프로토콜의 장기 보존 목표 ||\n\n회복 가능한 치료 경로가 없는 진행성 다장기부전, 불가역적 중추신경 손상, 조절 불가능한 출혈, 말기암 등에서는 이득과 위험을 신중히 평가한다. '''악성 흉수를 동반한 진행성 폐암과 지속적인 호흡부전'''은 반복 문항에서 ECMO의 적절한 회복 목표가 없는 상황이다.\n\n뇌사 환자의 장기 보존 목적 사용은 환자 본인의 신경학적 회복을 위한 ECMO와 목표가 다르다. 기증 의사·판정·기관 프로토콜이 명확할 때만 별도로 해석한다. ‘준뇌사, 기증 예정 없음’처럼 조건이 빠진 복원문은 그 한계를 해설에서 확인한다.\n\n=== 선지별 해설 ===\n* 1번 · 특별한 과거력 없이 지내던 중 1주일 전 COVID-19 감염 후 발생한 급성 호흡곤란 증후군으로 인하여 어제 기관삽관술을 시행하였으나 호전을 보이지 않는 39세 환자: 가역적 중증 ARDS에서 최적의 인공호흡기·prone position 등에도 불응하면 VV ECMO를 평가할 수 있다. 삽관 후 하루 호전이 없다는 사실만으로 자동 적응증이 되는 것은 아니다.\n* 2번 · 1시간 전부터 시작된 흉부 압박감 및 흉통으로 응급실에서 진료 대기 중 의식을 잃고 쓰러진 65세 환자: 목격된 심정지와 교정 가능한 심장 원인이 의심되면 선택된 환자에서 ECPR/VA ECMO를 평가한다. 심정지 리듬·시간·예후 등 추가 조건이 필요하다.\n* 3번 · 평소 환자 본인이 사후 장기기증의 의사표시를 하였으며 최근 물놀이 사고로 인하여 뇌사 상태로 인공호흡기에 의지하여 연명치료 중인 25세 환자로 내일 장기이식을 위해 장기공여수술이 예정된 환자: 장기공여가 예정된 별도 상황이다. 기증 관련 법·윤리·기관 프로토콜 아래 장기 보존 목적으로 사용되는 경우를 뜻한다. 뇌사 환자 본인의 회복 목적 ECMO와 혼동하지 않는다.\n* 4번 · 평소 폐섬유화증으로 오랜 기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화되어 인공호흡기치료 중 폐이식을 기다리고 있는 55세 환자: 회복 어려운 폐섬유화라도 적절한 이식 후보라면 bridge to transplant라는 다음 치료 목표가 있어 ECMO를 평가할 수 있다.\n* 5번 · 악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 인공호흡기 치료를 시작했고 적극적인 인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자: 악성 흉수의 진행성 폐암과 지속 호흡부전으로, 회복 또는 이식으로 이어질 치료 목표가 제시되지 않는다. 출제 의도상 부적절한 경우다.\n\n[[44강#ECMO 적응증은 회복 가능성과 치료 목표를 함께 평가한다|Wiki · ECMO 적응증은 회복 가능성과 치료 목표를 함께 평가한다]]\n\n~~근거: 38기 자료. / 김영삼 ECMO 19–32슬라이드 및 수술전 검사 57슬라이드.~~~",
+      "answerLabel": "5번 — 악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 공호흡기 치료를 시작하였으 며 적극적인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n정답: ⑤\n\nECMO는 회복 가능한 심폐부전, 이식까지의 가교 등 다음 치료로 연결될 가능성이 있을 때 고려한다. 악성 흉수를 동반한 진행성 폐암에서 회복·이식 가능성이 없이 지속되는 호흡부전은 적절한 적응증이 아니다. 다른 보기 역시 ECMO를 무조건 시행한다는 뜻은 아니며, 소생 가능성이나 장기기증 절차 등을 따로 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 상황 ||= 평가할 치료 목표 ||\n|| 중증 ARDS·가역적 호흡부전 || 폐 회복까지 가스교환 보조 ||\n|| 심인성 쇼크·급성 심근염 || 심장 회복 또는 다음 순환보조 치료까지 유지 ||\n|| 목격된 심정지·교정 가능한 원인 || 선택된 환자의 ECPR ||\n|| 말기 폐질환의 이식 후보 || 폐이식까지의 bridge ||\n|| 장기 기증 과정 || 별도 기증 프로토콜의 장기 보존 목표 ||\n\n회복 가능한 치료 경로가 없는 진행성 다장기부전, 불가역적 중추신경 손상, 조절 불가능한 출혈, 말기암 등에서는 이득과 위험을 신중히 평가한다. '''악성 흉수를 동반한 진행성 폐암과 지속적인 호흡부전'''은 반복 문항에서 ECMO의 적절한 회복 목표가 없는 상황이다.\n\n뇌사 환자의 장기 보존 목적 사용은 환자 본인의 신경학적 회복을 위한 ECMO와 목표가 다르다. 기증 의사·판정·기관 프로토콜이 명확할 때만 별도로 해석한다. ‘준뇌사, 기증 예정 없음’처럼 조건이 빠진 복원문은 그 한계를 해설에서 확인한다.\n\n=== 선지별 해설 ===\n* 1번 · 특별한 과거력 없이 지내던 중 1주일 전 COVID-19 감염 후 발생한 급성 호흡곤란 증후군으로 인하여 어제 기관삽관술을 시행하였으나 호전을 보이지 않는 39세 환자: 가역적 중증 ARDS에서 최적의 인공호흡기·prone position 등에도 불응하면 VV ECMO를 평가할 수 있다. 삽관 후 하루 호전이 없다는 사실만으로 자동 적응증이 되는 것은 아니다.\n* 2번 · 1시간 전부터 시작된 흉부 압박감 및 흉통으로 응급실에서 진료 대기 중 의식을 잃고 쓰러진 65세 환자: 목격된 심정지와 교정 가능한 심장 원인이 의심되면 선택된 환자에서 ECPR/VA ECMO를 평가한다. 심정지 리듬·시간·예후 등 추가 조건이 필요하다.\n* 3번 · 평소 환자 본인이 사후 장기기증의 의사표시를 하였으며 최근 물놀이 사고로 인하여 뇌사 상태로 인공호흡기에 의지하여 연명치료 중인 25세 환자로 내일 장기이식을 위해 장기공여수술이 예정된 환자: 장기공여가 예정된 별도 상황이다. 기증 관련 법·윤리·기관 프로토콜 아래 장기 보존 목적으로 사용되는 경우를 뜻한다. 뇌사 환자 본인의 회복 목적 ECMO와 혼동하지 않는다.\n* 4번 · 평소 폐섬유화증으로 오랜 기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화되어 인공호흡기치료 중 폐이식을 기다리고 있는 55세 환자: 회복 어려운 폐섬유화라도 적절한 이식 후보라면 bridge to transplant라는 다음 치료 목표가 있어 ECMO를 평가할 수 있다.\n* 5번 · 악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주 전 인공호흡기 치료를 시작했고 적극적인 인인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자: 악성 흉수의 진행성 폐암과 지속 호흡부전으로, 회복 또는 이식으로 이어질 치료 목표가 제시되지 않는다. 출제 의도상 부적절한 경우다.\n\n[[44강#ECMO 적응증은 회복 가능성과 치료 목표를 함께 평가한다|Wiki · ECMO 적응증은 회복 가능성과 치료 목표를 함께 평가한다]]\n\n~~근거: 38기 자료. / 김영삼 ECMO 19–32슬라이드 및 수술전 검사 57슬라이드.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.44. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김영삼",
       "professor": "김영삼",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.44 출제자란 확인",
       "lectureIds": [
         44
       ],
       "lectureId": 44,
       "lectureTitle": "흉부외과 각론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 44번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.44",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "김영삼 문항 구간의 ECMO 적응증. 44강 우선; 중환자 강의와 내용 중첩."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R005"
@@ -17091,11 +17655,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "ECMO 적응증은 회복 가능성과 치료 목표를 함께 평가한다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 44,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 44,
+        "professor": "김영삼",
+        "lecture": "",
+        "question": "다음 중 ECMO의 적응증으로 옳지 않은 경우는?",
+        "choices": [
+          "특별한 과거력 없이 지내던중 1주일전 COVID-19 감염후 발생한 급성 호흡곤란 증후군\n으로 인하여 어제 기관삽관술을 시행하였으나 호전을 보이지 않는 39세 환자",
+          "1시간전부터 시작된 흉부 압박감 및 흉통으로 응급실에서 진료 대기중 의식을 잃고 쓰\n러진 환자 65세 환자",
+          "평소 환자 본인이 사후 장기기증의 의사표시를 하였으며 최근 물놀이 사고로 인하여 뇌\n사 상태로 인공호흡기에 의지하여 연명치료중인 25세 환자로 내일 장기이식을 위해 장\n기공여수술이 예정된 환자",
+          "평소 폐섬유화증으로 오랜기간 치료를 받았으나 호전이 없었으며 최근 호흡곤란이 심화\n되어 인공호흡기치료중 폐이식을 기다리고 있는 55세 환자",
+          "악성 흉수를 동반한 폐암환자로 호흡곤란이 심해져 2주전 공호흡기 치료를 시작하였으\n며 적극적인 인공호흡기 치료에도 불구하고 호흡부전의 호전이 없는 60세 환자"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17109,7 +17693,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         46
       ],
-      "question": "62세 남자 환자가 열이 나며 의식이 혼탁해진다고 응급실에 왔다. 평소에 앓고 있던 병은 없었다. 혈압 60/40 mmHg, 맥박 126 회/분, 호흡수 26 회/분, 체온 39℃였다. 동맥혈 가스 검사가 다음과 같을 때 산증의 원인으로 가장 적절한 것은? pH 7.21 PCO2 32 mmHg HCO3- 16 mEq/L Na+ 150 Cl- 117 K+ 3.2",
+      "question": "62세 남자 환자가 열이 나며 의식이 혼탁해진다고 응급실에 왔다. 평소에 앓고 있던 병은 없었다. 혈압 60/40 mmHg, 맥박 126 회/분, 호흡수 26 회/분, 체온 39℃였다. 동맥혈 가스 검사가 다음과 같을 때 산증의 원인으로 가장 적절한 것은? pH 7.21 PCO₂ 32 mmHg HCO₃⁻ 16 mEq/L Na+ 150 Cl- 117 K+ 3.2",
       "passage": "",
       "choices": [
         "탈수",
@@ -17122,58 +17706,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "3번 — 젖산혈증",
-      "explanation": "'''정답으로 판단한 선지: 3번, 젖산혈증.''' 고열과 의식 변화에 심한 저혈압이 겹쳤고, HCO₃⁻가 낮으면서 AG가 증가했다. 감염에 동반된 쇼크를 의심할 상황이므로 젖산산증이 가장 잘 맞는다.\n\n=== HCO₃⁻, 호흡 보상, AG 순서로 읽기 ===\n||= 확인할 것 ||= 이 문항의 계산 ||= 의미 ||\n|| 일차 장애 || pH 감소, HCO₃⁻ '''16''' || 대사성 산증이 있다. ||\n|| 호흡 보상 || 1.5 × 16 + 8 = '''32 ± 2''' → 30–34 mmHg || 실제 PCO₂ '''32'''는 예측값의 중앙이다. 별도의 호흡성 산증이라고 할 근거는 없다. ||\n|| Anion gap || 150 − (117 + 16) = '''17''' mEq/L || 강의의 정상 AG '''10–12'''보다 높다. 측정하지 않은 산의 짝 음이온이 증가한 쪽이다. ||\n\n산이 들어오면 H⁺는 HCO₃⁻에 의해 완충되고, 젖산 등의 짝 음이온은 혈액에 남는다. 그래서 HCO₃⁻는 줄면서 AG는 커진다. 저혈압 환자에서 이 조합을 보았다면 단순히 “탈수되어 산증”이라고 끝내지 말고, '''저관류를 포함한 쇼크 상황에서 젖산이 증가했을 가능성'''을 연결해야 한다.\n\n=== 원인이 바뀌어도 구별해야 할 두 축 ===\n||= 산증의 기전 ||= AG의 방향 ||= 대표 원인·감별 단서 ||\n|| 산이 추가되고 그 짝 음이온이 남는다 || '''High AG''' || 젖산, 케톤산, 진행한 신부전의 요독성 산, 메탄올·에틸렌글리콜 등. 쇼크·당뇨·신기능·노출력을 따로 확인한다. ||\n|| HCO₃⁻를 잃고 Cl⁻가 상대적으로 늘어난다 || '''Normal AG''' || 설사, 신세뇨관 산증. 특히 2형 RTA는 근위세뇨관의 HCO₃⁻ 재흡수 장애다. ||\n\n호흡 보상과 산증의 원인은 다른 질문이다. PCO₂가 내려간 것은 대사성 산증을 보상하려는 반응이며, 내려갔다고 무조건 호흡성 알칼리증은 아니다.\n\n||= 실제 PCO₂와 예측 범위 비교 ||= 해석 ||\n|| '''1.5 × HCO₃⁻ + 8 ± 2''' 안 || 대사성 산증에 대한 호흡 보상이 적절하다. ||\n|| 예측 범위보다 '''높다''' || 필요한 만큼 CO₂를 배출하지 못한다. '''호흡성 산증이 추가'''되어 있다. ||\n|| 예측 범위보다 '''낮다''' || 보상에 필요한 정도보다 더 과호흡한다. '''호흡성 알칼리증이 추가'''되어 있다. ||\n\n=== 선지별로 보면 ===\n* ① 탈수 — 심하면 저관류를 거쳐 젖산산증을 만들 수 있으므로 전혀 무관한 것은 아니다. 그러나 수분 부족 자체가 이 ABG의 산증 종류를 설명하는 답은 아니다. 감염성 쇼크가 의심되는 증례에서 증가한 AG의 직접적인 원인으로는 젖산이 더 적절하다.\n* ② 신부전 — 진행한 신부전에서는 산 배설이 줄어 high AG 산증이 생길 수 있다. 다만 신기능 저하를 뒷받침하는 크레아티닌·소변량·기왕력이 없고, 현재 증례는 감염에 동반된 쇼크를 앞세운다. 높은 AG만으로 신부전이라고 결정하지 않는다.\n* ③ 젖산혈증 — 고열·의식 변화·심한 저혈압이 함께 있고 AG가 증가했다. 감염에 동반된 쇼크에서 젖산이 늘어난 상황을 가장 우선으로 추정한다. 다만 실제 젖산 농도는 제시되지 않았으므로, 문항의 임상 단서를 근거로 한 판단이다.\n* ④ 진통제 복용 — 약물 종류와 복용력이 전혀 제시되지 않았다. 살리실산 중독은 high AG 산증과 호흡성 알칼리증을 함께 만들 수 있지만, 이 환자의 PCO₂는 보상 예측값에 맞는다. 오피오이드의 호흡 억제도 이 수치에서 적극적으로 뒷받침되지 않는다. 진통제를 한 종류의 산염기 장애로 외우면 안 된다.\n* ⑤ 2형 신세뇨관 산증 — 근위세뇨관에서 HCO₃⁻를 충분히 재흡수하지 못해 소변으로 잃는다. 설사와 마찬가지로 주로 normal AG 산증을 만들며, 이 환자의 감염·쇼크와 높은 AG를 가장 잘 설명하는 원인은 아니다.\n\n=== AG 계산 뒤에 한 단계 더 ===\n강의의 ΔAG·ΔHCO₃⁻ 비교를 적용하면 ΔAG = 17 − 12 = '''5''', ΔHCO₃⁻ = 24 − 16 = '''8'''다. HCO₃⁻의 감소폭이 더 커서 추가적인 normal AG 산증을 고려할 여지는 있다. 다만 알부민, 평소 AG, 실제 젖산 농도 등이 없어 특정 혼합 원인을 확정할 수는 없다. 이 계산이 '''증가한 AG와 쇼크에서 젖산산증을 우선한다'''는 선지 판단을 뒤집지는 않는다.\n\n\n> '''대사성 산증 → Winter 식으로 호흡 보상 확인 → AG로 산의 추가와 HCO₃⁻ 소실 구분 → 병력으로 원인 선택.''' 저혈압·발열이라는 단서와 AG 증가를 함께 묶는 것이 이 유형의 핵심이다.\n\n~~수치 주의: 제시된 pH와 PCO₂·HCO₃⁻는 Henderson–Hasselbalch 관계로 계산하면 정확히 일치하지 않는다. PCO₂ 32, HCO₃⁻ 16로 계산한 pH는 약 7.32다. 원문 수치는 보존했고, 위 풀이는 제시 HCO₃⁻·PCO₂·전해질을 각각 이용한 출제의도 해석이다.~~~\n\n[[4강#2단계: 예측 PCO₂와 실제 PCO₂를 비교한다|Wiki · 보상값이 맞는지 판단하기]] · [[4강#4단계 (high AG): ΔAG와 ΔHCO₃⁻를 비교해 숨은 장애를 찾는다|Wiki · 추가 대사성 장애 찾기]]\n\n[[4강#3단계: anion gap으로 산이 늘었는지 HCO₃⁻를 잃었는지 가른다|Wiki · 3단계: anion gap으로 산이 늘었는지 HCO₃⁻를 잃었는지 가른다]]\n~~근거: 39기 「동맥혈가스검사」 8·13·14·17·18·19·21·22쪽. 계산에는 강의의 기준값 PCO₂ 40 mmHg, HCO₃⁻ 24 mEq/L를 사용했다.~~~",
+      "answerLabel": "3번 — 젖산 혈증",
+      "explanation": "'''공식 정답: 3번'''\n\n'''정답으로 판단한 선지: 3번, 젖산혈증.''' 고열과 의식 변화에 심한 저혈압이 겹쳤고, HCO₃⁻가 낮으면서 AG가 증가했다. 감염에 동반된 쇼크를 의심할 상황이므로 젖산산증이 가장 잘 맞는다.\n\n=== HCO₃⁻, 호흡 보상, AG 순서로 읽기 ===\n||= 확인할 것 ||= 이 문항의 계산 ||= 의미 ||\n|| 일차 장애 || pH 감소, HCO₃⁻ '''16''' || 대사성 산증이 있다. ||\n|| 호흡 보상 || 1.5 × 16 + 8 = '''32 ± 2''' → 30–34 mmHg || 실제 PCO₂ '''32'''는 예측값의 중앙이다. 별도의 호흡성 산증이라고 할 근거는 없다. ||\n|| Anion gap || 150 − (117 + 16) = '''17''' mEq/L || 강의의 정상 AG '''10–12'''보다 높다. 측정하지 않은 산의 짝 음이온이 증가한 쪽이다. ||\n\n산이 들어오면 H⁺는 HCO₃⁻에 의해 완충되고, 젖산 등의 짝 음이온은 혈액에 남는다. 그래서 HCO₃⁻는 줄면서 AG는 커진다. 저혈압 환자에서 이 조합을 보았다면 단순히 “탈수되어 산증”이라고 끝내지 말고, '''저관류를 포함한 쇼크 상황에서 젖산이 증가했을 가능성'''을 연결해야 한다.\n\n=== 원인이 바뀌어도 구별해야 할 두 축 ===\n||= 산증의 기전 ||= AG의 방향 ||= 대표 원인·감별 단서 ||\n|| 산이 추가되고 그 짝 음이온이 남는다 || '''High AG''' || 젖산, 케톤산, 진행한 신부전의 요독성 산, 메탄올·에틸렌글리콜 등. 쇼크·당뇨·신기능·노출력을 따로 확인한다. ||\n|| HCO₃⁻를 잃고 Cl⁻가 상대적으로 늘어난다 || '''Normal AG''' || 설사, 신세뇨관 산증. 특히 2형 RTA는 근위세뇨관의 HCO₃⁻ 재흡수 장애다. ||\n\n호흡 보상과 산증의 원인은 다른 질문이다. PCO₂가 내려간 것은 대사성 산증을 보상하려는 반응이며, 내려갔다고 무조건 호흡성 알칼리증은 아니다.\n\n||= 실제 PCO₂와 예측 범위 비교 ||= 해석 ||\n|| '''1.5 × HCO₃⁻ + 8 ± 2''' 안 || 대사성 산증에 대한 호흡 보상이 적절하다. ||\n|| 예측 범위보다 '''높다''' || 필요한 만큼 CO₂를 배출하지 못한다. '''호흡성 산증이 추가'''되어 있다. ||\n|| 예측 범위보다 '''낮다''' || 보상에 필요한 정도보다 더 과호흡한다. '''호흡성 알칼리증이 추가'''되어 있다. ||\n\n=== 선지별로 보면 ===\n* ① 탈수 — 심하면 저관류를 거쳐 젖산산증을 만들 수 있으므로 전혀 무관한 것은 아니다. 그러나 수분 부족 자체가 이 ABG의 산증 종류를 설명하는 답은 아니다. 감염성 쇼크가 의심되는 증례에서 증가한 AG의 직접적인 원인으로는 젖산이 더 적절하다.\n* ② 신부전 — 진행한 신부전에서는 산 배설이 줄어 high AG 산증이 생길 수 있다. 다만 신기능 저하를 뒷받침하는 크레아티닌·소변량·기왕력이 없고, 현재 증례는 감염에 동반된 쇼크를 앞세운다. 높은 AG만으로 신부전이라고 결정하지 않는다.\n* ③ 젖산혈증 — 고열·의식 변화·심한 저혈압이 함께 있고 AG가 증가했다. 감염에 동반된 쇼크에서 젖산이 늘어난 상황을 가장 우선으로 추정한다. 다만 실제 젖산 농도는 제시되지 않았으므로, 문항의 임상 단서를 근거로 한 판단이다.\n* ④ 진통제 복용 — 약물 종류와 복용력이 전혀 제시되지 않았다. 살리실산 중독은 high AG 산증과 호흡성 알칼리증을 함께 만들 수 있지만, 이 환자의 PCO₂는 보상 예측값에 맞는다. 오피오이드의 호흡 억제도 이 수치에서 적극적으로 뒷받침되지 않는다. 진통제를 한 종류의 산염기 장애로 외우면 안 된다.\n* ⑤ 2형 신세뇨관 산증 — 근위세뇨관에서 HCO₃⁻를 충분히 재흡수하지 못해 소변으로 잃는다. 설사와 마찬가지로 주로 normal AG 산증을 만들며, 이 환자의 감염·쇼크와 높은 AG를 가장 잘 설명하는 원인은 아니다.\n\n=== AG 계산 뒤에 한 단계 더 ===\n강의의 ΔAG·ΔHCO₃⁻ 비교를 적용하면 ΔAG = 17 − 12 = '''5''', ΔHCO₃⁻ = 24 − 16 = '''8'''다. HCO₃⁻의 감소폭이 더 커서 추가적인 normal AG 산증을 고려할 여지는 있다. 다만 알부민, 평소 AG, 실제 젖산 농도 등이 없어 특정 혼합 원인을 확정할 수는 없다. 이 계산이 '''증가한 AG와 쇼크에서 젖산산증을 우선한다'''는 선지 판단을 뒤집지는 않는다.\n\n\n> '''대사성 산증 → Winter 식으로 호흡 보상 확인 → AG로 산의 추가와 HCO₃⁻ 소실 구분 → 병력으로 원인 선택.''' 저혈압·발열이라는 단서와 AG 증가를 함께 묶는 것이 이 유형의 핵심이다.\n\n~~수치 주의: 제시된 pH와 PCO₂·HCO₃⁻는 Henderson–Hasselbalch 관계로 계산하면 정확히 일치하지 않는다. PCO₂ 32, HCO₃⁻ 16로 계산한 pH는 약 7.32다. 원문 수치는 보존했고, 위 풀이는 제시 HCO₃⁻·PCO₂·전해질을 각각 이용한 출제의도 해석이다.~~~\n\n[[4강#2단계: 예측 PCO₂와 실제 PCO₂를 비교한다|Wiki · 보상값이 맞는지 판단하기]] · [[4강#4단계 (high AG): ΔAG와 ΔHCO₃⁻를 비교해 숨은 장애를 찾는다|Wiki · 추가 대사성 장애 찾기]]\n\n[[4강#3단계: anion gap으로 산이 늘었는지 HCO₃⁻를 잃었는지 가른다|Wiki · 3단계: anion gap으로 산이 늘었는지 HCO₃⁻를 잃었는지 가른다]]\n~~근거: 39기 「동맥혈가스검사」 8·13·14·17·18·19·21·22쪽. 계산에는 강의의 기준값 PCO₂ 40 mmHg, HCO₃⁻ 24 mEq/L를 사용했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.46. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김정수",
       "professor": "김정수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.46 출제자란 확인",
       "lectureIds": [
         4
       ],
       "lectureId": 4,
       "lectureTitle": "동맥혈가스검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 46번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.46",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 동맥혈가스검사",
-        "pages": [
-          8,
-          13,
-          14,
-          17,
-          18,
-          19,
-          21,
-          22
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 46,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 46,
+        "professor": "김정수",
+        "lecture": "동맥혈 가스 검사",
+        "question": "62세 남자 환자가 열이 나며 의식이 혼탁해 진다고 응급실에 왔다. 평소에 앓고 있던 병은\n없었다. 혈압 60/40 mmHg, 맥박 126 회/분, 호흡 수 26 회/분, 체온 39℃ 였다.\n\n동맥혈 가스 검사가 다음과 같을 때 산증의 원인으로 가장 적절한 것은?\npH 7.21 PCO 32 mmHg HCO - 16 mEq/L\n2 3\nNa+ 150 Cl- 117 K+ 3.2",
+        "choices": [
+          "탈수",
+          "신부전",
+          "젖산혈증",
+          "진통제복용",
+          "2형 신세뇨관 산증"
         ],
-        "chapter": "3단계: anion gap으로 산이 늘었는지 HCO₃⁻를 잃었는지 가른다",
-        "answerStatus": "lecture_based_with_numerical_inconsistency",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "numericalCheck": {
-          "anionGap": 17,
-          "predictedPCO2": 32,
-          "predictedRange": [
-            30,
-            34
-          ],
-          "measuredPCO2": 32,
-          "abgTripletConsistent": false
-        }
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17201,27 +17784,27 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "3번 — 수면제 복용",
-      "explanation": "'''공식 정답: 3번, 수면제 복용.''' 당뇨약을 거르고 고혈당·케톤혈증이 생겼으므로 케톤산증은 맞다. 그런데 케톤산증만 있다면 숨을 더 쉬어 CO₂를 내려야 한다. 이 환자의 PCO₂가 '''60 mmHg로 올라갔다는 점'''이 추가 원인을 찾게 한다.\n\n=== 케톤산증인데 왜 케톤산증이 답이 아닐까 ===\n||= 단서 ||= 읽는 방법 ||\n|| 당뇨약 중단, glucose 750 mg/dL, ketone 7,100 μmol/L || 인슐린 부족에 의한 케톤산증을 뒷받침한다. ||\n|| 낮은 pH, HCO₃⁻ '''16''' || 대사성 산증이 있다. ||\n|| 예상 PCO₂ = 1.5 × 16 + 8 = '''32 ± 2''' || 적절한 호흡 보상이라면 '''30–34 mmHg'''여야 한다. ||\n|| 실제 PCO₂ '''60''' || 예측 범위보다 훨씬 높다. '''호흡성 산증이 겹쳤다.''' ||\n\n대사성 산증에서 호흡은 산을 더 만드는 반응이 아니라 산성 쪽인 CO₂를 내보내는 반응이다. 그러므로 HCO₃⁻가 낮은데 PCO₂가 높다면, 두 변화가 모두 pH를 낮추고 있다. '''HCO₃⁻ 감소를 설명하는 원인과 CO₂ 저류를 설명하는 원인을 따로''' 찾아야 한다.\n\n||= 실제 PCO₂와 예측 범위 비교 ||= 해석 ||\n|| '''1.5 × HCO₃⁻ + 8 ± 2''' 안 || 대사성 산증에 대한 호흡 보상이 적절하다. ||\n|| 예측 범위보다 '''높다''' || 필요한 만큼 CO₂를 배출하지 못한다. '''호흡성 산증이 추가'''되어 있다. ||\n|| 예측 범위보다 '''낮다''' || 보상에 필요한 정도보다 더 과호흡한다. '''호흡성 알칼리증이 추가'''되어 있다. ||\n\n=== 선지별로 보면 ===\n* ① 탈수 — 고혈당의 삼투성 이뇨와 섭취 감소 때문에 함께 있을 수 있다. 그러나 탈수만으로 대사성 산증의 보상 방향과 반대로 PCO₂가 60까지 오른 것을 설명하기는 어렵다.\n* ② 신부전 — 산 배설 저하로 대사성 산증을 일으킬 수 있지만 신기능 자료가 없다. 신부전성 산증에서도 호흡 보상은 PCO₂를 낮추는 방향이므로 현재의 CO₂ 저류를 설명하는 답이 되지 않는다.\n* ③ 수면제 복용 — 호흡중추를 억제하면 필요한 과호흡을 하지 못해 CO₂가 쌓일 수 있다. 케톤산증에 더해진 호흡성 산증을 설명하는 선지다. 실제 임상에서는 복용력 등으로 확인해야 하지만, 이 문항의 선택지 중에서는 가장 적절하다.\n* ④ 과도한 산소 공급 — CO₂ 저류에 취약한 일부 환자에서는 산소 유발 고탄산혈증이 문제가 될 수 있다. 하지만 이 환자에게 산소를 투여했다는 정보나 COPD 등 관련 배경이 없다. “산소를 많이 주면 누구나 호흡이 억제된다”는 식으로 고르지 않는다.\n* ⑤ 당뇨병성 케톤산증 발생 — 실제로 이 환자에게 있는 대사성 장애다. 다만 이것만으로는 PCO₂ 60을 설명하지 못한다. 단순 케톤산증이라면 PCO₂가 약 32까지 내려가야 하므로, 추가된 호흡 장애의 원인을 묻는 출제의도에서는 정답이 아니다.\n\n=== 비슷한 수치가 나왔을 때 ===\nHCO₃⁻가 똑같이 16이어도 PCO₂가 '''32라면 적절한 보상, 60이면 호흡성 산증 추가, 25라면 호흡성 알칼리증 추가'''로 달라진다. 당뇨·케톤이라는 단서만 보고 계산을 생략하면 이 차이를 놓친다. Na⁺와 Cl⁻가 없으므로 이 문항의 실제 AG 수치를 계산할 수는 없다.\n\n=== 공식 오답30 원문 풀이 ===\n'''2023 오답30 p.2 — 공식 정답 3번.''' 원문 풀이의 표기는 그대로 두었다.\n\n> pH 7.14 PCO₂ 60 mmHg HCO₃⁻ 16 mEq/L : 호흡 보상이 일어나지 않은 대사성 산증 (당뇨병성 케톤산증) : 호흡 중추 억제\n\n원문 풀이의 pH 7.14는 같은 페이지 발문의 7.19와 다르다. “호흡 보상이 일어나지 않은”은 단순히 보상이 아직 시작되지 않았다는 뜻으로 외우지 않는다. PCO₂가 예상되는 30–34보다 훨씬 높은 '''60'''이므로, 올해 강의의 계산법으로는 '''대사성 산증에 호흡성 산증이 동반'''된 상태다.\n\n~~검사값의 한계: PCO₂ 60과 HCO₃⁻ 16을 Henderson–Hasselbalch 식에 넣으면 pH는 약 7.05로, 발문의 7.19와 일치하지 않는다. 다만 산증이라는 방향과 예측값을 크게 초과한 PCO₂는 변하지 않는다. 원문을 임의로 고치지 않고, 공식 대응 문항과 보상 계산에 근거해 위와 같이 풀이했다.~~~\n\n> '''병명은 케톤산증, 추가로 찾아야 할 이상은 호흡성 산증.''' “왜 산증인가?”에만 답하지 말고 “왜 보상되어야 할 CO₂가 오히려 높은가?”까지 읽는다.\n\n[[4강#2단계: 예측 PCO₂와 실제 PCO₂를 비교한다|Wiki · 2단계: 예측 PCO₂와 실제 PCO₂를 비교한다]]\n~~근거: 39기 「동맥혈가스검사」 8·13·14·15·16·19쪽. 계산에는 강의의 기준값 PCO₂ 40 mmHg, HCO₃⁻ 24 mEq/L를 사용했다.~~~",
+      "explanation": "'''공식 정답: 3번, 수면제 복용.''' 당뇨약을 거르고 고혈당·케톤혈증이 생겼으므로 케톤산증은 맞다. 그런데 케톤산증만 있다면 숨을 더 쉬어 CO₂를 내려야 한다. 이 환자의 PCO₂가 '''60 mmHg로 올라갔다는 점'''이 추가 원인을 찾게 한다.\n\n=== 케톤산증인데 왜 케톤산증이 답이 아닐까 ===\n||= 단서 ||= 읽는 방법 ||\n|| 당뇨약 중단, glucose 750 mg/dL, ketone 7,100 μmol/L || 인슐린 부족에 의한 케톤산증을 뒷받침한다. ||\n|| 낮은 pH, HCO₃⁻ '''16''' || 대사성 산증이 있다. ||\n|| 예상 PCO₂ = 1.5 × 16 + 8 = '''32 ± 2''' || 적절한 호흡 보상이라면 '''30–34 mmHg'''여야 한다. ||\n|| 실제 PCO₂ '''60''' || 예측 범위보다 훨씬 높다. '''호흡성 산증이 겹쳤다.''' ||\n\n대사성 산증에서 호흡은 산을 더 만드는 반응이 아니라 산성 쪽인 CO₂를 내보내는 반응이다. 그러므로 HCO₃⁻가 낮은데 PCO₂가 높다면, 두 변화가 모두 pH를 낮추고 있다. '''HCO₃⁻ 감소를 설명하는 원인과 CO₂ 저류를 설명하는 원인을 따로''' 찾아야 한다.\n\n||= 실제 PCO₂와 예측 범위 비교 ||= 해석 ||\n|| '''1.5 × HCO₃⁻ + 8 ± 2''' 안 || 대사성 산증에 대한 호흡 보상이 적절하다. ||\n|| 예측 범위보다 '''높다''' || 필요한 만큼 CO₂를 배출하지 못한다. '''호흡성 산증이 추가'''되어 있다. ||\n|| 예측 범위보다 '''낮다''' || 보상에 필요한 정도보다 더 과호흡한다. '''호흡성 알칼리증이 추가'''되어 있다. ||\n\n=== 선지별로 보면 ===\n* ① 탈수 — 고혈당의 삼투성 이뇨와 섭취 감소 때문에 함께 있을 수 있다. 그러나 탈수만으로 대사성 산증의 보상 방향과 반대로 PCO₂가 60까지 오른 것을 설명하기는 어렵다.\n* ② 신부전 — 산 배설 저하로 대사성 산증을 일으킬 수 있지만 신기능 자료가 없다. 신부전성 산증에서도 호흡 보상은 PCO₂를 낮추는 방향이므로 현재의 CO₂ 저류를 설명하는 답이 되지 않는다.\n* ③ 수면제 복용 — 호흡중추를 억제하면 필요한 과호흡을 하지 못해 CO₂가 쌓일 수 있다. 케톤산증에 더해진 호흡성 산증을 설명하는 선지다. 실제 임상에서는 복용력 등으로 확인해야 하지만, 이 문항의 선택지 중에서는 가장 적절하다.\n* ④ 과도한 산소 공급 — CO₂ 저류에 취약한 일부 환자에서는 산소 유발 고탄산혈증이 문제가 될 수 있다. 하지만 이 환자에게 산소를 투여했다는 정보나 COPD 등 관련 배경이 없다. “산소를 많이 주면 누구나 호흡이 억제된다”는 식으로 고르지 않는다.\n* ⑤ 당뇨병성 케톤산증 발생 — 실제로 이 환자에게 있는 대사성 장애다. 다만 이것만으로는 PCO₂ 60을 설명하지 못한다. 단순 케톤산증이라면 PCO₂가 약 32까지 내려가야 하므로, 추가된 호흡 장애의 원인을 묻는 출제의도에서는 정답이 아니다.\n\n=== 비슷한 수치가 나왔을 때 ===\nHCO₃⁻가 똑같이 16이어도 PCO₂가 '''32라면 적절한 보상, 60이면 호흡성 산증 추가, 25라면 호흡성 알칼리증 추가'''로 달라진다. 당뇨·케톤이라는 단서만 보고 계산을 생략하면 이 차이를 놓친다. Na⁺와 Cl⁻가 없으므로 이 문항의 실제 AG 수치를 계산할 수는 없다.\n\n=== 공식 오답30 원문 풀이 ===\n'''2023 오답30 p.2 — 공식 정답 3번.''' 원문 풀이의 표기는 그대로 두었다.\n\n> pH 7.14 PCO₂ 60 mmHg HCO₃⁻ 16 mEq/L : 호흡 보상이 일어나지 않은 대사성 산증 (당뇨병성 케톤산증) : 호흡 중추 억제\n\n원문 풀이의 pH 7.14는 같은 페이지 발문의 7.19와 다르다. “호흡 보상이 일어나지 않은”은 단순히 보상이 아직 시작되지 않았다는 뜻으로 외우지 않는다. PCO₂가 예상되는 30–34보다 훨씬 높은 '''60'''이므로, 올해 강의의 계산법으로는 '''대사성 산증에 호흡성 산증이 동반'''된 상태다.\n\n~~검사값의 한계: PCO₂ 60과 HCO₃⁻ 16을 Henderson–Hasselbalch 식에 넣으면 pH는 약 7.05로, 발문의 7.19와 일치하지 않는다. 다만 산증이라는 방향과 예측값을 크게 초과한 PCO₂는 변하지 않는다. 원문을 임의로 고치지 않고, 공식 대응 문항과 보상 계산에 근거해 위와 같이 풀이했다.~~~\n\n> '''병명은 케톤산증, 추가로 찾아야 할 이상은 호흡성 산증.''' “왜 산증인가?”에만 답하지 말고 “왜 보상되어야 할 CO₂가 오히려 높은가?”까지 읽는다.\n\n[[4강#2단계: 예측 PCO₂와 실제 PCO₂를 비교한다|Wiki · 2단계: 예측 PCO₂와 실제 PCO₂를 비교한다]]\n~~근거: 39기 「동맥혈가스검사」 8·13·14·15·16·19쪽. 계산에는 강의의 기준값 PCO₂ 40 mmHg, HCO₃⁻ 24 mEq/L를 사용했다.~~~\n\n=== 공식 원문 해설 ===\n> pH 7.14  PCO 60 mmHg HCO - 16 mEq/L : 2 3 호흡 보상이 일어나지 않은 대사성 산증 (당뇨병성 케톤산증) : 호흡 중추 억제\n\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.47. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김정수",
       "professor": "김정수",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 공개문항 PDF 2쪽 출제자·강의명·문항 내용 대조",
+      "examinerEvidence": "2023 원본.pdf p.47 출제자란 확인",
       "lectureIds": [
         4
       ],
       "lectureId": 4,
       "lectureTitle": "동맥혈가스검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 47번, 오답30 p.2",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.47, 오답30 p.2",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -17244,36 +17827,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 동맥혈가스검사",
-        "pages": [
-          8,
-          13,
-          14,
-          15,
-          16,
-          19
-        ],
-        "chapter": "2단계: 예측 PCO₂와 실제 PCO₂를 비교한다",
-        "answerStatus": "official_answer_with_source_errata",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
-        "officialEvidence": {
-          "questionNumber": 223,
-          "source": "2023 호흡기계 오답30",
-          "page": 2,
-          "answer": 3,
-          "direct": true
-        },
-        "numericalCheck": {
-          "predictedPCO2": 32,
-          "predictedRange": [
-            30,
-            34
-          ],
-          "measuredPCO2": 60,
-          "abgTripletConsistent": false
-        }
+        "officialSourcePage": 47,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 47,
+        "professor": "김정수",
+        "lecture": "동맥혈 가스 검사",
+        "question": "62세 남자가 의식이 혼탁해 진다고 왔다. 당뇨를 앓고 있었으며 최근 감기 기운으로 식사를\n못해 당뇨약을 복용하지 못했다고 한다. Ketone 7100 umol/L, Glucose 750 mg/dL 였다.\n동맥혈 가스 검사가 다음과 같을 때 원인으로 적절한 것은?\npH 7.19 PCO2 60 mmHg HCO3- 16 mEq/L",
+        "choices": [
+          "탈수",
+          "신부전",
+          "수면제 복용",
+          "과도한 산소 공급",
+          "당뇨병성 케톤산증 발생"
+        ],
+        "answer": "3",
+        "explanation": "pH 7.14  PCO 60 mmHg HCO - 16 mEq/L :\n2 3\n호흡 보상이 일어나지 않은 대사성 산증 (당뇨병성 케톤산증) : 호흡 중추 억제\n",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17300,44 +17878,57 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "4번 — 산소포화도",
-      "explanation": "'''정답: 4번, 산소포화도.''' 폐포기체방정식으로 구하는 것은 폐포의 산소 '''분압'''이다. 헤모글로빈이 얼마나 산소로 채워졌는지를 나타내는 '''포화도'''는 이 식의 변수가 아니다.\n\n=== 식을 한 줄로 이해하기 ===\n> '''PAO₂ = FiO₂ × (대기압 − 수증기압) − PaCO₂/RQ'''. 들이마신 공기의 산소에서, 가습과 폐포에 쌓인 CO₂의 몫을 반영한다.\n\n||= 항 ||= 뜻 ||= 대표값·역할 ||\n|| FiO₂ || 흡입 산소 분율 || 실내공기 0.21 ||\n|| 대기압 || 전체 기체가 만드는 압력 || 해수면 760 mmHg ||\n|| 수증기압 || 가습된 공기에서 물이 차지하는 압력 || 37℃에서 47 mmHg ||\n|| PaCO₂ || 동맥혈 CO₂ 분압 || 폐포 CO₂ 분압을 근사하여 사용한다. ||\n|| RQ || CO₂ 생산량/산소 소비량 || 보통 0.8 ||\n|| '''SaO₂''' || 헤모글로빈의 산소포화도 || '''이 식에는 없다.''' 산소 함량·운반량 계산에서 쓰인다. ||\n\n실내공기에서 PaCO₂가 40이면 PAO₂는 0.21 × (760 − 47) − 40/0.8 ≈ '''100 mmHg'''다. 실제 동맥혈 PaO₂를 뺀 값이 A–a 산소차다. PAO₂와 PaO₂도 서로 다른 값이라는 점을 함께 기억한다.\n\n=== 선지별로 보면 ===\n* ① 증기압 — 폐포에서 공기가 가습되므로 대기압에서 수증기압을 빼야 한다. 계산에 필요하다.\n* ② 대기압 — 흡입 산소 분압을 결정한다. 고도가 높아져 대기압이 낮아지면 같은 FiO₂에서도 PAO₂가 낮아진다.\n* ③ 산소 분압 — 표현이 넓다. 흡입 산소 분압은 FiO₂ × (대기압 − 수증기압)으로 식에 반영되고, 폐포 산소 분압은 계산 결과다. 이를 동맥혈 PaO₂라는 별도 입력값으로 오해하지 않는다.\n* ④ 산소포화도 — 식에 들어가지 않는다. 분압과 포화도는 산소해리곡선으로 연결되지만 같은 개념은 아니다.\n* ⑤ 이산화탄소 분압 — PaCO₂/RQ로 반영된다. 다른 조건이 같으면 CO₂가 쌓일수록 폐포 산소 분압이 낮아진다.\n\n> '''PAO₂를 구할 때는 분압의 식, 조직에 운반되는 산소량을 구할 때는 CO·Hb·SaO₂.''' 3번의 포괄적인 표현보다 명백하게 식에 없는 4번을 고르는 문제다.\n\n[[5강#폐포 산소분압은 산소포화도 없이 계산한다|Wiki · 폐포 산소분압은 산소포화도 없이 계산한다]]\n~~근거: 39기 「환기장애」 7·9쪽.~~~",
+      "answerLabel": "4번 — 산소 포화도",
+      "explanation": "'''공식 정답: 4번'''\n\n'''정답: 4번, 산소포화도.''' 폐포기체방정식으로 구하는 것은 폐포의 산소 '''분압'''이다. 헤모글로빈이 얼마나 산소로 채워졌는지를 나타내는 '''포화도'''는 이 식의 변수가 아니다.\n\n=== 식을 한 줄로 이해하기 ===\n> '''PAO₂ = FiO₂ × (대기압 − 수증기압) − PaCO₂/RQ'''. 들이마신 공기의 산소에서, 가습과 폐포에 쌓인 CO₂의 몫을 반영한다.\n\n||= 항 ||= 뜻 ||= 대표값·역할 ||\n|| FiO₂ || 흡입 산소 분율 || 실내공기 0.21 ||\n|| 대기압 || 전체 기체가 만드는 압력 || 해수면 760 mmHg ||\n|| 수증기압 || 가습된 공기에서 물이 차지하는 압력 || 37℃에서 47 mmHg ||\n|| PaCO₂ || 동맥혈 CO₂ 분압 || 폐포 CO₂ 분압을 근사하여 사용한다. ||\n|| RQ || CO₂ 생산량/산소 소비량 || 보통 0.8 ||\n|| '''SaO₂''' || 헤모글로빈의 산소포화도 || '''이 식에는 없다.''' 산소 함량·운반량 계산에서 쓰인다. ||\n\n실내공기에서 PaCO₂가 40이면 PAO₂는 0.21 × (760 − 47) − 40/0.8 ≈ '''100 mmHg'''다. 실제 동맥혈 PaO₂를 뺀 값이 A–a 산소차다. PAO₂와 PaO₂도 서로 다른 값이라는 점을 함께 기억한다.\n\n=== 선지별로 보면 ===\n* ① 증기압 — 폐포에서 공기가 가습되므로 대기압에서 수증기압을 빼야 한다. 계산에 필요하다.\n* ② 대기압 — 흡입 산소 분압을 결정한다. 고도가 높아져 대기압이 낮아지면 같은 FiO₂에서도 PAO₂가 낮아진다.\n* ③ 산소 분압 — 표현이 넓다. 흡입 산소 분압은 FiO₂ × (대기압 − 수증기압)으로 식에 반영되고, 폐포 산소 분압은 계산 결과다. 이를 동맥혈 PaO₂라는 별도 입력값으로 오해하지 않는다.\n* ④ 산소포화도 — 식에 들어가지 않는다. 분압과 포화도는 산소해리곡선으로 연결되지만 같은 개념은 아니다.\n* ⑤ 이산화탄소 분압 — PaCO₂/RQ로 반영된다. 다른 조건이 같으면 CO₂가 쌓일수록 폐포 산소 분압이 낮아진다.\n\n> '''PAO₂를 구할 때는 분압의 식, 조직에 운반되는 산소량을 구할 때는 CO·Hb·SaO₂.''' 3번의 포괄적인 표현보다 명백하게 식에 없는 4번을 고르는 문제다.\n\n[[5강#폐포 산소분압은 산소포화도 없이 계산한다|Wiki · 폐포 산소분압은 산소포화도 없이 계산한다]]\n~~근거: 39기 「환기장애」 7·9쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.48. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김정수",
       "professor": "김정수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.48 출제자란 확인",
       "lectureIds": [
         5
       ],
       "lectureId": 5,
       "lectureTitle": "환기장애",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 48번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.48",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 환기장애 정리본에서 폐포가스식을 직접 다루므로 5강을 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 환기장애",
-        "pages": [
-          7,
-          9
-        ],
-        "chapter": "폐포 산소분압은 산소포화도 없이 계산한다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 48,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 48,
+        "professor": "김정수",
+        "lecture": "환기 장애",
+        "question": "환기의 적절성을 평가하기 위해서는 폐포내 산소 분압의 계산이 필요하다.\n이 계산식에서 변수로 역할을 하지 않는 인자는?",
+        "choices": [
+          "증기압",
+          "대기압",
+          "산소 분압",
+          "산소 포화도",
+          "이산화탄소 분압"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17358,37 +17949,35 @@ window.JBL_DATA = {
         "68세 남자, 의식이 명료한 고탄산혈증 COPD 환자",
         "62세 여자, 폐렴으로 저산소혈증이 있는 급성 호흡부전 환자",
         "79세 남자, 의식이 명료하지 않고 고탄산혈증이 없는 COPD 환자",
-        "45세 남자, 의식이 흐릿한 심부전으로 수축기 혈압이 70 mmHg인 환자"
+        "45세 남자, 의식이 흐릿한 심부전으로 수축이 혈압이 70 mmHg인 환자"
       ],
       "answerIndex": 2,
       "answerIndices": [
         2
       ],
-      "answerLabel": "2번 — 의식이 명료한 고탄산혈증 COPD",
-      "explanation": "'''정답: 2번, 의식이 명료한 고탄산혈증 COPD.''' 질환의 이름과 환자의 현재 상태를 함께 판단하는 문제다. 고탄산혈증은 환기가 모자란다는 단서이고, 명료한 의식은 마스크 치료에 협조하고 기도를 지킬 수 있다는 단서다.\n\n=== 적응증과 금기를 한 세트로 외운다 ===\n||= 적응증 ||= 함께 확인할 조건 ||\n|| 고탄산혈증 COPD의 급성 악화 || 특히 '''호흡성 산증'''이 있고 호흡 부담이 큰 경우 ||\n|| 심인성 폐부종 || '''심인성 쇼크·재관류술이 필요한 상황 제외''' ||\n|| 면역저하 환자의 저산소성 호흡부전 || 기도 보호·분비물 배출·혈역학이 유지되는지 확인 ||\n|| 고위험 환자의 발관 후 || 특히 고탄산혈증이 있을 때의 예방적 적용. 악화 중인 환자의 재삽관을 늦추는 용도로 쓰지 않는다. ||\n\n'''기도 보호 불가, 높은 흡인 위험(구토·상부위장관 출혈), 분비물 배출 곤란, 안면 외상·수술, 상기도 폐쇄, 심한 혈역학적 불안정'''은 강의에서 제시한 흔한 금기다. 병명만 적응증에 들어가면 끝나는 것이 아니다.\n\n=== 선지별로 보면 ===\n* ① 의식이 명료하지 않은 폐부종 — 심인성 폐부종은 적응증이지만, 이 환자는 기도를 지킬 수 있는지를 먼저 평가해야 한다. 병명 하나만 보고 고르지 않는다.\n* ② 의식이 명료한 고탄산혈증 COPD — 가장 적절하다. 기도 보호 가능성을 갖추면서 환기 보조가 필요한 전형적인 병태를 제시했다. 실제 치료에서는 pH와 호흡 부담도 확인한다.\n* ③ 폐렴으로 저산소혈증이 있는 급성 호흡부전 — 모든 폐렴에서 NIV가 금기라는 뜻은 아니다. 다만 면역저하 환자라는 조건이 없고, 저산소성 호흡부전에서 NIV 실패로 삽관이 늦어질 위험이 있어 2번과 같은 전형적 적응증으로 고르기 어렵다.\n* ④ 의식이 명료하지 않고 고탄산혈증도 없는 COPD — COPD라는 이름만으로 NIV 적응증이 되지 않는다. 환기 보조의 근거가 약한 데다 기도 보호의 안전성도 불확실하다.\n* ⑤ 의식이 흐리고 수축기 혈압 70 mmHg인 심부전 — 쇼크와 기도 보호 문제가 함께 있다. 강의의 심인성 폐부종 적응증에서도 심인성 쇼크는 제외한다.\n\n=== 두 가지를 너무 단정해서 외우지 말자 ===\n의식 저하가 모두 같은 정도의 절대 금기는 아니다. 원인·정도·기도 보호 능력을 평가해야 한다. 마찬가지로 '''가래가 있음'''과 '''가래를 스스로 배출하지 못함'''은 다르다. 이 문제는 가장 안전하고 전형적인 적응증을 고르는 것이지, 나머지 환자에게 NIV를 어떤 상황에서도 금지하라는 문제가 아니다.\n\n> 산소가 모자라다는 사실만으로는 부족하다. '''환기 보조가 도움이 되는 병인가 → 기도를 지키는가 → 혈압이 안정적인가'''를 순서대로 본다.\n\n[[5강#NIV는 네 가지 상황에서 쓴다|Wiki · NIV는 네 가지 상황에서 쓴다]]\n~~근거: 39기 「환기장애」 16·19쪽.~~~",
+      "answerLabel": "2번 — 68세 남자, 의식이 명료한 고탄산혈증 COPD 환자",
+      "explanation": "'''공식 정답: 2번'''\n\n'''정답: 2번, 의식이 명료한 고탄산혈증 COPD.''' 질환의 이름과 환자의 현재 상태를 함께 판단하는 문제다. 고탄산혈증은 환기가 모자란다는 단서이고, 명료한 의식은 마스크 치료에 협조하고 기도를 지킬 수 있다는 단서다.\n\n=== 적응증과 금기를 한 세트로 외운다 ===\n||= 적응증 ||= 함께 확인할 조건 ||\n|| 고탄산혈증 COPD의 급성 악화 || 특히 '''호흡성 산증'''이 있고 호흡 부담이 큰 경우 ||\n|| 심인성 폐부종 || '''심인성 쇼크·재관류술이 필요한 상황 제외''' ||\n|| 면역저하 환자의 저산소성 호흡부전 || 기도 보호·분비물 배출·혈역학이 유지되는지 확인 ||\n|| 고위험 환자의 발관 후 || 특히 고탄산혈증이 있을 때의 예방적 적용. 악화 중인 환자의 재삽관을 늦추는 용도로 쓰지 않는다. ||\n\n'''기도 보호 불가, 높은 흡인 위험(구토·상부위장관 출혈), 분비물 배출 곤란, 안면 외상·수술, 상기도 폐쇄, 심한 혈역학적 불안정'''은 강의에서 제시한 흔한 금기다. 병명만 적응증에 들어가면 끝나는 것이 아니다.\n\n=== 선지별로 보면 ===\n* ① 의식이 명료하지 않은 폐부종 — 심인성 폐부종은 적응증이지만, 이 환자는 기도를 지킬 수 있는지를 먼저 평가해야 한다. 병명 하나만 보고 고르지 않는다.\n* ② 의식이 명료한 고탄산혈증 COPD — 가장 적절하다. 기도 보호 가능성을 갖추면서 환기 보조가 필요한 전형적인 병태를 제시했다. 실제 치료에서는 pH와 호흡 부담도 확인한다.\n* ③ 폐렴으로 저산소혈증이 있는 급성 호흡부전 — 모든 폐렴에서 NIV가 금기라는 뜻은 아니다. 다만 면역저하 환자라는 조건이 없고, 저산소성 호흡부전에서 NIV 실패로 삽관이 늦어질 위험이 있어 2번과 같은 전형적 적응증으로 고르기 어렵다.\n* ④ 의식이 명료하지 않고 고탄산혈증도 없는 COPD — COPD라는 이름만으로 NIV 적응증이 되지 않는다. 환기 보조의 근거가 약한 데다 기도 보호의 안전성도 불확실하다.\n* ⑤ 의식이 흐리고 수축기 혈압 70 mmHg인 심부전 — 쇼크와 기도 보호 문제가 함께 있다. 강의의 심인성 폐부종 적응증에서도 심인성 쇼크는 제외한다.\n\n=== 두 가지를 너무 단정해서 외우지 말자 ===\n의식 저하가 모두 같은 정도의 절대 금기는 아니다. 원인·정도·기도 보호 능력을 평가해야 한다. 마찬가지로 '''가래가 있음'''과 '''가래를 스스로 배출하지 못함'''은 다르다. 이 문제는 가장 안전하고 전형적인 적응증을 고르는 것이지, 나머지 환자에게 NIV를 어떤 상황에서도 금지하라는 문제가 아니다.\n\n> 산소가 모자라다는 사실만으로는 부족하다. '''환기 보조가 도움이 되는 병인가 → 기도를 지키는가 → 혈압이 안정적인가'''를 순서대로 본다.\n\n[[5강#NIV는 네 가지 상황에서 쓴다|Wiki · NIV는 네 가지 상황에서 쓴다]]\n~~근거: 39기 「환기장애」 16·19쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.49. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김정수",
       "professor": "김정수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.49 출제자란 확인",
       "lectureIds": [
         5
       ],
       "lectureId": 5,
       "lectureTitle": "환기장애",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 49번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.49",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 환기장애 정리본에서 NIV를 직접 다루므로 5강을 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R020"
@@ -17409,16 +17998,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 환기장애",
-        "pages": [
-          16,
-          19
-        ],
-        "chapter": "NIV는 네 가지 상황에서 쓴다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 49,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 49,
+        "professor": "김정수",
+        "lecture": "환기 장애",
+        "question": "비침습적 양압환기의 적응증으로 적절한 상황은?",
+        "choices": [
+          "7 1세 여자, 의식이 명료하지 않은 폐부종 환자",
+          "68세 남자, 의식이 명료한 고탄산혈증 COPD 환자",
+          "62세 여자, 폐렴으로 저산소혈증이 있는 급성 호흡부전 환자",
+          "79세 남자, 의식이 명료하지 않고 고탄산혈증이 없는 COPD 환자",
+          "45세 남자, 의식이 흐릿한 심부전으로 수축이 혈압이 70 mmHg 인 환자"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17432,48 +18036,51 @@ window.JBL_DATA = {
       "originalNumbers": [
         50
       ],
-      "question": "(2문제 연속됩니다.) 58세 남자가 숨이 차다고 왔다. 5일 전 기침, 가래가 있은 후 3일 전부터 호흡 곤란 악화되었다고 한다. 활력 징후는 170/80 mmHg, 맥박 130 회/분, 호흡수 35회/분, 체온 38.5℃였다. 의식은 혼미하였다. 비강캐뉼라로 분당 5L의 산소를 공급한 후 시행한 동맥혈 가스 검사 pH 7.48 PaCO2 30 mmHg PaO2 52 mmHg SaO2 87% 확인되었다. 가슴 X-선이다. 기계 환기를 적용하기로 결정하였다. 적절한 기계 환기 적용은?",
+      "question": "58세 남자가 숨이 차다고 왔다. 5일 전 기침, 가래가 있은 후 3일 전부터 호흡 곤란 악화되었다고 한다. 활력 증후는 170/80 mmHg, 맥박 130 회/분, 호흡수 35회/분, 체온 38.5℃였다. 의식은 혼미하였다. 비강캐뉼라로 분당 5L의 산소를 공급한 후 시행한 동맥혈 가스 검사 pH 7.48 PaCO2 30 mmHg PaO2 52 mmHg SaO2 87% 확인되었다. 가슴 X-선이다. 기계 환기를 적용하기로 결정하였다. 적절한 기계 환기 적용은?",
       "passage": "",
       "choices": [
         "고원부 평탄압을 35 mmH2O 미만으로 유지하였다",
         "High frequency oscillation ventilation을 적용하였다.",
         "일회 호흡량을 6 mL/predicted body weight 이하로 설정하였다.",
-        "Positive endexpiratory pressure (PEEP)를 4 mmH2O 이하로 유지하였다.",
+        "Postive endexpiratory pressure (PEEP)를 4 mmH2O 이하로 유지하였다.",
         "Plateau pressure – PEEP (Driving pressure)를 15 CmH2O 이상으로 유지하였다."
       ],
       "answerIndex": 3,
       "answerIndices": [
         3
       ],
-      "answerLabel": "3번 — 일회호흡량 6 mL/kg PBW 이하",
-      "explanation": "'''정답: 3번, 일회호흡량 6 mL/kg PBW 이하.'''\n\n감염 뒤 급격히 악화한 호흡곤란과 산소를 주어도 낮은 PaO₂, 혼미한 의식이 제시됐다. ARDS를 염두에 두고 기계환기를 시작할 때의 설정을 묻는다. '''비강캐뉼라 5 L/min은 정확한 FiO₂가 아니므로''' 이 값만으로 P/F와 Berlin 중증도를 확정하지 않는다.\n\n=== 산소를 넣되 남은 폐를 더 다치게 하지 않는다 ===\nARDS에서는 물이 차거나 찌그러진 폐포가 많아 실제로 환기되는 폐는 작다. 이를 '''baby lung'''이라고 한다. 정상 폐에 넣던 큰 숨을 그대로 넣으면 열린 폐포에 용적과 압력이 몰린다. 그래서 산소화만 높이는 것이 아니라 '''일회호흡량과 고원압을 제한'''하면서 치료한다.\n\n||= 항목 ||= 올해 강의의 기준 ||= 이유 ||\n|| 일회호흡량 || '''약 6 mL/kg PBW'''로 낮게. 초기 알고리즘 ≤ 6, 지침 표 4–8 || 남아 있는 작은 폐(baby lung)의 과팽창을 줄인다. ||\n|| 고원압(Pplat) || '''< 30 cmH₂O''' (초기 알고리즘은 ≤ 30) || 흐름을 멈추고 재어 폐포의 팽창 압력을 평가한다. ||\n|| Driving pressure || '''ΔP = Pplat − PEEP = VT/CRS''', 낮추는 방향 || 27쪽 그래프는 15에 기준선을 긋고, 높아질수록 위험이 커지는 관계를 보여 준다. “15 이상 유지”가 아니다. ||\n|| PEEP || 닫힌 폐포를 열어 두며, '''P/F ≤ 200에서 높은 PEEP'''를 고려 || 낮을수록 무조건 안전한 것이 아니다. 산소화·과팽창·순환 반응을 함께 본다. ||\n|| 산소화 || 초기 알고리즘 '''SpO₂ 88–95%''', 가능하면 FiO₂ ≤ 0.6 || 필요한 산소는 공급하되 산소화를 확보한 뒤 과도한 노출을 줄인다. ||\n|| HFOV·흡입 NO || 올해 강의는 '''권고하지 않음''' || 산소 숫자가 오르는 것과 임상 결과가 좋아지는 것은 다르다. ||\n\n=== 선지별로 보면 ===\n* ① Pplat 35 미만 — 30–35를 허용하므로 강의의 목표보다 느슨하다. “미만”이라는 방향만 보고 고르지 말고 기준값 30 cmH₂O를 확인한다.\n* ② HFOV — 산소화 개선 효과만으로 선택하지 않는다. 올해 강의는 압력 손상·저혈압과 관련하여 권고하지 않는다.\n* ③ 일회호흡량 6 mL/kg PBW 이하 — 맞다. 폐포 부종과 무기폐 때문에 실제 환기되는 폐가 작아져 있으므로 정상 크기의 숨을 밀어 넣지 않는다.\n* ④ PEEP 4 이하 — 반복적인 폐포 허탈을 막는 데 필요한 압력까지 과도하게 낮추는 선택이다. P/F ≤ 200에서는 오히려 높은 PEEP를 고려한다.\n* ⑤ Driving pressure 15 이상 — 부적절하다. ΔP는 고원압에서 PEEP를 뺀 값으로, 높게 유지할 목표가 아니라 폐에 가해지는 부담을 살피는 지표다.\n\n=== 변형 선지에 적용하기 ===\n고원압은 기류를 멈추고 재므로 기도 저항의 영향을 분리해 볼 수 있다. 또 같은 고원압이라도 PEEP가 다르면 driving pressure가 달라진다. '''Vt는 낮게, Pplat은 30 미만, ΔP는 낮추는 방향, PEEP는 폐포가 닫히지 않도록''' 각각을 따로 판단해야 한다. “폐 손상이 무서우니 모든 압력을 낮춘다”로 외우면 PEEP 선지에서 틀린다.\n\n~~단위 주의: 선지에 적힌 mmH₂O는 강의에서 사용하는 cmH₂O와 10배 차이가 난다. 발문·선지는 원문대로 보존하고, 풀이에서는 의도된 cmH₂O 기준을 명시했다. 일회호흡량 역시 “mL/kg PBW”가 정확한 단위다.~~~\n\n[[6강#일회호흡량은 6 mL/kg 이하, 고원압은 30 cmH₂O 미만으로 한다|Wiki · 일회호흡량은 6 mL/kg 이하, 고원압은 30 cmH₂O 미만으로 한다]]\n~~근거: 39기 「중환자 의학 I」 3·4·15·18·19·20·21·22·26·27·29·48쪽.~~~",
+      "answerLabel": "3번 — 일회 호흡량을 6 mL/predicted body weight 이하로 설정하였다.",
+      "explanation": "'''공식 정답: 3번'''\n\n'''정답: 3번, 일회호흡량 6 mL/kg PBW 이하.'''\n\n감염 뒤 급격히 악화한 호흡곤란과 산소를 주어도 낮은 PaO₂, 혼미한 의식이 제시됐다. ARDS를 염두에 두고 기계환기를 시작할 때의 설정을 묻는다. '''비강캐뉼라 5 L/min은 정확한 FiO₂가 아니므로''' 이 값만으로 P/F와 Berlin 중증도를 확정하지 않는다.\n\n=== 산소를 넣되 남은 폐를 더 다치게 하지 않는다 ===\nARDS에서는 물이 차거나 찌그러진 폐포가 많아 실제로 환기되는 폐는 작다. 이를 '''baby lung'''이라고 한다. 정상 폐에 넣던 큰 숨을 그대로 넣으면 열린 폐포에 용적과 압력이 몰린다. 그래서 산소화만 높이는 것이 아니라 '''일회호흡량과 고원압을 제한'''하면서 치료한다.\n\n||= 항목 ||= 올해 강의의 기준 ||= 이유 ||\n|| 일회호흡량 || '''약 6 mL/kg PBW'''로 낮게. 초기 알고리즘 ≤ 6, 지침 표 4–8 || 남아 있는 작은 폐(baby lung)의 과팽창을 줄인다. ||\n|| 고원압(Pplat) || '''< 30 cmH₂O''' (초기 알고리즘은 ≤ 30) || 흐름을 멈추고 재어 폐포의 팽창 압력을 평가한다. ||\n|| Driving pressure || '''ΔP = Pplat − PEEP = VT/CRS''', 낮추는 방향 || 27쪽 그래프는 15에 기준선을 긋고, 높아질수록 위험이 커지는 관계를 보여 준다. “15 이상 유지”가 아니다. ||\n|| PEEP || 닫힌 폐포를 열어 두며, '''P/F ≤ 200에서 높은 PEEP'''를 고려 || 낮을수록 무조건 안전한 것이 아니다. 산소화·과팽창·순환 반응을 함께 본다. ||\n|| 산소화 || 초기 알고리즘 '''SpO₂ 88–95%''', 가능하면 FiO₂ ≤ 0.6 || 필요한 산소는 공급하되 산소화를 확보한 뒤 과도한 노출을 줄인다. ||\n|| HFOV·흡입 NO || 올해 강의는 '''권고하지 않음''' || 산소 숫자가 오르는 것과 임상 결과가 좋아지는 것은 다르다. ||\n\n=== 선지별로 보면 ===\n* ① Pplat 35 미만 — 30–35를 허용하므로 강의의 목표보다 느슨하다. “미만”이라는 방향만 보고 고르지 말고 기준값 30 cmH₂O를 확인한다.\n* ② HFOV — 산소화 개선 효과만으로 선택하지 않는다. 올해 강의는 압력 손상·저혈압과 관련하여 권고하지 않는다.\n* ③ 일회호흡량 6 mL/kg PBW 이하 — 맞다. 폐포 부종과 무기폐 때문에 실제 환기되는 폐가 작아져 있으므로 정상 크기의 숨을 밀어 넣지 않는다.\n* ④ PEEP 4 이하 — 반복적인 폐포 허탈을 막는 데 필요한 압력까지 과도하게 낮추는 선택이다. P/F ≤ 200에서는 오히려 높은 PEEP를 고려한다.\n* ⑤ Driving pressure 15 이상 — 부적절하다. ΔP는 고원압에서 PEEP를 뺀 값으로, 높게 유지할 목표가 아니라 폐에 가해지는 부담을 살피는 지표다.\n\n=== 변형 선지에 적용하기 ===\n고원압은 기류를 멈추고 재므로 기도 저항의 영향을 분리해 볼 수 있다. 또 같은 고원압이라도 PEEP가 다르면 driving pressure가 달라진다. '''Vt는 낮게, Pplat은 30 미만, ΔP는 낮추는 방향, PEEP는 폐포가 닫히지 않도록''' 각각을 따로 판단해야 한다. “폐 손상이 무서우니 모든 압력을 낮춘다”로 외우면 PEEP 선지에서 틀린다.\n\n~~단위 주의: 선지에 적힌 mmH₂O는 강의에서 사용하는 cmH₂O와 10배 차이가 난다. 발문·선지는 원문대로 보존하고, 풀이에서는 의도된 cmH₂O 기준을 명시했다. 일회호흡량 역시 “mL/kg PBW”가 정확한 단위다.~~~\n\n[[6강#일회호흡량은 6 mL/kg 이하, 고원압은 30 cmH₂O 미만으로 한다|Wiki · 일회호흡량은 6 mL/kg 이하, 고원압은 30 cmH₂O 미만으로 한다]]\n~~근거: 39기 「중환자 의학 I」 3·4·15·18·19·20·21·22·26·27·29·48쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.50. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q050_01.jpg"
+        "J/2023/official-p050.jpg"
       ],
       "legacyProfessor": "김정수",
       "professor": "김정수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.50 출제자란 확인",
       "lectureIds": [
         6
       ],
       "lectureId": 6,
       "lectureTitle": "중환자의학I",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 50번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.50",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q050_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 50,
+          "file": "J/2023/official-p050.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
         }
       ],
       "repeatFamilyIds": [
@@ -17500,26 +18107,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 중환자 의학 I",
-        "pages": [
-          3,
-          4,
-          15,
-          18,
-          19,
-          20,
-          21,
-          22,
-          26,
-          27,
-          29,
-          48
-        ],
-        "chapter": "일회호흡량은 6 mL/kg 이하, 고원압은 30 cmH₂O 미만으로 한다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 50,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 50,
+        "professor": "김정수",
+        "lecture": "중환자 의학 I",
+        "question": "(2문제 연속 됩니다.)\n58세 남자가 숨이 차다고 왔다. 5일 전 기침, 가래가 있은 후 3일 전부터 호흡 곤란 악화되었\n다고 한다. 활력 증후는 170/80 mmHg, 맥박 130 회/분, 호흡수 35회/분, 체온 38.5℃ 였\n다. 의식은 혼미 하였다. 비강캐뉼라로 분당 5L의 산소를 공급한 후 시행한  동맥혈 가스 검\n사 pH 7.48 PaCO2 30 mmHg PaO2 52 mmHg SaO2 87% 확인 되었다. 가슴 X-선 이다.\n기계 환기를 적용하기로 결정하였다. 적절한 기계 환기 적용은?",
+        "choices": [
+          "고원부 평탄압을 35 mmH2O 미만으로 유지하였다",
+          "High frequency oscillation ventilation을 적용하였다.",
+          "일회 호흡량을 6 mL/predicted body weight 이하로 설정하였다.",
+          "Postive endexpiratory pressure (PEEP)를 4 mmH2O 이하로 유지하였다.",
+          "Plateau pressure – PEEP (Driving pressure)를 15 CmH2O 이상으로 유지하였다."
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17533,43 +18145,53 @@ window.JBL_DATA = {
       "originalNumbers": [
         51
       ],
-      "question": "기관 삽관 후 기계 호흡을 적용하였고 적절한 기계 호흡 모드를 설정하였다. 산소 포화도가 90% 이상으로 유지되지 않아 FiO2 1.0으로 변경하였다. 이후 동맥혈 가스 검사 결과이다. pH 7.32 PaCO2 55 mmHg PaO2 86 mmHg SaO2 95% 먼저 고려할 수 있는 치료는?",
+      "question": "58세 남자가 숨이 차다고 왔다. 5일 전 기침, 가래가 있은 후 3일 전부터 호흡 곤란 악화되었다고 한다. 활력 증후는 170/80 mmHg, 맥박 130 회/분, 호흡수 35회/분, 체온 38.5℃였다. 의식은 혼미하였다. 비강캐뉼라로 분당 5L의 산소를 공급한 후 시행한 동맥혈 가스 검사 pH 7.48 PaCO2 30 mmHg PaO2 52 mmHg SaO2 87% 확인되었다. 가슴 X-선이다.\n\n기관 삽관 후 기계 호흡을 적용하였고 적절한 기계 호흡 모드를 설정하였다. 산소 포화도가 90% 이상으로 유지되지 않아 FiO2 1.0으로 변경하였다. 이후 동맥혈 가스 검사 결과이다. pH 7.32 PaCO2 55 mmHg PaO2 86 mmHg SaO2 95% 먼저 고려할 수 있는 치료는?",
       "passage": "",
       "choices": [
         "Nitric oxide",
         "Tracheostomy",
         "Prone Position",
         "Systemic steroids",
-        "Extracorporeal membrane oxygenation"
+        "Extracoporeal membrane oxygenation"
       ],
       "answerIndex": 3,
       "answerIndices": [
         3
       ],
-      "answerLabel": "3번 — prone position",
-      "explanation": "'''정답: 3번, prone position.''' 적절한 기계환기에도 심한 산소화 장애가 남아 있으므로, 폐의 팽창과 환기 분포를 더 고르게 만드는 prone position을 우선 고려한다.\n\n=== PaO₂만 보지 말고 주고 있는 산소 농도로 나눈다 ===\nFiO₂ 1.0에서 PaO₂가 86이므로 '''P/F = 86'''다. SaO₂가 95%라는 이유로 안심하면 안 된다. 최대 농도의 산소를 주었을 때의 값이기 때문이다. PEEP ≥ 5 등의 조건이 충족된다면 Berlin 기준의 severe 범위에 해당한다.\n\nARDS에서는 물이 차거나 닫힌 폐포에 피만 지나가 shunt가 생긴다. 이 부분에는 산소가 닿지 않으므로 FiO₂만 올리는 데 한계가 있다. 적절한 PEEP로 폐포를 열고, '''prone position으로 폐 팽창을 고르게 만드는 치료'''가 이어지는 이유다.\n\n||= 치료 ||= 적용을 판단하는 기준 ||= 이 문제에서의 위치 ||\n|| 폐보호 환기·PEEP || 낮은 Vt, Pplat 제한, 폐포 허탈을 막을 PEEP || 먼저 적절하게 적용되어 있어야 한다. ||\n|| '''prone position''' || 강의 31쪽: '''P/F ≤ 150''', FiO₂ ≥ 0.6, PEEP ≥ 5, 발생 36시간 이내, '''하루 16시간 이상''' || 기본 환기에도 산소화가 나쁜 환자에서 우선 고려한다. ||\n|| Steroid || 2024년 지침에서 조건부 권고 || 함께 고려할 수 있는 치료다. 즉시 산소화를 개선하기 위한 체위 변경의 대체 순서로 읽지는 않는다. ||\n|| VV-ECMO || 다른 치료를 최적화한 뒤에도 매우 심한 저산소혈증·고탄산혈증이 지속 || prone position 등의 효과를 살핀 다음의 단계다. ||\n|| 흡입 NO || 48쪽 '''Do not recommend''' || 일시적인 산소화 개선과 임상적 이득을 구분한다. ||\n|| 기관절개 || 장기 환기와 기도 관리, 사강·호흡일 감소 || 지금의 심한 산소화 장애에 대한 우선 구제 치료는 아니다. ||\n\n=== 선지별로 보면 ===\n* ① 흡입 NO — 폐혈관 확장으로 산소화가 일시적으로 좋아질 수 있다. 하지만 올해 48쪽은 효과가 약 24시간으로 짧고 급성 신손상과 관련된다는 이유로 권고하지 않는다.\n* ② 기관절개 — 사강과 호흡일, 진정제 필요량을 줄일 수 있지만, 폐포 허탈과 shunt를 당장 해결하기 위한 우선 선택은 아니다.\n* ③ prone position — 이 증례에서 우선 고려할 치료다. 폐의 팽창을 더 고르게 만들고 등쪽 폐의 압박을 줄여 산소화와 폐보호에 도움이 된다. P/F 150 이하에서 권고하는 조건과 시간을 함께 기억한다.\n* ④ 전신 스테로이드 — 강의의 2024년 지침에서는 조건부로 권고한다. 다만 이 문항은 적절한 환기 뒤에도 심한 산소화 장애가 남았을 때 먼저 더할 조치를 묻고 있어 prone position이 더 직접적인 선택이다.\n* ⑤ ECMO — 중요한 구제 치료지만 낮은 산소 수치 하나만으로 바로 고르지 않는다. 폐보호 환기·높은 PEEP·필요한 신경근차단과 prone position 등을 적용했는지, 중증 저산소혈증이 얼마나 지속되는지를 함께 본다.\n\n=== ECMO까지의 경계도 함께 외운다 ===\n37쪽 EOLIA 기준은 최적화된 환기에도 '''P/F < 50이 3시간 넘게, 또는 < 80이 6시간 넘게''' 지속되거나, 심한 고탄산혈증·산증이 지속되는 경우다. 숫자뿐 아니라 선행 치료와 지속 시간을 같이 묻는다. P/F 86이 나쁘다는 사실만으로, 아직 시행하지 않은 prone position을 건너뛰어 ECMO부터 한다는 결론이 나오지는 않는다.\n\n> '''폐보호 환기와 적절한 PEEP에도 산소화가 나쁘면 prone position을 먼저 고려한다.''' 흡입 NO는 일시적인 산소화 개선과 임상적 이득을 구별하고, steroid는 조건부 권고, ECMO는 선행 치료와 중증 저산소혈증의 지속 시간을 함께 판단한다.\n\n[[6강#prone position은 P/F 150 이하에서 하루 16시간 이상 한다|Wiki · prone position은 P/F 150 이하에서 하루 16시간 이상 한다]]\n~~근거: 39기 「중환자 의학 I」 15·29·31·32·33·37·39·45·48쪽.~~~",
-      "images": [],
+      "answerLabel": "3번 — Prone Position",
+      "explanation": "'''공식 정답: 3번'''\n\n'''정답: 3번, prone position.''' 적절한 기계환기에도 심한 산소화 장애가 남아 있으므로, 폐의 팽창과 환기 분포를 더 고르게 만드는 prone position을 우선 고려한다.\n\n=== PaO₂만 보지 말고 주고 있는 산소 농도로 나눈다 ===\nFiO₂ 1.0에서 PaO₂가 86이므로 '''P/F = 86'''다. SaO₂가 95%라는 이유로 안심하면 안 된다. 최대 농도의 산소를 주었을 때의 값이기 때문이다. PEEP ≥ 5 등의 조건이 충족된다면 Berlin 기준의 severe 범위에 해당한다.\n\nARDS에서는 물이 차거나 닫힌 폐포에 피만 지나가 shunt가 생긴다. 이 부분에는 산소가 닿지 않으므로 FiO₂만 올리는 데 한계가 있다. 적절한 PEEP로 폐포를 열고, '''prone position으로 폐 팽창을 고르게 만드는 치료'''가 이어지는 이유다.\n\n||= 치료 ||= 적용을 판단하는 기준 ||= 이 문제에서의 위치 ||\n|| 폐보호 환기·PEEP || 낮은 Vt, Pplat 제한, 폐포 허탈을 막을 PEEP || 먼저 적절하게 적용되어 있어야 한다. ||\n|| '''prone position''' || 강의 31쪽: '''P/F ≤ 150''', FiO₂ ≥ 0.6, PEEP ≥ 5, 발생 36시간 이내, '''하루 16시간 이상''' || 기본 환기에도 산소화가 나쁜 환자에서 우선 고려한다. ||\n|| Steroid || 2024년 지침에서 조건부 권고 || 함께 고려할 수 있는 치료다. 즉시 산소화를 개선하기 위한 체위 변경의 대체 순서로 읽지는 않는다. ||\n|| VV-ECMO || 다른 치료를 최적화한 뒤에도 매우 심한 저산소혈증·고탄산혈증이 지속 || prone position 등의 효과를 살핀 다음의 단계다. ||\n|| 흡입 NO || 48쪽 '''Do not recommend''' || 일시적인 산소화 개선과 임상적 이득을 구분한다. ||\n|| 기관절개 || 장기 환기와 기도 관리, 사강·호흡일 감소 || 지금의 심한 산소화 장애에 대한 우선 구제 치료는 아니다. ||\n\n=== 선지별로 보면 ===\n* ① 흡입 NO — 폐혈관 확장으로 산소화가 일시적으로 좋아질 수 있다. 하지만 올해 48쪽은 효과가 약 24시간으로 짧고 급성 신손상과 관련된다는 이유로 권고하지 않는다.\n* ② 기관절개 — 사강과 호흡일, 진정제 필요량을 줄일 수 있지만, 폐포 허탈과 shunt를 당장 해결하기 위한 우선 선택은 아니다.\n* ③ prone position — 이 증례에서 우선 고려할 치료다. 폐의 팽창을 더 고르게 만들고 등쪽 폐의 압박을 줄여 산소화와 폐보호에 도움이 된다. P/F 150 이하에서 권고하는 조건과 시간을 함께 기억한다.\n* ④ 전신 스테로이드 — 강의의 2024년 지침에서는 조건부로 권고한다. 다만 이 문항은 적절한 환기 뒤에도 심한 산소화 장애가 남았을 때 먼저 더할 조치를 묻고 있어 prone position이 더 직접적인 선택이다.\n* ⑤ ECMO — 중요한 구제 치료지만 낮은 산소 수치 하나만으로 바로 고르지 않는다. 폐보호 환기·높은 PEEP·필요한 신경근차단과 prone position 등을 적용했는지, 중증 저산소혈증이 얼마나 지속되는지를 함께 본다.\n\n=== ECMO까지의 경계도 함께 외운다 ===\n37쪽 EOLIA 기준은 최적화된 환기에도 '''P/F < 50이 3시간 넘게, 또는 < 80이 6시간 넘게''' 지속되거나, 심한 고탄산혈증·산증이 지속되는 경우다. 숫자뿐 아니라 선행 치료와 지속 시간을 같이 묻는다. P/F 86이 나쁘다는 사실만으로, 아직 시행하지 않은 prone position을 건너뛰어 ECMO부터 한다는 결론이 나오지는 않는다.\n\n> '''폐보호 환기와 적절한 PEEP에도 산소화가 나쁘면 prone position을 먼저 고려한다.''' 흡입 NO는 일시적인 산소화 개선과 임상적 이득을 구별하고, steroid는 조건부 권고, ECMO는 선행 치료와 중증 저산소혈증의 지속 시간을 함께 판단한다.\n\n[[6강#prone position은 P/F 150 이하에서 하루 16시간 이상 한다|Wiki · prone position은 P/F 150 이하에서 하루 16시간 이상 한다]]\n~~근거: 39기 「중환자 의학 I」 15·29·31·32·33·37·39·45·48쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.51. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~\n\n공통 증례: {{226}}",
+      "images": [
+        "J/2023/official-p050.jpg"
+      ],
       "legacyProfessor": "김정수",
       "professor": "김정수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.51 출제자란 확인",
       "lectureIds": [
         6
       ],
       "lectureId": 6,
       "lectureTitle": "중환자의학I",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 51번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.51",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
-      "imageProvenance": [],
+      "imageProvenance": [
+        {
+          "source": "2023 원본.pdf",
+          "page": 50,
+          "file": "J/2023/official-p050.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 2
+        }
+      ],
       "repeatFamilyIds": [
         "R022"
       ],
@@ -17594,23 +18216,36 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 중환자 의학 I",
-        "pages": [
-          15,
-          29,
-          31,
-          32,
-          33,
-          37,
-          39,
-          45,
-          48
-        ],
-        "chapter": "prone position은 P/F 150 이하에서 하루 16시간 이상 한다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 51,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 51,
+        "professor": "김정수",
+        "lecture": "중환자 의학 I",
+        "question": "(2문제 연속 됩니다.)\n기관 삽관 후 기계 호흡을 적용하였고 적절한 기계 호흡 모드를 설정하였다. 산소 포화도가\n90% 이상으로 유지 되지 않아 FiO2 1.0으로 변경하였다. 이후 동맥혈 가스 검사 결과이다.\npH 7.32 PaCO2 55 mmHg PaO2 86 mmHg SaO2 95% 먼저 고려할 수 있는 치료는?",
+        "choices": [
+          "Nitric oxide",
+          "Tracheostomy",
+          "Prone Position",
+          "Systemic steroids",
+          "Extracoporeal membrane oxygenation"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "sharedCaseSource": {
+        "globalNumber": 226,
+        "officialSourcePage": 50,
+        "note": "연속 문항의 공통 증례와 흉부 X선을 함께 제시함."
       }
     },
     {
@@ -17637,52 +18272,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n=== 풀이의 핵심 ===\n미숙아에게 무호흡이 반복된다는 병력이 있지만, 발문은 무호흡의 원인 치료가 아니라 '''영아돌연사 예방'''을 묻는다. 이 질문에 직접 맞는 답은 3번, '''supine position으로 재우기'''다.\n\n주 1–2회 반복되는 20초 이상의 무호흡은 별도로 원인을 평가해야 하며 단순히 ‘저위험 BRUE’로 넘길 상황도 아니다. 그러나 그 평가를 한다는 사실이 안전한 수면 원칙을 모니터링으로 대체한다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 빈혈이 실제로 있다면 치료를 고려할 수 있지만 발문에 빈혈이 확인되어 있지 않다. SIDS의 일반적인 예방책을 묻는 질문에 직접 답하지 못한다.\n* 2번: 푹신한 침구는 피한다. 단단하고 평평한 수면 표면과 주변의 부드러운 물건 제거가 원칙이다.\n* 3번: 정답이다. Supine position으로 재운다. 미숙아라는 이유만으로 집에서 다른 위험한 수면 자세를 권장하지 않는다.\n* 4번: 고무젖꼭지를 금지하는 것은 예방 권고와 반대다. 수면 시 사용을 고려할 수 있다.\n* 5번: 무호흡이라는 단어 때문에 그럴듯하지만, 가정용 산소포화도 감시는 SIDS 예방을 대신하지 않는다. 별도 의학적 적응증이 있는 모니터 처방과는 다른 문제다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Sudden infant death syndrome, SIDS'''는 1세 미만 영아가 갑자기 사망하여 부검, 사망 현장 조사, 병력 검토를 시행해도 원인이 설명되지 않는 경우다. 자율신경과 각성 반응의 취약성에 위험한 수면 환경이 겹치는 것으로 이해한다. 뇌간 serotonin 체계, 5-HTT·자율신경계·심장 이온통로 관련 유전적 요인과 에너지 대사 이상 등이 연구되어 왔다.\n\n\n||= 예방 항목 ||= 기억할 내용 ||\n|| '''수면 자세''' || 매번 '''supine position'''으로 재운다. Prone position과 옆으로 재우기는 권장하지 않는다. ||\n|| '''수면 공간''' || 단단하고 평평한 별도의 수면 표면을 사용한다. '''같은 방은 가능하지만 같은 침대는 피한다.''' ||\n|| '''침구''' || 베개·푹신한 이불·인형 등 부드러운 물건을 아기 주변에서 치운다. ||\n|| 수유 || 모유수유를 권장한다. ||\n|| 고무젖꼭지 || 수면 시 사용을 고려할 수 있다. 모유수유가 자리 잡은 뒤 사용하며 억지로 물리지 않는다. ||\n|| 환경 || 임신 중과 출생 후 흡연·간접흡연을 피하고 과열·과도한 보온을 피한다. ||\n|| 기본 관리 || 산전 관리를 받고 권장 예방접종을 시행한다. ||\n|| 모니터링 || '''가정용 산소포화도·심폐 모니터를 SIDS 예방 목적으로 사용하지 않는다.''' 별도 질환의 의학적 적응증은 구분한다. ||\n|| 교육 || 퇴원 전 보호자에게 안전한 수면 환경을 설명한다. ||\n\n> 반복 무호흡이 있는 영아는 원인을 따로 평가해야 한다. 그러나 “SIDS를 예방하는 방법”을 물으면 안전한 수면 자세와 환경이 답이지, 모니터 하나로 위험을 없애는 것이 답은 아니다.\n\n강의의 미국 연간 약 3,500명이라는 수치는 SIDS만의 빈도로 외우기보다 원인 불명 사망·우발적 질식 등을 포함한 수면 관련 영아사망의 맥락과 구분해 읽는다. [[https://www.aap.org/en/patient-care/safe-sleep/|AAP 안전한 수면 자료]]에서 이 예방 원칙을 함께 확인할 수 있다.\n\n[[27강#SIDS 예방은 수면 환경을 바꾸는 일이다|SIDS 예방은 수면 환경을 바꾸는 일이다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH1」 14–21쪽; 38기 자료.~~~",
+      "answerLabel": "3번 — 똑바로 눕히기",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③\n\n=== 풀이의 핵심 ===\n미숙아에게 무호흡이 반복된다는 병력이 있지만, 발문은 무호흡의 원인 치료가 아니라 '''영아돌연사 예방'''을 묻는다. 이 질문에 직접 맞는 답은 3번, '''supine position으로 재우기'''다.\n\n주 1–2회 반복되는 20초 이상의 무호흡은 별도로 원인을 평가해야 하며 단순히 ‘저위험 BRUE’로 넘길 상황도 아니다. 그러나 그 평가를 한다는 사실이 안전한 수면 원칙을 모니터링으로 대체한다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 빈혈이 실제로 있다면 치료를 고려할 수 있지만 발문에 빈혈이 확인되어 있지 않다. SIDS의 일반적인 예방책을 묻는 질문에 직접 답하지 못한다.\n* 2번: 푹신한 침구는 피한다. 단단하고 평평한 수면 표면과 주변의 부드러운 물건 제거가 원칙이다.\n* 3번: 정답이다. Supine position으로 재운다. 미숙아라는 이유만으로 집에서 다른 위험한 수면 자세를 권장하지 않는다.\n* 4번: 고무젖꼭지를 금지하는 것은 예방 권고와 반대다. 수면 시 사용을 고려할 수 있다.\n* 5번: 무호흡이라는 단어 때문에 그럴듯하지만, 가정용 산소포화도 감시는 SIDS 예방을 대신하지 않는다. 별도 의학적 적응증이 있는 모니터 처방과는 다른 문제다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Sudden infant death syndrome, SIDS'''는 1세 미만 영아가 갑자기 사망하여 부검, 사망 현장 조사, 병력 검토를 시행해도 원인이 설명되지 않는 경우다. 자율신경과 각성 반응의 취약성에 위험한 수면 환경이 겹치는 것으로 이해한다. 뇌간 serotonin 체계, 5-HTT·자율신경계·심장 이온통로 관련 유전적 요인과 에너지 대사 이상 등이 연구되어 왔다.\n\n\n||= 예방 항목 ||= 기억할 내용 ||\n|| '''수면 자세''' || 매번 '''supine position'''으로 재운다. Prone position과 옆으로 재우기는 권장하지 않는다. ||\n|| '''수면 공간''' || 단단하고 평평한 별도의 수면 표면을 사용한다. '''같은 방은 가능하지만 같은 침대는 피한다.''' ||\n|| '''침구''' || 베개·푹신한 이불·인형 등 부드러운 물건을 아기 주변에서 치운다. ||\n|| 수유 || 모유수유를 권장한다. ||\n|| 고무젖꼭지 || 수면 시 사용을 고려할 수 있다. 모유수유가 자리 잡은 뒤 사용하며 억지로 물리지 않는다. ||\n|| 환경 || 임신 중과 출생 후 흡연·간접흡연을 피하고 과열·과도한 보온을 피한다. ||\n|| 기본 관리 || 산전 관리를 받고 권장 예방접종을 시행한다. ||\n|| 모니터링 || '''가정용 산소포화도·심폐 모니터를 SIDS 예방 목적으로 사용하지 않는다.''' 별도 질환의 의학적 적응증은 구분한다. ||\n|| 교육 || 퇴원 전 보호자에게 안전한 수면 환경을 설명한다. ||\n\n> 반복 무호흡이 있는 영아는 원인을 따로 평가해야 한다. 그러나 “SIDS를 예방하는 방법”을 물으면 안전한 수면 자세와 환경이 답이지, 모니터 하나로 위험을 없애는 것이 답은 아니다.\n\n강의의 미국 연간 약 3,500명이라는 수치는 SIDS만의 빈도로 외우기보다 원인 불명 사망·우발적 질식 등을 포함한 수면 관련 영아사망의 맥락과 구분해 읽는다. [[https://www.aap.org/en/patient-care/safe-sleep/|AAP 안전한 수면 자료]]에서 이 예방 원칙을 함께 확인할 수 있다.\n\n[[27강#SIDS 예방은 수면 환경을 바꾸는 일이다|SIDS 예방은 수면 환경을 바꾸는 일이다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH1」 14–21쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.52. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.52 출제자란 확인",
       "lectureIds": [
         27
       ],
       "lectureId": 27,
       "lectureTitle": "소아호흡기 II-영유아 호흡기 질환과 선천기도 기형",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 52번",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.52",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lectures27_28_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 52,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\27. 2026 소아호흡기학 JH1.pdf",
-            "description": "39기 「2026 소아호흡기학 JH1」 14–21쪽; 38기 자료"
-          },
-          {
-            "kind": "annotated_prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 52,
+        "professor": "김정희",
+        "lecture": "소아호흡기 II-영유아 호흡기 질환과 선천폐기도기형",
+        "question": "32주 미숙아로 태어나 출생후 3개월인 남아가 수면중 주 1-2회 20초 이상 중추\n무호흡이 관찰된다. 다음 중 영아돌연사를 예방하기 위한 적절한 방법은?",
+        "choices": [
+          "빈혈 치료",
+          "푹신한 침구",
+          "똑바로 눕히기",
+          "고무젖꼭지 사용금지",
+          "가정용 산소포화도기기로 산소포화도 감시"
         ],
-        "chapter": "SIDS 예방은 수면 환경을 바꾸는 일이다",
-        "basis": "39기 「2026 소아호흡기학 JH1」 14–21쪽; 38기 자료"
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17709,52 +18349,57 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ①",
-      "explanation": "정답: ①\n\n=== 풀이의 핵심 ===\n생후 2주부터 시작한 흡기성 stridor, supine position이나 울 때의 악화, 성장하면서 초기 수개월간 소리가 커지는 경과는 '''후두연화증'''에 전형적이다. 그런데 수유가 가능하고 성장곡선을 유지한다. 이 문제는 후두연화증을 확인하는 검사의 이름보다 '''경증 환자에게 필요한 다음 조치'''를 묻기 때문에 경과 관찰을 고른다.\n\n후두경은 실제 진단을 확인하고 다른 병변을 배제하는 데 유용하다. 따라서 ‘관찰이 답’이라는 이유로 후두경이 쓸모없다고 외우지 않는다. 저산소증·심한 호흡곤란·수유 장애·성장부전이 있으면 적극적인 기도 평가와 수술 고려로 판단이 바뀐다. Prone position에서 소리가 줄어드는 것은 진단 단서이지, 영아를 그 자세로 재우라는 권고가 아니다.\n\n=== 선지별 해설 ===\n* 1번: 정답이다. 성장과 수유가 유지되는 전형적인 경증 후두연화증의 치료 방향이다. 악화 징후와 성장 상태는 추적한다.\n* 2번: 진단 확인에는 유용하다. 다만 증례가 경증의 자연경과와 정상 성장을 강조하며 치료·관리의 다음 조치를 묻는 맥락에서는 관찰이 의도된 답이다.\n* 3번: 성문상부가 흡기에 무너지는 동적 현상을 단순 측면 X선만으로 충분히 평가하기 어렵다.\n* 4번: 산소포화도 측정은 진료 중 안전성을 확인하는 데 도움이 된다. 그러나 현재 저산소증을 의심시키는 소견 없이 정상 성장하는 전형적 경증의 관리 방향을 대신하는 정답은 아니다.\n* 5번: 저산소증이 제시되어 있지 않아 산소 공급부터 할 근거가 없다. 산소를 준다고 후두의 동적 허탈 자체가 해결되는 것도 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Stridor'''는 상기도가 좁아져 생기는 거친 호흡음으로, 특히 흡기성 소리가 후두의 폐쇄를 시사한다. 위치와 고정성에 따라 흡기·호기 양쪽에서 들리기도 한다. 목소리가 약해짐, 사레, 호흡곤란·청색증이 동반되면 소리 자체보다 기도 안전성을 먼저 판단한다.\n\n'''Laryngomalacia'''는 가장 흔한 선천성 후두 stridor의 원인이다. 부드러운 성문상부 조직이 흡기 때 안으로 말려 들어가 통로를 좁힌다. 남아에서 더 흔하며 강의는 약 2.5배로 제시한다.\n\n* '''시작''': 출생 직후 또는 생후 2주 이내에 나타난다.\n* '''경과''': 생후 수개월 동안 커지다가 약 6개월 전후 심해진 뒤 성장하면서 호전하는 양상이 흔하다.\n* '''악화''': 울거나 흥분할 때, 수유 때, supine position에서 더 뚜렷하다.\n* '''완화 단서''': prone position에서 소리가 줄 수 있다. 이는 진단 단서이며 안전한 영아 수면 자세를 바꾸라는 뜻이 아니다.\n* '''경증의 조건''': 수유가 가능하고 체중·키가 성장곡선을 유지하며 저산소증이나 심한 호흡곤란이 없다.\n\n||= 판단 ||= 조치 ||\n|| 전형적인 경증 양상, 정상 수유·성장 || '''경과 관찰'''하면서 악화와 성장 상태를 확인한다. ||\n|| 진단 확인 또는 비전형적·지속적인 증상 || 후두경으로 성문상부의 동적 허탈을 확인한다. ||\n|| 심한 호흡곤란·저산소증·무호흡·수유 장애·성장부전 || 기도 평가와 적극적 치료가 필요하며 '''supraglottoplasty'''를 고려한다. ||\n\n후두 web, cyst·laryngocele, laryngotracheoesophageal cleft, 성대 운동 이상, 성문하 협착과 외부 압박을 감별한다. 출생 초기에는 영아 tetany와 출생손상에 따른 후두부종도 고려하며, 후두종양·혈관종·림프관종, 대설증과 하악골 발육저하도 기도를 좁힐 수 있다. 강의는 동반 기도 병변의 빈도를 15–60%로 제시하지만 대상군에 따라 차이가 크다. “치료는 관찰”과 “진단을 확인하는 검사는 후두경”을 서로 모순으로 읽지 않는 것이 중요하다.\n\n[[27강#성장과 수유가 괜찮은 흡기성 stridor는 후두연화증이다|성장과 수유가 괜찮은 흡기성 stridor는 후두연화증이다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH1」 52–56쪽; 38기 자료.~~~",
+      "answerLabel": "1번 — 경과관찰",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: ①\n\n=== 풀이의 핵심 ===\n생후 2주부터 시작한 흡기성 stridor, supine position이나 울 때의 악화, 성장하면서 초기 수개월간 소리가 커지는 경과는 '''후두연화증'''에 전형적이다. 그런데 수유가 가능하고 성장곡선을 유지한다. 이 문제는 후두연화증을 확인하는 검사의 이름보다 '''경증 환자에게 필요한 다음 조치'''를 묻기 때문에 경과 관찰을 고른다.\n\n후두경은 실제 진단을 확인하고 다른 병변을 배제하는 데 유용하다. 따라서 ‘관찰이 답’이라는 이유로 후두경이 쓸모없다고 외우지 않는다. 저산소증·심한 호흡곤란·수유 장애·성장부전이 있으면 적극적인 기도 평가와 수술 고려로 판단이 바뀐다. Prone position에서 소리가 줄어드는 것은 진단 단서이지, 영아를 그 자세로 재우라는 권고가 아니다.\n\n=== 선지별 해설 ===\n* 1번: 정답이다. 성장과 수유가 유지되는 전형적인 경증 후두연화증의 치료 방향이다. 악화 징후와 성장 상태는 추적한다.\n* 2번: 진단 확인에는 유용하다. 다만 증례가 경증의 자연경과와 정상 성장을 강조하며 치료·관리의 다음 조치를 묻는 맥락에서는 관찰이 의도된 답이다.\n* 3번: 성문상부가 흡기에 무너지는 동적 현상을 단순 측면 X선만으로 충분히 평가하기 어렵다.\n* 4번: 산소포화도 측정은 진료 중 안전성을 확인하는 데 도움이 된다. 그러나 현재 저산소증을 의심시키는 소견 없이 정상 성장하는 전형적 경증의 관리 방향을 대신하는 정답은 아니다.\n* 5번: 저산소증이 제시되어 있지 않아 산소 공급부터 할 근거가 없다. 산소를 준다고 후두의 동적 허탈 자체가 해결되는 것도 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Stridor'''는 상기도가 좁아져 생기는 거친 호흡음으로, 특히 흡기성 소리가 후두의 폐쇄를 시사한다. 위치와 고정성에 따라 흡기·호기 양쪽에서 들리기도 한다. 목소리가 약해짐, 사레, 호흡곤란·청색증이 동반되면 소리 자체보다 기도 안전성을 먼저 판단한다.\n\n'''Laryngomalacia'''는 가장 흔한 선천성 후두 stridor의 원인이다. 부드러운 성문상부 조직이 흡기 때 안으로 말려 들어가 통로를 좁힌다. 남아에서 더 흔하며 강의는 약 2.5배로 제시한다.\n\n* '''시작''': 출생 직후 또는 생후 2주 이내에 나타난다.\n* '''경과''': 생후 수개월 동안 커지다가 약 6개월 전후 심해진 뒤 성장하면서 호전하는 양상이 흔하다.\n* '''악화''': 울거나 흥분할 때, 수유 때, supine position에서 더 뚜렷하다.\n* '''완화 단서''': prone position에서 소리가 줄 수 있다. 이는 진단 단서이며 안전한 영아 수면 자세를 바꾸라는 뜻이 아니다.\n* '''경증의 조건''': 수유가 가능하고 체중·키가 성장곡선을 유지하며 저산소증이나 심한 호흡곤란이 없다.\n\n||= 판단 ||= 조치 ||\n|| 전형적인 경증 양상, 정상 수유·성장 || '''경과 관찰'''하면서 악화와 성장 상태를 확인한다. ||\n|| 진단 확인 또는 비전형적·지속적인 증상 || 후두경으로 성문상부의 동적 허탈을 확인한다. ||\n|| 심한 호흡곤란·저산소증·무호흡·수유 장애·성장부전 || 기도 평가와 적극적 치료가 필요하며 '''supraglottoplasty'''를 고려한다. ||\n\n후두 web, cyst·laryngocele, laryngotracheoesophageal cleft, 성대 운동 이상, 성문하 협착과 외부 압박을 감별한다. 출생 초기에는 영아 tetany와 출생손상에 따른 후두부종도 고려하며, 후두종양·혈관종·림프관종, 대설증과 하악골 발육저하도 기도를 좁힐 수 있다. 강의는 동반 기도 병변의 빈도를 15–60%로 제시하지만 대상군에 따라 차이가 크다. “치료는 관찰”과 “진단을 확인하는 검사는 후두경”을 서로 모순으로 읽지 않는 것이 중요하다.\n\n[[27강#성장과 수유가 괜찮은 흡기성 stridor는 후두연화증이다|성장과 수유가 괜찮은 흡기성 stridor는 후두연화증이다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH1」 52–56쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.53. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김정희",
       "professor": "김정희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.53 출제자란 확인",
       "lectureIds": [
         27
       ],
       "lectureId": 27,
       "lectureTitle": "소아호흡기 II-영유아 호흡기 질환과 선천기도 기형",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 53번",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.53",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lectures27_28_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 53,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\27. 2026 소아호흡기학 JH1.pdf",
-            "description": "39기 「2026 소아호흡기학 JH1」 52–56쪽; 38기 자료"
-          },
-          {
-            "kind": "annotated_prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 53,
+        "professor": "김정희",
+        "lecture": "소아호흡기 II-영유아 호흡기 질환과 선천폐기도기형",
+        "question": "4개월 남아로 생후 2주경부터 들숨시에 천음이 발생하여 점차 소리가 더 커진다고 병원에 왔\n다. 똑바로 누이면 엎어 놓을 때 보다 더 심하고 울 때 특히 커진다고 하였다. 키와 체중 발\n달은 출생시의 퍼센타일과 동일하였다. 다음 단계의 조치는?",
+        "choices": [
+          "경과관찰",
+          "후두내시경",
+          "경부 측면X-ray",
+          "산소포화도 측정",
+          "저유량 산소공급"
         ],
-        "chapter": "성장과 수유가 괜찮은 흡기성 stridor는 후두연화증이다",
-        "basis": "39기 「2026 소아호흡기학 JH1」 52–56쪽; 38기 자료"
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17781,61 +18426,67 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n=== 풀이의 핵심 ===\n신생아·어린 영아에서 한쪽 폐영역이 검고 과도하게 부풀고 다른 폐를 압박한다. '''선천 폐엽 과팽창(CLO, 과거 CLE)'''이 가장 적절하다. 기흉과 달리 과팽창한 영역 안에 가는 혈관 음영이 남는지를 보고, 여러 낭이 모인 CPAM과도 구별한다.\n\n제시된 저해상도 X선 한 장으로 정확한 폐엽까지 무리하게 확정하지 않는다. 중요한 것은 과팽창한 폐실질·주변 압박이라는 형태이며, 치료는 안정적인지 진행하는 심한 호흡곤란인지에 따라 보존적 관리와 lobectomy로 나뉜다.\n\n=== 선지별 해설 ===\n* 1번: 기관지낭은 기도·종격동 주변의 낭성 종괴로 압박을 일으킨다. 사진처럼 폐엽 자체가 전반적으로 검고 커진 모습과 구분한다.\n* 2번: 폐분리증은 정상 기관지와 연결되지 않은 조직의 전신동맥 공급이 핵심이다. 사진의 한 폐엽 과팽창을 설명하는 가장 적절한 선택지는 아니다.\n* 3번: 정답이다. 부분적인 기관지 폐쇄로 한 폐엽이 과팽창하고 주변 정상 폐를 압박하는 선천 폐엽 과팽창이다. 기흉과 달리 과팽창한 폐 안에 혈관 음영이 남는다.\n* 4번: CPAM은 여러 낭성 공간 또는 고형 병변을 이루는 발달 이상이다. 사진은 다발 낭의 경계보다 폐엽 전체의 과팽창과 주변 압박을 보여 준다.\n* 5번: PA sling은 우폐동맥에서 나온 좌폐동맥이 기관 뒤·식도 앞을 지나 기도를 압박하는 기형이다. 이를 진단하려면 혈관의 기시·주행을 확인해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Congenital lobar overinflation, CLO'''는 선천대엽폐기종 또는 CLE라고도 부른다. 성인 emphysema처럼 폐포벽이 파괴되어야 하는 질환이 아니라, 한 폐엽이 과도하게 팽창하는 상태다. 기관지 연골 이상·협착·외부 압박이 부분 폐쇄를 만들어 공기가 들어오고 나가는 균형을 깨뜨린다.\n\n'''좌상엽'''이 가장 흔하며 우중엽·우상엽에도 생긴다. 부푼 폐엽은 같은 쪽의 나머지 폐와 횡경막을 누르고, 종격동을 반대쪽으로 밀어 반대 폐까지 압박할 수 있다. 영아의 호흡곤란·빈호흡·천명·청색증은 이 과팽창과 주변 정상 폐의 압박으로 설명된다.\n\n\n||= 비교 ||= 폐엽 과팽창 ||= 기흉 ||\n|| 검게 보이는 곳 || 공기가 많은 '''폐 실질''' || 흉막강의 공기 ||\n|| 혈관 음영 || 적고 가늘어도 '''남아 있다.''' || 흉막선 바깥의 공기 공간에는 없다. ||\n|| 핵심 구조 || 팽창한 엽과 눌린 다른 폐 || 흉막선과 안쪽으로 허탈된 폐 ||\n|| 종격동 이동 || 심한 경우 가능 || 긴장성 기흉에서 가능 ||\n\n\n> 검다는 이유만으로 기흉이라고 하지 않는다. “공기가 폐 안에 있는가, 흉막강에 있는가?”를 혈관 음영과 흉막선으로 판단한다. 다발 낭으로 나뉘는 CPAM과도 구별한다.\n\n상태가 안정적이면 보존적 치료와 과도한 팽창을 피하는 gentle ventilation을 고려한다. 그러나 '''진행하는 심한 호흡곤란'''이 있으면 응급 '''lobectomy'''가 필요하다. 한 폐엽의 과팽창 때문에 정상 폐가 눌리는 구조이므로, 중증에서는 병변을 제거해 정상 폐가 펴질 공간을 만드는 것이다.\n\n[[28강#폐엽 과팽창은 검게 보이는 폐 안의 혈관을 찾는다|폐엽 과팽창은 검게 보이는 폐 안의 혈관을 찾는다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH2」 13–18쪽; 38기 자료.~~~",
+      "answerLabel": "3번 — 선천 폐엽폐기종",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③\n\n=== 풀이의 핵심 ===\n신생아·어린 영아에서 한쪽 폐영역이 검고 과도하게 부풀고 다른 폐를 압박한다. '''선천 폐엽 과팽창(CLO, 과거 CLE)'''이 가장 적절하다. 기흉과 달리 과팽창한 영역 안에 가는 혈관 음영이 남는지를 보고, 여러 낭이 모인 CPAM과도 구별한다.\n\n제시된 저해상도 X선 한 장으로 정확한 폐엽까지 무리하게 확정하지 않는다. 중요한 것은 과팽창한 폐실질·주변 압박이라는 형태이며, 치료는 안정적인지 진행하는 심한 호흡곤란인지에 따라 보존적 관리와 lobectomy로 나뉜다.\n\n=== 선지별 해설 ===\n* 1번: 기관지낭은 기도·종격동 주변의 낭성 종괴로 압박을 일으킨다. 사진처럼 폐엽 자체가 전반적으로 검고 커진 모습과 구분한다.\n* 2번: 폐분리증은 정상 기관지와 연결되지 않은 조직의 전신동맥 공급이 핵심이다. 사진의 한 폐엽 과팽창을 설명하는 가장 적절한 선택지는 아니다.\n* 3번: 정답이다. 부분적인 기관지 폐쇄로 한 폐엽이 과팽창하고 주변 정상 폐를 압박하는 선천 폐엽 과팽창이다. 기흉과 달리 과팽창한 폐 안에 혈관 음영이 남는다.\n* 4번: CPAM은 여러 낭성 공간 또는 고형 병변을 이루는 발달 이상이다. 사진은 다발 낭의 경계보다 폐엽 전체의 과팽창과 주변 압박을 보여 준다.\n* 5번: PA sling은 우폐동맥에서 나온 좌폐동맥이 기관 뒤·식도 앞을 지나 기도를 압박하는 기형이다. 이를 진단하려면 혈관의 기시·주행을 확인해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Congenital lobar overinflation, CLO'''는 선천대엽폐기종 또는 CLE라고도 부른다. 성인 emphysema처럼 폐포벽이 파괴되어야 하는 질환이 아니라, 한 폐엽이 과도하게 팽창하는 상태다. 기관지 연골 이상·협착·외부 압박이 부분 폐쇄를 만들어 공기가 들어오고 나가는 균형을 깨뜨린다.\n\n'''좌상엽'''이 가장 흔하며 우중엽·우상엽에도 생긴다. 부푼 폐엽은 같은 쪽의 나머지 폐와 횡경막을 누르고, 종격동을 반대쪽으로 밀어 반대 폐까지 압박할 수 있다. 영아의 호흡곤란·빈호흡·천명·청색증은 이 과팽창과 주변 정상 폐의 압박으로 설명된다.\n\n\n||= 비교 ||= 폐엽 과팽창 ||= 기흉 ||\n|| 검게 보이는 곳 || 공기가 많은 '''폐 실질''' || 흉막강의 공기 ||\n|| 혈관 음영 || 적고 가늘어도 '''남아 있다.''' || 흉막선 바깥의 공기 공간에는 없다. ||\n|| 핵심 구조 || 팽창한 엽과 눌린 다른 폐 || 흉막선과 안쪽으로 허탈된 폐 ||\n|| 종격동 이동 || 심한 경우 가능 || 긴장성 기흉에서 가능 ||\n\n\n> 검다는 이유만으로 기흉이라고 하지 않는다. “공기가 폐 안에 있는가, 흉막강에 있는가?”를 혈관 음영과 흉막선으로 판단한다. 다발 낭으로 나뉘는 CPAM과도 구별한다.\n\n상태가 안정적이면 보존적 치료와 과도한 팽창을 피하는 gentle ventilation을 고려한다. 그러나 '''진행하는 심한 호흡곤란'''이 있으면 응급 '''lobectomy'''가 필요하다. 한 폐엽의 과팽창 때문에 정상 폐가 눌리는 구조이므로, 중증에서는 병변을 제거해 정상 폐가 펴질 공간을 만드는 것이다.\n\n[[28강#폐엽 과팽창은 검게 보이는 폐 안의 혈관을 찾는다|폐엽 과팽창은 검게 보이는 폐 안의 혈관을 찾는다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH2」 13–18쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.54. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q054_01.jpg"
+        "J/2023/official-p054.jpg"
       ],
       "legacyProfessor": "김정희",
       "professor": "김정희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.54 출제자란 확인",
       "lectureIds": [
         28
       ],
       "lectureId": 28,
       "lectureTitle": "소아호흡기 II - 기도이물과 흡인 폐렴",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 54번",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.54",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 문제의 신생아 X선이 김정희 두 번째 수업 강의록 17쪽 선천폐엽폐기종 사진과 동일하다. 28강은 제목과 달리 전반부에 선천폐질환도 포함한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q054_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 54,
+          "file": "J/2023/official-p054.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lectures27_28_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 54,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\28. 2026 소아호흡기학 JH2.pdf",
-            "description": "39기 「2026 소아호흡기학 JH2」 13–18쪽; 38기 자료"
-          },
-          {
-            "kind": "annotated_prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 54,
+        "professor": "김정희",
+        "lecture": "소아호흡기 II-영유아 호흡기 질환과 선천폐기도기형",
+        "question": "2주된 신생아가 호흡곤란을 보여 입원하였다. 다음은 환자의 가슴 사진이다. 진단은?",
+        "choices": [
+          "기관지낭.",
+          "폐분리증",
+          "선천 폐엽폐기종",
+          "선천 폐기관기형 (낭성샘종양기형)",
+          "폐동맥걸이 (pulmonary artery sling)"
         ],
-        "chapter": "폐엽 과팽창은 검게 보이는 폐 안의 혈관을 찾는다",
-        "basis": "39기 「2026 소아호흡기학 JH2」 13–18쪽; 38기 자료"
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17862,59 +18513,67 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ①",
-      "explanation": "정답: ①\n\n=== 풀이의 핵심 ===\n건강하던 아이가 감기 전구증상 없이 갑자기 기침·천명을 보이고, 영상에서 좌측 폐가 상대적으로 검고 부풀어 있다. '''기도이물의 check-valve 폐쇄'''로 공기가 들어간 뒤 잘 빠져나오지 않는 상황이 가장 적절하다. 천명이 있다고 모두 천식은 아니며, 갑작스러운 시작과 비대칭이 진단을 이끈다.\n\n방사선투과성 이물은 X선에 직접 보이지 않을 수 있고 영상이 정상이어도 배제되지 않는다. 의심이 충분하면 rigid bronchoscopy로 확인과 제거를 함께 한다.\n\n=== 선지별 해설 ===\n* 1번: 정답이다. 감기 증상 없이 돌발적으로 시작하고 천식·기관지염 치료에 반응하지 않는 천명과 일측 과팽창은 이물 의심을 높인다. 복원 선지의 ‘기관이물’은 이 맥락의 기도이물을 가리킨다.\n* 2번: 흡인폐렴이라면 위험요인과 의존 부위 침윤을 함께 보아야 한다. 여기서는 갑작스러운 기도 폐쇄와 air trapping이 중심이다.\n* 3번: 역류는 수유·식사와 연관된 반복 증상을 만들 수 있으나, 한 번에 갑자기 시작한 국소 기도 폐쇄 양상의 우선 진단은 아니다.\n* 4번: 선천 폐엽 과팽창과 영상이 겹칠 수 있으나 평소 건강하다 갑자기 시작한 임상 경과가 이물 쪽을 지지한다.\n* 5번: 치료 반응이 없다는 이유로 바로 난치성 천식이라고 붙이면 안 된다. 이물처럼 천식을 흉내 내는 구조적 원인을 먼저 배제해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n평소 건강하던 아이가 먹거나 놀던 중 갑자기 기침하고 쌕쌕거린다면 '''foreign body aspiration'''을 의심한다. 감기 증상 없이 발작적으로 시작하고 기관지염·천식 치료에도 낫지 않는 경과가 특히 중요하다.\n\n* '''초기''': 기침, choking, 천명, 목소리 변화, 연하 곤란이 갑자기 나타날 수 있다.\n* '''국소 단서''': 일측 호흡음 감소와 국소 천명은 한 기관지가 막힌 상황을 시사한다.\n* '''크기 차이''': 작은 이물은 기침만, 큰 이물은 심한 폐쇄와 거친 rhonchi를 일으킬 수 있다.\n* '''잠잠한 시기''': 처음 증상 후 일시적으로 멀쩡해 보여도 이물이 남아 있을 수 있다.\n* '''늦은 발견''': 반복되거나 잘 낫지 않는 폐렴·무기폐로 나타날 수 있다.\n\n\n||= 폐쇄 방식 ||= 공기의 이동 ||= 결과 ||\n|| Bypass valve: 부분 폐쇄 || 흡기·호기 모두 어느 정도 통과 || 폐쇄 정도에 따라 환기 감소 ||\n|| '''Check valve: 일방 폐쇄''' || 흡기에는 들어가지만 호기 배출이 어려움 || '''Air trapping·과팽창''' ||\n|| Stop valve: 완전 폐쇄 || 들어가지도 나오지도 못함 || 남은 공기가 흡수되며 '''무기폐''' ||\n\n흡기·호기 X선을 비교하면 정상 쪽은 호기에 작아지고 하얘지지만 막힌 쪽은 검고 부푼 상태로 남을 수 있다. 이물 자체는 방사선투과성이어서 보이지 않을 수 있으므로 \"\"정상 X선도 기도이물을 배제하지 못한다.\"\"\n\n\n의심이 충분하면 '''rigid bronchoscopy'''로 확인하고 제거한다. CT는 상황에 따라 보조적으로 이용하지만, 강하게 의심되는 소아에서 제거를 지연시키는 이유가 되어서는 안 된다. 기관지확장제 반응을 기다리거나 체위배액으로 이물을 움직이려는 접근은 완전 폐쇄를 유발할 수 있어 피한다.\n\n> 갑작스러운 시작 + 일측성 단서 → 이물 의심. 호기에 줄지 않는 폐 → check-valve air trapping. 확진과 치료를 함께 하는 방법 → rigid bronchoscopy.\n\n[[28강#갑작스러운 천명은 기도이물을 먼저 의심한다|갑작스러운 천명은 기도이물을 먼저 의심한다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH2」 32–38쪽; 38기 자료.~~~",
+      "answerLabel": "1번 — 기관이물",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: ①\n\n=== 풀이의 핵심 ===\n건강하던 아이가 감기 전구증상 없이 갑자기 기침·천명을 보이고, 영상에서 좌측 폐가 상대적으로 검고 부풀어 있다. '''기도이물의 check-valve 폐쇄'''로 공기가 들어간 뒤 잘 빠져나오지 않는 상황이 가장 적절하다. 천명이 있다고 모두 천식은 아니며, 갑작스러운 시작과 비대칭이 진단을 이끈다.\n\n방사선투과성 이물은 X선에 직접 보이지 않을 수 있고 영상이 정상이어도 배제되지 않는다. 의심이 충분하면 rigid bronchoscopy로 확인과 제거를 함께 한다.\n\n=== 선지별 해설 ===\n* 1번: 정답이다. 감기 증상 없이 돌발적으로 시작하고 천식·기관지염 치료에 반응하지 않는 천명과 일측 과팽창은 이물 의심을 높인다. 복원 선지의 ‘기관이물’은 이 맥락의 기도이물을 가리킨다.\n* 2번: 흡인폐렴이라면 위험요인과 의존 부위 침윤을 함께 보아야 한다. 여기서는 갑작스러운 기도 폐쇄와 air trapping이 중심이다.\n* 3번: 역류는 수유·식사와 연관된 반복 증상을 만들 수 있으나, 한 번에 갑자기 시작한 국소 기도 폐쇄 양상의 우선 진단은 아니다.\n* 4번: 선천 폐엽 과팽창과 영상이 겹칠 수 있으나 평소 건강하다 갑자기 시작한 임상 경과가 이물 쪽을 지지한다.\n* 5번: 치료 반응이 없다는 이유로 바로 난치성 천식이라고 붙이면 안 된다. 이물처럼 천식을 흉내 내는 구조적 원인을 먼저 배제해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n평소 건강하던 아이가 먹거나 놀던 중 갑자기 기침하고 쌕쌕거린다면 '''foreign body aspiration'''을 의심한다. 감기 증상 없이 발작적으로 시작하고 기관지염·천식 치료에도 낫지 않는 경과가 특히 중요하다.\n\n* '''초기''': 기침, choking, 천명, 목소리 변화, 연하 곤란이 갑자기 나타날 수 있다.\n* '''국소 단서''': 일측 호흡음 감소와 국소 천명은 한 기관지가 막힌 상황을 시사한다.\n* '''크기 차이''': 작은 이물은 기침만, 큰 이물은 심한 폐쇄와 거친 rhonchi를 일으킬 수 있다.\n* '''잠잠한 시기''': 처음 증상 후 일시적으로 멀쩡해 보여도 이물이 남아 있을 수 있다.\n* '''늦은 발견''': 반복되거나 잘 낫지 않는 폐렴·무기폐로 나타날 수 있다.\n\n\n||= 폐쇄 방식 ||= 공기의 이동 ||= 결과 ||\n|| Bypass valve: 부분 폐쇄 || 흡기·호기 모두 어느 정도 통과 || 폐쇄 정도에 따라 환기 감소 ||\n|| '''Check valve: 일방 폐쇄''' || 흡기에는 들어가지만 호기 배출이 어려움 || '''Air trapping·과팽창''' ||\n|| Stop valve: 완전 폐쇄 || 들어가지도 나오지도 못함 || 남은 공기가 흡수되며 '''무기폐''' ||\n\n흡기·호기 X선을 비교하면 정상 쪽은 호기에 작아지고 하얘지지만 막힌 쪽은 검고 부푼 상태로 남을 수 있다. 이물 자체는 방사선투과성이어서 보이지 않을 수 있으므로 \"\"정상 X선도 기도이물을 배제하지 못한다.\"\"\n\n\n의심이 충분하면 '''rigid bronchoscopy'''로 확인하고 제거한다. CT는 상황에 따라 보조적으로 이용하지만, 강하게 의심되는 소아에서 제거를 지연시키는 이유가 되어서는 안 된다. 기관지확장제 반응을 기다리거나 체위배액으로 이물을 움직이려는 접근은 완전 폐쇄를 유발할 수 있어 피한다.\n\n> 갑작스러운 시작 + 일측성 단서 → 이물 의심. 호기에 줄지 않는 폐 → check-valve air trapping. 확진과 치료를 함께 하는 방법 → rigid bronchoscopy.\n\n[[28강#갑작스러운 천명은 기도이물을 먼저 의심한다|갑작스러운 천명은 기도이물을 먼저 의심한다]]\n\n~~근거: 39기 「2026 소아호흡기학 JH2」 32–38쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.55. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q055_01.jpg"
+        "J/2023/official-p055.jpg"
       ],
       "legacyProfessor": "김정희",
       "professor": "김정희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.55 출제자란 확인",
       "lectureIds": [
         28
       ],
       "lectureId": 28,
       "lectureTitle": "소아호흡기 II - 기도이물과 흡인 폐렴",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 55번",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.55",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q055_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 55,
+          "file": "J/2023/official-p055.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lectures27_28_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 55,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\28. 2026 소아호흡기학 JH2.pdf",
-            "description": "39기 「2026 소아호흡기학 JH2」 32–38쪽; 38기 자료"
-          },
-          {
-            "kind": "annotated_prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 55,
+        "professor": "김정희",
+        "lecture": "소아호흡기 II-영유아 호흡기 질환과 선천폐기도기형",
+        "question": "평소 비교적 건강하던 18개월 남아가 3일전 감기 증상 없이 갑자기 발작적인 기침과\n쌕쌕거리는 호흡음을 보여 개인병원에서 기관지염, 영아 천식에 준하여 약물 치료하였으나\n호전 없어 병원에 왔다. 다음은 가슴사진이다. 진단은?",
+        "choices": [
+          "기관이물",
+          "흡인폐렴",
+          "위식도역류",
+          "선천 폐엽폐기종",
+          "난치성 영아천식"
         ],
-        "chapter": "갑작스러운 천명은 기도이물을 먼저 의심한다",
-        "basis": "39기 「2026 소아호흡기학 JH2」 32–38쪽; 38기 자료"
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17933,47 +18592,57 @@ window.JBL_DATA = {
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "모범답안 — AChE 인산화·억제 → ACh 축적",
-      "explanation": "'''모범답안 — AChE 인산화·억제 → ACh 축적.'''\n\n=== 모범답안 ===\n유기인제는 acetylcholinesterase의 esteratic site를 인산화하여 효소를 억제한다. 이로 인해 acetylcholine의 분해가 감소하고 시냅스에 축적되어 muscarinic·nicotinic 수용체와 중추신경계의 과도한 콜린성 자극이 발생한다.\n\n=== ACh가 많아지면 여러 기관이 함께 반응한다 ===\n유기인제는 '''AChE의 esteratic site를 인산화하여 효소를 억제'''한다. ACh가 분해되지 않고 축적되므로 muscarinic·nicotinic 수용체와 중추신경계가 과도하게 자극된다. 전형적인 muscarinic 소견부터 잡고, 신경근·중추 증상을 덧붙이면 된다.\n\n||= 부위 ||= 전형적인 반응 ||= 이유 ||\n|| 눈 || 축동 || 동공괄약근 수축 ||\n|| 심장 || 서맥·전도 감소 || Muscarinic 자극 ||\n|| 기관지 || 수축 + 분비물 증가 || 평활근과 분비샘이 함께 자극됨 ||\n|| 장·방광 || 설사·배뇨 증가 || 운동·분비 증가, 배출구 이완 ||\n|| 침·눈물·땀 || 분비 증가 || 땀샘도 말단 ACh–muscarinic 전달 사용 ||\n|| 신경근접합부 || 떨림 → 근력 저하·마비 가능 || Nicotinic 과자극 ||\n|| 중추신경계 || 흥분·경련·혼수 가능 || 중추 콜린성 이상 ||\n\n'''DUMBELS'''는 diarrhea, urination, miosis, bronchospasm, excitation, lacrimation, seizure/sweating/salivation이다. 실제 환자는 nicotinic ganglion 자극이나 저산소증 때문에 빈맥·고혈압도 보일 수 있다. 따라서 이 문제의 '''전형적인 muscarinic 소견'''을 고르는 것과 ‘그 외 소견은 절대 생기지 않는다’고 말하는 것은 구분해야 한다.\n\n=== 수용체를 막는 치료와 효소를 회복시키는 치료 ===\n'''Atropine'''은 muscarinic receptor를 차단하여 분비·기관지 수축·서맥을 줄이고, '''pralidoxime(2-PAM)'''은 인산화된 AChE를 재활성화한다. Atropine만으로 nicotinic 신경근 마비를 직접 되돌리지는 못한다. 2-PAM은 BBB 통과가 제한적이므로 말초 효과가 중심이며, 기도와 환기 지지는 별도로 필요하다.\n\n||= 비교 ||= 유기인제 ||= Carbamate ||\n|| 효소 억제 || AChE 인산화 || AChE carbamylation, 대체로 가역적 ||\n|| 증상 || 콜린성 과자극 || 비슷한 콜린성 증상 가능 ||\n|| Atropine || Muscarinic 증상 완화 || Muscarinic 증상 완화 ||\n|| 2-PAM || Aging 전에 가능한 한 빨리 || 순수 carbamate 중독에 일률적으로 사용하지 않음 ||\n\n시간이 지나면 OP–AChE 결합이 탈알킬화되어 안정해지는 '''aging'''이 진행한다. 2-PAM의 표적은 '''non-aged complex'''이므로 가능한 한 일찍 투여해야 한다. 강의의 성인 투여 예는 1–2 g을 15–30분에 걸쳐 정맥주입하는 것이다. Carbamate, 특히 carbaryl에서는 pralidoxime이 독성을 높일 수 있어 같은 처치를 그대로 복사하면 안 된다.\n\n=== 답안을 확장할 때 ===\n발문이 ‘작용 원리’만 묻는다면 '''AChE 인산화·억제 → ACh 축적'''까지가 중심이다. 증상을 요구하면 축동·분비 증가·기관지 수축과 근육·중추 증상을, 치료까지 요구하면 atropine과 aging 전 2-PAM의 차이를 덧붙인다. NTE 억제에 따른 지연 다발신경병증은 급성 AChE 억제와 구분한다.\n\n~~원복원본은 발문만 남아 있어 실제 시험이 서술형이었는지, 객관식 선지가 누락되었는지까지 확정할 수 없다. 현재 자료에 맞춰 학습용 모범답안을 제공하며 선지는 만들지 않았다.~~~\n\n[[9강#AChE의 인산화가 콜린성 과자극을 만든다|Wiki · AChE의 인산화가 콜린성 과자극을 만든다]]\n~~근거: 39기 「OP and PQ 2026」 11·12·13·14·15·16쪽 및 대응하는 38기 자료. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
+      "answerLabel": "acetylcholine esterase 억제",
+      "explanation": "'''공식 참고 답안'''\n\n> acetylcholine esterase 억제\n\n'''모범답안 — AChE 인산화·억제 → ACh 축적.'''\n\n=== 모범답안 ===\n유기인제는 acetylcholinesterase의 esteratic site를 인산화하여 효소를 억제한다. 이로 인해 acetylcholine의 분해가 감소하고 시냅스에 축적되어 muscarinic·nicotinic 수용체와 중추신경계의 과도한 콜린성 자극이 발생한다.\n\n=== ACh가 많아지면 여러 기관이 함께 반응한다 ===\n유기인제는 '''AChE의 esteratic site를 인산화하여 효소를 억제'''한다. ACh가 분해되지 않고 축적되므로 muscarinic·nicotinic 수용체와 중추신경계가 과도하게 자극된다. 전형적인 muscarinic 소견부터 잡고, 신경근·중추 증상을 덧붙이면 된다.\n\n||= 부위 ||= 전형적인 반응 ||= 이유 ||\n|| 눈 || 축동 || 동공괄약근 수축 ||\n|| 심장 || 서맥·전도 감소 || Muscarinic 자극 ||\n|| 기관지 || 수축 + 분비물 증가 || 평활근과 분비샘이 함께 자극됨 ||\n|| 장·방광 || 설사·배뇨 증가 || 운동·분비 증가, 배출구 이완 ||\n|| 침·눈물·땀 || 분비 증가 || 땀샘도 말단 ACh–muscarinic 전달 사용 ||\n|| 신경근접합부 || 떨림 → 근력 저하·마비 가능 || Nicotinic 과자극 ||\n|| 중추신경계 || 흥분·경련·혼수 가능 || 중추 콜린성 이상 ||\n\n'''DUMBELS'''는 diarrhea, urination, miosis, bronchospasm, excitation, lacrimation, seizure/sweating/salivation이다. 실제 환자는 nicotinic ganglion 자극이나 저산소증 때문에 빈맥·고혈압도 보일 수 있다. 따라서 이 문제의 '''전형적인 muscarinic 소견'''을 고르는 것과 ‘그 외 소견은 절대 생기지 않는다’고 말하는 것은 구분해야 한다.\n\n=== 수용체를 막는 치료와 효소를 회복시키는 치료 ===\n'''Atropine'''은 muscarinic receptor를 차단하여 분비·기관지 수축·서맥을 줄이고, '''pralidoxime(2-PAM)'''은 인산화된 AChE를 재활성화한다. Atropine만으로 nicotinic 신경근 마비를 직접 되돌리지는 못한다. 2-PAM은 BBB 통과가 제한적이므로 말초 효과가 중심이며, 기도와 환기 지지는 별도로 필요하다.\n\n||= 비교 ||= 유기인제 ||= Carbamate ||\n|| 효소 억제 || AChE 인산화 || AChE carbamylation, 대체로 가역적 ||\n|| 증상 || 콜린성 과자극 || 비슷한 콜린성 증상 가능 ||\n|| Atropine || Muscarinic 증상 완화 || Muscarinic 증상 완화 ||\n|| 2-PAM || Aging 전에 가능한 한 빨리 || 순수 carbamate 중독에 일률적으로 사용하지 않음 ||\n\n시간이 지나면 OP–AChE 결합이 탈알킬화되어 안정해지는 '''aging'''이 진행한다. 2-PAM의 표적은 '''non-aged complex'''이므로 가능한 한 일찍 투여해야 한다. 강의의 성인 투여 예는 1–2 g을 15–30분에 걸쳐 정맥주입하는 것이다. Carbamate, 특히 carbaryl에서는 pralidoxime이 독성을 높일 수 있어 같은 처치를 그대로 복사하면 안 된다.\n\n=== 답안을 확장할 때 ===\n발문이 ‘작용 원리’만 묻는다면 '''AChE 인산화·억제 → ACh 축적'''까지가 중심이다. 증상을 요구하면 축동·분비 증가·기관지 수축과 근육·중추 증상을, 치료까지 요구하면 atropine과 aging 전 2-PAM의 차이를 덧붙인다. NTE 억제에 따른 지연 다발신경병증은 급성 AChE 억제와 구분한다.\n\n~~공식 원본에는 객관식 선지가 없고 참고 답안으로 acetylcholine esterase 억제가 명시되어 있다. 이를 서술형으로 수록하며, 해설에서는 AChE 억제 뒤의 acetylcholine 축적과 증상까지 연결한다.~~~\n\n[[9강#AChE의 인산화가 콜린성 과자극을 만든다|Wiki · AChE의 인산화가 콜린성 과자극을 만든다]]\n~~근거: 39기 「OP and PQ 2026」 11·12·13·14·15·16쪽 및 대응하는 38기 자료. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.56. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.56 출제자란 확인",
       "lectureIds": [
         9
       ],
       "lectureId": 9,
       "lectureTitle": "유기인제/파라콰트",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 56번",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2023 호흡기계 원본 p.56",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "written",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "unparsed_or_written",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 강의록 + 38기 자료 대조",
-        "pages": [
-          11,
-          12,
-          13,
-          14,
-          15,
-          16
-        ],
-        "chapter": "AChE의 인산화가 콜린성 과자극을 만든다",
-        "answerStatus": "model_answer",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 56,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 56,
+        "professor": "김채균",
+        "lecture": "유기인제/파라콰트",
+        "question": "유기인제제(organophosphorous insecticide)의 작용 원리는?",
+        "choices": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "answer": "acetylcholine esterase 억제",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -17987,7 +18656,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         57
       ],
-      "question": "파라쿼트 섭취에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
+      "question": "파라쿼트 흡입에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
       "passage": "",
       "choices": [
         "Pralidoxime을 주사한다.",
@@ -17996,52 +18665,61 @@ window.JBL_DATA = {
         "Deferoxamine을 투여한다.",
         "N-acetylcysteine을 경구 투여한다."
       ],
-      "answerIndex": 3,
+      "answerIndex": 4,
       "answerIndices": [
-        3
+        4
       ],
-      "answerLabel": "3번 — 활성탄을 투여하여 흡수를 막는다.",
-      "explanation": "'''정답: 3번, 활성탄을 투여하여 흡수를 막는다..'''\n\n=== 폐 섬유화를 만드는 산화·환원 고리 ===\nParaquat는 비선택적 bipyridyl 제초제다. '''PQ²⁺ → PQ•⁺ → PQ²⁺'''로 돌아오는 redox cycling 과정에서 산소에 전자를 전달하여 '''superoxide(O₂•⁻)'''를 만든다. 이어 철이 관여하는 '''Fenton reaction: Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + •OH''' 등이 산화 손상을 증폭한다. 핵심 작용기전은 '''free radical formation'''이지 AChE 억제가 아니다.\n\n||= 시간·기관 ||= 주요 변화 ||\n|| 섭취 초기의 구강·위장관 || 직접 자극·궤양, 토혈·혈변 가능 ||\n|| 폐 || 폐포 상피 손상·폐부종 → 섬유화·가스교환 저하 ||\n|| 신장·간 || 혈뇨, BUN/Cr 및 AST/ALT 상승 등 ||\n|| 중증 전신 손상 || 심근 기능 장애·다장기부전 ||\n\n효과가 확립된 특이 해독제는 없다. '''경구 섭취 후 아직 장내에 남아 있는 물질'''은 활성탄 등으로 흡착하여 추가 흡수를 줄이고, 이후에는 장기 기능을 지지한다. 이미 흡수된 물질을 활성탄이 혈액에서 없애 주는 것은 아니다.\n\n=== ‘섭취 후 초기’라는 조건이 치료를 결정한다 ===\n장내에 남은 paraquat를 활성탄으로 흡착하면 추가 흡수를 줄일 수 있다. 그래서 발문이 '''섭취 후 초기 치료'''를 묻는 상황에서는 3번이 답이다. 이미 폐나 다른 장기에 축적된 물질을 활성탄이 제거한다는 뜻은 아니다. Deferoxamine은 철 매개 Fenton reaction을 줄이려는 강의의 보조 치료 후보이지, 확립된 특이 해독제나 장내 흡수 억제제는 아니다.\n\n~~복원 문구 수정: 원복원본의 ‘흡입’을 사용자 확인에 따라 ‘섭취’로 수정했다. 강의의 경구 노출 후 초기 흡수 억제 맥락에 맞춘 수정이며, 원시험 문구를 새로 확인했다는 의미는 아니다.~~~\n\n=== 선지별로 보면 ===\n* ① Pralidoxime은 aging 전 유기인제–AChE 결합을 풀어 주는 약이다. Paraquat의 redox cycling을 해결하는 약이 아니다.\n* ② 산화 손상 때문에 불필요한 고농도 산소를 피한다는 것과 CO를 공급한다는 것은 전혀 다르다. CO는 별개의 유독가스이므로 틀리다.\n* ③ 정답이다. 경구 섭취 후 아직 장내에 남은 paraquat를 흡착하여 추가 흡수를 줄이는 초기 제독이다. 효과가 확립된 특이 해독제와는 구분한다.\n* ④ 철 킬레이션으로 Fenton reaction을 줄이려는 강의의 보조 치료 논리다. 확립된 특이 해독제나 흡입 중독의 확정적 초기 치료로 볼 수 없다.\n* ⑤ NAC는 acetaminophen–NAPQI–GSH 고갈의 대표 치료다. Paraquat 초기 치료를 반드시 경구 NAC로 한다고 판단할 근거는 없다.\n\n[[9강#초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다|Wiki · 초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다]]\n~~근거: 39기 「OP and PQ 2026」 19·21·23·24쪽 및 대응하는 38기 자료. 발문 수정과 정답 지정은 2026-10-12 사용자 확인에 따라 반영했다.~~~",
+      "answerLabel": "4번 — Deferoxamine을 투여한다.",
+      "explanation": "'''공식 정답: ④ Deferoxamine'''\n\n=== 풀이의 핵심 ===\n원본은 '''‘파라쿼트 흡입’'''을 묻고 정답을 '''deferoxamine'''으로 지정한다. Paraquat의 redox cycling과 철 매개 Fenton reaction을 연결해, 철을 킬레이트하여 산화 손상을 줄이려는 약물의 기전을 묻는 의도로 해석할 수 있다. 이전에 바꿨던 ‘섭취’와 활성탄 정답은 폐기했다.\n\n'''공식 지정 정답과 임상 효과의 확립은 별개다.''' Deferoxamine을 paraquat 중독에서 생존 효과가 확립된 특이 해독제라고 일반화하지 않는다. 원본에는 별도의 해설이 없으므로 이 기전 연결은 강의·Wiki를 바탕으로 한 풀이이다.\n\n=== 선지별 해설 ===\n* '''1번''': Pralidoxime은 유기인제에 의해 억제된 AChE의 재활성화와 연결된다. Paraquat의 핵심은 AChE 억제가 아니라 산화 손상이다.\n* '''2번''': 불필요한 고농도 산소를 피한다는 주의점이 CO 공급을 뜻하지 않는다. CO는 산소 운반을 방해하는 유독가스다.\n* '''3번''': 활성탄은 경구 섭취 후 장내에 남은 물질의 흡수를 줄이는 처치다. 원본의 흡입 노출과 같은 조건으로 취급하지 않는다.\n* '''4번''': 공식 정답이다. 철 킬레이션으로 철 매개 활성산소 생성을 줄이려는 기전과 연결한다. 확립된 특이 해독제라는 뜻은 아니다.\n* '''5번''': N-acetylcysteine은 glutathione 관련 항산화 작용과 연결된다. Paraquat에서 보조 치료로 연구된 것과 이 문항의 공식 지정 답은 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Deferoxamine'''은 철을 킬레이트하는 약이며 aluminum도 킬레이트한다. 철분 제제 중독, 반복 수혈에 따른 철 과부하, 관련 aluminum 축적이 약물의 성격을 알아보는 단서다.\n\n파라콰트와 연결되는 이유는 앞서 본 '''Fenton reaction에 철이 필요하기 때문'''이다. 강의는 deferoxamine과 고용량 vitamin C를 치료 후보로 제시한다. 철을 묶거나 산화 스트레스에 대응하려는 기전은 설명할 수 있지만, 이것을 '''파라콰트에 효과가 확립된 해독제'''라고 바꾸어 외우면 안 된다. 같은 강의가 ‘no definite therapeutic tool’이라고 밝힌 한계까지 함께 기억한다.\n\n||= 상황 ||= 연결할 기전·약물 ||\n|| Ferrous sulfate 과량, 수혈 관련 철 과부하 || 철 킬레이션 — deferoxamine ||\n|| Aluminum 축적 || Aluminum 킬레이션 — deferoxamine ||\n|| Paraquat || 철 매개 산화 손상 억제라는 강의의 보조 치료 논리; 확립된 특이 해독제는 아님 ||\n|| Acetaminophen || NAPQI·glutathione 고갈 — NAC ||\n\n~~보충 확인: [[https://pmc.ncbi.nlm.nih.gov/articles/PMC4234908/|Diagnostic and Therapeutic Approach for Acute Paraquat Intoxication]]은 철 킬레이션의 이론적 근거와 임상 효과 검증의 한계를 구분한다.~~~\n\n[[9강#Deferoxamine은 철을 묶는 약이라는 데서 출발한다|Wiki · Deferoxamine은 철을 묶는 약이라는 데서 출발한다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.57. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.57 출제자란 확인",
       "lectureIds": [
         9
       ],
       "lectureId": 9,
       "lectureTitle": "유기인제/파라콰트",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 57번",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2023 호흡기계 원본 p.57",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 강의록 + 38기 자료 대조",
-        "pages": [
-          19,
-          21,
-          23,
-          24
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 57,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 57,
+        "professor": "김채균",
+        "lecture": "유기인제/파라콰트",
+        "question": "파라쿼트 흡입에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
+        "choices": [
+          "Pralidoxime을 주사한다.",
+          "산소가 증상을 악화시키므로 CO gas를 공급한다.",
+          "활성탄을 투여하여 흡수를 막는다.",
+          "Deferoxamine을 투여한다.",
+          "N-acetylcysteine을 경구 투여한다."
         ],
-        "chapter": "초기에는 흡수를 막고, 이후에는 장기 기능을 지지한다",
-        "answerStatus": "user_authorized_reconstruction",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
-        "peerExplanationUsed": false,
-        "originalQuestion": "파라쿼트 흡입에 의한 급성중독의 초기치료법에 대한 설명으로 가장 적절한 것은?",
-        "questionCorrection": "흡입 → 섭취",
-        "userConfirmedDate": "2026-10-12"
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18068,28 +18746,28 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③\n\n=== 풀이의 핵심 ===\n정답은 3번 seizure이다. 질문은 천식 자체의 합병증이 아니라 '''theophylline의 혈중농도가 높아졌을 때의 독성'''을 묻는다. Methylxanthine의 중추 자극과 좁은 치료역을 연결하면 경련을 고를 수 있다.\n\nTheophylline 독성은 신경계만의 문제가 아니다. 오심·구토, 불안·불면, 빈맥·부정맥을 함께 묶어 두어야 다른 장기의 증상으로 바뀐 선지에도 대응할 수 있다. 발문 속 사용 순서는 해당 증례의 설정이며, 현재 모든 소아 중증 천식에서 theophylline을 일률적으로 다음 약제로 사용한다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. 대표 방향은 심박수 증가와 부정맥이다. 양성 변시·변력 작용을 bradycardia로 뒤집어 놓았다.\n* 2번: 틀리다. Theophylline은 중추 억제·진정이 아니라 불면·신경과민·경련의 중추 자극 방향으로 외운다.\n* 3번: 옳다. 혈중농도 상승에 따른 중증 독성으로 '''seizure'''가 발생할 수 있다. 좁은 치료역 때문에 농도 모니터링이 중요하다.\n* 4번: 틀리다. Osteoporosis는 장기간 corticosteroid 노출과 연결하는 대표 이상반응이다. 이 문제의 theophylline 고농도 독성을 가장 잘 설명하지 않는다.\n* 5번: 틀리다. Hyperkalemia는 이 강의에서 theophylline 독성을 대표하는 연결이 아니다. 중독 시 catecholamine 효과 등으로 저칼륨혈증이 동반될 수 있어, 제시된 고칼륨혈증과도 방향이 다르다. ~~저칼륨혈증은 강의의 대표 독성인 seizure와 구분한 보충 설명이다. [[https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=038c2b07-8028-4dc4-847c-adafe1b0e81a&version=6|Theophylline 허가정보]]의 과량 투여 항목을 참고했다.~~~\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Theophylline은 좁은 치료역과 경련이 핵심이다'''\n\nTheophylline은 저렴하고 경구 사용이 가능하지만, 유효농도와 독성농도 사이의 여유가 좁다. 기관지 외의 중추신경·심장·소화관에도 작용하기 때문에 혈중농도가 올라가면 '''오심·구토에서 부정맥·경련까지''' 이어질 수 있다. 혈중농도를 측정하며 사용할 수 있는 환경이 중요하다.\n\n||= 기관 ||= 작용과 이상반응 ||\n|| \"\"중추신경\"\" || 불면, 신경과민, 불안, 두통 → 고농도에서 '''seizure''' ||\n|| \"\"심혈관\"\" || 양성 변력·변시 작용 → 수축력·심박수 증가, 빈맥·부정맥 ||\n|| 소화관 || 위산·소화효소 분비 증가, 식욕부진·오심·구토·복부 불편감 ||\n|| 신장 || 약한 이뇨 작용 ||\n|| 기관지 평활근 || 이완 → bronchodilation ||\n|| 골격근 || 횡격막 수축력 강화, 피로 완화 ||\n\n16쪽에는 '''10–20 mg/L'''와 '''5–15 mg/L'''가 함께 적혀 있다. 하나를 지우고 단일 절대 기준으로 만들기보다 전통적 범위와 더 낮은 목표 범위가 병기되어 있음을 기억한다. 환자·제형·상태에 따른 모니터링이 필요하며, “20 이하면 무조건 안전”으로 해석하지 않는다.\n\n> Theophylline 고농도는 '''흥분·빈맥·경련''' 방향이다. Sedation·sleepiness·bradycardia로 뒤집어 외우지 않는다.\n\n'''Theophylline은 cAMP 분해를 막는다'''\n\nMethylxanthine에는 caffeine·theophylline·theobromine이 있다. 이 가운데 기관지확장 목적으로 다루는 대표 약이 '''theophylline'''이다. β₂ 작용제처럼 수용체를 자극하는 대신 PDE를 억제하여 만들어진 cAMP가 분해되지 않게 한다.\n\n||= 작용 ||= 결과 ||\n|| \"\"PDE 억제\"\" || cAMP → AMP 분해 감소 → cAMP 증가 → 평활근 이완 ||\n|| '''Adenosine 수용체 길항''' || Adenosine의 기관지수축 작용 등을 억제 ||\n|| '''Histone deacetylation 증가''' || 염증 유전자 발현 억제에 기여 ||\n\n> β₂ 작용제는 cAMP를 '''만들고''', theophylline은 cAMP를 '''남긴다'''. Ipratropium은 둘 다 아니며 muscarinic 수용체를 차단한다.\n\n~~17쪽의 “most effective bronchodilator”는 methylxanthine 설명 안에서 theophylline의 기관지확장 작용을 강조한 문구로 읽는다. 모든 천식 치료제보다 우월하거나 현재의 일차 선택약이라는 의미로 확대하지 않는다.~~~\n\n[[31강#Theophylline은 좁은 치료역과 경련이 핵심이다|Theophylline은 좁은 치료역과 경련이 핵심이다]]\n\n~~근거: 39기 「31. Drug used in asthma 2026」 16–17쪽. 38기 자료는 보조 참고했으며 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "3번 — seizure",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③\n\n=== 풀이의 핵심 ===\n정답은 3번 seizure이다. 질문은 천식 자체의 합병증이 아니라 '''theophylline의 혈중농도가 높아졌을 때의 독성'''을 묻는다. Methylxanthine의 중추 자극과 좁은 치료역을 연결하면 경련을 고를 수 있다.\n\nTheophylline 독성은 신경계만의 문제가 아니다. 오심·구토, 불안·불면, 빈맥·부정맥을 함께 묶어 두어야 다른 장기의 증상으로 바뀐 선지에도 대응할 수 있다. 발문 속 사용 순서는 해당 증례의 설정이며, 현재 모든 소아 중증 천식에서 theophylline을 일률적으로 다음 약제로 사용한다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. 대표 방향은 심박수 증가와 부정맥이다. 양성 변시·변력 작용을 bradycardia로 뒤집어 놓았다.\n* 2번: 틀리다. Theophylline은 중추 억제·진정이 아니라 불면·신경과민·경련의 중추 자극 방향으로 외운다.\n* 3번: 옳다. 혈중농도 상승에 따른 중증 독성으로 '''seizure'''가 발생할 수 있다. 좁은 치료역 때문에 농도 모니터링이 중요하다.\n* 4번: 틀리다. Osteoporosis는 장기간 corticosteroid 노출과 연결하는 대표 이상반응이다. 이 문제의 theophylline 고농도 독성을 가장 잘 설명하지 않는다.\n* 5번: 틀리다. Hyperkalemia는 이 강의에서 theophylline 독성을 대표하는 연결이 아니다. 중독 시 catecholamine 효과 등으로 저칼륨혈증이 동반될 수 있어, 제시된 고칼륨혈증과도 방향이 다르다. ~~저칼륨혈증은 강의의 대표 독성인 seizure와 구분한 보충 설명이다. [[https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=038c2b07-8028-4dc4-847c-adafe1b0e81a&version=6|Theophylline 허가정보]]의 과량 투여 항목을 참고했다.~~~\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Theophylline은 좁은 치료역과 경련이 핵심이다'''\n\nTheophylline은 저렴하고 경구 사용이 가능하지만, 유효농도와 독성농도 사이의 여유가 좁다. 기관지 외의 중추신경·심장·소화관에도 작용하기 때문에 혈중농도가 올라가면 '''오심·구토에서 부정맥·경련까지''' 이어질 수 있다. 혈중농도를 측정하며 사용할 수 있는 환경이 중요하다.\n\n||= 기관 ||= 작용과 이상반응 ||\n|| \"\"중추신경\"\" || 불면, 신경과민, 불안, 두통 → 고농도에서 '''seizure''' ||\n|| \"\"심혈관\"\" || 양성 변력·변시 작용 → 수축력·심박수 증가, 빈맥·부정맥 ||\n|| 소화관 || 위산·소화효소 분비 증가, 식욕부진·오심·구토·복부 불편감 ||\n|| 신장 || 약한 이뇨 작용 ||\n|| 기관지 평활근 || 이완 → bronchodilation ||\n|| 골격근 || 횡격막 수축력 강화, 피로 완화 ||\n\n16쪽에는 '''10–20 mg/L'''와 '''5–15 mg/L'''가 함께 적혀 있다. 하나를 지우고 단일 절대 기준으로 만들기보다 전통적 범위와 더 낮은 목표 범위가 병기되어 있음을 기억한다. 환자·제형·상태에 따른 모니터링이 필요하며, “20 이하면 무조건 안전”으로 해석하지 않는다.\n\n> Theophylline 고농도는 '''흥분·빈맥·경련''' 방향이다. Sedation·sleepiness·bradycardia로 뒤집어 외우지 않는다.\n\n'''Theophylline은 cAMP 분해를 막는다'''\n\nMethylxanthine에는 caffeine·theophylline·theobromine이 있다. 이 가운데 기관지확장 목적으로 다루는 대표 약이 '''theophylline'''이다. β₂ 작용제처럼 수용체를 자극하는 대신 PDE를 억제하여 만들어진 cAMP가 분해되지 않게 한다.\n\n||= 작용 ||= 결과 ||\n|| \"\"PDE 억제\"\" || cAMP → AMP 분해 감소 → cAMP 증가 → 평활근 이완 ||\n|| '''Adenosine 수용체 길항''' || Adenosine의 기관지수축 작용 등을 억제 ||\n|| '''Histone deacetylation 증가''' || 염증 유전자 발현 억제에 기여 ||\n\n> β₂ 작용제는 cAMP를 '''만들고''', theophylline은 cAMP를 '''남긴다'''. Ipratropium은 둘 다 아니며 muscarinic 수용체를 차단한다.\n\n~~17쪽의 “most effective bronchodilator”는 methylxanthine 설명 안에서 theophylline의 기관지확장 작용을 강조한 문구로 읽는다. 모든 천식 치료제보다 우월하거나 현재의 일차 선택약이라는 의미로 확대하지 않는다.~~~\n\n[[31강#Theophylline은 좁은 치료역과 경련이 핵심이다|Theophylline은 좁은 치료역과 경련이 핵심이다]]\n\n~~근거: 39기 「31. Drug used in asthma 2026」 16–17쪽. 38기 자료는 보조 참고했으며 선배 풀이를 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.58. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.58 출제자란 확인",
       "lectureIds": [
         31
       ],
       "lectureId": 31,
       "lectureTitle": "천식약제",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 58번",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2023 호흡기계 원본 p.58",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -18110,31 +18788,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture31_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 58,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\31. Drug used in asthma 2026.pdf",
-            "description": "39기 강의록 16–17쪽"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 58,
+        "professor": "김채균",
+        "lecture": "천식약제 약물",
+        "question": "10세 정국은 지난 3일 동안 계속되는 기침과 호흡곤란으로 인하대 병원에 내원하였다. 정국은\n지난 1년 동안 여러 차례 기관지염을 앓았으며 최근 상부 호흡기 감염에서 회복되었다.\n단기작용 베타2 작용제와 전신 corticosteroid 사용에도 정국의 증세가 좋아지지 않아\nTheophylline을 사용해 보기로 하였다. 정국의 혈액 중 Theophylline 수치가 높아지면 어떤\n부작용이 예상되는가?",
+        "choices": [
+          "bradycardia",
+          "sedation",
+          "seizure",
+          "osteoporosis",
+          "hyperkalemia"
         ],
-        "chapter": "Theophylline은 좁은 치료역과 경련이 핵심이다",
-        "basis": "39기 강의록 16–17쪽",
-        "priorLectureAndSummaryUsed": true
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18161,57 +18839,57 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n=== 풀이의 핵심 ===\n정답은 5번 zileuton이다. “Arachidonic acid에서 leukotriene의 '''합성'''을 억제”한다는 문구가 선택을 결정한다. Zileuton은 '''5-lipoxygenase'''를 억제하고, montelukast·zafirlukast는 이미 만들어진 leukotriene의 '''수용체 작용'''을 차단한다.\n\n현재 budesonide(ICS)와 formoterol(LABA)을 쓰고 있다는 정보는 기초 치료를 설명한다. 추가 약의 표적을 묻는 문제이므로, “천식에 쓰는 약인가?”보다 “어느 단계에 작용하는가?”를 우선한다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. Montelukast는 CysLT₁ 수용체 길항제로 LTD₄의 작용을 막는다. Leukotriene 조절제는 맞지만 합성 억제제는 아니다.\n* 2번: 틀리다. Pirbuterol은 SABA로 β₂ 수용체에 작용한다. Arachidonic acid–leukotriene 합성 경로를 막지 않는다.\n* 3번: 틀리다. Tiotropium은 LAMA로 muscarinic 수용체를 차단한다. 이미 기관지수축을 일으키는 부교감신경 신호를 줄이는 범주이다.\n* 4번: 틀리다. Zafirlukast는 montelukast와 같은 leukotriene 수용체 길항제이다. “-lukast = 수용체”로 묶으면 합성 억제와 구분하기 쉽다.\n* 5번: 옳다. Zileuton은 5-lipoxygenase 억제로 leukotriene 합성을 줄인다. 대표 주의점인 '''간독성'''도 함께 기억한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다'''\n\n세포막 phospholipid에서 나온 arachidonic acid는 '''5-lipoxygenase''' 경로를 통해 leukotriene이 된다. LTB₄는 주로 염증세포의 화학주성을, LTC₄·LTD₄는 기관지수축·기도반응성 증가·점막부종·분비 증가를 일으킨다.\n\n\n||= 구분 ||= '''Zileuton''' ||= '''Montelukast·zafirlukast''' ||\n|| \"\"표적\"\" || '''5-lipoxygenase 억제''' || '''CysLT₁ 수용체 길항'''; 강의 표현은 LTD₄ antagonist ||\n|| \"\"막는 단계\"\" || Leukotriene의 '''합성''' || 이미 만들어진 leukotriene의 '''작용''' ||\n|| 임상적 역할 || 항염증 조절 || 항염증 조절, aspirin 유발 천식 등에서 고려 ||\n|| 부작용 포인트 || '''간염·간독성''' → 간기능 확인 || Montelukast의 두통·위장장애·과민반응·수면장애 등 ||\n\nMontelukast는 소아에서도 쓰며, 강의에는 6세 미만에서의 사용이 따로 제시된다. “LTD₄ 작용을 억제한다”는 말을 “평활근을 수축시킨다”로 연결하면 방향이 반대다. 다만 '''급성 발작을 즉시 풀어 주는 구조약은 아니다.'''\n\n> '''합성 억제 = Zileuton. 수용체 차단 = -lukast.''' 두 범주를 모두 leukotriene 조절제라고 부르지만, 발문에 “arachidonic acid에서 합성”이 나오면 구분해야 한다.\n\n~~21쪽 도식의 zafirlukast·montelukast 표시는 합성 화살표 근처에 놓여 있지만, 정확한 표적은 수용체이다. 22쪽은 montelukast의 출혈 경향 증가도 이상반응으로 제시한다. 안전성 보충: 수면·기분·행동 변화 등 신경정신계 이상반응은 FDA boxed warning 대상이므로 “매우 안전하니 주의할 것이 없다”로 암기하지 않는다. [[https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug|FDA 안전성 경고]]~~~\n\n[[31강#Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다|Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다]]\n\n~~근거: 39기 「31. Drug used in asthma 2026」 20–22쪽. 38기 자료는 보조 참고했으며 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "5번 — Zileuton",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤\n\n=== 풀이의 핵심 ===\n정답은 5번 zileuton이다. “Arachidonic acid에서 leukotriene의 '''합성'''을 억제”한다는 문구가 선택을 결정한다. Zileuton은 '''5-lipoxygenase'''를 억제하고, montelukast·zafirlukast는 이미 만들어진 leukotriene의 '''수용체 작용'''을 차단한다.\n\n현재 budesonide(ICS)와 formoterol(LABA)을 쓰고 있다는 정보는 기초 치료를 설명한다. 추가 약의 표적을 묻는 문제이므로, “천식에 쓰는 약인가?”보다 “어느 단계에 작용하는가?”를 우선한다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. Montelukast는 CysLT₁ 수용체 길항제로 LTD₄의 작용을 막는다. Leukotriene 조절제는 맞지만 합성 억제제는 아니다.\n* 2번: 틀리다. Pirbuterol은 SABA로 β₂ 수용체에 작용한다. Arachidonic acid–leukotriene 합성 경로를 막지 않는다.\n* 3번: 틀리다. Tiotropium은 LAMA로 muscarinic 수용체를 차단한다. 이미 기관지수축을 일으키는 부교감신경 신호를 줄이는 범주이다.\n* 4번: 틀리다. Zafirlukast는 montelukast와 같은 leukotriene 수용체 길항제이다. “-lukast = 수용체”로 묶으면 합성 억제와 구분하기 쉽다.\n* 5번: 옳다. Zileuton은 5-lipoxygenase 억제로 leukotriene 합성을 줄인다. 대표 주의점인 '''간독성'''도 함께 기억한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다'''\n\n세포막 phospholipid에서 나온 arachidonic acid는 '''5-lipoxygenase''' 경로를 통해 leukotriene이 된다. LTB₄는 주로 염증세포의 화학주성을, LTC₄·LTD₄는 기관지수축·기도반응성 증가·점막부종·분비 증가를 일으킨다.\n\n\n||= 구분 ||= '''Zileuton''' ||= '''Montelukast·zafirlukast''' ||\n|| \"\"표적\"\" || '''5-lipoxygenase 억제''' || '''CysLT₁ 수용체 길항'''; 강의 표현은 LTD₄ antagonist ||\n|| \"\"막는 단계\"\" || Leukotriene의 '''합성''' || 이미 만들어진 leukotriene의 '''작용''' ||\n|| 임상적 역할 || 항염증 조절 || 항염증 조절, aspirin 유발 천식 등에서 고려 ||\n|| 부작용 포인트 || '''간염·간독성''' → 간기능 확인 || Montelukast의 두통·위장장애·과민반응·수면장애 등 ||\n\nMontelukast는 소아에서도 쓰며, 강의에는 6세 미만에서의 사용이 따로 제시된다. “LTD₄ 작용을 억제한다”는 말을 “평활근을 수축시킨다”로 연결하면 방향이 반대다. 다만 '''급성 발작을 즉시 풀어 주는 구조약은 아니다.'''\n\n> '''합성 억제 = Zileuton. 수용체 차단 = -lukast.''' 두 범주를 모두 leukotriene 조절제라고 부르지만, 발문에 “arachidonic acid에서 합성”이 나오면 구분해야 한다.\n\n~~21쪽 도식의 zafirlukast·montelukast 표시는 합성 화살표 근처에 놓여 있지만, 정확한 표적은 수용체이다. 22쪽은 montelukast의 출혈 경향 증가도 이상반응으로 제시한다. 안전성 보충: 수면·기분·행동 변화 등 신경정신계 이상반응은 FDA boxed warning 대상이므로 “매우 안전하니 주의할 것이 없다”로 암기하지 않는다. [[https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug|FDA 안전성 경고]]~~~\n\n[[31강#Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다|Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다]]\n\n~~근거: 39기 「31. Drug used in asthma 2026」 20–22쪽. 38기 자료는 보조 참고했으며 선배 풀이를 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.59. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김채균",
       "professor": "김채균",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.59 출제자란 확인",
       "lectureIds": [
         31
       ],
       "lectureId": 31,
       "lectureTitle": "천식약제",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 59번",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2023 호흡기계 원본 p.59",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture31_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 59,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\31. Drug used in asthma 2026.pdf",
-            "description": "39기 강의록 20–22쪽"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 59,
+        "professor": "김채균",
+        "lecture": "천식약제 약물",
+        "question": "중간용량 Budesonide 흡입제와 Formoterol을 복용하는 환자에게 arachidonic acid에서\nleukotriene의 합성을 억제하는 비스테로이드 약물을 추가로 처방하고자 한다. 적절한\n약물은?",
+        "choices": [
+          "Montelukast",
+          "Pirbuterol",
+          "Tiotropium",
+          "Zafirlukast",
+          "Zileuton"
         ],
-        "chapter": "Leukotriene은 합성을 막는 약과 작용을 막는 약이 다르다",
-        "basis": "39기 강의록 20–22쪽",
-        "priorLectureAndSummaryUsed": true
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18225,7 +18903,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         60
       ],
-      "question": "평소 건강하던 55세 주부가 두 달 전부터 기침, 가슴답답함 등의 증상이 있다가 2주 전 감기에 걸린 후 호흡곤란, 쌕쌕거림과 가래가 심해지고, 기침 때문에 밤에 자주 깨는 증상으로 병원에 왔다. 흡연력은 없고, 흉부 X-선 촬영은 정상이었다. 신체검사에서 천명음이 들렸으며, 폐기능 검사 결과이다.",
+      "question": "평소 건강하던 55세 주부가 두 달 전부터 기침, 가슴답답함 등의 증상이 있다가 2주 전 감기에 걸린 후 호흡곤란, 쌕쌕거림과 가래가 심해지고, 기침 때문에 밤에 자주 깨는 증상으로 병원에 왔다. 흡연력은 없고, 흉부 X-선 촬영은 정상이었다. 신체검사에서 천명음이 들렸으며, 폐기능 검사 결과이다. 다음 중 가장 먼저 해야 할 것은?",
       "passage": "",
       "choices": [
         "객담 검사 후 항생제 치료",
@@ -18238,35 +18916,38 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "정답: ④ 고용량 스테로이드+지속성 베타2항진제 치료 후 폐기능 검사\n\n=== 풀이의 핵심 ===\n야간 각성, 감기 후 악화, 천명음이 반복되며 표에 기관지확장제 전후 수치가 모두 있다. FEV₁/FVC는 약 58→54%로 폐쇄가 남아 있고, FEV₁은 1.01→1.06 L로 변화가 작다. 선지 중에는 '''ICS를 충분히 포함한 항염증치료 후 폐기능 재평가'''인 ④가 가장 잘 맞는다. 가래가 있다는 사실만으로 세균감염을 먼저 치료하거나, 기도염증을 다루지 않는 LABA+LAMA로 가면 안 된다.\n\n=== 선지별 해설 ===\n* 1번: 가래가 늘어도 천식은 바이러스 감염 후 악화될 수 있다. 세균성 감염을 지지하는 별도 근거 없이 객담 검사와 항생제를 핵심 처치로 선택하지 않는다.\n* 2번: CT·기관지내시경은 국소 폐쇄나 종양 등 다른 원인을 의심할 때 고려한다. 이 증례의 반복 증상과 폐쇄성 검사 결과에서는 천식 평가가 먼저다.\n* 3번: 기관지를 넓히는 LABA+LAMA만 있고 항염증제 ICS가 없다. 천식을 COPD의 기관지확장제 조합만으로 치료하는 선택이다.\n* 4번: ICS를 충분히 포함한 항염증치료 후 폐기능 회복을 확인한다. 선지 중 강의의 진단 흐름에 가장 잘 맞는다.\n* 5번: LAMA를 포함한 삼제요법은 조절 불충분 환자에서 검토하는 추가 단계다. 초기 항염증치료 반응을 확인하는 상황에서 우선할 조합은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n천식 진단은 '''폐쇄가 있는가 → 그 폐쇄가 변하는가'''의 순서로 진행한다. FEV₁/FVC는 폐쇄를, FEV₁의 전후 변화는 가역성을 판단하는 값이다. FVC가 낮다고 바로 제한성 질환이라고 판단하지 않는다.\n\n||= 검사 상황 ||= 적절한 접근 ||= 판단 기준·주의점 ||\n|| 폐쇄가 있고 SABA 반응을 아직 안 봄 || SABA 흡입 전후 spirometry || 약 15분 후 FEV₁ ≥12%이면서 ≥200 mL 증가 ||\n|| SABA 반응은 작지만 천식 의심 || 항염증치료 후 재검사 || 강의는 약 4주 후 FEV₁ ≥12%이면서 ≥200 mL 개선을 제시 ||\n|| 정상 또는 거의 정상 폐기능, 반복 증상 || 기관지유발검사 또는 PEF 기록 || Methacholine PC₂₀ <16 mg/mL, PEF 평균 일중 변동성 >10% 등 ||\n|| 염증 유형 평가 || FeNO·객담/혈중 호산구 || 보조검사이며, 단독으로 가역성 확인을 대신하지 않음 ||\n\n> 증가율의 분모는 '''투여 전 FEV₁'''이다. FEV₁/FVC의 변화나 FEV₁ 예측치 비율의 %p 차이를 계산하지 않는다. 반응 후에도 비율이 낮아 남아 있더라도 FEV₁ 증가량·증가율이 충족되면 가역성의 증거가 된다.\n\n바이러스 감염이나 심한 악화 중에는 확장제 반응이 약할 수 있다. 이런 상황에서 단 한 번의 음성 반응만으로 천식을 배제하거나, COPD처럼 ICS 없는 LABA+LAMA 치료로 바꾸는 것은 적절하지 않다.\n\n'''표를 읽을 때의 주의점''': FEV₁은 1.01→1.06 L로 50 mL·약 5% 늘었지만, FVC는 1.73→1.96 L로 230 mL·약 13% 늘었다. 강의의 FEV₁ 중심 설명에서는 반응이 부족하지만, 일반적인 '''FEV₁ 또는 FVC ≥12%·≥200 mL''' 기준으로 보면 FVC 반응은 양성일 수 있다. 그러므로 이 표 전체를 무조건 ‘기관지확장제 반응 음성’으로 부르지는 않는다. 기류폐쇄와 천식 병력이 있는 환자에게 ICS 포함 치료를 하고 기능 회복을 추적한다는 ④의 취지는 여전히 타당하다. FVC 반응은 천식을 부정하는 근거가 아니라 가역성을 지지하는 단서다.\n\n[[24강#한 번의 음성 반응으로 천식을 배제하지 않는다|한 번의 음성 반응으로 천식을 배제하지 않는다]]\n\n~~근거: 39기 기관지천식 PDF 9–17쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~",
+      "answerLabel": "4번 — 고용량 스테로이드+지속성 베타2항진제 치료 후 폐기능 검사",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④ 고용량 스테로이드+지속성 베타2항진제 치료 후 폐기능 검사\n\n=== 풀이의 핵심 ===\n야간 각성, 감기 후 악화, 천명음이 반복되며 표에 기관지확장제 전후 수치가 모두 있다. FEV₁/FVC는 약 58→54%로 폐쇄가 남아 있고, FEV₁은 1.01→1.06 L로 변화가 작다. 선지 중에는 '''ICS를 충분히 포함한 항염증치료 후 폐기능 재평가'''인 ④가 가장 잘 맞는다. 가래가 있다는 사실만으로 세균감염을 먼저 치료하거나, 기도염증을 다루지 않는 LABA+LAMA로 가면 안 된다.\n\n=== 선지별 해설 ===\n* 1번: 가래가 늘어도 천식은 바이러스 감염 후 악화될 수 있다. 세균성 감염을 지지하는 별도 근거 없이 객담 검사와 항생제를 핵심 처치로 선택하지 않는다.\n* 2번: CT·기관지내시경은 국소 폐쇄나 종양 등 다른 원인을 의심할 때 고려한다. 이 증례의 반복 증상과 폐쇄성 검사 결과에서는 천식 평가가 먼저다.\n* 3번: 기관지를 넓히는 LABA+LAMA만 있고 항염증제 ICS가 없다. 천식을 COPD의 기관지확장제 조합만으로 치료하는 선택이다.\n* 4번: ICS를 충분히 포함한 항염증치료 후 폐기능 회복을 확인한다. 선지 중 강의의 진단 흐름에 가장 잘 맞는다.\n* 5번: LAMA를 포함한 삼제요법은 조절 불충분 환자에서 검토하는 추가 단계다. 초기 항염증치료 반응을 확인하는 상황에서 우선할 조합은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n천식 진단은 '''폐쇄가 있는가 → 그 폐쇄가 변하는가'''의 순서로 진행한다. FEV₁/FVC는 폐쇄를, FEV₁의 전후 변화는 가역성을 판단하는 값이다. FVC가 낮다고 바로 제한성 질환이라고 판단하지 않는다.\n\n||= 검사 상황 ||= 적절한 접근 ||= 판단 기준·주의점 ||\n|| 폐쇄가 있고 SABA 반응을 아직 안 봄 || SABA 흡입 전후 spirometry || 약 15분 후 FEV₁ ≥12%이면서 ≥200 mL 증가 ||\n|| SABA 반응은 작지만 천식 의심 || 항염증치료 후 재검사 || 강의는 약 4주 후 FEV₁ ≥12%이면서 ≥200 mL 개선을 제시 ||\n|| 정상 또는 거의 정상 폐기능, 반복 증상 || 기관지유발검사 또는 PEF 기록 || Methacholine PC₂₀ <16 mg/mL, PEF 평균 일중 변동성 >10% 등 ||\n|| 염증 유형 평가 || FeNO·객담/혈중 호산구 || 보조검사이며, 단독으로 가역성 확인을 대신하지 않음 ||\n\n> 증가율의 분모는 '''투여 전 FEV₁'''이다. FEV₁/FVC의 변화나 FEV₁ 예측치 비율의 %p 차이를 계산하지 않는다. 반응 후에도 비율이 낮아 남아 있더라도 FEV₁ 증가량·증가율이 충족되면 가역성의 증거가 된다.\n\n바이러스 감염이나 심한 악화 중에는 확장제 반응이 약할 수 있다. 이런 상황에서 단 한 번의 음성 반응만으로 천식을 배제하거나, COPD처럼 ICS 없는 LABA+LAMA 치료로 바꾸는 것은 적절하지 않다.\n\n'''표를 읽을 때의 주의점''': FEV₁은 1.01→1.06 L로 50 mL·약 5% 늘었지만, FVC는 1.73→1.96 L로 230 mL·약 13% 늘었다. 강의의 FEV₁ 중심 설명에서는 반응이 부족하지만, 일반적인 '''FEV₁ 또는 FVC ≥12%·≥200 mL''' 기준으로 보면 FVC 반응은 양성일 수 있다. 그러므로 이 표 전체를 무조건 ‘기관지확장제 반응 음성’으로 부르지는 않는다. 기류폐쇄와 천식 병력이 있는 환자에게 ICS 포함 치료를 하고 기능 회복을 추적한다는 ④의 취지는 여전히 타당하다. FVC 반응은 천식을 부정하는 근거가 아니라 가역성을 지지하는 단서다.\n\n[[24강#한 번의 음성 반응으로 천식을 배제하지 않는다|한 번의 음성 반응으로 천식을 배제하지 않는다]]\n\n~~근거: 39기 기관지천식 PDF 9–17쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.60. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q060_01.jpg"
+        "J/2023/official-p060.jpg"
       ],
       "legacyProfessor": "김철우",
       "professor": "김철우",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.60 출제자란 확인",
       "lectureIds": [
         24
       ],
       "lectureId": 24,
       "lectureTitle": "기관지천식",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 60번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.60",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q060_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 60,
+          "file": "J/2023/official-p060.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [
@@ -18290,22 +18971,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture24_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer_FVC_response_explicit",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 60,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\24. Bronchial Asthma-강의록.pdf",
-            "description": "39기 기관지천식 PDF 9–17쪽; 38기 자료의 대응 개념 교차 확인"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 60,
+        "professor": "김철우",
+        "lecture": "기관지천식",
+        "question": "평소 건강하던 55세 주부가 두달전부터 기침, 가슴답답함 등의 증상이 있다가 2주전 감기에\n걸린 후 호흡곤란, 쌕쌕거림과 가래가 심해지고, 기침 때문에 밤에 자주 깨는 증상으로 병원\n에 왔다. 흡연력은 없고, 흉부 X-선 촬영은 정상이었다. 신체검사에서 천명음이 들렸으며, 폐\n기능 검사 결과이다.\n다음 중 가장 먼저 해야 할 것은?",
+        "choices": [
+          "객담 검사 후 항생제 치료",
+          "흉부 CT 촬영 후 기관지 내시경 검사",
+          "지속성 베타2항진제+지속성 항콜린제 치료 후 폐기능 검사",
+          "고용량 스테로이드+지속성 베타2항진제 치료 후 폐기능 검사",
+          "중간용량 스테로이드+formoterol+지속성 항콜린제 치료 후 폐기능 검사"
         ],
-        "basis": "39기 기관지천식 PDF 9–17쪽; 38기 자료의 대응 개념 교차 확인",
-        "chapter": "한 번의 음성 반응으로 천식을 배제하지 않는다"
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18332,48 +19022,57 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤ 중간용량 스테로이드-지속성 베타2항진제 흡입제로 변경\n\n=== 풀이의 핵심 ===\n현재는 이미 '''저용량 ICS와 LABA의 병합 흡입제'''를 매일 사용한다. 야간 각성 등으로 조절이 부족하므로, 제시된 단순 단계 상승 선택지에서는 '''중간용량 ICS–LABA'''인 ⑤를 고른다. 저용량 ICS 단독 환자에게 LABA를 새로 더하는 상황과 다르다.\n\n④를 ‘필요 시 추가 사용까지 포함한 MART로 전환’이라고 명시했다면 현대의 치료 전략상 고려할 수 있다. 그러나 현재 선지는 단순히 저용량 조합으로 변경한다고만 되어 있어, 같은 저용량 단계의 제품 변경을 뚜렷한 증량처럼 읽지 않는 것이 이 문항의 의도에 가깝다.\n\n=== 선지별 해설 ===\n* 1번: LAMA는 추가치료에 사용하지만, 현재 저용량 ICS–LABA의 기본 단계 조정보다 우선할 이유가 부족하다.\n* 2번: Theophylline보다 효과와 안전성이 좋은 흡입치료의 최적화를 먼저 고려한다.\n* 3번: LTRA가 도움이 되는 경우는 있지만, 이 문항의 기본 단계 상승은 ICS–LABA를 중간용량으로 강화하는 것이다.\n* 4번: 저용량 ICS–formoterol MART라는 구체적 요법이면 대안이 될 수 있다. 다만 이 선지는 유지약을 같은 저용량 조합으로 바꾼다는 표현뿐이므로, ⑤의 명확한 단계 상승과 구분한다.\n* 5번: 이미 저용량 ICS–LABA를 사용 중이므로 ICS 용량을 중간 단계로 높인다. 야간 증상이 남는 환자의 기본 step-up에 해당한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n천식 조절은 최근 4주의 주간 증상 >2회/주, 야간 각성, SABA 필요 >2회/주, 활동 제한을 평가한다. 해당 항목이 0개면 조절, 1–2개면 부분 조절, 3–4개면 조절되지 않음이다. 이 중 '''야간에 깬다'''는 것은 조절 부족의 중요한 단서다.\n\n||= 현재 유지치료 ||= 조절이 부족할 때의 기본 방향 ||\n|| 저용량 ICS 단독 || 저용량 ICS–LABA로 강화, 선호 전략은 저용량 ICS–formoterol MART ||\n|| 저용량 ICS–LABA || 중간용량으로 강화하거나 적절한 MART 전략 검토 ||\n|| 중간용량 ICS–LABA || 사용법·순응도 점검 후 ICS 포함 치료 강화와 전문 평가 ||\n|| 최적화한 고용량 ICS–LABA || LAMA, 표현형에 맞는 생물학적 제제 등 추가치료 검토 ||\n\n어느 단계에서도 진단, 흡입법, 실제 복약, 흡연·노출, 비염·비만·GERD 등 동반질환을 먼저 확인한다. LTRA·LAMA·theophylline에는 추가치료의 역할이 있지만, 기본 ICS–LABA 단계를 조정하는 것과 동등한 우선순위는 아니다. 전신 steroid를 장기간 유지하는 선택은 부작용 부담 때문에 신중해야 한다.\n\n> '''ICS 단독인지, 이미 LABA와 병합 중인지부터 읽는다.''' 같은 야간 증상이라도 시작 단계가 다르면 다음 단계가 달라진다. 단순한 제제 변경과 실제 용량·요법의 강화도 구분한다.\n\n[[24강#현재 유지치료가 달라지면 다음 단계도 달라진다|현재 유지치료가 달라지면 다음 단계도 달라진다]]\n\n~~근거: 39기 기관지천식 PDF 18–27쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~",
+      "answerLabel": "5번 — 중간용량 스테로이드-지속성 베타2항진제 흡입제로 변경",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤ 중간용량 스테로이드-지속성 베타2항진제 흡입제로 변경\n\n=== 풀이의 핵심 ===\n현재는 이미 '''저용량 ICS와 LABA의 병합 흡입제'''를 매일 사용한다. 야간 각성 등으로 조절이 부족하므로, 제시된 단순 단계 상승 선택지에서는 '''중간용량 ICS–LABA'''인 ⑤를 고른다. 저용량 ICS 단독 환자에게 LABA를 새로 더하는 상황과 다르다.\n\n④를 ‘필요 시 추가 사용까지 포함한 MART로 전환’이라고 명시했다면 현대의 치료 전략상 고려할 수 있다. 그러나 현재 선지는 단순히 저용량 조합으로 변경한다고만 되어 있어, 같은 저용량 단계의 제품 변경을 뚜렷한 증량처럼 읽지 않는 것이 이 문항의 의도에 가깝다.\n\n=== 선지별 해설 ===\n* 1번: LAMA는 추가치료에 사용하지만, 현재 저용량 ICS–LABA의 기본 단계 조정보다 우선할 이유가 부족하다.\n* 2번: Theophylline보다 효과와 안전성이 좋은 흡입치료의 최적화를 먼저 고려한다.\n* 3번: LTRA가 도움이 되는 경우는 있지만, 이 문항의 기본 단계 상승은 ICS–LABA를 중간용량으로 강화하는 것이다.\n* 4번: 저용량 ICS–formoterol MART라는 구체적 요법이면 대안이 될 수 있다. 다만 이 선지는 유지약을 같은 저용량 조합으로 바꾼다는 표현뿐이므로, ⑤의 명확한 단계 상승과 구분한다.\n* 5번: 이미 저용량 ICS–LABA를 사용 중이므로 ICS 용량을 중간 단계로 높인다. 야간 증상이 남는 환자의 기본 step-up에 해당한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n천식 조절은 최근 4주의 주간 증상 >2회/주, 야간 각성, SABA 필요 >2회/주, 활동 제한을 평가한다. 해당 항목이 0개면 조절, 1–2개면 부분 조절, 3–4개면 조절되지 않음이다. 이 중 '''야간에 깬다'''는 것은 조절 부족의 중요한 단서다.\n\n||= 현재 유지치료 ||= 조절이 부족할 때의 기본 방향 ||\n|| 저용량 ICS 단독 || 저용량 ICS–LABA로 강화, 선호 전략은 저용량 ICS–formoterol MART ||\n|| 저용량 ICS–LABA || 중간용량으로 강화하거나 적절한 MART 전략 검토 ||\n|| 중간용량 ICS–LABA || 사용법·순응도 점검 후 ICS 포함 치료 강화와 전문 평가 ||\n|| 최적화한 고용량 ICS–LABA || LAMA, 표현형에 맞는 생물학적 제제 등 추가치료 검토 ||\n\n어느 단계에서도 진단, 흡입법, 실제 복약, 흡연·노출, 비염·비만·GERD 등 동반질환을 먼저 확인한다. LTRA·LAMA·theophylline에는 추가치료의 역할이 있지만, 기본 ICS–LABA 단계를 조정하는 것과 동등한 우선순위는 아니다. 전신 steroid를 장기간 유지하는 선택은 부작용 부담 때문에 신중해야 한다.\n\n> '''ICS 단독인지, 이미 LABA와 병합 중인지부터 읽는다.''' 같은 야간 증상이라도 시작 단계가 다르면 다음 단계가 달라진다. 단순한 제제 변경과 실제 용량·요법의 강화도 구분한다.\n\n[[24강#현재 유지치료가 달라지면 다음 단계도 달라진다|현재 유지치료가 달라지면 다음 단계도 달라진다]]\n\n~~근거: 39기 기관지천식 PDF 18–27쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.61. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.61 출제자란 확인",
       "lectureIds": [
         24
       ],
       "lectureId": 24,
       "lectureTitle": "기관지천식",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 61번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.61",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture24_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 61,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\24. Bronchial Asthma-강의록.pdf",
-            "description": "39기 기관지천식 PDF 18–27쪽; 38기 자료의 대응 개념 교차 확인"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 61,
+        "professor": "김철우",
+        "lecture": "기관지천식",
+        "question": "55세 여자가 천식으로 저용량 스테로이드와 지속성 베타2항진제 병합 흡입제를 매일 사용중\n이나, 기침과 천명음이 계속 있고 자다가 숨이 차서 자주 깬다고 한다.\n천식 조절을 위해 가장 먼저 해야 할 것은?",
+        "choices": [
+          "Tiotropium 추가",
+          "Theophylline 추가",
+          "류코트리엔 길항제 추가",
+          "저용량 스테로이드-formoterol 흡입제로 변경",
+          "중간용량 스테로이드-지속성 베타2항진제 흡입제로 변경"
         ],
-        "basis": "39기 기관지천식 PDF 18–27쪽; 38기 자료의 대응 개념 교차 확인",
-        "chapter": "현재 유지치료가 달라지면 다음 단계도 달라진다"
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18400,48 +19099,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③ 상기도 감염\n\n=== 풀이의 핵심 ===\n급성 천식 악화의 가장 흔한 촉발요인은 '''상기도 바이러스 감염'''이므로 ③이다. 기출에서 반복되는 ‘감기 뒤 기침·천명음이 심해졌다’는 병력도 이 원리를 적용한 것이다. 다른 선지도 악화를 유발할 수 있지만, 질문은 가능 여부가 아니라 '''가장 흔한 원인'''을 묻는다.\n\n=== 선지별 해설 ===\n* 1번: 폐렴도 호흡 상태를 악화시킬 수 있으나, 천식 악화의 가장 흔한 감염성 촉발요인은 상기도 바이러스 감염이다.\n* 2번: 운동은 EIB를 유발할 수 있다. 하지만 전체 급성 악화의 가장 흔한 원인은 아니며, 적절히 조절하면서 운동을 유지하는 것이 목표다.\n* 3번: 정답이다. 특히 상기도 바이러스 감염을 의미하며, 감기 후 악화라는 임상 병력과 연결된다.\n* 4번: 감작된 환자에게는 중요한 요인이지만 모든 천식 악화에서 가장 흔한 요인으로 고르지는 않는다.\n* 5번: Aspirin/NSAID 과민성이 있는 환자에서 악화시킨다. 특정 표현형의 중요한 요인이지만 전체에서 가장 흔한 원인은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n천식은 '''만성 기도염증·기도과민성·변동성 기류제한'''을 특징으로 하는 이질적 질환이다. 가역성이 전형적이지만, 반복 염증으로 기도개형이 생기면 고정된 폐쇄도 남을 수 있다.\n\n||= 개념 ||= 정확히 기억할 내용 ||\n|| 시간적 변화 || 밤·이른 아침에 심해지고, 증상이 없는 시기도 가능 ||\n|| 흔한 악화 요인 || 상기도 바이러스 감염. 운동·찬 공기·웃음·알레르겐도 가능 ||\n|| 약물 악화 || Aspirin/NSAID, β차단제 등에 의해 악화 가능 ||\n|| 기도개형 || 점액 변화, 상피 손상, 기저막 아래 섬유화, 평활근 비후와 지속적 폐쇄 ||\n|| 염증 표현형 || 알레르겐 감작이 없어도 호산구성 염증 가능 ||\n|| 기본 치료 || ICS를 포함. 천식에서 LABA/LAMA만 단독 사용하지 않음 ||\n\n“전형적이다”와 “항상 그렇다”를 구분한다. 운동 중 증상도 생기지만 밤에 더 심해지는 변동성이 특징이고, 바이러스가 가장 흔하다고 세균성 감염의 악화 가능성이 0이 되는 것도 아니다.\n\n[[24강#악화를 가장 흔히 촉발하는 감염은 바이러스 감염이다|악화를 가장 흔히 촉발하는 감염은 바이러스 감염이다]]\n\n~~근거: 39기 기관지천식 PDF 1–9·37–40쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~",
+      "answerLabel": "3번 — 상기도 감염",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③ 상기도 감염\n\n=== 풀이의 핵심 ===\n급성 천식 악화의 가장 흔한 촉발요인은 '''상기도 바이러스 감염'''이므로 ③이다. 기출에서 반복되는 ‘감기 뒤 기침·천명음이 심해졌다’는 병력도 이 원리를 적용한 것이다. 다른 선지도 악화를 유발할 수 있지만, 질문은 가능 여부가 아니라 '''가장 흔한 원인'''을 묻는다.\n\n=== 선지별 해설 ===\n* 1번: 폐렴도 호흡 상태를 악화시킬 수 있으나, 천식 악화의 가장 흔한 감염성 촉발요인은 상기도 바이러스 감염이다.\n* 2번: 운동은 EIB를 유발할 수 있다. 하지만 전체 급성 악화의 가장 흔한 원인은 아니며, 적절히 조절하면서 운동을 유지하는 것이 목표다.\n* 3번: 정답이다. 특히 상기도 바이러스 감염을 의미하며, 감기 후 악화라는 임상 병력과 연결된다.\n* 4번: 감작된 환자에게는 중요한 요인이지만 모든 천식 악화에서 가장 흔한 요인으로 고르지는 않는다.\n* 5번: Aspirin/NSAID 과민성이 있는 환자에서 악화시킨다. 특정 표현형의 중요한 요인이지만 전체에서 가장 흔한 원인은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n천식은 '''만성 기도염증·기도과민성·변동성 기류제한'''을 특징으로 하는 이질적 질환이다. 가역성이 전형적이지만, 반복 염증으로 기도개형이 생기면 고정된 폐쇄도 남을 수 있다.\n\n||= 개념 ||= 정확히 기억할 내용 ||\n|| 시간적 변화 || 밤·이른 아침에 심해지고, 증상이 없는 시기도 가능 ||\n|| 흔한 악화 요인 || 상기도 바이러스 감염. 운동·찬 공기·웃음·알레르겐도 가능 ||\n|| 약물 악화 || Aspirin/NSAID, β차단제 등에 의해 악화 가능 ||\n|| 기도개형 || 점액 변화, 상피 손상, 기저막 아래 섬유화, 평활근 비후와 지속적 폐쇄 ||\n|| 염증 표현형 || 알레르겐 감작이 없어도 호산구성 염증 가능 ||\n|| 기본 치료 || ICS를 포함. 천식에서 LABA/LAMA만 단독 사용하지 않음 ||\n\n“전형적이다”와 “항상 그렇다”를 구분한다. 운동 중 증상도 생기지만 밤에 더 심해지는 변동성이 특징이고, 바이러스가 가장 흔하다고 세균성 감염의 악화 가능성이 0이 되는 것도 아니다.\n\n[[24강#악화를 가장 흔히 촉발하는 감염은 바이러스 감염이다|악화를 가장 흔히 촉발하는 감염은 바이러스 감염이다]]\n\n~~근거: 39기 기관지천식 PDF 1–9·37–40쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.62. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.62 출제자란 확인",
       "lectureIds": [
         24
       ],
       "lectureId": 24,
       "lectureTitle": "기관지천식",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 62번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.62",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture24_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 62,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\24. Bronchial Asthma-강의록.pdf",
-            "description": "39기 기관지천식 PDF 1–9·37–40쪽; 38기 자료의 대응 개념 교차 확인"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 62,
+        "professor": "김철우",
+        "lecture": "기관지천식",
+        "question": "다음 중 급성 천식 악화의 가장 흔한 원인은?",
+        "choices": [
+          "폐렴",
+          "운동",
+          "상기도 감염",
+          "알레르겐 노출",
+          "비스테로이드 항염증제"
         ],
-        "basis": "39기 기관지천식 PDF 1–9·37–40쪽; 38기 자료의 대응 개념 교차 확인",
-        "chapter": "악화를 가장 흔히 촉발하는 감염은 바이러스 감염이다"
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18468,28 +19176,28 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤ 속효성 베타2항진제 흡입\n\n=== 풀이의 핵심 ===\n아직 빠른 기관지확장제를 투여했다는 내용이 없다. 산소와 함께 처음 시행할 기류 개선 치료는 '''흡입 SABA'''이므로 ⑤다. PaO₂ 70 mmHg, SaO₂ 90%로 산소화가 나쁘고 pH도 낮아 신속히 치료·재평가해야 한다. PaCO₂ 39가 정상 범위라고 안심할 수는 없다.\n\n전신 steroid도 중등도 이상의 악화에서는 일찍 사용한다. 이 문항의 ⑤는 즉시 기관지를 확장할 첫 약을 묻는 답이지, steroid가 필요 없다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: Magnesium은 초기 SABA 등 기본치료에도 심한 악화가 지속될 때 추가 고려한다. 첫 기관지확장제를 건너뛰는 답은 아니다.\n* 2번: 전신 steroid는 필요하며 조기에 병행할 수 있다. 다만 빠른 기류 개선을 위한 첫 흡입약인 SABA와 역할·발현 시간이 다르다.\n* 3번: Aminophylline은 급성 악화의 기본 첫 치료가 아니며 초기 사용도 권고되지 않는다.\n* 4번: SAMA는 특히 중증 악화에서 SABA에 병용한다. 단독으로 SABA보다 앞서는 기본 첫 약은 아니다.\n* 5번: 빠르게 기관지를 확장하는 기본 약제다. 산소와 함께 시행하고 반응과 중증도에 따라 SAMA·전신 steroid를 추가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n급성 천식은 '''즉시 기관지를 넓히는 치료'''와 '''염증을 가라앉히는 치료'''를 함께 생각한다. 아직 SABA를 안 썼는지, 이미 SABA+SAMA까지 썼는지가 다음 선택을 가르는 핵심이다.\n\n||= 치료 ||= 역할과 시점 ||\n|| 산소 || 저산소혈증 교정. 강의 응급실 도식은 성인 SpO₂ 93–95% 목표 ||\n|| 흡입 SABA || 빠른 기관지확장의 첫 약제, 반복 투여 후 반응 평가 ||\n|| 흡입 SAMA || 중증 악화 등에서 SABA에 병용 ||\n|| 전신 steroid || 중등도 이상·초기 반응 부족에서 일찍 시행. 강의상 효과 발현 약 4시간 ||\n|| IV magnesium || 초기 치료에도 심한 악화가 지속될 때 추가 고려 ||\n|| IV aminophylline || 일상적인 우선 치료가 아니며, 강의는 응급실 초기 4시간 사용을 권고하지 않음 ||\n\n전신 steroid가 필요한 환자에서 반드시 SABA 실패를 오래 기다렸다가 시작하는 것은 아니다. SABA는 빠른 기류 개선, steroid는 항염증·회복이라는 역할이 달라 조기에 함께 사용할 수 있다. 경구 투여가 가능하면 경구 steroid도 효과적이고, 경구가 어렵거나 중증이면 정맥 투여를 선택할 수 있다.\n\n> 심한 악화에서는 PaCO₂가 낮지 않고 정상화되거나 상승하는 것도 위험 신호다. '''고탄산혈증·산증·의식 변화·silent chest'''가 있으면 약 선택과 동시에 환기부전, 집중치료, 기도 확보 필요성을 평가한다.\n\n[[24강#초기에는 산소와 빠른 기관지확장을 시행한다|초기에는 산소와 빠른 기관지확장을 시행한다]]\n\n~~근거: 39기 기관지천식 PDF 35–37쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~",
+      "answerLabel": "5번 — 속효성 베타2항진제 흡입",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤ 속효성 베타2항진제 흡입\n\n=== 풀이의 핵심 ===\n아직 빠른 기관지확장제를 투여했다는 내용이 없다. 산소와 함께 처음 시행할 기류 개선 치료는 '''흡입 SABA'''이므로 ⑤다. PaO₂ 70 mmHg, SaO₂ 90%로 산소화가 나쁘고 pH도 낮아 신속히 치료·재평가해야 한다. PaCO₂ 39가 정상 범위라고 안심할 수는 없다.\n\n전신 steroid도 중등도 이상의 악화에서는 일찍 사용한다. 이 문항의 ⑤는 즉시 기관지를 확장할 첫 약을 묻는 답이지, steroid가 필요 없다는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: Magnesium은 초기 SABA 등 기본치료에도 심한 악화가 지속될 때 추가 고려한다. 첫 기관지확장제를 건너뛰는 답은 아니다.\n* 2번: 전신 steroid는 필요하며 조기에 병행할 수 있다. 다만 빠른 기류 개선을 위한 첫 흡입약인 SABA와 역할·발현 시간이 다르다.\n* 3번: Aminophylline은 급성 악화의 기본 첫 치료가 아니며 초기 사용도 권고되지 않는다.\n* 4번: SAMA는 특히 중증 악화에서 SABA에 병용한다. 단독으로 SABA보다 앞서는 기본 첫 약은 아니다.\n* 5번: 빠르게 기관지를 확장하는 기본 약제다. 산소와 함께 시행하고 반응과 중증도에 따라 SAMA·전신 steroid를 추가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n급성 천식은 '''즉시 기관지를 넓히는 치료'''와 '''염증을 가라앉히는 치료'''를 함께 생각한다. 아직 SABA를 안 썼는지, 이미 SABA+SAMA까지 썼는지가 다음 선택을 가르는 핵심이다.\n\n||= 치료 ||= 역할과 시점 ||\n|| 산소 || 저산소혈증 교정. 강의 응급실 도식은 성인 SpO₂ 93–95% 목표 ||\n|| 흡입 SABA || 빠른 기관지확장의 첫 약제, 반복 투여 후 반응 평가 ||\n|| 흡입 SAMA || 중증 악화 등에서 SABA에 병용 ||\n|| 전신 steroid || 중등도 이상·초기 반응 부족에서 일찍 시행. 강의상 효과 발현 약 4시간 ||\n|| IV magnesium || 초기 치료에도 심한 악화가 지속될 때 추가 고려 ||\n|| IV aminophylline || 일상적인 우선 치료가 아니며, 강의는 응급실 초기 4시간 사용을 권고하지 않음 ||\n\n전신 steroid가 필요한 환자에서 반드시 SABA 실패를 오래 기다렸다가 시작하는 것은 아니다. SABA는 빠른 기류 개선, steroid는 항염증·회복이라는 역할이 달라 조기에 함께 사용할 수 있다. 경구 투여가 가능하면 경구 steroid도 효과적이고, 경구가 어렵거나 중증이면 정맥 투여를 선택할 수 있다.\n\n> 심한 악화에서는 PaCO₂가 낮지 않고 정상화되거나 상승하는 것도 위험 신호다. '''고탄산혈증·산증·의식 변화·silent chest'''가 있으면 약 선택과 동시에 환기부전, 집중치료, 기도 확보 필요성을 평가한다.\n\n[[24강#초기에는 산소와 빠른 기관지확장을 시행한다|초기에는 산소와 빠른 기관지확장을 시행한다]]\n\n~~근거: 39기 기관지천식 PDF 35–37쪽; 38기 자료의 대응 개념 교차 확인. 학생 해설을 정답의 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.63. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김철우",
       "professor": "김철우",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.63 출제자란 확인",
       "lectureIds": [
         24
       ],
       "lectureId": 24,
       "lectureTitle": "기관지천식",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 63번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.63",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -18513,22 +19221,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture24_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 63,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\24. Bronchial Asthma-강의록.pdf",
-            "description": "39기 기관지천식 PDF 35–37쪽; 38기 자료의 대응 개념 교차 확인"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 63,
+        "professor": "김철우",
+        "lecture": "기관지천식",
+        "question": "3년전 천식을 진단받고 치료중인 50세 여자가 심한 호흡곤란과 천명음으로 응급실에 왔다.\n혈압 140/80 mmHg, 호흡수 분당 22회. 맥박 분당 105회 였으며, 동맥혈 가스 분석에서 pH\n7.32, PaO2 70 mmHg, PaCO2 39 mmHg, SaO2 90% 였다.\n산소 투여와 함께 가장 먼저 해야 하는 것은?",
+        "choices": [
+          "마그네슘 정맥주사",
+          "스테로이드 정맥주사",
+          "아미노필린 정맥주사",
+          "속효성 항콜린제 흡입",
+          "속효성 베타2항진제 흡입"
         ],
-        "basis": "39기 기관지천식 PDF 35–37쪽; 38기 자료의 대응 개념 교차 확인",
-        "chapter": "초기에는 산소와 빠른 기관지확장을 시행한다"
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18545,75 +19262,77 @@ window.JBL_DATA = {
       "question": "33세 남자가 보건증 발급을 위한 Chest X-ray 검사상 이상 소견으로 내원하였다. 다른 병력은 없었으며, 하루에 5개비 정도의 흡연력이 10년간 있다. Chest X-ray, chest CT와 기관지내시경을 통한 bronchoalveolar fluid 소견이다. 진단명은?",
       "passage": "",
       "choices": [
-        "호산구성 폐렴",
-        "과민성폐장염",
-        "폐포단백증",
-        "미만성폐포출혈",
-        "특발성폐섬유화증"
+        "호산구성 폐렴 (Eosinophilic pneumonia)",
+        "과민성폐장염 (Hypersensitivity pneumonitis)",
+        "폐포단백증 (Pulmonary alveolar proteinosis)",
+        "미만성폐포출혈 (Diffuse alveolar Hemorrhage)",
+        "특발성폐섬유화증 (Idiopathic pulmonary fibrosis)"
       ],
       "answerIndex": 3,
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③ 폐포단백증(Pulmonary alveolar proteinosis, PAP)\n\n=== 결정적인 단서는 우윳빛 회수액이다 ===\nX선·CT의 양측 폐 음영만으로는 여러 미만성 폐질환이 가능하다. 그러나 이 사진에는 '''불투명한 우윳빛 BAL 회수액'''이 함께 제시되어 있다. 폐포에 단백·지질성 물질이 축적되는 PAP를 가장 강하게 시사하는 조합이다. 무증상 검진에서 발견되었다는 점만으로 병변을 가볍게 보거나 배제하지 않는다.\n\nPAP에서는 GGO에 중격 비후가 겹치는 '''crazy-paving'''을 볼 수 있다. 다만 저해상도 사진에서 모든 선을 억지로 판독하거나 crazy-paving만으로 확정할 필요는 없다. '''영상 + 우윳빛 검체 + 단백성 물질의 세포·병리 확인'''이 진단의 연결고리다.\n\n=== 선지별 판단 ===\n* '''① 호산구성 폐렴 — 호산구 분획이 중요하다.''' BAL eosinophil ≥25%가 강한 단서이며 우윳빛 액체가 대표 소견은 아니다.\n* '''② 과민성폐장염(HP) — 노출력과 림프구성 BAL을 연결한다.''' 림프구 >50%는 HP 또는 cellular NSIP를 생각하게 한다. 검체 색만으로 진단하지 않는다.\n* '''③ PAP — 정답.''' 폐포의 surfactant 관련 물질 축적, 우윳빛 회수액, PAS 양성 단백성 물질을 한 묶음으로 이해한다.\n* '''④ DAH — 피빛과 연속 채취 양상이 핵심이다.''' 같은 부위에서 회수할수록 더 혈성으로 변하는 검체가 대표적이다. 현재의 우윳빛 검체와 다르다.\n* '''⑤ IPF — 만성 섬유화 패턴을 본다.''' 적절한 임상 상황에서 기저부·흉막하 망상음영과 honeycombing 등의 UIP 패턴을 평가한다. 우윳빛 BAL은 전형적이지 않다.\n\n=== BAL 판독의 비교표 ===\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\n=== 진단용 BAL과 치료용 전폐세척은 다르다 ===\n[[파일:assets/lecture-29/pap-lavage.jpg|PAP 전폐세척과 반복 세척에 따라 맑아지는 회수액]]\n\n'''진단용 BAL'''은 폐포 내용물의 색·세포·미생물 등을 확인할 검체를 얻는다. '''Whole-lung lavage'''는 전신마취하에 세척할 폐와 환기할 폐를 분리하고, 생리식염수 주입·배액을 반복하여 축적된 물질을 제거하는 치료다.\n\n* 등을 두드리는 '''흉부 타진'''은 물질이 세척액과 함께 빠져나오도록 돕는다.\n* '''주입량과 회수량'''을 비교하고, 회수액이 탁한 우윳빛에서 점차 맑아지는지 관찰한다.\n* 사진의 증례는 한 번에 약 '''1 L''', 총 '''14회'''의 세척을 보여 준다. 이는 '''증례의 시술량'''이며 모든 환자에게 고정된 표준 용량·횟수라는 뜻은 아니다.\n\n> PAP를 묻는 단서를 세 단계로 연결한다. '''우윳빛 BAL → 단백·지질성 물질 축적 → 필요한 환자에서는 전폐세척으로 제거'''. 같은 ‘lavage’라도 진단과 치료의 목적·규모는 다르다.\n\n[[29강#우윳빛 BAL은 폐포단백증으로 연결한다|우윳빛 BAL은 폐포단백증으로 연결한다]]\n[[29강#증가한 세포의 종류가 감별 범위를 좁힌다|BAL 세포 분획의 전체 비교]]\n~~근거: 강의록 27–33쪽과 문항 영상.~~~",
+      "answerLabel": "3번 — 폐포단백증 (Pulmonary alveolar proteinosis)",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③ 폐포단백증(Pulmonary alveolar proteinosis, PAP)\n\n=== 결정적인 단서는 우윳빛 회수액이다 ===\nX선·CT의 양측 폐 음영만으로는 여러 미만성 폐질환이 가능하다. 그러나 이 사진에는 '''불투명한 우윳빛 BAL 회수액'''이 함께 제시되어 있다. 폐포에 단백·지질성 물질이 축적되는 PAP를 가장 강하게 시사하는 조합이다. 무증상 검진에서 발견되었다는 점만으로 병변을 가볍게 보거나 배제하지 않는다.\n\nPAP에서는 GGO에 중격 비후가 겹치는 '''crazy-paving'''을 볼 수 있다. 다만 저해상도 사진에서 모든 선을 억지로 판독하거나 crazy-paving만으로 확정할 필요는 없다. '''영상 + 우윳빛 검체 + 단백성 물질의 세포·병리 확인'''이 진단의 연결고리다.\n\n=== 선지별 판단 ===\n* '''① 호산구성 폐렴 — 호산구 분획이 중요하다.''' BAL eosinophil ≥25%가 강한 단서이며 우윳빛 액체가 대표 소견은 아니다.\n* '''② 과민성폐장염(HP) — 노출력과 림프구성 BAL을 연결한다.''' 림프구 >50%는 HP 또는 cellular NSIP를 생각하게 한다. 검체 색만으로 진단하지 않는다.\n* '''③ PAP — 정답.''' 폐포의 surfactant 관련 물질 축적, 우윳빛 회수액, PAS 양성 단백성 물질을 한 묶음으로 이해한다.\n* '''④ DAH — 피빛과 연속 채취 양상이 핵심이다.''' 같은 부위에서 회수할수록 더 혈성으로 변하는 검체가 대표적이다. 현재의 우윳빛 검체와 다르다.\n* '''⑤ IPF — 만성 섬유화 패턴을 본다.''' 적절한 임상 상황에서 기저부·흉막하 망상음영과 honeycombing 등의 UIP 패턴을 평가한다. 우윳빛 BAL은 전형적이지 않다.\n\n=== BAL 판독의 비교표 ===\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\n=== 진단용 BAL과 치료용 전폐세척은 다르다 ===\n[[파일:assets/lecture-29/pap-lavage.jpg|PAP 전폐세척과 반복 세척에 따라 맑아지는 회수액]]\n\n'''진단용 BAL'''은 폐포 내용물의 색·세포·미생물 등을 확인할 검체를 얻는다. '''Whole-lung lavage'''는 전신마취하에 세척할 폐와 환기할 폐를 분리하고, 생리식염수 주입·배액을 반복하여 축적된 물질을 제거하는 치료다.\n\n* 등을 두드리는 '''흉부 타진'''은 물질이 세척액과 함께 빠져나오도록 돕는다.\n* '''주입량과 회수량'''을 비교하고, 회수액이 탁한 우윳빛에서 점차 맑아지는지 관찰한다.\n* 사진의 증례는 한 번에 약 '''1 L''', 총 '''14회'''의 세척을 보여 준다. 이는 '''증례의 시술량'''이며 모든 환자에게 고정된 표준 용량·횟수라는 뜻은 아니다.\n\n> PAP를 묻는 단서를 세 단계로 연결한다. '''우윳빛 BAL → 단백·지질성 물질 축적 → 필요한 환자에서는 전폐세척으로 제거'''. 같은 ‘lavage’라도 진단과 치료의 목적·규모는 다르다.\n\n[[29강#우윳빛 BAL은 폐포단백증으로 연결한다|우윳빛 BAL은 폐포단백증으로 연결한다]]\n[[29강#증가한 세포의 종류가 감별 범위를 좁힌다|BAL 세포 분획의 전체 비교]]\n~~근거: 강의록 27–33쪽과 문항 영상.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.64. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q064_01.jpg"
+        "J/2023/official-p064.jpg"
       ],
       "legacyProfessor": "남해성",
-      "professor": "유우경",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "남해성",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.64 출제자란 확인",
       "lectureIds": [
         29
       ],
       "lectureId": 29,
       "lectureTitle": "호흡기질환진단법 -기관지내시경중심",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 64번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "진단·검사",
+      "source": "2023 호흡기계 원본 p.64",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "남해성 진단법 문항 구간에서 BAL 소견으로 PAP 진단. 29강 우선; 질환 자체는 43강에도 해당."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q064_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 64,
+          "file": "J/2023/official-p064.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-21",
-        "scope": "lecture_29_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "annotatedPriorLectureConsulted": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
-            "name": "29. 호흡기질환진단법_강의록.pdf",
-            "pages": [
-              27,
-              28,
-              29,
-              30,
-              31,
-              32,
-              33
-            ]
-          }
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 64,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 64,
+        "professor": "남해성",
+        "lecture": "만성폐쇄성폐질환",
+        "question": "33세 남자가 보건증 발급을 위한 Chest X-ray 검사상 이상 소견으로 내원하였다. 다른 병력\n은 없었으며, 하루에 5개비 정도의 흡연력이 10년간 있다. Chest X-ray, chest CT와 기관지\n내시경을 통한 bronchoalveolar fluid 소견이다. 진단명은?",
+        "choices": [
+          "호산구성폐렴 (Eosinophilic pneumonia)",
+          "과민성폐장염 (Hypersensitivity pneumonitis)",
+          "폐포단백증 (Pulmonary alveolar proteinosis)",
+          "미만성폐포출혈 (Diffuse alveolar Hemorrhage)",
+          "특발성폐섬유화증 (Idiopathic pulmonary fibrosis)"
         ],
-        "notes": "Current lecture content and direct question/image review; no inferred official answer."
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18633,59 +19352,64 @@ window.JBL_DATA = {
         "유도객담검사는 증류수를 이용한다.",
         "가래는 비인두에서 나오는 비정상 분비물이다.",
         "가래에서 결핵균의 검출은 흔하게 발견될 수 있는 정상균이다.",
-        "편평 상피세포가 현미경상 25개 이상 나오면 적절한 가래 검체이다.",
+        "편평 상피세포가 현미경상 25개 이상 보이면 적절한 가래 검체이다.",
         "특별한 원인 질환 없이 가래에서 Streptococcus균이 동정될 수 있다."
       ],
       "answerIndex": 5,
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤ 특별한 원인 질환 없이 Streptococcus가 동정될 수 있다.\n\n=== 균 검출과 감염 진단을 구별한다 ===\n객담은 하부기도에서 올라오지만 입을 통과하면서 구강 분비물이 섞일 수 있다. 일부 Streptococcus는 구강 상재균이므로 '''배양에서 검출되었다는 사실만으로 폐렴의 원인균이라고 할 수 없다.''' 반대로 모든 Streptococcus가 무해하다는 뜻도 아니다. 균종, 검체의 질, 증상·영상이 일치하는지 확인한다.\n\n=== 선지별 판단 ===\n* '''① 증류수로 유도 — 틀리다.''' 대표적인 유도 방법은 고장성 식염수 에어로졸이다. 상황에 따라 등장성 식염수도 쓰며, 기관지수축에 대비해 폐기능을 관찰한다.\n* '''② 비인두 분비물 — 틀리다.''' 목표는 하부기도에서 올라온 분비물이다. 침·비인두 점액은 오염의 원인이 된다.\n* '''③ 결핵균은 정상균 — 틀리다.''' 결핵균을 정상 상재균으로 처리할 수 없다.\n* '''④ 편평상피세포 ≥25개면 적절 — 방향이 반대다.''' 편평상피세포가 많을수록 구강 오염 가능성이 커진다. 많이 보이는 검체를 좋은 검체라고 하지 않는다.\n* '''⑤ 특별한 질환 없이 Streptococcus 동정 — 맞다.''' 일부 구강 상재균의 혼입·집락화를 생각할 수 있다.\n\n=== 객담 문항을 한 번에 정리하기 ===\n||= 항목 ||= 바르게 기억할 내용 ||\n|| 기원 || '''하부기도''' 분비물을 깊게 기침해 얻는다. 비인두 점액·침과 구분한다. ||\n|| 채취 || 아침 자발적 객담을 활용한다. 구강 분비물 혼입을 줄인다. ||\n|| 유도 || 대표적으로 '''고장성 식염수''' 에어로졸. 상황에 따라 등장성 식염수도 사용하며 증류수가 표준 유도액은 아니다. ||\n|| 편평상피세포 || 많으면 구강 오염을 의심한다. 기출의 일반 객담 검체 기준은 저배율에서 10개 이상이면 부적절하다는 방향이다. ||\n|| Streptococcus·Candida || 구강 오염·집락화로 검출될 수 있어 배양 양성만으로 원인 질환을 확정하지 않는다. ||\n|| 결핵균 || 정상 상재균이 아니다. 검출 결과를 임상·다른 검사와 연결해야 한다. ||\n|| 객담 호산구 ≥3% || 호산구성 기도 염증의 단서. 비천식성 호산구성 기관지염은 천식·기도과민성 등과 구분해서 진단한다. ||\n\n> 먼저 좋은 검체인지 확인하고, 그다음 균이 원인인지 해석한다. “많은 편평상피세포 = 오염 의심”, “배양 양성 = 반드시 감염”이 아니라는 두 축을 구별한다.\n\n[[29강#객담은 침이 아니라 하부기도에서 올라온 검체다|객담은 침이 아니라 하부기도에서 올라온 검체다]]\n~~보충 근거: [[https://publications.ersnet.org/content/erj/20/37suppl/3s|ERS 객담 유도 지침]], [[https://www.idsociety.org/practice-guideline/candidiasis/|IDSA candidiasis 지침]]. 상피세포 수의 판정은 일반 세균배양용 객담 맥락이며 검사실·검사 목적에 따라 달라질 수 있다.~~~",
+      "answerLabel": "5번 — 특별한 원인 질환 없이 가래에서 Streptococcus균이 동정될 수 있다.",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤ 특별한 원인 질환 없이 Streptococcus가 동정될 수 있다.\n\n=== 균 검출과 감염 진단을 구별한다 ===\n객담은 하부기도에서 올라오지만 입을 통과하면서 구강 분비물이 섞일 수 있다. 일부 Streptococcus는 구강 상재균이므로 '''배양에서 검출되었다는 사실만으로 폐렴의 원인균이라고 할 수 없다.''' 반대로 모든 Streptococcus가 무해하다는 뜻도 아니다. 균종, 검체의 질, 증상·영상이 일치하는지 확인한다.\n\n=== 선지별 판단 ===\n* '''① 증류수로 유도 — 틀리다.''' 대표적인 유도 방법은 고장성 식염수 에어로졸이다. 상황에 따라 등장성 식염수도 쓰며, 기관지수축에 대비해 폐기능을 관찰한다.\n* '''② 비인두 분비물 — 틀리다.''' 목표는 하부기도에서 올라온 분비물이다. 침·비인두 점액은 오염의 원인이 된다.\n* '''③ 결핵균은 정상균 — 틀리다.''' 결핵균을 정상 상재균으로 처리할 수 없다.\n* '''④ 편평상피세포 ≥25개면 적절 — 방향이 반대다.''' 편평상피세포가 많을수록 구강 오염 가능성이 커진다. 많이 보이는 검체를 좋은 검체라고 하지 않는다.\n* '''⑤ 특별한 질환 없이 Streptococcus 동정 — 맞다.''' 일부 구강 상재균의 혼입·집락화를 생각할 수 있다.\n\n=== 객담 문항을 한 번에 정리하기 ===\n||= 항목 ||= 바르게 기억할 내용 ||\n|| 기원 || '''하부기도''' 분비물을 깊게 기침해 얻는다. 비인두 점액·침과 구분한다. ||\n|| 채취 || 아침 자발적 객담을 활용한다. 구강 분비물 혼입을 줄인다. ||\n|| 유도 || 대표적으로 '''고장성 식염수''' 에어로졸. 상황에 따라 등장성 식염수도 사용하며 증류수가 표준 유도액은 아니다. ||\n|| 편평상피세포 || 많으면 구강 오염을 의심한다. 기출의 일반 객담 검체 기준은 저배율에서 10개 이상이면 부적절하다는 방향이다. ||\n|| Streptococcus·Candida || 구강 오염·집락화로 검출될 수 있어 배양 양성만으로 원인 질환을 확정하지 않는다. ||\n|| 결핵균 || 정상 상재균이 아니다. 검출 결과를 임상·다른 검사와 연결해야 한다. ||\n|| 객담 호산구 ≥3% || 호산구성 기도 염증의 단서. 비천식성 호산구성 기관지염은 천식·기도과민성 등과 구분해서 진단한다. ||\n\n> 먼저 좋은 검체인지 확인하고, 그다음 균이 원인인지 해석한다. “많은 편평상피세포 = 오염 의심”, “배양 양성 = 반드시 감염”이 아니라는 두 축을 구별한다.\n\n[[29강#객담은 침이 아니라 하부기도에서 올라온 검체다|객담은 침이 아니라 하부기도에서 올라온 검체다]]\n~~보충 근거: [[https://publications.ersnet.org/content/erj/20/37suppl/3s|ERS 객담 유도 지침]], [[https://www.idsociety.org/practice-guideline/candidiasis/|IDSA candidiasis 지침]]. 상피세포 수의 판정은 일반 세균배양용 객담 맥락이며 검사실·검사 목적에 따라 달라질 수 있다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.65. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
-      "professor": "유우경",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "남해성",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.65 출제자란 확인",
       "lectureIds": [
         29
       ],
       "lectureId": 29,
       "lectureTitle": "호흡기질환진단법 -기관지내시경중심",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 65번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "진단·검사",
+      "source": "2023 호흡기계 원본 p.65",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "남해성 진단법 구간의 객담 검체 적절성. 29강 우선; 폐렴 검사와 교차."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-21",
-        "scope": "lecture_29_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
-        "annotatedPriorLectureConsulted": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/29. 호흡기질환진단법_강의록.pdf",
-            "name": "29. 호흡기질환진단법_강의록.pdf",
-            "pages": [
-              2
-            ]
-          }
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 65,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 65,
+        "professor": "남해성",
+        "lecture": "만성폐쇄성폐질환",
+        "question": "호흡기 질환 환자에서 시행되는 가래 검사에 대한 옳은 설명은?",
+        "choices": [
+          "유도객담검사는 증류수를 이용한다",
+          "가래는 비인두에서 나오는 비정상 분비물이다",
+          "가래에서 결핵균의 검출은 흔하게 발견될 수 있는 정상균이다.",
+          "편평 상피세포가 현미경상 25개 이상 보이면 적절한 가래 검체이다.",
+          "특별한 원인 질환 없이 가래에서 Streptococcus 균이 동정될 수 있다"
         ],
-        "notes": "Current lecture content and direct question/image review; no inferred official answer."
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18699,52 +19423,70 @@ window.JBL_DATA = {
       "originalNumbers": [
         66
       ],
-      "question": "만성폐쇄성폐질환에 대한 설명 중 옳은 것은?",
+      "question": "만성폐쇄성폐질환(COPD)에 대한 설명 중 옳은 설명은?",
       "passage": "",
       "choices": [
         "가역적인 기류제한이 특징이다.",
-        "결핵성 파괴폐에 대한 기류제한이 해당된다.",
-        "가슴 컴퓨터 단층 촬영(CT)으로 확진한다.",
+        "결핵성 파괴폐에 의한 기류제한이 해당된다",
+        "가슴 컴퓨터 단층(CT) 촬영으로 확진한다",
         "만성 호흡기 증상을 동반한 동질의 질환이다.",
-        "흡연이 중요 인자이며 비흡연자에서는 발병하지 않는다."
+        "흡연이 중요 인자이며, 비흡연자에서는 발생하지 않는다"
       ],
       "answerIndex": 2,
       "answerIndices": [
         2
       ],
-      "answerLabel": "② 결핵성 파괴폐에 대한 기류제한이 해당된다.",
-      "explanation": "'''정답: ② 결핵성 파괴폐에 대한 기류제한이 해당된다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD는 '''기도와 폐포의 다양한 이상이 지속적 기류제한으로 이어지는 이질적인 질환'''이다. 흡연이 중요한 원인이지만 결핵 후 폐 손상·폐 발달 이상·환경 노출·유전·천식 등 여러 배경이 가능하다. 진단은 임상 맥락에서 '''Post FEV1/FVC <0.7'''로 확인한다.\n\n||= 구분 ||= 맞는 이해 ||\n|| 원인 || 흡연이 중요하지만 비흡연자도 가능 ||\n|| 결핵 후 폐 손상 || 지속적 기류제한이 생길 수 있음 ||\n|| 가역성 || 일부 기관지확장제 반응은 가능해도 지속적 폐쇄가 남음 ||\n|| 영상 || 폐기종·다른 질환 평가를 보조, spirometry를 대체하지 않음 ||\n|| 질환 성격 || Heterogeneous, 이질적 ||\n\n=== 선지별 해설 ===\n* '''1번: 가역적인 기류제한이 특징이다.''' — 완전히 가역적인 기류제한을 대표 특징으로 쓰면 맞지 않는다. 그렇다고 COPD에서 기관지확장제 반응이 절대 없다는 뜻도 아니다.\n* '''2번: 결핵성 파괴폐에 대한 기류제한이 해당된다.''' — 결핵 관련 폐 손상은 COPD의 감염 관련 원인 범주에 포함될 수 있다.\n* '''3번: 가슴 컴퓨터 단층 촬영(CT)으로 확진한다.''' — CT만으로 기류제한을 확진하지 않는다.\n* '''4번: 만성 호흡기 증상을 동반한 동질의 질환이다.''' — 동질적이 아니라 이질적 질환이다. 기도·폐포 손상의 비율과 원인이 다르다.\n* '''5번: 흡연이 중요 인자이며 비흡연자에서는 발병하지 않는다.''' — 비흡연자에서도 발생할 수 있다.\n\n[[20강#COPD는 흡연자의 폐기종만을 뜻하지 않는다|20강 · COPD는 흡연자의 폐기종만을 뜻하지 않는다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
+      "answerLabel": "2번 — 결핵성 파괴폐에 의한 기류제한이 해당된다",
+      "explanation": "'''공식 정답: 2번'''\n\n'''정답: ② 결핵성 파괴폐에 대한 기류제한이 해당된다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD는 '''기도와 폐포의 다양한 이상이 지속적 기류제한으로 이어지는 이질적인 질환'''이다. 흡연이 중요한 원인이지만 결핵 후 폐 손상·폐 발달 이상·환경 노출·유전·천식 등 여러 배경이 가능하다. 진단은 임상 맥락에서 '''Post FEV1/FVC <0.7'''로 확인한다.\n\n||= 구분 ||= 맞는 이해 ||\n|| 원인 || 흡연이 중요하지만 비흡연자도 가능 ||\n|| 결핵 후 폐 손상 || 지속적 기류제한이 생길 수 있음 ||\n|| 가역성 || 일부 기관지확장제 반응은 가능해도 지속적 폐쇄가 남음 ||\n|| 영상 || 폐기종·다른 질환 평가를 보조, spirometry를 대체하지 않음 ||\n|| 질환 성격 || Heterogeneous, 이질적 ||\n\n=== 선지별 해설 ===\n* '''1번: 가역적인 기류제한이 특징이다.''' — 완전히 가역적인 기류제한을 대표 특징으로 쓰면 맞지 않는다. 그렇다고 COPD에서 기관지확장제 반응이 절대 없다는 뜻도 아니다.\n* '''2번: 결핵성 파괴폐에 대한 기류제한이 해당된다.''' — 결핵 관련 폐 손상은 COPD의 감염 관련 원인 범주에 포함될 수 있다.\n* '''3번: 가슴 컴퓨터 단층 촬영(CT)으로 확진한다.''' — CT만으로 기류제한을 확진하지 않는다.\n* '''4번: 만성 호흡기 증상을 동반한 동질의 질환이다.''' — 동질적이 아니라 이질적 질환이다. 기도·폐포 손상의 비율과 원인이 다르다.\n* '''5번: 흡연이 중요 인자이며 비흡연자에서는 발병하지 않는다.''' — 비흡연자에서도 발생할 수 있다.\n\n[[20강#COPD는 흡연자의 폐기종만을 뜻하지 않는다|20강 · COPD는 흡연자의 폐기종만을 뜻하지 않는다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.66. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "남해성",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.66 출제자란 확인",
       "lectureIds": [
         20
       ],
       "lectureId": 20,
       "lectureTitle": "만성폐쇄성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 66번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.66",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.",
-        "chapter": "COPD는 흡연자의 폐기종만을 뜻하지 않는다",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 66,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "lecture_based_best_answer"
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 66,
+        "professor": "남해성",
+        "lecture": "만성폐쇄성폐질환",
+        "question": "만성폐쇄성폐질환(COPD)에 대한 설명 중 옳은 설명은?",
+        "choices": [
+          "가역적인 기류제한이 특징이다",
+          "결핵성 파괴폐에 의한 기류제한이 해당된다",
+          "가슴 컴퓨터 단층(CT) 촬영으로 확진 한다",
+          "만성 호흡기 증상을 동반한 동질의 질환이다",
+          "흡연이 중요 인자이며, 비흡연자에서는 발생하지 않는다"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18763,7 +19505,7 @@ window.JBL_DATA = {
       "choices": [
         "속효성 흡입제를 선택한다.",
         "경구용 기관지확장제를 선택한다.",
-        "Group A 환자군에서 테오필린 기관지 확장제를 사용한다.",
+        "Group A 환자군에서 테오필린(theophylline) 기관지 확장제를 사용한다",
         "초기 장기작용 흡입제 사용 시 흡입 글루코코르티코이드 혼합제를 선택한다.",
         "반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다."
       ],
@@ -18771,39 +19513,57 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "⑤ 반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다.",
-      "explanation": "'''정답: ⑤ 반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD의 약물치료는 '''흡입 지속형 기관지확장제'''를 바탕으로 증상과 악화 위험에 맞추어 조절한다. ICS는 반복 악화 등 이득을 기대할 이유가 있을 때 추가한다. 다만 ‘반복 악화면 누구나 무조건 ICS’가 아니라 '''호산구·천식 동반·감염 위험'''을 함께 보는 조건부 원칙이다.\n\n||= ICS 판단 ||= 강의에서 제시한 조건 ||\n|| 강하게 지지 || 악화로 입원, 중등도 악화 연 2회 이상, '''eosinophil ≥300/μL''', 천식 병력·동반 ||\n|| 지지 || 중등도 악화 연 1회, '''eosinophil 100 이상 300 미만/μL''' ||\n|| 사용에 불리 || 반복 폐렴, '''eosinophil <100/μL''', mycobacterial infection 병력 ||\n|| LABA+LAMA 중 악화 || eosinophil ≥100/μL이면 ICS 추가 고려. ≥300이면 이득을 더 강하게 지지 ||\n|| LABA+LAMA 중 악화, eosinophil <100/μL || 만성기관지염·FEV1 <50%이면 roflumilast, 특히 현재 비흡연자이면 azithromycin 등의 조건을 검토 ||\n\n=== 선지별 해설 ===\n* '''1번: 속효성 흡입제를 선택한다.''' — 드문 증상 완화나 급성 악화에는 쓰지만 모든 COPD의 유지치료 원칙은 아니다.\n* '''2번: 경구용 기관지확장제를 선택한다.''' — 흡입제가 기도로 약을 전달하는 기본 경로다. 경구 기관지확장제를 우선 선택하는 원칙은 아니다.\n* '''3번: Group A 환자군에서 테오필린 기관지 확장제를 사용한다.''' — A군에서도 표준 선택은 적절한 흡입 기관지확장제이며 theophylline을 기본약으로 고르지 않는다.\n* '''4번: 초기 장기작용 흡입제 사용 시 흡입 글루코코르티코이드 혼합제를 선택한다.''' — 처음부터 모든 지속형 흡입제에 ICS를 섞지 않는다. 기관지확장과 항염증의 적응증을 구분한다.\n* '''5번: 반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다.''' — 선지 중 올바른 방향이다. 실제 추가 여부는 호산구·동반 천식·폐렴 위험 등을 함께 판단한다.\n\n[[20강#ICS는 악화 이력과 호산구를 함께 보고 추가한다|20강 · ICS는 악화 이력과 호산구를 함께 보고 추가한다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
+      "answerLabel": "5번 — 반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다.",
+      "explanation": "'''공식 정답: 5번'''\n\n'''정답: ⑤ 반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다.'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD의 약물치료는 '''흡입 지속형 기관지확장제'''를 바탕으로 증상과 악화 위험에 맞추어 조절한다. ICS는 반복 악화 등 이득을 기대할 이유가 있을 때 추가한다. 다만 ‘반복 악화면 누구나 무조건 ICS’가 아니라 '''호산구·천식 동반·감염 위험'''을 함께 보는 조건부 원칙이다.\n\n||= ICS 판단 ||= 강의에서 제시한 조건 ||\n|| 강하게 지지 || 악화로 입원, 중등도 악화 연 2회 이상, '''eosinophil ≥300/μL''', 천식 병력·동반 ||\n|| 지지 || 중등도 악화 연 1회, '''eosinophil 100 이상 300 미만/μL''' ||\n|| 사용에 불리 || 반복 폐렴, '''eosinophil <100/μL''', mycobacterial infection 병력 ||\n|| LABA+LAMA 중 악화 || eosinophil ≥100/μL이면 ICS 추가 고려. ≥300이면 이득을 더 강하게 지지 ||\n|| LABA+LAMA 중 악화, eosinophil <100/μL || 만성기관지염·FEV1 <50%이면 roflumilast, 특히 현재 비흡연자이면 azithromycin 등의 조건을 검토 ||\n\n=== 선지별 해설 ===\n* '''1번: 속효성 흡입제를 선택한다.''' — 드문 증상 완화나 급성 악화에는 쓰지만 모든 COPD의 유지치료 원칙은 아니다.\n* '''2번: 경구용 기관지확장제를 선택한다.''' — 흡입제가 기도로 약을 전달하는 기본 경로다. 경구 기관지확장제를 우선 선택하는 원칙은 아니다.\n* '''3번: Group A 환자군에서 테오필린 기관지 확장제를 사용한다.''' — A군에서도 표준 선택은 적절한 흡입 기관지확장제이며 theophylline을 기본약으로 고르지 않는다.\n* '''4번: 초기 장기작용 흡입제 사용 시 흡입 글루코코르티코이드 혼합제를 선택한다.''' — 처음부터 모든 지속형 흡입제에 ICS를 섞지 않는다. 기관지확장과 항염증의 적응증을 구분한다.\n* '''5번: 반복적인 급성 악화의 병력이 있으면 흡입 글루코코르티코이드를 추가한다.''' — 선지 중 올바른 방향이다. 실제 추가 여부는 호산구·동반 천식·폐렴 위험 등을 함께 판단한다.\n\n[[20강#ICS는 악화 이력과 호산구를 함께 보고 추가한다|20강 · ICS는 악화 이력과 호산구를 함께 보고 추가한다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.67. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "남해성",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.67 출제자란 확인",
       "lectureIds": [
         20
       ],
       "lectureId": 20,
       "lectureTitle": "만성폐쇄성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 67번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.67",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.",
-        "chapter": "ICS는 악화 이력과 호산구를 함께 보고 추가한다",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 67,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "lecture_based_best_answer"
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 67,
+        "professor": "남해성",
+        "lecture": "만성폐쇄성폐질환",
+        "question": "만성폐쇄성폐질환(COPD) 환자의 약물 치료에서 기관지확장제 사용 원칙은?",
+        "choices": [
+          "속효성 흡입제를 선택한다",
+          "경구용 기관지확장제를 선택한다",
+          "Group A 환자군에서 테오필린(theophylline) 기관지 확장제를 사용한다",
+          "초기 장기작용 흡입제 사용시 흡입 글루코코르티코이드 혼합제를 선택한다",
+          "반복적인 급성 악화의 병력이 있으면  흡입 글루코코르티코이드를 추가한다"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18817,8 +19577,8 @@ window.JBL_DATA = {
       "originalNumbers": [
         68
       ],
-      "question": "67세 남자가 6개월 전부터 숨이 차다며 병원에 왔다. 약 2년 전부터 기침과 가래가 있었다. 6개월 전부터 3층 계단을 오르기가 힘들었으며 2-3주 전부터 약 100m만 걸어도 숨이 차서 쉬어야 한다고 한다. 35갑년 과거 흡연자이다. 혈압 120/80 mmHg, 맥박 80회/분, 호흡 20 회/분, 체온 36.4℃이다. 가슴 청진에서 심음과 호흡음은 정상이다. 기관지확장제 투여 후 폐활량검사 결과와 가슴 X선 사진이다. 치료는? -------------------------------------------------------------------------- 강제폐활량(FVC):정상 예측치의 80% 1초간 강제날숨유량(FEV1): 정상 예측치의 54% 1초간 강제날숨유량(FEV1)/강제폐활량(FVC): 50%",
-      "passage": "",
+      "question": "67세 남자가 6개월 전부터 숨이 차다며 병원에 왔다. 약 2년 전부터 기침과 가래가 있었다. 6개월 전부터 3층 계단을 오르기가 힘들었으며 2-3주 전부터 약 100m만 걸어도 숨이 차서 쉬어야 한다고 한다. 35갑년 과거 흡연자이다. 혈압 120/80 mmHg, 맥박 80회/분, 호흡 20 회/분, 체온 36.4℃이다. 가슴 청진에서 심음과 호흡음은 정상이다. 기관지확장제 투여 후 폐활량검사 결과와 가슴 X선 사진이다. 치료는?",
+      "passage": "기관지확장제 투여 후 폐활량검사\n강제폐활량(FVC): 정상 예측치의 80%\n1초간 강제날숨유량(FEV₁): 정상 예측치의 54%\nFEV₁/FVC: 50%",
       "choices": [
         "속효성 베타-2 흡입제",
         "흡입 글루코코르티코이드",
@@ -18830,41 +19590,67 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "④ 장기작용 베타2작용제, 장기작용 무스카린 대항제 복합제",
-      "explanation": "'''정답: ④ 장기작용 베타2작용제, 장기작용 무스카린 대항제 복합제'''\n\n=== 이 문항을 풀기 위한 개념 ===\nPost FEV1/FVC '''50%'''로 폐쇄가 있고 FEV1 '''54% predicted'''이므로 GOLD 2다. 약 100 m만 걸어도 쉬어야 하므로 '''mMRC 3'''으로 증상이 크다. 반복 중등도·중증 악화 이력은 제시되지 않았으므로 초기 유지치료에서는 '''LABA+LAMA'''를 고른다. 최근 증상 악화의 원인도 평가해야 하지만, 단순히 숨이 찼다는 서술을 입원 악화 이력으로 바꾸어 triple을 선택하지 않는다.\n\n현재 복원본에는 발문에 언급된 가슴 X선 사진이 첨부되지 않았다. 영상 소견을 임의로 만들어 설명하지 않고, 주어진 폐기능·증상·선지로 판단했다.\n\n||= 구분 ||= 기준 ||= 올해 초기 흡입제 ||\n|| '''A''' || 최근 1년 중등도·중증 악화 0회, mMRC 0–1·CAT <10 || 기관지확장제 한 종류, 지속형 우선 고려 ||\n|| '''B''' || 같은 악화 0회, mMRC ≥2 또는 CAT ≥10 || '''LABA+LAMA''' ||\n|| '''E''' || '''중등도 또는 중증 악화 ≥1회/년''' || LABA+LAMA, eosinophil ≥300/μL이면 triple 고려 ||\n|| GOLD 1/2/3/4 || Post FEV1 ≥80 / 50–<80 / 30–<50 / <30% predicted || 기류제한의 정도이며 ABE 치료군과 다른 분류 ||\n\n올해 E군 기준은 중등도 또는 중증 악화 1회 이상이다. 과거 표의 ‘중등도 2회 또는 입원 1회’와 섞지 않되, 이 문항처럼 악화 이력이 제시되지 않은 증상 중심 환자는 그 변경과 별도로 판단한다.\n\n=== 선지별 해설 ===\n* '''1번: 속효성 베타-2 흡입제''' — 급성 증상 완화에는 쓰지만 이 정도 지속 증상의 기본 유지치료로는 부족하다.\n* '''2번: 흡입 글루코코르티코이드''' — COPD에서 ICS 단독은 기본 유지치료가 아니다.\n* '''3번: 장기작용 무스카린대항제 흡입제''' — LAMA 단독보다 LABA+LAMA가 증상이 큰 환자의 초기 선택에 맞는다.\n* '''4번: 장기작용 베타2작용제, 장기작용 무스카린 대항제 복합제''' — 두 지속형 기관지확장제를 병용하므로 적절하다.\n* '''5번: 흡입 글루코코르티코이드, 장기작용 베타2 작용제, 장기작용 무스카린 대항제 복합제''' — 초기부터 ICS를 추가할 천식·호산구·반복 악화 근거가 부족하다. FEV1 54% 하나만으로 triple을 선택하지 않는다.\n\n> '''비율로 진단 → FEV1로 등급 → 증상·악화로 약 선택.'''\n\n[[20강#처음 치료할 때는 A·B·E군을 나눈다|20강 · 처음 치료할 때는 A·B·E군을 나눈다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
-      "images": [],
+      "answerLabel": "4번 — 장기작용 베타2작용제, 장기작용 무스카린 대항제 복합제",
+      "explanation": "'''공식 정답: 4번'''\n\n'''정답: ④ 장기작용 베타2작용제, 장기작용 무스카린 대항제 복합제'''\n\n=== 이 문항을 풀기 위한 개념 ===\nPost FEV1/FVC '''50%'''로 폐쇄가 있고 FEV1 '''54% predicted'''이므로 GOLD 2다. 약 100 m만 걸어도 쉬어야 하므로 '''mMRC 3'''으로 증상이 크다. 반복 중등도·중증 악화 이력은 제시되지 않았으므로 초기 유지치료에서는 '''LABA+LAMA'''를 고른다. 최근 증상 악화의 원인도 평가해야 하지만, 단순히 숨이 찼다는 서술을 입원 악화 이력으로 바꾸어 triple을 선택하지 않는다.\n\n공식 원본의 흉부 X선 사진을 복구했다. 폐기능·증상과 영상을 함께 보고 COPD의 치료 목표를 판단한다.\n\n||= 구분 ||= 기준 ||= 올해 초기 흡입제 ||\n|| '''A''' || 최근 1년 중등도·중증 악화 0회, mMRC 0–1·CAT <10 || 기관지확장제 한 종류, 지속형 우선 고려 ||\n|| '''B''' || 같은 악화 0회, mMRC ≥2 또는 CAT ≥10 || '''LABA+LAMA''' ||\n|| '''E''' || '''중등도 또는 중증 악화 ≥1회/년''' || LABA+LAMA, eosinophil ≥300/μL이면 triple 고려 ||\n|| GOLD 1/2/3/4 || Post FEV1 ≥80 / 50–<80 / 30–<50 / <30% predicted || 기류제한의 정도이며 ABE 치료군과 다른 분류 ||\n\n올해 E군 기준은 중등도 또는 중증 악화 1회 이상이다. 과거 표의 ‘중등도 2회 또는 입원 1회’와 섞지 않되, 이 문항처럼 악화 이력이 제시되지 않은 증상 중심 환자는 그 변경과 별도로 판단한다.\n\n=== 선지별 해설 ===\n* '''1번: 속효성 베타-2 흡입제''' — 급성 증상 완화에는 쓰지만 이 정도 지속 증상의 기본 유지치료로는 부족하다.\n* '''2번: 흡입 글루코코르티코이드''' — COPD에서 ICS 단독은 기본 유지치료가 아니다.\n* '''3번: 장기작용 무스카린대항제 흡입제''' — LAMA 단독보다 LABA+LAMA가 증상이 큰 환자의 초기 선택에 맞는다.\n* '''4번: 장기작용 베타2작용제, 장기작용 무스카린 대항제 복합제''' — 두 지속형 기관지확장제를 병용하므로 적절하다.\n* '''5번: 흡입 글루코코르티코이드, 장기작용 베타2 작용제, 장기작용 무스카린 대항제 복합제''' — 초기부터 ICS를 추가할 천식·호산구·반복 악화 근거가 부족하다. FEV1 54% 하나만으로 triple을 선택하지 않는다.\n\n> '''비율로 진단 → FEV1로 등급 → 증상·악화로 약 선택.'''\n\n[[20강#처음 치료할 때는 A·B·E군을 나눈다|20강 · 처음 치료할 때는 A·B·E군을 나눈다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.68. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2023/official-p068.jpg"
+      ],
       "legacyProfessor": "남해성",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "남해성",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.68 출제자란 확인",
       "lectureIds": [
         20
       ],
       "lectureId": 20,
       "lectureTitle": "만성폐쇄성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 68번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.68",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "source": "2023 원본.pdf",
+          "page": 68,
+          "file": "J/2023/official-p068.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.",
-        "chapter": "처음 치료할 때는 A·B·E군을 나눈다",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 68,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "lecture_based_best_answer"
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 68,
+        "professor": "남해성",
+        "lecture": "만성폐쇄성폐질환",
+        "question": "67세 남자가 6개월 전부터 숨이 차다며 병원에 왔다. 약 2년 전부터 기침과 가래가 있었다. 6\n개월 전부터 3층 계단을 오르기가 힘들었으며 2-3주 전부터 약 100m 만 걸어도 숨이차서 쉬\n어야 한다고 한다. 35갑년 과거 흡연자이다. 혈압 120/80 mmHg, 맥박 80회/분, 호흡 20 회/\n분, 체온 36.4℃이다. 가슴 청진에서 심음과 호흡음은 정상이다. 기관지확장제 투여 후 폐활량\n검사 결과와 가슴 X선 사진이다. 치료는?\n--------------------------------------------------------------------------\n강제폐활량(FVC):정상 예측치의 80%\n1초간 강제날숨유량(FEV1): 장상예측치의 54%\n1초간 강제날숨유량(FEV1)/강제폐활량(FVC): 50%",
+        "choices": [
+          "속효성 베타-2 흡입제",
+          "흡입 글루코코르티코이드",
+          "장기작용 무스카린대항제 흡입제",
+          "장기작용 베타2작용제, 장기작용 무스카린대항제 복합제",
+          "흡입 글루코코르티코이드, 장기작용 베타2작용제, 장기작용 무스카린대항제 복합제"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18878,8 +19664,8 @@ window.JBL_DATA = {
       "originalNumbers": [
         69
       ],
-      "question": "70세 남자가 4일 전부터 가래가 심해지면서 숨이 차다고 병원에 왔다. 3년 전부터 만성폐쇄성폐질환으로 진단 후 흡입기 (장기작용 베타2작용제, 장기작용 무스카린대항제 복합제) 및 점액 용해제(mucolytics) 등을 처방받아 왔다. 지난 1년 동안 기침, 가래의 악화로 지역 병원에 1회 입원 병력이 있었다. 4일 전부터 약 100m만 걸어도 숨이 차서 쉬어야 하고, 가래가 많아졌다. 50갑년의 과거 흡연자이다. 혈압 120/80 mmHg, 맥박 90 회/분, 호흡 24 회/분, 체온 36.6℃이다. 가슴 청진에서 호흡음은 정상이다. 혈액검사 소견과 3개월 전 기관지확장제 투여 후 폐활량검사 결과이다. 향후 치료는? --------------------------------------------------------------------------- 혈액: 혈색소 14 g/dl, 백혈구 8,200/mm3 (중성구 67%, 림프구 25%, 단핵구 5%, 호산구 1%), 혈소판 367,000/mm3 동맥혈검사(대기호흡) : pH 7.41, PaCo2 40mmHg, PaO2 76mmHg 폐기능검사(기관지확장제 후): -강제폐활량 (FVC): 정상예측치의 80% -1초간 강제날숨 (FEV1): 정상예측치의 44% -1초간 강제날숨유량(FEV1)/강제폐활량(FVC): 45% ---------------------------------------------------------------",
-      "passage": "",
+      "question": "70세 남자가 4일 전부터 가래가 심해지면서 숨이 차다고 병원에 왔다. 3년 전부터 만성폐쇄성폐질환으로 진단 후 흡입기 (장기작용 베타2작용제, 장기작용 무스카린대항제 복합제) 및 점액 용해제(mucolytics) 등을 처방받아 왔다. 지난 1년 동안 기침, 가래의 악화로 지역 병원에 1회 입원 병력이 있었다. 4일 전부터 약 100m만 걸어도 숨이 차서 쉬어야 하고, 가래가 많아졌다. 50갑년의 과거 흡연자이다. 혈압 120/80 mmHg, 맥박 90 회/분, 호흡 24 회/분, 체온 36.6℃이다. 가슴 청진에서 호흡음은 정상이다. 혈액검사 소견과 3개월 전 기관지확장제 투여 후 폐활량검사 결과이다. 향후 치료는?",
+      "passage": "혈액검사\n혈색소: 14 g/dL\n백혈구: 8,200/mm³ (중성구 67%, 림프구 25%, 단핵구 5%, 호산구 1%)\n혈소판: 367,000/mm³\n\n동맥혈가스검사 — 대기호흡\npH 7.41, PaCO₂ 40 mmHg, PaO₂ 76 mmHg\n\n기관지확장제 투여 후 폐활량검사\n강제폐활량(FVC): 정상 예측치의 80%\n1초간 강제날숨유량(FEV₁): 정상 예측치의 44%\nFEV₁/FVC: 45%",
       "choices": [
         "속효성 베타-2 흡입제 추가",
         "흡입 글루코코르티코이드 추가",
@@ -18891,42 +19677,58 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "③ Phosphodiesterase-4 억제제 추가",
-      "explanation": "'''정답: ③ Phosphodiesterase-4 억제제 추가'''\n\n=== 이 문항을 풀기 위한 개념 ===\n이미 '''LABA+LAMA'''를 쓰면서 만성 기침·가래와 반복 악화가 있고, 지난 1년 입원 이력도 있다. Post FEV1은 '''44% predicted'''로 50% 미만이다. 호산구 절대 수는 '''8,200×0.01=82/μL'''이므로 ICS 추가를 강하게 지지하는 상황이 아니다. '''만성기관지염 양상 + FEV1 <50% + 재악화'''에 맞추어 roflumilast 등 '''PDE4 억제제''' 추가를 고른다.\n\n||= ICS 판단 ||= 강의에서 제시한 조건 ||\n|| 강하게 지지 || 악화로 입원, 중등도 악화 연 2회 이상, '''eosinophil ≥300/μL''', 천식 병력·동반 ||\n|| 지지 || 중등도 악화 연 1회, '''eosinophil 100 이상 300 미만/μL''' ||\n|| 사용에 불리 || 반복 폐렴, '''eosinophil <100/μL''', mycobacterial infection 병력 ||\n|| LABA+LAMA 중 악화 || eosinophil ≥100/μL이면 ICS 추가 고려. ≥300이면 이득을 더 강하게 지지 ||\n|| LABA+LAMA 중 악화, eosinophil <100/μL || 만성기관지염·FEV1 <50%이면 roflumilast, 특히 현재 비흡연자이면 azithromycin 등의 조건을 검토 ||\n\nABGA는 pH 7.41, PaCO2 40, PaO2 76으로 심한 고탄산성 산증이나 장기산소 적응증을 보여 주지 않는다. 현재 악화의 구조치료도 필요할 수 있지만, 발문의 '''‘향후 치료’'''와 공식 해설은 추가 유지약제로 재악화를 줄이는 선택을 묻는다.\n\n=== 선지별 해설 ===\n* '''1번: 속효성 베타-2 흡입제 추가''' — 현재의 급성 증상에는 적절할 수 있지만 반복 악화를 예방하는 추가 유지치료라는 질문의 핵심 답은 아니다. SABA가 언제나 틀린 약이라는 뜻이 아니다.\n* '''2번: 흡입 글루코코르티코이드 추가''' — 호산구가 82/μL로 낮아 이득을 기대하기 어렵다. 이 환자는 roflumilast 조건이 더 뚜렷하다.\n* '''3번: Phosphodiesterase-4 억제제 추가''' — 공식 정답이다. 대표 약물 roflumilast는 만성기관지염·심한 기류제한·반복 악화에서 추가를 고려한다.\n* '''4번: 경구 글루코코르티코이드 14일 이상 추가''' — 급성 악화에서는 보통 prednisolone 40 mg 5일을 사용한다. 14일 이상을 재악화 예방 목적으로 추가하는 것이 아니다.\n* '''5번: 테오필린(theophylline) 기관지 확장제 추가''' — 표준 추가 선택이 아니며 부작용·상호작용 문제도 있다.\n\n=== 공식 오답30 원문 해설 ===\n> COPD 환자로 LAMA+LABA 복합제 사용 중 급성 악화로 내원한 환자이다. 반복적인 기침, 가래의 악화 등의 증상으로 chronic bronchitis 의 COPD환자이며, eosinophil <100이므로 흡입 글루코코르티코이드 추가가 아닌 Phosphodiesterase-4 억제제 추가 또는 macrolide 항생제 추가를 고려 할 수 있다.\n\n'''계산의 핵심은 1%가 아니라 82/μL'''다. 같은 악화 증례라도 호산구가 313/μL인 46·126번과 추가 약제가 달라지는 이유다.\n\n[[20강#치료 중 악화가 반복되면 현재 약에서 다음 단계로 간다|20강 · 치료 중 악화가 반복되면 현재 약에서 다음 단계로 간다]]\n~~근거: 2023 공식 오답30 p.3의 정답 ③·원문 해설 직접 확인. 39기 COPD 34–35쪽 추적 치료표와 대조.~~~",
+      "answerLabel": "3번 — Phosphodiesterase-4 억제제 추가",
+      "explanation": "'''공식 정답: 3번'''\n\n'''정답: ③ Phosphodiesterase-4 억제제 추가'''\n\n=== 이 문항을 풀기 위한 개념 ===\n이미 '''LABA+LAMA'''를 쓰면서 만성 기침·가래와 반복 악화가 있고, 지난 1년 입원 이력도 있다. Post FEV1은 '''44% predicted'''로 50% 미만이다. 호산구 절대 수는 '''8,200×0.01=82/μL'''이므로 ICS 추가를 강하게 지지하는 상황이 아니다. '''만성기관지염 양상 + FEV1 <50% + 재악화'''에 맞추어 roflumilast 등 '''PDE4 억제제''' 추가를 고른다.\n\n||= ICS 판단 ||= 강의에서 제시한 조건 ||\n|| 강하게 지지 || 악화로 입원, 중등도 악화 연 2회 이상, '''eosinophil ≥300/μL''', 천식 병력·동반 ||\n|| 지지 || 중등도 악화 연 1회, '''eosinophil 100 이상 300 미만/μL''' ||\n|| 사용에 불리 || 반복 폐렴, '''eosinophil <100/μL''', mycobacterial infection 병력 ||\n|| LABA+LAMA 중 악화 || eosinophil ≥100/μL이면 ICS 추가 고려. ≥300이면 이득을 더 강하게 지지 ||\n|| LABA+LAMA 중 악화, eosinophil <100/μL || 만성기관지염·FEV1 <50%이면 roflumilast, 특히 현재 비흡연자이면 azithromycin 등의 조건을 검토 ||\n\nABGA는 pH 7.41, PaCO2 40, PaO2 76으로 심한 고탄산성 산증이나 장기산소 적응증을 보여 주지 않는다. 현재 악화의 구조치료도 필요할 수 있지만, 발문의 '''‘향후 치료’'''와 공식 해설은 추가 유지약제로 재악화를 줄이는 선택을 묻는다.\n\n=== 선지별 해설 ===\n* '''1번: 속효성 베타-2 흡입제 추가''' — 현재의 급성 증상에는 적절할 수 있지만 반복 악화를 예방하는 추가 유지치료라는 질문의 핵심 답은 아니다. SABA가 언제나 틀린 약이라는 뜻이 아니다.\n* '''2번: 흡입 글루코코르티코이드 추가''' — 호산구가 82/μL로 낮아 이득을 기대하기 어렵다. 이 환자는 roflumilast 조건이 더 뚜렷하다.\n* '''3번: Phosphodiesterase-4 억제제 추가''' — 공식 정답이다. 대표 약물 roflumilast는 만성기관지염·심한 기류제한·반복 악화에서 추가를 고려한다.\n* '''4번: 경구 글루코코르티코이드 14일 이상 추가''' — 급성 악화에서는 보통 prednisolone 40 mg 5일을 사용한다. 14일 이상을 재악화 예방 목적으로 추가하는 것이 아니다.\n* '''5번: 테오필린(theophylline) 기관지 확장제 추가''' — 표준 추가 선택이 아니며 부작용·상호작용 문제도 있다.\n\n=== 공식 오답30 원문 해설 ===\n> COPD 환자로 LAMA+LABA 복합제 사용 중 급성 악화로 내원한 환자이다. 반복적인 기침, 가래의 악화 등의 증상으로 chronic bronchitis 의 COPD환자이며, eosinophil <100이므로 흡입 글루코코르티코이드 추가가 아닌 Phosphodiesterase-4 억제제 추가 또는 macrolide 항생제 추가를 고려 할 수 있다.\n\n'''계산의 핵심은 1%가 아니라 82/μL'''다. 같은 악화 증례라도 호산구가 313/μL인 46·126번과 추가 약제가 달라지는 이유다.\n\n[[20강#치료 중 악화가 반복되면 현재 약에서 다음 단계로 간다|20강 · 치료 중 악화가 반복되면 현재 약에서 다음 단계로 간다]]\n~~근거: 2023 공식 오답30 p.3의 정답 ③·원문 해설 직접 확인. 39기 COPD 34–35쪽 추적 치료표와 대조.~~~\n\n=== 공식 원문 해설 ===\n> COPD 환자로 LAMA+LABA 복합제 사용 중 급성 악화로 내원한 환자이다. 반복적인 기침, 가래의 악화 등의 증상으로 chronic bronchitis 의 COPD환자이며, eosinophil <100이므로 흡입 글루코코르티코이드 추가가 아닌 Phosphodiesterase-4 억제제 추가 또는 macrolide 항 생제 추가를 고려 할 수 있다.\n\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.69. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
-      "professor": "김혜수",
+      "professor": "남해성",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 공개문항 PDF 3쪽 출제자·강의명·문항 내용 대조",
+      "examinerEvidence": "2023 원본.pdf p.69 출제자란 확인",
       "lectureIds": [
         20
       ],
       "lectureId": 20,
       "lectureTitle": "만성폐쇄성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 69번, 오답30 p.3",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "기도·알레르기질환",
+      "source": "2023 호흡기계 원본 p.69, 오답30 p.3",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
-      "restorationNotes": [
-        "공식 문항출제지 강의번호 14와 37기 시간표 41가 다름. 강의명·내용으로 현행 강의를 배정."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "officialPage": 3,
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "2023 공식 오답30 p.3의 정답 ③·원문 해설 직접 확인. 39기 COPD 34–35쪽 추적 치료표와 대조.",
-        "chapter": "치료 중 악화가 반복되면 현재 약에서 다음 단계로 간다",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
+        "officialSourcePage": 69,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "official_verified"
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 69,
+        "professor": "남해성",
+        "lecture": "만성폐쇄성폐질환",
+        "question": "70세 남자가 4일 전부터 가래가 심해지면서 숨이 차다고 병원에 왔다. 3년 전부터 만성폐쇄성\n폐질환으로 진단 후 흡입기 (장기작용 베타2작용제, 장기작용 무스카린대항제 복합제)  및 점액\n용해제(mucolytics) 등을 처방 받아 왔다. 지난 1년 동안 기침, 가래의 악화로 지역 병원에 1\n회 입원 병력이 있었다. 4일전부터 약 100m 만 걸어도 숨이차서 쉬어야 하고, 가래가 많아졌\n다. 50갑년의 과거 흡연자이다. 혈압 120/80 mmHg, 맥박 90 회/분, 호흡 24 회/분, 체온\n36.6℃이다. 가슴 청진에서 호흡음은 정상이다. 혈액검사 소견과 3개월 전 기관지확장제 투여\n후 폐활량검사 결과이다. 향후 치료는?\n----------------------------------------------------------------------------------------\n혈액: 혈색소 14 g/dl, 백혈구 8,200/mm3 (중성구 67%, 림프구 25%, 단핵구 5%, 호산구\n1%), 혈소판 367,000/mm3\n동맥혈검사(대기호흡) : pH 7.41, PaCo2 40mmHg, PaO2 76mmHg\n폐기능검사(기관제확장제 후):\n-강제폐활량 (FVC): 정상예측치의 80%\n-1초간 강제날숨 (FEV1): 정상예측치의 44%\n-1초간 강제날숨유량(FEV1)/강제폐활량(FVC): 45%\n---------------------------------------------------------------------",
+        "choices": [
+          "속효성 베타-2 흡입제 추가",
+          "흡입 글루코코르티코이드 추가",
+          "Phosphodiesterase-4 억제제 추가",
+          "경구 글루코코르티코이드 14일 이상 추가",
+          "테오필린(theophylline) 기관지 확장제 추가"
+        ],
+        "answer": "3",
+        "explanation": "COPD 환자로 LAMA+LABA 복합제 사용 중 급성 악화로 내원한 환자이다. 반복적인 기침,\n가래의 악화 등의 증상으로 chronic bronchitis 의 COPD환자이며, eosinophil <100이므로\n흡입 글루코코르티코이드 추가가 아닌 Phosphodiesterase-4 억제제 추가 또는 macrolide 항\n생제 추가를 고려 할 수 있다.",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -18936,9 +19738,8 @@ window.JBL_DATA = {
       "globalNumber": 246,
       "year": 2023,
       "sourceType": "오답30",
-      "originalNumber": 70,
+      "originalNumber": 114,
       "originalNumbers": [
-        70,
         114
       ],
       "question": "우리나라 폐암의 최근 동향에 대한 기술 중 옳은 것은?",
@@ -18954,67 +19755,58 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ①",
-      "explanation": "=== 풀이의 핵심 ===\n'''공식 정답은 1번'''이다. 핵심은 실제 환자 수나 조발생률과 '''연령표준화 발생률'''을 구분하는 것이다. 고령화 때문에 환자가 많아지더라도 같은 연령 구조로 보정한 위험은 줄어들 수 있다.\n올해 그래프에서는 특히 남성의 조발생률 상승과 연령표준화 발생률 감소가 대비된다. 여성의 곡선은 같은 감소 양상이 아니므로 공식 선지를 ‘모든 성별·모든 기간에서 감소’로 확대하지 않는다.\n\n=== 선지별 해설 ===\n* 1번: '''연령표준화 발생률 감소: 공식 정답.''' 출제 당시 전체 추세의 요지다. 현재 자료를 볼 때에는 성별과 기간도 확인한다.\n* 2번: '''비흡연 폐암이 흡연자 폐암보다 흔하다: 지나친 결론.''' 비흡연자에서도 폐암이 생긴다는 사실과 전체 규모의 우열은 다른 주장이다.\n* 3번: '''선별검사가 발병률을 감소시킨다: 지표를 바꾼 함정.''' LDCT의 입증된 주요 이득은 폐암 사망률 감소다.\n* 4번: '''치료 발전으로 유병률 감소: 자동으로 성립하지 않는다.''' 생존기간이 늘면 질환을 가진 채 생존하는 사람이 더 오래 남아 유병 규모가 커질 수 있다.\n* 5번: '''비흡연 폐암은 유전적 요인에 의한다: 단일 원인으로 설명할 수 없다.''' 환경·직업 노출, 간접흡연 등의 요인도 고려한다. 종양의 driver mutation을 곧바로 유전되는 질환과 동일시하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다'''\n\n나이가 들수록 폐암 발생이 많아지므로, 인구 고령화만으로도 새 환자의 수와 조발생률이 높아질 수 있다. 같은 시기에 흡연 등 위험요인이 줄어 연령별 위험이 낮아지면 연령표준화 발생률은 감소할 수 있다. 두 현상은 모순이 아니다.\n\n\n그림에서 남성은 조발생률이 증가하는 동안 연령표준화 발생률이 감소한다. 여성의 연령표준화 발생률은 남성과 같은 뚜렷한 감소선이 아니므로, ‘모든 성별에서 동일하게 감소한다’고 확대해서 외우지 않는다. 미국의 폐암 발생률 감소나 국내 연령표준화 사망률 감소 역시 '''대상·기간·지표'''를 함께 읽어야 한다.\n\n> \"\"실제 환자 수 증가 ≠ 연령을 보정한 발생 위험 증가.\"\" 치료로 생존이 좋아졌다는 사실만으로 유병률이 감소한다고 결론 내릴 수도 없다.\n\n'''발생률과 사망률은 같은 숫자가 아니다'''\n\n폐암은 우리나라와 세계에서 암 사망의 큰 비중을 차지한다. 다만 ‘가장 흔한 암’이라는 표현은 전체 인구인지 특정 성별인지, 발생인지 사망인지, 어느 해의 통계인지를 먼저 확인해야 한다. 세계 2022년 자료에서는 폐암이 전체 암 발생의 12.4%, 암 사망의 18.7%를 차지한다. 미국 2024년 자료의 발생 1위는 남성 전립선암·여성 유방암이지만, 사망에서는 남녀 모두 폐암이 가장 큰 비중을 차지한다.\n\n국내 2024년 '''추정''' 통계도 같은 방식으로 읽는다. 남성 발생에서는 전립선암 15.8%, 폐암 14.9%이고, 여성에서는 유방암·갑상선암이 앞선다. 반면 폐암은 남녀 모두 암 사망의 가장 큰 몫을 차지한다. 과거 공식 문항의 ‘갑상선암을 제외하면 발생 1위’는 '''출제 당시 통계'''에 대한 답이지 모든 연도에 적용되는 고정 문장이 아니다.\n\n\n||= 지표 ||= 뜻 ||= 해석할 때 주의할 점 ||\n|| 발생률 || 일정 기간 새로 생긴 환자의 비율 || 사망률·현재 환자 수와 다르다. ||\n|| 조발생률 || 실제 인구의 연령 구성을 그대로 반영한 발생률 || 고령 인구가 늘면 증가할 수 있다. ||\n|| 연령표준화 발생률 || 같은 연령 구조라고 가정하고 비교한 발생률 || 고령화의 영향을 보정한 위험 추세를 본다. ||\n|| 사망률 || 일정 기간 해당 질환으로 사망한 비율 || 조기 발견과 치료 효과의 중요한 평가 지표다. ||\n|| 유병률 || 특정 시점·기간에 질환을 가지고 있는 사람의 비율 || 생존기간이 늘면 유병 환자가 더 오래 남을 수 있다. ||\n\n=== 공식 오답30 원문 해설 ===\n2023 호흡기계 오답30 p.4.\n\n> 폐암 발생은 늘어나고 있지만 연령표준화 발생률은 감소추세임.\n\n[[32강#환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다|환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다]]\n\n~~근거: 39기 「32. 폐종양」 2–14쪽과 38기 자료. 선배 풀이를 정답 근거로 사용하지 않았다. 공식 정답·원문 해설을 직접 대조했으며 당시 출제자는 류정선으로 확인된다. 현재 강의 연결은 32강 임준혁 교수의 폐종양이다.~~~",
+      "answerLabel": "1번 — 연령표준화 폐암발생률은 감소하고 있다.",
+      "explanation": "'''공식 정답: 1번'''\n\n=== 풀이의 핵심 ===\n'''공식 정답은 1번'''이다. 핵심은 실제 환자 수나 조발생률과 '''연령표준화 발생률'''을 구분하는 것이다. 고령화 때문에 환자가 많아지더라도 같은 연령 구조로 보정한 위험은 줄어들 수 있다.\n올해 그래프에서는 특히 남성의 조발생률 상승과 연령표준화 발생률 감소가 대비된다. 여성의 곡선은 같은 감소 양상이 아니므로 공식 선지를 ‘모든 성별·모든 기간에서 감소’로 확대하지 않는다.\n\n=== 선지별 해설 ===\n* 1번: '''연령표준화 발생률 감소: 공식 정답.''' 출제 당시 전체 추세의 요지다. 현재 자료를 볼 때에는 성별과 기간도 확인한다.\n* 2번: '''비흡연 폐암이 흡연자 폐암보다 흔하다: 지나친 결론.''' 비흡연자에서도 폐암이 생긴다는 사실과 전체 규모의 우열은 다른 주장이다.\n* 3번: '''선별검사가 발병률을 감소시킨다: 지표를 바꾼 함정.''' LDCT의 입증된 주요 이득은 폐암 사망률 감소다.\n* 4번: '''치료 발전으로 유병률 감소: 자동으로 성립하지 않는다.''' 생존기간이 늘면 질환을 가진 채 생존하는 사람이 더 오래 남아 유병 규모가 커질 수 있다.\n* 5번: '''비흡연 폐암은 유전적 요인에 의한다: 단일 원인으로 설명할 수 없다.''' 환경·직업 노출, 간접흡연 등의 요인도 고려한다. 종양의 driver mutation을 곧바로 유전되는 질환과 동일시하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다'''\n\n나이가 들수록 폐암 발생이 많아지므로, 인구 고령화만으로도 새 환자의 수와 조발생률이 높아질 수 있다. 같은 시기에 흡연 등 위험요인이 줄어 연령별 위험이 낮아지면 연령표준화 발생률은 감소할 수 있다. 두 현상은 모순이 아니다.\n\n\n그림에서 남성은 조발생률이 증가하는 동안 연령표준화 발생률이 감소한다. 여성의 연령표준화 발생률은 남성과 같은 뚜렷한 감소선이 아니므로, ‘모든 성별에서 동일하게 감소한다’고 확대해서 외우지 않는다. 미국의 폐암 발생률 감소나 국내 연령표준화 사망률 감소 역시 '''대상·기간·지표'''를 함께 읽어야 한다.\n\n> \"\"실제 환자 수 증가 ≠ 연령을 보정한 발생 위험 증가.\"\" 치료로 생존이 좋아졌다는 사실만으로 유병률이 감소한다고 결론 내릴 수도 없다.\n\n'''발생률과 사망률은 같은 숫자가 아니다'''\n\n폐암은 우리나라와 세계에서 암 사망의 큰 비중을 차지한다. 다만 ‘가장 흔한 암’이라는 표현은 전체 인구인지 특정 성별인지, 발생인지 사망인지, 어느 해의 통계인지를 먼저 확인해야 한다. 세계 2022년 자료에서는 폐암이 전체 암 발생의 12.4%, 암 사망의 18.7%를 차지한다. 미국 2024년 자료의 발생 1위는 남성 전립선암·여성 유방암이지만, 사망에서는 남녀 모두 폐암이 가장 큰 비중을 차지한다.\n\n국내 2024년 '''추정''' 통계도 같은 방식으로 읽는다. 남성 발생에서는 전립선암 15.8%, 폐암 14.9%이고, 여성에서는 유방암·갑상선암이 앞선다. 반면 폐암은 남녀 모두 암 사망의 가장 큰 몫을 차지한다. 과거 공식 문항의 ‘갑상선암을 제외하면 발생 1위’는 '''출제 당시 통계'''에 대한 답이지 모든 연도에 적용되는 고정 문장이 아니다.\n\n\n||= 지표 ||= 뜻 ||= 해석할 때 주의할 점 ||\n|| 발생률 || 일정 기간 새로 생긴 환자의 비율 || 사망률·현재 환자 수와 다르다. ||\n|| 조발생률 || 실제 인구의 연령 구성을 그대로 반영한 발생률 || 고령 인구가 늘면 증가할 수 있다. ||\n|| 연령표준화 발생률 || 같은 연령 구조라고 가정하고 비교한 발생률 || 고령화의 영향을 보정한 위험 추세를 본다. ||\n|| 사망률 || 일정 기간 해당 질환으로 사망한 비율 || 조기 발견과 치료 효과의 중요한 평가 지표다. ||\n|| 유병률 || 특정 시점·기간에 질환을 가지고 있는 사람의 비율 || 생존기간이 늘면 유병 환자가 더 오래 남을 수 있다. ||\n\n=== 공식 오답30 원문 해설 ===\n2023 호흡기계 오답30 p.4.\n\n> 폐암 발생은 늘어나고 있지만 연령표준화 발생률은 감소추세임.\n\n[[32강#환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다|환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다]]\n\n~~근거: 39기 「32. 폐종양」 2–14쪽과 38기 자료. 선배 풀이를 정답 근거로 사용하지 않았다. 공식 정답·원문 해설을 직접 대조했으며 당시 출제자는 류정선으로 확인된다. 현재 강의 연결은 32강 임준혁 교수의 폐종양이다.~~~\n\n=== 공식 원문 해설 ===\n> 폐암 발생은 늘어나고 있지만 연령표준화 발생률은 감소추세임.\n\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.114. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "류정선",
-      "professor": "임준혁",
+      "professor": "류정선",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 오답30 4쪽 출제자 류정선·강의명 폐종양 확인",
+      "examinerEvidence": "2023 원본.pdf p.114 출제자란 확인",
       "lectureIds": [
         32
       ],
       "lectureId": 32,
       "lectureTitle": "폐종양",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 70,114번, 오답30 p.4",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐종양",
+      "source": "2023 호흡기계 원본 p.114, 오답30 p.4",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
-      "restorationNotes": [
-        "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "officialPage": 4,
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture32_wiki_j_jbl",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
         "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "officialSourcePage": 114,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\32. 폐종양.pptx",
-            "pages": "2–14"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "official_low30",
-            "year": 2023,
-            "page": 4,
-            "verifiedExaminer": "류정선"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 114,
+        "professor": "류정선",
+        "lecture": "폐종양",
+        "question": "우리나라 폐암의 최근 동향에 대한 기술 중 옳은 것은?",
+        "choices": [
+          "연령표준화 폐암발생률은 감소하고 있다.",
+          "비흡연자에서 발생이 증가하여 흡연자 폐암보다 흔하다.",
+          "저선량 CT를 이용한 선별검사는 발병률을 감소시킨다.",
+          "표적 및 면역항암제 개발로 유병률이 감소하고 있다.",
+          "비흡연자에서 폐암 발병은 유전적 요인에 의한다."
         ],
-        "chapter": "환자 수가 늘면서 연령표준화 발생률은 낮아질 수 있다",
-        "basis": "2–14",
-        "priorLectureAndSummaryUsed": true,
-        "choiceTextChanged": false
+        "answer": "1",
+        "explanation": "폐암 발생은 늘어나고 있지만 연령표준화 발생률은 감소추세임.",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19041,48 +19833,62 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n=== 풀이의 핵심 ===\n'''가·나·다'''가 옳으므로 4번이다. 이 문항은 gas를 가장 생리적인 환기 추적자로 정확히 제시하고 있으므로 나를 빼면 안 된다. 라는 관류스캔의 차단 비율을 10%로 바꾸어 틀린 설명이다.\n\n||= 보기 ||= 판단 ||= 이유 ||\n|| 가 || O || Tc-99m MAA를 정맥으로 투여한다. ||\n|| 나 || O || 공기의 움직임을 가장 자연스럽게 따르는 '''방사성 기체'''가 most physiologic하다. ||\n|| 다 || O || MAA는 precapillary arteriole에 포획된다. ||\n|| 라 || X || 모세혈관 차단은 약 '''0.1%'''. 10%라는 수치는 맞지 않는다. ||\n\n=== 선지별 해설 ===\n* 1번: 가·나는 옳지만 다도 옳다. 옳은 보기를 모두 포함한 조합은 4번이다.\n* 2번: 다는 옳으나 라의 10%가 틀리다. 차단 비율은 0.1%다.\n* 3번: 가·다는 옳지만 나도 옳다. Gas가 가장 생리적이라는 설명을 제외할 이유가 없다.\n* 4번: 가·나·다가 모두 옳다. 관류의 경로·포획 위치와 환기의 가장 생리적인 추적자를 바르게 묶었다.\n* 5번: 라가 추가되어 틀리다. 폐기능이 저하된 환자에서 주의가 필요할 수 있다는 설명과 차단 비율의 오류는 별개다.\n\n=== 이 문항을 풀기 위한 개념 ===\n환기와 관류는 추적자를 넣는 길부터 다르다. '''V는 기체나 aerosol을 흡입하여 공기의 분포를 보고, Q는 MAA를 정맥주사하여 혈류의 분포를 본다.''' MAA가 폐 미세혈관에 일시적으로 걸리므로 피가 많이 가는 곳에 많이 모이고, 폐동맥이 막힌 곳에는 도착하지 못한다.\n\n||= 관류스캔 항목 ||= 내용 ||\n|| 추적자·투여 경로 || '''Tc-99m MAA(macroaggregated albumin), IV''' ||\n|| 입자 크기 || '''10–30 μm''' — 강의 수치 ||\n|| 원리·위치 || Capillary blockade; '''precapillary arteriole'''에 포획 ||\n|| 분포의 의미 || '''Regional blood flow에 비례'''; 환기량이 아님 ||\n|| 입자 수 || 최소 '''100,000개''', 적정 '''200,000–600,000개''' ||\n|| 막히는 모세혈관 비율 || '''약 1/1,000 = 0.1%''' ||\n|| 제거 || 폐에서 생물학적 반감기 '''2–4시간''', 이후 RE system에서 처리 ||\n|| PE에서의 결손 || 폐동맥 분지에 해당하는 '''기관지폐분절의 분포'''를 따름 ||\n\n||= 환기 추적자 ||= 특징 ||\n|| '''Xe-133, Xe-127, Kr-81m''' || Inert gas; '''가장 생리적(most physiologic)''' ||\n|| '''Tc-99m DTPA·phytate aerosol''' || 약 '''0.5 μm'''; 중심기도에 침착할 수 있음 ||\n|| '''Technegas''' || Tc-99m 초미세 aerosol, '''0.02–0.2 μm'''; 더 깊이 도달하여 환기 SPECT에 유리 ||\n\n> '''작은 입자일수록 깊게 들어간다'''는 설명은 흡입하는 환기 추적자의 이야기다. 관류 MAA의 10–30 μm, 일반 환기 aerosol의 0.5 μm, Technegas의 0.02–0.2 μm를 구분하자. 0.1%는 입자 크기가 아니라 차단되는 모세혈관 비율이며, 2–4시간은 완전 제거 시각이 아닌 생물학적 반감기다.\n\n[[25강#★ 환기스캔은 작은 입자일수록 더 깊이 들어간다|★ 환기스캔은 작은 입자일수록 더 깊이 들어간다]]\n\n~~근거: 39기 「25. 핵의학」 6–15쪽; 38기 자료의 대응 원리 비교.~~~",
+      "answerLabel": "4번 — 가, 나, 다",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④\n\n=== 풀이의 핵심 ===\n'''가·나·다'''가 옳으므로 4번이다. 이 문항은 gas를 가장 생리적인 환기 추적자로 정확히 제시하고 있으므로 나를 빼면 안 된다. 라는 관류스캔의 차단 비율을 10%로 바꾸어 틀린 설명이다.\n\n||= 보기 ||= 판단 ||= 이유 ||\n|| 가 || O || Tc-99m MAA를 정맥으로 투여한다. ||\n|| 나 || O || 공기의 움직임을 가장 자연스럽게 따르는 '''방사성 기체'''가 most physiologic하다. ||\n|| 다 || O || MAA는 precapillary arteriole에 포획된다. ||\n|| 라 || X || 모세혈관 차단은 약 '''0.1%'''. 10%라는 수치는 맞지 않는다. ||\n\n=== 선지별 해설 ===\n* 1번: 가·나는 옳지만 다도 옳다. 옳은 보기를 모두 포함한 조합은 4번이다.\n* 2번: 다는 옳으나 라의 10%가 틀리다. 차단 비율은 0.1%다.\n* 3번: 가·다는 옳지만 나도 옳다. Gas가 가장 생리적이라는 설명을 제외할 이유가 없다.\n* 4번: 가·나·다가 모두 옳다. 관류의 경로·포획 위치와 환기의 가장 생리적인 추적자를 바르게 묶었다.\n* 5번: 라가 추가되어 틀리다. 폐기능이 저하된 환자에서 주의가 필요할 수 있다는 설명과 차단 비율의 오류는 별개다.\n\n=== 이 문항을 풀기 위한 개념 ===\n환기와 관류는 추적자를 넣는 길부터 다르다. '''V는 기체나 aerosol을 흡입하여 공기의 분포를 보고, Q는 MAA를 정맥주사하여 혈류의 분포를 본다.''' MAA가 폐 미세혈관에 일시적으로 걸리므로 피가 많이 가는 곳에 많이 모이고, 폐동맥이 막힌 곳에는 도착하지 못한다.\n\n||= 관류스캔 항목 ||= 내용 ||\n|| 추적자·투여 경로 || '''Tc-99m MAA(macroaggregated albumin), IV''' ||\n|| 입자 크기 || '''10–30 μm''' — 강의 수치 ||\n|| 원리·위치 || Capillary blockade; '''precapillary arteriole'''에 포획 ||\n|| 분포의 의미 || '''Regional blood flow에 비례'''; 환기량이 아님 ||\n|| 입자 수 || 최소 '''100,000개''', 적정 '''200,000–600,000개''' ||\n|| 막히는 모세혈관 비율 || '''약 1/1,000 = 0.1%''' ||\n|| 제거 || 폐에서 생물학적 반감기 '''2–4시간''', 이후 RE system에서 처리 ||\n|| PE에서의 결손 || 폐동맥 분지에 해당하는 '''기관지폐분절의 분포'''를 따름 ||\n\n||= 환기 추적자 ||= 특징 ||\n|| '''Xe-133, Xe-127, Kr-81m''' || Inert gas; '''가장 생리적(most physiologic)''' ||\n|| '''Tc-99m DTPA·phytate aerosol''' || 약 '''0.5 μm'''; 중심기도에 침착할 수 있음 ||\n|| '''Technegas''' || Tc-99m 초미세 aerosol, '''0.02–0.2 μm'''; 더 깊이 도달하여 환기 SPECT에 유리 ||\n\n> '''작은 입자일수록 깊게 들어간다'''는 설명은 흡입하는 환기 추적자의 이야기다. 관류 MAA의 10–30 μm, 일반 환기 aerosol의 0.5 μm, Technegas의 0.02–0.2 μm를 구분하자. 0.1%는 입자 크기가 아니라 차단되는 모세혈관 비율이며, 2–4시간은 완전 제거 시각이 아닌 생물학적 반감기다.\n\n[[25강#★ 환기스캔은 작은 입자일수록 더 깊이 들어간다|★ 환기스캔은 작은 입자일수록 더 깊이 들어간다]]\n\n~~근거: 39기 「25. 핵의학」 6–15쪽; 38기 자료의 대응 원리 비교.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.71. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "유민영",
       "professor": "유민영",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.71 출제자란 확인",
       "lectureIds": [
         25
       ],
       "lectureId": 25,
       "lectureTitle": "핵의학검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 71번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "핵의학",
+      "source": "2023 호흡기계 원본 p.71",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture25_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 71,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/25. 핵의학.pptx",
-            "description": "39기 「25. 핵의학」 6–15쪽; 38기 자료의 대응 원리 비교"
-          }
+        "peerExplanationUsed": false,
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": true
+        }
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 71,
+        "professor": "유민영",
+        "lecture": "호흡기 질환의 핵의학 검사",
+        "question": "폐 환기/관류 스캔에 관하여 다음 기술한 것 중 옳은 것은?\n가. 폐 관류스캔은 Tc-99m MAA를 IV로 주사하여 영상을 얻는다.\n나. 폐 환기 스캔은 방사성 기체를 사용할 때 가장 physiologic 하다.\n다. 폐 관류 스캔에서 주사된 방사성 동위원소는 pre-capillary arteriole을 막는다.\n라. 폐 관류 스캔 시, 전체 모세혈관 중 10%에서 미세 색전이 일어나므로 폐기능이 저하 된\n환자에서는 주의해서 시행한다.",
+        "choices": [
+          "가, 나",
+          "다, 라",
+          "가, 다",
+          "가, 나, 다",
+          "가, 나, 다, 라"
         ],
-        "basis": "39기 「25. 핵의학」 6–15쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "★ 환기스캔은 작은 입자일수록 더 깊이 들어간다"
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19101,44 +19907,59 @@ window.JBL_DATA = {
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "모범답안: 장기 파열·심장압전·지속 공기누출·대량 혈흉·흉관 후 지속 출혈",
-      "explanation": "=== 모범답안 ===\n> 주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.\n\n이 문항은 '''3가지 이상'''을 요구한다. 장기 파열, 심장압전, 지속 공기누출을 세 범주로 명확히 적고, 출혈 항목까지 보태면 누락을 줄일 수 있다. ‘기관·기관지·식도’만 나열하기보다 어떤 손상인지 ‘파열’을 함께 적는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흉부외상에서는 먼저 환기와 순환을 유지하고 흉막강의 공기·혈액을 배액한다. 그러나 '''배액을 해도 계속 피나 공기가 새거나, 심장·대혈관·식도 등의 손상이 남아 있으면''' 손상 부위를 직접 복구해야 한다. 이때의 수술 적응증을 구조적으로 묻는 문항이다.\n\n||= 항목 ||= 답안의 구체적인 표현 ||= 이유 ||\n|| 흉관 후 대량·지속 출혈 || 폐쇄성 흉관삽입 후 많은 출혈과 불안정한 활력징후 또는 지속 출혈 || 배액만으로 지혈되지 않는 손상을 찾는다. ||\n|| 주요 장기 파열 || 기관·기관지·폐·식도·횡격막·대동맥·심장 파열 || 공기·혈액·내용물 누출과 구조 손상을 복구한다. ||\n|| 심장압전 || Cardiac tamponade || 심낭 내 혈액이 심장 충만을 방해한다. ||\n|| 지속 공기누출 || Persistent air leak || 기도·폐의 손상이 계속 열려 있는지 평가한다. ||\n|| 대량 외상성 혈흉 || Massive traumatic hemothorax for bleeding control || 폐 압박과 출혈성 저혈량을 일으키는 출혈원을 처치한다. ||\n\n‘흉관 후 출혈’과 ‘대량 외상성 혈흉’은 실제 환자에서는 겹칠 수 있지만, 38기 자료에 수록된 2023 공식 문항지 발췌는 두 항목을 구분해 제시한다. 목록의 구분과 병태생리의 중복을 함께 이해한다.\n\n=== 출혈량과 응급 처치의 범위 ===\n강의 화면의 출혈량 표기는 '''“above 1500 cc or 2000 cc with unstable vital sign, and 100/hr — 4 hours”'''다. '''1,500–2,000 mL 수준의 대량 출혈·불안정한 활력징후·100 mL/h가 4시간 지속'''이라는 숫자와 맥락을 함께 기억한다. 압축된 원문을 새로운 AND/OR 규칙으로 단정하지 않으며, 다른 외상 지침의 수치로 바꿔 외우지도 않는다. 실제 응급처치에서는 활력징후와 지속 출혈을 함께 판단하며 불안정한 환자를 4시간 기다리는 의미가 아니다.\n\n'''폐쇄성 흉관삽입(thoracostomy)은 배액이고, 개흉술(thoracotomy)은 흉곽을 열어 직접 확인·복구하는 수술'''이다. 강의의 넓은 응급 처치 목록에는 긴장성 기흉과 개방성 흉벽 손상도 포함되지만, 긴장성 기흉의 첫 치료가 무조건 개흉술이라는 뜻은 아니다. 먼저 감압·흉관 배액으로 압력을 풀고 직접 복구할 손상 여부를 판단한다.\n\n=== 표현이 바뀌어도 유지할 기준 ===\n* '''단순히 흉곽 안에 혈종이 있다''': 크기·지속 출혈·압박·활력징후 정보 없이 자동으로 응급 개흉을 정하지 않는다.\n* '''만성 횡격막 파열''': 치료가 필요할 수 있지만, 급성 파열·장기 감돈 등의 긴급성과 구분한다.\n* '''심장판막 손상''': 심한 급성 판막부전과 순환 붕괴라면 응급수술이 가능하지만, 강의의 ‘심장 파열·심장압전’과 같은 뜻은 아니다.\n\n> '''출혈을 멈추고, 파열을 복구하고, 압전을 풀고, 지속되는 공기누출의 원인을 해결한다.''' 항목의 이름과 수술이 필요한 이유를 한 쌍으로 외운다.\n\n[[18강#응급 개흉술 적응증은 출혈·파열·압전·공기누출로 묶는다|18강 · 응급 개흉술 적응증은 출혈·파열·압전·공기누출로 묶는다]] · [[18강#출혈량은 강의 표기와 실제 임상 판단을 구분한다|18강 · 출혈량은 강의 표기와 실제 임상 판단을 구분한다]]\n~~근거: 38기 자료. 선배의 풀이 문장을 정답 근거로 옮기지 않고 실제 강의 목록과 공식 문항지 항목을 대조했다.~~~\n\n=== 공식 답안 원문 ===\n38기 자료에 삽입된 '''2023 문항출제지의 답안 발췌'''다. 현재 별도 공개문제 PDF에서 이 문항의 쪽수는 확인되지 않아 출처에 임의의 오답30 페이지를 부여하지 않았다.\n\n> 1. Bleeding ; After closed thoracostomy – above 1500cc or 2000 cc with unstable vital sign, And 100/hr - 4 hours 2. Rupture of trachea, bronchus, lung, esophagus, diaphragm, aorta and heart 3. Cardiac Tamponed 4. Persistent air leak 5. Massive traumatic Hemothorax for Bleeding control\n\n원문의 ‘Cardiac Tamponed’는 '''cardiac tamponade'''를 가리킨다. 원문 표기는 위 인용에 남기고, 모범답안에서는 의학 용어를 바로잡았다.",
+      "answerLabel": "1. Bleeding ; After closed thoracostomy – above 1500cc or 2000 cc with unstable vital sign, And 100/hr - 4 hours 2. Rupture of trachea, bronchus, lung, esophagus, diaphragm, aorta and heart 3. Cardiac Tamponed 4. Persistent air leak 5. Massive traumatic Hemothorax for Bleeding control",
+      "explanation": "'''공식 참고 답안'''\n\n> 1. Bleeding ; After closed thoracostomy – above 1500cc or 2000 cc with unstable vital sign, And 100/hr -  4 hours 2.  Rupture of trachea, bronchus, lung, esophagus, diaphragm, aorta and heart 3.  Cardiac Tamponed 4.  Persistent air leak 5.  Massive traumatic Hemothorax for Bleeding control\n\n=== 모범답안 ===\n> 주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.\n\n이 문항은 '''3가지 이상'''을 요구한다. 장기 파열, 심장압전, 지속 공기누출을 세 범주로 명확히 적고, 출혈 항목까지 보태면 누락을 줄일 수 있다. ‘기관·기관지·식도’만 나열하기보다 어떤 손상인지 ‘파열’을 함께 적는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n흉부외상에서는 먼저 환기와 순환을 유지하고 흉막강의 공기·혈액을 배액한다. 그러나 '''배액을 해도 계속 피나 공기가 새거나, 심장·대혈관·식도 등의 손상이 남아 있으면''' 손상 부위를 직접 복구해야 한다. 이때의 수술 적응증을 구조적으로 묻는 문항이다.\n\n||= 항목 ||= 답안의 구체적인 표현 ||= 이유 ||\n|| 흉관 후 대량·지속 출혈 || 폐쇄성 흉관삽입 후 많은 출혈과 불안정한 활력징후 또는 지속 출혈 || 배액만으로 지혈되지 않는 손상을 찾는다. ||\n|| 주요 장기 파열 || 기관·기관지·폐·식도·횡격막·대동맥·심장 파열 || 공기·혈액·내용물 누출과 구조 손상을 복구한다. ||\n|| 심장압전 || Cardiac tamponade || 심낭 내 혈액이 심장 충만을 방해한다. ||\n|| 지속 공기누출 || Persistent air leak || 기도·폐의 손상이 계속 열려 있는지 평가한다. ||\n|| 대량 외상성 혈흉 || Massive traumatic hemothorax for bleeding control || 폐 압박과 출혈성 저혈량을 일으키는 출혈원을 처치한다. ||\n\n‘흉관 후 출혈’과 ‘대량 외상성 혈흉’은 실제 환자에서는 겹칠 수 있지만, 38기 자료에 수록된 2023 공식 문항지 발췌는 두 항목을 구분해 제시한다. 목록의 구분과 병태생리의 중복을 함께 이해한다.\n\n=== 출혈량과 응급 처치의 범위 ===\n강의 화면의 출혈량 표기는 '''“above 1500 cc or 2000 cc with unstable vital sign, and 100/hr — 4 hours”'''다. '''1,500–2,000 mL 수준의 대량 출혈·불안정한 활력징후·100 mL/h가 4시간 지속'''이라는 숫자와 맥락을 함께 기억한다. 압축된 원문을 새로운 AND/OR 규칙으로 단정하지 않으며, 다른 외상 지침의 수치로 바꿔 외우지도 않는다. 실제 응급처치에서는 활력징후와 지속 출혈을 함께 판단하며 불안정한 환자를 4시간 기다리는 의미가 아니다.\n\n'''폐쇄성 흉관삽입(thoracostomy)은 배액이고, 개흉술(thoracotomy)은 흉곽을 열어 직접 확인·복구하는 수술'''이다. 강의의 넓은 응급 처치 목록에는 긴장성 기흉과 개방성 흉벽 손상도 포함되지만, 긴장성 기흉의 첫 치료가 무조건 개흉술이라는 뜻은 아니다. 먼저 감압·흉관 배액으로 압력을 풀고 직접 복구할 손상 여부를 판단한다.\n\n=== 표현이 바뀌어도 유지할 기준 ===\n* '''단순히 흉곽 안에 혈종이 있다''': 크기·지속 출혈·압박·활력징후 정보 없이 자동으로 응급 개흉을 정하지 않는다.\n* '''만성 횡격막 파열''': 치료가 필요할 수 있지만, 급성 파열·장기 감돈 등의 긴급성과 구분한다.\n* '''심장판막 손상''': 심한 급성 판막부전과 순환 붕괴라면 응급수술이 가능하지만, 강의의 ‘심장 파열·심장압전’과 같은 뜻은 아니다.\n\n> '''출혈을 멈추고, 파열을 복구하고, 압전을 풀고, 지속되는 공기누출의 원인을 해결한다.''' 항목의 이름과 수술이 필요한 이유를 한 쌍으로 외운다.\n\n[[18강#응급 개흉술 적응증은 출혈·파열·압전·공기누출로 묶는다|18강 · 응급 개흉술 적응증은 출혈·파열·압전·공기누출로 묶는다]] · [[18강#출혈량은 강의 표기와 실제 임상 판단을 구분한다|18강 · 출혈량은 강의 표기와 실제 임상 판단을 구분한다]]\n~~근거: 38기 자료. 선배의 풀이 문장을 정답 근거로 옮기지 않고 실제 강의 목록과 공식 문항지 항목을 대조했다.~~~\n\n=== 공식 답안 원문 ===\n38기 자료에 삽입된 '''2023 문항출제지의 답안 발췌'''다. 현재 별도 공개문제 PDF에서 이 문항의 쪽수는 확인되지 않아 출처에 임의의 오답30 페이지를 부여하지 않았다.\n\n> 1. Bleeding ; After closed thoracostomy – above 1500cc or 2000 cc with unstable vital sign, And 100/hr - 4 hours 2. Rupture of trachea, bronchus, lung, esophagus, diaphragm, aorta and heart 3. Cardiac Tamponed 4. Persistent air leak 5. Massive traumatic Hemothorax for Bleeding control\n\n원문의 ‘Cardiac Tamponed’는 '''cardiac tamponade'''를 가리킨다. 원문 표기는 위 인용에 남기고, 모범답안에서는 의학 용어를 바로잡았다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.72. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "윤용한",
       "professor": "윤용한",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.72 출제자란 확인",
       "lectureIds": [
         18
       ],
       "lectureId": 18,
       "lectureTitle": "흉부외과 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 72번",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.72",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "written",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "unparsed_or_written",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": [
-          "38기 자료",
-          "2023 공식 문항지 발췌: 38기 자료; 독립 공개 PDF의 쪽수는 확인되지 않음"
-        ],
-        "chapter": "응급 개흉술 적응증은 출혈·파열·압전·공기누출로 묶는다",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
+        "officialSourcePage": 72,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "written_model_answer"
+        "peerExplanationUsed": false
       },
-      "modelAnswer": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다."
+      "modelAnswer": "주요 흉부 장기(기관·기관지·폐·식도·횡격막·대동맥·심장)의 파열, 심장압전, 지속적인 공기누출, 대량 외상성 혈흉, 폐쇄성 흉관삽입 후의 대량 또는 지속 출혈이 응급 개흉술의 적응증에 해당한다.",
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 72,
+        "professor": "윤용한",
+        "lecture": "흉부외과 총론",
+        "question": "외상성 흉부 환자의 응급 개흉술 적응증 3가지 이상을 논술하세요.",
+        "choices": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "answer": "1. Bleeding ; After closed thoracostomy – above 1500cc or 2000 cc with unstable\nvital sign, And 100/hr -  4 hours\n2.  Rupture of trachea, bronchus, lung, esophagus, diaphragm, aorta and heart\n3.  Cardiac Tamponed\n4.  Persistent air leak\n5.  Massive traumatic Hemothorax for Bleeding control",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      }
     },
     {
       "id": "2023-073",
@@ -19151,50 +19972,65 @@ window.JBL_DATA = {
       "originalNumbers": [
         73
       ],
-      "question": "긴장성 기흉 환자에서 진행되는 증상과 징후에 대하여 5가지 이상을 기술하세요?",
+      "question": "긴장성 기흉 환자에서 진행되는 증상과 증후 대하여 5가지 이상을 기술하세요?",
       "passage": "",
       "choices": [],
       "answerIndex": null,
       "answerIndices": [],
-      "answerLabel": "모범답안: 흉통·빈호흡·호흡곤란·빈맥·저혈압·청색증·경정맥 팽창",
-      "explanation": "=== 모범답안 ===\n> 긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.\n\n5가지 이상을 요구하므로 위 일곱 항목을 준비한다. 호흡곤란·빈호흡은 서로 다른 항목이지만 피부·입술·손발톱의 청색 변화는 하나의 청색증 항목이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n긴장성 기흉에서는 공기가 '''흉막강에 들어간 뒤 충분히 빠져나가지 못해''' 압력이 높아진다. 폐가 눌리면 환기가 감소하고, 큰 정맥과 종격동에 영향을 주면 심장으로 돌아오는 혈액량이 줄어든다. 즉 '''폐허탈 → 호흡장애'''와 '''정맥 환류 감소 → 심박출량 감소 → 저혈압'''이 동시에 진행한다. 쇼크의 기전은 단순한 산소 부족만이 아니라 정맥 환류를 방해하는 '''폐쇄성 기전'''이다.\n\n||= 공식 답안의 항목 ||= 임상 표현 ||= 발생 이유 ||\n|| Sharp chest pain || 날카로운 흉통 || 급성 흉막 자극 ||\n|| Increased respiratory rate || 빈호흡 || 호흡 부담과 저산소혈증에 대한 반응 ||\n|| Shortness of breath || 호흡곤란 || 눌린 폐의 환기 저하 ||\n|| Tachycardia || 빈맥 || 저산소혈증과 심박출량 저하에 대한 보상 ||\n|| Low blood pressure || 저혈압 || 정맥 환류·심박출량 감소 ||\n|| Blue or discolored skin, lips, or nails || 청색증 || 심한 저산소혈증의 표현 ||\n|| Jugular vein distention || 경정맥 팽창 || 흉곽 내로 들어가지 못하는 정맥혈의 정체 ||\n\n=== 공식 목록과 추가 진찰 소견을 구분한다 ===\n'''한쪽 호흡음 감소·소실, 과공명음, 기관의 반대쪽 편위, 피하기종'''도 진단을 돕는다. 다만 공식 서술형 답안의 일곱 항목과 추가 진찰 소견을 구별해 정리한다. 기흉에 동반된 피하기종은 촉진 시 염발음으로 느껴질 수 있다.\n\n기관 편위는 항상 뚜렷하지 않으며, 출혈성 저혈량이 함께 있으면 경정맥 팽창이 나타나지 않을 수도 있다. 반대로 목정맥이 팽창했다는 사실만으로 기흉을 확정하지 않는다. '''한쪽 호흡음 소실·공명음·심한 호흡장애·순환 불안정'''이라는 전체 양상을 함께 본다.\n\n=== 증례로 바뀌면 무엇을 먼저 해야 하나 ===\n불안정한 환자에서 긴장성 기흉이 의심되면 감압을 지연하지 않는다. 기출 선택지에서는 '''병변 쪽 흉관삽입'''이 압력의 원인을 해결하는 답이다. 흉부 촬영을 먼저 하느라 기다리거나, 감압 없이 양압환기만 시작하는 선택과 구분한다. 긴장성 기흉이라는 이름만 보고 처음부터 모든 환자에게 개흉술을 시행한다고 쓰지도 않는다.\n\n> '''호흡 3: 흉통·빈호흡·호흡곤란 / 순환·산소화 4: 빈맥·저혈압·청색증·경정맥 팽창.''' 각 항목의 발생 이유까지 설명할 수 있으면 서술형과 증례형을 함께 풀 수 있다.\n\n[[18강#증상 일곱 가지를 호흡과 순환으로 나누어 기억한다|18강 · 증상 일곱 가지를 호흡과 순환으로 나누어 기억한다]] · [[18강#폐허탈에서 폐쇄성 쇼크로 진행한다|18강 · 폐허탈에서 폐쇄성 쇼크로 진행한다]] · [[18강#저혈압과 한쪽 호흡음 소실이면 감압을 먼저 생각한다|18강 · 저혈압과 한쪽 호흡음 소실이면 감압을 먼저 생각한다]]\n~~근거: 2023 공식 오답30 PDF 6쪽의 윤용한 교수 문항·정답. 해당 문항의 공식 답안을 직접 확인했다.~~~\n\n=== 공식 답안 원문 ===\n> 1. sharp chest pain. 2. increased respiratory rate. 3. shortness of breath. 4. tachycardia, or a fast resting heart rate. 5. low blood pressure. 6. blue or discolored skin, lips, or nails. 7. jugular vein distention — a bulge in the veins running down the right side of a person's neck.\n\n원문의 오른쪽 목 표현은 경정맥 팽창을 설명한 예이며, '''오른쪽 기흉에서만 나타나는 소견'''이라는 뜻이 아니다. 공식 파일의 ‘문제풀이’ 칸은 비어 있어, 위 공식 정답과 이 문서에서 작성한 개념 해설을 구분했다.",
+      "answerLabel": "1. sharp chest pain. 2. increased respiratory rate. 3. shortness of breath. 4. tachycardia, or a fast resting heart rate. 5. low blood pressure. 6. blue or discolored skin, lips, or nails. 7. jugular vein distention — a bulge in the veins running down the right side of a person's neck.",
+      "explanation": "'''공식 참고 답안'''\n\n> 1.     sharp chest pain. 2.     increased respiratory rate. 3.     shortness of breath. 4.     tachycardia, or a fast resting heart rate. 5.     low blood pressure. 6.     blue or discolored skin, lips, or nails. 7.     jugular vein distention — a bulge in the veins running down the right side of a person's neck.\n\n=== 모범답안 ===\n> 긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.\n\n5가지 이상을 요구하므로 위 일곱 항목을 준비한다. 호흡곤란·빈호흡은 서로 다른 항목이지만 피부·입술·손발톱의 청색 변화는 하나의 청색증 항목이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n긴장성 기흉에서는 공기가 '''흉막강에 들어간 뒤 충분히 빠져나가지 못해''' 압력이 높아진다. 폐가 눌리면 환기가 감소하고, 큰 정맥과 종격동에 영향을 주면 심장으로 돌아오는 혈액량이 줄어든다. 즉 '''폐허탈 → 호흡장애'''와 '''정맥 환류 감소 → 심박출량 감소 → 저혈압'''이 동시에 진행한다. 쇼크의 기전은 단순한 산소 부족만이 아니라 정맥 환류를 방해하는 '''폐쇄성 기전'''이다.\n\n||= 공식 답안의 항목 ||= 임상 표현 ||= 발생 이유 ||\n|| Sharp chest pain || 날카로운 흉통 || 급성 흉막 자극 ||\n|| Increased respiratory rate || 빈호흡 || 호흡 부담과 저산소혈증에 대한 반응 ||\n|| Shortness of breath || 호흡곤란 || 눌린 폐의 환기 저하 ||\n|| Tachycardia || 빈맥 || 저산소혈증과 심박출량 저하에 대한 보상 ||\n|| Low blood pressure || 저혈압 || 정맥 환류·심박출량 감소 ||\n|| Blue or discolored skin, lips, or nails || 청색증 || 심한 저산소혈증의 표현 ||\n|| Jugular vein distention || 경정맥 팽창 || 흉곽 내로 들어가지 못하는 정맥혈의 정체 ||\n\n=== 공식 목록과 추가 진찰 소견을 구분한다 ===\n'''한쪽 호흡음 감소·소실, 과공명음, 기관의 반대쪽 편위, 피하기종'''도 진단을 돕는다. 다만 공식 서술형 답안의 일곱 항목과 추가 진찰 소견을 구별해 정리한다. 기흉에 동반된 피하기종은 촉진 시 염발음으로 느껴질 수 있다.\n\n기관 편위는 항상 뚜렷하지 않으며, 출혈성 저혈량이 함께 있으면 경정맥 팽창이 나타나지 않을 수도 있다. 반대로 목정맥이 팽창했다는 사실만으로 기흉을 확정하지 않는다. '''한쪽 호흡음 소실·공명음·심한 호흡장애·순환 불안정'''이라는 전체 양상을 함께 본다.\n\n=== 증례로 바뀌면 무엇을 먼저 해야 하나 ===\n불안정한 환자에서 긴장성 기흉이 의심되면 감압을 지연하지 않는다. 기출 선택지에서는 '''병변 쪽 흉관삽입'''이 압력의 원인을 해결하는 답이다. 흉부 촬영을 먼저 하느라 기다리거나, 감압 없이 양압환기만 시작하는 선택과 구분한다. 긴장성 기흉이라는 이름만 보고 처음부터 모든 환자에게 개흉술을 시행한다고 쓰지도 않는다.\n\n> '''호흡 3: 흉통·빈호흡·호흡곤란 / 순환·산소화 4: 빈맥·저혈압·청색증·경정맥 팽창.''' 각 항목의 발생 이유까지 설명할 수 있으면 서술형과 증례형을 함께 풀 수 있다.\n\n[[18강#증상 일곱 가지를 호흡과 순환으로 나누어 기억한다|18강 · 증상 일곱 가지를 호흡과 순환으로 나누어 기억한다]] · [[18강#폐허탈에서 폐쇄성 쇼크로 진행한다|18강 · 폐허탈에서 폐쇄성 쇼크로 진행한다]] · [[18강#저혈압과 한쪽 호흡음 소실이면 감압을 먼저 생각한다|18강 · 저혈압과 한쪽 호흡음 소실이면 감압을 먼저 생각한다]]\n~~근거: 2023 공식 오답30 PDF 6쪽의 윤용한 교수 문항·정답. 해당 문항의 공식 답안을 직접 확인했다.~~~\n\n=== 공식 답안 원문 ===\n> 1. sharp chest pain. 2. increased respiratory rate. 3. shortness of breath. 4. tachycardia, or a fast resting heart rate. 5. low blood pressure. 6. blue or discolored skin, lips, or nails. 7. jugular vein distention — a bulge in the veins running down the right side of a person's neck.\n\n원문의 오른쪽 목 표현은 경정맥 팽창을 설명한 예이며, '''오른쪽 기흉에서만 나타나는 소견'''이라는 뜻이 아니다. 공식 파일의 ‘문제풀이’ 칸은 비어 있어, 위 공식 정답과 이 문서에서 작성한 개념 해설을 구분했다.\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.73. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "윤용한",
       "professor": "윤용한",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 공개문항 PDF 6쪽 출제자·강의명·문항 내용 대조",
+      "examinerEvidence": "2023 원본.pdf p.73 출제자란 확인",
       "lectureIds": [
         18
       ],
       "lectureId": 18,
       "lectureTitle": "흉부외과 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 73번, 오답30 p.6",
+      "domain": "임상의학",
+      "discipline": "흉부외과",
+      "section": "흉부외과",
+      "source": "2023 호흡기계 원본 p.73, 오답30 p.6",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "written",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "officialPage": 6,
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": [
-          "2023 공식 오답30 PDF 6쪽",
-          "38기 자료"
-        ],
-        "chapter": "증상 일곱 가지를 호흡과 순환으로 나누어 기억한다",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
+        "officialSourcePage": 73,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "written_model_answer"
+        "peerExplanationUsed": false
       },
-      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다."
+      "modelAnswer": "긴장성 기흉이 진행하면 날카로운 흉통(sharp chest pain), 빈호흡(tachypnea), 호흡곤란(dyspnea), 빈맥(tachycardia), 저혈압(hypotension), 피부·입술·손발톱의 청색증(cyanosis), 경정맥 팽창(jugular vein distension)이 나타날 수 있다.",
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 73,
+        "professor": "윤용한",
+        "lecture": "흉부외과 총론",
+        "question": "긴장성 기흉 환자에서 진행되는 증상과 증후 대하여 5가지 이상을 기술하세요 ?",
+        "choices": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "answer": "1.     sharp chest pain.\n2.     increased respiratory rate.\n3.     shortness of breath.\n4.     tachycardia, or a fast resting heart rate.\n5.     low blood pressure.\n6.     blue or discolored skin, lips, or nails.\n7.     jugular vein distention — a bulge in the veins running down the right side of a\nperson's neck.",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      }
     },
     {
       "id": "2023-074",
@@ -19216,71 +20052,71 @@ window.JBL_DATA = {
         "종격동 종괴",
         "아스페르길루스종"
       ],
-      "answerIndex": 4,
+      "answerIndex": 3,
       "answerIndices": [
-        4
+        3
       ],
-      "answerLabel": "4번",
-      "explanation": "'''정답: ④ 종격동 종괴'''\n\n=== 영상과 발문에서 확인할 것 ===\n단순사진에서는 오른쪽 상종격동 윤곽이 불룩하게 넓어져 있다. CT를 보면 병변의 중심이 검은 폐 안이 아니라 '''기관·큰 혈관 주변의 종격동 연부조직 공간'''에 놓여 있다. 따라서 선지에서는 '''종격동 종괴'''가 가장 적절하다.\n\n병변 안의 저감쇠는 괴사성·낭성 성분을 시사할 수 있지만, 그것만으로 폐농양이라고 부를 수 없다. 먼저 '''어디에 있는 병변인가'''를 정한 뒤 내부 성분을 해석해야 한다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n단순사진은 앞뒤 구조가 겹치므로 종격동 병변도 폐야와 겹쳐 보일 수 있다. CT에서 폐와 종격동을 나누면 ‘열이 있고 내부가 어두우니 농양’이라는 성급한 연결을 피할 수 있다.\n\n||= 먼저 확인할 것 ||= 폐실질 병변 ||= 종격동 병변 ||\n|| 병변의 중심 || 폐실질 안 || 기관·대혈관 주변의 종격동 공간 ||\n|| 주변과의 관계 || 주변 폐경화·결절·기관지 변화 || 종격동 윤곽 변화·인접 혈관 및 기도의 변위 ||\n|| 내부 저감쇠 || 폐농양·괴사성 종양 등에서 가능 || 괴사성 림프절·낭성 또는 괴사성 종괴 등에서 가능 ||\n|| CT 창의 역할 || Lung window로 주변 폐와 공동 관찰 || Mediastinal window로 연부조직·조영증강 관찰 ||\n\n‘종격동 종괴’는 위치와 형태의 진단이지 조직학적 확진명이 아니다. 이 사진과 선지만으로 특정 종양이나 결핵성 림프절염까지 단정할 근거는 충분하지 않다.\n\n=== 선지별 해설 ===\n* '''① 클렙시엘라 폐렴''': Klebsiella는 균질한 엽성 폐경화, 때로 팽창성 경화나 농양을 만들 수 있다. 그러나 발열이나 저감쇠 하나로 균을 지정할 수 없고, 제시 병변의 중심이 폐엽이 아니라 종격동이다.\n* '''② 폐농양''': 폐농양은 폐실질 안의 괴사성 공동이다. 공기–액체층·주변 폐경화뿐 아니라 위치를 확인해야 한다. 현재의 종격동 중심 병변을 폐농양으로 읽는 것은 위치를 놓친 판단이다.\n* '''③ 폐암''': 폐암이 종격동을 침범하거나 림프절 전이를 만들 수는 있다. 다만 이 한 장면만으로 폐 원발암을 확정할 수 없으며, 제시된 형태·위치를 가장 직접적으로 설명하는 답은 종격동 종괴다.\n* '''④ 종격동 종괴''': 단순사진의 종격동 윤곽 변화와 CT에서의 병변 중심이 일치한다. 병변 내부의 성상보다 먼저 정해야 할 위치 진단이다.\n* '''⑤ 아스페르길루스종''': 기존의 폐 공동 속 fungal ball과 주변 공기를 찾아야 한다. 종격동의 연부조직성 병변은 그 형태와 위치가 다르다.\n\n> '''내부가 어둡다는 사실보다 병변의 중심이 어디에 있는지가 먼저다.''' 종격동의 저감쇠 종괴와 폐 안의 공기성 공동을 같은 것으로 읽지 않는다.\n\n관련 Wiki: [[13강#종격동 병변은 폐 안의 병변과 위치가 다르다|종격동 병변은 폐 안의 병변과 위치가 다르다]] · [[13강#같은 CT라도 창을 바꾸면 보이는 구조가 달라진다|같은 CT라도 창을 바꾸면 보이는 구조가 달라진다]]\n\n[* 근거: 39기 13강 정상편 17–20·62–65쪽의 CT 창·종격동 병변, 폐렴편 32–34·42·50–52쪽의 감별. 제시 사진·선지와 강의 내용을 대조한 풀이이며, 별도의 공식 정답표 확인을 뜻하지 않는다.]",
+      "answerLabel": "3번 — 폐암",
+      "explanation": "'''공식 정답: ③ 폐암'''\n\n=== 풀이의 핵심 ===\n원본의 정답은 '''폐암'''이다. 기존에는 종격동 윤곽이 넓어진 위치만 보고 ‘종격동 종괴’를 골랐으나, 발문은 그 소견을 만든 '''원인질환'''을 묻는다. 폐암도 중심부 종괴·폐문 또는 종격동 림프절 비대·기관지 폐쇄로 보일 수 있다. 종격동이 넓다는 위치 소견만으로 폐암을 배제했던 해석을 바로잡는다.\n\n제시 영상에서는 우측 상부 종격동·기관 주위의 연부조직 병변을 확인한다. 이 한 절편만으로 조직형이나 전체 병기를 확정하지 않고, 공식 정답과 연결되는 폐암의 다양한 영상 발현을 공부한다.\n\n=== 선지별 해설 ===\n* '''1번''': Klebsiella 폐렴은 폐경화와 때로 팽창성 변화·괴사를 보일 수 있다. 열감 하나로 원인균을 지정할 수는 없다.\n* '''2번''': 폐농양은 폐실질의 괴사성 공동과 공기–액체층 등을 함께 평가한다. 저감쇠가 보인다는 이유만으로 모두 농양으로 읽지 않는다.\n* '''3번''': 공식 정답이다. 폐암은 폐실질 종괴 외에 폐문·종격동 림프절 비대나 폐쇄성 변화로도 나타난다.\n* '''4번''': 종격동 종괴는 위치·형태의 표현이다. 이 문제에서 원인질환으로 공식 지정된 폐암을 배제하는 답으로 사용할 수 없다.\n* '''5번''': 기존 공동 안의 fungal ball과 그 주변 공기층이 전형적인 단서다. 제시 소견을 그 형태로 연결하기 어렵다.\n\n=== 이 문항을 풀기 위한 개념 ===\n[[파일:assets/lecture-22/part1-036.jpg|폐문 비대 · 폐문 윤곽의 비대칭]]\n[[파일:assets/lecture-22/part1-037.jpg|소세포폐암 증례 · 폐문·종격동의 큰 연부조직 병변]]\n[[파일:assets/lecture-22/part1-038.jpg|종격동 확장과 우측 흉수 · 정면과 측면영상]]\n[[파일:assets/lecture-22/part1-039.jpg|종격동 종괴와 림프절 · 상공정맥·폐동맥 주변 CT]]\n정상 폐문 음영의 상당 부분은 혈관이다. 폐문이 커 보이면 CT에서 혈관 자체가 확장된 것인지, 혈관 사이에 림프절이나 종괴가 들어선 것인지 구분한다. 소세포폐암은 중심부 종괴와 큰 림프절 덩어리로 나타나는 경우가 많으며, 상공정맥이나 폐동맥을 둘러싸거나 압박할 수 있다. '''종괴의 크기보다 혈관 내강이 좁아지는지, 기관지가 막히는지'''까지 함께 본다.\n\n\n\n[[22강#폐문과 종격동 비대에서는 림프절과 혈관을 분리한다|Wiki · 폐문과 종격동 비대에서는 림프절과 혈관을 분리한다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.74. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q074_01.jpg"
+        "J/2023/official-p074.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.74 출제자란 확인",
       "lectureIds": [
-        13
+        22
       ],
-      "lectureId": 13,
-      "lectureTitle": "흉부영상 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 74번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.74",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "총론II 감염 영상에 폐농양 직접 수록. 13강 우선, 22강 종괴/공동 감별 관련."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q074_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 74,
+          "file": "J/2023/official-p074.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 13강 정상·폐렴 두 강의록과 실제 문항·사진 대조; 38기 자료는 강의 이해 보조",
-        "chapter": "종격동 병변은 폐 안의 병변과 위치가 다르다",
-        "slides": {
-          "normal": [
-            17,
-            19,
-            20,
-            62,
-            63,
-            64,
-            65
-          ],
-          "pneumonia": [
-            32,
-            34,
-            42,
-            50,
-            52
-          ],
-          "label": "정상편 17–20·62–65쪽의 CT 창·종격동 병변, 폐렴편 32–34·42·50–52쪽의 감별"
-        },
-        "answerStatus": "lecture_and_image_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 74,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 74,
+        "professor": "이경희",
+        "lecture": "흉부영상각론",
+        "question": "1. 열감으로 내원한 58세 남자환자의 흉부 X-선 과 CT이다. 이 소견의 원인질환은?",
+        "choices": [
+          "클렙시엘라 폐렴",
+          "폐농양",
+          "폐암",
+          "종격동 종괴",
+          "아스페르길루스종"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19307,56 +20143,67 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ①",
-      "explanation": "정답: ① 기관지확장증\n\n=== 영상에서 확인할 소견 ===\n여러 검은 공간이 보인다고 곧바로 폐기종이나 낭성 폐질환으로 읽지 않는다. CT에서 '''벽을 가진 확장 기관지들이 모여 있고 기관지의 경로를 따라 이어지는 모습'''이 기관지확장증에 맞는다. 특히 낭성 기관지확장증은 포도송이처럼 보일 수 있다. 공간의 모양보다 기도와의 연속성과 벽을 확인하는 것이 중요하다.\n\n=== 선지별 해설 ===\n* 1번: 맞다. 벽을 가진 공기 공간들이 기관지의 분포를 따라 연결되며 모여 있다.\n* 2번: LAM은 폐 전반의 얇은 벽 낭종이 특징이다. 기도와 연결된 두꺼운 벽의 국소적·군집성 확장 기관지가 이 영상의 핵심이다.\n* 3번: 흉막강 공기와 흉막선 바깥의 혈관 소실이다. 폐 안에서 기관지 모양으로 이어지는 낭성 공간과 다르다.\n* 4번: 폐포벽 파괴에 의한 저감쇠로, 일반적으로 뚜렷한 기관지 벽이 둘러싼 여러 확장 공간과 다르다.\n* 5번: 망상 음영·GGO·섬유화가 중심인지 보아야 한다. 여기서는 확장된 기관지 자체가 주된 소견이므로 더 직접적인 진단은 기관지확장증이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n기관지확장증은 정상보다 굵어진 기관지가 말초에서도 충분히 가늘어지지 않는 상태다. 동반 폐동맥보다 기관지 내경이 크면 signet-ring sign, 길이 방향의 평행한 벽은 tram-track appearance로 볼 수 있다. 섬유화에 의해 당겨진 견인성 기관지확장은 주변 망상 음영·구조 왜곡과 함께 판독한다.\n\n||= 질환 ||= 검은 공간의 위치·벽 ||= 동반 소견 ||\n|| 기관지확장증 || 기도와 연결된 확장 공간, 벽 비후 가능 || 말초로 가늘어지지 않음·점액 ||\n|| 폐기종 || 뚜렷한 벽이 없는 폐실질 저감쇠 || 과팽창·혈관 감소 ||\n|| LAM || 비교적 균일한 얇은 벽 낭종이 미만성 분포 || 기흉·유미흉 가능 ||\n|| UIP의 honeycombing || 흉막하 낭성 공간의 층상 군집 || 기저부 섬유화·견인성 기관지확장 ||\n|| 기흉 || 흉막강의 공기 || 흉막선 바깥 혈관 소실 ||\n\n[[22강#기관지확장증은 검은 공간이 기관지로 이어진다|기관지확장증은 검은 공간이 기관지로 이어진다]]\n\n~~근거: 기관지확장증 강의록 1–8쪽; 기타 폐질환의 폐기종·간질성 폐질환 영상.~~~",
+      "answerLabel": "1번 — 기관지확장증",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: ① 기관지확장증\n\n=== 영상에서 확인할 소견 ===\n여러 검은 공간이 보인다고 곧바로 폐기종이나 낭성 폐질환으로 읽지 않는다. CT에서 '''벽을 가진 확장 기관지들이 모여 있고 기관지의 경로를 따라 이어지는 모습'''이 기관지확장증에 맞는다. 특히 낭성 기관지확장증은 포도송이처럼 보일 수 있다. 공간의 모양보다 기도와의 연속성과 벽을 확인하는 것이 중요하다.\n\n=== 선지별 해설 ===\n* 1번: 맞다. 벽을 가진 공기 공간들이 기관지의 분포를 따라 연결되며 모여 있다.\n* 2번: LAM은 폐 전반의 얇은 벽 낭종이 특징이다. 기도와 연결된 두꺼운 벽의 국소적·군집성 확장 기관지가 이 영상의 핵심이다.\n* 3번: 흉막강 공기와 흉막선 바깥의 혈관 소실이다. 폐 안에서 기관지 모양으로 이어지는 낭성 공간과 다르다.\n* 4번: 폐포벽 파괴에 의한 저감쇠로, 일반적으로 뚜렷한 기관지 벽이 둘러싼 여러 확장 공간과 다르다.\n* 5번: 망상 음영·GGO·섬유화가 중심인지 보아야 한다. 여기서는 확장된 기관지 자체가 주된 소견이므로 더 직접적인 진단은 기관지확장증이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n기관지확장증은 정상보다 굵어진 기관지가 말초에서도 충분히 가늘어지지 않는 상태다. 동반 폐동맥보다 기관지 내경이 크면 signet-ring sign, 길이 방향의 평행한 벽은 tram-track appearance로 볼 수 있다. 섬유화에 의해 당겨진 견인성 기관지확장은 주변 망상 음영·구조 왜곡과 함께 판독한다.\n\n||= 질환 ||= 검은 공간의 위치·벽 ||= 동반 소견 ||\n|| 기관지확장증 || 기도와 연결된 확장 공간, 벽 비후 가능 || 말초로 가늘어지지 않음·점액 ||\n|| 폐기종 || 뚜렷한 벽이 없는 폐실질 저감쇠 || 과팽창·혈관 감소 ||\n|| LAM || 비교적 균일한 얇은 벽 낭종이 미만성 분포 || 기흉·유미흉 가능 ||\n|| UIP의 honeycombing || 흉막하 낭성 공간의 층상 군집 || 기저부 섬유화·견인성 기관지확장 ||\n|| 기흉 || 흉막강의 공기 || 흉막선 바깥 혈관 소실 ||\n\n[[22강#기관지확장증은 검은 공간이 기관지로 이어진다|기관지확장증은 검은 공간이 기관지로 이어진다]]\n\n~~근거: 기관지확장증 강의록 1–8쪽; 기타 폐질환의 폐기종·간질성 폐질환 영상.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.75. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q075_01.jpg"
+        "J/2023/official-p075.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.75 출제자란 확인",
       "lectureIds": [
         22
       ],
       "lectureId": 22,
       "lectureTitle": "흉부영상 각론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 75번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.75",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q075_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 75,
+          "file": "J/2023/official-p075.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture22_current_source_comparison",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 75,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "description": "기관지확장증 강의록 1–8쪽; 기타 폐질환의 폐기종·간질성 폐질환 영상"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 75,
+        "professor": "이경희",
+        "lecture": "흉부영상각론",
+        "question": "2. 61세 여자환자의 흉부 X-선과 CT이다. 진단은 무엇인가?",
+        "choices": [
+          "기관지확장증",
+          "림프관근종증",
+          "기흉",
+          "폐기종",
+          "간질성폐질환"
         ],
-        "basis": "기관지확장증 강의록 1–8쪽; 기타 폐질환의 폐기종·간질성 폐질환 영상",
-        "chapter": "기관지확장증은 검은 공간이 기관지로 이어진다",
-        "answerUnchanged": true,
-        "currentLectureCompared": true
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19366,9 +20213,9 @@ window.JBL_DATA = {
       "globalNumber": 252,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 76,
+      "originalNumber": 77,
       "originalNumbers": [
-        76
+        77
       ],
       "question": "빨간색 별 모양이 있는 기관지가 막히면 어느 엽에 폐허탈이 오는가?",
       "passage": "",
@@ -19383,59 +20230,67 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "3번",
-      "explanation": "'''정답: ③ 우중엽 + 우하엽'''\n\n=== 영상과 발문에서 확인할 것 ===\n붉은 별은 오른쪽 주기관지가 우상엽기관지를 내보낸 뒤, 중엽과 하엽으로 갈라지기 전의 '''bronchus intermedius'''를 표시한다. 상엽으로 가는 통로는 이미 따로 나갔으므로 상엽은 제외하고, 그 아래의 '''우중엽과 우하엽'''을 함께 고른다.\n\n축상 CT의 검은 원형 내강을 주변의 하얀 혈관과 구분하고, 관상 CT에서 기관분기부부터 아래로 이어지는 기도를 따라가면 위치를 확인하기 쉽다. 화면 왼쪽이 환자의 오른쪽이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n기관지는 공기를 보내는 통로다. 완전히 막힌 뒤 원위부의 공기가 흡수되면 폐가 작아지는 '''폐쇄성·흡수성 무기폐'''가 생긴다. 어느 엽이 허탈하는지는 가장 가까운 엽 하나가 아니라, '''막힌 지점 뒤로 연결된 모든 엽'''으로 판단한다.\n\n||= 폐쇄된 기관지 ||= 환기가 영향을 받는 폐엽 ||= 구별점 ||\n|| 우주기관지 || 우상엽·우중엽·우하엽 || 상엽기관지가 갈라지기 전 ||\n|| 우상엽기관지 || 우상엽 || 중엽·하엽의 통로는 남음 ||\n|| '''Bronchus intermedius''' || '''우중엽 + 우하엽''' || 상엽기관지가 먼저 나간 뒤의 공통 통로 ||\n|| 우중엽기관지 || 우중엽 || 하엽기관지와 갈라진 뒤 ||\n|| 우하엽기관지 || 우하엽 || 중엽기관지와 갈라진 뒤 ||\n\n우상엽과 우중엽만을 함께 환기하는 정상적인 공통 엽기관지가 있는 것은 아니다. 우측의 분지 순서가 ‘상엽을 먼저 내보내고 중엽·하엽으로 이어진다’는 점을 기억하면 조합 선지를 비교할 수 있다.\n\n=== 선지별 해설 ===\n* '''① 우상엽''': 상엽기관지는 별보다 위에서 먼저 갈라진다. 상엽기관지 자체의 폐쇄라면 맞지만, 현재 표시 위치가 다르다.\n* '''② 우중엽''': 중엽은 영향을 받지만 하엽도 같은 공통 통로를 사용한다. 중엽만 고르면 범위를 과소평가한다.\n* '''③ 우중엽 + 우하엽''': 중간기관지의 원위부가 중엽기관지와 하엽기관지다. 두 엽이 함께 영향을 받는 조합이다.\n* '''④ 우하엽''': 하엽기관지만 막힌 경우와 혼동한 답이다. 별은 중엽기관지가 나오기 전의 공통 통로에 있다.\n* '''⑤ 우상엽 + 우중엽''': 우상엽은 이미 분지해 있고, 오히려 우하엽을 포함해야 한다. 상엽·중엽을 하나의 공통 통로로 묶지 않는다.\n\n> '''우상엽은 먼저 갈라지고, 중간기관지는 중엽·하엽으로 이어진다.''' 혈관 폐색에 따른 관류 장애와 기관지 폐쇄에 따른 흡수성 무기폐는 다른 기전이다.\n\n관련 Wiki: [[13강#Bronchus intermedius는 중엽과 하엽으로 이어진다|Bronchus intermedius는 중엽과 하엽으로 이어진다]] · [[13강#무기폐는 하얗게 보이면서 부피가 줄어든다|무기폐는 하얗게 보이면서 부피가 줄어든다]]\n\n[* 근거: 39기 13강 정상편 26–28쪽의 기관지 해부, 46–48쪽의 무기폐. 제시 사진·선지와 강의 내용을 대조한 풀이이며, 별도의 공식 정답표 확인을 뜻하지 않는다.]",
+      "answerLabel": "3번 — 우중엽 + 우하엽",
+      "explanation": "'''공식 정답: 3번'''\n\n'''정답: ③ 우중엽 + 우하엽'''\n\n=== 영상과 발문에서 확인할 것 ===\n붉은 별은 오른쪽 주기관지가 우상엽기관지를 내보낸 뒤, 중엽과 하엽으로 갈라지기 전의 '''bronchus intermedius'''를 표시한다. 상엽으로 가는 통로는 이미 따로 나갔으므로 상엽은 제외하고, 그 아래의 '''우중엽과 우하엽'''을 함께 고른다.\n\n축상 CT의 검은 원형 내강을 주변의 하얀 혈관과 구분하고, 관상 CT에서 기관분기부부터 아래로 이어지는 기도를 따라가면 위치를 확인하기 쉽다. 화면 왼쪽이 환자의 오른쪽이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n기관지는 공기를 보내는 통로다. 완전히 막힌 뒤 원위부의 공기가 흡수되면 폐가 작아지는 '''폐쇄성·흡수성 무기폐'''가 생긴다. 어느 엽이 허탈하는지는 가장 가까운 엽 하나가 아니라, '''막힌 지점 뒤로 연결된 모든 엽'''으로 판단한다.\n\n||= 폐쇄된 기관지 ||= 환기가 영향을 받는 폐엽 ||= 구별점 ||\n|| 우주기관지 || 우상엽·우중엽·우하엽 || 상엽기관지가 갈라지기 전 ||\n|| 우상엽기관지 || 우상엽 || 중엽·하엽의 통로는 남음 ||\n|| '''Bronchus intermedius''' || '''우중엽 + 우하엽''' || 상엽기관지가 먼저 나간 뒤의 공통 통로 ||\n|| 우중엽기관지 || 우중엽 || 하엽기관지와 갈라진 뒤 ||\n|| 우하엽기관지 || 우하엽 || 중엽기관지와 갈라진 뒤 ||\n\n우상엽과 우중엽만을 함께 환기하는 정상적인 공통 엽기관지가 있는 것은 아니다. 우측의 분지 순서가 ‘상엽을 먼저 내보내고 중엽·하엽으로 이어진다’는 점을 기억하면 조합 선지를 비교할 수 있다.\n\n=== 선지별 해설 ===\n* '''① 우상엽''': 상엽기관지는 별보다 위에서 먼저 갈라진다. 상엽기관지 자체의 폐쇄라면 맞지만, 현재 표시 위치가 다르다.\n* '''② 우중엽''': 중엽은 영향을 받지만 하엽도 같은 공통 통로를 사용한다. 중엽만 고르면 범위를 과소평가한다.\n* '''③ 우중엽 + 우하엽''': 중간기관지의 원위부가 중엽기관지와 하엽기관지다. 두 엽이 함께 영향을 받는 조합이다.\n* '''④ 우하엽''': 하엽기관지만 막힌 경우와 혼동한 답이다. 별은 중엽기관지가 나오기 전의 공통 통로에 있다.\n* '''⑤ 우상엽 + 우중엽''': 우상엽은 이미 분지해 있고, 오히려 우하엽을 포함해야 한다. 상엽·중엽을 하나의 공통 통로로 묶지 않는다.\n\n> '''우상엽은 먼저 갈라지고, 중간기관지는 중엽·하엽으로 이어진다.''' 혈관 폐색에 따른 관류 장애와 기관지 폐쇄에 따른 흡수성 무기폐는 다른 기전이다.\n\n관련 Wiki: [[13강#Bronchus intermedius는 중엽과 하엽으로 이어진다|Bronchus intermedius는 중엽과 하엽으로 이어진다]] · [[13강#무기폐는 하얗게 보이면서 부피가 줄어든다|무기폐는 하얗게 보이면서 부피가 줄어든다]]\n\n[* 근거: 39기 13강 정상편 26–28쪽의 기관지 해부, 46–48쪽의 무기폐. 제시 사진·선지와 강의 내용을 대조한 풀이이다. ]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.77. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q076_01.jpg"
+        "J/2023/official-p077.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.77 출제자란 확인",
       "lectureIds": [
         13
       ],
       "lectureId": 13,
       "lectureTitle": "흉부영상 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 76번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.77",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "정상 기관지 해부와 폐허탈 관계. 13강 우선, 22강 무기폐 영상과 교차."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q076_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 77,
+          "file": "J/2023/official-p077.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 13강 정상·폐렴 두 강의록과 실제 문항·사진 대조; 38기 자료는 강의 이해 보조",
-        "chapter": "Bronchus intermedius는 중엽과 하엽으로 이어진다",
-        "slides": {
-          "normal": [
-            26,
-            27,
-            28,
-            46,
-            47,
-            48
-          ],
-          "label": "정상편 26–28쪽의 기관지 해부, 46–48쪽의 무기폐"
-        },
-        "answerStatus": "lecture_and_image_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 77,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 77,
+        "professor": "이경희",
+        "lecture": "흉부영상총론",
+        "question": "4. 빨간색 별모양이 있는 기관지가 막히면 어느엽에 폐허탈이 오는가?",
+        "choices": [
+          "우상엽",
+          "우중엽",
+          "우중엽 + 우하엽",
+          "우하엽",
+          "우상엽 + 우중엽"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19445,9 +20300,9 @@ window.JBL_DATA = {
       "globalNumber": 253,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 77,
+      "originalNumber": 78,
       "originalNumbers": [
-        77
+        78
       ],
       "question": "열과 체중감소를 주소로 내원한 49세 남자 환자의 흉부 X-선 소견과 CT이다. 진단은 무엇인가?",
       "passage": "",
@@ -19462,74 +20317,67 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "5번",
-      "explanation": "'''정답: ⑤ 폐결핵'''\n\n=== 영상과 발문에서 확인할 것 ===\n발열·체중감소와 함께 양측 상부 우세의 폐음영이 보인다. CT에서는 공동과 그 주위의 소결절·분지성 음영이 동반되어 있다. '''상부 우세 공동 + 주변의 기도성 파급 결절'''을 묶으면 활동성 폐결핵이 가장 적절하다.\n\n‘공동이 있다’에서 끝내지 말고 '''어느 부위에 모여 있는지, 공동 밖에 무엇이 동반되는지'''까지 말할 수 있어야 한다. 이 조합이 폐농양·패혈성 폐색전과의 구별점이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n성인형 폐결핵은 상엽의 첨후분절과 하엽의 상분절을 잘 침범한다. 괴사물이 기관지로 배출되며 공동이 생기고, 감염 물질이 기도를 따라 퍼지면 '''소엽중심결절과 tree-in-bud'''가 나타날 수 있다. 오래된 반흔·석회화만 있는 상태와, 공동 주변에 새로운 파급 병변이 있는 상태를 구분한다.\n\n||= 영상의 중심 ||= 우선 연결할 질환·경로 ||= 감별의 방향 ||\n|| '''상부 공동 + 주변 소엽중심결절·tree-in-bud''' || '''활동성 폐결핵의 기관지성 파급''' || 공동 하나보다 위치와 주변 결절의 조합 ||\n|| 전 폐야의 균일한 미세결절·무작위 분포 || 속립성 결핵 등 혈행성 파종 || 국소 공동 주변을 따르는 기도성 분포와 다름 ||\n|| 말초 다발성 공동성 결절·흉막하 쐐기 음영 || 패혈성 폐색전 || 혈행성 감염원과 급성 경과 ||\n|| 폐문 림프절 비대·기관지혈관 및 엽간열 주변 결절 || Sarcoidosis || 림프 경로를 따르는 분포 ||\n|| 양측 광범위 GGO ± 낭성 변화 || PJP || 면역저하 배경; 두꺼운 상엽 공동이 전형적 중심은 아님 ||\n|| 상엽 소결절·진행성 거대 섬유화 ± 림프절 석회화 || 진폐증 || 분진 노출력과 만성 섬유화 ||\n\nTree-in-bud는 작은 가지 끝에 싹이 달린 모양으로, 세기관지 안의 내용물과 염증을 반영한다. '''결핵에만 특이적인 소견은 아니다.''' 영상은 활동성 결핵을 강하게 의심하게 하지만 실제 확진과 전염성 평가는 객담 도말·배양·핵산증폭검사 등의 미생물학적 확인으로 이어진다.\n\n=== 선지별 해설 ===\n* '''① 폐혈관염''': 혈관염에서도 공동성 결절과 폐출혈이 가능하다. 그러나 상기도·신장 등 전신 침범 단서 없이, 현재의 상부 우세 공동과 기도성 파급을 혈관염으로 먼저 설명하기 어렵다.\n* '''② 뉴모시스티스 카리니 폐렴''': Pneumocystis jirovecii 폐렴의 과거 명칭이다. 면역저하 환자의 양측성 광범위 GGO가 중심이며 낭성 변화가 동반될 수 있다. 이 사진의 두꺼운 상부 공동과 주변 소결절을 설명하는 전형적인 조합은 아니다.\n* '''③ 전이를 동반한 폐암''': 원발 종괴와 전이성 결절의 관계를 찾아야 한다. 상부의 공동에 작은 기도성 결절이 동반된 현재 분포에서는 감염, 특히 결핵이 더 타당하다.\n* '''④ 폐사르코이드증''': 대칭성 폐문·종격동 림프절 비대와 기관지혈관 다발·흉막·엽간열을 따르는 결절이 대표적이다. 상부 섬유화를 만들 수 있지만 현재처럼 공동과 기관지성 파급을 먼저 설명하는 답은 아니다.\n* '''⑤ 폐결핵''': 상엽 우세의 공동과 주변에 퍼진 작은 결절을 만성 증상과 연결하면 가장 적절하다. 공동 내부의 괴사와 기도를 따라 퍼지는 양상을 함께 설명한다.\n\n> '''상부 우세·공동·주변 작은 결절'''을 한 묶음으로 기억한다. 같은 결절이라도 기관지성, 혈행성, 림프성 중 어느 경로를 따르는지에 따라 감별이 달라진다.\n\n관련 Wiki: [[13강#성인형 폐결핵은 상부의 공동과 작은 결절을 찾는다|성인형 폐결핵은 상부의 공동과 작은 결절을 찾는다]] · [[13강#패혈성 폐색전은 말초 결절과 공동을 만든다|패혈성 폐색전은 말초 결절과 공동을 만든다]] · [[13강#속립성 결핵은 혈행성으로 양쪽 폐에 퍼진다|속립성 결핵은 혈행성으로 양쪽 폐에 퍼진다]]\n\n[* 근거: 39기 13강 폐렴편 37–44쪽의 결핵, 27–29·32·60–63쪽의 감염 감별 및 정상편 50–52쪽의 결절 분포. 제시 사진·선지와 강의 내용을 대조한 풀이이며, 별도의 공식 정답표 확인을 뜻하지 않는다.]",
+      "answerLabel": "5번 — 폐결핵",
+      "explanation": "'''공식 정답: 5번'''\n\n'''정답: ⑤ 폐결핵'''\n\n=== 영상과 발문에서 확인할 것 ===\n발열·체중감소와 함께 양측 상부 우세의 폐음영이 보인다. CT에서는 공동과 그 주위의 소결절·분지성 음영이 동반되어 있다. '''상부 우세 공동 + 주변의 기도성 파급 결절'''을 묶으면 활동성 폐결핵이 가장 적절하다.\n\n‘공동이 있다’에서 끝내지 말고 '''어느 부위에 모여 있는지, 공동 밖에 무엇이 동반되는지'''까지 말할 수 있어야 한다. 이 조합이 폐농양·패혈성 폐색전과의 구별점이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n성인형 폐결핵은 상엽의 첨후분절과 하엽의 상분절을 잘 침범한다. 괴사물이 기관지로 배출되며 공동이 생기고, 감염 물질이 기도를 따라 퍼지면 '''소엽중심결절과 tree-in-bud'''가 나타날 수 있다. 오래된 반흔·석회화만 있는 상태와, 공동 주변에 새로운 파급 병변이 있는 상태를 구분한다.\n\n||= 영상의 중심 ||= 우선 연결할 질환·경로 ||= 감별의 방향 ||\n|| '''상부 공동 + 주변 소엽중심결절·tree-in-bud''' || '''활동성 폐결핵의 기관지성 파급''' || 공동 하나보다 위치와 주변 결절의 조합 ||\n|| 전 폐야의 균일한 미세결절·무작위 분포 || 속립성 결핵 등 혈행성 파종 || 국소 공동 주변을 따르는 기도성 분포와 다름 ||\n|| 말초 다발성 공동성 결절·흉막하 쐐기 음영 || 패혈성 폐색전 || 혈행성 감염원과 급성 경과 ||\n|| 폐문 림프절 비대·기관지혈관 및 엽간열 주변 결절 || Sarcoidosis || 림프 경로를 따르는 분포 ||\n|| 양측 광범위 GGO ± 낭성 변화 || PJP || 면역저하 배경; 두꺼운 상엽 공동이 전형적 중심은 아님 ||\n|| 상엽 소결절·진행성 거대 섬유화 ± 림프절 석회화 || 진폐증 || 분진 노출력과 만성 섬유화 ||\n\nTree-in-bud는 작은 가지 끝에 싹이 달린 모양으로, 세기관지 안의 내용물과 염증을 반영한다. '''결핵에만 특이적인 소견은 아니다.''' 영상은 활동성 결핵을 강하게 의심하게 하지만 실제 확진과 전염성 평가는 객담 도말·배양·핵산증폭검사 등의 미생물학적 확인으로 이어진다.\n\n=== 선지별 해설 ===\n* '''① 폐혈관염''': 혈관염에서도 공동성 결절과 폐출혈이 가능하다. 그러나 상기도·신장 등 전신 침범 단서 없이, 현재의 상부 우세 공동과 기도성 파급을 혈관염으로 먼저 설명하기 어렵다.\n* '''② 뉴모시스티스 카리니 폐렴''': Pneumocystis jirovecii 폐렴의 과거 명칭이다. 면역저하 환자의 양측성 광범위 GGO가 중심이며 낭성 변화가 동반될 수 있다. 이 사진의 두꺼운 상부 공동과 주변 소결절을 설명하는 전형적인 조합은 아니다.\n* '''③ 전이를 동반한 폐암''': 원발 종괴와 전이성 결절의 관계를 찾아야 한다. 상부의 공동에 작은 기도성 결절이 동반된 현재 분포에서는 감염, 특히 결핵이 더 타당하다.\n* '''④ 폐사르코이드증''': 대칭성 폐문·종격동 림프절 비대와 기관지혈관 다발·흉막·엽간열을 따르는 결절이 대표적이다. 상부 섬유화를 만들 수 있지만 현재처럼 공동과 기관지성 파급을 먼저 설명하는 답은 아니다.\n* '''⑤ 폐결핵''': 상엽 우세의 공동과 주변에 퍼진 작은 결절을 만성 증상과 연결하면 가장 적절하다. 공동 내부의 괴사와 기도를 따라 퍼지는 양상을 함께 설명한다.\n\n> '''상부 우세·공동·주변 작은 결절'''을 한 묶음으로 기억한다. 같은 결절이라도 기관지성, 혈행성, 림프성 중 어느 경로를 따르는지에 따라 감별이 달라진다.\n\n관련 Wiki: [[13강#성인형 폐결핵은 상부의 공동과 작은 결절을 찾는다|성인형 폐결핵은 상부의 공동과 작은 결절을 찾는다]] · [[13강#패혈성 폐색전은 말초 결절과 공동을 만든다|패혈성 폐색전은 말초 결절과 공동을 만든다]] · [[13강#속립성 결핵은 혈행성으로 양쪽 폐에 퍼진다|속립성 결핵은 혈행성으로 양쪽 폐에 퍼진다]]\n\n[* 근거: 39기 13강 폐렴편 37–44쪽의 결핵, 27–29·32·60–63쪽의 감염 감별 및 정상편 50–52쪽의 결절 분포. 제시 사진·선지와 강의 내용을 대조한 풀이이다. ]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.78. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q077_01.jpg"
+        "J/2023/official-p078.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.78 출제자란 확인",
       "lectureIds": [
         13
       ],
       "lectureId": 13,
       "lectureTitle": "흉부영상 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 77번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.78",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "총론II 감염 영상에 결핵 직접 수록. 13강 우선, 22강 영상 각론과 교차."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q077_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 78,
+          "file": "J/2023/official-p078.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 13강 정상·폐렴 두 강의록과 실제 문항·사진 대조; 38기 자료는 강의 이해 보조",
-        "chapter": "성인형 폐결핵은 상부의 공동과 작은 결절을 찾는다",
-        "slides": {
-          "pneumonia": [
-            27,
-            28,
-            29,
-            32,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            60,
-            61,
-            62,
-            63
-          ],
-          "normal": [
-            50,
-            51,
-            52
-          ],
-          "label": "폐렴편 37–44쪽의 결핵, 27–29·32·60–63쪽의 감염 감별 및 정상편 50–52쪽의 결절 분포"
-        },
-        "answerStatus": "lecture_and_image_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 78,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 78,
+        "professor": "이경희",
+        "lecture": "흉부영상총론",
+        "question": "5. 열과 체중감소를 주소로 내원한 49세 남자 환자의 흉부 X-선 소견과 CT이다. 진단은\n무엇인가?",
+        "choices": [
+          "폐혈관염",
+          "뉴모시스티스 카리니 폐렴",
+          "전이를 동반한 폐암",
+          "폐사르코이드증",
+          "폐결핵"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19539,9 +20387,9 @@ window.JBL_DATA = {
       "globalNumber": 254,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 78,
+      "originalNumber": 79,
       "originalNumbers": [
-        78
+        79
       ],
       "question": "흉부 X-선 소견이다. 이상소견은 무엇인가?",
       "passage": "",
@@ -19556,58 +20404,67 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "정답: ② 우측흉수\n\n=== 영상에서 확인할 소견 ===\n우측 흉곽의 넓은 하얀 음영과 흉막액의 윤곽을 보고, 종격동이 반대쪽으로 밀리는 방향을 확인한다. '''대량 우측 흉수'''가 가장 적절하다. 같은 편으로 종격동을 당기는 우폐 전체 허탈과 구별하는 문제다.\n\n=== 선지별 해설 ===\n* 1번: 전체 폐 허탈이면 대개 종격동이 오른쪽으로 당겨지고 부피가 줄어야 한다. 이 사진은 액체가 차서 반대쪽으로 미는 소견에 더 맞는다.\n* 2번: 맞다. 우측 하얀 음영과 흉막액의 윤곽, 반대쪽 종격동 이동을 설명한다.\n* 3번: 좌측 흉막선과 그 바깥 혈관 소실을 찾아야 한다. 현재의 주된 병변은 우측 액체성 음영이다.\n* 4번: 폐경화는 가능하지만 대량 흉막액의 윤곽과 종격동 압박을 더 직접적으로 설명하는 것은 흉수다.\n* 5번: 국소 종격동 윤곽의 팽창이나 고형 종괴가 중심이다. 우측 흉곽을 넓게 채우는 액체와는 다르다.\n\n=== 이 문항을 풀기 위한 개념 ===\n한쪽 흉곽이 하얗게 보일 때에는 그쪽 부피가 줄었는지 늘었는지가 첫 분기다. 폐와 종격동의 이동 방향을 함께 보면 무기폐와 대량 흉수를 구별하기 쉽다.\n\n||= 상태 ||= 부피·이동 ||= 추가 단서 ||\n|| 전체 폐 무기폐 || 부피 감소·병변 쪽으로 당김 || 기관지 폐쇄·엽간열 이동 ||\n|| 대량 흉수 || 흉막강 부피 증가·반대쪽으로 밀림 || Meniscus·늑횡격막각 소실 ||\n|| 광범위 폐렴 || 대개 큰 부피 변화 없음 || Air bronchogram 가능 ||\n|| 무기폐와 흉수 동반 || 이동이 상쇄될 수 있음 || CT로 액체와 허탈 폐를 분리 ||\n\n흉부사진으로 흉수의 존재를 읽는 것과 그 원인이 결핵·암·심부전 중 무엇인지 정하는 것은 다른 단계다.\n\n[[22강#흉수와 수기흉은 액체 윗면의 모양이 다르다|흉수와 수기흉은 액체 윗면의 모양이 다르다]]\n\n~~근거: 기타 폐질환 5–9·60–61쪽; 흉부영상 총론 II 46–48쪽.~~~",
+      "answerLabel": "2번 — 우측흉수",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: ② 우측흉수\n\n=== 영상에서 확인할 소견 ===\n우측 흉곽의 넓은 하얀 음영과 흉막액의 윤곽을 보고, 종격동이 반대쪽으로 밀리는 방향을 확인한다. '''대량 우측 흉수'''가 가장 적절하다. 같은 편으로 종격동을 당기는 우폐 전체 허탈과 구별하는 문제다.\n\n=== 선지별 해설 ===\n* 1번: 전체 폐 허탈이면 대개 종격동이 오른쪽으로 당겨지고 부피가 줄어야 한다. 이 사진은 액체가 차서 반대쪽으로 미는 소견에 더 맞는다.\n* 2번: 맞다. 우측 하얀 음영과 흉막액의 윤곽, 반대쪽 종격동 이동을 설명한다.\n* 3번: 좌측 흉막선과 그 바깥 혈관 소실을 찾아야 한다. 현재의 주된 병변은 우측 액체성 음영이다.\n* 4번: 폐경화는 가능하지만 대량 흉막액의 윤곽과 종격동 압박을 더 직접적으로 설명하는 것은 흉수다.\n* 5번: 국소 종격동 윤곽의 팽창이나 고형 종괴가 중심이다. 우측 흉곽을 넓게 채우는 액체와는 다르다.\n\n=== 이 문항을 풀기 위한 개념 ===\n한쪽 흉곽이 하얗게 보일 때에는 그쪽 부피가 줄었는지 늘었는지가 첫 분기다. 폐와 종격동의 이동 방향을 함께 보면 무기폐와 대량 흉수를 구별하기 쉽다.\n\n||= 상태 ||= 부피·이동 ||= 추가 단서 ||\n|| 전체 폐 무기폐 || 부피 감소·병변 쪽으로 당김 || 기관지 폐쇄·엽간열 이동 ||\n|| 대량 흉수 || 흉막강 부피 증가·반대쪽으로 밀림 || Meniscus·늑횡격막각 소실 ||\n|| 광범위 폐렴 || 대개 큰 부피 변화 없음 || Air bronchogram 가능 ||\n|| 무기폐와 흉수 동반 || 이동이 상쇄될 수 있음 || CT로 액체와 허탈 폐를 분리 ||\n\n흉부사진으로 흉수의 존재를 읽는 것과 그 원인이 결핵·암·심부전 중 무엇인지 정하는 것은 다른 단계다.\n\n[[13강#흉수는 늑횡격막각을 메우고 폐를 밀어낸다|Wiki · 흉수]]\n\n~~근거: 기타 폐질환 5–9·60–61쪽; 흉부영상 총론 II 46–48쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.79. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q078_01.jpg"
+        "J/2023/official-p079.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.79 출제자란 확인",
       "lectureIds": [
-        22
+        13
       ],
-      "lectureId": 22,
-      "lectureTitle": "흉부영상 각론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 78번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "lectureId": 13,
+      "lectureTitle": "흉부영상 총론",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.79",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "사진은 우폐허탈 감별 문항. 각론II 무기폐 22강 우선; 총론 기본 판독과 중첩."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q078_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 79,
+          "file": "J/2023/official-p079.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture22_current_source_comparison",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 79,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "description": "기타 폐질환 5–9·60–61쪽; 흉부영상 총론 II 46–48쪽"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 79,
+        "professor": "이경희",
+        "lecture": "흉부영상총론",
+        "question": "6. 흉부 X-선 소견이다. 이상소견은 무엇인가?",
+        "choices": [
+          "우폐 허탈",
+          "우측 흉수",
+          "좌측 기흉",
+          "우폐 폐렴",
+          "종격동 종괴"
         ],
-        "basis": "기타 폐질환 5–9·60–61쪽; 흉부영상 총론 II 46–48쪽",
-        "chapter": "흉수와 수기흉은 액체 윗면의 모양이 다르다",
-        "answerUnchanged": true,
-        "currentLectureCompared": true
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19617,9 +20474,9 @@ window.JBL_DATA = {
       "globalNumber": 255,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 79,
+      "originalNumber": 80,
       "originalNumbers": [
-        79
+        80
       ],
       "question": "다음 흉부 X-선에서 병변의 위치는 어디인가?",
       "passage": "",
@@ -19627,72 +20484,74 @@ window.JBL_DATA = {
         "좌폐설 상엽",
         "좌측 종격동",
         "심장",
-        "좌측 횡경막",
+        "좌측 횡격막",
         "좌폐 하엽"
       ],
-      "answerIndex": 1,
+      "answerIndex": 5,
       "answerIndices": [
-        1
+        5
       ],
-      "answerLabel": "1번",
-      "explanation": "'''정답: ① 좌폐설 상엽'''\n\n=== 영상과 발문에서 확인할 것 ===\n왼쪽 중하폐야에 하얀 음영이 있고 '''왼쪽 심장 경계가 흐려져 있다'''. 병변이 심장과 실제로 맞닿아 있다는 뜻이므로 '''좌상엽의 설상부(lingula)'''로 위치를 좁힌다. 정면사진에서 아래쪽에 보인다는 이유만으로 좌하엽을 고르면 안 된다.\n\n이 문제는 병원체가 아니라 '''병변의 위치'''를 묻는다. 보이는 폐경화를 특정 세균성 폐렴으로 더 좁힐 필요는 없다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\nSilhouette sign은 서로 다른 밀도의 경계가 없어지는 현상이다. 공기가 든 폐가 하얗게 변하고 심장·횡격막에 '''직접 접하면''' 둘 사이 경계가 지워진다. 앞뒤로 떨어진 구조가 정면에서 단순히 겹치는 것만으로는 같은 효과가 나지 않는다.\n\n||= 소실되는 정상 경계 ||= 인접한 폐 부위 ||= 판독의 연결 ||\n|| '''오른쪽 심장 경계''' || 우중엽 || 우심방 옆의 앞쪽 폐 ||\n|| '''왼쪽 심장 경계''' || '''좌상엽 설상부''' || 좌심실 옆의 앞쪽 폐 ||\n|| 오른쪽 횡격막 || 우하엽 || 아래쪽 폐 ||\n|| 왼쪽 횡격막 || 좌하엽 || 심장 뒤·아래쪽 폐 ||\n|| Aortic knob || 인접 좌상엽 || 왼쪽 상종격동 부근 ||\n|| 하행대동맥 || 인접 좌하엽 || 후방의 종격동 경계 ||\n\n정면에서 RML과 lingula는 아래쪽 폐야에 보일 수 있지만 해부학적으로 앞쪽에 있다. Lateral view에서 '''앞쪽의 중엽·설상부와 뒤쪽의 하엽'''을 나누면 정면사진의 겹침을 풀 수 있다.\n\n=== 선지별 해설 ===\n* '''① 좌폐설 상엽''': 복원된 ‘좌폐설 상엽’은 좌상엽의 설상부를 뜻하는 표현으로 읽었다. 그 의미라면 왼쪽 심장 경계 소실에 맞는 정답이다.\n* '''② 좌측 종격동''': 종격동 종괴라면 종격동 자체의 비정상 윤곽과 병변 중심을 확인해야 한다. 왼쪽 심장 경계가 지워졌다는 사실만으로 병변이 종격동 안에 있다는 뜻은 아니다.\n* '''③ 심장''': 심장 자체의 이상을 묻는 사진이 아니다. 원래 보이던 심장 경계가 인접 폐의 음영 증가 때문에 지워진 것이므로 병변의 자리는 폐 쪽이다.\n* '''④ 좌측 횡경막''': 횡격막 병변 자체보다는 왼쪽 심장 옆 폐실질이 하얗게 변한 모습이다. 횡격막 경계 소실을 보더라도 인접 하엽 병변과 횡격막 자체 병변을 구별해야 한다.\n* '''⑤ 좌폐 하엽''': 좌하엽은 심장 뒤·아래쪽에 있다. 좌하엽 병변이라면 왼쪽 횡격막이나 하행대동맥 경계의 소실, 측면사진의 후방 음영을 더 주목한다. 왼쪽 아래 폐야가 하얗다는 이유만으로 하엽을 고르지 않는다.\n\n> '''왼쪽 심장 경계 소실 → 설상부, 왼쪽 횡격막 경계 소실 → 좌하엽.''' 병변이 화면의 위·아래 어디에 보이는지보다 어떤 정상 구조와 맞닿았는지가 중요하다.\n\n관련 Wiki: [[13강#실루엣 징후로 폐엽을 찾는다|실루엣 징후로 폐엽을 찾는다]] · [[13강#측면사진으로 앞뒤 위치를 구분한다|측면사진으로 앞뒤 위치를 구분한다]]\n\n[* 근거: 39기 13강 정상편 11–12·35·37쪽, 폐렴편 5–10쪽의 silhouette sign. 제시 사진·선지와 강의 내용을 대조한 풀이이며, 별도의 공식 정답표 확인을 뜻하지 않는다.]",
+      "answerLabel": "5번 — 좌폐 하엽",
+      "explanation": "'''공식 정답: 5번'''\n\n'''정답: ⑤ 좌폐 하엽'''\n\n=== 영상에서 확인할 것 ===\n좌하폐야에 폐경화가 있지만 '''왼쪽 심장 경계는 남아 있다'''. 심장과 겹쳐 보이는 음영이 곧 설상부 병변이라는 뜻은 아니다. 이 사진은 13강 폐렴편 9쪽의 '''좌하엽 폐경화''' 사진과 일치하며, 같은 증례의 측면사진인 10쪽에서는 '''심장 뒤·아래쪽의 폐경화'''가 확인된다.\n\n[[파일:assets/lecture-13/pneumonia-009.jpg|좌하엽 폐경화 · 왼쪽 심장 경계가 남아 있다]]\n[[파일:assets/lecture-13/pneumonia-010.jpg|같은 증례의 강의록 측면사진 · 뒤쪽 아래의 폐경화]]\n\n측면사진은 원문 문항에 추가된 조건이 아니라, 해설에서 병변의 위치를 확인하기 위해 함께 제시한 강의록 자료다. 정면사진에서는 횡격막 전체가 사라졌다고 단정하기보다 '''남아 있는 심장 경계와 그 뒤로 겹치는 음영'''을 먼저 읽는다.\n\n=== 실루엣 징후와 앞뒤 위치를 함께 읽는다 ===\nSilhouette sign은 비슷한 X선 밀도의 병변이 정상 구조에 '''직접 맞닿을 때''' 그 사이 경계가 사라지는 현상이다. 앞뒤로 떨어져 있는 구조가 정면사진에서 겹치는 것만으로는 경계가 지워지지 않는다.\n\n||= 소실되는 정상 경계 ||= 인접한 폐 부위 ||\n|| 오른쪽 심장 경계 || 우중엽 ||\n|| 왼쪽 심장 경계 || 좌상엽의 설상부(lingula) ||\n|| 오른쪽 횡격막 || 우하엽 ||\n|| 왼쪽 횡격막 || 좌하엽 ||\n|| 하행대동맥 || 인접 좌하엽 ||\n\n'''설상부는 앞쪽, 좌하엽은 뒤쪽'''에 있다. 두 병변 모두 정면사진의 왼쪽 아래 폐야에 보일 수 있으므로, 화면에서 아래쪽에 있다는 사실만으로 폐엽을 정하지 않는다. 또한 좌하엽의 모든 병변이 횡격막 전체를 지우는 것은 아니다. 경계 소실은 병변이 해당 구조와 닿는 범위에 따라 달라진다.\n\n=== 선지별 해설 ===\n* '''① 좌폐설 상엽''': 좌상엽 설상부를 뜻하는 복원 표현으로 읽을 수 있다. 설상부 폐경화의 대표 단서는 왼쪽 심장 경계 소실과 측면사진의 앞쪽 음영이다. 이 증례의 보존된 심장 경계·후방 병변과 맞지 않는다.\n* '''② 좌측 종격동''': 병변의 중심은 좌하엽 폐실질이다. 종격동 종괴로 설명할 비정상 종격동 윤곽이 핵심인 사진이 아니다.\n* '''③ 심장''': 심장 자체의 병변이 아니라 심장 뒤에 겹쳐 보이는 폐실질의 음영 증가다.\n* '''④ 좌측 횡경막''': 횡격막은 위치를 판단하는 경계다. 인접 폐의 음영 증가와 횡격막 자체의 병변을 같은 뜻으로 읽지 않는다.\n* '''⑤ 좌폐 하엽''': 정답. 왼쪽 심장 경계가 남아 있고 같은 증례의 측면사진에서 후하방 폐경화가 확인된다.\n\n> '''이 사진은 왼쪽 심장 경계가 보존된 좌하엽 폐경화다.''' 설상부 사진인 {{159}}·{{640}}과 구분해서 확인한다. 같은 좌하엽 사진을 다루는 문항: {{495}}\n\n관련 Wiki: [[13강#좌하엽 폐렴은 심장 뒤와 횡격막을 본다|좌하엽 폐경화]] · [[13강#실루엣 징후로 폐엽을 찾는다|실루엣 징후]]\n\n[* 판독 정정: 기존 해설은 왼쪽 심장 경계가 소실되었다고 잘못 읽어 설상부를 선택했다. 13강 폐렴편 9·10쪽의 같은 증례 정면·측면사진을 대조하여 좌하엽으로 바로잡았다. 문항의 발문·선지·사진은 유지했으며, ]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.80. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q079_01.jpg"
+        "J/2023/official-p080.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.80 출제자란 확인",
       "lectureIds": [
         13
       ],
       "lectureId": 13,
       "lectureTitle": "흉부영상 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 79번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.80",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "X선 병변 위치 판독·silhouette sign은 총론13강 우선; 각론22강도 관련."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q079_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 80,
+          "file": "J/2023/official-p080.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 13강 정상·폐렴 두 강의록과 실제 문항·사진 대조; 38기 자료는 강의 이해 보조",
-        "chapter": "실루엣 징후로 폐엽을 찾는다",
-        "slides": {
-          "normal": [
-            11,
-            12,
-            35,
-            37
-          ],
-          "pneumonia": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "label": "정상편 11–12·35·37쪽, 폐렴편 5–10쪽의 silhouette sign"
-        },
-        "answerStatus": "lecture_and_image_based",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "originalQuestionAndImagesPreserved": true
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 80,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 80,
+        "professor": "이경희",
+        "lecture": "흉부영상총론",
+        "question": "7. 다음 흉부 X-선에서 병변의 위치는 어디인가?",
+        "choices": [
+          "좌폐설상엽",
+          "좌측 종격동",
+          "심장",
+          "좌측 횡격막",
+          "좌폐 하엽"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19710,7 +20569,7 @@ window.JBL_DATA = {
       "passage": "",
       "choices": [
         "cT1cN0M0",
-        "cT1N0M1a",
+        "cT1cN0M1a",
         "cT2aN0M0",
         "cT2aN0M1a",
         "cT2bN0M0"
@@ -19719,56 +20578,67 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③ cT2aN0M0\n\n=== 영상에서 확인할 소견 ===\n2.6 cm라는 크기만 적용하면 T1c지만, 발문에 '''동측 엽간열 침습'''이 명시되어 있다. 이를 엽간 장측흉막 침범으로 읽으면 T2 조건이 적용되고, 크기가 4 cm 이하이므로 T2a다. 제시된 범위에서 림프절·원격전이가 없다는 전제로 '''cT2aN0M0, 3번'''을 고른다. 단순한 흉막 접촉만으로 침범을 확정한 것이 아니라 발문이 침습을 명시한 조건을 사용한 풀이이다.\n\n=== 선지별 해설 ===\n* 1번: 2.6 cm라는 크기만 반영한 선택지다. 장측흉막 침범이라는 T2 조건을 놓쳤다.\n* 2번: 직접 엽간흉막 침범을 흉막 파종으로 잘못 처리했다. 별도 흉막 결절이나 악성 흉수는 제시되지 않았다.\n* 3번: 맞다. 흉막 침범으로 T2, 4 cm 이하이므로 T2a이며 제시 조건에서 N0M0다.\n* 4번: T는 맞지만 흉막 직접 침범과 흉막 전이를 혼동했다. 이 발문만으로 M1a를 붙이지 않는다.\n* 5번: T2b는 크기가 4 cm 초과–5 cm 이하인 경우다. 2.6 cm 종양이 T2 조건을 충족하면 T2a다.\n\n=== 이 문항을 풀기 위한 개념 ===\nT는 크기와 침범 조건 중 더 높은 분류를 적용한다. 장측흉막 침범은 T2, 벽측흉막·흉벽 침범은 T3다. 엽간열을 통한 '''직접 침범'''과 다른 엽의 '''떨어진 종양 결절'''도 구별해야 한다. N0M0는 이 문항의 제시 조건에서 적용하는 것이며 실제 임상 병기 확정에는 전체 검사가 필요하다.\n\n||= 항목 ||= 기준 ||\n|| T1a / T1b / T1c || 1 cm 이하 / 1 cm 초과–2 cm 이하 / 2 cm 초과–3 cm 이하 ||\n|| T2a / T2b || 크기만으로는 3 cm 초과–4 cm 이하 / 4 cm 초과–5 cm 이하 ||\n|| T3 / T4 || 크기만으로는 5 cm 초과–7 cm 이하 / 7 cm 초과 ||\n|| 별도 종양 결절 || 같은 엽 T3, 같은 쪽 다른 엽 T4, 반대쪽 폐 M1a ||\n|| N1 / N2 / N3 || 동측 폐문·폐내 / 동측 종격동·subcarinal / 반대측 종격동·폐문 또는 쇄골상·사각근 ||\n|| M1a / M1b / M1c || 흉막·반대폐 등 / 단일 흉곽외 / 다발 흉곽외 전이 ||\n\n9판에서는 인접 엽으로의 직접 침범을 T2 항목에 명시한다. 흉막 표면의 별도 종양 결절이나 악성 흉수는 M1a지만, 이 문항의 엽간 장측흉막 직접 침범을 곧바로 M1a로 바꾸지 않는다.\n\n[[22강#T1과 T2는 크기 외에 기관지와 장측흉막을 본다|T1과 T2는 크기 외에 기관지와 장측흉막을 본다]]\n\n~~근거: 폐암 49–56쪽: T1·T2·T3; IASLC TNM 9판 staging card.~~~",
+      "answerLabel": "3번 — cT2aN0M0",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③ cT2aN0M0\n\n=== 영상에서 확인할 소견 ===\n2.6 cm라는 크기만 적용하면 T1c지만, 발문에 '''동측 엽간열 침습'''이 명시되어 있다. 이를 엽간 장측흉막 침범으로 읽으면 T2 조건이 적용되고, 크기가 4 cm 이하이므로 T2a다. 제시된 범위에서 림프절·원격전이가 없다는 전제로 '''cT2aN0M0, 3번'''을 고른다. 단순한 흉막 접촉만으로 침범을 확정한 것이 아니라 발문이 침습을 명시한 조건을 사용한 풀이이다.\n\n=== 선지별 해설 ===\n* 1번: 2.6 cm라는 크기만 반영한 선택지다. 장측흉막 침범이라는 T2 조건을 놓쳤다.\n* 2번: 직접 엽간흉막 침범을 흉막 파종으로 잘못 처리했다. 별도 흉막 결절이나 악성 흉수는 제시되지 않았다.\n* 3번: 맞다. 흉막 침범으로 T2, 4 cm 이하이므로 T2a이며 제시 조건에서 N0M0다.\n* 4번: T는 맞지만 흉막 직접 침범과 흉막 전이를 혼동했다. 이 발문만으로 M1a를 붙이지 않는다.\n* 5번: T2b는 크기가 4 cm 초과–5 cm 이하인 경우다. 2.6 cm 종양이 T2 조건을 충족하면 T2a다.\n\n=== 이 문항을 풀기 위한 개념 ===\nT는 크기와 침범 조건 중 더 높은 분류를 적용한다. 장측흉막 침범은 T2, 벽측흉막·흉벽 침범은 T3다. 엽간열을 통한 '''직접 침범'''과 다른 엽의 '''떨어진 종양 결절'''도 구별해야 한다. N0M0는 이 문항의 제시 조건에서 적용하는 것이며 실제 임상 병기 확정에는 전체 검사가 필요하다.\n\n||= 항목 ||= 기준 ||\n|| T1a / T1b / T1c || 1 cm 이하 / 1 cm 초과–2 cm 이하 / 2 cm 초과–3 cm 이하 ||\n|| T2a / T2b || 크기만으로는 3 cm 초과–4 cm 이하 / 4 cm 초과–5 cm 이하 ||\n|| T3 / T4 || 크기만으로는 5 cm 초과–7 cm 이하 / 7 cm 초과 ||\n|| 별도 종양 결절 || 같은 엽 T3, 같은 쪽 다른 엽 T4, 반대쪽 폐 M1a ||\n|| N1 / N2 / N3 || 동측 폐문·폐내 / 동측 종격동·subcarinal / 반대측 종격동·폐문 또는 쇄골상·사각근 ||\n|| M1a / M1b / M1c || 흉막·반대폐 등 / 단일 흉곽외 / 다발 흉곽외 전이 ||\n\n9판에서는 인접 엽으로의 직접 침범을 T2 항목에 명시한다. 흉막 표면의 별도 종양 결절이나 악성 흉수는 M1a지만, 이 문항의 엽간 장측흉막 직접 침범을 곧바로 M1a로 바꾸지 않는다.\n\n[[22강#T1과 T2는 크기 외에 기관지와 장측흉막을 본다|T1과 T2는 크기 외에 기관지와 장측흉막을 본다]]\n\n~~근거: 폐암 49–56쪽: T1·T2·T3; IASLC TNM 9판 staging card.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.81. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q081_01.jpg"
+        "J/2023/official-p081.jpg"
       ],
       "legacyProfessor": "이경희",
       "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.81 출제자란 확인",
       "lectureIds": [
         22
       ],
       "lectureId": 22,
       "lectureTitle": "흉부영상 각론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 81번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.81",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q081_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 81,
+          "file": "J/2023/official-p081.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture22_current_source_comparison",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 81,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "description": "폐암 49–56쪽: T1·T2·T3; IASLC TNM 9판 staging card"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 81,
+        "professor": "이경희",
+        "lecture": "흉부영상각론",
+        "question": "8. 우하엽에 2.6cm 크기의  폐암으로 진단된 59세 남자환자의 CT이다. 동측 엽간열에 침습이\n있다. 병기는?",
+        "choices": [
+          "cT1cN0M0",
+          "cT1cN0M1a",
+          "cT2aN0M0",
+          "cT2aN0M1a",
+          "cT2bN0M0"
         ],
-        "basis": "폐암 49–56쪽: T1·T2·T3; IASLC TNM 9판 staging card",
-        "chapter": "T1과 T2는 크기 외에 기관지와 장측흉막을 본다",
-        "answerUnchanged": true,
-        "currentLectureCompared": true
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19782,7 +20652,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         82
       ],
-      "question": "39세 남자가 항문 주위 통증 주소로 입원하여 항문 주위 및 음낭 농양 진단받아 수술적 치료받고 입원하여 침상안정 상태를 유지하였다. 입원 5병일에 갑자기 호흡 곤란을 호소하며 의식 혼탁과 함께 불안정한 생체 징후를 보여 기관 삽관 및 인공호흡기 적용하였다. 혈압은 60/40 mmHg, 맥박은 140회/분, 호흡수는 30회/분. 체온은 39도였다. 심전도는 동율성 빈맥이었다. NT proBNP는 135 ng/L, hs-CRP는 28.5 mg/dL, lactic acid 5 mmol/L였다. 인공호흡기 적용한 상태에서 동맥혈 가스 분석 결과 pH 7.4, pCO2 30 mmHg, pO2 57 mmHg, SpO2 90%였다. 경흉부 심장 초음파 검사에서 좌심실 구혈률은 65%였으며, 우심실 수축 기능 부전은 없었다. 흉부 X선 촬영 (그림 1)은 사진 같았다. 환자 쇼크의 병태생리학적인 분류는 무엇인가?",
+      "question": "39세 남자가 항문 주위 통증 주소로 입원하여 항문 주위 및 음낭 농양 진단받아 수술적 치료받고 입원하여 침상안정 상태를 유지하였다. 입원 5병일에 갑자기 호흡 곤란을 호소하며 의식 혼탁과 함께 불안정한 생체 징후를 보여 기관 삽관 및 인공호흡기 적용하였다. 혈압은 60/40 mmHg, 맥박은 140회/분, 호흡수는 30회/분. 체온은 39도였다. 심전도는 동율성 빈맥이었다. NT proBNP는 135 ng/L, hs-CRP는 28.5 mg/dL, lactic acid 5 mmol/L였다. 인공호흡기 적용한 상태에서 동맥혈 가스 분석 결과 pH 7.4, pCO2 30 mmHg, pO2 57 mmHg, SpO2 90%였다. 경흉부 심장 초음파 검사에서 좌심실 구혈률은 65%였으며, 우심실 수축 기능 부전은 없었다. 흉부 X선 촬영 (그림 1)은 사진과 같았다. 환자 쇼크의 병태생리학적인 분류는 무엇인가?",
       "passage": "",
       "choices": [
         "Distributive(septic) shock",
@@ -19795,32 +20665,43 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "1번 — Distributive (septic) shock",
-      "explanation": "'''정답: ① Distributive (septic) shock'''\n\n=== 이 증례에서 먼저 연결할 것 ===\n항문 주위·음낭 농양이라는 '''감염원'''이 있고, 39℃ 발열과 CRP 28.5 mg/dL가 동반되어 있다. 여기에 혈압 60/40 mmHg, 의식 혼탁, lactate 5 mmol/L라는 '''장기 저관류'''의 근거가 붙는다. 감염에 따른 혈관 확장과 미세순환 장애를 주된 원인으로 보는 패혈증성 분포성 쇼크가 가장 타당하다.\n\nLVEF 65%이고 우심실 수축 기능 부전이 없다는 정보도 같이 읽어야 한다. 심한 좌심실 펌프 부전이나 급성 우심실 압력 과부하보다 감염성 혈관 장애가 전면에 있다. 침상안정은 폐색전증의 위험인자지만, '''위험인자 하나가 현재의 감염·심초음파 소견을 덮지는 않는다.'''\n\n=== 왜 심장이 잘 뛰는데 혈압이 낮은가 ===\n'''MAP ≈ CO × SVR'''이므로 심박출량이 유지되거나 늘어도 SVR이 크게 떨어지면 혈압이 낮아질 수 있다. 패혈증에서는 혈관 확장에 모세혈관 누출까지 겹쳐 유효 순환량이 줄고, 조직별 혈류 분포와 산소 이용도 손상된다. 그래서 큰 혈관에서 계산한 DO₂가 높아도 조직 저산소증이 생길 수 있다. 진행된 패혈증에서는 심근 기능 저하가 겹쳐 CO까지 떨어질 수 있어, CO 증가를 모든 단계의 필수 조건으로 외우지는 않는다.\n\n다음은 '''강의록 9쪽 전체 혈역학 비교표'''다. 빈출 답인 distributive만 보지 말고 어느 항목이 먼저 무너지는지를 함께 정리한다.\n\n||= 쇼크 ||= MAP ||= CO ||= SVR ||= PCWP ||= CVP ||= MPAP ||= DO₂ ||= 대표적인 보조 ||\n|| '''Distributive''' || ↓ || '''↑''' || '''↓''' || ↓ || ↓ || ↓ || ↑ || Vasopressor ||\n|| '''Cardiogenic''' || ↓ || '''↓''' || ↑ || '''↑''' || ↑ || ↑ || ↓ || Inotrope ||\n|| '''Hypovolemic''' || ↓ || '''↓''' || ↑ || '''↓''' || '''↓''' || ↓ || ↓ || Volume replacement ||\n|| '''Extra-cardiac obstructive''' || ↓ || '''↓''' || ↑ 또는 ↔ || ↑ 또는 ↔ || '''↑''' || ↑ || ↓ || Vasopressor ± inotrope, 폐쇄 원인 교정 ||\n\n~~폐쇄성 행은 강의의 개략적 표기다. PCWP·폐동맥압은 막힌 위치에 따라 달라지고, 폐색전증에서는 좌심실 충만이 감소할 수 있다. CVP·PCWP만으로 수액 반응성을 확정하지 않는다.~~~\n\n=== 선지별 해설 ===\n* '''① 감염성 분포성 쇼크''': 농양·고열·염증수치 상승과 저관류를 하나의 기전으로 설명한다. SVR 감소가 중심이며, 보존된 EF와도 모순되지 않는다.\n* '''② 비감염성 분포성 쇼크''': 아나필락시스나 교감신경 긴장 소실, 비감염성 염증 등도 SVR을 낮춘다. 그러나 이 환자에게는 감염원이 뚜렷하므로 septic으로 구체화하는 것이 맞다.\n* '''③ 심인성 쇼크''': 심근경색·심근 기능 저하·중증 부정맥·기계적 이상 때문에 CO가 떨어지는 경우다. 제시된 좌·우심실 소견과 감염 경과는 이를 주된 원인으로 지지하지 않는다. 정상 EF 하나가 모든 심장성 원인을 배제한다는 뜻은 아니다.\n* '''④ 저혈량성 쇼크''': 큰 출혈, 설사·구토 등 절대적인 체액 손실이 핵심일 때 고른다. 패혈증에 상대적 저혈량이 섞일 수 있어도 이 증례의 출발점은 감염에 따른 분포성 장애다.\n* '''⑤ 심장 외 폐쇄성 쇼크''': 폐색전증·심장압전·긴장성 기흉처럼 혈류를 막는 원인이 필요하다. 폐색전증형 반복 문항의 D-shape LV, 우심실 확장·부전과 달리 이 문제는 우심실 수축 기능 부전이 없다고 명시한다.\n\n=== 치료나 검사로 질문이 바뀌면 ===\n치료는 '''항균제·감염원 제거 + 수액에 대한 반응 평가 + 필요한 승압제'''로 연결한다. Norepinephrine은 혈관 긴장과 MAP을 회복시키는 대표 약이고, dobutamine은 CO가 부족할 때 고려하는 강심제여서 역할이 다르다. 농양이라면 배액 등 source control을 놓치지 않는다.\n\nLactate 5는 저관류의 심각성을 보여 주지만 원인이 패혈증이라는 사실을 단독으로 증명하지는 않는다. 엄밀한 Sepsis-3 shock 기준에 필요한 수액 후 승압제 요구량도 이 발문에는 없다. 이 문제는 모든 진단 조건을 입증하는 것이 아니라 '''가장 적절한 병태생리학적 분류'''를 고르는 것이다. FiO₂가 주어지지 않았으므로 PaO₂ 57만으로 P/F를 계산해서 ARDS 중증도를 정할 수도 없다.\n\n> 감염 소견이 있고 양쪽 심장의 뚜렷한 펌프 부전·폐쇄 소견은 없다. 혈압 저하를 '''SVR 감소와 미세순환 장애'''로 설명하면, 정답뿐 아니라 수액·승압제·감염원 치료가 필요한 이유까지 연결된다.\n\n[[12강#감염과 저관류가 동반된 분포성 쇼크|Wiki · 감염과 저관류가 동반된 분포성 쇼크]] · [[12강#승압제와 강심제|Wiki · 승압제와 강심제]] · [[12강#패혈증 초기 소생의 목적|Wiki · 패혈증 초기 소생의 목적]]\n~~근거: 12강 2–9쪽의 쇼크 분류·혈역학, 16–22쪽의 감염성 쇼크 증례와 초기 소생.~~~",
-      "images": [],
+      "answerLabel": "1번 — Distributive(septic) shock",
+      "explanation": "'''공식 정답: 1번'''\n\n'''정답: ① Distributive (septic) shock'''\n\n=== 이 증례에서 먼저 연결할 것 ===\n항문 주위·음낭 농양이라는 '''감염원'''이 있고, 39℃ 발열과 CRP 28.5 mg/dL가 동반되어 있다. 여기에 혈압 60/40 mmHg, 의식 혼탁, lactate 5 mmol/L라는 '''장기 저관류'''의 근거가 붙는다. 감염에 따른 혈관 확장과 미세순환 장애를 주된 원인으로 보는 패혈증성 분포성 쇼크가 가장 타당하다.\n\nLVEF 65%이고 우심실 수축 기능 부전이 없다는 정보도 같이 읽어야 한다. 심한 좌심실 펌프 부전이나 급성 우심실 압력 과부하보다 감염성 혈관 장애가 전면에 있다. 침상안정은 폐색전증의 위험인자지만, '''위험인자 하나가 현재의 감염·심초음파 소견을 덮지는 않는다.'''\n\n=== 왜 심장이 잘 뛰는데 혈압이 낮은가 ===\n'''MAP ≈ CO × SVR'''이므로 심박출량이 유지되거나 늘어도 SVR이 크게 떨어지면 혈압이 낮아질 수 있다. 패혈증에서는 혈관 확장에 모세혈관 누출까지 겹쳐 유효 순환량이 줄고, 조직별 혈류 분포와 산소 이용도 손상된다. 그래서 큰 혈관에서 계산한 DO₂가 높아도 조직 저산소증이 생길 수 있다. 진행된 패혈증에서는 심근 기능 저하가 겹쳐 CO까지 떨어질 수 있어, CO 증가를 모든 단계의 필수 조건으로 외우지는 않는다.\n\n다음은 '''강의록 9쪽 전체 혈역학 비교표'''다. 빈출 답인 distributive만 보지 말고 어느 항목이 먼저 무너지는지를 함께 정리한다.\n\n||= 쇼크 ||= MAP ||= CO ||= SVR ||= PCWP ||= CVP ||= MPAP ||= DO₂ ||= 대표적인 보조 ||\n|| '''Distributive''' || ↓ || '''↑''' || '''↓''' || ↓ || ↓ || ↓ || ↑ || Vasopressor ||\n|| '''Cardiogenic''' || ↓ || '''↓''' || ↑ || '''↑''' || ↑ || ↑ || ↓ || Inotrope ||\n|| '''Hypovolemic''' || ↓ || '''↓''' || ↑ || '''↓''' || '''↓''' || ↓ || ↓ || Volume replacement ||\n|| '''Extra-cardiac obstructive''' || ↓ || '''↓''' || ↑ 또는 ↔ || ↑ 또는 ↔ || '''↑''' || ↑ || ↓ || Vasopressor ± inotrope, 폐쇄 원인 교정 ||\n\n~~폐쇄성 행은 강의의 개략적 표기다. PCWP·폐동맥압은 막힌 위치에 따라 달라지고, 폐색전증에서는 좌심실 충만이 감소할 수 있다. CVP·PCWP만으로 수액 반응성을 확정하지 않는다.~~~\n\n=== 선지별 해설 ===\n* '''① 감염성 분포성 쇼크''': 농양·고열·염증수치 상승과 저관류를 하나의 기전으로 설명한다. SVR 감소가 중심이며, 보존된 EF와도 모순되지 않는다.\n* '''② 비감염성 분포성 쇼크''': 아나필락시스나 교감신경 긴장 소실, 비감염성 염증 등도 SVR을 낮춘다. 그러나 이 환자에게는 감염원이 뚜렷하므로 septic으로 구체화하는 것이 맞다.\n* '''③ 심인성 쇼크''': 심근경색·심근 기능 저하·중증 부정맥·기계적 이상 때문에 CO가 떨어지는 경우다. 제시된 좌·우심실 소견과 감염 경과는 이를 주된 원인으로 지지하지 않는다. 정상 EF 하나가 모든 심장성 원인을 배제한다는 뜻은 아니다.\n* '''④ 저혈량성 쇼크''': 큰 출혈, 설사·구토 등 절대적인 체액 손실이 핵심일 때 고른다. 패혈증에 상대적 저혈량이 섞일 수 있어도 이 증례의 출발점은 감염에 따른 분포성 장애다.\n* '''⑤ 심장 외 폐쇄성 쇼크''': 폐색전증·심장압전·긴장성 기흉처럼 혈류를 막는 원인이 필요하다. 폐색전증형 반복 문항의 D-shape LV, 우심실 확장·부전과 달리 이 문제는 우심실 수축 기능 부전이 없다고 명시한다.\n\n=== 치료나 검사로 질문이 바뀌면 ===\n치료는 '''항균제·감염원 제거 + 수액에 대한 반응 평가 + 필요한 승압제'''로 연결한다. Norepinephrine은 혈관 긴장과 MAP을 회복시키는 대표 약이고, dobutamine은 CO가 부족할 때 고려하는 강심제여서 역할이 다르다. 농양이라면 배액 등 source control을 놓치지 않는다.\n\nLactate 5는 저관류의 심각성을 보여 주지만 원인이 패혈증이라는 사실을 단독으로 증명하지는 않는다. 엄밀한 Sepsis-3 shock 기준에 필요한 수액 후 승압제 요구량도 이 발문에는 없다. 이 문제는 모든 진단 조건을 입증하는 것이 아니라 '''가장 적절한 병태생리학적 분류'''를 고르는 것이다. FiO₂가 주어지지 않았으므로 PaO₂ 57만으로 P/F를 계산해서 ARDS 중증도를 정할 수도 없다.\n\n> 감염 소견이 있고 양쪽 심장의 뚜렷한 펌프 부전·폐쇄 소견은 없다. 혈압 저하를 '''SVR 감소와 미세순환 장애'''로 설명하면, 정답뿐 아니라 수액·승압제·감염원 치료가 필요한 이유까지 연결된다.\n\n[[12강#감염과 저관류가 동반된 분포성 쇼크|Wiki · 감염과 저관류가 동반된 분포성 쇼크]] · [[12강#승압제와 강심제|Wiki · 승압제와 강심제]] · [[12강#패혈증 초기 소생의 목적|Wiki · 패혈증 초기 소생의 목적]]\n~~근거: 12강 2–9쪽의 쇼크 분류·혈역학, 16–22쪽의 감염성 쇼크 증례와 초기 소생.~~~\n\n~~사진 보완: 2023 공식 원본에 수록되지 않은 영상은 반복 출제 증례인 {{165}}의 사진을 재사용했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.82. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2024/q043_01.jpg"
+      ],
       "legacyProfessor": "이만종",
       "professor": "이만종",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.82 출제자란 확인",
       "lectureIds": [
         12
       ],
       "lectureId": 12,
       "lectureTitle": "중환자의학II",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 82번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.82",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "file": "J/2024/q043_01.jpg",
+          "method": "repeated_question_image_reuse",
+          "sourceGlobalNumber": 165,
+          "sourceQuestionId": "2024-043",
+          "sourceYear": 2024,
+          "source": "2024 호흡기계 43번",
+          "note": "2023 공식 원본의 미수록 사진을 반복 출제 증례의 사진으로 보완.",
+          "date": "2026-10-27"
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [
         "R057"
       ],
@@ -19840,28 +20721,32 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "중환자의학II_쇼크 and 체외막산소공급.pptx 73쪽 전체 및 각 문항의 실제 발문·선지 대조",
-        "sourceFile": "C:\\Users\\gjsrn\\Downloads\\중환자의학II_쇼크 and 체외막산소공급.pptx",
-        "slides": [
-          2,
-          3,
-          4,
-          5,
-          9,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22
-        ],
-        "chapter": "감염과 저관류가 동반된 분포성 쇼크",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 82,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false,
-        "revision": "개념 흐름·선지별 배제·전체 비교표 보강; 정답과 문항 원문 보존"
+        "imageRestoration": "repeated_question_image_reuse"
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 82,
+        "professor": "이만종",
+        "lecture": "중환자의학 II",
+        "question": "39세 남자가 항문 주위 통증 주소로 입원하여 항문 주위 및 음낭 농양 진단 받아 수술적\n치료 받고 입원 하여 침상안정 상태를 유지하였다. 입원 5병일에 갑자기 호흡 곤란을 호소\n하며 의식 혼탁과 함께 불안정한 생체 징후를 보여 기관 삽관 및 인공호흡기 적용하였다.\n혈압은 60/40 mmHg, 맥박은 140회/분, 호흡수는 30회/분. 체온은 39도 였다. 심전도는\n동율성 빈맥이었다. NT proBNP 는 135 ng/L, hs-CRP 는 28.5 mg/dL, lactic acid 5 mmol/L\n였다. 인공호흡기 적용한 상태 에서 동맥혈 가스 분석 결과 pH 7.4, pCO2 30 mmHg, pO2\n57 mmHg, SpO2 90% 였다. 경흉부 심장 초음파 검사에서 좌심실 구혈률은 65% 였으며,\n우심실 수축 기능 부전은 없었다. 흉부 X선 촬영 (그림 1)은 사진과 같았다.\n환자 쇼크의 병태생리학적인 분류는 무엇인가?",
+        "choices": [
+          "Distributive (septic) shock",
+          "Distributive (non-septic) shock",
+          "Cardiogenic shock",
+          "Hypovolemic shock",
+          "Extra-cardiac obstructive shock"
+        ],
+        "answer": "1. Distributive (septic) shock",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19888,60 +20773,71 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "1번 — VV-ECMO",
-      "explanation": "'''정답: ① VV-ECMO'''\n\n=== 지금까지 시행한 치료와 남아 있는 문제 ===\nCOVID-19 폐렴 후 양측 폐음영이 진행했고, 기관삽관·기계환기에 이어 '''prone position과 FiO₂ 1.0'''까지 적용했다. 그런데 12시간 뒤에도 PaO₂ 56 mmHg로 산소화가 심하게 나쁘다. '''P/F = 56/1.0 = 56 mmHg'''이므로 중증 ARDS 범위다. 산소를 더 진하게 주는 데에는 한계가 있고, 일회호흡량을 크게 올리면 남아 있는 폐를 다치게 할 수 있다.\n\n삽관 후 생체징후가 안정되었고 LVEF가 60%로 보존되어 있다. 주된 보조 대상은 순환 펌프보다 폐의 가스교환이다. VV-ECMO는 산소화와 CO₂ 제거를 체외에서 나누어 맡아 폐에 가하는 부담을 줄일 수 있다. 그래서 현재 선지 중 가장 적절한 다음 치료다. PaCO₂ 50도 상승했지만, 이 문제의 결정적인 근거는 '''기존 치료 후에도 남은 극심한 저산소혈증'''이다.\n\n=== 먼저 알아야 할 폐보호 환기의 전체 내용 ===\n* '''VT 6 mL/kg PBW''': 실제 체중이 아니라 예측체중 기준이다. 폐를 크게 부풀리는 방식으로 산소화를 해결하지 않는다.\n* '''Plateau pressure <30 cmH₂O''': 과팽창을 제한한다.\n* '''적절한 PEEP''': 호기 말 폐포를 열어 두어 반복 허탈과 shunt를 줄인다.\n* '''Prone position >12시간/일''': 12강 53쪽이 인용한 기준이다. 6강의 ≥16시간 기준과 출처가 다르며, 이 문항은 이미 prone position을 시행한 뒤의 구제 치료를 묻는다.\n* 충분한 치료에도 산소화가 유지되지 않으면 '''VV-ECMO 평가'''로 이어진다.\n\n||= FiO₂ ||= 0.3 ||= 0.4 ||= 0.5 ||= 0.6 ||= 0.7 ||= 0.8 ||= 0.9 ||= 1.0 ||\n|| '''PEEP, cmH₂O''' || '''5''' || '''5–8''' || '''8–10''' || '''10''' || '''10–14''' || '''14''' || '''14–18''' || '''18–24''' ||\n\n위 표는 '''53쪽의 FiO₂–PEEP 표'''다. FiO₂ 1.0에 PEEP 18–24가 대응하므로 ‘PEEP를 3으로 감량’은 강의의 기본 방향과 반대다. 다만 실제 PEEP는 순환 영향·과팽창·폐포 모집 가능성을 함께 평가하며, 표의 값으로 모든 환자에게 일괄 설정하지 않는다.\n\n=== 선지별 해설 ===\n* '''① VV-ECMO''': 정답이다. 정맥혈을 체외에서 산소화하고 CO₂를 제거한 뒤 정맥으로 반환하여, 폐보호 환기를 유지하면서도 가스교환을 보조할 수 있다.\n* '''② 조기 기관절개''': 기도 관리·장기 인공호흡기 이탈에 활용할 수 있지만, 이 순간의 폐포 가스교환 장애를 직접 해결하는 구제 치료는 아니다. 원선지의 ‘기관 절제술’은 문맥상 tracheostomy를 가리킨다.\n* '''③ VT 20 mL/kg PBW로 증량''': ARDS에서 남은 환기 가능한 폐는 작다. 큰 VT는 과팽창과 ventilator-induced lung injury를 유발할 수 있다. 53쪽의 기준은 6 mL/kg PBW와 plateau pressure <30 cmH₂O다.\n* '''④ Supine position으로 변경''': Prone position은 폐내 환기·관류 분포와 폐포 개방을 개선하는 치료다. 이를 해제하는 것만으로 현재의 난치성 저산소혈증을 해결할 수는 없다.\n* '''⑤ PEEP를 3 cmH₂O로 낮춤''': PEEP는 호기 말 폐포 허탈을 줄인다. 고농도 산소에도 저산소혈증이 남아 있는데 특별한 과팽창·순환 악화 근거 없이 크게 낮추면 shunt와 반복 허탈이 악화할 수 있다.\n\n=== VV와 VA를 바꾸어 묻는 경우 ===\n||= 구분 ||= '''VV-ECMO''' ||= '''VA-ECMO''' ||\n|| 혈액 경로 || 정맥 → 체외 회로 → '''정맥''' || 정맥 → 체외 회로 → '''동맥''' ||\n|| 주된 보조 || '''호흡''': 산소화와 CO₂ 제거 || '''순환 + 호흡''' ||\n|| 전신 혈류를 내보내는 힘 || 환자의 심장 기능이 필요 || 체외 펌프가 동맥 혈류를 직접 보조 ||\n|| 대표 상황 || 기존 치료에도 호전되지 않는 중증 ARDS || 약물에도 관류가 유지되지 않는 난치성 심인성 쇼크 ||\n|| 기본적인 한계 || 심한 펌프 부전을 직접 대체하지 못함 || 동맥 삽관·하지 허혈, 좌심실 후부하 증가 등도 고려 ||\n\n'''VV는 자신의 심장이 산소화한 혈액을 전신으로 보내야 한다.''' 심한 펌프 부전으로 장기 관류가 무너진다면 VA 등 순환 보조의 문제로 바뀐다. 반대로 정상 LVEF 하나만으로 모든 심장성 폐부종을 배제할 수는 없으므로, 실제 적용에서는 혈압·관류·우심실 기능을 함께 확인한다.\n\nP/F 계산에 FiO₂ 100을 넣거나 SpO₂를 분자에 넣지 않는다. 이번 수치는 12강의 severe <100과 Berlin 원 정의의 severe ≤100 중 어느 기준에서도 중증이다. ELSO 2021의 보충 기준은 최적 치료 후 P/F <80, 또는 pH <7.25·PaCO₂ ≥60인 심한 고탄산혈증성 호흡부전이다. 다만 이 문항은 pH·현재 PEEP·고원압이 모두 주어진 것이 아니며, 12시간 뒤의 한 수치로 전체 12시간의 지속 상태를 확정하지 않는다.[* [https://pmc.ncbi.nlm.nih.gov/articles/PMC8315725/ ELSO 성인 VV-ECMO 지침, 2021].]\n\n> '''폐보호 환기·prone position 후에도 P/F 56인 난치성 저산소혈증'''이 핵심이다. VT를 크게 늘려 폐를 더 밀어붙이기보다 체외 가스교환으로 폐를 보호하는 선택을 한다.\n\n[[12강#최적화 후에도 남는 저산소혈증과 VV-ECMO|Wiki · 최적화 후에도 남는 저산소혈증과 VV-ECMO]] · [[12강#폐보호 환기와 P/F 비|Wiki · 폐보호 환기와 P/F 비]] · [[12강#VV와 VA의 혈류 경로|Wiki · VV와 VA의 혈류 경로]]\n~~근거: 12강 48–55쪽의 ECMO·ARDS·폐보호 환기와 57–63쪽의 COVID-19 ARDS 증례.~~~",
-      "images": [],
+      "answerLabel": "1번 — 체외막산소요법 (veno-venous extracorporeal membrane oxygenation)을 적용",
+      "explanation": "'''공식 정답: 1번'''\n\n'''정답: ① VV-ECMO'''\n\n=== 지금까지 시행한 치료와 남아 있는 문제 ===\nCOVID-19 폐렴 후 양측 폐음영이 진행했고, 기관삽관·기계환기에 이어 '''prone position과 FiO₂ 1.0'''까지 적용했다. 그런데 12시간 뒤에도 PaO₂ 56 mmHg로 산소화가 심하게 나쁘다. '''P/F = 56/1.0 = 56 mmHg'''이므로 중증 ARDS 범위다. 산소를 더 진하게 주는 데에는 한계가 있고, 일회호흡량을 크게 올리면 남아 있는 폐를 다치게 할 수 있다.\n\n삽관 후 생체징후가 안정되었고 LVEF가 60%로 보존되어 있다. 주된 보조 대상은 순환 펌프보다 폐의 가스교환이다. VV-ECMO는 산소화와 CO₂ 제거를 체외에서 나누어 맡아 폐에 가하는 부담을 줄일 수 있다. 그래서 현재 선지 중 가장 적절한 다음 치료다. PaCO₂ 50도 상승했지만, 이 문제의 결정적인 근거는 '''기존 치료 후에도 남은 극심한 저산소혈증'''이다.\n\n=== 먼저 알아야 할 폐보호 환기의 전체 내용 ===\n* '''VT 6 mL/kg PBW''': 실제 체중이 아니라 예측체중 기준이다. 폐를 크게 부풀리는 방식으로 산소화를 해결하지 않는다.\n* '''Plateau pressure <30 cmH₂O''': 과팽창을 제한한다.\n* '''적절한 PEEP''': 호기 말 폐포를 열어 두어 반복 허탈과 shunt를 줄인다.\n* '''Prone position >12시간/일''': 12강 53쪽이 인용한 기준이다. 6강의 ≥16시간 기준과 출처가 다르며, 이 문항은 이미 prone position을 시행한 뒤의 구제 치료를 묻는다.\n* 충분한 치료에도 산소화가 유지되지 않으면 '''VV-ECMO 평가'''로 이어진다.\n\n||= FiO₂ ||= 0.3 ||= 0.4 ||= 0.5 ||= 0.6 ||= 0.7 ||= 0.8 ||= 0.9 ||= 1.0 ||\n|| '''PEEP, cmH₂O''' || '''5''' || '''5–8''' || '''8–10''' || '''10''' || '''10–14''' || '''14''' || '''14–18''' || '''18–24''' ||\n\n위 표는 '''53쪽의 FiO₂–PEEP 표'''다. FiO₂ 1.0에 PEEP 18–24가 대응하므로 ‘PEEP를 3으로 감량’은 강의의 기본 방향과 반대다. 다만 실제 PEEP는 순환 영향·과팽창·폐포 모집 가능성을 함께 평가하며, 표의 값으로 모든 환자에게 일괄 설정하지 않는다.\n\n=== 선지별 해설 ===\n* '''① VV-ECMO''': 정답이다. 정맥혈을 체외에서 산소화하고 CO₂를 제거한 뒤 정맥으로 반환하여, 폐보호 환기를 유지하면서도 가스교환을 보조할 수 있다.\n* '''② 조기 기관절개''': 기도 관리·장기 인공호흡기 이탈에 활용할 수 있지만, 이 순간의 폐포 가스교환 장애를 직접 해결하는 구제 치료는 아니다. 원선지의 ‘기관 절제술’은 문맥상 tracheostomy를 가리킨다.\n* '''③ VT 20 mL/kg PBW로 증량''': ARDS에서 남은 환기 가능한 폐는 작다. 큰 VT는 과팽창과 ventilator-induced lung injury를 유발할 수 있다. 53쪽의 기준은 6 mL/kg PBW와 plateau pressure <30 cmH₂O다.\n* '''④ Supine position으로 변경''': Prone position은 폐내 환기·관류 분포와 폐포 개방을 개선하는 치료다. 이를 해제하는 것만으로 현재의 난치성 저산소혈증을 해결할 수는 없다.\n* '''⑤ PEEP를 3 cmH₂O로 낮춤''': PEEP는 호기 말 폐포 허탈을 줄인다. 고농도 산소에도 저산소혈증이 남아 있는데 특별한 과팽창·순환 악화 근거 없이 크게 낮추면 shunt와 반복 허탈이 악화할 수 있다.\n\n=== VV와 VA를 바꾸어 묻는 경우 ===\n||= 구분 ||= '''VV-ECMO''' ||= '''VA-ECMO''' ||\n|| 혈액 경로 || 정맥 → 체외 회로 → '''정맥''' || 정맥 → 체외 회로 → '''동맥''' ||\n|| 주된 보조 || '''호흡''': 산소화와 CO₂ 제거 || '''순환 + 호흡''' ||\n|| 전신 혈류를 내보내는 힘 || 환자의 심장 기능이 필요 || 체외 펌프가 동맥 혈류를 직접 보조 ||\n|| 대표 상황 || 기존 치료에도 호전되지 않는 중증 ARDS || 약물에도 관류가 유지되지 않는 난치성 심인성 쇼크 ||\n|| 기본적인 한계 || 심한 펌프 부전을 직접 대체하지 못함 || 동맥 삽관·하지 허혈, 좌심실 후부하 증가 등도 고려 ||\n\n'''VV는 자신의 심장이 산소화한 혈액을 전신으로 보내야 한다.''' 심한 펌프 부전으로 장기 관류가 무너진다면 VA 등 순환 보조의 문제로 바뀐다. 반대로 정상 LVEF 하나만으로 모든 심장성 폐부종을 배제할 수는 없으므로, 실제 적용에서는 혈압·관류·우심실 기능을 함께 확인한다.\n\nP/F 계산에 FiO₂ 100을 넣거나 SpO₂를 분자에 넣지 않는다. 이번 수치는 12강의 severe <100과 Berlin 원 정의의 severe ≤100 중 어느 기준에서도 중증이다. ELSO 2021의 보충 기준은 최적 치료 후 P/F <80, 또는 pH <7.25·PaCO₂ ≥60인 심한 고탄산혈증성 호흡부전이다. 다만 이 문항은 pH·현재 PEEP·고원압이 모두 주어진 것이 아니며, 12시간 뒤의 한 수치로 전체 12시간의 지속 상태를 확정하지 않는다.[* [https://pmc.ncbi.nlm.nih.gov/articles/PMC8315725/ ELSO 성인 VV-ECMO 지침, 2021].]\n\n> '''폐보호 환기·prone position 후에도 P/F 56인 난치성 저산소혈증'''이 핵심이다. VT를 크게 늘려 폐를 더 밀어붙이기보다 체외 가스교환으로 폐를 보호하는 선택을 한다.\n\n[[12강#최적화 후에도 남는 저산소혈증과 VV-ECMO|Wiki · 최적화 후에도 남는 저산소혈증과 VV-ECMO]] · [[12강#폐보호 환기와 P/F 비|Wiki · 폐보호 환기와 P/F 비]] · [[12강#VV와 VA의 혈류 경로|Wiki · VV와 VA의 혈류 경로]]\n~~근거: 12강 48–55쪽의 ECMO·ARDS·폐보호 환기와 57–63쪽의 COVID-19 ARDS 증례.~~~\n\n~~사진 보완: 2023 공식 원본에 수록되지 않은 영상은 반복 출제 증례인 {{69}}의 사진을 재사용했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.83. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2025/q068_01.jpg"
+      ],
       "legacyProfessor": "이만종",
       "professor": "이만종",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.83 출제자란 확인",
       "lectureIds": [
         12
       ],
       "lectureId": 12,
       "lectureTitle": "중환자의학II",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 83번",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
+      "source": "2023 호흡기계 원본 p.83",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "file": "J/2025/q068_01.jpg",
+          "method": "repeated_question_image_reuse",
+          "sourceGlobalNumber": 69,
+          "sourceQuestionId": "2025-069",
+          "sourceYear": 2025,
+          "source": "2025 호흡기계 69번",
+          "note": "2023 공식 원본의 미수록 사진을 반복 출제 증례의 사진으로 보완.",
+          "date": "2026-10-27"
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "중환자의학II_쇼크 and 체외막산소공급.pptx 73쪽 전체 및 각 문항의 실제 발문·선지 대조",
-        "sourceFile": "C:\\Users\\gjsrn\\Downloads\\중환자의학II_쇼크 and 체외막산소공급.pptx",
-        "slides": [
-          48,
-          49,
-          50,
-          51,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58,
-          59,
-          60,
-          61,
-          62,
-          63
-        ],
-        "chapter": "최적화 후에도 남는 저산소혈증과 VV-ECMO",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 83,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false,
-        "revision": "개념 흐름·선지별 배제·전체 비교표 보강; 정답과 문항 원문 보존"
+        "imageRestoration": "repeated_question_image_reuse"
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 83,
+        "professor": "이만종",
+        "lecture": "중환자의학 II",
+        "question": "64세 여자가 COVID-19 감염으로 일반병실에 입원 중 호흡곤란 발생하여 중환자실로\n전실하였다. 중환자실에서 기관 삽관 및 인공호흡기 적용 직후 생체징후는 안정되었다.\n입원 당일 흉부 X선 (그림1) 에 비해 인공호흡기 적용 직후 흉부 X선 (그림 2) 은\n양측 폐야에 진행성 침습 소견을 보였다. 환자를 엎드린 자세 (prone position) 로 체위\n변경 하였고 100% 산소 (FiO2 1.0) 를 주입하고 12시간 이후 동맥혈 가스검사에서 산소\n분압 (PaO2) 56 mmHg, 이산화탄소 분압 (pCO2) 50 mmHg, 산소포화도 (SpO2) 는 88%\n를 보였다. 침상 내 심초음파 검사에서 좌심실 구혈률은 60% 로 유지되고 있었다.\n현재 상태에서 환자의 폐 보호 환기전략을 위해 적용해 볼 수 있는 것은 무엇인가?",
+        "choices": [
+          "체외막산소요법 (veno-venous extracorporeal membrane oxygenation) 을 적용",
+          "조기 기관 절제술 (Tracheostomy) 을 시행",
+          "일회 환기량 (Tidal volume) 을 20 mL/kg of predicted body weight 로 변경",
+          "앙와위 (supine position) 로 체위 변경",
+          "날숨끝양압 (PEEP) 을 3 cm H2O 로 조절"
+        ],
+        "answer": "1. 체외막산소요법 (VV ECMO, veno-venous extracorporeal membrane oxygenation)",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -19955,7 +20851,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         84
       ],
-      "question": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 이 약물의 부작용이 아닌 것은?",
+      "question": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 환자가 경험했을 가능성이 있는 약물 부작용은 어느 것인가?",
       "passage": "",
       "choices": [
         "Appetite enhancement",
@@ -19964,53 +20860,62 @@ window.JBL_DATA = {
         "Reflex bradycardia",
         "Urinary retention"
       ],
-      "answerIndex": 4,
+      "answerIndex": 5,
       "answerIndices": [
-        4
+        5
       ],
-      "answerLabel": "4번 — Reflex bradycardia",
-      "explanation": "'''정답: 4번, Reflex bradycardia.'''\n\n=== Diphenhydramine은 H₁ 외의 작용도 함께 가진다 ===\nDiphenhydramine은 1세대 H₁ 약물로 중추 침투와 항콜린 효과가 크다. 반복 복용하면 알레르기를 줄이는 효과 외에 졸음·주의력 저하·어지럼과 입마름·요정체 등이 문제가 될 수 있다. 강의 28쪽의 수용체 지도를 증상별로 나누어 보면 다음과 같다.\n\n||= 작용 ||= 나타날 수 있는 변화 ||\n|| 중추 H₁ 차단 || 진정, 인지·정신운동 기능 저하; 식욕 증가 가능 ||\n|| Muscarinic 차단 || 구강 건조, 시야 흐림, 요정체, 동성 빈맥 ||\n|| α 차단 등 혈역학적 영향 || 저혈압·어지럼, 반사성 빈맥 ||\n|| 일부 약물의 serotonin 차단 || 식욕 증가; cyproheptadine에서 특히 강조 ||\n\n다만 이 표는 계열의 수용체별 효과를 설명하는 그림이어서 각 약물이 모든 효과를 같은 강도로 일으킨다는 뜻은 아니다. [[https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f808ee14-fccf-4abe-b53a-a40b0b3bba03&version=1|Diphenhydramine 약품 설명서]]에는 dizziness, hypotension, urinary retention이 모두 부작용으로 제시되어 있다.\n\n=== 반사성 변화의 방향을 확인한다 ===\n강의 28쪽은 혈압 저하에 대한 반사 반응을 '''reflex tachycardia'''로 제시한다. Muscarinic 차단도 보통 동성 빈맥의 방향이다. 따라서 이 약물의 부작용이 '''아닌 것'''을 묻는 현재 발문에서는 '''4번 reflex bradycardia'''가 답이다. 다른 네 선지를 모두 ‘diphenhydramine에서 절대 나타날 수 없는 증상’으로 배제하는 방식은 잘못이다.\n\n~~복원 문구 수정: 원복원본은 ‘경험했을 가능성이 있는 부작용’을 물어 여러 선지가 성립했다. 사용자 확인에 따라 ‘부작용이 아닌 것은?’으로 수정하고 4번을 정답으로 지정했다. 나머지 선지와 증례는 보존했다.~~~\n\n=== 선지별로 보면 ===\n* ① 식욕 증가는 cyproheptadine의 항세로토닌 작용에서 특히 강조되지만, 28쪽 그림은 중추 H₁ 차단에도 식욕 증가를 연결한다. Diphenhydramine에서 불가능하다고 단정할 수 없다.\n* ② 어지럼은 가능한 부작용이다. 중추 영향과 혈압 변화 등 여러 원인이 있을 수 있다.\n* ③ 저혈압도 가능한 부작용으로 약품 설명서에 포함된다. α 차단을 promethazine에서 강조했다는 이유만으로 배제하지 않는다.\n* ④ 정답이다. 강의의 α 차단·혈압 저하 도식에서 반사성 변화는 bradycardia가 아니라 tachycardia다. 항콜린 작용도 보통 동성 빈맥을 일으키므로 ‘반사성 서맥’이 이 비교에서 맞지 않는 연결이다.\n* ⑤ 요정체는 항무스카린 작용에 의한 대표적인 부작용이다. 특히 전립선비대 등이 있으면 문제가 커질 수 있지만, 다른 질병이 없는 환자에서 불가능한 것은 아니다.\n\n[[10강#1세대의 여러 수용체 작용이 부작용을 설명한다|Wiki · 1세대의 여러 수용체 작용이 부작용을 설명한다]]\n~~근거: 39기 「Anti-histamine2026」 23·28·29·30·33쪽 및 대응하는 38기 자료. 발문 수정과 정답 지정은 2026-10-12 사용자 확인에 따라 반영했다.~~~",
+      "answerLabel": "5번 — Urinary retention",
+      "explanation": "'''공식 정답: ⑤ Urinary retention'''\n\n=== 풀이의 핵심 ===\n원본의 발문은 '''경험했을 가능성이 있는 부작용'''이며, 공식 정답은 '''요정체'''다. Diphenhydramine의 항무스카린 작용으로 방광 수축이 방해되는 것이 핵심이다. ‘아닌 것은?’으로 바꿨던 학습용 발문은 폐기했다.\n\n다만 ② 어지럼과 ③ 저혈압도 실제로 가능한 부작용이다. 따라서 이 원문을 엄밀한 단일정답 문제로 해석할 때의 한계는 남는다. '''공식 채점은 5번으로 유지'''하고, 다른 실제 부작용을 불가능한 것으로 외우게 설명하지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''': 1세대 H₁ 약물의 수용체 지도에서는 식욕 증가가 연결될 수 있다. 약물별 강도와 기전을 구분하며, 이 문항의 지정 정답은 5번이다.\n* '''2번''': 어지럼은 가능한 부작용이다. 이 선지를 의학적으로 불가능한 증상이라고 배제할 수 없다.\n* '''3번''': 저혈압도 약품 설명서에 제시되는 부작용이다. 공식 단일정답과 별도로 원문 선지의 중복 가능성을 알아둔다.\n* '''4번''': 항무스카린 작용은 보통 빈맥과 연결된다. 혈압 저하에 대한 일반적인 반사 반응 역시 빈맥이며 반사성 서맥이 아니다.\n* '''5번''': 공식 정답이다. 항무스카린 작용에 의한 요정체는 대표적인 1세대 항히스타민제 부작용이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n1세대는 H₁ 수용체만 선택적으로 막지 않는다. 뇌의 H₁ 차단은 졸음과 인지·정신운동 기능 저하를 일으킬 수 있고, muscarinic receptor 차단은 입마름·요정체 같은 증상으로 나타난다. 약마다 α-adrenergic, serotonin receptor에 대한 작용의 정도도 다르다.\n\n[[파일:assets/lecture-10/h1-off-target-effects.jpg|39기 28쪽. H₁ 자체의 효과와 cholinergic·α-adrenergic·serotonin 수용체 차단 효과를 나누어 읽는다.]]\n\n||= 차단되는 표적 ||= 효과·부작용 ||= 대표 연결 ||\n|| 말초 H₁ || 가려움·재채기·콧물·알레르기 반응 감소 || 항알레르기 목적 ||\n|| 중추 H₁ || 진정, 인지·정신운동 기능 저하, 식욕 증가 가능 || 1세대의 운전·업무상 문제 ||\n|| Muscarinic receptor || 입마름, 시야 흐림, 요정체, 동성 빈맥 || Diphenhydramine·promethazine 등 ||\n|| α-adrenergic receptor || 저혈압·기립성 어지럼, 반사성 빈맥 || 특히 promethazine ||\n|| Serotonin receptor || 식욕 증가 등 || 특히 cyproheptadine ||\n\n이 표의 모든 효과가 모든 약물에서 같은 강도로 나타나는 것은 아니다. 예를 들어 cyproheptadine의 식욕 증가를 배웠다고 해서 다른 H₁ 약물에서는 식욕 변화가 절대 없다고 말할 수 없고, promethazine에서 α 차단을 강조한다고 해서 다른 1세대에서 어지럼·저혈압이 불가능한 것도 아니다.\n\n~~260번은 여러 부작용이 성립하는 원복원 발문을 사용자 확인에 따라 ‘부작용이 아닌 것은?’으로 수정했으며, 반사성 서맥인 4번이 답이다. Diphenhydramine의 어지럼·저혈압·요정체는 [[https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f808ee14-fccf-4abe-b53a-a40b0b3bba03&version=1|약품 설명서]]에도 기재되어 있고, 강의 28쪽은 H₁ 차단에 따른 식욕 증가도 보여준다.~~~\n\n~~부작용 확인: [[https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f808ee14-fccf-4abe-b53a-a40b0b3bba03&version=1|Diphenhydramine 공식 의약품 설명서]].~~~\n\n[[10강#1세대의 여러 수용체 작용이 부작용을 설명한다|Wiki · 1세대의 여러 수용체 작용이 부작용을 설명한다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.84. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
-      "professor": "김채균",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "professor": "이성근",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.84 출제자란 확인",
       "lectureIds": [
         10
       ],
       "lectureId": 10,
       "lectureTitle": "히스타민 길항제, 항알러지 약물",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 84번",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2023 호흡기계 원본 p.84",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 강의록 + 38기 자료 대조",
-        "pages": [
-          23,
-          28,
-          29,
-          30,
-          33
-        ],
-        "chapter": "1세대의 여러 수용체 작용이 부작용을 설명한다",
-        "answerStatus": "user_authorized_reconstruction",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 84,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false,
-        "originalQuestion": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 환자가 경험했을 가능성이 있는 약물 부작용은 어느 것인가?",
-        "questionCorrection": "가능성이 있는 부작용 → 부작용이 아닌 것",
-        "userConfirmedDate": "2026-10-12"
+        "interpretationCaution": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 84,
+        "professor": "이성근",
+        "lecture": "히스타민 길항제와 항알러지 약물",
+        "question": "오랜 기간 알레르기 증상을 가지고 있었던 한 39세 남성이 증상 완화를 위해 일반의\n약품인 diphenhydramine을 복용해왔다고 한다. 이 환자는 다른 건강상의 문제는 없\n으나 diphenhydramine을 하루 4번씩 복용하였다고 한다. 다음 중 환자가 경험했을\n가능성이 있는 약물 부작용은 어느 것인가?",
+        "choices": [
+          "Appetite enhancement",
+          "Dizziness",
+          "Hypotension",
+          "Reflex bradycardia",
+          "Urinary retention"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20038,47 +20943,56 @@ window.JBL_DATA = {
         4
       ],
       "answerLabel": "4번 — Fexofenadine",
-      "explanation": "'''정답: 4번, Fexofenadine.'''\n\n=== 같은 알레르기 치료라도 업무에 따라 약을 고른다 ===\n가려움·콧물·두드러기 등의 histamine 반응에는 H₁ 차단이 도움이 된다. 다만 '''1세대는 BBB를 통과하여 중추 H₁을 차단하므로 졸음과 정신운동 기능 저하'''를 일으킬 수 있다. 알레르기가 좋아져도 집중력과 반응속도가 떨어지면 운전·관제·시험 같은 상황에는 적절하지 않을 수 있다.\n\n||= 비교 ||= 1세대 H₁ ||= 2세대 H₁ ||\n|| 중추 침투·진정 || 대체로 더 큼 || 대체로 적음 ||\n|| 항콜린 부담 || 입마름·시야 흐림·요정체 등 || 대체로 적음 ||\n|| 대표 약 || diphenhydramine, chlorpheniramine, hydroxyzine, promethazine || fexofenadine, loratadine, desloratadine, cetirizine ||\n|| 선택에서 중요한 조건 || 멀미·구토 등에서 유용한 성질도 있음 || 각성 유지가 필요한 알레르기 환자에게 유리 ||\n\n이 비교는 2세대가 모든 사람에게 절대 졸음을 일으키지 않는다는 뜻은 아니다. '''주어진 보기에서 덜 진정적이며 증상에 맞는 약'''을 고르는 문제다.\n\n시험 기간이라는 정보는 두드러기의 중증도보다 '''진정을 피해야 한다'''는 약물 선택 조건을 제공한다. 피부에 국한된 증례에서 가장 알맞은 것은 fexofenadine이다. Anaphylaxis라면 epinephrine이 우선이라는 별도의 원칙과 혼동하지 않는다.\n\n=== 선지별로 보면 ===\n* ① Chlorpheniramine은 1세대라서 진정 부담이 있다. 다른 1세대보다 덜 졸릴 수 있어도 이 보기에서는 fexofenadine이 적절하다.\n* ② Dimenhydrinate는 1세대 H₁ 약물로 멀미 예방과 진정·항콜린 작용에 연결한다.\n* ③ Diphenhydramine은 진정이 뚜렷한 1세대이므로 시험 공부라는 조건에 불리하다.\n* ④ Fexofenadine은 덜 진정적인 2세대 H₁ 약물로 두드러기와 각성 유지라는 두 조건을 만족한다.\n* ⑤ Ipratropium은 muscarinic 길항제다. H₁ 차단으로 두드러기를 치료하는 선택이 아니다.\n\n[[10강#집중력이 필요한 환자는 덜 진정적인 약을 선택한다|Wiki · 집중력이 필요한 환자는 덜 진정적인 약을 선택한다]]\n~~근거: 39기 「Anti-histamine2026」 22·23·28·29·30·31·32쪽 및 대응하는 38기 자료. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~",
+      "explanation": "'''공식 정답: 4번'''\n\n'''정답: 4번, Fexofenadine.'''\n\n=== 같은 알레르기 치료라도 업무에 따라 약을 고른다 ===\n가려움·콧물·두드러기 등의 histamine 반응에는 H₁ 차단이 도움이 된다. 다만 '''1세대는 BBB를 통과하여 중추 H₁을 차단하므로 졸음과 정신운동 기능 저하'''를 일으킬 수 있다. 알레르기가 좋아져도 집중력과 반응속도가 떨어지면 운전·관제·시험 같은 상황에는 적절하지 않을 수 있다.\n\n||= 비교 ||= 1세대 H₁ ||= 2세대 H₁ ||\n|| 중추 침투·진정 || 대체로 더 큼 || 대체로 적음 ||\n|| 항콜린 부담 || 입마름·시야 흐림·요정체 등 || 대체로 적음 ||\n|| 대표 약 || diphenhydramine, chlorpheniramine, hydroxyzine, promethazine || fexofenadine, loratadine, desloratadine, cetirizine ||\n|| 선택에서 중요한 조건 || 멀미·구토 등에서 유용한 성질도 있음 || 각성 유지가 필요한 알레르기 환자에게 유리 ||\n\n이 비교는 2세대가 모든 사람에게 절대 졸음을 일으키지 않는다는 뜻은 아니다. '''주어진 보기에서 덜 진정적이며 증상에 맞는 약'''을 고르는 문제다.\n\n시험 기간이라는 정보는 두드러기의 중증도보다 '''진정을 피해야 한다'''는 약물 선택 조건을 제공한다. 피부에 국한된 증례에서 가장 알맞은 것은 fexofenadine이다. Anaphylaxis라면 epinephrine이 우선이라는 별도의 원칙과 혼동하지 않는다.\n\n=== 선지별로 보면 ===\n* ① Chlorpheniramine은 1세대라서 진정 부담이 있다. 다른 1세대보다 덜 졸릴 수 있어도 이 보기에서는 fexofenadine이 적절하다.\n* ② Dimenhydrinate는 1세대 H₁ 약물로 멀미 예방과 진정·항콜린 작용에 연결한다.\n* ③ Diphenhydramine은 진정이 뚜렷한 1세대이므로 시험 공부라는 조건에 불리하다.\n* ④ Fexofenadine은 덜 진정적인 2세대 H₁ 약물로 두드러기와 각성 유지라는 두 조건을 만족한다.\n* ⑤ Ipratropium은 muscarinic 길항제다. H₁ 차단으로 두드러기를 치료하는 선택이 아니다.\n\n[[10강#집중력이 필요한 환자는 덜 진정적인 약을 선택한다|Wiki · 집중력이 필요한 환자는 덜 진정적인 약을 선택한다]]\n~~근거: 39기 「Anti-histamine2026」 22·23·28·29·30·31·32쪽 및 대응하는 38기 자료. 별도 확인되지 않은 과거 정답이나 선배 해설을 공식 근거로 삼지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.85. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이성근",
-      "professor": "김채균",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이성근",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.85 출제자란 확인",
       "lectureIds": [
         10
       ],
       "lectureId": 10,
       "lectureTitle": "히스타민 길항제, 항알러지 약물",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 85번",
+      "domain": "기초의학",
+      "discipline": "약리학",
+      "section": "약리학",
+      "source": "2023 호흡기계 원본 p.85",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 강의록 + 38기 자료 대조",
-        "pages": [
-          22,
-          23,
-          28,
-          29,
-          30,
-          31,
-          32
-        ],
-        "chapter": "집중력이 필요한 환자는 덜 진정적인 약을 선택한다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
-        "officialSourcePage": null,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 85,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 85,
+        "professor": "이성근",
+        "lecture": "히스타민 길항제와 항알러지 약물",
+        "question": "21세 남성이 흉부와 팔 전반의 두드러기로 인해 응급실을 방문하였다. 병원 기록과\n검사 결과 환자는 새로 사용한 세탁세제에 알레르기 반응을 보인 것으로 확인되었다.\n담당 의사는 환자가 시험 기간이기 때문에 졸음을 유발하지 않는 항히스타민제를 처\n방하려고 한다. 다음 중 가장 적절한 것은 어느 것인가?",
+        "choices": [
+          "Chlorpheniramine",
+          "Dimenhydrinate",
+          "Diphenhydramine",
+          "Fexofenadine",
+          "Ipratropium"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20096,7 +21010,7 @@ window.JBL_DATA = {
       "passage": "",
       "choices": [
         "PCCE 상피는 terminal bronchiole까지 유지됨",
-        "ciliated cell은 terminal bronchiole에서는 관찰되지 않음",
+        "cilliated cell은 terminal bronchiole에서는 관찰되지 않음",
         "Goblet cell은 bronchus에서 관찰",
         "hyaline cartilage는 terminal bronchiole에서는 불규칙한 조각으로 존재",
         "smooth muscle은 terminal bronchiole에서는 관찰되지 않음"
@@ -20105,46 +21019,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "3번 — Goblet cell은 기관지에서 관찰된다.",
-      "explanation": "> 3번 — Goblet cell은 기관지에서 관찰된다.\n\n기관지의 상피는 PCCE이며 술잔세포가 포함된다. 기도가 작아질수록 술잔세포가 줄지만, '''종말세기관지에서 없어진다는 것'''을 기관지까지 확대하면 안 된다.\n\n=== 이 문제를 풀기 위한 개념 ===\n기도의 서로 다른 구조를 같은 경계로 외우지 않는 것이 핵심이다. 종말세기관지는 PCCE가 아니고 연골도 없지만, 섬모세포와 평활근은 남는다.\n\n||= 구조 ||= 기관·기관지 ||= 종말세기관지 ||= 호흡세기관지 ||\n|| 상피 || PCCE, 말단으로 갈수록 낮아짐 || 섬모세포와 Club cell로 이루어진 단층입방상피 || 폐포가 열리며 입방상피와 편평상피가 이어짐 ||\n|| 연골·샘 || 연골과 점막밑샘이 있음 || 둘 다 없음 || 둘 다 없음 ||\n|| 술잔세포 || 존재하나 말단으로 갈수록 감소 || 없음 || 없음 ||\n|| 섬모 || 존재 || 존재 || 말단으로 가며 소실 ||\n|| 평활근 || 기관 뒤쪽의 trachealis / 기관지의 연속된 나선형 층 || 존재 || 폐포 사이의 벽에 불연속적으로 남음 ||\n\n=== 선지별 판단 ===\n* ① 틀리다. 종말세기관지는 단층입방상피다.\n* ② 틀리다. 종말세기관지에도 섬모세포가 있다.\n* ③ 맞다. 기관지의 PCCE에서 술잔세포가 관찰된다.\n* ④ 틀리다. 불규칙한 연골판은 폐 안의 기관지 소견이고 종말세기관지에는 연골이 없다.\n* ⑤ 틀리다. 종말세기관지는 평활근을 가진다.\n\n> 종말세기관지에서 없는 것은 연골·점막밑샘·술잔세포다. 남는 것은 섬모세포·Club cell·평활근이다.\n\n[[1강#기도 전체의 변화는 서로 다른 경계로 읽는다|Wiki · 기도 전체의 변화는 서로 다른 경계로 읽는다]]\n~~근거: 39기 「호흡기계의 조직학」 17·19·20·21쪽.~~~",
+      "answerLabel": "3번 — Goblet cell은 bronchus에서 관찰",
+      "explanation": "'''공식 정답: 3번'''\n\n> 3번 — Goblet cell은 기관지에서 관찰된다.\n\n기관지의 상피는 PCCE이며 술잔세포가 포함된다. 기도가 작아질수록 술잔세포가 줄지만, '''종말세기관지에서 없어진다는 것'''을 기관지까지 확대하면 안 된다.\n\n=== 이 문제를 풀기 위한 개념 ===\n기도의 서로 다른 구조를 같은 경계로 외우지 않는 것이 핵심이다. 종말세기관지는 PCCE가 아니고 연골도 없지만, 섬모세포와 평활근은 남는다.\n\n||= 구조 ||= 기관·기관지 ||= 종말세기관지 ||= 호흡세기관지 ||\n|| 상피 || PCCE, 말단으로 갈수록 낮아짐 || 섬모세포와 Club cell로 이루어진 단층입방상피 || 폐포가 열리며 입방상피와 편평상피가 이어짐 ||\n|| 연골·샘 || 연골과 점막밑샘이 있음 || 둘 다 없음 || 둘 다 없음 ||\n|| 술잔세포 || 존재하나 말단으로 갈수록 감소 || 없음 || 없음 ||\n|| 섬모 || 존재 || 존재 || 말단으로 가며 소실 ||\n|| 평활근 || 기관 뒤쪽의 trachealis / 기관지의 연속된 나선형 층 || 존재 || 폐포 사이의 벽에 불연속적으로 남음 ||\n\n=== 선지별 판단 ===\n* ① 틀리다. 종말세기관지는 단층입방상피다.\n* ② 틀리다. 종말세기관지에도 섬모세포가 있다.\n* ③ 맞다. 기관지의 PCCE에서 술잔세포가 관찰된다.\n* ④ 틀리다. 불규칙한 연골판은 폐 안의 기관지 소견이고 종말세기관지에는 연골이 없다.\n* ⑤ 틀리다. 종말세기관지는 평활근을 가진다.\n\n> 종말세기관지에서 없는 것은 연골·점막밑샘·술잔세포다. 남는 것은 섬모세포·Club cell·평활근이다.\n\n[[1강#기도 전체의 변화는 서로 다른 경계로 읽는다|Wiki · 기도 전체의 변화는 서로 다른 경계로 읽는다]]\n~~근거: 39기 「호흡기계의 조직학」 17·19·20·21쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.86. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이자경",
-      "professor": "이은주",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "professor": "이자경",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.86 출제자란 확인",
       "lectureIds": [
         1
       ],
       "lectureId": 1,
       "lectureTitle": "호흡기계조직학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 86번",
+      "domain": "기초의학",
+      "discipline": "조직학",
+      "section": "조직학",
+      "source": "2023 호흡기계 원본 p.86",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 구조·세포의 조직학적 설명을 글로 묻는 이론 문항이다. 본문 사진 판독 3문항을 실습으로 분리하고 1강에 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 호흡기계의 조직학",
-        "pages": [
-          17,
-          19,
-          20,
-          21
-        ],
-        "chapter": "기도 전체의 변화는 서로 다른 경계로 읽는다",
-        "answerStatus": "lecture_based",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 86,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 86,
+        "professor": "이자경",
+        "lecture": "호흡기계의 조직학",
+        "question": "다음 호흡기 조직의 특징에 관한 설명 중 옳은 것을 고르시오",
+        "choices": [
+          "PCCE 상피는 terminal bronchiole까지 유지됨",
+          "cilliated cell은 terminal bronchiole에서는 관찰되지 않음",
+          "Goblet cell은 bronchus에서 관찰",
+          "hyaline cartilage는 terminal bronchiole에서는 불규칙한 조각으로 존재",
+          "smooth muscle은 terminal bronchiole에서는 관찰되지 않음"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20162,7 +21087,7 @@ window.JBL_DATA = {
       "passage": "",
       "choices": [
         "(1) - olfactory neuron의 microvilli-odorant receptor 위치",
-        "(2) - stratified squamous cell with cilia",
+        "(2) - stratified squamous cells with cilli",
         "(3) - Goblet cell - mucus 분비",
         "(4) - odorant binding protein 분비",
         "(5) - myelinated olfactory nerve - 후각 신호 전달"
@@ -20171,58 +21096,67 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "4번",
-      "explanation": "정답: '''4번'''\n\n=== 사진부터 읽기 ===\n(1)의 표면 섬모, (2)의 후각상피, (3)의 상피 내 샘관, (4)의 붉은 샘꽈리, (5)의 옅은 신경다발을 차례로 읽는다. (4)에서 분비세포들이 모인 Bowman샘을 확인하는 것이 핵심이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n후각점막은 '''후각상피와 그 아래 고유판'''을 함께 읽어야 한다. 상피 안에는 지지세포·후각수용세포·기저세포가 있고, 고유판에는 Bowman샘과 후각신경다발·혈관이 놓인다. 핵이 여러 높이에 보여도 중층편평상피가 아니라 특수화된 거짓중층상피다.\n\n||= 구조 ||= 사진에서의 단서 ||= 기능·반드시 구분할 것 ||\n|| 후각수용세포 || 중간 높이의 핵, 표면으로 이어지는 돌기 || Bipolar neuron; '''비운동성 cilia에 odorant receptor''' ||\n|| 지지세포 || 비교적 표면 쪽의 핵 || '''Microvilli''', 상피 지지 ||\n|| 기저세포 || 바닥판 가까이의 작은 세포 || 줄기세포·재생 ||\n|| Bowman샘 || 샘꽈리와 상피를 통과하는 샘관 || '''장액성 분비, odorant-binding protein''' ||\n|| 후각신경다발 || 옅은 섬유성 다발, 샘꽈리 구조 없음 || '''무수축삭'''; 냄새 신호 전달 ||\n\n> '''Cilia는 후각수용세포, microvilli는 지지세포, odorant-binding protein은 Bowman샘, 신경은 무수축삭'''이다. 같은 사진이 다시 나와도 표지 번호가 달라지므로 이전 문항의 번호 자체를 외우지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''' — 후각수용세포의 수용체는 microvilli가 아닌 cilia에 있다.\n* '''2번''' — 후각상피는 stratified squamous cell의 집합이 아니다. 특수화된 거짓중층상피다.\n* '''3번''' — (3)의 작고 둥근 통로는 Bowman샘의 duct다. 상피 속 goblet cell의 점액 덩어리와 다르다.\n* '''4번''' — Bowman샘이 odorant-binding protein을 분비한다는 연결이 맞다.\n* '''5번''' — 후각신경은 무수축삭으로 이루어지므로 myelinated라는 부분이 틀린다.\n\n관련 Wiki: [[11강#후각상피의 세포|11강 사진과 판독]] · [[1강#후각점막은 냄새를 신경신호로 바꾸는 상피다|1강 조직학 개념]]\n\n[* 근거: 39기 11강 조직실습과 1강 조직학, 해당 연도 문항의 사진·선지 대조. 아래 판단은 강의와 사진에 근거한 풀이이며 별도의 공식 정답표를 확인했다는 뜻은 아니다.]",
+      "answerLabel": "4번 — (4) - odorant binding protein 분비",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: '''4번'''\n\n=== 사진부터 읽기 ===\n(1)의 표면 섬모, (2)의 후각상피, (3)의 상피 내 샘관, (4)의 붉은 샘꽈리, (5)의 옅은 신경다발을 차례로 읽는다. (4)에서 분비세포들이 모인 Bowman샘을 확인하는 것이 핵심이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n후각점막은 '''후각상피와 그 아래 고유판'''을 함께 읽어야 한다. 상피 안에는 지지세포·후각수용세포·기저세포가 있고, 고유판에는 Bowman샘과 후각신경다발·혈관이 놓인다. 핵이 여러 높이에 보여도 중층편평상피가 아니라 특수화된 거짓중층상피다.\n\n||= 구조 ||= 사진에서의 단서 ||= 기능·반드시 구분할 것 ||\n|| 후각수용세포 || 중간 높이의 핵, 표면으로 이어지는 돌기 || Bipolar neuron; '''비운동성 cilia에 odorant receptor''' ||\n|| 지지세포 || 비교적 표면 쪽의 핵 || '''Microvilli''', 상피 지지 ||\n|| 기저세포 || 바닥판 가까이의 작은 세포 || 줄기세포·재생 ||\n|| Bowman샘 || 샘꽈리와 상피를 통과하는 샘관 || '''장액성 분비, odorant-binding protein''' ||\n|| 후각신경다발 || 옅은 섬유성 다발, 샘꽈리 구조 없음 || '''무수축삭'''; 냄새 신호 전달 ||\n\n> '''Cilia는 후각수용세포, microvilli는 지지세포, odorant-binding protein은 Bowman샘, 신경은 무수축삭'''이다. 같은 사진이 다시 나와도 표지 번호가 달라지므로 이전 문항의 번호 자체를 외우지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''' — 후각수용세포의 수용체는 microvilli가 아닌 cilia에 있다.\n* '''2번''' — 후각상피는 stratified squamous cell의 집합이 아니다. 특수화된 거짓중층상피다.\n* '''3번''' — (3)의 작고 둥근 통로는 Bowman샘의 duct다. 상피 속 goblet cell의 점액 덩어리와 다르다.\n* '''4번''' — Bowman샘이 odorant-binding protein을 분비한다는 연결이 맞다.\n* '''5번''' — 후각신경은 무수축삭으로 이루어지므로 myelinated라는 부분이 틀린다.\n\n관련 Wiki: [[11강#후각상피의 세포|11강 사진과 판독]] · [[1강#후각점막은 냄새를 신경신호로 바꾸는 상피다|1강 조직학 개념]]\n\n[* 근거: 39기 11강 조직실습과 1강 조직학, 해당 연도 문항의 사진·선지 대조. 아래 판단은 강의와 사진에 근거한 풀이이다. ]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.87. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q087_01.jpg"
+        "J/2023/official-p087.jpg"
       ],
       "legacyProfessor": "이자경",
-      "professor": "이은주",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이자경",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.87 출제자란 확인",
       "lectureIds": [
         11
       ],
       "lectureId": 11,
       "lectureTitle": "[실습] 호흡기계조직학 실습",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 87번",
+      "domain": "기초의학",
+      "discipline": "조직학",
+      "section": "조직학",
+      "source": "2023 호흡기계 원본 p.87",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 문제 본문의 표지된 조직사진을 판독하는 문항이다. 사용자가 정의한 조직학 실습 기준과 이론·실습 각 2시간의 통상 3+3문항 배정이 일치한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q087_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 87,
+          "file": "J/2023/official-p087.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 11강 조직실습 + 1강 조직학 + 해당 문항의 사진·선지 대조",
-        "chapter": "냄새 수용체는 후각세포의 섬모에 있다",
-        "practice": [
-          2,
-          3,
-          4,
-          5
-        ],
-        "theory": [
-          7,
-          8,
-          9
-        ],
-        "answerStatus": "lecture_supported_visual_reading",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 87,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 87,
+        "professor": "이자경",
+        "lecture": "호흡기계의 조직학 실습",
+        "question": "다음 후각 상피 조직을 보고 옳은 연결을 고르시오",
+        "choices": [
+          "(1) - olfactory neuron의 microvilli - odorant receptor 위치",
+          "(2) - stratified squamous cells with cilli",
+          "(3) - Goblet cell - mucus 분비",
+          "(4) - odorant binding protein 분비",
+          "(5) - myelinated olfactory nerve -후각 신호 전달"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20250,46 +21184,56 @@ window.JBL_DATA = {
         3
       ],
       "answerLabel": "3번 — submucosa에 seromucous gland 존재",
-      "explanation": "정답: 3번\n\n기관의 '''submucosa에 seromucous gland'''가 있다는 3번이 정답이다. 이 문항의 1번에서 '''ring은 C자형이 아니라 완전히 닫힌 고리'''를 뜻하는 함정으로 해석한다. 기관의 유리연골은 뒤쪽이 열린 C자형이며, 그 열린 부분에는 trachealis muscle과 섬유탄력성 막이 있으므로 1번은 틀리다.\n\n=== 이 문제를 풀기 위한 개념 ===\n기관은 상피·샘·연골·근육을 서로 다른 층과 위치에 맞추어 설명해야 한다.\n\n||= 층·구조 ||= 기관의 특징 ||\n|| Mucosa || PCCE + 탄력섬유가 풍부한 고유판 ||\n|| Submucosa || 장액점액샘, 혈관, 신경 ||\n|| 앞·가쪽 || C자 유리연골 ||\n|| 뒤쪽 || Trachealis muscle과 fibroelastic membrane ||\n|| Trachealis muscle || 삼킬 때 이완 / 기침할 때 수축 ||\n\n기관의 C자 유리연골은 뒤쪽이 열려 있고, 폐 안 기관지의 연골은 불규칙한 판으로 나뉜다. 이 문항에서는 ‘닫힌 고리’와 ‘뒤쪽이 열린 C자형’을 구별해야 한다. 일반적으로 C-shaped ring이라는 표현도 쓰이지만, 이를 근거로 이 선지의 ring까지 C자형으로 해석하지 않는다.\n\n=== 선지별 판단 ===\n* ① 틀리다. 사용자 확인에 따른 이 문항의 출제 의도는 ring을 완전히 닫힌 고리로 제시한 함정이다. 기관 연골은 C자형으로 뒤쪽이 열려 있으며, 이 부위는 trachealis muscle과 섬유탄력성 막으로 연결된다.\n* ② 기관에 관한 선지로는 부적절하다. Club cell은 종말세기관지의 대표 외분비세포이며, 올해 강의록은 분비물을 surfactant-like lipoprotein과 CC16으로 구별한다.\n* ③ 명확히 옳다. 장액점액샘은 기관의 점막밑층에 있다.\n* ④ 틀리다. 삼킬 때는 이완하고 기침할 때 수축한다.\n* ⑤ 틀리다. Brush cell은 화학감각과 구심성 신경에 연결하고, DNES는 small granule cell에 연결한다.\n\n=== 표현과 복원에 관하여 ===\n2023 복원 문서의 발문과 선지는 보존했다. 사용자 확인에 따라 1번의 ring은 C자형이 아닌 닫힌 고리를 뜻하는 함정으로 해석하고, 3번을 단일정답으로 확정했다. 72번은 선지에 C자형이 명시되어 있어 1번도 정답이라는 점이 다르다.\n\n> 샘의 위치는 submucosa, 신경내분비세포는 small granule cell, 삼킴 때 trachealis는 이완이다.\n\n[[1강#기관은 C자 연골로 열어 두고 뒤쪽 근육으로 조절한다|Wiki · 기관은 C자 연골로 열어 두고 뒤쪽 근육으로 조절한다]]\n~~근거: 39기 「호흡기계의 조직학」 6·12·20쪽.~~~",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: 3번\n\n기관의 '''submucosa에 seromucous gland'''가 있다는 3번이 정답이다. 이 문항의 1번에서 '''ring은 C자형이 아니라 완전히 닫힌 고리'''를 뜻하는 함정으로 해석한다. 기관의 유리연골은 뒤쪽이 열린 C자형이며, 그 열린 부분에는 trachealis muscle과 섬유탄력성 막이 있으므로 1번은 틀리다.\n\n=== 이 문제를 풀기 위한 개념 ===\n기관은 상피·샘·연골·근육을 서로 다른 층과 위치에 맞추어 설명해야 한다.\n\n||= 층·구조 ||= 기관의 특징 ||\n|| Mucosa || PCCE + 탄력섬유가 풍부한 고유판 ||\n|| Submucosa || 장액점액샘, 혈관, 신경 ||\n|| 앞·가쪽 || C자 유리연골 ||\n|| 뒤쪽 || Trachealis muscle과 fibroelastic membrane ||\n|| Trachealis muscle || 삼킬 때 이완 / 기침할 때 수축 ||\n\n기관의 C자 유리연골은 뒤쪽이 열려 있고, 폐 안 기관지의 연골은 불규칙한 판으로 나뉜다. 이 문항에서는 ‘닫힌 고리’와 ‘뒤쪽이 열린 C자형’을 구별해야 한다. 일반적으로 C-shaped ring이라는 표현도 쓰이지만, 이를 근거로 이 선지의 ring까지 C자형으로 해석하지 않는다.\n\n=== 선지별 판단 ===\n* ① 틀리다. 사용자 확인에 따른 이 문항의 출제 의도는 ring을 완전히 닫힌 고리로 제시한 함정이다. 기관 연골은 C자형으로 뒤쪽이 열려 있으며, 이 부위는 trachealis muscle과 섬유탄력성 막으로 연결된다.\n* ② 기관에 관한 선지로는 부적절하다. Club cell은 종말세기관지의 대표 외분비세포이며, 올해 강의록은 분비물을 surfactant-like lipoprotein과 CC16으로 구별한다.\n* ③ 명확히 옳다. 장액점액샘은 기관의 점막밑층에 있다.\n* ④ 틀리다. 삼킬 때는 이완하고 기침할 때 수축한다.\n* ⑤ 틀리다. Brush cell은 화학감각과 구심성 신경에 연결하고, DNES는 small granule cell에 연결한다.\n\n=== 표현과 복원에 관하여 ===\n2023 복원 문서의 발문과 선지는 보존했다. 사용자 확인에 따라 1번의 ring은 C자형이 아닌 닫힌 고리를 뜻하는 함정으로 해석하고, 3번을 단일정답으로 확정했다. 72번은 선지에 C자형이 명시되어 있어 1번도 정답이라는 점이 다르다.\n\n> 샘의 위치는 submucosa, 신경내분비세포는 small granule cell, 삼킴 때 trachealis는 이완이다.\n\n[[1강#기관은 C자 연골로 열어 두고 뒤쪽 근육으로 조절한다|Wiki · 기관은 C자 연골로 열어 두고 뒤쪽 근육으로 조절한다]]\n~~근거: 39기 「호흡기계의 조직학」 6·12·20쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.88. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이자경",
-      "professor": "이은주",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이자경",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.88 출제자란 확인",
       "lectureIds": [
         1
       ],
       "lectureId": 1,
       "lectureTitle": "호흡기계조직학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 88번",
+      "domain": "기초의학",
+      "discipline": "조직학",
+      "section": "조직학",
+      "source": "2023 호흡기계 원본 p.88",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 구조·세포의 조직학적 설명을 글로 묻는 이론 문항이다. 본문 사진 판독 3문항을 실습으로 분리하고 1강에 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 호흡기계의 조직학",
-        "pages": [
-          6,
-          12,
-          20
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 88,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 88,
+        "professor": "이자경",
+        "lecture": "호흡기계의 조직학",
+        "question": "trachea 에 대한 설명 중 가장 옳은 것은?",
+        "choices": [
+          "hyaline cartilage가 ring 형태로 존재해 지지함",
+          "Clara cells - exocrine cell - surfactant 분비",
+          "submucosa에 seromucous gland 존재",
+          "trachealis muscle은 음식물을 삼킬 때 수축함",
+          "brush cell은 diffused neuroendocrine system의 일종임"
         ],
-        "chapter": "기관은 C자 연골로 열어 두고 뒤쪽 근육으로 조절한다",
-        "answerStatus": "user_confirmed_single",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "answerDecision": "사용자 확인: 1번 ring은 C자형이 아닌 닫힌 고리를 뜻하는 함정. 3번 단일정답.",
-        "userConfirmedDate": "2026-10-12"
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20306,66 +21250,77 @@ window.JBL_DATA = {
       "question": "그림을 보고 답하시오. 부위에 대한 설명으로 가장 옳은 것은?",
       "passage": "",
       "choices": [
-        "Clara cell이 surfactant 분비",
-        "lymph nodule",
-        "제1형 폐포세포 아래 smooth muscle 층 존재",
-        "dust cell",
-        "제2형 폐포세포 아래 smooth muscle 층 존재"
+        "(1) - Clara cell이 surfactant 분비",
+        "(2) - lymph nodule",
+        "(3) - 제1형 폐포세포 아래 smooth muscle 층 존재",
+        "(4) - dust cell",
+        "(5) - 제2형 폐포세포 아래 smooth muscle 층 존재"
       ],
-      "answerIndex": 4,
+      "answerIndex": 1,
       "answerIndices": [
-        4
+        1
       ],
-      "answerLabel": "4번",
-      "explanation": "정답: '''4번'''\n\n=== 사진부터 읽기 ===\n공기 통로 주변의 폐포 입구와 얇은 중격을 먼저 구분한다. (4)는 공기공간 쪽에 보이는 둥근 세포를 가리켜 폐포대식세포로 읽는 것이 맞다. 입구 돌기와 중격의 세포를 서로 바꾸어 해석하지 않는다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n폐포관의 큰 내강 주변에는 여러 폐포 입구가 이어진다. 입구 가장자리의 작은 손잡이 모양 돌기에는 '''평활근과 탄력성 결합조직'''이 모이지만, 폐포 사이의 얇은 중격 전체가 평활근층으로 덮이는 것은 아니다.\n\n||= 보이는 자리 ||= 바른 판독 ||= 혼동하지 않을 것 ||\n|| 벽 중간에 폐포가 열리는 통로 || 호흡세기관지 || 주변에 폐포가 있다는 사실만으로 판정하지 않음 ||\n|| 폐포 입구들이 이어진 긴 통로 || 폐포관 || 하나의 폐포와 구별 ||\n|| 입구의 작은 분홍색 돌기 || 평활근·탄력성 결합조직 || 림프소절·유리연골이 아님 ||\n|| 얇은 폐포중격 || 폐포상피·연속형 모세혈관·간질 || 연속적인 두꺼운 평활근층이 아님 ||\n|| 공기공간의 둥근 포식세포 || 폐포대식세포(dust cell) || 혈관 안의 정상 주된 세포가 아님 ||\n\n폐포구멍(pore of Kohn)은 이웃 폐포 사이를 연결하는 작은 개구다. 중격 전체를 둘러싼 괄호나, 폐포가 통로로 열리는 큰 입구를 곧바로 폐포구멍이라고 부르지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''' — Club(Clara) cell의 surfactant-like 물질 분비 자체는 강의 내용이지만, 이 사진의 표지를 그 분비세포 하나로 연결하기는 어렵다. 폐포의 pulmonary surfactant를 만드는 세포는 제2형 폐포세포다.\n* '''2번''' — 입구의 분홍색 작은 돌기는 평활근·결합조직이며 림프소절이 아니다. 림프소절이라면 조밀한 림프구 집단을 확인해야 한다.\n* '''3번''' — 얇은 폐포중격의 제1형 세포 아래에 연속적인 평활근층이 있는 것으로 읽으면 틀린다. 평활근은 폐포관 입구의 국소적인 돌기와 구분한다.\n* '''4번''' — 표시된 내강 쪽의 세포는 dust cell, 즉 폐포대식세포로 연결한다. 흡입된 이물질을 포식한다.\n* '''5번''' — 제2형 폐포세포 아래에도 폐포를 둘러싸는 연속적인 평활근층이 생기는 것은 아니다. 세포의 종류와 기도 벽의 근육층을 혼동한 설명이다.\n\n관련 Wiki: [[11강#폐포관·폐포낭·폐포|11강 사진과 판독]] · [[1강#폐포관·폐포낭·폐포는 통로와 끝방의 관계다|1강 조직학 개념]]\n\n[* 근거: 39기 11강 조직실습과 1강 조직학, 해당 연도 문항의 사진·선지 대조. 아래 판단은 강의와 사진에 근거한 풀이이며 별도의 공식 정답표를 확인했다는 뜻은 아니다.]",
+      "answerLabel": "1번 — (1) - Clara cell이 surfactant 분비",
+      "explanation": "'''공식 정답: ①'''\n\n=== 풀이의 핵심 ===\n원본의 정답은 '''(1) — Clara cell이 surfactant 분비'''이다. (1)은 세기관지 상피가 남아 있는 기도 벽 구간을 묶는 표지다. 한 개의 분비세포를 찍지 않았다는 이유로 1번을 배제한 기존 해석을 바로잡는다. Club(Clara) cell의 '''surfactant-like 물질 분비'''를 이 부위의 기능으로 연결한다.\n\n(4)의 가느다란 표지 끝을 내강의 독립된 대식세포라고 단정했던 판독도 철회한다. 얇은 폐포벽의 세포와 공기공간 안의 포식세포는 형태·위치를 함께 보아야 한다.\n\n=== 선지별 해설 ===\n* '''1번''': 공식 정답이다. 세기관지의 Club(Clara) cell은 surfactant-like lipoprotein과 CC16 등을 분비하며 해독·방어 기능도 가진다.\n* '''2번''': 폐포 입구의 분홍색 돌기와 림프소절은 다르다. 림프소절은 조밀한 림프구 집단이어야 한다.\n* '''3번''': 얇은 폐포중격에 제1형 세포 아래 연속적인 평활근층이 있다고 해석하지 않는다. 폐포관 입구의 국소 평활근과 구분한다.\n* '''4번''': 공식 정답에 해당하지 않는다. Dust cell은 내강 또는 중격의 큰 포식세포이며, 이 사진의 가는 표지 끝을 그런 세포로 확정할 근거가 부족하다.\n* '''5번''': 제2형 폐포세포 아래에 연속적인 평활근층이 있는 구조가 아니다. 세포 종류와 기도벽의 근육을 구분한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n[[파일:assets/lecture-11/terminal-respiratory-bronchioles-marked.jpg|TB의 연속된 벽에서 폐포가 열리는 RB로 이행한다.|원본:assets/lecture-11/terminal-respiratory-bronchioles.jpg]]\n[[파일:assets/lecture-11/terminal-bronchiole.jpg|종말세기관지의 별 모양 내강과 상피·평활근.]]\n\n세기관지에는 '''연골·점막밑샘·큰 림프소절'''이 없다. 종말세기관지와 호흡세기관지를 가르는 핵심은 주변 폐포의 수가 아니라 '''기도의 벽 자체에 폐포가 열리는지'''다.\n\n|| = 구분 || = 종말세기관지 || = 호흡세기관지 ||\n|| 기능 || 전달부분의 끝 || 가스교환이 시작되는 호흡부분 ||\n|| 벽 || 상피가 연속된 벽을 이룸 || 벽 사이사이에 폐포가 열림 ||\n|| 상피 || 섬모세포와 club cell의 단층입방상피 || 입방상피와 얇은 폐포 편평상피가 이어짐 ||\n|| 섬모 || 존재 || 원위부로 갈수록 감소·소실 ||\n|| 술잔세포 || 종말세기관지부터 없음 || 없음 ||\n\n종말세기관지는 점막의 주름으로 횡단면 내강이 별 모양일 수 있고, 곁에 폐동맥 가지가 동반된다. 벽의 평활근과 탄력섬유는 기도 지름과 복원을 조절한다.\n\n'''Club cell'''은 섬모가 없고 꼭대기가 둥글며 sER가 발달한 분비세포다. Surfactant-like lipoprotein·CC16의 분비, P450에 의한 해독, 항균 방어를 담당한다. 폐포에서 pulmonary surfactant를 분비하는 제2형 폐포세포와 구별한다.\n\n개념 연결: [[1강#세기관지에서는 연골·샘이 사라지고 Club cell이 중요해진다|세기관지와 Club cell]]\n\n\n\n[[11강#종말세기관지와 호흡세기관지|Wiki · 종말세기관지와 호흡세기관지]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.89. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q089_01.jpg"
+        "J/2023/official-p089.jpg"
       ],
       "legacyProfessor": "이자경",
-      "professor": "이은주",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "professor": "이자경",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.89 출제자란 확인",
       "lectureIds": [
         11
       ],
       "lectureId": 11,
       "lectureTitle": "[실습] 호흡기계조직학 실습",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 89번",
+      "domain": "기초의학",
+      "discipline": "조직학",
+      "section": "조직학",
+      "source": "2023 호흡기계 원본 p.89",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 문제 본문의 표지된 조직사진을 판독하는 문항이다. 사용자가 정의한 조직학 실습 기준과 이론·실습 각 2시간의 통상 3+3문항 배정이 일치한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q089_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 89,
+          "file": "J/2023/official-p089.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 11강 조직실습 + 1강 조직학 + 해당 문항의 사진·선지 대조",
-        "chapter": "폐포관은 폐포 입구들이 이어진 통로다",
-        "practice": [
-          12,
-          13
-        ],
-        "theory": [
-          21,
-          23,
-          24
-        ],
-        "answerStatus": "lecture_supported_visual_reading",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 89,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 89,
+        "professor": "이자경",
+        "lecture": "호흡기계의 조직학",
+        "question": "그림을 보고 답하시오. 부위에 대한 설명으로 가장 옳은 것은?",
+        "choices": [
+          "(1) - Clara cell이 surfactant 분비",
+          "(2) - lymph nodule",
+          "(3) - 제1형 폐포세포 아래 smooth muscle 층 존재",
+          "(4) -  dust cell",
+          "(5) - 제2형 폐포세포 아래 smooth muscle 층 존재"
+        ],
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20382,65 +21337,77 @@ window.JBL_DATA = {
       "question": "부위에 대한 설명으로 옳은 것은?",
       "passage": "",
       "choices": [
-        "중심에 sinusoidal capillary 존재",
-        "1형 폐포세포 – ACE 분비하여 혈압 조절",
-        "Clara cell과 제1형 폐포세포 사이에 tight junction 발달",
-        "제1형 폐포세포와 제2형 폐포세포 사이에 tight junction 발달",
-        "중심에 있는 혈관 내에 dust cell 풍부"
+        "(1) 중심에 sinusoidal capillary 존재",
+        "(1) 1형 폐포세포 – ACE 분비하여 혈압 조절",
+        "(1) Clara cell과 제1형 폐포세포 사이에 tight junction 발달",
+        "(2) 제1형 폐포세포와 제2형 폐포세포 사이에 tight junction 발달",
+        "(2) 중심에 있는 혈관 내에 dust cell 풍부"
       ],
       "answerIndex": 4,
       "answerIndices": [
         4
       ],
-      "answerLabel": "4번",
-      "explanation": "정답: '''4번'''\n\n=== 사진부터 읽기 ===\n괄호가 가리키는 구조는 두 폐포 사이의 얇은 중격이다. 가운데에는 모세혈관과 간질이, 양쪽 공기공간에는 폐포상피가 놓인다. ‘폐포상피끼리의 장벽’과 ‘혈관의 내피’를 구분하면 선지가 정리된다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n폐포중격은 양쪽의 공기공간을 덮는 '''폐포상피''', 그 안의 '''연속형 모세혈관''', 지지하는 '''간질'''로 이루어진다. ‘세포의 기능이 옳은가’와 ‘화살표가 그 세포를 가리키는가’를 따로 확인해야 한다.\n\n||= 구성 요소 ||= 위치와 기능 ||\n|| '''제1형 폐포세포''' || 얇은 편평상피로 가스교환면 형성; 분열·재생의 주역은 아님 ||\n|| '''제2형 폐포세포''' || 입방형, lamellar body; surfactant 분비와 상피 재생 ||\n|| '''모세혈관 내피''' || 혈액 쪽의 얇은 벽; '''continuous''', fenestrated/sinusoidal 아님 ||\n|| '''폐포대식세포''' || 폐포 내강·중격에서 포식; 모세혈관 안에 풍부한 세포가 아님 ||\n|| 탄력·세망섬유 || 중격의 탄성반동과 지지 ||\n\n폐포상피세포 사이는 '''tight junction'''으로 연결된다. Club cell은 세기관지 세포이므로 폐포중격의 상피세포를 대신하는 이름으로 쓰지 않는다. ACE는 폐혈관 내피에 연결되는 개념이며 제1형 폐포세포의 고유 기능으로 외우지 않는다.\n\n> '''공기 쪽 상피 / 가운데 간질과 모세혈관 / 혈관 속 내피·적혈구'''를 나누면 tight junction, ACE, dust cell의 자리를 뒤섞지 않을 수 있다.\n\n=== 선지별 해설 ===\n* '''1번''' — 폐포 모세혈관은 continuous capillary다. 간의 굴모양 모세혈관처럼 sinusoidal이라고 하지 않는다.\n* '''2번''' — ACE를 제1형 폐포세포의 기능으로 연결한 것이 틀리다. 제1형은 가스교환면이고 ACE는 폐혈관 내피와 연결한다.\n* '''3번''' — Clara(Club) cell은 세기관지의 분비세포다. 폐포중격의 대표적인 두 상피세포를 연결하는 문맥에서 잘못 들어갔다.\n* '''4번''' — 제1형·제2형 폐포상피세포 사이에는 tight junction이 발달해 공기 쪽 장벽을 유지한다.\n* '''5번''' — Dust cell은 폐포 내강과 중격에서 이물질을 포식한다. 중격 안 혈관의 정상적인 주된 구성세포로 넣지 않는다.\n\n관련 Wiki: [[11강#폐포중격과 세포의 식별|11강 사진과 판독]] · [[1강#제1형은 얇은 교환면이고 제2형은 분비와 재생을 맡는다|1강 조직학 개념]] · [[1강#혈액–공기 장벽은 얇은 세포질과 합쳐진 바닥판으로 이룬다|1강 장벽 구조]]\n\n[* 근거: 39기 11강 조직실습과 1강 조직학, 해당 연도 문항의 사진·선지 대조. 아래 판단은 강의와 사진에 근거한 풀이이며 별도의 공식 정답표를 확인했다는 뜻은 아니다.]\n[* J 보충: ACE의 폐포 모세혈관 내피 발현은 [https://pubmed.ncbi.nlm.nih.gov/11054722/ 폐혈관 ACE 연구]로 대조했다.]",
+      "answerLabel": "4번 — (2) 제1형 폐포세포와 제2형 폐포세포 사이에 tight junction 발달",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: '''4번'''\n\n=== 사진부터 읽기 ===\n괄호가 가리키는 구조는 두 폐포 사이의 얇은 중격이다. 가운데에는 모세혈관과 간질이, 양쪽 공기공간에는 폐포상피가 놓인다. ‘폐포상피끼리의 장벽’과 ‘혈관의 내피’를 구분하면 선지가 정리된다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n폐포중격은 양쪽의 공기공간을 덮는 '''폐포상피''', 그 안의 '''연속형 모세혈관''', 지지하는 '''간질'''로 이루어진다. ‘세포의 기능이 옳은가’와 ‘화살표가 그 세포를 가리키는가’를 따로 확인해야 한다.\n\n||= 구성 요소 ||= 위치와 기능 ||\n|| '''제1형 폐포세포''' || 얇은 편평상피로 가스교환면 형성; 분열·재생의 주역은 아님 ||\n|| '''제2형 폐포세포''' || 입방형, lamellar body; surfactant 분비와 상피 재생 ||\n|| '''모세혈관 내피''' || 혈액 쪽의 얇은 벽; '''continuous''', fenestrated/sinusoidal 아님 ||\n|| '''폐포대식세포''' || 폐포 내강·중격에서 포식; 모세혈관 안에 풍부한 세포가 아님 ||\n|| 탄력·세망섬유 || 중격의 탄성반동과 지지 ||\n\n폐포상피세포 사이는 '''tight junction'''으로 연결된다. Club cell은 세기관지 세포이므로 폐포중격의 상피세포를 대신하는 이름으로 쓰지 않는다. ACE는 폐혈관 내피에 연결되는 개념이며 제1형 폐포세포의 고유 기능으로 외우지 않는다.\n\n> '''공기 쪽 상피 / 가운데 간질과 모세혈관 / 혈관 속 내피·적혈구'''를 나누면 tight junction, ACE, dust cell의 자리를 뒤섞지 않을 수 있다.\n\n=== 선지별 해설 ===\n* '''1번''' — 폐포 모세혈관은 continuous capillary다. 간의 굴모양 모세혈관처럼 sinusoidal이라고 하지 않는다.\n* '''2번''' — ACE를 제1형 폐포세포의 기능으로 연결한 것이 틀리다. 제1형은 가스교환면이고 ACE는 폐혈관 내피와 연결한다.\n* '''3번''' — Clara(Club) cell은 세기관지의 분비세포다. 폐포중격의 대표적인 두 상피세포를 연결하는 문맥에서 잘못 들어갔다.\n* '''4번''' — 제1형·제2형 폐포상피세포 사이에는 tight junction이 발달해 공기 쪽 장벽을 유지한다.\n* '''5번''' — Dust cell은 폐포 내강과 중격에서 이물질을 포식한다. 중격 안 혈관의 정상적인 주된 구성세포로 넣지 않는다.\n\n관련 Wiki: [[11강#폐포중격과 세포의 식별|11강 사진과 판독]] · [[1강#제1형은 얇은 교환면이고 제2형은 분비와 재생을 맡는다|1강 조직학 개념]] · [[1강#혈액–공기 장벽은 얇은 세포질과 합쳐진 바닥판으로 이룬다|1강 장벽 구조]]\n\n[* 근거: 39기 11강 조직실습과 1강 조직학, 해당 연도 문항의 사진·선지 대조. 아래 판단은 강의와 사진에 근거한 풀이이다. ]\n[* J 보충: ACE의 폐포 모세혈관 내피 발현은 [https://pubmed.ncbi.nlm.nih.gov/11054722/ 폐혈관 ACE 연구]로 대조했다.]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.90. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q090_01.jpg"
+        "J/2023/official-p090.jpg"
       ],
       "legacyProfessor": "이자경",
-      "professor": "이은주",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "professor": "이자경",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.90 출제자란 확인",
       "lectureIds": [
         11
       ],
       "lectureId": 11,
       "lectureTitle": "[실습] 호흡기계조직학 실습",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 90번",
+      "domain": "기초의학",
+      "discipline": "조직학",
+      "section": "조직학",
+      "source": "2023 호흡기계 원본 p.90",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 문제 본문의 표지된 조직사진을 판독하는 문항이다. 사용자가 정의한 조직학 실습 기준과 이론·실습 각 2시간의 통상 3+3문항 배정이 일치한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q090_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 90,
+          "file": "J/2023/official-p090.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-13",
-        "basis": "39기 11강 조직실습 + 1강 조직학 + 해당 문항의 사진·선지 대조",
-        "chapter": "폐포중격에서는 교환면·모세혈관·대식세포의 자리를 나눈다",
-        "practice": [
-          13
-        ],
-        "theory": [
-          23,
-          24,
-          25
-        ],
-        "answerStatus": "lecture_supported_visual_reading",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 90,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 90,
+        "professor": "이자경",
+        "lecture": "호흡기계의 조직학 실습",
+        "question": "부위에 대한 설명으로 옳은 것은?",
+        "choices": [
+          "(1) 중심에 sinusoidal capillary 존재",
+          "(1) 1형 폐포세포 – ACE 분비하여  혈압 조절",
+          "(1) Clara cell과 제1형 폐포세포 사이에 tight junction 발달",
+          "(2) 제1형 폐포세포와 제 2형 폐포세포사이에 tight junction 발달",
+          "(2) 중심에 있는 혈관 내에 dust cell 풍부"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20467,45 +21434,57 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "5번 — 부비동은 PCCE로 덮인다. (1번의 층 구분 표현은 해설 참고)",
-      "explanation": "> 5번 — 부비동은 PCCE로 덮인다. (1번의 층 구분 표현은 해설 참고)\n\n가장 확실하게 옳은 5번을 고른다. 부비동은 비강의 호흡영역과 연결되는 공간이며 '''PCCE'''로 덮인다. 이 문항의 4번은 elastic cartilage라고 적혀 있어, hyaline cartilage로 적힌 75번과 구별해야 한다.\n\n=== 이 문제를 풀기 위한 개념 ===\n비강의 모든 부분이 PCCE인 것은 아니다. 전정은 피부형 상피에서 안쪽 호흡상피로 이행하고, 위코선반과 코안천정은 후각상피가 덮는다. 후각점막은 후각신경세포·지지세포·바닥세포와 고유판의 Bowman샘을 함께 알아야 한다.\n\n=== 선지별 판단 ===\n* ① 해석에 한계가 있다. 비강의 고유판과 점막밑조직을 나누는 표현은 자료마다 차이가 있고, 올해 강의록은 ‘submucosa가 없다’의 정오를 명시하지 않는다. 5번을 고르기 위해 이 문장을 무조건 틀렸다고 외우지는 않는다.\n* ② 틀리다. 술잔세포와 샘은 양립한다. 올해 강의록의 후각점막에도 장액성 Bowman샘이 있다.\n* ③ 틀리다. 후각상피는 inferior concha가 아니라 superior concha와 코안천정에 있다.\n* ④ 틀리다. 코 앞쪽 지지연골은 유리연골이다. 탄력연골은 후두덮개와 연결해서 기억한다.\n* ⑤ 맞다. 부비동을 덮는 상피는 PCCE다.\n\n=== 표현과 복원에 관하여 ===\n부비동의 상피와 코 앞쪽 연골은 기존 J에 필요한 보충 범위다. 5번을 가장 유력한 답으로 등록했으며, 1번의 조직층 용어 문제 때문에 공식 정답을 확인한 것처럼 단정하지 않는다.\n\n> 중간·아래코선반은 호흡상피, 위코선반·천정은 후각상피. 코의 유리연골과 후두덮개의 탄력연골을 구별한다.\n\n[[1강#비강은 전정·호흡영역·후각영역으로 나뉜다|Wiki · 비강은 전정·호흡영역·후각영역으로 나뉜다]]\n~~근거: 39기 「호흡기계의 조직학」 7·8·9쪽.~~~",
+      "answerLabel": "5번 — paranasal sinus-PCCE로 lining 됨",
+      "explanation": "'''공식 정답: 5번'''\n\n> 5번 — 부비동은 PCCE로 덮인다. (1번의 층 구분 표현은 해설 참고)\n\n가장 확실하게 옳은 5번을 고른다. 부비동은 비강의 호흡영역과 연결되는 공간이며 '''PCCE'''로 덮인다. 이 문항의 4번은 elastic cartilage라고 적혀 있어, hyaline cartilage로 적힌 75번과 구별해야 한다.\n\n=== 이 문제를 풀기 위한 개념 ===\n비강의 모든 부분이 PCCE인 것은 아니다. 전정은 피부형 상피에서 안쪽 호흡상피로 이행하고, 위코선반과 코안천정은 후각상피가 덮는다. 후각점막은 후각신경세포·지지세포·바닥세포와 고유판의 Bowman샘을 함께 알아야 한다.\n\n=== 선지별 판단 ===\n* ① 해석에 한계가 있다. 비강의 고유판과 점막밑조직을 나누는 표현은 자료마다 차이가 있고, 올해 강의록은 ‘submucosa가 없다’의 정오를 명시하지 않는다. 5번을 고르기 위해 이 문장을 무조건 틀렸다고 외우지는 않는다.\n* ② 틀리다. 술잔세포와 샘은 양립한다. 올해 강의록의 후각점막에도 장액성 Bowman샘이 있다.\n* ③ 틀리다. 후각상피는 inferior concha가 아니라 superior concha와 코안천정에 있다.\n* ④ 틀리다. 코 앞쪽 지지연골은 유리연골이다. 탄력연골은 후두덮개와 연결해서 기억한다.\n* ⑤ 맞다. 부비동을 덮는 상피는 PCCE다.\n\n=== 표현과 복원에 관하여 ===\n부비동의 상피와 코 앞쪽 연골은 기존 J에 필요한 보충 범위다. 원본의 정답란에서 5번을 확인했다. 1번의 조직층 용어는 상피와 고유판을 구분하여 읽는다.\n\n> 중간·아래코선반은 호흡상피, 위코선반·천정은 후각상피. 코의 유리연골과 후두덮개의 탄력연골을 구별한다.\n\n[[1강#비강은 전정·호흡영역·후각영역으로 나뉜다|Wiki · 비강은 전정·호흡영역·후각영역으로 나뉜다]]\n~~근거: 39기 「호흡기계의 조직학」 7·8·9쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.91. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이자경",
-      "professor": "이은주",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이자경",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.91 출제자란 확인",
       "lectureIds": [
         1
       ],
       "lectureId": 1,
       "lectureTitle": "호흡기계조직학",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 91번",
+      "domain": "기초의학",
+      "discipline": "조직학",
+      "section": "조직학",
+      "source": "2023 호흡기계 원본 p.91",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 구조·세포의 조직학적 설명을 글로 묻는 이론 문항이다. 본문 사진 판독 3문항을 실습으로 분리하고 1강에 유지한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-12",
-        "basis": "39기 호흡기계의 조직학",
-        "pages": [
-          7,
-          8,
-          9
-        ],
-        "chapter": "비강은 전정·호흡영역·후각영역으로 나뉜다",
-        "answerStatus": "provisional",
-        "officialAnswerVerified": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 91,
+        "originalQuestionAndImagesPreserved": true,
         "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 91,
+        "professor": "이자경",
+        "lecture": "호흡기계 조직학",
+        "question": "다음 비강 및 비강에 연결된 구조의 조직학적 특성 설명 중 옳은 것은",
+        "choices": [
+          "비강은 submucosa 가 없음",
+          "Goblet cell 분비를 수행하므로 gland는 발달되지 않음",
+          "olfactory epithelium은 inferior conchae에 존재",
+          "elastic cartilage가 비강의 안면쪽을 supporting함",
+          "paranasal sinus – PCCE로 lining 됨"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20532,31 +21511,29 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n⑤다. Goodpasture·LAM·PLCH가 강의의 객혈 단서 표에 해당한다. PLCH에서 객혈이 흔하다는 뜻으로 확대하지 않고 동반 질환까지 평가한다.\n\n=== 원인에서 진단·치료까지 ===\n폐포출혈과 사구체신염이 같이 나타나면 '''pulmonary–renal syndrome'''을 생각한다. 혈액이 폐포로 새는 문제이므로 일반적인 섬유화 ILD와 접근이 달라진다. 폐포 내 혈액 때문에 DLCO가 증가할 수도 있다.\n\n||= 질환 ||= 원인·진단 단서 ||= 치료의 큰 틀 ||\n|| Goodpasture/anti-GBM disease || Anti-GBM 항체, 폐포출혈 + 사구체신염, 신장 조직의 선형 면역 침착 || Glucocorticoid + 세포독성 면역억제 + 혈장교환 ||\n|| GPA, 기존 Wegener || PR3/c-ANCA, 상·하기도 침범, 다발성 폐결절·공동, 사구체신염 || 장기 위협 정도에 따라 스테로이드 + rituximab 또는 cyclophosphamide 등 ||\n|| MPA || MPO/p-ANCA와 연관된 소혈관염, 폐모세혈관염·사구체신염 || 중증도에 따른 면역억제 ||\n|| EGPA, 기존 Churg–Strauss || 천식·호산구증가·폐침윤에 신경·피부·심장 등 전신 침범 || Glucocorticoid, 중증 장기 침범 시 추가 면역억제 ||\n\nEGPA는 단순 호산구성 폐렴과 달리 '''폐 밖의 혈관염'''을 찾는 것이 중요하다. 다발성 단일신경염, 만성 비부비동염, 피부와 심장 침범이 단서다. 강의에 제시된 분류항목은 '''천식, 호산구 >10%, 신경병증, 이동성 폐음영, 부비동 이상, 조직의 혈관 밖 호산구'''이며 6개 중 4개 기준을 소개한다. 항체 양성 여부만으로 모든 혈관염을 확진·배제하지 않는다.\n\n객혈은 Goodpasture의 폐포출혈에서 중요한 단서다. LAM·PLCH에서도 나타날 수 있지만, 특히 PLCH에서 객혈이 생기면 감염·종양 등 동반 원인까지 확인한다. EGPA에서는 심장 침범이 예후를 좌우할 수 있어 전신 평가가 필요하다.\n\n'''LAM'''은 비정상적인 평활근 유사 세포가 증식해 폐실질·기도·림프관을 손상시키는 질환이다. 가임기 여성, 산발성 또는 tuberous sclerosis complex(TSC)와의 연관이 단서다.\n\n'''미만성 얇은 벽 낭종 → 반복 기흉, 림프관 폐쇄 → 유미흉'''으로 연결한다. 기류폐쇄와 DLCO 감소가 생길 수 있다. TSC 관련 mTOR 신호의 활성화를 억제하는 '''sirolimus'''가 치료의 중심이며, 강의는 FEV₁ ≤70% predicted를 치료 대상 기준으로 제시한다. 기흉·유미흉을 관리하고 진행 시 폐이식을 고려한다.\n\n'''PLCH'''는 Langerhans 세포 증식과 관련된 질환으로 흡연과 매우 밀접하다. 주로 젊은 성인 흡연자에서 '''상·중폐야의 결절과 불규칙한 낭종'''이 함께 보인다. 결절에서 공동·낭종으로 변화하는 과정으로 이해하면 모양이 다양한 이유가 설명된다.\n\n폐기능에서는 DLCO 감소가 두드러질 수 있고 기흉이 생기기도 한다. 조직·면역염색의 CD1a·S-100, 전자현미경의 Birbeck granule은 Langerhans 세포의 단서다. 치료의 출발점은 '''금연'''이며 기능 저하와 진행을 추적한다.\n\n=== 선지별 해설 ===\n* 1번 · Sarcoidosis, LAM, PLCH: Sarcoidosis는 주로 폐문 림프절병증·perilymphatic nodules와 연결한다.\n* 2번 · LAM, RA를 제외한 CTD, TS: 이 조합은 여성·TSC 등의 배경 단서를 섞은 것이다.\n* 3번 · Sarcoidosis, EP, Churg-Strauss: EP·EGPA는 호산구·천식과 전신 침범이 중심이다.\n* 4번 · PLCH, DIP, RB-ILD: 이 세 질환은 금연이 중요한 흡연 관련군이다.\n* 5번 · Goodpasture, LAM, PLCH: 강의의 조합이다. 특히 Goodpasture는 객혈·빈혈·신장염을 함께 확인한다.\n\n[[43강#폐포출혈과 신장염은 함께 평가한다|Wiki · 폐포출혈과 신장염은 함께 평가한다]]\n\n~~근거: 2026 강의록 42강 12쪽, 43강 20–26·95–103쪽.~~~",
+      "answerLabel": "5번 — Goodpasture, LAM, PLCH",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n정답: ⑤\n\n⑤다. Goodpasture·LAM·PLCH가 강의의 객혈 단서 표에 해당한다. PLCH에서 객혈이 흔하다는 뜻으로 확대하지 않고 동반 질환까지 평가한다.\n\n=== 원인에서 진단·치료까지 ===\n폐포출혈과 사구체신염이 같이 나타나면 '''pulmonary–renal syndrome'''을 생각한다. 혈액이 폐포로 새는 문제이므로 일반적인 섬유화 ILD와 접근이 달라진다. 폐포 내 혈액 때문에 DLCO가 증가할 수도 있다.\n\n||= 질환 ||= 원인·진단 단서 ||= 치료의 큰 틀 ||\n|| Goodpasture/anti-GBM disease || Anti-GBM 항체, 폐포출혈 + 사구체신염, 신장 조직의 선형 면역 침착 || Glucocorticoid + 세포독성 면역억제 + 혈장교환 ||\n|| GPA, 기존 Wegener || PR3/c-ANCA, 상·하기도 침범, 다발성 폐결절·공동, 사구체신염 || 장기 위협 정도에 따라 스테로이드 + rituximab 또는 cyclophosphamide 등 ||\n|| MPA || MPO/p-ANCA와 연관된 소혈관염, 폐모세혈관염·사구체신염 || 중증도에 따른 면역억제 ||\n|| EGPA, 기존 Churg–Strauss || 천식·호산구증가·폐침윤에 신경·피부·심장 등 전신 침범 || Glucocorticoid, 중증 장기 침범 시 추가 면역억제 ||\n\nEGPA는 단순 호산구성 폐렴과 달리 '''폐 밖의 혈관염'''을 찾는 것이 중요하다. 다발성 단일신경염, 만성 비부비동염, 피부와 심장 침범이 단서다. 강의에 제시된 분류항목은 '''천식, 호산구 >10%, 신경병증, 이동성 폐음영, 부비동 이상, 조직의 혈관 밖 호산구'''이며 6개 중 4개 기준을 소개한다. 항체 양성 여부만으로 모든 혈관염을 확진·배제하지 않는다.\n\n객혈은 Goodpasture의 폐포출혈에서 중요한 단서다. LAM·PLCH에서도 나타날 수 있지만, 특히 PLCH에서 객혈이 생기면 감염·종양 등 동반 원인까지 확인한다. EGPA에서는 심장 침범이 예후를 좌우할 수 있어 전신 평가가 필요하다.\n\n'''LAM'''은 비정상적인 평활근 유사 세포가 증식해 폐실질·기도·림프관을 손상시키는 질환이다. 가임기 여성, 산발성 또는 tuberous sclerosis complex(TSC)와의 연관이 단서다.\n\n'''미만성 얇은 벽 낭종 → 반복 기흉, 림프관 폐쇄 → 유미흉'''으로 연결한다. 기류폐쇄와 DLCO 감소가 생길 수 있다. TSC 관련 mTOR 신호의 활성화를 억제하는 '''sirolimus'''가 치료의 중심이며, 강의는 FEV₁ ≤70% predicted를 치료 대상 기준으로 제시한다. 기흉·유미흉을 관리하고 진행 시 폐이식을 고려한다.\n\n'''PLCH'''는 Langerhans 세포 증식과 관련된 질환으로 흡연과 매우 밀접하다. 주로 젊은 성인 흡연자에서 '''상·중폐야의 결절과 불규칙한 낭종'''이 함께 보인다. 결절에서 공동·낭종으로 변화하는 과정으로 이해하면 모양이 다양한 이유가 설명된다.\n\n폐기능에서는 DLCO 감소가 두드러질 수 있고 기흉이 생기기도 한다. 조직·면역염색의 CD1a·S-100, 전자현미경의 Birbeck granule은 Langerhans 세포의 단서다. 치료의 출발점은 '''금연'''이며 기능 저하와 진행을 추적한다.\n\n=== 선지별 해설 ===\n* 1번 · Sarcoidosis, LAM, PLCH: Sarcoidosis는 주로 폐문 림프절병증·perilymphatic nodules와 연결한다.\n* 2번 · LAM, RA를 제외한 CTD, TS: 이 조합은 여성·TSC 등의 배경 단서를 섞은 것이다.\n* 3번 · Sarcoidosis, EP, Churg-Strauss: EP·EGPA는 호산구·천식과 전신 침범이 중심이다.\n* 4번 · PLCH, DIP, RB-ILD: 이 세 질환은 금연이 중요한 흡연 관련군이다.\n* 5번 · Goodpasture, LAM, PLCH: 강의의 조합이다. 특히 Goodpasture는 객혈·빈혈·신장염을 함께 확인한다.\n\n[[43강#폐포출혈과 신장염은 함께 평가한다|Wiki · 폐포출혈과 신장염은 함께 평가한다]]\n\n~~근거: 2026 강의록 42강 12쪽, 43강 20–26·95–103쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.92. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
-      "professor": "장혜진",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이홍렬",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.92 출제자란 확인",
       "lectureIds": [
         43
       ],
       "lectureId": 43,
       "lectureTitle": "교원성/과민성/호산구성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 92번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "간질성·면역성 폐질환",
+      "source": "2023 호흡기계 원본 p.92",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "객혈을 유발하는 여러 ILD를 비교. 43강 우선, IIP42강과 교차."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R049"
@@ -20575,12 +21552,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-26",
-        "scope": "lectures42_43_cause_diagnosis_treatment_rebuild",
-        "chapter": "폐포출혈과 신장염은 함께 평가한다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "sourcePages": "42강 12쪽, 43강 20–26·95–103쪽"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 92,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 92,
+        "professor": "이홍렬",
+        "lecture": "간질성 폐질환 - 특발성 간질성 폐질환을 중심으로 -",
+        "question": "다음의 간질성 폐질환중 비교적 객혈을 잘 유발할 수 있는 질환들은 ?",
+        "choices": [
+          "Sarcoidosis, LAM, PLCH",
+          "LAM, RA를 제외한 CTD, TS",
+          "Sarcoidosis, EP, Churg-Strauss",
+          "PLCH, DIP, RB-ILD",
+          "Goodpasture, LAM, PLCH"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20607,38 +21603,57 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n급격한 폐포 손상으로 호흡부전이 오는 AIP와, 수주~3개월의 폐렴 같은 경과를 보이는 COP를 순서대로 고르는 ③이다.\n\n=== 원인에서 진단·치료까지 ===\n'''ILD'''는 여러 질환을 묶은 이름이고, '''IIP(idiopathic interstitial pneumonia)'''는 그중 충분히 조사해도 원인이 밝혀지지 않은 간질성 폐렴이다. 약물, 직업·환경 노출, 결체조직질환을 확인하는 이유는 단순히 병명을 붙이기 위해서가 아니다. 원인을 찾으면 항원을 피하거나 원인 질환을 치료하는 길이 열리기 때문이다.\n\n||= 먼저 볼 것 ||= 문진·검사에서 찾을 단서 ||\n|| 시간 경과 || 수일~수주의 급격한 호흡부전: DAD/AIP. 수주~3개월의 기침·발열: COP. 수개월~수년의 호흡곤란: IPF·NSIP. ||\n|| 환자 배경 || 나이, 성별, 흡연력, 가족력, 복용 약물, 면역저하. 고령 흡연 남성의 IPF, 젊은 여성의 LAM처럼 배경이 진단의 방향을 잡는다. ||\n|| 노출 || 직업성 분진, 새·깃털, 곰팡이, 가습기·온수 시설 등. 집과 직장을 모두 묻는다. ||\n|| 폐 밖 증상 || 관절통·아침 강직, Raynaud 현상, 피부 경화, 근력 저하, 눈·입 마름은 CTD를 찾을 단서다. ||\n|| 함께 나타나는 현상 || 객혈이면 폐포출혈·혈관염, 반복 기흉이면 낭성 폐질환, 천명과 호산구증가면 호산구성 질환까지 생각한다. ||\n\n예전 IIP 분류는 임상 경과를 기억하기 좋다. '''만성 섬유화형은 IPF·iNSIP, 급성/아급성형은 AIP·COP, 흡연 관련형은 RB-ILD·DIP'''다. 다만 경과만으로 확진하는 것은 아니며, 같은 질환 안에서도 빠르게 악화하는 환자가 있다.\n\n||= 질환 ||= 핵심 손상과 진단 단서 ||= 치료의 큰 흐름 ||\n|| IPF || 비정상적 상피 복구 → UIP, 흉막하·폐기저부 honeycombing || Pirfenidone/nintedanib + 산소·재활 → 진행 감시·폐이식 평가 ||\n|| NSIP || 비교적 균일한 염증·섬유화, GGO·subpleural sparing → CTD 등 원인 평가 || 원인 치료·면역조절 → 섬유화 진행 시 PPF 평가 ||\n|| COP || 폐포 내 기질화 마개, 아급성 증상·patchy/migratory consolidation || 원인 평가 → 스테로이드 → 재발 감시 ||\n|| iDAD/AIP || 급성 광범위 폐포 손상·hyaline membrane → 빠른 호흡부전 || 원인 평가·호흡 보조, 불확실한 특이 치료와 높은 초기 위험 ||\n|| RB-ILD·AMP || 흡연 관련 색소 대식세포, 세기관지 중심/미만성 분포 || 금연 → 기능·영상 추적, 필요시 항염증 치료 ||\n|| PPF || Non-IPF의 진행 양상: 최근 1년, 증상·기능·영상 중 2영역 || 원인 질환 관리 + 항섬유화 치료 검토 ||\n\n=== 선지별 해설 ===\n* 1번 · ① IPF, ② NSIP: IPF와 NSIP는 대표적으로 만성 섬유화군에 속한다. NSIP는 아급성 경과도 가능하지만 이 분류의 급성 질환 자리에 IPF를 놓을 수 없다.\n* 2번 · ① DIP ② RBILD: DIP(AMP)와 RB-ILD는 흡연 관련 대식세포 축적으로 연결한다.\n* 3번 · ① AIP ② COP: 맞다. AIP는 idiopathic DAD로 급성, COP는 OP 패턴과 스테로이드 반응을 보이는 아급성 질환이다.\n* 4번 · ① NSIP ② IPF: NSIP·IPF는 여기서 묻는 급성·아급성 조합이 아니다.\n* 5번 · ① COP ② AIP: 두 질환의 순서가 반대다. AIP가 더 급격하고 심한 호흡부전으로 나타난다.\n\n[[42강#원인·시간·분포를 먼저 잡는다|Wiki · 원인·시간·분포를 먼저 잡는다]]\n\n~~근거: 2026 강의록 42강 18–21·89–113쪽.~~~",
+      "answerLabel": "3번 — ① AIP ② COP",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답: ③\n\n급격한 폐포 손상으로 호흡부전이 오는 AIP와, 수주~3개월의 폐렴 같은 경과를 보이는 COP를 순서대로 고르는 ③이다.\n\n=== 원인에서 진단·치료까지 ===\n'''ILD'''는 여러 질환을 묶은 이름이고, '''IIP(idiopathic interstitial pneumonia)'''는 그중 충분히 조사해도 원인이 밝혀지지 않은 간질성 폐렴이다. 약물, 직업·환경 노출, 결체조직질환을 확인하는 이유는 단순히 병명을 붙이기 위해서가 아니다. 원인을 찾으면 항원을 피하거나 원인 질환을 치료하는 길이 열리기 때문이다.\n\n||= 먼저 볼 것 ||= 문진·검사에서 찾을 단서 ||\n|| 시간 경과 || 수일~수주의 급격한 호흡부전: DAD/AIP. 수주~3개월의 기침·발열: COP. 수개월~수년의 호흡곤란: IPF·NSIP. ||\n|| 환자 배경 || 나이, 성별, 흡연력, 가족력, 복용 약물, 면역저하. 고령 흡연 남성의 IPF, 젊은 여성의 LAM처럼 배경이 진단의 방향을 잡는다. ||\n|| 노출 || 직업성 분진, 새·깃털, 곰팡이, 가습기·온수 시설 등. 집과 직장을 모두 묻는다. ||\n|| 폐 밖 증상 || 관절통·아침 강직, Raynaud 현상, 피부 경화, 근력 저하, 눈·입 마름은 CTD를 찾을 단서다. ||\n|| 함께 나타나는 현상 || 객혈이면 폐포출혈·혈관염, 반복 기흉이면 낭성 폐질환, 천명과 호산구증가면 호산구성 질환까지 생각한다. ||\n\n예전 IIP 분류는 임상 경과를 기억하기 좋다. '''만성 섬유화형은 IPF·iNSIP, 급성/아급성형은 AIP·COP, 흡연 관련형은 RB-ILD·DIP'''다. 다만 경과만으로 확진하는 것은 아니며, 같은 질환 안에서도 빠르게 악화하는 환자가 있다.\n\n||= 질환 ||= 핵심 손상과 진단 단서 ||= 치료의 큰 흐름 ||\n|| IPF || 비정상적 상피 복구 → UIP, 흉막하·폐기저부 honeycombing || Pirfenidone/nintedanib + 산소·재활 → 진행 감시·폐이식 평가 ||\n|| NSIP || 비교적 균일한 염증·섬유화, GGO·subpleural sparing → CTD 등 원인 평가 || 원인 치료·면역조절 → 섬유화 진행 시 PPF 평가 ||\n|| COP || 폐포 내 기질화 마개, 아급성 증상·patchy/migratory consolidation || 원인 평가 → 스테로이드 → 재발 감시 ||\n|| iDAD/AIP || 급성 광범위 폐포 손상·hyaline membrane → 빠른 호흡부전 || 원인 평가·호흡 보조, 불확실한 특이 치료와 높은 초기 위험 ||\n|| RB-ILD·AMP || 흡연 관련 색소 대식세포, 세기관지 중심/미만성 분포 || 금연 → 기능·영상 추적, 필요시 항염증 치료 ||\n|| PPF || Non-IPF의 진행 양상: 최근 1년, 증상·기능·영상 중 2영역 || 원인 질환 관리 + 항섬유화 치료 검토 ||\n\n=== 선지별 해설 ===\n* 1번 · ① IPF, ② NSIP: IPF와 NSIP는 대표적으로 만성 섬유화군에 속한다. NSIP는 아급성 경과도 가능하지만 이 분류의 급성 질환 자리에 IPF를 놓을 수 없다.\n* 2번 · ① DIP ② RBILD: DIP(AMP)와 RB-ILD는 흡연 관련 대식세포 축적으로 연결한다.\n* 3번 · ① AIP ② COP: 맞다. AIP는 idiopathic DAD로 급성, COP는 OP 패턴과 스테로이드 반응을 보이는 아급성 질환이다.\n* 4번 · ① NSIP ② IPF: NSIP·IPF는 여기서 묻는 급성·아급성 조합이 아니다.\n* 5번 · ① COP ② AIP: 두 질환의 순서가 반대다. AIP가 더 급격하고 심한 호흡부전으로 나타난다.\n\n[[42강#원인·시간·분포를 먼저 잡는다|Wiki · 원인·시간·분포를 먼저 잡는다]]\n\n~~근거: 2026 강의록 42강 18–21·89–113쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.93. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
-      "professor": "장혜진",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이홍렬",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.93 출제자란 확인",
       "lectureIds": [
         42
       ],
       "lectureId": 42,
       "lectureTitle": "간질성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 93번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "간질성·면역성 폐질환",
+      "source": "2023 호흡기계 원본 p.93",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-26",
-        "scope": "lectures42_43_cause_diagnosis_treatment_rebuild",
-        "chapter": "원인·시간·분포를 먼저 잡는다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "sourcePages": "42강 18–21·89–113쪽"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 93,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 93,
+        "professor": "이홍렬",
+        "lecture": "간질성 폐질환 - 특발성 간질성 폐질환을 중심으로 -",
+        "question": "다음의 특발성 간질성 폐질환중 ① 급성, 그리고 ② 아급성으로 발생하는 질환은 ?",
+        "choices": [
+          "① IPF, ② NSIP",
+          "① DIP ② RBILD",
+          "① AIP ② COP",
+          "① NSIP ② IPF",
+          "① COP ② AIP"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20659,44 +21674,63 @@ window.JBL_DATA = {
         "다른 원인이 모두 배제되고 HRCT에 UIP pattern이 확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다.",
         "섬유화는 모두 동일한 시기에 발생한 특징을 보인다. (Temporal homogeneity)",
         "FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서 호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다.",
-        "특발성 폐섬유증에서 항섬유화제제를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다."
+        "특발성 폐섬유증에서 항섬유화제재를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다."
       ],
       "answerIndex": 2,
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n②다. 다른 원인을 배제했고 임상과 HRCT의 UIP가 합당하면 조직검사 없이 IPF를 진단할 수 있다. UIP라는 모양과 IPF라는 원인 배제 진단을 함께 이해해야 한다.\n\n=== 원인에서 진단·치료까지 ===\nIPF 진단은 '''다른 원인을 찾는 과정'''에서 시작한다. CTD, 약물, 직업·환경 노출을 배제한 뒤 HRCT를 읽는다. 이후 생검 여부는 CT 패턴과 임상적 확신에 따라 달라진다.\n\n* '''UIP이고 임상도 합당하다''': 다른 원인을 배제하면 생검 없이 IPF를 진단할 수 있다.\n* '''Probable UIP이다''': 고령 남성 흡연자처럼 임상적으로 잘 맞는 경우 MDD를 거쳐 생검 없이 진단할 수 있다. 모든 probable UIP를 자동으로 IPF라고 부르는 것은 아니다.\n* '''Indeterminate 또는 대체 진단 가능성이 있다''': BAL과 필요시 TBLC·SLB로 정보를 더 얻고 다시 MDD에서 판단한다.\n\n표의 목적은 복잡한 조합을 외우기 전에 '''영상과 조직이 서로 얼마나 일치하는지''' 이해하는 것이다. 예를 들어 HRCT probable UIP와 조직 probable UIP도 IPF로 판정할 수 있다. 반대로 조직이 다른 질환을 뚜렷하게 가리키면 임상 진단을 다시 검토한다.\n\n||= 질환 ||= 핵심 손상과 진단 단서 ||= 치료의 큰 흐름 ||\n|| IPF || 비정상적 상피 복구 → UIP, 흉막하·폐기저부 honeycombing || Pirfenidone/nintedanib + 산소·재활 → 진행 감시·폐이식 평가 ||\n|| NSIP || 비교적 균일한 염증·섬유화, GGO·subpleural sparing → CTD 등 원인 평가 || 원인 치료·면역조절 → 섬유화 진행 시 PPF 평가 ||\n|| COP || 폐포 내 기질화 마개, 아급성 증상·patchy/migratory consolidation || 원인 평가 → 스테로이드 → 재발 감시 ||\n|| iDAD/AIP || 급성 광범위 폐포 손상·hyaline membrane → 빠른 호흡부전 || 원인 평가·호흡 보조, 불확실한 특이 치료와 높은 초기 위험 ||\n|| RB-ILD·AMP || 흡연 관련 색소 대식세포, 세기관지 중심/미만성 분포 || 금연 → 기능·영상 추적, 필요시 항염증 치료 ||\n|| PPF || Non-IPF의 진행 양상: 최근 1년, 증상·기능·영상 중 2영역 || 원인 질환 관리 + 항섬유화 치료 검토 ||\n\n=== 선지별 해설 ===\n* 1번 · 특발성 폐섬유증은 특징적으로 양측 상폐야의 말초부에 발생한다: 틀리다. 전형적인 분포는 양측 하폐야·폐기저부와 흉막하다.\n* 2번 · 다른 원인이 모두 배제되고 HRCT에 UIP pattern이 확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다: 맞다. 선지에 “다른 원인이 모두 배제”라는 조건이 포함되어 있다. HRCT 패턴만으로 아무 임상 평가 없이 붙이는 진단은 아니다.\n* 3번 · 섬유화는 모두 동일한 시기에 발생한 특징을 보인다. (Temporal homogeneity): 틀리다. UIP는 temporal heterogeneity다. Temporal homogeneity는 NSIP를 연결한다.\n* 4번 · FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서 호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다: 강의 예후 표의 기준과 다르다. IPF의 나쁜 경과 지표는 FVC 절대 10%p, DLCO 절대 15%p 정도의 감소로 제시된다. 상대 20%·30%를 그대로 대입하지 않는다.\n* 5번 · 특발성 폐섬유증에서 항섬유화제제를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다: 틀리다. 항섬유화제는 폐기능 저하 속도를 늦춘다. 이미 형성된 섬유화 자체를 정상 폐로 되돌린다는 표현이 문제다.\n\n[[42강#IPF는 원인을 배제하고 HRCT와 임상을 합쳐 진단한다|Wiki · IPF는 원인을 배제하고 HRCT와 임상을 합쳐 진단한다]]\n\n~~근거: 2026 강의록 42강 30–48·58·62–67쪽.~~~",
+      "answerLabel": "2번 — 다른 원인이 모두 배제되고 HRCT에 UIP pattern이 확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다.",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답: ②\n\n②다. 다른 원인을 배제했고 임상과 HRCT의 UIP가 합당하면 조직검사 없이 IPF를 진단할 수 있다. UIP라는 모양과 IPF라는 원인 배제 진단을 함께 이해해야 한다.\n\n=== 원인에서 진단·치료까지 ===\nIPF 진단은 '''다른 원인을 찾는 과정'''에서 시작한다. CTD, 약물, 직업·환경 노출을 배제한 뒤 HRCT를 읽는다. 이후 생검 여부는 CT 패턴과 임상적 확신에 따라 달라진다.\n\n* '''UIP이고 임상도 합당하다''': 다른 원인을 배제하면 생검 없이 IPF를 진단할 수 있다.\n* '''Probable UIP이다''': 고령 남성 흡연자처럼 임상적으로 잘 맞는 경우 MDD를 거쳐 생검 없이 진단할 수 있다. 모든 probable UIP를 자동으로 IPF라고 부르는 것은 아니다.\n* '''Indeterminate 또는 대체 진단 가능성이 있다''': BAL과 필요시 TBLC·SLB로 정보를 더 얻고 다시 MDD에서 판단한다.\n\n표의 목적은 복잡한 조합을 외우기 전에 '''영상과 조직이 서로 얼마나 일치하는지''' 이해하는 것이다. 예를 들어 HRCT probable UIP와 조직 probable UIP도 IPF로 판정할 수 있다. 반대로 조직이 다른 질환을 뚜렷하게 가리키면 임상 진단을 다시 검토한다.\n\n||= 질환 ||= 핵심 손상과 진단 단서 ||= 치료의 큰 흐름 ||\n|| IPF || 비정상적 상피 복구 → UIP, 흉막하·폐기저부 honeycombing || Pirfenidone/nintedanib + 산소·재활 → 진행 감시·폐이식 평가 ||\n|| NSIP || 비교적 균일한 염증·섬유화, GGO·subpleural sparing → CTD 등 원인 평가 || 원인 치료·면역조절 → 섬유화 진행 시 PPF 평가 ||\n|| COP || 폐포 내 기질화 마개, 아급성 증상·patchy/migratory consolidation || 원인 평가 → 스테로이드 → 재발 감시 ||\n|| iDAD/AIP || 급성 광범위 폐포 손상·hyaline membrane → 빠른 호흡부전 || 원인 평가·호흡 보조, 불확실한 특이 치료와 높은 초기 위험 ||\n|| RB-ILD·AMP || 흡연 관련 색소 대식세포, 세기관지 중심/미만성 분포 || 금연 → 기능·영상 추적, 필요시 항염증 치료 ||\n|| PPF || Non-IPF의 진행 양상: 최근 1년, 증상·기능·영상 중 2영역 || 원인 질환 관리 + 항섬유화 치료 검토 ||\n\n=== 선지별 해설 ===\n* 1번 · 특발성 폐섬유증은 특징적으로 양측 상폐야의 말초부에 발생한다: 틀리다. 전형적인 분포는 양측 하폐야·폐기저부와 흉막하다.\n* 2번 · 다른 원인이 모두 배제되고 HRCT에 UIP pattern이 확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다: 맞다. 선지에 “다른 원인이 모두 배제”라는 조건이 포함되어 있다. HRCT 패턴만으로 아무 임상 평가 없이 붙이는 진단은 아니다.\n* 3번 · 섬유화는 모두 동일한 시기에 발생한 특징을 보인다. (Temporal homogeneity): 틀리다. UIP는 temporal heterogeneity다. Temporal homogeneity는 NSIP를 연결한다.\n* 4번 · FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서 호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다: 강의 예후 표의 기준과 다르다. IPF의 나쁜 경과 지표는 FVC 절대 10%p, DLCO 절대 15%p 정도의 감소로 제시된다. 상대 20%·30%를 그대로 대입하지 않는다.\n* 5번 · 특발성 폐섬유증에서 항섬유화제제를 사용하면 섬유화 자체의 호전으로 예후를 향상시키는 데 도움이 된다: 틀리다. 항섬유화제는 폐기능 저하 속도를 늦춘다. 이미 형성된 섬유화 자체를 정상 폐로 되돌린다는 표현이 문제다.\n\n[[42강#IPF는 원인을 배제하고 HRCT와 임상을 합쳐 진단한다|Wiki · IPF는 원인을 배제하고 HRCT와 임상을 합쳐 진단한다]]\n\n~~근거: 2026 강의록 42강 30–48·58·62–67쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.94. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
-      "professor": "장혜진",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이홍렬",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.94 출제자란 확인",
       "lectureIds": [
         42
       ],
       "lectureId": 42,
       "lectureTitle": "간질성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 94번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "간질성·면역성 폐질환",
+      "source": "2023 호흡기계 원본 p.94",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-26",
-        "scope": "lectures42_43_cause_diagnosis_treatment_rebuild",
-        "chapter": "IPF는 원인을 배제하고 HRCT와 임상을 합쳐 진단한다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "sourcePages": "42강 30–48·58·62–67쪽"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 94,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 94,
+        "professor": "이홍렬",
+        "lecture": "간질성 폐질환 - 특발성 간질성 폐질환을 중심으로 -",
+        "question": "다음의 특발성 폐섬유증 (IPF)에 대한 기술 중에서 올바른 항목은?",
+        "choices": [
+          "특발성 폐섬유증은 특징적으로 양측 상폐야의 말초부에 발생한다.",
+          "다른 원인이 모두 배제되고 HRCT에 UIP pattern이\n확인되면 조직 검사 없이도 특발성 폐섬유증으로 확진할 수 있다.",
+          "섬유화는 모두 동일한 시기에 발생한 특징을 보인다. (Temporal homogeneity)\n",
+          "FVC의 상대값이 20%, 그리고 DLco의 상대값이 30% 이상 감소하면서\n호흡곤란과 섬유화가 악화되면 사망률의 위험도가 증가하는 기준으로 사용된다.",
+          "특발성 폐섬유증에서 항섬유화제재를 사용하면\n섬유화 자체의 호전으로 예후를 향상시키는데 도움이 된다."
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20719,43 +21753,62 @@ window.JBL_DATA = {
         "박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다",
         "급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다."
       ],
-      "answerIndex": null,
+      "answerIndex": 5,
       "answerIndices": [
-        1,
         5
       ],
-      "answerLabel": "정답: ①·⑤ (복수정답)",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ①·⑤ (복수정답)\n\n①·⑤를 인정한다. COP의 “cryptogenic”은 원인을 배제했다는 뜻이므로 이후에도 원인을 재평가해야 한다. AIP는 급격한 DAD와 불확실한 스테로이드 반응으로 연결된다.\n\n=== 원인에서 진단·치료까지 ===\n'''DAD(diffuse alveolar damage)'''는 폐포가 광범위하게 손상된 병리 패턴이다. 패혈증·폐렴·흡인·CTD 등 원인이 있으면 secondary DAD, 충분히 평가해도 원인이 없으면 idiopathic DAD, 즉 기존의 AIP다.\n\n수일~수주 사이 심한 저산소혈증과 호흡부전이 진행하며 ARDS와 겹치는 임상상을 보인다. CT에는 넓은 GGO와 consolidation이 보이고, 진행하면 기관지 견인과 구조 변형이 남는다.\n\n* '''삼출기''': 폐포벽 손상, 부종, hyaline membrane.\n* '''기질화기''': type II 폐포세포 증식과 느슨한 결합조직의 복구 반응.\n* '''섬유화기''': 일부에서 잔여 섬유화와 만성 기능 저하로 이어진다.\n\n치료는 '''원인 평가와 ARDS에 준한 호흡 보조'''가 중심이다. 확립된 특이 치료가 없고 스테로이드 반응은 일정하지 않다. 초기 사망 위험이 높지만, 생존자는 회복하기도 하고 섬유화가 남기도 한다.\n\n||= 질환 ||= 핵심 손상과 진단 단서 ||= 치료의 큰 흐름 ||\n|| IPF || 비정상적 상피 복구 → UIP, 흉막하·폐기저부 honeycombing || Pirfenidone/nintedanib + 산소·재활 → 진행 감시·폐이식 평가 ||\n|| NSIP || 비교적 균일한 염증·섬유화, GGO·subpleural sparing → CTD 등 원인 평가 || 원인 치료·면역조절 → 섬유화 진행 시 PPF 평가 ||\n|| COP || 폐포 내 기질화 마개, 아급성 증상·patchy/migratory consolidation || 원인 평가 → 스테로이드 → 재발 감시 ||\n|| iDAD/AIP || 급성 광범위 폐포 손상·hyaline membrane → 빠른 호흡부전 || 원인 평가·호흡 보조, 불확실한 특이 치료와 높은 초기 위험 ||\n|| RB-ILD·AMP || 흡연 관련 색소 대식세포, 세기관지 중심/미만성 분포 || 금연 → 기능·영상 추적, 필요시 항염증 치료 ||\n|| PPF || Non-IPF의 진행 양상: 최근 1년, 증상·기능·영상 중 2영역 || 원인 질환 관리 + 항섬유화 치료 검토 ||\n\n=== 선지별 해설 ===\n* 1번 · 특발성 기질화 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다: 맞다. OP는 CTD·약물·감염·흡인에서도 나타난다. 처음 COP로 판단했어도 새 단서가 생기면 원인 질환을 다시 확인한다.\n* 2번 · RB-ILD는 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적되며 말초 기관지에는 잘 축적되지 않는다: 틀리다. RB-ILD의 색소 대식세포는 세기관지와 주변 폐포에 모인다. 미만성 폐포 축적은 AMP(DIP)에 더 맞는다.\n* 3번 · 특발성 비특이성 간질성 폐렴은 대부분 섬유화를 동반하여 특발성 폐섬유증보다 예후가 더 불량하다: 틀리다. Fibrotic NSIP도 진행할 수 있지만 NSIP 전체의 예후가 IPF보다 더 나쁘다는 일반화는 맞지 않는다.\n* 4번 · 박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다: 틀리다. AMP(DIP)는 주로 중·하폐야와 말초부의 GGO다.\n* 5번 · 급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다: 강의 맥락에서 맞다. AIP는 심한 급성 호흡부전, 높은 초기 사망 위험과 불확실한 steroid 효과를 보인다. 모든 환자가 전혀 반응하지 않는다는 절대 명제는 아니다.\n\n[[42강#AIP는 급속한 호흡부전과 DAD다|Wiki · AIP는 급속한 호흡부전과 DAD다]]\n\n~~근거: 2026 강의록 42강 89–118쪽.~~~",
+      "answerLabel": "5번 — 급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다.",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n'''공식 정답: ⑤'''\n\n원본의 정답란은 ⑤만 지정한다. ①의 ‘원인 질환이나 동반 질환을 확인한다’는 문장도 임상적으로 타당할 수 있으므로, 공식 정답에 없다는 이유로 원인 평가가 필요 없다고 외우지 않는다. 채점에는 공식 ⑤만 반영한다. COP의 “cryptogenic”은 원인을 배제했다는 뜻이므로 이후에도 원인을 재평가해야 한다. AIP는 급격한 DAD와 불확실한 스테로이드 반응으로 연결된다.\n\n=== 원인에서 진단·치료까지 ===\n'''DAD(diffuse alveolar damage)'''는 폐포가 광범위하게 손상된 병리 패턴이다. 패혈증·폐렴·흡인·CTD 등 원인이 있으면 secondary DAD, 충분히 평가해도 원인이 없으면 idiopathic DAD, 즉 기존의 AIP다.\n\n수일~수주 사이 심한 저산소혈증과 호흡부전이 진행하며 ARDS와 겹치는 임상상을 보인다. CT에는 넓은 GGO와 consolidation이 보이고, 진행하면 기관지 견인과 구조 변형이 남는다.\n\n* '''삼출기''': 폐포벽 손상, 부종, hyaline membrane.\n* '''기질화기''': type II 폐포세포 증식과 느슨한 결합조직의 복구 반응.\n* '''섬유화기''': 일부에서 잔여 섬유화와 만성 기능 저하로 이어진다.\n\n치료는 '''원인 평가와 ARDS에 준한 호흡 보조'''가 중심이다. 확립된 특이 치료가 없고 스테로이드 반응은 일정하지 않다. 초기 사망 위험이 높지만, 생존자는 회복하기도 하고 섬유화가 남기도 한다.\n\n||= 질환 ||= 핵심 손상과 진단 단서 ||= 치료의 큰 흐름 ||\n|| IPF || 비정상적 상피 복구 → UIP, 흉막하·폐기저부 honeycombing || Pirfenidone/nintedanib + 산소·재활 → 진행 감시·폐이식 평가 ||\n|| NSIP || 비교적 균일한 염증·섬유화, GGO·subpleural sparing → CTD 등 원인 평가 || 원인 치료·면역조절 → 섬유화 진행 시 PPF 평가 ||\n|| COP || 폐포 내 기질화 마개, 아급성 증상·patchy/migratory consolidation || 원인 평가 → 스테로이드 → 재발 감시 ||\n|| iDAD/AIP || 급성 광범위 폐포 손상·hyaline membrane → 빠른 호흡부전 || 원인 평가·호흡 보조, 불확실한 특이 치료와 높은 초기 위험 ||\n|| RB-ILD·AMP || 흡연 관련 색소 대식세포, 세기관지 중심/미만성 분포 || 금연 → 기능·영상 추적, 필요시 항염증 치료 ||\n|| PPF || Non-IPF의 진행 양상: 최근 1년, 증상·기능·영상 중 2영역 || 원인 질환 관리 + 항섬유화 치료 검토 ||\n\n=== 선지별 해설 ===\n* 1번 · 특발성 기질화 폐렴은 확진 전이나 확진 후에도 원인 질환이나 동반된 질환을 확인하여야 한다: 맞다. OP는 CTD·약물·감염·흡인에서도 나타난다. 처음 COP로 판단했어도 새 단서가 생기면 원인 질환을 다시 확인한다.\n* 2번 · RB-ILD는 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적되며 말초 기관지에는 잘 축적되지 않는다: 틀리다. RB-ILD의 색소 대식세포는 세기관지와 주변 폐포에 모인다. 미만성 폐포 축적은 AMP(DIP)에 더 맞는다.\n* 3번 · 특발성 비특이성 간질성 폐렴은 대부분 섬유화를 동반하여 특발성 폐섬유증보다 예후가 더 불량하다: 틀리다. Fibrotic NSIP도 진행할 수 있지만 NSIP 전체의 예후가 IPF보다 더 나쁘다는 일반화는 맞지 않는다.\n* 4번 · 박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다: 틀리다. AMP(DIP)는 주로 중·하폐야와 말초부의 GGO다.\n* 5번 · 급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며 부신피질호르몬제에 불량한 반응을 보인다: 강의 맥락에서 맞다. AIP는 심한 급성 호흡부전, 높은 초기 사망 위험과 불확실한 steroid 효과를 보인다. 모든 환자가 전혀 반응하지 않는다는 절대 명제는 아니다.\n\n[[42강#AIP는 급속한 호흡부전과 DAD다|Wiki · AIP는 급속한 호흡부전과 DAD다]]\n\n~~근거: 2026 강의록 42강 89–118쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.95. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
-      "professor": "장혜진",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이홍렬",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.95 출제자란 확인",
       "lectureIds": [
         42
       ],
       "lectureId": 42,
       "lectureTitle": "간질성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 95번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "간질성·면역성 폐질환",
+      "source": "2023 호흡기계 원본 p.95",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-26",
-        "scope": "lectures42_43_cause_diagnosis_treatment_rebuild",
-        "chapter": "AIP는 급속한 호흡부전과 DAD다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "sourcePages": "42강 89–118쪽"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 95,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "interpretationCaution": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 95,
+        "professor": "이홍렬",
+        "lecture": "간질성 폐질환 - 특발성 간질성 폐질환을 중심으로 -",
+        "question": "다음 중 여러 가지 특발성 간질성 폐렴 (IIP)에 대한 기술 중 올바른 항목은?",
+        "choices": [
+          "특발성 기질화 폐렴은 확진 전이나 확진 후에도\n원인 질환이나 동반된 질환을 확인하여야 한다.",
+          "RB-ILD는 색소 과립을 동반한 대식세포가 주로 폐포 내에 축적되며\n말초 기관지에는 잘 축적되지 않는다.",
+          "특발성 비특이성 간질성 폐렴은 대부분 섬유화를 동반하여\n특발성 폐섬유증보다 예후가 더 불량하다.",
+          "박리성 간질성 폐렴은 주로 경화 소견(consolidation)이 폐상부에 보인다.",
+          "급성 간질성 폐렴은 발생 시에 심한 호흡곤란을 보이며\n부신피질호르몬제에 불량한 반응을 보인다."
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20775,45 +21828,64 @@ window.JBL_DATA = {
         "결체조직질환에서 발생하는 간질성 폐렴은 증상이 없고 자가 항체가 음성이면 결체조직질환에 대해 더 이상 추적 관찰할 필요가 없어진다.",
         "호산구성 폐렴에서 급성은 급격하게 진행되며 심한 호흡곤란을 보이고 부신피질호르몬제를 빨리 중단하면 금방 재발한다.",
         "폐꽈리단백증은 surfactant가 축적되는 질환으로 치료로 whole lung lavage를 시도한다.",
-        "폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.",
+        "폐림프관평활근종증는 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.",
         "Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다."
       ],
       "answerIndex": 3,
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ③\n\n③ PAP다. Surfactant는 생성뿐 아니라 대식세포의 제거도 필요하다. 그 제거가 실패한 폐포를 씻어내는 치료가 whole lung lavage다.\n\n=== 원인에서 진단·치료까지 ===\nSurfactant는 만들어진 뒤 대식세포가 처리해야 균형이 유지된다. '''PAP(pulmonary alveolar proteinosis)'''에서는 이 제거 기능이 떨어져 폐포 안에 surfactant가 쌓인다. 대부분의 자가면역형은 '''anti-GM-CSF 항체 → 대식세포 기능 저하'''로 설명된다. 혈액질환·분진·면역저하 등과 관련된 이차성, 유전성·선천성 형태도 있다.\n\n'''CT의 crazy paving, 우윳빛 BAL, PAS 양성 물질'''을 연결한다. Crazy paving 자체는 다른 질환에도 있어 임상·BAL·항체 평가와 함께 진단한다. 치료는 '''whole lung lavage'''가 대표적이며, 손상된 대식세포 기능 때문에 Nocardia 같은 기회감염도 주의한다.\n\n||= 원인·기전 ||= 진단을 좁히는 단서 ||= 치료로 연결되는 질문 ||\n|| CTD-ILD: 전신 자가면역 || 관절·피부·근육 증상, NSIP/UIP, FVC·DLCO·HRCT || 전신 면역활성과 폐섬유화 중 무엇이 진행하는가 → 면역조절 ± 항섬유화 ||\n|| Sarcoidosis: Th1·비건락성 육아종 || BHL·perilymphatic nodules, 폐외 장기, 임상·조직의 일치 || 위험 장기·기능 저하가 있는가 → 관찰 또는 스테로이드·면역조절 ||\n|| HP: 흡입 항원에 대한 III·IV형 반응 || 노출 + 소기도/실질 CT + BAL 림프구 || 항원 제거 → 염증 치료 → 진행성 섬유화 평가 ||\n|| AEP: 급성 호산구성 폐침윤 || 급성 저산소혈증, 초기 혈액 정상 가능, BAL 호산구 || 감염·유발 원인 확인 → 스테로이드, 빠른 반응 ||\n|| CEP: 만성 호산구성 폐침윤 || 천식·말초부 침윤·호산구증가 || 스테로이드 → 재발 감시·장기 치료 ||\n|| ABPA: Aspergillus 감작 || 천식·IgE·호산구·중심성 기관지확장 || 면역반응 억제 + 항원 부담 감소 ||\n|| PAP: surfactant 제거 장애 || Crazy paving·우윳빛 BAL·PAS 양성 || 폐포에 쌓인 물질 제거 → whole lung lavage ||\n|| LAM: mTOR 관련 세포 증식 || 가임기 여성·미만성 얇은 벽 낭종·기흉/유미흉 || Sirolimus와 합병증 관리 ||\n|| PLCH: 흡연 관련 Langerhans 세포 || 상·중폐야 결절 + 불규칙 낭종 || 금연과 진행 감시 ||\n\n=== 선지별 해설 ===\n* 1번 · 결체조직질환에서 발생하는 간질성 폐렴은 증상이 없고 자가 항체가 음성이면 결체조직질환에 대해 더 이상 추적 관찰할 필요가 없어진다: 틀리다. 폐 침범이 CTD의 전신 증상보다 먼저일 수 있어 처음 음성이어도 추적해야 한다.\n* 2번 · 호산구성 폐렴에서 급성은 급격하게 진행되며 심한 호흡곤란을 보이고 부신피질호르몬제를 빨리 중단하면 금방 재발한다: AEP는 재발이 드물다. 감량 뒤 재발 관리가 중요한 것은 CEP다.\n* 3번 · 폐꽈리단백증은 surfactant가 축적되는 질환으로 치료로 whole lung lavage를 시도한다: 맞다. PAP는 surfactant 축적이며 whole lung lavage가 대표 치료다.\n* 4번 · 폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다: LAM의 전형적인 대상은 가임기 여성이다. PLCH는 젊은 흡연자로 연결한다.\n* 5번 · Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다: 틀리다. 두 질환은 ANCA 연관 혈관염이며 항체 양성은 진단 단서다. 모든 환자가 양성이라는 뜻은 아니다.\n\n[[43강#PAP는 surfactant가 폐포에 쌓인다|Wiki · PAP는 surfactant가 폐포에 쌓인다]]\n\n~~근거: 2026 강의록 43강 5·78–103쪽.~~~",
+      "answerLabel": "3번 — 폐꽈리단백증은 surfactant가 축적되는 질환으로 치료로 whole lung lavage를 시도한다.",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답: ③\n\n③ PAP다. Surfactant는 생성뿐 아니라 대식세포의 제거도 필요하다. 그 제거가 실패한 폐포를 씻어내는 치료가 whole lung lavage다.\n\n=== 원인에서 진단·치료까지 ===\nSurfactant는 만들어진 뒤 대식세포가 처리해야 균형이 유지된다. '''PAP(pulmonary alveolar proteinosis)'''에서는 이 제거 기능이 떨어져 폐포 안에 surfactant가 쌓인다. 대부분의 자가면역형은 '''anti-GM-CSF 항체 → 대식세포 기능 저하'''로 설명된다. 혈액질환·분진·면역저하 등과 관련된 이차성, 유전성·선천성 형태도 있다.\n\n'''CT의 crazy paving, 우윳빛 BAL, PAS 양성 물질'''을 연결한다. Crazy paving 자체는 다른 질환에도 있어 임상·BAL·항체 평가와 함께 진단한다. 치료는 '''whole lung lavage'''가 대표적이며, 손상된 대식세포 기능 때문에 Nocardia 같은 기회감염도 주의한다.\n\n||= 원인·기전 ||= 진단을 좁히는 단서 ||= 치료로 연결되는 질문 ||\n|| CTD-ILD: 전신 자가면역 || 관절·피부·근육 증상, NSIP/UIP, FVC·DLCO·HRCT || 전신 면역활성과 폐섬유화 중 무엇이 진행하는가 → 면역조절 ± 항섬유화 ||\n|| Sarcoidosis: Th1·비건락성 육아종 || BHL·perilymphatic nodules, 폐외 장기, 임상·조직의 일치 || 위험 장기·기능 저하가 있는가 → 관찰 또는 스테로이드·면역조절 ||\n|| HP: 흡입 항원에 대한 III·IV형 반응 || 노출 + 소기도/실질 CT + BAL 림프구 || 항원 제거 → 염증 치료 → 진행성 섬유화 평가 ||\n|| AEP: 급성 호산구성 폐침윤 || 급성 저산소혈증, 초기 혈액 정상 가능, BAL 호산구 || 감염·유발 원인 확인 → 스테로이드, 빠른 반응 ||\n|| CEP: 만성 호산구성 폐침윤 || 천식·말초부 침윤·호산구증가 || 스테로이드 → 재발 감시·장기 치료 ||\n|| ABPA: Aspergillus 감작 || 천식·IgE·호산구·중심성 기관지확장 || 면역반응 억제 + 항원 부담 감소 ||\n|| PAP: surfactant 제거 장애 || Crazy paving·우윳빛 BAL·PAS 양성 || 폐포에 쌓인 물질 제거 → whole lung lavage ||\n|| LAM: mTOR 관련 세포 증식 || 가임기 여성·미만성 얇은 벽 낭종·기흉/유미흉 || Sirolimus와 합병증 관리 ||\n|| PLCH: 흡연 관련 Langerhans 세포 || 상·중폐야 결절 + 불규칙 낭종 || 금연과 진행 감시 ||\n\n=== 선지별 해설 ===\n* 1번 · 결체조직질환에서 발생하는 간질성 폐렴은 증상이 없고 자가 항체가 음성이면 결체조직질환에 대해 더 이상 추적 관찰할 필요가 없어진다: 틀리다. 폐 침범이 CTD의 전신 증상보다 먼저일 수 있어 처음 음성이어도 추적해야 한다.\n* 2번 · 호산구성 폐렴에서 급성은 급격하게 진행되며 심한 호흡곤란을 보이고 부신피질호르몬제를 빨리 중단하면 금방 재발한다: AEP는 재발이 드물다. 감량 뒤 재발 관리가 중요한 것은 CEP다.\n* 3번 · 폐꽈리단백증은 surfactant가 축적되는 질환으로 치료로 whole lung lavage를 시도한다: 맞다. PAP는 surfactant 축적이며 whole lung lavage가 대표 치료다.\n* 4번 · 폐림프관평활근종증은 주로 남자에서, 폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다: LAM의 전형적인 대상은 가임기 여성이다. PLCH는 젊은 흡연자로 연결한다.\n* 5번 · Wegener's granulomatosis와 MPA는 혈관염으로 ANCA에 대부분 음성 반응을 보인다: 틀리다. 두 질환은 ANCA 연관 혈관염이며 항체 양성은 진단 단서다. 모든 환자가 양성이라는 뜻은 아니다.\n\n[[43강#PAP는 surfactant가 폐포에 쌓인다|Wiki · PAP는 surfactant가 폐포에 쌓인다]]\n\n~~근거: 2026 강의록 43강 5·78–103쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.96. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
-      "professor": "장혜진",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이홍렬",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.96 출제자란 확인",
       "lectureIds": [
         43
       ],
       "lectureId": 43,
       "lectureTitle": "교원성/과민성/호산구성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 96번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "간질성·면역성 폐질환",
+      "source": "2023 호흡기계 원본 p.96",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-26",
-        "scope": "lectures42_43_cause_diagnosis_treatment_rebuild",
-        "chapter": "PAP는 surfactant가 폐포에 쌓인다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "sourcePages": "43강 5·78–103쪽"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 96,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 96,
+        "professor": "이홍렬",
+        "lecture": "사르코이드증/과민성/호산구성/교원성/기타 간질성 폐질환",
+        "question": "여러 가지 간질성 폐렴에 대한 설명 중 올바른 항목은?",
+        "choices": [
+          "결체조직질환에서 발생하는 간질성 폐렴은 증상이 없고 자가 항체가 음성이면\n결체조직질환에 대해 더 이상 추적 관찰할 필요가 없어진다.",
+          "호산구성 폐렴에서 급성은 급격하게 진행되며 심한 호흡곤란을 보이고\n부신피질호르몬제를 빨리 중단하면 금방 재발한다.",
+          "폐꽈리단백증은 surfactant가 축적되는 질환으로\n치료로 whole lung lavage를 시도한다.",
+          "폐림프관평활근종증는 주로 남자에서,\n폐랑게르한스세포조직구증은 주로 여자에서 주로 발생한다.",
+          "Wegener's granulomatosis와 MPA는 혈관염으로\nANCA에 대부분 음성 반응을 보인다.\n"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20840,38 +21912,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ②\n\n②다. Sarcoidosis는 비건락성 육아종 하나가 아니라 임상·영상과 조직의 일치, 다른 육아종 원인의 배제로 진단한다.\n\n=== 원인에서 진단·치료까지 ===\nSarcoidosis는 원인 불명의 다장기 육아종성 질환이다. '''과도한 Th1/CD4 반응'''이 macrophage를 모아 '''비건락성 육아종'''을 만들고, 폐·림프절·피부·눈 등에 병변을 만든다. 젊은 성인에서 흔하며 자연관해하거나 오르내리는 경과를 보일 수 있다.\n\n* '''영상''': 양측 폐문 림프절병증, 상·중폐야의 perilymphatic nodules. 기관지혈관다발·흉막하·소엽간중격을 따라 분포한다.\n* '''Löfgren syndrome''': 양측 폐문 림프절병증 + 결절홍반 + 관절염.\n* '''BAL''': 림프구 증가, CD4/CD8 증가. >4는 특이도가 높은 보조 소견이지만 모든 환자에서 나타나는 것은 아니다.\n* '''Calcium''': 육아종의 calcitriol 생성이 증가해 고칼슘혈증·고칼슘뇨가 생길 수 있다.\n* '''ACE''': 증가할 수 있으나 민감도·특이도가 제한된다. 정상이어도 배제하지 못하고 상승만으로 확진하지 못한다.\n\n진단은 '''합당한 임상과 영상 + 필요한 조직 확인 + 다른 원인 배제'''를 합쳐 내린다. 비건락성 육아종만 발견했다고 끝나지 않는다. 결핵·진균·림프종 등도 검토하며, 조직은 접근 가능한 부위나 기관지경을 통해 얻을 수 있다.\n\n||= 흉부 병기 ||= 영상 소견 ||= 경과를 읽는 방향 ||\n|| 1 || 폐문 림프절병증만 || 가장 흔하며 자연관해 가능성이 높다. ||\n|| 2 || 림프절병증 + 폐실질 침범 || 기능과 증상, 진행 여부를 함께 본다. ||\n|| 3 || 폐실질 침범만 || 자연관해가 줄고 지속·진행 위험을 살핀다. ||\n|| 4 || 폐섬유화 || 이미 형성된 구조 손상이 중심이다. ||\n\n> HP는 노출·HRCT·BAL/조직을 종합한다. 항원 특이 IgG는 노출의 증거이며 단독 확진 소견은 아니다. 치료는 항원 회피에서 시작하고 염증·섬유화와 중증도로 다음 단계를 정한다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기 때문에 진단이 되면 즉시 투여한다: 틀리다. 림프절만 커지고 안정적이면 자연관해를 기대하며 관찰할 수 있다. 위험 장기·기능 저하가 치료를 결정한다.\n* 2번 · 유육종증은 비건락성 육아종이 특징적이지만 진단을 위해서는 임상 및 영상 소견과의 연관이 되어야 확진이 가능하다: 맞다. 조직 소견을 임상과 영상에 연결하고 결핵·진균·림프종 등을 배제한다.\n* 3번 · 유육종증은 주로 양 폐야의 하부에 림프관을 따라 결절이 발생하며 경기관지폐생검으로는 진단이 불가능하다: 틀리다. 상·중폐야와 림프 경로 분포가 대표적이며 기관지경 생검이 진단에 도움이 될 수 있다.\n* 4번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명만으로도 확진이 가능하며 Thermophilic actinomycetes가 가장 흔한 원인이다: 틀리다. Precipitin/항원 특이 IgG는 노출의 증거다. 단독으로 HP를 확진하지 않는다.\n* 5번 · 과민성 폐장염은 과민성으로 1형 면역 반응이 관여하기 때문에 IgE가 증가하는 소견을 보인다: 틀리다. HP의 중심은 III·IV형 반응이며 IgE 중심 I형 알레르기가 아니다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 2026 강의록 43강 33–70쪽.~~~",
+      "answerLabel": "2번 — 유육종증은 비건락성 육아종이 특징적이지만 진단을 위해서는 임상 및 영상 소견과의 연관이 되어야 확진이 가능하다",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답: ②\n\n②다. Sarcoidosis는 비건락성 육아종 하나가 아니라 임상·영상과 조직의 일치, 다른 육아종 원인의 배제로 진단한다.\n\n=== 원인에서 진단·치료까지 ===\nSarcoidosis는 원인 불명의 다장기 육아종성 질환이다. '''과도한 Th1/CD4 반응'''이 macrophage를 모아 '''비건락성 육아종'''을 만들고, 폐·림프절·피부·눈 등에 병변을 만든다. 젊은 성인에서 흔하며 자연관해하거나 오르내리는 경과를 보일 수 있다.\n\n* '''영상''': 양측 폐문 림프절병증, 상·중폐야의 perilymphatic nodules. 기관지혈관다발·흉막하·소엽간중격을 따라 분포한다.\n* '''Löfgren syndrome''': 양측 폐문 림프절병증 + 결절홍반 + 관절염.\n* '''BAL''': 림프구 증가, CD4/CD8 증가. >4는 특이도가 높은 보조 소견이지만 모든 환자에서 나타나는 것은 아니다.\n* '''Calcium''': 육아종의 calcitriol 생성이 증가해 고칼슘혈증·고칼슘뇨가 생길 수 있다.\n* '''ACE''': 증가할 수 있으나 민감도·특이도가 제한된다. 정상이어도 배제하지 못하고 상승만으로 확진하지 못한다.\n\n진단은 '''합당한 임상과 영상 + 필요한 조직 확인 + 다른 원인 배제'''를 합쳐 내린다. 비건락성 육아종만 발견했다고 끝나지 않는다. 결핵·진균·림프종 등도 검토하며, 조직은 접근 가능한 부위나 기관지경을 통해 얻을 수 있다.\n\n||= 흉부 병기 ||= 영상 소견 ||= 경과를 읽는 방향 ||\n|| 1 || 폐문 림프절병증만 || 가장 흔하며 자연관해 가능성이 높다. ||\n|| 2 || 림프절병증 + 폐실질 침범 || 기능과 증상, 진행 여부를 함께 본다. ||\n|| 3 || 폐실질 침범만 || 자연관해가 줄고 지속·진행 위험을 살핀다. ||\n|| 4 || 폐섬유화 || 이미 형성된 구조 손상이 중심이다. ||\n\n> HP는 노출·HRCT·BAL/조직을 종합한다. 항원 특이 IgG는 노출의 증거이며 단독 확진 소견은 아니다. 치료는 항원 회피에서 시작하고 염증·섬유화와 중증도로 다음 단계를 정한다.\n\n=== 선지별 해설 ===\n* 1번 · 유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기 때문에 진단이 되면 즉시 투여한다: 틀리다. 림프절만 커지고 안정적이면 자연관해를 기대하며 관찰할 수 있다. 위험 장기·기능 저하가 치료를 결정한다.\n* 2번 · 유육종증은 비건락성 육아종이 특징적이지만 진단을 위해서는 임상 및 영상 소견과의 연관이 되어야 확진이 가능하다: 맞다. 조직 소견을 임상과 영상에 연결하고 결핵·진균·림프종 등을 배제한다.\n* 3번 · 유육종증은 주로 양 폐야의 하부에 림프관을 따라 결절이 발생하며 경기관지폐생검으로는 진단이 불가능하다: 틀리다. 상·중폐야와 림프 경로 분포가 대표적이며 기관지경 생검이 진단에 도움이 될 수 있다.\n* 4번 · 과민성 폐장염에서 원인 물질에 대한 precipitin의 증명만으로도 확진이 가능하며 Thermophilic actinomycetes가 가장 흔한 원인이다: 틀리다. Precipitin/항원 특이 IgG는 노출의 증거다. 단독으로 HP를 확진하지 않는다.\n* 5번 · 과민성 폐장염은 과민성으로 1형 면역 반응이 관여하기 때문에 IgE가 증가하는 소견을 보인다: 틀리다. HP의 중심은 III·IV형 반응이며 IgE 중심 I형 알레르기가 아니다.\n\n[[43강#Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다|Wiki · Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다]]\n\n~~근거: 2026 강의록 43강 33–70쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.97. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "이홍렬",
-      "professor": "장혜진",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "이홍렬",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.97 출제자란 확인",
       "lectureIds": [
         43
       ],
       "lectureId": 43,
       "lectureTitle": "교원성/과민성/호산구성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 97번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "간질성·면역성 폐질환",
+      "source": "2023 호흡기계 원본 p.97",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-26",
-        "scope": "lectures42_43_cause_diagnosis_treatment_rebuild",
-        "chapter": "Sarcoidosis는 비건락성 육아종과 림프 경로를 따라간다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "sourcePages": "43강 33–70쪽"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 97,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 97,
+        "professor": "이홍렬",
+        "lecture": "사르코이드증/과민성/호산구성/교원성/기타 간질성 폐질환",
+        "question": "유육종증 (Sarcoidosis)와 과민성 폐장염에 대한 기술 중 올바른 항목은 ?",
+        "choices": [
+          "유육종증은 흉부 림프절에 발생하는 경우, 부신피질호르몬제로 잘 호전되기\n때문에 진단이 되면 즉시 투여한다.",
+          "유육종증은 비건락성 육아종이 특징적이지만 진단을 위해서는\n임상 및 영상 소견과의 연관이 되어야 확진이 가능하다.",
+          "유육종증은 주로 양 폐야의 하부에 림프관을 따라 결절이 발생하며\n경기관지폐생검으로는 진단이 불가능하다.",
+          "과민성 폐장염에서 원인 물질에 대한 precipitin의 증명만으로도 확진이 가능하며\nThermophilic actinomycetes가 가장 흔한 원인이다.",
+          "과민성 폐장염은 과민성으로 1형 면역 반응이 관여하기 때문에\nIg E가 증가하는 소견을 보인다."
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20885,11 +21976,11 @@ window.JBL_DATA = {
       "originalNumbers": [
         98
       ],
-      "question": "1년 8개월 남아가 숨이 차서 병원에 왔다. 1일 전부터 콧물과 기침이 있었고, 당일 열이 나면서 컹컹거리는 기침을 했다. 목소리가 쉬었고 숨쉬기 힘들어했다. 체온 38.0, 호흡 32회/분, 맥박 108회/분이었다. 가슴청진에서 가슴뒤당김(chest wall retraction)이 보였고, 들숨에서 그렁거림이 들린다. 가슴 X선 사진과 경부측면 X선 사진이다. 치료는? Hb 13.2g/dL, WBC 13600/mm3 (Neutrophil 40%, lymphocyte 54%), ESR 14mm/hr(참고치 20mm/hr 이하), C-활성단백질 0.8g/dL",
+      "question": "1년 8개월 남아가 숨이 차서 병원에 왔다. 1일 전부터 콧물과 기침이 있었고, 당일 열이 나면서 컹컹거리는 기침을 했다. 목소리가 쉬었고 숨쉬기 힘들어했다. 체온 38.0℃, 호흡 32회/분, 맥박 108회/분이었다. 가슴청진에서 가슴뒤당김(chest wall retraction)이 보였고, 들숨에서 그렁거림이 들린다. 가슴 X선 사진과 경부측면 X선 사진이다. 치료는? Hb 13.2g/dL, WBC 13,600/mm3 (Neutrophil 40%, Lymphocyte 54%), ESR 14mm/hr(참고치 20mm/hr 이하), C-활성단백질 0.8g/dL ( 0-0.9 g/dL)",
       "passage": "",
       "choices": [
         "배농",
-        "기관지삽관",
+        "기관내삽관",
         "기관절개술",
         "덱사메타손",
         "세프트리악손"
@@ -20898,33 +21989,43 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n컹컹거리는 기침, 쉰 목소리, 들숨 stridor와 흉벽 함몰은 크룹의 전형적인 조합이다. 덱사메타손으로 상기도 부종을 줄이며, 중등도 이상에서는 흡입 에피네프린도 고려한다. 곧바로 기관절개술이나 항생제를 선택할 상황은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n크룹의 대표 원인은 parainfluenza virus이다. 주로 영유아에서 감기 증상에 이어 '''barking cough, 쉰 목소리, inspiratory stridor'''가 나타난다. 밤에 심해지고 울거나 보챌 때 호흡곤란이 악화할 수 있다.\n\n앞뒤 영상에서 성문하 공기 기둥이 좁아지는 steeple sign을 볼 수 있다. 진단과 중증도 판단은 임상상 중심이며, 영상 때문에 기도 처치를 지연시키지 않는다.\n\n||= 치료 요소 ||= 목적과 적용 ||\n|| Dexamethasone || 성문하 염증과 부종 감소 ||\n|| 흡입 budesonide || 흡입 스테로이드 선택지 ||\n|| 흡입 epinephrine || 중등도 이상에서 신속한 부종 완화, 투여 뒤 재평가 ||\n|| 산소·기도 관리 || 저산소증, 피로, 심한 폐쇄에 대응 ||\n\n> '''전형적 크룹 증례 → dexamethasone.''' 제시된 선택지에 흡입 budesonide가 있으면 이것도 크룹의 항염증 치료가 된다. 심한 호흡부전에서는 기도 확보가 우선이다.\n\n=== 선지별 해설 ===\n* 1번 · 배농: 배액해야 할 농양이 제시되지 않았다. 크룹은 성문하 염증과 부종이 핵심이다.\n* 2번 · 기관지삽관: 심한 폐쇄·호흡부전·의식 저하 등에서 필요하다. 현재 증례의 호흡수·경과만으로 곧바로 삽관이 최우선이라고 보기는 어렵다.\n* 3번 · 기관절개술: 통상적인 크룹의 초기 치료가 아니다. 약물과 기도 관리로도 해결되지 않는 특수 응급상황에서 전문적으로 판단한다.\n* 4번 · 덱사메타손: 성문하 염증·부종을 줄이는 크룹의 대표 치료다. Barking cough·쉰 목소리·들숨 stridor가 함께 제시된다.\n* 5번 · 세프트리악손: 세균성 후두개염·기관염 등에서는 항생제가 필요하다. 전형적인 바이러스성 크룹의 기본 항염증 치료를 대신하지 않는다.\n\n[[41강#크룹은 성문하 부종을 줄인다|Wiki · 크룹은 성문하 부종을 줄인다]]\n\n~~근거: 38기 자료. / 임대현 소아과 호흡기총론각론 49–92슬라이드.~~~",
-      "images": [],
+      "answerLabel": "4번 — 덱사메타손",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답: ④\n\n컹컹거리는 기침, 쉰 목소리, 들숨 stridor와 흉벽 함몰은 크룹의 전형적인 조합이다. 덱사메타손으로 상기도 부종을 줄이며, 중등도 이상에서는 흡입 에피네프린도 고려한다. 곧바로 기관절개술이나 항생제를 선택할 상황은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n크룹의 대표 원인은 parainfluenza virus이다. 주로 영유아에서 감기 증상에 이어 '''barking cough, 쉰 목소리, inspiratory stridor'''가 나타난다. 밤에 심해지고 울거나 보챌 때 호흡곤란이 악화할 수 있다.\n\n앞뒤 영상에서 성문하 공기 기둥이 좁아지는 steeple sign을 볼 수 있다. 진단과 중증도 판단은 임상상 중심이며, 영상 때문에 기도 처치를 지연시키지 않는다.\n\n||= 치료 요소 ||= 목적과 적용 ||\n|| Dexamethasone || 성문하 염증과 부종 감소 ||\n|| 흡입 budesonide || 흡입 스테로이드 선택지 ||\n|| 흡입 epinephrine || 중등도 이상에서 신속한 부종 완화, 투여 뒤 재평가 ||\n|| 산소·기도 관리 || 저산소증, 피로, 심한 폐쇄에 대응 ||\n\n> '''전형적 크룹 증례 → dexamethasone.''' 제시된 선택지에 흡입 budesonide가 있으면 이것도 크룹의 항염증 치료가 된다. 심한 호흡부전에서는 기도 확보가 우선이다.\n\n=== 선지별 해설 ===\n* 1번 · 배농: 배액해야 할 농양이 제시되지 않았다. 크룹은 성문하 염증과 부종이 핵심이다.\n* 2번 · 기관지삽관: 심한 폐쇄·호흡부전·의식 저하 등에서 필요하다. 현재 증례의 호흡수·경과만으로 곧바로 삽관이 최우선이라고 보기는 어렵다.\n* 3번 · 기관절개술: 통상적인 크룹의 초기 치료가 아니다. 약물과 기도 관리로도 해결되지 않는 특수 응급상황에서 전문적으로 판단한다.\n* 4번 · 덱사메타손: 성문하 염증·부종을 줄이는 크룹의 대표 치료다. Barking cough·쉰 목소리·들숨 stridor가 함께 제시된다.\n* 5번 · 세프트리악손: 세균성 후두개염·기관염 등에서는 항생제가 필요하다. 전형적인 바이러스성 크룹의 기본 항염증 치료를 대신하지 않는다.\n\n[[41강#크룹은 성문하 부종을 줄인다|Wiki · 크룹은 성문하 부종을 줄인다]]\n\n~~근거: 38기 자료. / 임대현 소아과 호흡기총론각론 49–92슬라이드.~~~\n\n~~사진 보완: 2023 공식 원본에 수록되지 않은 영상은 반복 출제 증례인 {{92}}의 사진을 재사용했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.98. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2025/q092_01.jpg"
+      ],
       "legacyProfessor": "임대현",
       "professor": "임대현",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.98 출제자란 확인",
       "lectureIds": [
         41
       ],
       "lectureId": 41,
       "lectureTitle": "소아호흡기학 각론I",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 98번",
-      "mappingConfidence": "low",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.98",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요.",
-        "재검토: 임대현의 4문항 중 크루프·세기관지염을 각론 묶음으로 두어 40·41강 각각 2문항으로 잠정 구분했다. 합본에는 강의 경계가 없어 강의별 귀속은 미확정이다."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "file": "J/2025/q092_01.jpg",
+          "method": "repeated_question_image_reuse",
+          "sourceGlobalNumber": 92,
+          "sourceQuestionId": "2025-092",
+          "sourceYear": 2025,
+          "source": "2025 호흡기계 92번",
+          "note": "2023 공식 원본의 미수록 사진을 반복 출제 증례의 사진으로 보완.",
+          "date": "2026-10-27"
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [
         "R037"
       ],
@@ -20949,11 +22050,32 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "크룹은 성문하 부종을 줄인다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 98,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "imageRestoration": "repeated_question_image_reuse"
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 98,
+        "professor": "임대현",
+        "lecture": "소아호흡기총론/각론1",
+        "question": "1년 8개월 남아가 숨이 차서 병원에 왔다. 1일전부터 콧물과 기침이 있었고, 당일 열이 나면\n서 컹컹거리는 기침을 했다. 목소리가 쉬었고 숨쉬기 힘들어했다. 체온 38.0℃, 호흡 32회/\n분, 맥박 108회/분이었다.  가슴청진에서 가슴뒤당김(chest wall retraction)이 보였고, 들숨\n에서 그렁거림이 들린다. 가슴 X선 사진과 경부측면 X선 사진이다. 치료는?\n\nHb 13.2 g/dL, WBC 13,600/mm3 (Neutrophil 40%, Lymphocyte 54%),\nESR 14 mm/hr (참고치 20 mm/hr 이하),  C-활성단백질  0.8 g/dL ( 0-0.9 g/dL)",
+        "choices": [
+          "배농",
+          "기관내삽관",
+          "기관절개술",
+          "덱사메타손",
+          "세프트리악손"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -20967,7 +22089,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         99
       ],
-      "question": "5개월 남아가 열이 나서 병원에 왔다. 7일 전부터 콧물과 기침을 했고, 3일 전부터 열이 나고 보챘다. 체온 39.2℃이다. 환자의 고막 사진이다. 치료는? * 첨부 사진 파일 깨짐",
+      "question": "5개월 남아가 열이 나서 병원에 왔다. 7일 전부터 콧물과 기침을 했고, 3일 전부터 열이 나고 보챘다. 체온 39.2℃이다. 환자의 고막 사진이다. 치료는?",
       "passage": "",
       "choices": [
         "배농",
@@ -20980,33 +22102,43 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ④\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n소아의 이관은 짧고 넓으며 수평적이어서 비인두 감염이 중이로 퍼지기 쉽다. 상기도 감염 뒤 '''발열·이통·보챔과 고막 팽륜'''이 나타나면 급성 중이염을 생각한다. 중이 삼출과 고막 소견을 함께 확인한다.\n\n||= 항목 ||= 기억할 내용 ||\n|| 흔한 원인균 || S. pneumoniae, H. influenzae, M. catarrhalis ||\n|| 이경 소견 || 팽륜·발적·혼탁, 중이 삼출, 고막 운동성 감소 ||\n|| 영아의 표현 || 보챔, 수유 감소, 발열 ||\n|| 대표 치료 || Amoxicillin, 상황에 따라 amoxicillin–clavulanate ||\n|| 재평가 || 48–72시간 뒤 호전 여부와 합병증 확인 ||\n\n\n'''표를 암기할 때에는 강의에 실린 2004년 연령별 관찰 기준을 기준으로 한다.''' 6개월 미만은 항생제, 6–23개월의 확실한 급성 중이염은 항생제, 24개월 이상에서 경증은 추적 가능한 조건에서 관찰이 가능하다. '''39℃ 이상의 고열 또는 중등도 이상의 이통'''은 적극적 항생제 치료를 선택하는 단서다. 반복된 영아 증례는 고열과 명확한 급성 증상을 제시하므로 amoxicillin을 고른다.\n\n고용량 amoxicillin은 강의에서 80–90 mg/kg/day로 제시한다. 최근 사용력·치료 실패·동반 질환에 따라 amoxicillin–clavulanate 등을 고려한다. 약물 알레르기는 반응 유형을 확인한 뒤 대체약을 정한다.\n\n> '''상기도 감염 뒤 고열·보챔 + 팽륜된 고막 → 급성 중이염 → 항생제와 통증 조절.''' 난치성 통증·치료 실패·유양돌기염·안면마비 등의 합병증에서는 고막천자·배농 여부를 평가한다.\n\n=== 선지별 해설 ===\n* 1번 · 배농: 치료 실패·심한 지속 통증·합병증 등에서 고막천자·배농을 검토한다. 이 증례의 단순 초기 치료로 바로 고르는 답은 아니다.\n* 2번 · 아스피린: 소아 바이러스 감염 맥락에서는 Reye syndrome 위험 때문에 해열제로 선택하지 않는다. 원인균 치료도 되지 않는다.\n* 3번 · 히드록시진: 항히스타민제이며 중이의 세균감염을 치료하는 약이 아니다.\n* 4번 · 아목시실린: 급성 중이염의 대표 항생제다. 어린 영아의 39℃ 이상 고열·보챔·고막 팽륜이면 항생제가 필요하다. 강의의 중증 치료표는 amoxicillin–clavulanate도 제시하지만 현재 선택지 중 항균치료는 amoxicillin이다.\n* 5번 · 프레드니솔론: 전신 steroid는 이 급성 세균성 중이염의 기본 치료가 아니다.\n\n[[40강#급성 중이염은 고막 팽륜과 전신 증상을 본다|Wiki · 급성 중이염은 고막 팽륜과 전신 증상을 본다]]\n\n~~근거: 38기 자료. / 임대현 소아과 호흡기총론각론 1–48슬라이드.~~~",
-      "images": [],
+      "answerLabel": "4번 — 아목시실린",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n정답: ④\n\n상기도 감염 뒤 고열과 보챔이 나타난 영아의 급성 중이염이다. 아목시실린으로 항균 치료하며, 해열·진통 등 지지치료를 병행한다. 배농이나 스테로이드를 일차 치료로 선택하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n소아의 이관은 짧고 넓으며 수평적이어서 비인두 감염이 중이로 퍼지기 쉽다. 상기도 감염 뒤 '''발열·이통·보챔과 고막 팽륜'''이 나타나면 급성 중이염을 생각한다. 중이 삼출과 고막 소견을 함께 확인한다.\n\n||= 항목 ||= 기억할 내용 ||\n|| 흔한 원인균 || S. pneumoniae, H. influenzae, M. catarrhalis ||\n|| 이경 소견 || 팽륜·발적·혼탁, 중이 삼출, 고막 운동성 감소 ||\n|| 영아의 표현 || 보챔, 수유 감소, 발열 ||\n|| 대표 치료 || Amoxicillin, 상황에 따라 amoxicillin–clavulanate ||\n|| 재평가 || 48–72시간 뒤 호전 여부와 합병증 확인 ||\n\n\n'''표를 암기할 때에는 강의에 실린 2004년 연령별 관찰 기준을 기준으로 한다.''' 6개월 미만은 항생제, 6–23개월의 확실한 급성 중이염은 항생제, 24개월 이상에서 경증은 추적 가능한 조건에서 관찰이 가능하다. '''39℃ 이상의 고열 또는 중등도 이상의 이통'''은 적극적 항생제 치료를 선택하는 단서다. 반복된 영아 증례는 고열과 명확한 급성 증상을 제시하므로 amoxicillin을 고른다.\n\n고용량 amoxicillin은 강의에서 80–90 mg/kg/day로 제시한다. 최근 사용력·치료 실패·동반 질환에 따라 amoxicillin–clavulanate 등을 고려한다. 약물 알레르기는 반응 유형을 확인한 뒤 대체약을 정한다.\n\n> '''상기도 감염 뒤 고열·보챔 + 팽륜된 고막 → 급성 중이염 → 항생제와 통증 조절.''' 난치성 통증·치료 실패·유양돌기염·안면마비 등의 합병증에서는 고막천자·배농 여부를 평가한다.\n\n=== 선지별 해설 ===\n* 1번 · 배농: 치료 실패·심한 지속 통증·합병증 등에서 고막천자·배농을 검토한다. 이 증례의 단순 초기 치료로 바로 고르는 답은 아니다.\n* 2번 · 아스피린: 소아 바이러스 감염 맥락에서는 Reye syndrome 위험 때문에 해열제로 선택하지 않는다. 원인균 치료도 되지 않는다.\n* 3번 · 히드록시진: 항히스타민제이며 중이의 세균감염을 치료하는 약이 아니다.\n* 4번 · 아목시실린: 급성 중이염의 대표 항생제다. 어린 영아의 39℃ 이상 고열·보챔·고막 팽륜이면 항생제가 필요하다. 강의의 중증 치료표는 amoxicillin–clavulanate도 제시하지만 현재 선택지 중 항균치료는 amoxicillin이다.\n* 5번 · 프레드니솔론: 전신 steroid는 이 급성 세균성 중이염의 기본 치료가 아니다.\n\n[[40강#급성 중이염은 고막 팽륜과 전신 증상을 본다|Wiki · 급성 중이염은 고막 팽륜과 전신 증상을 본다]]\n\n~~근거: 38기 자료. / 임대현 소아과 호흡기총론각론 1–48슬라이드.~~~\n\n~~사진 보완: 2023 공식 원본에 수록되지 않은 영상은 반복 출제 증례인 {{93}}의 사진을 재사용했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.99. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2025/q093_01.jpg"
+      ],
       "legacyProfessor": "임대현",
       "professor": "임대현",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.99 출제자란 확인",
       "lectureIds": [
         40
       ],
       "lectureId": 40,
       "lectureTitle": "소아호흡기학 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 99번",
-      "mappingConfidence": "low",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.99",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요.",
-        "재검토: 임대현의 연속 4문항을 1시간 총론·1시간 각론에 2+2로 나눈 작업상 잠정안이다. 중이염·부비동염을 한 묶음으로 총론에 두었으나 합본에 강의 경계가 없어 총론 귀속은 내용으로 확정되지 않았다."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "file": "J/2025/q093_01.jpg",
+          "method": "repeated_question_image_reuse",
+          "sourceGlobalNumber": 93,
+          "sourceQuestionId": "2025-093",
+          "sourceYear": 2025,
+          "source": "2025 호흡기계 93번",
+          "note": "2023 공식 원본의 미수록 사진을 반복 출제 증례의 사진으로 보완.",
+          "date": "2026-10-27"
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [
         "R038"
       ],
@@ -21031,11 +22163,32 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "급성 중이염은 고막 팽륜과 전신 증상을 본다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 99,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "imageRestoration": "repeated_question_image_reuse"
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 99,
+        "professor": "임대현",
+        "lecture": "소아호흡기총론/각론1",
+        "question": "5개월 남아가 열이 나서 병원에 왔다. 7일 전부터 콧물과 기침을 했고, 3일 전부터 열이 나고\n보챘다. 체온 39.2℃ 이다.  환자의 고막 사진이다.  치료는?",
+        "choices": [
+          "배농",
+          "아스피린",
+          "히드록시진",
+          "아목시실린",
+          "프레드니솔론"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21062,37 +22215,38 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답: ⑤\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n부비동 자연공이 막히면 분비물 배출과 섬모운동이 저하되고 세균이 증식한다. 흔한 원인균은 폐렴구균, 비피막형 H. influenzae, M. catarrhalis이다.\n* '''10일 넘게 호전 없이 지속되는 비루·기침''', 호전 후 다시 악화하는 경과, 심한 발열·농성 비루가 세균성 감염을 뒷받침한다.\n* 소아는 기침과 후비루가 두드러진다. 비강에서 점막부종과 중비도의 화농성 분비물을 확인한다.\n* 강의 영상은 부비동 혼탁, 공기–액체층, 점막 비후를 보여준다. 합병증이나 특수한 상황에서는 CT 등을 평가한다.\n* 강의의 기본 항생제는 amoxicillin 계열이다. 반복 증례의 선택지는 '''amoxicillin–clavulanate'''이다.\n* 안와 주위 부종, 안구운동 장애, 심한 두통·신경학적 증상은 안와·두개내 합병증을 살펴야 하는 신호다.\n\n=== 선지별 해설 ===\n* 1번 · 부데소니드: Budesonide는 steroid다. 비강 염증에 보조적으로 쓸 수 있으나 이 세균성 증례의 핵심 항생제 치료를 대신하지 않는다.\n* 2번 · 레보세티리진: 항히스타민제는 알레르기 증상에 쓰는 약이다. 수주간 지속되고 발열이 생긴 세균성 부비동염의 항균치료를 대신하지 않는다.\n* 3번 · 프레드니솔론: 전신 steroid는 이 단순 급성 세균성 부비동염의 우선 치료가 아니다.\n* 4번 · 클라리트로마이신: Macrolide로 비정형균·특정 알레르기 상황 등에서 사용되지만, 이 부비동염에서 폐렴구균·H. influenzae 등을 고려한 우선 선택은 amoxicillin 계열이다.\n* 5번 · 아목시실린+클라불란산: 10일 넘는 비루·기침과 새 발열, 비강·부비동 소견은 세균성 부비동염을 지지한다. β-lactamase 생성균까지 고려하는 amoxicillin–clavulanate가 제시된 최선 치료다.\n\n[[40강#부비동염은 증상의 지속과 악화가 중요하다|Wiki · 부비동염은 증상의 지속과 악화가 중요하다]]\n\n~~근거: 38기 자료. / 임대현 소아과 호흡기총론각론 1–48슬라이드.~~~",
+      "answerLabel": "5번 — 아목시실린+클라불란산",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n정답: ⑤\n\n기침·콧물 등 상기도 증상이 10일 넘게 호전되지 않고 발열까지 더해져 급성 세균성 부비동염에 합당하다. 아목시실린–클라불란산을 선택하며, 항히스타민제나 스테로이드만으로 원인 치료를 대신할 수 없다.\n\n=== 이 문항을 풀기 위한 개념 ===\n부비동 자연공이 막히면 분비물 배출과 섬모운동이 저하되고 세균이 증식한다. 흔한 원인균은 폐렴구균, 비피막형 H. influenzae, M. catarrhalis이다.\n* '''10일 넘게 호전 없이 지속되는 비루·기침''', 호전 후 다시 악화하는 경과, 심한 발열·농성 비루가 세균성 감염을 뒷받침한다.\n* 소아는 기침과 후비루가 두드러진다. 비강에서 점막부종과 중비도의 화농성 분비물을 확인한다.\n* 강의 영상은 부비동 혼탁, 공기–액체층, 점막 비후를 보여준다. 합병증이나 특수한 상황에서는 CT 등을 평가한다.\n* 강의의 기본 항생제는 amoxicillin 계열이다. 반복 증례의 선택지는 '''amoxicillin–clavulanate'''이다.\n* 안와 주위 부종, 안구운동 장애, 심한 두통·신경학적 증상은 안와·두개내 합병증을 살펴야 하는 신호다.\n\n=== 선지별 해설 ===\n* 1번 · 부데소니드: Budesonide는 steroid다. 비강 염증에 보조적으로 쓸 수 있으나 이 세균성 증례의 핵심 항생제 치료를 대신하지 않는다.\n* 2번 · 레보세티리진: 항히스타민제는 알레르기 증상에 쓰는 약이다. 수주간 지속되고 발열이 생긴 세균성 부비동염의 항균치료를 대신하지 않는다.\n* 3번 · 프레드니솔론: 전신 steroid는 이 단순 급성 세균성 부비동염의 우선 치료가 아니다.\n* 4번 · 클라리트로마이신: Macrolide로 비정형균·특정 알레르기 상황 등에서 사용되지만, 이 부비동염에서 폐렴구균·H. influenzae 등을 고려한 우선 선택은 amoxicillin 계열이다.\n* 5번 · 아목시실린+클라불란산: 10일 넘는 비루·기침과 새 발열, 비강·부비동 소견은 세균성 부비동염을 지지한다. β-lactamase 생성균까지 고려하는 amoxicillin–clavulanate가 제시된 최선 치료다.\n\n[[40강#부비동염은 증상의 지속과 악화가 중요하다|Wiki · 부비동염은 증상의 지속과 악화가 중요하다]]\n\n~~근거: 38기 자료. / 임대현 소아과 호흡기총론각론 1–48슬라이드.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.100. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q100_01.jpg"
+        "J/2023/official-p100.jpg"
       ],
       "legacyProfessor": "임대현",
       "professor": "임대현",
-      "examinerStatus": "reconstruction_label_supported",
-      "examinerEvidence": "복원 문서의 문항 교수명 표기와 37기 시간표 교차 확인",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.100 출제자란 확인",
       "lectureIds": [
         40
       ],
       "lectureId": 40,
       "lectureTitle": "소아호흡기학 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 100번",
-      "mappingConfidence": "low",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.100",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 임대현의 연속 4문항을 1시간 총론·1시간 각론에 2+2로 나눈 작업상 잠정안이다. 중이염·부비동염을 한 묶음으로 총론에 두었으나 합본에 강의 경계가 없어 총론 귀속은 내용으로 확정되지 않았다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q100_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 100,
+          "file": "J/2023/official-p100.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 3
         }
       ],
       "repeatFamilyIds": [
@@ -21119,11 +22273,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-24",
-        "scope": "lectures39_46",
-        "chapter": "부비동염은 증상의 지속과 악화가 중요하다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 100,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 100,
+        "professor": "임대현",
+        "lecture": "소아호흡기각론1",
+        "question": "7세 남아가 38.1℃ 열이 있어서 병원에 왔다. 환자는 20일전부터 기침과 가래가 있었는데 증\n상이 좋아지지 않았고 지속되었으며, 3일전부터는 열이 났다. 신체검사에서 인두 발적이 있으\n며, 호흡음에는 특이 소견은 없었다.  코안 사진과 부비동 X선 사진이다. 치료는?\n\n",
+        "choices": [
+          "부데소니드",
+          "레보세티리진",
+          "프레드니솔론",
+          "클라리트로마이신",
+          "아목시실린+클라불란산"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21138,7 +22312,7 @@ window.JBL_DATA = {
         101
       ],
       "question": "10개월 아이가 쌕쌕거려서 병원에 왔다. 4일 전에 기침과 콧물이 있었고, 체온 37.7℃, 호흡수 40회/분이었다. 이전에 쌕쌕거린 적은 없었다. 가슴 X선 사진과 혈액검사는 다음과 같았다. 치료는?",
-      "passage": "",
+      "passage": "Hb 12.6 g/dL\nWBC 12,200/mm³ (Neutrophil 44%, Lymphocyte 54%)\nESR 16 mm/hr (참고치 20 mm/hr 이하)\nC-활성단백질 0.7 g/dL (0–0.9 g/dL)",
       "choices": [
         "살부타몰",
         "아목시실린",
@@ -21150,37 +22324,38 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ① 살부타몰",
-      "explanation": "정답: ① 살부타몰\n\n=== 풀이의 핵심 ===\n이 반복 출제군에서는 '''살부타몰(salbutamol)'''을 정답으로 정리한다. 영아가 감기 증상 뒤 처음 천명을 보이는 양상은 '''급성 세기관지염'''에 해당하며, 제시된 약물 중 '''기관지를 확장하는 속효성 β₂ 작용제'''를 고르는 것이 이 족보의 출제 의도로 해석된다.\n\n이 문제의 약물 선택은 '''천명 → 기도 폐쇄 → 기관지 평활근을 이완하는 약'''의 연결로 기억한다. 콧물이 있다는 이유로 항히스타민제를, 기침이 있다는 이유로 항생제나 점액용해제를 고르는 문제가 아니다. 정답은 번호보다 '''살부타몰이라는 약 이름'''으로 기억해야 한다. 연도에 따라 선지 순서가 달라진다.\n\n=== 선지별 해설 ===\n* 1번 · '''살부타몰''': 이 반복 출제군의 정답이다. '''속효성 β₂ 작용제(SABA)'''로 기관지 평활근을 이완한다. 출제 의도는 천명을 기관지확장제와 연결하는 것으로 해석한다.\n* 2번 · '''아목시실린''': β-lactam계 항생제로 세균의 세포벽 합성을 억제한다. 선행 감기 뒤 첫 천명이 발생한 이 증례에서 세균감염을 치료하는 약을 선택할 근거는 부족하다.\n* 3번 · '''히드록시진''': H₁ 항히스타민제다. 알레르기 증상에 사용하는 약이며 기관지 평활근을 직접 이완하는 SABA가 아니다.\n* 4번 · '''덱사메타손''': Glucocorticoid로 항염증 작용을 한다. 개 짖는 듯한 기침·흡기성 stridor가 특징인 크룹에서는 중요하지만, 이 문항의 천명에 대응하는 속효성 기관지확장제는 아니다. 세기관지염에 일상적으로 사용하는 약도 아니다.\n* 5번 · '''아세틸시스테인''': 점액의 이황화결합을 끊는 점액용해제다. 기관지 평활근을 이완하지 않으며 흡입 시 기관지경련을 유발할 수 있다. 이 반복 문항에서 선택하는 약은 살부타몰이다.\n\n=== 영아의 첫 천명을 읽는 순서 ===\n세기관지염은 흔히 '''RSV·rhinovirus''' 감염 뒤 세기관지의 부종과 분비물로 작은 기도가 좁아지는 질환이다. 콧물·기침·미열이 먼저 생기고, 이후 천명·빈호흡·수유 감소가 나타날 수 있다.\n\n||= 증례 단서 ||= 해석 ||\n|| '''1세 미만 영아''' || 세기관지염이 흔한 연령 ||\n|| '''며칠 전 콧물·기침''' || 선행 바이러스성 상기도 감염 ||\n|| '''이전에 없던 첫 천명''' || 급성 세기관지염을 우선 고려 ||\n|| 빈호흡·흉벽 함몰·수유 감소 || 호흡곤란과 중증도 평가에 활용 ||\n|| SpO₂·무호흡·탈수 || 산소·수분·호흡보조 필요성을 판단 ||\n|| 반복 천명·아토피·천식 가족력 || 반복성 바이러스 유발 천명·천식 평가에서 함께 고려 ||\n\n=== 살부타몰은 무엇을 하는 약인가 ===\n'''Salbutamol = albuterol = SABA'''다. 기관지 평활근의 '''β₂ 수용체 → adenylyl cyclase 활성화 → cAMP 증가 → 평활근 이완'''으로 기관지를 확장한다. 빠르게 작용하는 증상 완화 약이며, 항생제·항히스타민제·점액용해제와 작용 대상이 다르다.\n\n||= 약물 범주 ||= 대표 약물 ||= 핵심 작용 ||\n|| '''속효성 β₂ 작용제''' || '''살부타몰''' || '''기관지 평활근 이완·빠른 기관지 확장''' ||\n|| β-lactam 항생제 || 아목시실린 || 세균 세포벽 합성 억제 ||\n|| Macrolide 항생제 || 에리스로마이신 || 세균 단백질 합성 억제 ||\n|| H₁ 항히스타민제 || 히드록시진 || 히스타민 작용 억제 ||\n|| Glucocorticoid || 덱사메타손 || 항염증 작용 ||\n|| 점액용해제 || 아세틸시스테인 || 점액의 이황화결합 분해 ||\n\n살부타몰의 대표 이상반응은 '''손떨림·빈맥·저칼륨혈증'''이다. 저칼륨혈증은 β₂ 자극으로 칼륨이 세포 안으로 이동하는 것과 연결한다.\n\n=== 족보의 정답과 진료 원칙 ===\n'''이 반복 족보의 채점 정답은 살부타몰'''이다. 다만 전형적인 영아 세기관지염의 기본 치료는 산소화·수분·수유 상태에 맞춘 '''지지치료'''이며, 현재 지침은 살부타몰의 사용을 권하지 않는다. 세기관지염의 기도 폐쇄에는 평활근 수축뿐 아니라 부종과 분비물이 중요하므로, 이 족보의 정답을 모든 세기관지염 환자에게 적용하는 치료 원칙으로 일반화하지 않는다.\n\n~~정답은 사용자가 확인해 준 반복 출제군의 답을 반영하였다. 공식 정답표를 새로 확인했다는 의미는 아니다. 진료 기준: [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations NICE NG9].~~~\n\n[[41강#세기관지염은 영아의 첫 천명과 선행 감기를 본다|Wiki · 세기관지염은 영아의 첫 천명과 선행 감기를 본다]]\n\n~~개념 근거: 41강 Wiki 및 38기 자료.~~~",
+      "answerLabel": "1번 — 살부타몰",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: ① 살부타몰\n\n=== 풀이의 핵심 ===\n이 반복 출제군에서는 '''살부타몰(salbutamol)'''을 정답으로 정리한다. 영아가 감기 증상 뒤 처음 천명을 보이는 양상은 '''급성 세기관지염'''에 해당하며, 제시된 약물 중 '''기관지를 확장하는 속효성 β₂ 작용제'''를 고르는 것이 이 족보의 출제 의도로 해석된다.\n\n이 문제의 약물 선택은 '''천명 → 기도 폐쇄 → 기관지 평활근을 이완하는 약'''의 연결로 기억한다. 콧물이 있다는 이유로 항히스타민제를, 기침이 있다는 이유로 항생제나 점액용해제를 고르는 문제가 아니다. 정답은 번호보다 '''살부타몰이라는 약 이름'''으로 기억해야 한다. 연도에 따라 선지 순서가 달라진다.\n\n=== 선지별 해설 ===\n* 1번 · '''살부타몰''': 이 반복 출제군의 정답이다. '''속효성 β₂ 작용제(SABA)'''로 기관지 평활근을 이완한다. 출제 의도는 천명을 기관지확장제와 연결하는 것으로 해석한다.\n* 2번 · '''아목시실린''': β-lactam계 항생제로 세균의 세포벽 합성을 억제한다. 선행 감기 뒤 첫 천명이 발생한 이 증례에서 세균감염을 치료하는 약을 선택할 근거는 부족하다.\n* 3번 · '''히드록시진''': H₁ 항히스타민제다. 알레르기 증상에 사용하는 약이며 기관지 평활근을 직접 이완하는 SABA가 아니다.\n* 4번 · '''덱사메타손''': Glucocorticoid로 항염증 작용을 한다. 개 짖는 듯한 기침·흡기성 stridor가 특징인 크룹에서는 중요하지만, 이 문항의 천명에 대응하는 속효성 기관지확장제는 아니다. 세기관지염에 일상적으로 사용하는 약도 아니다.\n* 5번 · '''아세틸시스테인''': 점액의 이황화결합을 끊는 점액용해제다. 기관지 평활근을 이완하지 않으며 흡입 시 기관지경련을 유발할 수 있다. 이 반복 문항에서 선택하는 약은 살부타몰이다.\n\n=== 영아의 첫 천명을 읽는 순서 ===\n세기관지염은 흔히 '''RSV·rhinovirus''' 감염 뒤 세기관지의 부종과 분비물로 작은 기도가 좁아지는 질환이다. 콧물·기침·미열이 먼저 생기고, 이후 천명·빈호흡·수유 감소가 나타날 수 있다.\n\n||= 증례 단서 ||= 해석 ||\n|| '''1세 미만 영아''' || 세기관지염이 흔한 연령 ||\n|| '''며칠 전 콧물·기침''' || 선행 바이러스성 상기도 감염 ||\n|| '''이전에 없던 첫 천명''' || 급성 세기관지염을 우선 고려 ||\n|| 빈호흡·흉벽 함몰·수유 감소 || 호흡곤란과 중증도 평가에 활용 ||\n|| SpO₂·무호흡·탈수 || 산소·수분·호흡보조 필요성을 판단 ||\n|| 반복 천명·아토피·천식 가족력 || 반복성 바이러스 유발 천명·천식 평가에서 함께 고려 ||\n\n=== 살부타몰은 무엇을 하는 약인가 ===\n'''Salbutamol = albuterol = SABA'''다. 기관지 평활근의 '''β₂ 수용체 → adenylyl cyclase 활성화 → cAMP 증가 → 평활근 이완'''으로 기관지를 확장한다. 빠르게 작용하는 증상 완화 약이며, 항생제·항히스타민제·점액용해제와 작용 대상이 다르다.\n\n||= 약물 범주 ||= 대표 약물 ||= 핵심 작용 ||\n|| '''속효성 β₂ 작용제''' || '''살부타몰''' || '''기관지 평활근 이완·빠른 기관지 확장''' ||\n|| β-lactam 항생제 || 아목시실린 || 세균 세포벽 합성 억제 ||\n|| Macrolide 항생제 || 에리스로마이신 || 세균 단백질 합성 억제 ||\n|| H₁ 항히스타민제 || 히드록시진 || 히스타민 작용 억제 ||\n|| Glucocorticoid || 덱사메타손 || 항염증 작용 ||\n|| 점액용해제 || 아세틸시스테인 || 점액의 이황화결합 분해 ||\n\n살부타몰의 대표 이상반응은 '''손떨림·빈맥·저칼륨혈증'''이다. 저칼륨혈증은 β₂ 자극으로 칼륨이 세포 안으로 이동하는 것과 연결한다.\n\n=== 족보의 정답과 진료 원칙 ===\n'''이 반복 족보의 채점 정답은 살부타몰'''이다. 다만 전형적인 영아 세기관지염의 기본 치료는 산소화·수분·수유 상태에 맞춘 '''지지치료'''이며, 현재 지침은 살부타몰의 사용을 권하지 않는다. 세기관지염의 기도 폐쇄에는 평활근 수축뿐 아니라 부종과 분비물이 중요하므로, 이 족보의 정답을 모든 세기관지염 환자에게 적용하는 치료 원칙으로 일반화하지 않는다.\n\n~~정답은 사용자가 확인해 준 반복 출제군의 답을 반영하였다.  진료 기준: [https://www.nice.org.uk/guidance/ng9/chapter/Recommendations NICE NG9].~~~\n\n[[41강#세기관지염은 영아의 첫 천명과 선행 감기를 본다|Wiki · 세기관지염은 영아의 첫 천명과 선행 감기를 본다]]\n\n~~개념 근거: 41강 Wiki 및 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.101. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q101_01.jpg"
+        "J/2023/official-p101.jpg"
       ],
       "legacyProfessor": "임대현",
       "professor": "임대현",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.101 출제자란 확인",
       "lectureIds": [
         41
       ],
       "lectureId": 41,
       "lectureTitle": "소아호흡기학 각론I",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 101번",
-      "mappingConfidence": "low",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "소아청소년과",
+      "section": "소아호흡기",
+      "source": "2023 호흡기계 원본 p.101",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "재검토: 임대현의 4문항 중 크루프·세기관지염을 각론 묶음으로 두어 40·41강 각각 2문항으로 잠정 구분했다. 합본에는 강의 경계가 없어 강의별 귀속은 미확정이다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q101_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 101,
+          "file": "J/2023/official-p101.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [
@@ -21207,13 +22382,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-25",
-        "scope": "lectures39_46",
-        "chapter": "세기관지염은 영아의 첫 천명과 선행 감기를 본다",
-        "originalPreserved": true,
-        "officialAnswerNewlyVerified": false,
-        "answerStatus": "user_confirmed_repeat_family_answer",
-        "answerBasis": "사용자 확인: 임대현 교수 반복 세기관지염 문항의 정답은 살부타몰"
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 101,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 101,
+        "professor": "임대현",
+        "lecture": "소아호흡기각론1",
+        "question": "10개월 아이가 쌕쌕거려서 병원에 왔다. 4일전에 기침과 콧물이 있었고, 체온 37.7℃, 호흡수\n40회/분 이었다. 이전에 쌕쌕거린 적은 없었다. 가슴 X선 사진과 혈액검사는 다음과 같았다.\n치료는?\nHb 12.6 g/dL, WBC 12,200/mm3 (Neutrophil 44%, Lymphocyte 54%),\nESR 16 mm/hr (참고치 20 mm/hr 이하),  C-활성단백질  0.7 g/dL ( 0-0.9 g/dL)",
+        "choices": [
+          "살부타몰",
+          "아목시실린",
+          "히드록시진",
+          "덱사메타손",
+          "아세틸시스테인"
+        ],
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21240,52 +22433,57 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤\n\n=== 풀이의 핵심 ===\n직업성 질환의 원인을 찾으려면 먼저 어떤 작업에서 어떤 물질에 얼마나 노출되었는지 알아야 한다. 영상이나 폐기능검사로 병의 존재를 확인해도 이 연결이 빠지면 직업성 원인을 놓친다. 따라서 “가장 유용한 자료”는 상세한 직업력 조사다.\n\n이 답은 원인 물질 확인의 표준 검사인 직접유발검사와 모순되지 않는다. 문진은 출발점이고, 특정 물질이 실제로 천식을 유발하는지 확인하는 검사는 그다음 단계다. 과거 직업과 실제 공정, 주말·휴가의 호전, 근무 후 지연성 악화를 함께 확인한다.\n\n=== 선지별 해설 ===\n* 1번: 특정 항원에 대한 감작을 평가하는 데 도움이 된다. 검사 가능한 항원이 제한되고 감작 양성만으로 임상 질환이나 작업과의 인과성을 확정할 수 없다.\n* 2번: 특정 물질의 원인성을 확인하는 기준 검사지만, 모든 직업성폐질환에 적용하는 첫 단계의 자료는 아니다. 상세한 노출력을 통해 검사할 물질과 적응증부터 정해야 한다.\n* 3번: 비특이적인 기도 과민성을 평가한다. FEV₁ 20% 감소와 관련된 반응을 확인하지만, 양성이라고 특정 직업 물질이 원인이라고 확정할 수는 없다.\n* 4번: PEFR를 연속 측정해 근무일·휴일의 기류 변화를 비교하면 작업 관련성을 뒷받침한다. 단회 측정이나 변화 자체가 특정 물질의 원인성을 완전히 증명하지는 않는다.\n* 5번: 정답이다. 실제 작업·물질·기간과 증상의 시간 관계를 연결하는 진단의 출발점이다. 과거 직업, 집과 취미의 노출까지 확인한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n직업성 천식의 진단에는 '''천식이 있다는 증거'''와 '''작업 노출과의 관계'''가 모두 필요하다. 근무 중에만 증상이 생기거나 주말·휴가에 좋아지는지, 작업이 끝난 뒤 늦게 악화되는지, 주중에 갈수록 심해지는지를 묻는다.\n\n||= 방법 ||= 무엇을 확인하는가 ||= 한계와 위치 ||\n|| 직업력·환경력 || 증상과 노출의 시간적 연결 || 가장 유용한 출발 자료지만 문진만으로 인과성을 확정하지는 않는다. ||\n|| Spirometry·기관지확장제 반응 || 가변적인 기류 제한 || 천식을 확인하는 단계다. ||\n|| Methacholine challenge || 비특이적 기도 과민성 || FEV₁ 20% 감소가 기준이 되는 검사다. 특정 작업 물질이 원인인지는 직접 증명하지 못한다. ||\n|| 연속 PEFR || 근무일과 비근무일의 기류 변동 || 시간적 관계를 객관화한다. 측정 방법·노력·기록의 질을 함께 평가한다. ||\n|| 면역학적 검사 || 특정 항원에 대한 감작 || 가능한 항원에 한해 유용하며, 감작 양성만으로 임상적 직업성 천식을 확진하지 않는다. ||\n|| \"\"특이 흡입유발검사·직접유발검사\"\" || 의심되는 원인 물질을 통제된 조건에서 흡입한 뒤의 기도 반응 || 원인 물질 확인의 기준 검사. 비용과 위험 때문에 전문 센터에서 시행하며 모든 환자의 첫 검사는 아니다. ||\n\n특이 유발검사에서는 조기 반응이 30분 이내, 후기 반응이 4–8시간에 나타나거나 두 반응이 함께 생길 수 있다. 따라서 근무가 끝난 뒤의 악화도 작업과 무관하다고 볼 수 없다.\n\n[[26강#직업명보다 실제로 한 일을 묻는다|직업명보다 실제로 한 일을 묻는다]]\n\n~~근거: 39기 「26. 직업성폐질환」 20·30–32·41쪽; 38기 자료.~~~",
+      "answerLabel": "5번 — 직업력 조사",
+      "explanation": "'''공식 정답: 5번'''\n\n정답: ⑤\n\n=== 풀이의 핵심 ===\n직업성 질환의 원인을 찾으려면 먼저 어떤 작업에서 어떤 물질에 얼마나 노출되었는지 알아야 한다. 영상이나 폐기능검사로 병의 존재를 확인해도 이 연결이 빠지면 직업성 원인을 놓친다. 따라서 “가장 유용한 자료”는 상세한 직업력 조사다.\n\n이 답은 원인 물질 확인의 표준 검사인 직접유발검사와 모순되지 않는다. 문진은 출발점이고, 특정 물질이 실제로 천식을 유발하는지 확인하는 검사는 그다음 단계다. 과거 직업과 실제 공정, 주말·휴가의 호전, 근무 후 지연성 악화를 함께 확인한다.\n\n=== 선지별 해설 ===\n* 1번: 특정 항원에 대한 감작을 평가하는 데 도움이 된다. 검사 가능한 항원이 제한되고 감작 양성만으로 임상 질환이나 작업과의 인과성을 확정할 수 없다.\n* 2번: 특정 물질의 원인성을 확인하는 기준 검사지만, 모든 직업성폐질환에 적용하는 첫 단계의 자료는 아니다. 상세한 노출력을 통해 검사할 물질과 적응증부터 정해야 한다.\n* 3번: 비특이적인 기도 과민성을 평가한다. FEV₁ 20% 감소와 관련된 반응을 확인하지만, 양성이라고 특정 직업 물질이 원인이라고 확정할 수는 없다.\n* 4번: PEFR를 연속 측정해 근무일·휴일의 기류 변화를 비교하면 작업 관련성을 뒷받침한다. 단회 측정이나 변화 자체가 특정 물질의 원인성을 완전히 증명하지는 않는다.\n* 5번: 정답이다. 실제 작업·물질·기간과 증상의 시간 관계를 연결하는 진단의 출발점이다. 과거 직업, 집과 취미의 노출까지 확인한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n직업성 천식의 진단에는 '''천식이 있다는 증거'''와 '''작업 노출과의 관계'''가 모두 필요하다. 근무 중에만 증상이 생기거나 주말·휴가에 좋아지는지, 작업이 끝난 뒤 늦게 악화되는지, 주중에 갈수록 심해지는지를 묻는다.\n\n||= 방법 ||= 무엇을 확인하는가 ||= 한계와 위치 ||\n|| 직업력·환경력 || 증상과 노출의 시간적 연결 || 가장 유용한 출발 자료지만 문진만으로 인과성을 확정하지는 않는다. ||\n|| Spirometry·기관지확장제 반응 || 가변적인 기류 제한 || 천식을 확인하는 단계다. ||\n|| Methacholine challenge || 비특이적 기도 과민성 || FEV₁ 20% 감소가 기준이 되는 검사다. 특정 작업 물질이 원인인지는 직접 증명하지 못한다. ||\n|| 연속 PEFR || 근무일과 비근무일의 기류 변동 || 시간적 관계를 객관화한다. 측정 방법·노력·기록의 질을 함께 평가한다. ||\n|| 면역학적 검사 || 특정 항원에 대한 감작 || 가능한 항원에 한해 유용하며, 감작 양성만으로 임상적 직업성 천식을 확진하지 않는다. ||\n|| \"\"특이 흡입유발검사·직접유발검사\"\" || 의심되는 원인 물질을 통제된 조건에서 흡입한 뒤의 기도 반응 || 원인 물질 확인의 기준 검사. 비용과 위험 때문에 전문 센터에서 시행하며 모든 환자의 첫 검사는 아니다. ||\n\n특이 유발검사에서는 조기 반응이 30분 이내, 후기 반응이 4–8시간에 나타나거나 두 반응이 함께 생길 수 있다. 따라서 근무가 끝난 뒤의 악화도 작업과 무관하다고 볼 수 없다.\n\n[[26강#직업명보다 실제로 한 일을 묻는다|직업명보다 실제로 한 일을 묻는다]]\n\n~~근거: 39기 「26. 직업성폐질환」 20·30–32·41쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.102. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.102 출제자란 확인",
       "lectureIds": [
         26
       ],
       "lectureId": 26,
       "lectureTitle": "직업성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 102번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "직업환경의학",
+      "source": "2023 호흡기계 원본 p.102",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture26_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 102,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\26. 직업성폐질환_강의록.pdf",
-            "description": "39기 「26. 직업성폐질환」 20·30–32·41쪽; 38기 자료"
-          },
-          {
-            "kind": "prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 102,
+        "professor": "임종한",
+        "lecture": "직업성폐질환",
+        "question": "직업성폐질환을 진단할 가장 유용성이 있는 자료는?",
+        "choices": [
+          "면역학적 검사",
+          "직접 유발 검사",
+          "메타콜린검사",
+          "최대호기속도검사",
+          "직업력조사"
         ],
-        "basis": "39기 「26. 직업성폐질환」 20·30–32·41쪽; 38기 자료",
-        "chapter": "직업명보다 실제로 한 일을 묻는다"
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21312,52 +22510,57 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "정답: ②\n\n=== 풀이의 핵심 ===\n이 문항은 직업성 천식이 의심된다는 데서 한 단계 더 나아가 “어떤 물질이 원인인가”를 묻는다. 의심 물질을 통제된 조건에서 흡입시킨 뒤 폐기능 반응을 확인하는 특이 흡입유발검사, 즉 직접유발검사가 기준 검사가 된다.\n\nMethacholine은 기도가 자극에 예민하다는 비특이적 과민성을 보여 줄 뿐, 특정 작업 물질의 원인성을 직접 입증하지 못한다. PEFR는 근무와 기류 변동의 관계를 보여 주고, 면역학적 검사는 해당 항원에 대한 감작을 평가한다. 직접유발검사는 위험과 비용이 있어 전문 센터에서 시행하며 일상적인 첫 검사라는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 특정 항원에 대한 감작을 평가하는 데 도움이 된다. 검사 가능한 항원이 제한되고 감작 양성만으로 임상 질환이나 작업과의 인과성을 확정할 수 없다.\n* 2번: 정답이다. 의심 물질을 통제된 조건에서 흡입시키고 폐기능 반응을 평가한다. 원인 물질 확인의 기준 검사이며, 위험 때문에 전문 센터에서 시행한다.\n* 3번: 비특이적인 기도 과민성을 평가한다. FEV₁ 20% 감소와 관련된 반응을 확인하지만, 양성이라고 특정 직업 물질이 원인이라고 확정할 수는 없다.\n* 4번: PEFR를 연속 측정해 근무일·휴일의 기류 변화를 비교하면 작업 관련성을 뒷받침한다. 단회 측정이나 변화 자체가 특정 물질의 원인성을 완전히 증명하지는 않는다.\n* 5번: 가장 중요한 출발 자료이지만, 의심되는 특정 물질을 직접 노출시켜 원인성을 확인하는 검사는 아니다. “가장 유용한 자료”를 묻는 문제에서는 답이 될 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n직업성 천식의 진단에는 '''천식이 있다는 증거'''와 '''작업 노출과의 관계'''가 모두 필요하다. 근무 중에만 증상이 생기거나 주말·휴가에 좋아지는지, 작업이 끝난 뒤 늦게 악화되는지, 주중에 갈수록 심해지는지를 묻는다.\n\n||= 방법 ||= 무엇을 확인하는가 ||= 한계와 위치 ||\n|| 직업력·환경력 || 증상과 노출의 시간적 연결 || 가장 유용한 출발 자료지만 문진만으로 인과성을 확정하지는 않는다. ||\n|| Spirometry·기관지확장제 반응 || 가변적인 기류 제한 || 천식을 확인하는 단계다. ||\n|| Methacholine challenge || 비특이적 기도 과민성 || FEV₁ 20% 감소가 기준이 되는 검사다. 특정 작업 물질이 원인인지는 직접 증명하지 못한다. ||\n|| 연속 PEFR || 근무일과 비근무일의 기류 변동 || 시간적 관계를 객관화한다. 측정 방법·노력·기록의 질을 함께 평가한다. ||\n|| 면역학적 검사 || 특정 항원에 대한 감작 || 가능한 항원에 한해 유용하며, 감작 양성만으로 임상적 직업성 천식을 확진하지 않는다. ||\n|| \"\"특이 흡입유발검사·직접유발검사\"\" || 의심되는 원인 물질을 통제된 조건에서 흡입한 뒤의 기도 반응 || 원인 물질 확인의 기준 검사. 비용과 위험 때문에 전문 센터에서 시행하며 모든 환자의 첫 검사는 아니다. ||\n\n특이 유발검사에서는 조기 반응이 30분 이내, 후기 반응이 4–8시간에 나타나거나 두 반응이 함께 생길 수 있다. 따라서 근무가 끝난 뒤의 악화도 작업과 무관하다고 볼 수 없다.\n\n[[26강#천식의 존재와 원인 물질의 확인은 다른 단계다|천식의 존재와 원인 물질의 확인은 다른 단계다]]\n\n~~근거: 39기 「26. 직업성폐질환」 20·41쪽; 38기 자료.~~~",
+      "answerLabel": "2번 — 직접유발검사",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: ②\n\n=== 풀이의 핵심 ===\n이 문항은 직업성 천식이 의심된다는 데서 한 단계 더 나아가 “어떤 물질이 원인인가”를 묻는다. 의심 물질을 통제된 조건에서 흡입시킨 뒤 폐기능 반응을 확인하는 특이 흡입유발검사, 즉 직접유발검사가 기준 검사가 된다.\n\nMethacholine은 기도가 자극에 예민하다는 비특이적 과민성을 보여 줄 뿐, 특정 작업 물질의 원인성을 직접 입증하지 못한다. PEFR는 근무와 기류 변동의 관계를 보여 주고, 면역학적 검사는 해당 항원에 대한 감작을 평가한다. 직접유발검사는 위험과 비용이 있어 전문 센터에서 시행하며 일상적인 첫 검사라는 뜻은 아니다.\n\n=== 선지별 해설 ===\n* 1번: 특정 항원에 대한 감작을 평가하는 데 도움이 된다. 검사 가능한 항원이 제한되고 감작 양성만으로 임상 질환이나 작업과의 인과성을 확정할 수 없다.\n* 2번: 정답이다. 의심 물질을 통제된 조건에서 흡입시키고 폐기능 반응을 평가한다. 원인 물질 확인의 기준 검사이며, 위험 때문에 전문 센터에서 시행한다.\n* 3번: 비특이적인 기도 과민성을 평가한다. FEV₁ 20% 감소와 관련된 반응을 확인하지만, 양성이라고 특정 직업 물질이 원인이라고 확정할 수는 없다.\n* 4번: PEFR를 연속 측정해 근무일·휴일의 기류 변화를 비교하면 작업 관련성을 뒷받침한다. 단회 측정이나 변화 자체가 특정 물질의 원인성을 완전히 증명하지는 않는다.\n* 5번: 가장 중요한 출발 자료이지만, 의심되는 특정 물질을 직접 노출시켜 원인성을 확인하는 검사는 아니다. “가장 유용한 자료”를 묻는 문제에서는 답이 될 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n직업성 천식의 진단에는 '''천식이 있다는 증거'''와 '''작업 노출과의 관계'''가 모두 필요하다. 근무 중에만 증상이 생기거나 주말·휴가에 좋아지는지, 작업이 끝난 뒤 늦게 악화되는지, 주중에 갈수록 심해지는지를 묻는다.\n\n||= 방법 ||= 무엇을 확인하는가 ||= 한계와 위치 ||\n|| 직업력·환경력 || 증상과 노출의 시간적 연결 || 가장 유용한 출발 자료지만 문진만으로 인과성을 확정하지는 않는다. ||\n|| Spirometry·기관지확장제 반응 || 가변적인 기류 제한 || 천식을 확인하는 단계다. ||\n|| Methacholine challenge || 비특이적 기도 과민성 || FEV₁ 20% 감소가 기준이 되는 검사다. 특정 작업 물질이 원인인지는 직접 증명하지 못한다. ||\n|| 연속 PEFR || 근무일과 비근무일의 기류 변동 || 시간적 관계를 객관화한다. 측정 방법·노력·기록의 질을 함께 평가한다. ||\n|| 면역학적 검사 || 특정 항원에 대한 감작 || 가능한 항원에 한해 유용하며, 감작 양성만으로 임상적 직업성 천식을 확진하지 않는다. ||\n|| \"\"특이 흡입유발검사·직접유발검사\"\" || 의심되는 원인 물질을 통제된 조건에서 흡입한 뒤의 기도 반응 || 원인 물질 확인의 기준 검사. 비용과 위험 때문에 전문 센터에서 시행하며 모든 환자의 첫 검사는 아니다. ||\n\n특이 유발검사에서는 조기 반응이 30분 이내, 후기 반응이 4–8시간에 나타나거나 두 반응이 함께 생길 수 있다. 따라서 근무가 끝난 뒤의 악화도 작업과 무관하다고 볼 수 없다.\n\n[[26강#천식의 존재와 원인 물질의 확인은 다른 단계다|천식의 존재와 원인 물질의 확인은 다른 단계다]]\n\n~~근거: 39기 「26. 직업성폐질환」 20·41쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.103. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.103 출제자란 확인",
       "lectureIds": [
         26
       ],
       "lectureId": 26,
       "lectureTitle": "직업성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 103번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "직업환경의학",
+      "source": "2023 호흡기계 원본 p.103",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture26_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 103,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\26. 직업성폐질환_강의록.pdf",
-            "description": "39기 「26. 직업성폐질환」 20·41쪽; 38기 자료"
-          },
-          {
-            "kind": "prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 103,
+        "professor": "임종한",
+        "lecture": "직업성폐질환",
+        "question": "직업성천식의 원인물질을 밝히는데 표준이 되는 검사는?",
+        "choices": [
+          "면역학적 검사",
+          "직접 유발 검사",
+          "메타콜린검사",
+          "최대호기속도검사",
+          "직업력조사"
         ],
-        "basis": "39기 「26. 직업성폐질환」 20·41쪽; 38기 자료",
-        "chapter": "천식의 존재와 원인 물질의 확인은 다른 단계다"
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21384,52 +22587,57 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "정답: ④\n\n=== 풀이의 핵심 ===\n화재 현장의 연기에는 자극성 가스와 입자, CO·cyanide 같은 전신 독성물질이 함께 있을 수 있다. 단기간 고농도 흡입으로 기도와 폐포가 손상되는 상황을 가장 직접적으로 표현한 답은 독성 흡입 폐손상이다.\n\n소방관에게 천식이나 COPD가 절대로 생기지 않는다는 뜻은 아니다. “소방수·화재사고”라는 대표 노출 상황과 질환을 연결하는 문항으로, 만성 분진 축적에 의한 진폐증보다 급성 독성 손상을 우선한다. 물에 잘 녹지 않는 가스는 말초 기도까지 도달해 초기 경고가 적고 수 시간 뒤 폐부종을 일으킬 수도 있다.\n\n=== 선지별 해설 ===\n* 1번: 감염성 폐렴이라면 병원체와 감염 경과를 검토한다. 화학적 pneumonitis가 폐렴처럼 보일 수는 있지만, 여기서는 원인까지 드러내는 독성 흡입 손상이 더 적합하다.\n* 2번: 실제로 발생할 수 있는 질환이지만, 이 문항의 핵심은 화재사고의 고농도 독성 흡입이다. 천식 자체를 진단하려면 가변적인 폐쇄와 기도 과민성이라는 맥락이 더 필요하다.\n* 3번: 결정형 silica에 의한 진폐증이다. 석재·주조·터널·채석 등의 분진 작업이 대표 단서다.\n* 4번: 정답이다. 단기간 고농도 노출에 의한 기도·폐포 손상으로 이해한다. 소방관의 화재 노출이 대표적인 연결이며 저산소 환경만을 뜻하지 않는다.\n* 5번: 흡연과 장기간 분진·가스 노출 등이 지속적 기류 제한을 만든다. 소방관에서도 가능하지만 급성 화재사고의 대표적인 손상을 묻는 취지와는 다르다.\n\n=== 이 문항을 풀기 위한 개념 ===\n소방관이 화재 현장에서 고농도의 가스·흄·연무에 노출된 뒤 급성 호흡기 손상을 보이면 \"\"독성 흡입 폐손상(toxic inhalation injury)\"\"을 먼저 연결한다. 이는 단순히 산소가 부족한 상태만을 뜻하지 않는다. 기도 점막과 폐포가 직접 손상되고, CO나 cyanide에 의한 전신 독성이 겹칠 수도 있다.\n\n||= 가스 특성 ||= 대표 물질 ||= 손상 양상 ||\n|| 수용성이 높아 상기도에서 잘 반응 || Ammonia, sulfur dioxide, acid aerosol. 강의 표에는 chlorine도 이쪽에 배치한다. || 눈·코·입·인두의 자극이 빨리 나타나 경고 증상이 뚜렷하다. ||\n|| 수용성이 낮아 말초까지 침투 || Nitrogen dioxide, phosgene, ozone || Bronchiole·alveoli 손상, 경고 증상이 적거나 지연성 폐부종 가능 ||\n\n수용성은 주된 침착 경향을 설명하지만 손상 부위를 절대적으로 제한하지는 않는다. 특히 chlorine은 상·하기도를 모두 손상시킬 수 있고, 실제 중증도에는 농도·노출 시간·분당환기량도 관여한다.\n\n'''진단과 초기 평가'''에서는 노출 물질과 시간을 확인하고, 기도 부종·호흡곤란·저산소증을 평가한다. 필요하면 후두경·기관지내시경으로 기도 손상을 살피며, 흉부 영상과 혈액가스를 함께 본다. 피부·결막에 남은 물질은 적절히 제거하고, 초기 상태가 가벼워 보여도 지연성 손상을 감시한다.\n\n> 소방관이라는 직업만으로 천식이나 COPD가 불가능해지는 것은 아니다. 화재 직후 고농도 연기 노출이라는 상황이 독성 흡입 손상을 가장 직접적으로 가리킨다.\n\n질산으로 은을 추출하던 70대 남자가 약 40–50분 작업한 뒤 호흡곤란과 SpO₂ 70%, 저혈압, 의식 저하를 보였다. 일반 방진마스크만 착용했던 상황으로, 흉부 CT에서는 양측 의존부 하엽의 consolidation이 보였고 다음 날 삽관이 필요했다. 배양검사는 음성이었으며 노출력과 함께 '''chemical pneumonitis·ARDS'''를 의심한 증례다.\n\n\n방진마스크가 가스 노출까지 막아 주는 것은 아니다. NO₂는 질산 반응, silo filler's disease, 용접 등의 상황에서 문제가 될 수 있으며, 노출 직후 증상이 경미해도 수 시간 뒤 폐부종이 나타날 수 있다. 더 늦게는 '''2–3주 후 bronchiolitis obliterans'''가 발생할 수 있어 급성기 회복만으로 관찰을 끝내지 않는다.\n\n||= 구분 ||= 막히는 지점 ||= 대표 물질 ||\n|| Simple asphyxiant || 주변 산소를 밀어내 흡입 산소 농도를 낮춘다. || Nitrogen, methane, argon, helium, propane 등 ||\n|| Chemical asphyxiant: 운반·방출 장애 || Hemoglobin의 산소 운반과 조직으로의 방출을 방해한다. || Carbon monoxide, 체내에서 CO로 대사되는 methylene chloride ||\n|| Chemical asphyxiant: 이용 장애 || 세포가 산소를 이용하는 대사를 억제한다. || Hydrogen sulfide, cyanide ||\n\n단순 질식제는 산소 부족 자체가 중심이고, 화학적 질식제는 물질 자체가 생화학적 기능을 방해한다. 강의의 simple asphyxiant 예에는 CO₂도 포함되어 있지만, 고농도 CO₂에는 산소 치환 외에 hypercapnia에 의한 직접적인 생리적 영향도 있다.\n\n[[26강#화재와 고농도 가스 노출은 독성 흡입 손상을 일으킨다|화재와 고농도 가스 노출은 독성 흡입 손상을 일으킨다]]\n\n~~근거: 39기 「26. 직업성폐질환」 12–16·25–26쪽; 38기 자료.~~~",
+      "answerLabel": "4번 — 독성흡입손상",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④\n\n=== 풀이의 핵심 ===\n화재 현장의 연기에는 자극성 가스와 입자, CO·cyanide 같은 전신 독성물질이 함께 있을 수 있다. 단기간 고농도 흡입으로 기도와 폐포가 손상되는 상황을 가장 직접적으로 표현한 답은 독성 흡입 폐손상이다.\n\n소방관에게 천식이나 COPD가 절대로 생기지 않는다는 뜻은 아니다. “소방수·화재사고”라는 대표 노출 상황과 질환을 연결하는 문항으로, 만성 분진 축적에 의한 진폐증보다 급성 독성 손상을 우선한다. 물에 잘 녹지 않는 가스는 말초 기도까지 도달해 초기 경고가 적고 수 시간 뒤 폐부종을 일으킬 수도 있다.\n\n=== 선지별 해설 ===\n* 1번: 감염성 폐렴이라면 병원체와 감염 경과를 검토한다. 화학적 pneumonitis가 폐렴처럼 보일 수는 있지만, 여기서는 원인까지 드러내는 독성 흡입 손상이 더 적합하다.\n* 2번: 실제로 발생할 수 있는 질환이지만, 이 문항의 핵심은 화재사고의 고농도 독성 흡입이다. 천식 자체를 진단하려면 가변적인 폐쇄와 기도 과민성이라는 맥락이 더 필요하다.\n* 3번: 결정형 silica에 의한 진폐증이다. 석재·주조·터널·채석 등의 분진 작업이 대표 단서다.\n* 4번: 정답이다. 단기간 고농도 노출에 의한 기도·폐포 손상으로 이해한다. 소방관의 화재 노출이 대표적인 연결이며 저산소 환경만을 뜻하지 않는다.\n* 5번: 흡연과 장기간 분진·가스 노출 등이 지속적 기류 제한을 만든다. 소방관에서도 가능하지만 급성 화재사고의 대표적인 손상을 묻는 취지와는 다르다.\n\n=== 이 문항을 풀기 위한 개념 ===\n소방관이 화재 현장에서 고농도의 가스·흄·연무에 노출된 뒤 급성 호흡기 손상을 보이면 \"\"독성 흡입 폐손상(toxic inhalation injury)\"\"을 먼저 연결한다. 이는 단순히 산소가 부족한 상태만을 뜻하지 않는다. 기도 점막과 폐포가 직접 손상되고, CO나 cyanide에 의한 전신 독성이 겹칠 수도 있다.\n\n||= 가스 특성 ||= 대표 물질 ||= 손상 양상 ||\n|| 수용성이 높아 상기도에서 잘 반응 || Ammonia, sulfur dioxide, acid aerosol. 강의 표에는 chlorine도 이쪽에 배치한다. || 눈·코·입·인두의 자극이 빨리 나타나 경고 증상이 뚜렷하다. ||\n|| 수용성이 낮아 말초까지 침투 || Nitrogen dioxide, phosgene, ozone || Bronchiole·alveoli 손상, 경고 증상이 적거나 지연성 폐부종 가능 ||\n\n수용성은 주된 침착 경향을 설명하지만 손상 부위를 절대적으로 제한하지는 않는다. 특히 chlorine은 상·하기도를 모두 손상시킬 수 있고, 실제 중증도에는 농도·노출 시간·분당환기량도 관여한다.\n\n'''진단과 초기 평가'''에서는 노출 물질과 시간을 확인하고, 기도 부종·호흡곤란·저산소증을 평가한다. 필요하면 후두경·기관지내시경으로 기도 손상을 살피며, 흉부 영상과 혈액가스를 함께 본다. 피부·결막에 남은 물질은 적절히 제거하고, 초기 상태가 가벼워 보여도 지연성 손상을 감시한다.\n\n> 소방관이라는 직업만으로 천식이나 COPD가 불가능해지는 것은 아니다. 화재 직후 고농도 연기 노출이라는 상황이 독성 흡입 손상을 가장 직접적으로 가리킨다.\n\n질산으로 은을 추출하던 70대 남자가 약 40–50분 작업한 뒤 호흡곤란과 SpO₂ 70%, 저혈압, 의식 저하를 보였다. 일반 방진마스크만 착용했던 상황으로, 흉부 CT에서는 양측 의존부 하엽의 consolidation이 보였고 다음 날 삽관이 필요했다. 배양검사는 음성이었으며 노출력과 함께 '''chemical pneumonitis·ARDS'''를 의심한 증례다.\n\n\n방진마스크가 가스 노출까지 막아 주는 것은 아니다. NO₂는 질산 반응, silo filler's disease, 용접 등의 상황에서 문제가 될 수 있으며, 노출 직후 증상이 경미해도 수 시간 뒤 폐부종이 나타날 수 있다. 더 늦게는 '''2–3주 후 bronchiolitis obliterans'''가 발생할 수 있어 급성기 회복만으로 관찰을 끝내지 않는다.\n\n||= 구분 ||= 막히는 지점 ||= 대표 물질 ||\n|| Simple asphyxiant || 주변 산소를 밀어내 흡입 산소 농도를 낮춘다. || Nitrogen, methane, argon, helium, propane 등 ||\n|| Chemical asphyxiant: 운반·방출 장애 || Hemoglobin의 산소 운반과 조직으로의 방출을 방해한다. || Carbon monoxide, 체내에서 CO로 대사되는 methylene chloride ||\n|| Chemical asphyxiant: 이용 장애 || 세포가 산소를 이용하는 대사를 억제한다. || Hydrogen sulfide, cyanide ||\n\n단순 질식제는 산소 부족 자체가 중심이고, 화학적 질식제는 물질 자체가 생화학적 기능을 방해한다. 강의의 simple asphyxiant 예에는 CO₂도 포함되어 있지만, 고농도 CO₂에는 산소 치환 외에 hypercapnia에 의한 직접적인 생리적 영향도 있다.\n\n[[26강#화재와 고농도 가스 노출은 독성 흡입 손상을 일으킨다|화재와 고농도 가스 노출은 독성 흡입 손상을 일으킨다]]\n\n~~근거: 39기 「26. 직업성폐질환」 12–16·25–26쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.104. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.104 출제자란 확인",
       "lectureIds": [
         26
       ],
       "lectureId": 26,
       "lectureTitle": "직업성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 104번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "직업환경의학",
+      "source": "2023 호흡기계 원본 p.104",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture26_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 104,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\26. 직업성폐질환_강의록.pdf",
-            "description": "39기 「26. 직업성폐질환」 12–16·25–26쪽; 38기 자료"
-          },
-          {
-            "kind": "prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 104,
+        "professor": "임종한",
+        "lecture": "직업성폐질환",
+        "question": "화재사고로 소방수에게서 자주 발생되는 직업성폐질환은 ?",
+        "choices": [
+          "폐렴",
+          "천식",
+          "규폐증",
+          "독성흡입손상",
+          "만성폐쇄성폐질환"
         ],
-        "basis": "39기 「26. 직업성폐질환」 12–16·25–26쪽; 38기 자료",
-        "chapter": "화재와 고농도 가스 노출은 독성 흡입 손상을 일으킨다"
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21443,7 +22651,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         105
       ],
-      "question": "최근 가습기살균제 노출과 관련하여 관련성이 인정된 질환은?",
+      "question": "최근 가습기살균제 노출와 관련하여 관련성이 인정된 질환은?",
       "passage": "",
       "choices": [
         "천식",
@@ -21456,28 +22664,28 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "잠정 정답: ③",
-      "explanation": "잠정 정답: ③\n\n=== 풀이의 핵심 ===\n정답은 3번 폐암으로 유지한다. 여기서 “최근”은 현재 시점이 아니라 2023·2024년 출제 당시 새롭게 강조된 피해 인정의 흐름을 뜻한다. 환경부 자료에서도 폐암 피해 판정의 개시 시점을 2023년 9월로 설명한다.\n\n천식·폐렴·간질성 폐질환이나 원래의 중증 폐손상이 가습기살균제와 무관해서 오답인 것은 아니다. 이 문항을 단순히 “가습기살균제와 관련되는 질환 하나”로 읽으면 여러 선택지가 해당할 수 있다. 따라서 시간적 맥락을 붙여 풀어야 하며, 폐암만 유일한 관련 질환이라고 암기하지 않는다. 2024 공식 시험지의 발문과 선지는 확인했지만 공식 정답표가 확인된 것과는 구분한다.\n\n=== 선지별 해설 ===\n* 1번: 천식도 가습기살균제와 관련해 다루어지는 질환이다. 다만 이 문항이 “최근”이라는 표현으로 지목하는 새 논점은 폐암이다.\n* 2번: 가습기살균제 폐손상은 2011년 집단발생을 계기로 알려진 핵심 피해다. 새롭게 확대된 인정을 묻는 맥락에서는 가장 초기의 대표 질환과 구분한다.\n* 3번: 정답이다. 2023년 폐암 피해 판정 개시라는 당시의 변화에 대응한다. 노출자에게 생긴 모든 폐암이 자동으로 같은 원인으로 인정된다는 뜻은 아니다.\n* 4번: 폐렴도 피해 범위를 논의할 때 등장한다. 선택지에서 배제되는 이유는 관련성이 전혀 없어서가 아니라 출제 시점의 새로운 항목을 묻기 때문이다.\n* 5번: 간질성 폐렴·간질성 폐질환 역시 관련 피해 범위에서 다룬다. 이 문항의 단일 답은 질환의 가능성 자체가 아니라 “당시 최근의 인정”이라는 제한을 붙였을 때 이해할 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 질문 ||= 연결할 내용 ||= 주의점 ||\n|| 산모·영유아의 원인 불명 폐손상 집단발생 || 가습기살균제 관련 폐손상(HDLI) || 직업이 없어도 생활환경 노출이 중요하다. ||\n|| 원인 물질 || PHMG, PGH, CMIT/MIT 등 살균제 성분 || 미생물 항원에 의한 humidifier lung(HP)과 구분한다. ||\n|| 2023·2024년 “최근 인정” || 폐암 || 당시의 시간 맥락으로 읽는다. 다른 선택지가 모두 무관하다는 뜻이 아니다. ||\n|| 원인 규명의 방법 || 상세한 노출력과 환자–대조군 연구 등 역학적 근거 || 집단 수준의 연관성과 개인의 피해 판정은 같은 절차가 아니다. ||\n|| 2011년 자료의 숫자 || 환자 노출 17/18, 대조군 노출 32/121, 보정 OR 48.8 || OR를 개인의 발병확률이나 전체 노출자의 발병률로 해석하지 않는다. ||\n\n과거에는 중증 폐손상의 특징적인 임상·영상·병리 경과가 피해 인지의 중심이었으나, 건강 영향은 그 한 형태만으로 한정되지 않는다. 반대로 관련 질환 목록에 포함되어 있다는 사실만으로 특정 개인의 인과관계가 자동 확정되는 것도 아니다.\n\n[[https://eng.me.go.kr/home/web/board/read.do?boardCategoryId=&boardId=1659040&boardMasterId=939&decorator=&maxIndexPages=10&maxPageItems=10&menuId=10598&orgCd=&pagerOffset=2230&searchKey=&searchValue=|환경부: 폐암 피해 판정 개시 시점 확인]]\n\n[[26강#가습기살균제와 폐암은 출제 시점의 맥락으로 읽는다|가습기살균제와 폐암은 출제 시점의 맥락으로 읽는다]]\n\n~~근거: 39기 「26. 직업성폐질환」 34쪽; 38기 자료.~~~",
+      "answerLabel": "3번 — 폐암",
+      "explanation": "'''공식 정답: 3번'''\n\n공식 정답: ③\n\n=== 풀이의 핵심 ===\n정답은 3번 폐암으로 유지한다. 여기서 “최근”은 현재 시점이 아니라 2023·2024년 출제 당시 새롭게 강조된 피해 인정의 흐름을 뜻한다. 환경부 자료에서도 폐암 피해 판정의 개시 시점을 2023년 9월로 설명한다.\n\n천식·폐렴·간질성 폐질환이나 원래의 중증 폐손상이 가습기살균제와 무관해서 오답인 것은 아니다. 이 문항을 단순히 “가습기살균제와 관련되는 질환 하나”로 읽으면 여러 선택지가 해당할 수 있다. 따라서 시간적 맥락을 붙여 풀어야 하며, 폐암만 유일한 관련 질환이라고 암기하지 않는다. 이번 2023 공식 원본의 정답란에서 3번을 확인했다.\n\n=== 선지별 해설 ===\n* 1번: 천식도 가습기살균제와 관련해 다루어지는 질환이다. 다만 이 문항이 “최근”이라는 표현으로 지목하는 새 논점은 폐암이다.\n* 2번: 가습기살균제 폐손상은 2011년 집단발생을 계기로 알려진 핵심 피해다. 새롭게 확대된 인정을 묻는 맥락에서는 가장 초기의 대표 질환과 구분한다.\n* 3번: 정답이다. 2023년 폐암 피해 판정 개시라는 당시의 변화에 대응한다. 노출자에게 생긴 모든 폐암이 자동으로 같은 원인으로 인정된다는 뜻은 아니다.\n* 4번: 폐렴도 피해 범위를 논의할 때 등장한다. 선택지에서 배제되는 이유는 관련성이 전혀 없어서가 아니라 출제 시점의 새로운 항목을 묻기 때문이다.\n* 5번: 간질성 폐렴·간질성 폐질환 역시 관련 피해 범위에서 다룬다. 이 문항의 단일 답은 질환의 가능성 자체가 아니라 “당시 최근의 인정”이라는 제한을 붙였을 때 이해할 수 있다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 질문 ||= 연결할 내용 ||= 주의점 ||\n|| 산모·영유아의 원인 불명 폐손상 집단발생 || 가습기살균제 관련 폐손상(HDLI) || 직업이 없어도 생활환경 노출이 중요하다. ||\n|| 원인 물질 || PHMG, PGH, CMIT/MIT 등 살균제 성분 || 미생물 항원에 의한 humidifier lung(HP)과 구분한다. ||\n|| 2023·2024년 “최근 인정” || 폐암 || 당시의 시간 맥락으로 읽는다. 다른 선택지가 모두 무관하다는 뜻이 아니다. ||\n|| 원인 규명의 방법 || 상세한 노출력과 환자–대조군 연구 등 역학적 근거 || 집단 수준의 연관성과 개인의 피해 판정은 같은 절차가 아니다. ||\n|| 2011년 자료의 숫자 || 환자 노출 17/18, 대조군 노출 32/121, 보정 OR 48.8 || OR를 개인의 발병확률이나 전체 노출자의 발병률로 해석하지 않는다. ||\n\n과거에는 중증 폐손상의 특징적인 임상·영상·병리 경과가 피해 인지의 중심이었으나, 건강 영향은 그 한 형태만으로 한정되지 않는다. 반대로 관련 질환 목록에 포함되어 있다는 사실만으로 특정 개인의 인과관계가 자동 확정되는 것도 아니다.\n\n[[https://eng.me.go.kr/home/web/board/read.do?boardCategoryId=&boardId=1659040&boardMasterId=939&decorator=&maxIndexPages=10&maxPageItems=10&menuId=10598&orgCd=&pagerOffset=2230&searchKey=&searchValue=|환경부: 폐암 피해 판정 개시 시점 확인]]\n\n[[26강#가습기살균제와 폐암은 출제 시점의 맥락으로 읽는다|가습기살균제와 폐암은 출제 시점의 맥락으로 읽는다]]\n\n~~근거: 39기 「26. 직업성폐질환」 34쪽; 38기 자료.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.105. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임종한",
       "professor": "임종한",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.105 출제자란 확인",
       "lectureIds": [
         26
       ],
       "lectureId": 26,
       "lectureTitle": "직업성폐질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 105번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "직업환경의학",
+      "source": "2023 호흡기계 원본 p.105",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -21497,26 +22705,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture26_wiki_j_jbl",
-        "answerStatus": "historical_exam_context_not_current_unique_disease",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 105,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\26. 직업성폐질환_강의록.pdf",
-            "description": "39기 「26. 직업성폐질환」 34쪽; 38기 자료"
-          },
-          {
-            "kind": "prior_lecture",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 105,
+        "professor": "임종한",
+        "lecture": "직업성폐질환",
+        "question": "최근 가습기살균제 노출와 관련하여 관련성이 인정된 질환은 ?",
+        "choices": [
+          "천식",
+          "가습기살균제 폐손상",
+          "폐암",
+          "폐렴",
+          "간질성폐렴"
         ],
-        "basis": "39기 「26. 직업성폐질환」 34쪽; 38기 자료",
-        "chapter": "가습기살균제와 폐암은 출제 시점의 맥락으로 읽는다"
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21543,28 +22756,28 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "정답: ② 이완자세는 복강을 이완시켜 횡경막이 더 내려오게 하여 사강을 줄이는 데 도움을 준다.\n\n=== 풀이의 핵심 ===\n보기 중에서는 '''이완자세의 이점을 설명한 2번'''이 가장 적절하다. COPD에서는 숨이 찰 때 앞으로 약간 숙여 팔을 지지하고, 목·어깨·복부의 불필요한 긴장을 줄인 상태에서 천천히 내쉬도록 돕는다. 다른 보기들은 호기를 짧게 하거나, pursed-lip breathing의 대상을 바꾸거나, 복식호흡에서 누르는 부위를 잘못 적고 있다.\n\n'''2번의 표현은 제한해서 읽어야 한다.''' ‘횡격막이 더 내려오게 하여 사강을 줄인다’는 과거 강의·기출의 문구다. 이완자세가 도움 된다는 결론은 맞지만, 이 문장만으로 해부학적 사강이 직접 감소하는 기전을 입증할 수는 없다. 올해 강의의 중심은 forward lean·팔 지지와 호흡 부담 감소다. 원문을 바꾸지 않고, 가장 적절한 보기인 2번을 유지한다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. 짧고 빠른 호흡은 호기 시간을 줄여 공기 포획과 dynamic hyperinflation을 악화시킬 수 있다. 천천히 조절하고 충분히 내쉬도록 교육한다.\n* 2번: 이 문항에서 가장 적절하다. 과거 강의의 이완자세 설명인 복부 이완·횡격막 움직임 보조를 반영한다. 다만 ‘사강 감소’를 자세가 기관·기관지의 해부학적 부피를 직접 줄인다는 뜻으로 외우면 안 된다. 풀이에 적은 표현상 한계를 함께 이해한다.\n* 3번: 틀리다. Pursed-lip breathing의 대표적인 적용은 '''COPD의 호기유량 제한과 기도 허탈'''이다. 제한성 폐질환에 더 효과적이라는 비교는 강의 내용과 맞지 않는다.\n* 4번: 틀리다. 흡기:호기를 1:1로 맞추는 것이 아니라 호기를 더 길게 한다. 강의의 교육 예시는 약 1:2이며, 숫자보다 충분한 호기 시간을 확보한다는 방향이 중요하다.\n* 5번: 틀리다. 강의의 diaphragmatic breathing 보조는 '''복부'''에 손을 두고 호기 때 지그시 누르는 것이다. ‘가슴’을 누른다는 설명은 다른 부위다. 별도의 흉벽 압박·보조기침 기법이 존재한다는 것과 복식호흡의 정의를 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD에서는 호기유량이 제한되어 빠른 호흡을 할수록 충분히 내쉬기 전에 다음 흡기가 시작된다. '''EELV 증가 → IC 감소 → 횡격막 편평화와 불리한 길이–장력 관계 → 호흡곤란'''으로 이어지는 dynamic hyperinflation을 이해해야 한다. 폐에 공기가 많아도 새로 들이쉴 여유는 작을 수 있다.\n\n||= 방법 ||= 작용·목표 ||= 잘못된 설명 ||\n|| Pursed-lip breathing || 호기 중 기도 내 압력 유지, 조기 허탈 감소, 호기 시간 연장 || 과환기를 시키거나 제한성 질환에 더 효과적이라고 단정 ||\n|| 호흡 시간 조절 || 흡기:호기 약 '''1:2''', 충분히 내쉬기 || 1:1 또는 흡기를 더 길게 ||\n|| Tripod·이완자세 || 팔 지지와 불필요한 긴장 감소로 보조호흡근의 작용·회복 보조 || 복압 때문에 모든 환자에게 금기 ||\n|| Diaphragmatic breathing || 복부 움직임을 느끼며 선택적으로 호흡 재교육 || 모든 COPD에 강요하거나 가슴을 누르는 훈련으로 설명 ||\n|| Pacing·interval exercise || 활동과 회복을 나눠 지속 가능한 운동량 확보 || 숨차면 활동 자체를 없애기 ||\n|| Huff·선택적 ACT || 정체된 분비물 이동·배출 || 객담 정체가 없어도 타진·체위배액을 의무적으로 시행 ||\n\n호흡법만으로 재활이 완성되지는 않는다. '''전신 유산소·저항운동, 교육과 자기관리'''가 기본이며, 그 위에 환자의 제한요인에 맞는 호흡 전략을 더한다. 심한 과팽창에서는 복식호흡을 강요하면 비효율적일 수 있으므로 올해 강의는 선별 적용을 강조한다.\n\n앞으로 숙인 자세에서는 팔이 지지되어 대흉근 등 보조근이 흉곽을 들어올리는 방향으로 작용하기 쉬워지고 사각근의 작용도 보조한다. 회복 자세를 취한 뒤 호기를 길게 하고, 증상이 가라앉으면 천천히 다시 활동한다. 자세 자체보다 '''지지점 확보·불필요한 긴장 감소·호흡의 효율'''을 묶어 기억한다.\n\n[[23강#Tripod 자세는 보조호흡근이 일하기 좋은 지지점을 만든다|Tripod 자세는 보조호흡근이 일하기 좋은 지지점을 만든다]]\n\n~~근거: 39기 호흡재활 8·17–18·24–28쪽; 38기 자료. 학생 풀이가 아니라 강의 내용에 근거한 판단이다.~~~",
+      "answerLabel": "2번 — 이완자세는 복강을 이완시켜 횡경막이 더 내려오게 하여 사강을 줄이는 데 도움을 준다.",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: ② 이완자세는 복강을 이완시켜 횡경막이 더 내려오게 하여 사강을 줄이는 데 도움을 준다.\n\n=== 풀이의 핵심 ===\n보기 중에서는 '''이완자세의 이점을 설명한 2번'''이 가장 적절하다. COPD에서는 숨이 찰 때 앞으로 약간 숙여 팔을 지지하고, 목·어깨·복부의 불필요한 긴장을 줄인 상태에서 천천히 내쉬도록 돕는다. 다른 보기들은 호기를 짧게 하거나, pursed-lip breathing의 대상을 바꾸거나, 복식호흡에서 누르는 부위를 잘못 적고 있다.\n\n'''2번의 표현은 제한해서 읽어야 한다.''' ‘횡격막이 더 내려오게 하여 사강을 줄인다’는 과거 강의·기출의 문구다. 이완자세가 도움 된다는 결론은 맞지만, 이 문장만으로 해부학적 사강이 직접 감소하는 기전을 입증할 수는 없다. 올해 강의의 중심은 forward lean·팔 지지와 호흡 부담 감소다. 원문을 바꾸지 않고, 가장 적절한 보기인 2번을 유지한다.\n\n=== 선지별 해설 ===\n* 1번: 틀리다. 짧고 빠른 호흡은 호기 시간을 줄여 공기 포획과 dynamic hyperinflation을 악화시킬 수 있다. 천천히 조절하고 충분히 내쉬도록 교육한다.\n* 2번: 이 문항에서 가장 적절하다. 과거 강의의 이완자세 설명인 복부 이완·횡격막 움직임 보조를 반영한다. 다만 ‘사강 감소’를 자세가 기관·기관지의 해부학적 부피를 직접 줄인다는 뜻으로 외우면 안 된다. 풀이에 적은 표현상 한계를 함께 이해한다.\n* 3번: 틀리다. Pursed-lip breathing의 대표적인 적용은 '''COPD의 호기유량 제한과 기도 허탈'''이다. 제한성 폐질환에 더 효과적이라는 비교는 강의 내용과 맞지 않는다.\n* 4번: 틀리다. 흡기:호기를 1:1로 맞추는 것이 아니라 호기를 더 길게 한다. 강의의 교육 예시는 약 1:2이며, 숫자보다 충분한 호기 시간을 확보한다는 방향이 중요하다.\n* 5번: 틀리다. 강의의 diaphragmatic breathing 보조는 '''복부'''에 손을 두고 호기 때 지그시 누르는 것이다. ‘가슴’을 누른다는 설명은 다른 부위다. 별도의 흉벽 압박·보조기침 기법이 존재한다는 것과 복식호흡의 정의를 혼동하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD에서는 호기유량이 제한되어 빠른 호흡을 할수록 충분히 내쉬기 전에 다음 흡기가 시작된다. '''EELV 증가 → IC 감소 → 횡격막 편평화와 불리한 길이–장력 관계 → 호흡곤란'''으로 이어지는 dynamic hyperinflation을 이해해야 한다. 폐에 공기가 많아도 새로 들이쉴 여유는 작을 수 있다.\n\n||= 방법 ||= 작용·목표 ||= 잘못된 설명 ||\n|| Pursed-lip breathing || 호기 중 기도 내 압력 유지, 조기 허탈 감소, 호기 시간 연장 || 과환기를 시키거나 제한성 질환에 더 효과적이라고 단정 ||\n|| 호흡 시간 조절 || 흡기:호기 약 '''1:2''', 충분히 내쉬기 || 1:1 또는 흡기를 더 길게 ||\n|| Tripod·이완자세 || 팔 지지와 불필요한 긴장 감소로 보조호흡근의 작용·회복 보조 || 복압 때문에 모든 환자에게 금기 ||\n|| Diaphragmatic breathing || 복부 움직임을 느끼며 선택적으로 호흡 재교육 || 모든 COPD에 강요하거나 가슴을 누르는 훈련으로 설명 ||\n|| Pacing·interval exercise || 활동과 회복을 나눠 지속 가능한 운동량 확보 || 숨차면 활동 자체를 없애기 ||\n|| Huff·선택적 ACT || 정체된 분비물 이동·배출 || 객담 정체가 없어도 타진·체위배액을 의무적으로 시행 ||\n\n호흡법만으로 재활이 완성되지는 않는다. '''전신 유산소·저항운동, 교육과 자기관리'''가 기본이며, 그 위에 환자의 제한요인에 맞는 호흡 전략을 더한다. 심한 과팽창에서는 복식호흡을 강요하면 비효율적일 수 있으므로 올해 강의는 선별 적용을 강조한다.\n\n앞으로 숙인 자세에서는 팔이 지지되어 대흉근 등 보조근이 흉곽을 들어올리는 방향으로 작용하기 쉬워지고 사각근의 작용도 보조한다. 회복 자세를 취한 뒤 호기를 길게 하고, 증상이 가라앉으면 천천히 다시 활동한다. 자세 자체보다 '''지지점 확보·불필요한 긴장 감소·호흡의 효율'''을 묶어 기억한다.\n\n[[23강#Tripod 자세는 보조호흡근이 일하기 좋은 지지점을 만든다|Tripod 자세는 보조호흡근이 일하기 좋은 지지점을 만든다]]\n\n~~근거: 39기 호흡재활 8·17–18·24–28쪽; 38기 자료. 학생 풀이가 아니라 강의 내용에 근거한 판단이다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.106. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.106 출제자란 확인",
       "lectureIds": [
         23
       ],
       "lectureId": 23,
       "lectureTitle": "호흡재활",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 106번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "재활의학",
+      "source": "2023 호흡기계 원본 p.106",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -21586,21 +22799,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture23_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer_with_wording_caution",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 106,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture_comparison",
-            "description": "39기 호흡재활 8·17–18·24–28쪽; 38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 106,
+        "professor": "좌경림",
+        "lecture": "호흡재활",
+        "question": "만성 폐쇄성 폐질환 환자의 호흡재활교육으로 옳은 것은?",
+        "choices": [
+          "짧은 호흡을 연습시킨다.",
+          "이완자세는 복강을 이완시켜 횡경막이 더 내려오게하여 사강을 줄이는데 도움을 준다.",
+          "pursed lip breathing은 제한성 폐질환에 더 효과적이다.",
+          "흡기와 호기의 비율은 1:1로 하도록 한다.",
+          "횡격막 호흡은 호기 시 가슴을 손으로 지그시 누르면서 숨을 내쉬게 한다."
         ],
-        "basis": "39기 호흡재활 8·17–18·24–28쪽; 38기 자료",
-        "chapter": "Tripod 자세는 보조호흡근이 일하기 좋은 지지점을 만든다"
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21614,41 +22837,41 @@ window.JBL_DATA = {
       "originalNumbers": [
         107
       ],
-      "question": "Amyotrophic lateral sclerosis를 앓고 있는 45세 여자가 폐렴에 걸린 과거력이 있으며 가래가 많이 끓어 외래를 방문하여 시행한 검사가 아래와 같다. 고려해야 할 치료는? Lung sound: hoarse Vital capacity: 3.2L(정상 예측치의 72%) Peak cough flow: 190L/min SaO2: 93%, 호흡수 18회/분, 심박수: 87 호기 후 CO2 분압: 39mmHg",
+      "question": "Amyotrophic lateral scelrosis를 앓고 있는 45세 여자가 폐렴에 걸린 과거력이 있으며 가래가 많이 끓어 외래를 방문하여 시행한 검사가 아래와 같다. 고려해야 할 치료는? Lung sound: hoarse Vital capacity: 3.2L(정상 예측치의 72%) Peak cough flow: 190L/min SaO2: 93%, 호흡수 18회/분, 심박수: 87 호기 후 CO2 분압: 39mmHg",
       "passage": "",
       "choices": [
         "기관절제술 시행",
         "Mechanical insufflator-exsufflator",
         "위루중재술",
         "야간 비침습적 양압환기",
-        "Diaphragmatic breathing/pursed lip breathing"
+        "Diaphramatic breaathing/pursed lip breathing"
       ],
       "answerIndex": 2,
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "정답: ② Mechanical insufflator-exsufflator\n\n=== 풀이의 핵심 ===\n이 환자의 주된 문제는 '''가래가 남고 폐렴을 겪었다는 상황에서 PCF가 190 L/min으로 낮다'''는 것이다. 올해 강의의 기침 기능 저하 기준인 270 L/min 미만에 해당하므로, 기침유량을 보조하는 '''MI-E, 2번'''이 가장 적절하다. ‘ALS니까 무조건 NIV’ 또는 ‘산소포화도가 낮으니까 산소만’으로 접근하면 치료의 표적을 놓친다.\n\n=== 선지별 해설 ===\n* 1번: 선지의 ‘기관절제술’은 이 증례의 치료 목표와 맞지 않는다. 기관절개술을 의도한 오타라고 보더라도, 기침이 약하다는 이유만으로 곧바로 침습적인 기도 접근을 만드는 것은 아니다. 우선 비침습적 기침 보조의 필요성과 효과를 평가한다.\n* 2번: 맞다. PCF 190 L/min은 낮고 가래 정체·폐렴 이력이 동반된다. Mechanical insufflation–exsufflation은 양압 흡기와 빠른 음압 호기를 연결해 부족한 기침유량을 보완한다.\n* 3번: 위루술은 삼킴·영양 문제에서 영양 공급 경로를 마련하는 치료다. ALS에서 필요할 수 있지만, 제시된 기침유량 저하와 객담 배출 실패를 직접 해결하지 않는다.\n* 4번: 야간 NIV는 저환기·환기부전이 치료 표적일 때 중요하다. 낮의 CO2가 정상 범위라고 완전히 배제하지는 않지만, 이 발문에서 가장 분명한 이상은 PCF 저하와 객담 정체다. NIV와 MI-E가 상호 배타적인 치료라는 뜻은 아니다.\n* 5번: 복식호흡과 입술오므리기는 호흡패턴을 조절하는 기법이다. 약해진 ALS 환자의 기침유량을 기계적으로 보완하는 MI-E를 대신하지 못한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n기침은 '''충분한 흡기 → 성문 폐쇄와 압력 형성 → 성문 개방과 빠른 호기'''로 이루어진다. ALS에서는 흡기근·호기근과 bulbar 기능의 저하가 겹쳐 기침이 약해진다. MI-E는 양압으로 흡기를 보조한 뒤 빠르게 음압으로 바꾸어 분비물을 배출할 호기유량을 만든다.\n\n||= 제시된 소견 ||= 의미 ||= 이번 선택에 주는 정보 ||\n|| ALS, 폐렴 이력, 가래 정체 || 기침 실패와 분비물 배출 위험 || 기침 보조 필요성의 임상 근거 ||\n|| '''PCF 190 L/min''' || 올해 평가 기준 270 L/min 미만 || 이 증례에서 가장 직접적인 치료 선택 단서 ||\n|| VC 3.2 L, 예측치 72% || 폐활량이 일부 감소했지만 기침 능력을 대변하지 않음 || VC가 비교적 남아 있어도 기침 보조 가능 ||\n|| SaO2 93% || 산소화 평가와 원인 확인 필요 || 산소포화도만으로 기침·환기 정상 여부를 판단하지 않음 ||\n|| 호기 후 CO2 39 mmHg || 제시된 주간 측정에서 고탄산혈증을 뒷받침하지 않음 || '''동맥혈 PaCO2와 동일시하거나 야간저환기를 배제하지 않음''' ||\n\n||= 해결할 문제 ||= 평가 단서 ||= 치료·역할 ||\n|| 폐·흉곽의 저팽창과 유순도 저하 || 깊은 흡기 감소, 자발 VC 감소, MIC 확보 필요 || '''LVR·air stacking'''으로 폐확장 유지 ||\n|| 기침이 약해 가래가 남음 || '''PCF <270 L/min''', 객담 정체·폐렴 반복 || '''Manual assisted cough·MI-E'''로 기침 보조 ||\n|| 야간저환기·만성 환기부전 || Orthopnea, 아침 두통·졸림, 야간 CO2 상승·고탄산혈증 || '''NIV'''로 환기 보조 ||\n|| 저산소혈증 || 낮은 SpO2/PaO2 || 원인과 환기를 평가하며 필요한 산소 공급 ||\n|| 연하·영양 문제 || 삼킴곤란·흡인 위험·영양 부족 || 연하 평가·영양경로 결정. 위루술은 기침 장비가 아님 ||\n\n올해 강의는 증상이 있으면 FVC 80% 미만에서도 NIV 평가를 고려하고, 50% 미만이면 증상이 없어도 평가하도록 설명한다. 그러므로 '''VC 72%여서 NIV는 절대 필요 없다'''는 논리는 틀리다. 다만 현재 발문에는 야간저환기 증상·검사보다 약한 기침과 객담 정체가 명확히 제시되어 있어 MI-E가 가장 적절하다. 아침 두통·orthopnea·주간 졸림이나 야간 CO2 상승이 추가되면 NIV를 함께 검토한다.\n\n> '''VC는 폐활량, PCF는 기침, CO2는 환기를 본다.''' 서로 관련은 있지만 어느 한 수치가 다른 기능의 정상 여부를 보증하지 않는다.\n\nMI-E의 압력·시간은 반응에 맞춰 설정하며, 기흉·종격동기종·큰 기포 등 압력손상 위험을 확인한다. Bulbar 기능이 나쁘면 상기도 반응과 기도 보호를 따로 살펴야 한다.\n\n[[23강#MI-E는 양압에서 음압으로 전환해 기침유량을 만든다|MI-E는 양압에서 음압으로 전환해 기침유량을 만든다]]\n\n~~근거: 39기 호흡재활 9·13·19·29–31쪽; 38기 자료. 학생 풀이가 아니라 강의 내용에 근거한 판단이다.~~~",
+      "answerLabel": "2번 — Mechanical insufflator-exsufflator",
+      "explanation": "'''공식 정답: 2번'''\n\n정답: ② Mechanical insufflator-exsufflator\n\n=== 풀이의 핵심 ===\n이 환자의 주된 문제는 '''가래가 남고 폐렴을 겪었다는 상황에서 PCF가 190 L/min으로 낮다'''는 것이다. 올해 강의의 기침 기능 저하 기준인 270 L/min 미만에 해당하므로, 기침유량을 보조하는 '''MI-E, 2번'''이 가장 적절하다. ‘ALS니까 무조건 NIV’ 또는 ‘산소포화도가 낮으니까 산소만’으로 접근하면 치료의 표적을 놓친다.\n\n=== 선지별 해설 ===\n* 1번: 선지의 ‘기관절제술’은 이 증례의 치료 목표와 맞지 않는다. 기관절개술을 의도한 오타라고 보더라도, 기침이 약하다는 이유만으로 곧바로 침습적인 기도 접근을 만드는 것은 아니다. 우선 비침습적 기침 보조의 필요성과 효과를 평가한다.\n* 2번: 맞다. PCF 190 L/min은 낮고 가래 정체·폐렴 이력이 동반된다. Mechanical insufflation–exsufflation은 양압 흡기와 빠른 음압 호기를 연결해 부족한 기침유량을 보완한다.\n* 3번: 위루술은 삼킴·영양 문제에서 영양 공급 경로를 마련하는 치료다. ALS에서 필요할 수 있지만, 제시된 기침유량 저하와 객담 배출 실패를 직접 해결하지 않는다.\n* 4번: 야간 NIV는 저환기·환기부전이 치료 표적일 때 중요하다. 낮의 CO2가 정상 범위라고 완전히 배제하지는 않지만, 이 발문에서 가장 분명한 이상은 PCF 저하와 객담 정체다. NIV와 MI-E가 상호 배타적인 치료라는 뜻은 아니다.\n* 5번: 복식호흡과 입술오므리기는 호흡패턴을 조절하는 기법이다. 약해진 ALS 환자의 기침유량을 기계적으로 보완하는 MI-E를 대신하지 못한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n기침은 '''충분한 흡기 → 성문 폐쇄와 압력 형성 → 성문 개방과 빠른 호기'''로 이루어진다. ALS에서는 흡기근·호기근과 bulbar 기능의 저하가 겹쳐 기침이 약해진다. MI-E는 양압으로 흡기를 보조한 뒤 빠르게 음압으로 바꾸어 분비물을 배출할 호기유량을 만든다.\n\n||= 제시된 소견 ||= 의미 ||= 이번 선택에 주는 정보 ||\n|| ALS, 폐렴 이력, 가래 정체 || 기침 실패와 분비물 배출 위험 || 기침 보조 필요성의 임상 근거 ||\n|| '''PCF 190 L/min''' || 올해 평가 기준 270 L/min 미만 || 이 증례에서 가장 직접적인 치료 선택 단서 ||\n|| VC 3.2 L, 예측치 72% || 폐활량이 일부 감소했지만 기침 능력을 대변하지 않음 || VC가 비교적 남아 있어도 기침 보조 가능 ||\n|| SaO2 93% || 산소화 평가와 원인 확인 필요 || 산소포화도만으로 기침·환기 정상 여부를 판단하지 않음 ||\n|| 호기 후 CO2 39 mmHg || 제시된 주간 측정에서 고탄산혈증을 뒷받침하지 않음 || '''동맥혈 PaCO2와 동일시하거나 야간저환기를 배제하지 않음''' ||\n\n||= 해결할 문제 ||= 평가 단서 ||= 치료·역할 ||\n|| 폐·흉곽의 저팽창과 유순도 저하 || 깊은 흡기 감소, 자발 VC 감소, MIC 확보 필요 || '''LVR·air stacking'''으로 폐확장 유지 ||\n|| 기침이 약해 가래가 남음 || '''PCF <270 L/min''', 객담 정체·폐렴 반복 || '''Manual assisted cough·MI-E'''로 기침 보조 ||\n|| 야간저환기·만성 환기부전 || Orthopnea, 아침 두통·졸림, 야간 CO2 상승·고탄산혈증 || '''NIV'''로 환기 보조 ||\n|| 저산소혈증 || 낮은 SpO2/PaO2 || 원인과 환기를 평가하며 필요한 산소 공급 ||\n|| 연하·영양 문제 || 삼킴곤란·흡인 위험·영양 부족 || 연하 평가·영양경로 결정. 위루술은 기침 장비가 아님 ||\n\n올해 강의는 증상이 있으면 FVC 80% 미만에서도 NIV 평가를 고려하고, 50% 미만이면 증상이 없어도 평가하도록 설명한다. 그러므로 '''VC 72%여서 NIV는 절대 필요 없다'''는 논리는 틀리다. 다만 현재 발문에는 야간저환기 증상·검사보다 약한 기침과 객담 정체가 명확히 제시되어 있어 MI-E가 가장 적절하다. 아침 두통·orthopnea·주간 졸림이나 야간 CO2 상승이 추가되면 NIV를 함께 검토한다.\n\n> '''VC는 폐활량, PCF는 기침, CO2는 환기를 본다.''' 서로 관련은 있지만 어느 한 수치가 다른 기능의 정상 여부를 보증하지 않는다.\n\nMI-E의 압력·시간은 반응에 맞춰 설정하며, 기흉·종격동기종·큰 기포 등 압력손상 위험을 확인한다. Bulbar 기능이 나쁘면 상기도 반응과 기도 보호를 따로 살펴야 한다.\n\n[[23강#MI-E는 양압에서 음압으로 전환해 기침유량을 만든다|MI-E는 양압에서 음압으로 전환해 기침유량을 만든다]]\n\n~~근거: 39기 호흡재활 9·13·19·29–31쪽; 38기 자료. 학생 풀이가 아니라 강의 내용에 근거한 판단이다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.107. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "좌경림",
       "professor": "좌경림",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.107 출제자란 확인",
       "lectureIds": [
         23
       ],
       "lectureId": 23,
       "lectureTitle": "호흡재활",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 107번",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "재활의학",
+      "source": "2023 호흡기계 원본 p.107",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -21671,21 +22894,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture23_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 107,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "lecture_comparison",
-            "description": "39기 호흡재활 9·13·19·29–31쪽; 38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 107,
+        "professor": "좌경림",
+        "lecture": "호흡재활",
+        "question": "Amyotrophic lateral scelrosis를 앓고 있는 45세 여자가 폐렴에 걸린 과거력이\n있으며 가래가 많이 끓어 외래를 방문하여 시행한 검사가 아래와 같다. 고려해야 할\n치료는?\nLung sound: hoarse\nVital capacity: 3.2L(정상 예측치의 72%)\nPeak cough flow: 190L/min\nSaO2: 93%, 호흡수 18회/분, 심박수: 87\n호기 후 CO2 분압: 39mmHg",
+        "choices": [
+          "기관절제술 시행",
+          "Mechanical insufflator-exsufflator",
+          "위루중재술",
+          "야간 비침습적 양압환기",
+          "Diaphramatic breaathing/pursed lip breathing"
         ],
-        "basis": "39기 호흡재활 9·13·19·29–31쪽; 38기 자료",
-        "chapter": "MI-E는 양압에서 음압으로 전환해 기침유량을 만든다"
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21712,28 +22945,28 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "③ FEV1/FVC",
-      "explanation": "'''정답: ③ FEV1/FVC'''\n\n=== 이 문항을 풀기 위한 개념 ===\n폐쇄에서는 '''첫 1초의 배출량 FEV1이 전체 배출량 FVC보다 더 크게 감소'''한다. 반면 순수 제한에서는 폐 전체가 작아 두 값이 함께 줄어도 비율은 보존되거나 높아진다. 따라서 먼저 '''FEV1/FVC'''를 읽는다. COPD는 임상 배경과 함께 '''기관지확장제 투여 후 <0.7'''인지 확인한다.\n\n||= FEV1/FVC ||= FVC·TLC ||= 해석 ||\n|| 감소 || FVC 정상·감소 가능 || 폐쇄환기장애 ||\n|| 정상·증가 || FVC 감소, TLC 감소 || 제한환기장애 ||\n|| 감소 || FVC 감소, TLC 감소 || 폐쇄와 제한이 함께 있는 혼합장애 ||\n|| 감소 || FVC 감소, TLC 정상·증가 || Air trapping에 의한 FVC 감소 가능. 제한 동반으로 확정하지 않는다. ||\n|| 정상 || FVC 감소, TLC 정상 || 비특이적 환기 양상 등 추가 해석이 필요하다. ||\n\nFVC <80% predicted는 제한을 의심하는 출발점이지 확진 기준 자체는 아니다. '''TLC 감소로 제한을 확인'''하고 DLCO를 붙여 폐실질과 폐외성 원인을 구분한다. FEV1의 %Pred는 기류제한의 정도이며 FEV1/FVC와 다른 값이다.\n\n=== 선지별 해설 ===\n* '''1번: FVC''' — 제한에서 낮아지지만 폐쇄에서도 air trapping으로 낮아질 수 있어 단독 감별 지표가 아니다.\n* '''2번: FEV1''' — 폐쇄에서 감소하지만 제한에서도 함께 감소할 수 있다. 분모 FVC와 비교해야 한다.\n* '''3번: FEV1/FVC''' — 폐쇄에서 감소하고 순수 제한에서는 대체로 정상 또는 높다. COPD에서는 Post <0.7이 핵심 기준이다.\n* '''4번: DLco''' — 폐포막·혈액·Hb의 가스 전달을 평가한다. 환기 양상을 나눈 뒤 원인을 좁히는 데 유용하다.\n* '''5번: RV''' — 잔기량으로 air trapping 평가에 유용하지만 폐쇄와 제한을 가르는 첫 기준은 아니다.\n\n> '''비율로 폐쇄, TLC로 제한 확정, DLCO로 원인 감별.'''\n\n[[19강#FEV1/FVC로 폐쇄를 찾고 TLC로 제한을 확정한다|19강 · FEV1/FVC로 폐쇄를 찾고 TLC로 제한을 확정한다]]\n~~근거: 39기 폐기능검사 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
+      "answerLabel": "3번 — FEV1/FVC",
+      "explanation": "'''공식 정답: 3번'''\n\n'''정답: ③ FEV1/FVC'''\n\n=== 이 문항을 풀기 위한 개념 ===\n폐쇄에서는 '''첫 1초의 배출량 FEV1이 전체 배출량 FVC보다 더 크게 감소'''한다. 반면 순수 제한에서는 폐 전체가 작아 두 값이 함께 줄어도 비율은 보존되거나 높아진다. 따라서 먼저 '''FEV1/FVC'''를 읽는다. COPD는 임상 배경과 함께 '''기관지확장제 투여 후 <0.7'''인지 확인한다.\n\n||= FEV1/FVC ||= FVC·TLC ||= 해석 ||\n|| 감소 || FVC 정상·감소 가능 || 폐쇄환기장애 ||\n|| 정상·증가 || FVC 감소, TLC 감소 || 제한환기장애 ||\n|| 감소 || FVC 감소, TLC 감소 || 폐쇄와 제한이 함께 있는 혼합장애 ||\n|| 감소 || FVC 감소, TLC 정상·증가 || Air trapping에 의한 FVC 감소 가능. 제한 동반으로 확정하지 않는다. ||\n|| 정상 || FVC 감소, TLC 정상 || 비특이적 환기 양상 등 추가 해석이 필요하다. ||\n\nFVC <80% predicted는 제한을 의심하는 출발점이지 확진 기준 자체는 아니다. '''TLC 감소로 제한을 확인'''하고 DLCO를 붙여 폐실질과 폐외성 원인을 구분한다. FEV1의 %Pred는 기류제한의 정도이며 FEV1/FVC와 다른 값이다.\n\n=== 선지별 해설 ===\n* '''1번: FVC''' — 제한에서 낮아지지만 폐쇄에서도 air trapping으로 낮아질 수 있어 단독 감별 지표가 아니다.\n* '''2번: FEV1''' — 폐쇄에서 감소하지만 제한에서도 함께 감소할 수 있다. 분모 FVC와 비교해야 한다.\n* '''3번: FEV1/FVC''' — 폐쇄에서 감소하고 순수 제한에서는 대체로 정상 또는 높다. COPD에서는 Post <0.7이 핵심 기준이다.\n* '''4번: DLco''' — 폐포막·혈액·Hb의 가스 전달을 평가한다. 환기 양상을 나눈 뒤 원인을 좁히는 데 유용하다.\n* '''5번: RV''' — 잔기량으로 air trapping 평가에 유용하지만 폐쇄와 제한을 가르는 첫 기준은 아니다.\n\n> '''비율로 폐쇄, TLC로 제한 확정, DLCO로 원인 감별.'''\n\n[[19강#FEV1/FVC로 폐쇄를 찾고 TLC로 제한을 확정한다|19강 · FEV1/FVC로 폐쇄를 찾고 TLC로 제한을 확정한다]]\n~~근거: 39기 폐기능검사 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.108. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "임준혁",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.108 출제자란 확인",
       "lectureIds": [
         19
       ],
       "lectureId": 19,
       "lectureTitle": "폐기능검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 108번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "진단·검사",
+      "source": "2023 호흡기계 원본 p.108",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -21758,13 +22991,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐기능검사 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.",
-        "chapter": "FEV1/FVC로 폐쇄를 찾고 TLC로 제한을 확정한다",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 108,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "lecture_based_best_answer"
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 108,
+        "professor": "임준혁",
+        "lecture": "폐기능 검사",
+        "question": "다음 중 만성 폐쇄성 폐질환의 진단 기준이며, 폐쇄성 폐질환과 제한성 폐질환을 구분하는\n폐기능 검사의 지표는?",
+        "choices": [
+          "FVC",
+          "FEV1",
+          "FEV1/FVC",
+          "DLco",
+          "RV"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21791,28 +23042,28 @@ window.JBL_DATA = {
       "answerIndices": [
         5
       ],
-      "answerLabel": "⑤ RV",
-      "explanation": "'''정답: ⑤ RV'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD에서는 호기 때 좁아진 기도와 약해진 탄성반동 때문에 공기를 충분히 배출하지 못한다. '''남는 공기 RV가 증가'''하고 과팽창이 동반되면 TLC·FRC도 증가할 수 있다. 이미 폐 안에 공기가 많아서 추가로 들이마실 여유인 IC/TLC는 감소한다.\n\n||= 지표 ||= COPD의 전형적 변화 ||= 해석 ||\n|| FEV1 || 감소 || 첫 1초에 내보내는 부피가 줄어든다. ||\n|| FEV1/FVC || 감소 || 전체 호기량 중 첫 1초에 나온 비율. COPD는 Post <0.7을 확인한다. ||\n|| FVC || 정상 또는 감소 || Air trapping이 심하면 밖으로 나온 양도 작아진다. ||\n|| RV || '''증가''' || 최대 호기 후에도 갇혀 남는 공기가 많다. ||\n|| TLC·FRC || 과팽창 시 증가 가능 || 모든 COPD에서 반드시 증가하는 진단 기준은 아니다. ||\n|| IC/TLC || 감소 || 이미 차 있는 공기가 많아 추가 흡기의 여유가 줄어든다. ||\n|| DLCO || 폐기종에서 감소, 기도질환 위주이면 보존 가능 || 폐포–모세혈관 면적의 손상 여부가 중요하다. ||\n\n이 문항에서는 '''RV'''가 선지에 있다. 최대 호기 뒤 남은 공기라는 정의와 air trapping을 연결하면 된다.\n\n=== 선지별 해설 ===\n* '''1번: FVC''' — 정상 또는 감소한다. 남은 공기가 많아져 실제로 배출되는 양이 줄 수 있다.\n* '''2번: FEV1''' — 기도 저항과 호기 시 허탈 때문에 감소한다.\n* '''3번: FEV1/FVC''' — FEV1이 더 크게 감소하여 비율이 낮아진다.\n* '''4번: DLco''' — 폐기종에서는 가스교환 면적이 줄어 감소하며, 기도질환 위주에서는 보존될 수 있다. 일반적으로 상승하는 COPD 지표가 아니다.\n* '''5번: RV''' — 최대 호기 후에도 공기를 충분히 비우지 못하므로 증가한다. Air trapping을 가장 직접적으로 연결한다.\n\n> '''내보낸 FEV1은 줄고, 남겨진 RV는 늘어난다.''' FVC가 낮다고 제한성 질환이라고 단정하지 않는다.\n\n[[19강#COPD에서는 비우지 못해 RV가 증가한다|19강 · COPD에서는 비우지 못해 RV가 증가한다]]\n~~근거: 39기 폐기능검사 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
+      "answerLabel": "5번 — RV",
+      "explanation": "'''공식 정답: 5번'''\n\n'''정답: ⑤ RV'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD에서는 호기 때 좁아진 기도와 약해진 탄성반동 때문에 공기를 충분히 배출하지 못한다. '''남는 공기 RV가 증가'''하고 과팽창이 동반되면 TLC·FRC도 증가할 수 있다. 이미 폐 안에 공기가 많아서 추가로 들이마실 여유인 IC/TLC는 감소한다.\n\n||= 지표 ||= COPD의 전형적 변화 ||= 해석 ||\n|| FEV1 || 감소 || 첫 1초에 내보내는 부피가 줄어든다. ||\n|| FEV1/FVC || 감소 || 전체 호기량 중 첫 1초에 나온 비율. COPD는 Post <0.7을 확인한다. ||\n|| FVC || 정상 또는 감소 || Air trapping이 심하면 밖으로 나온 양도 작아진다. ||\n|| RV || '''증가''' || 최대 호기 후에도 갇혀 남는 공기가 많다. ||\n|| TLC·FRC || 과팽창 시 증가 가능 || 모든 COPD에서 반드시 증가하는 진단 기준은 아니다. ||\n|| IC/TLC || 감소 || 이미 차 있는 공기가 많아 추가 흡기의 여유가 줄어든다. ||\n|| DLCO || 폐기종에서 감소, 기도질환 위주이면 보존 가능 || 폐포–모세혈관 면적의 손상 여부가 중요하다. ||\n\n이 문항에서는 '''RV'''가 선지에 있다. 최대 호기 뒤 남은 공기라는 정의와 air trapping을 연결하면 된다.\n\n=== 선지별 해설 ===\n* '''1번: FVC''' — 정상 또는 감소한다. 남은 공기가 많아져 실제로 배출되는 양이 줄 수 있다.\n* '''2번: FEV1''' — 기도 저항과 호기 시 허탈 때문에 감소한다.\n* '''3번: FEV1/FVC''' — FEV1이 더 크게 감소하여 비율이 낮아진다.\n* '''4번: DLco''' — 폐기종에서는 가스교환 면적이 줄어 감소하며, 기도질환 위주에서는 보존될 수 있다. 일반적으로 상승하는 COPD 지표가 아니다.\n* '''5번: RV''' — 최대 호기 후에도 공기를 충분히 비우지 못하므로 증가한다. Air trapping을 가장 직접적으로 연결한다.\n\n> '''내보낸 FEV1은 줄고, 남겨진 RV는 늘어난다.''' FVC가 낮다고 제한성 질환이라고 단정하지 않는다.\n\n[[19강#COPD에서는 비우지 못해 RV가 증가한다|19강 · COPD에서는 비우지 못해 RV가 증가한다]]\n~~근거: 39기 폐기능검사 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.109. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "임준혁",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.109 출제자란 확인",
       "lectureIds": [
         19
       ],
       "lectureId": 19,
       "lectureTitle": "폐기능검사",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 109번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "진단·검사",
+      "source": "2023 호흡기계 원본 p.109",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -21835,13 +23086,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 폐기능검사 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.",
-        "chapter": "COPD에서는 비우지 못해 RV가 증가한다",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 109,
         "originalQuestionAndImagesPreserved": true,
-        "answerStatus": "lecture_based_best_answer"
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 109,
+        "professor": "임준혁",
+        "lecture": "폐기능 검사",
+        "question": "다음 중 만성 폐쇄성 폐질환에서 상승하는 폐기능 검사 지표는?",
+        "choices": [
+          "FVC",
+          "FEV1",
+          "FEV1/FVC",
+          "DLco",
+          "RV"
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21868,28 +23137,28 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "정답: ③ — D-dimer\n\n민감도가 높고 특이도가 낮은 혈액검사로 PE의 배제를 돕는 것은 D-dimer다. 다만 이 결론은 임상 가능성이 낮거나 중간인 환자에게 적절한 기준값을 적용했을 때 성립한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\nD-dimer는 가교된 fibrin의 분해 산물이다. 혈전이 생겼다가 분해되고 있다는 신호이지만, 그 혈전이 폐동맥에 있다는 위치 정보는 주지 않는다. 수술·감염·패혈증·암·임신·심근경색 등에서도 상승하므로 '''양성만으로 PE를 확진하지 못한다.'''\n\n||= 임상 상황 ||= 검사 선택 ||= 결과의 의미 ||\n|| 낮음·중간 가능성 || D-dimer || 적용한 기준보다 낮으면 배제; 기준 이상이면 영상검사 ||\n|| 높은 가능성 || '''CTPA 등 영상검사''' || 음성 D-dimer만으로 배제하지 않음 ||\n|| 혈역학적으로 불안정 || 응급 평가와 bedside 심초음파 등 || CT 가능 여부를 판단하면서 처치를 지연하지 않음 ||\n\n올해 도표의 YEARS 항목은 '''DVT 징후, 객혈, PE가 가장 가능성 높은 진단'''이다. 0개이면 D-dimer <1,000 ng/mL, 1개 이상이면 <500 ng/mL일 때 배제하는 경로다. 50세 초과에서 나이×10 μg/L(FEU)를 쓰는 연령 보정 경로도 있지만, 검증된 알고리즘과 검사실 단위에 맞춰 적용해야 한다. 서로 다른 경로에서 유리한 숫자만 임의로 골라 쓰지 않는다.\n\n> '''높은 민감도는 음성일 때의 배제에, 높은 특이도는 양성일 때의 확진에 유리하다.''' 하지만 검사 전 가능성이 매우 높으면 음성 결과 하나로 끝낼 수 없다.\n\n=== 선지별 해설 ===\n\n* 1번: '''NT-proBNP''' — NT-proBNP는 심실벽의 부담을 반영하며 PE에서는 우심실 strain과 예후 평가에 쓰인다. 낮다는 이유만으로 PE 자체를 배제하는 표준 rule out 검사는 아니다.\n* 2번: '''Electrocardiography''' — ECG에서는 sinus tachycardia, S1Q3T3, V1–V4 T파 역전 등이 보일 수 있지만 정상일 수도 있다. 민감도가 충분하지 않아 정상 ECG로 PE를 배제하지 못한다.\n* 3번: '''D-dimer''' — D-dimer가 해당한다. 높은 민감도를 이용해 낮음·중간 검사 전 가능성에서 음성일 때 배제한다. 양성은 비특이적이므로 영상검사가 필요하다.\n* 4번: '''Venous ultrasonography''' — 하지 정맥초음파는 DVT를 찾는다. 양성 근위부 DVT는 VTE 진단에 중요한 근거지만, 음성이라고 폐동맥의 혈전까지 없다는 뜻은 아니다.\n* 5번: '''Lung scan''' — V/Q scan은 환기와 관류의 불일치를 평가하는 영상검사다. 정상 관류스캔은 PE 배제에 도움이 되지만, 발문이 제시한 “민감도가 매우 높고 특이도가 낮은 rule out 검사”의 전형은 D-dimer다. V/Q scan 전체를 단순히 특이도가 낮은 혈액검사와 같은 범주로 보지 않는다.\n\n=== 조건이 바뀌어도 구분할 것 ===\n\n발문이 “rule out 혈액검사”이면 D-dimer지만, 수술 후 편측 하지 부종·빈맥·호흡곤란을 제시하고 “다음 확진검사”를 물으면 CTPA가 된다. Troponin·BNP는 심장 부담과 위험도 평가라는 다른 역할을 한다.\n\n[[21강#D-dimer는 가능성이 낮거나 중간일 때 배제를 돕는다|Wiki: D-dimer는 가능성이 낮거나 중간일 때 배제를 돕는다]]\n\n~~근거: 39기 「폐혈관질환」 PDF 26·27·28·29·31·32쪽; 38기 자료. 숫자는 PDF 페이지 기준.~~~",
+      "answerLabel": "3번 — D-dimer",
+      "explanation": "'''공식 정답: 3번'''\n\n정답: ③ — D-dimer\n\n민감도가 높고 특이도가 낮은 혈액검사로 PE의 배제를 돕는 것은 D-dimer다. 다만 이 결론은 임상 가능성이 낮거나 중간인 환자에게 적절한 기준값을 적용했을 때 성립한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\nD-dimer는 가교된 fibrin의 분해 산물이다. 혈전이 생겼다가 분해되고 있다는 신호이지만, 그 혈전이 폐동맥에 있다는 위치 정보는 주지 않는다. 수술·감염·패혈증·암·임신·심근경색 등에서도 상승하므로 '''양성만으로 PE를 확진하지 못한다.'''\n\n||= 임상 상황 ||= 검사 선택 ||= 결과의 의미 ||\n|| 낮음·중간 가능성 || D-dimer || 적용한 기준보다 낮으면 배제; 기준 이상이면 영상검사 ||\n|| 높은 가능성 || '''CTPA 등 영상검사''' || 음성 D-dimer만으로 배제하지 않음 ||\n|| 혈역학적으로 불안정 || 응급 평가와 bedside 심초음파 등 || CT 가능 여부를 판단하면서 처치를 지연하지 않음 ||\n\n올해 도표의 YEARS 항목은 '''DVT 징후, 객혈, PE가 가장 가능성 높은 진단'''이다. 0개이면 D-dimer <1,000 ng/mL, 1개 이상이면 <500 ng/mL일 때 배제하는 경로다. 50세 초과에서 나이×10 μg/L(FEU)를 쓰는 연령 보정 경로도 있지만, 검증된 알고리즘과 검사실 단위에 맞춰 적용해야 한다. 서로 다른 경로에서 유리한 숫자만 임의로 골라 쓰지 않는다.\n\n> '''높은 민감도는 음성일 때의 배제에, 높은 특이도는 양성일 때의 확진에 유리하다.''' 하지만 검사 전 가능성이 매우 높으면 음성 결과 하나로 끝낼 수 없다.\n\n=== 선지별 해설 ===\n\n* 1번: '''NT-proBNP''' — NT-proBNP는 심실벽의 부담을 반영하며 PE에서는 우심실 strain과 예후 평가에 쓰인다. 낮다는 이유만으로 PE 자체를 배제하는 표준 rule out 검사는 아니다.\n* 2번: '''Electrocardiography''' — ECG에서는 sinus tachycardia, S1Q3T3, V1–V4 T파 역전 등이 보일 수 있지만 정상일 수도 있다. 민감도가 충분하지 않아 정상 ECG로 PE를 배제하지 못한다.\n* 3번: '''D-dimer''' — D-dimer가 해당한다. 높은 민감도를 이용해 낮음·중간 검사 전 가능성에서 음성일 때 배제한다. 양성은 비특이적이므로 영상검사가 필요하다.\n* 4번: '''Venous ultrasonography''' — 하지 정맥초음파는 DVT를 찾는다. 양성 근위부 DVT는 VTE 진단에 중요한 근거지만, 음성이라고 폐동맥의 혈전까지 없다는 뜻은 아니다.\n* 5번: '''Lung scan''' — V/Q scan은 환기와 관류의 불일치를 평가하는 영상검사다. 정상 관류스캔은 PE 배제에 도움이 되지만, 발문이 제시한 “민감도가 매우 높고 특이도가 낮은 rule out 검사”의 전형은 D-dimer다. V/Q scan 전체를 단순히 특이도가 낮은 혈액검사와 같은 범주로 보지 않는다.\n\n=== 조건이 바뀌어도 구분할 것 ===\n\n발문이 “rule out 혈액검사”이면 D-dimer지만, 수술 후 편측 하지 부종·빈맥·호흡곤란을 제시하고 “다음 확진검사”를 물으면 CTPA가 된다. Troponin·BNP는 심장 부담과 위험도 평가라는 다른 역할을 한다.\n\n[[21강#D-dimer는 가능성이 낮거나 중간일 때 배제를 돕는다|Wiki: D-dimer는 가능성이 낮거나 중간일 때 배제를 돕는다]]\n\n~~근거: 39기 「폐혈관질환」 PDF 26·27·28·29·31·32쪽; 38기 자료. 숫자는 PDF 페이지 기준.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.110. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "임준혁",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.110 출제자란 확인",
       "lectureIds": [
         21
       ],
       "lectureId": 21,
       "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 110번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐혈관질환",
+      "source": "2023 호흡기계 원본 p.110",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -21914,55 +23183,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture21_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 110,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L21-current",
-            "kind": "lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/21 폐혈관질환-폐성심, 폐동맥고혈압, 폐색전증_강의록.pdf",
-            "pages": [
-              26,
-              27,
-              28,
-              29,
-              31,
-              32
-            ]
-          },
-          {
-            "key": "L21-prior",
-            "kind": "lecture",
-            "path": "38기 자료",
-            "pages": [
-              7,
-              8,
-              9
-            ]
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 110,
+        "professor": "임준혁",
+        "lecture": "폐혈관 질환",
+        "question": "다음 중 급성 폐색전증의 진단에서 민감도는 매우 높으나 특이도가 낮아서 음성일 경우 급\n성 폐색전증을 배제하는 “rule out” test로서의 역할을 하는 검사는?",
+        "choices": [
+          "NT-proBNP",
+          "Electrocardiography",
+          "D-dimer",
+          "Venous ultrasonography",
+          "Lung scan"
         ],
-        "basis": {
-          "currentPdfPages": [
-            26,
-            27,
-            28,
-            29,
-            31,
-            32
-          ],
-          "priorPdfPages": [
-            7,
-            8,
-            9
-          ],
-          "official": null
-        },
-        "chapter": "D-dimer는 가능성이 낮거나 중간일 때 배제를 돕는다"
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -21972,15 +23217,15 @@ window.JBL_DATA = {
       "globalNumber": 287,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 111,
+      "originalNumber": 112,
       "originalNumbers": [
-        111
+        112
       ],
       "question": "다음 중 급성폐색전증에서 항응고치료 (anticoagulation)의 절대적 금기 (Absolute contraindication)는?",
       "passage": "",
       "choices": [
         "active peptic ulcer disease",
-        "heparin-induced thrombocytopenia",
+        "Hepatin-induced thrombocytopenia",
         "hepatic failure",
         "intracranial bleeding",
         "bleeding diathesis"
@@ -21989,28 +23234,28 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "정답: ④ — intracranial bleeding\n\n이 문항은 혈전용해제가 아니라 항응고치료의 절대 금기를 묻는다. 두개내 출혈 및 최근 CNS·안과 수술은 제한된 공간에서 출혈이 악화될 위험 때문에 별도로 기억해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\n항응고제는 혈전의 추가 형성·성장을 막지만 출혈을 악화시킬 수 있다. 따라서 치료 필요성만이 아니라 '''출혈의 현재 상태, 위치, 수술의 종류와 시점'''을 함께 본다. 38기 자료의 금기 표 전체는 다음과 같다.\n\n||= 절대 금기 ||= 상대 금기 ||\n|| '''활동성 중증 출혈''' || 최근 큰 수술 ||\n|| '''두개내 출혈''' || 조절되지 않는 고혈압 ||\n|| '''최근 2주 이내 CNS 또는 안과 수술''' || 활동성 소화성궤양 ||\n||  || 큰 비출혈성 뇌졸중 ||\n||  || 출혈성 소인 ||\n||  || 간부전 또는 신부전 ||\n||  || Heparin-induced thrombocytopenia(HIT) ||\n\nHIT는 표의 상대 금기 항목에 있지만, 임상적으로는 '''heparin을 중단해야 하는 약제별 금기'''로 이해해야 한다. 혈소판이 줄어도 혈전 위험이 크므로 argatroban·bivalirudin 같은 '''비heparin 항응고제'''를 고려한다. “HIT이므로 모든 항응고치료를 중단한다”는 결론은 틀리다. LMWH도 이미 생긴 HIT의 안전한 대체약으로 취급하지 않는다.\n\n또한 활동성 궤양이 상대 금기라는 말은 대량 출혈 중이어도 투여하라는 뜻이 아니다. 실제 중증 출혈이 있으면 절대 금기의 첫 항목으로 판단한다. 최근의 일반적인 큰 수술과 '''최근 CNS·안과 수술'''도 같은 범주가 아니다.\n\n> '''항응고 금기와 혈전용해 금기는 다른 표다.''' 최근 수술 환자라도 상태가 안정적이고 활동성 출혈이 없다면 항응고가 가능할 수 있지만, 혈전용해는 더 엄격한 출혈 위험 평가가 필요하다.\n\n=== 선지별 해설 ===\n\n* 1번: '''active peptic ulcer disease''' — 활동성 소화성궤양은 강의 표의 상대 금기다. 다만 현재 중증 위장관출혈이 진행 중이라면 “활동성 중증 출혈”로서 절대 금기를 적용한다. 궤양이라는 진단명만 제시된 이 선지와 구분한다.\n* 2번: '''heparin-induced thrombocytopenia''' — HIT에서는 heparin 계열을 중단해야 하지만 모든 항응고치료가 금기는 아니다. 오히려 혈전 위험 때문에 비heparin 항응고제를 고려한다. 표의 상대 금기를 “heparin을 계속 써도 된다”는 뜻으로 읽지 않는다.\n* 3번: '''hepatic failure''' — 간부전은 강의 표에서 상대 금기다. 응고인자 생성과 약물 처리에 영향을 주므로 출혈 위험·중증도에 맞춰 약제와 용량을 판단하되, 간부전이라는 명칭만으로 모든 항응고를 절대 금지하지 않는다.\n* 4번: '''intracranial bleeding''' — 두개내 출혈은 절대 금기다. 출혈이 커지면 제한된 두개강에서 뇌압 상승과 치명적인 신경학적 손상이 생길 수 있다.\n* 5번: '''bleeding diathesis''' — 출혈성 소인은 표의 상대 금기다. 실제 출혈과 응고 이상 정도를 평가한다. 발문에서 활동성 중증 출혈이 별도로 주어진 것과 동일시하지 않는다.\n\n=== 조건이 바뀌어도 구분할 것 ===\n\n문항의 선지가 바뀌면 “intracranial bleeding”, “recent CNS/eye surgery”, “active serious hemorrhage” 중 무엇이 있는지 먼저 확인한다. 항응고가 불가능한 근위부 DVT·PE 환자에서는 IVC filter를 고려할 수 있지만, 필터가 기존 폐동맥 혈전을 녹이지는 않는다.\n\n[[21강#항응고치료의 절대 금기와 약제별 금기를 구분한다|Wiki: 항응고치료의 절대 금기와 약제별 금기를 구분한다]]\n\n~~근거: 39기 「폐혈관질환」 PDF 35·36·37·40쪽; 38기 자료. 숫자는 PDF 페이지 기준.~~~",
+      "answerLabel": "4번 — intracranial bleeding",
+      "explanation": "'''공식 정답: 4번'''\n\n정답: ④ — intracranial bleeding\n\n이 문항은 혈전용해제가 아니라 항응고치료의 절대 금기를 묻는다. 두개내 출혈 및 최근 CNS·안과 수술은 제한된 공간에서 출혈이 악화될 위험 때문에 별도로 기억해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\n항응고제는 혈전의 추가 형성·성장을 막지만 출혈을 악화시킬 수 있다. 따라서 치료 필요성만이 아니라 '''출혈의 현재 상태, 위치, 수술의 종류와 시점'''을 함께 본다. 38기 자료의 금기 표 전체는 다음과 같다.\n\n||= 절대 금기 ||= 상대 금기 ||\n|| '''활동성 중증 출혈''' || 최근 큰 수술 ||\n|| '''두개내 출혈''' || 조절되지 않는 고혈압 ||\n|| '''최근 2주 이내 CNS 또는 안과 수술''' || 활동성 소화성궤양 ||\n||  || 큰 비출혈성 뇌졸중 ||\n||  || 출혈성 소인 ||\n||  || 간부전 또는 신부전 ||\n||  || Heparin-induced thrombocytopenia(HIT) ||\n\nHIT는 표의 상대 금기 항목에 있지만, 임상적으로는 '''heparin을 중단해야 하는 약제별 금기'''로 이해해야 한다. 혈소판이 줄어도 혈전 위험이 크므로 argatroban·bivalirudin 같은 '''비heparin 항응고제'''를 고려한다. “HIT이므로 모든 항응고치료를 중단한다”는 결론은 틀리다. LMWH도 이미 생긴 HIT의 안전한 대체약으로 취급하지 않는다.\n\n또한 활동성 궤양이 상대 금기라는 말은 대량 출혈 중이어도 투여하라는 뜻이 아니다. 실제 중증 출혈이 있으면 절대 금기의 첫 항목으로 판단한다. 최근의 일반적인 큰 수술과 '''최근 CNS·안과 수술'''도 같은 범주가 아니다.\n\n> '''항응고 금기와 혈전용해 금기는 다른 표다.''' 최근 수술 환자라도 상태가 안정적이고 활동성 출혈이 없다면 항응고가 가능할 수 있지만, 혈전용해는 더 엄격한 출혈 위험 평가가 필요하다.\n\n=== 선지별 해설 ===\n\n* 1번: '''active peptic ulcer disease''' — 활동성 소화성궤양은 강의 표의 상대 금기다. 다만 현재 중증 위장관출혈이 진행 중이라면 “활동성 중증 출혈”로서 절대 금기를 적용한다. 궤양이라는 진단명만 제시된 이 선지와 구분한다.\n* 2번: '''heparin-induced thrombocytopenia''' — HIT에서는 heparin 계열을 중단해야 하지만 모든 항응고치료가 금기는 아니다. 오히려 혈전 위험 때문에 비heparin 항응고제를 고려한다. 표의 상대 금기를 “heparin을 계속 써도 된다”는 뜻으로 읽지 않는다.\n* 3번: '''hepatic failure''' — 간부전은 강의 표에서 상대 금기다. 응고인자 생성과 약물 처리에 영향을 주므로 출혈 위험·중증도에 맞춰 약제와 용량을 판단하되, 간부전이라는 명칭만으로 모든 항응고를 절대 금지하지 않는다.\n* 4번: '''intracranial bleeding''' — 두개내 출혈은 절대 금기다. 출혈이 커지면 제한된 두개강에서 뇌압 상승과 치명적인 신경학적 손상이 생길 수 있다.\n* 5번: '''bleeding diathesis''' — 출혈성 소인은 표의 상대 금기다. 실제 출혈과 응고 이상 정도를 평가한다. 발문에서 활동성 중증 출혈이 별도로 주어진 것과 동일시하지 않는다.\n\n=== 조건이 바뀌어도 구분할 것 ===\n\n문항의 선지가 바뀌면 “intracranial bleeding”, “recent CNS/eye surgery”, “active serious hemorrhage” 중 무엇이 있는지 먼저 확인한다. 항응고가 불가능한 근위부 DVT·PE 환자에서는 IVC filter를 고려할 수 있지만, 필터가 기존 폐동맥 혈전을 녹이지는 않는다.\n\n[[21강#항응고치료의 절대 금기와 약제별 금기를 구분한다|Wiki: 항응고치료의 절대 금기와 약제별 금기를 구분한다]]\n\n~~근거: 39기 「폐혈관질환」 PDF 35·36·37·40쪽; 38기 자료. 숫자는 PDF 페이지 기준.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.112. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "임준혁",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.112 출제자란 확인",
       "lectureIds": [
         21
       ],
       "lectureId": 21,
       "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 111번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐혈관질환",
+      "source": "2023 호흡기계 원본 p.112",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
@@ -22035,47 +23280,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture21_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 112,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L21-current",
-            "kind": "lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/21 폐혈관질환-폐성심, 폐동맥고혈압, 폐색전증_강의록.pdf",
-            "pages": [
-              35,
-              36,
-              37,
-              40
-            ]
-          },
-          {
-            "key": "L21-prior",
-            "kind": "lecture",
-            "path": "38기 자료",
-            "pages": [
-              16
-            ]
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 112,
+        "professor": "임준혁",
+        "lecture": "폐혈관 질환",
+        "question": "다음 중 급성폐색전증에서 항응고치료 (anticoagulation)의 절대적 금기 (Absolute\ncontraindication)는?",
+        "choices": [
+          "Active peptic ulcer disease",
+          "Hepatin-induced thrombocytopenia",
+          "Hepatic failure",
+          "Intracranial bleeding",
+          "Bleeding diathesis"
         ],
-        "basis": {
-          "currentPdfPages": [
-            35,
-            36,
-            37,
-            40
-          ],
-          "priorPdfPages": [
-            16
-          ],
-          "official": null
-        },
-        "chapter": "항응고치료의 절대 금기와 약제별 금기를 구분한다"
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22085,9 +23314,8 @@ window.JBL_DATA = {
       "globalNumber": 288,
       "year": 2023,
       "sourceType": "족보",
-      "originalNumber": 112,
+      "originalNumber": 113,
       "originalNumbers": [
-        112,
         113
       ],
       "question": "폐동맥고혈압이 진단된 환자에서 Vasoreactivity test를 시행하여 양성소견을 보일 경우 우선 고려할 수 있는 약물은?",
@@ -22103,31 +23331,29 @@ window.JBL_DATA = {
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ①",
-      "explanation": "정답: ① — calcium channel blocker\n\nPAH 환자의 급성 혈관반응성 검사 양성은 가역적인 혈관수축 성분이 커서 calcium channel blocker(CCB)에 반응할 가능성을 뜻한다. 따라서 이 조건에 직접 대응하는 약은 CCB다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\nPH는 폐고혈압 전체이며, PAH는 그중 Group 1이다. 급성 혈관반응성 검사는 특히 '''특발성·유전성·약물 관련 PAH'''에서 CCB 반응 가능성을 평가하는 검사다. 좌심장질환이나 COPD로 생긴 PH까지 모두 같은 방법으로 치료하지 않는다.\n\n||= 단계 ||= 조건·내용 ||\n|| 검사 자극 || '''흡입 NO 10–20 ppm, 약 5분''' ||\n|| mPAP 감소폭 || '''10 mmHg 이상 감소''' ||\n|| 최종 mPAP || '''40 mmHg 이하''' ||\n|| CO || '''감소하지 않고 유지되거나 증가''' ||\n|| 양성 후 고려 약물 || '''Amlodipine, diltiazem, nifedipine''' 등 CCB ||\n\n예를 들어 55→38 mmHg에 CO가 유지되면 양성이다. 55→43은 감소폭만 만족하고, 45→38은 최종압만 만족하므로 둘 다 양성이 아니다. CO가 줄면서 압력이 떨어졌다면 우심실 기능 저하일 수 있어, 이를 혈관이 잘 이완되었다고 해석할 수 없다.\n\n반응자는 올해 자료에서 '''10% 미만'''이다. 검사 없이 CCB를 모두에게 쓰지 않으며, 급성 양성도 장기 반응을 보장하지 않아 추적이 필요하다. 나머지 환자는 위험도에 따라 ERA·PDE5i·prostacyclin 계열 등의 표적치료를 받는다. 올해 알고리즘은 초기 비고위험에서 ERA+PDE5i, 고위험에서 정맥·피하 prostacyclin analogue 추가를 고려하며, 치료 후 중간 이상 위험에서는 sotatercept 추가도 제시한다.\n\n> '''검사에 쓰는 흡입 NO'''와 '''양성 반응자에게 선택하는 장기 치료 CCB'''를 구분한다. 다른 선지의 약들도 PAH 치료제지만, 이 발문의 결정적 조건은 vasoreactivity 양성이다.\n\n=== 선지별 해설 ===\n\n* 1번: '''calcium channel blocker''' — CCB가 정답이다. 반응성 검사 양성인 일부 PAH 환자에게 amlodipine·diltiazem·nifedipine 등을 고려한다. 모든 PH의 보편적 첫 약이라는 뜻은 아니다.\n* 2번: '''endothelin receptor antagonist''' — Endothelin receptor antagonist는 수축·증식 신호를 차단한다. Bosentan·ambrisentan·macitentan이 해당하며, PAH 병합치료의 주요 약물이지만 vasoreactivity 양성에 직접 대응하는 선택은 CCB다.\n* 3번: '''soluble guanylate cyclase(sGC) stimulator''' — sGC stimulator인 riociguat는 NO–cGMP 경로를 강화한다. PAH와 일부 CTEPH 치료에 쓰이지만, 양성 반응자를 선별하여 고르는 CCB와는 다르다. PDE5i와 동시 병용하지 않는다.\n* 4번: '''PDE5 inhibitor''' — PDE5 inhibitor인 sildenafil·tadalafil은 cGMP 분해를 억제해 혈관 이완을 돕는다. PAH의 중요한 표적치료제지만 이 발문의 양성 반응성 조건은 CCB 선택을 가리킨다.\n* 5번: '''prostacyclin analogue''' — Prostacyclin 계열은 혈관을 이완시키고 항혈소판·항증식 방향으로 작용한다. Epoprostenol·treprostinil·iloprost 등이 해당한다. 특히 고위험 PAH에서 중요한 치료지만 양성 반응성 검사의 일차 연결은 CCB다.\n\n=== 조건이 바뀌어도 구분할 것 ===\n\n“폐고혈압 치료제”를 넓게 묻는다면 여러 약물군이 맞을 수 있다. “급성 혈관반응성 양성”이라는 조건이 있을 때 CCB를 고르고, 검사 수치가 주어지면 감소폭·최종압·CO 세 조건을 모두 확인한다.\n\n[[21강#혈관반응성 양성인 PAH에서는 CCB를 고려한다|Wiki: 혈관반응성 양성인 PAH에서는 CCB를 고려한다]]\n\n~~근거: 39기 「폐혈관질환」 PDF 13·14·15·19·20·21·22쪽; 38기 자료. 숫자는 PDF 페이지 기준.~~~",
+      "answerLabel": "1번 — calcium channel blocker",
+      "explanation": "'''공식 정답: 1번'''\n\n정답: ① — calcium channel blocker\n\nPAH 환자의 급성 혈관반응성 검사 양성은 가역적인 혈관수축 성분이 커서 calcium channel blocker(CCB)에 반응할 가능성을 뜻한다. 따라서 이 조건에 직접 대응하는 약은 CCB다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\nPH는 폐고혈압 전체이며, PAH는 그중 Group 1이다. 급성 혈관반응성 검사는 특히 '''특발성·유전성·약물 관련 PAH'''에서 CCB 반응 가능성을 평가하는 검사다. 좌심장질환이나 COPD로 생긴 PH까지 모두 같은 방법으로 치료하지 않는다.\n\n||= 단계 ||= 조건·내용 ||\n|| 검사 자극 || '''흡입 NO 10–20 ppm, 약 5분''' ||\n|| mPAP 감소폭 || '''10 mmHg 이상 감소''' ||\n|| 최종 mPAP || '''40 mmHg 이하''' ||\n|| CO || '''감소하지 않고 유지되거나 증가''' ||\n|| 양성 후 고려 약물 || '''Amlodipine, diltiazem, nifedipine''' 등 CCB ||\n\n예를 들어 55→38 mmHg에 CO가 유지되면 양성이다. 55→43은 감소폭만 만족하고, 45→38은 최종압만 만족하므로 둘 다 양성이 아니다. CO가 줄면서 압력이 떨어졌다면 우심실 기능 저하일 수 있어, 이를 혈관이 잘 이완되었다고 해석할 수 없다.\n\n반응자는 올해 자료에서 '''10% 미만'''이다. 검사 없이 CCB를 모두에게 쓰지 않으며, 급성 양성도 장기 반응을 보장하지 않아 추적이 필요하다. 나머지 환자는 위험도에 따라 ERA·PDE5i·prostacyclin 계열 등의 표적치료를 받는다. 올해 알고리즘은 초기 비고위험에서 ERA+PDE5i, 고위험에서 정맥·피하 prostacyclin analogue 추가를 고려하며, 치료 후 중간 이상 위험에서는 sotatercept 추가도 제시한다.\n\n> '''검사에 쓰는 흡입 NO'''와 '''양성 반응자에게 선택하는 장기 치료 CCB'''를 구분한다. 다른 선지의 약들도 PAH 치료제지만, 이 발문의 결정적 조건은 vasoreactivity 양성이다.\n\n=== 선지별 해설 ===\n\n* 1번: '''calcium channel blocker''' — CCB가 정답이다. 반응성 검사 양성인 일부 PAH 환자에게 amlodipine·diltiazem·nifedipine 등을 고려한다. 모든 PH의 보편적 첫 약이라는 뜻은 아니다.\n* 2번: '''endothelin receptor antagonist''' — Endothelin receptor antagonist는 수축·증식 신호를 차단한다. Bosentan·ambrisentan·macitentan이 해당하며, PAH 병합치료의 주요 약물이지만 vasoreactivity 양성에 직접 대응하는 선택은 CCB다.\n* 3번: '''soluble guanylate cyclase(sGC) stimulator''' — sGC stimulator인 riociguat는 NO–cGMP 경로를 강화한다. PAH와 일부 CTEPH 치료에 쓰이지만, 양성 반응자를 선별하여 고르는 CCB와는 다르다. PDE5i와 동시 병용하지 않는다.\n* 4번: '''PDE5 inhibitor''' — PDE5 inhibitor인 sildenafil·tadalafil은 cGMP 분해를 억제해 혈관 이완을 돕는다. PAH의 중요한 표적치료제지만 이 발문의 양성 반응성 조건은 CCB 선택을 가리킨다.\n* 5번: '''prostacyclin analogue''' — Prostacyclin 계열은 혈관을 이완시키고 항혈소판·항증식 방향으로 작용한다. Epoprostenol·treprostinil·iloprost 등이 해당한다. 특히 고위험 PAH에서 중요한 치료지만 양성 반응성 검사의 일차 연결은 CCB다.\n\n=== 조건이 바뀌어도 구분할 것 ===\n\n“폐고혈압 치료제”를 넓게 묻는다면 여러 약물군이 맞을 수 있다. “급성 혈관반응성 양성”이라는 조건이 있을 때 CCB를 고르고, 검사 수치가 주어지면 감소폭·최종압·CO 세 조건을 모두 확인한다.\n\n[[21강#혈관반응성 양성인 PAH에서는 CCB를 고려한다|Wiki: 혈관반응성 양성인 PAH에서는 CCB를 고려한다]]\n\n~~근거: 39기 「폐혈관질환」 PDF 13·14·15·19·20·21·22쪽; 38기 자료. 숫자는 PDF 페이지 기준.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.113. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "임준혁",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "임준혁",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.113 출제자란 확인",
       "lectureIds": [
         21
       ],
       "lectureId": 21,
       "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 112,113번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐혈관질환",
+      "source": "2023 호흡기계 원본 p.113",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "사용자 요청으로 같은 연도 중복 복원을 한 문항으로 통합했다. 두 원번호와 각 원문·출처는 모두 보존한다."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [
         "R009"
@@ -22151,57 +23377,31 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-19",
-        "scope": "lecture21_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 113,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "key": "L21-current",
-            "kind": "lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/21 폐혈관질환-폐성심, 폐동맥고혈압, 폐색전증_강의록.pdf",
-            "pages": [
-              13,
-              14,
-              15,
-              19,
-              20,
-              21,
-              22
-            ]
-          },
-          {
-            "key": "L21-prior",
-            "kind": "lecture",
-            "path": "38기 자료",
-            "pages": [
-              35,
-              36,
-              37
-            ]
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 113,
+        "professor": "임준혁",
+        "lecture": "폐혈관 질환",
+        "question": "폐동맥고혈압이 진단된 환자에서 Vasoreactivity test를 시행하여 양성소견을 보일 경우 우선\n고려할 수 있는 약물은?",
+        "choices": [
+          "Calcium channel blocker",
+          "Endothelin receptor antagonist",
+          "Soluble guanylate cyclase (sGC) stimulator",
+          "PDE5 inhibitor",
+          "Prostacyclin analogue"
         ],
-        "basis": {
-          "currentPdfPages": [
-            13,
-            14,
-            15,
-            19,
-            20,
-            21,
-            22
-          ],
-          "priorPdfPages": [
-            35,
-            36,
-            37
-          ],
-          "official": null
-        },
-        "chapter": "혈관반응성 양성인 PAH에서는 CCB를 고려한다"
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22215,12 +23415,12 @@ window.JBL_DATA = {
       "originalNumbers": [
         115
       ],
-      "question": "50세 남자가 3달 전부터 기침으로 내원했다. 환자는 특별한 병력은 없었고 비흡연자였다. 혈압 120/60mmHg, 맥박 72회/분, 호흡 24회/분, 체온 36.4℃이다. 호흡음은 정상이었다. 가슴 컴퓨터단층촬영 사진이다. 검사는?",
+      "question": "50세 남자가 3달 전부터 기침으로 내원했다. 환자는 특별한 병력은 없었고 비흡연자였다. 혈압 120/60mmHg, 맥박 72회/분, 호흡 24회/분, 체온 36.4oC 이다. 호흡음은 정상이었다. 가슴 컴퓨터단층촬영 사진이다. 검사는?",
       "passage": "",
       "choices": [
         "투베르쿨린검사",
         "흉강경 폐생검",
-        "가래 항산막대균펴바른표본",
+        "가래 항산막대균폐바른표본",
         "피부경유가는바늘생검",
         "혈청 앤지오텐신전환효소 검사"
       ],
@@ -22228,65 +23428,67 @@ window.JBL_DATA = {
       "answerIndices": [
         4
       ],
-      "answerLabel": "정답: ④",
-      "explanation": "=== 풀이의 핵심 ===\n'''정답은 4번 피부경유가는바늘생검'''이다. CT에서는 좌측 폐 말초에 불규칙한 경계의 결절이 보인다. 이미 CT로 위치를 확인했으므로 다음 질문은 '''어떻게 조직을 얻을 것인가'''다. 흉벽에서 접근할 수 있는 말초 병변에서는 CT-guided 피부경유 생검이 적합하다.\n비흡연이라는 사실로 폐암을 배제하지 않는다. 선암은 비흡연자에서도 발생하며, 영상은 의심을 높이는 단서이지 조직형의 확진 결과는 아니다.\n\n=== 선지별 해설 ===\n* 1번: '''투베르쿨린검사: 결핵 감염의 면역반응을 보는 검사다.''' 불규칙한 말초 결절의 조직학적 정체를 확인하는 검사가 아니다.\n* 2번: '''흉강경 폐생검: 가능하지만 더 침습적이다.''' 피부경유 접근이 가능해 보이는 병변에서 우선 선택할 덜 침습적인 방법이 4번이다. 진단 실패·다른 임상 조건에서는 수술적 생검을 검토한다.\n* 3번: '''가래 항산균 도말: 결핵균을 찾는 검사다.''' 현재 종괴의 형태와 위치를 바탕으로 조직을 확보하려는 목적을 대신하지 못한다.\n* 4번: '''피부경유가는바늘생검: 정답.''' CT로 위치를 유도해 말초 결절에서 검체를 얻는다. 이후 기흉·출혈을 확인한다.\n* 5번: '''혈청 ACE: 유육종증에서 보조적으로 고려할 수 있다.''' 특이적인 확진검사가 아니며, 이 말초 결절의 조직검사를 대체하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''말초 결절은 피부를 통하거나 기관지를 따라 접근한다'''\n\n흉벽 가까운 말초 결절은 CT로 위치를 확인하면서 피부경유 생검을 할 수 있다. 피부경유가는바늘생검·PCNA와 core tissue를 얻는 PCNB는 검체 방식에 차이가 있지만, 문제에서 묻는 큰 축은 '''흉벽을 통과해 말초 병변에 접근한다'''는 것이다. 검사 후에는 기흉과 출혈을 살핀다.\n\n\n||= 접근법 ||= 잘 맞는 위치·상황 ||= 구분점 ||\n|| 일반 기관지내시경 생검 || 기관지 안에서 보이는 중심부 병변 || 내강을 직접 보며 채취한다. ||\n|| CT-guided 피부경유 생검 || 흉벽에서 접근 가능한 말초 결절 || 흉막을 통과하므로 기흉에 주의한다. ||\n|| Radial EBUS || 기관지를 따라 접근하는 말초 병변 || 작은 초음파 탐촉자로 위치를 잡는다. ||\n|| Navigation·robotic bronchoscopy || 기관지 경로가 복잡한 말초 병변 || 위치 탐색·안정적인 접근을 돕는다. ||\n|| VATS 생검 || 덜 침습적인 방법으로 진단이 어렵거나 수술적 검체가 필요한 경우 || 흉강경으로 직접 조직을 얻는다. ||\n\n[[32강#말초 결절은 피부를 통하거나 기관지를 따라 접근한다|말초 결절은 피부를 통하거나 기관지를 따라 접근한다]]\n\n~~근거: 39기 「32. 폐종양」 25–40쪽과 38기 자료. 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "4번 — 피부경유가는바늘생검",
+      "explanation": "'''공식 정답: 4번'''\n\n=== 풀이의 핵심 ===\n'''정답은 4번 피부경유가는바늘생검'''이다. CT에서는 좌측 폐 말초에 불규칙한 경계의 결절이 보인다. 이미 CT로 위치를 확인했으므로 다음 질문은 '''어떻게 조직을 얻을 것인가'''다. 흉벽에서 접근할 수 있는 말초 병변에서는 CT-guided 피부경유 생검이 적합하다.\n비흡연이라는 사실로 폐암을 배제하지 않는다. 선암은 비흡연자에서도 발생하며, 영상은 의심을 높이는 단서이지 조직형의 확진 결과는 아니다.\n\n=== 선지별 해설 ===\n* 1번: '''투베르쿨린검사: 결핵 감염의 면역반응을 보는 검사다.''' 불규칙한 말초 결절의 조직학적 정체를 확인하는 검사가 아니다.\n* 2번: '''흉강경 폐생검: 가능하지만 더 침습적이다.''' 피부경유 접근이 가능해 보이는 병변에서 우선 선택할 덜 침습적인 방법이 4번이다. 진단 실패·다른 임상 조건에서는 수술적 생검을 검토한다.\n* 3번: '''가래 항산균 도말: 결핵균을 찾는 검사다.''' 현재 종괴의 형태와 위치를 바탕으로 조직을 확보하려는 목적을 대신하지 못한다.\n* 4번: '''피부경유가는바늘생검: 정답.''' CT로 위치를 유도해 말초 결절에서 검체를 얻는다. 이후 기흉·출혈을 확인한다.\n* 5번: '''혈청 ACE: 유육종증에서 보조적으로 고려할 수 있다.''' 특이적인 확진검사가 아니며, 이 말초 결절의 조직검사를 대체하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''말초 결절은 피부를 통하거나 기관지를 따라 접근한다'''\n\n흉벽 가까운 말초 결절은 CT로 위치를 확인하면서 피부경유 생검을 할 수 있다. 피부경유가는바늘생검·PCNA와 core tissue를 얻는 PCNB는 검체 방식에 차이가 있지만, 문제에서 묻는 큰 축은 '''흉벽을 통과해 말초 병변에 접근한다'''는 것이다. 검사 후에는 기흉과 출혈을 살핀다.\n\n\n||= 접근법 ||= 잘 맞는 위치·상황 ||= 구분점 ||\n|| 일반 기관지내시경 생검 || 기관지 안에서 보이는 중심부 병변 || 내강을 직접 보며 채취한다. ||\n|| CT-guided 피부경유 생검 || 흉벽에서 접근 가능한 말초 결절 || 흉막을 통과하므로 기흉에 주의한다. ||\n|| Radial EBUS || 기관지를 따라 접근하는 말초 병변 || 작은 초음파 탐촉자로 위치를 잡는다. ||\n|| Navigation·robotic bronchoscopy || 기관지 경로가 복잡한 말초 병변 || 위치 탐색·안정적인 접근을 돕는다. ||\n|| VATS 생검 || 덜 침습적인 방법으로 진단이 어렵거나 수술적 검체가 필요한 경우 || 흉강경으로 직접 조직을 얻는다. ||\n\n[[32강#말초 결절은 피부를 통하거나 기관지를 따라 접근한다|말초 결절은 피부를 통하거나 기관지를 따라 접근한다]]\n\n~~근거: 39기 「32. 폐종양」 25–40쪽과 38기 자료. 선배 풀이를 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.115. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q115_01.jpg"
+        "J/2023/official-p115.jpg"
       ],
       "legacyProfessor": "류정선",
-      "professor": "임준혁",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "류정선",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.115 출제자란 확인",
       "lectureIds": [
         32
       ],
       "lectureId": 32,
       "lectureTitle": "폐종양",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 115번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐종양",
+      "source": "2023 호흡기계 원본 p.115",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "numbered",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q115_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 115,
+          "file": "J/2023/official-p115.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture32_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 115,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\32. 폐종양.pptx",
-            "pages": "25–40"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 115,
+        "professor": "류정선",
+        "lecture": "폐종양",
+        "question": "50세 남자가 3달전부터 기침으로 내원했다. 환자는 특별한 병력은 없었고 비흡연자였다. 혈압\n120/60mmHg, 맥박 72회/분, 호흡 24회/분, 체온 36.4oC 이다. 호흡음은 정상이었다. 가슴 컴\n퓨터단층촬영 사진이다. 검사는?",
+        "choices": [
+          "투베르쿨린검사",
+          "흉강경 폐생검",
+          "가래 항산막대균폐바른표본",
+          "피부경유가는바늘생검",
+          "혈청 앤지오텐신전환효소 검사"
         ],
-        "chapter": "말초 결절은 피부를 통하거나 기관지를 따라 접근한다",
-        "basis": "25–40",
-        "priorLectureAndSummaryUsed": true,
-        "choiceTextChanged": false
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22300,80 +23502,80 @@ window.JBL_DATA = {
       "originalNumbers": [
         116
       ],
-      "question": "1세 남자가 일주일 전부터 기침이 있어 개인의원을 방문했다가 촬영한 흉부 X선 사진(아래)과 9개월 전 사진을 가지고 내원했다. 환자는 2형 당뇨병 병력이 있으며 흡연자(25갑년)이다. 혈압 140/80mmHg, 맥박 74회/분, 호흡 23회/분, 체온 36.5℃이다. 청진 소견은 정상이었다. 다음 조치는?",
-      "passage": "",
+      "question": "41세 남자가 일주일 전부터 기침이 있어 개인의원을 방문했다가 촬영한 흉부 X선 사진(아래)과 9개월 전 사진을 가지고 내원했다. 환자는 2형 당뇨병 병력이 있으며 흡연자(25갑년)이다. 혈압 140/80mmHg, 맥박 74회/분, 호흡 23회/분, 체온 36.5oC 이다. 청진 소견은 정상이었다. 다음 조치는?",
+      "passage": "사진: 왼쪽은 9개월 전, 오른쪽은 1주일 전.",
       "choices": [
         "가슴 컴퓨터단층촬영",
         "결핵특이 인터페론감마 방출 측정",
         "흉강경 폐생검",
-        "가래 항산막대균펴바른표본",
+        "가래 항산막대균폐바른표본",
         "혈청 아스페르길루스 침전항체 검사"
       ],
       "answerIndex": 1,
       "answerIndices": [
         1
       ],
-      "answerLabel": "정답: ①",
-      "explanation": "=== 풀이의 핵심 ===\n'''정답은 1번 가슴 CT'''다. 현재와 9개월 전 X선을 비교해 병변의 존재·변화를 평가하려는 상황이다. 먼저 CT로 겹친 음영을 분리하고 결절의 위치·크기·경계를 확인한 뒤 필요한 조직검사를 고르는 순서가 맞다.\n복원된 나이 ‘1세’는 2형 당뇨병과 25갑년 흡연력에 맞지 않는다. '''앞자리 숫자 누락이 의심되지만 정확한 나이를 추정해 보충하지 않았다.''' 이 나이 오류와 별개로, 제시된 다음 조치는 흉부 CT로 판단할 수 있다.\n\n=== 선지별 해설 ===\n* 1번: '''가슴 CT: 정답.''' X선의 이상을 구체화하고 이후 생검 경로를 계획한다.\n* 2번: '''IGRA: 결핵 감염 여부 평가에 쓰인다.''' 활동성 폐결핵과 다른 폐결절의 감별을 이 검사 하나로 끝낼 수 없다.\n* 3번: '''흉강경 폐생검: CT 평가보다 앞설 이유가 없다.''' 병변 위치·성상을 확인하고 덜 침습적인 접근 가능성을 검토한 뒤 고려한다.\n* 4번: '''가래 항산균 도말: 결핵이 의심될 때 유용하지만 현재 영상 평가 전체를 대신하지 못한다.''' 객담검사만으로 새 결절의 성격을 정할 수 없다.\n* 5번: '''아스페르길루스 침전항체: 특정 진균질환 맥락의 검사다.''' 기존 공동·fungus ball 등 그에 맞는 정보 없이 우선 선택하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''흉부 X선의 이상은 CT로 위치와 성상을 확인한다'''\n\nX선에서는 폐와 뼈·혈관·심장이 겹쳐 보인다. CT는 이 겹침을 풀어 결절의 위치, 크기, 경계, 흉막과의 관계를 보여준다. 이전 사진과 비교해 새로 생겼거나 커진 음영이 보이면, 먼저 CT로 병변을 구체화하는 흐름이 자연스럽다. 위치도 모른 채 바로 침습적 생검을 선택하는 것은 순서가 맞지 않는다.\n\n\n* '''악성을 의심할 단서:''' 불규칙하거나 침상형인 경계, 크기 증가, 지속되는 기침·객혈 등이다. 각각이 단독 확진 기준은 아니다.\n* '''다음 단계:''' CT로 병변을 확인한 뒤 접근하기 좋은 경로에서 조직을 얻는다.\n* '''감염과의 감별:''' 결핵·진균질환도 결절을 만들 수 있다. 영상과 임상 맥락 없이 결핵검사 하나로 폐암 평가를 대체하지 않는다.\n\n'''말초 결절은 피부를 통하거나 기관지를 따라 접근한다'''\n\n흉벽 가까운 말초 결절은 CT로 위치를 확인하면서 피부경유 생검을 할 수 있다. 피부경유가는바늘생검·PCNA와 core tissue를 얻는 PCNB는 검체 방식에 차이가 있지만, 문제에서 묻는 큰 축은 '''흉벽을 통과해 말초 병변에 접근한다'''는 것이다. 검사 후에는 기흉과 출혈을 살핀다.\n\n\n||= 접근법 ||= 잘 맞는 위치·상황 ||= 구분점 ||\n|| 일반 기관지내시경 생검 || 기관지 안에서 보이는 중심부 병변 || 내강을 직접 보며 채취한다. ||\n|| CT-guided 피부경유 생검 || 흉벽에서 접근 가능한 말초 결절 || 흉막을 통과하므로 기흉에 주의한다. ||\n|| Radial EBUS || 기관지를 따라 접근하는 말초 병변 || 작은 초음파 탐촉자로 위치를 잡는다. ||\n|| Navigation·robotic bronchoscopy || 기관지 경로가 복잡한 말초 병변 || 위치 탐색·안정적인 접근을 돕는다. ||\n|| VATS 생검 || 덜 침습적인 방법으로 진단이 어렵거나 수술적 검체가 필요한 경우 || 흉강경으로 직접 조직을 얻는다. ||\n\n[[32강#흉부 X선의 이상은 CT로 위치와 성상을 확인한다|흉부 X선의 이상은 CT로 위치와 성상을 확인한다]]\n\n~~근거: 39기 「32. 폐종양」 15–18, 25–40쪽과 38기 자료. 선배 풀이를 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "1번 — 가슴 컴퓨터단층촬영",
+      "explanation": "'''공식 정답: 1번'''\n\n=== 풀이의 핵심 ===\n'''정답은 1번 가슴 CT'''다. 현재와 9개월 전 X선을 비교해 병변의 존재·변화를 평가하려는 상황이다. 먼저 CT로 겹친 음영을 분리하고 결절의 위치·크기·경계를 확인한 뒤 필요한 조직검사를 고르는 순서가 맞다.\n원본의 나이는 '''41세'''다. 새로 확인된 흉부 이상은 흉부 CT로 위치·크기·성상을 평가한다.\n\n=== 선지별 해설 ===\n* 1번: '''가슴 CT: 정답.''' X선의 이상을 구체화하고 이후 생검 경로를 계획한다.\n* 2번: '''IGRA: 결핵 감염 여부 평가에 쓰인다.''' 활동성 폐결핵과 다른 폐결절의 감별을 이 검사 하나로 끝낼 수 없다.\n* 3번: '''흉강경 폐생검: CT 평가보다 앞설 이유가 없다.''' 병변 위치·성상을 확인하고 덜 침습적인 접근 가능성을 검토한 뒤 고려한다.\n* 4번: '''가래 항산균 도말: 결핵이 의심될 때 유용하지만 현재 영상 평가 전체를 대신하지 못한다.''' 객담검사만으로 새 결절의 성격을 정할 수 없다.\n* 5번: '''아스페르길루스 침전항체: 특정 진균질환 맥락의 검사다.''' 기존 공동·fungus ball 등 그에 맞는 정보 없이 우선 선택하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''흉부 X선의 이상은 CT로 위치와 성상을 확인한다'''\n\nX선에서는 폐와 뼈·혈관·심장이 겹쳐 보인다. CT는 이 겹침을 풀어 결절의 위치, 크기, 경계, 흉막과의 관계를 보여준다. 이전 사진과 비교해 새로 생겼거나 커진 음영이 보이면, 먼저 CT로 병변을 구체화하는 흐름이 자연스럽다. 위치도 모른 채 바로 침습적 생검을 선택하는 것은 순서가 맞지 않는다.\n\n\n* '''악성을 의심할 단서:''' 불규칙하거나 침상형인 경계, 크기 증가, 지속되는 기침·객혈 등이다. 각각이 단독 확진 기준은 아니다.\n* '''다음 단계:''' CT로 병변을 확인한 뒤 접근하기 좋은 경로에서 조직을 얻는다.\n* '''감염과의 감별:''' 결핵·진균질환도 결절을 만들 수 있다. 영상과 임상 맥락 없이 결핵검사 하나로 폐암 평가를 대체하지 않는다.\n\n'''말초 결절은 피부를 통하거나 기관지를 따라 접근한다'''\n\n흉벽 가까운 말초 결절은 CT로 위치를 확인하면서 피부경유 생검을 할 수 있다. 피부경유가는바늘생검·PCNA와 core tissue를 얻는 PCNB는 검체 방식에 차이가 있지만, 문제에서 묻는 큰 축은 '''흉벽을 통과해 말초 병변에 접근한다'''는 것이다. 검사 후에는 기흉과 출혈을 살핀다.\n\n\n||= 접근법 ||= 잘 맞는 위치·상황 ||= 구분점 ||\n|| 일반 기관지내시경 생검 || 기관지 안에서 보이는 중심부 병변 || 내강을 직접 보며 채취한다. ||\n|| CT-guided 피부경유 생검 || 흉벽에서 접근 가능한 말초 결절 || 흉막을 통과하므로 기흉에 주의한다. ||\n|| Radial EBUS || 기관지를 따라 접근하는 말초 병변 || 작은 초음파 탐촉자로 위치를 잡는다. ||\n|| Navigation·robotic bronchoscopy || 기관지 경로가 복잡한 말초 병변 || 위치 탐색·안정적인 접근을 돕는다. ||\n|| VATS 생검 || 덜 침습적인 방법으로 진단이 어렵거나 수술적 검체가 필요한 경우 || 흉강경으로 직접 조직을 얻는다. ||\n\n[[32강#흉부 X선의 이상은 CT로 위치와 성상을 확인한다|흉부 X선의 이상은 CT로 위치와 성상을 확인한다]]\n\n~~근거: 39기 「32. 폐종양」 15–18, 25–40쪽과 38기 자료. 선배 풀이를 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.116. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q116_01.jpg"
+        "J/2023/official-p116.jpg"
       ],
       "legacyProfessor": "류정선",
-      "professor": "임준혁",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "류정선",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.116 출제자란 확인",
       "lectureIds": [
         32
       ],
       "lectureId": 32,
       "lectureTitle": "폐종양",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 116번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐종양",
+      "source": "2023 호흡기계 원본 p.116",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "복원 발문에서 성인 증례의 나이가 1세/0세로 기재됨. 원문 그대로 보존하고 복원 오류 후보로 표시."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q116_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 116,
+          "file": "J/2023/official-p116.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 17
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture32_wiki_j_jbl",
-        "answerStatus": "answer1_age_digit_missing",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 116,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\32. 폐종양.pptx",
-            "pages": "15–18, 25–40"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "prior_summary_secondary_only",
-            "path": "38기 자료"
-          }
+        "peerExplanationUsed": false
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 116,
+        "professor": "류정선",
+        "lecture": "폐종양",
+        "question": "41세 남자가 일주일 전부터 기침이 있어 개인의원을 방문했다가 촬영한 흉부 X선 사진(아래)\n과 9개월전 사진을 가지고 내원했다. 환자는 2형 당뇨병 병력이 있으며 흡연자(25갑년)이다.\n혈압 140/80mmHg, 맥박 74회/분, 호흡 23회/분, 체온 36.5oC 이다. 청진 소견은 정상이었다.\n다음 조치는?\n\n(9개월 전) (1주일 전)",
+        "choices": [
+          "가슴 컴퓨터단층촬영",
+          "결핵특이 인터페론감마 방출 측정",
+          "흉강경 폐생검",
+          "가래 항산막대균폐바른표본",
+          "혈청 아스페르길루스 침전항체 검사"
         ],
-        "chapter": "흉부 X선의 이상은 CT로 위치와 성상을 확인한다",
-        "basis": "15–18, 25–40",
-        "priorLectureAndSummaryUsed": true,
-        "choiceTextChanged": false
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22387,7 +23589,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         117
       ],
-      "question": "0세 남자는 2주 전부터 기침과 피 섞인 가래가 있어 내원했다. 환자는 고혈압이 있었고 하루 한 갑씩 45년간 흡연하였다. 혈압 147/91mmHg, 맥박 74회/분, 호흡 25/분, 체온 36.5℃이다. 좌측 쇄골 상부에 1cm 크기의 림프절이 만져졌고 좌측 다리가 부어 있었다. 심음과 호흡음은 정상이었다. 가슴 컴퓨터단층촬영 사진이다. 다음 조치는?",
+      "question": "70세 남자는 2주 전부터 기침과 피 섞인 가래가 있어 내원했다. 환자는 고혈압이 있었고 하루 한 갑씩 45년간 흡연하였다. 혈압 147/91mmHg, 맥박 74회/분, 호흡 25/분, 체온 36.5oC 이다. 좌측 쇄골 상부에 1cm 크기의 림프절이 만져졌고 좌측 다리가 부어 있었다. 심음과 호흡음은 정상이었다. 가슴 컴퓨터단층촬영 사진이다. 다음 조치는?",
       "passage": "",
       "choices": [
         "항암화학요법",
@@ -22396,67 +23598,54 @@ window.JBL_DATA = {
         "혈장 D-이량체 검사",
         "헤파린 정맥주사"
       ],
-      "answerIndex": 5,
+      "answerIndex": 3,
       "answerIndices": [
-        5
+        3
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n'''정답은 5번 헤파린 정맥주사'''다. CT의 조영된 폐동맥 안에 큰 '''충만결손'''이 보이고, 한쪽 다리 부종·객혈·호흡 증가가 함께 있다. DVT에서 유래한 급성 폐색전증을 먼저 치료해야 하는 상황이다. 폐암을 의심할 흡연력이나 쇄골상 림프절이 있어도 이미 확인되는 혈관 내 혈전을 무시하고 암 치료부터 시작해서는 안 된다.\n혈압은 147/91 mmHg로 쇼크가 제시되지 않았다. 주어진 선택지에서는 항응고치료가 맞으며, 안정적 PE에 일률적인 혈전용해를 적용하지 않는다. ‘모든 PE 환자의 최선 약제가 반드시 UFH’라는 뜻은 아니고, 이 문항의 선택지 중 적절한 초기 치료가 5번이라는 뜻이다.\n나이 ‘0세’는 45년 흡연력과 모순되어 숫자 누락이 의심된다. 정확한 나이는 보충하지 않았다. 문제의 결정적 단서는 '''CT의 혈전'''이므로 출제 개념에 맞추어 21강 폐혈관질환에 연결했다.\n\n=== 선지별 해설 ===\n* 1번: '''항암화학요법: 우선 문제가 아니다.''' 폐암 조직형·병기도 확정되지 않았고, 당장 영상으로 확인되는 PE를 치료해야 한다.\n* 2번: '''방사선치료: 폐동맥 혈전을 치료하지 못한다.''' 암을 시사하는 배경만으로 현재 CT 소견을 종양으로 바꾸어 해석하지 않는다.\n* 3번: '''쇄골상 림프절 생검: 암 평가에서 이후 필요할 수 있다.''' 그러나 현재 확인된 급성 PE의 치료를 대신하는 다음 조치는 아니다.\n* 4번: '''D-dimer: 가능성이 낮거나 중간인 환자에서 배제를 돕는 검사다.''' CT에서 이미 혈전을 확인한 뒤 다시 D-dimer로 확진을 미룰 이유가 없다. 암 등에서도 상승해 특이도가 낮다.\n* 5번: '''헤파린 정맥주사: 정답.''' 항응고로 혈전의 추가 형성·성장·재발을 억제한다. 기존 혈전을 즉시 직접 녹이는 혈전용해제와는 다르며 출혈 위험을 확인해야 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''항응고치료(anticoagulation)'''는 추가 혈전 형성·성장·재발을 억제한다. 이미 생긴 혈전을 직접 녹이는 약은 아니며, 몸의 혈전 제거 과정이 작동할 시간을 확보하는 치료다. 반면 '''재관류치료(reperfusion)'''는 혈전을 용해하거나 직접 제거하여 폐혈관 폐색과 우심실 부담을 빠르게 낮춘다. 효과가 빠른 만큼 출혈·시술 위험을 함께 부담한다.\n\n\n||= 상태 ||= 치료 방향 ||\n|| SpO₂ <90% || 산소치료 ||\n|| A·B, 경구치료에 적합 || DOAC 시작 ||\n|| C 이상 || LMWH 등 주사 항응고치료, PE 전문팀 평가; 처치 계획·신기능 등에 따라 UFH 선택 가능 ||\n|| D || 악화 위험과 출혈 위험을 따져 재관류를 고려할 수 있음(Class 2b) ||\n|| E || 재관류치료가 합당한 선택(Class 2a); shock·심정지에는 순환 보조도 함께 고려 ||\n\n재관류에는 전신 혈전용해, 카테터 혈전용해, 기계적 혈전제거, 수술적 색전제거가 포함된다. '''안정적인 PE에 일률적으로 혈전용해제를 투여하지 않는다.''' 반대로 shock 환자에게 항응고제만 주면서 즉각적인 폐색 해소 필요성을 놓쳐서도 안 된다.\n\n[[21강#항응고는 혈전의 성장을 막고 재관류는 폐색을 빠르게 줄인다|항응고는 혈전의 성장을 막고 재관류는 폐색을 빠르게 줄인다]]\n\n~~근거: 21강 Wiki의 올해 급성 PE 치료 정리 및 38기 자료. CT 원본 이미지를 직접 대조했다.~~~",
+      "answerLabel": "3번 — 쇄골상부 림프절 생검",
+      "explanation": "'''공식 정답: ③ 쇄골상부 림프절 생검'''\n\n=== 풀이의 핵심 ===\n원본은 '''70세''' 환자이며, 출제 강의는 '''폐종양''', 지정 정답은 '''쇄골상부 림프절 생검'''이다. 흡연력·객혈·흉부 병변에 만져지는 쇄골상부 림프절이 있으므로, 접근 가능한 병변에서 조직을 얻어 진단과 병기 평가를 진행하는 문제다.\n\n기존 해설은 CT 한 절편을 폐동맥 혈전으로 단정해 헤파린을 선택했다. 그 단정과 폐색전증 중심 분류를 철회한다. 한쪽 다리 부종은 혈전색전증을 감별할 단서지만, 원본의 진단 단계와 공식 정답을 무시할 근거로 쓰지 않는다. 제공된 저해상도 단면만으로 혈전의 동반 여부까지 확정하지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''': 항암치료를 정하기 전에 조직형과 병기, 필요한 분자표지자를 확인해야 한다.\n* '''2번''': 방사선치료도 진단·병기·환자 상태를 바탕으로 적응을 정한다. 현재 문항은 먼저 조직을 얻는 단계다.\n* '''3번''': 공식 정답이다. 촉지되는 쇄골상부 림프절은 접근 가능한 조직검사 부위이며, 폐암 전이가 확인되면 병기 정보도 얻는다.\n* '''4번''': D-dimer는 적절한 사전확률에서 폐색전증 배제를 돕는 검사다. 폐암 조직 진단을 대신하지 못한다.\n* '''5번''': 헤파린은 혈전색전증의 항응고치료다. 원본은 이를 정답으로 지정하지 않았고, 이 한 영상으로 혈전을 확진했던 기존 해설은 근거가 부족했다.\n\n=== 이 문항을 풀기 위한 개념 ===\n조직검사에서 선암이 나왔다고 바로 수술이나 특정 항암제를 고를 수는 없다. 치료 전에 어디까지 퍼져 있는지 확인해야 한다. CT는 종양과 주변 구조를, PET/CT는 대사활성과 전신의 의심 병변을, brain MRI는 뇌전이를 평가한다. Bone scan은 골전이 평가에 사용된다. 모든 환자에게 네 검사를 기계적으로 중복 시행한다는 뜻은 아니며, 필요한 검사 조합은 임상 상황에 따라 정한다.\n\n[[파일:assets/lecture-32/staging-ct.jpg|CT에서 보는 원발 종괴와 폐문·종격동 병변.]]\n[[파일:assets/lecture-32/staging-pet.jpg|PET/CT의 섭취 증가 부위와 해부학적 위치를 함께 읽는다.]]\n[[파일:assets/lecture-32/staging-brain-mri.jpg|Brain MRI. 우측 사진의 조영증강 병변은 뇌전이 평가의 예다.]]\n[[파일:assets/lecture-32/staging-bone-scan.jpg|왼쪽 정상 예와 오른쪽 다발성 골 병변 예. 분포와 다른 검사를 함께 해석한다.]]\n\n||= 검사 ||= 답하려는 질문 ||= 한계·보완 ||\n|| 조영 흉부 CT || 종양의 크기·직접 침범·림프절 비대는? || 커진 림프절이 모두 전이는 아니다. ||\n|| PET/CT || 대사활성이 높은 종양·림프절·원격 병변은? || 염증도 섭취가 증가할 수 있다. ||\n|| Brain MRI || 뇌전이가 있는가? || 정상 뇌의 높은 FDG 섭취 때문에 PET만으로 대체하기 어렵다. ||\n|| Bone scan || 골전이를 시사하는 분포가 있는가? || 양성 골질환도 섭취가 증가할 수 있다. ||\n|| EBUS-TBNA 등 || 의심 림프절에 실제 종양세포가 있는가? || 영상의 의심 소견을 조직으로 확인한다. ||\n\n'''접근 가능한 전이 병변을 생검'''하면 원발 폐병변에 직접 접근하는 것보다 안전하고 간단하게 진단과 병기 정보를 함께 얻을 수 있다. 쇄골상부 림프절의 폐암 전이는 TNM에서 N3에 해당한다. 생검 부위 선택은 접근성·안전성·진단 수율·병기 정보를 함께 고려한다.\n\n[[32강#조직검사 다음에는 병기 평가가 필요하다|Wiki · 조직검사 다음에는 병기 평가가 필요하다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.117. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q117_01.jpg"
+        "J/2023/official-p117.jpg"
       ],
       "legacyProfessor": "류정선",
-      "professor": "김혜수",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "류정선",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.117 출제자란 확인",
       "lectureIds": [
-        21
+        32
       ],
-      "lectureId": 21,
-      "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
+      "lectureId": 32,
+      "lectureTitle": "폐종양",
       "domain": "임상의학",
       "discipline": "호흡기내과",
-      "section": "폐혈관질환",
-      "source": "2023 호흡기계 117번",
+      "section": "폐종양",
+      "source": "2023 호흡기계 원본 p.117",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "복원 발문에서 성인 증례의 나이가 1세/0세로 기재됨. 원문 그대로 보존하고 복원 오류 후보로 표시."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q117_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 117,
+          "file": "J/2023/official-p117.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
-        "scope": "lecture32_wiki_j_jbl",
-        "answerStatus": "answer5_pe_reclassified_age_digit_missing",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 117,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_wiki",
-            "lecture": 21,
-            "chapter": "항응고는 혈전의 성장을 막고 재관류는 폐색을 빠르게 줄인다"
-          },
-          {
-            "kind": "question_ct_direct_visual_review",
-            "path": "J/2023/q117_01.jpg"
-          }
-        ],
-        "chapter": "항응고는 혈전의 성장을 막고 재관류는 폐색을 빠르게 줄인다",
-        "basis": "21강 급성 폐색전증 진단·항응고치료",
-        "priorLectureAndSummaryUsed": true,
-        "choiceTextChanged": false
+        "peerExplanationUsed": false,
+        "interpretationCaution": true
       },
       "classificationReview": {
         "date": "2026-10-20",
@@ -22464,6 +23653,24 @@ window.JBL_DATA = {
         "to": 21,
         "basis": "CT에서 폐동맥 충만결손, 일측 다리 부종·객혈, 헤파린 선택지를 직접 확인. 출제 개념은 급성 폐색전증 치료.",
         "legacyProfessorPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 117,
+        "professor": "류정선",
+        "lecture": "폐종양",
+        "question": "70세 남자는 2주전부터 기침과 피 섞인 가래가 있어 내원했다. 환자는 고혈압이 있었고 하루\n한갑씩 45년간 흡연하였다. 혈압 147/91mmHg, 맥박 74회/분, 호흡 25/분, 체온 36.5oC 이다.\n좌측 쇄골 상부에 1cm 크기의 림프절이 만져졌고 좌측 다리가 부어 있었다. 심음과 호흡음은\n정상이었다. 가슴 컴퓨터단층촬영 사진이다. 다음 조치는?",
+        "choices": [
+          "항암화학요법",
+          "방사선치료",
+          "쇄골상부 림프절 생검",
+          "혈장 D-이량체 검사",
+          "헤파린 정맥주사"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22477,7 +23684,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         118
       ],
-      "question": "울혈성 심부전, 류마티스관절염, 만성 C형 간염을 앓고 있는 43세 여자가 호흡곤란을 주소로 내원했다. 체온 37.8℃, 혈압 126/72 mmHg, 맥박 97회/분, 호흡수 28회/분이었다. 산소투여 없는 상태에서 맥박 산소포화도는 94%이었다. 신체검진에서 흉부 타진에서 우측 흉부 하부에서 둔탁음이 들렸다. 흉부 X-선 검사에서 우측 흉수가 관찰되어 시행한 흉수천자 검사에서 포도당 28mg/dL, 젖산탈수소효소 252 U/L로 보고되었다. 포도당이 낮은 원인은?",
+      "question": "울혈성 심부전, 류마티스관절염, 만성 C형 간염을 않고 있는 43세 여자가 호흡곤란을 주소로 내원했다. 체온 37.8 oC, 혈압 126/72 mmHg, 맥박 97회/분, 호흡수 28회/분이었다. 산소투여 없는 상태에서 맥박 산소포화도는 94%이었다. 신체검진에서 흉부 타진에서 우측 흉부 하부에서 둔탁음이 들렸다. 흉부 X-선 검사에서 우측 흉수가 관찰되어 시행한 흉수천자 검사에서 포도당 28mg/dL, 젖산탈수소효소 252 U/L로 보고되었다. 포도당이 낮은 원인은?",
       "passage": "",
       "choices": [
         "흉수 아밀라제 증가",
@@ -22490,57 +23697,40 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''2번 흉수 백혈구 증가'''다. 염증세포·세균의 대사로 포도당이 소비되고 흉막의 이동 장애도 더해지면 glucose가 낮아진다. 공식 해설은 부폐렴성 흉수의 기전을 묻는다고 명시한다. 다만 이 환자에게는 RA도 있어 낮은 glucose의 원인질환을 발문만으로 폐렴 하나로 확정하지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: '''다른 원인의 단서다.''' Amylase 상승은 췌장질환·식도 파열 등을 생각하게 하지만 낮은 glucose의 직접적인 소비 기전은 아니다.\n* 2번: '''맞다.''' 염증세포의 포도당 소비가 저혈당성 흉수의 중요한 기전이다. 세균 대사와 이동 장애도 함께 관여할 수 있다.\n* 3번: '''여출액 생성 기전이다.''' 심부전의 정수압 상승만으로 glucose 28 mg/dL라는 심한 감소를 설명하기 어렵다.\n* 4번: '''간성 흉수의 이동 경로와 관련된다.''' 복수가 흉막강으로 넘어오는 것 자체가 이처럼 낮은 glucose를 만드는 직접 기전은 아니다.\n* 5번: '''삼출액 형성에는 중요하다.''' 하지만 단순 투과성 증가보다 염증세포의 소비와 수송 장애가 낮은 glucose를 더 직접적으로 설명한다.\n\n=== 공식 오답30 원문 해설 ===\n> 부폐렴성 흉막액에서 포도당이 낮은 원인을 묻는 문제임.\n\n~~2023 공식 오답30 5쪽. 원문 표현과 오탈자는 보존했다.~~~\n\n=== 이 문항을 풀기 위한 개념 ===\n'''흉수의 세포와 pH와 포도당은 함께 움직인다'''\n\n||= 항목 ||= 의미 ||= 주의할 점 ||\n|| 호중구 우세 || 급성 염증, 폐렴연관 흉수 등 || 초기 결핵에서도 가능 ||\n|| 림프구 우세 || 결핵·악성 흉수·유미흉 등 || 림프구 비율만으로 원인을 확정하지 않는다 ||\n|| 낮은 pH·glucose || 감염, RA, 일부 악성 흉수 등에서 세포 소비·대사 및 이동 장애 || 낮다고 모두 농흉은 아니다 ||\n|| 높은 LDH || 염증·세포 손상·대사 활동 || Light 분류와 감염 중증도 평가에서 각각 역할이 다름 ||\n|| 호산구 증가 || 공기·혈액 유입, 약물 등 다양한 원인 || 악성 질환을 배제하는 소견은 아니다 ||\n\n염증세포와 세균이 포도당을 소비하고, 염증으로 흉막을 통한 포도당 이동이 저하되면 흉수 포도당이 낮아질 수 있다. RA 흉막염에서도 매우 낮은 포도당이 가능하다. 단순 정수압 상승만으로는 이런 소견이 잘 설명되지 않는다.\n\n'''추가 검사는 의심하는 원인에 맞추어 선택한다'''\n\n||= 검사 ||= 주로 의심할 원인 ||\n|| Gram stain·배양 || 세균성 흉막 감염 ||\n|| Cytology, 필요 시 흉막 조직검사 || 악성 흉수 ||\n|| ADA·항산균 배양·흉막 조직 || 결핵성 흉막염 ||\n|| TG·cholesterol, 필요 시 chylomicron || 유미흉·가성유미흉 ||\n|| 흉수와 말초혈액 hematocrit || 혈흉 ||\n|| Amylase || 췌장질환·식도 파열 등 ||\n|| NT-proBNP || 심부전성 흉수. 강의에서는 '''>1,500 pg/mL'''를 지지 소견으로 제시 ||\n|| pH·glucose와 임상적 자가면역 평가 || RA 등 ||\n|| Flow cytometry / Congo red || 림프종 / amyloidosis가 의심되는 상황 ||\n\n혈청·흉수 검사 하나가 확진을 대신하지는 않는다. 예를 들어 CEA 상승은 악성 흉수를 의심하게 하지만 농흉 등에서도 상승할 수 있고, ADA 상승도 결핵에만 생기는 현상은 아니다.\n\n[[35강#흉수의 세포와 pH와 포도당은 함께 움직인다|흉수의 세포와 pH와 포도당은 함께 움직인다]] · [[35강#추가 검사는 의심하는 원인에 맞추어 선택한다|추가 검사는 의심하는 원인에 맞추어 선택한다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "2번 — 흉수 백혈구 증가",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n정답은 '''2번 흉수 백혈구 증가'''다. 염증세포·세균의 대사로 포도당이 소비되고 흉막의 이동 장애도 더해지면 glucose가 낮아진다. 공식 해설은 부폐렴성 흉수의 기전을 묻는다고 명시한다. 다만 이 환자에게는 RA도 있어 낮은 glucose의 원인질환을 발문만으로 폐렴 하나로 확정하지는 않는다.\n\n=== 선지별 해설 ===\n* 1번: '''다른 원인의 단서다.''' Amylase 상승은 췌장질환·식도 파열 등을 생각하게 하지만 낮은 glucose의 직접적인 소비 기전은 아니다.\n* 2번: '''맞다.''' 염증세포의 포도당 소비가 저혈당성 흉수의 중요한 기전이다. 세균 대사와 이동 장애도 함께 관여할 수 있다.\n* 3번: '''여출액 생성 기전이다.''' 심부전의 정수압 상승만으로 glucose 28 mg/dL라는 심한 감소를 설명하기 어렵다.\n* 4번: '''간성 흉수의 이동 경로와 관련된다.''' 복수가 흉막강으로 넘어오는 것 자체가 이처럼 낮은 glucose를 만드는 직접 기전은 아니다.\n* 5번: '''삼출액 형성에는 중요하다.''' 하지만 단순 투과성 증가보다 염증세포의 소비와 수송 장애가 낮은 glucose를 더 직접적으로 설명한다.\n\n=== 공식 오답30 원문 해설 ===\n> 부폐렴성 흉막액에서 포도당이 낮은 원인을 묻는 문제임.\n\n~~2023 공식 오답30 5쪽. 원문 표현과 오탈자는 보존했다.~~~\n\n=== 이 문항을 풀기 위한 개념 ===\n'''흉수의 세포와 pH와 포도당은 함께 움직인다'''\n\n||= 항목 ||= 의미 ||= 주의할 점 ||\n|| 호중구 우세 || 급성 염증, 폐렴연관 흉수 등 || 초기 결핵에서도 가능 ||\n|| 림프구 우세 || 결핵·악성 흉수·유미흉 등 || 림프구 비율만으로 원인을 확정하지 않는다 ||\n|| 낮은 pH·glucose || 감염, RA, 일부 악성 흉수 등에서 세포 소비·대사 및 이동 장애 || 낮다고 모두 농흉은 아니다 ||\n|| 높은 LDH || 염증·세포 손상·대사 활동 || Light 분류와 감염 중증도 평가에서 각각 역할이 다름 ||\n|| 호산구 증가 || 공기·혈액 유입, 약물 등 다양한 원인 || 악성 질환을 배제하는 소견은 아니다 ||\n\n염증세포와 세균이 포도당을 소비하고, 염증으로 흉막을 통한 포도당 이동이 저하되면 흉수 포도당이 낮아질 수 있다. RA 흉막염에서도 매우 낮은 포도당이 가능하다. 단순 정수압 상승만으로는 이런 소견이 잘 설명되지 않는다.\n\n'''추가 검사는 의심하는 원인에 맞추어 선택한다'''\n\n||= 검사 ||= 주로 의심할 원인 ||\n|| Gram stain·배양 || 세균성 흉막 감염 ||\n|| Cytology, 필요 시 흉막 조직검사 || 악성 흉수 ||\n|| ADA·항산균 배양·흉막 조직 || 결핵성 흉막염 ||\n|| TG·cholesterol, 필요 시 chylomicron || 유미흉·가성유미흉 ||\n|| 흉수와 말초혈액 hematocrit || 혈흉 ||\n|| Amylase || 췌장질환·식도 파열 등 ||\n|| NT-proBNP || 심부전성 흉수. 강의에서는 '''>1,500 pg/mL'''를 지지 소견으로 제시 ||\n|| pH·glucose와 임상적 자가면역 평가 || RA 등 ||\n|| Flow cytometry / Congo red || 림프종 / amyloidosis가 의심되는 상황 ||\n\n혈청·흉수 검사 하나가 확진을 대신하지는 않는다. 예를 들어 CEA 상승은 악성 흉수를 의심하게 하지만 농흉 등에서도 상승할 수 있고, ADA 상승도 결핵에만 생기는 현상은 아니다.\n\n[[35강#흉수의 세포와 pH와 포도당은 함께 움직인다|흉수의 세포와 pH와 포도당은 함께 움직인다]] · [[35강#추가 검사는 의심하는 원인에 맞추어 선택한다|추가 검사는 의심하는 원인에 맞추어 선택한다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n=== 공식 원문 해설 ===\n> 부폐렴성 흉막액에서 포도당이 낮은 원인을 묻는 문제임.\n\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.118. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "류정선",
-      "professor": "김준",
+      "professor": "류정선",
       "examinerStatus": "official_verified",
-      "examinerEvidence": "2023 공식 공개문항 PDF 5쪽 출제자·강의명·문항 내용 대조",
+      "examinerEvidence": "2023 원본.pdf p.118 출제자란 확인",
       "lectureIds": [
         35
       ],
       "lectureId": 35,
       "lectureTitle": "흉막질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 118번, 오답30 p.5",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2023 호흡기계 원본 p.118, 오답30 p.5",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "official_table_cells",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "officialPage": 5,
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
         "answerStatus": "official_answer_verified",
         "officialAnswerVerified": true,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "officialSourcePage": 118,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 흉막 질환 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          },
-          {
-            "kind": "official_low30",
-            "year": 2023,
-            "page": 5
-          }
-        ],
-        "chapter": "흉수의 세포와 pH와 포도당은 함께 움직인다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -22548,6 +23738,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 118,
+        "professor": "류정선",
+        "lecture": "흉막질환",
+        "question": "울혈성 심부전, 류마티스관절염, 만성 C형 간염을 않고 있는 43세 여자가 호흡곤란을 주소로\n내원했다. 체온 37.8 oC, 혈압 126/72 mmHg, 맥박 97회/분, 호흡수 28회/분이었다. 산소투여\n없는 상태에서 맥박 산소포화도는 94%이었다. 신체검진에서 흉부 타진에서 우측 흉부 하부에\n서 둔탁음이 들렸다. 흉부 X-선 검사에서 우측 흉수가 관찰되어 시행한 흉수천자 검사에서 포\n도당 28mg/dL, 젖산탈수소효소 252 U/L로 보고되었다. 포도당이 낮은 원인은?",
+        "choices": [
+          "흉수 아밀라제 증가",
+          "흉수 백혈구 증가",
+          "정수압 (hydrostatic pressure) 증가",
+          "우측 횡격막 투과도 증가",
+          "흉막 투과도 증가"
+        ],
+        "answer": "2",
+        "explanation": "부폐렴성 흉막액에서 포도당이 낮은 원인을 묻는 문제임.",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22574,51 +23782,39 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''3번 흉관 파열'''이다. 흉수 TG '''724 mg/dL'''는 유미흉의 기준인 110 mg/dL를 크게 넘는다. 단백질 비 4/7=0.57, LDH 비 65/70=0.93으로 삼출액이며 림프구 우세도 부합한다. 흉수 Hct/혈액 Hct는 0.2/48≈0.0042로 혈흉의 0.5와 거리가 멀다.\n\n=== 선지별 해설 ===\n* 1번: '''현재 조합과 다르다.''' 세균성 감염은 호중구 우세와 낮은 pH·glucose 등이 단서다. TG의 현저한 상승을 가장 잘 설명하는 것은 유미의 유입이다.\n* 2번: '''혈흉 기준이 아니다.''' Hct의 절대값이 아니라 흉수/말초혈액의 비를 비교한다. 이 환자는 약 0.42%로 기준 50%에 한참 못 미친다.\n* 3번: '''맞다.''' TG가 풍부한 림프액이 흉막강으로 들어온다. 실제 원인은 파열뿐 아니라 종양에 의한 폐쇄도 평가한다.\n* 4번: '''여출액 기전이다.''' 현재 Light 기준은 삼출액이고 높은 TG를 설명하지 못한다.\n* 5번: '''간성 흉수를 뜻한다.''' 보통 우측 여출액이며 TG 724라는 핵심 단서와 맞지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''TG와 hematocrit는 유미흉과 혈흉을 가른다'''\n\n||= 질환 ||= 검사 기준·단서 ||= 원인과 치료 방향 ||\n|| 유미흉, chylothorax || 흉수 '''TG >110 mg/dL''', 필요 시 chylomicron 확인; 림프구 우세 가능 || 흉관 손상·폐쇄, 수술·외상, 림프종 등. 원인 치료, 지방 섭취 조정, 선택적 배액·octreotide·흉관 중재 ||\n|| 가성유미흉, pseudochylothorax || 오래된 흉수의 cholesterol 증가·결정 등 || 만성 결핵·RA 등과 연관; 겉모습만으로 유미흉이라 하지 않음 ||\n|| 혈흉, hemothorax || 흉수 hematocrit가 '''말초혈액 hematocrit의 50% 초과''' || 외상·시술·혈관 손상 등. 배액과 출혈 원인 조절 ||\n|| Amylase가 높은 흉수 || 췌장질환·식도 파열 등 || 복부·흉통과 발생 상황을 함께 평가 ||\n\n유미흉은 우윳빛일 수 있지만 늘 그렇게 보이지는 않는다. TG 724 mg/dL와 림프구 90%라면 유미흉을 강하게 지지한다. 반대로 혈흉의 기준은 흉수 Hct 자체가 50%라는 뜻이 아니다. 말초 Hct 48%라면 그 절반인 24%와 비교한다.\n\n지속적인 유미 배액은 영양·면역세포 손실을 일으킬 수 있어 원인을 해결해야 한다. 폐색전증의 흉수는 대개 삼출액이며 호흡곤란·흉통 등 임상 위험에 따라 CTPA로 평가한다. 바이러스 관련 흉수는 다른 원인을 배제한 뒤 경과를 보아야 한다.\n\n[[35강#TG와 hematocrit는 유미흉과 혈흉을 가른다|TG와 hematocrit는 유미흉과 혈흉을 가른다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "3번 — 흉부 림프관 파열",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답은 '''3번 흉관 파열'''이다. 흉수 TG '''724 mg/dL'''는 유미흉의 기준인 110 mg/dL를 크게 넘는다. 단백질 비 4/7=0.57, LDH 비 65/70=0.93으로 삼출액이며 림프구 우세도 부합한다. 흉수 Hct/혈액 Hct는 0.2/48≈0.0042로 혈흉의 0.5와 거리가 멀다.\n\n=== 선지별 해설 ===\n* 1번: '''현재 조합과 다르다.''' 세균성 감염은 호중구 우세와 낮은 pH·glucose 등이 단서다. TG의 현저한 상승을 가장 잘 설명하는 것은 유미의 유입이다.\n* 2번: '''혈흉 기준이 아니다.''' Hct의 절대값이 아니라 흉수/말초혈액의 비를 비교한다. 이 환자는 약 0.42%로 기준 50%에 한참 못 미친다.\n* 3번: '''맞다.''' TG가 풍부한 림프액이 흉막강으로 들어온다. 실제 원인은 파열뿐 아니라 종양에 의한 폐쇄도 평가한다.\n* 4번: '''여출액 기전이다.''' 현재 Light 기준은 삼출액이고 높은 TG를 설명하지 못한다.\n* 5번: '''간성 흉수를 뜻한다.''' 보통 우측 여출액이며 TG 724라는 핵심 단서와 맞지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''TG와 hematocrit는 유미흉과 혈흉을 가른다'''\n\n||= 질환 ||= 검사 기준·단서 ||= 원인과 치료 방향 ||\n|| 유미흉, chylothorax || 흉수 '''TG >110 mg/dL''', 필요 시 chylomicron 확인; 림프구 우세 가능 || 흉관 손상·폐쇄, 수술·외상, 림프종 등. 원인 치료, 지방 섭취 조정, 선택적 배액·octreotide·흉관 중재 ||\n|| 가성유미흉, pseudochylothorax || 오래된 흉수의 cholesterol 증가·결정 등 || 만성 결핵·RA 등과 연관; 겉모습만으로 유미흉이라 하지 않음 ||\n|| 혈흉, hemothorax || 흉수 hematocrit가 '''말초혈액 hematocrit의 50% 초과''' || 외상·시술·혈관 손상 등. 배액과 출혈 원인 조절 ||\n|| Amylase가 높은 흉수 || 췌장질환·식도 파열 등 || 복부·흉통과 발생 상황을 함께 평가 ||\n\n유미흉은 우윳빛일 수 있지만 늘 그렇게 보이지는 않는다. TG 724 mg/dL와 림프구 90%라면 유미흉을 강하게 지지한다. 반대로 혈흉의 기준은 흉수 Hct 자체가 50%라는 뜻이 아니다. 말초 Hct 48%라면 그 절반인 24%와 비교한다.\n\n지속적인 유미 배액은 영양·면역세포 손실을 일으킬 수 있어 원인을 해결해야 한다. 폐색전증의 흉수는 대개 삼출액이며 호흡곤란·흉통 등 임상 위험에 따라 CTPA로 평가한다. 바이러스 관련 흉수는 다른 원인을 배제한 뒤 경과를 보아야 한다.\n\n[[35강#TG와 hematocrit는 유미흉과 혈흉을 가른다|TG와 hematocrit는 유미흉과 혈흉을 가른다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.119. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "류정선",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "류정선",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.119 출제자란 확인",
       "lectureIds": [
         35
       ],
       "lectureId": 35,
       "lectureTitle": "흉막질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 119번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2023 호흡기계 원본 p.119",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 119,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 흉막 질환 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "TG와 hematocrit는 유미흉과 혈흉을 가른다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -22626,6 +23822,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 119,
+        "professor": "류정선",
+        "lecture": "흉막질환",
+        "question": "흉부 X선 검사에서 우측 흉수가 발견되어 시행한 검사소견(혈장과 흉막액) 이다. 흉수 생성\n기전은?\n<혈장> 총단백, 7.0 g/dL; 젖산탈수소효소, 70 U/L; 적혈구용적률, 48%\n<흉수> 총단백, 4.0 g/dL; 젖산탈수소효소, 65 U/L; 적혈구용적률, 0.2%\npH, 7.45; 포도당, 85 mg/dL; 중성지방, 724 mg/dL(n ≤ 50 mg/dL)\n백혈구 300/mm3( 호중구 9%; 림프구 90%; 호산구 1%)",
+        "choices": [
+          "흉강내 세균감염",
+          "흉강내 출혈",
+          "흉부 림프관 파열",
+          "혈장 교질삼투압 (oncotic pressure) 감소",
+          "횡격막을 통한 복수의 이동"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22639,7 +23853,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         120
       ],
-      "question": "45세 남자가 호흡곤란, 좌측 흉통, 오한, 객담 및 기침 등 증상으로 내원했다. 7일 전 감기로 시작했으나, 3일 전부터 증상이 악화되었다. 체온 38.9℃, 혈압 110/70 mmHg, 맥박 110회/분, 호흡수 26회/분이었다. 신체검사에서 충치가 있었고, 좌측 하부 흉부에서 청진음이 감소되어 들렸고 흉부 사진은 다음과 같았다. 환자 증상의 원인은?",
+      "question": "45세 남자가 호흡곤란, 좌측 흉통, 오한, 객담 및 기침 등 증상으로 내원했다. 7일 전 감기로 시작했으나, 3일 전부터 증상이 악화되었다. 체온 38.9 oC, 혈압 110/70 mmHg, 맥박 110회/분, 호흡수 26회/분이었다. 신체검사에서 충치가 있었고, 좌측 하부 흉부에서 청진음이 감소되어 들렸고 흉부 사진은 다음과 같았다. 환자 증상의 원인은?",
       "passage": "",
       "choices": [
         "폐농양",
@@ -22652,58 +23866,49 @@ window.JBL_DATA = {
       "answerIndices": [
         3
       ],
-      "answerLabel": "정답: ③",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''3번 농흉'''이 가장 적절하다. 고열·오한·흉막성 통증과 좌측 흉막강의 큰 액체성 음영은 폐렴에 이어진 흉막 감염을 의심하게 한다. 나쁜 치아 상태는 흡인·구강 세균 감염의 위험 단서다. '''X선만으로 고름을 확인한 것은 아니므로''' 초음파·CT와 흉수 검사로 확진·배액 계획을 세운다.\n\n=== 선지별 해설 ===\n* 1번: '''공간이 다르다.''' 폐농양은 폐실질 안의 괴사성 공동으로 두꺼운 벽과 air-fluid level이 중심이다.\n* 2번: '''공기 소견과 다르다.''' 기흉은 흉막선 바깥의 혈관 음영 소실이 핵심이다.\n* 3번: '''가장 적절하다.''' 급성 감염 증상과 흉막강 액체를 연결하면 농흉·복잡성 폐렴연관 흉수를 먼저 고려한다.\n* 4번: '''동반 원인일 수 있다.''' 그러나 제시 영상에서 중요한 합병증은 흉막강에 모인 액체이므로 ‘폐렴’만으로 끝내지 않는다.\n* 5번: '''감별은 가능하지만 우선순위가 낮다.''' 현재의 급성 고열·악화와 흉막 감염 양상에서는 세균성 감염이 더 적절하며, 결핵은 ADA·배양·조직 등으로 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다'''\n\n폐렴에 동반한 흉수를 parapneumonic effusion이라 한다. 처음에는 비교적 자유롭게 흐르는 액체지만, 염증이 진행하면 fibrin이 쌓여 격벽이 생기고 농이 형성되며, 더 지나면 두꺼운 막이 폐의 재팽창을 막는다.\n\n||= 단계 ||= 흉막강의 변화 ||= 치료 방향 ||\n|| Uncomplicated, exudative || 비교적 자유로운 액체, 세균 침입·대사 이상이 적음 || 적절한 항생제와 경과 관찰 ||\n|| Complicated, fibrinopurulent || 세균 감염, pH·glucose 감소, fibrin·loculation || 항생제와 배액 필요성 평가 ||\n|| Empyema || '''육안적 고름''' 또는 감염이 명확한 흉막강 || 항생제 + 배액 ||\n|| Organizing || 섬유성 peel이 폐를 둘러싸 재팽창 방해 || 배액·흉강경·decortication 등 단계적 치료 ||\n\n폐농양은 '''폐실질 안''', 농흉은 '''흉막강 안'''의 고름이다. 발열·흉통과 액체 음영은 농흉을 의심하게 하지만 영상만으로 고름 자체를 확정하지는 않는다. 초음파·CT와 천자 검사를 연결한다.\n\n'''낮은 pH와 격벽화는 항생제만으로 부족하다는 신호다'''\n\n\"\"감염된 흉막강은 항생제뿐 아니라 배액이 필요할 수 있다.\"\"\n\n||= 소견 ||= 해석·조치 ||\n|| 육안적 고름, Gram stain·배양 양성 || 감염이 분명하다. 배액을 적극 고려 ||\n|| pH '''≤7.20''' || 복잡성 감염의 강한 단서. 안전하게 접근 가능한 양이면 배액 ||\n|| Glucose '''<60 mg/dL''' || 감염성 대사 활동을 지지. pH와 전체 상황을 함께 판단 ||\n|| LDH '''>900 U/L''' || 감염의 보조 단서. 이것 하나로 모든 흉수를 배액하지 않음 ||\n|| Loculation·격벽, 지속 발열, 큰 흉수 || 단순 항생제만으로 해결되지 않을 가능성 증가 ||\n\n강의에는 pH <7.20이 제시되어 있다. 경계인 '''7.20도''' 임상 판단에서는 고위험으로 취급하며, pH 7.2–7.4에서는 LDH >900과 낮은 glucose·발열·격벽화 등을 함께 보고 배액 필요성을 결정한다. LDH가 높은 악성 흉수에 이 감염 기준을 기계적으로 적용하면 안 된다.\n\n치료는 항생제와 흉관 배액으로 시작한다. 남은 loculated fluid에는 선택적으로 흉강 내 '''tPA+DNase'''를 사용하거나 VATS를 고려하며, 조직화가 진행되어 폐가 펴지지 않으면 decortication이 필요할 수 있다.\n\n[[35강#폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다|폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다]] · [[35강#낮은 pH와 격벽화는 항생제만으로 부족하다는 신호다|낮은 pH와 격벽화는 항생제만으로 부족하다는 신호다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
+      "answerLabel": "3번 — 농흉",
+      "explanation": "'''공식 정답: 3번'''\n\n=== 풀이의 핵심 ===\n정답은 '''3번 농흉'''이 가장 적절하다. 고열·오한·흉막성 통증과 좌측 흉막강의 큰 액체성 음영은 폐렴에 이어진 흉막 감염을 의심하게 한다. 나쁜 치아 상태는 흡인·구강 세균 감염의 위험 단서다. '''X선만으로 고름을 확인한 것은 아니므로''' 초음파·CT와 흉수 검사로 확진·배액 계획을 세운다.\n\n=== 선지별 해설 ===\n* 1번: '''공간이 다르다.''' 폐농양은 폐실질 안의 괴사성 공동으로 두꺼운 벽과 air-fluid level이 중심이다.\n* 2번: '''공기 소견과 다르다.''' 기흉은 흉막선 바깥의 혈관 음영 소실이 핵심이다.\n* 3번: '''가장 적절하다.''' 급성 감염 증상과 흉막강 액체를 연결하면 농흉·복잡성 폐렴연관 흉수를 먼저 고려한다.\n* 4번: '''동반 원인일 수 있다.''' 그러나 제시 영상에서 중요한 합병증은 흉막강에 모인 액체이므로 ‘폐렴’만으로 끝내지 않는다.\n* 5번: '''감별은 가능하지만 우선순위가 낮다.''' 현재의 급성 고열·악화와 흉막 감염 양상에서는 세균성 감염이 더 적절하며, 결핵은 ADA·배양·조직 등으로 평가한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다'''\n\n폐렴에 동반한 흉수를 parapneumonic effusion이라 한다. 처음에는 비교적 자유롭게 흐르는 액체지만, 염증이 진행하면 fibrin이 쌓여 격벽이 생기고 농이 형성되며, 더 지나면 두꺼운 막이 폐의 재팽창을 막는다.\n\n||= 단계 ||= 흉막강의 변화 ||= 치료 방향 ||\n|| Uncomplicated, exudative || 비교적 자유로운 액체, 세균 침입·대사 이상이 적음 || 적절한 항생제와 경과 관찰 ||\n|| Complicated, fibrinopurulent || 세균 감염, pH·glucose 감소, fibrin·loculation || 항생제와 배액 필요성 평가 ||\n|| Empyema || '''육안적 고름''' 또는 감염이 명확한 흉막강 || 항생제 + 배액 ||\n|| Organizing || 섬유성 peel이 폐를 둘러싸 재팽창 방해 || 배액·흉강경·decortication 등 단계적 치료 ||\n\n폐농양은 '''폐실질 안''', 농흉은 '''흉막강 안'''의 고름이다. 발열·흉통과 액체 음영은 농흉을 의심하게 하지만 영상만으로 고름 자체를 확정하지는 않는다. 초음파·CT와 천자 검사를 연결한다.\n\n'''낮은 pH와 격벽화는 항생제만으로 부족하다는 신호다'''\n\n\"\"감염된 흉막강은 항생제뿐 아니라 배액이 필요할 수 있다.\"\"\n\n||= 소견 ||= 해석·조치 ||\n|| 육안적 고름, Gram stain·배양 양성 || 감염이 분명하다. 배액을 적극 고려 ||\n|| pH '''≤7.20''' || 복잡성 감염의 강한 단서. 안전하게 접근 가능한 양이면 배액 ||\n|| Glucose '''<60 mg/dL''' || 감염성 대사 활동을 지지. pH와 전체 상황을 함께 판단 ||\n|| LDH '''>900 U/L''' || 감염의 보조 단서. 이것 하나로 모든 흉수를 배액하지 않음 ||\n|| Loculation·격벽, 지속 발열, 큰 흉수 || 단순 항생제만으로 해결되지 않을 가능성 증가 ||\n\n강의에는 pH <7.20이 제시되어 있다. 경계인 '''7.20도''' 임상 판단에서는 고위험으로 취급하며, pH 7.2–7.4에서는 LDH >900과 낮은 glucose·발열·격벽화 등을 함께 보고 배액 필요성을 결정한다. LDH가 높은 악성 흉수에 이 감염 기준을 기계적으로 적용하면 안 된다.\n\n치료는 항생제와 흉관 배액으로 시작한다. 남은 loculated fluid에는 선택적으로 흉강 내 '''tPA+DNase'''를 사용하거나 VATS를 고려하며, 조직화가 진행되어 폐가 펴지지 않으면 decortication이 필요할 수 있다.\n\n[[35강#폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다|폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다]] · [[35강#낮은 pH와 격벽화는 항생제만으로 부족하다는 신호다|낮은 pH와 격벽화는 항생제만으로 부족하다는 신호다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.120. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [
-        "J/2023/q120_01.jpg"
+        "J/2023/official-p120.jpg"
       ],
       "legacyProfessor": "류정선",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "류정선",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.120 출제자란 확인",
       "lectureIds": [
         35
       ],
       "lectureId": 35,
       "lectureTitle": "흉막질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 120번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2023 호흡기계 원본 p.120",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
       "restorationNotes": [],
       "imageProvenance": [
         {
-          "path": "J/2023/q120_01.jpg",
-          "role": "reconstruction_body_image_not_verified_as_original"
+          "source": "2023 원본.pdf",
+          "page": 120,
+          "file": "J/2023/official-p120.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
         }
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 120,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 흉막 질환 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "폐렴연관 흉수는 자유로운 액체에서 격벽과 고름으로 진행한다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -22711,6 +23916,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 120,
+        "professor": "류정선",
+        "lecture": "흉막질환",
+        "question": "45세 남자가 호흡곤란, 좌측 흉통, 오한, 객담 및 기침 등 증상으로 내원했다. 7일전 감기로\n시작했으나, 3일 전부터 증상이 악화되었다. 체온 38.9 oC, 혈압 110/70 mmHg, 맥박 110회/\n분, 호흡수 26회/분이었다. 신체검사에서 충치가 있었고, 좌측 하부 흉부에서 청진음이 감소되\n어 들렸고 흉부 사진은 다음과 같았다. 환자 증상의 원인은?",
+        "choices": [
+          "폐농양",
+          "기흉",
+          "농흉",
+          "폐렴",
+          "결핵"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22724,7 +23947,7 @@ window.JBL_DATA = {
       "originalNumbers": [
         121
       ],
-      "question": "56세 여자 환자가 기침을 주소로 내원하여 시행한 흉부 X선 사진이다. 흉수 천자 후 검사소견은 pH 7.3, 백혈구 4,900/㎣ (호중구 10%; 림프구 90%), 단백질 5.5 g/dL, 젖산탈수소효소 700 U/L, 포도당 60 mg/dL, ADA 74 IU/L이었다. 흉막 조직검사 소견은 다음과 같다. 치료는?",
+      "question": "56세 여자 환자가 기침을 주소로 내원하여 시행한 흉부 X선 사진이다. 흉수 천자 후 검사소견은 pH 7.3, 백혈구 4,900/㎣ (호중구 10%; 림프구 90%), 단백질 5.5 g/dL, 젖산탈수소효소 700 U/L, 포도당 60 mg/dL, ADA 74 IU/L이었다. 흉막 조직검사는 소견은 다음과 같다. 치료는?",
       "passage": "",
       "choices": [
         "흉관삽입",
@@ -22737,53 +23960,49 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "정답: ②",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 '''2번 항결핵제'''가 가장 유력하다. 림프구 90%, 단백질 5.5, LDH 700, ADA 74의 조합이 결핵성 흉막염을 지지한다. 발문에 언급된 조직사진은 현재 복원 자료에 없어 '''건락성 육아종을 실제로 보았다고 가정하지 않았다.''' 임상에서는 배양·조직 등으로 확진 근거를 보강한다.\n\n=== 선지별 해설 ===\n* 1번: '''모든 결핵성 흉수의 기본 치료는 아니다.''' 큰 증상성 흉수나 농흉 등에서는 배액을 고려하지만 이 수치만으로 즉시 흉관을 고르지 않는다.\n* 2번: '''가장 적절하다.''' 림프구 우세 삼출액과 높은 ADA는 결핵을 강하게 지지하며 표준 항결핵치료로 이어진다.\n* 3번: '''단독 원인 치료가 아니다.''' 면역억제만으로 결핵을 치료할 수 없다.\n* 4번: '''일반 세균성 폐렴·흉막 감염의 치료다.''' 현재는 호중구 우세 급성 감염보다 결핵을 지지하는 조합이다.\n* 5번: '''근거가 부족하다.''' 진균 노출·면역저하·검체 등 별도 단서 없이 항진균제를 고르지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''ADA는 결핵을 지지하지만 단독 확진 수치는 아니다'''\n\n결핵성 흉막염은 대개 '''림프구 우세 삼출액'''이다. ADA '''>40 U/L'''는 중요한 지지 소견이며, 항산균 배양·흉막 생검 등으로 근거를 보강한다. 초기에는 호중구가 우세할 수도 있다.\n\n||= 소견 ||= 결핵성 흉막염에서의 의미 ||\n|| 림프구 우세 + 단백질·LDH 증가 || 결핵을 생각하게 하는 전형적 조합 ||\n|| ADA 상승 || 결핵 가능성을 높이지만 농흉·RA·림프종 등에서도 가능 ||\n|| 배양·조직 소견 || 확진과 감별을 보강 ||\n|| 치료 || 결핵 진단에 맞는 표준 항결핵치료. 단순 흉수라는 이유만으로 모두 흉관 삽입하지 않음 ||\n\n예를 들어 림프구 90%, 단백질 5.5 g/dL, LDH 700, ADA 74라면 결핵을 강하게 생각한다. 그러나 호중구 우세이면서 ADA만 오른 경우라면 폐렴연관 흉수 등과 다시 비교해야 한다.\n\n[[35강#ADA는 결핵을 지지하지만 단독 확진 수치는 아니다|ADA는 결핵을 지지하지만 단독 확진 수치는 아니다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~",
-      "images": [],
+      "answerLabel": "2번 — 항결핵제",
+      "explanation": "'''공식 정답: 2번'''\n\n=== 풀이의 핵심 ===\n공식 정답은 '''2번 항결핵제'''다. 림프구 90%, 단백질 5.5, LDH 700, ADA 74의 조합이 결핵성 흉막염을 지지한다. 원본의 흉부 X선과 흉막 조직사진을 복구했다. 조직의 육아종성 염증 소견을 림프구 우세 흉수·높은 ADA와 함께 해석한다. 임상에서는 배양·조직 등으로 확진 근거를 보강한다.\n\n=== 선지별 해설 ===\n* 1번: '''모든 결핵성 흉수의 기본 치료는 아니다.''' 큰 증상성 흉수나 농흉 등에서는 배액을 고려하지만 이 수치만으로 즉시 흉관을 고르지 않는다.\n* 2번: '''가장 적절하다.''' 림프구 우세 삼출액과 높은 ADA는 결핵을 강하게 지지하며 표준 항결핵치료로 이어진다.\n* 3번: '''단독 원인 치료가 아니다.''' 면역억제만으로 결핵을 치료할 수 없다.\n* 4번: '''일반 세균성 폐렴·흉막 감염의 치료다.''' 현재는 호중구 우세 급성 감염보다 결핵을 지지하는 조합이다.\n* 5번: '''근거가 부족하다.''' 진균 노출·면역저하·검체 등 별도 단서 없이 항진균제를 고르지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''ADA는 결핵을 지지하지만 단독 확진 수치는 아니다'''\n\n결핵성 흉막염은 대개 '''림프구 우세 삼출액'''이다. ADA '''>40 U/L'''는 중요한 지지 소견이며, 항산균 배양·흉막 생검 등으로 근거를 보강한다. 초기에는 호중구가 우세할 수도 있다.\n\n||= 소견 ||= 결핵성 흉막염에서의 의미 ||\n|| 림프구 우세 + 단백질·LDH 증가 || 결핵을 생각하게 하는 전형적 조합 ||\n|| ADA 상승 || 결핵 가능성을 높이지만 농흉·RA·림프종 등에서도 가능 ||\n|| 배양·조직 소견 || 확진과 감별을 보강 ||\n|| 치료 || 결핵 진단에 맞는 표준 항결핵치료. 단순 흉수라는 이유만으로 모두 흉관 삽입하지 않음 ||\n\n예를 들어 림프구 90%, 단백질 5.5 g/dL, LDH 700, ADA 74라면 결핵을 강하게 생각한다. 그러나 호중구 우세이면서 ADA만 오른 경우라면 폐렴연관 흉수 등과 다시 비교해야 한다.\n\n[[35강#ADA는 결핵을 지지하지만 단독 확진 수치는 아니다|ADA는 결핵을 지지하지만 단독 확진 수치는 아니다]]\n\n~~근거: 김준 「2026 흉막 질환 학생강의」 3–26쪽. 원복원본·공식 공개 문항은 문항 확인에 사용했고 비공식 선배 해설은 정답 근거로 사용하지 않았다.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.121. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2023/official-p121.jpg"
+      ],
       "legacyProfessor": "류정선",
-      "professor": "김준",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": "문항 주제·37기 시간표·인접 출제자 구간의 종합 추정. 공식 확인 아님.",
+      "professor": "류정선",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.121 출제자란 확인",
       "lectureIds": [
         35
       ],
       "lectureId": 35,
       "lectureTitle": "흉막질환",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 121번",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "흉막질환",
+      "source": "2023 호흡기계 원본 p.121",
       "mappingConfidence": "high",
       "classificationStatus": "assigned",
-      "originalNumberStatus": "reconstructed_number",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "발문에 사진이 언급되지만 이 문항에 연결된 독립 이미지가 OOXML에서 확인되지 않음. 이미지 누락 가능성; 자동 수록 전 별도 복원 필요."
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "source": "2023 원본.pdf",
+          "page": 121,
+          "file": "J/2023/official-p121.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 3
+        }
       ],
-      "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-22",
-        "scope": "lecture33_34_35_wiki_j_jbl",
-        "answerStatus": "lecture_based_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": false,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 121,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:/Users/gjsrn/OneDrive/바탕 화면/호흡기계 자료 모음/39기 강의록/2026 흉막 질환 학생강의.pptx"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "ADA는 결핵을 지지하지만 단독 확진 수치는 아니다",
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-22",
@@ -22791,6 +24010,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "현재 강의 개념 및 원문 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 121,
+        "professor": "류정선",
+        "lecture": "흉막질환",
+        "question": "56세 여자 환자가 기침을 주소로 내원하여 시행한 흉부 X선 사진이다. 흉수 천자 후 검사소\n견은 pH 7.3, 백혈구 4,900/㎣ (호중구 10%; 림프구 90%), 단백질 5.5 g/dL, 젖산탈수소효소\n700 U/L, 포도당 60 mg/dL, ADA 74 IU/L 이었다. 흉막 조직검사는 소견은 다음과 같다. 치\n료는?\n",
+        "choices": [
+          "흉관 삽입",
+          "항결핵제",
+          "스테로이드",
+          "항생제",
+          "항진균제"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -22811,64 +24048,45 @@ window.JBL_DATA = {
         "수술적 절제 후 항암제 치료를 시행한다.",
         "항암제 치료 후 방사선 치료를 시행한다.",
         "항암제와 면역치료를 시행한다.",
-        "항암제 치료와 방사선 치료를 동시에 진행한다."
+        "항암제 치료와 방사선 치료를 동시에 시행한다."
       ],
       "answerIndex": 5,
       "answerIndices": [
         5
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "=== 풀이의 핵심 ===\n정답은 5번, 동시 항암화학방사선치료다. 우상엽 종괴에 '''동측 lower paratracheal·subcarinal 림프절''' 전이가 있지만 원격전이는 없다. ECOG 1이고 제시된 FEV1도 치료를 고려할 수 있는 상태다. 이 증례는 종격동 림프절을 포함한 limited-stage SCLC의 CCRT를 묻는다.\n\n=== 선지별 해설 ===\n* 1번: 우상엽 절제와 림프절 제거술을 먼저 하는 상황이 아니다. SCLC 수술의 대표 예외는 매우 초기 N0이며 이 환자는 종격동 림프절 전이가 있다.\n* 2번: 수술 후 항암치료는 초기 N0 SCLC의 선택 환자에서 고려하지만, 이 N2 증례의 기본 경로가 아니다.\n* 3번: 항암제 후 방사선을 순차적으로 하는 방법은 동시 치료를 견디기 어려운 상황 등에 고려한다. ECOG 1인 이 증례에서는 동시 치료가 우선이다.\n* 4번: 항암제와 면역치료만 제시하면 제한병기의 흉부 국소치료가 빠진다. CCRT 후 면역치료를 고려하는 것과 구분한다.\n* 5번: 항암제와 흉부 방사선치료를 동시에 시행한다. 국소 종양·림프절과 잠재적 전신 미세전이를 함께 다루므로 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34쪽.~~~",
+      "answerLabel": "5번 — 항암제 치료와 방사선 치료를 동시에 시행한다.",
+      "explanation": "'''공식 정답: 5번'''\n\n=== 풀이의 핵심 ===\n정답은 5번, 동시 항암화학방사선치료다. 우상엽 종괴에 '''동측 lower paratracheal·subcarinal 림프절''' 전이가 있지만 원격전이는 없다. ECOG 1이고 제시된 FEV1도 치료를 고려할 수 있는 상태다. 이 증례는 종격동 림프절을 포함한 limited-stage SCLC의 CCRT를 묻는다.\n\n=== 선지별 해설 ===\n* 1번: 우상엽 절제와 림프절 제거술을 먼저 하는 상황이 아니다. SCLC 수술의 대표 예외는 매우 초기 N0이며 이 환자는 종격동 림프절 전이가 있다.\n* 2번: 수술 후 항암치료는 초기 N0 SCLC의 선택 환자에서 고려하지만, 이 N2 증례의 기본 경로가 아니다.\n* 3번: 항암제 후 방사선을 순차적으로 하는 방법은 동시 치료를 견디기 어려운 상황 등에 고려한다. ECOG 1인 이 증례에서는 동시 치료가 우선이다.\n* 4번: 항암제와 면역치료만 제시하면 제한병기의 흉부 국소치료가 빠진다. CCRT 후 면역치료를 고려하는 것과 구분한다.\n* 5번: 항암제와 흉부 방사선치료를 동시에 시행한다. 국소 종양·림프절과 잠재적 전신 미세전이를 함께 다루므로 정답이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''제한병기 SCLC의 기본은 동시 항암화학방사선치료다'''\n\nSCLC는 영상에 보이는 병변 밖에도 미세전이가 있을 가능성이 높다. 따라서 흉부의 종양만 제거하는 국소치료로 끝내기 어렵다. '''제한병기(limited stage)'''는 대체로 한쪽 흉곽과 관련 림프절 병변을 허용 가능한 방사선 범위에 포함할 수 있는 상황이며, 원격전이가 있거나 그 범위를 넘어가면 extensive stage로 접근한다. TNM 평가도 함께 사용한다.\n\n'''종격동 림프절 전이가 있어도 원격전이가 없으면 limited stage일 수 있다.''' 작은 폐결절만 보고 수술을 고르거나, 림프절 전이가 있다는 이유만으로 곧바로 extensive stage로 분류하지 않는다.\n\n||= 상황 ||= 기본 치료 방향 ||= 놓치기 쉬운 조건 ||\n|| Limited stage, PS 0–2 등 동시 치료 가능 || Platinum–etoposide 기반 전신치료 + 흉부 RT, '''CCRT''' || 방사선치료를 항암치료가 모두 끝날 때까지 불필요하게 미루지 않는다 ||\n|| SCLC 때문에 PS가 3–4로 나쁨 || 전신치료 ± RT, 동시·순차 여부 판단 || 암 치료 후 상태가 호전될 가능성 고려 ||\n|| 다른 기저질환 때문에 PS가 나쁨 || 개별 치료와 지지치료 || 공격적인 CCRT를 기계적으로 적용하지 않는다 ||\n|| 매우 초기 T1–2N0M0, 병리적 림프절 평가 음성 || 수술 가능한 경우 절제 후 전신치료; 수술 곤란 시 SABR 후 전신치료 또는 CCRT 등 || '''SCLC에서는 수술이 절대 불가능하다'''는 문장은 틀리다 ||\n\n> 5 cm 종괴 + 동측 종격동·subcarinal 림프절 + 원격전이 없음 + ECOG 1 → 제한병기 SCLC의 CCRT를 생각한다. 수술 가능한 아주 초기 N0 예외와 구분한다.\n\n[[36강#제한병기 SCLC의 기본은 동시 항암화학방사선치료다|Wiki · 제한병기 SCLC의 기본은 동시 항암화학방사선치료다]]\n\n~~근거: 「36 폐암의 방사선치료」 32·33·34쪽.~~~\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.122. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
       "images": [],
       "legacyProfessor": "김우철",
-      "professor": "최윤선",
-      "examinerStatus": "low_confidence_inferred",
-      "examinerEvidence": "방사선치료 주제·37기 해당 강의 교수 김우철로 추정. 원문 말미 위치만으로 출제자 확정 불가.",
+      "professor": "김우철",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.122 출제자란 확인",
       "lectureIds": [
         36
       ],
       "lectureId": 36,
       "lectureTitle": "폐암의 방사선치료",
-      "domain": "",
-      "discipline": "",
-      "section": "",
-      "source": "2023 호흡기계 122번",
-      "mappingConfidence": "medium",
-      "classificationStatus": "provisional",
-      "originalNumberStatus": "reconstructed_number",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "방사선종양학",
+      "source": "2023 호흡기계 원본 p.122",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
       "questionFormat": "multiple_choice",
-      "sourceStatus": "numbered_reconstruction",
-      "parseMethod": "word_numbering",
-      "restorationNotes": [
-        "제한성 소세포암에서 항암·흉부 방사선 병용을 묻는 문항. 36강 우선이나 원문 출제자 표기가 없고 끝번호의 가나다순이 맞지 않아 김우철 출제는 추정에 한정."
-      ],
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-23",
-        "scope": "lecture36_wiki_j_jbl",
-        "answerStatus": "lecture_supported_answer",
-        "officialAnswerVerified": false,
-        "peerExplanationUsed": false,
-        "summaryUsed": true,
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 122,
         "originalQuestionAndImagesPreserved": true,
-        "sources": [
-          {
-            "kind": "current_lecture",
-            "path": "C:\\Users\\gjsrn\\OneDrive\\바탕 화면\\호흡기계 자료 모음\\39기 강의록\\36 폐암의 방사선치료.pdf"
-          },
-          {
-            "kind": "prior_annotated_lecture",
-            "path": "38기 자료"
-          }
-        ],
-        "chapter": "제한병기 SCLC의 기본은 동시 항암화학방사선치료다",
-        "pages": [
-          32,
-          33,
-          34
-        ],
-        "priorAnnotatedLectureUsed": true
+        "peerExplanationUsed": false
       },
       "classificationReview": {
         "date": "2026-10-23",
@@ -22876,6 +24094,24 @@ window.JBL_DATA = {
         "unchanged": true,
         "basis": "방사선치료의 적응증·SCLC CCRT·SBRT·SVC·뇌전이 개념과 출제 맥락 대조",
         "historicalExaminerPreserved": true
+      },
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 122,
+        "professor": "김우철",
+        "lecture": "폐암의 방사선 치료",
+        "question": "75세 남자 환자가 객혈을 해서 시행한 폐 CT 검사에서 우상엽에 5cm크기의 종괴가 있었고\n우측 lower paratracheal lymph node와 subcarinal lymph node 전이 소견이 있었다. 다\n른 검사에서 원격전이 소견은 발견되지 않았고 종괴의 세침검사에서 소세포 폐암으로 진단되\n었다. 이 환자의 적절한 치료는?\n(ECOG performance status : 1, FEV1 : 2.1L)",
+        "choices": [
+          "우상엽 절제와 종격동 림프절 제거술을 시행한다.",
+          "수술적 절제 후 항암제 치료를 시행한다.",
+          "항암제 치료 후 방사선 치료를 시행한다.",
+          "항암제와 면역치료를 시행한다.",
+          "항암제 치료와 방사선치료를 동시에 시행한다."
+        ],
+        "answer": "5",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
       }
     },
     {
@@ -27874,18 +29110,17 @@ window.JBL_DATA = {
       "passage": "",
       "choices": [
         "Lung cancer",
-        "[선지 미복원]",
         "Pulmonary Alveolar Proteinosis",
         "Thyroid cancer",
         "Diffuse Alveolar Hemorrhage",
         "Eosinophilic pneumonia"
       ],
-      "answerIndex": 5,
+      "answerIndex": 4,
       "answerIndices": [
-        5
+        4
       ],
-      "answerLabel": "정답: ⑤",
-      "explanation": "정답: ⑤ Diffuse alveolar hemorrhage(미만성폐포출혈, DAH)\n\n=== 사진은 색 하나보다 연속 채취의 방향을 보여 준다 ===\n1→2→3번 검체로 갈수록 회수액이 더 짙은 혈성으로 변한다. 같은 영역에서 연속 시행한 BAL이 이렇게 보이면 '''폐포 안에서 계속 피가 섞여 나오는 DAH'''를 의심한다. X선의 양측 폐포성 음영과도 연결된다.\n\n기관지 점막을 건드려 생긴 단순 시술성 출혈에서는 처음의 혈액이 이후 씻겨 나가며 옅어질 수 있다. 따라서 “붉은 액체가 하나 있다”보다 '''연속 검체가 더 혈성으로 변하거나 혈성이 지속되는가'''가 중요하다. Hemosiderin-laden macrophage가 뒷받침할 수 있지만 아주 초기에는 뚜렷하지 않을 수 있다.\n\n=== 선지별 판단 ===\n* '''① Lung cancer — 이 패턴으로 암을 진단하지 않는다.''' 종양도 객혈을 만들 수 있지만 진단에는 악성 세포·조직과 병변 평가가 필요하다.\n* '''② [선지 미복원] — 비교할 원문이 없어 판단을 보류한다.''' 임의로 선택지를 만들어 넣지 않았다.\n* '''③ PAP — 우윳빛·불투명한 회수액이 대표적이다.''' 점점 진해지는 혈성 검체와 다르다.\n* '''④ Thyroid cancer — 제시된 BAL 패턴의 설명이 아니다.''' 갑상샘 종양을 진단할 근거가 없다.\n* '''⑤ DAH — 정답이다.''' 연속 BAL의 혈성 증가와 양측 폐 음영을 함께 설명한다.\n* '''⑥ Eosinophilic pneumonia — 호산구 분획을 확인해야 한다.''' 대표적으로 BAL eosinophil ≥25%가 강한 단서이며, 이 사진의 혈성 변화 자체를 설명하는 선택지는 아니다.\n\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\n> DAH는 원인 진단이 아니라 출혈 증후군의 확인이다. 이후 혈관염·자가면역질환·응고 이상·약제 등 원인을 찾아야 하며, 객혈이 없다고 배제할 수 없다.\n\n[[29강#연속으로 회수할수록 더 붉어지면 폐포출혈을 의심한다|연속으로 회수할수록 더 붉어지면 폐포출혈을 의심한다]]\n~~입력 정정: 원복원본 PDF 17쪽에는 ⑤ DAH와 ⑥ Eosinophilic pneumonia가 별도 선지다. 사이트에서 두 선지가 한 줄로 붙어 있던 입력 오류만 분리했다. ②는 원문에서도 비어 있어 미복원 표시를 유지했다. 정답 ⑤는 사진과 강의록 32쪽에 근거한 판단이며 미복원 선지를 확인한 것은 아니다.~~~",
+      "answerLabel": "정답: ④ Diffuse Alveolar Hemorrhage",
+      "explanation": "정답: ④ Diffuse alveolar hemorrhage(미만성폐포출혈, DAH)\n\n=== 사진은 색 하나보다 연속 채취의 방향을 보여 준다 ===\n1→2→3번 검체로 갈수록 회수액이 더 짙은 혈성으로 변한다. 같은 영역에서 연속 시행한 BAL이 이렇게 보이면 '''폐포 안에서 계속 피가 섞여 나오는 DAH'''를 의심한다. X선의 양측 폐포성 음영과도 연결된다.\n\n기관지 점막을 건드려 생긴 단순 시술성 출혈에서는 처음의 혈액이 이후 씻겨 나가며 옅어질 수 있다. 따라서 “붉은 액체가 하나 있다”보다 '''연속 검체가 더 혈성으로 변하거나 혈성이 지속되는가'''가 중요하다. Hemosiderin-laden macrophage가 뒷받침할 수 있지만 아주 초기에는 뚜렷하지 않을 수 있다.\n\n=== 선지별 판단 ===\n* '''① Lung cancer — 이 패턴으로 암을 진단하지 않는다.''' 종양도 객혈을 만들 수 있지만 진단에는 악성 세포·조직과 병변 평가가 필요하다.\n* '''② PAP — 우윳빛·불투명한 회수액이 대표적이다.''' 점점 진해지는 혈성 검체와 다르다.\n* '''③ Thyroid cancer — 제시된 BAL 패턴의 설명이 아니다.''' 갑상샘 종양을 진단할 근거가 없다.\n* '''④ DAH — 정답이다.''' 연속 BAL의 혈성 증가와 양측 폐 음영을 함께 설명한다.\n* '''⑤ Eosinophilic pneumonia — 호산구 분획을 확인해야 한다.''' 대표적으로 BAL eosinophil ≥25%가 강한 단서이며, 이 사진의 혈성 변화 자체를 설명하는 선택지는 아니다.\n\n||= 비교 ||= PAP ||= DAH ||= 호산구성 폐렴 ||\n|| 핵심 검체 소견 || '''우윳빛·불투명한 액체'''와 단백성 물질 || '''연속 회수할수록 혈성이 증가'''하거나 계속 혈성 || BAL eosinophil의 뚜렷한 증가 ||\n|| 뒷받침하는 소견 || PAS 양성 단백·지질성 물질 || Hemosiderin-laden macrophage || 임상·영상과 함께 eosinophil ≥25%가 강한 단서 ||\n|| 영상 || GGO, crazy-paving 가능 || 양측 GGO·폐포성 침윤 가능 || 다양한 폐침윤 ||\n|| 해석의 한계 || Crazy-paving 하나만으로 확정하지 않음 || DAH라는 증후군을 찾은 뒤 원인 감별 || 기생충·약제 등 이차 원인도 평가 ||\n\n> DAH는 원인 진단이 아니라 출혈 증후군의 확인이다. 이후 혈관염·자가면역질환·응고 이상·약제 등 원인을 찾아야 하며, 객혈이 없다고 배제할 수 없다.\n\n[[29강#연속으로 회수할수록 더 붉어지면 폐포출혈을 의심한다|연속으로 회수할수록 더 붉어지면 폐포출혈을 의심한다]]\n~~편집 정정: 비어 있던 2번 항목은 미복원이 아닌 편집 오류로 확인되어 삭제하고, 뒤 선지를 한 칸씩 당겨 5지선다로 정리했다. DAH의 정답 번호는 ④이다.~~~",
       "images": [
         "J/2022/q070_01.jpg"
       ],
@@ -27912,7 +29147,7 @@ window.JBL_DATA = {
       "parseMethod": "numbered",
       "restorationNotes": [
         "복원본의 사진으로, 원시험 사진인지 강의록 대체 사진인지 출처 표기와 실제 페이지를 함께 확인해야 함.",
-        "2026-10-21: 원복원본 17쪽에서 별도 선지인 ⑤ DAH와 ⑥ Eosinophilic pneumonia가 사이트에 합쳐진 입력 오류를 분리. ② 미복원 표시는 유지."
+        "2026-10-27: 사용자 확인에 따라 빈 2번 항목을 편집 오류로 처리하여 삭제. 기존 3–6번을 2–5번으로 이동, DAH 정답은 4번."
       ],
       "imageProvenance": [
         {
@@ -27922,9 +29157,9 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-21",
+        "date": "2026-10-27",
         "scope": "lecture_29_wiki_j_jbl",
-        "answerStatus": "image_based_answer_incomplete_choice",
+        "answerStatus": "image_based_answer",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
@@ -27945,7 +29180,7 @@ window.JBL_DATA = {
             ]
           }
         ],
-        "notes": "Original reconstruction p17: separate choices 5/6; choice 2 remains missing."
+        "notes": "빈 2번 항목은 편집 오류로 확인되어 삭제. 5지선다 및 정답 4번으로 정정."
       }
     },
     {
@@ -27966,14 +29201,14 @@ window.JBL_DATA = {
         "우리나라에서 사망률 1위의 질병이다",
         "예방도 치료도 불가능하다",
         "대기오염 물질에 의해서 일어나는 질병은 아니다",
-        "?"
+        "[선지 미복원]"
       ],
       "answerIndex": 1,
       "answerIndices": [
         1
       ],
       "answerLabel": "① 호중구 증가 (복원된 선지 기준)",
-      "explanation": "'''복원된 선지에서의 답: ① 호중구 증가 (복원된 선지 기준)'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD의 염증에서는 '''호중구·대식세포·림프구''' 등이 관여한다. 호중구 elastase 등 protease와 산화 스트레스가 폐포벽 손상·기도 염증으로 이어진다. 호산구성 특성이 있는 일부 환자도 존재하지만, COPD를 설명하는 기본 염증 축에서는 호중구를 먼저 연결할 수 있다.\n\n||= 항목 ||= 핵심 ||\n|| 염증 || 호중구·대식세포 등의 참여, protease–antiprotease 불균형 ||\n|| 위험인자 || 흡연·대기오염·실내 유해입자·유전·감염 등 ||\n|| 예방·치료 || 금연·노출 관리, 흡입제·재활·예방접종 등 가능 ||\n|| 역학 수치 || 국가·연도·집계 기준이 필요한 주장. ‘국내 사망률 1위’는 강의가 뒷받침하지 않음 ||\n\n'''5번은 현재 “?”로 미복원'''되어 있다. 읽을 수 있는 1–4번 중에서는 ①이 맞지만, 미복원 선지를 포함한 원시험 전체의 단일 정답을 확인했다고 말할 수는 없다. 원문은 보존했다.\n\n=== 선지별 해설 ===\n* '''1번: 호중구가 증가하는 질병이다''' — 강의의 염증·폐기종 병태생리와 맞는 설명이다. 모든 환자의 말초혈액에서 반드시 호중구가 증가한다는 진단 기준으로 읽지는 않는다.\n* '''2번: 우리나라에서 사망률 1위의 질병이다''' — 근거 없는 절대적 역학 표현이다. COPD는 중요한 사망 원인이지만 이 선지를 지지하는 내용은 없다.\n* '''3번: 예방도 치료도 불가능하다''' — 질환이 완전히 되돌아오지 않는다는 것과 예방·치료가 불가능하다는 것은 다르다.\n* '''4번: 대기오염 물질에 의해서 일어나는 질병은 아니다''' — 대기오염·실내 바이오매스·직업 노출도 원인이 될 수 있다.\n* '''5번: ?''' — 미복원되어 판단할 수 없다. 어떤 내용인지 임의로 만들어 배제하지 않았다.\n\n[[20강#COPD는 흡연자의 폐기종만을 뜻하지 않는다|20강 · COPD는 흡연자의 폐기종만을 뜻하지 않는다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
+      "explanation": "'''복원된 선지에서의 답: ① 호중구 증가 (복원된 선지 기준)'''\n\n=== 이 문항을 풀기 위한 개념 ===\nCOPD의 염증에서는 '''호중구·대식세포·림프구''' 등이 관여한다. 호중구 elastase 등 protease와 산화 스트레스가 폐포벽 손상·기도 염증으로 이어진다. 호산구성 특성이 있는 일부 환자도 존재하지만, COPD를 설명하는 기본 염증 축에서는 호중구를 먼저 연결할 수 있다.\n\n||= 항목 ||= 핵심 ||\n|| 염증 || 호중구·대식세포 등의 참여, protease–antiprotease 불균형 ||\n|| 위험인자 || 흡연·대기오염·실내 유해입자·유전·감염 등 ||\n|| 예방·치료 || 금연·노출 관리, 흡입제·재활·예방접종 등 가능 ||\n|| 역학 수치 || 국가·연도·집계 기준이 필요한 주장. ‘국내 사망률 1위’는 강의가 뒷받침하지 않음 ||\n\n'''5번은 현재 [선지 미복원]으로 표시'''되어 있다. 읽을 수 있는 1–4번 중에서는 ①이 맞지만, 미복원 선지를 포함한 원시험 전체의 단일 정답을 확인했다고 말할 수는 없다. 원문은 보존했다.\n\n=== 선지별 해설 ===\n* '''1번: 호중구가 증가하는 질병이다''' — 강의의 염증·폐기종 병태생리와 맞는 설명이다. 모든 환자의 말초혈액에서 반드시 호중구가 증가한다는 진단 기준으로 읽지는 않는다.\n* '''2번: 우리나라에서 사망률 1위의 질병이다''' — 근거 없는 절대적 역학 표현이다. COPD는 중요한 사망 원인이지만 이 선지를 지지하는 내용은 없다.\n* '''3번: 예방도 치료도 불가능하다''' — 질환이 완전히 되돌아오지 않는다는 것과 예방·치료가 불가능하다는 것은 다르다.\n* '''4번: 대기오염 물질에 의해서 일어나는 질병은 아니다''' — 대기오염·실내 바이오매스·직업 노출도 원인이 될 수 있다.\n* '''5번: [선지 미복원]''' — 미복원되어 판단할 수 없다. 어떤 내용인지 임의로 만들어 배제하지 않았다.\n\n[[20강#COPD는 흡연자의 폐기종만을 뜻하지 않는다|20강 · COPD는 흡연자의 폐기종만을 뜻하지 않는다]]\n~~근거: 39기 만성폐쇄성폐질환 강의록과 38기 자료 대조. 선배의 정답 표기가 아니라 강의 개념으로 판단했다.~~~",
       "images": [],
       "legacyProfessor": "남해성",
       "professor": "김혜수",
@@ -29624,7 +30859,12 @@ window.JBL_DATA = {
           }
         ],
         "basis": "39기 「25. 핵의학」 13·17–24·30–32·37–51쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "증례 2: 다리 동맥의 폐색과 폐 관류결손은 구분해서 읽는다"
+        "chapter": "증례 2: 다리 동맥의 폐색과 폐 관류결손은 구분해서 읽는다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -38806,26 +40046,24 @@ window.JBL_DATA = {
       "answerIndices": [
         2
       ],
-      "answerLabel": "2번",
-      "explanation": "'''정답: ② 기흉'''\n\n=== 영상과 발문에서 확인할 것 ===\n기관절개술 뒤 갑자기 혈압이 떨어지고 '''왼쪽 호흡음이 소실'''되었다. 이 조합에서는 시술 관련 '''좌측 기흉, 특히 긴장성 기흉'''을 우선 의심한다. 선지에는 기흉으로 제시되어 있으므로 ②를 고른다.\n\n발문에는 흉부사진이나 흉막압 수치가 없으므로 긴장성 기흉이 영상으로 확인되었다고 쓰지는 않는다. 다만 '''갑작스러운 한쪽 환기 소실 + 순환 악화'''를 가장 잘 연결하는 기전이다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\n기흉은 흉막강에 공기가 들어온 상태다. 공기가 계속 들어오고 빠져나가지 못하면 흉강 내 압력이 상승해 폐를 압박하고 '''정맥환류를 감소'''시킨다. 이 때문에 호흡곤란에 저혈압·폐쇄성 쇼크가 겹칠 수 있다. 양압환기를 받는 상황에서는 악화가 빠를 수 있다.\n\n||= 구분 ||= 폐·흉곽에서의 변화 ||= 순환·영상 판단 ||\n|| 단순 기흉 || 흉막강 공기, 폐의 수축 || 흉막선 바깥 혈관 음영 소실 ||\n|| '''긴장성 기흉''' || 압력이 올라 폐·종격동 구조 압박 || '''저혈압·심한 호흡 악화'''가 핵심; 종격동 이동만으로 정의하지 않음 ||\n|| 무기폐 || 폐 용적 감소, 병변 쪽으로 견인 || 기도 폐쇄·삽관 위치 등을 확인 ||\n|| 대량 흉수 || 흉막강 액체가 폐를 압박 || 음영 증가·늑횡격막각 소실 ||\n\n실제 환자가 불안정하고 긴장성 기흉이 강하게 의심되면 영상검사를 기다려 감압을 지연시키지 않는다. 한쪽 호흡음이 사라지는 다른 원인으로 튜브의 잘못된 위치나 점액마개도 함께 확인하되, 이 문항에서는 혈압 저하까지 연결되는 기흉이 우선이다.\n\n=== 선지별 해설 ===\n* '''① 무기폐''': 분비물 마개나 잘못된 튜브 위치로 한쪽 폐가 허탈할 수 있다. 그러나 시술 직후 한쪽 호흡음 소실과 급격한 저혈압을 함께 설명할 때 긴장성 기흉을 먼저 배제해야 한다.\n* '''② 기흉''': 흉막강 공기가 왼쪽 폐를 압박하고 긴장성으로 진행하면 정맥환류 감소로 혈압이 떨어질 수 있다. 급성 변화와 가장 잘 맞는다.\n* '''③ 흉수''': 양이 많으면 호흡음이 줄 수 있지만, 시술 직후 갑작스러운 악화라는 맥락에서는 공기 누출이 더 적절하다. 현재 발문에 대량 액체 축적을 지지하는 소견은 없다.\n* '''④ 패혈증''': 급성췌장염·중환자 상태에서 쇼크가 생길 수는 있어도, 한쪽 호흡음이 갑자기 사라진 국소 소견을 설명하지 못한다.\n* '''⑤ 폐색전증''': 저산소혈증·저혈압을 만들 수 있지만 한쪽 호흡음의 완전한 소실은 전형적인 핵심 단서가 아니다. 시술 직후의 흉막강 합병증을 먼저 생각한다.\n\n> '''시술 뒤 갑작스러운 편측 호흡음 소실 + 저혈압 → 긴장성 기흉을 우선 의심.''' 기흉의 크기나 종격동 이동만이 아니라 환자의 순환 상태까지 읽는다.\n\n[* 임상 보충 근거: [https://thorax.bmj.com/content/78/Suppl_3/s43 BTS pleural procedures statement]와 [https://qualitysafety.bmj.com/content/14/3/e18 시술 중 기흉·긴장성 기흉의 응급 대응].]\n\n관련 Wiki: [[13강#기흉은 흉막선 바깥에 혈관이 없다|기흉은 흉막선 바깥에 혈관이 없다]] · [[13강#무기폐는 하얗게 보이면서 부피가 줄어든다|무기폐는 하얗게 보이면서 부피가 줄어든다]]\n\n[* 근거: 39기 13강 정상편 16·66·69–70쪽의 기흉 영상과 임상 보충. 제시 사진·선지와 강의 내용을 대조한 풀이이며, 별도의 공식 정답표 확인을 뜻하지 않는다.]",
+      "answerLabel": "정답: ②",
+      "explanation": "정답: ②\n\n=== 풀이의 핵심 ===\nARDS로 기도 확보와 양압환기를 받는 환자에게 시술 직후 '''한쪽 호흡음 소실과 혈압 저하'''가 생겼다. 가장 먼저 의심할 합병증은 '''기흉, 특히 긴장성 기흉'''이다. 흉막강 압력이 상승하면 환측 폐가 눌리고 정맥환류가 감소하여 저혈압이 생길 수 있다. 시술 손상과 양압환기 관련 압력손상을 함께 고려한다.\n\n=== 선지별 해설 ===\n* 1번: 튜브 위치 이상이나 분비물 폐쇄도 한쪽 호흡음을 감소시킬 수 있다. 다만 갑작스러운 저혈압까지 동반되면 긴장성 기흉을 우선 배제한다.\n* 2번: 정답이다. 시술·양압환기 이후 급격한 편측 호흡음 소실과 순환 악화가 핵심이다. 불안정한 긴장성 기흉이 의심되면 영상 촬영 때문에 감압을 지연하지 않는다.\n* 3번: 대량 흉수도 호흡음을 감소시키지만 시술 직후 갑작스러운 변화라는 문맥에 덜 맞는다.\n* 4번: 패혈증은 저혈압을 설명하지만 새로 생긴 편측 호흡음 소실을 설명하지 못한다.\n* 5번: 폐색전증은 저산소혈증·저혈압을 만들 수 있으나 한쪽 폐의 호흡음 소실을 직접 설명하는 대표 원인은 아니다.\n\n=== 이 문항을 풀기 위한 개념 ===\n||= 손상 ||= 내용 ||\n|| \"\"Barotrauma\"\" (압력 손상) || 기흉, 종격동기종 ||\n|| \"\"Volutrauma\"\" (용적 손상) || 폐부종, 모세혈관 투과성 변화 ||\n|| \"\"Atelectrauma\"\" || 닫힌 폐포가 매 호흡마다 열렸다 닫히면서 받는 손상 ||\n|| \"\"Biotrauma\"\" || 기계적 손상이 염증 반응을 일으켜 폐와 다른 장기에 영향을 주는 것 ||\n\n[* 보충 슬라이드는 atelectrauma와 biotrauma를 이름만 적었다. 일반적으로 atelectrauma는 폐포가 숨마다 닫혔다 열리기를 반복하면서 생기는 손상을, biotrauma는 그런 기계적 손상이 염증 물질을 내보내 폐와 다른 장기까지 해치는 것을 가리킨다. PEEP가 폐포를 열어 둬서 손상을 막는다는 뒤의 설명과 이어진다.]\n\n=== ARDS 환자의 갑작스러운 악화를 읽는 순서 ===\n* '''기관튜브''': 위치·폐쇄 여부를 확인한다.\n* '''환자''': 양쪽 호흡음과 흉곽 운동, 혈압·산소화를 비교한다.\n* '''환기 회로''': 연결과 설정을 확인한다.\n* '''합병증''': 기흉·긴장성 기흉을 신속히 평가한다.\n\n기관절개는 장기간의 기도 관리에 도움이 되지만 ARDS 자체를 치료하거나 시술·환기 합병증을 없애지는 않는다.\n\n[[6강#기계환기는 매일 평가해서 떼고, 기관절개는 사강과 호흡일을 줄인다|Wiki · 기관절개와 기계환기 이탈]]\n\n[[6강#기계환기는 네 가지 방식으로 폐를 다치게 한다|Wiki · 기계환기는 네 가지 방식으로 폐를 다치게 한다]]",
       "images": [],
       "legacyProfessor": "이경희",
-      "professor": "이경희",
-      "examinerStatus": "inferred_not_confirmed",
-      "examinerEvidence": [
-        "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
-      ],
+      "professor": "김정수",
+      "examinerStatus": "user_confirmed",
+      "examinerEvidence": "사용자 확인: 6강 중환자의학 I 및 김정수 교수로 재분류",
       "lectureIds": [
-        13
+        6
       ],
-      "lectureId": 13,
-      "lectureTitle": "흉부영상 총론",
-      "domain": "",
-      "discipline": "",
-      "section": "",
+      "lectureId": 6,
+      "lectureTitle": "중환자의학I",
+      "domain": "임상의학",
+      "discipline": "중환자의학",
+      "section": "호흡부전·중환자 관리",
       "source": "2021 호흡기계 83번",
-      "mappingConfidence": "",
-      "classificationStatus": "content_classified",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
       "originalNumberStatus": "reconstructed_number",
       "questionFormat": "multiple_choice",
       "sourceStatus": "reconstruction",
@@ -38834,7 +40072,7 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
+        "date": "2026-10-27",
         "basis": "39기 13강 정상·폐렴 두 강의록과 실제 문항·사진 대조; 38기 자료는 강의 이해 보조",
         "chapter": "기흉은 흉막선 바깥에 혈관이 없다",
         "slides": {
@@ -38846,7 +40084,7 @@ window.JBL_DATA = {
           ],
           "label": "정상편 16·66·69–70쪽의 기흉 영상과 임상 보충"
         },
-        "answerStatus": "lecture_and_image_based",
+        "answerStatus": "lecture6_reclassified_pneumothorax",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "originalQuestionAndImagesPreserved": true
@@ -38872,12 +40110,12 @@ window.JBL_DATA = {
         "좌하 흉벽",
         "좌하늑막상"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "answerIndices": [
-        3
+        1
       ],
-      "answerLabel": "3번",
-      "explanation": "'''정답: ③ 좌상엽의 설상분절'''\n\n=== 영상과 발문에서 확인할 것 ===\n왼쪽 중하폐야에 하얀 음영이 있고 '''왼쪽 심장 경계가 흐려져 있다'''. 병변이 심장과 실제로 맞닿아 있다는 뜻이므로 '''좌상엽의 설상부(lingula)'''로 위치를 좁힌다. 정면사진에서 아래쪽에 보인다는 이유만으로 좌하엽을 고르면 안 된다.\n\n이 문제는 병원체가 아니라 '''병변의 위치'''를 묻는다. 보이는 폐경화를 특정 세균성 폐렴으로 더 좁힐 필요는 없다.\n\n=== 이 문제를 풀기 위해 알아야 할 것 ===\nSilhouette sign은 서로 다른 밀도의 경계가 없어지는 현상이다. 공기가 든 폐가 하얗게 변하고 심장·횡격막에 '''직접 접하면''' 둘 사이 경계가 지워진다. 앞뒤로 떨어진 구조가 정면에서 단순히 겹치는 것만으로는 같은 효과가 나지 않는다.\n\n||= 소실되는 정상 경계 ||= 인접한 폐 부위 ||= 판독의 연결 ||\n|| '''오른쪽 심장 경계''' || 우중엽 || 우심방 옆의 앞쪽 폐 ||\n|| '''왼쪽 심장 경계''' || '''좌상엽 설상부''' || 좌심실 옆의 앞쪽 폐 ||\n|| 오른쪽 횡격막 || 우하엽 || 아래쪽 폐 ||\n|| 왼쪽 횡격막 || 좌하엽 || 심장 뒤·아래쪽 폐 ||\n|| Aortic knob || 인접 좌상엽 || 왼쪽 상종격동 부근 ||\n|| 하행대동맥 || 인접 좌하엽 || 후방의 종격동 경계 ||\n\n정면에서 RML과 lingula는 아래쪽 폐야에 보일 수 있지만 해부학적으로 앞쪽에 있다. Lateral view에서 '''앞쪽의 중엽·설상부와 뒤쪽의 하엽'''을 나누면 정면사진의 겹침을 풀 수 있다.\n\n=== 선지별 해설 ===\n* '''① 좌하엽''': 좌하엽은 심장 뒤·아래쪽에 있다. 좌하엽 병변이라면 왼쪽 횡격막이나 하행대동맥 경계의 소실, 측면사진의 후방 음영을 더 주목한다. 왼쪽 아래 폐야가 하얗다는 이유만으로 하엽을 고르지 않는다.\n* '''② 좌상엽의 첨후분절''': 좌상엽의 첨후분절은 위쪽·뒤쪽에 놓인다. 심장 옆 아래쪽에 접하는 설상부와 같은 좌상엽에 속해도 위치가 다르다.\n* '''③ 좌상엽의 설상분절''': 왼쪽 심장 경계를 지우는 앞쪽의 폐경화이므로 좌상엽 설상부가 가장 잘 맞는다. Lingula는 왼쪽의 독립된 중엽이 아니라 좌상엽의 일부다.\n* '''④ 좌하 흉벽''': 흉벽 병변은 폐 바깥에서 안쪽으로 돌출하는 모양과 늑골·연부조직 변화를 살핀다. 심장에 인접한 폐경화의 위치를 설명하는 답이 아니다.\n* '''⑤ 좌하늑막상''': ‘좌하늑막상’은 표준 해부학적 표현이 불명확한 복원 선지다. 좌측 하부 흉막 부위를 뜻한다고 읽어도, 심장 경계를 지우는 설상부 폐경화가 더 적절하다.\n\n> '''왼쪽 심장 경계 소실 → 설상부, 왼쪽 횡격막 경계 소실 → 좌하엽.''' 병변이 화면의 위·아래 어디에 보이는지보다 어떤 정상 구조와 맞닿았는지가 중요하다.\n\n관련 Wiki: [[13강#실루엣 징후로 폐엽을 찾는다|실루엣 징후로 폐엽을 찾는다]] · [[13강#측면사진으로 앞뒤 위치를 구분한다|측면사진으로 앞뒤 위치를 구분한다]]\n\n[* 근거: 39기 13강 정상편 11–12·35·37쪽, 폐렴편 5–10쪽의 silhouette sign. 제시 사진·선지와 강의 내용을 대조한 풀이이며, 별도의 공식 정답표 확인을 뜻하지 않는다.]",
+      "answerLabel": "1번",
+      "explanation": "'''정답: ① 좌하엽'''\n\n=== 영상에서 확인할 것 ===\n좌하폐야에 폐경화가 있지만 '''왼쪽 심장 경계는 남아 있다'''. 심장과 겹쳐 보이는 음영이 곧 설상부 병변이라는 뜻은 아니다. 이 사진은 13강 폐렴편 9쪽의 '''좌하엽 폐경화''' 사진과 일치하며, 같은 증례의 측면사진인 10쪽에서는 '''심장 뒤·아래쪽의 폐경화'''가 확인된다.\n\n[[파일:assets/lecture-13/pneumonia-009.jpg|좌하엽 폐경화 · 왼쪽 심장 경계가 남아 있다]]\n[[파일:assets/lecture-13/pneumonia-010.jpg|같은 증례의 강의록 측면사진 · 뒤쪽 아래의 폐경화]]\n\n측면사진은 원문 문항에 추가된 조건이 아니라, 해설에서 병변의 위치를 확인하기 위해 함께 제시한 강의록 자료다. 정면사진에서는 횡격막 전체가 사라졌다고 단정하기보다 '''남아 있는 심장 경계와 그 뒤로 겹치는 음영'''을 먼저 읽는다.\n\n=== 실루엣 징후와 앞뒤 위치를 함께 읽는다 ===\nSilhouette sign은 비슷한 X선 밀도의 병변이 정상 구조에 '''직접 맞닿을 때''' 그 사이 경계가 사라지는 현상이다. 앞뒤로 떨어져 있는 구조가 정면사진에서 겹치는 것만으로는 경계가 지워지지 않는다.\n\n||= 소실되는 정상 경계 ||= 인접한 폐 부위 ||\n|| 오른쪽 심장 경계 || 우중엽 ||\n|| 왼쪽 심장 경계 || 좌상엽의 설상부(lingula) ||\n|| 오른쪽 횡격막 || 우하엽 ||\n|| 왼쪽 횡격막 || 좌하엽 ||\n|| 하행대동맥 || 인접 좌하엽 ||\n\n'''설상부는 앞쪽, 좌하엽은 뒤쪽'''에 있다. 두 병변 모두 정면사진의 왼쪽 아래 폐야에 보일 수 있으므로, 화면에서 아래쪽에 있다는 사실만으로 폐엽을 정하지 않는다. 또한 좌하엽의 모든 병변이 횡격막 전체를 지우는 것은 아니다. 경계 소실은 병변이 해당 구조와 닿는 범위에 따라 달라진다.\n\n=== 선지별 해설 ===\n* '''① 좌하엽''': 정답. 표시된 음영은 좌하엽 폐경화다. 왼쪽 심장 경계가 남아 있으며, 강의록의 같은 증례 측면사진에서 뒤쪽 아래에 위치한다.\n* '''② 좌상엽의 첨후분절''': 좌상엽의 위쪽·뒤쪽 분절이다. 제시된 하부 폐경화의 위치와 맞지 않는다.\n* '''③ 좌상엽의 설상분절''': 앞쪽에서 왼쪽 심장에 접하는 부위다. 이 사진을 왼쪽 심장 경계가 소실된 설상부 폐경화로 읽었던 기존 해설은 잘못된 판독이다.\n* '''④ 좌하 흉벽''': 병변의 중심은 흉벽이 아니라 폐실질이다. 흉벽 종괴나 늑골 병변을 보여 주는 사진이 아니다.\n* '''⑤ 좌하늑막상''': 원문의 표현은 해부학적으로 불명확하다. 좌측 하부 흉막을 뜻한다고 읽더라도, 제시 증례는 흉막 병변보다 강의록에서 확인되는 좌하엽 폐경화에 해당한다.\n\n> '''이 사진은 왼쪽 심장 경계가 보존된 좌하엽 폐경화다.''' 설상부 사진인 {{159}}·{{640}}과 구분해서 확인한다. 같은 좌하엽 사진을 다루는 문항: {{255}}\n\n관련 Wiki: [[13강#좌하엽 폐렴은 심장 뒤와 횡격막을 본다|좌하엽 폐경화]] · [[13강#실루엣 징후로 폐엽을 찾는다|실루엣 징후]]\n\n[* 판독 정정: 기존 해설은 왼쪽 심장 경계가 소실되었다고 잘못 읽어 설상부를 선택했다. 13강 폐렴편 9·10쪽의 같은 증례 정면·측면사진을 대조하여 좌하엽으로 바로잡았다. 문항의 발문·선지·사진은 유지했으며, 별도의 공식 정답표를 확인했다는 뜻은 아니다.]",
       "images": [
         "J/2021/q084_01.jpg"
       ],
@@ -38913,25 +40151,17 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-14",
-        "basis": "39기 13강 정상·폐렴 두 강의록과 실제 문항·사진 대조; 38기 자료는 강의 이해 보조",
-        "chapter": "실루엣 징후로 폐엽을 찾는다",
+        "date": "2026-10-27",
+        "basis": "제시 사진과 13강 폐렴편 9·10쪽의 동일 증례 정면·측면사진 직접 대조",
+        "chapter": "좌하엽 폐렴은 심장 뒤와 횡격막을 본다",
         "slides": {
-          "normal": [
-            11,
-            12,
-            35,
-            37
-          ],
           "pneumonia": [
             5,
             6,
-            7,
-            8,
             9,
             10
           ],
-          "label": "정상편 11–12·35·37쪽, 폐렴편 5–10쪽의 silhouette sign"
+          "label": "폐렴편 9·10쪽 좌하엽 폐경화"
         },
         "answerStatus": "lecture_and_image_based",
         "officialAnswerVerified": false,
@@ -39487,12 +40717,11 @@ window.JBL_DATA = {
       ],
       "answerIndex": null,
       "answerIndices": [
-        1,
         2,
         3
       ],
-      "answerLabel": "정답: ①·②·③ (복수정답)",
-      "explanation": "정답: ①·②·③ (복수정답)\n\n=== 풀이의 핵심 ===\n현재 복원 문구에서는 '''1·2·3번'''을 인정한다. 2번은 고확률의 동등 조합이고, 3번은 정상의 정의다. 1번의 “60% 이상” 역시 실제 정의인 “80% 초과”를 포함하므로 문자 그대로는 거짓이라고 할 수 없다. 다만 '''고확률의 기준은 60%가 아니라 >80%'''임을 분명히 구분해야 한다.\n\n단일 정답형 출제를 의도했다면 확률 선지의 표현이나 선택 지시가 제대로 복원되지 않았을 가능성이 있다. 정답을 하나로 만들기 위해 현재 발문이나 선지를 임의로 바꾸지는 않았다.\n\n=== 선지별 해설 ===\n* 1번: 문자 그대로는 맞다. 80% 초과이면 60% 이상에도 속한다. 하지만 고확률의 정의를 답할 때는 '''>80%'''라고 해야 하며, 경계값이 60%라는 뜻은 아니다.\n* 2번: 맞다. 중등도 분절상 결손 4개는 큰 결손 2개와 동등하다. 환기결손이 없고, 흉부 X선으로 결손을 설명할 병변이 없거나 Q 결손이 훨씬 더 큰 상황에서 고확률이다.\n* 3번: 맞다. 관류결손이 없으면 Normal이다.\n* 4번: 일괄적으로 중간확률이라고 분류할 수 없다. 두 영상이 일치하는 matched defect이며 '''정상 흉부 X선이 함께 주어지면 저확률'''에 속한다.\n* 5번: 틀리다. X선 병변보다 관류결손이 작다는 것은 고확률의 방향과 반대다. X선 병변이 상당히 더 크면 저확률이다.\n\n=== 이 문항을 풀기 위한 개념 ===\nV/Q 판독은 '''Q 결손을 찾고 → 분절상인지 확인하고 → 같은 방향의 V와 비교하고 → 흉부 X선으로 설명되는지 판단'''하는 순서로 생각한다. PE의 전형은 '''여러 쐐기 모양 관류결손 + 보존된 환기 + 대개 정상 흉부 X선'''이다.\n\n||= 결손의 크기 ||= 한 폐분절을 기준으로 한 범위 ||\n|| Large || '''>75%''' ||\n|| Moderate || '''25–75%''' ||\n|| Small || '''<25%''' ||\n\n||= Modified PIOPED 범주 ||= 강의의 기준 ||\n|| '''High >80%''' || '''큰 불일치 분절상 결손 ≥2개''' 또는 동등한 조합. 흉부 X선이 정상이거나 Q 결손이 X선 이상보다 '''상당히 더 큼''' ||\n|| '''Intermediate 20–80%''' || 정상 X선에서 중등도 불일치 분절상 결손 1개, 또는 큰 것 1개+중등도 1개. 고·저확률로 분류하기 어렵거나 해당 기준을 충족하지 않는 경우도 포함 ||\n|| '''Low <20%''' || 비분절상 Q 결손 / Q 결손보다 훨씬 큰 X선 병변 / 정상 X선에서 matched V/Q defect / 작은 subsegmental Q 결손 ||\n|| '''Normal''' || '''관류결손이 전혀 없음''' ||\n\n고확률의 동등 조합은 '''large 2개 = large 1개+moderate 2개 = moderate 4개'''다. 중등도 두 개를 큰 결손 한 개로 계산한다. 단, 결손이 '''분절상이고 환기에 비해 관류가 빠진 mismatch'''여야 한다. 비분절상 결손의 개수만 늘려서는 같은 기준이 되지 않는다.\n\n저확률의 비분절상 결손에는 늑횡격막각을 무디게 하는 소량 흉수, 심비대, 횡격막 상승, 대동맥·폐문·종격동 확대 등이 해당한다. Matched defect는 '''V와 Q가 함께 감소'''하는 것이며, COPD·bullae·폐부종·흉수·천식·mucus plug 등으로 생길 수 있다. 반대로 mismatch도 급성 PE 외에 과거 PE, 종양, 혈관염, 방사선치료 후 변화, 폐혈관 기형에서 보일 수 있다.\n\n> '''X선 병변보다 Q 결손이 크면''' 설명되지 않는 관류 감소가 남아 고확률 쪽을 생각하고, '''Q 결손보다 X선 병변이 훨씬 크면''' 다른 병변으로 설명하기 쉬워 저확률 쪽을 생각한다. 저확률과 정상은 다르며 임상적 사전확률도 함께 고려한다. 이 표는 강의의 modified PIOPED 평면영상 기준으로, modified PIOPED II나 SPECT 기준으로 바꿔 외우지 않는다.\n\n[[25강#저확률과 정상은 같은 말이 아니다|저확률과 정상은 같은 말이 아니다]]\n\n~~근거: 39기 「25. 핵의학」 17–24·30–31쪽; 38기 자료의 대응 원리 비교.~~~",
+      "answerLabel": "정답: ②·③",
+      "explanation": "정답: ②·③\n\n=== 풀이의 핵심 ===\n'''2번과 3번은 모두 강의 기준에 맞는다.''' 중등도 불일치 분절상 결손 4개는 큰 결손 2개에 해당하고, 관류결손이 전혀 없으면 정상이다. 이 두 선지는 수치 해석을 바로잡아도 동시에 남으므로 복수정답을 유지한다.\n\n1번의 60%는 강의가 정의한 고확률 경계가 아니다. 이전처럼 ‘80%를 넘으면 60% 이상이기도 하다’는 이유로 정답을 추가하지 않는다. 원문이 단일정답을 의도했다면 2·3번을 함께 제시한 데 복원 또는 출제상의 문제가 남는다.\n\n=== 선지별 해설 ===\n* 1번: 고확률의 기준은 >80%다. 60%를 고확률의 판정 경계로 제시한 선지는 정답에 포함하지 않는다.\n* 2번: 맞다. 중등도 분절상 mismatch 4개는 큰 mismatch 2개와 동등하다. 실제 판독에는 정상 X선 또는 관류결손보다 훨씬 작은 X선 이상이라는 조건도 함께 본다.\n* 3번: 맞다. 관류결손이 전혀 없으면 정상이다.\n* 4번: V/Q matched defect를 일괄적으로 중간확률이라고 하지 않는다. 정상 X선이 함께 있으면 강의의 저확률 조건이다.\n* 5번: X선 병변보다 관류결손이 작은 경우를 고확률로 분류하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\"\"High probability의 강의 기준은 80% 초과\"\"다. 모양이 분절상이고, 환기와 일치하지 않는 관류결손이 충분히 넓어야 한다. 기본 기준은 '''큰 불일치 분절상 결손 두 개 이상'''이며, 흉부 X선에 이를 설명할 이상이 없거나 '''관류결손이 X선 이상보다 상당히 더 커야''' 한다.\n\n큰 결손의 수만 세는 것은 아니다. '''중등도 결손 두 개를 큰 결손 한 개와 동등하게''' 계산하므로, 다음 조합은 같은 양에 해당한다.\n\n||= 큰 불일치 결손 ||= 중등도 불일치 결손 ||= 판독에 필요한 전제 ||\n|| 2개 이상 || 0개여도 가능 || 분절상 결손이며 V가 보존됨. 정상 X선 또는 Q 결손이 X선 이상보다 훨씬 큼 ||\n|| 1개 || 2개 이상 || 동일 ||\n|| 0개 || 4개 이상 || 동일 ||\n\n> '''Large 2 = large 1 + moderate 2 = moderate 4.''' 그러나 비분절상 결손을 네 개 모은다고 고확률이 되는 것은 아니다. '''크기·개수·분절성·불일치·X선 조건'''이 함께 맞아야 한다.\n\n[[25강#저확률과 정상은 같은 말이 아니다|Wiki · 저확률과 정상]]\n\n~~근거: 39기 핵의학 슬라이드 30–31. 2·3번은 실제로 모두 성립하므로 단일정답으로 억지로 줄이지 않았다.~~~\n\n[[25강#고확률은 큰 불일치 분절상 결손 두 개에 해당한다|Wiki · 고확률은 큰 불일치 분절상 결손 두 개에 해당한다]]",
       "images": [],
       "legacyProfessor": "이민경",
       "professor": "유민영",
@@ -39519,9 +40748,9 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "scope": "lecture25_wiki_j_jbl",
-        "answerStatus": "multiple_answers_literal_probability_inequality",
+        "answerStatus": "lecture_threshold_reaudit_multiple2_3",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
@@ -39534,7 +40763,12 @@ window.JBL_DATA = {
           }
         ],
         "basis": "39기 「25. 핵의학」 17–24·30–31쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "저확률과 정상은 같은 말이 아니다"
+        "chapter": "저확률과 정상은 같은 말이 아니다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -40798,10 +42032,12 @@ window.JBL_DATA = {
         "폐 환기 스캔은 방사성 기체를 사용할 때 가장 physiologic하다.",
         "폐 관류 스캔에서 주사된 방사성 동위원소는 pre-capillary arteriole을 막는다."
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 보류",
-      "explanation": "정답 확정 보류\n\n=== 풀이의 핵심 ===\n'''현재 문장 그대로는 명확하게 틀린 선지를 고르기 어렵다.''' 1번이 차단 비율을 묻는 함정으로 보이지만, “10%”가 아니라 '''“10% 이하”'''라고 되어 있다. 실제 강의 수치인 0.1%도 10% 이하에 포함되므로 1번을 거짓이라고 단정할 수 없다. 원문과 기존의 정답 확정 보류 상태를 유지한다.\n\n=== 선지별 해설 ===\n* 1번: 정확히 외울 수치는 0.1%다. 다만 현재의 “10% 이하”라는 상한 표현은 0.1%를 포함하므로 문자 그대로는 참이다. “10%에서 일어난다”를 의도했을 가능성은 있지만, 확인 없이 선지를 바꾸어 채점하지 않는다.\n* 2번: 맞다. 관류 추적자 Tc-99m MAA를 정맥주사한다.\n* 3번: 맞다. 분절상 결손은 폐동맥 분지가 담당하는 정상 기관지폐분절의 해부학적 영역을 따른다. “정상 분절분포와 일치”는 환기영상과 일치하는 matched defect라는 뜻이 아니다.\n* 4번: 맞다. Xe·Kr 같은 방사성 기체가 가장 생리적인 환기 추적자다.\n* 5번: 맞다. MAA가 precapillary arteriole에 포획되는 capillary blockade를 이용한다.\n\n=== 이 문항을 풀기 위한 개념 ===\n환기와 관류는 추적자를 넣는 길부터 다르다. '''V는 기체나 aerosol을 흡입하여 공기의 분포를 보고, Q는 MAA를 정맥주사하여 혈류의 분포를 본다.''' MAA가 폐 미세혈관에 일시적으로 걸리므로 피가 많이 가는 곳에 많이 모이고, 폐동맥이 막힌 곳에는 도착하지 못한다.\n\n||= 관류스캔 항목 ||= 내용 ||\n|| 추적자·투여 경로 || '''Tc-99m MAA(macroaggregated albumin), IV''' ||\n|| 입자 크기 || '''10–30 μm''' — 강의 수치 ||\n|| 원리·위치 || Capillary blockade; '''precapillary arteriole'''에 포획 ||\n|| 분포의 의미 || '''Regional blood flow에 비례'''; 환기량이 아님 ||\n|| 입자 수 || 최소 '''100,000개''', 적정 '''200,000–600,000개''' ||\n|| 막히는 모세혈관 비율 || '''약 1/1,000 = 0.1%''' ||\n|| 제거 || 폐에서 생물학적 반감기 '''2–4시간''', 이후 RE system에서 처리 ||\n|| PE에서의 결손 || 폐동맥 분지에 해당하는 '''기관지폐분절의 분포'''를 따름 ||\n\n||= 환기 추적자 ||= 특징 ||\n|| '''Xe-133, Xe-127, Kr-81m''' || Inert gas; '''가장 생리적(most physiologic)''' ||\n|| '''Tc-99m DTPA·phytate aerosol''' || 약 '''0.5 μm'''; 중심기도에 침착할 수 있음 ||\n|| '''Technegas''' || Tc-99m 초미세 aerosol, '''0.02–0.2 μm'''; 더 깊이 도달하여 환기 SPECT에 유리 ||\n\n> '''작은 입자일수록 깊게 들어간다'''는 설명은 흡입하는 환기 추적자의 이야기다. 관류 MAA의 10–30 μm, 일반 환기 aerosol의 0.5 μm, Technegas의 0.02–0.2 μm를 구분하자. 0.1%는 입자 크기가 아니라 차단되는 모세혈관 비율이며, 2–4시간은 완전 제거 시각이 아닌 생물학적 반감기다.\n\n[[25강#★ 환기스캔은 작은 입자일수록 더 깊이 들어간다|★ 환기스캔은 작은 입자일수록 더 깊이 들어간다]]\n\n~~근거: 39기 「25. 핵의학」 8·11·17–19쪽; 38기 자료의 대응 원리 비교.~~~",
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "추정 정답: ① — 차단 비율을 묻는 출제 의도",
+      "explanation": "추정 정답: ① — 차단 비율을 묻는 출제 의도\n\n=== 풀이의 핵심 ===\n강의의 수치를 묻는 출제 의도로 읽으면 '''1번이 가장 유력하다.''' MAA가 일시적으로 차단하는 비율은 '''약 1/1,000, 즉 0.1%'''다. 10%라는 수치는 그 비율을 설명하는 값으로 부적절하다.\n\n다만 원문은 ‘10%’가 아니라 '''‘10% 이하’'''이므로 표현의 모호함은 남는다. 엄밀한 부등식으로만 읽으면 0.1%도 포함된다. 따라서 이를 공식 정답이 확인된 문항으로 표시하지 않고, '''출제 의도를 고려한 추정 정답 1번'''으로 채점한다. 선지는 임의로 바꾸지 않았다.\n\n=== 선지별 해설 ===\n* 1번: 강의에서 암기할 값은 약 0.1%다. 실제 비율을 정확히 비교하라는 의도로 1번을 고르되, ‘이하’라는 표현 때문에 문장 자체의 엄밀성이 떨어짐을 구분한다.\n* 2번: 맞다. Tc-99m MAA를 정맥주사한다.\n* 3번: 맞다. 폐동맥 분지의 영역이므로 기관지폐분절의 분포에 맞는 결손이 생긴다.\n* 4번: 맞다. 방사성 불활성 기체를 이용한 환기영상이 가장 생리적이다.\n* 5번: 맞다. MAA는 precapillary arteriole에 포획되어 혈류 분포를 나타낸다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\"\"Tc-99m MAA를 정맥으로 주사하면, 입자는 우심장을 거쳐 폐의 precapillary arteriole에 일시적으로 걸린다.\"\" MAA는 macroaggregated albumin이며, 강의에서 제시한 입자 크기는 '''10–30 μm'''다. 폐의 미세혈관을 자유롭게 통과하기에는 크기 때문에 소량의 입자가 혈관을 막는 '''capillary blockade'''를 이용한다.\n\n혈류가 많은 영역으로는 입자도 많이 운반되고, 혈류가 끊긴 영역에는 입자가 도착하지 않는다. 그래서 영상의 추적자 분포는 '''regional blood flow에 비례'''한다. 폐색전증에서 관류결손이 보이는 것은 환기량이 줄어서가 아니라, 막힌 폐동맥의 말단으로 입자가 들어가지 못해서다.\n\n||= 항목 ||= 반드시 구분할 내용 ||\n|| 추적자·경로 || Tc-99m MAA, 정맥주사(IV) ||\n|| 입자 크기 || '''10–30 μm''' — 이 강의의 수치 ||\n|| 포획 위치·원리 || '''Precapillary arteriole에 걸리는 capillary blockade''' ||\n|| 분포가 반영하는 것 || '''국소 폐혈류'''; ventilation percentage가 아님 ||\n|| 최소 입자 수 || '''100,000개''' ||\n|| 적정 입자 수 || '''200,000–600,000개''' ||\n|| 일시적으로 막히는 모세혈관 비율 || '''약 1/1,000 = 0.1%''' ||\n|| 폐에서의 생물학적 반감기 || '''2–4시간'''; 이후 망상내피계(RE system, RES)에서 처리 ||\n|| 폐색전증의 결손 분포 || '''기관지폐분절의 분포를 따름''' ||\n\n> 숫자는 서로 다른 대상을 가리킨다. 10–30은 입자의 크기이고, 10만·20–60만은 입자의 개수이며, 0.1%는 막히는 모세혈관의 비율이다. 2–4시간은 폐에서의 '''생물학적 반감기'''이지 모든 입자가 완전히 사라지는 시각도, Tc-99m 자체의 물리적 반감기도 아니다.\n\n대부분의 혈관은 그대로 열려 있으므로 이 검사를 “폐 모세혈관 전체를 막아 촬영하는 검사”로 이해하면 안 된다. 다만 폐혈관 예비력이 크게 줄어 있거나 우좌단락이 있는 상황에서는 투여 입자 수 등을 별도로 고려한다.\n\n\n\n~~별표 슬라이드 8쪽의 추적자, 크기, 기전, 입자 수, 차단 비율, 반감기, 제거 경로, 분절 분포를 함께 정리했다.~~~\n\n~~근거: 39기 핵의학 슬라이드 8. 강의 기준의 추정 답이며 공식 정답표 확인은 아니다.~~~\n\n[[25강#★ 관류스캔은 MAA가 걸린 위치로 혈류를 그린다|Wiki · ★ 관류스캔은 MAA가 걸린 위치로 혈류를 그린다]]",
       "images": [],
       "legacyProfessor": "이민경",
       "professor": "유민영",
@@ -40828,9 +42064,9 @@ window.JBL_DATA = {
       "imageProvenance": [],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "scope": "lecture25_wiki_j_jbl",
-        "answerStatus": "unresolved_all_choices_literal_true",
+        "answerStatus": "likely_intended_answer1_wording_caution",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
         "summaryUsed": false,
@@ -40846,7 +42082,12 @@ window.JBL_DATA = {
           1
         ],
         "basis": "39기 「25. 핵의학」 8·11·17–19쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "★ 환기스캔은 작은 입자일수록 더 깊이 들어간다"
+        "chapter": "★ 환기스캔은 작은 입자일수록 더 깊이 들어간다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -45856,14 +47097,14 @@ window.JBL_DATA = {
         "Distributive (neurogenic) shock",
         "Cardiogenic shock",
         "Hypovolemic shock",
-        "Extra-cardiac obstructive shock 그림1. 경흉부 심장초음파 영상 (parasternal short axis view) 그림2. 흉부전산화촬영"
+        "Extra-cardiac obstructive shock"
       ],
       "answerIndex": 5,
       "answerIndices": [
         5
       ],
       "answerLabel": "5번 — Extra-cardiac obstructive shock",
-      "explanation": "'''정답: ⑤ Extra-cardiac obstructive shock'''\n\n=== 우심실 부전의 원인을 추적한다 ===\n장거리 비행 직후에서 갑작스러운 호흡곤란과 저산소혈증이 발생했다. 혈압 60/40 mmHg, lactate 5 mmol/L는 심한 저관류를 보여 주고, '''우심실 확장·심각한 수축 기능 부전, D-shape LV, 폐동맥압 상승'''은 급성 우심실 부하를 가리킨다. 정맥혈전 위험과 이 소견을 연결하면 폐색전증에 의한 '''폐쇄성 쇼크'''가 가장 적절하다.\n\n폐동맥이 막히면 우심실의 후부하가 증가한다. 우심실이 폐로 보내는 혈액이 줄어드는 데다, 팽창한 우심실이 심실중격을 밀어 좌심실 충만까지 방해한다. 그러면 좌심실에 들어오는 양과 전신 심박출량이 줄어 저혈압이 생긴다.\n\n> '''폐동맥 폐쇄 → 우심실 후부하↑·우심실 확장 → 좌심실 전부하↓ → CO↓·조직 저관류'''. 우심실이 나빠졌다는 결과보다 왜 나빠졌는지를 따라가면 cardiogenic과 obstructive를 구분할 수 있다.\n\n=== LVEF 65%와 BNP 상승을 어떻게 읽는가 ===\nEF는 좌심실에 들어온 혈액 중 내보낸 비율이다. 예를 들어 들어온 혈액량 자체가 감소하면 비율이 65%로 유지되어도 일회박출량은 작을 수 있다. 따라서 '''정상 LVEF = 정상 CO'''가 아니다. NT-proBNP 2100 역시 우심실 벽 긴장 때문에 상승할 수 있어, 곧바로 좌심실성 심인성 쇼크를 뜻하지 않는다.\n\n||= 단서 ||= 의미 ||= 단독으로 결론 내릴 수 없는 것 ||\n|| 침상안정·장거리 비행 || 정맥혈전 위험 증가 || 이 병력만으로 폐색전증 확진 ||\n|| D-shape LV || 우심실 부하로 중격이 편평해짐 || 폐색전증에만 특이적인 소견이라는 판단 ||\n|| 우심실 확장·부전 || 증가한 후부하를 감당하지 못함 || 심근 자체에서 시작한 cardiogenic shock라는 판단 ||\n|| LVEF 65% || 좌심실 수축 비율은 보존 || 전신 CO·관류가 정상이라는 판단 ||\n|| D-dimer·NT-proBNP 증가 || 혈전·심실 부하를 지지하는 검사 || 단독 확진이나 원인 확정 ||\n|| 저혈압·lactate 증가 || 장기 저관류와 중증도 || 특정 쇼크 종류의 확정 ||\n\n=== 선지별 해설 ===\n* '''① 패혈증성 분포성 쇼크''': 혈관 확장에 의한 SVR 감소가 중심이다. 이 문제는 감염원·고열보다 혈전 위험, 갑작스러운 저산소혈증과 심한 우심실 압력 과부하가 두드러진다.\n* '''② 신경성 분포성 쇼크''': 교감신경 긴장 소실로 혈관이 확장되는 분포성 쇼크다. 이 증례에는 그 원인이 되는 손상·경과가 제시되지 않고, 폐혈관 폐쇄와 우심실 압력 과부하의 근거가 더 뚜렷하다.\n* '''③ 심인성 쇼크''': 심근경색·심근병증·부정맥 등 심장 자체의 일차적 펌프 이상에서 시작한다. 폐색전증도 우심실을 실패하게 만들지만, 여기서는 폐혈관 폐쇄가 원인이므로 obstructive로 분류한다.\n* '''④ 저혈량성 쇼크''': 혈액·체액 손실이면 정맥 환류와 충만압이 함께 감소하는 방향이다. 그것만으로 심한 우심실 압력 과부하·확장과 D-shape를 설명하기 어렵다.\n* '''⑤ 심장 외 폐쇄성 쇼크''': 폐동맥 폐쇄 때문에 우심실 후부하가 증가하고 좌심실 충만·CO가 감소하는 과정과 일치한다.\n\n=== 같은 분류표에서 다른 원인을 묻는다면 ===\n||= 쇼크 ||= MAP ||= CO ||= SVR ||= PCWP ||= CVP ||= MPAP ||= DO₂ ||= 대표적인 보조 ||\n|| '''Distributive''' || ↓ || '''↑''' || '''↓''' || ↓ || ↓ || ↓ || ↑ || Vasopressor ||\n|| '''Cardiogenic''' || ↓ || '''↓''' || ↑ || '''↑''' || ↑ || ↑ || ↓ || Inotrope ||\n|| '''Hypovolemic''' || ↓ || '''↓''' || ↑ || '''↓''' || '''↓''' || ↓ || ↓ || Volume replacement ||\n|| '''Extra-cardiac obstructive''' || ↓ || '''↓''' || ↑ 또는 ↔ || ↑ 또는 ↔ || '''↑''' || ↑ || ↓ || Vasopressor ± inotrope, 폐쇄 원인 교정 ||\n\n이는 '''9쪽의 요약표'''다. 폐쇄성 행의 PCWP·MPAP는 원인별 예외가 있어 별도로 이해해야 한다. 폐색전증은 좌심실로 넘어오는 양을 줄이는 반면 심장압전은 심장 바깥의 압박으로 충만을 방해한다. 같은 obstructive 안에서도 충만압 양상을 하나로 고정하지 않는다.\n\n치료는 관류 보조와 폐쇄 원인 교정을 함께 한다. 40쪽은 수액을 통한 전부하 조정, norepinephrine ± dobutamine, 고위험 폐색전증의 재관류 치료를 제시한다. 우심실이 이미 팽창한 환자에게 무조건 많은 수액을 주는 것은 오히려 좌심실 충만을 악화시킬 수 있다. 이 원리까지 이해하면 분류뿐 아니라 혈역학 변화와 치료 방향을 바꾸어 묻는 문제에도 대응할 수 있다.\n\n[[12강#폐색전증과 D-shape 좌심실|Wiki · 폐색전증과 D-shape 좌심실]] · [[12강#네 종류의 쇼크는 어느 항목이 먼저 무너지는지가 다르다|Wiki · 네 종류의 쇼크는 어느 항목이 먼저 무너지는지가 다르다]]\n~~근거: 12강 8–9쪽의 폐쇄성 쇼크, 34–41쪽의 폐색전증·우심실 부전 증례.~~~",
+      "explanation": "'''정답: ⑤ Extra-cardiac obstructive shock'''\n\n=== 그림 1·2 판독 ===\n* '''그림 1 — 경흉부 심장초음파, parasternal short-axis view''': 우심실이 확장되고 심실중격이 편평해져 좌심실이 D자 모양으로 보인다. 우심실의 압력 과부하를 보여 주는 소견이다.\n* '''그림 2 — 흉부전산화촬영''': 조영된 폐동맥 안의 저음영 충만결손은 폐동맥 혈전을 시사한다. 장거리 비행 뒤 발생한 흉통·호흡곤란과 함께 폐색전증으로 해석한다.\n\n> '''폐동맥이 막혀 우심실 후부하가 증가한 결과로 우심실 부전이 발생했다.''' 쇼크의 분류는 이 원인에 따라 '''폐쇄성 쇼크'''로 한다.\n\n=== 우심실 부전의 원인을 추적한다 ===\n장거리 비행 직후 갑작스러운 호흡곤란과 저산소혈증이 발생했다. 혈압 60/40 mmHg, lactate 5 mmol/L는 심한 저관류를 보여 주고, '''우심실 확장·심각한 수축 기능 부전, D-shape LV, 폐동맥압 상승'''은 급성 우심실 부하를 가리킨다. 정맥혈전 위험과 이 소견을 연결하면 폐색전증에 의한 '''폐쇄성 쇼크'''가 가장 적절하다.\n\n폐동맥이 막히면 우심실의 후부하가 증가한다. 우심실이 폐로 보내는 혈액이 줄어드는 데다, 팽창한 우심실이 심실중격을 밀어 좌심실 충만까지 방해한다. 그러면 좌심실에 들어오는 양과 전신 심박출량이 줄어 저혈압이 생긴다.\n\n> '''폐동맥 폐쇄 → 우심실 후부하↑·우심실 확장 → 좌심실 전부하↓ → CO↓·조직 저관류'''. 우심실이 나빠졌다는 결과보다 왜 나빠졌는지를 따라가면 cardiogenic과 obstructive를 구분할 수 있다.\n\n=== LVEF 65%와 BNP 상승을 어떻게 읽는가 ===\nEF는 좌심실에 들어온 혈액 중 내보낸 비율이다. 예를 들어 들어온 혈액량 자체가 감소하면 비율이 65%로 유지되어도 일회박출량은 작을 수 있다. 따라서 '''정상 LVEF = 정상 CO'''가 아니다. NT-proBNP 2100 역시 우심실 벽 긴장 때문에 상승할 수 있어, 곧바로 좌심실성 심인성 쇼크를 뜻하지 않는다.\n\n||= 단서 ||= 의미 ||= 단독으로 결론 내릴 수 없는 것 ||\n|| 침상안정·장거리 비행 || 정맥혈전 위험 증가 || 이 병력만으로 폐색전증 확진 ||\n|| D-shape LV || 우심실 부하로 중격이 편평해짐 || 폐색전증에만 특이적인 소견이라는 판단 ||\n|| 우심실 확장·부전 || 증가한 후부하를 감당하지 못함 || 심근 자체에서 시작한 cardiogenic shock라는 판단 ||\n|| LVEF 65% || 좌심실 수축 비율은 보존 || 전신 CO·관류가 정상이라는 판단 ||\n|| D-dimer·NT-proBNP 증가 || 혈전·심실 부하를 지지하는 검사 || 단독 확진이나 원인 확정 ||\n|| 저혈압·lactate 증가 || 장기 저관류와 중증도 || 특정 쇼크 종류의 확정 ||\n\n=== 선지별 해설 ===\n* '''① 패혈증성 분포성 쇼크''': 혈관 확장에 의한 SVR 감소가 중심이다. 이 문제는 감염원·고열보다 혈전 위험, 갑작스러운 저산소혈증과 심한 우심실 압력 과부하가 두드러진다.\n* '''② 신경성 분포성 쇼크''': 교감신경 긴장 소실로 혈관이 확장되는 분포성 쇼크다. 이 증례에는 그 원인이 되는 손상·경과가 제시되지 않고, 폐혈관 폐쇄와 우심실 압력 과부하의 근거가 더 뚜렷하다.\n* '''③ 심인성 쇼크''': 심근경색·심근병증·부정맥 등 심장 자체의 일차적 펌프 이상에서 시작한다. 폐색전증도 우심실을 실패하게 만들지만, 여기서는 폐혈관 폐쇄가 원인이므로 obstructive로 분류한다.\n* '''④ 저혈량성 쇼크''': 혈액·체액 손실이면 정맥 환류와 충만압이 함께 감소하는 방향이다. 그것만으로 심한 우심실 압력 과부하·확장과 D-shape를 설명하기 어렵다.\n* '''⑤ 심장 외 폐쇄성 쇼크''': 폐동맥 폐쇄 때문에 우심실 후부하가 증가하고 좌심실 충만·CO가 감소하는 과정과 일치한다.\n\n=== 같은 분류표에서 다른 원인을 묻는다면 ===\n||= 쇼크 ||= MAP ||= CO ||= SVR ||= PCWP ||= CVP ||= MPAP ||= DO₂ ||= 대표적인 보조 ||\n|| '''Distributive''' || ↓ || '''↑''' || '''↓''' || ↓ || ↓ || ↓ || ↑ || Vasopressor ||\n|| '''Cardiogenic''' || ↓ || '''↓''' || ↑ || '''↑''' || ↑ || ↑ || ↓ || Inotrope ||\n|| '''Hypovolemic''' || ↓ || '''↓''' || ↑ || '''↓''' || '''↓''' || ↓ || ↓ || Volume replacement ||\n|| '''Extra-cardiac obstructive''' || ↓ || '''↓''' || ↑ 또는 ↔ || ↑ 또는 ↔ || '''↑''' || ↑ || ↓ || Vasopressor ± inotrope, 폐쇄 원인 교정 ||\n\n이는 '''9쪽의 요약표'''다. 폐쇄성 행의 PCWP·MPAP는 원인별 예외가 있어 별도로 이해해야 한다. 폐색전증은 좌심실로 넘어오는 양을 줄이는 반면 심장압전은 심장 바깥의 압박으로 충만을 방해한다. 같은 obstructive 안에서도 충만압 양상을 하나로 고정하지 않는다.\n\n치료는 관류 보조와 폐쇄 원인 교정을 함께 한다. 40쪽은 수액을 통한 전부하 조정, norepinephrine ± dobutamine, 고위험 폐색전증의 재관류 치료를 제시한다. 우심실이 이미 팽창한 환자에게 무조건 많은 수액을 주는 것은 오히려 좌심실 충만을 악화시킬 수 있다. 이 원리까지 이해하면 분류뿐 아니라 혈역학 변화와 치료 방향을 바꾸어 묻는 문제에도 대응할 수 있다.\n\n[[12강#폐색전증과 D-shape 좌심실|Wiki · 폐색전증과 D-shape 좌심실]] · [[12강#네 종류의 쇼크는 어느 항목이 먼저 무너지는지가 다르다|Wiki · 네 종류의 쇼크는 어느 항목이 먼저 무너지는지가 다르다]]\n~~근거: 12강 8–9쪽의 폐쇄성 쇼크, 34–41쪽의 폐색전증·우심실 부전 증례.~~~",
       "images": [
         "J/2020/q052_01.jpg",
         "J/2020/q052_02.jpg"
@@ -45920,7 +47161,7 @@ window.JBL_DATA = {
         }
       ],
       "explanationReview": {
-        "date": "2026-10-13",
+        "date": "2026-10-27",
         "basis": "중환자의학II_쇼크 and 체외막산소공급.pptx 73쪽 전체 및 각 문항의 실제 발문·선지 대조",
         "sourceFile": "C:\\Users\\gjsrn\\Downloads\\중환자의학II_쇼크 and 체외막산소공급.pptx",
         "slides": [
@@ -45941,7 +47182,7 @@ window.JBL_DATA = {
         "answerStatus": "lecture_based",
         "officialAnswerVerified": false,
         "peerExplanationUsed": false,
-        "revision": "개념 흐름·선지별 배제·전체 비교표 보강; 정답과 문항 원문 보존"
+        "revision": "5번 선지에 합쳐진 그림 1·2 설명을 해설로 이동. 실제 사진 및 강의록 8–9, 34–40쪽을 재확인하여 정답 5번 유지."
       }
     },
     {
@@ -46121,16 +47362,18 @@ window.JBL_DATA = {
       "question": "62세 남자가 3개월간 지속된 기침을 주소로 내원하였다. Chest CT 검사에서 우상엽에 직경 5 cm 크기의 종괴가 발견되었고 CT 검사에 포함된 간에 약 3 cm 크기의 종괴가 보였다. 간 종괴에 대한 침생검을 시행하였고 조직 소견과 CD56, Chromogranin에 대한 면역조직화학염색 소견이 다음과 같을 때 가장 합당한 진단을 고르시오.",
       "passage": "",
       "choices": [
+        "cholangiocarcinoma",
         "Hepatocellular carcinoma",
-        "Cholangiocarcinoma",
-        "Acute suppurative inflammation with abscess formation",
-        "Interstitial and intraalveolar edema with hemorrhage",
-        "peribronchial epithelioid granulomas with suppuration"
+        "Metastatic large cell neuroendocrine carcinoma from lung",
+        "Metastatic adenocarcinoma from lung",
+        "Metastatic small cell carcinoma from lung"
       ],
-      "answerIndex": null,
-      "answerIndices": [],
-      "answerLabel": "정답 확정 보류",
-      "explanation": "=== 풀이의 핵심 ===\n정답 확정 보류\n\n제시된 조직과 CD56·chromogranin 양성은 폐 신경내분비암의 간 전이를 검토하게 한다. 그러나 현재 저장된 문항의 보기에는 해당 진단이 없으며 간세포암·담관암·농양·부종·육아종만 제시되어 있다. 신경내분비 분화를 보인다는 이유로 전혀 다른 암을 고를 수 없어 정답을 확정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n신경내분비 분화는 '''chromogranin·synaptophysin·CD56''' 등으로 확인한다. CD57도 강의 표지자이며, 전자현미경에서는 분비과립을 볼 수 있다. 표지자 양성만으로 carcinoid인지 소세포암인지 정하지 않고 세포 크기·배열·유사분열·괴사를 더 본다.\n\n소세포암은 흡연과 가장 밀접하며 중심부 종괴와 종격동 림프절 종대, 조기 림프·혈행 전이를 보인다. 림프구의 약 2–3배 크기인 작은 세포에 세포질이 적고 핵이 서로 눌리는 '''nuclear molding'''이 특징이다. 유사분열 >10/10 HPF와 빈번한 괴사가 동반된다.\n\n> '''작은 세포 + 높은 N/C ratio + molding + 괴사·유사분열 → small cell carcinoma. 유전자에서는 TP53와 RB1의 양대립유전자 비활성화.''' TTF-1도 양성일 수 있으므로 TTF-1을 선암 전용으로 생각하지 않는다.\n\n항암·방사선에 민감해도 재발과 광범위 전이 때문에 예후가 나쁘다. 강의의 ‘수술로 치유가 어렵다’는 일반적 생물학을 설명하며, 모든 병기의 수술을 절대 금지한다는 뜻은 아니다. NOTCH family 비활성화도 약 25%로 제시된다.\n\n=== 선지별 해설 ===\n* 1번 · Hepatocellular carcinoma: 간세포 분화의 형태와 표지자가 필요하다. 간 종괴라는 위치만으로 간세포암으로 정할 수 없다.\n* 2번 · Cholangiocarcinoma: 담관형 샘 분화를 확인해야 한다. 제시된 신경내분비 표지자와 폐 종괴의 조합을 설명하는 최선 진단은 아니다.\n* 3번 · Acute suppurative inflammation with abscess formation: 농양이면 호중구 중심의 화농성 염증을 찾아야 한다. 신경내분비 종양세포 증식과 다르다.\n* 4번 · Interstitial and intraalveolar edema with hemorrhage: 부종·출혈은 종양의 조직형을 설명하지 못하며, 신경내분비 면역염색 양성 종양과 맞지 않는다.\n* 5번 · peribronchial epithelioid granulomas with suppuration: 육아종은 조직구 중심의 염증 구조이다. 악성 신경내분비 세포 증식의 대안 진단이 아니다.\n\n[[37강#소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다|Wiki · 소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "③ Metastatic large cell neuroendocrine carcinoma from lung",
+      "explanation": "정답: ③ Metastatic large cell neuroendocrine carcinoma from lung — 폐 대세포 신경내분비암의 간 전이\n\n=== 조직 형태와 신경내분비 분화를 함께 읽는다 ===\n우상엽의 큰 종괴와 간 종괴가 함께 있고, 검사한 조직은 '''간 종괴의 침생검'''이다. 따라서 간에서 생긴 원발암뿐 아니라 폐암의 간 전이를 함께 생각한다.\n\n고배율 사진에서는 '''비교적 큰 종양세포, 눈에 보이는 세포질, 열린 염색질과 뚜렷한 핵소체'''가 관찰된다. 다른 조직 사진에서는 종양세포가 둥지·기둥 모양으로 배열되고 주변부에서 나란히 서는 신경내분비 형태를 보인다. 여기에 CD56·chromogranin 면역염색이 신경내분비 분화를 뒷받침한다. 이 조합을 제시된 선지와 연결하면 '''폐 대세포 신경내분비암(LCNEC)의 간 전이'''가 가장 합당하다.\n\n> '''세포 형태로 large cell을 판단하고, 배열과 면역염색으로 neuroendocrine 분화를 확인한다.''' CD56·chromogranin 양성만 보고 소세포암으로 결정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n폐 신경내분비종양에는 carcinoid, small cell carcinoma, LCNEC가 있다. 세 종양군은 신경내분비 표지자를 공유할 수 있으므로 '''세포 크기·세포질·핵소체와 증식·괴사'''를 함께 평가한다.\n\n||= 구분 ||= LCNEC ||= Small cell carcinoma ||\n|| 세포 형태 || 큰 세포, 비교적 풍부한 세포질 || 작은 세포, 적은 세포질, 높은 N/C ratio ||\n|| 핵 || 열린 염색질, 뚜렷한 핵소체 || 미세한 염색질, 불분명한 핵소체, nuclear molding ||\n|| 분화 || 신경내분비 배열 및 CD56·chromogranin·synaptophysin 발현 || 신경내분비 표지자 발현 ||\n|| 고등급 소견 || 높은 유사분열과 광범위 괴사 || 높은 유사분열과 빈번한 괴사 ||\n\n강의록 36쪽은 LCNEC를 '''large cell size, low N/C ratio, vesicular chromatin, frequent nucleoli'''와 연결하며, 유사분열 >10/10 HPF와 광범위 괴사를 제시한다. 다만 현재 사진 몇 장만으로 유사분열 수를 직접 계수했다고 해석하지 않는다. 이 변형의 정답은 관찰 가능한 세포 형태·신경내분비 분화와 증례를 종합한 최선의 선택이다.\n\n=== 선지별 해설 ===\n* '''① Cholangiocarcinoma''': 담관형 샘 분화를 보이는 간 원발암이다. 이 문항에서 강조되는 신경내분비 배열·표지자와 큰 세포 형태를 가장 잘 설명하는 선택지는 아니다.\n* '''② Hepatocellular carcinoma''': 간세포를 닮은 세포와 판상·소주상 구조, 간세포 분화의 근거를 확인해야 한다. 생검 부위가 간이라는 사실만으로 간세포암을 고르지 않는다.\n* '''③ Metastatic large cell neuroendocrine carcinoma from lung''': 정답이다. 큰 세포와 뚜렷한 핵소체·세포질, 신경내분비 분화, 폐 종괴와 간 전이의 임상 구도가 함께 맞는다.\n* '''④ Metastatic adenocarcinoma from lung''': 319·442번에서 사용된 감별 진단이다. 선암에서는 샘 분화·점액 및 관련 표지자를 종합한다. 이번 사진은 신경내분비 배열과 표지자를 제시하므로 그 두 문항의 답을 그대로 적용하지 않는다.\n* '''⑤ Metastatic small cell carcinoma from lung''': CD56·chromogranin 양성은 가능하지만, 이 사진의 비교적 넉넉한 세포질과 뚜렷한 핵소체는 전형적인 소세포암보다 LCNEC를 지지한다. 신경내분비 염색과 세포 형태를 따로 읽어야 한다.\n\n=== 원본에서 무엇을 수정했는가 ===\n원본의 3–5번은 농양·폐부종·육아종으로, 폐 종괴와 간 생검의 신경내분비 종양을 묻는 증례에 대응하는 진단이 없었다. 따라서 {{319}}·{{442}}에서 김루시아 교수가 사용한 '''담관암 / 간세포암 / 폐 LCNEC 전이 / 폐선암 전이 / 폐소세포암 전이''' 조합으로 다섯 선지를 교체했다. 발문과 사진은 그대로 유지했다.\n\n출제 의도는 '''간 종괴의 원발암과 폐암 전이를 구분하고, 형태와 면역염색을 함께 읽는 것'''으로 추정한다. 실제 원시험의 정답을 확인한 것은 아니며, ③은 새 선지 조합에서 사진과 강의 내용을 근거로 판단한 답이다. '''! 버튼'''에서 수정 전 문항과 당시 해설을 볼 수 있다.\n\n[[37강#LCNEC와 combined 소세포암은 다른 성분을 함께 확인한다|Wiki · LCNEC의 세포 형태와 신경내분비 분화]]\n~~근거: 「폐질환의 병리-2」 31–36쪽, 587번 원본 조직사진 및 김루시아 교수의 319·442번 선지 조합.~~~\n",
       "images": [
         "J/2020/q055_01.jpg",
         "J/2020/q055_02.jpg",
@@ -46150,9 +47393,9 @@ window.JBL_DATA = {
       "domain": "",
       "discipline": "",
       "section": "",
-      "source": "2020 호흡기계 55번 (공식 시험지)",
+      "source": "2020 호흡기계 55번 (공식 시험지) 변형",
       "mappingConfidence": "",
-      "classificationStatus": "provisional",
+      "classificationStatus": "content_classified",
       "originalNumberStatus": "reconstructed_number",
       "questionFormat": "multiple_choice",
       "sourceStatus": "official_exam",
@@ -46176,11 +47419,103 @@ window.JBL_DATA = {
       ],
       "repeatFamilyIds": [],
       "explanationReview": {
-        "date": "2026-10-23",
+        "date": "2026-10-27",
         "scope": "lectures37_38",
-        "chapter": "소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다",
+        "chapter": "LCNEC와 combined 소세포암은 다른 성분을 함께 확인한다",
         "originalPreserved": true,
-        "officialAnswerNewlyVerified": false
+        "officialAnswerNewlyVerified": false,
+        "answerStatus": "image_and_lecture_based_variant"
+      },
+      "originalVersion": {
+        "schemaVersion": 1,
+        "savedAt": "2026-10-27T00:00:00+09:00",
+        "description": "선지 교체 전 공식 시험지 문항",
+        "question": {
+          "id": "2020-055",
+          "recordId": "resp-2020-055",
+          "displayId": "587번",
+          "globalNumber": 587,
+          "year": 2020,
+          "sourceType": "공식 시험지",
+          "originalNumber": 55,
+          "originalNumbers": [
+            55
+          ],
+          "question": "62세 남자가 3개월간 지속된 기침을 주소로 내원하였다. Chest CT 검사에서 우상엽에 직경 5 cm 크기의 종괴가 발견되었고 CT 검사에 포함된 간에 약 3 cm 크기의 종괴가 보였다. 간 종괴에 대한 침생검을 시행하였고 조직 소견과 CD56, Chromogranin에 대한 면역조직화학염색 소견이 다음과 같을 때 가장 합당한 진단을 고르시오.",
+          "passage": "",
+          "choices": [
+            "Hepatocellular carcinoma",
+            "Cholangiocarcinoma",
+            "Acute suppurative inflammation with abscess formation",
+            "Interstitial and intraalveolar edema with hemorrhage",
+            "peribronchial epithelioid granulomas with suppuration"
+          ],
+          "answerIndex": null,
+          "answerIndices": [],
+          "answerLabel": "정답 확정 보류",
+          "explanation": "=== 풀이의 핵심 ===\n정답 확정 보류\n\n제시된 조직과 CD56·chromogranin 양성은 폐 신경내분비암의 간 전이를 검토하게 한다. 그러나 현재 저장된 문항의 보기에는 해당 진단이 없으며 간세포암·담관암·농양·부종·육아종만 제시되어 있다. 신경내분비 분화를 보인다는 이유로 전혀 다른 암을 고를 수 없어 정답을 확정하지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n신경내분비 분화는 '''chromogranin·synaptophysin·CD56''' 등으로 확인한다. CD57도 강의 표지자이며, 전자현미경에서는 분비과립을 볼 수 있다. 표지자 양성만으로 carcinoid인지 소세포암인지 정하지 않고 세포 크기·배열·유사분열·괴사를 더 본다.\n\n소세포암은 흡연과 가장 밀접하며 중심부 종괴와 종격동 림프절 종대, 조기 림프·혈행 전이를 보인다. 림프구의 약 2–3배 크기인 작은 세포에 세포질이 적고 핵이 서로 눌리는 '''nuclear molding'''이 특징이다. 유사분열 >10/10 HPF와 빈번한 괴사가 동반된다.\n\n> '''작은 세포 + 높은 N/C ratio + molding + 괴사·유사분열 → small cell carcinoma. 유전자에서는 TP53와 RB1의 양대립유전자 비활성화.''' TTF-1도 양성일 수 있으므로 TTF-1을 선암 전용으로 생각하지 않는다.\n\n항암·방사선에 민감해도 재발과 광범위 전이 때문에 예후가 나쁘다. 강의의 ‘수술로 치유가 어렵다’는 일반적 생물학을 설명하며, 모든 병기의 수술을 절대 금지한다는 뜻은 아니다. NOTCH family 비활성화도 약 25%로 제시된다.\n\n=== 선지별 해설 ===\n* 1번 · Hepatocellular carcinoma: 간세포 분화의 형태와 표지자가 필요하다. 간 종괴라는 위치만으로 간세포암으로 정할 수 없다.\n* 2번 · Cholangiocarcinoma: 담관형 샘 분화를 확인해야 한다. 제시된 신경내분비 표지자와 폐 종괴의 조합을 설명하는 최선 진단은 아니다.\n* 3번 · Acute suppurative inflammation with abscess formation: 농양이면 호중구 중심의 화농성 염증을 찾아야 한다. 신경내분비 종양세포 증식과 다르다.\n* 4번 · Interstitial and intraalveolar edema with hemorrhage: 부종·출혈은 종양의 조직형을 설명하지 못하며, 신경내분비 면역염색 양성 종양과 맞지 않는다.\n* 5번 · peribronchial epithelioid granulomas with suppuration: 육아종은 조직구 중심의 염증 구조이다. 악성 신경내분비 세포 증식의 대안 진단이 아니다.\n\n[[37강#소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다|Wiki · 소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다]]\n\n~~근거: 김루시아 「폐질환의 병리-2」 1–49쪽 중 해당 주제 및 대응 필기 자료. 기존 발문·선지·정답 상태는 보존했다.~~~",
+          "images": [
+            "J/2020/q055_01.jpg",
+            "J/2020/q055_02.jpg",
+            "J/2020/q055_03.jpg"
+          ],
+          "legacyProfessor": "김루시아",
+          "professor": "김루시아",
+          "examinerStatus": "inferred_not_confirmed",
+          "examinerEvidence": [
+            "공식 출제자 기준점(있는 연도), 내용·반복 문항·인접 번호 군집의 대응; 후배 배정 라벨은 보조 자료이며 실제 출제자 확정 아님."
+          ],
+          "lectureIds": [
+            37
+          ],
+          "lectureId": 37,
+          "lectureTitle": "폐종양의 병리",
+          "domain": "",
+          "discipline": "",
+          "section": "",
+          "source": "2020 호흡기계 55번 (공식 시험지)",
+          "mappingConfidence": "",
+          "classificationStatus": "provisional",
+          "originalNumberStatus": "reconstructed_number",
+          "questionFormat": "multiple_choice",
+          "sourceStatus": "official_exam",
+          "parseMethod": "numbered",
+          "restorationNotes": [
+            "증례와 3–5번 선지의 내용 불일치는 공식 원문 12–13쪽에도 존재. 추출 오류로 간주하여 임의 고치지 않음."
+          ],
+          "imageProvenance": [
+            {
+              "path": "J/2020/q055_01.jpg",
+              "role": "official_exam_original"
+            },
+            {
+              "path": "J/2020/q055_02.jpg",
+              "role": "official_exam_original"
+            },
+            {
+              "path": "J/2020/q055_03.jpg",
+              "role": "official_exam_original"
+            }
+          ],
+          "repeatFamilyIds": [],
+          "explanationReview": {
+            "date": "2026-10-23",
+            "scope": "lectures37_38",
+            "chapter": "소세포암은 작은 세포와 높은 증식, TP53·RB1 소실이 만난다",
+            "originalPreserved": true,
+            "officialAnswerNewlyVerified": false
+          }
+        }
+      },
+      "modificationReview": {
+        "date": "2026-10-27",
+        "reason": "공식 시험지의 선지가 증례·사진과 맞지 않아, 김루시아 교수의 319·442번 기출에 사용된 간 종괴 감별 선지 다섯 개를 같은 순서로 적용했다. 발문과 원본 사진은 유지했다. 원시험 선지·정답을 복구한 것이 아니라 조직 형태와 강의록에 근거한 학습용 변형이다.",
+        "originalPreserved": true,
+        "officialOriginalRecovered": false,
+        "choiceSourceGlobalNumbers": [
+          319,
+          442
+        ]
       }
     },
     {
@@ -48317,7 +49652,12 @@ window.JBL_DATA = {
           }
         ],
         "basis": "39기 「25. 핵의학」 6–11쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "★ 관류스캔은 MAA가 걸린 위치로 혈류를 그린다"
+        "chapter": "★ 관류스캔은 MAA가 걸린 위치로 혈류를 그린다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -48401,7 +49741,12 @@ window.JBL_DATA = {
           }
         ],
         "basis": "39기 「25. 핵의학」 17–24·30–32쪽; 38기 자료의 대응 원리 비교",
-        "chapter": "고확률은 큰 불일치 분절상 결손 두 개에 해당한다"
+        "chapter": "고확률은 큰 불일치 분절상 결손 두 개에 해당한다",
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": false
+        }
       }
     },
     {
@@ -51380,6 +52725,631 @@ window.JBL_DATA = {
         "officialExamAnswerVerified": false,
         "peerExplanationUsed": false
       }
+    },
+    {
+      "id": "2023-official-017",
+      "recordId": "resp-2023-official-017",
+      "displayId": "655번",
+      "globalNumber": 655,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 17,
+      "originalNumbers": [
+        17
+      ],
+      "question": "답가지의 항목들 중 그 값이 증가했을 때 폐포에서 모세혈관으로 이동하는 기체의 확산 속도를 감소시키는 것은?",
+      "passage": "",
+      "choices": [
+        "기체의 용해도",
+        "Alveolar tissue surface area",
+        "Blood-air barrier의 두께 (thickness)",
+        "기체의 분압 차이",
+        "Lung의 diffusion capacity"
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — Blood-air barrier의 두께 (thickness)",
+      "explanation": "'''공식 정답: ③'''\n\n=== 풀이의 핵심 ===\n기체 확산 속도는 '''면적·확산계수·분압차에 비례'''하고 '''장벽 두께에 반비례'''한다. 따라서 두께 증가만 확산을 느리게 한다.\n\n=== 선지별 해설 ===\n* '''1번''': 용해도가 커지면 확산계수가 커져 기체가 더 잘 이동한다.\n* '''2번''': 교환면적 증가도 확산을 촉진한다.\n* '''3번''': Blood–air barrier가 두꺼워지면 이동 거리가 늘어나 확산 속도가 감소한다.\n* '''4번''': 분압차가 커질수록 확산의 구동력이 커진다.\n* '''5번''': Diffusing capacity가 크다는 것은 같은 분압차에서 더 많은 기체가 이동할 수 있다는 뜻이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n기체가 잘 녹고, 지나갈 면적이 넓고, 양쪽 분압 차이가 클수록 많은 기체가 이동한다. 반대로 막이 두꺼워지면 확산은 느려진다. 이 관계를 묶은 것이 Fick의 법칙이다.\n\n> V̇gas = (A × D / T) × ΔP = DL × ΔP. A는 면적, T는 두께, D는 확산계수다. D는 용해도에 비례하고 분자량의 제곱근에 반비례한다. 즉 D ∝ 용해도 / √분자량이다.\n\n||= 증가하는 값 ||= 다른 조건이 같을 때 확산 속도 ||\n|| 표면적 A, 분압 차이 ΔP, 용해도 || 증가 ||\n|| 장벽의 두께 T || 감소 ||\n|| 분자량 || 감소. 분자량 자체가 아니라 '''제곱근'''에 반비례 ||\n|| 폐확산능 DL || 같은 분압 차이에서 이동량 증가 ||\n\nCO₂는 O₂보다 분자량이 크지만 용해도가 훨씬 높아, 조직과 혈액 사이에서 약 '''20배 잘 확산'''한다. 분자량만 보고 CO₂가 더 느리다고 판단하면 안 된다. 폐섬유화처럼 막이 두꺼워지거나 폐기종처럼 교환면이 줄어들면 DL이 감소한다.\n\n[[파일:assets/lecture-07/fick-diffusion.jpg|면적과 분압 차이는 분자, 막의 두께는 분모에 놓인다.]]\n\n\n\n[[7강#확산은 넓고 얇은 막에서 빨라진다|Wiki · 확산은 넓고 얇은 막에서 빨라진다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.17. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.17 출제자란 확인",
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.17",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 17,
+        "professor": "곽지연",
+        "lecture": "혈액에 의한 기체 운반",
+        "question": "답가지의 항목들 중 그 값이 증가했을 때 폐포에서 모세혈관으로 이동하는 기체의 확산\n속도를 감소시키는 것은?",
+        "choices": [
+          "기체의 용해도",
+          "Alveolar tissue surface area",
+          "Blood-air barrier의 두께 (thickness)",
+          "기체의 분압 차이",
+          "Lung의 diffusion capacity"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 17,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2023-official-018",
+      "recordId": "resp-2023-official-018",
+      "displayId": "656번",
+      "globalNumber": 656,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 18,
+      "originalNumbers": [
+        18
+      ],
+      "question": "다음 중 같은 산소 분압에서 hemoglobin의 O2 포화도를 증가시킬 수 있는 요인으로 가장 적절한 것은?",
+      "passage": "",
+      "choices": [
+        "체온 상승",
+        "PCO2 증가",
+        "Metabolic acidosis",
+        "Hb와 결합한 Fe2+의 산화",
+        "빈혈"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — Hb와 결합한 Fe2+의 산화",
+      "explanation": "'''공식 정답: ④'''\n\n=== 풀이의 핵심 ===\nHb의 Fe²⁺가 Fe³⁺로 산화되면 MetHb가 되어 그 자리는 산소를 결합하지 못한다. 동시에 '''남아 있는 Fe²⁺ 자리의 산소 친화도는 높아져 해리곡선이 좌측 이동'''할 수 있다. 공식 정답은 이 두 번째 효과를 묻는 4번이다.\n\n‘전체 Hb가 운반하는 산소량이 증가한다’는 뜻은 아니다. 원문의 ‘포화도’는 남아 있는 결합 가능 자리의 친화도라는 맥락으로 읽어야 하며, 기능적 포화도와 전체 Hb를 분모로 한 산소화 비율을 혼동하지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''': 체온 상승은 일반적으로 산소 해리곡선을 우측으로 이동시킨다.\n* '''2번''': PCO₂ 증가는 Bohr 효과와 함께 산소 친화도를 낮추는 방향이다.\n* '''3번''': 산성화도 산소 친화도를 낮춰 조직 방출을 촉진한다.\n* '''4번''': 공식 정답이다. MetHb 형성으로 남은 결합 자리의 친화도가 높아지는 효과를 묻는다. 산소 운반 용량은 오히려 감소한다.\n* '''5번''': 빈혈은 Hb 양과 산소 함량을 감소시킨다. 빈혈 자체를 같은 PO₂에서 포화도가 증가하는 원인으로 고르지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n정상적인 산소 결합은 '''oxygenation'''이지, Fe²⁺가 Fe³⁺로 바뀌는 산화와 같은 뜻이 아니다. 철이 Fe³⁺로 산화되면 '''methemoglobin(MetHb)'''이 되어 그 heme는 산소를 결합하지 못한다. 아질산염이나 일부 sulfonamide 같은 산화성 물질이 이 변화를 늘릴 수 있다.\n\n여기서는 두 효과를 함께 봐야 한다. '''Fe³⁺가 된 자리는 운반 능력을 잃지만, 남아 있는 Fe²⁺ 자리의 O₂ 친화도는 높아진다.''' 따라서 사용할 수 있는 결합 자리는 줄고, 실려 있는 산소도 조직에 잘 내놓지 않는다. 강의에서 MetHb의 해리곡선을 '''좌측 이동, P50 감소'''로 설명하는 것은 남아 있는 기능성 결합 자리의 친화도를 가리킨다. “MetHb 자체가 산소를 더 잘 결합한다”는 뜻은 아니다.\n\n[[파일:assets/lecture-07/methemoglobin-affinity.jpg|좌측 이동은 남은 기능성 heme의 높은 친화도를 뜻한다. 혈액 전체의 산소 운반 능력은 오히려 감소한다.]]\n\n적혈구의 '''NADH 의존성 methemoglobin reductase'''가 Fe³⁺를 Fe²⁺로 환원한다. 올해 강의는 정상에서도 MetHb가 약 1.5% 존재할 수 있고, 이 환원효소가 부족하면 MetHb가 증가하여 산소 운반용량 감소와 조직 저산소증으로 이어진다고 설명한다. 예전 자료의 ‘결핍 시 약 25%’를 고정된 기준으로 외우기보다는 '''산화와 환원의 균형이 깨져 기능성 Hb가 줄어든다'''는 흐름을 잡는다.\n\n> 친화도가 높다는 말과 운반 능력이 좋다는 말은 다르다. MetHb에서는 산소를 실을 수 있는 자리의 수와, 남은 자리가 산소를 붙잡는 힘을 나누어 생각한다.\n\n\n\n[[7강#MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다|Wiki · MetHb는 산소를 실을 자리도 줄이고 남은 산소도 붙잡는다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.18. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.18 출제자란 확인",
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.18",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 18,
+        "professor": "곽지연",
+        "lecture": "혈액에 의한 기체 운반",
+        "question": "다음 중 같은 산소 분압에서 hemoglobin의 O2  포화도를 증가시킬 수 있는 요인으로 가장\n적절한 것은?",
+        "choices": [
+          "체온 상승",
+          "PCO2  증가",
+          "Metabolic acidosis",
+          "Hb와 결합한 Fe2+의 산화",
+          "빈혈"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 18,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "interpretationCaution": true
+      }
+    },
+    {
+      "id": "2023-official-019",
+      "recordId": "resp-2023-official-019",
+      "displayId": "657번",
+      "globalNumber": 657,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 19,
+      "originalNumbers": [
+        19
+      ],
+      "question": "조직에서 생산된 이산화탄소 운반에 의해 정맥혈에서 일어나는 변화로 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "Plasma 중 HCO₃⁻ 농도가 동맥혈보다 낮아진다",
+        "RBC 내부의 Cl- 농도가 감소한다",
+        "정맥혈은 동맥혈보다 약간 산성이다",
+        "정맥혈의 hematocrit이 동맥혈보다 더 작다",
+        "Carboxyhemoglobin 농도가 동맥혈보다 낮다"
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — 정맥혈은 동맥혈보다 약간 산성이다",
+      "explanation": "'''공식 정답: ③'''\n\n=== 풀이의 핵심 ===\n조직에서 들어온 CO₂는 적혈구에서 H⁺와 HCO₃⁻로 전환된다. H⁺의 일부는 탈산소 Hb가 완충하지만 정맥혈은 동맥혈보다 '''약간 더 산성'''이다. HCO₃⁻가 혈장으로 나갈 때 Cl⁻는 적혈구 안으로 들어간다.\n\n=== 선지별 해설 ===\n* '''1번''': 정맥혈에서는 혈장의 HCO₃⁻가 증가하는 방향이다.\n* '''2번''': Chloride shift로 적혈구 안의 Cl⁻가 증가한다.\n* '''3번''': 공식 정답이다. CO₂ 유입과 H⁺ 생성으로 pH가 약간 낮아진다.\n* '''4번''': 적혈구 내 삼투입자와 물이 늘어 정맥혈의 적혈구 부피·hematocrit은 약간 증가할 수 있다.\n* '''5번''': Carboxyhemoglobin은 CO 결합 Hb다. CO₂ 운반에서 중요한 carbaminohemoglobin과 다르다. 이름을 바꾸어 읽으면 안 된다.\n\n=== 이 문항을 풀기 위한 개념 ===\n조직을 지난 혈액은 CO₂를 받아들이면서 조성이 조금 달라진다. HCO₃⁻ 생성과 이온 이동을 따라가면 외워야 할 방향을 설명할 수 있다.\n\n||= 조직을 지나며 생기는 변화 ||= 이유 ||\n|| 적혈구·혈장의 HCO₃⁻ 증가 || 조직 CO₂가 HCO₃⁻로 전환 ||\n|| 적혈구 Cl⁻ 증가 / 혈장 Cl⁻ 감소 || HCO₃⁻가 나가는 대신 Cl⁻가 들어오는 chloride shift ||\n|| 적혈구·혈장 pH 감소 || CO₂ 수화로 H⁺ 생성. 대표값은 동맥 약 7.40, 정맥 약 7.36 ||\n|| 적혈구 부피가 조금 증가 || 이온 이동에 따른 삼투성 수분 유입 ||\n\n강의는 정맥혈 hematocrit가 동맥혈보다 약 3% 높을 수 있다는 예를 든다. 이를 hematocrit가 반드시 3%p 상승한다는 고정 법칙으로 읽지는 않는다. 폐에서는 CO₂가 배출되고 HCO₃⁻가 적혈구로 돌아오며 '''Cl⁻가 밖으로 나가는 역방향 이동'''이 일어난다.\n\n혈액의 pH는 보통 '''7.35–7.45'''로 유지된다. Hb와 다른 완충계가 즉시 H⁺를 받아내고, 폐는 CO₂를 배출하며, 신장은 H⁺·HCO₃⁻ 균형을 장기적으로 조절한다. 적혈구의 기체 운반과 산–염기 조절은 별개의 일이 아니다.\n\n\n\n[[7강#정맥혈에는 HCO₃⁻와 적혈구 안의 Cl⁻가 늘어난다|Wiki · 정맥혈에는 HCO₃⁻와 적혈구 안의 Cl⁻가 늘어난다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.19. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.19 출제자란 확인",
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.19",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 19,
+        "professor": "곽지연",
+        "lecture": "혈액에 의한 기체 운반",
+        "question": "조직에서 생산된 이산화탄소 운반에 의해 정맥혈에서 일어나는 변화로 옳은 것은?",
+        "choices": [
+          "Plasma 중 HCO -  농도가 동맥혈보다 낮아진다\n3",
+          "RBC 내부의 Cl-  농도가 감소한다",
+          "정맥혈은 동맥혈보다 약간 산성이다",
+          "정맥혈의 hematocrit이 동맥혈보다 더 작다",
+          "Carboxyhemoglobin 농도가 동맥혈보다 낮다"
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 19,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2023-official-020",
+      "recordId": "resp-2023-official-020",
+      "displayId": "658번",
+      "globalNumber": 658,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 20,
+      "originalNumbers": [
+        20
+      ],
+      "question": "다음 중 혈액에 의해 운반되는 총 CO2 양이 증가할 수 있는 환경으로 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "PO2 감소",
+        "pH 증가",
+        "Hyperventilation",
+        "Plasma protein 농도 감소",
+        "Hemoglobin-O2 saturation 증가"
+      ],
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — PO2 감소",
+      "explanation": "'''공식 정답: ①'''\n\n=== 풀이의 핵심 ===\n'''PO₂ 감소 → 탈산소 Hb 증가 → CO₂와 H⁺를 더 잘 수용'''하는 Haldane 효과를 묻는다. 같은 PCO₂에서 탈산소화된 혈액은 더 많은 총 CO₂를 운반할 수 있다. 공식 정답은 1번이다.\n\n=== 선지별 해설 ===\n* '''1번''': 공식 정답이다. 탈산소 Hb는 carbamino 결합과 H⁺ 완충을 통해 CO₂ 운반을 돕는다.\n* '''2번''': pH 변화는 PCO₂·HCO₃⁻·비중탄산 완충계의 조건을 함께 정해야 한다. 고정 PCO₂에서 알칼리화하면 HCO₃⁻가 증가할 수 있으므로 pH 증가를 모든 조건에서 운반량 감소라고 단정하지 않는다. 원본은 Haldane 효과의 1번만 정답으로 지정했다.\n* '''3번''': 과환기는 일반적으로 PCO₂와 체내 CO₂를 낮춘다.\n* '''4번''': 단백질 감소는 carbamino 결합·완충을 늘리는 조건이 아니다.\n* '''5번''': Hb의 산소화는 CO₂와 H⁺ 방출을 촉진하여 폐에서 CO₂를 내려놓게 한다.\n\n=== 이 문항을 풀기 위한 개념 ===\nCO₂ 해리곡선은 생리적 PCO₂ 범위에서 비교적 직선적이며, Hb–O₂ 곡선 같은 뚜렷한 포화 평탄부가 없다. 같은 PCO₂에서 '''탈산소 혈액이 산소화 혈액보다 더 많은 CO₂를 운반'''한다. O₂ 결합 상태가 CO₂ 운반을 바꾸는 이 관계가 '''Haldane 효과'''다.\n\n[[파일:assets/lecture-07/carbon-dioxide-curve.jpg|동일한 PCO₂에서 탈산소 혈액의 CO₂ 함량이 더 높다.]]\n\n조직에서는 Hb가 O₂를 내려놓으며 CO₂와 H⁺를 받아들이기 쉬워진다. 폐에서는 O₂가 Hb에 결합하면 Hb의 H⁺ 친화도가 낮아지고 carbamino 형태의 CO₂도 떨어지기 쉬워진다. 떨어져 나온 H⁺는 혈장에서 돌아온 HCO₃⁻와 결합해 H₂CO₃를 만들고, 다시 CO₂와 물로 바뀐다. 이렇게 만들어진 CO₂가 폐포로 확산해 나간다.\n\n> 폐의 높은 PO₂ → Hb 산소화 → H⁺·CO₂ 방출 → H⁺ + HCO₃⁻ → H₂CO₃ → CO₂ + H₂O → CO₂ 호기 배출.\n\n[[파일:assets/lecture-07/haldane-effect-2026.jpg|같은 PCO₂에서 탈산소혈이 CO₂를 더 많이 담는다. 조직에서는 흡수를, 폐에서는 산소화에 따른 배출을 돕는다는 올해 그림의 화살표를 함께 읽는다.]]\n\n“산소화 Hb가 더 강한 산이 된다”는 표현은 '''Hb가 H⁺를 더 잘 내놓는다'''는 뜻이다. 폐를 지나는 혈액의 pH가 더 산성으로 된다는 뜻은 아니다. 오히려 CO₂가 배출된 동맥혈의 pH는 정맥혈보다 조금 높다. 올해 자료는 고정된 배수보다 '''조직에서는 CO₂ 흡수, 폐에서는 CO₂ 배출을 돕는다'''는 방향을 강조한다.\n\n||= 효과 ||= 무엇이 바뀌어 무엇에 영향을 주는가 ||= 조직에서의 이점 ||\n|| '''Bohr''' || H⁺·CO₂ ↑ → Hb의 '''O₂''' 친화도 ↓ || 산소를 더 잘 내려놓음 ||\n|| '''Haldane''' || Hb의 O₂ 결합 ↓ → '''CO₂·H⁺''' 수용 능력 ↑ || 이산화탄소를 더 잘 받아옴 ||\n\n\n\n[[7강#Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다|Wiki · Haldane 효과는 산소를 받은 Hb가 CO₂를 내려놓게 한다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.20. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "곽지연",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.20 출제자란 확인",
+      "lectureIds": [
+        7
+      ],
+      "lectureId": 7,
+      "lectureTitle": "혈액에의한 기체운반",
+      "domain": "기초의학",
+      "discipline": "생리학",
+      "section": "생리학",
+      "source": "2023 호흡기계 원본 p.20",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 20,
+        "professor": "곽지연",
+        "lecture": "혈액에 의한 기체 운반",
+        "question": "다음 중 혈액에 의해 운반되는 총 CO2  양이 증가할 수 있는 환경으로 옳은 것은?",
+        "choices": [
+          "PO2  감소",
+          "pH 증가",
+          "Hyperventilation",
+          "Plasma protein 농도 감소",
+          "Hemoglobin-O2 saturation 증가"
+        ],
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 20,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "interpretationCaution": true
+      }
+    },
+    {
+      "id": "2023-official-045",
+      "recordId": "resp-2023-official-045",
+      "displayId": "659번",
+      "globalNumber": 659,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 45,
+      "originalNumbers": [
+        45
+      ],
+      "question": "다음 중 N2 node에 속하는 것은?",
+      "passage": "",
+      "choices": [
+        "subaortic lymph node",
+        "hilar lymph node",
+        "interlobar lymph node",
+        "segmental lymph node",
+        "lobar lymph node"
+      ],
+      "answerIndex": 1,
+      "answerIndices": [
+        1
+      ],
+      "answerLabel": "1번 — subaortic lymph node",
+      "explanation": "'''공식 정답: ①'''\n\n=== 풀이의 핵심 ===\nN은 림프절의 이름과 위치로 정한다. '''Subaortic lymph node는 종격동 station 5'''이며, 해당 측 폐암에서 N2 구역에 속한다. 나머지 선지는 폐문·폐내 림프절로 N1 구역이다.\n\n=== 선지별 해설 ===\n* '''1번''': Subaortic node는 aortopulmonary window의 종격동 림프절로 N2 구역이다.\n* '''2번''': Hilar node는 station 10, N1 구역이다.\n* '''3번''': Interlobar node는 station 11, N1 구역이다.\n* '''4번''': Segmental node는 station 13, N1 구역이다.\n* '''5번''': Lobar node는 station 12, N1 구역이다.\n\n=== 이 문항을 풀기 위한 개념 ===\n[[파일:assets/lecture-22/part1-064.jpg|폐암 림프절 지도 · N1·N2·N3의 해부학적 위치]]\n[[파일:assets/lecture-22/part1-067.jpg|림프절 위치 · 쇄골상부 1R·1L]]\n[[파일:assets/lecture-22/part1-068.jpg|림프절 위치 · 상부 기관주위 2R와 혈관앞 3A]]\n[[파일:assets/lecture-22/part1-069.jpg|림프절 위치 · 하부 기관주위 4R와 대동맥주위 6]]\n[[파일:assets/lecture-22/part1-070.jpg|림프절 위치 · 4L와 대동맥하 5]]\n[[파일:assets/lecture-22/part1-071.jpg|림프절 위치 · 기관분기부 아래 7]]\n[[파일:assets/lecture-22/part1-072.jpg|림프절 위치 · 식도주위 8과 엽간 11]]\nN은 원발암을 기준으로 정한다. 같은 림프절이라도 우측 폐암인지 좌측 폐암인지에 따라 동측·반대측이 달라지므로, 먼저 원발암의 위치를 표시한 뒤 판정한다.\n\n||= N ||= 전이 림프절의 위치 ||\n|| N0 || 구역 림프절 전이 없음 ||\n|| N1 || 동측 폐문·기관지주위·폐내 림프절: station 10–14 ||\n|| N2 || 동측 종격동 또는 subcarinal 림프절 ||\n|| N2a / N2b || 9판에서 N2를 '''한 station / 여러 station'''으로 세분 ||\n|| N3 || 반대측 종격동·폐문, 또는 동측/반대측 쇄골상·사각근 림프절 ||\n\n* 1: lower cervical·supraclavicular. '''동측이어도 N3'''다.\n* 2·4: upper/lower paratracheal. 3A는 prevascular, 3P는 retrotracheal.\n* 5·6: subaortic·paraaortic. 7: subcarinal. 8·9: paraesophageal·pulmonary ligament.\n* 10–14: hilar → interlobar → lobar → segmental → subsegmental.\n\n'''N2a의 ‘하나’는 림프절 한 개가 아니라 station 하나'''다. CT에서 커진 림프절을 찾는 것과 실제 전이를 확정하는 것은 별개의 단계이며, 임상적 병기 평가에는 PET/CT와 조직검사 등이 함께 사용된다.\n\n\n\n[[22강#N은 림프절의 크기보다 어느 쪽 어느 구역인지가 핵심이다|Wiki · N은 림프절의 크기보다 어느 쪽 어느 구역인지가 핵심이다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.45. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "김우철",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.45 출제자란 확인",
+      "lectureIds": [
+        36
+      ],
+      "lectureId": 36,
+      "lectureTitle": "폐암의 방사선치료",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "방사선종양학",
+      "source": "2023 호흡기계 원본 p.45",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 45,
+        "professor": "김우철",
+        "lecture": "폐암의 방사선 치료",
+        "question": "다음 중 N2 node에 속하는 것은?",
+        "choices": [
+          "subaortic lymph node",
+          "hilar lymph node",
+          "interlobar lymph node",
+          "segmental lymph node",
+          "lobar lymph node"
+        ],
+        "answer": "1",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 45,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2023-official-070",
+      "recordId": "resp-2023-official-070",
+      "displayId": "660번",
+      "globalNumber": 660,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 70,
+      "originalNumbers": [
+        70
+      ],
+      "question": "V/Q 스캔에서 modified PIOPED에 해당하는 설명에서 맞는 설명은? 가. 큰 관류결손이 여러 개 있고, 환기 스캔에서 일치하는 결손이 있으면 고확률이다. 나. 흉부 X-ray 사진보다 관류결손이 작은 경우 고확률이다. 다. 고확률로 판정된 환자가 실제 폐색전을 가지고 있을 가능성은 80% 이상이다. 라. 관류스캔에서 관류 결손이 전혀 없는 경우에는 정상으로 판정한다.",
+      "passage": "",
+      "choices": [
+        "가, 나",
+        "다, 라",
+        "가, 다",
+        "가, 나, 다",
+        "가, 나, 다, 라"
+      ],
+      "answerIndex": 2,
+      "answerIndices": [
+        2
+      ],
+      "answerLabel": "2번 — 다, 라",
+      "explanation": "'''공식 정답: ② 다·라'''\n\n=== 풀이의 핵심 ===\n관류는 빠졌는데 환기가 남아 있는 '''mismatch'''가 폐색전증의 전형적인 축이다. 원문의 modified PIOPED에서는 고확률 판정을 실제 폐색전 가능성 80% 이상과 연결하고, 관류 결손이 없으면 정상으로 판정한다.\n\n=== 선지별 해설 ===\n* '''1번''': 가·나 모두 고확률의 전형적인 설명이 아니다. 환기와 일치하는 결손이나 더 큰 X선 병변으로 설명되는 결손을 무조건 고확률로 부르지 않는다.\n* '''2번''': 공식 정답이다. 다는 원문 기준의 고확률 범주, 라는 정상 관류의 정의다.\n* '''3번''': 가가 틀리므로 선택할 수 없다.\n* '''4번''': 가·나가 틀리므로 선택할 수 없다.\n* '''5번''': 모두 옳은 조합이 아니다. 다·라만 고른다.\n\n=== 이 문항을 풀기 위한 개념 ===\n\"\"High probability의 강의 기준은 80% 초과\"\"다. 모양이 분절상이고, 환기와 일치하지 않는 관류결손이 충분히 넓어야 한다. 기본 기준은 '''큰 불일치 분절상 결손 두 개 이상'''이며, 흉부 X선에 이를 설명할 이상이 없거나 '''관류결손이 X선 이상보다 상당히 더 커야''' 한다.\n\n큰 결손의 수만 세는 것은 아니다. '''중등도 결손 두 개를 큰 결손 한 개와 동등하게''' 계산하므로, 다음 조합은 같은 양에 해당한다.\n\n||= 큰 불일치 결손 ||= 중등도 불일치 결손 ||= 판독에 필요한 전제 ||\n|| 2개 이상 || 0개여도 가능 || 분절상 결손이며 V가 보존됨. 정상 X선 또는 Q 결손이 X선 이상보다 훨씬 큼 ||\n|| 1개 || 2개 이상 || 동일 ||\n|| 0개 || 4개 이상 || 동일 ||\n\n> '''Large 2 = large 1 + moderate 2 = moderate 4.''' 그러나 비분절상 결손을 네 개 모은다고 고확률이 되는 것은 아니다. '''크기·개수·분절성·불일치·X선 조건'''이 함께 맞아야 한다.\n\n\n\n[[25강#고확률은 큰 불일치 분절상 결손 두 개에 해당한다|Wiki · 고확률은 큰 불일치 분절상 결손 두 개에 해당한다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.70. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "유민영",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.70 출제자란 확인",
+      "lectureIds": [
+        25
+      ],
+      "lectureId": 25,
+      "lectureTitle": "핵의학검사",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "핵의학",
+      "source": "2023 호흡기계 원본 p.70",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 70,
+        "professor": "유민영",
+        "lecture": "호흡기 질환의 핵의학 검사",
+        "question": "V/Q 스캔에서 modified PIOPED에 해당하는 설명에서 맞는 설명은?\n가. 큰 관류결손이 여러 개 있고, 환기 스캔에서 일치하는 결손이 있으면 고확률이다.\n나. 흉부 X-ray 사진보다 관류결손이 작은 경우 고확률이다.\n다. 고확률로 판정된 환자가 실제 폐색전을 가지고 있을 가능성은 80% 이상이다.\n라. 관류스캔에서 관류 결손이 전혀 없는 경우에는 정상으로 판정한다.",
+        "choices": [
+          "가, 나",
+          "다, 라",
+          "가, 다",
+          "가, 나, 다",
+          "가, 나, 다, 라"
+        ],
+        "answer": "2",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 70,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false,
+        "nuclearReaudit": {
+          "date": "2026-10-27",
+          "basis": "39기 핵의학 8·11·19·22·30·31쪽 및 공식 원문 대조",
+          "officialAnswerVerified": true
+        }
+      }
+    },
+    {
+      "id": "2023-official-076",
+      "recordId": "resp-2023-official-076",
+      "displayId": "661번",
+      "globalNumber": 661,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 76,
+      "originalNumbers": [
+        76
+      ],
+      "question": "결체조직 질환으로 진단된 50세 남자환자의 CT소견이다. 진단은?",
+      "passage": "",
+      "choices": [
+        "림프종",
+        "과민성폐렴",
+        "폐렴",
+        "간질성폐질환",
+        "세기관지염"
+      ],
+      "answerIndex": 4,
+      "answerIndices": [
+        4
+      ],
+      "answerLabel": "4번 — 간질성폐질환",
+      "explanation": "'''공식 정답: ④ 간질성폐질환'''\n\n=== 풀이의 핵심 ===\n결체조직질환이라는 배경에 CT의 '''양측 망상음영·간질성 변화'''를 연결한다. 공식 정답은 특정 IIP 아형이 아니라 넓은 범주의 '''간질성폐질환'''이다. 폐기저부와 말초의 망상·섬유화성 변화, 기관지 변형을 함께 읽되 이 사진만으로 UIP 또는 NSIP를 확진하지 않는다.\n\n=== 선지별 해설 ===\n* '''1번''': 림프종은 림프절 비대·종괴 등과 연결해 평가한다. 제시된 간질성 분포를 먼저 설명하는 답은 아니다.\n* '''2번''': 과민성 폐렴은 항원 노출과 중심소엽 결절·공기 포획 등으로 접근한다. 결체조직질환의 배경을 제쳐두고 이 병으로 좁힐 근거는 부족하다.\n* '''3번''': 폐렴은 감염 증상·폐경화·분포를 함께 본다. 결체조직질환 환자의 간질성 변화에 대한 원문의 정답은 4번이다.\n* '''4번''': 공식 정답이다. 결체조직질환은 이차성 ILD의 중요한 원인이며 영상 패턴과 원인질환을 함께 평가한다.\n* '''5번''': 세기관지염은 작은 기도 중심 소견으로 접근한다. 전체의 망상·간질성 변화를 설명하는 답으로 고르지 않는다.\n\n=== 이 문항을 풀기 위한 개념 ===\n[[파일:assets/lecture-22/ild-classification.jpg|간질성 폐질환의 분류 · 간질 패턴, 폐포 충만, 드문·미분류 질환]]\n폐가 뿌옇게 보인다는 사실만으로 병명을 정할 수는 없다. '''간질이 두꺼워지고 섬유화되는지, 폐포 안에 물질이 차는지'''를 먼저 나누고, 분포와 주된 음영으로 패턴을 읽는다. 그다음 노출·흡연·약물·결체조직질환 같은 원인을 찾는다.\n\n||= 분류의 중심 ||= 대표 패턴·질환 ||= 사진에서 먼저 볼 것 ||\n|| 간질 패턴 || UIP, NSIP, '''BIP''', DAD || 망상 음영·섬유화의 분포, 세기관지 중심성, 광범위 손상 ||\n|| 폐포 충만 || OP, RB-ILD, '''AMP''', 호산구성 폐렴, 폐포단백증, 지방성 폐렴 || GGO·폐경화의 분포와 임상 배경 ||\n|| 드문 형태·기타 || 폐포미세결석증, PPFE, LIP, 폐 아밀로이드증, 미분류 ILD 등 || 각각의 특징적인 성분·분포를 확인하고 하나의 패턴에 억지로 맞추지 않음 ||\n\n'''BIP(bronchiolocentric interstitial pneumonia)는 세기관지 중심성 간질폐렴 패턴'''을 뜻한다. 과민성 폐렴이 대표적인 원인이지만, 결체조직질환·흡인·약물 관련 병변도 같은 패턴을 만들 수 있다. '''AMP(alveolar macrophage pneumonia)는 폐포 내 대식세포 축적을 뜻하며, DIP로 불리던 질환'''에 해당한다.[*용어의 정의: ERS/ATS, Update of the international multidisciplinary classification of the interstitial pneumonias. https://doi.org/10.1183/13993003.00158-2025]\n\n> '''패턴은 보이는 모습, 질환명은 원인까지 종합한 결론'''이다. UIP가 곧 IPF는 아니며, BIP가 곧 과민성 폐렴도 아니다.\n\n\n\n[[22강#간질성 폐질환은 패턴과 원인 질환을 나누어 읽는다|Wiki · 간질성 폐질환은 패턴과 원인 질환을 나누어 읽는다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.76. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [
+        "J/2023/official-p076.jpg"
+      ],
+      "professor": "이경희",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.76 출제자란 확인",
+      "lectureIds": [
+        22
+      ],
+      "lectureId": 22,
+      "lectureTitle": "흉부영상 각론",
+      "domain": "임상의학",
+      "discipline": "진단·치료 지원분과",
+      "section": "영상의학",
+      "source": "2023 호흡기계 원본 p.76",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [
+        {
+          "source": "2023 원본.pdf",
+          "page": 76,
+          "file": "J/2023/official-p076.jpg",
+          "method": "embedded_image_reassembly",
+          "parts": 1
+        }
+      ],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 76,
+        "professor": "이경희",
+        "lecture": "흉부영상각론",
+        "question": "3. 결체조직 질환으로 진단된 50세 남자환자의 CT소견이다. 진단은?",
+        "choices": [
+          "림프종",
+          "과민성폐렴",
+          "폐렴",
+          "간질성폐질환",
+          "세기관지염"
+        ],
+        "answer": "4",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 76,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      }
+    },
+    {
+      "id": "2023-official-111",
+      "recordId": "resp-2023-official-111",
+      "displayId": "662번",
+      "globalNumber": 662,
+      "year": 2023,
+      "sourceType": "족보",
+      "originalNumber": 111,
+      "originalNumbers": [
+        111
+      ],
+      "question": "급성 폐색전증에서 항응고치료에 사용되는 와파린에 대한 설명으로 옳은 것은?",
+      "passage": "",
+      "choices": [
+        "aPTT로 모니터링을 한다.",
+        "피하 주사 (subcutaneous injection)로 투여한다.",
+        "vitamin K 길항제이다.",
+        "반감기가 짧아 수술 전 항응고치료 필요시에 투여한다.",
+        "별도의 모니터링이 필요하지 않다."
+      ],
+      "answerIndex": 3,
+      "answerIndices": [
+        3
+      ],
+      "answerLabel": "3번 — vitamin K 길항제이다.",
+      "explanation": "'''공식 정답: ③'''\n\n=== 풀이의 핵심 ===\nWarfarin은 '''vitamin K 길항제'''다. 비타민 K 의존 응고인자의 기능적 합성을 감소시키며, 경구로 투여하고 '''PT/INR'''로 효과를 평가한다. Heparin의 투여 경로·모니터링과 구분한다.\n\n=== 선지별 해설 ===\n* '''1번''': aPTT는 주로 unfractionated heparin의 모니터링과 연결한다. Warfarin은 PT/INR이다.\n* '''2번''': Warfarin은 경구약이다. 피하 주사는 LMWH 등의 투여 경로다.\n* '''3번''': 공식 정답이다. Vitamin K 재활용을 억제하여 II·VII·IX·X와 protein C·S의 기능적 합성에 영향을 준다.\n* '''4번''': 작용 발현과 소실이 느려 수술 직전의 빠른 조절을 위한 단시간 약제로 사용하는 것이 아니다.\n* '''5번''': INR 확인과 상호작용·식이·출혈 위험의 평가가 필요하다.\n\n=== 이 문항을 풀기 위한 개념 ===\n'''항응고치료(anticoagulation)'''는 추가 혈전 형성·성장·재발을 억제한다. 이미 생긴 혈전을 직접 녹이는 약은 아니며, 몸의 혈전 제거 과정이 작동할 시간을 확보하는 치료다. 반면 '''재관류치료(reperfusion)'''는 혈전을 용해하거나 직접 제거하여 폐혈관 폐색과 우심실 부담을 빠르게 낮춘다. 효과가 빠른 만큼 출혈·시술 위험을 함께 부담한다.\n\n[[파일:assets/lecture-21/pe-treatment-2026.jpg|급성 PE 치료의 연결: A·B에서는 DOAC, C 이후에는 주사 항응고와 전문팀 평가, D·E에서는 재관류 필요성을 판단한다.]]\n\n||= 상태 ||= 치료 방향 ||\n|| SpO₂ <90% || 산소치료 ||\n|| A·B, 경구치료에 적합 || DOAC 시작 ||\n|| C 이상 || LMWH 등 주사 항응고치료, PE 전문팀 평가; 처치 계획·신기능 등에 따라 UFH 선택 가능 ||\n|| D || 악화 위험과 출혈 위험을 따져 재관류를 고려할 수 있음(Class 2b) ||\n|| E || 재관류치료가 합당한 선택(Class 2a); shock·심정지에는 순환 보조도 함께 고려 ||\n\n재관류에는 전신 혈전용해, 카테터 혈전용해, 기계적 혈전제거, 수술적 색전제거가 포함된다. '''안정적인 PE에 일률적으로 혈전용해제를 투여하지 않는다.''' 반대로 shock 환자에게 항응고제만 주면서 즉각적인 폐색 해소 필요성을 놓쳐서도 안 된다.\n\n\n\n[[21강#항응고는 혈전의 성장을 막고 재관류는 폐색을 빠르게 줄인다|Wiki · 항응고는 혈전의 성장을 막고 재관류는 폐색을 빠르게 줄인다]]\n\n~~문항·정답·출제자 확인: 2023 공식 원본 p.111. 원문 쪽 순서를 출처로 사용하며, 최종 시험지 번호와 구분한다.~~~",
+      "images": [],
+      "professor": "임준혁",
+      "examinerStatus": "official_verified",
+      "examinerEvidence": "2023 원본.pdf p.111 출제자란 확인",
+      "lectureIds": [
+        21
+      ],
+      "lectureId": 21,
+      "lectureTitle": "폐혈관질환:폐성심,폐동맥고혈압,폐색전증",
+      "domain": "임상의학",
+      "discipline": "호흡기내과",
+      "section": "폐혈관질환",
+      "source": "2023 호흡기계 원본 p.111",
+      "mappingConfidence": "high",
+      "classificationStatus": "assigned",
+      "originalNumberStatus": "official_document_page_order",
+      "questionFormat": "multiple_choice",
+      "sourceStatus": "official_original_verified",
+      "parseMethod": "official_pdf_position_verified",
+      "restorationNotes": [],
+      "imageProvenance": [],
+      "repeatFamilyIds": [],
+      "officialOriginal": {
+        "file": "2023 원본.pdf",
+        "page": 111,
+        "professor": "임준혁",
+        "lecture": "폐혈관 질환",
+        "question": "급성 폐색전증에서 항응고치료에 사용되는 와파린에 대한 설명으로 옳은 것은?",
+        "choices": [
+          "aPTT로 모니터링을 한다.",
+          "피하 주사 (subcutaneous injection)로 투여한다.",
+          "vitamin K 길항제이다.",
+          "반감기가 짧아 수술 전 항응고치료 필요시에 투여한다.",
+          "별도의 모니터링이 필요하지 않다."
+        ],
+        "answer": "3",
+        "explanation": "",
+        "verifiedDate": "2026-10-27",
+        "priority": "authoritative"
+      },
+      "explanationReview": {
+        "date": "2026-10-27",
+        "basis": "2023 공식 원본 및 현재 Wiki 대조",
+        "answerStatus": "official_answer_verified",
+        "officialAnswerVerified": true,
+        "officialSourcePage": 111,
+        "originalQuestionAndImagesPreserved": true,
+        "peerExplanationUsed": false
+      }
     }
   ],
   "pendingQuestions": [
@@ -51445,20 +53415,6 @@ window.JBL_DATA = {
       "originalNumber": 110,
       "reservedGlobalNumber": 110,
       "sourceStatus": "not_found_in_peer_visual_review"
-    },
-    {
-      "id": "2023-045",
-      "year": 2023,
-      "originalNumber": 45,
-      "reservedGlobalNumber": 221,
-      "sourceStatus": "unrestored"
-    },
-    {
-      "id": "2023-080",
-      "year": 2023,
-      "originalNumber": 80,
-      "reservedGlobalNumber": 256,
-      "sourceStatus": "unrestored"
     }
   ],
   "repeatFamilies": [
@@ -52431,5 +54387,146 @@ window.JBL_DATA = {
       "yearCount": 2,
       "includes2024Compilation": true
     }
-  ]
+  ],
+  "official2023Revision": {
+    "date": "2026-10-27",
+    "file": "2023 원본.pdf",
+    "pages": 122,
+    "questions": 122,
+    "pageToGlobalNumber": {
+      "1": 181,
+      "2": 182,
+      "3": 183,
+      "4": 184,
+      "5": 185,
+      "6": 186,
+      "7": 187,
+      "8": 188,
+      "9": 189,
+      "10": 190,
+      "11": 191,
+      "12": 192,
+      "13": 193,
+      "14": 194,
+      "15": 195,
+      "16": 196,
+      "17": 655,
+      "18": 656,
+      "19": 657,
+      "20": 658,
+      "21": 201,
+      "22": 202,
+      "23": 203,
+      "24": 204,
+      "25": 197,
+      "26": 198,
+      "27": 199,
+      "28": 200,
+      "29": 205,
+      "30": 206,
+      "31": 207,
+      "32": 208,
+      "33": 209,
+      "34": 210,
+      "35": 211,
+      "36": 212,
+      "37": 213,
+      "38": 214,
+      "39": 215,
+      "40": 216,
+      "41": 217,
+      "42": 218,
+      "43": 219,
+      "44": 220,
+      "45": 659,
+      "46": 222,
+      "47": 223,
+      "48": 224,
+      "49": 225,
+      "50": 226,
+      "51": 227,
+      "52": 228,
+      "53": 229,
+      "54": 230,
+      "55": 231,
+      "56": 232,
+      "57": 233,
+      "58": 234,
+      "59": 235,
+      "60": 236,
+      "61": 237,
+      "62": 238,
+      "63": 239,
+      "64": 240,
+      "65": 241,
+      "66": 242,
+      "67": 243,
+      "68": 244,
+      "69": 245,
+      "70": 660,
+      "71": 247,
+      "72": 248,
+      "73": 249,
+      "74": 250,
+      "75": 251,
+      "76": 661,
+      "77": 252,
+      "78": 253,
+      "79": 254,
+      "80": 255,
+      "81": 257,
+      "82": 258,
+      "83": 259,
+      "84": 260,
+      "85": 261,
+      "86": 262,
+      "87": 263,
+      "88": 264,
+      "89": 265,
+      "90": 266,
+      "91": 267,
+      "92": 268,
+      "93": 269,
+      "94": 270,
+      "95": 271,
+      "96": 272,
+      "97": 273,
+      "98": 274,
+      "99": 275,
+      "100": 276,
+      "101": 277,
+      "102": 278,
+      "103": 279,
+      "104": 280,
+      "105": 281,
+      "106": 282,
+      "107": 283,
+      "108": 284,
+      "109": 285,
+      "110": 286,
+      "111": 662,
+      "112": 287,
+      "113": 288,
+      "114": 246,
+      "115": 289,
+      "116": 290,
+      "117": 291,
+      "118": 292,
+      "119": 293,
+      "120": 294,
+      "121": 295,
+      "122": 296
+    },
+    "newGlobalNumbers": [
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662
+    ],
+    "numberPolicy": "기존 고유번호는 내용과 함께 유지. 누락 문항은 미사용 신규 번호. originalNumber는 원문 PDF의 쪽 순서이며 최종 시험지 번호와 별도로 관리."
+  }
 };

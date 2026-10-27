@@ -9,6 +9,19 @@ const questions=[...data.questions].sort((a,b)=>Number(b.currentProfessor==='윤
 const signature=questions.map(q=>q.id).join('|');
 let saved=null;
 try{saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null')}catch{}
+// Official-source revisions keep a recoverable copy of the old attempt.
+let revisionNotice='';
+if(saved&&data.recordRevision&&saved.recordRevision!==data.recordRevision){
+ const oldIds=String(saved.signature||'').split('|'),newIds=questions.map(q=>q.id),activeId=oldIds[saved.index||0];
+ try{
+  const archiveKey=STORAGE_KEY+'-before-'+data.recordRevision;
+  if(!localStorage.getItem(archiveKey))localStorage.setItem(archiveKey,JSON.stringify(saved));
+  const answers={...saved.answers},overrides={...saved.overrides};
+  for(const id of data.resetAnswerIds||[]){delete answers[id];delete overrides[id];}
+  saved={...saved,answers,overrides,signature,index:Math.max(0,newIds.indexOf(activeId)),recordRevision:data.recordRevision};
+  revisionNotice='원본 대조로 문항·정답이 갱신되었습니다. 바뀐 문항의 응답만 비웠고, 이전 응시 기록은 이 브라우저에 별도로 보관했습니다. 새 문항까지 풀려면 결과 화면에서 다시 훈련하기를 눌러 주세요.';
+ }catch{}
+}
 // Keep answers, flags, grading overrides and the active question when only order changes.
 if(saved&&saved.signature!==signature){
  const oldIds=String(saved.signature||'').split('|'),newIds=questions.map(q=>q.id),newSet=new Set(newIds);
@@ -39,11 +52,11 @@ if(saved&&saved.signature===signature){
  if(Number.isFinite(saved.submittedAt)&&saved.submittedAt>0)state.submittedAt=saved.submittedAt;
 }else if(saved){el('storage-notice').hidden=false;el('storage-notice').textContent='문항 구성이 달라 이전 응시 기록을 불러오지 못했습니다. 기존 기록을 보존하려면 답안 백업을 확인하세요.';}
 function persist(){
- try{localStorage.setItem(STORAGE_KEY,JSON.stringify({...state,signature,version:1}));el('storage-notice').hidden=true;return true;}
+ try{localStorage.setItem(STORAGE_KEY,JSON.stringify({...state,signature,version:1,recordRevision:data.recordRevision||null}));el('storage-notice').hidden=!revisionNotice;if(revisionNotice)el('storage-notice').textContent=revisionNotice;return true;}
  catch{el('storage-notice').hidden=false;el('storage-notice').textContent='브라우저에 답안을 저장하지 못했습니다. 이 창을 닫지 말고 답안 백업을 내려받으세요.';return false;}
 }
 function backupAnswers(){
- const blob=new Blob([JSON.stringify({...state,signature,version:1},null,2)],{type:'application/json'});
+ const blob=new Blob([JSON.stringify({...state,signature,version:1,recordRevision:data.recordRevision||null},null,2)],{type:'application/json'});
  const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=data.year+'-호흡기계-실전풀이-답안.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 el('backup-answers').addEventListener('click',backupAnswers);
@@ -162,11 +175,11 @@ function restartTraining(){
  if(!window.confirm('이 시험의 답안·점수·채점 정정·문제 표시 기록을 지우고 다시 풀까요? 120분이 새로 시작됩니다.'))return;
  const now=Date.now();
  const fresh={index:0,answers:{},flags:[],overrides:{},startedAt:now,deadline:now+durationMs,submittedAt:null};
- try{localStorage.setItem(STORAGE_KEY,JSON.stringify({...fresh,signature,version:1}));}
+ try{localStorage.setItem(STORAGE_KEY,JSON.stringify({...fresh,signature,version:1,recordRevision:data.recordRevision||null}));}
  catch{el('storage-notice').hidden=false;el('storage-notice').textContent='새 응시 기록을 저장하지 못해 초기화하지 않았습니다. 브라우저 저장소를 확인해 주세요.';return;}
  closeDetail(false);
  if(timer!==null)clearInterval(timer);
- Object.assign(state,fresh);
+ Object.assign(state,fresh);revisionNotice='';
  el('storage-notice').hidden=true;
  el('earned-grade').textContent='0.00';el('final-score').textContent='';
  el('result-screen').hidden=true;el('exam-screen').hidden=false;
@@ -205,3 +218,5 @@ persist();render();
 if(state.submittedAt){location.hash==='#review'?showFeedback(false):showResults(false);}
 else{timer=setInterval(tick,1000);}
 tick();
+
+if(revisionNotice){el('storage-notice').hidden=false;el('storage-notice').textContent=revisionNotice;}

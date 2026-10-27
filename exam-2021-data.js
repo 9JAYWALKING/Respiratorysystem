@@ -1605,15 +1605,14 @@ window.EXAM_DATA = {
       "images": [],
       "points": 1,
       "answerIndices": [
-        1,
         2,
         3
       ],
-      "modelAnswer": "정답: ①·②·③ (복수정답)",
-      "brief": "현재 복원 문구에서는 1·2·3번을 인정한다. 2번은 고확률의 동등 조합이고, 3번은 정상의 정의다. 1번의 “60% 이상” 역시 실제 정의인 “80% 초과”를 포함하므로 문자 그대로는 거짓이라고 할 수 없다. 다만 고확률의 기준은 60%가 아니라 >80%임을 분명히 구분해야 한다.",
+      "modelAnswer": "정답: ②·③",
+      "brief": "2번과 3번은 모두 강의 기준에 맞는다. 중등도 불일치 분절상 결손 4개는 큰 결손 2개에 해당하고, 관류결손이 전혀 없으면 정상이다. 이 두 선지는 수치 해석을 바로잡아도 동시에 남으므로 복수정답을 유지한다.",
       "multiple": true,
-      "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "examOverride": false,
+      "revisionNote": ""
     },
     {
       "id": "2021-109",
@@ -1634,11 +1633,11 @@ window.EXAM_DATA = {
       "answerIndices": [
         1
       ],
-      "modelAnswer": "정답 확정 보류",
-      "brief": "Tc-99m MAA가 일시적으로 막는 비율은 약 0.1%이다. 10%라는 서술이 틀렸다.",
+      "modelAnswer": "추정 정답: ① — 차단 비율을 묻는 출제 의도",
+      "brief": "관류 MAA가 일시적으로 차단하는 폐 모세혈관의 비율은 약 0.1%이다. 약 10%라고 한 1번이 틀리다.",
       "multiple": false,
       "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "revisionNote": "실전풀이에서는 원문 1번의 모호한 상한 표현을 약 10%로 명확히 했습니다. 실제 강의 수치는 약 0.1%입니다."
     },
     {
       "id": "2021-005",
@@ -1847,7 +1846,7 @@ window.EXAM_DATA = {
     {
       "id": "2021-083",
       "globalNumber": 494,
-      "currentProfessor": "이경희",
+      "currentProfessor": "김정수",
       "source": "2021 호흡기계 83번",
       "question": "57세 남자가 급성췌장염으로 입원했다가 3일 후에 ARDS가 발생했다. 기관절개술을 했으나 혈압이 떨어지고 좌측 폐의 호흡음이 들리지 않았다. 그 이유는?",
       "passage": "",
@@ -1863,8 +1862,8 @@ window.EXAM_DATA = {
       "answerIndices": [
         2
       ],
-      "modelAnswer": "2번",
-      "brief": "기관절개술 뒤 갑자기 혈압이 떨어지고 왼쪽 호흡음이 소실되었다. 이 조합에서는 시술 관련 좌측 기흉, 특히 긴장성 기흉을 우선 의심한다. 선지에는 기흉으로 제시되어 있으므로 ②를 고른다.",
+      "modelAnswer": "정답: ②",
+      "brief": "ARDS로 기도 확보와 양압환기를 받는 환자에게 시술 직후 한쪽 호흡음 소실과 혈압 저하가 생겼다. 가장 먼저 의심할 합병증은 기흉, 특히 긴장성 기흉이다. 흉막강 압력이 상승하면 환측 폐가 눌리고 정맥환류가 감소하여 저혈압이 생길 수 있다. 시술 손상과 양압환기 관련 압력손상을 함께 고려한다.",
       "multiple": false,
       "examOverride": false,
       "revisionNote": ""
@@ -1888,10 +1887,10 @@ window.EXAM_DATA = {
       ],
       "points": 1,
       "answerIndices": [
-        3
+        1
       ],
-      "modelAnswer": "3번",
-      "brief": "왼쪽 중하폐야에 하얀 음영이 있고 왼쪽 심장 경계가 흐려져 있다. 병변이 심장과 실제로 맞닿아 있다는 뜻이므로 좌상엽의 설상부(lingula)로 위치를 좁힌다. 정면사진에서 아래쪽에 보인다는 이유만으로 좌하엽을 고르면 안 된다.",
+      "modelAnswer": "1번",
+      "brief": "좌하엽 폐경화다. 왼쪽 심장 경계가 남아 있으며, 같은 증례의 강의록 측면사진에서는 심장 뒤·아래쪽 폐경화가 확인된다. 기존의 설상부 판독을 좌하엽으로 정정했다. 설상부는 앞쪽에서 왼쪽 심장 경계를 지우는 병변이다.",
       "multiple": false,
       "examOverride": false,
       "revisionNote": ""
@@ -3126,5 +3125,9 @@ window.EXAM_DATA = {
       "examOverride": false,
       "revisionNote": ""
     }
+  ],
+  "recordRevision": "official-review-20261027",
+  "resetAnswerIds": [
+    "2021-091"
   ]
 };

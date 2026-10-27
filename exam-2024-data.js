@@ -728,7 +728,7 @@ window.EXAM_DATA = {
       "globalNumber": 158,
       "currentProfessor": "유민영",
       "source": "2024 호흡기계 36번",
-      "question": "V/Q 스캔에서 modified PIOPED에 해당하는 설명에서 맞는 설명은? (해당하는 것을 모두 고르시오.)",
+      "question": "V/Q 스캔에서 modified PIOPED에 해당하는 설명에서 맞는 설명은?",
       "passage": "",
       "choices": [
         "큰 관류결손이 여러 개 있고, 환기 스캔에서 일치하는 결손이 있으면 중등도 확률이다.",
@@ -740,14 +740,13 @@ window.EXAM_DATA = {
       "images": [],
       "points": 1,
       "answerIndices": [
-        3,
         5
       ],
-      "modelAnswer": "정답: ③·⑤ (복수정답)",
-      "brief": "현재 선지 표현을 그대로 읽으면 3·5번이 모두 성립한다. 5번은 정상의 정의와 정확히 일치한다. 3번은 고확률의 정의인 >80%를 정확히 제시하지는 않지만, 80% 초과는 50% 이상에도 포함되므로 “50% 이상”을 수학적으로 거짓이라고 배제할 수 없다.",
-      "multiple": true,
-      "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "modelAnswer": "정답: ⑤",
+      "brief": "관류결손이 전혀 없으면 정상이므로 정답은 5번이다. 이 문제는 modified PIOPED의 분류 기준을 묻는다. 강의의 고확률 기준은 >80%이며 50%를 그 기준으로 제시한 3번을 정답으로 인정하지 않는다. 이전 해설이 수학적 포함관계만으로 3번을 추가한 판단을 바로잡았다.",
+      "multiple": false,
+      "examOverride": false,
+      "revisionNote": ""
     },
     {
       "id": "2024-006",
@@ -1497,5 +1496,9 @@ window.EXAM_DATA = {
       "examOverride": false,
       "revisionNote": ""
     }
+  ],
+  "recordRevision": "official-review-20261027",
+  "resetAnswerIds": [
+    "2024-036"
   ]
 };

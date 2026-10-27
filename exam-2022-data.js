@@ -1319,7 +1319,7 @@ window.EXAM_DATA = {
         "우리나라에서 사망률 1위의 질병이다",
         "예방도 치료도 불가능하다",
         "대기오염 물질에 의해서 일어나는 질병은 아니다",
-        "?"
+        "[선지 미복원]"
       ],
       "images": [],
       "points": 1,
@@ -1667,7 +1667,6 @@ window.EXAM_DATA = {
       "passage": "",
       "choices": [
         "Lung cancer",
-        "Bronchial asthma",
         "Pulmonary Alveolar Proteinosis",
         "Thyroid cancer",
         "Diffuse Alveolar Hemorrhage",
@@ -1678,13 +1677,13 @@ window.EXAM_DATA = {
       ],
       "points": 1,
       "answerIndices": [
-        5
+        4
       ],
-      "modelAnswer": "정답: ⑤",
+      "modelAnswer": "정답: ④ Diffuse Alveolar Hemorrhage",
       "brief": "연속 BAL 검체가 점점 더 혈성으로 보이는 소견은 미만성 폐포출혈을 지지한다.",
       "multiple": false,
-      "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "examOverride": false,
+      "revisionNote": ""
     },
     {
       "id": "2022-084",
@@ -2970,5 +2969,9 @@ window.EXAM_DATA = {
       "examOverride": false,
       "revisionNote": ""
     }
+  ],
+  "recordRevision": "choice358-edit-20261027",
+  "resetAnswerIds": [
+    "2022-070"
   ]
 };

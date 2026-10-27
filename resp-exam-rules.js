@@ -14,7 +14,7 @@
    const rupture=/(?:장기|기관|기관지|심장|식도|대동맥|폐|organ|trachea|heart).{0,80}(?:파열|rupture)/.test(t);
    return {correct:matched+(!ordinary&&rupture?1:0)>=q.minGroups,missing:[]};
   }
-  if(q.globalNumber===232)return {correct:/(?:아세틸콜린에스테라제|아세틸콜린에스터레이스|아세틸콜린에스테레이스|acetylcholinesterase|ache)/.test(t)&&/(?:억제|인산화|inhibit|phosphorylat)/.test(t)&&/(?:아세틸콜린|acetylcholine|ach).{0,80}(?:축적|증가|accumulat)/.test(t),missing:[]};
+  if(q.globalNumber===232)return {correct:/(?:아세틸콜린에스테라제|아세틸콜린에스터레이스|아세틸콜린에스테레이스|acetylcholinesterase|acetylcholineesterase|ache)/.test(t)&&/(?:억제|인산화|inhibit|phosphorylat)/.test(t),missing:[]};
   return {correct:matched>=(q.minGroups||Infinity),missing:[`${matched}/${q.minGroups}개 핵심 항목 확인`]};
  }
  function correct(q,value,overrides){return !q.choices.length&&typeof overrides?.[q.id]==='boolean'?overrides[q.id]:evaluate(q,value).correct;}

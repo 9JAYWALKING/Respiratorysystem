@@ -423,26 +423,25 @@ window.EXAM_DATA = {
       "globalNumber": 122,
       "currentProfessor": "김루시아",
       "source": "2025 호흡기계 122번",
-      "question": "폐암의 분자 특징에 대한 설명으로 옳은 것을 모두 고르시오.",
+      "question": "폐의 adenocarcinoma와 squamous lung cancer에 설명한 것 중 복원된 선지 중 옳은 것은?",
       "passage": "",
       "choices": [
-        "EGFR 변이는 비흡연 동아시아인 폐샘암에서 상대적으로 흔하다.",
-        "ALK 재배열은 표적치료 대상이 될 수 있다.",
-        "EGFR 활성화 변이는 모든 폐암에서 반드시 존재한다.",
-        "동아시아 비흡연 여성 폐샘암의 가장 흔한 driver는 ALK 재배열이다.",
-        "편평상피암은 흡연과 관련이 없다."
+        "흡연자에서는 EGFR 돌연변이가 더 잘 일어난다.",
+        "squamous lung cancer에서는 PD-L1 발현이 더 잘 일어난다.",
+        "[선지 미복원]",
+        "adenocarcinoma에서 동양인, 비흡연자, 여성에서 제일 잘 일어나는 변이는 ALK fusion이다",
+        "squamous lung cancer는 유전자 돌연변이가 적은 것이 특징이다."
       ],
       "images": [],
       "points": 1,
       "answerIndices": [
-        1,
         2
       ],
-      "modelAnswer": "정답 확정 보류",
-      "brief": "폐샘암에서는 EGFR·ALK 등 driver를 평가한다. EGFR 변이는 특히 동아시아 비흡연자에서 흔하며, ALK 재배열도 해당 표적치료 대상이다.",
-      "multiple": true,
+      "modelAnswer": "정답: ② — 복원된 선지 기준",
+      "brief": "2번만 선택하면 정답 처리한다. 미복원 선지가 옳은 선지일 것으로 추정.",
+      "multiple": false,
       "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "revisionNote": "3번이 미복원되어 있으므로 복원된 보기 중 2번만 선택하면 정답 처리합니다."
     },
     {
       "id": "2025-097",
@@ -1179,26 +1178,26 @@ window.EXAM_DATA = {
       "id": "2025-035",
       "globalNumber": 35,
       "currentProfessor": "김채균",
-      "source": "2025 호흡기계 35번",
-      "question": "다음 중 H₂ 수용체 길항제는?",
+      "source": "2025 호흡기계 35번 변형",
+      "question": "다음 히스타민 수용체 길항제 중 나머지 네 약물과 표적 수용체가 다른 것은?",
       "passage": "",
       "choices": [
         "Fexofenadine",
         "Loratadine",
         "Cetirizine",
         "Meclizine",
-        "Famotidine"
+        "Cimetidine"
       ],
       "images": [],
       "points": 1,
       "answerIndices": [
         5
       ],
-      "modelAnswer": "정답 확정 불가 — 약명 불완전·수용체 구분 불성립",
-      "brief": "Famotidine은 위산 분비를 억제하는 H₂ 길항제다. 나머지는 H₁ 항히스타민제다.",
+      "modelAnswer": "정답: ⑤",
+      "brief": "Cimetidine은 H₂ 수용체 길항제이고 나머지는 H₁ 수용체 길항제다. Meclizine은 1세대, fexofenadine·loratadine·cetirizine은 2세대이지만, 세대가 다르다는 이유로 표적 수용체가 달라지지는 않는다.",
       "multiple": false,
       "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "revisionNote": "불완전 복원 문항을 다듬은 J 변형과 동일한 문항입니다. 상세 해설에서 수정 이유와 원본을 확인할 수 있습니다."
     },
     {
       "id": "2025-036",
@@ -1229,26 +1228,26 @@ window.EXAM_DATA = {
       "id": "2025-037",
       "globalNumber": 37,
       "currentProfessor": "김채균",
-      "source": "2025 호흡기계 37번",
-      "question": "COPD 치료 약물에 대한 설명으로 옳은 것은?",
+      "source": "2025 호흡기계 37번 변형",
+      "question": "COPD 및 기타 기관지 질환의 약물에 대한 설명으로 옳은 것은?",
       "passage": "",
       "choices": [
-        "Ipratropium은 muscarinic 수용체를 차단하여 기관지를 확장한다.",
-        "Azithromycin은 PDE4 억제제다.",
-        "Roflumilast는 급성 기관지경련의 즉시 구제약이다.",
-        "Tiotropium은 단시간 작용 β₂ 항진제다.",
-        "Formoterol은 leukotriene 수용체 길항제다."
+        "Ipratropium은 β₂ 수용체를 자극하여 기관지를 확장한다.",
+        "Azithromycin은 선택적 PDE4 억제제로 급성 기관지수축을 해소한다.",
+        "Roflumilast는 PDE4를 억제하여 선택한 COPD 환자의 악화 위험을 줄인다.",
+        "Tiotropium은 경구로 투여하는 단기 작용 항무스카린제이다.",
+        "Budesonide는 β₂ 수용체를 자극하는 속효성 기관지확장제이다."
       ],
       "images": [],
       "points": 1,
       "answerIndices": [
-        1
+        3
       ],
-      "modelAnswer": "정답 확정 보류",
-      "brief": "Ipratropium은 SAMA, tiotropium은 LAMA, formoterol은 LABA다. Roflumilast는 PDE4 억제제로 선택한 COPD 환자의 악화 예방에 사용한다.",
+      "modelAnswer": "정답: ③",
+      "brief": "Roflumilast는 선택적 PDE4 억제제다. 만성기관지염 양상과 반복 악화를 보이는 중증 COPD 등에서 악화 감소 목적으로 고려한다. 급성 호흡곤란을 즉시 해소하는 구조용 기관지확장제는 아니다.",
       "multiple": false,
       "examOverride": true,
-      "revisionNote": "실전용으로 발문·선지 또는 필요한 조건을 보완한 학습용 변형입니다. J 원문은 보존되어 있으며 상세 해설에는 원복원 문항의 한계가 별도로 남아 있을 수 있습니다."
+      "revisionNote": "불완전 복원 문항을 다듬은 J 변형과 동일한 문항입니다. 상세 해설에서 수정 이유와 원본을 확인할 수 있습니다."
     },
     {
       "id": "2025-038",
@@ -1663,34 +1662,26 @@ window.EXAM_DATA = {
       "id": "2025-057",
       "globalNumber": 57,
       "currentProfessor": "유우경",
-      "source": "2025 호흡기계 57번",
-      "question": "객담도말 결과는 양성, xpert 결과는 음성이었다. 다음에 해야 할 것은?",
+      "source": "2025 호흡기계 57번 변형",
+      "question": "만성 기침과 객담으로 검사한 환자의 객담 항산균 도말검사는 양성이지만, Xpert MTB/RIF에서 결핵균군은 검출되지 않았다. 환자의 활력징후는 안정적이며 항산균 배양 결과는 아직 나오지 않았다. 가장 적절한 다음 진단 조치는?",
       "passage": "",
-      "choices": [],
+      "choices": [
+        "활동성 폐결핵으로 확진하고 추가 미생물검사를 생략한다.",
+        "항산균 감염을 배제하고 추적검사를 종료한다.",
+        "비결핵항산균 감염을 의심하여 항산균 배양과 균 동정 결과를 확인한다.",
+        "MAC 폐질환으로 확진하고 clarithromycin 단독치료를 시작한다.",
+        "IGRA를 시행하여 결핵균과 비결핵항산균의 균종을 구별한다."
+      ],
       "images": [],
       "points": 1,
-      "answerIndices": [],
-      "modelAnswer": "NTM을 우선 의심하고 항산균 배양 및 균 동정 결과를 확인한다. 필요한 경우 서로 다른 객담을 추가로 채취해 같은 균종이 반복 배양되는지 평가하고, 증상·영상과 함께 NTM 폐질환 진단기준을 확인한다.",
-      "brief": "도말 양성은 항산균이 보인다는 뜻이고, Xpert 음성은 해당 검체에서 결핵균군이 검출되지 않았다는 뜻이다. 조합은 NTM을 시사하지만 그 자체로 NTM 폐질환의 확진은 아니다. 임상적으로 결핵 가능성이 높으면 Xpert 위음성도 고려해 추가 검체를 검사한다.",
-      "keywordGroups": [
-        [
-          "항산균배양",
-          "객담배양",
-          "배양검사",
-          "mycobacterialculture"
-        ],
-        [
-          "균동정",
-          "균종동정",
-          "균종확인",
-          "동정",
-          "identification"
-        ]
+      "answerIndices": [
+        3
       ],
-      "minGroups": 2,
+      "modelAnswer": "③ 비결핵항산균 감염을 의심하여 항산균 배양과 균 동정 결과를 확인한다.",
+      "brief": "항산균 도말은 결핵균과 NTM을 구별하지 못한다. 도말 양성·Xpert 결핵균군 미검출이면 NTM을 의심하고 배양·균 동정 결과를 확인한다. 이 결과만으로 NTM 폐질환을 확진하거나 치료하지 않는다.",
       "multiple": false,
       "examOverride": false,
-      "revisionNote": ""
+      "revisionNote": "J57의 원본 보존 학습용 변형을 반영. 미복원 선지를 새로 작성하여 객관식으로 구성."
     },
     {
       "id": "2025-058",
@@ -2947,5 +2938,11 @@ window.EXAM_DATA = {
       "examOverride": false,
       "revisionNote": ""
     }
+  ],
+  "recordRevision": "official-review-20261027",
+  "resetAnswerIds": [
+    "2025-122",
+    "2025-035",
+    "2025-037"
   ]
 };
