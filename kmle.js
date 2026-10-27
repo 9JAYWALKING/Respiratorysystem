@@ -57,8 +57,11 @@
     persist(current,{selected:[...picked],status:resultFor(current)?'o':'x',graded:true});
     revealed=true;
     renderQuestion(false);
+    const id=current.id;
+    window.RespiratoryQuickMode?.schedule(()=>{if(location.hash==='#kmle-'+id&&current?.id===id&&!explanation)move(1);});
   }
   function choose(n) {
+    window.RespiratoryQuickMode?.cancel();
     if (current.answers.length>1) picked = picked.includes(n) ? picked.filter(v=>v!==n) : [...picked,n].sort((a,b)=>a-b);
     else picked = picked.includes(n) ? [] : [n];
     // A new attempt supersedes manual status only when it is actually graded.
@@ -107,7 +110,7 @@
     root.querySelector('[data-k-map]').onclick=()=>navigate();
     root.querySelectorAll('[data-k-choice]').forEach(el=>el.onclick=()=>{
       choose(Number(el.dataset.kChoice));
-      if(q.answers.length===1 && picked.length) grade();
+      if(picked.length&&(q.answers.length===1||(window.RespiratoryQuickMode?.isEnabled()&&picked.length===q.answers.length))) grade();
     });
     root.querySelector('[data-k-grade]')?.addEventListener('click',grade);
     root.querySelector('[data-k-favorite]').onclick=()=>{persist(q,{favorite:!state(q).favorite});renderQuestion(false);};

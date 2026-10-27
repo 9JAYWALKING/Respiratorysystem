@@ -5,6 +5,7 @@
   const byId=new Map(D.questions.map(q=>[q.id,q]));
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let root,config,current,sequence=[],filters=[],random=false,records={},attempts={},revealed=false,explanation=false,expanded=false,selectionVisible=true,navObserver,transition=0;
+  const cancelAdvance=()=>window.RespiratoryQuickMode?.cancel();
   let storageAvailable=true;
   try{const r=JSON.parse(localStorage.getItem(KEY)||'{}');if(r&&typeof r==='object'&&!Array.isArray(r))records=r;}catch(_){}
   const active=()=>/^#pathology(?:-P\d+)?$/i.test(location.hash);
@@ -18,13 +19,20 @@
     return attempts[q.key];
   }
   function rebuildSequence(){const qs=D.questions.filter(q=>!filters.length||filters.includes(q.lecture));sequence=random?shuffle(qs):qs;}
-  function navigate(id){if(location.hash==='#pathology-'+id){load(id);return;}location.hash='#pathology-'+id;}
-  function move(delta){const i=sequence.indexOf(current),q=sequence[i+delta];if(q)navigate(q.id);}
-  function newAttempt(){if(!current)return;attempts[current.key]={options:makeOptions(current),selected:null};revealed=false;explanation=false;expanded=false;selectionVisible=true;draw(false);}
+  function navigate(id){cancelAdvance();if(location.hash==='#pathology-'+id){load(id);return;}location.hash='#pathology-'+id;}
+  function move(delta){cancelAdvance();const i=sequence.indexOf(current),q=sequence[i+delta];if(q)navigate(q.id);}
+  function newAttempt(){cancelAdvance();if(!current)return;attempts[current.key]={options:makeOptions(current),selected:null};revealed=false;explanation=false;expanded=false;selectionVisible=true;draw(false);}
   function choose(key){
+    cancelAdvance();
     const a=attempt(current);a.selected=a.selected===key?null:key;selectionVisible=true;revealed=!!a.selected||explanation;
     if(a.selected)save(current,{status:a.selected===current.target?'o':'x',lastAnswer:a.selected});
     draw(false);
+    if(a.selected){
+      const id=current.id,selected=a.selected;
+      window.RespiratoryQuickMode?.schedule(()=>{
+        if(active()&&current.id===id&&attempt(current).selected===selected&&!explanation&&!document.querySelector('.context-link-split'))move(1);
+      });
+    }
   }
   function arrowSVG(q){
     if(!q.arrow)return '';
@@ -36,6 +44,7 @@
   }
   function stage(q,zoom=false){return `<span class="path-image-stage" style="aspect-ratio:${q.width}/${q.height};--path-aspect:${q.width/q.height}"><img src="${esc(q.image)}" width="${q.width}" height="${q.height}" alt="병리 문항 ${q.id}의 조직 또는 육안 사진${q.arrow?' · 화살표 표시':''}" ${zoom?'':'decoding="async"'}>${arrowSVG(q)}</span>`;}
   function openImage(){
+    cancelAdvance();
     if(document.querySelector('.path-image-dialog'))return;
     const q=current,dialog=document.createElement('dialog');dialog.className='path-image-dialog';
     dialog.innerHTML=`<header><strong>${q.id}</strong><button type="button" aria-label="사진 확대 닫기">×</button></header><div class="path-image-scroll">${stage(q,true)}</div>`;
@@ -50,6 +59,7 @@
       <h3>연결 Wiki</h3><a class="path-wiki-link" href="#lecture-${q.wiki.lecture}" data-wiki-course="${q.wiki.lecture}" data-wiki-section="${esc(q.wiki.heading)}">${q.wiki.lecture}강 · ${esc(q.wiki.heading)} ↗</a>${credits(q)}</div>`;
   }
   function toggleExplanation(force){
+    cancelAdvance();
     const want=typeof force==='boolean'?force:!explanation;
     clearTimeout(transition);
     if(!want&&explanation){
@@ -108,7 +118,7 @@
     fitPhoto();
     if(!reset){window.scrollTo({top:y,behavior:'instant'});const pane=root.querySelector('.path-explanation');if(pane)pane.scrollTop=expScroll;}else window.scrollTo({top:0,behavior:'instant'});
   }
-  function load(id){clearTimeout(transition);current=byId.get(id)||sequence[0]||D.questions[0];if(!sequence.includes(current)){filters=[];rebuildSequence();}attempt(current);revealed=false;explanation=false;expanded=false;selectionVisible=true;draw(true);}
+  function load(id){cancelAdvance();clearTimeout(transition);current=byId.get(id)||sequence[0]||D.questions[0];if(!sequence.includes(current)){filters=[];rebuildSequence();}attempt(current);revealed=false;explanation=false;expanded=false;selectionVisible=true;draw(true);}
   const shuffleIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h3c5 0 7 12 12 12h3m-4-4 4 4-4 4M3 18h3c2 0 4-3 6-6s4-6 6-6h3m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>';
   function toolsHTML(){return `<section class="study-center-section path-tools"><h3>병리 땡시</h3><div class="study-center-filters"><div class="study-multi-filter"><span>강의 범주</span><details data-path-category><summary>${filters.length?filters.map(x=>x+'강').join(', '):'전체 강의'}</summary><div class="study-multi-options"><button type="button" data-path-all aria-pressed="${!filters.length}">전체 강의</button>${D.categories.map(c=>`<label><input type="checkbox" data-path-filter value="${c.lecture}" ${filters.includes(c.lecture)?'checked':''}><span>${esc(c.label)}</span></label>`).join('')}</div></details></div></div><div class="study-order-controls"><button type="button" class="study-random-toggle" data-path-random aria-pressed="${random}"><span class="study-filter-icon">${shuffleIcon}</span><span>문항 순서 랜덤</span></button></div><button type="button" class="study-random-toggle" data-path-restart><span class="study-filter-icon" aria-hidden="true">↻</span><span>선지 다시 섞어 처음부터</span></button></section>`;}
   function bindTools(dialog,refresh){
@@ -134,8 +144,10 @@
     if(!active()||!current||e.ctrlKey||e.altKey||e.metaKey||e.target.closest('input,textarea,select,[contenteditable="true"]')||document.querySelector('dialog[open],.context-link-split'))return;
     if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}else if(e.key==='ArrowRight'){e.preventDefault();move(1);}else if(/^[1-4]$/.test(e.key)){e.preventDefault();choose(attempt(current).options[Number(e.key)-1]);}
   });
+  addEventListener('hashchange',cancelAdvance);
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelAdvance();});
   addEventListener('resize',fitPhoto,{passive:true});
   window.visualViewport?.addEventListener('resize',fitPhoto,{passive:true});
   addEventListener('storage',e=>{if(e.key!==KEY)return;try{records=JSON.parse(e.newValue||'{}');if(active())draw(false);}catch(_){}});
-  window.RespiratoryPathology={render,isActive:active,toolsHTML,bindTools,audit:()=>({total:D.questions.length,sequence:sequence.map(q=>q.id),filters:[...filters],random,current:current?.id,options:current?[...attempt(current).options]:[],selected:current?attempt(current).selected:null}),makeOptions};
+  window.RespiratoryPathology={render,isActive:active,toolsHTML,bindTools,audit:()=>({total:D.questions.length,sequence:sequence.map(q=>q.id),filters:[...filters],random,quick:window.RespiratoryQuickMode?.isEnabled()||false,current:current?.id,options:current?[...attempt(current).options]:[],selected:current?attempt(current).selected:null}),makeOptions};
 })();

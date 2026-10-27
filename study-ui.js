@@ -4,6 +4,30 @@
   if (new URLSearchParams(location.search).get('examPreview') === '1') return;
   const app = window.RespiratoryStudy;
   if (!app) return;
+  // Shared quick mode for learning question viewers (never timed exams).
+  const quickKey='respiratory-question-quick-mode-v1';
+  let quickEnabled=false,quickTimer=0;
+  try{quickEnabled=localStorage.getItem(quickKey)==='true';}catch(_){}
+  const cancelQuick=()=>{clearTimeout(quickTimer);quickTimer=0;};
+  window.RespiratoryQuickMode={
+    isEnabled:()=>quickEnabled,
+    cancel:cancelQuick,
+    setEnabled(value){cancelQuick();quickEnabled=!!value;try{localStorage.setItem(quickKey,String(quickEnabled));}catch(_){}},
+    schedule(advance){
+      cancelQuick();if(!quickEnabled)return;
+      const hash=location.hash;
+      quickTimer=setTimeout(()=>{
+        quickTimer=0;
+        if(!quickEnabled||document.hidden||location.hash!==hash||document.querySelector('dialog[open],.wiki-section-editor-overlay,#jbl-image-modal.show'))return;
+        advance();
+      },500);
+    }
+  };
+  document.addEventListener('pointerdown',cancelQuick,{capture:true,passive:true});
+  document.addEventListener('keydown',cancelQuick,true);
+  addEventListener('hashchange',cancelQuick);
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelQuick();});
+  addEventListener('storage',event=>{if(event.key===quickKey||event.key===null){cancelQuick();quickEnabled=event.key!==null&&event.newValue==='true';if(dialog.open)renderTools();}});
   const shell = document.querySelector('.masthead');
   const syncHeaderHeight=()=>document.documentElement.style.setProperty('--study-header-height',shell.getBoundingClientRect().height+'px');
   const headerObserver=new ResizeObserver(syncHeaderHeight);
@@ -12,6 +36,7 @@
   const actions = shell.querySelector('.top-actions');
   document.body.classList.add('study-ui');
   const icons = {
+    quick:'<path d="m13 2-9 12h7l-1 8L20 9h-7l1-7Z"/>',
     calendar:'<rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v4m8-4v4M4 10h16m-11 4h2m2 0h2m-6 3h2"/>',
     collapse:'<path d="M5 12h14"/>',
     expand:'<path d="M5 12h14M12 5v14"/>',
@@ -196,9 +221,11 @@
       <button type="button" class="study-random-toggle" data-center-dday aria-pressed="${ddayEnabled}"><span class="study-filter-icon" aria-hidden="true">${svg('calendar')}</span><span data-dday-label></span></button></div>
       ${questionFilters ? `<section class="study-center-section"><h3>${isJbl?'학습 필터':'문항 필터'}</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div>${orderControls}</section>` : ''}
       ${pathology ? pathology.toolsHTML() : ''}
+      ${pathology||question.available||questionFilters||/^#kmle-K\d+$/.test(state.hash) ? `<section class="study-center-section"><button type="button" class="study-random-toggle" data-center-quick aria-pressed="${quickEnabled}"><span class="study-filter-icon">${svg('quick')}</span><span>빠른 모드</span></button></section>` : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
     if(pathology)pathology.bindTools(dialog,renderTools);
+    dialog.querySelector('[data-center-quick]')?.addEventListener('click',()=>{window.RespiratoryQuickMode.setEnabled(!quickEnabled);renderTools();});
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);
     syncGestureButton();
     syncDdayButton();
