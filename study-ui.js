@@ -81,6 +81,56 @@
   window.setInterval(updateExamDday,1000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateExamDday();});
   const dialog=document.createElement('dialog');dialog.id='study-control-center';dialog.setAttribute('aria-label','도구');document.body.append(dialog);
+  const timerKey='respiratory-study-timer-v1';
+  let studyTimer=null,timerEditorOpen=false,timerDraft='25',timerNameDraft='';
+  function readTimer(raw){
+    try{const t=JSON.parse(raw);if(t&&Number.isInteger(t.minutes)&&t.minutes>=1&&t.minutes<=1440&&Number.isFinite(t.startedAt)&&Number.isFinite(t.endsAt)&&t.endsAt-t.startedAt===t.minutes*60000)return {...t,name:typeof t.name==='string'?t.name.trim().slice(0,80):''};}catch(_){}
+    return null;
+  }
+  try{studyTimer=readTimer(localStorage.getItem(timerKey));if(studyTimer){timerDraft=String(studyTimer.minutes);timerNameDraft=studyTimer.name||'';}}catch(_){}
+  const timerDisplay=document.createElement('div');
+  timerDisplay.className='study-header-timer';timerDisplay.hidden=true;
+  timerDisplay.setAttribute('role','timer');timerDisplay.setAttribute('aria-live','off');
+  timerDisplay.innerHTML='<span class="study-timer-caption"><span class="study-timer-name" hidden></span><span class="study-timer-label"></span></span><span class="study-timer-track" aria-hidden="true"><span class="study-timer-elapsed"></span><span class="study-timer-dot"></span></span>';
+  actions.before(timerDisplay);
+  const timerLabel=timerDisplay.querySelector('.study-timer-label'),timerName=timerDisplay.querySelector('.study-timer-name');
+  function updateStudyTimer(){
+    timerDisplay.hidden=!studyTimer;shell.classList.toggle('has-study-timer',!!studyTimer);
+    if(!studyTimer)return;
+    const remaining=Math.max(0,studyTimer.endsAt-Date.now());
+    const minutes=Math.ceil(remaining/60000);
+    const progress=Math.max(0,Math.min(1,1-remaining/(studyTimer.minutes*60000)));
+    const label=minutes+'분';
+    if(timerLabel.textContent!==label)timerLabel.textContent=label;
+    const name=studyTimer.name||'';
+    if(timerName.textContent!==name){timerName.textContent=name;timerName.title=name;}
+    timerName.hidden=!name;timerDisplay.classList.toggle('has-name',!!name);
+    timerDisplay.setAttribute('aria-label',(name?name+' · ':'')+(minutes?'타이머 '+minutes+'분 남음':'타이머 종료'));
+    timerDisplay.style.setProperty('--timer-progress',String(progress));
+    timerDisplay.classList.toggle('is-finished',remaining===0);
+  }
+  function saveStudyTimer(){try{if(studyTimer)localStorage.setItem(timerKey,JSON.stringify(studyTimer));else localStorage.removeItem(timerKey);}catch(_){}updateStudyTimer();}
+  const timerIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="14" r="8"/><path d="M9 2h6m-3 0v4m6 1 2 2m-8 1v5l3 2"/></svg>';
+  function timerToolsHTML(){return `<section class="study-center-section study-timer-tools"><button type="button" class="study-random-toggle" data-center-timer aria-pressed="${!!studyTimer}" aria-expanded="${timerEditorOpen}" aria-controls="study-timer-form"><span class="study-filter-icon">${timerIcon}</span><span>타이머</span></button><form id="study-timer-form" class="study-timer-form" ${timerEditorOpen?'':'hidden'}><label for="study-timer-name">이름</label><div class="study-timer-input-wrap"><input id="study-timer-name" name="timerName" type="text" maxlength="80" value="${escape(timerNameDraft)}" placeholder="예: 병리 복습" autocomplete="off"></div><label for="study-timer-minutes">시간 <span>분</span></label><div class="study-timer-input-wrap"><input id="study-timer-minutes" name="minutes" type="number" inputmode="numeric" min="1" max="1440" step="1" required value="${escape(timerDraft)}" autocomplete="off" aria-label="타이머 시간(분)"><span aria-hidden="true">분</span></div><div class="study-timer-buttons"><button type="submit" class="study-timer-start">시작</button>${studyTimer?'<button type="button" data-timer-stop>중지</button>':''}</div></form></section>`;}
+  function bindTimerTools(){
+    const toggle=dialog.querySelector('[data-center-timer]'),form=dialog.querySelector('#study-timer-form'),input=dialog.querySelector('#study-timer-minutes');
+    toggle.onclick=()=>{timerEditorOpen=!timerEditorOpen;form.hidden=!timerEditorOpen;toggle.setAttribute('aria-expanded',String(timerEditorOpen));if(timerEditorOpen){input.focus({preventScroll:true});input.select();requestAnimationFrame(()=>form.scrollIntoView({block:'nearest',behavior:'smooth'}));}};
+    input.oninput=()=>{timerDraft=input.value;};
+    const nameInput=dialog.querySelector('#study-timer-name');
+    nameInput.oninput=()=>{timerNameDraft=nameInput.value;};
+    form.onsubmit=event=>{
+      event.preventDefault();if(!form.reportValidity())return;
+      const minutes=Number(input.value);if(!Number.isInteger(minutes)||minutes<1||minutes>1440)return;
+      const startedAt=Date.now();timerNameDraft=nameInput.value.trim();studyTimer={name:timerNameDraft,minutes,startedAt,endsAt:startedAt+minutes*60000};timerDraft=String(minutes);timerEditorOpen=false;
+      saveStudyTimer();renderTools();close(true);
+    };
+    dialog.querySelector('[data-timer-stop]')?.addEventListener('click',()=>{studyTimer=null;timerEditorOpen=false;saveStudyTimer();renderTools();});
+  }
+  updateStudyTimer();
+  setInterval(()=>{if(!document.hidden)updateStudyTimer();},250);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateStudyTimer();});
+  addEventListener('pageshow',updateStudyTimer);
+  addEventListener('storage',event=>{if(event.key===timerKey||event.key===null){studyTimer=event.key===null?null:readTimer(event.newValue);if(studyTimer){timerDraft=String(studyTimer.minutes);timerNameDraft=studyTimer.name||'';}updateStudyTimer();if(dialog.open)renderTools();}});
   const recall=document.createElement('button');
   recall.type='button';recall.className='study-lecture-recall';recall.hidden=true;
   recall.setAttribute('aria-label','강의 제목 바 펼치기');recall.setAttribute('aria-expanded','false');
@@ -220,10 +270,12 @@
       <div class="study-preference-row"><button type="button" class="study-random-toggle study-gesture-toggle" data-center-gestures><span class="study-filter-icon" aria-hidden="true">${svg('hand')}</span><span data-gesture-label></span></button>
       <button type="button" class="study-random-toggle" data-center-dday aria-pressed="${ddayEnabled}"><span class="study-filter-icon" aria-hidden="true">${svg('calendar')}</span><span data-dday-label></span></button></div>
       ${questionFilters ? `<section class="study-center-section"><h3>${isJbl?'학습 필터':'문항 필터'}</h3>${isJ ? `<div class="study-center-filters">${multiFilter('year','연도',state.years.map(y=>[y,y]),'전체 연도')}${multiFilter('lectureId','강의',state.courses.map(c=>[c.id,c.id+'강 '+c.title,c.id+'강']),'전체 강의')}${multiFilter('professor','출제교수',state.professors.map(p=>[p,p]),'전체 교수')}</div>` : ''}<div class="study-status-filters" role="group" aria-label="문항 상태 · 중복 선택 가능">${filterIcons}</div>${orderControls}</section>` : ''}
+      ${timerToolsHTML()}
       ${pathology ? pathology.toolsHTML() : ''}
       ${pathology||question.available||questionFilters||/^#kmle-K\d+$/.test(state.hash) ? `<section class="study-center-section"><button type="button" class="study-random-toggle" data-center-quick aria-pressed="${quickEnabled}"><span class="study-filter-icon">${svg('quick')}</span><span>빠른 모드</span></button></section>` : ''}
       ${wiki.available ? `<section class="study-center-section"><h3>현재 화면</h3><button type="button" class="study-random-toggle" data-center-wiki-toggle aria-pressed="${wiki.collapsed}"><span class="study-filter-icon">${svg(wiki.collapsed ? 'expand' : 'collapse')}</span><span>${wiki.collapsed ? '모든 문단 펼치기' : '모든 문단 접기'}</span></button></section>` : ''}
       ${editActions ? `<section class="study-center-section study-edit-section"><h3>편집하기</h3><div class="study-edit-tools">${editActions}</div></section>` : ''}`;
+    bindTimerTools();
     if(pathology)pathology.bindTools(dialog,renderTools);
     dialog.querySelector('[data-center-quick]')?.addEventListener('click',()=>{window.RespiratoryQuickMode.setEnabled(!quickEnabled);renderTools();});
     dialog.querySelector('[data-scale-minus]').onclick=()=>setScale(scale-.05);

@@ -668,3 +668,48 @@ body.jbl-explanation-open { overflow:hidden; }
   }
 }
 
+
+/* A passive timer in the masthead; its surface remains available to the drawer swipe. */
+.study-ui .masthead.has-study-timer .masthead-inner{grid-template-columns:auto minmax(52px,1fr) auto;column-gap:22px}
+.study-header-timer{--timer-progress:0;--timer-ink:#171317;--timer-past:#a697a3;position:relative;min-width:0;height:32px;margin:0 6px;pointer-events:none;user-select:none;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;color:inherit}
+.study-header-timer[hidden]{display:none}
+.study-timer-label{display:block;font:inherit;letter-spacing:inherit;font-variant-numeric:tabular-nums;white-space:nowrap}
+.study-timer-track{position:absolute;left:0;right:0;bottom:3px;height:2px;border-radius:2px;background:var(--timer-ink)}
+.study-timer-elapsed{position:absolute;inset:0;background:var(--timer-past);transform:scaleX(var(--timer-progress));transform-origin:left;transition:transform .25s linear}
+.study-timer-dot{position:absolute;left:calc(var(--timer-progress) * 100%);top:50%;width:8px;height:8px;border-radius:50%;background:currentColor;transform:translate(-50%,-50%);box-shadow:0 0 0 2px var(--study-header-background,var(--brand-pastel));transition:left .25s linear}
+html[data-theme="dark"] .study-header-timer{--timer-ink:#fff;--timer-past:#70686e}
+.study-timer-tools>.study-random-toggle{margin-top:0}
+.study-timer-form{display:grid;gap:10px;margin-top:16px}
+.study-timer-form[hidden]{display:none}
+.study-timer-form>label{display:flex;gap:6px;font-size:13px;color:var(--study-muted)}
+.study-timer-form>label>span{display:none}
+.study-timer-input-wrap{position:relative;display:flex;align-items:center;border:1px solid var(--study-border);border-radius:12px;background:var(--study-surface);padding:0 14px}
+.study-timer-input-wrap:focus-within{border-color:var(--study-accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--study-accent) 12%,transparent)}
+.study-timer-input-wrap input{width:100%;min-width:0;box-sizing:border-box;padding:12px 0;border:0;background:transparent;color:inherit;font:inherit;font-size:20px;font-variant-numeric:tabular-nums;outline:none}
+.study-timer-input-wrap>span{font-size:14px;color:var(--study-muted)}
+.study-timer-buttons{display:flex;gap:8px}
+.study-timer-buttons button{flex:1;border:1px solid var(--study-border);border-radius:12px;padding:11px 14px;min-height:44px;font:inherit;font-size:14px;cursor:pointer;background:var(--brand-soft);color:inherit}
+.study-timer-buttons .study-timer-start{background:#65405f;border-color:#65405f;color:#fff;font-weight:650;letter-spacing:.06em}
+html[data-theme="dark"] .study-timer-buttons button:not(.study-timer-start){background:#211820}
+@media(max-width:760px){
+ .study-ui .masthead.has-study-timer .masthead-inner{grid-template-columns:minmax(0,1.4fr) minmax(52px,1fr) auto;column-gap:12px}
+ .study-ui .masthead.has-study-timer h1{font-size:clamp(11px,3.2vw,14px);letter-spacing:.03em;white-space:normal;line-height:1.2}
+ .study-ui .masthead.has-study-timer .site-logo{white-space:normal}
+ .study-header-timer{margin:0 2px;height:30px}
+ .study-header-timer{--timer-type-size:16px;--timer-type-line:22px;--timer-type-spacing:.08em}
+ .study-timer-dot{width:7px;height:7px}
+}
+@media(max-width:360px){.study-ui .masthead.has-study-timer .masthead-inner{column-gap:8px}.study-header-timer{--timer-type-size:14px;--timer-type-spacing:.04em}}
+@media(prefers-reduced-motion:reduce){.study-timer-elapsed,.study-timer-dot{transition:none}}
+
+.study-timer-caption{display:flex;align-items:baseline;justify-content:center;gap:10px;min-width:0;max-width:100%;padding:0 2px;box-sizing:border-box;font-family:inherit;font-size:var(--timer-type-size,18px);font-weight:650;line-height:var(--timer-type-line,23px);letter-spacing:var(--timer-type-spacing,.12em)}
+.study-timer-caption .study-timer-label{flex:none}
+.study-timer-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:inherit;letter-spacing:inherit}
+.study-timer-name[hidden]{display:none}
+.study-timer-input-wrap #study-timer-name{font-size:16px}
+@media(max-width:760px){.study-timer-caption{gap:5px}.study-header-timer.has-name{--timer-type-size:14px;--timer-type-spacing:.02em}}
+@media(max-width:360px){.study-timer-caption{gap:3px;padding:0}.study-header-timer.has-name{--timer-type-size:12px}}
+/* Finished timers pulse gently without moving the header or its gesture surface. */
+@keyframes study-timer-finished-blink{0%,100%{opacity:1}50%{opacity:.25}}
+.study-header-timer.is-finished .study-timer-label{animation:study-timer-finished-blink 1.6s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.study-header-timer.is-finished .study-timer-label{animation:none;text-decoration:underline;text-underline-offset:3px}}
