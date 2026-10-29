@@ -2021,9 +2021,9 @@ SOFTWARE.
   <section id="jbl-view" class="view" hidden aria-label="J 전체 문항"><div id="jbl-standalone" class="jbl-standalone"></div></section>
 </main></div>
 <div id="jbl-image-modal" class="jbl-image-modal" role="dialog" aria-modal="true" aria-label="문항 이미지 확대"><button class="jbl-image-close" type="button" aria-label="이미지 닫기">×</button><img alt="확대된 문항 이미지"></div>
-<script id="lecture-note-data" src="./lecture-notes.js"></script>
+<script id="lecture-note-data" src="./lecture-notes.js?v=linkaudit-20261029"></script>
 <script src="./course-data.js"></script>
-<script id="jbl-data-script" src="./jbl-data.js"></script>
+<script id="jbl-data-script" src="./jbl-data.js?v=linkaudit-20261029"></script>
 <script src="./lecture-study.js"></script>
   <script src="./wiki-image-annotations.js"></script>
   <script src="./wiki-image-overlays.js"></script>
@@ -2378,6 +2378,7 @@ SOFTWARE.
     let activeDetailTab = '정리본';
     let previousView = 'catalog';
     const jblQuestions = window.JBL_DATA?.questions || [];
+    const canonicalJblNumber = value => Number(window.JBL_DATA?.questionNumberAliases?.[String(value)] ?? value);
     const jblOriginalViews = new WeakMap();
     function questionOriginalView(question) {
       const snapshot = question?.originalVersion?.question;
@@ -2399,7 +2400,7 @@ SOFTWARE.
     let jblQuestionScrollLockedUntil = 0;
     const jblFavoritesKey = 'respiratory-jbl-favorites-v1';
     let jblFavorites = (() => {
-      try { return new Set(JSON.parse(localStorage.getItem(jblFavoritesKey) || '[]')); }
+      try { return new Set(JSON.parse(localStorage.getItem(jblFavoritesKey) || '[]').map(id => window.JBL_DATA?.questionIdAliases?.[id] || id)); }
       catch { return new Set(); }
     })();
 
@@ -2509,7 +2510,7 @@ SOFTWARE.
     const currentStandaloneQuestions = () => {
       const state = standaloneState();
       if (state.linkedQuestionNumber) {
-        const linked = jblQuestions.find(question => question.globalNumber === Number(state.linkedQuestionNumber));
+        const linked = jblQuestions.find(question => question.globalNumber === canonicalJblNumber(state.linkedQuestionNumber));
         return linked ? jblQuestionsByNumber() : [];
       }
       const filtered = filteredJblQuestions();
@@ -2794,7 +2795,7 @@ SOFTWARE.
           output += `<span class="wiki-muted">${renderWikiInline(match[6], course, footnoteState, allowFootnotes, strongContext)}</span>`;
         } else {
           const globalNumber = Number(match[5]);
-          const linkedQuestion = jblQuestions.find(question => question.globalNumber === globalNumber);
+          const linkedQuestion = jblQuestions.find(question => question.globalNumber === canonicalJblNumber(globalNumber));
           output += linkedQuestion
             ? `<a class="jbl-question-link" href="#jbl-q-${globalNumber}" data-jbl-question-link="${globalNumber}">${globalNumber}번 문항</a>`
             : `<span class="jbl-question-link-missing" title="연결할 문항을 찾을 수 없습니다.">${globalNumber}번 문항</span>`;
@@ -3648,7 +3649,7 @@ SOFTWARE.
         numberButton.hidden = false;
         numberInput.value = String(question.globalNumber);
         if (!container.isConnected || cancel || !value || (!question.isOriginalVersion && Number(value) === Number(question.globalNumber))) return;
-        const destination = /^\d+$/.test(value) && jblQuestions.find(item => Number(item.globalNumber) === Number(value));
+        const destination = /^\d+$/.test(value) && jblQuestions.find(item => Number(item.globalNumber) === canonicalJblNumber(value));
         if (!destination) { alert('해당 고유번호의 문항이 없습니다.'); return; }
         if (!container.isConnected) return;
         if (container.closest('[data-explanation-question-root]')) closeQuestionExplanationSplit(false);
@@ -4136,7 +4137,8 @@ SOFTWARE.
     }
 
     function openJblQuestionNumber(globalNumber) {
-      const question = jblQuestions.find(item => item.globalNumber === Number(globalNumber));
+      globalNumber = canonicalJblNumber(globalNumber);
+      const question = jblQuestions.find(item => item.globalNumber === canonicalJblNumber(globalNumber));
       if (!question) return false;
       if (location.hash.startsWith('#lecture-')) {
         history.replaceState({ ...(history.state || {}), detailTab:activeDetailTab }, '', location.href);
@@ -5049,7 +5051,7 @@ SOFTWARE.
 
     function validContextQuestionNumbers(numbers) {
       const available = new Set(jblQuestions.map(question => Number(question.globalNumber)));
-      return [...new Set((Array.isArray(numbers) ? numbers : []).map(Number))]
+      return [...new Set((Array.isArray(numbers) ? numbers : []).map(canonicalJblNumber))]
         .filter(number => Number.isInteger(number) && number > 0 && available.has(number));
     }
 
@@ -5076,7 +5078,7 @@ SOFTWARE.
     }
 
     function contextQuestionForTarget(target) {
-      const question = target?.type === 'j' && jblQuestions.find(item => Number(item.globalNumber) === Number(target.questionNumber));
+      const question = target?.type === 'j' && jblQuestions.find(item => Number(item.globalNumber) === canonicalJblNumber(target.questionNumber));
       return target?.version === 'original' ? questionOriginalView(question) : question || null;
     }
 
@@ -5155,7 +5157,7 @@ SOFTWARE.
 
     function contextLinkTargetFromElement(link) {
       if (link.hasAttribute('data-jbl-question-link')) {
-        const questionNumber = Number(link.dataset.jblQuestionLink);
+        const questionNumber = canonicalJblNumber(link.dataset.jblQuestionLink);
         return Number.isFinite(questionNumber) ? { type:'j', questionNumber, wikiSequence:contextWikiQuestionSequence(link, questionNumber) } : null;
       }
       if (link.hasAttribute('data-wiki-course')) {
@@ -5933,7 +5935,7 @@ SOFTWARE.
       const linkedQuestion = hash.match(/^#jbl-q-(\d+)$/);
       if (linkedQuestion) {
         const state = standaloneState();
-        state.linkedQuestionNumber = Number(linkedQuestion[1]);
+        state.linkedQuestionNumber = canonicalJblNumber(linkedQuestion[1]);
         state.index = jblQuestionsByNumber().findIndex(question => Number(question.globalNumber) === state.linkedQuestionNumber);
         renderJblStandalone();
         return showView('jbl', false);
